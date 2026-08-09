@@ -1232,9 +1232,10 @@ def test_workflow_uses_main_branch():
     text = _workflow_path("telegram.yml").read_text()
     assert "master" not in text
     assert "ref: main" in text
-    assert "git fetch origin main" in text
-    assert "git checkout origin/main" in text
+    assert "python -m src.main" in text
+    assert "python -m src.telegram_run --yes" in text
     assert "git push origin main" in text
+    assert "git checkout origin/main" not in text
 
 
 def test_workflow_write_permission():

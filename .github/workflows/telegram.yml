@@ -35,14 +35,28 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Restore persistent collector database
+        # data/news.db holds the pipeline's dedup + event
+        # memory (48h/168h retention). A per-run cache key
+        # with a prefix restore-key carries the latest
+        # database forward without ever committing it to
+        # git.
+        uses: actions/cache@v4
+        with:
+          path: data/news.db
+          key: news-db-${{ github.run_id }}
+          restore-keys: |
+            news-db-
+
       - name: Create data directory
         run: mkdir -p data
 
-      - name: Fetch latest queue
+      - name: Collect fresh news
+        # Generates data/telegram_queue.json in this
+        # workspace so every cycle gets a fresh <=6h queue
+        # built from the persistent news.db memory.
         run: |
-          git fetch origin main
-          git checkout origin/main -- data/telegram_queue.json \
-            || echo "no queue file on main yet"
+          python -m src.main
 
       - name: Publish telegram messages
         run: |
@@ -50,21 +64,22 @@ jobs:
         env:
           TELEGRAM_PUBLISH: "1"
 
-      - name: Commit state
-        # KNOWN PRODUCTION CAVEAT (at-least-once): state is
-        # committed only after publishing. If this job fails
-        # between a successful send and this commit/push,
-        # the next run starts from the previous state and
-        # may re-publish one already-sent story. Accepted
-        # for now; a dedup/ack redesign is intentionally
-        # deferred.
+      - name: Commit queue and state
+        # KNOWN PRODUCTION CAVEAT (at-least-once): queue
+        # and state are committed only after publishing. If
+        # this job fails between a successful send and this
+        # commit/push, the next run starts from the previous
+        # state and may re-publish one already-sent story.
+        # Accepted for now; a dedup/ack redesign is
+        # intentionally deferred.
         run: |
-          if git diff --quiet -- data/telegram_state.json; then
+          if git diff --quiet -- data/telegram_queue.json data/telegram_state.json; then
             echo "no state changes"
           else
             git config user.name "telegram-bot"
             git config user.email "telegram-bot@localhost"
-            git add data/telegram_state.json
-            git commit -m "telegram state: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git add data/telegram_queue.json data/telegram_state.json
+            git commit -m "telegram queue+state: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin main
             git push origin main
           fi
