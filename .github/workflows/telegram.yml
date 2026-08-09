@@ -46,7 +46,7 @@ jobs:
 
       - name: Publish telegram messages
         run: |
-          python src/telegram_run.py --yes
+          python -m src.telegram_run --yes
         env:
           TELEGRAM_PUBLISH: "1"
 
