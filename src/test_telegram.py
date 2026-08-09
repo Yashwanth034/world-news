@@ -7,6 +7,12 @@ from datetime import datetime, timedelta, timezone
 
 import pytest
 
+from src.telegram_briefing import (
+    BREAKING,
+    JUST_IN,
+    NEWS,
+    UPDATE,
+)
 from src.telegram_formatter import (
     build_message,
     telegram_visible_len,
@@ -55,7 +61,7 @@ def item(**overrides):
 
 
 def briefing_item(
-    label="\U0001F4F0 NEWS",
+    label=NEWS,
     headline="Canada wildfire doubles in size",
     opening=None,
     body=None,
@@ -65,6 +71,7 @@ def briefing_item(
     url="https://www.bbc.co.uk/news/articles/abc123",
     title="State of emergency declared as fast-moving "
     "Canada wildfire doubles in size",
+    region=None,
 ):
     opening = opening or [
         "The Bald Range wildfire in British Columbia, "
@@ -75,19 +82,21 @@ def briefing_item(
         "A fast-moving wildfire has forced more than "
         "20,000 people to evacuate.",
     ]
-    bullets = bullets or [
-        {
-            "icon": "\U0001F4CD",
-            "label": "Location",
-            "text": "British Columbia",
-        },
-    ]
+    if bullets is None:
+        bullets = [
+            {
+                "icon": "\U0001F4CD",
+                "label": "Location",
+                "text": "British Columbia",
+            },
+        ]
     return item(
         label=label,
         public_label=label,
         headline=headline,
         title=title,
         summary=opening[0],
+        region=region,
         briefing={
             "opening": opening,
             "body": body,
@@ -700,18 +709,105 @@ def test_truncate_appends_ellipsis():
 
 def test_briefing_label_rendered_above_headline():
     for label in (
-        "\U0001F6A8 BREAKING",
-        "\u26A1 JUST IN",
-        "\U0001F4F0 NEWS",
-        "\U0001F504 UPDATE",
+        BREAKING,
+        JUST_IN,
+        NEWS,
+        UPDATE,
     ):
         msg = build_message(briefing_item(label=label), CFG)
         assert label in msg["text"]
+        assert msg["text"].startswith(label + "\n")
         position = msg["text"].index(label)
         headline_pos = msg["text"].index(
             "<b>"
         )
         assert position < headline_pos
+
+
+def test_breaking_visual_label():
+    assert BREAKING == "\U0001F534 BREAKING"
+    msg = build_message(
+        briefing_item(label=BREAKING),
+        CFG,
+    )
+    assert msg["text"].startswith(
+        "\U0001F534 BREAKING\n"
+    )
+
+
+def test_just_in_visual_label():
+    assert JUST_IN == "\U0001F7E1 JUST IN"
+    msg = build_message(
+        briefing_item(label=JUST_IN),
+        CFG,
+    )
+    assert msg["text"].startswith(
+        "\U0001F7E1 JUST IN\n"
+    )
+
+
+def test_news_visual_label():
+    assert NEWS == "\U0001F535 NEWS"
+    msg = build_message(
+        briefing_item(label=NEWS),
+        CFG,
+    )
+    assert msg["text"].startswith(
+        "\U0001F535 NEWS\n"
+    )
+
+
+def test_update_visual_label():
+    assert UPDATE == "\U0001F7E0 UPDATE"
+    msg = build_message(
+        briefing_item(label=UPDATE),
+        CFG,
+    )
+    assert msg["text"].startswith(
+        "\U0001F7E0 UPDATE\n"
+    )
+
+
+def test_region_line_rendered_when_evidence_exists():
+    msg = build_message(
+        briefing_item(
+            region="East Asia",
+        ),
+        CFG,
+    )
+    assert "\U0001F30F EAST ASIA" in msg["text"]
+    assert (
+        msg["text"].index("\U0001F30F EAST ASIA")
+        > msg["text"].index(NEWS)
+    )
+    assert (
+        msg["text"].index("\U0001F30F EAST ASIA")
+        < msg["text"].index("<b>")
+    )
+
+
+def test_region_line_omitted_without_evidence():
+    msg = build_message(
+        briefing_item(region=None),
+        CFG,
+    )
+    for region in (
+        "CHINA",
+        "UNITED STATES",
+        "ASIA",
+        "\U0001F30D",
+        "\U0001F30E",
+        "\U0001F30F",
+    ):
+        assert region not in msg["text"]
+
+
+def test_unknown_region_never_guessed():
+    msg = build_message(
+        briefing_item(region="Atlantis"),
+        CFG,
+    )
+    assert "Atlantis" not in msg["text"]
 
 
 def test_headline_is_bold():
@@ -739,19 +835,180 @@ def test_opening_rendered_as_paragraph():
     )
 
 
-def test_bullets_rendered_with_labels():
-    msg = build_message(briefing_item(), CFG)
+def test_paragraph_spacing_uses_blank_lines():
+    msg = build_message(
+        briefing_item(
+            region="Africa",
+            opening=[
+                "The opening paragraph sentence.",
+            ],
+            body=[
+                "The body paragraph sentence.",
+            ],
+        ),
+        CFG,
+    )
+    text = msg["text"]
+    assert NEWS + "\n\n" in text
+    assert "\U0001F30D AFRICA\n\n" in text
+    assert "</b>\n\n" in text
+    assert "The opening paragraph sentence.\n\n" in text
+    assert "The body paragraph sentence.\n\n" in text
+
+
+def test_impact_section_rendered():
+    msg = build_message(
+        briefing_item(
+            bullets=[
+                {
+                    "icon": "\U0001F465",
+                    "label": "Impact",
+                    "text": "nearly 100,000 people",
+                },
+            ]
+        ),
+        CFG,
+    )
+    assert "\U0001F465 **IMPACT**" in msg["text"]
     assert (
-        "\u2022 <b>\U0001F4CD Location:</b> "
-        "British Columbia"
+        "**IMPACT**\nNearly 100,000 people"
         in msg["text"]
+    )
+
+
+def test_status_section_rendered():
+    msg = build_message(
+        briefing_item(
+            bullets=[
+                {
+                    "icon": "\u26A0\uFE0F",
+                    "label": "Status",
+                    "text": "out of control",
+                },
+            ]
+        ),
+        CFG,
+    )
+    assert "\u26A0\uFE0F **STATUS**" in msg["text"]
+    assert (
+        "**STATUS**\nOut of control"
+        in msg["text"]
+    )
+
+
+def test_next_section_rendered():
+    msg = build_message(
+        briefing_item(
+            bullets=[
+                {
+                    "icon": "\u27A1\uFE0F",
+                    "label": "Next",
+                    "text": "The storm is expected to "
+                    "weaken by morning.",
+                },
+            ]
+        ),
+        CFG,
+    )
+    assert "\u27A1\uFE0F **NEXT**" in msg["text"]
+    assert (
+        "**NEXT**\nThe storm is expected to "
+        "weaken by morning."
+        in msg["text"]
+    )
+
+
+def test_location_section_rendered():
+    msg = build_message(briefing_item(), CFG)
+    assert "\U0001F4CD **LOCATION**" in msg["text"]
+    assert (
+        "**LOCATION**\nBritish Columbia"
+        in msg["text"]
+    )
+
+
+def test_only_supported_sections_rendered():
+    msg = build_message(
+        briefing_item(
+            bullets=[
+                {
+                    "icon": "\u2022",
+                    "label": "Mystery",
+                    "text": "unsupported section",
+                },
+            ]
+        ),
+        CFG,
+    )
+    assert "Mystery" not in msg["text"]
+    assert "unsupported section" not in msg["text"]
+
+
+def test_divider_placement_with_sections():
+    msg = build_message(
+        briefing_item(
+            bullets=[
+                {
+                    "icon": "\U0001F465",
+                    "label": "Impact",
+                    "text": "nearly 100,000 people",
+                },
+                {
+                    "icon": "\U0001F4CD",
+                    "label": "Location",
+                    "text": "British Columbia",
+                },
+            ]
+        ),
+        CFG,
+    )
+    text = msg["text"]
+    dividers = text.count("\u2501" * 14)
+    assert dividers == 2
+    assert dividers <= 2
+    assert (
+        text.index("</b>\n\n") < text.index(
+            "\u2501" * 14
+        )
+    )
+    assert (
+        text.index("\u2501" * 14)
+        < text.index("\U0001F465 **IMPACT**")
+    )
+    assert (
+        text.index("\U0001F465 **IMPACT**")
+        < text.index("\u2501" * 14, text.index(
+            "\U0001F465 **IMPACT**"
+        ))
+    )
+    assert (
+        text.rindex("\u2501" * 14)
+        < text.index("\U0001F4F0 **SOURCE:**")
+    )
+
+
+def test_single_divider_without_sections():
+    msg = build_message(
+        briefing_item(bullets=[]),
+        CFG,
+    )
+    assert msg["text"].count("\u2501" * 14) == 1
+    text = msg["text"]
+    assert (
+        text.index("</b>\n\n") < text.index(
+            "\u2501" * 14
+        )
+    )
+    assert (
+        text.index("\u2501" * 14)
+        < text.index("\U0001F4F0 **SOURCE:**")
     )
 
 
 def test_source_footer_attribution():
     msg = build_message(briefing_item(), CFG)
     assert (
-        "\U0001F4F0 <b>Source:</b> BBC World"
+        "\U0001F4F0 **SOURCE:** BBC World"
         in msg["text"]
     )
 
@@ -763,7 +1020,11 @@ def test_corroboration_listed_in_footer():
         ),
         CFG,
     )
-    assert "Corroborated by Al Jazeera" in msg["text"]
+    assert (
+        "\U0001F4F0 **SOURCE:** BBC World"
+        in msg["text"]
+    )
+    assert "Corroborated by: Al Jazeera" in msg["text"]
 
 
 def test_read_more_link_clickable():
@@ -773,6 +1034,24 @@ def test_read_more_link_clickable():
         'abc123">Read the full report</a>'
         in msg["text"]
     )
+    assert "\U0001F517" in msg["text"]
+
+
+def test_no_unsupported_html_or_color():
+    msg = build_message(briefing_item(), CFG)
+    text = msg["text"].lower()
+    for forbidden in (
+        "<font",
+        "color=",
+        "style=",
+        "css",
+        "<div",
+        "<span",
+        "<script",
+        "class=",
+        "markdown",
+    ):
+        assert forbidden not in text
 
 
 def test_five_plus_sentences_when_information_exists():
@@ -851,6 +1130,33 @@ def test_sentence_safe_truncation():
             assert msg["text"].index(sentence) >= 0
 
 
+def test_duplicate_sentence_protection_in_rendered_message():
+    from src.telegram_briefing import build_briefing
+
+    next_sentence = (
+        "The storm is expected to make landfall "
+        "late Sunday or early Monday."
+    )
+    x = item(
+        title="Storm approaches the coast",
+        summary=(
+            "The storm strengthened overnight. "
+            "Flights were cancelled across the region. "
+            + next_sentence
+        ),
+    )
+    briefing = build_briefing(x, [x], 15, NOW)
+    en = dict(
+        x,
+        public_label=briefing["label"],
+        headline=briefing["headline"],
+        briefing=briefing,
+    )
+    msg = build_message(en, CFG)
+    assert "\u27A1\uFE0F **NEXT**" in msg["text"]
+    assert msg["text"].count(next_sentence) == 1
+
+
 def test_no_internal_values_in_output():
     x = briefing_item(
         title="Internal fields story",
@@ -864,6 +1170,7 @@ def test_no_internal_values_in_output():
     x["tier"] = 1
     x["quality_pass"] = True
     x["max_delay_minutes"] = 30
+    x["urgency_score"] = 0.9
     msg = build_message(x, CFG)
     for forbidden in (
         "score",
@@ -874,6 +1181,10 @@ def test_no_internal_values_in_output():
         "tier",
         "quality",
         "max_delay",
+        "urgency",
+        "HIGH",
+        "MEDIUM",
+        "LOW",
         "95",
         "100",
     ):

@@ -29,6 +29,7 @@ EMOJI_RE = re.compile(
     "\U0001f300-\U0001f5ff"
     "\U0001f600-\U0001f64f"
     "\U0001f680-\U0001f6ff"
+    "\U0001f7e0-\U0001f7ff"
     "\U0001f900-\U0001f9ff"
     "\u2600-\u26ff"
     "\u2700-\u27bf"
@@ -142,59 +143,147 @@ def sentence_safe_truncate(text, limit):
     return result
 
 
-def render_bullets(bullets):
-    lines = []
+DIVIDER = "\u2501" * 14
+
+REGION_LINES = {
+    "NORTH AMERICA": "\U0001F30E NORTH AMERICA",
+    "LATIN AMERICA": "\U0001F30E LATIN AMERICA",
+    "SOUTH AMERICA": "\U0001F30E SOUTH AMERICA",
+    "EUROPE": "\U0001F30D EUROPE",
+    "AFRICA": "\U0001F30D AFRICA",
+    "MIDDLE EAST": "\U0001F30D MIDDLE EAST",
+    "EAST ASIA": "\U0001F30F EAST ASIA",
+    "SOUTHEAST ASIA": "\U0001F30F SOUTHEAST ASIA",
+    "SOUTH ASIA": "\U0001F30F SOUTH ASIA",
+    "CENTRAL ASIA": "\U0001F30F CENTRAL ASIA",
+    "ASIA-PACIFIC": "\U0001F30F ASIA-PACIFIC",
+    "OCEANIA": "\U0001F30F OCEANIA",
+    "WORLD": "\U0001F30D WORLD",
+    "GLOBAL": "\U0001F30D WORLD",
+}
+
+
+def region_line(item):
+    """Country/region line from existing reliable data only.
+
+    The pipeline only carries feed-level region evidence.
+    When none is present the line is omitted; nothing is
+    ever inferred from headlines or summaries.
+    """
+    region = item.get("region")
+
+    if not region:
+        return None
+
+    return REGION_LINES.get(
+        str(region).strip().upper()
+    )
+
+
+def render_sections(bullets):
+    """Quick-fact sections from literal evidence.
+
+    Each section is two lines: a bold icon+title and the
+    evidence text:
+        👥 **IMPACT**
+        Nearly 100,000 people
+    """
+    section_titles = {
+        "Location": "\U0001F4CD **LOCATION**",
+        "Status": "\u26A0\uFE0F **STATUS**",
+        "Impact": "\U0001F465 **IMPACT**",
+        "Next": "\u27A1\uFE0F **NEXT**",
+    }
+
+    sections = []
 
     for bullet in bullets:
-        icon = bullet.get("icon", "\u2022")
-        label = bullet.get("label", "")
-        text = bullet.get("text", "")
+        title = section_titles.get(
+            bullet.get("label")
+        )
 
-        if label:
-            lines.append(
-                "\u2022 <b>"
-                + escape_html(icon + " " + label)
-                + ":</b> "
-                + escape_html(text)
-            )
-        else:
-            lines.append(
-                "\u2022 " + escape_html(text)
-            )
+        if not title:
+            continue
 
-    return lines
+        text = str(bullet.get("text") or "").strip()
+
+        if not text:
+            continue
+
+        text = text[0].upper() + text[1:]
+
+        sections.append(
+            title + "\n" + escape_html(text)
+        )
+
+    return sections
 
 
-def render_footer(
+def render_source(
     source,
     corroborating,
-    url,
 ):
     lines = [
-        "\U0001F4F0 <b>Source:</b> "
+        "\U0001F4F0 **SOURCE:** "
         + escape_html(source or "Unknown"),
     ]
 
     if corroborating:
-        lines[0] += (
-            " \u00b7 Corroborated by "
+        lines.append(
+            "Corroborated by: "
             + escape_html(
                 ", ".join(corroborating[:3])
             )
         )
 
-    if url:
-        lines.append(
-            "\U0001F517 <a href=\""
-            + escape_html(url)
-            + "\">Read the full report</a>"
-        )
-
     return lines
 
 
+def render_read_more(url):
+    if not url:
+        return None
+
+    return (
+        "\U0001F517 <b><a href=\""
+        + escape_html(url)
+        + "\">Read the full report</a></b>"
+    )
+
+
 def build_briefing_message(item, max_chars):
-    """Render the enriched briefing into parts."""
+    """Render the enriched briefing into parts.
+
+    Visual hierarchy for mobile:
+
+        LABEL
+
+        REGION (when reliable evidence exists)
+
+        **Headline**
+
+        opening paragraph
+
+        body paragraphs
+
+        ━━━━━━━━━━━━━━
+
+        👥 **IMPACT**
+        evidence text
+
+        ➡️ **NEXT**
+        evidence text
+
+        ━━━━━━━━━━━━━━
+
+        📰 **SOURCE:** France 24
+        Corroborated by: BBC World
+
+        🔗 **Read the full report**
+
+    At most two dividers per message; the footer and
+    headline are never dropped; truncation removes whole
+    sentences/parts only.
+    """
     briefing = item.get("briefing") or {}
 
     label = (
@@ -230,6 +319,16 @@ def build_briefing_message(item, max_chars):
         parts.append(
             {
                 "text": escape_html(label),
+                "priority": 1000,
+            }
+        )
+
+    region = region_line(item)
+
+    if region:
+        parts.append(
+            {
+                "text": region,
                 "priority": 1000,
             }
         )
@@ -280,18 +379,37 @@ def build_briefing_message(item, max_chars):
             }
         )
 
-    for bullet_line in render_bullets(bullets):
+    sections = render_sections(bullets)
+
+    # Divider before the quick-fact sections.
+    if sections:
         parts.append(
             {
-                "text": bullet_line,
+                "text": DIVIDER,
+                "priority": 75,
+            }
+        )
+
+    for section in sections:
+        parts.append(
+            {
+                "text": section,
                 "priority": 80,
             }
         )
 
-    for line in render_footer(
+    # Divider before the source area. At most two dividers
+    # are ever emitted (one above, one below the sections).
+    parts.append(
+        {
+            "text": DIVIDER,
+            "priority": 75,
+        }
+    )
+
+    for line in render_source(
         source,
         corroborating,
-        url,
     ):
         parts.append(
             {
@@ -300,8 +418,19 @@ def build_briefing_message(item, max_chars):
             }
         )
 
+    read_more = render_read_more(url)
+
+    if read_more:
+        parts.append(
+            {
+                "text": read_more,
+                "priority": 1000,
+            }
+        )
+
     # Drop lowest-priority removable parts until the
-    # message fits. Footer and headline are never dropped.
+    # message fits. Footer, label, region and headline are
+    # never dropped.
     while True:
         body_text = "\n\n".join(
             p["text"] for p in parts
@@ -400,6 +529,16 @@ def build_fallback_message(item, max_chars):
             }
         )
 
+    region = region_line(item)
+
+    if region:
+        parts.append(
+            {
+                "text": region,
+                "priority": 1000,
+            }
+        )
+
     if headline:
         parts.append(
             {
@@ -418,14 +557,30 @@ def build_fallback_message(item, max_chars):
             }
         )
 
-    for line in render_footer(
+    parts.append(
+        {
+            "text": DIVIDER,
+            "priority": 75,
+        }
+    )
+
+    for line in render_source(
         source,
         [],
-        url,
     ):
         parts.append(
             {
                 "text": line,
+                "priority": 1000,
+            }
+        )
+
+    read_more = render_read_more(url)
+
+    if read_more:
+        parts.append(
+            {
+                "text": read_more,
                 "priority": 1000,
             }
         )

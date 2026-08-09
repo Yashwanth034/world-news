@@ -19,10 +19,10 @@ from src.telegram_scheduler import story_age_minutes
 # Public labels
 # ---------------------------------------------------------
 
-BREAKING = "\U0001F6A8 BREAKING"
-JUST_IN = "\u26A1 JUST IN"
-NEWS = "\U0001F4F0 NEWS"
-UPDATE = "\U0001F504 UPDATE"
+BREAKING = "\U0001F534 BREAKING"
+JUST_IN = "\U0001F7E1 JUST IN"
+NEWS = "\U0001F535 NEWS"
+UPDATE = "\U0001F7E0 UPDATE"
 
 URGENT_CATEGORIES = {
     "conflict",
