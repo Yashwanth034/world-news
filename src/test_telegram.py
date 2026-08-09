@@ -1586,3 +1586,80 @@ def test_state_save_load_roundtrip_and_atomic(
         loaded["posted"][0]["posted_at"]
         == posted_at
     )
+
+
+def test_publish_due_same_call_two_entries_enforce_gap():
+    a = fresh_item(
+        story_id="same-call-a",
+        minutes_ago=10,
+    )
+    b = fresh_item(
+        story_id="same-call-b",
+        minutes_ago=10,
+    )
+    now = now_utc()
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "same-call-a",
+                now - timedelta(minutes=5),
+            ),
+            scheduled_entry(
+                "same-call-b",
+                now - timedelta(minutes=4),
+            ),
+        ]
+    )
+    publisher = fake_publisher()
+
+    report = publish_due(
+        publisher,
+        "@channel",
+        state,
+        [a, b],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=CFG,
+        now=now,
+    )
+
+    assert len(report["published"]) == 1
+    assert (
+        report["published"][0]["story_id"]
+        == "same-call-a"
+    )
+    assert len(report["skipped_gap"]) == 1
+    assert (
+        report["skipped_gap"][0]["story_id"]
+        == "same-call-b"
+    )
+    assert len(publisher.sent) == 1
+    assert len(state["posted"]) == 1
+    assert {
+        e["story_id"]
+        for e in state["scheduled"]
+    } == {"same-call-b"}
+
+    later = now + timedelta(minutes=15)
+    report2 = publish_due(
+        fake_publisher(),
+        "@channel",
+        state,
+        [a, b],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=CFG,
+        now=later,
+    )
+    assert len(report2["published"]) == 1
+    assert (
+        report2["published"][0]["story_id"]
+        == "same-call-b"
+    )
+    assert state["scheduled"] == []

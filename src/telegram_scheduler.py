@@ -544,6 +544,13 @@ def publish_due(
         )
 
         state["last_posted_at"] = posted_at
+
+        # Enforce the minimum gap at the actual publish
+        # point: refresh the reference immediately so the
+        # next due entry in this same call is blocked
+        # unless >= min_gap_seconds have elapsed since the
+        # previous successful post.
+        last_posted_dt = parse_dt(posted_at)
         posted_hourly += 1
         posted_daily += 1
 

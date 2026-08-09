@@ -51,6 +51,13 @@ jobs:
           TELEGRAM_PUBLISH: "1"
 
       - name: Commit state
+        # KNOWN PRODUCTION CAVEAT (at-least-once): state is
+        # committed only after publishing. If this job fails
+        # between a successful send and this commit/push,
+        # the next run starts from the previous state and
+        # may re-publish one already-sent story. Accepted
+        # for now; a dedup/ack redesign is intentionally
+        # deferred.
         run: |
           if git diff --quiet -- data/telegram_state.json; then
             echo "no state changes"
