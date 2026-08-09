@@ -1,3 +1,5 @@
 .venv/
 __pycache__/
-data/
+data/*
+!data/telegram_queue.json
+!data/telegram_state.json

@@ -339,5 +339,28 @@
   "high_max_delay_minutes": 30,
   "normal_max_delay_minutes": 60,
   "poll_interval_minutes": 5,
-  "max_feed_entries_per_source": 25
+  "max_feed_entries_per_source": 25,
+  "telegram": {
+    "channel_id": "",
+    "telegram_state_file": "data/telegram_state.json",
+    "telegram_queue_file": "data/telegram_queue.json",
+    "freshness_hours": 6,
+    "max_candidates": 50,
+    "max_posts_per_hour": 20,
+    "max_posts_per_day": 150,
+    "min_gap_seconds": 60,
+    "normal_delay_seconds": [
+      120,
+      420
+    ],
+    "important_delay_seconds": [
+      60,
+      240
+    ],
+    "breaking_immediate": true,
+    "just_in_freshness_minutes": 15,
+    "target_message_chars": 1500,
+    "max_message_chars": 3000,
+    "max_attempts_per_story": 2
+  }
 }

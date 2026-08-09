@@ -24,6 +24,13 @@ CONFIG = json.loads(
 DB = ROOT / CONFIG["database"]
 QUEUE = ROOT / CONFIG["queue_file"]
 SOURCE_HEALTH = ROOT / "data" / "source_health.json"
+TELEGRAM_QUEUE = ROOT / CONFIG.get(
+    "telegram",
+    {}
+).get(
+    "telegram_queue_file",
+    "data/telegram_queue.json"
+)
 
 
 def clean(t):
@@ -698,6 +705,120 @@ def main():
             x["confidence"] == "high",
         ),
         reverse=True,
+    )
+
+    # ---------------------------------------------------------
+    # Telegram candidate output
+    #
+    # ADDITIVE ONLY:
+    # Does not alter queue.json, deduplication, event memory,
+    # scoring, or any existing pipeline behavior.
+    #
+    # Captures all quality-passed stories BEFORE the
+    # max_stories_per_run slice, applies the Telegram
+    # freshness window, and writes a separate bounded
+    # candidate file for the Telegram scheduler.
+    # ---------------------------------------------------------
+
+    telegram_cfg = CONFIG.get(
+        "telegram",
+        {}
+    )
+
+    freshness_hours = float(
+        telegram_cfg.get(
+            "freshness_hours",
+            6
+        )
+    )
+
+    max_candidates = int(
+        telegram_cfg.get(
+            "max_candidates",
+            50
+        )
+    )
+
+    now_dt = datetime.now(
+        timezone.utc
+    )
+
+    telegram_candidates = []
+
+    for x in q:
+
+        effective = x.get(
+            "effective_at"
+        )
+
+        if not effective:
+            continue
+
+        try:
+
+            effective_dt = datetime.fromisoformat(
+                effective.replace(
+                    "Z",
+                    "+00:00"
+                )
+            )
+
+            if effective_dt.tzinfo is None:
+
+                effective_dt = effective_dt.replace(
+                    tzinfo=timezone.utc
+                )
+
+            age_seconds = (
+                now_dt - effective_dt
+            ).total_seconds()
+
+        except Exception:
+
+            continue
+
+        # Only fresh stories are Telegram candidates.
+        if (
+            0
+            <= age_seconds
+            <= freshness_hours * 3600
+        ):
+
+            candidate = dict(x)
+
+            # Normalize the dedup key: the pipeline stores
+            # it as "id"; the telegram layer keys off
+            # "story_id".
+            candidate["story_id"] = (
+                candidate.get("story_id")
+                or candidate.get("id")
+            )
+
+            telegram_candidates.append(
+                candidate
+            )
+
+    telegram_candidates = (
+        telegram_candidates[:max_candidates]
+    )
+
+    TELEGRAM_QUEUE.parent.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    TELEGRAM_QUEUE.write_text(
+        json.dumps(
+            {
+                "generated_at": now,
+                "count": len(
+                    telegram_candidates
+                ),
+                "stories": telegram_candidates,
+            },
+            indent=2,
+            ensure_ascii=False,
+        )
     )
 
     # ---------------------------------------------------------
