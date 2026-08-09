@@ -1,0 +1,343 @@
+{
+  "min_score_to_queue": 55,
+  "translation_min_score": 55,
+  "max_stories_per_run": 5,
+  "database": "data/news.db",
+  "queue_file": "data/queue.json",
+  "event_memory_hours": 48,
+  "major_event_memory_hours": 168,
+  "story_memory_hours": 48,
+  "breaking_min_score": 75,
+  "english_only": true,
+  "translate_non_english": true,
+  "feeds": [
+    {
+      "name": "BBC World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "world",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "BBC Business",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "category": "finance",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "BBC Technology",
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "category": "technology",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "BBC Science",
+      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "category": "science",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "BBC Health",
+      "url": "https://feeds.bbci.co.uk/news/health/rss.xml",
+      "category": "health",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "category": "world",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "DW World",
+      "url": "https://rss.dw.com/rdf/rss-en-world",
+      "category": "world",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "DW Business",
+      "url": "https://rss.dw.com/rdf/rss-en-bus",
+      "category": "finance",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "France 24",
+      "url": "https://www.france24.com/en/rss",
+      "category": "world",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "NPR World",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "category": "world",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "NPR Business",
+      "url": "https://feeds.npr.org/1006/rss.xml",
+      "category": "finance",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "NPR Science",
+      "url": "https://feeds.npr.org/1007/rss.xml",
+      "category": "science",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "NPR Technology",
+      "url": "https://feeds.npr.org/1019/rss.xml",
+      "category": "technology",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "The Guardian World",
+      "url": "https://www.theguardian.com/world/rss",
+      "category": "world",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "The Guardian Business",
+      "url": "https://www.theguardian.com/business/rss",
+      "category": "finance",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "The Guardian Technology",
+      "url": "https://www.theguardian.com/technology/rss",
+      "category": "technology",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "The Guardian Science",
+      "url": "https://www.theguardian.com/science/rss",
+      "category": "science",
+      "primary": false,
+      "tier": 2
+    },
+    {
+      "name": "USGS Significant Earthquakes",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_hour.atom",
+      "category": "disaster",
+      "primary": true,
+      "tier": 1
+    },
+    {
+      "name": "NASA News",
+      "url": "https://www.nasa.gov/feed/",
+      "category": "space",
+      "primary": true,
+      "tier": 1
+    },
+    {
+      "name": "NASA News Releases",
+      "url": "https://www.nasa.gov/news-release/feed/",
+      "category": "space",
+      "primary": true,
+      "tier": 1
+    },
+    {
+      "name": "JPL News",
+      "url": "https://www.jpl.nasa.gov/feeds/news/",
+      "category": "space",
+      "primary": true,
+      "tier": 1
+    },
+    {
+      "name": "SEC Press Releases",
+      "url": "https://www.sec.gov/news/pressreleases.rss",
+      "category": "finance",
+      "primary": true,
+      "tier": 1
+    },
+    {
+      "name": "SEC Litigation Releases",
+      "url": "https://www.sec.gov/rss/litigation.xml",
+      "category": "finance",
+      "primary": true,
+      "tier": 1
+    },
+    {
+      "name": "NOAA Ocean News",
+      "url": "https://oceanservice.noaa.gov/rss/news.xml",
+      "category": "disaster",
+      "primary": true,
+      "tier": 1
+    },
+    {
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "category": "cybersecurity",
+      "primary": true,
+      "tier": 1
+    },
+    {
+      "name": "WHO News",
+      "url": "https://www.who.int/rss-feeds/news-english.xml",
+      "category": "health",
+      "primary": true,
+      "tier": 1
+    },
+    {
+      "name": "ESA News",
+      "url": "https://www.esa.int/rssfeed/Our_Activities/Space_News",
+      "category": "space",
+      "primary": true,
+      "tier": 1
+    },
+    {
+      "name": "The Indian Express",
+      "url": "https://indianexpress.com/rss/",
+      "category": "india",
+      "primary": false,
+      "tier": 2,
+      "region": "South Asia"
+    },
+    {
+      "name": "Arab News",
+      "url": "https://www.arabnews.com/rss",
+      "category": "middle-east",
+      "primary": false,
+      "tier": 2,
+      "region": "Middle East"
+    },
+    {
+      "name": "Africanews English",
+      "url": "https://www.africanews.com/feed/",
+      "category": "africa",
+      "primary": false,
+      "tier": 2,
+      "region": "Africa"
+    },
+    {
+      "name": "Google News India Discovery",
+      "url": "https://news.google.com/rss/search?q=India+when:1d&hl=en-IN&gl=IN&ceid=IN:en",
+      "category": "india",
+      "primary": false,
+      "tier": 4,
+      "region": "South Asia",
+      "discovery": true
+    },
+    {
+      "name": "Google News Japan Discovery",
+      "url": "https://news.google.com/rss/search?q=Japan+when:1d&hl=en&gl=US&ceid=US:en",
+      "category": "japan",
+      "primary": false,
+      "tier": 4,
+      "region": "East Asia",
+      "discovery": true
+    },
+    {
+      "name": "Google News China Discovery",
+      "url": "https://news.google.com/rss/search?q=China+when:1d&hl=en&gl=US&ceid=US:en",
+      "category": "china",
+      "primary": false,
+      "tier": 4,
+      "region": "East Asia",
+      "discovery": true
+    },
+    {
+      "name": "Google News South Korea Discovery",
+      "url": "https://news.google.com/rss/search?q=South+Korea+when:1d&hl=en&gl=US&ceid=US:en",
+      "category": "south-korea",
+      "primary": false,
+      "tier": 4,
+      "region": "East Asia",
+      "discovery": true
+    },
+    {
+      "name": "Google News Southeast Asia Discovery",
+      "url": "https://news.google.com/rss/search?q=Southeast+Asia+when:1d&hl=en&gl=US&ceid=US:en",
+      "category": "southeast-asia",
+      "primary": false,
+      "tier": 4,
+      "region": "Southeast Asia",
+      "discovery": true
+    },
+    {
+      "name": "Google News Europe Discovery",
+      "url": "https://news.google.com/rss/search?q=Europe+when:1d&hl=en&gl=US&ceid=US:en",
+      "category": "europe",
+      "primary": false,
+      "tier": 4,
+      "region": "Europe",
+      "discovery": true
+    },
+    {
+      "name": "Google News Middle East Discovery",
+      "url": "https://news.google.com/rss/search?q=Middle+East+when:1d&hl=en&gl=US&ceid=US:en",
+      "category": "middle-east",
+      "primary": false,
+      "tier": 4,
+      "region": "Middle East",
+      "discovery": true
+    },
+    {
+      "name": "Google News Africa Discovery",
+      "url": "https://news.google.com/rss/search?q=Africa+when:1d&hl=en&gl=US&ceid=US:en",
+      "category": "africa",
+      "primary": false,
+      "tier": 4,
+      "region": "Africa",
+      "discovery": true
+    },
+    {
+      "name": "Google News Latin America Discovery",
+      "url": "https://news.google.com/rss/search?q=Latin+America+when:1d&hl=en&gl=US&ceid=US:en",
+      "category": "latin-america",
+      "primary": false,
+      "tier": 4,
+      "region": "Latin America",
+      "discovery": true
+    },
+    {
+      "name": "Google News Canada Discovery",
+      "url": "https://news.google.com/rss/search?q=Canada+when:1d&hl=en&gl=CA&ceid=CA:en",
+      "category": "canada",
+      "primary": false,
+      "tier": 4,
+      "region": "North America",
+      "discovery": true
+    },
+    {
+      "name": "Google News Australia Discovery",
+      "url": "https://news.google.com/rss/search?q=Australia+when:1d&hl=en&gl=AU&ceid=AU:en",
+      "category": "australia",
+      "primary": false,
+      "tier": 4,
+      "region": "Oceania",
+      "discovery": true
+    },
+    {
+      "name": "Google News Pacific Discovery",
+      "url": "https://news.google.com/rss/search?q=Pacific+Islands+when:1d&hl=en&gl=US&ceid=US:en",
+      "category": "pacific",
+      "primary": false,
+      "tier": 4,
+      "region": "Oceania",
+      "discovery": true
+    }
+  ],
+  "discovery_min_score": 70,
+  "immediate_max_delay_minutes": 5,
+  "urgent_max_delay_minutes": 15,
+  "high_max_delay_minutes": 30,
+  "normal_max_delay_minutes": 60,
+  "poll_interval_minutes": 5,
+  "max_feed_entries_per_source": 25
+}
