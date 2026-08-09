@@ -1,44 +1,83 @@
 {
-  "generated_at": "2026-08-09T07:03:09.552443+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "b4257571bf806e86ff0c9bd401197b776da625970245ab140f1804f30ee976ee",
-      "title": "State of emergency declared as fast-moving Canada wildfire doubles in size",
-      "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
+      "id": "0d16b8a094553b0154e9a0f375c44545c9b61e8e7107fadfa9dad432a1af072e",
+      "title": "China cancels flights, issues evacuation orders as Typhoon Dolphin looms",
+      "url": "https://www.france24.com/en/asia-pacific/20260809-flight-cancellations-evacuations-in-china-as-typhoon-dolphin-looms",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over more than 36 sq miles (95 sq km).",
-      "published_at": "2026-08-09T06:46:40+00:00",
-      "updated_at": "2026-08-09T06:46:40+00:00",
-      "effective_at": "2026-08-09T06:46:40+00:00",
+      "summary": "China's National Meteorological Centre on Sunday issued a red typhoon alert, its most severe warning, as Typhoon Dolphin barrelled towards the country's densely populated eastern coast. Flights in and out of the region were cancelled and nearly 100,000 people were relocated to less risky areas, according to authorities. Typhoon Dolphin is expected to make landfall late Sunday or early Monday.",
+      "published_at": "2026-08-09T05:35:12+00:00",
+      "updated_at": "2026-08-09T05:35:12+00:00",
+      "effective_at": "2026-08-09T05:35:12+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 76,
+      "score": 73,
       "confidence": "medium",
       "urgency_terms": [
-        "wildfire",
-        "state of emergency"
+        "evacuation"
       ],
-      "corroborating_sources": 0,
+      "corroborating_sources": 1,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
-      "verified_match_count": 0,
+      "verified_match_count": 1,
       "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "743c17c065ab90cbee4bb4c4",
+      "event_id": "2f3f31f73012865339133704",
       "format": "single",
-      "post": "📰 NEWS: State of emergency declared as fast-moving Canada wildfire doubles in size. The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over more than 36 sq miles (95 sq km). Source: BBC World.",
+      "post": "📰 NEWS: China cancels flights, issues evacuation orders as Typhoon Dolphin looms. China's National Meteorological Centre on Sunday issued a red typhoon alert, its most severe warning, as Typhoon Dolphin barrelled towards the country's densely. Source: France 24.",
       "quality_pass": true,
       "quality_errors": [],
       "quality_warnings": [],
-      "story_id": "b4257571bf806e86ff0c9bd401197b776da625970245ab140f1804f30ee976ee"
+      "story_id": "0d16b8a094553b0154e9a0f375c44545c9b61e8e7107fadfa9dad432a1af072e",
+      "public_label": "📰 NEWS",
+      "headline": "China cancels flights, issues evacuation orders as Typhoon Dolphin looms",
+      "briefing": {
+        "opening": [
+          "China's National Meteorological Centre on Sunday issued a red typhoon alert, its most severe warning, as Typhoon Dolphin barrelled towards the country's densely populated eastern coast.",
+          "Flights in and out of the region were cancelled and nearly 100,000 people were relocated to less risky areas, according to authorities."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "nearly 100,000 people"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Typhoon Dolphin is expected to make landfall late Sunday or early Monday."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "China's National Meteorological Centre on Sunday issued a red typhoon alert, its most severe warning, as Typhoon Dolphin barrelled towards the country's densely populated eastern coast.",
+            "source": "France 24",
+            "item_id": "0d16b8a094553b0154e9a0f375c44545c9b61e8e7107fadfa9dad432a1af072e"
+          },
+          {
+            "text": "Flights in and out of the region were cancelled and nearly 100,000 people were relocated to less risky areas, according to authorities.",
+            "source": "France 24",
+            "item_id": "0d16b8a094553b0154e9a0f375c44545c9b61e8e7107fadfa9dad432a1af072e"
+          },
+          {
+            "text": "Typhoon Dolphin is expected to make landfall late Sunday or early Monday.",
+            "source": "France 24",
+            "item_id": "0d16b8a094553b0154e9a0f375c44545c9b61e8e7107fadfa9dad432a1af072e"
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/asia-pacific/20260809-flight-cancellations-evacuations-in-china-as-typhoon-dolphin-looms"
+      }
     }
   ]
 }

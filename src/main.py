@@ -802,6 +802,83 @@ def main():
         telegram_candidates[:max_candidates]
     )
 
+    # ---------------------------------------------------------
+    # Briefing enrichment
+    #
+    # ADDITIVE ONLY:
+    # Groups same-run candidates into events (conservative),
+    # builds a provenance-tracked briefing per event, and
+    # emits ONE enriched candidate per event. Multiple
+    # stories of the same event therefore produce a single
+    # Telegram post instead of duplicates.
+    # ---------------------------------------------------------
+
+    from src.telegram_briefing import (
+        build_briefing,
+        group_items,
+    )
+
+    groups = group_items(
+        telegram_candidates
+    )
+
+    telegram_stories = []
+
+    for group in groups:
+
+        primary = sorted(
+            group,
+            key=lambda x: (
+                x.get("score", 0)
+                or x.get("priority_score", 0)
+                or 0,
+                int(
+                    bool(x.get("primary_source"))
+                ),
+                -int(x.get("tier", 4)),
+            ),
+            reverse=True,
+        )[0]
+
+        briefing = build_briefing(
+            primary,
+            group,
+            int(
+                telegram_cfg.get(
+                    "just_in_freshness_minutes",
+                    15
+                )
+            ),
+            now_dt,
+        )
+
+        enriched = dict(primary)
+
+        enriched["story_id"] = (
+            primary.get("story_id")
+            or primary.get("id")
+        )
+
+        # Public editorial fields for the Telegram layer.
+        enriched["public_label"] = briefing["label"]
+        enriched["headline"] = briefing["headline"]
+        enriched["briefing"] = {
+            "opening": briefing["opening"],
+            "body": briefing["body"],
+            "bullets": briefing["bullets"],
+            "sentences": briefing["sentences"],
+            "source": briefing["source"],
+            "corroborating": briefing["corroborating"],
+            "url": briefing["url"],
+        }
+
+        enriched["group_size"] = len(group)
+        enriched["label"] = briefing["label"]
+
+        telegram_stories.append(
+            enriched
+        )
+
     TELEGRAM_QUEUE.parent.mkdir(
         parents=True,
         exist_ok=True
@@ -812,9 +889,9 @@ def main():
             {
                 "generated_at": now,
                 "count": len(
-                    telegram_candidates
+                    telegram_stories
                 ),
-                "stories": telegram_candidates,
+                "stories": telegram_stories,
             },
             indent=2,
             ensure_ascii=False,

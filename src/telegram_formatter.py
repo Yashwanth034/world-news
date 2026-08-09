@@ -1,12 +1,23 @@
-"""Telegram message formatting with CJK-aware truncation.
+"""Telegram message formatting for news briefings.
 
-The scheduler uses `target_message_chars` as its content
-budget. This module provides the character-counting helpers
-that keep CJK text from being truncated mid-glyph.
+Renders the enriched briefing produced by telegram_briefing:
+public label above a bold headline, opening paragraph,
+optional evidence-based bullets, body paragraphs, and a
+source/read-more footer.
+
+Safety rules:
+- The footer (source + link) is never dropped.
+- Truncation removes whole sentences/parts, never cutting
+  a sentence in the middle.
+- Character budget is counted the way Telegram does
+  (CJK/emoji count double).
 """
 import re
 
-from src.formatter import clean, clean_sentence, split_sentences
+from src.formatter import clean
+from src.telegram_briefing import (
+    clean_headline,
+)
 
 CJK_RE = re.compile(
     r"[\u3000-\u303f\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff"
@@ -28,12 +39,7 @@ HTML_ENTITY_RE = re.compile(r"&[a-zA-Z#0-9]+;")
 
 
 def telegram_visible_len(text):
-    """Characters Telegram counts toward the 4096 limit.
-
-    Telegram counts most characters as 1 and CJK/emoji as 2.
-    HTML entities are sent raw and therefore count as the
-    entity text itself.
-    """
+    """Characters Telegram counts toward the 4096 limit."""
     text = text or ""
     text = HTML_ENTITY_RE.sub(
         "x",
@@ -54,9 +60,8 @@ def truncate_by_char_limit(
 ):
     """Truncate to a Telegram character budget.
 
-    CJK-safe: the last glyph is kept whole because the
-    budget is compared in Telegram char units, and slicing
-    happens on the unified-string boundary.
+    CJK-safe: slicing happens on the unified-string
+    boundary, keeping the last glyph whole.
     """
     if telegram_visible_len(text) <= limit:
         return text
@@ -95,28 +100,358 @@ def escape_html(text):
     )
 
 
-def source_credit(item):
-    parts = []
-    source = item.get("source")
+def sentence_safe_truncate(text, limit):
+    """Cut at the last sentence boundary within limit.
 
-    if source:
-        parts.append(source)
+    Falls back to a word boundary only when the text is a
+    single oversized sentence. The fallback never cuts a
+    word in half.
+    """
+    if telegram_visible_len(text) <= limit:
+        return text
 
-    published = item.get(
-        "published_at"
-    ) or item.get(
-        "published"
+    chunks = text.split(". ")
+
+    if len(chunks) <= 1:
+        return truncate_by_char_limit(
+            text,
+            limit,
+        )
+
+    result = chunks[0]
+    found = False
+
+    for chunk in chunks[1:]:
+        candidate = result + ". " + chunk
+
+        if telegram_visible_len(candidate) <= limit:
+            result = candidate
+            found = True
+        else:
+            break
+
+    if telegram_visible_len(result) <= limit:
+        return result
+
+    if not found and len(chunks) == 2:
+        return truncate_by_char_limit(
+            text,
+            limit,
+        )
+
+    return result
+
+
+def render_bullets(bullets):
+    lines = []
+
+    for bullet in bullets:
+        icon = bullet.get("icon", "\u2022")
+        label = bullet.get("label", "")
+        text = bullet.get("text", "")
+
+        if label:
+            lines.append(
+                "\u2022 <b>"
+                + escape_html(icon + " " + label)
+                + ":</b> "
+                + escape_html(text)
+            )
+        else:
+            lines.append(
+                "\u2022 " + escape_html(text)
+            )
+
+    return lines
+
+
+def render_footer(
+    source,
+    corroborating,
+    url,
+):
+    lines = [
+        "\U0001F4F0 <b>Source:</b> "
+        + escape_html(source or "Unknown"),
+    ]
+
+    if corroborating:
+        lines[0] += (
+            " \u00b7 Corroborated by "
+            + escape_html(
+                ", ".join(corroborating[:3])
+            )
+        )
+
+    if url:
+        lines.append(
+            "\U0001F517 <a href=\""
+            + escape_html(url)
+            + "\">Read the full report</a>"
+        )
+
+    return lines
+
+
+def build_briefing_message(item, max_chars):
+    """Render the enriched briefing into parts."""
+    briefing = item.get("briefing") or {}
+
+    label = (
+        item.get("public_label")
+        or item.get("label")
     )
 
-    if published:
-        try:
-            parts.append(
-                published[:10]
-            )
-        except Exception:
-            parts.append(published)
+    headline = clean(
+        item.get("headline")
+        or clean_headline(item.get("title"))
+    )
 
-    return " \u00b7 ".join(parts)
+    source = (
+        briefing.get("source")
+        or item.get("source")
+    )
+
+    url = (
+        briefing.get("url")
+        or item.get("url")
+    )
+
+    opening = briefing.get("opening") or []
+    body = briefing.get("body") or []
+    bullets = briefing.get("bullets") or []
+    corroborating = briefing.get(
+        "corroborating"
+    ) or []
+
+    parts = []
+
+    if label:
+        parts.append(
+            {
+                "text": escape_html(label),
+                "priority": 1000,
+            }
+        )
+
+    if headline:
+        parts.append(
+            {
+                "text": "<b>"
+                + escape_html(headline)
+                + "</b>",
+                "priority": 1000,
+            }
+        )
+
+    if opening:
+        parts.append(
+            {
+                "text": escape_html(
+                    " ".join(opening)
+                ),
+                "priority": 90,
+            }
+        )
+
+    # Body paragraphs: two sentences per paragraph.
+    paragraphs = []
+    current = []
+
+    for sentence in body:
+        current.append(sentence)
+
+        if len(current) == 2:
+            paragraphs.append(
+                " ".join(current)
+            )
+            current = []
+
+    if current:
+        paragraphs.append(
+            " ".join(current)
+        )
+
+    for paragraph in paragraphs:
+        parts.append(
+            {
+                "text": escape_html(paragraph),
+                "priority": 70,
+            }
+        )
+
+    for bullet_line in render_bullets(bullets):
+        parts.append(
+            {
+                "text": bullet_line,
+                "priority": 80,
+            }
+        )
+
+    for line in render_footer(
+        source,
+        corroborating,
+        url,
+    ):
+        parts.append(
+            {
+                "text": line,
+                "priority": 1000,
+            }
+        )
+
+    # Drop lowest-priority removable parts until the
+    # message fits. Footer and headline are never dropped.
+    while True:
+        body_text = "\n\n".join(
+            p["text"] for p in parts
+        )
+
+        if telegram_visible_len(
+            body_text
+        ) <= max_chars:
+            break
+
+        removable = [
+            p for p in parts
+            if p["priority"] < 1000
+        ]
+
+        if not removable:
+            break
+
+        weakest = min(
+            removable,
+            key=lambda p: p["priority"],
+        )
+
+        # Remove a single sentence when the weakest part
+        # is a multi-sentence paragraph.
+        if (
+            weakest["priority"] == 70
+            and ". " in weakest["text"]
+        ):
+            chunks = weakest["text"].split(". ")
+
+            if len(chunks) > 1:
+                weakest["text"] = (
+                    ". ".join(chunks[:-1])
+                )
+
+                if weakest["text"]:
+                    weakest["text"] += "."
+                continue
+
+        parts.remove(weakest)
+
+    body_text = "\n\n".join(
+        p["text"] for p in parts
+    )
+
+    if telegram_visible_len(
+        body_text
+    ) > max_chars:
+        # Pathological single oversized sentence: cut at
+        # a word boundary.
+        for p in reversed(parts):
+            if p["priority"] < 1000:
+                p["text"] = truncate_by_char_limit(
+                    p["text"],
+                    max_chars,
+                )
+                break
+
+    body_text = "\n\n".join(
+        p["text"] for p in parts
+    )
+
+    return body_text
+
+
+def build_fallback_message(item, max_chars):
+    """Fallback for items without an enriched briefing:
+    headline + verbatim summary sentences + footer."""
+    label = (
+        item.get("public_label")
+        or item.get("label")
+    )
+
+    headline = clean(
+        item.get("headline")
+        or clean_headline(item.get("title"))
+    )
+
+    source = item.get("source")
+    url = item.get("url")
+
+    from src.formatter import split_sentences
+
+    sentences = split_sentences(
+        item.get("summary")
+    )
+
+    parts = []
+
+    if label:
+        parts.append(
+            {
+                "text": escape_html(label),
+                "priority": 1000,
+            }
+        )
+
+    if headline:
+        parts.append(
+            {
+                "text": "<b>"
+                + escape_html(headline)
+                + "</b>",
+                "priority": 1000,
+            }
+        )
+
+    for sentence in sentences:
+        parts.append(
+            {
+                "text": escape_html(sentence),
+                "priority": 80,
+            }
+        )
+
+    for line in render_footer(
+        source,
+        [],
+        url,
+    ):
+        parts.append(
+            {
+                "text": line,
+                "priority": 1000,
+            }
+        )
+
+    while telegram_visible_len(
+        "\n\n".join(p["text"] for p in parts)
+    ) > max_chars:
+
+        removable = [
+            p for p in parts
+            if p["priority"] < 1000
+        ]
+
+        if not removable:
+            break
+
+        parts.remove(
+            min(
+                removable,
+                key=lambda p: p["priority"],
+            )
+        )
+
+    return "\n\n".join(
+        p["text"] for p in parts
+    )
 
 
 def build_message(item, cfg, now=None):
@@ -141,89 +476,27 @@ def build_message(item, cfg, now=None):
     if max_chars < target:
         max_chars = target
 
-    title = clean(item.get("title"))
+    title = clean(
+        item.get("title")
+        or item.get("headline")
+    )
 
-    if not title:
+    if not title and not (
+        item.get("briefing")
+        or {}
+    ).get("sentences"):
         return None
 
-    summary = clean(
-        item.get("summary")
-        or item.get("description")
-    )
-
-    label = clean(
-        item.get("label")
-    )
-
-    source_text = source_credit(item)
-    url = item.get("url")
-
-    summary_part = None
-
-    if summary:
-
-        sentences = split_sentences(summary)
-
-        if sentences:
-
-            budget = max(
-                120,
-                target
-                - telegram_visible_len(title)
-                - len(" \u2014 ")
-                - telegram_visible_len(label or "")
-                - telegram_visible_len(source_text)
-                - 2
-            )
-
-            summary_part = sentences[0]
-
-            for extra in sentences[1:]:
-
-                if telegram_visible_len(
-                    summary_part
-                    + " "
-                    + extra
-                ) <= budget:
-                    summary_part = (
-                        summary_part + " " + extra
-                    )
-                else:
-                    break
-
-            summary_part = truncate_by_char_limit(
-                summary_part,
-                budget
-            )
-
-    parts = [escape_html(title)]
-
-    if label:
-        parts.append(
-            "<i>"
-            + escape_html(label)
-            + "</i>"
+    if item.get("briefing"):
+        body = build_briefing_message(
+            item,
+            max_chars,
         )
-
-    if summary_part:
-        parts.append(
-            escape_html(summary_part)
+    else:
+        body = build_fallback_message(
+            item,
+            max_chars,
         )
-
-    if source_text:
-        parts.append(
-            escape_html(source_text)
-        )
-
-    if url:
-        parts.append(
-            '<a href="'
-            + escape_html(url)
-            + '">read more</a>'
-        )
-
-    body = "\n".join(parts)
-    body = truncate_by_char_limit(body, max_chars)
 
     return {
         "text": body,

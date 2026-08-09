@@ -44,12 +44,6 @@ from src.telegram_scheduler import (
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG = ROOT / "config.json"
 
-LABEL_MAP = {
-    "IMMEDIATE": "breaking",
-    "EXCLUSIVE": "exclusive",
-    "HIGH": "high priority",
-}
-
 
 def parse_args(argv):
     parser = argparse.ArgumentParser(
@@ -332,8 +326,11 @@ def main(argv=None):
             + datetime.timedelta(seconds=delay)
         )
 
-        label = item.get("label") or LABEL_MAP.get(
-            item.get("priority_level")
+        # Public label comes from the pipeline briefing
+        # layer; scheduling never invents a label.
+        label = (
+            item.get("public_label")
+            or item.get("label")
         )
 
         new_scheduled.append(
