@@ -4,6 +4,7 @@ Run with:  .venv/bin/python -m pytest src/test_telegram.py -q
 """
 import json
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 import pytest
 
@@ -1216,3 +1217,372 @@ def test_build_message_empty_item():
 def test_build_message_parse_mode():
     msg = build_message(briefing_item(), CFG)
     assert msg["parse_mode"] == "HTML"
+
+
+def _workflow_path(name):
+    return (
+        Path(__file__).resolve().parent.parent
+        / ".github"
+        / "workflows"
+        / name
+    )
+
+
+def test_workflow_uses_main_branch():
+    text = _workflow_path("telegram.yml").read_text()
+    assert "master" not in text
+    assert "ref: main" in text
+    assert "git fetch origin main" in text
+    assert "git checkout origin/main" in text
+    assert "git push origin main" in text
+
+
+def test_workflow_write_permission():
+    text = _workflow_path("telegram.yml").read_text()
+    assert "permissions:" in text
+    assert "contents: write" in text
+
+
+def test_workflow_shared_concurrency_group():
+    for name in (
+        "telegram.yml",
+        "telegram-test-one.yml",
+    ):
+        text = _workflow_path(name).read_text()
+        assert "group: telegram-publish" in text
+        assert "cancel-in-progress: false" in text
+
+
+def test_posted_history_retained_at_48h_boundary():
+    state = make_state(
+        scheduled=[],
+        posted=[
+            {
+                "story_id": "kept-48h",
+                "posted_at": (
+                    now_utc()
+                    - timedelta(hours=48)
+                ).isoformat(),
+            },
+        ],
+    )
+    publish_due(
+        fake_publisher(),
+        "@channel",
+        state,
+        [],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=CFG,
+    )
+    assert len(state["posted"]) == 1
+    assert state["posted"][0]["story_id"] == "kept-48h"
+
+
+def test_posted_history_retained_50h_still_blocks():
+    story = fresh_item(
+        story_id="dup-story",
+        minutes_ago=10,
+    )
+    state = make_state(
+        scheduled=[],
+        posted=[
+            {
+                "story_id": "dup-story",
+                "posted_at": (
+                    now_utc()
+                    - timedelta(hours=50)
+                ).isoformat(),
+            },
+        ],
+    )
+    publish_due(
+        fake_publisher(),
+        "@channel",
+        state,
+        [story],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=CFG,
+    )
+    chosen = filter_candidates(
+        [story],
+        state,
+        6,
+        50,
+        15,
+        True,
+    )
+    assert chosen == []
+    assert state["posted"][0]["story_id"] == "dup-story"
+
+
+def test_posted_history_pruned_only_when_safely_older():
+    state = make_state(
+        scheduled=[],
+        posted=[
+            {
+                "story_id": "kept-50h",
+                "posted_at": (
+                    now_utc()
+                    - timedelta(hours=50)
+                ).isoformat(),
+            },
+            {
+                "story_id": "pruned-70h",
+                "posted_at": (
+                    now_utc()
+                    - timedelta(hours=70)
+                ).isoformat(),
+            },
+        ],
+    )
+    publish_due(
+        fake_publisher(),
+        "@channel",
+        state,
+        [],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=CFG,
+    )
+    ids = [
+        e["story_id"] for e in state["posted"]
+    ]
+    assert ids == ["kept-50h"]
+
+
+def test_posted_history_unknown_timestamp_kept():
+    state = make_state(
+        scheduled=[],
+        posted=[
+            {"story_id": "no-timestamp"},
+            {
+                "story_id": "bad-timestamp",
+                "posted_at": "not-a-date",
+            },
+            {
+                "story_id": "pruned-old",
+                "posted_at": (
+                    now_utc()
+                    - timedelta(hours=200)
+                ).isoformat(),
+            },
+        ],
+    )
+    publish_due(
+        fake_publisher(),
+        "@channel",
+        state,
+        [],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=CFG,
+    )
+    ids = {
+        e["story_id"] for e in state["posted"]
+    }
+    assert "no-timestamp" in ids
+    assert "bad-timestamp" in ids
+    assert "pruned-old" not in ids
+
+
+def test_duplicate_protection_after_48h_memory_boundary():
+    story = fresh_item(
+        story_id="dup-boundary",
+        minutes_ago=10,
+    )
+    state = make_state(
+        scheduled=[],
+        posted=[
+            {
+                "story_id": "dup-boundary",
+                "posted_at": (
+                    now_utc()
+                    - timedelta(hours=48)
+                ).isoformat(),
+            },
+        ],
+    )
+    chosen = filter_candidates(
+        [story],
+        state,
+        6,
+        50,
+        15,
+        True,
+    )
+    assert chosen == []
+
+
+def test_publish_due_daily_cap():
+    x = fresh_item(
+        story_id="daily-capped",
+        minutes_ago=10,
+    )
+    posted = [
+        {
+            "story_id": "d%d" % i,
+            "posted_at": (
+                now_utc()
+                - timedelta(minutes=61 + i)
+            ).isoformat(),
+        }
+        for i in range(150)
+    ]
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "daily-capped",
+                now_utc()
+                - timedelta(minutes=5),
+            )
+        ],
+        posted=posted,
+    )
+    report = publish_due(
+        fake_publisher(),
+        "@channel",
+        state,
+        [x],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=CFG,
+    )
+    assert report["published"] == []
+    assert len(report["skipped_cap"]) == 1
+    assert (
+        report["skipped_cap"][0]["reason"]
+        == "daily cap reached"
+    )
+    assert (
+        state["scheduled"][0]["story_id"]
+        == "daily-capped"
+    )
+
+
+def test_publish_due_rate_limited_deferral():
+    x = fresh_item(
+        story_id="rate-story",
+        minutes_ago=10,
+    )
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "rate-story",
+                now_utc()
+                - timedelta(minutes=5),
+            )
+        ]
+    )
+    publisher = fake_publisher()
+    publisher.rate_limit = 30
+
+    report = publish_due(
+        publisher,
+        "@channel",
+        state,
+        [x],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=CFG,
+    )
+    assert report["published"] == []
+    assert report["rate_limited"] == 30
+    assert len(report["failed"]) == 1
+    assert report["failed"][0]["retry_after"] == 30
+    assert (
+        state["scheduled"][0]["story_id"]
+        == "rate-story"
+    )
+    assert state["scheduled"][0]["attempts"] == 0
+
+
+def test_rate_limit_wait_bounded():
+    from src.telegram_run import (
+        RATE_LIMIT_BUDGET_SECONDS,
+        RATE_LIMIT_MAX_WAIT_SECONDS,
+        rate_limit_wait_seconds,
+    )
+
+    assert rate_limit_wait_seconds(30) == 30
+    assert (
+        rate_limit_wait_seconds(10 ** 6)
+        == RATE_LIMIT_MAX_WAIT_SECONDS
+    )
+    assert (
+        rate_limit_wait_seconds(30)
+        <= RATE_LIMIT_BUDGET_SECONDS
+    )
+    assert rate_limit_wait_seconds(-5) == 0
+    assert rate_limit_wait_seconds(None) == 0
+    assert rate_limit_wait_seconds("nope") == 0
+    assert (
+        rate_limit_wait_seconds(500, budget=120)
+        == RATE_LIMIT_MAX_WAIT_SECONDS
+    )
+    assert (
+        rate_limit_wait_seconds(
+            500,
+            max_wait=1000,
+            budget=120,
+        )
+        == 120
+    )
+    assert (
+        rate_limit_wait_seconds(5, budget=2) == 2
+    )
+
+
+def test_state_save_load_roundtrip_and_atomic(
+    tmp_path,
+):
+    from src.telegram_publisher import (
+        load_state,
+        save_state,
+    )
+
+    state_file = tmp_path / "telegram_state.json"
+    posted_at = now_utc().isoformat()
+    data = {
+        "posted": [
+            {
+                "story_id": "s1",
+                "posted_at": posted_at,
+            }
+        ],
+        "scheduled": [],
+        "failures": [],
+    }
+
+    save_state(str(state_file), data)
+
+    assert state_file.exists()
+    assert not (
+        tmp_path / "telegram_state.json.tmp"
+    ).exists()
+
+    loaded = load_state(str(state_file))
+    assert loaded["posted"][0]["story_id"] == "s1"
+    assert (
+        loaded["posted"][0]["posted_at"]
+        == posted_at
+    )

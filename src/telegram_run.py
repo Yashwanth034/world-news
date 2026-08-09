@@ -44,6 +44,31 @@ from src.telegram_scheduler import (
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG = ROOT / "config.json"
 
+# Bounds for HTTP 429 handling: a single wait never
+# exceeds RATE_LIMIT_MAX_WAIT_SECONDS and the whole run
+# never sleeps more than RATE_LIMIT_BUDGET_SECONDS, so
+# retry_after is respected where practical without ever
+# producing an uncontrolled wait or an infinite loop.
+RATE_LIMIT_MAX_WAIT_SECONDS = 90
+RATE_LIMIT_BUDGET_SECONDS = 180
+
+
+def rate_limit_wait_seconds(
+    retry_after,
+    max_wait=RATE_LIMIT_MAX_WAIT_SECONDS,
+    budget=RATE_LIMIT_BUDGET_SECONDS,
+):
+    """Bounded wait for a Telegram 429 retry_after value."""
+    try:
+        wait = int(retry_after)
+    except (TypeError, ValueError):
+        return 0
+
+    if wait < 0:
+        wait = 0
+
+    return min(wait, max_wait, budget)
+
 
 def parse_args(argv):
     parser = argparse.ArgumentParser(
@@ -451,6 +476,8 @@ def main(argv=None):
         "rate_limited": None,
     }
 
+    wait_budget = RATE_LIMIT_BUDGET_SECONDS
+
     for entry in list(
         state.get("scheduled", [])
     ):
@@ -540,6 +567,25 @@ def main(argv=None):
             totals["rate_limited"] = (
                 report["rate_limited"]
             )
+
+        if report["rate_limited"] and wait_budget > 0:
+
+            wait = rate_limit_wait_seconds(
+                report["rate_limited"],
+                budget=wait_budget,
+            )
+
+            if wait > 0:
+
+                print()
+                print(
+                    "=== rate limited: waiting",
+                    wait,
+                    "seconds before retrying ===",
+                )
+
+                time.sleep(wait)
+                wait_budget -= wait
 
         if report["published"]:
             for p in report["published"]:

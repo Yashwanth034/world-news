@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: telegram-one-message-test
+  group: telegram-publish
   cancel-in-progress: false
 
 permissions:

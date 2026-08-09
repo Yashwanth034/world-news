@@ -178,8 +178,9 @@ def load_state(state_file, default=None):
 
 def save_state(state_file, data):
     try:
+        tmp_file = str(state_file) + ".tmp"
         with open(
-            state_file,
+            tmp_file,
             "w",
             encoding="utf-8",
         ) as f:
@@ -189,6 +190,7 @@ def save_state(state_file, data):
                 indent=2,
                 ensure_ascii=False,
             )
+        os.replace(tmp_file, state_file)
     except OSError as exc:
         raise TelegramPublisherError(
             "cannot write state file: "

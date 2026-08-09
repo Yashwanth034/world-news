@@ -6,6 +6,17 @@ dictionaries.
 """
 from datetime import datetime, timezone
 
+# Posted-story retention: a posted story_id must stay in
+# the history at least as long as the engine's story
+# memory (48h) so a re-emitted story_id can never slip
+# through duplicate protection. A safety margin on top
+# covers posting lag and the engine's run cadence, so an
+# entry is pruned only when it is safely older than the
+# longest period in which the engine could still re-emit
+# the same story_id.
+POSTED_RETENTION_HOURS = 48
+POSTED_RETENTION_MARGIN_HOURS = 6
+
 
 def now_utc():
     return datetime.now(timezone.utc)
@@ -246,6 +257,44 @@ def publish_due(
     )
 
     report["due"] = len(due)
+
+    if state.get("posted"):
+
+        retention_hours = float(
+            cfg.get(
+                "posted_retention_hours",
+                POSTED_RETENTION_HOURS,
+            )
+        ) if cfg else POSTED_RETENTION_HOURS
+
+        cutoff = now.timestamp() - (
+            retention_hours
+            + POSTED_RETENTION_MARGIN_HOURS
+        ) * 3600
+
+        kept = []
+
+        for entry in state["posted"]:
+
+            posted_dt = parse_dt(
+                entry.get("posted_at")
+            )
+
+            if (
+                posted_dt is None
+                or posted_dt.timestamp() >= cutoff
+            ):
+                kept.append(entry)
+
+        state["posted"] = (
+            sorted(
+                kept,
+                key=lambda e: str(
+                    e.get("posted_at", "")
+                ),
+                reverse=True,
+            )
+        )
 
     if not due:
         return report
@@ -509,18 +558,6 @@ def publish_due(
                 ),
                 "posted_at": posted_at,
             }
-        )
-
-    if state.get("posted"):
-
-        state["posted"] = (
-            sorted(
-                state["posted"],
-                key=lambda e: str(
-                    e.get("posted_at", "")
-                ),
-                reverse=True,
-            )[:200]
         )
 
     return report
