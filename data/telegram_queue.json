@@ -1,227 +1,163 @@
 {
-  "generated_at": "2026-08-09T13:52:04.159725+00:00",
-  "count": 9,
+  "generated_at": "2026-08-09T14:36:58.187060+00:00",
+  "count": 7,
   "stories": [
     {
-      "id": "73381daca6a4a2a32e4b93c04e404eb8b981b1b43efb137e2205beb8374a1830",
-      "title": "Russia and Ukraine exchange deadly overnight strikes",
-      "url": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes",
-      "source": "France 24",
-      "source_category": "world",
+      "id": "66906740d30447f59496cdb7ea5b09986b776dc5831ae01ad25ef770020c8872",
+      "title": "Israel rejects Donald Trump’s 15-point plan to end Gaza war",
+      "url": "http://www.africanews.com/2026/08/09/israel-rejects-donald-trumps-15-point-plan-to-end-gaza-war/",
+      "source": "Africanews English",
+      "source_category": "africa",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Africa",
       "discovery": false,
-      "summary": "Russia and Ukraine exchanged another round of overnight strikes, killing civilians and injuring many others on both sides. In Russia’s border region of Belgorod, Ukrainian drone attacks killed five people and wounded around two dozen others. Meanwhile, Russian missiles struck a high-rise apartment building in Kharkiv, killing two people, and injured several more in the Black Sea port of Odesa.",
-      "published_at": "2026-08-09T13:22:24+00:00",
-      "updated_at": "2026-08-09T13:22:24+00:00",
-      "effective_at": "2026-08-09T13:22:24+00:00",
+      "summary": "Prime minister Benjamin Netanyahu said the Israeli military would not withdraw from the Palestinian enclave until Hamas fully disarms.",
+      "published_at": "2026-08-09T13:25:35+00:00",
+      "updated_at": "2026-08-09T13:25:35+00:00",
+      "effective_at": "2026-08-09T13:25:35+00:00",
       "language_status": "ENGLISH",
-      "category": "conflict",
-      "score": 73,
+      "category": "politics",
+      "score": 60,
       "confidence": "medium",
-      "urgency_terms": [
-        "missile"
+      "urgency_terms": [],
+      "corroborating_sources": 2,
+      "strong_corroboration": 2,
+      "corroborating_source_names": [
+        "Al Jazeera",
+        "France 24"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
+      "verified_match_count": 3,
       "priority_score": 100,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "fe5fd1a216b1a053d2f4c3e8",
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "event_status": "UPDATE",
+      "event_id": "439f1f03517a51ea53489e10",
       "format": "single",
-      "post": "📰 NEWS: Russia and Ukraine exchange deadly overnight strikes. Russia and Ukraine exchanged another round of overnight strikes, killing civilians and injuring many others on both sides. Source: France 24.",
+      "post": "📰 NEWS: Israel rejects Donald Trump’s 15-point plan to end Gaza war. Prime minister Benjamin Netanyahu said the Israeli military would not withdraw from the Palestinian enclave until Hamas fully disarms. Source: Africanews English.",
       "quality_pass": true,
       "quality_errors": [],
       "quality_warnings": [],
-      "story_id": "73381daca6a4a2a32e4b93c04e404eb8b981b1b43efb137e2205beb8374a1830",
-      "public_label": "🔵 NEWS",
-      "headline": "Russia and Ukraine exchange deadly overnight strikes",
+      "story_id": "66906740d30447f59496cdb7ea5b09986b776dc5831ae01ad25ef770020c8872",
+      "public_label": "🟠 UPDATE",
+      "headline": "Israel rejects Donald Trump’s 15-point plan to end Gaza war",
       "briefing": {
         "opening": [
-          "Russia and Ukraine exchanged another round of overnight strikes, killing civilians and injuring many others on both sides.",
-          "In Russia’s border region of Belgorod, Ukrainian drone attacks killed five people and wounded around two dozen others."
-        ],
-        "body": [
-          "Meanwhile, Russian missiles struck a high-rise apartment building in Kharkiv, killing two people, and injured several more in the Black Sea port of Odesa."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Kharkiv"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Russia and Ukraine exchanged another round of overnight strikes, killing civilians and injuring many others on both sides.",
-            "source": "France 24",
-            "item_id": "73381daca6a4a2a32e4b93c04e404eb8b981b1b43efb137e2205beb8374a1830"
-          },
-          {
-            "text": "In Russia’s border region of Belgorod, Ukrainian drone attacks killed five people and wounded around two dozen others.",
-            "source": "France 24",
-            "item_id": "73381daca6a4a2a32e4b93c04e404eb8b981b1b43efb137e2205beb8374a1830"
-          },
-          {
-            "text": "Meanwhile, Russian missiles struck a high-rise apartment building in Kharkiv, killing two people, and injured several more in the Black Sea port of Odesa.",
-            "source": "France 24",
-            "item_id": "73381daca6a4a2a32e4b93c04e404eb8b981b1b43efb137e2205beb8374a1830"
-          }
-        ],
-        "source": "France 24",
-        "corroborating": [],
-        "url": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes"
-      },
-      "group_size": 1,
-      "label": "🔵 NEWS"
-    },
-    {
-      "id": "582aaea07dc9d7d3b179f05a48c57e49dd8b5a99543d68d17e429843c1e55f8b",
-      "title": "Residents warned to brace for the worst as Canada wildfire rages out of control",
-      "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over more than 39 sq miles (103 sq km).",
-      "published_at": "2026-08-09T13:08:21+00:00",
-      "updated_at": "2026-08-09T13:08:21+00:00",
-      "effective_at": "2026-08-09T13:08:21+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 68,
-      "confidence": "medium",
-      "urgency_terms": [
-        "wildfire"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 100,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "b475870dc298c359e27cc9cc",
-      "format": "single",
-      "post": "📰 NEWS: Residents warned to brace for the worst as Canada wildfire rages out of control. The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over more than 39 sq miles (103 sq km). Source: BBC World.",
-      "quality_pass": true,
-      "quality_errors": [],
-      "quality_warnings": [],
-      "story_id": "582aaea07dc9d7d3b179f05a48c57e49dd8b5a99543d68d17e429843c1e55f8b",
-      "public_label": "🔵 NEWS",
-      "headline": "Residents warned to brace for the worst as Canada wildfire rages out of control",
-      "briefing": {
-        "opening": [
-          "The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over more than 39 sq miles (103 sq km)."
-        ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "British Columbia"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "out of control"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over more than 39 sq miles (103 sq km).",
-            "source": "BBC World",
-            "item_id": "582aaea07dc9d7d3b179f05a48c57e49dd8b5a99543d68d17e429843c1e55f8b"
-          }
-        ],
-        "source": "BBC World",
-        "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
-      },
-      "group_size": 1,
-      "label": "🔵 NEWS"
-    },
-    {
-      "id": "a97e8b092db66f7a3717bb4cff5744db4123ac78300244ab564ef11b216d3869",
-      "title": "The week in pictures: Summer wildfires, a Thai school shooting and the Tour de France Femmes",
-      "url": "https://www.france24.com/en/europe/20260809-the-week-in-pictures-summer-wildfires-thai-school-shooting-tour-de-france-femmes",
-      "source": "France 24",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "This summer's record wildfire season continued its devastation in the US state of Washington and parts of Europe, Thailand mourned after a school shooting left students and teachers dead, and cycling enthusiasts turned their attention to the women's Tour de France: here's a look at the week's most striking images.",
-      "published_at": "2026-08-09T13:00:19+00:00",
-      "updated_at": "2026-08-09T13:00:19+00:00",
-      "effective_at": "2026-08-09T13:00:19+00:00",
-      "language_status": "ENGLISH",
-      "category": "disaster",
-      "score": 73,
-      "confidence": "medium",
-      "urgency_terms": [
-        "wildfire"
-      ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 1,
-      "priority_score": 98,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "ddf30c0fa18fa8d12f709f62",
-      "format": "single",
-      "post": "📰 NEWS: The week in pictures: Summer wildfires, a Thai school shooting and the Tour de France Femmes. This summer's record wildfire season continued its devastation in the US state of Washington and parts of Europe, Thailand mourned after a school. Source: France 24.",
-      "quality_pass": true,
-      "quality_errors": [],
-      "quality_warnings": [],
-      "story_id": "a97e8b092db66f7a3717bb4cff5744db4123ac78300244ab564ef11b216d3869",
-      "public_label": "🔵 NEWS",
-      "headline": "The week in pictures: Summer wildfires, a Thai school shooting and the Tour de France Femmes",
-      "briefing": {
-        "opening": [
-          "This summer's record wildfire season continued its devastation in the US state of Washington and parts of Europe, Thailand mourned after a school shooting left students and teachers dead, and cycling enthusiasts turned their attention to the women's Tour de France: here's a look at the week's most striking images."
+          "Prime minister Benjamin Netanyahu said the Israeli military would not withdraw from the Palestinian enclave until Hamas fully disarms."
         ],
         "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "This summer's record wildfire season continued its devastation in the US state of Washington and parts of Europe, Thailand mourned after a school shooting left students and teachers dead, and cycling enthusiasts turned their attention to the women's Tour de France: here's a look at the week's most striking images.",
-            "source": "France 24",
-            "item_id": "a97e8b092db66f7a3717bb4cff5744db4123ac78300244ab564ef11b216d3869"
+            "text": "Prime minister Benjamin Netanyahu said the Israeli military would not withdraw from the Palestinian enclave until Hamas fully disarms.",
+            "source": "Africanews English",
+            "item_id": "66906740d30447f59496cdb7ea5b09986b776dc5831ae01ad25ef770020c8872"
           }
         ],
-        "source": "France 24",
+        "source": "Africanews English",
         "corroborating": [],
-        "url": "https://www.france24.com/en/europe/20260809-the-week-in-pictures-summer-wildfires-thai-school-shooting-tour-de-france-femmes"
+        "url": "http://www.africanews.com/2026/08/09/israel-rejects-donald-trumps-15-point-plan-to-end-gaza-war/"
+      },
+      "group_size": 1,
+      "label": "🟠 UPDATE"
+    },
+    {
+      "id": "d4fb245ca32f1b0e10b7e166ea193c8a51c152afd29e63d1fcba8e09353b8ffc",
+      "title": "‘You’re hit with a slam of shadow’: Nasa’s air mission to capture rare eclipse data",
+      "url": "https://www.theguardian.com/science/2026/aug/09/nasa-mission-total-solar-eclipse-iceland-sun-nanoflares",
+      "source": "The Guardian Science",
+      "source_category": "science",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Two aviators will take off from Iceland to take pictures of the sun while flying at high altitude along solar eclipse’s path After lunch on Wednesday, two Nasa aviators will climb into a research plane and take off from Keflavik airport on a western tip of Iceland. They will climb north towards Greenland and then bank to head south on a gently curving course 40 miles (64km) off the Icelandic coast. Their mission can be described as chasing an eclipse, but in reality the eclipse is chasing them. As the plane cruises at 50,000ft (15,000 metres), the shadow of the moon will race up from behind, crossing the ocean below at more than 2,000mph (3,200km/h). The pilot will aim to reach the point of ",
+      "published_at": "2026-08-09T14:00:16+00:00",
+      "updated_at": "2026-08-09T14:00:16+00:00",
+      "effective_at": "2026-08-09T14:00:16+00:00",
+      "language_status": "ENGLISH",
+      "category": "space",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "a95f346401cf6964efb7e146",
+      "format": "single",
+      "post": "📰 NEWS: ‘You’re hit with a slam of shadow’: Nasa’s air mission to capture rare eclipse data. Two aviators will take off from Iceland to take pictures of the sun while flying at high altitude along solar eclipse’s path After lunch on. Source: The Guardian Science.",
+      "quality_pass": true,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "story_id": "d4fb245ca32f1b0e10b7e166ea193c8a51c152afd29e63d1fcba8e09353b8ffc",
+      "public_label": "🔵 NEWS",
+      "headline": "‘You’re hit with a slam of shadow’: Nasa’s air mission to capture rare eclipse data",
+      "briefing": {
+        "opening": [
+          "Two aviators will take off from Iceland to take pictures of the sun while flying at high altitude along solar eclipse’s path After lunch on Wednesday, two Nasa aviators will climb into a research plane and take off from Keflavik airport on a western tip of Iceland.",
+          "They will climb north towards Greenland and then bank to head south on a gently curving course 40 miles (64km) off the Icelandic coast."
+        ],
+        "body": [
+          "Their mission can be described as chasing an eclipse, but in reality the eclipse is chasing them.",
+          "As the plane cruises at 50,000ft (15,000 metres), the shadow of the moon will race up from behind, crossing the ocean below at more than 2,000mph (3,200km/h).",
+          "The pilot will aim to reach the point of."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Two aviators will take off from Iceland to take pictures of the sun while flying at high altitude along solar eclipse’s path After lunch on Wednesday, two Nasa aviators will climb into a research plane and take off from Keflavik airport on a western tip of Iceland.",
+            "source": "The Guardian Science",
+            "item_id": "d4fb245ca32f1b0e10b7e166ea193c8a51c152afd29e63d1fcba8e09353b8ffc"
+          },
+          {
+            "text": "They will climb north towards Greenland and then bank to head south on a gently curving course 40 miles (64km) off the Icelandic coast.",
+            "source": "The Guardian Science",
+            "item_id": "d4fb245ca32f1b0e10b7e166ea193c8a51c152afd29e63d1fcba8e09353b8ffc"
+          },
+          {
+            "text": "Their mission can be described as chasing an eclipse, but in reality the eclipse is chasing them.",
+            "source": "The Guardian Science",
+            "item_id": "d4fb245ca32f1b0e10b7e166ea193c8a51c152afd29e63d1fcba8e09353b8ffc"
+          },
+          {
+            "text": "As the plane cruises at 50,000ft (15,000 metres), the shadow of the moon will race up from behind, crossing the ocean below at more than 2,000mph (3,200km/h).",
+            "source": "The Guardian Science",
+            "item_id": "d4fb245ca32f1b0e10b7e166ea193c8a51c152afd29e63d1fcba8e09353b8ffc"
+          },
+          {
+            "text": "The pilot will aim to reach the point of.",
+            "source": "The Guardian Science",
+            "item_id": "d4fb245ca32f1b0e10b7e166ea193c8a51c152afd29e63d1fcba8e09353b8ffc"
+          }
+        ],
+        "source": "The Guardian Science",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/science/2026/aug/09/nasa-mission-total-solar-eclipse-iceland-sun-nanoflares"
       },
       "group_size": 1,
       "label": "🔵 NEWS"
     },
     {
-      "id": "7443e33f7e93d2bbb083ca2217141f0937fce184fd306e40f73237ea06b15326",
-      "title": "Regal Cinema CEO comes out in support of Paramount-Warner Bros. merger",
-      "url": "https://www.npr.org/2026/08/09/nx-s1-5923974/regal-cinema-ceo-comes-out-in-support-of-paramount-warner-bros-merger",
-      "source": "NPR Business",
-      "source_category": "finance",
+      "id": "ad5913310e3347efc1df2d6774f380dcdc590dd334463824ea198100a10c6a86",
+      "title": "Israel’s ‘Green Rafah’ plan aims to fragment Gaza, experts say",
+      "url": "https://www.aljazeera.com/news/2026/8/9/israels-green-rafah-plan-aims-to-fragment-gaza-experts-say?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "CEOs of the country's two biggest theater chains say they support the merger of Paramount-Skydance with Warner Brothers-Discovery.",
-      "published_at": "2026-08-09T13:20:30+00:00",
-      "updated_at": "2026-08-09T13:20:30+00:00",
-      "effective_at": "2026-08-09T13:20:30+00:00",
+      "summary": "Experts warn Israel&#039;s new administrative zones in Gaza seek to erase the Palestinian cause and force mass displacement.",
+      "published_at": "2026-08-09T13:54:41+00:00",
+      "updated_at": "2026-08-09T13:54:41+00:00",
+      "effective_at": "2026-08-09T13:54:41+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
@@ -233,214 +169,57 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "a6ee0d4849eb1baf8917e14f",
+      "event_id": "3244e5e375fae481dbf10c05",
       "format": "single",
-      "post": "📰 NEWS: Regal Cinema CEO comes out in support of Paramount-Warner Bros. merger. CEOs of the country's two biggest theater chains say they support the merger of Paramount-Skydance with Warner Brothers-Discovery. Source: NPR Business.",
+      "post": "📰 NEWS: Israel’s ‘Green Rafah’ plan aims to fragment Gaza, experts say. Experts warn Israel&#039;s new administrative zones in Gaza seek to erase the Palestinian cause and force mass displacement. Source: Al Jazeera.",
       "quality_pass": true,
       "quality_errors": [],
       "quality_warnings": [],
-      "story_id": "7443e33f7e93d2bbb083ca2217141f0937fce184fd306e40f73237ea06b15326",
+      "story_id": "ad5913310e3347efc1df2d6774f380dcdc590dd334463824ea198100a10c6a86",
       "public_label": "🔵 NEWS",
-      "headline": "Regal Cinema CEO comes out in support of Paramount-Warner Bros. merger",
+      "headline": "Israel’s ‘Green Rafah’ plan aims to fragment Gaza, experts say",
       "briefing": {
         "opening": [
-          "CEOs of the country's two biggest theater chains say they support the merger of Paramount-Skydance with Warner Brothers-Discovery."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "CEOs of the country's two biggest theater chains say they support the merger of Paramount-Skydance with Warner Brothers-Discovery.",
-            "source": "NPR Business",
-            "item_id": "7443e33f7e93d2bbb083ca2217141f0937fce184fd306e40f73237ea06b15326"
-          }
-        ],
-        "source": "NPR Business",
-        "corroborating": [],
-        "url": "https://www.npr.org/2026/08/09/nx-s1-5923974/regal-cinema-ceo-comes-out-in-support-of-paramount-warner-bros-merger"
-      },
-      "group_size": 1,
-      "label": "🔵 NEWS"
-    },
-    {
-      "id": "d5f62bbf8055ff68e25da0176f621660c70f22f54536b2fd60f4152f3dccc616",
-      "title": "Indonesia closes national park in East Java as wildfire expands",
-      "url": "https://www.aljazeera.com/news/2026/8/9/indonesia-closes-national-park-in-east-java-as-wildfire-expands?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "Firefighters struggle to battle the growing blaze near Mount Bromo in thick forest and steep terrain.",
-      "published_at": "2026-08-09T13:13:46+00:00",
-      "updated_at": "2026-08-09T13:13:46+00:00",
-      "effective_at": "2026-08-09T13:13:46+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 68,
-      "confidence": "medium",
-      "urgency_terms": [
-        "wildfire"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 93,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "c8ce38e8488d16cdf7307a65",
-      "format": "single",
-      "post": "📰 NEWS: Indonesia closes national park in East Java as wildfire expands. Firefighters struggle to battle the growing blaze near Mount Bromo in thick forest and steep terrain. Source: Al Jazeera.",
-      "quality_pass": true,
-      "quality_errors": [],
-      "quality_warnings": [],
-      "story_id": "d5f62bbf8055ff68e25da0176f621660c70f22f54536b2fd60f4152f3dccc616",
-      "public_label": "🔵 NEWS",
-      "headline": "Indonesia closes national park in East Java as wildfire expands",
-      "briefing": {
-        "opening": [
-          "Firefighters struggle to battle the growing blaze near Mount Bromo in thick forest and steep terrain."
+          "Experts warn Israel&#039;s new administrative zones in Gaza seek to erase the Palestinian cause and force mass displacement."
         ],
         "body": [],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Mount Bromo"
+            "text": "Gaza"
           }
         ],
         "sentences": [
           {
-            "text": "Firefighters struggle to battle the growing blaze near Mount Bromo in thick forest and steep terrain.",
+            "text": "Experts warn Israel&#039;s new administrative zones in Gaza seek to erase the Palestinian cause and force mass displacement.",
             "source": "Al Jazeera",
-            "item_id": "d5f62bbf8055ff68e25da0176f621660c70f22f54536b2fd60f4152f3dccc616"
+            "item_id": "ad5913310e3347efc1df2d6774f380dcdc590dd334463824ea198100a10c6a86"
           }
         ],
         "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.aljazeera.com/news/2026/8/9/indonesia-closes-national-park-in-east-java-as-wildfire-expands?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/9/israels-green-rafah-plan-aims-to-fragment-gaza-experts-say?traffic_source=rss"
       },
       "group_size": 1,
       "label": "🔵 NEWS"
     },
     {
-      "id": "b5a2ff8d894fbca57d972f4e15a2ee75ffa45be4001398eba32cc9fad4495e5b",
-      "title": "‘I kept catching people giving me dirty looks’: the backlash against Meta smart glasses",
-      "url": "https://www.theguardian.com/technology/2026/aug/09/i-kept-catching-people-giving-me-dirty-looks-the-backlash-against-meta-smart-glasses",
-      "source": "The Guardian Technology",
-      "source_category": "technology",
+      "id": "75becc7c8f30065127e2256ea5d7bae379a22a08c0ffe3fa3a38611aab3c6023",
+      "title": "‘The wealthy poor’: Soaring food prices hurt Iranian families",
+      "url": "https://www.aljazeera.com/features/2026/8/9/the-wealthy-poor-soaring-food-prices-hurt-iranian-families?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "Influencers accused of using ‘pervert glasses’ amid fears about people being filmed without their consent It was hardly an offensive video. Amid the buzz of the Tour de France finale, Oliver Hooson filmed himself whipping up a delicious-looking flat white for a fellow cycling enthusiast. But after posting the footage on social media, the comments that soon rolled in were a real shock. “PERV,” read one. “Out here pushing creep glasses,” said another. His mistake? Documenting the moment with Meta’s “spy glasses”. Despite being marketed as the latest, must-have gadget, Meta’s smart glasses, which can record video footage while being worn, have faced a vicious backlash, particularly relating to ",
-      "published_at": "2026-08-09T13:37:25+00:00",
-      "updated_at": "2026-08-09T13:37:25+00:00",
-      "effective_at": "2026-08-09T13:37:25+00:00",
+      "summary": "Iranians from all walks of life struggle under the weight of rising inflation and war pressure.",
+      "published_at": "2026-08-09T13:23:05+00:00",
+      "updated_at": "2026-08-09T13:23:05+00:00",
+      "effective_at": "2026-08-09T13:23:05+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "be9fa2923ed2d6b3d43d5ced",
-      "format": "single",
-      "post": "📰 NEWS: ‘I kept catching people giving me dirty looks’: the backlash against Meta smart glasses. Influencers accused of using ‘pervert glasses’ amid fears about people being filmed without their consent It was hardly an offensive video. Source: The Guardian Technology.",
-      "quality_pass": true,
-      "quality_errors": [],
-      "quality_warnings": [],
-      "story_id": "b5a2ff8d894fbca57d972f4e15a2ee75ffa45be4001398eba32cc9fad4495e5b",
-      "public_label": "🟡 JUST IN",
-      "headline": "‘I kept catching people giving me dirty looks’: the backlash against Meta smart glasses",
-      "briefing": {
-        "opening": [
-          "Influencers accused of using ‘pervert glasses’ amid fears about people being filmed without their consent It was hardly an offensive video.",
-          "Amid the buzz of the Tour de France finale, Oliver Hooson filmed himself whipping up a delicious-looking flat white for a fellow cycling enthusiast."
-        ],
-        "body": [
-          "But after posting the footage on social media, the comments that soon rolled in were a real shock.",
-          "“PERV,” read one.",
-          "“Out here pushing creep glasses,” said another.",
-          "His mistake?",
-          "Documenting the moment with Meta’s “spy glasses”.",
-          "Despite being marketed as the latest, must-have gadget, Meta’s smart glasses, which can record video footage while being worn, have faced a vicious backlash, particularly relating to."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Influencers accused of using ‘pervert glasses’ amid fears about people being filmed without their consent It was hardly an offensive video.",
-            "source": "The Guardian Technology",
-            "item_id": "b5a2ff8d894fbca57d972f4e15a2ee75ffa45be4001398eba32cc9fad4495e5b"
-          },
-          {
-            "text": "Amid the buzz of the Tour de France finale, Oliver Hooson filmed himself whipping up a delicious-looking flat white for a fellow cycling enthusiast.",
-            "source": "The Guardian Technology",
-            "item_id": "b5a2ff8d894fbca57d972f4e15a2ee75ffa45be4001398eba32cc9fad4495e5b"
-          },
-          {
-            "text": "But after posting the footage on social media, the comments that soon rolled in were a real shock.",
-            "source": "The Guardian Technology",
-            "item_id": "b5a2ff8d894fbca57d972f4e15a2ee75ffa45be4001398eba32cc9fad4495e5b"
-          },
-          {
-            "text": "“PERV,” read one.",
-            "source": "The Guardian Technology",
-            "item_id": "b5a2ff8d894fbca57d972f4e15a2ee75ffa45be4001398eba32cc9fad4495e5b"
-          },
-          {
-            "text": "“Out here pushing creep glasses,” said another.",
-            "source": "The Guardian Technology",
-            "item_id": "b5a2ff8d894fbca57d972f4e15a2ee75ffa45be4001398eba32cc9fad4495e5b"
-          },
-          {
-            "text": "His mistake?",
-            "source": "The Guardian Technology",
-            "item_id": "b5a2ff8d894fbca57d972f4e15a2ee75ffa45be4001398eba32cc9fad4495e5b"
-          },
-          {
-            "text": "Documenting the moment with Meta’s “spy glasses”.",
-            "source": "The Guardian Technology",
-            "item_id": "b5a2ff8d894fbca57d972f4e15a2ee75ffa45be4001398eba32cc9fad4495e5b"
-          },
-          {
-            "text": "Despite being marketed as the latest, must-have gadget, Meta’s smart glasses, which can record video footage while being worn, have faced a vicious backlash, particularly relating to.",
-            "source": "The Guardian Technology",
-            "item_id": "b5a2ff8d894fbca57d972f4e15a2ee75ffa45be4001398eba32cc9fad4495e5b"
-          }
-        ],
-        "source": "The Guardian Technology",
-        "corroborating": [],
-        "url": "https://www.theguardian.com/technology/2026/aug/09/i-kept-catching-people-giving-me-dirty-looks-the-backlash-against-meta-smart-glasses"
-      },
-      "group_size": 1,
-      "label": "🟡 JUST IN"
-    },
-    {
-      "id": "b24ef529e6a428be07ae6e8d159a32899e516924b9864781aecde3804378417c",
-      "title": "How FIFA President Gianni Infantino reached the pinnacle of power in soccer",
-      "url": "https://www.npr.org/2026/08/09/nx-s1-5922406/how-fifa-president-gianni-infantino-reached-the-pinnacle-of-power-in-soccer",
-      "source": "NPR Business",
-      "source_category": "finance",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "Gianni Infantino is facing intense heat over a failed plan to privatize the World Cup. He is a lawyer who rose to the pinnacle of soccer and is now trying to hold onto his job.",
-      "published_at": "2026-08-09T13:20:29+00:00",
-      "updated_at": "2026-08-09T13:20:29+00:00",
-      "effective_at": "2026-08-09T13:20:29+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
@@ -448,59 +227,53 @@
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 95,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "f18b51522a301b445a6ad00b",
+      "event_id": "62c5a0d5963c152c76a9b5f7",
       "format": "single",
-      "post": "📰 NEWS: How FIFA President Gianni Infantino reached the pinnacle of power in soccer. Gianni Infantino is facing intense heat over a failed plan to privatize the World Cup. Source: NPR Business.",
+      "post": "📰 NEWS: ‘The wealthy poor’: Soaring food prices hurt Iranian families. Iranians from all walks of life struggle under the weight of rising inflation and war pressure. Source: Al Jazeera.",
       "quality_pass": true,
       "quality_errors": [],
       "quality_warnings": [],
-      "story_id": "b24ef529e6a428be07ae6e8d159a32899e516924b9864781aecde3804378417c",
+      "story_id": "75becc7c8f30065127e2256ea5d7bae379a22a08c0ffe3fa3a38611aab3c6023",
       "public_label": "🔵 NEWS",
-      "headline": "How FIFA President Gianni Infantino reached the pinnacle of power in soccer",
+      "headline": "‘The wealthy poor’: Soaring food prices hurt Iranian families",
       "briefing": {
         "opening": [
-          "Gianni Infantino is facing intense heat over a failed plan to privatize the World Cup.",
-          "He is a lawyer who rose to the pinnacle of soccer and is now trying to hold onto his job."
+          "Iranians from all walks of life struggle under the weight of rising inflation and war pressure."
         ],
         "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "Gianni Infantino is facing intense heat over a failed plan to privatize the World Cup.",
-            "source": "NPR Business",
-            "item_id": "b24ef529e6a428be07ae6e8d159a32899e516924b9864781aecde3804378417c"
-          },
-          {
-            "text": "He is a lawyer who rose to the pinnacle of soccer and is now trying to hold onto his job.",
-            "source": "NPR Business",
-            "item_id": "b24ef529e6a428be07ae6e8d159a32899e516924b9864781aecde3804378417c"
+            "text": "Iranians from all walks of life struggle under the weight of rising inflation and war pressure.",
+            "source": "Al Jazeera",
+            "item_id": "75becc7c8f30065127e2256ea5d7bae379a22a08c0ffe3fa3a38611aab3c6023"
           }
         ],
-        "source": "NPR Business",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.npr.org/2026/08/09/nx-s1-5922406/how-fifa-president-gianni-infantino-reached-the-pinnacle-of-power-in-soccer"
+        "url": "https://www.aljazeera.com/features/2026/8/9/the-wealthy-poor-soaring-food-prices-hurt-iranian-families?traffic_source=rss"
       },
       "group_size": 1,
       "label": "🔵 NEWS"
     },
     {
-      "id": "f211578c30bdc9178cd8b3c0ea21cd82961012f2d6a399e2614feaa4393463e6",
-      "title": "Israel rejects Donald Trump’s Gaza Board of Peace plan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/israel-rejects-donald-trumps-gaza-board-of-peace-plan?traffic_source=rss",
+      "id": "dc682d53461eb51b37e77bbf7ed24f24eb94641653275cfcfaa3884099e8e593",
+      "title": "British MotoGP: Raul Fernandez dominates at Silverstone to beat Martin",
+      "url": "https://www.aljazeera.com/sports/2026/8/9/british-motogp-raul-fernandez-dominates-at-silverstone-to-beat-martin?traffic_source=rss",
       "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "Israel has rejected Donald Trump’s 15-point Board of Peace plan for Gaza.",
-      "published_at": "2026-08-09T12:51:34+00:00",
-      "updated_at": "2026-08-09T12:51:34+00:00",
-      "effective_at": "2026-08-09T12:51:34+00:00",
+      "summary": "Aprilia rider&#039;s victory over Jorge Martin extends Silverstone’s run of different Grand Prix winners to twelve in a row.",
+      "published_at": "2026-08-09T13:53:53+00:00",
+      "updated_at": "2026-08-09T13:53:53+00:00",
+      "effective_at": "2026-08-09T13:53:53+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
@@ -514,49 +287,49 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "439f1f03517a51ea53489e10",
+      "event_id": "7dad861a38efe933151ec47f",
       "format": "single",
-      "post": "📰 NEWS: Israel rejects Donald Trump’s Gaza Board of Peace plan. Israel has rejected Donald Trump’s 15-point Board of Peace plan for Gaza. Source: Al Jazeera.",
+      "post": "📰 NEWS: British MotoGP: Raul Fernandez dominates at Silverstone to beat Martin. Aprilia rider&#039;s victory over Jorge Martin extends Silverstone’s run of different Grand Prix winners to twelve in a row. Source: Al Jazeera.",
       "quality_pass": true,
       "quality_errors": [],
       "quality_warnings": [],
-      "story_id": "f211578c30bdc9178cd8b3c0ea21cd82961012f2d6a399e2614feaa4393463e6",
+      "story_id": "dc682d53461eb51b37e77bbf7ed24f24eb94641653275cfcfaa3884099e8e593",
       "public_label": "🔵 NEWS",
-      "headline": "Israel rejects Donald Trump’s Gaza Board of Peace plan",
+      "headline": "British MotoGP: Raul Fernandez dominates at Silverstone to beat Martin",
       "briefing": {
         "opening": [
-          "Israel has rejected Donald Trump’s 15-point Board of Peace plan for Gaza."
+          "Aprilia rider&#039;s victory over Jorge Martin extends Silverstone’s run of different Grand Prix winners to twelve in a row."
         ],
         "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "Israel has rejected Donald Trump’s 15-point Board of Peace plan for Gaza.",
+            "text": "Aprilia rider&#039;s victory over Jorge Martin extends Silverstone’s run of different Grand Prix winners to twelve in a row.",
             "source": "Al Jazeera",
-            "item_id": "f211578c30bdc9178cd8b3c0ea21cd82961012f2d6a399e2614feaa4393463e6"
+            "item_id": "dc682d53461eb51b37e77bbf7ed24f24eb94641653275cfcfaa3884099e8e593"
           }
         ],
         "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/israel-rejects-donald-trumps-gaza-board-of-peace-plan?traffic_source=rss"
+        "url": "https://www.aljazeera.com/sports/2026/8/9/british-motogp-raul-fernandez-dominates-at-silverstone-to-beat-martin?traffic_source=rss"
       },
       "group_size": 1,
       "label": "🔵 NEWS"
     },
     {
-      "id": "a96fc05a4870f466d5169238eaa6cfe35f426ea54e3834a77ffc68617faf125c",
-      "title": "La Liga: Five key talking points heading into the 2026-2027 season",
-      "url": "https://www.aljazeera.com/sports/2026/8/9/la-liga-five-key-talking-points-heading-into-the-2026-2027-season?traffic_source=rss",
+      "id": "4b771a1345e7aae2edb076f0469cd5fb0cffdf551e08df21193822b9fa6fd11c",
+      "title": "Why does Iran defeat the empires trying to conquer it?",
+      "url": "https://www.aljazeera.com/video/deja-vu-2/2026/8/9/why-does-iran-defeat-the-empires-trying-to-conquer-it?traffic_source=rss",
       "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "Jose Mourinho is back at Madrid, and Barcelona eye third straight title while new rule changes aim to cut time-wasting.",
-      "published_at": "2026-08-09T12:42:48+00:00",
-      "updated_at": "2026-08-09T12:42:48+00:00",
-      "effective_at": "2026-08-09T12:42:48+00:00",
+      "summary": "On the second episode of Deja Vu, we look at Iran and the great powers that have tried to shape it.",
+      "published_at": "2026-08-09T13:36:24+00:00",
+      "updated_at": "2026-08-09T13:36:24+00:00",
+      "effective_at": "2026-08-09T13:36:24+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
@@ -570,37 +343,93 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "521a9ce8787d0a0795b5edec",
+      "event_id": "c478f7f7a2058e5a2e3070f0",
       "format": "single",
-      "post": "📰 NEWS: La Liga: Five key talking points heading into the 2026-2027 season. Jose Mourinho is back at Madrid, and Barcelona eye third straight title while new rule changes aim to cut time-wasting. Source: Al Jazeera.",
+      "post": "📰 NEWS: Why does Iran defeat the empires trying to conquer it? On the second episode of Deja Vu, we look at Iran and the great powers that have tried to shape it. Source: Al Jazeera.",
       "quality_pass": true,
       "quality_errors": [],
       "quality_warnings": [],
-      "story_id": "a96fc05a4870f466d5169238eaa6cfe35f426ea54e3834a77ffc68617faf125c",
+      "story_id": "4b771a1345e7aae2edb076f0469cd5fb0cffdf551e08df21193822b9fa6fd11c",
       "public_label": "🔵 NEWS",
-      "headline": "La Liga: Five key talking points heading into the 2026-2027 season",
+      "headline": "Why does Iran defeat the empires trying to conquer it?",
       "briefing": {
         "opening": [
-          "Jose Mourinho is back at Madrid, and Barcelona eye third straight title while new rule changes aim to cut time-wasting."
+          "On the second episode of Deja Vu, we look at Iran and the great powers that have tried to shape it."
         ],
         "body": [],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Madrid"
+            "text": "Iran"
           }
         ],
         "sentences": [
           {
-            "text": "Jose Mourinho is back at Madrid, and Barcelona eye third straight title while new rule changes aim to cut time-wasting.",
+            "text": "On the second episode of Deja Vu, we look at Iran and the great powers that have tried to shape it.",
             "source": "Al Jazeera",
-            "item_id": "a96fc05a4870f466d5169238eaa6cfe35f426ea54e3834a77ffc68617faf125c"
+            "item_id": "4b771a1345e7aae2edb076f0469cd5fb0cffdf551e08df21193822b9fa6fd11c"
           }
         ],
         "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.aljazeera.com/sports/2026/8/9/la-liga-five-key-talking-points-heading-into-the-2026-2027-season?traffic_source=rss"
+        "url": "https://www.aljazeera.com/video/deja-vu-2/2026/8/9/why-does-iran-defeat-the-empires-trying-to-conquer-it?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔵 NEWS"
+    },
+    {
+      "id": "ae93586388e1cd6fee3c55a107844cd0f0a73fff162a39a29f7a5761f646626f",
+      "title": "Barzani says Iraqi Kurdistan wants peace as regional tensions rise",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/barzani-says-iraqi-kurdistan-wants-peace-as-regional-tensions-rise?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Barzani says Iraqi Kurdistan wants peace as regional tensions rise",
+      "published_at": "2026-08-09T13:28:55+00:00",
+      "updated_at": "2026-08-09T13:28:55+00:00",
+      "effective_at": "2026-08-09T13:28:55+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "6f7e1e554cc71e8a86506a3d",
+      "format": "single",
+      "post": "📰 NEWS: Barzani says Iraqi Kurdistan wants peace as regional tensions rise. Barzani says Iraqi Kurdistan wants peace as regional tensions rise. Source: Al Jazeera.",
+      "quality_pass": true,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "story_id": "ae93586388e1cd6fee3c55a107844cd0f0a73fff162a39a29f7a5761f646626f",
+      "public_label": "🔵 NEWS",
+      "headline": "Barzani says Iraqi Kurdistan wants peace as regional tensions rise",
+      "briefing": {
+        "opening": [
+          "Barzani says Iraqi Kurdistan wants peace as regional tensions rise."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Barzani says Iraqi Kurdistan wants peace as regional tensions rise.",
+            "source": "Al Jazeera",
+            "item_id": "ae93586388e1cd6fee3c55a107844cd0f0a73fff162a39a29f7a5761f646626f"
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/barzani-says-iraqi-kurdistan-wants-peace-as-regional-tensions-rise?traffic_source=rss"
       },
       "group_size": 1,
       "label": "🔵 NEWS"
