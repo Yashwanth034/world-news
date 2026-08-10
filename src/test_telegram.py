@@ -3,6 +3,7 @@
 Run with:  .venv/bin/python -m pytest src/test_telegram.py -q
 """
 import json
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -186,6 +187,30 @@ def fake_publisher(dry_run_default=False):
 
 def dt_to_iso(dt):
     return dt.isoformat()
+
+
+DISTINCT_STORM_FACTS = [
+    "Rescue teams reached the village by helicopter.",
+    "The river rose one metre overnight.",
+    "Evacuation orders covered five villages.",
+    "Officials closed the main highway at dawn.",
+    "The dam released water into the reservoir.",
+    "Mobile phone networks failed across the district.",
+    "Shelters housed nearly 2,000 displaced families.",
+    "Emergency crews restored power to the hospital.",
+    "The storm damaged more than 300 buildings.",
+    "Farmers reported heavy losses of livestock.",
+    "Schools remained closed for a second day.",
+    "The railway line was blocked by flooding.",
+    "Drinking water supplies were contaminated.",
+    "Volunteers delivered food parcels by boat.",
+    "Weather services forecast further heavy rain.",
+    "The prime minister promised emergency funding.",
+    "International agencies offered technical support.",
+    "Local authorities set up a coordination centre.",
+    "The airport reopened for domestic flights.",
+    "Engineers inspected the damaged bridge.",
+]
 
 
 def scheduled_entry(
@@ -721,9 +746,7 @@ def test_briefing_label_rendered_above_headline():
     ):
         msg = build_message(briefing_item(label=label), CFG)
         assert label in msg["text"]
-        assert msg["text"].startswith(
-            "WorldNews\U0001F30E:\n\n" + label + "\n"
-        )
+        assert msg["text"].startswith(label + "\n\n")
         position = msg["text"].index(label)
         headline_pos = msg["text"].index(
             "<b>"
@@ -732,69 +755,58 @@ def test_briefing_label_rendered_above_headline():
 
 
 def test_breaking_visual_label():
-    assert BREAKING == "\U0001F534 BREAKING"
+    assert BREAKING == "\U0001F6A8 BREAKING"
     msg = build_message(
         briefing_item(label=BREAKING),
         CFG,
     )
     assert msg["text"].startswith(
-        "WorldNews\U0001F30E:\n\n"
-        "\U0001F534 BREAKING\n"
+        "\U0001F6A8 BREAKING\n\n"
     )
 
 
 def test_just_in_visual_label():
-    assert JUST_IN == "\U0001F7E1 JUST IN"
+    assert JUST_IN == "\u26A1 JUST IN"
     msg = build_message(
         briefing_item(label=JUST_IN),
         CFG,
     )
     assert msg["text"].startswith(
-        "WorldNews\U0001F30E:\n\n"
-        "\U0001F7E1 JUST IN\n"
+        "\u26A1 JUST IN\n\n"
     )
 
 
 def test_news_visual_label():
-    assert NEWS == "\U0001F535 NEWS"
+    assert NEWS == "\U0001F4F0 NEWS"
     msg = build_message(
         briefing_item(label=NEWS),
         CFG,
     )
     assert msg["text"].startswith(
-        "WorldNews\U0001F30E:\n\n"
-        "\U0001F535 NEWS\n"
+        "\U0001F4F0 NEWS\n\n"
     )
 
 
 def test_update_visual_label():
-    assert UPDATE == "\U0001F7E0 UPDATE"
+    assert UPDATE == "\U0001F504 UPDATE"
     msg = build_message(
         briefing_item(label=UPDATE),
         CFG,
     )
     assert msg["text"].startswith(
-        "WorldNews\U0001F30E:\n\n"
-        "\U0001F7E0 UPDATE\n"
+        "\U0001F504 UPDATE\n\n"
     )
 
 
-def test_region_line_rendered_when_evidence_exists():
+def test_region_line_never_rendered_even_with_evidence():
     msg = build_message(
         briefing_item(
             region="East Asia",
         ),
         CFG,
     )
-    assert "\U0001F30F EAST ASIA" in msg["text"]
-    assert (
-        msg["text"].index("\U0001F30F EAST ASIA")
-        > msg["text"].index(NEWS)
-    )
-    assert (
-        msg["text"].index("\U0001F30F EAST ASIA")
-        < msg["text"].index("<b>")
-    )
+    assert "\U0001F30F EAST ASIA" not in msg["text"]
+    assert "EAST ASIA" not in msg["text"]
 
 
 def test_region_line_omitted_without_evidence():
@@ -860,13 +872,18 @@ def test_paragraph_spacing_uses_blank_lines():
     )
     text = msg["text"]
     assert NEWS + "\n\n" in text
-    assert "\U0001F30D AFRICA\n\n" in text
+    assert "\U0001F30D AFRICA" not in text
     assert "</b>\n\n" in text
-    assert "The opening paragraph sentence.\n\n" in text
-    assert "The body paragraph sentence.\n\n" in text
+    assert "The opening paragraph sentence." in text
+    assert "The body paragraph sentence." in text
+    assert (
+        "The body paragraph sentence.\n\n"
+        "\U0001F4F0 Source: BBC World"
+        in text
+    )
 
 
-def test_impact_bullet_rendered_plain():
+def test_impact_bullet_never_rendered():
     msg = build_message(
         briefing_item(
             bullets=[
@@ -879,11 +896,12 @@ def test_impact_bullet_rendered_plain():
         ),
         CFG,
     )
-    assert "\u2022 Nearly 100,000 people" in msg["text"]
+    assert "\u2022 Nearly 100,000 people" not in msg["text"]
+    assert "nearly 100,000 people" not in msg["text"]
     assert "**IMPACT**" not in msg["text"]
 
 
-def test_status_bullet_rendered_plain():
+def test_status_bullet_never_rendered():
     msg = build_message(
         briefing_item(
             bullets=[
@@ -896,11 +914,11 @@ def test_status_bullet_rendered_plain():
         ),
         CFG,
     )
-    assert "\u2022 Out of control" in msg["text"]
+    assert "\u2022 Out of control" not in msg["text"]
     assert "**STATUS**" not in msg["text"]
 
 
-def test_next_bullet_rendered_plain():
+def test_next_bullet_never_rendered():
     msg = build_message(
         briefing_item(
             bullets=[
@@ -917,14 +935,14 @@ def test_next_bullet_rendered_plain():
     assert (
         "\u2022 The storm is expected to "
         "weaken by morning."
-        in msg["text"]
+        not in msg["text"]
     )
     assert "**NEXT**" not in msg["text"]
 
 
-def test_location_bullet_rendered_plain():
+def test_location_bullet_never_rendered():
     msg = build_message(briefing_item(), CFG)
-    assert "\u2022 British Columbia" in msg["text"]
+    assert "\u2022 British Columbia" not in msg["text"]
     assert "**LOCATION**" not in msg["text"]
 
 
@@ -942,7 +960,29 @@ def test_only_known_bullet_labels_rendered():
         CFG,
     )
     assert "Mystery" not in msg["text"]
-    assert "\u2022 Unsupported section" in msg["text"]
+    assert "\u2022 Unsupported section" not in msg["text"]
+    assert "unsupported section" not in msg["text"]
+
+
+def test_no_bullets_anywhere():
+    msg = build_message(
+        briefing_item(
+            bullets=[
+                {
+                    "icon": "\U0001F465",
+                    "label": "Impact",
+                    "text": "nearly 100,000 people",
+                },
+                {
+                    "icon": "\U0001F4CD",
+                    "label": "Location",
+                    "text": "British Columbia",
+                },
+            ]
+        ),
+        CFG,
+    )
+    assert "\u2022" not in msg["text"]
 
 
 def test_no_decorative_dividers():
@@ -987,7 +1027,7 @@ def test_source_footer_attribution():
     assert "**SOURCE:**" not in msg["text"]
 
 
-def test_corroboration_listed_in_footer():
+def test_corroboration_never_listed():
     msg = build_message(
         briefing_item(
             corroborating=["Al Jazeera"],
@@ -998,7 +1038,8 @@ def test_corroboration_listed_in_footer():
         "\U0001F4F0 Source: BBC World"
         in msg["text"]
     )
-    assert "Corroborated by: Al Jazeera" in msg["text"]
+    assert "Corroborated by" not in msg["text"]
+    assert "Al Jazeera" not in msg["text"]
 
 
 def test_read_more_link_clickable():
@@ -1055,7 +1096,8 @@ def test_five_plus_sentences_when_information_exists():
 
 def test_short_source_fallback_no_filler():
     x = item(
-        summary="Only one useful sentence.",
+        summary="Only one useful sentence. A second "
+        "sentence explains more of the story.",
     )
     msg = build_message(x, CFG)
     assert "Only one useful sentence." in msg["text"]
@@ -1077,13 +1119,9 @@ def test_no_invented_facts():
 
 
 def test_3000_character_maximum():
-    body = [
-        "This is a complete sentence number %d in the "
-        "briefing body paragraph." % i
-        for i in range(300)
-    ]
+    facts = DISTINCT_STORM_FACTS
     msg = build_message(
-        briefing_item(opening=body[:1], body=body[1:]),
+        briefing_item(opening=facts[:1], body=facts[1:]),
         CFG,
     )
     assert telegram_visible_len(msg["text"]) <= 3000
@@ -1091,9 +1129,9 @@ def test_3000_character_maximum():
 
 def test_sentence_safe_truncation():
     body = [
-        "First complete sentence of the long briefing.",
-        "Second complete sentence of the long briefing.",
-        "Third complete sentence of the long briefing.",
+        "The fire has spread over 36 sq miles of forest.",
+        "Officials ordered 20,000 residents to evacuate.",
+        "The evacuation shelters opened at dawn.",
     ]
     msg = build_message(
         briefing_item(opening=body[:1], body=body[1:]),
@@ -1127,8 +1165,11 @@ def test_duplicate_sentence_protection_in_rendered_message():
         briefing=briefing,
     )
     msg = build_message(en, CFG)
-    assert "\u2022 " + next_sentence in msg["text"]
+    # The "Next" sentence survives as a body sentence in the
+    # final paragraph (the old bullet rendering is gone).
+    assert next_sentence in msg["text"]
     assert msg["text"].count(next_sentence) == 1
+    assert "\u2022" not in msg["text"]
 
 
 def test_no_internal_values_in_output():
@@ -1646,14 +1687,19 @@ def test_publish_due_same_call_two_entries_enforce_gap():
 # ---------------------------------------------------------
 
 
-def test_header_present_first():
+def test_no_channel_header_first():
     msg = build_message(briefing_item(), CFG)
     text = msg["text"]
-    assert text.startswith("WorldNews\U0001F30E:")
-    assert "WorldNews\U0001F30E:\n\n" in text
+    assert "WorldNews" not in text
+    assert not text.startswith("WorldNews\U0001F30E:")
+    assert text.startswith(NEWS + "\n\n")
 
 
-def test_headline_duplicate_removed_from_body():
+def test_headline_duplicate_reduces_story_below_minimum():
+    # The opening sentence restates the headline (its only
+    # new detail sits in a trailing subordinate clause), so
+    # the story collapses to one genuinely useful sentence
+    # and must not be published.
     msg = build_message(
         briefing_item(
             headline=(
@@ -1673,18 +1719,7 @@ def test_headline_duplicate_removed_from_body():
         ),
         CFG,
     )
-    text = msg["text"]
-    assert (
-        "<b>Nagasaki mayor says 'humanity and nuclear "
-        "weapons cannot coexist'</b>"
-        in text
-    )
-    assert "as Japan marks the anniversary" not in text
-    assert (
-        "The mayor made the remark during the annual "
-        "ceremony in the city."
-        in text
-    )
+    assert msg is None
 
 
 def test_html_entity_apostrophe_unescaped():
@@ -1767,7 +1802,9 @@ def test_fallback_filler_and_paraphrase_removed():
             "Market falls after central bank decision. "
             "This is a breaking news story. "
             "The central bank cut its benchmark rate "
-            "to 3.5 percent."
+            "to 3.5 percent. "
+            "Traders said the cut was larger than "
+            "expected."
         ),
     )
     msg = build_message(x, CFG)
@@ -1848,6 +1885,12 @@ def test_strip_boilerplate_removes_publisher_fragments():
         "Read more: The backlash is growing."
     ) == "The backlash is growing."
     assert strip_boilerplate(
+        "Follow our live blog for the latest developments."
+    ) == ""
+    assert strip_boilerplate(
+        "Follow our live blog for the latest updates."
+    ) == ""
+    assert strip_boilerplate(
         "The Guardian view on the budget"
     ) == "The Guardian view on the budget"
     assert strip_boilerplate(
@@ -1871,6 +1914,39 @@ def test_clean_sentence_text_strips_boilerplate():
     ) == (
         "In the foreground, in a man\u2019s hand was "
         "an iPhone unlocked."
+    )
+    assert clean_sentence_text(
+        "Yemen\u2019s military said seven people were "
+        "killed. Follow our live blog for the latest "
+        "developments."
+    ) == (
+        "Yemen\u2019s military said seven people were "
+        "killed."
+    )
+
+
+def test_clean_sentence_text_removes_series_fragment():
+    assert clean_sentence_text(
+        "Total solar eclipse (2/4) A total solar eclipse "
+        "will sweep across northern Spain on August 12 in "
+        "one of Europe\u2019s most anticipated astronomical "
+        "events of the decade."
+    ) == (
+        "A total solar eclipse will sweep across northern "
+        "Spain on August 12 in one of Europe\u2019s most "
+        "anticipated astronomical events of the decade."
+    )
+
+
+def test_clean_sentence_text_removes_whole_fragment_sentence():
+    assert clean_sentence_text(
+        "Total solar eclipse (2/4)."
+    ) == ""
+    assert clean_sentence_text(
+        "Total solar eclipse (2/4) The eclipse will be "
+        "visible across the UK."
+    ) == (
+        "The eclipse will be visible across the UK."
     )
 
 
@@ -1996,14 +2072,35 @@ def test_fallback_message_strips_boilerplate_and_near_dups():
         ),
         CFG,
     )
+    # Two near-duplicates collapse to one genuinely useful
+    # sentence: below the publishable minimum of two.
+    assert msg is None
+
+
+def test_fallback_message_collapses_near_dups_and_keeps_others():
+    summary = (
+        "The Bald Range wildfire in British Columbia "
+        "has spread over more than 36 sq miles. "
+        "The Bald Range wildfire in British Columbia "
+        "has spread to more than 36 sq miles. "
+        "Officials said 20,000 people have been "
+        "ordered to evacuate. "
+        "Continue reading..."
+    )
+    msg = build_message(
+        item(
+            title="Canada wildfire doubles in size",
+            summary=summary,
+        ),
+        CFG,
+    )
+    assert msg is not None
     text = msg["text"]
     assert "Continue reading" not in text
-    assert (
-        "spread over more than 36 sq miles"
-        in text
-    )
+    assert "spread over more than 36 sq miles" in text
     assert "spread to more than 36 sq miles" not in text
     assert text.count("36 sq miles") == 1
+    assert "20,000 people" in text
 
 
 def test_impact_bullet_requires_a_digit():
@@ -2167,7 +2264,9 @@ def test_informative_summary_rendered():
             title="Yemeni army warns Houthis after "
             "attacks heighten escalation risk",
             summary="The strikes killed five people and "
-            "wounded around two dozen others.",
+            "wounded around two dozen others. "
+            "Officials said the port had been closed "
+            "since the attack.",
         ),
         CFG,
     )
@@ -2183,7 +2282,9 @@ def test_informative_sentence_survives_headline_duplicate():
             summary="Yemeni army warns Houthis after "
             "attacks heighten escalation risk. "
             "The strikes killed five people and wounded "
-            "around two dozen others.",
+            "around two dozen others. "
+            "Officials said the port had been closed "
+            "since the attack.",
         ),
         CFG,
     )
@@ -2309,3 +2410,402 @@ def test_non_news_candidate_filtered_by_source():
     ]
 
     assert [c["story_id"] for c in kept] == ["b"]
+
+
+# ---------------------------------------------------------------------------
+# FIX 1 - HTML entity cleanup at message level
+# ---------------------------------------------------------------------------
+
+class TestMessageHtmlEntities:
+    def test_message_quot_renders_as_literal_quote(self):
+        msg = build_message(
+            briefing_item(
+                opening=[
+                    'Officials said "we have to brace '
+                    'ourselves" for the worst.',
+                ],
+            ),
+            CFG,
+        )
+        assert '"we have to brace ourselves"' in msg["text"]
+        assert "&quot;" not in msg["text"]
+
+    def test_message_url_unchanged(self):
+        url = "https://www.bbc.co.uk/news/articles/abc?cmp=RSS&s=2"
+        msg = build_message(
+            briefing_item(url=url),
+            CFG,
+        )
+        href = re.search(
+            r"href=\"([^\"]*)\"", msg["text"]
+        ).group(1)
+        # The href is escaped for the attribute but the URL
+        # text itself is never decoded or rewritten.
+        assert "amp;" in href
+        assert url.replace("&", "&amp;") == href
+        assert url in msg["text"].replace("&amp;", "&")
+
+
+# ---------------------------------------------------------------------------
+# FIX 3 - minimum two meaningful explanatory sentences
+# ---------------------------------------------------------------------------
+
+
+class TestMinimumTwoSentences:
+    # Helper that builds a queue item with exact control over
+    # the briefing rows (briefing_item() injects default rows).
+    @staticmethod
+    def bare(
+        opening,
+        body,
+        bullets=None,
+        headline="Canada wildfire doubles in size",
+        title="State of emergency declared as fast-moving "
+        "Canada wildfire doubles in size",
+    ):
+        return {
+            "story_id": "s-bare",
+            "item_id": "i1",
+            "event_id": "e1",
+            "title": title,
+            "headline": headline,
+            "summary": opening[0] if opening else "",
+            "source": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/abc123",
+            "label": NEWS,
+            "public_label": NEWS,
+            "priority_level": "NORMAL",
+            "priority_score": 40,
+            "effective_at": now_utc().isoformat(),
+            "briefing": {
+                "opening": opening,
+                "body": body,
+                "bullets": bullets or [],
+                "sentences": [
+                    {"text": t, "source": "BBC World"}
+                    for t in opening + body
+                ],
+                "source": "BBC World",
+            },
+        }
+
+    def test_one_useful_sentence_rejected(self):
+        msg = build_message(
+            self.bare(
+                opening=["The fire has spread to 36 sq miles."],
+                body=[],
+            ),
+            CFG,
+        )
+        assert msg is None
+
+    def test_two_useful_sentences_accepted(self):
+        msg = build_message(
+            self.bare(
+                opening=["The fire has spread to 36 sq miles."],
+                body=["Officials said 20,000 people have fled."],
+            ),
+            CFG,
+        )
+        assert msg is not None
+        assert "36 sq miles" in msg["text"]
+        assert "20,000 people" in msg["text"]
+
+    def test_headline_plus_one_sentence_rejected(self):
+        msg = build_message(
+            self.bare(
+                opening=["The fire has spread to 36 sq miles."],
+                body=[],
+                headline="Wildfire grows in Canada",
+                title="Wildfire grows in Canada",
+            ),
+            CFG,
+        )
+        assert msg is None
+
+    def test_headline_duplicate_plus_one_real_sentence_rejected(self):
+        msg = build_message(
+            self.bare(
+                opening=["Wildfire grows in Canada."],
+                body=["The fire has spread to 36 sq miles."],
+                headline="Wildfire grows in Canada",
+                title="Wildfire grows in Canada",
+            ),
+            CFG,
+        )
+        assert msg is None
+
+    def test_one_narrative_sentence_plus_duplicate_bullet_rejected(self):
+        opening = ["The fire has spread to 36 sq miles."]
+        msg = build_message(
+            self.bare(
+                opening=opening,
+                body=[],
+                bullets=[
+                    {
+                        "icon": "\U0001F4CD",
+                        "label": "Location",
+                        "text": "The fire has spread to 36 sq miles.",
+                    },
+                    {
+                        "icon": "\u26A0\uFE0F",
+                        "label": "Status",
+                        "text": "out of control",
+                    },
+                ],
+            ),
+            CFG,
+        )
+        assert msg is None
+
+    def test_two_narrative_sentences_with_bullets_accepted(self):
+        opening = [
+            "The fire has spread to 36 sq miles.",
+            "Officials said 20,000 people have fled.",
+        ]
+        msg = build_message(
+            self.bare(
+                opening=opening,
+                body=[],
+                bullets=[
+                    {
+                        "icon": "\U0001F4CD",
+                        "label": "Location",
+                        "text": "British Columbia",
+                    },
+                ],
+            ),
+            CFG,
+        )
+        assert msg is not None
+
+    def test_fallback_single_sentence_rejected(self):
+        msg = build_message(
+            item(
+                summary="Only one explanatory sentence here.",
+            ),
+            CFG,
+        )
+        assert msg is None
+
+
+# ---------------------------------------------------------------------------
+# FINAL WorldNews format
+#
+# [ONE LABEL]
+#
+# [Clear headline]
+#
+# [2-8 useful explanatory sentences]
+#
+# 📰 Source: [source name]
+#
+# 🔗 Read the full report
+#
+# Nothing else: no channel header, bullets, region lines,
+# corroboration text, decorative lines or internal fields.
+# ---------------------------------------------------------------------------
+
+
+class TestFinalWorldNewsFormat:
+    def test_exact_message_structure(self):
+        msg = build_message(
+            briefing_item(
+                opening=[
+                    "The Bald Range wildfire in British "
+                    "Columbia has spread over more than "
+                    "36 sq miles.",
+                ],
+                body=[
+                    "A fast-moving wildfire has forced "
+                    "more than 20,000 people to "
+                    "evacuate.",
+                ],
+            ),
+            CFG,
+        )
+        text = msg["text"]
+        expected = (
+            NEWS
+            + "\n\n"
+            + "<b>Canada wildfire doubles in size</b>"
+            + "\n\n"
+            + "The Bald Range wildfire in British "
+            + "Columbia has spread over more than "
+            + "36 sq miles. "
+            + "A fast-moving wildfire has forced more "
+            + "than 20,000 people to evacuate."
+            + "\n\n"
+            + "\U0001F4F0 Source: BBC World"
+            + "\n\n"
+            + '\U0001F517 <a href="https://www.bbc.co.uk/'
+            + 'news/articles/abc123">Read the full report</a>'
+        )
+        assert text == expected
+
+    def test_no_forbidden_elements_anywhere(self):
+        opening = [
+            "The Bald Range wildfire in British "
+            "Columbia has spread over more than "
+            "36 sq miles.",
+        ]
+        body = [
+            "A fast-moving wildfire has forced more "
+            "than 20,000 people to evacuate.",
+        ]
+        msg = build_message(
+            briefing_item(
+                region="North America",
+                opening=opening,
+                body=body,
+                corroborating=["Al Jazeera"],
+                bullets=[
+                    {
+                        "icon": "\U0001F4CD",
+                        "label": "Location",
+                        "text": "British Columbia",
+                    },
+                    {
+                        "icon": "\U0001F465",
+                        "label": "Impact",
+                        "text": "more than 20,000 people",
+                    },
+                ],
+            ),
+            CFG,
+        )
+        text = msg["text"]
+        assert "WorldNews" not in text
+        assert "\u2022" not in text
+        assert "\u2501" not in text
+        assert "NORTH AMERICA" not in text
+        assert "Corroborated" not in text
+        assert "Al Jazeera" not in text
+        assert "LOCATION" not in text
+        assert "IMPACT" not in text
+        assert "NEXT" not in text
+        assert "STATUS" not in text
+        assert "This is a breaking news story" not in text
+        assert "**" not in text
+        assert text.count("\U0001F4F0 Source:") == 1
+        assert text.count("\U0001F517") == 1
+        assert text.count("<b>") == 1
+        assert text.count("</b>") == 1
+
+    def test_max_eight_explanatory_sentences(self):
+        facts = DISTINCT_STORM_FACTS[:10]
+        msg = build_message(
+            briefing_item(opening=facts[:2], body=facts[2:]),
+            CFG,
+        )
+        text = msg["text"]
+        # The first eight sentences are kept in order.
+        for i in range(8):
+            assert facts[i] in text
+        # The ninth and tenth are dropped, never padded in.
+        for i in (8, 9):
+            assert facts[i] not in text
+
+    def test_two_sentences_rendered_when_available(self):
+        msg = build_message(
+            briefing_item(
+                opening=[
+                    "The fire has spread to 36 sq miles.",
+                ],
+                body=[
+                    "Officials said 20,000 people have "
+                    "fled.",
+                ],
+            ),
+            CFG,
+        )
+        text = msg["text"]
+        assert "The fire has spread to 36 sq miles." in text
+        assert "Officials said 20,000 people have fled." in text
+
+    def test_paragraph_never_forced_to_eight_sentences(self):
+        msg = build_message(
+            briefing_item(
+                opening=[
+                    "The fire has spread to 36 sq miles.",
+                ],
+                body=[
+                    "Officials said 20,000 people have "
+                    "fled.",
+                ],
+            ),
+            CFG,
+        )
+        text = msg["text"]
+        # Exactly the two useful sentences: nothing invented,
+        # nothing padded to reach a target length.
+        assert "The fire has spread to 36 sq miles." in text
+        assert "Officials said 20,000 people have fled." in text
+        assert ". " in text
+        assert text.count(". ") <= 2
+
+    def test_article_sentences_render_in_paragraph(self):
+        # Article-enriched rows (no punctuation issues) flow
+        # into the body paragraph verbatim.
+        opening = [
+            "The port was closed to all shipping "
+            "overnight.",
+        ]
+        body = [
+            "Two vessels were rerouted to alternate "
+            "harbours.",
+            "Authorities said the closure would last "
+            "at least 48 hours.",
+        ]
+        msg = build_message(
+            briefing_item(opening=opening, body=body),
+            CFG,
+        )
+        text = msg["text"]
+        assert (
+            "The port was closed to all shipping "
+            "overnight. "
+            "Two vessels were rerouted to alternate "
+            "harbours. "
+            "Authorities said the closure would last "
+            "at least 48 hours."
+            in text
+        )
+
+    def test_read_more_link_points_to_original_source(self):
+        url = (
+            "https://www.theguardian.com/world/2026/"
+            "aug/10/typhoon-dolphin-china"
+        )
+        msg = build_message(
+            briefing_item(url=url),
+            CFG,
+        )
+        assert (
+            '\U0001F517 <a href="' + url + '">'
+            "Read the full report</a>"
+            in msg["text"]
+        )
+
+    def test_label_headline_footer_never_dropped_when_over_budget(
+        self,
+    ):
+        facts = DISTINCT_STORM_FACTS
+        msg = build_message(
+            briefing_item(
+                opening=facts[:1],
+                body=facts[1:],
+            ),
+            {"target_message_chars": 400, "max_message_chars": 400},
+        )
+        text = msg["text"]
+        assert NEWS in text
+        assert "<b>Canada wildfire doubles in size</b>" in text
+        assert "\U0001F4F0 Source: BBC World" in text
+        assert "Read the full report" in text
+        assert telegram_visible_len(text) <= 400
+        # Whole sentences are dropped before any mid-sentence
+        # cut: every remaining sentence is intact.
+        for sentence in DISTINCT_STORM_FACTS:
+            if sentence in text:
+                assert sentence in text

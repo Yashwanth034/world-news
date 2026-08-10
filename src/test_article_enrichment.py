@@ -234,3 +234,152 @@ class TestArticleEnrichmentPipeline:
         ]
         story = build_telegram_stories(cands, cfg, NOW)[0]
         assert len(story["briefing"]["sentences"]) == 12
+
+
+# ---------------------------------------------------------------------------
+# FIX 3 - minimum two meaningful explanatory sentences (pipeline level)
+# ---------------------------------------------------------------------------
+
+
+class TestMinimumTwoSentencesPipeline:
+    def test_article_one_sentence_rejected_without_rss(self):
+        # Article extraction yields a single sentence and the
+        # RSS summary is headline-only: the story has no
+        # explanatory content at all and is dropped.
+        cands = [
+            candidate(
+                summary=(
+                    "A fast-moving Canada wildfire doubles "
+                    "in size."
+                ),
+                article_sentences=[
+                    "Officials said the fire remained "
+                    "dangerous.",
+                ],
+            )
+        ]
+        stories = build_telegram_stories(cands, CFG, NOW)
+        assert stories == []
+
+    def test_article_one_sentence_still_rejected_with_one_rss_sentence(self):
+        # One useful RSS sentence is not enough: a single
+        # article sentence is never attached to the briefing
+        # (article enrichment requires at least two), so the
+        # story stays below the two-sentence gate.
+        cands = [
+            candidate(
+                summary=(
+                    "A fast-moving Canada wildfire doubles "
+                    "in size. Officials said 20,000 residents "
+                    "have been forced from their homes."
+                ),
+                article_sentences=[
+                    "Officials said the fire remained "
+                    "dangerous.",
+                ],
+            )
+        ]
+        stories = build_telegram_stories(cands, CFG, NOW)
+        assert len(stories) == 1
+        msg = build_message(stories[0], CFG, NOW)
+        assert msg is None
+
+    def test_article_accepted_when_rss_provides_second_useful_sentence(self):
+        cands = [
+            candidate(
+                summary=(
+                    "A fast-moving Canada wildfire doubles "
+                    "in size. Officials said 20,000 residents "
+                    "have been forced from their homes. "
+                    "Crews are working through the night to "
+                    "contain the blaze."
+                ),
+                article_sentences=[
+                    "Officials said the fire remained "
+                    "dangerous.",
+                ],
+            )
+        ]
+        stories = build_telegram_stories(cands, CFG, NOW)
+        assert len(stories) == 1
+        msg = build_message(stories[0], CFG, NOW)
+        assert msg is not None
+
+    def test_article_two_sentences_accepted(self):
+        cands = [
+            candidate(
+                summary=(
+                    "A fast-moving Canada wildfire doubles "
+                    "in size."
+                ),
+                article_sentences=[
+                    "Officials said the fire remained "
+                    "dangerous.",
+                    "Crews are protecting the town of "
+                    "Ashcroft from the flames.",
+                ],
+            )
+        ]
+        stories = build_telegram_stories(cands, CFG, NOW)
+        assert len(stories) == 1
+        msg = build_message(stories[0], CFG, NOW)
+        assert msg is not None
+
+    def test_maximum_ten_meaningful_sentences_preserved(self):
+        cfg = dict(CFG)
+        cfg["max_briefing_sentences"] = 10
+        article = [
+            "The Bald Range wildfire has grown to cover 36 "
+            "square miles.",
+            "Officials said 20,000 residents have been "
+            "evacuated so far.",
+            "Crews are dropping water on the blaze from "
+            "helicopters.",
+            "The fire started near the town of Ashcroft on "
+            "Sunday.",
+            "Winds of up to 40 mph are pushing the flames "
+            "northeast.",
+            "Authorities have declared a state of emergency "
+            "in the region.",
+            "Smoke is drifting across the border into "
+            "Alberta.",
+            "Local shelters are reporting they are at "
+            "capacity.",
+            "Evacuation orders now cover eight communities.",
+            "Temperatures are forecast to stay above 30 "
+            "degrees this week.",
+            "Police are patrolling evacuated neighbourhoods "
+            "to deter looters.",
+            "Power lines have been cut to prevent new "
+            "ignitions.",
+            "Rail services through the valley have been "
+            "suspended.",
+            "The province has asked the military for "
+            "assistance.",
+            "Air quality readings in Kamloops reached "
+            "hazardous levels.",
+            "Wildlife officers are moving animals away from "
+            "the fire zone.",
+            "A donation fund has been set up for displaced "
+            "families.",
+        ]
+        cands = [
+            candidate(
+                summary=(
+                    "A fast-moving Canada wildfire doubles "
+                    "in size."
+                ),
+                article_sentences=article,
+            )
+        ]
+        stories = build_telegram_stories(cands, cfg, NOW)
+        assert len(stories) == 1
+        rows = stories[0]["briefing"]["sentences"]
+        assert len(rows) <= 10
+        # Every retained row must carry real text; the
+        # headline-only RSS sentence never enters the list.
+        assert all(r["text"] for r in rows)
+        assert any("evacuated" in r["text"] for r in rows)
+        assert any("helicopters" in r["text"] for r in rows)
+        msg = build_message(stories[0], cfg, NOW)
+        assert msg is not None

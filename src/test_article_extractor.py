@@ -617,7 +617,7 @@ class TestEnrichThinStories:
             "story-1",
             "https://www.bbc.co.uk/news/articles/c1234",
             "http_error",
-            now=NOW,
+            now=datetime.now(timezone.utc),
         )
         out, stats = enrich_thin_stories(
             candidates=[candidate()],

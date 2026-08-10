@@ -1,25 +1,42 @@
 """Telegram message formatting for news briefings.
 
-Renders the enriched briefing produced by telegram_briefing:
-public label above a bold headline, opening paragraph,
-optional evidence-based bullets, body paragraphs, and a
-source/read-more footer.
+Renders the enriched briefing produced by telegram_briefing in
+the final WorldNews message format:
+
+    [ONE LABEL]
+
+    [Clear headline]
+
+    [2-8 useful explanatory sentences]
+
+    \U0001F4F0 Source: [source name]
+
+    \U0001F517 Read the full report
+
+Nothing else appears in the message: no channel header, no
+bullets, no region/location/status sections, no corroboration
+text, no decorative lines. Every sentence is verbatim source
+evidence; nothing is invented.
 
 Safety rules:
-- The footer (source + link) is never dropped.
-- Truncation removes whole sentences/parts, never cutting
-  a sentence in the middle.
+- The footer (source + link) and the headline are never
+  dropped.
+- A story with fewer than 2 genuinely useful explanatory
+  sentences is not published (build_message returns None).
+- Truncation removes whole sentences, never cutting a
+  sentence in the middle.
 - Character budget is counted the way Telegram does
   (CJK/emoji count double).
 """
-import html
 import re
 
 from src.formatter import clean
 from src.telegram_briefing import (
+    _normalized,
     clean_headline,
     clean_sentence_text,
-    has_meaningful_sentence,
+    count_meaningful_sentences,
+    decode_html_entities,
     is_filler,
     is_headline_paraphrase,
     is_near_duplicate,
@@ -43,6 +60,13 @@ EMOJI_RE = re.compile(
 )
 
 HTML_ENTITY_RE = re.compile(r"&[a-zA-Z#0-9]+;")
+
+# The final message carries 2-8 useful explanatory sentences:
+# never fewer than two (below that the story is not
+# published) and never more than eight (extra sentences are
+# dropped, never padded).
+MIN_EXPLANATORY_SENTENCES = 2
+MAX_EXPLANATORY_SENTENCES = 8
 
 
 def telegram_visible_len(text):
@@ -98,12 +122,31 @@ def truncate_by_char_limit(
 
 
 def escape_html(text):
-    # Unescape source HTML entities first so literal
+    # Unescape source HTML entities first (including
+    # double-encoded quotation entities) so literal
     # &amp; / &#039; / &lt; / &gt; / &quot; / &apos; never
     # reach Telegram, then escape exactly once. Raw text
     # like "can&#039;t" renders as "can't"; "&amp;" as "&".
+    # Quotation marks are left as literal characters:
+    # Telegram's HTML parser accepts them in text content,
+    # and escaping them would leak raw "&quot;" artifacts
+    # into the message. Ampersands, angle brackets and the
+    # apostrophe require no special handling for quotes.
     return (
-        html.unescape(str(text or ""))
+        decode_html_entities(str(text or ""))
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+
+
+def escape_html_attr(text):
+    """Escape for an HTML attribute value (e.g. the Read
+    More href). Unlike escape_html, source entities are
+    never decoded: the URL is never modified, only escaped
+    so the attribute stays well-formed."""
+    return (
+        str(text or "")
         .replace("&", "&amp;")
         .replace("<", "&lt;")
         .replace(">", "&gt;")
@@ -153,85 +196,11 @@ def sentence_safe_truncate(text, limit):
     return result
 
 
-CHANNEL_HEADER = "WorldNews\U0001F30E:"
-
-REGION_LINES = {
-    "NORTH AMERICA": "\U0001F30E NORTH AMERICA",
-    "LATIN AMERICA": "\U0001F30E LATIN AMERICA",
-    "SOUTH AMERICA": "\U0001F30E SOUTH AMERICA",
-    "EUROPE": "\U0001F30D EUROPE",
-    "AFRICA": "\U0001F30D AFRICA",
-    "MIDDLE EAST": "\U0001F30D MIDDLE EAST",
-    "EAST ASIA": "\U0001F30F EAST ASIA",
-    "SOUTHEAST ASIA": "\U0001F30F SOUTHEAST ASIA",
-    "SOUTH ASIA": "\U0001F30F SOUTH ASIA",
-    "CENTRAL ASIA": "\U0001F30F CENTRAL ASIA",
-    "ASIA-PACIFIC": "\U0001F30F ASIA-PACIFIC",
-    "OCEANIA": "\U0001F30F OCEANIA",
-    "WORLD": "\U0001F30D WORLD",
-    "GLOBAL": "\U0001F30D WORLD",
-}
-
-
-def region_line(item):
-    """Country/region line from existing reliable data only.
-
-    The pipeline only carries feed-level region evidence.
-    When none is present the line is omitted; nothing is
-    ever inferred from headlines or summaries.
-    """
-    region = item.get("region")
-
-    if not region:
-        return None
-
-    return REGION_LINES.get(
-        str(region).strip().upper()
-    )
-
-
-def render_bullets(bullets):
-    """Plain factual bullet lines, no section headers.
-
-    Bullets are literal evidence extracted from the source
-    material; they render as simple list lines so the label
-    stays the main visual indicator.
-    """
-    lines = []
-
-    for bullet in bullets:
-        text = clean_sentence_text(
-            bullet.get("text")
-        )
-
-        if not text:
-            continue
-
-        text = text[0].upper() + text[1:]
-
-        lines.append("\u2022 " + text)
-
-    return lines
-
-
-def render_source(
-    source,
-    corroborating,
-):
-    lines = [
+def render_source(source):
+    return (
         "\U0001F4F0 Source: "
-        + escape_html(source or "Unknown"),
-    ]
-
-    if corroborating:
-        lines.append(
-            "Corroborated by: "
-            + escape_html(
-                ", ".join(corroborating[:3])
-            )
-        )
-
-    return lines
+        + escape_html(source or "Unknown")
+    )
 
 
 def render_read_more(url):
@@ -239,40 +208,146 @@ def render_read_more(url):
         return None
 
     return (
-        "\U0001F517 <b><a href=\""
-        + escape_html(url)
-        + "\">Read the full report</a></b>"
+        "\U0001F517 <a href=\""
+        + escape_html_attr(url)
+        + "\">Read the full report</a>"
     )
 
 
+def _collect_explanatory_sentences(
+    texts,
+    headline,
+    max_sentences=MAX_EXPLANATORY_SENTENCES,
+):
+    """Filter source sentences into the final body.
+
+    Applies the exact same editorial filters as the briefing
+    pipeline (boilerplate removal, filler rejection,
+    headline-paraphrase rejection, dedup, near-duplicate
+    collapse) so the body never repeats the headline,
+    generic boilerplate, or an earlier sentence. Sentences
+    are kept in source order and capped at max_sentences:
+    a story simply carries fewer sentences when it has less
+    information, never padding to a fixed length.
+    """
+    kept = []
+    seen_keys = set()
+
+    for text in texts or []:
+
+        sentence = clean_sentence_text(text)
+
+        if not sentence:
+            continue
+
+        if not re.search(
+            r"[a-z0-9]",
+            sentence,
+            re.IGNORECASE,
+        ):
+            continue
+
+        if is_filler(sentence):
+            continue
+
+        if is_headline_paraphrase(
+            sentence,
+            headline,
+        ):
+            continue
+
+        key = _normalized(sentence)
+
+        if key in seen_keys:
+            continue
+
+        if any(
+            is_near_duplicate(
+                {"text": sentence},
+                {"text": kept_sentence},
+            )
+            for kept_sentence in kept
+        ):
+            continue
+
+        seen_keys.add(key)
+        kept.append(sentence)
+
+        if len(kept) >= max_sentences:
+            break
+
+    return kept
+
+
+def _render_final_message(
+    label,
+    headline,
+    sentences,
+    source,
+    url,
+    max_chars,
+):
+    """Render the final message from prepared parts.
+
+    Parts are joined with blank lines; nothing decorative is
+    added. The label, headline and footer are never dropped.
+    When the body exceeds the budget, whole sentences are
+    removed from the end (down to the minimum of two) before
+    any mid-sentence cut is attempted.
+    """
+    parts = []
+
+    if label:
+        parts.append(escape_html(label))
+
+    if headline:
+        parts.append(
+            "<b>" + escape_html(headline) + "</b>"
+        )
+
+    paragraph_index = len(parts)
+
+    paragraph = " ".join(sentences)
+
+    parts.append(escape_html(paragraph))
+    parts.append(render_source(source))
+
+    read_more = render_read_more(url)
+
+    if read_more:
+        parts.append(read_more)
+
+    body = "\n\n".join(parts)
+
+    while (
+        telegram_visible_len(body) > max_chars
+        and len(sentences) > MIN_EXPLANATORY_SENTENCES
+    ):
+        sentences.pop()
+        parts[paragraph_index] = escape_html(
+            " ".join(sentences)
+        )
+        body = "\n\n".join(parts)
+
+    if telegram_visible_len(body) > max_chars:
+        parts[paragraph_index] = sentence_safe_truncate(
+            parts[paragraph_index],
+            max_chars,
+        )
+        body = "\n\n".join(parts)
+
+    return body
+
+
 def build_briefing_message(item, max_chars):
-    """Render the enriched briefing into parts.
+    """Render the enriched briefing in the final format.
 
-    Visual hierarchy for mobile:
-
-        WorldNews🌎:
-
-        LABEL
-
-        **Headline**
-
-        opening paragraph
-
-        body paragraphs
-
-        • optional factual bullet lines
-
-        📰 Source: France 24
-        Corroborated by: BBC World
-
-        🔗 **Read the full report**
-
-    The headline is the main statement: body sentences
-    that merely restate it are dropped, as are generic
-    filler and duplicate sentences. No decorative dividers
-    and no Impact/Next/Status/Location sections. The
-    footer and headline are never dropped; truncation
-    removes whole sentences/parts only.
+    The body comes from the briefing's full evidence rows
+    (briefing["sentences"]), which retain every verbatim
+    sentence that survived the pipeline filters - including
+    sentences the old format diverted into bullets - so no
+    genuine fact is lost. Region lines, bullets, and
+    corroboration sections are never rendered.
     """
     briefing = item.get("briefing") or {}
 
@@ -296,249 +371,42 @@ def build_briefing_message(item, max_chars):
         or item.get("url")
     )
 
-    opening = briefing.get("opening") or []
-    body = briefing.get("body") or []
-    bullets = briefing.get("bullets") or []
-    corroborating = briefing.get(
-        "corroborating"
-    ) or []
+    rows = briefing.get("sentences") or []
 
-    # The body must add factual context, never repeat the
-    # headline, generic filler, or an earlier sentence.
-    # The opening/body boundary from the briefing is
-    # preserved.
-    from src.telegram_briefing import _normalized
-
-    kept_sentences = []
-    seen_keys = set()
-
-    for sentence in opening + body:
-
-        sentence = clean_sentence_text(sentence)
-
-        if not sentence:
-            continue
-
-        if is_filler(sentence):
-            continue
-
-        if is_headline_paraphrase(
-            sentence,
-            headline,
-        ):
-            continue
-
-        key = _normalized(sentence)
-
-        if key in seen_keys:
-            continue
-
-        if any(
-            is_near_duplicate(
-                {"text": sentence},
-                {"text": kept},
-            )
-            for kept in kept_sentences
-        ):
-            continue
-
-        seen_keys.add(key)
-        kept_sentences.append(sentence)
-
-    boundary = len(opening)
-    filtered = []
-    for index, sentence in enumerate(
-        kept_sentences
-    ):
-        if index < boundary:
-            filtered.append(sentence)
-
-    opening = filtered
-    body = kept_sentences[len(opening):]
-
-    bullets = [
-        b
-        for b in bullets
-        if not is_headline_paraphrase(
-            b.get("text") or "",
-            headline,
-        )
-    ]
-
-    parts = []
-
-    parts.append(
-        {
-            "text": CHANNEL_HEADER,
-            "priority": 1000,
-        }
-    )
-
-    if label:
-        parts.append(
-            {
-                "text": escape_html(label),
-                "priority": 1000,
-            }
-        )
-
-    region = region_line(item)
-
-    if region:
-        parts.append(
-            {
-                "text": region,
-                "priority": 1000,
-            }
-        )
-
-    if headline:
-        parts.append(
-            {
-                "text": "<b>"
-                + escape_html(headline)
-                + "</b>",
-                "priority": 1000,
-            }
-        )
-
-    if opening:
-        parts.append(
-            {
-                "text": escape_html(
-                    " ".join(opening)
-                ),
-                "priority": 90,
-            }
-        )
-
-    # Body paragraphs: two sentences per paragraph.
-    paragraphs = []
-    current = []
-
-    for sentence in body:
-        current.append(sentence)
-
-        if len(current) == 2:
-            paragraphs.append(
-                " ".join(current)
-            )
-            current = []
-
-    if current:
-        paragraphs.append(
-            " ".join(current)
-        )
-
-    for paragraph in paragraphs:
-        parts.append(
-            {
-                "text": escape_html(paragraph),
-                "priority": 70,
-            }
-        )
-
-    for line in render_bullets(bullets):
-        parts.append(
-            {
-                "text": line,
-                "priority": 80,
-            }
-        )
-
-    for line in render_source(
-        source,
-        corroborating,
-    ):
-        parts.append(
-            {
-                "text": line,
-                "priority": 1000,
-            }
-        )
-
-    read_more = render_read_more(url)
-
-    if read_more:
-        parts.append(
-            {
-                "text": read_more,
-                "priority": 1000,
-            }
-        )
-
-    # Drop lowest-priority removable parts until the
-    # message fits. Footer, label, region and headline are
-    # never dropped.
-    while True:
-        body_text = "\n\n".join(
-            p["text"] for p in parts
-        )
-
-        if telegram_visible_len(
-            body_text
-        ) <= max_chars:
-            break
-
-        removable = [
-            p for p in parts
-            if p["priority"] < 1000
+    if rows:
+        row_texts = [
+            row.get("text")
+            for row in rows
+            if row and row.get("text")
         ]
-
-        if not removable:
-            break
-
-        weakest = min(
-            removable,
-            key=lambda p: p["priority"],
+    else:
+        row_texts = (
+            (briefing.get("opening") or [])
+            + (briefing.get("body") or [])
         )
 
-        # Remove a single sentence when the weakest part
-        # is a multi-sentence paragraph.
-        if (
-            weakest["priority"] == 70
-            and ". " in weakest["text"]
-        ):
-            chunks = weakest["text"].split(". ")
-
-            if len(chunks) > 1:
-                weakest["text"] = (
-                    ". ".join(chunks[:-1])
-                )
-
-                if weakest["text"]:
-                    weakest["text"] += "."
-                continue
-
-        parts.remove(weakest)
-
-    body_text = "\n\n".join(
-        p["text"] for p in parts
+    sentences = _collect_explanatory_sentences(
+        row_texts,
+        headline,
     )
 
-    if telegram_visible_len(
-        body_text
-    ) > max_chars:
-        # Pathological single oversized sentence: cut at
-        # a word boundary.
-        for p in reversed(parts):
-            if p["priority"] < 1000:
-                p["text"] = truncate_by_char_limit(
-                    p["text"],
-                    max_chars,
-                )
-                break
+    if len(sentences) < MIN_EXPLANATORY_SENTENCES:
+        return None
 
-    body_text = "\n\n".join(
-        p["text"] for p in parts
+    return _render_final_message(
+        label,
+        headline,
+        sentences,
+        source,
+        url,
+        max_chars,
     )
-
-    return body_text
 
 
 def build_fallback_message(item, max_chars):
     """Fallback for items without an enriched briefing:
-    headline + verbatim summary sentences + footer."""
+    headline + verbatim summary sentences + footer, in the
+    same final format."""
     label = (
         item.get("public_label")
         or item.get("label")
@@ -554,144 +422,29 @@ def build_fallback_message(item, max_chars):
 
     from src.formatter import split_sentences
 
-    sentences = split_sentences(
-        item.get("summary")
+    sentences = _collect_explanatory_sentences(
+        split_sentences(item.get("summary")),
+        headline,
     )
 
-    kept_sentences = []
-    seen_keys = set()
+    if len(sentences) < MIN_EXPLANATORY_SENTENCES:
+        return None
 
-    for sentence in sentences:
-
-        sentence = clean_sentence_text(
-            sentence
-        )
-
-        if not sentence:
-            continue
-
-        if is_filler(sentence):
-            continue
-
-        if is_headline_paraphrase(
-            sentence,
-            headline,
-        ):
-            continue
-
-        from src.telegram_briefing import _normalized
-
-        key = _normalized(sentence)
-
-        if key in seen_keys:
-            continue
-
-        if any(
-            is_near_duplicate(
-                {"text": sentence},
-                {"text": kept},
-            )
-            for kept in kept_sentences
-        ):
-            continue
-
-        seen_keys.add(key)
-        kept_sentences.append(sentence)
-
-    parts = []
-
-    parts.append(
-        {
-            "text": CHANNEL_HEADER,
-            "priority": 1000,
-        }
-    )
-
-    if label:
-        parts.append(
-            {
-                "text": escape_html(label),
-                "priority": 1000,
-            }
-        )
-
-    region = region_line(item)
-
-    if region:
-        parts.append(
-            {
-                "text": region,
-                "priority": 1000,
-            }
-        )
-
-    if headline:
-        parts.append(
-            {
-                "text": "<b>"
-                + escape_html(headline)
-                + "</b>",
-                "priority": 1000,
-            }
-        )
-
-    for sentence in kept_sentences:
-        parts.append(
-            {
-                "text": escape_html(sentence),
-                "priority": 80,
-            }
-        )
-
-    for line in render_source(
+    return _render_final_message(
+        label,
+        headline,
+        sentences,
         source,
-        [],
-    ):
-        parts.append(
-            {
-                "text": line,
-                "priority": 1000,
-            }
-        )
-
-    read_more = render_read_more(url)
-
-    if read_more:
-        parts.append(
-            {
-                "text": read_more,
-                "priority": 1000,
-            }
-        )
-
-    while telegram_visible_len(
-        "\n\n".join(p["text"] for p in parts)
-    ) > max_chars:
-
-        removable = [
-            p for p in parts
-            if p["priority"] < 1000
-        ]
-
-        if not removable:
-            break
-
-        parts.remove(
-            min(
-                removable,
-                key=lambda p: p["priority"],
-            )
-        )
-
-    return "\n\n".join(
-        p["text"] for p in parts
+        url,
+        max_chars,
     )
 
 
 def build_message(item, cfg, now=None):
     """Build an HTML telegram message from a queue item.
 
-    Returns None if the item has no usable content.
+    Returns None if the item has no usable content or fewer
+    than two genuinely useful explanatory sentences.
     """
     target = int(
         cfg.get(
@@ -711,8 +464,8 @@ def build_message(item, cfg, now=None):
         max_chars = target
 
     title = clean(
-        item.get("title")
-        or item.get("headline")
+        item.get("headline")
+        or item.get("title")
     )
 
     if not title and not (
@@ -723,27 +476,32 @@ def build_message(item, cfg, now=None):
 
     briefing = item.get("briefing") or {}
 
-    # Empty-message protection: a post must never be rendered
-    # when the cleaned story contains no sentence that
-    # explains it beyond its headline (headline-only
-    # summaries, cleaned content that collapses to nothing,
-    # or pure headline paraphrases are rejected - never
-    # padded with invented text).
+    # Minimum-content gate: a story is publishable only when
+    # it contains at least TWO meaningful explanatory
+    # sentences. Counting is done on the underlying
+    # narrative/source-grounded sentences (the briefing
+    # rows), never on visual formatting rows: a fact that
+    # the old format placed into a bullet still counts
+    # exactly once. Headline, source attribution and Read
+    # More never count. The existing empty-message
+    # protection (no usable content at all) remains in
+    # place.
     if briefing:
-        rendered_content = (
-            briefing.get("opening") or []
-        ) + (
-            briefing.get("body") or []
+        narrative = "\n\n".join(
+            (r.get("text") or "")
+            for r in (briefing.get("sentences") or [])
         )
     else:
-        rendered_content = [
-            item.get("summary")
-        ]
+        narrative = "\n\n".join(
+            [
+                item.get("summary")
+            ]
+        )
 
-    if not has_meaningful_sentence(
-        "\n\n".join(rendered_content),
+    if count_meaningful_sentences(
+        narrative,
         title,
-    ):
+    ) < MIN_EXPLANATORY_SENTENCES:
         return None
 
     if item.get("briefing"):
@@ -756,6 +514,9 @@ def build_message(item, cfg, now=None):
             item,
             max_chars,
         )
+
+    if body is None:
+        return None
 
     return {
         "text": body,

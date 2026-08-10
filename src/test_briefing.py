@@ -12,11 +12,14 @@ from src.telegram_briefing import (
     aggregate_sentences,
     build_briefing,
     clean_headline,
+    clean_sentence_text,
+    decode_html_entities,
     group_items,
     is_headline_paraphrase,
     public_label,
     same_event,
 )
+from src.formatter import clean_sentence, repair_sentence_boundaries, split_sentences
 from src.telegram_formatter import build_message
 
 NOW = datetime.now(timezone.utc)
@@ -1324,3 +1327,281 @@ def test_zelenskyy_restatement_dropped_in_briefing():
     assert len(texts) == 1
     assert "Vucic" in texts[0]
     assert "first visit to Serbia" not in texts[0]
+
+
+# ---------------------------------------------------------------------------
+# FIX 1 - HTML entity cleanup
+# ---------------------------------------------------------------------------
+
+class TestHtmlEntityDecoding:
+    def test_quot_decodes_to_quote(self):
+        assert decode_html_entities(
+            '&quot;We have to brace ourselves&quot;'
+        ) == '"We have to brace ourselves"'
+        assert clean_sentence_text(
+            '&quot;Go,&quot; she said.'
+        ) == '"Go," she said.'
+
+    def test_apostrophe_entities_decode(self):
+        assert decode_html_entities("can&#039;t") == "can't"
+        assert decode_html_entities("can&#39;t") == "can't"
+        assert decode_html_entities("can&apos;t") == "can't"
+
+    def test_amp_decodes_to_ampersand(self):
+        assert decode_html_entities("R &amp; D") == "R & D"
+
+    def test_numeric_html_entities(self):
+        assert decode_html_entities("&#34;quote&#34;") == '"quote"'
+        assert decode_html_entities("&#x27;apos&#x27;") == "'apos'"
+        assert decode_html_entities("&#8217;") == "\u2019"
+
+    def test_no_double_decoding(self):
+        # "&amp;lt;" means a literal "&lt;" in the source; it
+        # must never become "<".
+        assert decode_html_entities("use &amp;lt;b&amp;gt;") == (
+            "use &lt;b&gt;"
+        )
+        assert decode_html_entities("&amp;amp;") == "&amp;"
+        # Single-encoded entities decode exactly once.
+        assert decode_html_entities("5 &amp; 10") == "5 & 10"
+
+    def test_double_encoded_quotes_repair(self):
+        # Feed text that was escaped twice ("&amp;quot;") must
+        # still end up as a real quotation mark.
+        assert decode_html_entities(
+            "he said &amp;quot;no&amp;quot;"
+        ) == 'he said "no"'
+
+    def test_clean_sentence_keeps_quote_period(self):
+        # "...let it burn." behind a closing quote must not
+        # gain a second period.
+        assert clean_sentence(
+            'The firefighter said "let it burn."'
+        ) == 'The firefighter said "let it burn."'
+        assert clean_sentence(
+            "He said \"go\""
+        ) == 'He said "go".'
+
+
+# ---------------------------------------------------------------------------
+# FIX 2 - missing-punctuation sentence-boundary repair
+# ---------------------------------------------------------------------------
+
+class TestSentenceBoundaryRepair:
+    GUARDIAN = (
+        "Authorities warn that days of intense rain could "
+        "trigger widespread flooding and landslides as storm "
+        "moves north and further inland More than a million "
+        "people were moved to safety across eastern China by "
+        "Sunday evening."
+    )
+
+    def test_typhoon_dolphin_boundary_repaired(self):
+        parts = split_sentences(self.GUARDIAN)
+        assert len(parts) == 2
+        assert parts[0] == (
+            "Authorities warn that days of intense rain could "
+            "trigger widespread flooding and landslides as "
+            "storm moves north and further inland."
+        )
+        assert parts[1] == (
+            "More than a million people were moved to safety "
+            "across eastern China by Sunday evening."
+        )
+
+    def test_boundary_repair_preserves_words(self):
+        import re as _re
+        before = sorted(
+            _re.findall(r"[a-z0-9\u2019'-]+",
+                        self.GUARDIAN.lower())
+        )
+        after = sorted(
+            _re.findall(
+                r"[a-z0-9\u2019'-]+",
+                " ".join(split_sentences(self.GUARDIAN)).lower(),
+            )
+        )
+        assert before == after
+
+    def test_boundary_repair_invents_no_text(self):
+        import re as _re
+        # Compare word tokens with trailing punctuation
+        # stripped: only the whitespace between the two
+        # sentences may change, never the words themselves.
+        tokens = lambda t: _re.findall(
+            r"[A-Za-z0-9\u2019'-]+", t.lower()
+        )
+        assert tokens(self.GUARDIAN) == tokens(
+            repair_sentence_boundaries(self.GUARDIAN)
+        )
+
+    def test_no_false_splits_on_legit_transitions(self):
+        for text in [
+            "Officials visited New York City to inspect the damage.",
+            "The Bald Range wildfire has spread over more than "
+            "36 sq miles.",
+            "A resident said the fire was the worst he had "
+            "seen in 40 years.",
+            "He said More than 20,000 people have been "
+            "evacuated from the region.",
+            "The tax covers houses worth more than $5m.",
+            "The mayor John Smith said the plan was rejected.",
+            "She told reporters the airport had reopened "
+            "overnight.",
+        ]:
+            parts = split_sentences(text)
+            assert len(parts) == 1, (text, parts)
+
+    def test_multiple_boundaries_repaired(self):
+        text = (
+            "Train operators are cracking down after the move "
+            "away from paper tickets increases fare dodging "
+            "There is more than one way to commit fraud on a "
+            "train journey."
+        )
+        parts = split_sentences(text)
+        assert len(parts) == 2
+        assert parts[1].startswith(
+            "There is more than one way"
+        )
+
+
+class TestDryRunEditorialCleanup:
+    """Regression tests for the six editorial/copy problems
+    found in the real-data dry run of 2026-08-10.
+
+    1. live-blog boilerplate ("Follow our live blog for the
+       latest developments.")
+    2. truncated feed fragments ("...a Qatar Airways plane t")
+    3. Guardian subheading/body fusion
+    4. article/navigation series fragments ("Total solar
+       eclipse (2/4) A total solar eclipse...")
+    5. quote-boundary handling (never split inside a quote)
+    6. missing-boundary repair ("...an hour later The annual
+       Perseid meteor shower...")
+    """
+
+    # --- 3. Guardian subheading/body fusion -----------------
+    def test_subheading_body_fusion_split(self):
+        text = (
+            "Prime minister and opposition leader meet in "
+            "Canberra to advance agreement on gambling "
+            "advertising Anthony Albanese has bowed to "
+            "pressure and will limit gambling inducements "
+            "as part of a deal between Labor and Angus "
+            "Taylor, even as some Liberals warn it might "
+            "not do enough to help vulnerable people."
+        )
+        parts = split_sentences(text)
+        assert len(parts) == 2, parts
+        assert parts[0].endswith("gambling advertising.")
+        assert parts[1].startswith(
+            "Anthony Albanese has bowed to pressure"
+        )
+
+    def test_multi_word_names_never_split(self):
+        text = (
+            "Mexico City Andres Manuel Lopez Obrador has "
+            "faced mounting criticism over his handling of "
+            "the crisis."
+        )
+        parts = split_sentences(text)
+        assert len(parts) == 1, parts
+        assert parts[0] == text
+
+    def test_name_as_reported_speech_object_not_split(self):
+        text = (
+            "Police said John Smith has been arrested in "
+            "connection with the burglary."
+        )
+        parts = split_sentences(text)
+        assert len(parts) == 1, parts
+
+    def test_name_boundary_respects_titles(self):
+        text = (
+            "The prime minister Anthony Albanese has "
+            "announced the plan to parliament."
+        )
+        parts = split_sentences(text)
+        assert len(parts) == 1, parts
+
+    # --- 5. quote-boundary handling -------------------------
+    def test_no_boundary_inserted_inside_quote(self):
+        text = (
+            "For Mina, a housewife in Iran, the war is no "
+            "longer measured by air strikes or military "
+            "statements. \u201cI honestly can\u2019t remember "
+            "the last time I bought red meat. We replaced it "
+            "with chicken, but even chicken has become a "
+            "luxury,\u201d she told DW."
+        )
+        parts = split_sentences(text)
+        joined = " ".join(parts)
+        assert "the last time. I bought" not in joined
+        assert (
+            "\u201cI honestly can\u2019t remember the last "
+            "time I bought red meat." in joined
+        )
+        assert parts[2].endswith(
+            "luxury,\u201d she told DW."
+        )
+
+    def test_quote_boundary_outside_quote_still_repaired(self):
+        text = (
+            "Officials said the fire was out of control "
+            "More than 500 homes were destroyed in the "
+            "blaze."
+        )
+        parts = split_sentences(text)
+        assert len(parts) == 2, parts
+        assert parts[1].startswith("More than 500 homes")
+
+    # --- 6. missing-boundary repair -------------------------
+    def test_starwatch_missing_boundary_repaired(self):
+        text = (
+            "The eclipse will begin just after 6pm on 12 "
+            "August, reaching its maximum just over an hour "
+            "later The annual Perseid meteor shower reaches "
+            "its peak this week on the night of 12-13 "
+            "August."
+        )
+        parts = split_sentences(text)
+        assert len(parts) == 2, parts
+        assert parts[0].endswith("an hour later.")
+        assert parts[1].startswith("The annual Perseid")
+
+    # --- 2. truncated feed fragments ------------------------
+    def test_truncated_single_letter_tail_dropped(self):
+        text = (
+            "King called in the Airservices Australia chief "
+            "executive officer, Rob Sharp, for a meeting in "
+            "Canberra on Monday, the day after a Jetstar "
+            "plane narrowly avoided hitting a Qatar Airways "
+            "plane t."
+        )
+        parts = split_sentences(text)
+        assert parts == [
+            "King called in the Airservices Australia chief "
+            "executive officer, Rob Sharp, for a meeting in "
+            "Canberra on Monday, the day after a Jetstar "
+            "plane narrowly avoided hitting a Qatar Airways "
+            "plane."
+        ]
+
+    def test_truncated_letter_without_period_dropped(self):
+        assert clean_sentence(
+            "A Jetstar plane narrowly avoided hitting a "
+            "Qatar Airways plane t"
+        ) == (
+            "A Jetstar plane narrowly avoided hitting a "
+            "Qatar Airways plane."
+        )
+
+    def test_legit_abbreviations_not_dropped(self):
+        assert clean_sentence(
+            "The flight departs at 6 a.m. and arrives "
+            "before noon."
+        ) == (
+            "The flight departs at 6 a.m. and arrives "
+            "before noon."
+        )

@@ -91,11 +91,46 @@ FILLER_PHRASES = {
 HEADLINE_PARAPHRASE_OVERLAP = 0.5
 
 
+# Quote/apostrophe HTML entities that survive a single
+# html.unescape pass only when the source was double-encoded
+# (e.g. "&amp;quot;"). These are decoded one extra time so
+# double-encoded feed text never renders as literal entity
+# text. &amp; / &lt; / &gt; are deliberately NOT re-decoded:
+# legitimate text such as "&amp;lt;" (a literal entity in
+# the source) must never be turned into "<".
+QUOTE_ENTITY_RE = re.compile(
+    r"&(?:quot|apos|#0*3[49]|#0*34|#x0*2[27]);",
+    re.IGNORECASE,
+)
+
+
+def decode_html_entities(text):
+    """Robust HTML-entity decoding for source/article text
+    before sentence processing.
+
+    - One full html.unescape pass handles named entities
+      (&quot;, &amp;, &lt;, &gt;, &apos;), numeric entities
+      (&#34;, &#039;, &#8217;) and hex entities (&#x27;).
+    - A single targeted second pass repairs double-encoded
+      quotation/apostrophe entities ("&amp;quot;" feed
+      artifacts) that would otherwise stay visible as
+      literal "&quot;" text in messages.
+    - Everything else is decoded exactly once: text that
+      legitimately contains entity text (e.g. "&amp;lt;")
+      is never double-decoded.
+    """
+    text = str(text or "")
+    decoded = html.unescape(text)
+    if QUOTE_ENTITY_RE.search(decoded):
+        decoded = html.unescape(decoded)
+    return decoded
+
+
 def _normalized(text):
     return re.sub(
         r"[^a-z0-9 ]",
         " ",
-        (html.unescape(text or "")).lower(),
+        decode_html_entities(text or "").lower(),
     ).strip()
 
 
@@ -121,6 +156,10 @@ BOILERPLATE_PATTERNS = [
     r"\bfollow us on (?:x|twitter|facebook|instagram|telegram|whatsapp)\b",
     r"\bjoin our (?:telegram|whatsapp) channel\b",
     r"\bfollow (?:our )?(?:live )?(?:blog|coverage|updates)\b[^A-Za-z]*$",
+    r"\bfollow our [A-Za-z'\u2019 -]+? (?:live )?blog "
+    r"for (?:the )?latest "
+    r"(?:updates|developments|news|coverage|headlines)"
+    r"\b[.\u2026]*",
     r"\bmore on this story\b",
     r"\brelated:?\s*(?:coverage|stories)\b",
     r"\bnewsletter delivered (?:to|straight to) (?:your|their) inbox\b",
@@ -138,6 +177,18 @@ BOILERPLATE_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Leading article/navigation fragment ending in a series
+# marker, e.g. France 24's "Total solar eclipse (2/4) A total
+# solar eclipse will sweep...". The fragment is a series label,
+# never a fact, and is removed only when the text that follows
+# it starts a fresh sentence (capitalized) or nothing remains.
+FRAGMENT_LEAD_RE = re.compile(
+    r"^[A-Za-z\u2019'-]+"
+    r"(?:\s+[A-Za-z\u2019'-]+){0,6}"
+    r"\s*\(\d+\s*/\s*\d+\)\.?"
+    r"\s*(?=[A-Z]|$)"
+)
+
 
 def strip_boilerplate(text):
     """Remove recognizable publisher boilerplate fragments
@@ -150,17 +201,49 @@ def strip_boilerplate(text):
 
 
 def clean_sentence_text(text):
-    """Mechanical cleanup only: unescape entities, remove
-    recognizable publisher boilerplate fragments, collapse
-    duplicated words and whitespace. Never rewrites facts."""
-    text = html.unescape(str(text or ""))
+    """Mechanical cleanup only: unescape entities (including
+    double-encoded quotation entities), remove recognizable
+    publisher boilerplate fragments, collapse duplicated
+    words and whitespace. Never rewrites facts.
+
+    A truncated-word fragment left over after the cleanup
+    (a single token of four characters or fewer, e.g. the
+    trailing "Con" of a feed that cut the summary
+    mid-word) is dropped entirely so it can never render as
+    a dangling fragment in a message."""
+    text = decode_html_entities(str(text or ""))
     text = strip_boilerplate(text)
+    # Boilerplate removal can leave a stray space before a
+    # terminal punctuation mark ("toxic' ." after a nav line
+    # was cut out); collapse whitespace before punctuation
+    # back onto the mark.
+    text = re.sub(r"\s+([.,;:!?\u2026])", r"\1", text)
     text = DUPLICATE_WORD_RE.sub(r"\1", text)
-    return re.sub(r"\s+", " ", text).strip()
+    # Drop a leading article/navigation fragment that is only
+    # a series label ("Total solar eclipse (2/4) ...") while
+    # preserving the actual news sentence that follows it.
+    text = FRAGMENT_LEAD_RE.sub("", text)
+    text = re.sub(r"\s+", " ", text).strip()
+
+    if not text:
+        return ""
+
+    tokens = re.findall(
+        r"[A-Za-z0-9\u2019'-]+",
+        text,
+    )
+
+    if (
+        len(tokens) == 1
+        and len(tokens[0].strip("\u2019'")) <= 4
+    ):
+        return ""
+
+    return text
 
 
 def _content_tokens(text):
-    text = html.unescape(str(text or ""))
+    text = decode_html_entities(str(text or ""))
     text = text.replace("\u2019", "'")
     for k, v in CONTRACTIONS.items():
         text = text.replace(k, v)
@@ -433,6 +516,12 @@ def is_headline_paraphrase(sentence, headline):
     """
     sentence_tokens = _content_tokens(sentence)
 
+    # An exact copy of the headline is a restatement by
+    # definition, even when it is too short for the token-
+    # overlap test below.
+    if _normalized(sentence) == _normalized(headline):
+        return True
+
     if len(sentence_tokens) < 4:
         return False
 
@@ -454,16 +543,21 @@ def is_headline_paraphrase(sentence, headline):
     )
 
 
-def has_meaningful_sentence(text, headline):
-    """True when the cleaned text contains at least one
-    sentence that explains the story beyond its headline.
+def count_meaningful_sentences(text, headline):
+    """Number of unique meaningful explanatory sentences in
+    the cleaned text.
 
     Applies the exact same pipeline as the briefing builder
     (boilerplate removal, filler rejection, headline-
-    paraphrase rejection). Never invents content: if no
-    genuine explanatory sentence survives, the story must be
-    rejected rather than posted headline-only.
+    paraphrase rejection, dedup). Headline, source
+    attribution and read-more lines are never counted; only
+    source-grounded narrative sentences count. Never
+    invents content: a story with fewer than two surviving
+    explanatory sentences is rejected rather than padded.
     """
+    seen = set()
+    count = 0
+
     for sentence in split_sentences(
         text or ""
     ):
@@ -494,18 +588,40 @@ def has_meaningful_sentence(text, headline):
         ):
             continue
 
-        return True
+        key = _normalized(sentence)
 
-    return False
+        if key in seen:
+            continue
+
+        seen.add(key)
+        count += 1
+
+    return count
+
+
+def has_meaningful_sentence(text, headline):
+    """True when the cleaned text contains at least one
+    sentence that explains the story beyond its headline.
+
+    Applies the exact same pipeline as the briefing builder
+    (boilerplate removal, filler rejection, headline-
+    paraphrase rejection). Never invents content: if no
+    genuine explanatory sentence survives, the story must be
+    rejected rather than posted headline-only.
+    """
+    return count_meaningful_sentences(
+        text,
+        headline,
+    ) >= 1
 
 # ---------------------------------------------------------
 # Public labels
 # ---------------------------------------------------------
 
-BREAKING = "\U0001F534 BREAKING"
-JUST_IN = "\U0001F7E1 JUST IN"
-NEWS = "\U0001F535 NEWS"
-UPDATE = "\U0001F7E0 UPDATE"
+BREAKING = "\U0001F6A8 BREAKING"
+JUST_IN = "\u26A1 JUST IN"
+NEWS = "\U0001F4F0 NEWS"
+UPDATE = "\U0001F504 UPDATE"
 
 URGENT_CATEGORIES = {
     "conflict",
