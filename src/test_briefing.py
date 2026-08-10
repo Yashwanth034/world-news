@@ -13,6 +13,7 @@ from src.telegram_briefing import (
     build_briefing,
     clean_headline,
     group_items,
+    is_headline_paraphrase,
     public_label,
     same_event,
 )
@@ -550,3 +551,776 @@ def test_headline_never_paraphrases():
     assert clean_headline(
         "Canada wildfire doubles in size"
     ) == "Canada wildfire doubles in size"
+
+
+# ---------------------------------------------------------
+# Cross-source same-event merging (real-world scenarios)
+#
+# Stories from different feeds reporting the SAME real-world
+# development must become ONE post; stories that merely share
+# a topic or a place must stay separate.
+# ---------------------------------------------------------
+
+# --- MUST MERGE: same event, different feeds ---------------
+
+
+def test_merge_hormuz_tanker_seizure():
+    a = item(
+        "Seven oil tankers seized near Strait of Hormuz",
+        "Iranian forces boarded seven tankers in the strait.",
+        source="Reuters",
+        event_id="ea-hormuz",
+        urgency=["seizure"],
+        minutes_ago=25,
+    )
+    b = item(
+        "Iran seizes 7 oil tankers in Hormuz Strait",
+        "Commandos took control of seven vessels near Hormuz.",
+        source="BBC World",
+        event_id="eb-hormuz",
+        urgency=["seizure"],
+        minutes_ago=40,
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_merge_saudi_iran_pact():
+    a = item(
+        "Saudi Arabia and Iran sign historic pact",
+        "The two rivals sealed a normalization agreement.",
+        source="Al Jazeera",
+        event_id="ea-pact",
+    )
+    b = item(
+        "Riyadh and Tehran ink peace agreement",
+        "A deal to restore ties was signed in Beijing.",
+        source="Reuters",
+        event_id="eb-pact",
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_merge_typhoon_landfall():
+    a = item(
+        "Typhoon Yagi hits the Philippines",
+        "The storm slammed into the northern coast.",
+        source="BBC World",
+        event_id="ea-yagi",
+        urgency=["typhoon"],
+        minutes_ago=15,
+    )
+    b = item(
+        "Super Typhoon Yagi makes landfall in the "
+        "Philippines, 6 dead",
+        "At least six people were killed as Yagi came ashore.",
+        source="Al Jazeera",
+        event_id="eb-yagi",
+        urgency=["typhoon"],
+        minutes_ago=35,
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_merge_ukraine_refinery_strikes():
+    a = item(
+        "Ukraine strikes Russian oil refinery",
+        "Drones hit a refinery outside Moscow.",
+        source="BBC World",
+        event_id="ea-refinery",
+        urgency=["strike"],
+    )
+    b = item(
+        "Drones hit oil refinery near Moscow",
+        "Ukrainian drones attacked a refinery in Russia.",
+        source="Reuters",
+        event_id="eb-refinery",
+        urgency=["strike"],
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_merge_meta_fine():
+    a = item(
+        "EU fines Meta €1.3 billion over privacy breach",
+        "The regulator handed Facebook parent a record penalty.",
+        source="Reuters",
+        event_id="ea-meta",
+    )
+    b = item(
+        "Facebook parent hit with €1.3 billion EU fine",
+        "Meta was ordered to pay for breaching data rules.",
+        source="BBC World",
+        event_id="eb-meta",
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_merge_hunter_biden_verdict():
+    a = item(
+        "Hunter Biden convicted in Delaware gun trial",
+        "The president's son was found guilty on three counts.",
+        source="BBC World",
+        event_id="ea-biden",
+    )
+    b = item(
+        "Biden's son found guilty in Delaware gun trial",
+        "Hunter Biden faces sentencing after the verdict.",
+        source="Reuters",
+        event_id="eb-biden",
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_merge_thailand_mall_shooting():
+    a = item(
+        "Shooting at Bangkok mall kills 2",
+        "A gunman opened fire in a shopping centre.",
+        source="Reuters",
+        event_id="ea-bangkok",
+        urgency=["shooting"],
+    )
+    b = item(
+        "Gunman opens fire at Thailand mall, 2 dead",
+        "Police said two people were killed in the attack.",
+        source="BBC World",
+        event_id="eb-bangkok",
+        urgency=["shooting"],
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_no_merge_on_corroboration_without_shared_action():
+    a = item(
+        "US adds 272,000 jobs in May",
+        "Payrolls beat expectations for the month.",
+        source="Reuters",
+        event_id="ea-jobs",
+        category="finance",
+    )
+    b = item(
+        "US payrolls jump 272,000 in May",
+        "The labour market stayed strong.",
+        source="BBC World",
+        event_id="eb-jobs",
+        category="finance",
+    )
+    assert not same_event(a, b)
+    assert len(group_items([a, b])) == 2
+
+
+def test_merge_zelensky_serbia_visit():
+    a = item(
+        "Zelensky arrives in Serbia",
+        "The Ukrainian president met his Serbian counterpart.",
+        source="Al Jazeera",
+        event_id="ea-zelensky",
+    )
+    b = item(
+        "Ukrainian President Zelensky visits Belgrade",
+        "A first trip to Belgrade since the war began.",
+        source="BBC World",
+        event_id="eb-zelensky",
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_merge_cuba_blackout():
+    a = item(
+        "Cuba blackout leaves 3 million in the dark",
+        "The island's grid failed island-wide.",
+        source="BBC World",
+        event_id="ea-cuba",
+        urgency=["blackout"],
+    )
+    b = item(
+        "Power grid collapses in Havana, 3 million affected",
+        "Cuba suffered its worst outage in decades.",
+        source="Reuters",
+        event_id="eb-cuba",
+        urgency=["blackout"],
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+# --- MUST NOT MERGE: shared topic/place, different events ---
+
+
+def test_no_merge_colombia_car_bomb_and_inauguration():
+    bomb = item(
+        "Car bomb kills 5 in Colombia capital",
+        "An explosion hit a police station.",
+        source="Reuters",
+        event_id="ea-colombia-bomb",
+        urgency=["bomb"],
+        minutes_ago=20,
+    )
+    inauguration = item(
+        "Colombia swears in President Petro",
+        "The new president took the oath in Bogota.",
+        source="BBC World",
+        event_id="eb-colombia-swearing",
+        minutes_ago=20,
+    )
+    assert not same_event(bomb, inauguration)
+    assert len(group_items([bomb, inauguration])) == 2
+
+
+def test_no_merge_colombia_eln_and_inauguration():
+    eln = item(
+        "ELN attacks military base in Colombia",
+        "Rebels bombed an army post overnight.",
+        source="Reuters",
+        event_id="ea-colombia-eln",
+        minutes_ago=20,
+    )
+    inauguration = item(
+        "Colombia swears in President Petro",
+        "The new president took the oath in Bogota.",
+        source="BBC World",
+        event_id="eb-colombia-swearing",
+        minutes_ago=20,
+    )
+    assert not same_event(eln, inauguration)
+    assert len(group_items([eln, inauguration])) == 2
+
+
+def test_no_merge_tps_bills_c16_and_c83():
+    c16 = item(
+        "Senate C16 extends TPS protections",
+        "The bill would renew protected status.",
+        source="Reuters",
+        event_id="ea-tps-c16",
+    )
+    c83 = item(
+        "House C83 ends TPS program",
+        "The legislation would cancel the programme.",
+        source="BBC World",
+        event_id="eb-tps-c83",
+    )
+    assert not same_event(c16, c83)
+    assert len(group_items([c16, c83])) == 2
+
+
+def test_no_merge_different_ceuta_developments():
+    surge = item(
+        "Migrant surge in Ceuta as 800 cross into Spain",
+        "Hundreds arrived at the border overnight.",
+        source="Reuters",
+        event_id="ea-ceuta-surge",
+        minutes_ago=10,
+    )
+    exercise = item(
+        "Spain deploys navy exercise off Ceuta",
+        "Warships held drills near the enclave.",
+        source="BBC World",
+        event_id="eb-ceuta-exercise",
+        minutes_ago=10,
+    )
+    assert not same_event(surge, exercise)
+    assert len(group_items([surge, exercise])) == 2
+
+
+def test_no_merge_canada_and_spokane_wildfires():
+    canada = item(
+        "Canada wildfire forces 20,000 evacuations",
+        "The fire spread across the province.",
+        source="BBC World",
+        event_id="ea-canada-fire",
+        urgency=["wildfire"],
+        minutes_ago=30,
+    )
+    spokane = item(
+        "Spokane wildfire forces 12,000 people evacuated",
+        "The blaze grew near the city.",
+        source="Reuters",
+        event_id="eb-spokane-fire",
+        urgency=["wildfire"],
+        minutes_ago=30,
+    )
+    assert not same_event(canada, spokane)
+    assert len(group_items([canada, spokane])) == 2
+
+
+def test_no_merge_1999_eclipse_archive_and_current():
+    archive = item(
+        "Rare 1999 solar eclipse photos archived",
+        "A look back at last century's eclipse.",
+        source="BBC World",
+        event_id="ea-eclipse-1999",
+        effective_at="1999-08-11T10:00:00+00:00",
+    )
+    current = item(
+        "Total solar eclipse visible in August",
+        "Skywatchers prepare for the big day.",
+        source="Reuters",
+        event_id="eb-eclipse-2026",
+        minutes_ago=60,
+    )
+    assert not same_event(archive, current)
+    assert len(group_items([archive, current])) == 2
+
+
+# ---------------------------------------------------------
+# Regression tests: real-audit merge pairs (must still merge)
+# ---------------------------------------------------------
+
+
+def test_must_merge_ukraine_pow_kostiantynivka_strike():
+    a = item(
+        "Russian missile strike on Kostiantynivka "
+        "kills 12 Ukrainian prisoners of war",
+        "The strike hit a POW holding site.",
+        source="BBC World",
+        event_id="ea-pow",
+        minutes_ago=30,
+    )
+    b = item(
+        "Kostiantynivka strike deadliest attack of the "
+        "year, 12 POWs killed, Ukraine says",
+        "Twelve captured soldiers died.",
+        source="Al Jazeera",
+        event_id="eb-pow",
+        minutes_ago=35,
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_must_merge_france_finance_minister():
+    a = item(
+        "France appoints Eric Lombard as new finance minister",
+        "Lombard takes over the finance ministry.",
+        source="BBC World",
+        event_id="ea-lombard",
+        minutes_ago=30,
+    )
+    b = item(
+        "New French finance minister Eric Lombard "
+        "meets EU partners",
+        "Lombard discussed the budget with EU peers.",
+        source="Reuters",
+        event_id="eb-lombard",
+        minutes_ago=40,
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_must_merge_hungary_greece_bulgaria_migration():
+    a = item(
+        "Hungary seals border as 30,000 migrants "
+        "mass at southern fence",
+        "The closure follows days of arrivals.",
+        source="Hungarian press",
+        event_id="ea-border",
+        minutes_ago=30,
+    )
+    b = item(
+        "Hungary to keep border sealed after 30,000 "
+        "migrants arrived",
+        "Officials extended the closure.",
+        source="Reuters",
+        event_id="eb-border",
+        minutes_ago=50,
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_must_merge_us_mexico_police():
+    a = item(
+        "US police officer accused of killing three people "
+        "in Mexico arrested at border",
+        "The officer was held while crossing into the US.",
+        source="The Guardian World",
+        event_id="ea-eberle",
+        minutes_ago=30,
+    )
+    b = item(
+        "US police officer accused of killing three in Mexico "
+        "arrested at border, officials say",
+        "Eberle was arrested in Texas.",
+        source="AP News",
+        event_id="eb-eberle",
+        minutes_ago=45,
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_must_merge_haiti_tps():
+    a = item(
+        "Haitians face arrest and deportation after US "
+        "removes TPS protections",
+        "Tens of thousands could be returned.",
+        source="The Guardian World",
+        event_id="ea-tps",
+        minutes_ago=30,
+    )
+    b = item(
+        "US ends TPS for Haitians as 100,000 face "
+        "deportation",
+        "DHS said protections are over.",
+        source="BBC World",
+        event_id="eb-tps",
+        minutes_ago=60,
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+# ---------------------------------------------------------
+# Regression tests: real-audit split pairs (must stay separate)
+# ---------------------------------------------------------
+
+
+def test_no_merge_haiti_tps_and_mexico_police():
+    haiti = item(
+        "Haitians face arrest and deportation after US "
+        "removes TPS protections",
+        "Tens of thousands could be returned.",
+        source="The Guardian World",
+        event_id="ea-tps",
+        minutes_ago=30,
+    )
+    mexico = item(
+        "US police officer accused of killing three people "
+        "in Mexico arrested at border",
+        "The officer was held while crossing into the US.",
+        source="The Guardian World",
+        event_id="eb-mexico",
+        minutes_ago=35,
+    )
+    assert not same_event(haiti, mexico)
+    assert len(group_items([haiti, mexico])) == 2
+
+
+def test_no_merge_ukraine_strike_and_obituary():
+    strike = item(
+        "Russian strikes kill four as Kyiv hits oil refinery",
+        "Four people died in the attack.",
+        source="France 24",
+        event_id="ea-strike",
+        minutes_ago=30,
+    )
+    obituary = item(
+        "Ukraine mourns 'collector of souls' Oleksiy Yukov, "
+        "killed recovering war dead",
+        "Yukov recovered fallen soldiers' bodies.",
+        source="NPR World",
+        event_id="eb-obit",
+        minutes_ago=45,
+    )
+    assert not same_event(strike, obituary)
+    assert len(group_items([strike, obituary])) == 2
+
+
+def test_no_merge_hungary_greece_bulgaria_migration():
+    hungary = item(
+        "Hungary seals southern border as 30,000 "
+        "migrants gather",
+        "The fence is being reinforced.",
+        source="Hungarian press",
+        event_id="ea-hungary",
+        minutes_ago=30,
+    )
+    greece = item(
+        "Greece shuts southern islands to migrant "
+        "arrivals",
+        "Ferries were diverted.",
+        source="Reuters",
+        event_id="eb-greece",
+        minutes_ago=40,
+    )
+    bulgaria = item(
+        "Bulgaria detains migrants along southern "
+        "route",
+        "Border patrols were increased.",
+        source="AP News",
+        event_id="ec-bulgaria",
+        minutes_ago=50,
+    )
+    assert not same_event(hungary, greece)
+    assert not same_event(hungary, bulgaria)
+    assert not same_event(greece, bulgaria)
+    assert len(group_items([hungary, greece, bulgaria])) == 3
+
+
+def test_one_shared_entity_needs_two_actions():
+    a = item(
+        "Drone strike hits Kyiv oil refinery",
+        "A refinery near the capital was hit.",
+        source="BBC World",
+        event_id="ea-a",
+        minutes_ago=30,
+    )
+    b = item(
+        "Russian drone attack on Kyiv refinery "
+        "kills two",
+        "Two workers died in the strike.",
+        source="Reuters",
+        event_id="eb-b",
+        minutes_ago=40,
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+def test_one_shared_entity_and_one_action_need_topic():
+    a = item(
+        "Wildfire forces thousands of evacuations "
+        "in Western Canada",
+        "More than 20,000 people evacuated.",
+        source="Al Jazeera",
+        event_id="ea-wf",
+        minutes_ago=30,
+    )
+    b = item(
+        "State of emergency declared as fast-moving "
+        "Canada wildfire doubles in size",
+        "The Bald Range wildfire spread over 36 sq miles.",
+        source="BBC World",
+        event_id="eb-wf",
+        minutes_ago=45,
+    )
+    assert same_event(a, b)
+    assert len(group_items([a, b])) == 1
+
+
+
+# ---------------------------------------------------------
+# Headline-paraphrase safety: overlap alone must never drop
+# a sentence that carries a genuinely new fact
+# ---------------------------------------------------------
+
+# --- MUST KEEP: real-data cases where the removed sentence
+# --- carried a genuinely new fact beyond the headline ------
+
+
+def test_paraphrase_keeps_cyclist_withdrawal_reason():
+    # Audit case 15: overlap > 0.5, but the sentence adds the
+    # reason (feeling unwell) and the stage/timing.
+    assert not is_headline_paraphrase(
+        "French cyclist and defending champion Pauline "
+        "Ferrand-Prévot pulled out of the Women's Tour de "
+        "France ahead of Saturday's 8th and penultimate "
+        "stage due to feeling unwell.",
+        "Women's Tour de France: Defending champion Pauline "
+        "Ferrand-Prévot pulls out of race",
+    )
+
+
+def test_paraphrase_keeps_swimming_venue():
+    # Audit case 17: adds the venue (European Championships,
+    # Paris) that the headline lacks.
+    assert not is_headline_paraphrase(
+        "France have finally won medals in open water "
+        "swimming at the European Swimming Championships "
+        "in Paris.",
+        "Finally, medals for France in open water swimming",
+    )
+
+
+def test_paraphrase_keeps_hormuz_agreement_status():
+    # Audit case 18: adds the status of a possible agreement.
+    assert not is_headline_paraphrase(
+        "An agreement over the Strait of Hormuz is still "
+        "far away.",
+        "Tanker sailors still face danger in the Strait of "
+        "Hormuz",
+    )
+
+
+def test_paraphrase_keeps_biden_medical_detail():
+    # Audit case 2: adds the medical specificity that the
+    # headline lacks.
+    assert not is_headline_paraphrase(
+        "Joe Biden’s son, Hunter Biden, says his father’s "
+        "prostate cancer has “metastasised into his bones "
+        "and further”.",
+        "‘Very painful’: Joe Biden’s cancer has spread, son "
+        "Hunter says",
+    )
+
+
+def test_paraphrase_keeps_colombia_toll_booth():
+    # Audit case 3: adds the toll-booth detail.
+    assert not is_headline_paraphrase(
+        "A car bomb destroyed a toll booth on a highway in "
+        "Colombia a day after President Abelardo de la "
+        "Espriella was sworn in.",
+        "Car bomb hits Colombia highway day after new "
+        "president sworn in",
+    )
+
+
+def test_paraphrase_keeps_sydney_near_miss_time():
+    # Audit case 22: adds the exact time (7am) and day that
+    # the headline lacks.
+    assert not is_headline_paraphrase(
+        "The Jetstar and Qatar Airways planes almost "
+        "collided at Sydney airport at 7am on Sunday.",
+        "‘Not enough air traffic controllers’: safety "
+        "concerns at Sydney airport after Jetstar and Qatar "
+        "planes involved in near-miss",
+    )
+
+
+def test_paraphrase_keeps_womens_march_timing():
+    # Audit case 28: adds the day (Sunday) the headline lacks.
+    assert not is_headline_paraphrase(
+        "South African women will commemorate the "
+        "achievements of the 1956 Women's March on Sunday.",
+        "South Africa commemorates 1956 Women's March - but "
+        "fight for freedom isn't over",
+    )
+
+
+# --- MUST STILL DROP: true headline restatements -----------
+
+
+def test_paraphrase_drops_zelenskyy_restatement():
+    # Audit case 25: identical fact, no new information.
+    assert is_headline_paraphrase(
+        "Ukrainian President Zelenskyy is making his first "
+        "visit to Serbia.",
+        "Ukraine's Zelenskyy makes first visit to "
+        "Russia-friendly Serbia",
+    )
+
+
+def test_paraphrase_drops_zelenskyy_official_trip():
+    # Same event restated with synonyms only.
+    assert is_headline_paraphrase(
+        "Zelenskyy visits Serbia in first official trip",
+        "Ukraine's Zelenskyy makes first visit to "
+        "Russia-friendly Serbia",
+    )
+
+
+def test_paraphrase_drops_police_bust_restatement():
+    assert is_headline_paraphrase(
+        "Police have arrested 78 people in a smuggling bust.",
+        "Police arrest 78 people in smuggling bust",
+    )
+
+
+def test_paraphrase_drops_battering_restatement():
+    assert is_headline_paraphrase(
+        "A storm is battering the coast of Japan.",
+        "Storm batters the coast of Japan",
+    )
+
+
+# --- Mechanism proofs --------------------------------------
+
+
+def test_paraphrase_new_number_keeps_sentence():
+    # A number absent from the headline is a new fact.
+    assert not is_headline_paraphrase(
+        "Farmers across the country protested against farm "
+        "taxes with 400 tractors in the capital.",
+        "Farmers across the country protest against farm taxes",
+    )
+
+
+def test_paraphrase_new_day_keeps_sentence():
+    # A day/time absent from the headline is a new fact.
+    assert not is_headline_paraphrase(
+        "The new transport rules take effect in the capital "
+        "on Monday.",
+        "Transport rules take effect in the capital",
+    )
+
+
+def test_paraphrase_new_named_entity_keeps_sentence():
+    # A named place absent from the headline is a new fact.
+    assert not is_headline_paraphrase(
+        "Diplomatic talks between Iran and Oman resumed in "
+        "Muscat.",
+        "Diplomatic talks resume between Iran and Oman",
+    )
+
+
+def test_paraphrase_unchanged_restatement_removed():
+    # Same facts, same words: still a paraphrase even with a
+    # new day when the headline already contains that day.
+    assert is_headline_paraphrase(
+        "The new transport rules take effect in the capital "
+        "on Monday.",
+        "Transport rules take effect in the capital on Monday",
+    )
+
+
+def test_near_duplicate_still_removed_after_paraphrase_fix():
+    # Near-dup protection is untouched by the paraphrase fix.
+    primary = item(
+        "Wildfire spreads across the valley",
+        "The fire has spread across more than 36 square miles.",
+        source="BBC World",
+    )
+    corroborator = item(
+        "Wildfire spreads across the valley",
+        "The fire has spread over more than 36 square miles.",
+        source="Al Jazeera",
+    )
+    rows = aggregate_sentences(
+        [primary, corroborator],
+        primary,
+    )
+    assert len(rows) == 1
+
+
+def test_kept_paraphrase_sentence_is_verbatim():
+    # The relaxed rule must never invent text: kept sentences
+    # are exactly the source sentences.
+    single = item(
+        "Women's Tour de France: Defending champion Pauline "
+        "Ferrand-Prévot pulls out of race",
+        summary=(
+            "French cyclist and defending champion Pauline "
+            "Ferrand-Prévot pulled out of the Women's Tour de "
+            "France ahead of Saturday's 8th and penultimate "
+            "stage due to feeling unwell. An Olympic champion "
+            "in mountain biking at the 2024 Paris Olympics, "
+            "Ferrand-Prévot won the Women's Tour de France in "
+            "her debut last year."
+        ),
+    )
+    briefing = build_briefing(single, [single], 15, NOW)
+    texts = briefing["opening"] + briefing["body"]
+    assert len(texts) == 2
+    assert "feeling unwell" in texts[0]
+    for sentence in texts:
+        assert sentence in single["summary"]
+
+
+def test_zelenskyy_restatement_dropped_in_briefing():
+    # End to end: the restatement is dropped but the second
+    # sentence (real context) survives.
+    single = item(
+        "Ukraine's Zelenskyy makes first visit to "
+        "Russia-friendly Serbia",
+        summary=(
+            "Ukrainian President Zelenskyy is making his first "
+            "visit to Serbia. His host, President Aleksandar "
+            "Vucic, hopes to score points with the EU, while "
+            "Zelenskyy seeks more arms from a country that "
+            "remains friendly to Russia."
+        ),
+        source="DW World",
+    )
+    briefing = build_briefing(single, [single], 15, NOW)
+    texts = briefing["opening"] + briefing["body"]
+    assert len(texts) == 1
+    assert "Vucic" in texts[0]
+    assert "first visit to Serbia" not in texts[0]

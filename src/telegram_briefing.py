@@ -10,10 +10,493 @@ Pure rules over pipeline data. No generation:
 - Materially conflicting facts are not reconciled: the
   lower-ranked version of a disputed detail is dropped.
 """
+import html
 import re
 
 from src.formatter import clean, split_sentences
 from src.telegram_scheduler import story_age_minutes
+
+# ---------------------------------------------------------
+# Sentence cleanup (mechanical fixes only, never rewriting
+# facts): HTML entity unescaping, duplicated-word collapse,
+# whitespace normalization. Filler and headline-paraphrase
+# sentences are dropped so the body never repeats the
+# headline or generic boilerplate.
+# ---------------------------------------------------------
+
+CONTRACTIONS = {
+    "can't": "cannot",
+    "won't": "will not",
+    "don't": "do not",
+    "doesn't": "does not",
+    "didn't": "did not",
+    "isn't": "is not",
+    "aren't": "are not",
+    "wasn't": "was not",
+    "weren't": "were not",
+    "it's": "it is",
+    "that's": "that is",
+    "there's": "there is",
+    "hasn't": "has not",
+    "haven't": "have not",
+    "we're": "we are",
+    "they're": "they are",
+    "you're": "you are",
+    "i'm": "i am",
+    "i've": "i have",
+    "we've": "we have",
+    "they've": "they have",
+    "wouldn't": "would not",
+    "couldn't": "could not",
+    "shouldn't": "should not",
+}
+
+DUPLICATE_WORD_RE = re.compile(
+    r"\b([A-Za-z']+)(\s+\1\b)+",
+    re.IGNORECASE,
+)
+
+STOPWORD_SET = {
+    "a", "an", "and", "as", "at", "by", "for", "from",
+    "in", "is", "of", "on", "or", "the", "to", "with",
+    "its", "it", "that", "this", "was", "were", "are",
+    "has", "have", "had", "be", "been", "says", "said",
+    "after", "over", "more", "than", "into", "about",
+}
+
+FILLER_PHRASES = {
+    "this is a breaking news story",
+    "this is breaking news",
+    "breaking news",
+    "this is an important development",
+    "this is a developing story",
+    "the story is developing",
+    "more details are expected",
+    "more details are expected to follow",
+    "more details will follow",
+    "more details will be provided",
+    "follow for more",
+    "follow for updates",
+    "follow for more updates",
+    "stay tuned",
+    "stay tuned for updates",
+    "this story will be updated",
+    "we will update this story",
+    "we will bring you more updates",
+    "read more",
+    "read the full story",
+    "for more information visit the site",
+}
+
+HEADLINE_PARAPHRASE_OVERLAP = 0.5
+
+
+def _normalized(text):
+    return re.sub(
+        r"[^a-z0-9 ]",
+        " ",
+        (html.unescape(text or "")).lower(),
+    ).strip()
+
+
+def is_filler(sentence):
+    """True for generic boilerplate that carries no facts."""
+    return (
+        _normalized(sentence) in FILLER_PHRASES
+    )
+
+
+BOILERPLATE_PATTERNS = [
+    r"\bcontinue reading(?:\.{0,3})",
+    r"\bread more(?::\s*|\.{1,3}\s*)(?=[A-Z]|$)",
+    r"\bread the full story(?::\s*|\.{1,3}\s*)(?=[A-Z]|$)",
+    r"\bget our breaking news email(?:\s*,?\s*free app(?:\s+or\s+daily news podcast)?)?",
+    r"\bget (?:our|the) (?:free )?app\b",
+    r"\b(?:download|install) (?:our|the) (?:free )?app\b",
+    r"\blisten to (?:our|the) (?:daily )?podcast\b",
+    r"\bget our (?:daily )?podcast\b",
+    r"\bsubscribe (?:to|for) (?:our|the) (?:newsletter|daily briefing|daily email)\b",
+    r"\bsign up (?:to|for) (?:our|the) (?:newsletter|daily briefing|daily email)\b",
+    r"\bsign up for breaking news\b",
+    r"\bfollow us on (?:x|twitter|facebook|instagram|telegram|whatsapp)\b",
+    r"\bjoin our (?:telegram|whatsapp) channel\b",
+    r"\bfollow (?:our )?(?:live )?(?:blog|coverage|updates)\b[^A-Za-z]*$",
+    r"\bmore on this story\b",
+    r"\brelated:?\s*(?:coverage|stories)\b",
+    r"\bnewsletter delivered (?:to|straight to) (?:your|their) inbox\b",
+    r"\bto (?:get|receive) more stories (?:like this|like these)\b",
+    r"\byou (?:can|may) also (?:get|receive|sign up for) (?:our )?(?:newsletter|daily briefing)\b",
+    r"\bthis article was amended on[^.\n]*\.?\s*",
+    r"\bfor (?:more|further) information,? visit (?:our )?(?:website|site)\b",
+]
+
+BOILERPLATE_RE = re.compile(
+    "|".join(
+        "(?:" + pattern + ")"
+        for pattern in BOILERPLATE_PATTERNS
+    ),
+    re.IGNORECASE,
+)
+
+
+def strip_boilerplate(text):
+    """Remove recognizable publisher boilerplate fragments
+    (newsletter/app/podcast/subscription/continue-reading)
+    even when embedded mid-sentence. Each pattern is a
+    multi-word promotional phrase, so no factual text is
+    ever removed."""
+    text = BOILERPLATE_RE.sub(" ", str(text or ""))
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def clean_sentence_text(text):
+    """Mechanical cleanup only: unescape entities, remove
+    recognizable publisher boilerplate fragments, collapse
+    duplicated words and whitespace. Never rewrites facts."""
+    text = html.unescape(str(text or ""))
+    text = strip_boilerplate(text)
+    text = DUPLICATE_WORD_RE.sub(r"\1", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _content_tokens(text):
+    text = html.unescape(str(text or ""))
+    text = text.replace("\u2019", "'")
+    for k, v in CONTRACTIONS.items():
+        text = text.replace(k, v)
+    tokens = re.findall(r"[a-z0-9]+", text.lower())
+    return set(tokens) - STOPWORD_SET
+
+
+# ---------------------------------------------------------
+# Headline-paraphrase detection
+#
+# A sentence is a headline paraphrase only when it mostly
+# repeats the headline AND introduces no fact-bearing detail
+# of its own. Word overlap alone is not enough: ledes that
+# are dense with proper nouns (a person's name plus an event
+# name) routinely reach >= 50% overlap while still carrying
+# genuinely new facts (reason, venue, time, status, medical
+# detail). Such sentences must survive; only sentences that
+# restate headline facts and add nothing new are dropped.
+# ---------------------------------------------------------
+
+# A number in the text (8, 8th, 78,000, 1.2, 7am, 7:30pm,
+# 24 percent, $1.2bn).
+NUMBER_RE = re.compile(
+    r"(?<![A-Za-z0-9])"
+    r"(?:[$£€])?"
+    r"\d[\d,]*(?:\.\d+)?"
+    r"(?:st|nd|rd|th)?"
+    r"\s*(?:%|percent|am|pm|a\.m\.|p\.m\.)?"
+    r"(?!\w)",
+    re.IGNORECASE,
+)
+
+# Day names, month names and simple time references.
+TEMPORAL_RE = re.compile(
+    r"\b(?:monday|tuesday|wednesday|thursday|friday|"
+    r"saturday|sunday|january|february|march|april|may|"
+    r"june|july|august|september|october|november|"
+    r"december|today|tonight|tomorrow|yesterday|"
+    r"(?:next|last)\s+(?:week|month|year))\b",
+    re.IGNORECASE,
+)
+
+# Measurement/unit words with factual weight.
+UNIT_WORDS = {
+    "percent", "km", "kilometre", "kilometres",
+    "kilometer", "kilometers", "kg", "kilogram",
+    "kilograms", "miles", "mile", "tonnes", "tons",
+    "tonne", "ton", "sq", "hectare", "hectares", "acre",
+    "acres", "billion", "million", "thousand", "trillion",
+    "megawatt", "megawatts", "gigawatt", "gigawatts",
+    "feet", "metres", "meters", "metre", "meter",
+    "degrees", "celsius", "fahrenheit",
+}
+
+# Subordinating conjunctions: a sentence whose only new facts
+# sit in a trailing subordinate clause ("Nagasaki mayor says
+# ... as Japan marks the anniversary ...") is still a headline
+# restatement and is dropped; the trailing clause elaborates
+# the restated event instead of standing as independent fact.
+SUBORDINATORS = {
+    "as", "while", "since", "after", "before", "because",
+    "although", "though", "until", "unless", "whereas",
+    "whenever", "wherever", "when", "where",
+}
+
+# Words that never count as a new fact even when absent from
+# the headline: roles/titles, generic collectives, generic
+# descriptors and time periods, restatement synonyms, adverbs
+# and modals. Stored in _stem_lite() form automatically.
+_NON_FACT_SOURCE_WORDS = {
+    # roles / titles
+    "president", "prime", "minister", "government",
+    "official", "authority", "police", "court", "parliament",
+    "senate", "senator", "congress", "house", "council",
+    "committee", "commission", "department", "agency",
+    "ministry", "university", "bank", "party", "union",
+    "army", "navy", "king", "queen", "prince", "princess",
+    "governor", "mayor", "chairman", "secretary", "chief",
+    "director", "general", "captain", "doctor", "professor",
+    "judge", "spokesman", "spokesperson", "chancellor",
+    "leader", "lawmaker", "member", "administrator", "author",
+    "expert", "analyst", "researcher", "ambassador", "priest",
+    # generic collectives
+    "people", "person", "resident", "citizen", "family",
+    "home", "country", "nation", "world", "city", "town",
+    "region", "area", "state", "province", "village",
+    "number", "group", "population", "community", "child",
+    "student", "worker", "tourist", "victim", "woman", "man",
+    "user",
+    # generic descriptors / time periods
+    "worst", "best", "biggest", "largest", "smallest",
+    "greatest", "latest", "newest", "new", "old", "major",
+    "massive", "large", "small", "big", "high", "low", "key",
+    "main", "total", "overall", "recent", "several",
+    "numerous", "multiple", "countless", "decade", "century",
+    "hour", "minute", "month", "week", "year", "day", "time",
+    # verdict/style words and restatement synonyms: they
+    # restate headline facts without adding a new one
+    "trip", "top", "visit", "warning", "warn", "issued",
+    "issue", "raise", "raised",
+    # pronouns, modals and auxiliaries: pure function words
+    "his", "her", "him", "he", "she", "we", "they", "our",
+    "your", "their", "us", "them", "you", "i", "who", "whom",
+    "which", "what", "how", "when", "where", "why",
+    "will", "would", "can", "could", "should", "may", "might",
+    "must", "shall", "do", "does", "did", "doing", "being",
+    "not", "no",
+}
+
+
+def _stem_lite(word):
+    """Crude inflection normalization used ONLY for comparing
+    whether two words are the same fact word. Never changes
+    any rendered sentence text."""
+    w = word.lower()
+    if len(w) > 5 and w.endswith("ing"):
+        w = w[:-3]
+    elif len(w) > 5 and w.endswith("ies"):
+        w = w[:-3] + "y"
+    elif len(w) > 5 and w.endswith("ian"):
+        w = w[:-3]
+    elif len(w) > 5 and w.endswith("an"):
+        w = w[:-2]
+    elif len(w) > 5 and w.endswith("ic"):
+        w = w[:-2]
+    elif len(w) > 4 and w.endswith("es"):
+        w = w[:-2]
+    elif len(w) > 4 and w.endswith("ed"):
+        w = w[:-2]
+    elif len(w) > 3 and w.endswith("s"):
+        w = w[:-1]
+    elif len(w) > 3 and w.endswith("e"):
+        w = w[:-1]
+    return w
+
+
+NON_FACT_WORDS = {
+    _stem_lite(word)
+    for word in _NON_FACT_SOURCE_WORDS
+}
+
+
+def _numbers_of(text):
+    """Canonical number forms in the text (commas, currency,
+    ordinals and am/pm suffixes stripped)."""
+    out = set()
+    for m in NUMBER_RE.finditer(text or ""):
+        canonical = re.sub(r"[^0-9.]", "", m.group(0))
+        if canonical:
+            out.add(canonical)
+    return out
+
+
+def _temporal_of(text):
+    """Lowercased day/month/time references in the text."""
+    return {
+        re.sub(r"\s+", " ", m.group(0)).lower()
+        for m in TEMPORAL_RE.finditer(text or "")
+    }
+
+
+def _units_of(text):
+    """Lowercased unit words present in the text."""
+    lowered = (text or "").lower()
+    return {
+        word for word in UNIT_WORDS
+        if re.search(r"\b" + re.escape(word) + r"\b", lowered)
+    }
+
+
+def _only_in_trailing_subclause(sentence, new_stems):
+    """True when every new-fact word in the sentence appears
+    after the last subordinating conjunction, i.e. the new
+    detail is confined to a trailing subordinate clause."""
+    tokens = re.findall(
+        r"[a-z0-9]+",
+        (sentence or "").lower(),
+    )
+    last_sub = -1
+    for index, token in enumerate(tokens):
+        if token in SUBORDINATORS:
+            last_sub = index
+    if last_sub < 0:
+        return False
+    for index, token in enumerate(tokens):
+        if (
+            index < last_sub
+            and _stem_lite(token) in new_stems
+        ):
+            return False
+    return True
+
+
+def _introduces_new_fact(sentence, headline):
+    """True when the sentence carries fact-bearing detail that
+    the headline does not already state.
+
+    What counts as a new fact:
+    - a number / date / day-time / unit not in the headline
+    - a named person, entity or place not in the headline
+      (survives as a new content word)
+    - a concrete content word not in the headline and not an
+      ordinary function/title/generic word
+    Anything else is treated as a restatement and remains
+    protected by the paraphrase rule. A new word confined to
+    a trailing subordinate clause ("... as Japan marks the
+    anniversary of the US atomic bombing") does not save the
+    sentence: the restated headline carries the sentence and
+    the clause merely elaborates it.
+    """
+    headline_numbers = _numbers_of(headline)
+    if any(
+        n not in headline_numbers
+        for n in _numbers_of(sentence)
+    ):
+        return True
+
+    headline_temporal = _temporal_of(headline)
+    if any(
+        t not in headline_temporal
+        for t in _temporal_of(sentence)
+    ):
+        return True
+
+    headline_units = _units_of(headline)
+    if any(
+        u not in headline_units
+        for u in _units_of(sentence)
+    ):
+        return True
+
+    headline_stems = {
+        _stem_lite(token)
+        for token in _content_tokens(headline)
+    }
+
+    new_stems = {
+        _stem_lite(token)
+        for token in _content_tokens(sentence)
+        if (
+            _stem_lite(token) not in headline_stems
+            and _stem_lite(token) not in NON_FACT_WORDS
+        )
+    }
+
+    if not new_stems:
+        return False
+
+    if _only_in_trailing_subclause(
+        sentence,
+        new_stems,
+    ):
+        return False
+
+    return True
+
+
+def is_headline_paraphrase(sentence, headline):
+    """True when a sentence mostly restates the headline AND
+    introduces no fact-bearing information of its own.
+
+    The headline is the main statement; the body must add
+    factual context instead of repeating it. A sentence is
+    treated as a paraphrase only when at least half of its
+    content words already appear in the headline and it
+    introduces no new fact (number, date/time, unit, named
+    person/entity/place, or concrete detail) beyond the
+    headline. A sentence that carries a genuinely new fact
+    survives even at high word overlap.
+    """
+    sentence_tokens = _content_tokens(sentence)
+
+    if len(sentence_tokens) < 4:
+        return False
+
+    headline_tokens = _content_tokens(headline)
+
+    if not headline_tokens:
+        return False
+
+    overlap = len(
+        sentence_tokens & headline_tokens
+    ) / len(sentence_tokens)
+
+    if overlap < HEADLINE_PARAPHRASE_OVERLAP:
+        return False
+
+    return not _introduces_new_fact(
+        sentence,
+        headline,
+    )
+
+
+def has_meaningful_sentence(text, headline):
+    """True when the cleaned text contains at least one
+    sentence that explains the story beyond its headline.
+
+    Applies the exact same pipeline as the briefing builder
+    (boilerplate removal, filler rejection, headline-
+    paraphrase rejection). Never invents content: if no
+    genuine explanatory sentence survives, the story must be
+    rejected rather than posted headline-only.
+    """
+    for sentence in split_sentences(
+        text or ""
+    ):
+
+        sentence = clean_sentence_text(
+            sentence
+        )
+
+        if not sentence:
+            continue
+
+        # A fragment that reduces to punctuation (e.g. the
+        # stray period left after boilerplate removal) is
+        # not an explanatory sentence.
+        if not re.search(
+            r"[a-z0-9]",
+            sentence,
+            re.IGNORECASE,
+        ):
+            continue
+
+        if is_filler(sentence):
+            continue
+
+        if is_headline_paraphrase(
+            sentence,
+            headline,
+        ):
+            continue
+
+        return True
+
+    return False
 
 # ---------------------------------------------------------
 # Public labels
@@ -71,11 +554,390 @@ def _tokens(text):
     }
 
 
+# ---------------------------------------------------------
+# Named-entity extraction
+# ---------------------------------------------------------
+
+# Proper nouns that are meaningful even as the first word of
+# a sentence (acronyms, brands, head-of-state names).
+KNOWN_ENTITIES = {
+    "us", "uk", "eu", "un", "nato", "tps", "eln", "c16", "c83",
+    "meta", "facebook", "zelensky", "biden", "hunter", "petro",
+    "yagi", "senate", "house", "congress", "fbi", "cia", "bbc",
+}
+
+# City/demonym/company aliases: "Riyadh" means "Saudi Arabia",
+# "Facebook" means "Meta", "Russian" means "Russia". Applied
+# per entity word so both spellings produce the same signal.
+ENTITY_ALIASES = {
+    "facebook": "meta",
+    "riyadh": "saudi",
+    "jeddah": "saudi",
+    "tehran": "iran",
+    "moscow": "russia",
+    "kremlin": "russia",
+    "kyiv": "ukraine",
+    "kiev": "ukraine",
+    "bangkok": "thailand",
+    "havana": "cuba",
+    "belgrade": "serbia",
+    "bogota": "colombia",
+    "athens": "greece",
+    "sydney": "australia",
+    "madrid": "spain",
+    "washington": "us",
+    "london": "uk",
+    "beijing": "china",
+    "ottawa": "canada",
+    "tokyo": "japan",
+    "paris": "france",
+    "berlin": "germany",
+    "russian": "russia",
+    "ukrainian": "ukraine",
+    "british": "uk",
+    "canadian": "canada",
+    "american": "us",
+    "iranian": "iran",
+    "spanish": "spain",
+    "syrian": "syria",
+    "israeli": "israel",
+    "palestinian": "palestine",
+    "chinese": "china",
+    "japanese": "japan",
+}
+
+# Place names used for the location-conflict veto: two items
+# that both name places but share none of them never merge,
+# so a Canada wildfire and a Spokane wildfire stay separate
+# even when they share "wildfire" as a topic word.
+LOCATION_SET = {
+    "canada", "us", "usa", "uk", "britain", "england",
+    "ukraine", "russia", "iran", "saudi", "serbia", "cuba",
+    "thailand", "greece", "australia", "china", "france",
+    "spain", "philippines", "colombia", "columbia", "ceuta",
+    "hormuz", "spokane", "gaza", "israel", "palestine",
+    "syria", "germany", "japan", "india", "mexico", "brazil",
+    "egypt", "turkey", "pakistan", "afghanistan", "europe",
+    "asia", "africa", "america", "gulf", "venezuela",
+    "taiwan", "vietnam", "indonesia", "malaysia", "nigeria",
+    "kenya", "poland", "romania", "hungary", "netherlands",
+    "belgium", "sweden", "norway", "denmark", "italy",
+    "portugal", "new zealand", "argentina", "chile", "peru",
+}
+
+# Strong event words. A shared action is one of the few
+# signals that lets a single shared entity merge two items
+# ("Zelensky visits Serbia" and "Ukrainian president arrives
+# in Belgrade" describe one event on the strength of Serbia +
+# the visit). Generic vocabulary (oil, data, fire) is not
+# listed: it overlaps too easily between unrelated stories.
+ACTION_LEXICON = {
+    "hit", "strike", "strikes", "seize", "seizure", "kill",
+    "killed", "dead", "death", "die", "drown", "evacuat",
+    "wildfire", "flood", "storm", "typhoon", "hurricane",
+    "landfall", "blackout", "collapse", "sign", "ink", "seal",
+    "pact", "agreement", "deal", "treaty", "ceasefire",
+    "fine", "penalty", "convict", "guilty", "verdict",
+    "indict", "shoot", "shooting", "gunman", "gunfire",
+    "attack", "bomb", "blast", "explod", "visit", "arriv",
+    "summit", "vote", "elect", "inaugurat", "swear",
+    "ceremony", "pass", "extend", "terminat", "approv",
+    "jobs", "payroll", "surge", "flee", "cross", "deploy",
+    "exercise", "drone", "missile", "refinery", "tanker",
+    "sanction", "arrest", "lawsuit", "breach", "hack",
+    "protest", "landslide", "quake", "earthquake", "tornado",
+    "outage", "blackout", "fire",
+}
+
+# Action synonym groups: canonical action -> variant words.
+# "hits", "slams" and "landfall" all mean the storm struck;
+# "signs" and "inks" both close a pact.
+ACTION_SYNSETS = {
+    "strike": {"strike", "hit", "landfall", "slams",
+               "pummel", "batters"},
+    "shoot": {"shoot", "shooting", "gunman", "gunfire"},
+    "sign": {"sign", "ink", "seal", "ratify"},
+    "pact": {"pact", "agreement", "deal", "treaty", "accord"},
+    "visit": {"visit", "arriv", "arrive"},
+    "outage": {"outage", "blackout", "collapse", "shutdown"},
+    "convict": {"convict", "guilty", "verdict", "liable"},
+    "fine": {"fine", "penalty"},
+    "kill": {"kill", "dead", "death", "fatal"},
+    "evacuat": {"evacuat", "flee", "evacuation"},
+}
+
+POSSESSIVE_RE = re.compile(r"'\w*$")
+
+
+def _entity_words(text):
+    """Lowercased, de-possessed proper-noun words.
+
+    A capitalized word counts as an entity unless it is a
+    lone first word of a sentence (that is usually ordinary
+    headline casing, e.g. "Wildfire forces..."), a pure
+    number, or a known stopword. Capitalized runs ("Hunter
+    Biden", "Typhoon Yagi", "Western Canada") count even at
+    sentence start.
+    """
+    if not text:
+        return set()
+
+    words = WORD_RE.findall(str(text))
+    entities = set()
+
+    for sentence in split_sentences(str(text)):
+
+        sentence_words = WORD_RE.findall(sentence)
+        if not sentence_words:
+            continue
+
+        i = 0
+        while i < len(sentence_words):
+
+            word = sentence_words[i]
+            if not word[:1].isupper():
+                i += 1
+                continue
+
+            run = [word]
+            j = i + 1
+
+            while (
+                j < len(sentence_words)
+                and sentence_words[j][:1].isupper()
+            ):
+                run.append(sentence_words[j])
+                j += 1
+
+            run_starts_sentence = i == 0
+            known_word = (
+                len(run) == 1
+                and POSSESSIVE_RE.sub(
+                    "",
+                    run[0],
+                ).lower() in (
+                    KNOWN_ENTITIES
+                    | LOCATION_SET
+                    | set(ENTITY_ALIASES)
+                )
+            )
+            keep_run = (
+                len(run) >= 2
+                or not run_starts_sentence
+                or known_word
+            )
+
+            if keep_run:
+                for w in run:
+                    w = POSSESSIVE_RE.sub("", w).lower()
+                    if w[:1].isdigit():
+                        continue
+                    if w in STOPWORDS:
+                        continue
+                    entities.add(
+                        ENTITY_ALIASES.get(w, w)
+                    )
+                    if w in ENTITY_ALIASES:
+                        entities.add(w)
+
+            i = j
+
+    return entities
+
+
+def _action_stems(word):
+    """A word plus its common inflectional stems: "seized"
+    yields "seize", "evacuations" yields "evacuation"."""
+    yield word
+
+    for suffix in ("s", "es", "ed", "d", "ing"):
+        if len(word) > len(suffix) + 2 and word.endswith(suffix):
+            yield word[: -len(suffix)]
+
+
+def _actions(text):
+    """Stemmed strong-event words in the text, canonicalized
+    through synonym groups ("hits" and "landfall" both yield
+    "strike")."""
+    if not text:
+        return set()
+
+    words = {
+        stem
+        for w in WORD_RE.findall(
+            str(text).lower()
+        )
+        for stem in _action_stems(w)
+    }
+    found = set()
+
+    for canonical, variants in ACTION_SYNSETS.items():
+        if variants & words:
+            found.add(canonical)
+
+    found |= (
+        words & ACTION_LEXICON
+    )
+
+    return found
+
+
+def _location_conflict(a, b):
+    """True when both items name places but share none.
+
+    Shared-topic words (wildfire, evacuation) never overcome
+    a hard location split: a fire in Canada and a fire in
+    Washington state are different events even when every
+    other signal overlaps.
+    """
+    la = _entity_words(a.get("title")) & LOCATION_SET
+    lb = _entity_words(b.get("title")) & LOCATION_SET
+
+    if not la or not lb:
+        return False
+
+    shared_locations = la & lb
+
+    if shared_locations:
+        return False
+
+    return True
+
+
+def _number_conflict(a, b):
+    """True when both texts name the same unit with
+    different values ("20,000 evacuated" vs "12,000
+    evacuated"). Conflicting numbers mean different facts,
+    never the same event."""
+    units_a = dict(
+        _number_units(a.get("title"))
+    )
+    units_b = dict(
+        _number_units(b.get("title"))
+    )
+
+    for unit in set(units_a) & set(units_b):
+        if units_a[unit] != units_b[unit]:
+            return True
+
+    return False
+
+
+def _corroborated(a, b):
+    """Shared specific number+unit fact ("7 tankers" on both
+    sides) or explicit corroboration from both sources."""
+    shared = set(
+        _number_units(a.get("title"))
+    ) & set(
+        _number_units(b.get("title"))
+    )
+
+    if shared:
+        return True
+
+    # A shared large bare figure ("272,000 jobs" reported as
+    # "payrolls jump 272,000") also corroborates: the same
+    # four-plus-digit number in both feeds is not coincidence.
+    def bare_numbers(text):
+        return {
+            m.group(0).replace(",", "")
+            for m in NUMBER_RE.finditer(text or "")
+            if len(m.group(0).replace(",", "")) >= 4
+        }
+
+    if bare_numbers(a.get("title")) & bare_numbers(
+        b.get("title")
+    ):
+        return True
+
+    return bool(
+        a.get("strong_corroboration")
+        and b.get("strong_corroboration")
+    )
+
+
+def _topic_similarity(a, b):
+    ta = _tokens(a.get("title"))
+    tb = _tokens(b.get("title"))
+
+    if not ta or not tb:
+        return 0.0
+
+    return len(ta & tb) / max(
+        1,
+        len(ta | tb),
+    )
+
+
+TEMPORAL_WINDOW_HOURS = 72
+
+
+def _temporally_close(a, b):
+    """Whether the two items happened within 72 hours.
+
+    An archive piece about the 1999 eclipse and a live
+    report on this year's eclipse never merge: they are
+    decades apart even though every topic word matches.
+    """
+    ts_a = a.get("effective_at")
+    ts_b = b.get("effective_at")
+
+    if not ts_a or not ts_b:
+        return True
+
+    try:
+        from datetime import datetime
+        fmt = "%Y-%m-%dT%H:%M:%S"
+        d_a = datetime.fromisoformat(ts_a)
+        d_b = datetime.fromisoformat(ts_b)
+    except (TypeError, ValueError):
+        return True
+
+    delta = abs(
+        (
+            d_b - d_a
+        ).total_seconds()
+    )
+
+    return delta <= (
+        TEMPORAL_WINDOW_HOURS * 3600
+    )
+
+
+# With only one shared named entity, a single shared action
+# is not enough to merge: two unrelated stories both say
+# "Ukraine" and "killed" every day. One-entity merges need
+# at least one strengthener: a second shared action,
+# corroborating concrete facts, or strong topic overlap.
+# Calibrated so a real single-event pair like the Canada
+# wildfire cluster (topic 0.167) still merges, while the
+# false "Ukraine kill" / "US arrest" pairs (topic ~0.0)
+# stay separate.
+ONE_ENTITY_TOPIC_THRESHOLD = 0.15
+
+
 def same_event(a, b):
     """Whether two items are the same event.
 
-    Conservative: requires multiple meaningful signals.
-    Geography or urgency alone is never enough.
+    Conservative multi-signal matcher. Same event_id merges.
+    Otherwise merging requires shared named entities plus
+    meaningful signals:
+
+    - two-plus shared entities merge with any one of: a
+      shared action, corroborating facts/numbers, or topic
+      overlap of 0.30;
+    - one shared entity merges only with at least one shared
+      meaningful action plus one of: a second shared action,
+      corroborating facts/numbers, or topic overlap of
+      ONE_ENTITY_TOPIC_THRESHOLD.
+
+    Vetoes (never merged, whatever else overlaps):
+    - items more than 72 hours apart (an archive report and
+      a live one are different posts);
+    - items that name different places and share no place
+      (a Canada wildfire is not a Spokane wildfire);
+    - items that report the same unit with different numbers
+      (20,000 evacuated vs 12,000 evacuated).
     """
     a_id = a.get("event_id")
     b_id = b.get("event_id")
@@ -83,50 +945,45 @@ def same_event(a, b):
     if a_id and b_id and a_id == b_id:
         return True
 
-    ta = _tokens(a.get("title"))
-    tb = _tokens(b.get("title"))
-
-    shared = ta & tb
-
-    if len(shared) < 2:
+    if not _temporally_close(a, b):
         return False
 
-    jaccard = len(shared) / max(
-        1,
-        len(ta | tb),
+    if _number_conflict(a, b):
+        return False
+
+    if _location_conflict(a, b):
+        return False
+
+    ea = _entity_words(a.get("title"))
+    eb = _entity_words(b.get("title"))
+
+    shared_entities = ea & eb
+
+    if not shared_entities:
+        return False
+
+    shared_actions = (
+        _actions(a.get("title"))
+        & _actions(b.get("title"))
     )
 
-    shared_urgency = (
-        set(
-            a.get("urgency_terms")
-            or []
-        )
-        & set(
-            b.get("urgency_terms")
-            or []
-        )
-    )
+    corroborated = _corroborated(a, b)
+    topic = _topic_similarity(a, b)
 
-    # Categories may differ between sources ("world" vs
-    # "disaster") but both must be urgent-domain for a
-    # merge: non-urgent stories never merge on tokens.
-    urgent_category = (
-        a.get("category") in URGENT_CATEGORIES
-        and b.get("category") in URGENT_CATEGORIES
-    )
-
-    if (
-        len(shared) >= 4
-        and jaccard >= 0.30
-        and urgent_category
+    if len(shared_entities) >= 2 and (
+        shared_actions
+        or corroborated
+        or topic >= 0.30
     ):
         return True
 
+    if not shared_actions:
+        return False
+
     if (
-        len(shared) >= 2
-        and jaccard >= 0.15
-        and shared_urgency
-        and urgent_category
+        len(shared_actions) >= 2
+        or corroborated
+        or topic >= ONE_ENTITY_TOPIC_THRESHOLD
     ):
         return True
 
@@ -195,7 +1052,7 @@ UNIT_RE = re.compile(
     r"(\d[\d,.]*)\s*"
     r"(million|billion|thousand|percent|%|people|residents|"
     r"homes|families|troops|soldiers|killed|injured|dead|"
-    r"displaced|evacuated|evacuees|sq miles|sq km|sq m|"
+    r"displaced|evacuated|evacuees|jobs|sq miles|sq km|sq m|"
     r"miles|km|hectares|acres|fires|officers|hostages)?"
     r")",
     re.IGNORECASE,
@@ -264,6 +1121,38 @@ def _conflicting(a, b):
     return False
 
 
+NEAR_DUP_JACCARD = 0.80
+
+
+def is_near_duplicate(a, b):
+    """True when two sentences are near-identical rewordings
+    of the same statement: high token overlap and no
+    materially conflicting facts.
+
+    Catches pairs that exact-match dedup misses, e.g.
+    "...has spread over more than 36 sq miles" vs
+    "...has spread to more than 36 sq miles". Sentences
+    that disagree on a numeric fact are never near-dups.
+    """
+    ta = _tokens(a["text"])
+    tb = _tokens(b["text"])
+
+    shared = ta & tb
+
+    if len(shared) < 3:
+        return False
+
+    jaccard = len(shared) / max(
+        1,
+        len(ta | tb),
+    )
+
+    if jaccard < NEAR_DUP_JACCARD:
+        return False
+
+    return not _conflicting(a, b)
+
+
 def aggregate_sentences(group, primary):
     """Verbatim sentences from the whole event group,
     deduplicated, with source provenance retained.
@@ -289,6 +1178,8 @@ def aggregate_sentences(group, primary):
     seen = set()
     accepted = []
 
+    headline = primary.get("title") or ""
+
     for item in ranked:
 
         source = item.get("source") or "Unknown"
@@ -297,7 +1188,23 @@ def aggregate_sentences(group, primary):
             item.get("summary")
         ):
 
-            key = sentence.lower()
+            sentence = clean_sentence_text(
+                sentence
+            )
+
+            if not sentence:
+                continue
+
+            if is_filler(sentence):
+                continue
+
+            if is_headline_paraphrase(
+                sentence,
+                headline,
+            ):
+                continue
+
+            key = _normalized(sentence)
 
             if key in seen:
                 continue
@@ -315,6 +1222,12 @@ def aggregate_sentences(group, primary):
 
             if any(
                 _conflicting(row, other)
+                for other in accepted
+            ):
+                continue
+
+            if any(
+                is_near_duplicate(row, other)
                 for other in accepted
             ):
                 continue
@@ -365,7 +1278,7 @@ STATUS_PHRASES = [
 IMPACT_RE = re.compile(
     r"(?:more than|at least|nearly|about|around|over|"
     r"up to|almost|roughly)?\s*"
-    r"[\d,.]+\s*"
+    r"\d[\d,.]*\s*"
     r"(?:people|residents|homes|families|troops|soldiers|"
     r"killed|injured|dead|displaced|evacuated|evacuees|"
     r"fires|hostages|officers)",
@@ -588,6 +1501,7 @@ def build_briefing(
     group,
     just_in_freshness_minutes=15,
     now=None,
+    max_sentences=None,
 ):
     """Build the enriched briefing for one event cluster.
 
@@ -597,6 +1511,9 @@ def build_briefing(
         group,
         primary,
     )
+
+    if max_sentences:
+        rows = rows[:max_sentences]
 
     primary_source = (
         primary.get("source")
@@ -618,6 +1535,19 @@ def build_briefing(
     opening = rows[:2]
 
     bullets = extract_bullets(rows)
+
+    # A bullet must never repeat a sentence that already
+    # appears in the opening paragraph.
+    opening_texts = {
+        r["text"] for r in opening
+    }
+
+    bullets = [
+        b
+        for b in bullets
+        if (b["text"] or "").strip()
+        not in opening_texts
+    ]
 
     sentence_texts = [
         r["text"] for r in rows

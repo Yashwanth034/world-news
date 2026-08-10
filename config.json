@@ -142,14 +142,16 @@
       "url": "https://www.nasa.gov/feed/",
       "category": "space",
       "primary": true,
-      "tier": 1
+      "tier": 1,
+      "news": false
     },
     {
       "name": "NASA News Releases",
       "url": "https://www.nasa.gov/news-release/feed/",
       "category": "space",
       "primary": true,
-      "tier": 1
+      "tier": 1,
+      "news": false
     },
     {
       "name": "JPL News",
@@ -184,7 +186,8 @@
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "category": "cybersecurity",
       "primary": true,
-      "tier": 1
+      "tier": 1,
+      "news": false
     },
     {
       "name": "WHO News",
@@ -198,7 +201,8 @@
       "url": "https://www.esa.int/rssfeed/Our_Activities/Space_News",
       "category": "space",
       "primary": true,
-      "tier": 1
+      "tier": 1,
+      "news": false
     },
     {
       "name": "The Indian Express",
@@ -340,6 +344,42 @@
   "normal_max_delay_minutes": 60,
   "poll_interval_minutes": 5,
   "max_feed_entries_per_source": 25,
+  "article_extraction": {
+    "enabled": true,
+    "max_fetches_per_run": 15,
+    "max_concurrent": 6,
+    "connect_timeout_seconds": 10,
+    "read_timeout_seconds": 20,
+    "total_timeout_seconds": 30,
+    "max_bytes": 2097152,
+    "max_redirects": 3,
+    "min_domain_interval_seconds": 1,
+    "cache_ttl_hours_ok": 48,
+    "cache_ttl_hours_error": 24,
+    "max_article_sentences": 12,
+    "max_briefing_sentences": 10,
+    "min_useful_article_sentences": 2,
+    "non_article_segments": [
+      "video",
+      "videos",
+      "liveblog",
+      "liveblogs",
+      "newsfeed",
+      "watch",
+      "programmes"
+    ],
+    "paywall_markers": [
+      "to continue reading",
+      "subscribe to read",
+      "subscriber-only",
+      "subscribers only",
+      "sign in to continue",
+      "subscription required",
+      "to read the full",
+      "become a subscriber",
+      "unlock this article"
+    ]
+  },
   "telegram": {
     "channel_id": "",
     "telegram_state_file": "data/telegram_state.json",

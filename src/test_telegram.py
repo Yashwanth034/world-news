@@ -13,6 +13,10 @@ from src.telegram_briefing import (
     JUST_IN,
     NEWS,
     UPDATE,
+    clean_sentence_text,
+    has_meaningful_sentence,
+    is_near_duplicate,
+    strip_boilerplate,
 )
 from src.telegram_formatter import (
     build_message,
@@ -717,7 +721,9 @@ def test_briefing_label_rendered_above_headline():
     ):
         msg = build_message(briefing_item(label=label), CFG)
         assert label in msg["text"]
-        assert msg["text"].startswith(label + "\n")
+        assert msg["text"].startswith(
+            "WorldNews\U0001F30E:\n\n" + label + "\n"
+        )
         position = msg["text"].index(label)
         headline_pos = msg["text"].index(
             "<b>"
@@ -732,6 +738,7 @@ def test_breaking_visual_label():
         CFG,
     )
     assert msg["text"].startswith(
+        "WorldNews\U0001F30E:\n\n"
         "\U0001F534 BREAKING\n"
     )
 
@@ -743,6 +750,7 @@ def test_just_in_visual_label():
         CFG,
     )
     assert msg["text"].startswith(
+        "WorldNews\U0001F30E:\n\n"
         "\U0001F7E1 JUST IN\n"
     )
 
@@ -754,6 +762,7 @@ def test_news_visual_label():
         CFG,
     )
     assert msg["text"].startswith(
+        "WorldNews\U0001F30E:\n\n"
         "\U0001F535 NEWS\n"
     )
 
@@ -765,6 +774,7 @@ def test_update_visual_label():
         CFG,
     )
     assert msg["text"].startswith(
+        "WorldNews\U0001F30E:\n\n"
         "\U0001F7E0 UPDATE\n"
     )
 
@@ -797,7 +807,6 @@ def test_region_line_omitted_without_evidence():
         "UNITED STATES",
         "ASIA",
         "\U0001F30D",
-        "\U0001F30E",
         "\U0001F30F",
     ):
         assert region not in msg["text"]
@@ -857,7 +866,7 @@ def test_paragraph_spacing_uses_blank_lines():
     assert "The body paragraph sentence.\n\n" in text
 
 
-def test_impact_section_rendered():
+def test_impact_bullet_rendered_plain():
     msg = build_message(
         briefing_item(
             bullets=[
@@ -870,14 +879,11 @@ def test_impact_section_rendered():
         ),
         CFG,
     )
-    assert "\U0001F465 **IMPACT**" in msg["text"]
-    assert (
-        "**IMPACT**\nNearly 100,000 people"
-        in msg["text"]
-    )
+    assert "\u2022 Nearly 100,000 people" in msg["text"]
+    assert "**IMPACT**" not in msg["text"]
 
 
-def test_status_section_rendered():
+def test_status_bullet_rendered_plain():
     msg = build_message(
         briefing_item(
             bullets=[
@@ -890,14 +896,11 @@ def test_status_section_rendered():
         ),
         CFG,
     )
-    assert "\u26A0\uFE0F **STATUS**" in msg["text"]
-    assert (
-        "**STATUS**\nOut of control"
-        in msg["text"]
-    )
+    assert "\u2022 Out of control" in msg["text"]
+    assert "**STATUS**" not in msg["text"]
 
 
-def test_next_section_rendered():
+def test_next_bullet_rendered_plain():
     msg = build_message(
         briefing_item(
             bullets=[
@@ -911,24 +914,21 @@ def test_next_section_rendered():
         ),
         CFG,
     )
-    assert "\u27A1\uFE0F **NEXT**" in msg["text"]
     assert (
-        "**NEXT**\nThe storm is expected to "
+        "\u2022 The storm is expected to "
         "weaken by morning."
         in msg["text"]
     )
+    assert "**NEXT**" not in msg["text"]
 
 
-def test_location_section_rendered():
+def test_location_bullet_rendered_plain():
     msg = build_message(briefing_item(), CFG)
-    assert "\U0001F4CD **LOCATION**" in msg["text"]
-    assert (
-        "**LOCATION**\nBritish Columbia"
-        in msg["text"]
-    )
+    assert "\u2022 British Columbia" in msg["text"]
+    assert "**LOCATION**" not in msg["text"]
 
 
-def test_only_supported_sections_rendered():
+def test_only_known_bullet_labels_rendered():
     msg = build_message(
         briefing_item(
             bullets=[
@@ -942,10 +942,10 @@ def test_only_supported_sections_rendered():
         CFG,
     )
     assert "Mystery" not in msg["text"]
-    assert "unsupported section" not in msg["text"]
+    assert "\u2022 Unsupported section" in msg["text"]
 
 
-def test_divider_placement_with_sections():
+def test_no_decorative_dividers():
     msg = build_message(
         briefing_item(
             bullets=[
@@ -964,54 +964,27 @@ def test_divider_placement_with_sections():
         CFG,
     )
     text = msg["text"]
-    dividers = text.count("\u2501" * 14)
-    assert dividers == 2
-    assert dividers <= 2
-    assert (
-        text.index("</b>\n\n") < text.index(
-            "\u2501" * 14
-        )
-    )
-    assert (
-        text.index("\u2501" * 14)
-        < text.index("\U0001F465 **IMPACT**")
-    )
-    assert (
-        text.index("\U0001F465 **IMPACT**")
-        < text.index("\u2501" * 14, text.index(
-            "\U0001F465 **IMPACT**"
-        ))
-    )
-    assert (
-        text.rindex("\u2501" * 14)
-        < text.index("\U0001F4F0 **SOURCE:**")
-    )
+    assert "\u2501" * 14 not in text
+    assert "**" not in text
+    assert text.count("\U0001F4F0 Source:") == 1
 
 
-def test_single_divider_without_sections():
+def test_no_dividers_without_bullets():
     msg = build_message(
         briefing_item(bullets=[]),
         CFG,
     )
-    assert msg["text"].count("\u2501" * 14) == 1
-    text = msg["text"]
-    assert (
-        text.index("</b>\n\n") < text.index(
-            "\u2501" * 14
-        )
-    )
-    assert (
-        text.index("\u2501" * 14)
-        < text.index("\U0001F4F0 **SOURCE:**")
-    )
+    assert "\u2501" * 14 not in msg["text"]
+    assert "**" not in msg["text"]
 
 
 def test_source_footer_attribution():
     msg = build_message(briefing_item(), CFG)
     assert (
-        "\U0001F4F0 **SOURCE:** BBC World"
+        "\U0001F4F0 Source: BBC World"
         in msg["text"]
     )
+    assert "**SOURCE:**" not in msg["text"]
 
 
 def test_corroboration_listed_in_footer():
@@ -1022,7 +995,7 @@ def test_corroboration_listed_in_footer():
         CFG,
     )
     assert (
-        "\U0001F4F0 **SOURCE:** BBC World"
+        "\U0001F4F0 Source: BBC World"
         in msg["text"]
     )
     assert "Corroborated by: Al Jazeera" in msg["text"]
@@ -1154,7 +1127,7 @@ def test_duplicate_sentence_protection_in_rendered_message():
         briefing=briefing,
     )
     msg = build_message(en, CFG)
-    assert "\u27A1\uFE0F **NEXT**" in msg["text"]
+    assert "\u2022 " + next_sentence in msg["text"]
     assert msg["text"].count(next_sentence) == 1
 
 
@@ -1204,10 +1177,12 @@ def test_build_message_escapes_html():
 
 
 def test_build_message_without_summary():
+    # Empty-message protection: a story with no explanatory
+    # sentence beyond its headline is rejected, never
+    # rendered as a headline-only post.
     x = item(summary="")
     msg = build_message(x, CFG)
-    assert msg is not None
-    assert "Test story" in msg["text"]
+    assert msg is None
 
 
 def test_build_message_empty_item():
@@ -1664,3 +1639,673 @@ def test_publish_due_same_call_two_entries_enforce_gap():
         == "same-call-b"
     )
     assert state["scheduled"] == []
+
+
+# ---------------------------------------------------------
+# Editorial content regressions
+# ---------------------------------------------------------
+
+
+def test_header_present_first():
+    msg = build_message(briefing_item(), CFG)
+    text = msg["text"]
+    assert text.startswith("WorldNews\U0001F30E:")
+    assert "WorldNews\U0001F30E:\n\n" in text
+
+
+def test_headline_duplicate_removed_from_body():
+    msg = build_message(
+        briefing_item(
+            headline=(
+                "Nagasaki mayor says 'humanity and "
+                "nuclear weapons cannot coexist'"
+            ),
+            opening=[
+                "Nagasaki Mayor says 'humanity and "
+                "nuclear weapons can&#039;t coexist' as "
+                "Japan marks the anniversary of the US "
+                "atomic bombing.",
+            ],
+            body=[
+                "The mayor made the remark during the "
+                "annual ceremony in the city.",
+            ],
+        ),
+        CFG,
+    )
+    text = msg["text"]
+    assert (
+        "<b>Nagasaki mayor says 'humanity and nuclear "
+        "weapons cannot coexist'</b>"
+        in text
+    )
+    assert "as Japan marks the anniversary" not in text
+    assert (
+        "The mayor made the remark during the annual "
+        "ceremony in the city."
+        in text
+    )
+
+
+def test_html_entity_apostrophe_unescaped():
+    msg = build_message(
+        briefing_item(
+            opening=[
+                "The official said the plan can&#039;t "
+                "proceed without approval.",
+            ],
+        ),
+        CFG,
+    )
+    assert "can't proceed" in msg["text"]
+    assert "&#039;" not in msg["text"]
+    assert "&#39;" not in msg["text"]
+    assert "&apos;" not in msg["text"]
+
+
+def test_html_entity_amp_unescaped_once():
+    msg = build_message(
+        briefing_item(
+            opening=[
+                "Research &amp; development funding "
+                "was increased.",
+            ],
+        ),
+        CFG,
+    )
+    assert "Research &amp; development" in msg["text"]
+    assert "&amp;amp;" not in msg["text"]
+
+
+def test_html_entity_lt_gt_unescaped_once():
+    msg = build_message(
+        briefing_item(
+            opening=[
+                "Officials said 5 &lt; 10 &gt; 3 "
+                "in the report.",
+            ],
+        ),
+        CFG,
+    )
+    assert "&lt;" in msg["text"]
+    assert "&lt;lt;" not in msg["text"]
+    assert "&gt;" in msg["text"]
+    assert "&gt;gt;" not in msg["text"]
+
+
+def test_literal_source_marker_never_appears():
+    msg = build_message(briefing_item(), CFG)
+    assert "**SOURCE:**" not in msg["text"]
+    assert "**" not in msg["text"]
+    assert "\U0001F4F0 Source: BBC World" in msg["text"]
+
+
+def test_generic_filler_removed():
+    msg = build_message(
+        briefing_item(
+            opening=[
+                "This is a breaking news story.",
+                "The port reopened after the storm "
+                "passed overnight.",
+            ],
+        ),
+        CFG,
+    )
+    text = msg["text"]
+    assert "This is a breaking news story." not in text
+    assert (
+        "The port reopened after the storm passed "
+        "overnight."
+        in text
+    )
+
+
+def test_fallback_filler_and_paraphrase_removed():
+    x = item(
+        title="Market falls after central bank decision",
+        summary=(
+            "Market falls after central bank decision. "
+            "This is a breaking news story. "
+            "The central bank cut its benchmark rate "
+            "to 3.5 percent."
+        ),
+    )
+    msg = build_message(x, CFG)
+    text = msg["text"]
+    assert "This is a breaking news story." not in text
+    assert "Market falls after central bank decision." not in text
+    assert (
+        "The central bank cut its benchmark rate to "
+        "3.5 percent."
+        in text
+    )
+
+
+def test_duplicate_factual_sentence_removed():
+    msg = build_message(
+        briefing_item(
+            opening=[
+                "The dam released water overnight.",
+                "The dam released water overnight.",
+            ],
+            body=[
+                "Evacuation orders covered five villages.",
+            ],
+        ),
+        CFG,
+    )
+    text = msg["text"]
+    assert text.count("The dam released water overnight.") == 1
+    assert (
+        "Evacuation orders covered five villages."
+        in text
+    )
+
+
+def test_headline_source_url_intact():
+    msg = build_message(briefing_item(), CFG)
+    text = msg["text"]
+    assert (
+        "<b>Canada wildfire doubles in size</b>"
+        in text
+    )
+    assert "Source: BBC World" in text
+    assert (
+        '<a href="https://www.bbc.co.uk/news/articles/'
+        'abc123">Read the full report</a>'
+        in text
+    )
+
+
+def test_no_unsupported_facts_introduced():
+    opening = [
+        "The river rose one metre overnight.",
+    ]
+    body = [
+        "Residents were told to move to higher ground.",
+    ]
+    msg = build_message(
+        briefing_item(opening=opening, body=body),
+        CFG,
+    )
+    stripped = msg["text"].replace("\u2026", "")
+    for sentence in opening + body:
+        assert sentence in stripped
+    assert "two metre" not in stripped
+    assert "expected to rise" not in stripped
+
+
+# ---------------------------------------------------------
+# publisher boilerplate removal + near-duplicate collapse
+# ---------------------------------------------------------
+
+
+def test_strip_boilerplate_removes_publisher_fragments():
+    assert strip_boilerplate(
+        "Continue reading..."
+    ) == ""
+    assert strip_boilerplate(
+        "Read more: The backlash is growing."
+    ) == "The backlash is growing."
+    assert strip_boilerplate(
+        "The Guardian view on the budget"
+    ) == "The Guardian view on the budget"
+    assert strip_boilerplate(
+        "life-changing Get our breaking news email , "
+        "free app or daily news podcast One summer day"
+    ) == (
+        "life-changing One summer day"
+    )
+    assert strip_boilerplate(
+        "Subscribe to our newsletter for updates."
+    ) == "for updates."
+    assert strip_boilerplate(
+        "Follow us on Twitter for live updates."
+    ) == "for live updates."
+
+
+def test_clean_sentence_text_strips_boilerplate():
+    assert clean_sentence_text(
+        "In the foreground, in a man\u2019s hand was "
+        "an iPhone unlocked. Continue reading..."
+    ) == (
+        "In the foreground, in a man\u2019s hand was "
+        "an iPhone unlocked."
+    )
+
+
+def test_boilerplate_promo_removed_mid_sentence():
+    opening = [
+        "The backlash to what some dub \u2018pervert "
+        "glasses\u2019 is growing \u2013 but people "
+        "living with disabilities point out the new tech "
+        "can also be life-changing Get our breaking news "
+        "email , free app or daily news podcast One "
+        "summer day earlier this year, Rhys left a cafe "
+        "in Melbourne.",
+    ]
+    body = [
+        "The message was a photo of him sitting at a "
+        "table outside the cafe on his laptop, with his "
+        "dog seated on the ground next to him.",
+        "In the foreground, in a man\u2019s hand was an "
+        "iPhone unlocked.",
+        "Continue reading...",
+    ]
+    msg = build_message(
+        briefing_item(opening=opening, body=body),
+        CFG,
+    )
+    text = msg["text"]
+    assert "breaking news email" not in text
+    assert "free app" not in text
+    assert "daily news podcast" not in text
+    assert "Continue reading" not in text
+    assert (
+        "life-changing One summer day earlier this "
+        "year, Rhys left a cafe in Melbourne."
+        in text
+    )
+    assert "iPhone unlocked" in text
+
+
+def test_near_duplicate_sentences_collapse_to_one():
+    opening = [
+        "The Bald Range wildfire in British Columbia, "
+        "still considered out of control, has spread "
+        "over more than 36 sq miles.",
+    ]
+    body = [
+        "The Bald Range wildfire in British Columbia, "
+        "still considered out of control, has spread "
+        "to more than 36 sq miles.",
+        "A fast-moving wildfire has forced more than "
+        "20,000 people to evacuate.",
+    ]
+    msg = build_message(
+        briefing_item(opening=opening, body=body),
+        CFG,
+    )
+    text = msg["text"]
+    assert (
+        "spread over more than 36 sq miles"
+        in text
+    )
+    assert "spread to more than 36 sq miles" not in text
+    assert text.count("36 sq miles") == 1
+    assert "20,000 people to evacuate" in text
+
+
+def test_near_duplicate_keeps_materially_different_facts():
+    opening = [
+        "The Bald Range wildfire in British Columbia "
+        "has destroyed 20 homes.",
+    ]
+    body = [
+        "The Bald Range wildfire in British Columbia "
+        "has destroyed 30 homes.",
+    ]
+    msg = build_message(
+        briefing_item(opening=opening, body=body),
+        CFG,
+    )
+    text = msg["text"]
+    assert "has destroyed 20 homes" in text
+    assert "has destroyed 30 homes" in text
+
+
+def test_is_near_duplicate_pairs():
+    spread_over = {
+        "text": "The Bald Range wildfire in British "
+        "Columbia, still considered out of control, "
+        "has spread over more than 36 sq miles."
+    }
+    spread_to = {
+        "text": "The Bald Range wildfire in British "
+        "Columbia, still considered out of control, "
+        "has spread to more than 36 sq miles."
+    }
+    homes = {
+        "text": "The Bald Range wildfire in British "
+        "Columbia has destroyed 20 homes."
+    }
+    assert is_near_duplicate(spread_over, spread_to)
+    assert is_near_duplicate(spread_to, spread_over)
+    assert not is_near_duplicate(spread_over, homes)
+    assert not is_near_duplicate(
+        homes,
+        {
+            "text": "The Bald Range wildfire in British "
+            "Columbia has destroyed 30 homes."
+        },
+    )
+
+
+def test_fallback_message_strips_boilerplate_and_near_dups():
+    summary = (
+        "The Bald Range wildfire in British Columbia "
+        "has spread over more than 36 sq miles. "
+        "The Bald Range wildfire in British Columbia "
+        "has spread to more than 36 sq miles. "
+        "Continue reading..."
+    )
+    msg = build_message(
+        item(
+            title="Canada wildfire doubles in size",
+            summary=summary,
+        ),
+        CFG,
+    )
+    text = msg["text"]
+    assert "Continue reading" not in text
+    assert (
+        "spread over more than 36 sq miles"
+        in text
+    )
+    assert "spread to more than 36 sq miles" not in text
+    assert text.count("36 sq miles") == 1
+
+
+def test_impact_bullet_requires_a_digit():
+    opening = [
+        "Israeli settlers and the military are "
+        "continuing a campaign to displace "
+        "Palestinians in the West Bank, residents "
+        "say.",
+    ]
+    msg = build_message(
+        briefing_item(opening=opening),
+        CFG,
+    )
+    text = msg["text"]
+    assert "\u2022 , residents" not in text
+    assert "\u2022 ," not in text
+
+
+def test_next_bullet_does_not_duplicate_opening():
+    opening = [
+        "PM expected to announce policies to tackle "
+        "cost of living and indicate intent to help "
+        "improve country\u2019s high streets.",
+    ]
+    msg = build_message(
+        briefing_item(opening=opening),
+        CFG,
+    )
+    text = msg["text"]
+    assert text.count(
+        "PM expected to announce policies to tackle "
+        "cost of living"
+    ) == 1
+    assert "\u2022 PM expected to announce" not in text
+
+
+# ---------------------------------------------------------
+# Empty-message protection
+#
+# A story whose cleaned summary contains no sentence that
+# explains it beyond its headline must be rejected at every
+# layer: the queue gate (build_telegram_stories in
+# src/main.py), the shared predicate
+# (has_meaningful_sentence), and the message builder
+# (build_message). It must never be rendered as a
+# headline-only post and never padded with invented text.
+# ---------------------------------------------------------
+
+
+def test_has_meaningful_sentence_headline_only_rejected():
+    assert not has_meaningful_sentence(
+        "Yemeni army warns Houthis after attacks "
+        "heighten escalation risk",
+        "Yemeni army warns Houthis after attacks "
+        "heighten escalation risk",
+    )
+
+
+def test_has_meaningful_sentence_punctuation_variation_rejected():
+    assert not has_meaningful_sentence(
+        "Yemeni army warns Houthis after attacks "
+        "heighten escalation risk.",
+        "Yemeni army warns Houthis after attacks "
+        "heighten escalation risk",
+    )
+
+
+def test_has_meaningful_sentence_close_paraphrase_rejected():
+    assert not has_meaningful_sentence(
+        "The Yemeni army has issued a warning to the "
+        "Houthis as recent attacks raise the risk of "
+        "escalation.",
+        "Yemeni army warns Houthis after attacks "
+        "heighten escalation risk",
+    )
+
+
+def test_has_meaningful_sentence_boilerplate_only_rejected():
+    assert not has_meaningful_sentence(
+        "Get our breaking news email , free app or "
+        "daily news podcast. "
+        "Subscribe to our newsletter",
+        "Yemeni army warns Houthis",
+    )
+
+
+def test_has_meaningful_sentence_informative_accepted():
+    assert has_meaningful_sentence(
+        "The strikes killed five people and wounded "
+        "around two dozen others.",
+        "Yemeni army warns Houthis after attacks "
+        "heighten escalation risk",
+    )
+
+
+def test_has_meaningful_sentence_keeps_informative_with_headline_dup():
+    assert has_meaningful_sentence(
+        "Yemeni army warns Houthis after attacks "
+        "heighten escalation risk. "
+        "The strikes killed five people and wounded "
+        "around two dozen others.",
+        "Yemeni army warns Houthis after attacks "
+        "heighten escalation risk",
+    )
+
+
+def test_headline_only_fallback_never_rendered():
+    msg = build_message(
+        item(
+            title="Yemeni army warns Houthis after "
+            "attacks heighten escalation risk",
+            summary="Yemeni army warns Houthis after "
+            "attacks heighten escalation risk",
+        ),
+        CFG,
+    )
+    assert msg is None
+
+
+def test_empty_briefing_never_rendered():
+    msg = build_message(
+        item(
+            title="Yemeni army warns Houthis after "
+            "attacks heighten escalation risk",
+            summary="Yemeni army warns Houthis after "
+            "attacks heighten escalation risk",
+            briefing={
+                "opening": [],
+                "body": [],
+                "bullets": [],
+                "sentences": [],
+                "source": "Example News",
+                "corroborating": [],
+                "url": "https://example.com/story",
+            },
+        ),
+        CFG,
+    )
+    assert msg is None
+
+
+def test_briefing_collapsing_to_nothing_never_rendered():
+    msg = build_message(
+        briefing_item(
+            opening=[
+                "Get our breaking news email , free "
+                "app or daily news podcast"
+            ],
+            body=[
+                "Subscribe to our newsletter"
+            ],
+        ),
+        CFG,
+    )
+    assert msg is None
+
+
+def test_informative_summary_rendered():
+    msg = build_message(
+        item(
+            title="Yemeni army warns Houthis after "
+            "attacks heighten escalation risk",
+            summary="The strikes killed five people and "
+            "wounded around two dozen others.",
+        ),
+        CFG,
+    )
+    assert msg is not None
+    assert "killed five people" in msg["text"]
+
+
+def test_informative_sentence_survives_headline_duplicate():
+    msg = build_message(
+        item(
+            title="Yemeni army warns Houthis after "
+            "attacks heighten escalation risk",
+            summary="Yemeni army warns Houthis after "
+            "attacks heighten escalation risk. "
+            "The strikes killed five people and wounded "
+            "around two dozen others.",
+        ),
+        CFG,
+    )
+    assert msg is not None
+    text = msg["text"]
+    assert "killed five people" in text
+    assert text.count(
+        "Yemeni army warns Houthis"
+    ) == 1
+
+
+def test_rejected_story_never_enters_telegram_queue():
+    from src.main import build_telegram_stories
+
+    now = now_utc()
+
+    candidates = [
+        {
+            "story_id": "s-rejected",
+            "item_id": "i-rejected",
+            "event_id": "e-rejected",
+            "title": "Yemeni army warns Houthis after "
+            "attacks heighten escalation risk",
+            "summary": "Yemeni army warns Houthis after "
+            "attacks heighten escalation risk",
+            "source": "Al Jazeera",
+            "url": "https://example.com/yemen",
+            "label": "news",
+            "category": "world",
+            "confidence": "high",
+            "priority_level": "NORMAL",
+            "priority_score": 70,
+            "score": 70,
+            "tier": 2,
+            "primary_source": False,
+            "effective_at": now.isoformat(),
+            "published_at": "2026-08-01T10:00:00Z",
+        },
+        {
+            "story_id": "s-kept",
+            "item_id": "i-kept",
+            "event_id": "e-kept",
+            "title": "Strikes kill five in Belgorod",
+            "summary": "The strikes killed five people "
+            "and wounded around two dozen others.",
+            "source": "Reuters",
+            "url": "https://example.com/belgorod",
+            "label": "news",
+            "category": "world",
+            "confidence": "high",
+            "priority_level": "NORMAL",
+            "priority_score": 60,
+            "score": 60,
+            "tier": 2,
+            "primary_source": False,
+            "effective_at": now.isoformat(),
+            "published_at": "2026-08-01T10:00:00Z",
+        },
+    ]
+
+    stories = build_telegram_stories(
+        candidates,
+        {
+            "just_in_freshness_minutes": 15,
+        },
+        now,
+    )
+
+    queued_ids = [
+        s["story_id"] for s in stories
+    ]
+
+    assert "s-rejected" not in queued_ids
+    assert "s-kept" in queued_ids
+
+
+def test_telegram_ineligible_sources_flags_only_non_news_feeds():
+    from src.main import telegram_ineligible_sources
+
+    feeds = [
+        {"name": "BBC World", "category": "world"},
+        {"name": "NASA News", "category": "space", "news": False},
+        {"name": "CISA Alerts", "category": "cybersecurity", "news": False},
+    ]
+
+    banned = telegram_ineligible_sources(feeds)
+
+    assert "BBC World" not in banned
+    assert "NASA News" in banned
+    assert "CISA Alerts" in banned
+
+
+def test_config_flags_known_non_news_feeds():
+    from src.main import CONFIG, telegram_ineligible_sources
+
+    banned = telegram_ineligible_sources(CONFIG["feeds"])
+
+    assert {
+        "NASA News",
+        "NASA News Releases",
+        "ESA News",
+        "CISA Alerts",
+    } <= banned
+
+
+def test_non_news_candidate_filtered_by_source():
+    from src.main import telegram_ineligible_sources
+
+    feeds = [
+        {"name": "ESA News", "news": False},
+        {"name": "BBC World"},
+    ]
+    banned = telegram_ineligible_sources(feeds)
+
+    candidates = [
+        {"story_id": "a", "source": "ESA News"},
+        {"story_id": "b", "source": "BBC World"},
+    ]
+
+    kept = [
+        c for c in candidates
+        if c.get("source") not in banned
+    ]
+
+    assert [c["story_id"] for c in kept] == ["b"]

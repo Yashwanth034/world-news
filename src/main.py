@@ -229,6 +229,160 @@ def translate_candidate(x):
     return x
 
 
+def telegram_ineligible_sources(feeds):
+    """Feed names flagged as non-news ("news": false).
+
+    These feeds are still fetched and stored (event memory,
+    deduplication and the main queue keep working), but their
+    items never become Telegram candidates.
+    """
+    return {
+        feed["name"]
+        for feed in feeds
+        if not feed.get("news", True)
+    }
+
+
+def build_telegram_stories(
+    candidates,
+    telegram_cfg,
+    now_dt,
+):
+    """Group telegram candidates into events and enrich each
+    event into ONE telegram story (pure, no I/O).
+
+    Same grouping and briefing steps as before; the only
+    difference is the empty-message gate: a story whose
+    cleaned summary contains no explanatory sentence beyond
+    its headline is rejected and never enters the telegram
+    queue. No text is ever invented for rejected stories.
+    """
+    from src.telegram_briefing import (
+        build_briefing,
+        group_items,
+    )
+
+    groups = group_items(
+        candidates
+    )
+
+    telegram_stories = []
+
+    for group in groups:
+
+        primary = sorted(
+            group,
+            key=lambda x: (
+                x.get("score", 0)
+                or x.get("priority_score", 0)
+                or 0,
+                int(
+                    bool(x.get("primary_source"))
+                ),
+                -int(x.get("tier", 4)),
+            ),
+            reverse=True,
+        )[0]
+
+        # Article-enriched primaries contribute verbatim
+        # article sentences through the SAME aggregation
+        # filters (filler, headline paraphrase, dedup,
+        # conflict, near-duplicate) as a synthetic group
+        # member ranked just below the primary.
+        article_sentences = primary.get(
+            "article_sentences"
+        ) or []
+
+        briefing_group = group
+
+        if len(article_sentences) >= 2:
+
+            article_member = dict(primary)
+
+            article_member["id"] = (
+                primary.get("id")
+                or primary.get("story_id")
+            ) + ":article"
+
+            article_member["story_id"] = (
+                article_member["id"]
+            )
+
+            article_member["summary"] = " ".join(
+                article_sentences
+            )
+
+            article_member["score"] = max(
+                0,
+                (
+                    primary.get("score")
+                    or primary.get("priority_score")
+                    or 0
+                ) - 1,
+            )
+
+            briefing_group = group + [article_member]
+
+        briefing = build_briefing(
+            primary,
+            briefing_group,
+            int(
+                telegram_cfg.get(
+                    "just_in_freshness_minutes",
+                    15
+                )
+            ),
+            now_dt,
+            max_sentences=(
+                int(
+                    telegram_cfg.get(
+                        "max_briefing_sentences",
+                        10,
+                    )
+                )
+                if len(article_sentences) >= 2
+                else None
+            ),
+        )
+
+        # Empty-message protection: reject stories whose
+        # cleaned summary holds no explanatory sentence
+        # beyond the headline (headline-only or pure
+        # headline-paraphrase summaries collapse to an
+        # empty briefing).
+        if not briefing["sentences"]:
+            continue
+
+        enriched = dict(primary)
+
+        enriched["story_id"] = (
+            primary.get("story_id")
+            or primary.get("id")
+        )
+
+        # Public editorial fields for the Telegram layer.
+        enriched["public_label"] = briefing["label"]
+        enriched["headline"] = briefing["headline"]
+        enriched["briefing"] = {
+            "opening": briefing["opening"],
+            "body": briefing["body"],
+            "bullets": briefing["bullets"],
+            "sentences": briefing["sentences"],
+            "source": briefing["source"],
+            "corroborating": briefing["corroborating"],
+            "url": briefing["url"],
+        }
+
+        enriched["group_size"] = len(group)
+        enriched["label"] = briefing["label"]
+
+        telegram_stories.append(
+            enriched
+        )
+
+    return telegram_stories
+
+
 def main():
     c = db()
 
@@ -294,6 +448,7 @@ def main():
         "quality_rejected": 0,
         "translation_held": 0,
         "queued_before_limit": 0,
+        "non_news_filtered": 0,
     }
 
     # ---------------------------------------------------------
@@ -743,9 +898,29 @@ def main():
         timezone.utc
     )
 
+    no_news_sources = telegram_ineligible_sources(
+        CONFIG["feeds"]
+    )
+
     telegram_candidates = []
 
     for x in q:
+
+        # Per-feed editorial gate: feeds flagged "news": false
+        # (press releases, conference schedules, advisory
+        # catalogs) never produce Telegram posts. Items are
+        # still stored in the database and keep flowing through
+        # the main queue pipeline.
+        if (
+            x.get("source")
+            in no_news_sources
+        ):
+
+            run_stats[
+                "non_news_filtered"
+            ] += 1
+
+            continue
 
         effective = x.get(
             "effective_at"
@@ -803,6 +978,46 @@ def main():
     )
 
     # ---------------------------------------------------------
+    # Article extraction enrichment
+    #
+    # ADDITIVE ONLY:
+    # For important thin stories (fewer than two useful RSS
+    # sentences) the original article is fetched and its
+    # verbatim sentences flow through the same briefing
+    # filters.  Results are cached in the database; every
+    # failure degrades to the plain RSS briefing.  The
+    # pipeline never fails because of extraction.
+    # ---------------------------------------------------------
+
+    article_extraction_stats = {}
+
+    try:
+
+        from src.article_extractor import (
+            ArticleCache,
+            enrich_thin_stories,
+        )
+
+        telegram_candidates, article_extraction_stats = (
+            enrich_thin_stories(
+                telegram_candidates,
+                CONFIG,
+                now_dt,
+                cache=ArticleCache(DB),
+            )
+        )
+
+    except Exception as exc:
+
+        article_extraction_stats = {
+            "error": str(exc),
+        }
+
+    run_stats[
+        "article_extraction"
+    ] = article_extraction_stats
+
+    # ---------------------------------------------------------
     # Briefing enrichment
     #
     # ADDITIVE ONLY:
@@ -811,73 +1026,32 @@ def main():
     # emits ONE enriched candidate per event. Multiple
     # stories of the same event therefore produce a single
     # Telegram post instead of duplicates.
+    #
+    # Empty-message gate:
+    # Stories whose cleaned summary adds no explanatory
+    # sentence beyond the headline are rejected here and
+    # never enter the Telegram queue.
     # ---------------------------------------------------------
 
-    from src.telegram_briefing import (
-        build_briefing,
-        group_items,
+    telegram_cfg_briefing = dict(telegram_cfg)
+
+    telegram_cfg_briefing[
+        "max_briefing_sentences"
+    ] = int(
+        CONFIG.get(
+            "article_extraction",
+            {},
+        ).get(
+            "max_briefing_sentences",
+            10,
+        )
     )
 
-    groups = group_items(
-        telegram_candidates
+    telegram_stories = build_telegram_stories(
+        telegram_candidates,
+        telegram_cfg_briefing,
+        now_dt,
     )
-
-    telegram_stories = []
-
-    for group in groups:
-
-        primary = sorted(
-            group,
-            key=lambda x: (
-                x.get("score", 0)
-                or x.get("priority_score", 0)
-                or 0,
-                int(
-                    bool(x.get("primary_source"))
-                ),
-                -int(x.get("tier", 4)),
-            ),
-            reverse=True,
-        )[0]
-
-        briefing = build_briefing(
-            primary,
-            group,
-            int(
-                telegram_cfg.get(
-                    "just_in_freshness_minutes",
-                    15
-                )
-            ),
-            now_dt,
-        )
-
-        enriched = dict(primary)
-
-        enriched["story_id"] = (
-            primary.get("story_id")
-            or primary.get("id")
-        )
-
-        # Public editorial fields for the Telegram layer.
-        enriched["public_label"] = briefing["label"]
-        enriched["headline"] = briefing["headline"]
-        enriched["briefing"] = {
-            "opening": briefing["opening"],
-            "body": briefing["body"],
-            "bullets": briefing["bullets"],
-            "sentences": briefing["sentences"],
-            "source": briefing["source"],
-            "corroborating": briefing["corroborating"],
-            "url": briefing["url"],
-        }
-
-        enriched["group_size"] = len(group)
-        enriched["label"] = briefing["label"]
-
-        telegram_stories.append(
-            enriched
-        )
 
     TELEGRAM_QUEUE.parent.mkdir(
         parents=True,
