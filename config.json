@@ -380,6 +380,12 @@
       "unlock this article"
     ]
   },
+  "summarization": {
+    "enabled": true,
+    "min_sentences": 2,
+    "max_sentences": 8,
+    "tier1_max": 6
+  },
   "telegram": {
     "channel_id": "",
     "telegram_state_file": "data/telegram_state.json",

@@ -247,20 +247,46 @@ def build_telegram_stories(
     candidates,
     telegram_cfg,
     now_dt,
+    summarization_stats=None,
 ):
     """Group telegram candidates into events and enrich each
     event into ONE telegram story (pure, no I/O).
 
-    Same grouping and briefing steps as before; the only
-    difference is the empty-message gate: a story whose
-    cleaned summary contains no explanatory sentence beyond
-    its headline is rejected and never enters the telegram
-    queue. No text is ever invented for rejected stories.
+    Same grouping and briefing steps as before, then the
+    source-grounded summarizer composes each story's final
+    2-8 sentence summary (article text primary when article
+    extraction is available, RSS summary otherwise), verifies
+    it against the source, and quality-checks it.  A story
+    whose source material holds fewer than two genuinely
+    useful sentences is rejected and never enters the
+    telegram queue.  No text is ever invented for rejected
+    stories.
     """
     from src.telegram_briefing import (
         build_briefing,
         group_items,
     )
+    from src.telegram_summarizer import (
+        ARTICLE_ITEM_SUFFIX,
+        summarize_rows,
+    )
+
+    if summarization_stats is not None:
+        summarization_stats.update(
+            {
+                "stories_considered": 0,
+                "summarized": 0,
+                "article_source": 0,
+                "rss_source": 0,
+                "rejected_insufficient": 0,
+                "rejected_verification": 0,
+                "rejected_quality": 0,
+                "sentences_composed": 0,
+                "sentences_verify_dropped": 0,
+                "sentences_quality_dropped": 0,
+                "problems": [],
+            }
+        )
 
     groups = group_items(
         candidates
@@ -293,6 +319,8 @@ def build_telegram_stories(
             "article_sentences"
         ) or []
 
+        article_item_ids = set()
+
         briefing_group = group
 
         if len(article_sentences) >= 2:
@@ -302,7 +330,7 @@ def build_telegram_stories(
             article_member["id"] = (
                 primary.get("id")
                 or primary.get("story_id")
-            ) + ":article"
+            ) + ARTICLE_ITEM_SUFFIX
 
             article_member["story_id"] = (
                 article_member["id"]
@@ -312,16 +340,20 @@ def build_telegram_stories(
                 article_sentences
             )
 
-            article_member["score"] = max(
-                0,
-                (
-                    primary.get("score")
-                    or primary.get("priority_score")
-                    or 0
-                ) - 1,
-            )
+            # The article is the primary source: it outranks
+            # the RSS members so its sentences come first and
+            # a materially conflicting RSS sentence is dropped
+            # in the aggregation step rather than the article
+            # sentence.
+            article_member["score"] = (
+                primary.get("score")
+                or primary.get("priority_score")
+                or 0
+            ) + 1
 
             briefing_group = group + [article_member]
+
+            article_item_ids.add(article_member["id"])
 
         briefing = build_briefing(
             primary,
@@ -351,7 +383,94 @@ def build_telegram_stories(
         # headline-paraphrase summaries collapse to an
         # empty briefing).
         if not briefing["sentences"]:
+            if summarization_stats is not None:
+                summarization_stats[
+                    "rejected_insufficient"
+                ] += 1
             continue
+
+        # Source material for verification: article text when
+        # available, plus every group member's RSS summary.
+        source_parts = []
+
+        if len(article_sentences) >= 2:
+            source_parts.extend(article_sentences)
+
+        for member in group:
+            summary = member.get("summary")
+            if summary:
+                source_parts.append(summary)
+
+        summarization_cfg = telegram_cfg.get(
+            "summarization",
+            {},
+        )
+
+        if summarization_stats is not None:
+            summarization_stats[
+                "stories_considered"
+            ] += 1
+
+        summary_rows, summary_stats = summarize_rows(
+            briefing["sentences"],
+            " ".join(source_parts),
+            briefing["headline"],
+            article_item_ids=article_item_ids,
+            cfg=summarization_cfg,
+        )
+
+        if summary_rows is None:
+            if summarization_stats is not None:
+                reason = summary_stats.get(
+                    "rejected"
+                ) or "insufficient_information"
+                if reason == "verification":
+                    summarization_stats[
+                        "rejected_verification"
+                    ] += 1
+                elif reason == "quality":
+                    summarization_stats[
+                        "rejected_quality"
+                    ] += 1
+                else:
+                    summarization_stats[
+                        "rejected_insufficient"
+                    ] += 1
+            continue
+
+        if summarization_stats is not None:
+            summarization_stats["summarized"] += 1
+            if len(article_sentences) >= 2:
+                summarization_stats["article_source"] += 1
+            else:
+                summarization_stats["rss_source"] += 1
+            summarization_stats["sentences_composed"] += len(
+                summary_rows
+            )
+            summarization_stats[
+                "sentences_verify_dropped"
+            ] += len(summary_stats["verify_problems"])
+            summarization_stats[
+                "sentences_quality_dropped"
+            ] += len(summary_stats["quality_problems"])
+            for problem in summary_stats["verify_problems"]:
+                summarization_stats["problems"].append(
+                    {
+                        "story": primary.get("story_id", "?")[:8],
+                        "stage": "verify",
+                        "text": problem.get("text"),
+                        "problems": problem.get("problems"),
+                    }
+                )
+            for problem in summary_stats["quality_problems"]:
+                summarization_stats["problems"].append(
+                    {
+                        "story": primary.get("story_id", "?")[:8],
+                        "stage": "quality",
+                        "text": problem.get("text"),
+                        "problems": problem.get("problems"),
+                    }
+                )
 
         enriched = dict(primary)
 
@@ -367,7 +486,7 @@ def build_telegram_stories(
             "opening": briefing["opening"],
             "body": briefing["body"],
             "bullets": briefing["bullets"],
-            "sentences": briefing["sentences"],
+            "sentences": summary_rows,
             "source": briefing["source"],
             "corroborating": briefing["corroborating"],
             "url": briefing["url"],
@@ -1047,10 +1166,21 @@ def main():
         )
     )
 
+    telegram_cfg_briefing[
+        "summarization"
+    ] = CONFIG.get(
+        "summarization",
+        {},
+    )
+
     telegram_stories = build_telegram_stories(
         telegram_candidates,
         telegram_cfg_briefing,
         now_dt,
+        summarization_stats=run_stats.setdefault(
+            "summarization",
+            {},
+        ),
     )
 
     TELEGRAM_QUEUE.parent.mkdir(

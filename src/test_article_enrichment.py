@@ -99,14 +99,47 @@ class TestArticleEnrichmentPipeline:
         assert len(story["briefing"]["sentences"]) <= 10
 
     def test_no_article_sentences_briefing_unchanged(self):
-        plain = build_one([candidate()])
+        # Without article extraction the RSS summary is the
+        # source; with article extraction the article rows
+        # become the primary source and come first.
+        rss = (
+            "Officials said 20,000 residents have been forced "
+            "from their homes so far. "
+            "Fire crews are working through the night to "
+            "contain the blaze."
+        )
+        plain = build_one([candidate(summary=rss)])
         with_article = build_one(
-            [candidate(article_sentences=list(ARTICLE))]
+            [
+                candidate(
+                    summary=rss,
+                    article_sentences=list(ARTICLE),
+                )
+            ]
         )
         assert plain["briefing"]["source"] == "BBC World"
         assert with_article["briefing"]["source"] == "BBC World"
-        assert len(plain["briefing"]["sentences"]) < len(
-            with_article["briefing"]["sentences"]
+        assert len(with_article["briefing"]["sentences"]) >= len(
+            plain["briefing"]["sentences"]
+        )
+        # Article facts lead the summary when available.
+        article_texts = [
+            r["text"] for r in with_article["briefing"]["sentences"]
+        ]
+        assert any(
+            t.startswith("Officials in British Columbia said")
+            for t in article_texts
+        )
+        assert any(
+            "20,000 residents" in t for t in article_texts
+        )
+        # The RSS row fills the remaining slot, after every
+        # article row, and never duplicates an article fact.
+        assert article_texts[-1].startswith("Fire crews")
+        assert not any(
+            "20,000 residents" in t
+            and t.startswith("Officials said")
+            for t in article_texts
         )
 
     def test_headline_paraphrase_article_sentences_dropped(self):
@@ -212,6 +245,9 @@ class TestArticleEnrichmentPipeline:
         assert "article text" not in lowered
 
     def test_default_cap_unchanged_without_article(self):
+        # Without an article the RSS summary is the source and
+        # the composed summary carries at most 8 sentences,
+        # keeping the fact-bearing ones first.
         cfg = dict(CFG)
         cfg["max_briefing_sentences"] = 10
         cands = [
@@ -233,7 +269,14 @@ class TestArticleEnrichmentPipeline:
             )
         ]
         story = build_telegram_stories(cands, cfg, NOW)[0]
-        assert len(story["briefing"]["sentences"]) == 12
+        rows = story["briefing"]["sentences"]
+        assert 2 <= len(rows) <= 8
+        texts = [r["text"] for r in rows]
+        assert any("Ashcroft" in t for t in texts)
+        assert any("evacuate" in t for t in texts)
+        assert any("shelters" in t for t in texts)
+        # Fact-bearing sentences lead the summary.
+        assert any("evacuate" in t for t in texts[:4])
 
 
 # ---------------------------------------------------------------------------
@@ -265,7 +308,9 @@ class TestMinimumTwoSentencesPipeline:
         # One useful RSS sentence is not enough: a single
         # article sentence is never attached to the briefing
         # (article enrichment requires at least two), so the
-        # story stays below the two-sentence gate.
+        # story stays below the two-sentence gate and is
+        # rejected at the pipeline - it never enters the
+        # telegram queue.
         cands = [
             candidate(
                 summary=(
@@ -280,9 +325,7 @@ class TestMinimumTwoSentencesPipeline:
             )
         ]
         stories = build_telegram_stories(cands, CFG, NOW)
-        assert len(stories) == 1
-        msg = build_message(stories[0], CFG, NOW)
-        assert msg is None
+        assert stories == []
 
     def test_article_accepted_when_rss_provides_second_useful_sentence(self):
         cands = [

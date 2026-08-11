@@ -2329,7 +2329,9 @@ def test_rejected_story_never_enters_telegram_queue():
             "event_id": "e-kept",
             "title": "Strikes kill five in Belgorod",
             "summary": "The strikes killed five people "
-            "and wounded around two dozen others.",
+            "and wounded around two dozen others. "
+            "Rescue teams are searching the rubble for "
+            "survivors.",
             "source": "Reuters",
             "url": "https://example.com/belgorod",
             "label": "news",
