@@ -1,4 +1,4 @@
-# WorldNews Telegram
+# WorldNews
 
 Automated news collection and Telegram publishing. A pipeline gathers stories from
 42 RSS feeds, enriches them into source-grounded briefings, and publishes them to a
