@@ -631,6 +631,103 @@ def cache_sentences(entry):
 
 
 # ---------------------------------------------------------------------------
+# Mass-casualty signal
+#
+# A narrow, high-precision signal used only by the enrichment
+# gate.  A thin HIGH-priority story scoring 60-64 may be fetched
+# when it carries strong casualty evidence in a serious context.
+#
+# A single generic word ("death", "die", "bodies") is never
+# sufficient.  The signal requires a mass-casualty phrase
+# ("mass grave", "death toll", "killings"), a casualty count of
+# two or more ("25 killed", "30 bodies", "dozens dead"), or
+# plural victims with a casualty word ("people killed",
+# "remains of children and women").
+# ---------------------------------------------------------------------------
+
+MASS_CASUALTY_PHRASES = re.compile(
+    r"\b(?:mass\s+graves?|death\s+tolls?|massacre|killings)\b",
+    re.IGNORECASE,
+)
+
+_CASUALTY_VICTIMS = (
+    r"(?:people|civilians|children|women|men|villagers|residents|"
+    r"soldiers|troops|officers|hostages|families|workers|miners|"
+    r"pilots|passengers|students|staff)"
+)
+
+CASUALTY_COUNT_RE = re.compile(
+    r"(?:(?:more\s+than|at\s+least|nearly|about|around|over|"
+    r"up\s+to|almost|roughly|some)\s+)?"
+    r"(\d[\d,]*|dozens|scores|hundreds|thousands|multiple|several)\s*"
+    r"(?:" + _CASUALTY_VICTIMS + r"\s+)?"
+    r"(killed|dead|died|deaths|fatalities|bodies|remains|casualties)\b",
+    re.IGNORECASE,
+)
+
+PLURAL_CASUALTY_RE = re.compile(
+    r"\b" + _CASUALTY_VICTIMS + r"\s+"
+    r"(killed|dead|died|deaths|fatalities|bodies)\b",
+    re.IGNORECASE,
+)
+
+BODIES_CONTEXT_RE = re.compile(
+    r"\b(?:bodies|remains)\b"
+    r"(?=[^.!?]{0,100}\b(?:grave|graves|exhumed|buried|unearthed|"
+    r"recovered|found|children|women|men|civilians|villagers|"
+    r"soldiers|troops|victims|killed|dead)\b)",
+    re.IGNORECASE,
+)
+
+_NO_CASUALTY = re.compile(
+    r"\b(?:no|zero|without|no\s+reported|no\s+known|denied|"
+    r"no\s+confirmed)\s+"
+    r"(?:bodies|remains|killings|fatalities|deaths|dead|killed|"
+    r"casualties)\b",
+    re.IGNORECASE,
+)
+
+
+def _casualty_count(value):
+    """Smallest implied casualty count for a count token.
+    Word counts map to conservative minimums; digits parse
+    directly."""
+    digits = re.sub(r"[^\d]", "", value or "")
+    if digits:
+        return int(digits)
+    return {
+        "several": 3,
+        "multiple": 2,
+        "dozens": 24,
+        "scores": 40,
+        "hundreds": 200,
+        "thousands": 2000,
+    }.get((value or "").lower(), 0)
+
+
+def has_mass_casualty(text):
+    """True when text carries strong, context-laden casualty
+    evidence (a mass grave, a casualty count of two or more, or
+    plural victims paired with a casualty word).  Explicit
+    denials ("no fatalities", "zero bodies") never qualify, and
+    a bare "death" or "die" is never enough."""
+    text = text or ""
+    if not text.strip():
+        return False
+    text = _NO_CASUALTY.sub(" ", text)
+    if MASS_CASUALTY_PHRASES.search(text):
+        return True
+    for match in CASUALTY_COUNT_RE.finditer(text):
+        if _casualty_count(match.group(1)) >= 2:
+            return True
+    if PLURAL_CASUALTY_RE.search(text):
+        return True
+    if BODIES_CONTEXT_RE.search(text):
+        return True
+    return False
+
+
+# ---------------------------------------------------------------------------
 # Enrichment driver
 # ---------------------------------------------------------------------------
 
@@ -658,6 +755,7 @@ def enrich_thin_stories(
         "eligible": 0,
         "thin": 0,
         "important": 0,
+        "mass_casualty": 0,
         "non_article": 0,
         "domain_blocked": 0,
         "cache_hits": 0,
@@ -683,6 +781,7 @@ def enrich_thin_stories(
         build_briefing,
         group_items,
         public_label,
+        URGENT_CATEGORIES,
     )
 
     telegram_cfg = cfg.get("telegram") or {}
@@ -709,18 +808,35 @@ def enrich_thin_stories(
         )[0]
 
         # Importance gate: IMMEDIATE, JUST IN, score >= 65 or
-        # an update.
+        # an update.  Additionally, a thin HIGH-priority story
+        # scoring 60-64 may qualify when it carries strong
+        # mass-casualty evidence in a serious/conflict/disaster/
+        # major-event category (the Sudan mass-grave case), as
+        # long as the thinness gate below still holds.
         label = public_label(
             primary, just_in_minutes, now_dt
+        )
+        score = primary.get("score") or 0
+        mass_casualty = (
+            60 <= score <= 64
+            and primary.get("priority_level") == "HIGH"
+            and primary.get("category") in URGENT_CATEGORIES
+            and has_mass_casualty(
+                f"{primary.get('title', '')} "
+                f"{primary.get('summary', '')}"
+            )
         )
         important = (
             primary.get("priority_level") == "IMMEDIATE"
             or label == JUST_IN
-            or (primary.get("score") or 0) >= 65
+            or score >= 65
             or primary.get("event_status") == "UPDATE"
+            or mass_casualty
         )
         if not important:
             continue
+        if mass_casualty:
+            stats["mass_casualty"] += 1
         stats["important"] += 1
 
         # Thinness gate: fewer than two useful sentences in

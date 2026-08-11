@@ -792,3 +792,233 @@ class TestEnrichThinStories:
         assert len(calls) == 2
         assert stats["paywall"] == 1
         assert stats["expanded"] == 1
+
+
+class TestMassCasualtyEnrichmentGate:
+    """The enrichment gate admits thin HIGH-priority stories
+    scoring 60-64 only when they carry strong mass-casualty
+    evidence in a serious category.
+
+    A bare "death"/"die"/"bodies" is never enough: individual
+    deaths and human-interest stories stay excluded.
+    """
+
+    def make_candidate(self, **overrides):
+        base = candidate()
+        base.update(
+            {
+                "score": 62,
+                "priority_level": "HIGH",
+                "priority_score": 62,
+                "category": "world",
+                "confidence": "high",
+                "effective_at": (
+                    NOW - timedelta(minutes=30)
+                ).isoformat(),
+            }
+        )
+        base.update(overrides)
+        return base
+
+    def test_sudan_mass_grave_story_enrichment_eligible(self):
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="sudan-grave",
+                id="sudan-grave",
+                event_id="event-sudan",
+                url="https://www.bbc.co.uk/news/articles/c-sudan",
+                title=(
+                    "Mass grave with 25 bodies found in Sudan's "
+                    "Kurmuk after army retakes town"
+                ),
+                summary=(
+                    "Officials accuse the Rapid Support Forces "
+                    "of carrying out the killings, saying grave "
+                    "held remains of children and women."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["mass_casualty"] == 1
+        assert stats["eligible"] == 1
+        assert stats["fetched"] == 1
+        assert len(out[0]["article_sentences"]) >= 2
+
+    def test_nba_individual_drug_death_not_eligible(self):
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="nba-death",
+                id="nba-death",
+                event_id="event-nba",
+                title="NBA forward Clarke's death due to drugs",
+                summary=(
+                    "Memphis Grizzlies forward Brandon Clarke's "
+                    "death was due to the effects of heroin and "
+                    "cocaine, the Los Angeles medical authority "
+                    "reveals."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["mass_casualty"] == 0
+        assert stats["eligible"] == 0
+        assert stats["fetched"] == 0
+        assert "article_sentences" not in out[0]
+
+    def test_ordinary_single_death_not_eligible(self):
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="single-death",
+                id="single-death",
+                event_id="event-death",
+                title="Man dies after being hit by a car",
+                summary=(
+                    "A 65-year-old man died in hospital after "
+                    "the crash."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["mass_casualty"] == 0
+        assert stats["eligible"] == 0
+        assert stats["fetched"] == 0
+        assert "article_sentences" not in out[0]
+
+    def test_genuine_mass_casualty_story_eligible(self):
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="market-bomb",
+                id="market-bomb",
+                event_id="event-bomb",
+                category="conflict",
+                title="At least 30 killed in market bombing",
+                summary=(
+                    "Officials said at least 30 people were "
+                    "killed and dozens more injured in the blast."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["mass_casualty"] == 1
+        assert stats["eligible"] == 1
+        assert stats["fetched"] == 1
+        assert len(out[0]["article_sentences"]) >= 2
+
+    def test_score_65_plus_behavior_unchanged(self):
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="no-casualty-70",
+                id="no-casualty-70",
+                event_id="event-70",
+                score=70,
+                priority_score=70,
+                title="Central bank raises interest rates",
+                summary=(
+                    "The central bank announced a surprise "
+                    "rate increase on Thursday morning."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["mass_casualty"] == 0
+        assert stats["eligible"] == 1
+        assert stats["fetched"] == 1
+
+    def test_score_63_without_casualty_signal_not_eligible(self):
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="no-casualty-63",
+                id="no-casualty-63",
+                event_id="event-63",
+                title="Trade delegation visits the capital",
+                summary=(
+                    "A trade delegation arrived to discuss "
+                    "export quotas."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["mass_casualty"] == 0
+        assert stats["eligible"] == 0
+        assert stats["fetched"] == 0
+
+    def test_non_urgent_category_not_eligible(self):
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="sports-casualty",
+                id="sports-casualty",
+                event_id="event-sports",
+                category="sports",
+                title="Crowd trampled in stadium stampede",
+                summary=(
+                    "Several people were killed in the crush "
+                    "outside the stadium."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["mass_casualty"] == 0
+        assert stats["eligible"] == 0
+        assert stats["fetched"] == 0
+
+    def test_no_fatalities_denial_not_eligible(self):
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="no-fat",
+                id="no-fat",
+                event_id="event-fat",
+                title="Warehouse fire under control",
+                summary="No fatalities reported, officials say.",
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["mass_casualty"] == 0
+        assert stats["eligible"] == 0
+        assert stats["fetched"] == 0
+
+    def test_not_thin_mass_casualty_still_skipped(self):
+        cfg = make_cfg()
+        cands = [
+            self.make_candidate(
+                story_id="not-thin",
+                id="not-thin",
+                event_id="event-notthin",
+                title="At least 20 killed in bridge collapse",
+                summary=(
+                    "At least 20 people were killed when the "
+                    "bridge gave way. Rescuers searched the "
+                    "river through the night. Officials said "
+                    "the death toll could rise."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["mass_casualty"] == 1
+        assert stats["thin"] == 0
+        assert stats["fetched"] == 0
