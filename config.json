@@ -408,6 +408,15 @@
     "just_in_freshness_minutes": 15,
     "target_message_chars": 1500,
     "max_message_chars": 3000,
-    "max_attempts_per_story": 2
+    "max_attempts_per_story": 2,
+    "media": {
+      "enabled": true,
+      "timeout_seconds": 12,
+      "max_bytes": 10485760,
+      "max_html_bytes": 2097152,
+      "image_min_width": 300,
+      "image_min_height": 200,
+      "max_caption_chars": 1024
+    }
   }
 }

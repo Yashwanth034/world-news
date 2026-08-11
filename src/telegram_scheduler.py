@@ -1,8 +1,9 @@
 """Scheduling and throttling for telegram publishing.
 
-Pure policy + state. Does not import requests or make
-network calls, so it is safe to unit-test with plain
-dictionaries.
+Pure policy + state. Does not import requests at module
+level, so it is safe to unit-test with plain dictionaries.
+The optional media-attachment hook performs its network I/O
+through a lazy import inside publish_due.
 """
 from datetime import datetime, timezone
 
@@ -446,12 +447,80 @@ def publish_due(
             )
             continue
 
+        media = None
+        media_cfg = (cfg or {}).get("media") or {}
+
+        # Best-effort media attachment: fetch, select and
+        # download one image (preferred) or video for the
+        # story. Any failure here means None and the post is
+        # sent text-only, exactly as before.
+        if (
+            media_cfg.get("enabled", True)
+            and not dry_run
+            and (message.get("text") or "")
+        ):
+
+            try:
+                from src.telegram_media import (
+                    TELEGRAM_CAPTION_MAX,
+                    build_media_attachment,
+                )
+
+                max_caption = int(
+                    media_cfg.get(
+                        "max_caption_chars",
+                        TELEGRAM_CAPTION_MAX,
+                    )
+                )
+
+                if len(message["text"]) <= max_caption:
+                    media = build_media_attachment(
+                        item.get("url"),
+                        media_cfg,
+                    )
+            except Exception:
+                media = None
+
         try:
-            result = publisher.send_message(
-                chat_id,
-                message,
-                dry_run=dry_run,
-            )
+            if media is not None:
+                try:
+                    result = publisher.send_media(
+                        chat_id,
+                        media,
+                        caption=message["text"],
+                        parse_mode=message.get(
+                            "parse_mode",
+                            "HTML",
+                        ),
+                        dry_run=dry_run,
+                    )
+                except Exception as exc:
+                    from src.telegram_publisher import (
+                        TelegramRateLimited,
+                    )
+
+                    if isinstance(
+                        exc,
+                        TelegramRateLimited,
+                    ):
+                        raise
+
+                    # Telegram rejected the media (wrong
+                    # format, oversize, etc.): never let
+                    # that block the story, resend as a
+                    # text-only post with the exact same
+                    # text.
+                    result = publisher.send_message(
+                        chat_id,
+                        message,
+                        dry_run=dry_run,
+                    )
+            else:
+                result = publisher.send_message(
+                    chat_id,
+                    message,
+                    dry_run=dry_run,
+                )
         except Exception as exc:
 
             from src.telegram_publisher import (

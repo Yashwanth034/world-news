@@ -32,6 +32,10 @@ from src.telegram_scheduler import (
     publish_due,
     story_age_minutes,
 )
+from src.telegram_media import (
+    MediaAttachment,
+    TELEGRAM_CAPTION_MAX,
+)
 
 CFG = {
     "target_message_chars": 1500,
@@ -39,6 +43,21 @@ CFG = {
 }
 
 NOW = datetime.now(timezone.utc)
+
+
+@pytest.fixture(autouse=True)
+def _no_network_media(monkeypatch):
+    """Keep every publish_due test network-free.
+
+    Media attachment is enabled by default, so without this
+    the existing tests would attempt real article fetches.
+    Tests that exercise media override this same attribute
+    in their own bodies.
+    """
+    monkeypatch.setattr(
+        "src.telegram_media.build_media_attachment",
+        lambda url, media_cfg: None,
+    )
 
 
 def item(**overrides):
@@ -143,7 +162,9 @@ def fake_publisher(dry_run_default=False):
     class FakePublisher:
         def __init__(self):
             self.sent = []
+            self.media_sent = []
             self.fail_next = 0
+            self.media_fail = False
             self.rate_limit = None
 
         def send_message(
@@ -180,6 +201,56 @@ def fake_publisher(dry_run_default=False):
             return {
                 "message_id": len(self.sent),
                 "chat_id": chat_id,
+            }
+
+        def send_media(
+            self,
+            chat_id,
+            attachment,
+            caption,
+            parse_mode="HTML",
+            dry_run=False,
+        ):
+            if dry_run or dry_run_default:
+                return {
+                    "dry_run": True,
+                    "chat_id": chat_id,
+                    "media_kind": attachment.kind,
+                }
+
+            if self.media_fail:
+                from src.telegram_publisher import (
+                    TelegramPublisherError,
+                )
+                raise TelegramPublisherError(
+                    "simulated media rejection"
+                )
+
+            if self.fail_next > 0:
+                self.fail_next -= 1
+                from src.telegram_publisher import (
+                    TelegramPublisherError,
+                )
+                raise TelegramPublisherError(
+                    "simulated failure"
+                )
+
+            if self.rate_limit:
+                from src.telegram_publisher import (
+                    TelegramRateLimited,
+                )
+                raise TelegramRateLimited(
+                    self.rate_limit,
+                    "simulated rate limit",
+                )
+
+            self.media_sent.append(
+                (chat_id, caption, attachment.kind)
+            )
+            return {
+                "message_id": 9000 + len(self.media_sent),
+                "chat_id": chat_id,
+                "media_kind": attachment.kind,
             }
 
     return FakePublisher()
@@ -697,6 +768,350 @@ def test_publish_due_min_gap():
     )
     assert report["published"] == []
     assert len(report["skipped_gap"]) == 1
+    assert len(state["scheduled"]) == 1
+
+
+# ---------------------------------------------------------
+# publish_due + media attachment
+# ---------------------------------------------------------
+
+
+def media_cfg(**overrides):
+    cfg = {
+        "target_message_chars": 1500,
+        "max_message_chars": 3000,
+        "media": {"enabled": True},
+    }
+    cfg["media"].update(overrides)
+    return cfg
+
+
+def media_attachment(kind="photo"):
+    return MediaAttachment(
+        kind,
+        b"fake-media-bytes",
+        (
+            "image/png"
+            if kind == "photo"
+            else "video/mp4"
+        ),
+        "telegram_media." + (
+            "png" if kind == "photo" else "mp4"
+        ),
+    )
+
+
+def test_publish_due_media_attached(monkeypatch):
+    x = fresh_item(
+        story_id="media-story",
+        minutes_ago=10,
+        url="https://example.com/story",
+    )
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "media-story",
+                now_utc() - timedelta(minutes=5),
+            )
+        ]
+    )
+    attachment = media_attachment()
+    monkeypatch.setattr(
+        "src.telegram_media.build_media_attachment",
+        lambda url, media_cfg: attachment,
+    )
+    publisher = fake_publisher()
+    report = publish_due(
+        publisher,
+        "@channel",
+        state,
+        [x],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=media_cfg(),
+    )
+    assert len(report["published"]) == 1
+    assert len(publisher.media_sent) == 1
+    channel, caption, kind = publisher.media_sent[0]
+    assert channel == "@channel"
+    assert kind == "photo"
+    assert caption == build_message(x, media_cfg())[
+        "text"
+    ]
+    assert publisher.sent == []
+
+
+def test_publish_due_video_attached(monkeypatch):
+    x = fresh_item(
+        story_id="media-video-story",
+        minutes_ago=10,
+        url="https://example.com/story",
+    )
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "media-video-story",
+                now_utc() - timedelta(minutes=5),
+            )
+        ]
+    )
+    monkeypatch.setattr(
+        "src.telegram_media.build_media_attachment",
+        lambda url, media_cfg: media_attachment(
+            kind="video"
+        ),
+    )
+    publisher = fake_publisher()
+    report = publish_due(
+        publisher,
+        "@channel",
+        state,
+        [x],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=media_cfg(),
+    )
+    assert len(report["published"]) == 1
+    assert len(publisher.media_sent) == 1
+    assert publisher.media_sent[0][2] == "video"
+    assert publisher.sent == []
+
+
+def test_publish_due_media_rejected_falls_back_text(
+    monkeypatch,
+):
+    x = fresh_item(
+        story_id="media-reject-story",
+        minutes_ago=10,
+        url="https://example.com/story",
+    )
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "media-reject-story",
+                now_utc() - timedelta(minutes=5),
+            )
+        ]
+    )
+    monkeypatch.setattr(
+        "src.telegram_media.build_media_attachment",
+        lambda url, media_cfg: media_attachment(),
+    )
+    publisher = fake_publisher()
+    publisher.media_fail = True
+    report = publish_due(
+        publisher,
+        "@channel",
+        state,
+        [x],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=media_cfg(),
+    )
+    assert len(report["published"]) == 1
+    assert publisher.media_sent == []
+    assert len(publisher.sent) == 1
+    assert len(state["posted"]) == 1
+    assert report["failed"] == []
+
+
+def test_publish_due_media_download_failure_text_only(
+    monkeypatch,
+):
+    x = fresh_item(
+        story_id="media-none-story",
+        minutes_ago=10,
+        url="https://example.com/story",
+    )
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "media-none-story",
+                now_utc() - timedelta(minutes=5),
+            )
+        ]
+    )
+    monkeypatch.setattr(
+        "src.telegram_media.build_media_attachment",
+        lambda url, media_cfg: None,
+    )
+    publisher = fake_publisher()
+    report = publish_due(
+        publisher,
+        "@channel",
+        state,
+        [x],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=media_cfg(),
+    )
+    assert len(report["published"]) == 1
+    assert publisher.media_sent == []
+    assert len(publisher.sent) == 1
+    assert len(state["posted"]) == 1
+
+
+def test_publish_due_media_disabled_text_only(monkeypatch):
+    x = fresh_item(
+        story_id="media-off-story",
+        minutes_ago=10,
+        url="https://example.com/story",
+    )
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "media-off-story",
+                now_utc() - timedelta(minutes=5),
+            )
+        ]
+    )
+    calls = []
+
+    def fake_build(url, media_cfg):
+        calls.append(url)
+        return media_attachment()
+
+    monkeypatch.setattr(
+        "src.telegram_media.build_media_attachment",
+        fake_build,
+    )
+    publisher = fake_publisher()
+    report = publish_due(
+        publisher,
+        "@channel",
+        state,
+        [x],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=media_cfg(enabled=False),
+    )
+    assert len(report["published"]) == 1
+    assert calls == []
+    assert publisher.media_sent == []
+    assert len(publisher.sent) == 1
+
+
+def test_publish_due_media_caption_too_long_text_only(
+    monkeypatch,
+):
+    words = " ".join(
+        "signal%d" % i
+        for i in range(300)
+    )
+    long_summary = (
+        "The panel reviewed the incoming data "
+        + words
+        + "."
+        + " The committee then voted to approve the full "
+        + " ".join(
+            "report%d" % i
+            for i in range(300)
+        )
+        + "."
+    )
+    x = fresh_item(
+        story_id="media-long-story",
+        minutes_ago=10,
+        url="https://example.com/story",
+    )
+    x["summary"] = long_summary
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "media-long-story",
+                now_utc() - timedelta(minutes=5),
+            )
+        ]
+    )
+    calls = []
+
+    def fake_build(url, media_cfg):
+        calls.append(url)
+        return media_attachment()
+
+    monkeypatch.setattr(
+        "src.telegram_media.build_media_attachment",
+        fake_build,
+    )
+    cfg = media_cfg()
+    text = build_message(x, cfg)["text"]
+    assert len(text) > TELEGRAM_CAPTION_MAX
+    publisher = fake_publisher()
+    report = publish_due(
+        publisher,
+        "@channel",
+        state,
+        [x],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=cfg,
+    )
+    assert len(report["published"]) == 1
+    assert calls == []
+    assert publisher.media_sent == []
+    assert len(publisher.sent) == 1
+
+
+def test_publish_due_media_dry_run_never_fetches(
+    monkeypatch,
+):
+    x = fresh_item(
+        story_id="media-dry-story",
+        minutes_ago=10,
+        url="https://example.com/story",
+    )
+    state = make_state(
+        scheduled=[
+            scheduled_entry(
+                "media-dry-story",
+                now_utc() - timedelta(minutes=5),
+            )
+        ]
+    )
+    calls = []
+
+    def fake_build(url, media_cfg):
+        calls.append(url)
+        return media_attachment()
+
+    monkeypatch.setattr(
+        "src.telegram_media.build_media_attachment",
+        fake_build,
+    )
+    report = publish_due(
+        fake_publisher(),
+        "@channel",
+        state,
+        [x],
+        6,
+        20,
+        150,
+        60,
+        2,
+        cfg=media_cfg(),
+        dry_run=True,
+    )
+    assert report["published"]
+    assert report["published"][0]["dry_run"]
+    assert calls == []
     assert len(state["scheduled"]) == 1
 
 

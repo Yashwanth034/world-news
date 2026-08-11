@@ -37,18 +37,26 @@ class TelegramPublisher:
             token=self.token
         ) + method
 
-    def _post(self, method, payload):
+    def _post(self, method, payload, files=None):
         if not self.enabled:
             raise TelegramPublisherError(
                 "publishing disabled: TELEGRAM_BOT_TOKEN "
                 "is not configured"
             )
 
-        response = requests.post(
-            self.api_url(method),
-            json=payload,
-            timeout=self.timeout,
-        )
+        if files is not None:
+            response = requests.post(
+                self.api_url(method),
+                data=payload,
+                files=files,
+                timeout=self.timeout,
+            )
+        else:
+            response = requests.post(
+                self.api_url(method),
+                json=payload,
+                timeout=self.timeout,
+            )
 
         if response.status_code == 429:
 
@@ -115,6 +123,68 @@ class TelegramPublisher:
                     "HTML",
                 ),
                 "disable_web_page_preview": True,
+            },
+        )
+
+        result = data.get("result", {})
+
+        return {
+            "message_id": result.get(
+                "message_id"
+            ),
+            "chat_id": chat_id,
+        }
+
+    def send_media(
+        self,
+        chat_id,
+        attachment,
+        caption,
+        parse_mode="HTML",
+        dry_run=False,
+    ):
+        """Send one message with a single media attachment.
+
+        `attachment` must expose kind ("photo"/"video"),
+        data (bytes), filename and content_type. The caption
+        carries the exact same text as a text-only post.
+
+        dry_run=True returns a dict without any network
+        call, so a real run never mistakes a rehearsal for
+        a published message.
+        """
+        if dry_run or not self.enabled:
+            return {
+                "dry_run": True,
+                "chat_id": chat_id,
+                "media_kind": attachment.kind,
+            }
+
+        method = (
+            "sendPhoto"
+            if attachment.kind == "photo"
+            else "sendVideo"
+        )
+
+        field = (
+            "photo"
+            if attachment.kind == "photo"
+            else "video"
+        )
+
+        data = self._post(
+            method,
+            {
+                "chat_id": chat_id,
+                "caption": caption,
+                "parse_mode": parse_mode,
+            },
+            files={
+                field: (
+                    attachment.filename,
+                    attachment.data,
+                    attachment.content_type,
+                )
             },
         )
 
