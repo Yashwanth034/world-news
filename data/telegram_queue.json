@@ -1,84 +1,134 @@
 {
-  "generated_at": "2026-08-12T08:10:45.969416+00:00",
+  "generated_at": "2026-08-12T08:20:47.545961+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "e7261bb5fe56e04d2a0d1a3f7836c499f1039fd1e71fd173794adc2938a67e81",
-      "title": "‘The first of our lives’: Thousands in Spain rush for best spot to watch total solar eclipse (3/4)",
-      "url": "https://www.france24.com/en/europe/20260812-the-first-of-our-lives-thousands-spain-rush-best-spot-watch-total-solar-eclipse",
-      "source": "France 24",
-      "source_category": "world",
+      "id": "25fc3bd86acf8c53ed23396209c900516170a4af5f635fbf164ee168dd547385",
+      "title": "Moment Cali hospital collapses after powerful Colombia earthquake",
+      "url": "http://www.africanews.com/2026/08/12/moment-cali-hospital-collapses-after-powerful-colombia-earthquake/",
+      "source": "Africanews English",
+      "source_category": "africa",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Africa",
       "discovery": false,
-      "summary": "Thousands of people in Spain were buzzing with excitement as they dashed to find the best location from which to view Wednesday's total solar eclipse. Trains were jam packed, travellers booked last-minute carpools and social media users shared the best viewing spots. FRANCE 24 met several eclipse enthusiasts as they set off from Madrid.",
-      "published_at": "2026-08-12T08:04:41+00:00",
-      "updated_at": "2026-08-12T08:04:41+00:00",
-      "effective_at": "2026-08-12T08:04:41+00:00",
+      "summary": "A 7.4 quake in Colombia partially collapsed the Hospital Universitario del Valle in Cali on Monday, forcing patients outside as rescuers search for hundreds feared trapped.",
+      "published_at": "2026-08-12T07:18:22+00:00",
+      "updated_at": "2026-08-12T07:18:22+00:00",
+      "effective_at": "2026-08-12T07:18:22+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 65,
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
+      "urgency_terms": [
+        "earthquake"
+      ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "344f09c0ffb3dbf86b5ec3aa",
+      "event_id": "41889c24f085487d4ec01a2f",
       "format": "single",
-      "post": "📰 NEWS: ‘The first of our lives’: Thousands in Spain rush for best spot to watch total solar eclipse (3/4). Thousands of people in Spain were buzzing with excitement as they dashed to find the best location from which to view Wednesday's total solar. Source: France 24.",
+      "post": "📰 NEWS: Moment Cali hospital collapses after powerful Colombia earthquake. A 7.4 quake in Colombia partially collapsed the Hospital Universitario del Valle in Cali on Monday, forcing patients outside as rescuers search for hundreds feared. Source: Africanews English.",
       "quality_pass": true,
       "quality_errors": [],
       "quality_warnings": [],
-      "story_id": "e7261bb5fe56e04d2a0d1a3f7836c499f1039fd1e71fd173794adc2938a67e81",
-      "public_label": "⚡ JUST IN",
-      "headline": "‘The first of our lives’: Thousands in Spain rush for best spot to watch total solar eclipse (3/4)",
+      "story_id": "25fc3bd86acf8c53ed23396209c900516170a4af5f635fbf164ee168dd547385",
+      "article_sentences": [
+        "CCTV footage shows people fleeing the building as debris fell, injuring one person who survived.",
+        "The hospital said around 90 patients were transferred after parts of its facilities, including emergency areas, became unusable.",
+        "The damage came as rescue teams searched across western Colombia for survivors after the earthquake killed at least 181 people and injured more than 1,300, according to authorities on Tuesday.",
+        "Cali recorded 95 deaths, the highest toll reported in a single city, while 239 people were believed to be trapped under rubble.",
+        "The government declared a state of emergency and ordered a coordinated rescue operation.",
+        "Several hospitals in Cali were damaged, with the World Health Organization reporting collapses affecting cardiology and paediatric areas at the Hospital Universitario del Valle.",
+        "Medical teams continued treating patients outdoors while police and armed forces helped deliver supplies."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Moment Cali hospital collapses after powerful Colombia earthquake",
       "briefing": {
         "opening": [
-          "Thousands of people in Spain were buzzing with excitement as they dashed to find the best location from which to view Wednesday's total solar eclipse.",
-          "Trains were jam packed, travellers booked last-minute carpools and social media users shared the best viewing spots."
+          "CCTV footage shows people fleeing the building as debris fell, injuring one person who survived.",
+          "The hospital said around 90 patients were transferred after parts of its facilities, including emergency areas, became unusable."
         ],
         "body": [
-          "FRANCE 24 met several eclipse enthusiasts as they set off from Madrid."
+          "The damage came as rescue teams searched across western Colombia for survivors after the earthquake killed at least 181 people and injured more than 1,300, according to authorities on Tuesday.",
+          "Cali recorded 95 deaths, the highest toll reported in a single city, while 239 people were believed to be trapped under rubble.",
+          "The government declared a state of emergency and ordered a coordinated rescue operation.",
+          "Several hospitals in Cali were damaged, with the World Health Organization reporting collapses affecting cardiology and paediatric areas at the Hospital Universitario del Valle.",
+          "Medical teams continued treating patients outdoors while police and armed forces helped deliver supplies.",
+          "A 7.4 quake in Colombia partially collapsed the Hospital Universitario del Valle in Cali on Monday, forcing patients outside as rescuers search for hundreds feared trapped."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Spain"
+            "text": "Cali"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "state of emergency"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 181 people"
           }
         ],
         "sentences": [
           {
-            "text": "FRANCE 24 met several eclipse enthusiasts as they set off from Madrid.",
-            "source": "France 24",
-            "item_id": "e7261bb5fe56e04d2a0d1a3f7836c499f1039fd1e71fd173794adc2938a67e81",
+            "text": "Cali recorded 95 deaths, the highest toll reported in a single city, while 239 people were believed to be trapped under rubble.",
+            "source": "Africanews English",
+            "item_id": "25fc3bd86acf8c53ed23396209c900516170a4af5f635fbf164ee168dd547385:article",
             "composed": false
           },
           {
-            "text": "Thousands of people in Spain were buzzing with excitement as they dashed to find the best location from which to view Wednesday's total solar eclipse.",
-            "source": "France 24",
-            "item_id": "e7261bb5fe56e04d2a0d1a3f7836c499f1039fd1e71fd173794adc2938a67e81",
+            "text": "Several hospitals in Cali were damaged, with the World Health Organization reporting collapses affecting cardiology and paediatric areas at the Hospital Universitario del Valle.",
+            "source": "Africanews English",
+            "item_id": "25fc3bd86acf8c53ed23396209c900516170a4af5f635fbf164ee168dd547385:article",
             "composed": false
           },
           {
-            "text": "Trains were jam packed, travellers booked last-minute carpools and social media users shared the best viewing spots.",
-            "source": "France 24",
-            "item_id": "e7261bb5fe56e04d2a0d1a3f7836c499f1039fd1e71fd173794adc2938a67e81",
+            "text": "The hospital said around 90 patients were transferred after parts of its facilities, including emergency areas, became unusable.",
+            "source": "Africanews English",
+            "item_id": "25fc3bd86acf8c53ed23396209c900516170a4af5f635fbf164ee168dd547385:article",
+            "composed": false
+          },
+          {
+            "text": "The government declared a state of emergency and ordered a coordinated rescue operation.",
+            "source": "Africanews English",
+            "item_id": "25fc3bd86acf8c53ed23396209c900516170a4af5f635fbf164ee168dd547385:article",
+            "composed": false
+          },
+          {
+            "text": "CCTV footage shows people fleeing the building as debris fell, injuring one person who survived.",
+            "source": "Africanews English",
+            "item_id": "25fc3bd86acf8c53ed23396209c900516170a4af5f635fbf164ee168dd547385:article",
+            "composed": false
+          },
+          {
+            "text": "Medical teams continued treating patients outdoors while police and armed forces helped deliver supplies.",
+            "source": "Africanews English",
+            "item_id": "25fc3bd86acf8c53ed23396209c900516170a4af5f635fbf164ee168dd547385:article",
+            "composed": false
+          },
+          {
+            "text": "A 7.4 quake in Colombia partially collapsed the Hospital Universitario del Valle in Cali on Monday, forcing patients outside as rescuers search for hundreds feared trapped.",
+            "source": "Africanews English",
+            "item_id": "25fc3bd86acf8c53ed23396209c900516170a4af5f635fbf164ee168dd547385",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "Africanews English",
         "corroborating": [],
-        "url": "https://www.france24.com/en/europe/20260812-the-first-of-our-lives-thousands-spain-rush-best-spot-watch-total-solar-eclipse"
+        "url": "http://www.africanews.com/2026/08/12/moment-cali-hospital-collapses-after-powerful-colombia-earthquake/"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN"
+      "label": "📰 NEWS"
     }
   ]
 }
