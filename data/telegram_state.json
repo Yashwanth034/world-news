@@ -1,30 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "56ee7420ea71050e06251fdf89d79a75ba912937041eaa91fa5f636bc614f3e3",
-      "event_id": "c9dca053df048ed84cbdc900",
-      "item_id": "56ee7420ea71050e06251fdf89d79a75ba912937041eaa91fa5f636bc614f3e3",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-08-12T19:06:04+00:00",
-      "attempts": 0
-    },
-    {
-      "story_id": "095bbb9314f3e3d0873e25f72e29341e39e79cbb5a7692a5438c4ddfd5dff654",
-      "event_id": "9672c8777d760937471e6069",
-      "item_id": "095bbb9314f3e3d0873e25f72e29341e39e79cbb5a7692a5438c4ddfd5dff654",
-      "label": "⚡ JUST IN",
-      "scheduled_at": "2026-08-12T19:05:19+00:00",
-      "attempts": 0
-    },
-    {
-      "story_id": "d74a5918bbe2bd641240fd6ffa0219029e834d37144538f7f2f5668c04ea990d",
-      "event_id": "19d7e2211bd7be8788c3f959",
-      "item_id": "d74a5918bbe2bd641240fd6ffa0219029e834d37144538f7f2f5668c04ea990d",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-08-12T19:06:46+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "1f6ec28e10dd6fdfe34485247e48b47717ab1e235808686cae101548e03af930",
       "event_id": "7c395728385c39747e6bc15b",
       "item_id": "1f6ec28e10dd6fdfe34485247e48b47717ab1e235808686cae101548e03af930",
@@ -114,6 +90,15 @@
     }
   ],
   "posted": [
+    {
+      "story_id": "750c51c7ff1eb71489665eccc2357192d9458229f07a5cd9c0d0618f2af942ce",
+      "event_id": "1d434e2c499993b7b183b27e",
+      "item_id": "750c51c7ff1eb71489665eccc2357192d9458229f07a5cd9c0d0618f2af942ce",
+      "label": "⚡ JUST IN",
+      "message_id": 269,
+      "posted_at": "2026-08-13T07:04:45.000147+00:00",
+      "scheduled_at": "2026-08-13T07:04:45+00:00"
+    },
     {
       "story_id": "d80da77cb5fd47a313dc21e04d2ce176300f4067673a0586d7e8af6a83d2b43d",
       "event_id": "9edc3756ead42c8808cfc383",
@@ -1877,15 +1862,6 @@
       "message_id": 73,
       "posted_at": "2026-08-11T02:56:46.000147+00:00",
       "scheduled_at": "2026-08-11T02:56:33+00:00"
-    },
-    {
-      "story_id": "750c51c7ff1eb71489665eccc2357192d9458229f07a5cd9c0d0618f2af942ce",
-      "event_id": "1d434e2c499993b7b183b27e",
-      "item_id": "750c51c7ff1eb71489665eccc2357192d9458229f07a5cd9c0d0618f2af942ce",
-      "label": "⚡ JUST IN",
-      "message_id": 269,
-      "posted_at": "2026-08-13T07:04:45.000147+00:00",
-      "scheduled_at": "2026-08-13T07:04:45+00:00"
     }
   ],
   "failures": [],
