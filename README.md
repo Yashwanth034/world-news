@@ -1,7 +1,8 @@
 # WorldNews
 
 Automated worldwide-news collection and Telegram publishing. A pipeline gathers stories
-from 42 RSS feeds, filters them editorially, groups same-event coverage, enriches
+from 51 verified RSS feeds (global agencies, regional publishers and specialized
+primary sources), filters them editorially, groups same-event coverage, enriches
 important thin stories with article text, composes a concise source-grounded 2–4
 sentence summary per event, and publishes to a Telegram channel — optionally with an
 image or video attachment.
@@ -11,9 +12,14 @@ legacy X post/thread formatting anywhere in the pipeline.
 
 ## Features
 
-- **News gathering** — 42 RSS feeds across world, politics, finance, technology,
-  science, space, health, disaster, cybersecurity, conflict, environment and regional
-  categories.
+- **News gathering** — 51 verified RSS feeds across world, politics, finance,
+  technology, science, space, health, disaster, cybersecurity, conflict, environment
+  and regional categories.
+- **Website-ready data model** — every story and event is stored with structured
+  sector / sub-sector / region / country / entities / timestamps / related-sources /
+  verification metadata (see “Database schema” below). This powers coverage audits
+  today and is the foundation for a future WorldNews website; it is never shown on
+  Telegram.
 - **Editorial eligibility filter** — product reviews, buying guides, opinion columns,
   personal essays, how-tos, sponsored/affiliate content, listicles, quizzes, recipes and
   routine (non-extreme) weather are rejected before they reach the queue. Real science,
@@ -169,6 +175,71 @@ Optional live-send tests (opt-in):
 ```bash
 TELEGRAM_LIVE=1 .venv/bin/python -m pytest src/test_telegram_send.py -q
 ```
+
+## Database schema
+
+The SQLite database (`data/news.db`, configured by `database` in `config.json`) is the
+single source of truth for dedup and event memory, and is designed to be queryable by a
+future website. Schema ownership: `src/storage.py` owns the *storage* schema of both
+tables; `src/event_memory.py` owns the *matching/identity* rules and is never changed by
+schema work.
+
+**`stories`** — one row per collected article:
+
+`id, title, url, source, category, summary, score, confidence, event_id, event_status,
+first_seen, sector, subsector, region, subregion, country, entities (JSON),
+published_at, updated_at, event_time, last_seen, verification (JSON)`
+
+**`events`** — one row per canonical event:
+
+`event_id, canonical_title, category, first_seen, last_seen, major, queued_count,
+canonical_summary, canonical_state (JSON), sector, subsector, region, subregion,
+country, entities (JSON), event_time, last_development, related_sources (JSON),
+verification (JSON)`
+
+Semantics:
+
+- `sector` / `subsector` come from the content-based taxonomy (`src/sectors.py`);
+  `region` / `subregion` from `src/regions.py`. Event rows are anchored to the
+  canonical (first) story — a later article about a sub-aspect of the same event never
+  retags the event.
+- `entities` are distinctive named entities (people, companies, institutions, named
+  storms, ships, …), extracted by the same signal machinery event memory uses; generic
+  words, weekdays, months and years are excluded.
+- `event_time` is the best available timestamp for *when the event happened*;
+  `last_development` is the latest **meaningful** development time. A duplicate
+  article never advances `last_development`; only a genuine `UPDATE` (material
+  development detected by event memory) does. `updated_at`/`last_seen` are record
+  timestamps and are deliberately separate.
+- `related_sources` accumulates the sources that reported an event; `verification`
+  holds tier / primary-source / corroboration counts. Both are backend/audit metadata
+  only — never rendered on Telegram.
+- Indexes exist on `events(event_time, last_development, sector, region, country,
+  major)` so future queries (“all cybersecurity events”, “all events in India”, “events
+  updated in the last 24 hours”) run without scanning raw text.
+
+### Migration procedure
+
+Migrations are **in-place, additive and idempotent**: `src/storage.py`
+(`init_schema`) creates both tables with the full column set on fresh databases and
+adds missing columns (`ALTER TABLE … DEFAULT NULL`) to older databases. Running it
+repeatedly is a no-op and existing rows are never deleted or rewritten. Historical rows
+predating a field keep `NULL` (unknown) rather than a fabricated value. The pipeline
+runs the migration automatically on every collection cycle; no manual step is needed.
+
+### Fresh database procedure
+
+Delete `data/news.db` (and the generated `data/queue.json`, `data/source_health.json`)
+and run the pipeline once; the schema is recreated from scratch. Fresh databases are
+also created automatically when the file does not exist.
+
+## Event timeline concept
+
+Each event carries `first_seen` (when the event entered memory), `event_time` (when it
+happened) and `last_development` (latest meaningful development). Together they let a
+future website render a per-event timeline ordered by real-world development time,
+with the canonical title, accumulated entities, and every related source preserved
+without losing the immutable event identity.
 
 ## Limitations
 

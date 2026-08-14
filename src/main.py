@@ -124,22 +124,11 @@ def db():
 
     c = sqlite3.connect(DB)
 
-    c.execute("""
-    CREATE TABLE IF NOT EXISTS stories(
-        id TEXT PRIMARY KEY,
-        title TEXT,
-        url TEXT,
-        source TEXT,
-        category TEXT,
-        summary TEXT,
-        score INTEGER,
-        confidence TEXT,
-        event_id TEXT,
-        event_status TEXT,
-        first_seen TEXT
-    )
-    """)
+    # Website-ready schema: creates both tables with the full
+    # column set and upgrades older databases in place.
+    from src.storage import init_schema
 
+    init_schema(c)
     init_events(c)
 
     return c
@@ -660,6 +649,39 @@ def main():
         )
 
         # -----------------------------------------------------
+        # Website-ready metadata (storage/observability only)
+        #
+        # Sector / region / entities are classified from the
+        # article's OWN content and persisted for the future
+        # website.  They never gate publishing and never feed
+        # event matching, dedup or scoring.
+        # -----------------------------------------------------
+
+        from src.sectors import classify_sector
+        from src.regions import classify_event_region
+        from src.event_memory import story_entities
+
+        sector, subsector = classify_sector(
+            x["title"],
+            x["summary"],
+            x.get("source_category"),
+        )
+        region, subregion = classify_event_region(
+            x["title"],
+            x["summary"],
+        )
+
+        x["sector"] = sector
+        x["subsector"] = subsector
+        x["region"] = region
+        x["subregion"] = subregion
+        x["country"] = None
+        x["entities"] = story_entities(
+            x["title"],
+            x["summary"],
+        )
+
+        # -----------------------------------------------------
         # Editorial eligibility
         #
         # Content-type gate: product reviews, buying guides,
@@ -807,9 +829,24 @@ def main():
         # brand-new story again.
         # -----------------------------------------------------
 
+        # Website-ready story metadata (sector, region, entities,
+        # timestamps, verification) computed from the item and
+        # persisted alongside the legacy fields.
+        from src.storage import story_meta
+
+        meta = story_meta(x, now)
+
         c.execute(
-            "INSERT OR REPLACE INTO stories VALUES "
-            "(?,?,?,?,?,?,?,?,?,?,?)",
+            """
+            INSERT OR REPLACE INTO stories(
+                id, title, url, source, category, summary, score,
+                confidence, event_id, event_status, first_seen,
+                sector, subsector, region, subregion, country,
+                entities, published_at, updated_at, event_time,
+                last_seen, verification
+            )
+            VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+            """,
             (
                 x["id"],
                 x["title"],
@@ -822,6 +859,17 @@ def main():
                 eid,
                 status,
                 now,
+                meta["sector"],
+                meta["subsector"],
+                meta["region"],
+                meta["subregion"],
+                meta["country"],
+                meta["entities"],
+                meta["published_at"],
+                meta["updated_at"],
+                meta["event_time"],
+                meta["last_seen"],
+                meta["verification"],
             )
         )
 

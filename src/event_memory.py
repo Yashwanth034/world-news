@@ -327,24 +327,16 @@ _LOCATION_SET = set(LOCATION_SET) | {
 
 
 def init_events(conn):
-    conn.execute(
-        """
-        CREATE TABLE IF NOT EXISTS events(
-            event_id TEXT PRIMARY KEY,
-            canonical_title TEXT NOT NULL,
-            category TEXT,
-            first_seen TEXT NOT NULL,
-            last_seen TEXT NOT NULL,
-            major INTEGER DEFAULT 0,
-            queued_count INTEGER DEFAULT 0,
-            canonical_summary TEXT DEFAULT '',
-            canonical_state TEXT DEFAULT '{}'
-        )
-        """
-    )
+    # The events table is created with the full website-ready
+    # column set; older databases are upgraded in place by
+    # storage.init_schema (idempotent, additive only).  Matching
+    # logic below only ever reads the legacy columns.
+    from src.storage import create_events
 
-    # Upgrade existing databases created before
-    # canonical_summary / canonical_state were added.
+    create_events(conn)
+
+    # Legacy upgrade path kept for databases that predate
+    # canonical_summary / canonical_state.
     columns = {
         row[1]
         for row in conn.execute(
@@ -861,6 +853,20 @@ def _signals(item):
     return _signals_text(
         item.get("title", ""),
         item.get("summary", ""),
+    )
+
+
+def story_entities(title, summary=""):
+    """Distinctive named entities of a story (people, companies,
+    institutions, named storms, ships, ...) as a sorted list.
+
+    Pure observability helper for the website-ready data model; it
+    reuses the SAME signal extraction the matching rules use, so it
+    is guaranteed to never disagree with event-memory entity
+    handling.  It never touches matching state.
+    """
+    return sorted(
+        _signals_text(title, summary)["entities"]
     )
 
 
@@ -1448,6 +1454,10 @@ def _is_major(item):
 
 
 def _insert_event(conn, event_id, item, state, now):
+    from src.storage import event_meta
+
+    meta = event_meta(item, state, now.isoformat())
+
     conn.execute(
         """
         INSERT OR REPLACE INTO events(
@@ -1459,9 +1469,19 @@ def _insert_event(conn, event_id, item, state, now):
             major,
             queued_count,
             canonical_summary,
-            canonical_state
+            canonical_state,
+            sector,
+            subsector,
+            region,
+            subregion,
+            country,
+            entities,
+            event_time,
+            last_development,
+            related_sources,
+            verification
         )
-        VALUES(?,?,?,?,?,?,?,?,?)
+        VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
         """,
         (
             event_id,
@@ -1473,6 +1493,72 @@ def _insert_event(conn, event_id, item, state, now):
             0,
             item.get("summary", ""),
             json.dumps(state, ensure_ascii=False),
+            meta["sector"],
+            meta["subsector"],
+            meta["region"],
+            meta["subregion"],
+            meta["country"],
+            meta["entities"],
+            meta["event_time"],
+            # A NEW event's last_development starts at the event
+            # time (the first meaningful development).
+            meta["event_time"] or now.isoformat(),
+            meta["related_sources"],
+            meta["verification"],
+        ),
+    )
+
+
+def _write_event_meta(conn, event_id, item, state, now,
+                      advance_development, canonical_title,
+                      canonical_summary):
+    """Refresh the website-ready observability columns of an event
+    row.  Matching/identity columns are never touched here.
+
+    advance_development is True only for a genuine UPDATE: it moves
+    last_development to the incoming story's effective time.
+    Duplicate articles and touch refreshes keep the stored value.
+
+    canonical_title / canonical_summary anchor the event's sector,
+    region and country: a merged article about a sub-aspect must
+    never retag the event.
+    """
+    from src.storage import event_meta
+
+    meta = event_meta(
+        item,
+        state,
+        now.isoformat(),
+        canonical_title=canonical_title,
+        canonical_summary=canonical_summary,
+        advance_development=advance_development,
+    )
+    conn.execute(
+        """
+        UPDATE events
+        SET
+            sector=?,
+            subsector=?,
+            region=?,
+            subregion=?,
+            country=?,
+            entities=?,
+            last_development=COALESCE(?, last_development),
+            related_sources=?,
+            verification=?
+        WHERE event_id=?
+        """,
+        (
+            meta["sector"],
+            meta["subsector"],
+            meta["region"],
+            meta["subregion"],
+            meta["country"],
+            meta["entities"],
+            meta["last_development"],
+            meta["related_sources"],
+            meta["verification"],
+            event_id,
         ),
     )
 
@@ -1493,14 +1579,26 @@ def _touch_event(conn, event_id, item, now):
 def _update_event(conn, event_id, item, state, now):
     """Apply a matched UPDATE: refresh last_seen and persist the
     merged ACCUMULATED state.  canonical_title / canonical_summary
-    stay anchored to the event's ORIGINAL identity story."""
+    stay anchored to the event's ORIGINAL identity story.
+
+    A genuine UPDATE also advances last_development to the incoming
+    story's effective time (the latest meaningful development).
+    """
+    canonical_title = conn.execute(
+        "SELECT canonical_title FROM events WHERE event_id=?",
+        (event_id,),
+    ).fetchone()[0]
+    canonical_summary = conn.execute(
+        "SELECT canonical_summary FROM events WHERE event_id=?",
+        (event_id,),
+    ).fetchone()[0]
+
     conn.execute(
         """
         UPDATE events
         SET
             last_seen=?,
-            major=MAX(major,?),
-            canonical_state=?
+            major=MAX(major,?),canonical_state=?
         WHERE event_id=?
         """,
         (
@@ -1510,18 +1608,36 @@ def _update_event(conn, event_id, item, state, now):
             event_id,
         ),
     )
+    _write_event_meta(
+        conn,
+        event_id,
+        item,
+        state,
+        now,
+        advance_development=True,
+        canonical_title=canonical_title,
+        canonical_summary=canonical_summary,
+    )
 
 
 def _persist_state(conn, event_id, state, item, now):
     """Refresh last_seen and persist the (merged) accumulated
     state without treating the story as an update."""
+    canonical_title = conn.execute(
+        "SELECT canonical_title FROM events WHERE event_id=?",
+        (event_id,),
+    ).fetchone()[0]
+    canonical_summary = conn.execute(
+        "SELECT canonical_summary FROM events WHERE event_id=?",
+        (event_id,),
+    ).fetchone()[0]
+
     conn.execute(
         """
         UPDATE events
         SET
             last_seen=?,
-            major=MAX(major,?),
-            canonical_state=?
+            major=MAX(major,?),canonical_state=?
         WHERE event_id=?
         """,
         (
@@ -1530,6 +1646,19 @@ def _persist_state(conn, event_id, state, item, now):
             json.dumps(state, ensure_ascii=False),
             event_id,
         ),
+    )
+    # Duplicate / same-source refresh: metadata is folded in but
+    # last_development stays anchored - a repeat article never
+    # advances the event timeline.
+    _write_event_meta(
+        conn,
+        event_id,
+        item,
+        state,
+        now,
+        advance_development=False,
+        canonical_title=canonical_title,
+        canonical_summary=canonical_summary,
     )
 
 
