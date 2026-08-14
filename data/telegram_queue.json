@@ -1,27 +1,790 @@
 {
-  "generated_at": "2026-08-14T14:50:48.726126+00:00",
-  "count": 3,
+  "generated_at": "2026-08-14T15:00:32.020905+00:00",
+  "count": 21,
   "stories": [
     {
-      "id": "187fe4de443fbded3b6f51e5ed4b7aa5b30b64140b8798ef0dd81f353232b965",
-      "title": "War in Ukraine: Deadly Russian air raid on Kramatorsk leaves 1 dead and 17 wounded",
-      "url": "http://www.africanews.com/2026/08/14/war-in-ukraine-deadly-russian-air-raid-on-kramatorsk-leaves-1-dead-and-17-wounded/",
-      "source": "Africanews English",
-      "source_category": "africa",
+      "id": "33524e1229eed90a63dfdffbd9b67ea3d8184663ea9c4b98267fbbab1edc47ef",
+      "title": "Toxic gas leak kills 8 at Bangladesh ship-breaking yard",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3364101/toxic-gas-leak-kills-8-bangladesh-ship-breaking-yard?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Africa",
+      "region": "Asia",
       "discovery": false,
-      "summary": "At least one person was killed and 17 injured in a Russian airstrike on Kramatorsk in eastern Ukraine overnight, according to Ukraine’s State Emergency Service.",
-      "published_at": "2026-08-14T14:22:35+00:00",
-      "updated_at": "2026-08-14T14:22:35+00:00",
-      "effective_at": "2026-08-14T14:22:35+00:00",
+      "summary": "At least eight workers have died following a toxic gas leak at a ship-breaking yard in the southeastern Bangladeshi district of Chattogram, officials said on Friday. The incident occurred at the Ferdaus Steel Shipbreaking Yard in Sitakund subdistrict, an area that hosts many ship-breaking yards where old vessels mostly imported from around the world are dismantled. Soon after the leak, many workers lost consciousness and were rushed to a local hospital. Six out of seven people taken to...",
+      "published_at": "2026-08-14T14:06:54+00:00",
+      "updated_at": "2026-08-14T14:06:54+00:00",
+      "effective_at": "2026-08-14T14:06:54+00:00",
       "language_status": "ENGLISH",
-      "category": "conflict",
-      "score": 68,
+      "category": "industry",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "oil_gas",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "bangladesh",
+        "bangladeshi",
+        "chattogram",
+        "ferdaus",
+        "shipbreaking",
+        "sitakund",
+        "steel",
+        "yard"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Straits Times Asia"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 93,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "event_status": "UPDATE",
+      "event_id": "9a657e0bc24d383410b4130e",
+      "importance_score": 63.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 18,
+        "urgency": 10,
+        "novelty": 9.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 6,
+        "significance": 6,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 8,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": true,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 6
+        }
+      },
+      "story_id": "33524e1229eed90a63dfdffbd9b67ea3d8184663ea9c4b98267fbbab1edc47ef",
+      "public_label": "🔄 UPDATE",
+      "headline": "Toxic gas leak kills 8 at Bangladesh ship-breaking yard",
+      "briefing": {
+        "opening": [
+          "At least eight workers have died following a toxic gas leak at a ship-breaking yard in the southeastern Bangladeshi district of Chattogram, officials said on Friday.",
+          "The incident occurred at the Ferdaus Steel Shipbreaking Yard in Sitakund subdistrict, an area that hosts many ship-breaking yards where old vessels mostly imported from around the world are dismantled."
+        ],
+        "body": [
+          "Soon after the leak, many workers lost consciousness and were rushed to a local hospital.",
+          "Six out of seven people taken to...",
+          "Toxic gas had leaked from a vessel at the Ferdous Steel Shipbreaking Yard and Recycling Factory."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Sitakund"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Toxic gas had leaked from a vessel at the Ferdous Steel Shipbreaking Yard and Recycling Factory.",
+            "source": "Straits Times Asia",
+            "item_id": "eba1de678babb2ddcf0cfe51042d8a1670d9a48f9530b2c1baa6878f67a81c62",
+            "composed": false
+          },
+          {
+            "text": "The incident occurred at the Ferdaus Steel Shipbreaking Yard in Sitakund subdistrict, an area that hosts many ship-breaking yards where old vessels mostly imported from around the world are dismantled.",
+            "source": "South China Morning Post",
+            "item_id": "33524e1229eed90a63dfdffbd9b67ea3d8184663ea9c4b98267fbbab1edc47ef",
+            "composed": false
+          },
+          {
+            "text": "At least eight workers have died following a toxic gas leak at a ship-breaking yard in the southeastern Bangladeshi district of Chattogram, officials said on Friday.",
+            "source": "South China Morning Post",
+            "item_id": "33524e1229eed90a63dfdffbd9b67ea3d8184663ea9c4b98267fbbab1edc47ef",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [
+          "Straits Times Asia"
+        ],
+        "url": "https://www.scmp.com/news/asia/south-asia/article/3364101/toxic-gas-leak-kills-8-bangladesh-ship-breaking-yard?utm_source=rss_feed"
+      },
+      "group_size": 2,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "80b752aa6ff3c2b0b0226fd877e947b7ce39705bf51cae7b421d8649d9f4b512",
+      "title": "Kushner to visit Israel to discuss Trump's Gaza plan",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kushner-visit-israel-discuss-trumps-gaza-plan",
+      "source": "Middle East Eye",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Kushner to visit Israel to discuss Trump's Gaza plan Donald Trump's envoy and son-in-law Jared Kushner will visit&nbsp;Israel&nbsp;next week to discuss the US president's Gaza plan recently rejected by Prime Minister Benjamin Netanyahu, officials said on Friday. Kushner and Nickolay Mladenov, the high representative for Gaza of Trump's so-called Board of Peace implementing the deal, will visit both&nbsp;Israel&nbsp;and key mediator Egypt. The trip comes after Netanyahu publicly rejected the 15-point plan announced by Mladenov, a Bulgarian diplomat, in which Hamas agreed to hand over its weapons to a new Palestinian governing committee in Gaza. A Board of Peace official said Kushner and Mlade",
+      "published_at": "2026-08-14T14:26:15+00:00",
+      "updated_at": "2026-08-14T14:26:15+00:00",
+      "effective_at": "2026-08-14T14:26:15+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "diplomacy",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "benjamin",
+        "bulgarian",
+        "donald",
+        "egypt",
+        "gaza",
+        "hamas",
+        "israel",
+        "jared",
+        "kushner",
+        "mlade",
+        "mladenov",
+        "netanyahu",
+        "nickolay",
+        "palestine",
+        "peace",
+        "trump",
+        "us"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Al Jazeera"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 73,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "439f1f03517a51ea53489e10",
+      "importance_score": 40.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 6,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "80b752aa6ff3c2b0b0226fd877e947b7ce39705bf51cae7b421d8649d9f4b512",
+      "public_label": "🔄 UPDATE",
+      "headline": "Kushner to visit Israel to discuss Trump's Gaza plan",
+      "briefing": {
+        "opening": [
+          "Kushner to visit Israel to discuss Trump's Gaza plan Donald Trump's envoy and son-in-law.",
+          "Jared Kushner will visit Israel next week to discuss the US president's Gaza plan recently rejected by Prime Minister Benjamin Netanyahu, officials said on Friday."
+        ],
+        "body": [
+          "Kushner and Nickolay Mladenov, the high representative for Gaza of Trump's so-called Board of Peace implementing the deal, will visit both Israel and key mediator Egypt.",
+          "The trip comes after Netanyahu publicly rejected the 15-point plan announced by Mladenov, a Bulgarian diplomat, in which Hamas agreed to hand over its weapons to a new Palestinian governing committee in Gaza.",
+          "A Board of Peace official said Kushner and Mlade.",
+          "Visit to address Israeli opposition to plan for Hamas to disarm, Israel to withdraw from Gaza, board official says.",
+          "United States President Donald Trump’s son-in-law and aide, Jared Kushner, is set to travel to Israel and Egypt next week to support a US-backed Board of Peace plan for a permanent end to Israel’s genocidal war in Gaza.",
+          "The visit, which was confirmed to Al Jazeera by a Board of Peace official, comes shortly after Israeli Prime Minister Benjamin Netanyahu rejected a Trump-backed 15-point plan for a lasting peace in the Palestinian enclave.",
+          "Netanyahu specifically opposed a provision of the plan that would see Hamas gradually disarm, transferring its weapons to a Palestinian third party, with Israel concurrently withdrawing its troops from Gaza.",
+          "Hamas announced in it had agreed to a preliminary version of the deal and has said that it remains committed following Israel’s rejection.",
+          "An official with the Board of Peace, which was launched as part of a broader Gaza “ceasefire” agreement reached between Israel and Hamas in late 2025, said Kushner will be accompanied by the board’s director general, former Bulgarian government minister Nickolay Mladenov, and executive committee member, former British Prime Minister Tony Blair.",
+          "The official said the trio will “hear the concerns that have been raised and talk about next steps”.",
+          "“What is critical is that we both agree on the desired outcome and are finding ways to accelerate progress,” said the official, who maintained that both the Board of Peace and Israel “agree on the end state, which is a demilitarised Hamas”.",
+          "In Cairo, the official said Kushner, Mladenov, and Blair will meet Egyptian and other mediators, and will seek to solidify a roadmap.",
+          "Hamas’s approval of the preliminary disarmament agreement has been seen as a major breakthrough, even as details of implementation have remained undefined.",
+          "Under the 20-point ceasefire plan for Gaza signed last year, fighting was meant to be halted by both sides to pave the way for Hamas and other Palestinian armed groups to decommission their weapons and for Israel to withdraw from Gaza.",
+          "After that, the agreement calls for Hamas to transfer power to a technocratic Palestinian government, for an International Stabilisation Force to be deployed, and for a major reconstruction effort to begin."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Gaza"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Under the 20-point ceasefire plan for Gaza signed last year, fighting was meant to be halted by both sides to pave the way for Hamas and other Palestinian armed groups to decommission their weapons and for Israel to withdraw from Gaza.",
+            "source": "Al Jazeera",
+            "item_id": "3a8dbeb06b5076a4c84c0a7e3d39f0ba4503eb56939b1bc3d566d2127554aa54",
+            "composed": false
+          },
+          {
+            "text": "The trip comes after Netanyahu publicly rejected the 15-point plan announced by Mladenov, a Bulgarian diplomat, in which Hamas agreed to hand over its weapons to a new Palestinian governing committee in Gaza.",
+            "source": "Middle East Eye",
+            "item_id": "80b752aa6ff3c2b0b0226fd877e947b7ce39705bf51cae7b421d8649d9f4b512",
+            "composed": false
+          },
+          {
+            "text": "United States President Donald Trump’s son-in-law and aide, Jared Kushner, is set to travel to Israel and Egypt next week to support a US-backed Board of Peace plan for a permanent end to Israel’s genocidal war in Gaza.",
+            "source": "Al Jazeera",
+            "item_id": "3a8dbeb06b5076a4c84c0a7e3d39f0ba4503eb56939b1bc3d566d2127554aa54",
+            "composed": false
+          }
+        ],
+        "source": "Middle East Eye",
+        "corroborating": [
+          "Al Jazeera"
+        ],
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kushner-visit-israel-discuss-trumps-gaza-plan"
+      },
+      "group_size": 2,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "9b4edb16b48d1fcb0169bb7735c484da72b372e8a5807aeab5e285b203a66888",
+      "title": "Iraq says daily oil exports at highest level since start of war",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-says-daily-oil-exports-highest-level-start-war",
+      "source": "Middle East Eye",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Iraq says daily oil exports at highest level since start of war Iraq's average daily oil exports since the beginning of August are the highest since the outbreak of the Middle East war between Iran and the United States, which has choked off the Strait of Hormuz, the oil ministry said Friday. Iraqi Oil Minister Bassem Mohammed Khudair told a press conference that \"exports since the beginning of the month have reached a rate of two million barrels\" per day, for a total of around 26 million barrels, saying it was the first time that daily rate had been achieved since the crisis began.",
+      "published_at": "2026-08-14T13:32:51+00:00",
+      "updated_at": "2026-08-14T13:32:51+00:00",
+      "effective_at": "2026-08-14T13:32:51+00:00",
+      "language_status": "ENGLISH",
+      "category": "industry",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "oil_gas",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "bassem",
+        "east",
+        "hormuz",
+        "iran",
+        "iraq",
+        "iraqi",
+        "khudair",
+        "middle",
+        "mohammed",
+        "oil",
+        "strait",
+        "united_states"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 1,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "7c395728385c39747e6bc15b",
+      "importance_score": 60.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 3,
+        "significance": 32,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8,
+          "security": 8,
+          "scientific": 8,
+          "geopolitical": 8
+        }
+      },
+      "story_id": "9b4edb16b48d1fcb0169bb7735c484da72b372e8a5807aeab5e285b203a66888",
+      "public_label": "🔄 UPDATE",
+      "headline": "Iraq says daily oil exports at highest level since start of war",
+      "briefing": {
+        "opening": [
+          "Iraq says daily oil exports at highest level since start of war Iraq's average daily oil exports since the beginning of August are the highest since the outbreak of the Middle East war between Iran and the United States, which has choked off the Strait of Hormuz, the oil ministry said Friday.",
+          "Iraqi Oil Minister Bassem Mohammed Khudair told a press conference that \"exports since the beginning of the month have reached a rate of two million barrels\" per day, for a total of around 26 million barrels, saying it was the first time that daily rate had been achieved since the crisis began."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Iraqi Oil Minister Bassem Mohammed Khudair told a press conference that \"exports since the beginning of the month have reached a rate of two million barrels\" per day, for a total of around 26 million barrels, saying it was the first time that daily rate had been achieved since the crisis began.",
+            "source": "Middle East Eye",
+            "item_id": "9b4edb16b48d1fcb0169bb7735c484da72b372e8a5807aeab5e285b203a66888",
+            "composed": false
+          },
+          {
+            "text": "Iraq says daily oil exports at highest level since start of war Iraq's average daily oil exports since the beginning of August are the highest since the outbreak of the Middle East war between Iran and the United States, which has choked off the Strait of Hormuz, the oil ministry said Friday.",
+            "source": "Middle East Eye",
+            "item_id": "9b4edb16b48d1fcb0169bb7735c484da72b372e8a5807aeab5e285b203a66888",
+            "composed": false
+          }
+        ],
+        "source": "Middle East Eye",
+        "corroborating": [],
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-says-daily-oil-exports-highest-level-start-war"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "cff7a498e560f258b830cbdfbf00ca68847e5ac9bc2a88e6b1cbe77b54942b66",
+      "title": "Iran claims 'trillion-dollar' pollution damage as Gulf oil spills spread",
+      "url": "http://www.euronews.com/2026/08/14/iran-claims-trillion-dollar-pollution-damage-as-gulf-oil-spills-spread",
+      "source": "Euronews",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Oil residues from a struck bulk carrier reached Iran's Qeshm Island and its protected mangrove forests, while a sanctioned Russian shadow fleet tanker grounded off Oman has leaked a slick that has grown to more than 2,000 square kilometres, fouling 40 kilometres of Omani coastline. An oil spill has reached Iran's Qeshm Island and a separate, far larger spill from a stricken Russian shadow fleet tanker is fouling Oman's southern coastline, as the war in the Gulf produces its first significant environmental fallout. Dark oily residues appeared along the shores of Qeshm Island earlier this week, spreading from Soza beach to the Shib Deraz area and the Hara mangrove forests near the village of Naqasheh. Iran's environmental officials said cleanup operations had largely cleared the slick by Wednesday evening, although monitoring continues. Iran's Foreign Ministry said preliminary evidence pointed to a foreign bulk carrier as the source and called for compensation from those responsible. \"Restoring the marine ecosystem of the Strait of Hormuz, the Persian Gulf and the Sea of Oman, and preventing further pollution, must be part of any future management arrangements for the Strait of Hormuz,\" Iran's Foreign Ministry spokesperson Esmail Baghaei said. \"All parties that benefit from commercial shipping in this waterway have a legal and moral responsibility to address the environmental damage,\" he added. Baghaei said the incident was \"only one example\" of decades of pollution, claiming it caused \"trillion-dollar damage to Iran’s coastal areas.\" \"Who is responsible for compensating for these losses and damages: the countries that consume the region’s cheap exported energy, shipping insurance companies, or the aggressor parties and their partners,\" Baghaei asked. TankerTrackers, a maritime monitoring service, said satellite imagery showed the slick most likely originated from the Minoan Pioneer — a Liberia-flagged, Greek-managed bulk carrier struck by a projectile on 3 August approximately 20 nautical miles northeast of Khasab in Oman's Musandam Governorate. The attack triggered a fire, caused a complete engine room blackout and left one crew member missing. Multiple maritime security firms attribute the attack to Iranian forces, citing historical patterns in the area.",
+      "published_at": "2026-08-14T09:36:48+00:00",
+      "updated_at": "2026-08-14T09:36:48+00:00",
+      "effective_at": "2026-08-14T09:36:48+00:00",
+      "language_status": "ENGLISH",
+      "category": "industry",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "oil_gas",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "baghaei",
+        "deraz",
+        "esmail",
+        "foreign",
+        "governorate",
+        "greek-managed",
+        "gulf",
+        "hara",
+        "hormuz",
+        "iran",
+        "island",
+        "khasab",
+        "liberia-flagged",
+        "ministry",
+        "minoan",
+        "musandam",
+        "naqasheh",
+        "oil",
+        "oman",
+        "omani",
+        "persian",
+        "pioneer",
+        "qeshm",
+        "russia",
+        "sea",
+        "shib",
+        "soza",
+        "strait"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Oil residues from a struck bulk carrier reached Iran's Qeshm Island and its protected mangrove forests, while a sanctioned Russian shadow fleet tanker grounded off Oman has leaked a slick that has grown to more than 2,000 square kilometres, fouling 40 kilometres of Omani coastline.",
+        "An oil spill has reached Iran's Qeshm Island and a separate, far larger spill from a stricken Russian shadow fleet tanker is fouling Oman's southern coastline, as the war in the Gulf produces its first significant environmental fallout.",
+        "Dark oily residues appeared along the shores of Qeshm Island earlier this week, spreading from Soza beach to the Shib Deraz area and the Hara mangrove forests near the village of Naqasheh.",
+        "Iran's environmental officials said cleanup operations had largely cleared the slick by Wednesday evening, although monitoring continues.",
+        "Iran's Foreign Ministry said preliminary evidence pointed to a foreign bulk carrier as the source and called for compensation from those responsible.",
+        "\"Restoring the marine ecosystem of the Strait of Hormuz, the Persian Gulf and the Sea of Oman, and preventing further pollution, must be part of any future management arrangements for the Strait of Hormuz,\" Iran's Foreign Ministry spokesperson Esmail Baghaei said.",
+        "\"All parties that benefit from commercial shipping in this waterway have a legal and moral responsibility to address the environmental damage,\" he added.",
+        "Baghaei said the incident was \"only one example\" of decades of pollution, claiming it caused \"trillion-dollar damage to Iran’s coastal areas.\"",
+        "\"Who is responsible for compensating for these losses and damages: the countries that consume the region’s cheap exported energy, shipping insurance companies, or the aggressor parties and their partners,\" Baghaei asked.",
+        "TankerTrackers, a maritime monitoring service, said satellite imagery showed the slick most likely originated from the Minoan Pioneer — a Liberia-flagged, Greek-managed bulk carrier struck by a projectile on 3 August approximately 20 nautical miles northeast of Khasab in Oman's Musandam Governorate.",
+        "The attack triggered a fire, caused a complete engine room blackout and left one crew member missing.",
+        "Multiple maritime security firms attribute the attack to Iranian forces, citing historical patterns in the area."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "fa86dd37ce1dc5db677404a5",
+      "importance_score": 54.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 28,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "infrastructure": 8,
+          "geopolitical": 8,
+          "human": 4
+        }
+      },
+      "story_id": "cff7a498e560f258b830cbdfbf00ca68847e5ac9bc2a88e6b1cbe77b54942b66",
+      "public_label": "🔄 UPDATE",
+      "headline": "Iran claims 'trillion-dollar' pollution damage as Gulf oil spills spread",
+      "briefing": {
+        "opening": [
+          "Oil residues from a struck bulk carrier reached Iran's Qeshm Island and its protected mangrove forests, while a sanctioned Russian shadow fleet tanker grounded off Oman has leaked a slick that has grown to more than 2,000 square kilometres, fouling 40 kilometres of Omani coastline.",
+          "An oil spill has reached Iran's Qeshm Island and a separate, far larger spill from a stricken Russian shadow fleet tanker is fouling Oman's southern coastline, as the war in the Gulf produces its first significant environmental fallout."
+        ],
+        "body": [
+          "Dark oily residues appeared along the shores of Qeshm Island earlier this week, spreading from Soza beach to the Shib Deraz area and the Hara mangrove forests near the village of Naqasheh.",
+          "Iran's Foreign Ministry said preliminary evidence pointed to a foreign bulk carrier as the source and called for compensation from those responsible.",
+          "\"Restoring the marine ecosystem of the Strait of Hormuz, the Persian Gulf and the Sea of Oman, and preventing further pollution, must be part of any future management arrangements for the Strait of Hormuz,\" Iran's Foreign Ministry spokesperson Esmail Baghaei said.",
+          "\"All parties that benefit from commercial shipping in this waterway have a legal and moral responsibility to address the environmental damage,\" he added.",
+          "Baghaei said the incident was \"only one example\" of decades of pollution, claiming it caused \"trillion-dollar damage to Iran’s coastal areas.\" \"Who is responsible for compensating for these losses and damages: the countries that consume the region’s cheap exported energy, shipping insurance companies, or the aggressor parties and their partners,\" Baghaei asked.",
+          "TankerTrackers, a maritime monitoring service, said satellite imagery showed the slick most likely originated from the Minoan Pioneer — a Liberia-flagged, Greek-managed bulk carrier struck by a projectile on 3 August approximately 20 nautical miles northeast of Khasab in Oman's Musandam Governorate.",
+          "The attack triggered a fire, caused a complete engine room blackout and left one crew member missing."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Oman's Musandam Governorate"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Iran's environmental officials said cleanup operations had largely cleared the slick by Wednesday evening, although monitoring continues."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Iran's Foreign Ministry said preliminary evidence pointed to a foreign bulk carrier as the source and called for compensation from those responsible.",
+            "source": "Euronews",
+            "item_id": "cff7a498e560f258b830cbdfbf00ca68847e5ac9bc2a88e6b1cbe77b54942b66:article",
+            "composed": false
+          },
+          {
+            "text": "Oman has leaked a slick that has grown to more than 2,000 square kilometres, fouling 40 kilometres of Omani coastline.",
+            "source": "Euronews",
+            "item_id": "cff7a498e560f258b830cbdfbf00ca68847e5ac9bc2a88e6b1cbe77b54942b66:article",
+            "composed": false
+          },
+          {
+            "text": "Dark oily residues appeared along the shores of Qeshm Island earlier this week, spreading from Soza beach to the Shib Deraz area and the Hara mangrove forests near the village of Naqasheh.",
+            "source": "Euronews",
+            "item_id": "cff7a498e560f258b830cbdfbf00ca68847e5ac9bc2a88e6b1cbe77b54942b66:article",
+            "composed": false
+          },
+          {
+            "text": "Iran's environmental officials said cleanup operations had largely cleared the slick by Wednesday evening, although monitoring continues.",
+            "source": "Euronews",
+            "item_id": "cff7a498e560f258b830cbdfbf00ca68847e5ac9bc2a88e6b1cbe77b54942b66:article",
+            "composed": false
+          }
+        ],
+        "source": "Euronews",
+        "corroborating": [],
+        "url": "http://www.euronews.com/2026/08/14/iran-claims-trillion-dollar-pollution-damage-as-gulf-oil-spills-spread"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "4ccef1c19c658fe6b889086c4d7a37ac7f943625bf65e74427695cd96f650acf",
+      "title": "At least 7 killed in India after hydropower project tunnel collapses",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3364079/least-7-killed-india-after-hydropower-project-tunnel-collapses?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "A tunnel under construction at a hydropower project in India’s northern hill state of Uttarakhand collapsed overnight, leaving at least seven workers dead, officials said on Friday. A rescue operation was launched after a sudden rush of water and debris entered the tunnel at the Vishnugad-Pipalkoti hydroelectric project in Chamoli district later on Thursday night, said top district official Gaurav Kumar. Of 22 people who were working in the tunnel, 12 have been rescued alive and another three...",
+      "published_at": "2026-08-14T10:44:58+00:00",
+      "updated_at": "2026-08-14T10:44:58+00:00",
+      "effective_at": "2026-08-14T10:44:58+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "infrastructure",
+      "subsector": "dams",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "chamoli",
+        "gaurav",
+        "india",
+        "kumar",
+        "uttarakhand",
+        "vishnugad-pipalkoti"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Al Jazeera"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 73,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "9d8b4e78566ddf6f70757b3e",
+      "importance_score": 52.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 10.0,
+        "urgency": 9.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 6,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 7,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "human": 8
+        }
+      },
+      "story_id": "4ccef1c19c658fe6b889086c4d7a37ac7f943625bf65e74427695cd96f650acf",
+      "public_label": "🔄 UPDATE",
+      "headline": "At least 7 killed in India after hydropower project tunnel collapses",
+      "briefing": {
+        "opening": [
+          "A tunnel under construction at a hydropower project in India’s northern hill state of Uttarakhand collapsed overnight, leaving at least seven workers dead, officials said on Friday.",
+          "A rescue operation was launched after a sudden rush of water and debris entered the tunnel at the Vishnugad-Pipalkoti hydroelectric project in Chamoli district later on Thursday night, said top district official Gaurav Kumar."
+        ],
+        "body": [
+          "Of 22 people who were working in the tunnel, 12 have been rescued alive and another three..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "India’s northern"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "22 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A tunnel under construction at a hydropower project in India’s northern hill state of Uttarakhand collapsed overnight, leaving at least seven workers dead, officials said on Friday.",
+            "source": "South China Morning Post",
+            "item_id": "4ccef1c19c658fe6b889086c4d7a37ac7f943625bf65e74427695cd96f650acf",
+            "composed": false
+          },
+          {
+            "text": "A rescue operation was launched after a sudden rush of water and debris entered the tunnel at the Vishnugad-Pipalkoti hydroelectric project in Chamoli district later on Thursday night, said top district official Gaurav Kumar.",
+            "source": "South China Morning Post",
+            "item_id": "4ccef1c19c658fe6b889086c4d7a37ac7f943625bf65e74427695cd96f650acf",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/asia/south-asia/article/3364079/least-7-killed-india-after-hydropower-project-tunnel-collapses?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "07c4710b8d3b2471fafef496d4b7d033c2d8d367f9f8015eed557186b9442c99",
+      "title": "French firefighters threaten to strike over lack of resources",
+      "url": "https://www.rfi.fr/en/france/20260814-french-firefighters-threaten-to-strike-over-lack-of-resources",
+      "source": "RFI English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "As wildfires continue to burn across France, representatives of firefighters' unions said they would go on strike in September to protest a lack of resources. Despite a meeting with the interior minister on Thursday, they say they are unhappy with the government's response so far.",
+      "published_at": "2026-08-14T11:39:53+00:00",
+      "updated_at": "2026-08-14T11:39:53+00:00",
+      "effective_at": "2026-08-14T11:39:53+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 73,
       "confidence": "medium",
       "urgency_terms": [
-        "airstrike"
+        "wildfire"
+      ],
+      "sector": "law",
+      "subsector": "labor",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "france"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 98,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "87523aece5d8b309aec670e9",
+      "importance_score": 46.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 3,
+        "urgency": 6.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 18,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 525,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "infrastructure": 8,
+          "human": 6,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "07c4710b8d3b2471fafef496d4b7d033c2d8d367f9f8015eed557186b9442c99",
+      "public_label": "🔄 UPDATE",
+      "headline": "French firefighters threaten to strike over lack of resources",
+      "briefing": {
+        "opening": [
+          "As wildfires continue to burn across France, representatives of firefighters' unions said they would go on strike in September to protest a lack of resources.",
+          "Despite a meeting with the interior minister on Thursday, they say they are unhappy with the government's response so far."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "France"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "As wildfires continue to burn across France, representatives of firefighters' unions said they would go on strike in September to protest a lack of resources.",
+            "source": "RFI English",
+            "item_id": "07c4710b8d3b2471fafef496d4b7d033c2d8d367f9f8015eed557186b9442c99",
+            "composed": false
+          },
+          {
+            "text": "Despite a meeting with the interior minister on Thursday, they say they are unhappy with the government's response so far.",
+            "source": "RFI English",
+            "item_id": "07c4710b8d3b2471fafef496d4b7d033c2d8d367f9f8015eed557186b9442c99",
+            "composed": false
+          }
+        ],
+        "source": "RFI English",
+        "corroborating": [],
+        "url": "https://www.rfi.fr/en/france/20260814-french-firefighters-threaten-to-strike-over-lack-of-resources"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "940cc658e1ef42f23103629b2dd2a9bb3cadb3d18f1f6490879250ecf38c8297",
+      "title": "US-China AI decoupling ‘manageable’ for trade – but tech curbs a ‘wild card’: Citi",
+      "url": "https://www.scmp.com/economy/global-economy/article/3364073/us-china-ai-decoupling-manageable-trade-tech-curbs-wild-card-citi?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "As US-China tech tensions rise ahead of an expected leadership summit next month, analysts argue Washington’s latest restrictions are unlikely to cause a major disruption in China’s AI exports. But they caution that some of the measures – such as limiting access to “open-weight” models – represent a “genuine wild card” that could reshape the global landscape. Hong Kong-based analysts at Citi Research, led by Yu Xiangrong, argued in a Friday note that US tariffs and export controls were “unlikely...",
+      "published_at": "2026-08-14T13:00:12+00:00",
+      "updated_at": "2026-08-14T13:00:12+00:00",
+      "effective_at": "2026-08-14T13:00:12+00:00",
+      "language_status": "ENGLISH",
+      "category": "technology",
+      "score": 73,
+      "confidence": "medium",
+      "urgency_terms": [
+        "coup"
+      ],
+      "sector": "economy",
+      "subsector": "trade",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "ai",
+        "china",
+        "citi",
+        "hong_kong",
+        "kong-based",
+        "research",
+        "us",
+        "us-china",
+        "xiangrong",
+        "yu"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -31,172 +794,334 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "eacef51bf2bd7598cb8c0e49",
-      "format": "single",
-      "post": "📰 NEWS: War in Ukraine: Deadly Russian air raid on Kramatorsk leaves 1 dead and 17 wounded. At least one person was killed and 17 injured in a Russian airstrike on Kramatorsk in eastern Ukraine overnight, according to Ukraine’s State. Source: Africanews English.",
-      "quality_pass": true,
-      "quality_errors": [],
-      "quality_warnings": [],
-      "story_id": "187fe4de443fbded3b6f51e5ed4b7aa5b30b64140b8798ef0dd81f353232b965",
-      "article_sentences": [
-        "Emergency crews worked through the night on Friday to rescue residents trapped under rubble and extinguish fires after eight FAB‑250 guided aerial bombs hit the city, local authorities said.",
-        "Several private homes and a garage caught fire, while an apartment building suffered extensive damage.",
-        "The strike caused sections of the ten‑storey apartment building from the first to the sixth floors to collapse, the emergency service said.",
-        "Rescuers were filmed pulling a woman and a man from the rubble and helping residents leave damaged buildings.",
-        "Firefighters also tackled flames at several sites across the city, while cars were damaged near the impact areas.",
-        "The Donetsk regional prosecutor’s office has opened a war‑crimes investigation into the attack.",
-        "Kramatorsk has repeatedly come under Russian attacks during the war because of its proximity to the front line.",
-        "The injured, aged between 47 and 85, were treated for blast and traumatic brain injuries, shrapnel wounds, cuts and abrasions, officials said."
-      ],
+      "event_id": "725f683be04e46659de3878f",
+      "importance_score": 38.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 10,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "940cc658e1ef42f23103629b2dd2a9bb3cadb3d18f1f6490879250ecf38c8297",
       "public_label": "📰 NEWS",
-      "headline": "War in Ukraine: Deadly Russian air raid on Kramatorsk leaves 1 dead and 17 wounded",
+      "headline": "US-China AI decoupling ‘manageable’ for trade – but tech curbs a ‘wild card’: Citi",
       "briefing": {
         "opening": [
-          "Emergency crews worked through the night on Friday to rescue residents trapped under rubble and extinguish fires after eight FAB‑250 guided aerial bombs hit the city, local authorities said.",
-          "Several private homes and a garage caught fire, while an apartment building suffered extensive damage."
+          "As US-China tech tensions rise ahead of an expected leadership summit next month, analysts argue Washington’s latest restrictions are unlikely to cause a major disruption in China’s AI exports.",
+          "But they caution that some of the measures – such as limiting access to “open-weight” models – represent a “genuine wild card” that could reshape the global landscape."
         ],
         "body": [
-          "The strike caused sections of the ten‑storey apartment building from the first to the sixth floors to collapse, the emergency service said.",
-          "Rescuers were filmed pulling a woman and a man from the rubble and helping residents leave damaged buildings.",
-          "Firefighters also tackled flames at several sites across the city, while cars were damaged near the impact areas.",
-          "The Donetsk regional prosecutor’s office has opened a war‑crimes investigation into the attack.",
-          "Kramatorsk has repeatedly come under Russian attacks during the war because of its proximity to the front line.",
-          "At least one person was killed and 17 injured in a Russian airstrike on Kramatorsk in eastern Ukraine overnight, according to Ukraine’s State Emergency Service."
+          "Hong Kong-based analysts at Citi Research, led by Yu Xiangrong, argued in a Friday note that US tariffs and export controls were “unlikely..."
         ],
         "bullets": [
           {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "17 injured"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "The injured, aged between 47 and 85, were treated for blast and traumatic brain injuries, shrapnel wounds, cuts and abrasions, officials said."
+            "icon": "📍",
+            "label": "Location",
+            "text": "China’s AI"
           }
         ],
         "sentences": [
           {
-            "text": "Kramatorsk has repeatedly come under Russian attacks during the war because of its proximity to the front line.",
-            "source": "Africanews English",
-            "item_id": "187fe4de443fbded3b6f51e5ed4b7aa5b30b64140b8798ef0dd81f353232b965:article",
+            "text": "But they caution that some of the measures – such as limiting access to “open-weight” models – represent a “genuine wild card” that could reshape the global landscape.",
+            "source": "South China Morning Post",
+            "item_id": "940cc658e1ef42f23103629b2dd2a9bb3cadb3d18f1f6490879250ecf38c8297",
             "composed": false
           },
           {
-            "text": "The Donetsk regional prosecutor’s office has opened a war‑crimes investigation into the attack.",
-            "source": "Africanews English",
-            "item_id": "187fe4de443fbded3b6f51e5ed4b7aa5b30b64140b8798ef0dd81f353232b965:article",
-            "composed": false
-          },
-          {
-            "text": "Several private homes and a garage caught fire, while an apartment building suffered extensive damage.",
-            "source": "Africanews English",
-            "item_id": "187fe4de443fbded3b6f51e5ed4b7aa5b30b64140b8798ef0dd81f353232b965:article",
-            "composed": false
-          },
-          {
-            "text": "Rescuers were filmed pulling a woman and a man from the rubble and helping residents leave damaged buildings.",
-            "source": "Africanews English",
-            "item_id": "187fe4de443fbded3b6f51e5ed4b7aa5b30b64140b8798ef0dd81f353232b965:article",
-            "composed": false
-          },
-          {
-            "text": "Firefighters also tackled flames at several sites across the city, while cars were damaged near the impact areas.",
-            "source": "Africanews English",
-            "item_id": "187fe4de443fbded3b6f51e5ed4b7aa5b30b64140b8798ef0dd81f353232b965:article",
+            "text": "As US-China tech tensions rise ahead of an expected leadership summit next month, analysts argue Washington’s latest restrictions are unlikely to cause a major disruption in China’s AI exports.",
+            "source": "South China Morning Post",
+            "item_id": "940cc658e1ef42f23103629b2dd2a9bb3cadb3d18f1f6490879250ecf38c8297",
             "composed": false
           }
         ],
-        "source": "Africanews English",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "http://www.africanews.com/2026/08/14/war-in-ukraine-deadly-russian-air-raid-on-kramatorsk-leaves-1-dead-and-17-wounded/"
+        "url": "https://www.scmp.com/economy/global-economy/article/3364073/us-china-ai-decoupling-manageable-trade-tech-curbs-wild-card-citi?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "f097e7585bae4ec3423ec501a4af0faf89514f6adbef670afe5b3452e29a69f3",
-      "title": "Worries grow over mysterious illness killing Kenyan elephants",
-      "url": "http://www.africanews.com/2026/08/14/worries-grow-over-mysterious-illness-killing-kenyan-elephants/",
-      "source": "Africanews English",
-      "source_category": "africa",
+      "id": "93803d576237dd59a46a440168b9f40a3bf025cd0e77058745393eacc03e3499",
+      "title": "Miles ahead: China team boosts atom entanglement distance record fourfold",
+      "url": "https://www.scmp.com/news/china/science/article/3364045/miles-ahead-china-team-boosts-atom-entanglement-distance-record-fourfold?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Africa",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Worries over the death of elephants are mounting in southern Kenya, where at least 19 animals have died since June from an unexplained condition. With symptoms including partial paralysis, conservationists and communities are demanding urgent investigations into what is killing the elephants.",
-      "published_at": "2026-08-14T14:40:08+00:00",
-      "updated_at": "2026-08-14T14:40:08+00:00",
-      "effective_at": "2026-08-14T14:40:08+00:00",
+      "summary": "Chinese scientists have achieved the quantum entanglement of cold atoms across a record-breaking 420km (260 miles), a breakthrough they say lays the groundwork for intercity quantum networks. According to a paper published by the peer-reviewed journal Physical Review Letters on August 11, the distance was more than four times previous demonstrations and exceeded the threshold at which direct transmission encounters fundamental physical limits. “Our experiment provides a test bed for studying...",
+      "published_at": "2026-08-14T11:00:10+00:00",
+      "updated_at": "2026-08-14T11:00:10+00:00",
+      "effective_at": "2026-08-14T11:00:10+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
+      "sector": "science",
+      "subsector": "physics",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "china",
+        "letters",
+        "physical",
+        "review"
+      ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 83,
+      "priority_score": 85,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "fb55269a7878815b3366eb74",
-      "format": "single",
-      "post": "📰 NEWS: Worries grow over mysterious illness killing Kenyan elephants. Worries over the death of elephants are mounting in southern Kenya, where at least 19 animals have died since June from an unexplained condition. Source: Africanews English.",
-      "quality_pass": true,
-      "quality_errors": [],
-      "quality_warnings": [],
-      "story_id": "f097e7585bae4ec3423ec501a4af0faf89514f6adbef670afe5b3452e29a69f3",
-      "public_label": "⚡ JUST IN",
-      "headline": "Worries grow over mysterious illness killing Kenyan elephants",
+      "event_id": "6ab6a66b721bc6dcbc35a36b",
+      "importance_score": 38.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 9.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 8
+        }
+      },
+      "story_id": "93803d576237dd59a46a440168b9f40a3bf025cd0e77058745393eacc03e3499",
+      "public_label": "📰 NEWS",
+      "headline": "Miles ahead: China team boosts atom entanglement distance record fourfold",
       "briefing": {
         "opening": [
-          "Worries over the death of elephants are mounting in southern Kenya, where at least 19 animals have died since June from an unexplained condition.",
-          "With symptoms including partial paralysis, conservationists and communities are demanding urgent investigations into what is killing the elephants."
+          "Chinese scientists have achieved the quantum entanglement of cold atoms across a record-breaking 420km (260 miles), a breakthrough they say lays the groundwork for intercity quantum networks.",
+          "According to a paper published by the peer-reviewed journal Physical Review Letters on August 11, the distance was more than four times previous demonstrations and exceeded the threshold at which direct transmission encounters fundamental physical limits."
         ],
-        "body": [],
+        "body": [
+          "“Our experiment provides a test bed for studying..."
+        ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Worries over the death of elephants are mounting in southern Kenya, where at least 19 animals have died since June from an unexplained condition.",
-            "source": "Africanews English",
-            "item_id": "f097e7585bae4ec3423ec501a4af0faf89514f6adbef670afe5b3452e29a69f3",
+            "text": "Chinese scientists have achieved the quantum entanglement of cold atoms across a record-breaking 420km (260 miles), a breakthrough they say lays the groundwork for intercity quantum networks.",
+            "source": "South China Morning Post",
+            "item_id": "93803d576237dd59a46a440168b9f40a3bf025cd0e77058745393eacc03e3499",
             "composed": false
           },
           {
-            "text": "With symptoms including partial paralysis, conservationists and communities are demanding urgent investigations into what is killing the elephants.",
-            "source": "Africanews English",
-            "item_id": "f097e7585bae4ec3423ec501a4af0faf89514f6adbef670afe5b3452e29a69f3",
+            "text": "According to a paper published by the peer-reviewed journal Physical Review Letters on August 11, the distance was more than four times previous demonstrations and exceeded the threshold at which direct transmission encounters fundamental physical limits.",
+            "source": "South China Morning Post",
+            "item_id": "93803d576237dd59a46a440168b9f40a3bf025cd0e77058745393eacc03e3499",
             "composed": false
           }
         ],
-        "source": "Africanews English",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "http://www.africanews.com/2026/08/14/worries-grow-over-mysterious-illness-killing-kenyan-elephants/"
+        "url": "https://www.scmp.com/news/china/science/article/3364045/miles-ahead-china-team-boosts-atom-entanglement-distance-record-fourfold?utm_source=rss_feed"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN"
+      "label": "📰 NEWS"
     },
     {
-      "id": "b19685c688136372abc7499473fb4a6141d880711b0083bc6ad50b5998d0b3d9",
-      "title": "The Taliban has taken a terrible toll on the education of girls -- and boys as well",
-      "url": "https://www.npr.org/2026/08/14/g-s1-138584/taliban-afghanistan-boys-girls-education-school",
-      "source": "NPR World",
+      "id": "47a83509e04c1e00d4d7c205abfaae6e840569273a67d4503bec47dd65ed45c4",
+      "title": "Builders unearth €9m gold stash sealed in walls of Belgian property",
+      "url": "https://www.bbc.co.uk/news/articles/c5ydzg0dnz7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "Saturday marks the 5th anniversary of the current Taliban rule in Aghanistan. They've had a devastating impact on girls' education. A lesser told story is their impact on the education of boys.",
-      "published_at": "2026-08-14T14:41:22+00:00",
-      "updated_at": "2026-08-14T14:41:22+00:00",
-      "effective_at": "2026-08-14T14:41:22+00:00",
+      "summary": "Builders renovating a house in Belgium have discovered a stash of gold reportedly worth some €9m (£7.6m) sealed into the walls of its cellar. The construction workers stumbled across the hidden trove of gold bars and coins while drilling to lay new sewage pipes in the property in east Flanders earlier this week, local media report. The discovery has sparked interest in who might get to keep the hoard - with both the builders and the local charity that owns the site having a chance of claiming it. After launching an investigation, police warned people against attending the site to search for more treasure, saying the house was \"turned upside down\" and all the gold had been moved to a secure location. The builders unearthed the stash while working on the building's foundations - including an 18-year-old working a summer job. \"Our first reaction was actually disbelief, amazement,\" the student, named Kobe, told Belgian public broadcaster VRT. \"At first I thought they were €1 coins. But then we also saw a gold nugget lying there. That's when we realised it was something bigger.\" Soon after, they alerted police to the discovery and explained that keeping it for themselves was not an option. \"There are so many coins and bars - it would be almost impossible,\" the site manager Mario told VRT. \"Besides, that would be theft.\"",
+      "published_at": "2026-08-14T13:18:08+00:00",
+      "updated_at": "2026-08-14T13:18:08+00:00",
+      "effective_at": "2026-08-14T13:18:08+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "commodities",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "belgian",
+        "belgium",
+        "builders",
+        "flanders",
+        "kobe",
+        "mario",
+        "soon",
+        "vrt"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Builders renovating a house in Belgium have discovered a stash of gold reportedly worth some €9m (£7.6m) sealed into the walls of its cellar.",
+        "The construction workers stumbled across the hidden trove of gold bars and coins while drilling to lay new sewage pipes in the property in east Flanders earlier this week, local media report.",
+        "The discovery has sparked interest in who might get to keep the hoard - with both the builders and the local charity that owns the site having a chance of claiming it.",
+        "After launching an investigation, police warned people against attending the site to search for more treasure, saying the house was \"turned upside down\" and all the gold had been moved to a secure location.",
+        "The builders unearthed the stash while working on the building's foundations - including an 18-year-old working a summer job.",
+        "\"Our first reaction was actually disbelief, amazement,\" the student, named Kobe, told Belgian public broadcaster VRT.",
+        "\"At first I thought they were €1 coins.",
+        "But then we also saw a gold nugget lying there.",
+        "That's when we realised it was something bigger.\"",
+        "Soon after, they alerted police to the discovery and explained that keeping it for themselves was not an option.",
+        "\"There are so many coins and bars - it would be almost impossible,\" the site manager Mario told VRT.",
+        "\"Besides, that would be theft.\""
+      ],
+      "event_status": "NEW",
+      "event_id": "93f18ca81fca8bf7d4f3c825",
+      "importance_score": 35.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 8
+        }
+      },
+      "story_id": "47a83509e04c1e00d4d7c205abfaae6e840569273a67d4503bec47dd65ed45c4",
+      "public_label": "📰 NEWS",
+      "headline": "Builders unearth €9m gold stash sealed in walls of Belgian property",
+      "briefing": {
+        "opening": [
+          "Builders renovating a house in Belgium have discovered a stash of gold reportedly worth some €9m (£7.6m) sealed into the walls of its cellar.",
+          "The construction workers stumbled across the hidden trove of gold bars and coins while drilling to lay new sewage pipes in the property in east Flanders earlier this week, local media report."
+        ],
+        "body": [
+          "The discovery has sparked interest in who might get to keep the hoard - with both the builders and the local charity that owns the site having a chance of claiming it.",
+          "After launching an investigation, police warned people against attending the site to search for more treasure, saying the house was \"turned upside down\" and all the gold had been moved to a secure location.",
+          "The builders unearthed the stash while working on the building's foundations - including an 18-year-old working a summer job.",
+          "\"Our first reaction was actually disbelief, amazement,\" the student, named Kobe, told Belgian public broadcaster VRT.",
+          "\"At first I thought they were €1 coins.",
+          "But then we also saw a gold nugget lying there.",
+          "That's when we realised it was something bigger.\" Soon after, they alerted police to the discovery and explained that keeping it for themselves was not an option.",
+          "\"There are so many coins and bars - it would be almost impossible,\" the site manager Mario told VRT."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Belgium"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "\"Our first reaction was actually disbelief, amazement,\" the student, named Kobe, told Belgian public broadcaster VRT.",
+            "source": "BBC World",
+            "item_id": "47a83509e04c1e00d4d7c205abfaae6e840569273a67d4503bec47dd65ed45c4:article",
+            "composed": false
+          },
+          {
+            "text": "Builders renovating a house in Belgium have discovered a stash of gold reportedly worth some €9m (£7.6m) sealed into the walls of its cellar.",
+            "source": "BBC World",
+            "item_id": "47a83509e04c1e00d4d7c205abfaae6e840569273a67d4503bec47dd65ed45c4:article",
+            "composed": false
+          },
+          {
+            "text": "The builders unearthed the stash while working on the building's foundations - including an 18-year-old working a summer job.",
+            "source": "BBC World",
+            "item_id": "47a83509e04c1e00d4d7c205abfaae6e840569273a67d4503bec47dd65ed45c4:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC World",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/c5ydzg0dnz7o?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "20c18ecf15214d6af1ff3a0742b269e3af5e3e125d26110de88b0f24478f3c6b",
+      "title": "Tehran brings back cleric behind 2009 protest crackdown to head its Basij militia",
+      "url": "http://www.euronews.com/2026/08/14/tehran-brings-back-cleric-behind-2009-protest-crackdown-to-head-its-basij-militia",
+      "source": "Euronews",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Hossein Taeb commanded the Basij during the mass demonstrations of June 2009 and led the IRGC's intelligence service for 13 years, overseeing operations against journalists, dual nationals and dissidents. His return signals that Tehran fears it might need to manage unrest in the near future.",
+      "published_at": "2026-08-14T10:52:20+00:00",
+      "updated_at": "2026-08-14T10:52:20+00:00",
+      "effective_at": "2026-08-14T10:52:20+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "conflict",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "basij",
+        "hossein",
+        "iran",
+        "irgc",
+        "taeb"
+      ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
@@ -205,56 +1130,1406 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "7a0f34fb16fc111a442d3eb2",
-      "format": "single",
-      "post": "📰 NEWS: The Taliban has taken a terrible toll on the education of girls -- and boys as well. Saturday marks the 5th anniversary of the current Taliban rule in Aghanistan. They've had a devastating impact on girls' education. Source: NPR World.",
-      "quality_pass": true,
-      "quality_errors": [],
-      "quality_warnings": [],
-      "story_id": "b19685c688136372abc7499473fb4a6141d880711b0083bc6ad50b5998d0b3d9",
-      "public_label": "⚡ JUST IN",
-      "headline": "The Taliban has taken a terrible toll on the education of girls -- and boys as well",
+      "event_id": "584092cf73fe5259985a74d1",
+      "importance_score": 35.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 4,
+          "security": 4
+        }
+      },
+      "story_id": "20c18ecf15214d6af1ff3a0742b269e3af5e3e125d26110de88b0f24478f3c6b",
+      "public_label": "📰 NEWS",
+      "headline": "Tehran brings back cleric behind 2009 protest crackdown to head its Basij militia",
       "briefing": {
         "opening": [
-          "Saturday marks the 5th anniversary of the current Taliban rule in Aghanistan.",
-          "They've had a devastating impact on girls' education."
+          "Hossein Taeb commanded the Basij during the mass demonstrations of June 2009 and led the IRGC's intelligence service for 13 years, overseeing operations against journalists, dual nationals and dissidents.",
+          "His return signals that Tehran fears it might need to manage unrest in the near future."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "His return signals that Tehran fears it might need to manage unrest in the near future.",
+            "source": "Euronews",
+            "item_id": "20c18ecf15214d6af1ff3a0742b269e3af5e3e125d26110de88b0f24478f3c6b",
+            "composed": false
+          },
+          {
+            "text": "Hossein Taeb commanded the Basij during the mass demonstrations of June 2009 and led the IRGC's intelligence service for 13 years, overseeing operations against journalists, dual nationals and dissidents.",
+            "source": "Euronews",
+            "item_id": "20c18ecf15214d6af1ff3a0742b269e3af5e3e125d26110de88b0f24478f3c6b",
+            "composed": false
+          }
+        ],
+        "source": "Euronews",
+        "corroborating": [],
+        "url": "http://www.euronews.com/2026/08/14/tehran-brings-back-cleric-behind-2009-protest-crackdown-to-head-its-basij-militia"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "e4f91ad69a26cfc3abdb26837928fa0f153c2392564ae99f58ca77f5e011dbfc",
+      "title": "Cambodia says it will resume military drills with US in 2027",
+      "url": "https://www.straitstimes.com/asia/se-asia/cambodia-says-to-resume-military-drills-with-us-in-2027",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "The resumption of military exercise Angkor Sentinel in 2027 will be “a bridge to build a close friendship\".",
+      "published_at": "2026-08-14T10:10:00+00:00",
+      "updated_at": "2026-08-14T10:10:00+00:00",
+      "effective_at": "2026-08-14T10:10:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "conflict",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "angkor",
+        "sentinel",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "7b6d4f813e2f6c476b59a320",
+      "importance_score": 35.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "e4f91ad69a26cfc3abdb26837928fa0f153c2392564ae99f58ca77f5e011dbfc",
+      "article_sentences": [
+        "Cambodia and the US will restart long-delayed joint military exercises in 2027, Prime Minister Hun Manet said on Aug 14, seeking to mend ties strained by Phnom Penh’s closeness to China.",
+        "The announcement of the first joint drills in a decade followed a meeting between Hun Manet and the Pentagon’s top policy official, Elbridge Colby, in Phnom Penh on Aug 14.",
+        "The resumption of military exercise Angkor Sentinel in 2027 will be “a bridge to build a close friendship between the armies of the two countries”, the Cambodian leader wrote in a Facebook post.",
+        "He hailed “positive progress in Cambodia-US relations including the national defence sector”.",
+        "The US and Cambodia staged joint exercises for seven years before Phnom Penh scrapped them in early 2017, just months after holding its first Golden Dragon drills with the Chinese military.",
+        "Cambodia and China held their largest-ever joint military exercises in 2025, involving advanced Chinese military hardware including artillery, warships and robot battle dogs.",
+        "Phnom Penh has long been one of Beijing’s staunchest allies in South-east Asia, receiving billions of dollars in investments.",
+        "In recent years, the US has voiced concern about the Chinese-funded renovation of Cambodia’s Ream Naval Base, located off its southern coast in the Gulf of Thailand.",
+        "Washington says the base – which was originally built partly with US funds – could give China a key strategic position near the disputed South China Sea, which Beijing claims almost in its entirety.",
+        "Cambodian leaders have repeatedly denied the base is for use by any single foreign power, and in January, a US warship made a port call there.",
+        "In an online briefing with journalists on Aug 13, Colby said the US was “looking forward to working to expand the defence partnership with Cambodia”."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Cambodia says it will resume military drills with US in 2027",
+      "briefing": {
+        "opening": [
+          "Cambodia and the US will restart long-delayed joint military exercises in 2027, Prime Minister Hun Manet said on Aug 14, seeking to mend ties strained by Phnom Penh’s closeness to China.",
+          "The announcement of the first joint drills in a decade followed a meeting between Hun Manet and the Pentagon’s top policy official, Elbridge Colby, in Phnom Penh on Aug 14."
         ],
         "body": [
-          "A lesser told story is their impact on the education of boys."
+          "The resumption of military exercise Angkor Sentinel in 2027 will be “a bridge to build a close friendship between the armies of the two countries”, the Cambodian leader wrote in a Facebook post.",
+          "He hailed “positive progress in Cambodia-US relations including the national defence sector”.",
+          "The US and Cambodia staged joint exercises for seven years before Phnom Penh scrapped them in early 2017, just months after holding its first Golden Dragon drills with the Chinese military.",
+          "Cambodia and China held their largest-ever joint military exercises in 2025, involving advanced Chinese military hardware including artillery, warships and robot battle dogs.",
+          "Phnom Penh has long been one of Beijing’s staunchest allies in South-east Asia, receiving billions of dollars in investments.",
+          "In recent years, the US has voiced concern about the Chinese-funded renovation of Cambodia’s Ream Naval Base, located off its southern coast in the Gulf of Thailand.",
+          "Washington says the base – which was originally built partly with US funds – could give China a key strategic position near the disputed South China Sea, which Beijing claims almost in its entirety.",
+          "Cambodian leaders have repeatedly denied the base is for use by any single foreign power, and in January, a US warship made a port call there."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Aghanistan"
+            "text": "Phnom Penh"
           }
         ],
         "sentences": [
           {
-            "text": "Saturday marks the 5th anniversary of the current Taliban rule in Aghanistan.",
-            "source": "NPR World",
-            "item_id": "b19685c688136372abc7499473fb4a6141d880711b0083bc6ad50b5998d0b3d9",
+            "text": "Cambodia and the US will restart long-delayed joint military exercises in 2027, Prime Minister Hun Manet said on Aug 14, seeking to mend ties strained by Phnom Penh’s closeness to China.",
+            "source": "Straits Times Asia",
+            "item_id": "e4f91ad69a26cfc3abdb26837928fa0f153c2392564ae99f58ca77f5e011dbfc:article",
             "composed": false
           },
           {
-            "text": "A lesser told story is their impact on the education of boys.",
-            "source": "NPR World",
-            "item_id": "b19685c688136372abc7499473fb4a6141d880711b0083bc6ad50b5998d0b3d9",
+            "text": "The announcement of the first joint drills in a decade followed a meeting between Hun Manet and the Pentagon’s top policy official, Elbridge Colby, in Phnom Penh on Aug 14.",
+            "source": "Straits Times Asia",
+            "item_id": "e4f91ad69a26cfc3abdb26837928fa0f153c2392564ae99f58ca77f5e011dbfc:article",
             "composed": false
           },
           {
-            "text": "They've had a devastating impact on girls' education.",
-            "source": "NPR World",
-            "item_id": "b19685c688136372abc7499473fb4a6141d880711b0083bc6ad50b5998d0b3d9",
+            "text": "The resumption of military exercise Angkor Sentinel in 2027 will be “a bridge to build a close friendship between the armies of the two countries”, the Cambodian leader wrote in a Facebook post.",
+            "source": "Straits Times Asia",
+            "item_id": "e4f91ad69a26cfc3abdb26837928fa0f153c2392564ae99f58ca77f5e011dbfc:article",
+            "composed": false
+          },
+          {
+            "text": "The US and Cambodia staged joint exercises for seven years before Phnom Penh scrapped them in early 2017, just months after holding its first Golden Dragon drills with the Chinese military.",
+            "source": "Straits Times Asia",
+            "item_id": "e4f91ad69a26cfc3abdb26837928fa0f153c2392564ae99f58ca77f5e011dbfc:article",
             "composed": false
           }
         ],
-        "source": "NPR World",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.npr.org/2026/08/14/g-s1-138584/taliban-afghanistan-boys-girls-education-school"
+        "url": "https://www.straitstimes.com/asia/se-asia/cambodia-says-to-resume-military-drills-with-us-in-2027"
       },
       "group_size": 1,
-      "label": "⚡ JUST IN"
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "c74957bdc4763bce6b485f0ec89f2ed3e887cb4ee0c1d8fb1c8fe784a1ac5272",
+      "title": "Trade, tech, geopolitics: A rising China tide isn’t lifting all boats",
+      "url": "https://www.straitstimes.com/asia/trade-tech-geopolitics-a-rising-china-tide-isnt-lifting-all-boats",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "What must we know about this key, influential country in the global economy and geopolitics?",
+      "published_at": "2026-08-14T10:00:00+00:00",
+      "updated_at": "2026-08-14T10:00:00+00:00",
+      "effective_at": "2026-08-14T10:00:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "world",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "china"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "4ec69a2f55647e30b771990a",
+      "importance_score": 35.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "economic": 4
+        }
+      },
+      "story_id": "c74957bdc4763bce6b485f0ec89f2ed3e887cb4ee0c1d8fb1c8fe784a1ac5272",
+      "article_sentences": [
+        "Synopsis: Every second Friday of the month, The Straits Times’ senior columnist Ravi Velloor distils 45 years of experience covering the Asian continent, with expert guests.",
+        "In this first-ever joint episode of Asian Insider and Radio Davos, he is joined by the World Economic Forum’s Robin Pomeroy as they speak with Qian Liu, whose Wusawa Advisory helps companies understand China.",
+        "It was recorded in late June at the World Economic Forum’s Annual Meeting of the New Champions 2026 in Dalian, China.",
+        "Ravi and Robin discuss with Qian about how a Chinese economy built on innovation and scale is impacting the world, the mainland’s internal worry lines such as high youth unemployment and lagging consumption, and why female power could drive China’s next growth phase."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Trade, tech, geopolitics: A rising China tide isn’t lifting all boats",
+      "briefing": {
+        "opening": [
+          "Synopsis: Every second Friday of the month, The Straits Times’ senior columnist Ravi Velloor distils 45 years of experience covering the Asian continent, with expert guests.",
+          "In this first-ever joint episode of Asian Insider and Radio Davos, he is joined by the World Economic Forum’s Robin Pomeroy as they speak with Qian Liu, whose Wusawa Advisory helps companies understand China."
+        ],
+        "body": [
+          "It was recorded in late June at the World Economic Forum’s Annual Meeting of the New Champions 2026 in Dalian, China.",
+          "Ravi and Robin discuss with Qian about how a Chinese economy built on innovation and scale is impacting the world, the mainland’s internal worry lines such as high youth unemployment and lagging consumption, and why female power could drive China’s next growth phase.",
+          "What must we know about this key, influential country in the global economy and geopolitics?"
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Dalian"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "In this first-ever joint episode of Asian Insider and Radio Davos, he is joined by the World Economic Forum’s Robin Pomeroy as they speak with Qian Liu, whose Wusawa Advisory helps companies understand China.",
+            "source": "Straits Times Asia",
+            "item_id": "c74957bdc4763bce6b485f0ec89f2ed3e887cb4ee0c1d8fb1c8fe784a1ac5272:article",
+            "composed": false
+          },
+          {
+            "text": "Ravi and Robin discuss with Qian about how a Chinese economy built on innovation and scale is impacting the world, the mainland’s internal worry lines such as high youth unemployment and lagging consumption, and why female power could drive China’s next growth phase.",
+            "source": "Straits Times Asia",
+            "item_id": "c74957bdc4763bce6b485f0ec89f2ed3e887cb4ee0c1d8fb1c8fe784a1ac5272:article",
+            "composed": false
+          },
+          {
+            "text": "What must we know about this key, influential country in the global economy and geopolitics?",
+            "source": "Straits Times Asia",
+            "item_id": "c74957bdc4763bce6b485f0ec89f2ed3e887cb4ee0c1d8fb1c8fe784a1ac5272",
+            "composed": false
+          },
+          {
+            "text": "It was recorded in late June at the World Economic Forum’s Annual Meeting of the New Champions 2026 in Dalian, China.",
+            "source": "Straits Times Asia",
+            "item_id": "c74957bdc4763bce6b485f0ec89f2ed3e887cb4ee0c1d8fb1c8fe784a1ac5272:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/trade-tech-geopolitics-a-rising-china-tide-isnt-lifting-all-boats"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "8b99a27f5a9c807c4064ac8ece3faf5ffe3cb7a495f720e3b60aef6ede572f2f",
+      "title": "Israeli bombardments in southern Lebanon intensify",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-bombardments-south-lebanon-intensify",
+      "source": "Middle East Eye",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Israeli bombardments in southern Lebanon intensify Israeli warplanes and drones have carried out repeated strikes on the wooded areas of Mansouri and Majdel Zoun in southern Lebanon, the national media agency NNA reports. These strikes were accompanied by demolition operations in the wooded sector east of Mansouri, and machine gun fire also targeted the outskirts of the village of Mansouri. At the same time, movements of Israeli military vehicles were reported in the village of Hadatha, with reports of an artillery shell landing as well, reported NNA. Israel has continued its demolition and destruction operations in several villages and towns in southern Lebanon. During the night, there was ",
+      "published_at": "2026-08-14T10:07:15+00:00",
+      "updated_at": "2026-08-14T10:07:15+00:00",
+      "effective_at": "2026-08-14T10:07:15+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "hadatha",
+        "israel",
+        "lebanon",
+        "majdel",
+        "mansouri",
+        "nna",
+        "zoun"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 1,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "e62adbb444a20e8db2e136f3",
+      "importance_score": 34.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 3,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4
+        }
+      },
+      "story_id": "8b99a27f5a9c807c4064ac8ece3faf5ffe3cb7a495f720e3b60aef6ede572f2f",
+      "public_label": "📰 NEWS",
+      "headline": "Israeli bombardments in southern Lebanon intensify",
+      "briefing": {
+        "opening": [
+          "Israeli bombardments in southern Lebanon intensify Israeli warplanes and drones have carried out repeated strikes on the wooded areas of Mansouri and Majdel Zoun in southern Lebanon, the national media agency NNA reports.",
+          "These strikes were accompanied by demolition operations in the wooded sector east of Mansouri, and machine gun fire also targeted the outskirts of the village of Mansouri."
+        ],
+        "body": [
+          "At the same time, movements of Israeli military vehicles were reported in the village of Hadatha, with reports of an artillery shell landing as well, reported NNA.",
+          "Israel has continued its demolition and destruction operations in several villages and towns in southern Lebanon.",
+          "During the night, there was."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Israeli bombardments in southern Lebanon intensify Israeli warplanes and drones have carried out repeated strikes on the wooded areas of Mansouri and Majdel Zoun in southern Lebanon, the national media agency NNA reports.",
+            "source": "Middle East Eye",
+            "item_id": "8b99a27f5a9c807c4064ac8ece3faf5ffe3cb7a495f720e3b60aef6ede572f2f",
+            "composed": false
+          },
+          {
+            "text": "At the same time, movements of Israeli military vehicles were reported in the village of Hadatha, with reports of an artillery shell landing as well, reported NNA.",
+            "source": "Middle East Eye",
+            "item_id": "8b99a27f5a9c807c4064ac8ece3faf5ffe3cb7a495f720e3b60aef6ede572f2f",
+            "composed": false
+          },
+          {
+            "text": "Israel has continued its demolition and destruction operations in several villages and towns in southern Lebanon.",
+            "source": "Middle East Eye",
+            "item_id": "8b99a27f5a9c807c4064ac8ece3faf5ffe3cb7a495f720e3b60aef6ede572f2f",
+            "composed": false
+          },
+          {
+            "text": "These strikes were accompanied by demolition operations in the wooded sector east of Mansouri, and machine gun fire also targeted the outskirts of the village of Mansouri.",
+            "source": "Middle East Eye",
+            "item_id": "8b99a27f5a9c807c4064ac8ece3faf5ffe3cb7a495f720e3b60aef6ede572f2f",
+            "composed": false
+          }
+        ],
+        "source": "Middle East Eye",
+        "corroborating": [],
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-bombardments-south-lebanon-intensify"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "2a7b92b307a71eec9c24debd1e1f48bb8a8372edaf53e79e0e1e583cbc3fc8e8",
+      "title": "Mudslide in eastern China kills one, more heavy rain expected",
+      "url": "https://www.straitstimes.com/asia/east-asia/mudslide-in-eastern-china-kills-one-more-heavy-rain-expected",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "The mudslide occurred around 6.30am in Changxing County and caused a house to collapse.",
+      "published_at": "2026-08-14T09:56:15+00:00",
+      "updated_at": "2026-08-14T09:56:15+00:00",
+      "effective_at": "2026-08-14T09:56:15+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "changxing",
+        "china",
+        "county"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "8af525d95939a6e3202bcd24",
+      "importance_score": 33.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 8,
+        "urgency": 6.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {}
+      },
+      "story_id": "2a7b92b307a71eec9c24debd1e1f48bb8a8372edaf53e79e0e1e583cbc3fc8e8",
+      "article_sentences": [
+        "A mudslide in eastern China’s Zhejiang province on Aug 14 killed one person and three others remained missing, while eastern and southern provinces were bracing themselves for more downpours and floods, China’s state media reported.",
+        "The mudslide occurred around 6.30am in Changxing county and caused a house to collapse, state-run Xinhua News Agency said.",
+        "A preliminary investigation showed that the mudslide was triggered by a flash flood after a sudden burst of heavy rain.",
+        "Rescue work was under way, Xinhua reported.",
+        "China is increasingly battling destructive weather that scientists link to climate change, especially in 2026, as an emerging El Nino pattern boosts temperatures and fuels more frequent and intense typhoons.",
+        "Natural disasters in China in July, when the country was affected by Typhoons Maysak, Bavi and Noul, left 318 people dead or missing and caused direct economic losses of 57.15 billion yuan (S$10.8 billion), according to data released by the Emergency Management Ministry.",
+        "Both numbers were higher compared with July 2025.",
+        "Typhoon Dolphin, which made landfall on the country’s eastern coast on Aug 9, unleashed extreme rain across eastern, central and northern regions this week, breaking single-day rainfall records at 13 weather stations across the country.",
+        "In central China’s Henan province, the authorities were organising the evacuation of 781 people after a riverbank was breached late on Aug 13 in the city of Zhoukou, state broadcaster CCTV reported on Aug 14.",
+        "Remnants of Typhoon Dolphin, combined with cold air and a monsoon trough, are expected to bring more heavy rain in eastern and south-eastern China from Aug 14 to Aug 16, CCTV said in a separate report."
+      ],
+      "public_label": "🔄 UPDATE",
+      "headline": "Mudslide in eastern China kills one, more heavy rain expected",
+      "briefing": {
+        "opening": [
+          "A mudslide in eastern China’s Zhejiang province on Aug 14 killed one person and three others remained missing, while eastern and southern provinces were bracing themselves for more downpours and floods, China’s state media reported.",
+          "The mudslide occurred around 6.30am in Changxing county and caused a house to collapse, state-run Xinhua News Agency said."
+        ],
+        "body": [
+          "A preliminary investigation showed that the mudslide was triggered by a flash flood after a sudden burst of heavy rain.",
+          "Rescue work was under way, Xinhua reported.",
+          "China is increasingly battling destructive weather that scientists link to climate change, especially in 2026, as an emerging El Nino pattern boosts temperatures and fuels more frequent and intense typhoons.",
+          "Natural disasters in China in July, when the country was affected by Typhoons Maysak, Bavi and Noul, left 318 people dead or missing and caused direct economic losses of 57.15 billion yuan (S$10.8 billion), according to data released by the Emergency Management Ministry.",
+          "Both numbers were higher compared with July 2025.",
+          "Typhoon Dolphin, which made landfall on the country’s eastern coast on Aug 9, unleashed extreme rain across eastern, central and northern regions this week, breaking single-day rainfall records at 13 weather stations across the country.",
+          "In central China’s Henan province, the authorities were organising the evacuation of 781 people after a riverbank was breached late on Aug 13 in the city of Zhoukou, state broadcaster CCTV reported on Aug 14."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Changxing county"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "under way"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "14 killed"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Remnants of Typhoon Dolphin, combined with cold air and a monsoon trough, are expected to bring more heavy rain in eastern and south-eastern China from Aug 14 to Aug 16, CCTV said in a separate report."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Natural disasters in China in July, when the country was affected by Typhoons Maysak, Bavi and Noul, left 318 people dead or missing and caused direct economic losses of 57.15 billion yuan (S$10.8 billion), according to data released by the Emergency Management Ministry.",
+            "source": "Straits Times Asia",
+            "item_id": "2a7b92b307a71eec9c24debd1e1f48bb8a8372edaf53e79e0e1e583cbc3fc8e8:article",
+            "composed": false
+          },
+          {
+            "text": "Remnants of Typhoon Dolphin, combined with cold air and a monsoon trough, are expected to bring more heavy rain in eastern and south-eastern China from Aug 14 to Aug 16, CCTV said in a separate report.",
+            "source": "Straits Times Asia",
+            "item_id": "2a7b92b307a71eec9c24debd1e1f48bb8a8372edaf53e79e0e1e583cbc3fc8e8:article",
+            "composed": false
+          },
+          {
+            "text": "In central China’s Henan province, the authorities were organising the evacuation of 781 people after a riverbank was breached late on Aug 13 in the city of Zhoukou, state broadcaster CCTV reported on Aug 14.",
+            "source": "Straits Times Asia",
+            "item_id": "2a7b92b307a71eec9c24debd1e1f48bb8a8372edaf53e79e0e1e583cbc3fc8e8:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/east-asia/mudslide-in-eastern-china-kills-one-more-heavy-rain-expected"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "62c50ccea102737674f861921f102c618d10b9e091cdbb135ed1c1f29762e480",
+      "title": "Indonesia to close more than 750 state-owned enterprises",
+      "url": "https://www.straitstimes.com/asia/se-asia/indonesia-to-close-more-than-750-state-owned-enterprises",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "So far, 290 have been closed, said President Prabowo.",
+      "published_at": "2026-08-14T11:45:00+00:00",
+      "updated_at": "2026-08-14T11:45:00+00:00",
+      "effective_at": "2026-08-14T11:45:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "indonesia",
+        "prabowo",
+        "so"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "69916cbd64c93e7f26a52b15",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "62c50ccea102737674f861921f102c618d10b9e091cdbb135ed1c1f29762e480",
+      "article_sentences": [
+        "Indonesia's President Prabowo Subianto plans to close over 750 state-owned enterprises by the end of 2026 over unproductivity and fabricated profits.",
+        "He proposes a special court to investigate state enterprise management and urges lawmakers to create a new commodity exchange to set prices domestically.",
+        "Efforts under the Danantara sovereign wealth fund saved S$3.59 billion in costs and increased profits by 75%.",
+        "Indonesia’s President on Aug 14 floated creating a special court to investigate “unproductive” boards reporting “made-up” profits, as he pledged to close 750 state-owned enterprises by year end.",
+        "South-east Asia’s biggest economy has long battled corruption in its public and private sectors despite strengthening anti-graft laws, creating special investigative commissions and arresting several high profile people.",
+        "In successive state-of-the-nation and budget addresses, President Prabowo Subianto said on Aug 14 that Indonesia’s vast natural wealth was not sufficiently benefiting its people.",
+        "He railed against “far too many unproductive state-owned enterprises always reporting losses while claiming profits”.",
+        "“Those profits are just made up,” he added.",
+        "Out of 1,074 state-owned enterprises on the books, 290 were already closed, Prabowo said, and only about 300 should be left operating by Dec 31.",
+        "“These state-owned enterprises sometimes operate as they please, with no sense of responsibility to the nation,” said the President, who took office in October 2024.",
+        "He mooted the creation of “a special ad hoc court to investigate the management and boards” of state-owned enterprises – potentially going back three decades.",
+        "But he also asked lawmakers to consider a “special amnesty for those who repent”."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Indonesia to close more than 750 state-owned enterprises",
+      "briefing": {
+        "opening": [
+          "Indonesia's President Prabowo Subianto plans to close over 750 state-owned enterprises by the end of 2026 over unproductivity and fabricated profits.",
+          "He proposes a special court to investigate state enterprise management and urges lawmakers to create a new commodity exchange to set prices domestically."
+        ],
+        "body": [
+          "Efforts under the Danantara sovereign wealth fund saved S$3.59 billion in costs and increased profits by 75%.",
+          "Indonesia’s President on Aug 14 floated creating a special court to investigate “unproductive” boards reporting “made-up” profits, as he pledged to close 750 state-owned enterprises by year end.",
+          "South-east Asia’s biggest economy has long battled corruption in its public and private sectors despite strengthening anti-graft laws, creating special investigative commissions and arresting several high profile people.",
+          "In successive state-of-the-nation and budget addresses, President Prabowo Subianto said on Aug 14 that Indonesia’s vast natural wealth was not sufficiently benefiting its people.",
+          "He railed against “far too many unproductive state-owned enterprises always reporting losses while claiming profits”.",
+          "“Those profits are just made up,” he added.",
+          "Out of 1,074 state-owned enterprises on the books, 290 were already closed, Prabowo said, and only about 300 should be left operating by Dec 31.",
+          "“These state-owned enterprises sometimes operate as they please, with no sense of responsibility to the nation,” said the President, who took office in October 2024."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "October"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Indonesia's President Prabowo Subianto plans to close over 750 state-owned enterprises by the end of 2026 over unproductivity and fabricated profits.",
+            "source": "Straits Times Asia",
+            "item_id": "62c50ccea102737674f861921f102c618d10b9e091cdbb135ed1c1f29762e480:article",
+            "composed": false
+          },
+          {
+            "text": "Efforts under the Danantara sovereign wealth fund saved S$3.59 billion in costs and increased profits by 75%.",
+            "source": "Straits Times Asia",
+            "item_id": "62c50ccea102737674f861921f102c618d10b9e091cdbb135ed1c1f29762e480:article",
+            "composed": false
+          },
+          {
+            "text": "Indonesia’s President on Aug 14 floated creating a special court to investigate “unproductive” boards reporting “made-up” profits, as he pledged to close 750 state-owned enterprises by year end.",
+            "source": "Straits Times Asia",
+            "item_id": "62c50ccea102737674f861921f102c618d10b9e091cdbb135ed1c1f29762e480:article",
+            "composed": false
+          },
+          {
+            "text": "Out of 1,074 state-owned enterprises on the books, 290 were already closed, Prabowo said, and only about 300 should be left operating by Dec 31.",
+            "source": "Straits Times Asia",
+            "item_id": "62c50ccea102737674f861921f102c618d10b9e091cdbb135ed1c1f29762e480:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/se-asia/indonesia-to-close-more-than-750-state-owned-enterprises"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "be6c6ce901642ceaea3d2ccf83d820ccab67631d84fbc51d59aefb5abd41b9d7",
+      "title": "Bomb-disposal team, light public housing unit win chief executive’s award",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3364105/bomb-disposal-team-light-public-housing-unit-win-chief-executives-award?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "A bomb-disposal team and a unit behind Hong Kong’s light public housing scheme have won this year’s chief executive’s award, praised for embodying civil servants’ professional spirit in “rising to challenges and pursuing excellence”. City leader John Lee Ka-chiu presented the Chief Executive’s Award for Exemplary Performance to the two interdepartmental teams at a ceremony on Friday. Lee praised them for fulfilling their duties with a steadfast sense of mission and exceptional competence,...",
+      "published_at": "2026-08-14T14:42:01+00:00",
+      "updated_at": "2026-08-14T14:42:01+00:00",
+      "effective_at": "2026-08-14T14:42:01+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "culture",
+      "subsector": "entertainment",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "award",
+        "exemplary",
+        "hong_kong",
+        "john",
+        "ka-chiu",
+        "lee",
+        "performance"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "2afba39aa93302905b951fb9",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 4
+        }
+      },
+      "story_id": "be6c6ce901642ceaea3d2ccf83d820ccab67631d84fbc51d59aefb5abd41b9d7",
+      "public_label": "📰 NEWS",
+      "headline": "Bomb-disposal team, light public housing unit win chief executive’s award",
+      "briefing": {
+        "opening": [
+          "A bomb-disposal team and a unit behind Hong Kong’s light public housing scheme have won this year’s chief executive’s award, praised for embodying civil servants’ professional spirit in “rising to challenges and pursuing excellence”.",
+          "City leader John Lee Ka-chiu presented the Chief Executive’s Award for Exemplary Performance to the two interdepartmental teams at a ceremony on Friday."
+        ],
+        "body": [
+          "Lee praised them for fulfilling their duties with a steadfast sense of mission and exceptional competence,..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "A bomb-disposal team and a unit behind Hong Kong’s light public housing scheme have won this year’s chief executive’s award, praised for embodying civil servants’ professional spirit in “rising to challenges and pursuing excellence”.",
+            "source": "South China Morning Post",
+            "item_id": "be6c6ce901642ceaea3d2ccf83d820ccab67631d84fbc51d59aefb5abd41b9d7",
+            "composed": false
+          },
+          {
+            "text": "City leader John Lee Ka-chiu presented the Chief Executive’s Award for Exemplary Performance to the two interdepartmental teams at a ceremony on Friday.",
+            "source": "South China Morning Post",
+            "item_id": "be6c6ce901642ceaea3d2ccf83d820ccab67631d84fbc51d59aefb5abd41b9d7",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/hong-kong/society/article/3364105/bomb-disposal-team-light-public-housing-unit-win-chief-executives-award?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "66d0535184d717d2d5879b0bf5093aebd797430dac9dbf315ab50f058c48b6bf",
+      "title": "Taiwan lawmakers pass 2026 budget after record delay",
+      "url": "https://www.straitstimes.com/asia/east-asia/taiwan-lawmakers-pass-2026-budget-after-record-delay",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "This comes days before the government plans to announce its 2027 expenditure plan.",
+      "published_at": "2026-08-14T12:45:00+00:00",
+      "updated_at": "2026-08-14T12:45:00+00:00",
+      "effective_at": "2026-08-14T12:45:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "taiwan"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "db25aaa871c296a7c92b8d1c",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "66d0535184d717d2d5879b0bf5093aebd797430dac9dbf315ab50f058c48b6bf",
+      "article_sentences": [
+        "Taiwan's Parliament approved the 2026 budget after a record delay, with opposition cutting NT$48 billion from the original NT$3 trillion plan.",
+        "Disagreements over spending, especially on defence, caused the delay, despite opposition reducing proposed amendments from over 1,700 to about 50.",
+        "The delay did not cause a government shutdown, as the previous year's budget remains in effect; the 2027 budget is expected for review by August end.",
+        "Lawmakers in Taiwan approved on Aug 14 the government’s annual budget for 2026 after a record delay, and shortly before the Parliament is expected to receive the spending proposal for 2027 for review.",
+        "President Lai Ching-te’s government and his Democratic Progressive Party (DPP) have been at loggerheads with opposition parties, which hold the most seats in Parliament, over general spending, particularly on the island’s defence.",
+        "The government said in August 2025 that overall expenditure for 2026 was budgeted at just over NT$3 trillion (S$120 billion) – up NT$110 billion or around 3.8 per cent from 2025.",
+        "Opposition lawmakers agreed on Aug 14 to cut the 2026 budget by NT$48 billion, or around 1.6 per cent – nearly eight months after the government’s spending plan was supposed to be approved.",
+        "This is the longest it has ever taken Parliament to pass an annual general budget, and comes days before the government plans to announce its 2027 expenditure plan on Aug 20.",
+        "The Parliament is likely to receive the 2027 budget for review by the end of August.",
+        "Caucus leader for the main opposition party Kuomintang (KMT), Fu Kun-chi, said the number of proposed amendments to the 2026 budget was reduced from more than 1,700 to a final 40–50, demonstrating the Parliament’s “utmost goodwill”.",
+        "“I have devoted myself wholeheartedly to this effort, hoping that the nation can move forward and the people can lead better lives,” Fu said in a statement.",
+        "There was no immediate response from the government or the DPP."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Taiwan lawmakers pass 2026 budget after record delay",
+      "briefing": {
+        "opening": [
+          "Taiwan's Parliament approved the 2026 budget after a record delay, with opposition cutting NT$48 billion from the original NT$3 trillion plan.",
+          "Disagreements over spending, especially on defence, caused the delay, despite opposition reducing proposed amendments from over 1,700 to about 50."
+        ],
+        "body": [
+          "Lawmakers in Taiwan approved on Aug 14 the government’s annual budget for 2026 after a record delay, and shortly before the Parliament is expected to receive the spending proposal for 2027 for review.",
+          "President Lai Ching-te’s government and his Democratic Progressive Party (DPP) have been at loggerheads with opposition parties, which hold the most seats in Parliament, over general spending, particularly on the island’s defence.",
+          "Opposition lawmakers agreed on Aug 14 to cut the 2026 budget by NT$48 billion, or around 1.6 per cent – nearly eight months after the government’s spending plan was supposed to be approved.",
+          "This is the longest it has ever taken Parliament to pass an annual general budget, and comes days before the government plans to announce its 2027 expenditure plan on Aug 20.",
+          "The Parliament is likely to receive the 2027 budget for review by the end of August.",
+          "Caucus leader for the main opposition party Kuomintang (KMT), Fu Kun-chi, said the number of proposed amendments to the 2026 budget was reduced from more than 1,700 to a final 40–50, demonstrating the Parliament’s “utmost goodwill”.",
+          "“I have devoted myself wholeheartedly to this effort, hoping that the nation can move forward and the people can lead better lives,” Fu said in a statement."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Taiwan"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The delay did not cause a government shutdown, as the previous year's budget remains in effect; the 2027 budget is expected for review by August end."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Lawmakers in Taiwan approved on Aug 14 the government’s annual budget for 2026 after a record delay, and shortly before the Parliament is expected to receive the spending proposal for 2027 for review.",
+            "source": "Straits Times Asia",
+            "item_id": "66d0535184d717d2d5879b0bf5093aebd797430dac9dbf315ab50f058c48b6bf:article",
+            "composed": false
+          },
+          {
+            "text": "Taiwan's Parliament approved the 2026 budget after a record delay, with opposition cutting NT$48 billion from the original NT$3 trillion plan.",
+            "source": "Straits Times Asia",
+            "item_id": "66d0535184d717d2d5879b0bf5093aebd797430dac9dbf315ab50f058c48b6bf:article",
+            "composed": false
+          },
+          {
+            "text": "Opposition lawmakers agreed on Aug 14 to cut the 2026 budget by NT$48 billion, or around 1.6 per cent – nearly eight months after the government’s spending plan was supposed to be approved.",
+            "source": "Straits Times Asia",
+            "item_id": "66d0535184d717d2d5879b0bf5093aebd797430dac9dbf315ab50f058c48b6bf:article",
+            "composed": false
+          },
+          {
+            "text": "This is the longest it has ever taken Parliament to pass an annual general budget, and comes days before the government plans to announce its 2027 expenditure plan on Aug 20.",
+            "source": "Straits Times Asia",
+            "item_id": "66d0535184d717d2d5879b0bf5093aebd797430dac9dbf315ab50f058c48b6bf:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/east-asia/taiwan-lawmakers-pass-2026-budget-after-record-delay"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "8953598684ad07b9f8d2c2b3104bdcb71611bbd196b3865b31a848cfeaaeeb58",
+      "title": "Indonesia to introduce ‘limited’ dual citizenship, President Prabowo says",
+      "url": "https://www.straitstimes.com/asia/se-asia/update-1-indonesia-to-introduce-limited-dual-citizenship-president-says",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Indonesian law does not currently recognise dual citizenship for adults.",
+      "published_at": "2026-08-14T10:40:00+00:00",
+      "updated_at": "2026-08-14T10:40:00+00:00",
+      "effective_at": "2026-08-14T10:40:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "indonesia",
+        "indonesian",
+        "prabowo"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "f84f8242208c6d56f908a1c1",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "8953598684ad07b9f8d2c2b3104bdcb71611bbd196b3865b31a848cfeaaeeb58",
+      "article_sentences": [
+        "Indonesia plans to revise its citizenship law to allow limited dual citizenship for selected talents like doctors, AI experts, artists, and football players.",
+        "The policy aims to protect national interests while enabling the Indonesian diaspora to contribute to the country's development.",
+        "Calls for dual citizenship rise due to brain drain concerns, with nearly 4,000 Indonesians becoming Singaporean citizens from 2019 to 2022.",
+        "Indonesian President Prabowo Subianto announced on Aug 14 that the government was planning to revise its citizenship law to allow some Indonesians to hold dual nationality for the first time.",
+        "In a wide-ranging speech announcing the state budget for South-east Asia’s largest economy, Prabowo said the government would table the revision to Parliament to allow “millions” from the Indonesian diaspora to contribute to the country’s development.",
+        "Prabowo said the dual citizenship plans would be “limited”, adding the policy would be measured in its design, with “national interests” fully protected.",
+        "Indonesian law does not currently recognise dual citizenship for adults, and minors with two passports must choose their nationality when they turn 18.",
+        "“Today, I tell the Parliament the government’s recommendation that we permit dual citizenship for selected talents that Indonesia needs,” he said, citing doctors, artificial-intelligence experts, artists and football players as examples.",
+        "“We shouldn’t force the best Indonesian talents to choose between a chance to contribute to the world and their ties to our land,” he said.",
+        "Sufmi Dasco Ahmad, Indonesia’s Deputy House Speaker, told reporters that lawmakers had processed citizenship applications for athletes.",
+        "An influx of mainly Dutch-born members of Indonesia’s diaspora has entered the national football team.",
+        "In 2025, Indonesia opened applications for permits that would allow former Indonesian citizens to live and work in the country for an indefinite period as an alternative to dual citizenship."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Indonesia to introduce ‘limited’ dual citizenship, President Prabowo says",
+      "briefing": {
+        "opening": [
+          "Indonesia plans to revise its citizenship law to allow limited dual citizenship for selected talents like doctors, AI experts, artists, and football players.",
+          "The policy aims to protect national interests while enabling the Indonesian diaspora to contribute to the country's development."
+        ],
+        "body": [
+          "Calls for dual citizenship rise due to brain drain concerns, with nearly 4,000 Indonesians becoming Singaporean citizens from 2019 to 2022.",
+          "Indonesian President Prabowo Subianto announced on Aug 14 that the government was planning to revise its citizenship law to allow some Indonesians to hold dual nationality for the first time.",
+          "In a wide-ranging speech announcing the state budget for South-east Asia’s largest economy, Prabowo said the government would table the revision to Parliament to allow “millions” from the Indonesian diaspora to contribute to the country’s development.",
+          "Prabowo said the dual citizenship plans would be “limited”, adding the policy would be measured in its design, with “national interests” fully protected.",
+          "Indonesian law does not currently recognise dual citizenship for adults, and minors with two passports must choose their nationality when they turn 18.",
+          "“Today, I tell the Parliament the government’s recommendation that we permit dual citizenship for selected talents that Indonesia needs,” he said, citing doctors, artificial-intelligence experts, artists and football players as examples.",
+          "“We shouldn’t force the best Indonesian talents to choose between a chance to contribute to the world and their ties to our land,” he said.",
+          "Sufmi Dasco Ahmad, Indonesia’s Deputy House Speaker, told reporters that lawmakers had processed citizenship applications for athletes."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Indonesia plans to revise its citizenship law to allow limited dual citizenship for selected talents like doctors, AI experts, artists, and football players.",
+            "source": "Straits Times Asia",
+            "item_id": "8953598684ad07b9f8d2c2b3104bdcb71611bbd196b3865b31a848cfeaaeeb58:article",
+            "composed": false
+          },
+          {
+            "text": "Calls for dual citizenship rise due to brain drain concerns, with nearly 4,000 Indonesians becoming Singaporean citizens from 2019 to 2022.",
+            "source": "Straits Times Asia",
+            "item_id": "8953598684ad07b9f8d2c2b3104bdcb71611bbd196b3865b31a848cfeaaeeb58:article",
+            "composed": false
+          },
+          {
+            "text": "Indonesian President Prabowo Subianto announced on Aug 14 that the government was planning to revise its citizenship law to allow some Indonesians to hold dual nationality for the first time.",
+            "source": "Straits Times Asia",
+            "item_id": "8953598684ad07b9f8d2c2b3104bdcb71611bbd196b3865b31a848cfeaaeeb58:article",
+            "composed": false
+          },
+          {
+            "text": "“Today, I tell the Parliament the government’s recommendation that we permit dual citizenship for selected talents that Indonesia needs,” he said, citing doctors, artificial-intelligence experts, artists and football players as examples.",
+            "source": "Straits Times Asia",
+            "item_id": "8953598684ad07b9f8d2c2b3104bdcb71611bbd196b3865b31a848cfeaaeeb58:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/se-asia/update-1-indonesia-to-introduce-limited-dual-citizenship-president-says"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "63a479ae765fe27eb47cbe803792922316d93dd0549f19b89331171bcf644f7e",
+      "title": "Indonesia President Prabowo pledges strong growth in 2027 with 2.4% budget deficit",
+      "url": "https://www.straitstimes.com/asia/se-asia/indonesia-president-prabowo-pledges-strong-growth-in-2027-with-2-4-budget-deficit",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Indonesia is also targeting economic growth of 6 per cent for 2027, similar to the outlook set for 2026.",
+      "published_at": "2026-08-14T10:11:00+00:00",
+      "updated_at": "2026-08-14T10:11:00+00:00",
+      "effective_at": "2026-08-14T10:11:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "economy",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "indonesia",
+        "prabowo"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "7c81b42b4a4ee88242843288",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "63a479ae765fe27eb47cbe803792922316d93dd0549f19b89331171bcf644f7e",
+      "article_sentences": [
+        "Indonesia aims to reduce its budget deficit to 2.4% of GDP in 2027, down from an expected 2.85% in 2026, while maintaining 6% economic growth.",
+        "President Prabowo emphasises fiscal discipline and criticises inefficiencies, urging stricter spending controls and increased dividends from state-owned enterprises.",
+        "Strong government spending has driven 5.45% GDP growth in early 2026, but curbing expenditure is vital to sustain fiscal health and support key social programmes.",
+        "Indonesia’s President Prabowo Subianto plans to narrow the budget deficit in 2027 in an effort to rebuild state finances after heavy spending in 2026 on his signature campaign pledges.",
+        "The government is targeting a fiscal shortfall of 2.4 per cent of gross domestic product (GDP) in 2027, lower than the expected 2.85 per cent in 2026, Prabowo said in a speech to Parliament on Aug 14.",
+        "Indonesia is also targeting economic growth of 6 per cent for 2027, similar to the outlook set for 2026.",
+        "The 10-year government bond yield held its drop of four basis points at 7.18 per cent after the President’s remarks, the lowest in over a month.",
+        "Rupiah non-deliverable forwards extended their gain to 0.4 per cent, while stocks were up 1.1 per cent.",
+        "Prabowo’s 2027 budget – the second so far in his presidency – will need to strike a balance by shifting Indonesia’s economy to a higher gear without breaching the statutory fiscal ceiling of 3 per cent of GDP.",
+        "The risk of a bloated budget deficit has made investors uneasy and triggered bond sell-offs earlier in 2026.",
+        "“Fiscal discipline must be present in every rupiah that is spent,” Prabowo said in his budget speech.",
+        "“So far, too many ministries and local governments have been purchasing the same goods, but they buy them separately at different prices.”"
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Indonesia President Prabowo pledges strong growth in 2027 with 2.4% budget deficit",
+      "briefing": {
+        "opening": [
+          "Indonesia aims to reduce its budget deficit to 2.4% of GDP in 2027, down from an expected 2.85% in 2026, while maintaining 6% economic growth.",
+          "President Prabowo emphasises fiscal discipline and criticises inefficiencies, urging stricter spending controls and increased dividends from state-owned enterprises."
+        ],
+        "body": [
+          "Indonesia’s President Prabowo Subianto plans to narrow the budget deficit in 2027 in an effort to rebuild state finances after heavy spending in 2026 on his signature campaign pledges.",
+          "The government is targeting a fiscal shortfall of 2.4 per cent of gross domestic product (GDP) in 2027, lower than the expected 2.85 per cent in 2026, Prabowo said in a speech to Parliament on Aug 14.",
+          "Indonesia is also targeting economic growth of 6 per cent for 2027, similar to the outlook set for 2026.",
+          "The 10-year government bond yield held its drop of four basis points at 7.18 per cent after the President’s remarks, the lowest in over a month.",
+          "Rupiah non-deliverable forwards extended their gain to 0.4 per cent, while stocks were up 1.1 per cent.",
+          "Prabowo’s 2027 budget – the second so far in his presidency – will need to strike a balance by shifting Indonesia’s economy to a higher gear without breaching the statutory fiscal ceiling of 3 per cent of GDP.",
+          "The risk of a bloated budget deficit has made investors uneasy and triggered bond sell-offs earlier in 2026.",
+          "“Fiscal discipline must be present in every rupiah that is spent,” Prabowo said in his budget speech."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Indonesia aims to reduce its budget deficit to 2.4% of GDP in 2027, down from an expected 2.85% in 2026, while maintaining 6% economic growth.",
+            "source": "Straits Times Asia",
+            "item_id": "63a479ae765fe27eb47cbe803792922316d93dd0549f19b89331171bcf644f7e:article",
+            "composed": false
+          },
+          {
+            "text": "Indonesia’s President Prabowo Subianto plans to narrow the budget deficit in 2027 in an effort to rebuild state finances after heavy spending in 2026 on his signature campaign pledges.",
+            "source": "Straits Times Asia",
+            "item_id": "63a479ae765fe27eb47cbe803792922316d93dd0549f19b89331171bcf644f7e:article",
+            "composed": false
+          },
+          {
+            "text": "The government is targeting a fiscal shortfall of 2.4 per cent of gross domestic product (GDP) in 2027, lower than the expected 2.85 per cent in 2026, Prabowo said in a speech to Parliament on Aug 14.",
+            "source": "Straits Times Asia",
+            "item_id": "63a479ae765fe27eb47cbe803792922316d93dd0549f19b89331171bcf644f7e:article",
+            "composed": false
+          },
+          {
+            "text": "Prabowo’s 2027 budget – the second so far in his presidency – will need to strike a balance by shifting Indonesia’s economy to a higher gear without breaching the statutory fiscal ceiling of 3 per cent of GDP.",
+            "source": "Straits Times Asia",
+            "item_id": "63a479ae765fe27eb47cbe803792922316d93dd0549f19b89331171bcf644f7e:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/se-asia/indonesia-president-prabowo-pledges-strong-growth-in-2027-with-2-4-budget-deficit"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "8f9ccb95367951d30a40593784d302c1d7baa7887d508e840f21a81e7e73ad0f",
+      "title": "Ex-factory worker and engineer to make history as one of China’s first space passengers",
+      "url": "https://www.scmp.com/news/people-culture/china-personalities/article/3364058/ex-factory-worker-and-engineer-make-history-one-chinas-first-space-passengers?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "A 73-year-old Chinese female entrepreneur has recently become the 22nd passenger of the domestically developed spacecraft CYZ1. On August 8, Huang Xiaochi was officially designated as passenger No 022 for CYZ1, a project by the commercial space start-up InterstellOr. Huang is scheduled to embark on a suborbital mission aboard the spaceship in 2028, reaching the Kármán line, the widely recognised boundary of Earth’s atmosphere where outer space begins, allowing her to view Earth from that vantage...",
+      "published_at": "2026-08-14T10:00:10+00:00",
+      "updated_at": "2026-08-14T10:00:10+00:00",
+      "effective_at": "2026-08-14T10:00:10+00:00",
+      "language_status": "ENGLISH",
+      "category": "space",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "science",
+      "subsector": "space",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "china",
+        "cyz1",
+        "earth",
+        "huang",
+        "interstellor",
+        "xiaochi"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "1870e54127ae5b878453f455",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 4
+        }
+      },
+      "story_id": "8f9ccb95367951d30a40593784d302c1d7baa7887d508e840f21a81e7e73ad0f",
+      "public_label": "📰 NEWS",
+      "headline": "Ex-factory worker and engineer to make history as one of China’s first space passengers",
+      "briefing": {
+        "opening": [
+          "A 73-year-old Chinese female entrepreneur has recently become the 22nd passenger of the domestically developed spacecraft CYZ1.",
+          "On August 8, Huang Xiaochi was officially designated as passenger No 022 for CYZ1, a project by the commercial space start-up InterstellOr."
+        ],
+        "body": [
+          "Huang is scheduled to embark on a suborbital mission aboard the spaceship in 2028, reaching the Kármán line, the widely recognised boundary of Earth’s atmosphere where outer space begins, allowing her to view Earth from that vantage..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "On August 8, Huang Xiaochi was officially designated as passenger No 022 for CYZ1, a project by the commercial space start-up InterstellOr.",
+            "source": "South China Morning Post",
+            "item_id": "8f9ccb95367951d30a40593784d302c1d7baa7887d508e840f21a81e7e73ad0f",
+            "composed": false
+          },
+          {
+            "text": "A 73-year-old Chinese female entrepreneur has recently become the 22nd passenger of the domestically developed spacecraft CYZ1.",
+            "source": "South China Morning Post",
+            "item_id": "8f9ccb95367951d30a40593784d302c1d7baa7887d508e840f21a81e7e73ad0f",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/people-culture/china-personalities/article/3364058/ex-factory-worker-and-engineer-make-history-one-chinas-first-space-passengers?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "0ec279429697ff4924ffa98051ca8d9ede59413229b048e10c5725613b86905b",
+      "title": "How a US crackdown is upending plans for Chinese ‘birth tourists’",
+      "url": "https://www.scmp.com/economy/policy/article/3364055/how-us-crackdown-upending-plans-chinese-birth-tourists?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "Li, a woman in her late twenties from southwestern China, is anxious about her coming interview for a 10-year US visa. She has big plans for her travels – a weeks-long stay next year that would be her first visit to the country – followed by a planned return trip in two years while pregnant so her child can attain American citizenship. But those plans have been thrown into doubt. Last week, US President Donald Trump signed an executive order seeking to end “birth tourism”, tightening scrutiny on...",
+      "published_at": "2026-08-14T15:00:07+00:00",
+      "updated_at": "2026-08-14T15:00:07+00:00",
+      "effective_at": "2026-08-14T15:00:07+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "american",
+        "china",
+        "donald",
+        "li",
+        "trump",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "b5cc8c5a689c54c8a4518479",
+      "importance_score": 30.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "0ec279429697ff4924ffa98051ca8d9ede59413229b048e10c5725613b86905b",
+      "public_label": "🔄 UPDATE",
+      "headline": "How a US crackdown is upending plans for Chinese ‘birth tourists’",
+      "briefing": {
+        "opening": [
+          "Li, a woman in her late twenties from southwestern China, is anxious about her coming interview for a 10-year US visa.",
+          "She has big plans for her travels – a weeks-long stay next year that would be her first visit to the country – followed by a planned return trip in two years while pregnant so her child can attain American citizenship."
+        ],
+        "body": [
+          "But those plans have been thrown into doubt.",
+          "Last week, US President Donald Trump signed an executive order seeking to end “birth tourism”, tightening scrutiny on..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "But those plans have been thrown into doubt.",
+            "source": "South China Morning Post",
+            "item_id": "0ec279429697ff4924ffa98051ca8d9ede59413229b048e10c5725613b86905b",
+            "composed": false
+          },
+          {
+            "text": "Li, a woman in her late twenties from southwestern China, is anxious about her coming interview for a 10-year US visa.",
+            "source": "South China Morning Post",
+            "item_id": "0ec279429697ff4924ffa98051ca8d9ede59413229b048e10c5725613b86905b",
+            "composed": false
+          },
+          {
+            "text": "She has big plans for her travels – a weeks-long stay next year that would be her first visit to the country – followed by a planned return trip in two years while pregnant so her child can attain American citizenship.",
+            "source": "South China Morning Post",
+            "item_id": "0ec279429697ff4924ffa98051ca8d9ede59413229b048e10c5725613b86905b",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/economy/policy/article/3364055/how-us-crackdown-upending-plans-chinese-birth-tourists?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
     }
   ]
 }
