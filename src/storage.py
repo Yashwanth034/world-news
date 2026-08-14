@@ -19,6 +19,7 @@ scoring, and they are NOT shown on Telegram.
 """
 
 import json
+import sqlite3
 
 # ---------------------------------------------------------------------------
 # Schema
@@ -168,7 +169,175 @@ def init_schema(conn):
     """
     create_stories(conn)
     create_events(conn)
+    create_source_health(conn)
     conn.commit()
+
+
+# ---------------------------------------------------------------------------
+# Source-health history
+# ---------------------------------------------------------------------------
+
+SOURCE_HEALTH_COLUMNS = [
+    ("source_id", "TEXT PRIMARY KEY"),
+    ("source_name", "TEXT"),
+    ("source_type", "TEXT"),
+    ("tier", "INTEGER"),
+    ("region", "TEXT"),
+    ("sector", "TEXT"),
+    # cumulative run-level counters (never reset)
+    ("attempt_count", "INTEGER DEFAULT 0"),
+    ("success_count", "INTEGER DEFAULT 0"),
+    ("failure_count", "INTEGER DEFAULT 0"),
+    ("articles_fetched", "INTEGER DEFAULT 0"),
+    ("articles_accepted", "INTEGER DEFAULT 0"),
+    ("articles_rejected", "INTEGER DEFAULT 0"),
+    ("duplicates_generated", "INTEGER DEFAULT 0"),
+    ("editorial_rejected_count", "INTEGER DEFAULT 0"),
+    ("summarized_count", "INTEGER DEFAULT 0"),
+    ("published_count", "INTEGER DEFAULT 0"),
+    # timestamps / state
+    ("last_success", "TEXT"),
+    ("last_failure", "TEXT"),
+    ("last_article_at", "TEXT"),
+    ("last_seen", "TEXT"),
+    ("last_error", "TEXT"),
+]
+
+
+def create_source_health(conn):
+    cols = ",\n    ".join(
+        f"{name} {decl}"
+        for name, decl in SOURCE_HEALTH_COLUMNS
+    )
+    conn.execute(
+        f"""
+        CREATE TABLE IF NOT EXISTS source_health(
+            {cols}
+        )
+        """
+    )
+    _add_missing_columns(conn, "source_health", SOURCE_HEALTH_COLUMNS)
+
+
+def _error_class(error):
+    """Classify a fetch error string into a safe category.
+
+    Only the category is stored - never the raw error body, which
+    could contain URLs, headers or untrusted feed content.
+    """
+    if not error:
+        return None
+    low = str(error).lower()
+    if "403" in low or "forbidden" in low:
+        return "HTTP_403"
+    if "404" in low or "not found" in low:
+        return "HTTP_404"
+    if "timeout" in low or "timed out" in low:
+        return "TIMEOUT"
+    if "dns" in low or "name or service not known" in low \
+            or "nodename nor servname" in low:
+        return "DNS_ERROR"
+    if "bozo" in low or "parse" in low or "syntax" in low \
+            or "xml" in low:
+        return "PARSE_ERROR"
+    if "connection" in low or "refused" in low:
+        return "CONNECTION_ERROR"
+    return "OTHER"
+
+
+def record_source_health(conn, run, now_iso, feeds=None):
+    """Merge one run's per-source metrics into the persistent
+    source_health table (additive/historical).
+
+    `run` maps source name -> dict with:
+        attempted (bool), failed (bool), error (str|None),
+        fetched, accepted, duplicates, editorial_rejected,
+        summarized, queued
+
+    Counters accumulate across runs (attempt_count = sum of all
+    runs); last_success / last_failure / last_error are the most
+    recent values, never overwritten by older history.  Returns
+    the number of sources updated.
+    """
+    feeds = feeds or {}
+    updated = 0
+    for name, m in (run or {}).items():
+        feed = feeds.get(name) or {}
+        attempted = bool(m.get("attempted"))
+        failed = bool(m.get("failed"))
+        # Per-run deltas (added to whatever the table already
+        # holds, so history accumulates across runs).
+        attempt = 1 if attempted else 0
+        success = 1 if (attempted and not failed) else 0
+        failure = 1 if (attempted and failed) else 0
+
+        error_class = _error_class(m.get("error")) if failed else None
+
+        conn.execute(
+            """
+            INSERT INTO source_health(
+                source_id, source_name, source_type, tier, region,
+                sector, attempt_count, success_count, failure_count,
+                articles_fetched, articles_accepted, articles_rejected,
+                duplicates_generated, editorial_rejected_count,
+                summarized_count, published_count, last_success,
+                last_failure, last_article_at, last_seen, last_error
+            ) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+            ON CONFLICT(source_id) DO UPDATE SET
+                source_name=excluded.source_name,
+                source_type=excluded.source_type,
+                tier=excluded.tier,
+                region=excluded.region,
+                sector=excluded.sector,
+                attempt_count=source_health.attempt_count+excluded.attempt_count,
+                success_count=source_health.success_count+excluded.success_count,
+                failure_count=source_health.failure_count+excluded.failure_count,
+                articles_fetched=source_health.articles_fetched+excluded.articles_fetched,
+                articles_accepted=source_health.articles_accepted+excluded.articles_accepted,
+                articles_rejected=source_health.articles_rejected+excluded.articles_rejected,
+                duplicates_generated=source_health.duplicates_generated+excluded.duplicates_generated,
+                editorial_rejected_count=source_health.editorial_rejected_count+excluded.editorial_rejected_count,
+                summarized_count=source_health.summarized_count+excluded.summarized_count,
+                published_count=source_health.published_count+excluded.published_count,
+                last_success=COALESCE(excluded.last_success, source_health.last_success),
+                last_failure=COALESCE(excluded.last_failure, source_health.last_failure),
+                last_article_at=COALESCE(excluded.last_article_at, source_health.last_article_at),
+                last_seen=excluded.last_seen,
+                last_error=COALESCE(excluded.last_error, source_health.last_error)
+            """,
+            (
+                name, feed.get("name") or name,
+                feed.get("type"), feed.get("tier"),
+                feed.get("region"), feed.get("sector"),
+                attempt, success, failure,
+                int(m.get("fetched", 0)),
+                int(m.get("accepted", 0)),
+                int(m.get("editorial_rejected", 0))
+                + int(m.get("rejected", 0)),
+                int(m.get("duplicates", 0)),
+                int(m.get("editorial_rejected", 0)),
+                int(m.get("summarized", 0)),
+                int(m.get("published", 0)),
+                (now_iso if not failed else None),
+                (now_iso if failed else None),
+                (m.get("last_article_at") or now_iso
+                 if m.get("fetched") else None),
+                now_iso,
+                error_class,
+            ),
+        )
+        updated += 1
+    conn.commit()
+    return updated
+
+
+def source_health_rows(conn):
+    """All persistent source-health rows as dicts."""
+    conn.row_factory = sqlite3.Row
+    rows = conn.execute(
+        "SELECT * FROM source_health ORDER BY source_id"
+    ).fetchall()
+    return [dict(r) for r in rows]
 
 
 # ---------------------------------------------------------------------------

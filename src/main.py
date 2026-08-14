@@ -33,6 +33,11 @@ TELEGRAM_QUEUE = ROOT / CONFIG.get(
 )
 
 
+# Per-run source health captured by fetch() and recorded into
+# the persistent source_health table at the end of main().
+_LAST_HEALTH = []
+
+
 def clean(t):
     return re.sub(
         r"\s+",
@@ -155,6 +160,9 @@ def fetch():
             "sources": health,
         },
     )
+
+    global _LAST_HEALTH
+    _LAST_HEALTH = health
 
     out = []
 
@@ -583,6 +591,23 @@ def main():
         "non_news_filtered": 0,
     }
 
+    # Per-source counters for the persistent source-health
+    # history (measurement only; never affects selection).
+    source_metrics = {}
+
+    def bump(source, **keys):
+        bucket = source_metrics.setdefault(
+            source,
+            {
+                "fetched": 0,
+                "accepted": 0,
+                "duplicates": 0,
+                "editorial_rejected": 0,
+            },
+        )
+        for key, amount in keys.items():
+            bucket[key] = bucket.get(key, 0) + amount
+
     # ---------------------------------------------------------
     # Process stories
     # ---------------------------------------------------------
@@ -693,6 +718,10 @@ def main():
 
         if not editorial_eligibility(x, reasons):
             run_stats["editorial_rejected"] += 1
+            bump(
+                x.get("source"),
+                editorial_rejected=1,
+            )
             editorial_rejected.append({
                 "id": x.get("id"),
                 "title": x.get("title"),
@@ -883,6 +912,11 @@ def main():
                 "duplicates"
             ] += 1
 
+            bump(
+                x.get("source"),
+                duplicates=1,
+            )
+
             continue
 
         # -----------------------------------------------------
@@ -979,6 +1013,11 @@ def main():
         # -----------------------------------------------------
 
         q.append(x)
+
+        bump(
+            x.get("source"),
+            accepted=1,
+        )
 
         mark_queued(
             c,
@@ -1219,6 +1258,69 @@ def main():
             {},
         ),
     )
+
+    # Per-source summarized counts (measurement only).
+    for story in telegram_stories:
+        bump(
+            story.get("source"),
+            summarized=1,
+        )
+
+    # ---------------------------------------------------------
+    # Record persistent source-health history
+    # ---------------------------------------------------------
+
+    try:
+        from src.storage import record_source_health
+
+        c = db()  # reopen: the pipeline connection closed earlier
+
+        run_sources = {}
+        feed_meta = {
+            feed["name"]: feed
+            for feed in CONFIG["feeds"]
+        }
+        for h in _LAST_HEALTH:
+            name = h.get("source")
+            if not name:
+                continue
+            failed = bool(
+                h.get("error")
+                or (h.get("status") is not None and h["status"] >= 400)
+            )
+            metrics = source_metrics.get(name, {})
+            run_sources[name] = {
+                "attempted": True,
+                "failed": failed,
+                "error": h.get("error"),
+                "fetched": int(h.get("recent_entries") or 0),
+                "accepted": metrics.get("accepted", 0),
+                "duplicates": metrics.get("duplicates", 0),
+                "editorial_rejected": metrics.get(
+                    "editorial_rejected", 0
+                ),
+                "summarized": metrics.get("summarized", 0),
+                "last_article_at": (
+                    x.get("effective_at")
+                    for x in items
+                    if x.get("source") == name
+                    and x.get("effective_at")
+                ),
+            }
+            # materialize the newest effective timestamp
+            article_times = list(run_sources[name].pop("last_article_at"))
+            run_sources[name]["last_article_at"] = (
+                max(article_times) if article_times else None
+            )
+        record_source_health(
+            c,
+            run_sources,
+            now,
+            feeds=feed_meta,
+        )
+        run_stats["source_health_recorded"] = len(run_sources)
+    except Exception as exc:
+        run_stats["source_health_error"] = str(exc)
 
     atomic_write_json(
         TELEGRAM_QUEUE,

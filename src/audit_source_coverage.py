@@ -236,8 +236,41 @@ def classify_article(row, min_score, discovery_min_score):
 
 
 # ---------------------------------------------------------------------------
-# Audit computation
+# Concentration / balance helpers
 # ---------------------------------------------------------------------------
+
+def top_n_shares(counts, n):
+    """Share (0..1) of the total held by the top-N items.
+
+    `counts` maps name -> non-negative number.  Returns None when
+    there is nothing to measure (empty or all-zero).
+    """
+    total = sum(counts.values())
+    if total <= 0:
+        return None
+    ranked = sorted(
+        counts.values(),
+        reverse=True,
+    )
+    return sum(ranked[:n]) / total
+
+
+def hhi(counts):
+    """Herfindahl-Hirschman Index over a distribution.
+
+    Sum of squared shares (0..1 scale).  Interpreting a source
+    distribution: < 0.15 low concentration, 0.15-0.25 moderate,
+    > 0.25 high (one or two sources dominate useful output).
+    Returns None when there is nothing to measure.
+    """
+    total = sum(counts.values())
+    if total <= 0:
+        return None
+    return sum(
+        (v / total) ** 2
+        for v in counts.values()
+    )
+
 
 def _weak_threshold(total, n):
     """A bucket with fewer than ~1% of articles (min 3) is weak."""
@@ -246,7 +279,7 @@ def _weak_threshold(total, n):
     return n < max(3, total * 0.01)
 
 
-def compute_audit(feeds, rows=None, health=None, cfg=None):
+def compute_audit(feeds, rows=None, health=None, cfg=None, health_rows=None):
     """Build the full audit report dict.
 
     `feeds` is the normalised feed metadata list; `rows` (optional)
@@ -312,6 +345,11 @@ def compute_audit(feeds, rows=None, health=None, cfg=None):
     for h in (health or []):
         health_by_source[h.get("source")] = h
 
+    # ---- persistent source-health history (--db) ----
+    health_history = {}
+    for row in (health_rows or []):
+        health_history[row.get("source_id")] = row
+
     source_rows = []
     for f in feeds:
         bucket = per_source.get(f["name"]) or defaultdict(Counter)
@@ -324,6 +362,11 @@ def compute_audit(feeds, rows=None, health=None, cfg=None):
         entries_seen = int(h.get("entries_seen") or 0)
         recent = int(h.get("recent_entries") or 0)
         fetched = bucket.get("fetched", 0) or recent
+        hist = health_history.get(f["name"]) or {}
+        attempts = int(hist.get("attempt_count") or 0)
+        successes = int(hist.get("success_count") or 0)
+        failures = int(hist.get("failure_count") or 0)
+        useful = bucket.get("useful", 0)
         source_rows.append({
             **f,
             "entries_seen": entries_seen,
@@ -336,9 +379,43 @@ def compute_audit(feeds, rows=None, health=None, cfg=None):
             "editorial_rejected": bucket.get("editorial_rejected", 0),
             "below_score": bucket.get("below_score", 0),
             "duplicates": bucket.get("duplicates", 0),
-            "useful": bucket.get("useful", 0),
+            "useful": useful,
             "sector_counts": dict(bucket.get("sectors", Counter())),
             "region_counts": dict(bucket.get("regions", Counter())),
+            # persistent historical metrics (across all runs)
+            "attempt_count": attempts,
+            "success_count": successes,
+            "failure_count": failures,
+            "last_success": hist.get("last_success"),
+            "last_failure": hist.get("last_failure"),
+            "last_error": hist.get("last_error"),
+            "articles_fetched_total": int(
+                hist.get("articles_fetched") or 0
+            ),
+            "articles_accepted_total": int(
+                hist.get("articles_accepted") or 0
+            ),
+            "duplicates_total": int(
+                hist.get("duplicates_generated") or 0
+            ),
+            "editorial_rejected_total": int(
+                hist.get("editorial_rejected_count") or 0
+            ),
+            "summarized_total": int(
+                hist.get("summarized_count") or 0
+            ),
+            "success_rate": round(
+                successes / attempts, 3,
+            ) if attempts else None,
+            "failure_rate": round(
+                failures / attempts, 3,
+            ) if attempts else None,
+            "useful_news_rate": round(
+                useful / fetched, 3,
+            ) if fetched else None,
+            "duplicate_rate": round(
+                bucket.get("duplicates", 0) / fetched, 3,
+            ) if fetched else None,
         })
 
     fetched_total = sum(r["fetched"] for r in source_rows)
@@ -410,6 +487,103 @@ def compute_audit(feeds, rows=None, health=None, cfg=None):
     ]
     low_value.sort(key=lambda x: -x["editorial_rejection_rate"])
 
+    # ---- publisher concentration (unique-event distribution) ----
+    useful_by_source = {
+        r["name"]: r["useful"] for r in source_rows
+    }
+    concentration = {
+        "top_1_share": top_n_shares(useful_by_source, 1),
+        "top_3_share": top_n_shares(useful_by_source, 3),
+        "top_5_share": top_n_shares(useful_by_source, 5),
+        "top_10_share": top_n_shares(useful_by_source, 10),
+        "hhi": hhi(useful_by_source),
+        "denominator": "unique useful events per source "
+                       "(accepted after editorial+score+different-source dedup)",
+    }
+    raw_by_source = {
+        r["name"]: r["fetched"] for r in source_rows
+    }
+    concentration["raw_fetched"] = {
+        "top_1_share": top_n_shares(raw_by_source, 1),
+        "top_3_share": top_n_shares(raw_by_source, 3),
+        "top_5_share": top_n_shares(raw_by_source, 5),
+        "top_10_share": top_n_shares(raw_by_source, 10),
+        "hhi": hhi(raw_by_source),
+        "denominator": "raw articles fetched per source",
+    }
+
+    # ---- underrepresented sources ----
+    # A source is *underrepresented* when its share of useful
+    # events is far below its expected share, it fetched real
+    # articles this run, and its configured capability is not
+    # already recognised in the report.  Low volume alone never
+    # qualifies: a specialized source with 5 excellent events is
+    # valuable, not underrepresented.
+    n_sources = max(1, len(source_rows))
+    expected = 1.0 / n_sources
+    underrepresented = [
+        {
+            "name": r["name"],
+            "sector": r.get("sector"),
+            "region": r.get("region"),
+            "fetched": r["fetched"],
+            "useful": r["useful"],
+            "useful_share": round(
+                r["useful"] / useful_total, 3,
+            ) if useful_total else 0.0,
+            "expected_share": round(expected, 3),
+        }
+        for r in source_rows
+        if r["fetched"] >= 5
+        and r["failed"] is False
+        and r["useful"] == 0
+    ]
+    underrepresented.sort(key=lambda x: -x["fetched"])
+
+    # ---- sector-level source coverage ----
+    sector_sources = defaultdict(lambda: {
+        "configured": 0, "successful": 0, "failed": 0,
+        "articles": 0, "useful": 0,
+    })
+    for r in source_rows:
+        sec = r.get("sector") or "other"
+        b = sector_sources[sec]
+        b["configured"] += 1
+        if r["failed"]:
+            b["failed"] += 1
+        else:
+            b["successful"] += 1
+        b["articles"] += r["fetched"]
+        b["useful"] += r["useful"]
+    sector_coverage_by_source = {
+        sec: dict(b) for sec, b in sorted(
+            sector_sources.items(),
+            key=lambda kv: -kv[1]["articles"],
+        )
+    }
+
+    # ---- regional source coverage ----
+    region_sources = defaultdict(lambda: {
+        "configured": 0, "successful": 0, "failed": 0,
+        "articles": 0, "useful": 0,
+    })
+    for r in source_rows:
+        reg = r.get("region") or "global"
+        b = region_sources[reg]
+        b["configured"] += 1
+        if r["failed"]:
+            b["failed"] += 1
+        else:
+            b["successful"] += 1
+        b["articles"] += r["fetched"]
+        b["useful"] += r["useful"]
+    region_coverage_by_source = {
+        reg: dict(b) for reg, b in sorted(
+            region_sources.items(),
+            key=lambda kv: -kv[1]["articles"],
+        )
+    }
+
     report = {
         "generated_at": __import__(
             "datetime"
@@ -460,7 +634,46 @@ def compute_audit(feeds, rows=None, health=None, cfg=None):
         "missing_regions": missing_regions,
         "weak_regions": weak_regions,
         "overrepresented_sources": overrepresented,
+        "underrepresented_sources": underrepresented,
         "low_value_sources": low_value,
+        "source_concentration": concentration,
+        "sector_coverage_by_source": sector_coverage_by_source,
+        "region_coverage_by_source": region_coverage_by_source,
+        "source_unique_event_contribution": [
+            {
+                "name": r["name"],
+                "sector": r.get("sector"),
+                "region": r.get("region"),
+                "fetched": r["fetched"],
+                "useful": r["useful"],
+                "duplicates": r["duplicates"],
+                "useful_news_rate": r["useful_news_rate"],
+                "success_rate": r["success_rate"],
+            }
+            for r in sorted(
+                source_rows,
+                key=lambda x: -x["useful"],
+            )
+        ],
+        "source_health_history": [
+            {
+                "name": r["name"],
+                "attempt_count": r["attempt_count"],
+                "success_count": r["success_count"],
+                "failure_count": r["failure_count"],
+                "success_rate": r["success_rate"],
+                "failure_rate": r["failure_rate"],
+                "articles_fetched_total": r["articles_fetched_total"],
+                "articles_accepted_total": r["articles_accepted_total"],
+                "duplicates_total": r["duplicates_total"],
+                "editorial_rejected_total": r["editorial_rejected_total"],
+                "summarized_total": r["summarized_total"],
+                "last_success": r["last_success"],
+                "last_failure": r["last_failure"],
+                "last_error": r["last_error"],
+            }
+            for r in source_rows
+        ],
     }
     return report
 
@@ -554,6 +767,106 @@ def render_text(report):
     for f in report["failed_sources"]:
         lines.append("  FAILED %-30s status=%s error=%s" % (
             f["name"], f.get("status"), (f.get("error") or "")[:60]))
+
+    # ---- Phase C additions ----
+    lines.append("")
+    lines.append("SOURCE CONCENTRATION (useful events)")
+    lines.append("-" * 78)
+    conc = report.get("source_concentration") or {}
+    lines.append(
+        "  top-1 %.0f%%  top-3 %.0f%%  top-5 %.0f%%  top-10 %.0f%%  "
+        "HHI %.3f" % (
+            (conc.get("top_1_share") or 0) * 100,
+            (conc.get("top_3_share") or 0) * 100,
+            (conc.get("top_5_share") or 0) * 100,
+            (conc.get("top_10_share") or 0) * 100,
+            conc.get("hhi") or 0,
+        )
+    )
+    raw = (conc.get("raw_fetched") or {})
+    lines.append(
+        "  raw-fetched: top-1 %.0f%%  top-3 %.0f%%  top-5 %.0f%%  "
+        "HHI %.3f" % (
+            (raw.get("top_1_share") or 0) * 100,
+            (raw.get("top_3_share") or 0) * 100,
+            (raw.get("top_5_share") or 0) * 100,
+            raw.get("hhi") or 0,
+        )
+    )
+    lines.append("  denominator: %s" % conc.get("denominator"))
+
+    lines.append("")
+    lines.append("SECTOR SOURCE COVERAGE")
+    lines.append("-" * 78)
+    lines.append("  %-16s %6s %6s %6s %8s %7s" % (
+        "sector", "cfg", "ok", "fail", "articles", "useful"))
+    for sec, b in (report.get("sector_coverage_by_source") or {}).items():
+        lines.append("  %-16s %6d %6d %6d %8d %7d" % (
+            sec[:16], b["configured"], b["successful"], b["failed"],
+            b["articles"], b["useful"]))
+
+    lines.append("")
+    lines.append("REGIONAL SOURCE COVERAGE")
+    lines.append("-" * 78)
+    lines.append("  %-18s %6s %6s %6s %8s %7s" % (
+        "region", "cfg", "ok", "fail", "articles", "useful"))
+    for reg, b in (report.get("region_coverage_by_source") or {}).items():
+        lines.append("  %-18s %6d %6d %6d %8d %7d" % (
+            reg[:18], b["configured"], b["successful"], b["failed"],
+            b["articles"], b["useful"]))
+
+    lines.append("")
+    lines.append("UNIQUE-EVENT CONTRIBUTION (top 10 / bottom 5)")
+    lines.append("-" * 78)
+    contrib = report.get("source_unique_event_contribution") or []
+    lines.append("  %-32s %6s %7s %8s %9s" % (
+        "source", "fetch", "useful", "dup", "useful%"))
+    top = contrib[:10]
+    bottom = [c for c in contrib if c["useful"] > 0][-5:]
+    for c in top + bottom:
+        lines.append("  %-32s %6d %7d %8d %8.0f%%" % (
+            c["name"][:32], c["fetched"], c["useful"],
+            c["duplicates"],
+            (c["useful_news_rate"] or 0) * 100))
+
+    lines.append("")
+    lines.append("UNDERREPRESENTED SOURCES")
+    lines.append("-" * 78)
+    under = report.get("underrepresented_sources") or []
+    if under:
+        for u in under:
+            lines.append("  %-30s fetched=%d useful=0 sector=%s region=%s" % (
+                u["name"][:30], u["fetched"], u["sector"], u["region"]))
+    else:
+        lines.append("  none")
+
+    hist = report.get("source_health_history") or []
+    if any(h["attempt_count"] for h in hist):
+        lines.append("")
+        lines.append("SOURCE HEALTH HISTORY (persistent, all runs)")
+        lines.append("-" * 78)
+        lines.append("  %-30s %5s %5s %5s %7s %7s %9s" % (
+            "source", "att", "ok", "fail", "success", "useful%",
+            "last_err"))
+        for h in hist:
+            if h["attempt_count"] == 0:
+                continue
+            lines.append("  %-30s %5d %5d %5d %6.0f%% %6.0f%% %9s" % (
+                h["name"][:30], h["attempt_count"], h["success_count"],
+                h["failure_count"],
+                (h["success_rate"] or 0) * 100,
+                (h["articles_fetched_total"]
+                 and h["articles_fetched_total"] > 0
+                 and (h["articles_accepted_total"]
+                      / h["articles_fetched_total"]) * 100
+                 or 0),
+                (h["last_error"] or "")[:9],
+            ))
+
+    lines.append("")
+    lines.append("OVERREPRESENTED SOURCES (fetched volume):")
+    over = report.get("overrepresented_sources") or []
+    lines.append("  %s" % (over or "none"))
     return "\n".join(lines)
 
 
@@ -565,6 +878,9 @@ def main(argv=None):
                     help="fetch all feeds and audit actual articles")
     ap.add_argument("--health", default=None,
                     help="source_health.json from a real run")
+    ap.add_argument("--db", default=None,
+                    help="SQLite database with persistent source-health "
+                         "history (data/news.db)")
     ap.add_argument("--json", action="store_true",
                     help="print machine-readable JSON")
     ap.add_argument("--out", default=None,
@@ -575,6 +891,7 @@ def main(argv=None):
 
     rows = None
     health = None
+    health_rows = None
     if args.live:
         from src.collector import collect
         rows, health = collect(
@@ -584,8 +901,22 @@ def main(argv=None):
     elif args.health:
         with open(args.health) as fh:
             health = json.load(fh).get("sources")
+    if args.db:
+        import sqlite3
+        from src.storage import source_health_rows
+        conn = sqlite3.connect(args.db)
+        try:
+            health_rows = source_health_rows(conn)
+        finally:
+            conn.close()
 
-    report = compute_audit(feeds, rows=rows, health=health, cfg=cfg)
+    report = compute_audit(
+        feeds,
+        rows=rows,
+        health=health,
+        cfg=cfg,
+        health_rows=health_rows,
+    )
 
     if args.out:
         with open(args.out, "w") as fh:

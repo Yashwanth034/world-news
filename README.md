@@ -241,6 +241,67 @@ future website render a per-event timeline ordered by real-world development tim
 with the canonical title, accumulated entities, and every related source preserved
 without losing the immutable event identity.
 
+## Source-health history
+
+Every run records per-source quality metrics into the same SQLite database
+(`source_health` table): fetch attempts / successes / failures, articles fetched /
+accepted / rejected / deduplicated / editorial-rejected / summarized, last success /
+failure timestamps and a **safe error classification** (`HTTP_403`, `HTTP_404`,
+`TIMEOUT`, `DNS_ERROR`, `PARSE_ERROR`, `CONNECTION_ERROR`, `OTHER` — raw error
+bodies, URLs and headers are never stored).
+
+History is **additive**: counters accumulate across runs (a source that fails once
+and succeeds once shows `attempt_count=2, failure_count=1, success_count=1`) and
+`last_success` / `last_failure` / `last_error` always reflect the most recent
+occurrence. Metric definitions:
+
+- `success_rate` = successful fetches / fetch attempts (per source, all runs)
+- `failure_rate` = failed fetches / fetch attempts
+- `useful_news_rate` = useful unique events / articles fetched (per run)
+- `duplicate_rate` = duplicate articles attributable to the source / articles fetched
+
+All rates guard against division by zero. The metrics are measurement-only: nothing
+in collection, dedup, scoring or publishing reads them yet.
+
+## Coverage audit
+
+`python -m src.audit_source_coverage --config config.json [--live] [--db data/news.db]
+[--json]` audits the source network. It reports source coverage, sector and regional
+coverage, failure rate, publisher redundancy, overrepresented / underrepresented /
+low-value / failing sources, **sector and regional source coverage** (how many sources
+are configured vs successful vs useful per sector/region), and **unique-event
+contribution** ranked per source.
+
+With `--db` the audit also reads the persistent source-health history and renders a
+SOURCE HEALTH HISTORY section (attempts, success/failure counts, rates, last error).
+With `--json` it prints a stable machine-readable report (suitable for later
+automation); `--out FILE` writes it to disk.
+
+### Publisher concentration
+
+The report includes source-concentration statistics, computed on **unique useful
+events per source** (and separately on raw fetched volume):
+
+- top-1 / top-3 / top-5 / top-10 source share — the fraction of all useful events
+  contributed by the largest 1/3/5/10 sources
+- **HHI** (Herfindahl-Hirschman Index) — sum of squared shares, on a 0–1 scale:
+  below 0.15 is low concentration (healthy diversity), 0.15–0.25 moderate, above
+  0.25 high (one or two sources dominate). The denominator is documented in the
+  report (unique useful events per source).
+
+A publisher that posts hundreds of articles can still contribute few unique events,
+so both raw-volume and unique-event concentration are reported.
+
+### Inspecting source quality
+
+`sqlite3 data/news.db "SELECT source_id, attempt_count, success_count, failure_count,
+articles_fetched, articles_accepted, summarized_count, last_error FROM source_health
+ORDER BY failure_count DESC"` shows the full per-source history; the audit's
+UNIQUE-EVENT CONTRIBUTION and SOURCE HEALTH HISTORY sections surface the same data
+with rates. Low-volume specialized sources are not penalized: a source with 5
+high-value events is valuable, not underrepresented — the audit only flags sources
+that fetch real volume and produce zero useful events.
+
 ## Limitations
 
 - **At-least-once delivery.** State is committed only after publishing; if a run
