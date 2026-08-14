@@ -331,6 +331,74 @@ def record_source_health(conn, run, now_iso, feeds=None):
     return updated
 
 
+def event_development_report(conn):
+    """Per-event development audit (Part C): for every stored
+    event, report first/latest times, story and source counts,
+    strongest story, canonical summary strength and importance
+    inputs.  Pure observability for the future website's event
+    timeline; never used by matching or publishing.
+    """
+    try:
+        rows = conn.execute(
+            "SELECT event_id, canonical_title, canonical_summary, "
+            "first_seen, last_seen, event_time, last_development, "
+            "related_sources, sector, region, canonical_state "
+            "FROM events"
+        ).fetchall()
+    except Exception:
+        return []
+
+    report = []
+    for row in rows:
+        (
+            event_id, canonical_title, canonical_summary, first_seen,
+            last_seen, event_time, last_development, related_sources,
+            sector, region, canonical_state,
+        ) = row
+        state = None
+        if canonical_state:
+            try:
+                state = json.loads(canonical_state)
+            except (TypeError, ValueError):
+                state = None
+        state = state or {}
+        best = state.get("best_story") or {}
+        try:
+            story_count = conn.execute(
+                "SELECT COUNT(*) FROM stories WHERE event_id=?",
+                (event_id,),
+            ).fetchone()[0]
+        except Exception:
+            story_count = None
+        try:
+            sources = json.loads(related_sources) if related_sources \
+                else []
+        except (TypeError, ValueError):
+            sources = []
+        report.append({
+            "event_id": event_id,
+            "canonical_title": canonical_title,
+            "sector": sector,
+            "region": region,
+            "first_seen": first_seen,
+            "last_seen": last_seen,
+            "event_time": event_time,
+            "last_development": last_development,
+            "story_count": story_count,
+            "source_count": len(sources or []),
+            "sources": sorted(sources or []),
+            "best_story_title": best.get("title"),
+            "best_story_source": best.get("source"),
+            "best_story_strength": best.get("strength"),
+            "canonical_summary_strength": best.get("strength"),
+            "importance_inputs": {
+                "canonical_title": canonical_title,
+                "canonical_summary": canonical_summary,
+            },
+        })
+    return report
+
+
 def sector_source_counts(conn):
     """Sector -> number of distinct sources that have contributed
     stories to that sector in the persistent database.

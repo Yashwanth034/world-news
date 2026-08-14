@@ -871,6 +871,136 @@ def story_entities(title, summary=""):
 
 
 # ---------------------------------------------------------
+# Story strength (transparent canonical-enrichment signal)
+#
+# The first story of an event anchors its IMMUTABLE identity, but
+# canonical CONTENT (title / summary / sector) may legitimately
+# improve as stronger reports arrive.  story_strength() scores a
+# story's usefulness for that purpose on visible, bounded
+# components - never a black box, never a matching signal.
+# ---------------------------------------------------------
+
+_TIER_RELIABILITY = {1: 5, 2: 4, 3: 3, 4: 2}
+
+# A clearly stronger report must beat the current best by this
+# margin before it may replace canonical content; protects against
+# churn between near-equal stories.
+ENRICHMENT_MARGIN = 2.0
+
+
+def _fact_density(signals):
+    """Distinct measurable facts (numbers, magnitudes, impact,
+    consequences, development facts) - bounded 0-8."""
+    count = (
+        len(signals.get("numbers") or [])
+        + len(signals.get("magnitudes") or [])
+        + len(signals.get("impact") or [])
+        + len(signals.get("consequences") or [])
+        + len(signals.get("dev_facts") or [])
+    )
+    return min(8, count)
+
+
+def _specificity(signals):
+    """Distinct entities / locations / actions that make a report
+    concrete - bounded 0-6."""
+    count = (
+        len(signals.get("entities") or [])
+        + len(signals.get("locations") or [])
+        + len(signals.get("actions") or [])
+    )
+    return min(6, count)
+
+
+def _summary_quality(item):
+    """Summary length bands (never penalise short-but-dense
+    reports; length is a weak signal) - bounded 0-6."""
+    words = len((item.get("summary") or "").split())
+    if words >= 80:
+        return 6
+    if words >= 40:
+        return 5
+    if words >= 20:
+        return 4
+    if words >= 10:
+        return 3
+    if words >= 5:
+        return 2
+    if words:
+        return 1
+    return 0
+
+
+def _corroboration_strength(item):
+    """Independent confirmation - bounded 0-4.  Strong
+    corroboration dominates; a large syndicated count alone is
+    worth little."""
+    strong = int(item.get("strong_corroboration") or 0)
+    if strong >= 3:
+        return 4
+    if strong == 2:
+        return 3
+    if strong == 1:
+        return 2
+    count = int(item.get("corroborating_sources") or 0)
+    if count >= 3:
+        return 1
+    return 0
+
+
+def story_strength(item, signals=None):
+    """Transparent story-strength score (0..30) for canonical
+    enrichment, with a visible breakdown.
+
+    Components (all bounded):
+      fact_density     0-8   distinct measurable facts
+      specificity      0-6   entities/locations/actions
+      summary_quality  0-6   length bands
+      reliability      0-5   source tier + primary-source bonus
+      corroboration    0-4   independent confirmation
+      extraction       0-3   verified article-extraction matches
+
+    The score is NEVER used for matching: it only decides which
+    report is the best available DESCRIPTION of an event.
+    """
+    signals = signals if signals is not None else _signals(item)
+
+    tier = int(item.get("tier") or 4)
+    reliability = _TIER_RELIABILITY.get(tier, 2)
+    if item.get("primary_source"):
+        reliability = min(5, reliability + 1)
+
+    verified = int(item.get("verified_match_count") or 0)
+    if verified >= 2:
+        extraction = 3
+    elif verified == 1:
+        extraction = 2
+    elif item.get("article_extracted"):
+        extraction = 1
+    else:
+        extraction = 0
+
+    score = (
+        _fact_density(signals)
+        + _specificity(signals)
+        + _summary_quality(item)
+        + reliability
+        + _corroboration_strength(item)
+        + extraction
+    )
+    breakdown = {
+        "fact_density": _fact_density(signals),
+        "specificity": _specificity(signals),
+        "summary_quality": _summary_quality(item),
+        "reliability": reliability,
+        "corroboration": _corroboration_strength(item),
+        "extraction": extraction,
+        "total": score,
+    }
+    return round(min(30, score), 1), breakdown
+
+
+# ---------------------------------------------------------
 # Canonical state construction / merge
 # ---------------------------------------------------------
 
@@ -911,6 +1041,7 @@ def _accumulated_from_signals(item, signals):
     reporting, never for matching."""
     title = item.get("title") or ""
     summary = item.get("summary") or ""
+    strength, breakdown = story_strength(item, signals)
     return {
         "entities": sorted(signals["entities"]),
         "locations": sorted(signals["locations"]),
@@ -932,6 +1063,17 @@ def _accumulated_from_signals(item, signals):
             else []
         ),
         "category": item.get("category", "world"),
+        # Canonical CONTENT (best available description).  The
+        # identity half is untouched - this dict may only improve
+        # which report represents the event's canonical title /
+        # summary / sector.
+        "best_story": {
+            "title": title,
+            "summary": summary,
+            "source": item.get("source"),
+            "strength": strength,
+            "breakdown": breakdown,
+        },
     }
 
 
@@ -985,6 +1127,7 @@ def _parse_state(row, canonical_title, canonical_summary):
             "storm_names", "numbers", "consequences", "impact",
             "magnitudes", "dev_facts", "titles", "summary",
             "status", "last_development", "sources", "category",
+            "best_story",
         ):
             if key not in state:
                 state[key] = rebuilt.get(key)
@@ -1042,6 +1185,23 @@ def _merge_state(item, signals, state):
     state["sources"] = sources
     if item.get("category"):
         state["category"] = item.get("category")
+
+    # Canonical enrichment: if this story is a clearly stronger
+    # DESCRIPTION of the same event (more verified facts,
+    # specificity, reliability, corroboration, extraction), it
+    # becomes the event's canonical content.  The identity half
+    # is deliberately untouched - matching never sees this.
+    strength, breakdown = story_strength(item, signals)
+    best = state.get("best_story") or {}
+    current = best.get("strength") or 0.0
+    if strength >= current + ENRICHMENT_MARGIN:
+        state["best_story"] = {
+            "title": item.get("title") or "",
+            "summary": item.get("summary") or "",
+            "source": source,
+            "strength": strength,
+            "breakdown": breakdown,
+        }
     return state
 
 
@@ -1563,6 +1723,62 @@ def _write_event_meta(conn, event_id, item, state, now,
     )
 
 
+def _apply_canonical_enrichment(
+    conn,
+    event_id,
+    state,
+    canonical_title,
+    canonical_summary,
+):
+    """Upgrade the events row's canonical CONTENT columns when the
+    accumulated state's best story is a clearly stronger report.
+
+    Only canonical_title / canonical_summary are touched (and
+    through them, the sector/region/verification observability
+    columns via _write_event_meta).  The identity lives in
+    state["identity"] and is never modified here, so matching is
+    unaffected.
+
+    Returns (canonical_title, canonical_summary) - the values that
+    should anchor this event's metadata from now on.
+    """
+    best = state.get("best_story") or {}
+    best_title = best.get("title") or ""
+    best_summary = best.get("summary") or ""
+
+    if not best_title:
+        return canonical_title, canonical_summary
+
+    upgraded = False
+    if best_title and best_title != canonical_title:
+        canonical_title = best_title
+        upgraded = True
+    # The best story was selected by the full strength score
+    # (facts + specificity + reliability + corroboration +
+    # extraction), so its summary is the best available
+    # description even when it is shorter-but-denser than the
+    # seed's.  Facts are preserved separately in the accumulated
+    # signals, never erased by this swap.
+    if (
+        best_summary
+        and best_summary != canonical_summary
+    ):
+        canonical_summary = best_summary
+        upgraded = True
+
+    if upgraded:
+        conn.execute(
+            """
+            UPDATE events
+            SET canonical_title=?,
+                canonical_summary=?
+            WHERE event_id=?
+            """,
+            (canonical_title, canonical_summary, event_id),
+        )
+    return canonical_title, canonical_summary
+
+
 def _touch_event(conn, event_id, item, now):
     """Refresh last_seen / major without changing the story."""
     conn.execute(
@@ -1592,6 +1808,14 @@ def _update_event(conn, event_id, item, state, now):
         "SELECT canonical_summary FROM events WHERE event_id=?",
         (event_id,),
     ).fetchone()[0]
+
+    canonical_title, canonical_summary = _apply_canonical_enrichment(
+        conn,
+        event_id,
+        state,
+        canonical_title,
+        canonical_summary,
+    )
 
     conn.execute(
         """
@@ -1631,6 +1855,18 @@ def _persist_state(conn, event_id, state, item, now):
         "SELECT canonical_summary FROM events WHERE event_id=?",
         (event_id,),
     ).fetchone()[0]
+
+    # Canonical enrichment applies to every confidently matched
+    # story (duplicates included): a stronger report improves the
+    # event's canonical CONTENT even when it is not a material
+    # development.  last_development is NOT advanced here.
+    canonical_title, canonical_summary = _apply_canonical_enrichment(
+        conn,
+        event_id,
+        state,
+        canonical_title,
+        canonical_summary,
+    )
 
     conn.execute(
         """

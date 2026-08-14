@@ -241,6 +241,36 @@ future website render a per-event timeline ordered by real-world development tim
 with the canonical title, accumulated entities, and every related source preserved
 without losing the immutable event identity.
 
+### Canonical enrichment
+
+The first story of an event anchors its IMMUTABLE identity (matching never changes).
+Separately, the event keeps a **best story** - the strongest available description,
+chosen by a transparent `story_strength()` score (fact density, specificity, summary
+quality, source reliability, corroboration, extraction quality; each bounded, total
+0-30). When a later, clearly stronger report arrives (margin >= 2), it upgrades the
+canonical **content** (`canonical_title`, `canonical_summary`, and through them the
+event sector/region), while the identity half of the state is never touched. So a
+weak seed ("Earthquake reported in Colombia") is progressively replaced by the best
+report ("Colombia earthquake kills 281, magnitude 7.4, 379 missing") without ever
+changing the event's identity or the matching rules. `last_development` advances only
+on a material UPDATE - never on a duplicate.
+
+`src/storage.py::event_development_report(conn)` returns a per-event development
+audit (first/latest times, story and source counts, best story, canonical strength,
+importance inputs) for the future website and for debugging.
+
+### Telegram at-least-once window
+
+Delivery is honestly **at-least-once**: state is committed only after a successful
+send, so a failure between send and state-save causes the next run to re-send (known
+`message_id`s are stored to narrow the window). This is pinned by tests
+(`src/test_telegram_window.py`) with a mock client: send+save success marks posted,
+send+save failure re-sends next run, network/timeout failures keep the entry with
+bounded attempts, 429 rate limits keep the entry and record `retry_after`, media
+failure falls back to text, and state writes are atomic (temp file + `os.replace`,
+with the temp cleaned up on failure so a partial write can never corrupt the
+previous good state).
+
 ## Source-health history
 
 Every run records per-source quality metrics into the same SQLite database

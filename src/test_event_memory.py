@@ -1006,15 +1006,24 @@ class TestChainMergeIsolation:
         ).fetchone()
         state = json.loads(row[2])
         identity = state["identity"]
-        # Identity stays anchored to the FIRST story.
+        # Identity stays anchored to the FIRST story - matching is
+        # never broadened by later, stronger reports.
         assert identity["title"] == "Earthquake kills 100 in Colombia"
         assert "180" not in identity["numbers"]
         assert "emergency" not in identity["core_words"]
         # The accumulated half carries the developments.
         assert "180" in state["numbers"]
         assert len(state["titles"]) >= 3
-        # The events-table anchor title is the original story too.
-        assert row[0] == "Earthquake kills 100 in Colombia"
+        # Canonical CONTENT may improve (Phase E): the best story
+        # (death toll, tier-1 Reuters) becomes the event's
+        # canonical title/summary, while the identity above is
+        # untouched.  The weak "national emergency" report (low
+        # strength) must never win.
+        assert "180" in row[0]
+        assert "national emergency" not in row[0]
+        best = state["best_story"]
+        assert best["title"] == row[0]
+        assert "180" in best["summary"]
         conn.close()
 
 

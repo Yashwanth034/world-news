@@ -247,8 +247,8 @@ def load_state(state_file, default=None):
 
 
 def save_state(state_file, data):
+    tmp_file = str(state_file) + ".tmp"
     try:
-        tmp_file = str(state_file) + ".tmp"
         with open(
             tmp_file,
             "w",
@@ -263,8 +263,18 @@ def save_state(state_file, data):
             f.flush()
             os.fsync(f.fileno())
         os.replace(tmp_file, state_file)
-    except OSError as exc:
-        raise TelegramPublisherError(
-            "cannot write state file: "
-            + str(exc)
-        )
+    except Exception as exc:
+        # A failed write must never corrupt the previous good
+        # state: remove the partial temp file (best-effort) and
+        # re-raise so the caller knows the commit failed.
+        try:
+            if os.path.exists(tmp_file):
+                os.remove(tmp_file)
+        except OSError:
+            pass
+        if isinstance(exc, OSError):
+            raise TelegramPublisherError(
+                "cannot write state file: "
+                + str(exc)
+            )
+        raise
