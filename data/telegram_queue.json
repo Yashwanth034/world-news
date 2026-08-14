@@ -1,35 +1,44 @@
 {
-  "generated_at": "2026-08-14T18:10:47.886268+00:00",
+  "generated_at": "2026-08-14T18:20:46.188386+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "16ac954db96c9e044870a0e6a05a4d4d0c34a0241e87b71c399a380cc7b3a138",
-      "title": "Russian stock market ends week with main indices down",
-      "url": "https://tass.com/economy/2173529",
+      "id": "79f211980c0f4d4321b42a0036eee72fcbdebb244af499c9be3964060fbc0ca8",
+      "title": "Oil companies increasing fuel supplies to most vulnerable regions — cabinet",
+      "url": "https://tass.com/politics/2173533",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": null,
       "discovery": false,
-      "summary": "The ruble-denominated MOEX Index decreased by 4.29%, the dollar-denominated RTS Index fell by 5.13%",
-      "published_at": "2026-08-14T18:03:37+00:00",
-      "updated_at": "2026-08-14T18:03:37+00:00",
-      "effective_at": "2026-08-14T18:03:37+00:00",
+      "summary": "MOSCOW, August 14. A tight fuel supply situation persists in several Russian regions, with Deputy Prime Minister Alexander Novak having ordered additional measures to ensure supply and monitor prices, the cabinet of ministers reported. Oil companies are working to increase deliveries to a number of regions. Novak has held a meeting on the domestic fuel market situation attended by representatives from the Energy Ministry, the Agriculture Ministry, the Federal Antimonopoly Service, and the Ministry for the Development of the Russian Far East, as well as regional heads and industry companies. \"A representative from the Energy Ministry reported that the situation regarding fuel supplies to gas stations remains strained in a number of the country’s regions. Major oil companies are currently taking necessary measures to increase supplies to the most vulnerable regions,\" the report said. \"Alexander Novak has instructed relevant agencies and oil-producing companies to take additional measures to ensure fuel supplies to regions currently experiencing a tight supply situation. Moreover, instructions have been issued to monitor fuel prices for agricultural producers as well as retail prices at gas stations,\" according to the report. According to the Agriculture Ministry, agricultural enterprises have sufficient fuel supplies, with the harvest campaign proceeding as planned, the government noted. Fuel deliveries to remote regions are continuing according to the approved schedule, the cabinet reported, citing representatives from the Ministry for the Development of the Russian Far East and Arctic and oil firms. The Federal Antimonopoly Service also reported the results of its fuel price analysis across the country’s regions, adding that the agency has initiated proceedings in several price-gouging instances.",
+      "published_at": "2026-08-14T18:14:48+00:00",
+      "updated_at": "2026-08-14T18:14:48+00:00",
+      "effective_at": "2026-08-14T18:14:48+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "industry",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "markets",
-      "subregion": "Europe",
+      "sector": "companies",
+      "subsector": "oil_gas",
+      "subregion": null,
       "country": null,
       "entities": [
-        "index",
-        "moex",
-        "rts",
-        "russia"
+        "agriculture",
+        "alexander",
+        "antimonopoly",
+        "arctic",
+        "development",
+        "east",
+        "energy",
+        "far",
+        "federal",
+        "ministry",
+        "novak",
+        "russia",
+        "service"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -38,102 +47,93 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "e05ed72657cc15cccdcfd093",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
+      "article_sentences": [
+        "MOSCOW, August 14.",
+        "A tight fuel supply situation persists in several Russian regions, with Deputy Prime Minister Alexander Novak having ordered additional measures to ensure supply and monitor prices, the cabinet of ministers reported.",
+        "Oil companies are working to increase deliveries to a number of regions.",
+        "Novak has held a meeting on the domestic fuel market situation attended by representatives from the Energy Ministry, the Agriculture Ministry, the Federal Antimonopoly Service, and the Ministry for the Development of the Russian Far East, as well as regional heads and industry companies.",
+        "\"A representative from the Energy Ministry reported that the situation regarding fuel supplies to gas stations remains strained in a number of the country’s regions.",
+        "Major oil companies are currently taking necessary measures to increase supplies to the most vulnerable regions,\" the report said.",
+        "\"Alexander Novak has instructed relevant agencies and oil-producing companies to take additional measures to ensure fuel supplies to regions currently experiencing a tight supply situation.",
+        "Moreover, instructions have been issued to monitor fuel prices for agricultural producers as well as retail prices at gas stations,\" according to the report.",
+        "According to the Agriculture Ministry, agricultural enterprises have sufficient fuel supplies, with the harvest campaign proceeding as planned, the government noted.",
+        "Fuel deliveries to remote regions are continuing according to the approved schedule, the cabinet reported, citing representatives from the Ministry for the Development of the Russian Far East and Arctic and oil firms.",
+        "The Federal Antimonopoly Service also reported the results of its fuel price analysis across the country’s regions, adding that the agency has initiated proceedings in several price-gouging instances."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "eacef51bf2bd7598cb8c0e49",
+      "importance_score": 71.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "impact": 19,
+        "urgency": 10,
+        "novelty": 9.0,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 24,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
+          "dead": 17,
+          "injured": 17,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8,
+          "human": 8
+        }
       },
-      "story_id": "16ac954db96c9e044870a0e6a05a4d4d0c34a0241e87b71c399a380cc7b3a138",
-      "article_sentences": [
-        "MOSCOW, August 14.",
-        "Russia’s stock market closed in the red on Friday as the ruble-denominated MOEX Index lost 4.29% to 2,136.35 points, while the dollar-denominated RTS Index fell by 5.13% to 796.02 points.",
-        "The yuan exchange rate against the ruble added 8 kopecks to 12.53 rubles.",
-        "\"The MOEX Index accelerated its decline at the end of the week.",
-        "Investors grew weary of holding onto their hopes and shifted to profit-taking,\" said Andrey Smirnov, stock market analyst at BCS World of Investment.",
-        "BCS World of Investment believes the correction in the MOEX Index could halt in the 2,100-2,120 point range, potentially triggering a rebound with an initial target of 2,200 points.",
-        "Analysts estimate that the ruble could begin recovering losses starting next week, with the dollar potentially returning to the 82-83 ruble level and the yuan to 12.1-12.3 rubles.",
-        "Freedom Global expects the MOEX Index to trade within the 2,130-2,230 point range on Monday.",
-        "Forecasts for the dollar, euro, and yuan exchange rates stand at 84-86 rubles, 96-98 rubles, and 12.3-12.6 rubles, respectively.",
-        "Tsifra Broker believes the MOEX Index could find support near the 2,100-point mark or slightly lower.",
-        "In the currency market, exchange rates could hit new highs matching the peaks seen in March: 12.65 rubles per yuan, 84.8 rubles per dollar, and 98-100 rubles per euro."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Russian stock market ends week with main indices down",
+      "story_id": "79f211980c0f4d4321b42a0036eee72fcbdebb244af499c9be3964060fbc0ca8",
+      "public_label": "🔄 UPDATE",
+      "headline": "Oil companies increasing fuel supplies to most vulnerable regions — cabinet",
       "briefing": {
         "opening": [
           "MOSCOW, August 14.",
-          "Russia’s stock market closed in the red on Friday as the ruble-denominated MOEX Index lost 4.29% to 2,136.35 points, while the dollar-denominated RTS Index fell by 5.13% to 796.02 points."
+          "A tight fuel supply situation persists in several Russian regions, with Deputy Prime Minister Alexander Novak having ordered additional measures to ensure supply and monitor prices, the cabinet of ministers reported."
         ],
         "body": [
-          "The yuan exchange rate against the ruble added 8 kopecks to 12.53 rubles.",
-          "\"The MOEX Index accelerated its decline at the end of the week.",
-          "Investors grew weary of holding onto their hopes and shifted to profit-taking,\" said Andrey Smirnov, stock market analyst at BCS World of Investment.",
-          "BCS World of Investment believes the correction in the MOEX Index could halt in the 2,100-2,120 point range, potentially triggering a rebound with an initial target of 2,200 points.",
-          "Analysts estimate that the ruble could begin recovering losses starting next week, with the dollar potentially returning to the 82-83 ruble level and the yuan to 12.1-12.3 rubles.",
-          "Freedom Global expects the MOEX Index to trade within the 2,130-2,230 point range on Monday.",
-          "Forecasts for the dollar, euro, and yuan exchange rates stand at 84-86 rubles, 96-98 rubles, and 12.3-12.6 rubles, respectively.",
-          "Tsifra Broker believes the MOEX Index could find support near the 2,100-point mark or slightly lower."
+          "Novak has held a meeting on the domestic fuel market situation attended by representatives from the Energy Ministry, the Agriculture Ministry, the Federal Antimonopoly Service, and the Ministry for the Development of the Russian Far East, as well as regional heads and industry companies.",
+          "\"A representative from the Energy Ministry reported that the situation regarding fuel supplies to gas stations remains strained in a number of the country’s regions.",
+          "Major oil companies are currently taking necessary measures to increase supplies to the most vulnerable regions,\" the report said.",
+          "\"Alexander Novak has instructed relevant agencies and oil-producing companies to take additional measures to ensure fuel supplies to regions currently experiencing a tight supply situation.",
+          "Moreover, instructions have been issued to monitor fuel prices for agricultural producers as well as retail prices at gas stations,\" according to the report.",
+          "According to the Agriculture Ministry, agricultural enterprises have sufficient fuel supplies, with the harvest campaign proceeding as planned, the government noted.",
+          "Fuel deliveries to remote regions are continuing according to the approved schedule, the cabinet reported, citing representatives from the Ministry for the Development of the Russian Far East and Arctic and oil firms."
         ],
         "bullets": [
           {
-            "icon": "📍",
-            "label": "Location",
-            "text": "BCS World"
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Oil companies are working to increase deliveries to a number of regions."
           }
         ],
         "sentences": [
           {
-            "text": "Russia’s stock market closed in the red on Friday as the ruble-denominated MOEX Index lost 4.29% to 2,136.35 points, while the dollar-denominated RTS Index fell by 5.13% to 796.02 points.",
+            "text": "Novak has held a meeting on the domestic fuel market situation attended by representatives from the Energy Ministry, the Agriculture Ministry, the Federal Antimonopoly Service, and the Ministry for the Development of the Russian Far East, as well as regional heads and industry companies.",
             "source": "TASS English",
-            "item_id": "16ac954db96c9e044870a0e6a05a4d4d0c34a0241e87b71c399a380cc7b3a138:article",
+            "item_id": "79f211980c0f4d4321b42a0036eee72fcbdebb244af499c9be3964060fbc0ca8:article",
             "composed": false
           },
           {
             "text": "MOSCOW, August 14.",
             "source": "TASS English",
-            "item_id": "16ac954db96c9e044870a0e6a05a4d4d0c34a0241e87b71c399a380cc7b3a138:article",
-            "composed": false
-          },
-          {
-            "text": "Analysts estimate that the ruble could begin recovering losses starting next week, with the dollar potentially returning to the 82-83 ruble level and the yuan to 12.1-12.3 rubles.",
-            "source": "TASS English",
-            "item_id": "16ac954db96c9e044870a0e6a05a4d4d0c34a0241e87b71c399a380cc7b3a138:article",
-            "composed": false
-          },
-          {
-            "text": "The yuan exchange rate against the ruble added 8 kopecks to 12.53 rubles.",
-            "source": "TASS English",
-            "item_id": "16ac954db96c9e044870a0e6a05a4d4d0c34a0241e87b71c399a380cc7b3a138:article",
+            "item_id": "79f211980c0f4d4321b42a0036eee72fcbdebb244af499c9be3964060fbc0ca8:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/economy/2173529"
+        "url": "https://tass.com/politics/2173533"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
