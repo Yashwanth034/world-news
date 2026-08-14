@@ -1484,7 +1484,7 @@ def test_no_unsupported_html_or_color():
         assert forbidden not in text
 
 
-def test_five_plus_sentences_when_information_exists():
+def test_max_four_sentences_when_information_exists():
     opening = [
         "Sentence one describes the event.",
         "Sentence two adds location details.",
@@ -1506,7 +1506,11 @@ def test_five_plus_sentences_when_information_exists():
             if s in msg["text"]
         ]
     )
-    assert count >= 5
+    # The final body never exceeds 4 explanatory sentences;
+    # the fifth and sixth are dropped, never padded in.
+    assert 2 <= count <= 4
+    assert "Sentence five reports the impact" not in msg["text"]
+    assert "Sentence six explains what happens" not in msg["text"]
 
 
 def test_short_source_fallback_no_filler():
@@ -3109,18 +3113,18 @@ class TestFinalWorldNewsFormat:
         assert text.count("<b>") == 1
         assert text.count("</b>") == 1
 
-    def test_max_eight_explanatory_sentences(self):
+    def test_max_four_explanatory_sentences(self):
         facts = DISTINCT_STORM_FACTS[:10]
         msg = build_message(
             briefing_item(opening=facts[:2], body=facts[2:]),
             CFG,
         )
         text = msg["text"]
-        # The first eight sentences are kept in order.
-        for i in range(8):
+        # The first four sentences are kept in order.
+        for i in range(4):
             assert facts[i] in text
-        # The ninth and tenth are dropped, never padded in.
-        for i in (8, 9):
+        # The fifth through tenth are dropped, never padded in.
+        for i in (4, 5, 6, 7, 8, 9):
             assert facts[i] not in text
 
     def test_two_sentences_rendered_when_available(self):
@@ -3140,7 +3144,7 @@ class TestFinalWorldNewsFormat:
         assert "The fire has spread to 36 sq miles." in text
         assert "Officials said 20,000 people have fled." in text
 
-    def test_paragraph_never_forced_to_eight_sentences(self):
+    def test_paragraph_never_forced_to_four_sentences(self):
         msg = build_message(
             briefing_item(
                 opening=[

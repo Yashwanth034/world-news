@@ -99,12 +99,12 @@ def summarize(texts, source=None, headline=HEADLINE):
 
 
 # ---------------------------------------------------------------------------
-# 1. Clear 2-8 sentence summaries
+# 1. Clear 2-4 sentence summaries
 # ---------------------------------------------------------------------------
 
 
 class TestSummaryLength:
-    def test_rich_source_yields_between_two_and_eight(self):
+    def test_rich_source_yields_between_two_and_four(self):
         texts = [
             "More than 20,000 residents have been forced from "
             "their homes.",
@@ -128,7 +128,7 @@ class TestSummaryLength:
         ]
         kept, stats = summarize(texts)
         assert kept is not None
-        assert 2 <= len(kept) <= 8
+        assert 2 <= len(kept) <= 4
         assert stats["rejected"] is None
 
     def test_never_padded_beyond_source(self):
@@ -273,7 +273,7 @@ class TestAttribution:
         assert "confirmed" not in joined
 
     def test_uncertainty_preserved(self):
-        text = "Officials said the number could rise."
+        text = "Officials said the storm could strengthen further."
         kept, _ = summarize(
             [text, "Residents were told to stay indoors."],
             source=" ".join(
@@ -802,3 +802,543 @@ class TestLiveBlogRelevance:
         joined = " ".join(r["text"] for r in (kept or []))
         assert "36 square miles" in joined
         assert "Canada" in joined
+
+
+# ---------------------------------------------------------------------------
+# 13. Final content-quality pass (dry-run audit fixes)
+# ---------------------------------------------------------------------------
+
+
+class TestHeadlineBodyCoherence:
+    """The composed body must actually explain the headline's main
+    event.  A live-blog headline whose body belongs to a different
+    story in the blog is rejected, never repaired."""
+
+    def test_headline_topic_a_body_topic_b_rejected(self):
+        # Audit case: "... business live" headline about US bond
+        # yields, body about Brent crude only.
+        kept, stats = summarize_rows(
+            [
+                row(
+                    "Brent crude oil prices rose by 2 percent on "
+                    "Tuesday."
+                ),
+                row(
+                    "Traders are watching the next Opec meeting "
+                    "for supply signals."
+                ),
+            ],
+            (
+                "Brent crude oil prices rose by 2 percent on "
+                "Tuesday. Traders are watching the next Opec "
+                "meeting for supply signals."
+            ),
+            (
+                "US long-term borrowing costs rise to 25-year "
+                "high, as inflation fears hit bond sale - "
+                "business live"
+            ),
+            cfg=CFG["summarization"],
+        )
+        assert kept is None
+        assert stats["rejected"] == "coherence"
+
+    def test_liveblog_headline_unrelated_body_rejected(self):
+        # A multi-topic live-blog headline with a body from a
+        # different story in the same blog.
+        kept, stats = summarize_rows(
+            [
+                row(
+                    "Brent crude fell below 70 dollars a barrel "
+                    "on Tuesday."
+                ),
+                row(
+                    "The yen weakened to a 38-year low against "
+                    "the dollar."
+                ),
+            ],
+            (
+                "Brent crude fell below 70 dollars a barrel on "
+                "Tuesday. The yen weakened to a 38-year low "
+                "against the dollar."
+            ),
+            "Markets live: bond yields surge as inflation fears grow",
+            cfg=CFG["summarization"],
+        )
+        assert kept is None
+        assert stats["rejected"] == "coherence"
+
+    def test_headline_body_same_event_accepted(self):
+        kept, stats = summarize_rows(
+            [
+                row(
+                    "The wildfire has grown to cover 36 square "
+                    "miles."
+                ),
+                row(
+                    "Officials said 20,000 residents have been "
+                    "evacuated so far."
+                ),
+            ],
+            (
+                "The wildfire has grown to cover 36 square miles. "
+                "Officials said 20,000 residents have been "
+                "evacuated so far."
+            ),
+            (
+                "State of emergency declared as fast-moving "
+                "Canada wildfire doubles in size"
+            ),
+            cfg=CFG["summarization"],
+        )
+        assert kept is not None
+        assert stats["rejected"] is None
+
+
+class TestLiveBlogBoilerplate:
+    """Live-blog navigation prompts and follow-me text must never
+    enter a summary."""
+
+    def test_liveblog_follow_prompts_stripped(self):
+        from src.telegram_briefing import clean_sentence_text
+        assert clean_sentence_text(
+            "Follow our liveblog for the latest updates."
+        ) == ""
+        assert clean_sentence_text(
+            "Follow live updates for the latest developments."
+        ) == ""
+        assert clean_sentence_text(
+            "Get the latest updates."
+        ) == ""
+        assert clean_sentence_text(
+            "Liveblog navigation"
+        ) == ""
+
+    def test_liveblog_follow_prompt_dropped_from_summary(self):
+        # Audit case: the USS Lincoln story ended with "Follow our
+        # liveblog for the latest updates." - the prompt must never
+        # appear in the final body.
+        texts = [
+            "Reports of declining mental health have been "
+            "flagged by US sailors aboard the USS Lincoln.",
+            "The ship has so far spent a record 260 "
+            "uninterrupted days at sea.",
+            "Follow our liveblog for the latest updates.",
+        ]
+        kept, stats = summarize_rows(
+            [
+                row(t) for t in texts
+            ],
+            " ".join(texts),
+            "US sailors report dire conditions aboard aircraft carrier",
+            cfg=CFG["summarization"],
+        )
+        assert kept is not None
+        assert not any(
+            "liveblog" in r["text"] for r in kept
+        )
+
+
+class TestListMarkerChrome:
+    """Page/list markers ("- list 3 of 3") and the recommended-
+    story lines they prefix must be stripped before summarization."""
+
+    def test_list_marker_fused_with_next_item_stripped(self):
+        from src.telegram_briefing import clean_sentence_text
+        assert clean_sentence_text(
+            "- list 3 of 3Why has North Korea's new satellite "
+            "alarmed Seoul?"
+        ) == "Why has North Korea's new satellite alarmed Seoul?"
+        result = clean_sentence_text(
+            "- list 1 of 3North Korea's hackers using AI for "
+            "attacks, cybersecurity firm says"
+        )
+        assert "list 1 of 3" not in result
+        assert clean_sentence_text(
+            "Recommended Stories"
+        ) == ""
+        assert clean_sentence_text(
+            "list of 3 items"
+        ) == ""
+
+    def test_list_marker_leak_never_queued(self):
+        kept, stats = summarize_rows(
+            [
+                row(
+                    "- list 3 of 3Why has North Korea's new "
+                    "satellite alarmed Seoul?"
+                ),
+                row(
+                    "- list 2 of 3What will Pyongyang do next?"
+                ),
+            ],
+            (
+                "- list 3 of 3Why has North Korea's new satellite "
+                "alarmed Seoul? - list 2 of 3What will Pyongyang "
+                "do next?"
+            ),
+            "North Korea launches new satellite",
+            cfg=CFG["summarization"],
+        )
+        assert kept is None
+
+
+class TestFusedSentenceRepair:
+    """HTML/line-break extraction damage ("...centre Orangutans
+    rescued...") must be reconstructed when safe and rejected
+    otherwise - never published corrupted."""
+
+    def test_fused_sentence_with_common_word_evidence_split(self):
+        # "orangutans" is used as a common word in the source, so
+        # the boundary is a real sentence start and the row is
+        # safely reconstructed - never published fused.
+        text = (
+            "Blaze comes within metres of the rehabilitation "
+            "centre Orangutans rescued from traffickers face a "
+            "new threat."
+        )
+        kept, stats = summarize_rows(
+            [
+                row(text),
+                row(
+                    "Flames have come within metres of a "
+                    "rehabilitation centre in West Kalimantan."
+                ),
+            ],
+            text + " Flames have come within metres of a "
+            "rehabilitation centre in West Kalimantan.",
+            "Wildfires threaten orangutans rescued from traffickers",
+            cfg=CFG["summarization"],
+        )
+        assert stats["rejected"] is None
+        joined = " ".join(r["text"] for r in kept)
+        assert "centre Orangutans" not in joined
+        assert "face a new threat" in joined
+
+    def test_fused_sentence_without_evidence_dropped(self):
+        # "Ponds" is never used as a common word in the source, so
+        # the corrupted row is dropped rather than published.
+        text = (
+            "Farmers are finding new ways to help crops survive "
+            "Ponds and collection tanks are being built."
+        )
+        kept, stats = summarize_rows(
+            [
+                row(text),
+                row(
+                    "The drought has brought a series of "
+                    "challenges this summer."
+                ),
+            ],
+            text + " The drought has brought a series of challenges "
+            "this summer.",
+            "UK farmers struggle through drought",
+            cfg=CFG["summarization"],
+        )
+        assert kept is None
+        assert stats["rejected"] == "insufficient_information"
+
+    def test_fused_after_closing_quote_split(self):
+        # Audit case: a standfirst fuses into the lede after a
+        # closing quote: "...'digital lifeline' In Taipei, the
+        # streets swiftly empty...".
+        text = (
+            "Taiwan practised cutting off internet for the first "
+            "time amid concerns about the safety of the undersea "
+            "cables that form its 'digital lifeline' In Taipei, "
+            "the streets swiftly empty as air raid sirens ring "
+            "out."
+        )
+        kept, stats = summarize_rows(
+            [
+                row(text),
+                row(
+                    "Police officers usher stragglers into "
+                    "shelters."
+                ),
+            ],
+            text + " Police officers usher stragglers into "
+            "shelters.",
+            "Taiwan simulates an internet blackout",
+            cfg=CFG["summarization"],
+        )
+        assert stats["rejected"] is None
+        joined = " ".join(r["text"] for r in kept)
+        assert "lifeline' In" not in joined
+
+    def test_fused_after_apostrophe_quote_split(self):
+        # Audit case: "...taxing gas exports' Cross-benchers have
+        # slammed..." - a closing quote ends the fragment and a
+        # new sentence starts after it.  The boundary is
+        # unambiguous (the quote is the signal) and is split.
+        text = (
+            "Greens say Labor's reform is set to 'rip supports "
+            "away' Cross-benchers have slammed the overhaul."
+        )
+        kept, stats = summarize_rows(
+            [
+                row(text),
+                row(
+                    "The report on the NDIS overhaul was released "
+                    "on Friday afternoon."
+                ),
+            ],
+            (
+                text + " The report on the NDIS overhaul was "
+                "released on Friday afternoon."
+            ),
+            "Senators slam NDIS overhaul",
+            cfg=CFG["summarization"],
+        )
+        assert stats["rejected"] is None
+        joined = " ".join(r["text"] for r in kept)
+        assert "away' Cross-benchers" not in joined
+        assert "slammed the overhaul" in joined
+
+    def test_fused_reporting_verb_lowercased_not_split(self):
+        # Audit case: "...Rightmove says Searches for homes..."
+        # fuses after a reporting verb.  The capitalised word is
+        # a common noun verified in the source, so the clean
+        # reconstruction lowercases it (every word preserved);
+        # splitting would orphan a "Rightmove says." fragment.
+        text = (
+            "Rightmove says Searches for homes for sale jumped "
+            "11% in the first week of the year, as buyers "
+            "returned to the market."
+        )
+        kept, stats = summarize_rows(
+            [
+                row(text),
+                row(
+                    "The portal said demand had recovered after "
+                    "the festive lull."
+                ),
+            ],
+            text + " The portal said demand had recovered after "
+            "the festive lull.",
+            "Rightmove reports jump in home searches",
+            cfg=CFG["summarization"],
+        )
+        assert stats["rejected"] is None
+        joined = " ".join(r["text"] for r in kept)
+        assert "Searches" not in joined
+        assert "says searches for homes" in joined
+
+    def test_fused_ellipsis_boundary_split(self):
+        # Audit case: a live-blog subheading ends with "…" and
+        # the next item starts fresh: "...rates?…Professor Costas
+        # Milas...".  The ellipsis is the boundary signal and the
+        # row is split, never fused.
+        text = (
+            "But why are 10-year Treasury yields still near the "
+            "key 5% level, when the US central bank has begun "
+            "cutting rates?…Professor Costas Milas, of the "
+            "University of Liverpool, says the yen story is at "
+            "least as important as the dollar story"
+        )
+        kept, stats = summarize_rows(
+            [
+                row(text),
+                row(
+                    "US long-term borrowing costs have risen to a "
+                    "25-year high."
+                ),
+            ],
+            text + " US long-term borrowing costs have risen to a "
+            "25-year high.",
+            "US long-term borrowing costs rise to 25-year high",
+            cfg=CFG["summarization"],
+        )
+        # The yen fragment carries no fact tied to the bond-sale
+        # headline, so the story is rejected rather than published
+        # with a mismatch (fix-1 behaviour).
+        assert kept is None
+        assert stats["rejected"] == "quality"
+
+
+class TestQuestionOnlyRejection:
+    """A body that only asks questions explains nothing and is
+    rejected; the answer is never invented."""
+
+    def test_question_only_summary_rejected(self):
+        kept, stats = summarize_rows(
+            [
+                row(
+                    "Why is the Sun's corona millions of degrees "
+                    "hotter than its surface?"
+                ),
+                row(
+                    "What does this mean for future solar "
+                    "missions?"
+                ),
+            ],
+            (
+                "Why is the Sun's corona millions of degrees "
+                "hotter than its surface? What does this mean "
+                "for future solar missions?"
+            ),
+            (
+                "Indian solar mission's new findings throw light "
+                "on enduring Sun mysteries"
+            ),
+            cfg=CFG["summarization"],
+        )
+        assert kept is None
+        assert stats["rejected"] == "question_only"
+
+    def test_fact_free_background_rejected(self):
+        # Pure article-introduction text carries no news fact.
+        kept, stats = summarize_rows(
+            [
+                row(
+                    "The corona is the outermost layer of the "
+                    "sun's atmosphere."
+                ),
+                row(
+                    "The sun is the star at the center of the "
+                    "solar system."
+                ),
+            ],
+            (
+                "The corona is the outermost layer of the sun's "
+                "atmosphere. The sun is the star at the center "
+                "of the solar system."
+            ),
+            "Solar mission reports new findings",
+            cfg=CFG["summarization"],
+        )
+        assert kept is None
+        assert stats["rejected"] == "no_news_content"
+
+
+class TestUnattributedQuotes:
+    """A quoted body must identify who said it; an unattributed
+    quote is rejected, never published with an invented speaker."""
+
+    def test_unattributed_leading_quote_rejected(self):
+        # The quote row must survive to the composition stage, so
+        # the headline links to it; the quote gate then rejects.
+        kept, stats = summarize_rows(
+            [
+                row('"I feel sick."'),
+                row("The journey home took 9 hours."),
+            ],
+            '"I feel sick." The journey home took 9 hours.',
+            "Residents feel sick as the journey home takes 9 hours",
+            cfg=CFG["summarization"],
+        )
+        assert kept is None
+        assert stats["rejected"] == "unattributed_quote"
+
+    def test_pronoun_only_attribution_rejected(self):
+        # "he said" does not identify the speaker.
+        kept, stats = summarize_rows(
+            [
+                row(
+                    '"Look, we are working constructively," he said.'
+                ),
+                row("The talks resume on Monday."),
+            ],
+            (
+                '"Look, we are working constructively," he said. '
+                "The talks resume on Monday."
+            ),
+            (
+                "Minister says parties are working constructively "
+                "as talks resume"
+            ),
+            cfg=CFG["summarization"],
+        )
+        assert kept is None
+        assert stats["rejected"] == "unattributed_quote"
+
+    def test_unattributed_first_person_fragment_rejected(self):
+        # Audit case: a body opening with "I feel sick." - direct
+        # speech with no speaker named anywhere.
+        kept, stats = summarize_rows(
+            [
+                row("I feel sick."),
+                row(
+                    "The widow has said she has been left feeling "
+                    "sick with worry."
+                ),
+            ],
+            (
+                "I feel sick. The widow has said she has been "
+                "left feeling sick with worry."
+            ),
+            "British widow faces removal from Sweden",
+            cfg=CFG["summarization"],
+        )
+        assert kept is None
+        assert stats["rejected"] == "unattributed_quote"
+
+    def test_unattributed_spoken_opening_rejected(self):
+        # "Look, we're working constructively..." with no speaker.
+        kept, stats = summarize_rows(
+            [
+                row(
+                    "Albanese said gambling inducements are 'over "
+                    "the top'."
+                ),
+                row(
+                    "Look, we're working constructively across "
+                    "the parliament to put in place these reforms."
+                ),
+            ],
+            (
+                "Albanese said gambling inducements are 'over the "
+                "top'. Look, we're working constructively across "
+                "the parliament to put in place these reforms."
+            ),
+            "Bet365 apologises after children wear gambling logos",
+            cfg=CFG["summarization"],
+        )
+        assert kept is None
+        assert stats["rejected"] == "unattributed_quote"
+
+    def test_attributed_first_person_sentence_accepted(self):
+        # The source carries both the quoted form and the fronted
+        # "The minister said ..." form so the composed sentence
+        # verifies; the spoken row names its speaker and survives.
+        kept, stats = summarize_rows(
+            [
+                row(
+                    "We are confident the talks will succeed, the "
+                    "minister said."
+                ),
+                row("The talks will resume on Monday."),
+            ],
+            (
+                "We are confident the talks will succeed, the "
+                "minister said. The minister said we are confident "
+                "the talks will succeed. The talks will resume on "
+                "Monday."
+            ),
+            "Minister says talks will resume",
+            cfg=CFG["summarization"],
+        )
+        assert kept is not None
+        assert stats["rejected"] is None
+
+    def test_attributed_quote_accepted(self):
+        kept, stats = summarize_rows(
+            [
+                row(
+                    '"We are working constructively", the minister '
+                    "said."
+                ),
+                row("The talks will resume on Monday."),
+            ],
+            (
+                '"We are working constructively", the minister said. '
+                "The talks will resume on Monday."
+            ),
+            (
+                "Minister says parties are working constructively "
+                "as talks resume"
+            ),
+            cfg=CFG["summarization"],
+        )
+        assert kept is not None
+        assert stats["rejected"] is None

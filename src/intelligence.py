@@ -119,14 +119,33 @@ def _category(text, source_category):
 
     scores = {}
 
+    # Count OCCURRENCES of each term (word-boundary matched), not
+    # mere presence: a headline that says "football" twice is a
+    # sports story, and a regional feed label is never the topic.
     for category, terms in CATEGORY_TERMS.items():
-        scores[category] = sum(
-            1 for term in terms
-            if term in lower
-        )
+        score = 0
+        for term in terms:
+            if term in _TERM_RES[category]:
+                score += len(_TERM_RES[category][term].findall(lower))
+        scores[category] = score
 
-    best_category = max(scores, key=scores.get)
-    best_score = scores[best_category]
+    best_score = max(scores.values())
+
+    if best_score == 0:
+        return "world"
+
+    tied = [
+        category
+        for category, score in scores.items()
+        if score == best_score
+    ]
+
+    # Stable tie-break: prefer the source's own topic label, then
+    # the first category in definition order.
+    if len(tied) > 1 and raw in tied:
+        best_category = raw
+    else:
+        best_category = tied[0]
 
     # A regional/source label should never become the article topic.
     if raw in regional_categories:
@@ -147,6 +166,24 @@ def _category(text, source_category):
         return best_category
 
     return "world"
+
+
+def _compile_terms():
+    """Word-boundary regexes per term so short terms ("ai",
+    "f1", "bank") never match inside unrelated words."""
+    res = {}
+    for category, terms in CATEGORY_TERMS.items():
+        res[category] = {
+            term: re.compile(
+                r"\b" + re.escape(term) + r"\b",
+                re.IGNORECASE,
+            )
+            for term in terms
+        }
+    return res
+
+
+_TERM_RES = _compile_terms()
 
 def classify(title, summary, source_category, item=None):
     item = item or {}

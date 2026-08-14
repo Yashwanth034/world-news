@@ -445,14 +445,17 @@ def main(argv=None):
 
     if not args.yes:
         try:
-            input(
+            answer = input(
                 "CONFIRM: send telegram messages to "
                 + channel_id
                 + "? [y/N] "
-            )
+            ).strip().lower()
             print()
         except EOFError:
             print("no tty; refusing without --yes")
+            return 2
+        if answer not in ("y", "yes"):
+            print("aborted.")
             return 2
 
     try:
@@ -478,137 +481,144 @@ def main(argv=None):
 
     wait_budget = RATE_LIMIT_BUDGET_SECONDS
 
-    for entry in list(
-        state.get("scheduled", [])
-    ):
-
-        scheduled_at = entry.get("scheduled_at")
-
-        if not scheduled_at:
-            continue
-
-        when = parse_dt(scheduled_at)
-
-        if when is None:
-            continue
-
-        remaining = (
-            when - now_utc()
-        ).total_seconds()
-
-        if remaining > 0:
-            print()
-            print(
-                "=== waiting",
-                int(remaining),
-                "seconds for",
-                entry.get("story_id", "?")[:8],
-                "===",
-            )
-            sleep_until(when.timestamp())
-
-        report = publish_due(
-            publisher,
-            channel_id,
-            state,
-            items,
-            float(
-                telegram_cfg.get(
-                    "freshness_hours",
-                    6
-                )
-            ),
-            int(
-                telegram_cfg.get(
-                    "max_posts_per_hour",
-                    20
-                )
-            ),
-            int(
-                telegram_cfg.get(
-                    "max_posts_per_day",
-                    150
-                )
-            ),
-            int(
-                telegram_cfg.get(
-                    "min_gap_seconds",
-                    60
-                )
-            ),
-            max_attempts,
-            cfg=telegram_cfg,
-            now=now_utc(),
-        )
-
-        save_state(str(state_file), state)
-
-        totals["due"] += report["due"]
-        totals["published"].extend(
-            report["published"]
-        )
-        totals["skipped_cap"].extend(
-            report["skipped_cap"]
-        )
-        totals["skipped_gap"].extend(
-            report["skipped_gap"]
-        )
-        totals["expired"].extend(
-            report["expired"]
-        )
-        totals["failed"].extend(
-            report["failed"]
-        )
-
-        if (
-            report["rate_limited"]
-            and totals["rate_limited"] is None
+    # try/finally narrows the at-least-once window: state is
+    # persisted even when an unexpected exception interrupts
+    # the publish loop, so a message that was sent is recorded
+    # as posted before the next run can see the old state.
+    try:
+        for entry in list(
+            state.get("scheduled", [])
         ):
-            totals["rate_limited"] = (
-                report["rate_limited"]
-            )
 
-        if report["rate_limited"] and wait_budget > 0:
+            scheduled_at = entry.get("scheduled_at")
 
-            wait = rate_limit_wait_seconds(
-                report["rate_limited"],
-                budget=wait_budget,
-            )
+            if not scheduled_at:
+                continue
 
-            if wait > 0:
+            when = parse_dt(scheduled_at)
 
+            if when is None:
+                continue
+
+            remaining = (
+                when - now_utc()
+            ).total_seconds()
+
+            if remaining > 0:
                 print()
                 print(
-                    "=== rate limited: waiting",
-                    wait,
-                    "seconds before retrying ===",
+                    "=== waiting",
+                    int(remaining),
+                    "seconds for",
+                    entry.get("story_id", "?")[:8],
+                    "===",
+                )
+                sleep_until(when.timestamp())
+
+            report = publish_due(
+                publisher,
+                channel_id,
+                state,
+                items,
+                float(
+                    telegram_cfg.get(
+                        "freshness_hours",
+                        6
+                    )
+                ),
+                int(
+                    telegram_cfg.get(
+                        "max_posts_per_hour",
+                        20
+                    )
+                ),
+                int(
+                    telegram_cfg.get(
+                        "max_posts_per_day",
+                        150
+                    )
+                ),
+                int(
+                    telegram_cfg.get(
+                        "min_gap_seconds",
+                        60
+                    )
+                ),
+                max_attempts,
+                cfg=telegram_cfg,
+                now=now_utc(),
+            )
+
+            save_state(str(state_file), state)
+
+            totals["due"] += report["due"]
+            totals["published"].extend(
+                report["published"]
+            )
+            totals["skipped_cap"].extend(
+                report["skipped_cap"]
+            )
+            totals["skipped_gap"].extend(
+                report["skipped_gap"]
+            )
+            totals["expired"].extend(
+                report["expired"]
+            )
+            totals["failed"].extend(
+                report["failed"]
+            )
+
+            if (
+                report["rate_limited"]
+                and totals["rate_limited"] is None
+            ):
+                totals["rate_limited"] = (
+                    report["rate_limited"]
                 )
 
-                time.sleep(wait)
-                wait_budget -= wait
+            if report["rate_limited"] and wait_budget > 0:
 
-        if report["published"]:
-            for p in report["published"]:
+                wait = rate_limit_wait_seconds(
+                    report["rate_limited"],
+                    budget=wait_budget,
+                )
+
+                if wait > 0:
+
+                    print()
+                    print(
+                        "=== rate limited: waiting",
+                        wait,
+                        "seconds before retrying ===",
+                    )
+
+                    time.sleep(wait)
+                    wait_budget -= wait
+
+            if report["published"]:
+                for p in report["published"]:
+                    report_line(
+                        "published",
+                        "{} | message_id={}".format(
+                            p.get("story_id", "?")[:8],
+                            p.get("message_id", "dry"),
+                        ),
+                    )
+
+            for f in report["failed"]:
                 report_line(
-                    "published",
-                    "{} | message_id={}".format(
-                        p.get("story_id", "?")[:8],
-                        p.get("message_id", "dry"),
+                    "failed",
+                    "{} | attempts={} | {}".format(
+                        f.get("story_id", "?")[:8],
+                        f.get("attempts", 1),
+                        f.get("error", "?"),
                     ),
                 )
 
-        for f in report["failed"]:
-            report_line(
-                "failed",
-                "{} | attempts={} | {}".format(
-                    f.get("story_id", "?")[:8],
-                    f.get("attempts", 1),
-                    f.get("error", "?"),
-                ),
-            )
-
-        if not report["due"]:
-            break
+            if not report["due"]:
+                break
+    finally:
+        save_state(str(state_file), state)
 
     print()
     print(

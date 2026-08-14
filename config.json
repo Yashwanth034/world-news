@@ -383,8 +383,8 @@
   "summarization": {
     "enabled": true,
     "min_sentences": 2,
-    "max_sentences": 8,
-    "tier1_max": 6
+    "max_sentences": 4,
+    "tier1_max": 4
   },
   "telegram": {
     "channel_id": "",
@@ -406,8 +406,8 @@
     ],
     "breaking_immediate": true,
     "just_in_freshness_minutes": 15,
-    "target_message_chars": 1500,
-    "max_message_chars": 3000,
+    "target_message_chars": 950,
+    "max_message_chars": 1500,
     "max_attempts_per_story": 2,
     "media": {
       "enabled": true,

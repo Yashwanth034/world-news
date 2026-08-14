@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import sqlite3
 import hashlib
@@ -7,12 +8,11 @@ from pathlib import Path
 
 from src.intelligence import classify, verify
 from src.event_memory import init_events, decide, mark_queued, purge_expired
-from src.formatter import format_story
 from src.language import check_item
 from src.translator import translate_to_english, TranslationError
 from src.source_reliability import is_discovery
 from src.collector import collect
-from src.quality import quality_check
+from src.editorial import editorial_eligibility
 from src.priority import priority
 
 
@@ -39,6 +39,22 @@ def clean(t):
         " ",
         re.sub(r"<[^>]+>", " ", t or "")
     ).strip()
+
+
+def atomic_write_json(path, data):
+    """Write JSON atomically: temp file + fsync + rename.
+
+    A partially written file can never be observed after an
+    interrupted run.
+    """
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_name(path.name + ".tmp")
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        f.flush()
+        os.fsync(f.fileno())
+    os.replace(tmp, path)
 
 
 def sid(u, t):
@@ -140,23 +156,15 @@ def fetch():
         max_age_hours=48,
     )
 
-    SOURCE_HEALTH.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    SOURCE_HEALTH.write_text(
-        json.dumps(
-            {
-                "generated_at": datetime.now(
-                    timezone.utc
-                ).isoformat(),
-                "max_age_hours": 48,
-                "sources": health,
-            },
-            indent=2,
-            ensure_ascii=False,
-        )
+    atomic_write_json(
+        SOURCE_HEALTH,
+        {
+            "generated_at": datetime.now(
+                timezone.utc
+            ).isoformat(),
+            "max_age_hours": 48,
+            "sources": health,
+        },
     )
 
     out = []
@@ -254,13 +262,13 @@ def build_telegram_stories(
 
     Same grouping and briefing steps as before, then the
     source-grounded summarizer composes each story's final
-    2-8 sentence summary (article text primary when article
+    2-4 sentence summary (article text primary when article
     extraction is available, RSS summary otherwise), verifies
-    it against the source, and quality-checks it.  A story
-    whose source material holds fewer than two genuinely
-    useful sentences is rejected and never enters the
-    telegram queue.  No text is ever invented for rejected
-    stories.
+    it against the source, checks headline/body consistency,
+    and quality-checks it.  A story whose source material
+    holds fewer than two genuinely useful sentences is
+    rejected and never enters the telegram queue.  No text is
+    ever invented for rejected stories.
     """
     from src.telegram_briefing import (
         build_briefing,
@@ -281,6 +289,7 @@ def build_telegram_stories(
                 "rejected_insufficient": 0,
                 "rejected_verification": 0,
                 "rejected_quality": 0,
+                "rejected_consistency": 0,
                 "sentences_composed": 0,
                 "sentences_verify_dropped": 0,
                 "sentences_quality_dropped": 0,
@@ -432,6 +441,21 @@ def build_telegram_stories(
                     summarization_stats[
                         "rejected_quality"
                     ] += 1
+                elif reason in (
+                    "consistency",
+                    "coherence",
+                ):
+                    summarization_stats[
+                        "rejected_consistency"
+                    ] += 1
+                elif reason in (
+                    "question_only",
+                    "no_news_content",
+                    "unattributed_quote",
+                ):
+                    summarization_stats[
+                        "rejected_quality"
+                    ] += 1
                 else:
                     summarization_stats[
                         "rejected_insufficient"
@@ -543,9 +567,10 @@ def main():
     q = []
     held = []
 
-    # Stories that fail quality are rejected and skipped.
-    # They are NOT placed into the held/publish pipeline.
-    quality_rejected = []
+    # Stories that fail the editorial eligibility gate are
+    # rejected and skipped.  They are NOT placed into the
+    # held/publish pipeline.
+    editorial_rejected = []
 
     # Diagnostic list for stories rejected by score.
     below_score_stories = []
@@ -563,8 +588,7 @@ def main():
         "below_score": 0,
         "discovery_held": 0,
         "low_confidence_rejected": 0,
-        "quality_failed": 0,
-        "quality_rejected": 0,
+        "editorial_rejected": 0,
         "translation_held": 0,
         "queued_before_limit": 0,
         "non_news_filtered": 0,
@@ -634,6 +658,26 @@ def main():
                 x
             )
         )
+
+        # -----------------------------------------------------
+        # Editorial eligibility
+        #
+        # Content-type gate: product reviews, buying guides,
+        # opinion columns, evergreen how-tos and sponsored
+        # material are rejected before any further work.
+        # -----------------------------------------------------
+
+        reasons = []
+
+        if not editorial_eligibility(x, reasons):
+            run_stats["editorial_rejected"] += 1
+            editorial_rejected.append({
+                "id": x.get("id"),
+                "title": x.get("title"),
+                "source": x.get("source"),
+                "reasons": reasons,
+            })
+            continue
 
         # -----------------------------------------------------
         # Verification
@@ -726,6 +770,20 @@ def main():
                 priority(x)
             )
 
+            # Re-run the editorial gate on the translated
+            # text (junk that was not visible in the original
+            # language is caught here).
+            reasons = []
+            if not editorial_eligibility(x, reasons):
+                run_stats["editorial_rejected"] += 1
+                editorial_rejected.append({
+                    "id": x.get("id"),
+                    "title": x.get("title"),
+                    "source": x.get("source"),
+                    "reasons": reasons,
+                })
+                continue
+
         # -----------------------------------------------------
         # Event memory
         # -----------------------------------------------------
@@ -744,10 +802,9 @@ def main():
         # Store story
         #
         # IMPORTANT:
-        # Store the story BEFORE quality checking.
-        #
-        # This means a rejected quality story is remembered
-        # and will not be treated as a brand-new story again.
+        # Store the story before the duplicate/score gates so a
+        # rejected story is remembered and never treated as a
+        # brand-new story again.
         # -----------------------------------------------------
 
         c.execute(
@@ -870,75 +927,7 @@ def main():
             continue
 
         # -----------------------------------------------------
-        # Formatting
-        # -----------------------------------------------------
-
-        x.update(
-            format_story(
-                x,
-                CONFIG["breaking_min_score"]
-            )
-        )
-
-        # -----------------------------------------------------
-        # Quality
-        # -----------------------------------------------------
-
-        x.update(
-            quality_check(x)
-        )
-
-        # -----------------------------------------------------
-        # QUALITY FAILURE
-        #
-        # IMPORTANT FIX:
-        #
-        # DO NOT put failed stories into "held".
-        #
-        # They are rejected and skipped.
-        # Good stories continue processing.
-        # -----------------------------------------------------
-
-        if not x["quality_pass"]:
-
-            run_stats[
-                "quality_failed"
-            ] += 1
-
-            run_stats[
-                "quality_rejected"
-            ] += 1
-
-            quality_rejected.append({
-                "id": x.get("id"),
-                "title": x.get("title"),
-                "source": x.get("source"),
-                "quality_errors": x.get(
-                    "quality_errors",
-                    []
-                ),
-            })
-
-            print(
-                "QUALITY REJECTED:",
-                x.get("title", ""),
-                "|",
-                x.get(
-                    "quality_errors",
-                    []
-                )
-            )
-
-            # IMPORTANT:
-            # No held.append(x)
-            # No q.append(x)
-            # No mark_queued()
-            #
-            # Simply move to the next story.
-            continue
-
-        # -----------------------------------------------------
-        # Queue only quality-passed stories.
+        # Queue the story for the Telegram pipeline.
         # -----------------------------------------------------
 
         q.append(x)
@@ -988,7 +977,7 @@ def main():
     # Does not alter queue.json, deduplication, event memory,
     # scoring, or any existing pipeline behavior.
     #
-    # Captures all quality-passed stories BEFORE the
+    # Captures all pipeline stories BEFORE the
     # max_stories_per_run slice, applies the Telegram
     # freshness window, and writes a separate bounded
     # candidate file for the Telegram scheduler.
@@ -1183,23 +1172,15 @@ def main():
         ),
     )
 
-    TELEGRAM_QUEUE.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    TELEGRAM_QUEUE.write_text(
-        json.dumps(
-            {
-                "generated_at": now,
-                "count": len(
-                    telegram_stories
-                ),
-                "stories": telegram_stories,
-            },
-            indent=2,
-            ensure_ascii=False,
-        )
+    atomic_write_json(
+        TELEGRAM_QUEUE,
+        {
+            "generated_at": now,
+            "count": len(
+                telegram_stories
+            ),
+            "stories": telegram_stories,
+        },
     )
 
     # ---------------------------------------------------------
@@ -1211,33 +1192,27 @@ def main():
     ]
 
     # ---------------------------------------------------------
-    # Write queue
+    # Write the internal pipeline queue
     #
-    # IMPORTANT:
-    # quality-rejected stories are NOT written to "held".
+    # data/queue.json is the INTERNAL pipeline diagnostics
+    # queue (queued stories, held items, editorial rejections).
+    # The Telegram scheduler reads only
+    # data/telegram_queue.json.  See README.
     # ---------------------------------------------------------
 
-    QUEUE.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    QUEUE.write_text(
-        json.dumps(
-            {
-                "generated_at": now,
-                "count": len(q),
-                "held_count": len(held),
-                "quality_rejected_count": len(
-                    quality_rejected
-                ),
-                "stories": q,
-                "held": held[:30],
-                "quality_rejected": quality_rejected[:30],
-            },
-            indent=2,
-            ensure_ascii=False,
-        )
+    atomic_write_json(
+        QUEUE,
+        {
+            "generated_at": now,
+            "count": len(q),
+            "held_count": len(held),
+            "editorial_rejected_count": len(
+                editorial_rejected
+            ),
+            "stories": q,
+            "held": held[:30],
+            "editorial_rejected": editorial_rejected[:30],
+        },
     )
 
     # ---------------------------------------------------------
@@ -1248,7 +1223,6 @@ def main():
         print(
             f"[{x['priority_level']} | "
             f"{x['event_status']} | "
-            f"{x['format']} | "
             f"{x.get('region')} | "
             f"{x['priority_score']}] "
             f"{x['title']}"
@@ -1274,8 +1248,8 @@ def main():
     )
 
     print(
-        "Quality rejected:",
-        len(quality_rejected)
+        "Editorial rejected:",
+        len(editorial_rejected)
     )
 
     # ---------------------------------------------------------
@@ -1293,16 +1267,16 @@ def main():
     )
 
     # ---------------------------------------------------------
-    # Quality rejection diagnostics
+    # Editorial rejection diagnostics
     # ---------------------------------------------------------
 
-    if quality_rejected:
+    if editorial_rejected:
 
         print(
-            "\nQUALITY REJECTED STORIES"
+            "\nEDITORIAL REJECTED STORIES"
         )
 
-        for story in quality_rejected:
+        for story in editorial_rejected:
 
             print(
                 f"[{story.get('source', '')}] "
@@ -1310,10 +1284,10 @@ def main():
             )
 
             print(
-                "  Errors:",
+                "  Reasons:",
                 ", ".join(
                     story.get(
-                        "quality_errors",
+                        "reasons",
                         []
                     )
                 )

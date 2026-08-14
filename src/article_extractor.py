@@ -34,6 +34,7 @@ import requests
 import trafilatura
 
 from courlan import extract_domain
+from src import source_reliability
 from src.telegram_briefing import (
     JUST_IN,
     UPDATE,
@@ -55,6 +56,7 @@ NEGATIVE_STATUSES = {
     "non_article",
     "paywall",
     "no_text",
+    "junk",
     "timeout",
     "too_large",
     "not_html",
@@ -449,19 +451,93 @@ JUNK_LINE_MARKERS = [
     "recommended stories",
     "list of",
     "related topics",
+    "related stories",
     "more top stories",
+    "most popular",
+    "trending now",
+    "you might also like",
+    "you may also like",
     "get in touch",
     "- published",
-    "you may also like",
     "read more",
+    "continue reading",
+    "more on this story",
     "advertisement",
+    "advertorial",
+    "sponsored",
+    "promoted",
     "sign up",
+    "subscribe",
     "newsletter",
+    "download our app",
+    "download the app",
+    "get the app",
+    "our app",
+    "follow us",
+    "share this",
+    "share on",
     "watch:",
     "video:",
+    "image caption",
+    "photo caption",
+    "caption:",
+    "author:",
+    "published:",
+    "updated:",
+    "about us",
+    "contact us",
+    "privacy policy",
+    "terms of",
+    "cookie",
+    "accept all",
+    "buy now",
+    "shop now",
+    "add to cart",
+    "in stock",
+    "our verdict",
+    "hands-on",
+    "review:",
+    "specifications",
+    "dimensions:",
+    "warranty",
+    "this article was amended",
 ]
 
+_JUNK_MATCH_RE = re.compile(
+    "|".join(
+        re.escape(m) for m in JUNK_LINE_MARKERS
+    ),
+    re.IGNORECASE,
+)
+
+
+def article_junk_ratio(text):
+    """Fraction of non-empty extracted lines that look like
+    navigation, promotion, captions, product metadata or
+    subscription boilerplate.  0.0 for clean text, 1.0 for a
+    page that is entirely chrome."""
+    lines = [
+        ln.strip()
+        for ln in (text or "").split("\n")
+        if ln.strip()
+    ]
+    if not lines:
+        return 0.0
+    hits = sum(
+        1 for ln in lines if _JUNK_MATCH_RE.search(ln)
+    )
+    return hits / len(lines)
+
 _SENT_END_RE = re.compile(r"[.!?…][\"'\u201d\u2019)\]]*$")
+
+# A recommended-story navigation item: "- list 1 of 3Headline ...".
+# The marker is fused to the next item's headline with no space, so
+# the marker alone is never enough - the WHOLE line is navigation
+# and is dropped, whatever follows the marker.
+_LIST_ITEM_RE = re.compile(
+    r"^\s*[-•*]?\s*list\s+\d+\s+of\s+\d+",
+    re.IGNORECASE,
+)
 
 
 def article_sentences(
@@ -488,6 +564,8 @@ def article_sentences(
             marker in lowered
             for marker in JUNK_LINE_MARKERS
         ):
+            continue
+        if _LIST_ITEM_RE.match(line):
             continue
         if not _SENT_END_RE.search(line):
             continue
@@ -765,6 +843,7 @@ def enrich_thin_stories(
         "blocked": 0,
         "paywall": 0,
         "no_text": 0,
+        "junk": 0,
         "timeout": 0,
         "too_large": 0,
         "not_html": 0,
@@ -813,6 +892,17 @@ def enrich_thin_stories(
         # mass-casualty evidence in a serious/conflict/disaster/
         # major-event category (the Sudan mass-grave case), as
         # long as the thinness gate below still holds.
+        #
+        # Reputable-source carve-out: a thin HIGH-priority story
+        # (score >= 60) from a reputable source (tier 1-2, an
+        # official source, or a primary/wire source) qualifies
+        # for article enrichment even below the 65 gate, so a
+        # thin RSS summary is recovered from the full article
+        # instead of being rejected outright.  The thinness
+        # gate, non-article URL gate, domain allowlist and
+        # per-run fetch budget below still apply unchanged, and
+        # enrichment only ever ADDS verbatim article sentences
+        # that must survive the same briefing/summarizer gates.
         label = public_label(
             primary, just_in_minutes, now_dt
         )
@@ -826,12 +916,21 @@ def enrich_thin_stories(
                 f"{primary.get('summary', '')}"
             )
         )
+        reputable_source = (
+            source_reliability.get_tier(primary) in (1, 2)
+            or bool(primary.get("primary_source"))
+        )
         important = (
             primary.get("priority_level") == "IMMEDIATE"
             or label == JUST_IN
             or score >= 65
             or primary.get("event_status") == "UPDATE"
             or mass_casualty
+            or (
+                reputable_source
+                and score >= 60
+                and primary.get("priority_level") == "HIGH"
+            )
         )
         if not important:
             continue
@@ -876,7 +975,11 @@ def enrich_thin_stories(
             stats["domain_blocked"] += 1
             continue
 
-        entry = cache.get(cand.get("story_id")) if cache else None
+        entry = (
+            cache.get(cand.get("story_id"), now=now_dt)
+            if cache
+            else None
+        )
         if entry is not None:
             stats["cache_hits"] += 1
             if entry["status"] == OK_STATUS:
@@ -911,11 +1014,20 @@ def enrich_thin_stories(
 
         sentences = []
         if status == OK_STATUS:
-            sentences = article_sentences(
-                payload.get("text", ""),
-                headline,
-                int(art_cfg.get("max_article_sentences", 12)),
-            )
+            # Post-extraction cleanliness gate: a page whose
+            # extracted text is mostly chrome (menus, promos,
+            # captions, product metadata) is junk, never
+            # article enrichment, and is cached negatively.
+            if article_junk_ratio(
+                payload.get("text", "")
+            ) > 0.5:
+                status = "junk"
+            else:
+                sentences = article_sentences(
+                    payload.get("text", ""),
+                    headline,
+                    int(art_cfg.get("max_article_sentences", 12)),
+                )
         if cache is not None:
             cache.set(
                 cand.get("story_id"),

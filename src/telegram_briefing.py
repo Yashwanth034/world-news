@@ -167,6 +167,37 @@ BOILERPLATE_PATTERNS = [
     r"\byou (?:can|may) also (?:get|receive|sign up for) (?:our )?(?:newsletter|daily briefing)\b",
     r"\bthis article was amended on[^.\n]*\.?\s*",
     r"\bfor (?:more|further) information,? visit (?:our )?(?:website|site)\b",
+    # Live-blog / live-coverage navigation.  "liveblog" is often
+    # written as ONE word in RSS text, which the "live blog"
+    # patterns above cannot see; these catch both spellings plus
+    # the bare "Follow live updates" / "Get the latest updates"
+    # prompts.
+    r"\bfollow (?:our )?live ?blog(?:s)?\b[^A-Za-z]*$",
+    r"\bfollow (?:our )?live ?blog(?:s)? for (?:the )?latest "
+    r"(?:updates|developments|news|coverage|headlines)\b[.\u2026]*",
+    r"\bfollow (?:our )?live updates?\b[^A-Za-z]*$",
+    r"\bfollow (?:our )?live updates? for (?:the )?latest "
+    r"(?:updates|developments|news|coverage|headlines)\b[.\u2026]*",
+    r"\bget (?:the )?latest updates?\b[^A-Za-z]*$",
+    r"\blive ?blog(?:s)? (?:navigation|feed|index)\b",
+    # The Guardian business-live standfirst and its per-item
+    # "( see earlier post )" navigation.
+    r"\brolling coverage of the latest(?: and economic)? news\b",
+    r"\(\s*see earlier post(?:s)?\s*\)",
+    r"\bsee earlier post(?:s)? for (?:more|background)\b",
+    # Page / list markers, including the fused "list 3 of 3Why ..."
+    # form where the next item's headline is glued to the marker
+    # ("3Why" has no word boundary, so no trailing \b here).
+    r"\blist\s+\d+\s+of\s+\d+",
+    r"\blist of \d+ items?\b",
+    r"\brecommended (?:stories?|articles?|reads?)\b",
+    r"\byou (?:may|might) also like\b",
+    # Previous/next and related-story navigation.
+    r"\b(?:previous|next)[- ](?:article|story) navigation\b",
+    r"\b(?:previous|next) (?:article|story)\b[^A-Za-z]*$",
+    r"\brelated[- ]stor(?:y|ies)\b[^A-Za-z]*$",
+    r"\brelated[- ](?:story|article) navigation\b",
+    r"\bmore (?:from|like) (?:this|these)\b[^A-Za-z]*$",
 ]
 
 BOILERPLATE_RE = re.compile(
@@ -218,6 +249,10 @@ def clean_sentence_text(text):
     # was cut out); collapse whitespace before punctuation
     # back onto the mark.
     text = re.sub(r"\s+([.,;:!?\u2026])", r"\1", text)
+    # A leading dash/bullet separator is page chrome (a list
+    # item, a nav divider); the fused form "- list 3 of 3Why ..."
+    # collapses to "- Why ..." after the marker is stripped.
+    text = re.sub(r"^\s*[-\u2013\u2014\u2022]\s+", "", text)
     text = DUPLICATE_WORD_RE.sub(r"\1", text)
     # Drop a leading article/navigation fragment that is only
     # a series label ("Total solar eclipse (2/4) ...") while
@@ -264,17 +299,10 @@ def _content_tokens(text):
 # restate headline facts and add nothing new are dropped.
 # ---------------------------------------------------------
 
-# A number in the text (8, 8th, 78,000, 1.2, 7am, 7:30pm,
-# 24 percent, $1.2bn).
-NUMBER_RE = re.compile(
-    r"(?<![A-Za-z0-9])"
-    r"(?:[$£€])?"
-    r"\d[\d,]*(?:\.\d+)?"
-    r"(?:st|nd|rd|th)?"
-    r"\s*(?:%|percent|am|pm|a\.m\.|p\.m\.)?"
-    r"(?!\w)",
-    re.IGNORECASE,
-)
+# Canonical number extraction: NUMBER_RE is defined once, in the
+# sentence-aggregation section below, and used by _numbers_of and
+# the corroboration helpers (Python resolves the module global at
+# call time).
 
 # Day names, month names and simple time references.
 TEMPORAL_RE = re.compile(
@@ -351,6 +379,26 @@ _NON_FACT_SOURCE_WORDS = {
     "will", "would", "can", "could", "should", "may", "might",
     "must", "shall", "do", "does", "did", "doing", "being",
     "not", "no",
+    # filler / quantifier / modifier words: they may be inserted
+    # into a restatement without adding a fact ("now set to",
+    # "every single one of", "just", "already", ...)
+    "now", "just", "already", "still", "also", "too", "again",
+    "yet", "even", "only", "quite", "very", "really",
+    "currently", "recently", "newly", "freshly", "fully",
+    "partly", "mostly", "nearly", "roughly", "approximately",
+    "around", "some", "several", "few", "many", "various",
+    "certain", "certainly", "reportedly", "allegedly",
+    "apparently", "expected", "due", "ready", "set",
+    "preparing", "shortly", "soon", "later", "early",
+    "officially", "formally", "immediately", "ahead",
+    "following", "amid", "during", "within", "all", "every",
+    "single", "entire", "whole", "total", "overall",
+    "complete", "full", "each", "any", "both", "either",
+    "neither", "another", "other", "additional", "extra",
+    "further", "own", "one", "two", "three", "four", "five",
+    "six", "seven", "eight", "nine", "ten", "dozen",
+    "hundreds", "thousands", "millions", "dozens",
+    "tens", "some", "dozen",
 }
 
 
@@ -384,6 +432,26 @@ NON_FACT_WORDS = {
     _stem_lite(word)
     for word in _NON_FACT_SOURCE_WORDS
 }
+
+# News synonyms normalized ONLY for paraphrase comparison (never
+# for any rendered text): "quake" and "earthquake" are the same
+# event word, so "Quake kills 100" restated as "The earthquake
+# killed 100 people" is a repetition, while "The quake struck
+# the western region" still adds a new fact (the region).
+PARAPHRASE_SYNONYMS = {
+    "quake": "earthquake",
+}
+
+
+def _paraphrase_stems(text):
+    """Stemmed, synonym-normalized content tokens used ONLY for
+    headline/body paraphrase comparison.  Never changes any
+    rendered sentence text."""
+    out = set()
+    for token in _content_tokens(text):
+        token = PARAPHRASE_SYNONYMS.get(token, token)
+        out.add(_stem_lite(token))
+    return out
 
 
 def _numbers_of(text):
@@ -429,9 +497,12 @@ def _only_in_trailing_subclause(sentence, new_stems):
     if last_sub < 0:
         return False
     for index, token in enumerate(tokens):
+        stem = _stem_lite(
+            PARAPHRASE_SYNONYMS.get(token, token)
+        )
         if (
             index < last_sub
-            and _stem_lite(token) in new_stems
+            and stem in new_stems
         ):
             return False
     return True
@@ -446,7 +517,7 @@ def _introduces_new_fact(sentence, headline):
     - a named person, entity or place not in the headline
       (survives as a new content word)
     - a concrete content word not in the headline and not an
-      ordinary function/title/generic word
+      ordinary function/title/generic/filler word
     Anything else is treated as a restatement and remains
     protected by the paraphrase rule. A new word confined to
     a trailing subordinate clause ("... as Japan marks the
@@ -475,17 +546,17 @@ def _introduces_new_fact(sentence, headline):
     ):
         return True
 
-    headline_stems = {
-        _stem_lite(token)
-        for token in _content_tokens(headline)
-    }
+    # Stemmed, synonym-normalized comparison so minor
+    # grammatical changes (kills/killed, pilots/pilot) and news
+    # synonyms (quake/earthquake) never count as new facts.
+    headline_stems = _paraphrase_stems(headline)
 
     new_stems = {
-        _stem_lite(token)
-        for token in _content_tokens(sentence)
+        stem
+        for stem in _paraphrase_stems(sentence)
         if (
-            _stem_lite(token) not in headline_stems
-            and _stem_lite(token) not in NON_FACT_WORDS
+            stem not in headline_stems
+            and stem not in NON_FACT_WORDS
         )
     }
 
@@ -514,25 +585,37 @@ def is_headline_paraphrase(sentence, headline):
     headline. A sentence that carries a genuinely new fact
     survives even at high word overlap.
     """
-    sentence_tokens = _content_tokens(sentence)
+    # Non-fact filler words are excluded from BOTH sides so an
+    # inserted "now set to every single one of" cannot dilute the
+    # overlap below the floor.
+    sentence_stems = (
+        _paraphrase_stems(sentence) - NON_FACT_WORDS
+    )
 
     # An exact copy of the headline is a restatement by
-    # definition, even when it is too short for the token-
+    # definition, even when it is too short for the stem-
     # overlap test below.
     if _normalized(sentence) == _normalized(headline):
         return True
 
-    if len(sentence_tokens) < 4:
+    if len(sentence_stems) < 3:
         return False
 
-    headline_tokens = _content_tokens(headline)
+    headline_stems = (
+        _paraphrase_stems(headline) - NON_FACT_WORDS
+    )
 
-    if not headline_tokens:
+    if not headline_stems:
         return False
 
+    # Stem-normalized overlap: "Air India is to test all of its
+    # pilots" restates "Air India to test all pilots" with
+    # filler and grammatical changes only, so it reaches the
+    # overlap floor; a sentence that introduces a genuinely new
+    # subject or detail does not.
     overlap = len(
-        sentence_tokens & headline_tokens
-    ) / len(sentence_tokens)
+        sentence_stems & headline_stems
+    ) / len(sentence_stems)
 
     if overlap < HEADLINE_PARAPHRASE_OVERLAP:
         return False
@@ -695,6 +778,7 @@ ENTITY_ALIASES = {
     "kyiv": "ukraine",
     "kiev": "ukraine",
     "bangkok": "thailand",
+    "taipei": "taiwan",
     "havana": "cuba",
     "belgrade": "serbia",
     "bogota": "colombia",
@@ -1560,7 +1644,9 @@ def public_label(
     BREAKING needs urgency terms + non-low confidence + a
     high score + verification (primary source or strong
     corroboration) + an urgent category. Priority level is
-    never used alone. JUST IN needs freshness AND importance.
+    never used alone. JUST IN needs freshness AND importance
+    AND verification: a story is never JUST IN merely because
+    an RSS item was fetched recently.
     """
     status = item.get(
         "event_status",
@@ -1600,7 +1686,8 @@ def public_label(
         age is not None
         and age <= just_in_freshness_minutes
         and confidence != "low"
-        and score >= 60
+        and score >= 65
+        and (primary or strong >= 1)
     ):
         return JUST_IN
 

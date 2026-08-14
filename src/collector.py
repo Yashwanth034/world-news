@@ -46,22 +46,9 @@ def get_entry_times(entry):
     return published_at, updated_at
 
 
-def effective_entry_time(entry):
-    """
-    Choose the newest trustworthy timestamp available.
-
-    If an article was published yesterday but updated today,
-    the recent update keeps it eligible for the pipeline.
-    """
-    published_at, updated_at = get_entry_times(entry)
-
-    if published_at and updated_at:
-        return max(
-            published_at,
-            updated_at
-        )
-
-    return published_at or updated_at
+# A timestamp up to this far in the future is feed clock
+# skew, not a real future story: it is normalized to now.
+FUTURE_SKEW_MINUTES = 15
 
 
 def is_recent(dt, max_age_hours=48):
@@ -73,7 +60,7 @@ def is_recent(dt, max_age_hours=48):
     )
 
     return (
-        timedelta(0)
+        timedelta(minutes=-FUTURE_SKEW_MINUTES)
         <= age
         <= timedelta(hours=max_age_hours)
     )
@@ -133,6 +120,20 @@ def fetch_one(
                 )
                 else published_at
             )
+
+            # Feed-clock skew: a timestamp up to 15 minutes in
+            # the future is normalized to now; anything further
+            # ahead is rejected as future-dated by is_recent.
+            if effective_time:
+                now = datetime.now(
+                    timezone.utc
+                )
+                if effective_time > now:
+                    if (
+                        effective_time - now
+                        <= timedelta(minutes=FUTURE_SKEW_MINUTES)
+                    ):
+                        effective_time = now
 
             # Only today's or yesterday's material
             # is eligible.

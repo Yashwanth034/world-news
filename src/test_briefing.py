@@ -298,6 +298,7 @@ def test_just_in_requires_freshness_and_importance():
         "A policy was announced.",
         score=80,
         confidence="high",
+        primary=True,
         minutes_ago=2,
     )
     assert public_label(fresh_but_low, 15, NOW) == NEWS
@@ -1605,3 +1606,30 @@ class TestDryRunEditorialCleanup:
             "The flight departs at 6 a.m. and arrives "
             "before noon."
         )
+
+    def test_dotted_initialism_never_truncates(self):
+        # Audit case: "...trouble for the U.S." was split after
+        # "U.S.", orphaning the rest of the sentence.  A dotted
+        # initialism's periods are protected: "The U.S. remains"
+        # stays ONE sentence.
+        assert split_sentences(
+            "Sanctions on Russian oil are tightening, but "
+            "shipments have not yet collapsed. The U.S. remains "
+            "the biggest buyer of Russian crude after China."
+        ) == [
+            "Sanctions on Russian oil are tightening, but "
+            "shipments have not yet collapsed.",
+            "The U.S. remains the biggest buyer of Russian crude "
+            "after China.",
+        ]
+
+    def test_single_word_abbreviation_never_truncates(self):
+        # The same protection covers single-word abbreviations
+        # whose period is followed by a word: "Dr. Smith" is one
+        # sentence, never "Dr." + "Smith...".
+        assert split_sentences(
+            "Dr. Smith left the room. He was tired."
+        ) == [
+            "Dr. Smith left the room.",
+            "He was tired.",
+        ]

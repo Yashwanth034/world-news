@@ -380,10 +380,7 @@ def publish_due(
             )
             continue
 
-        if (
-            entry.get("attempts", 0) > 0
-            or last_posted_dt is not None
-        ) and last_posted_dt is not None:
+        if last_posted_dt is not None:
 
             gap = (
                 now_ts - last_posted_dt.timestamp()

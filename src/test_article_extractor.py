@@ -368,6 +368,24 @@ class TestArticleSentences:
             for s in out
         )
 
+    def test_fused_list_item_with_question_leak_dropped(self):
+        # A recommended-story line whose headline ends with a
+        # question mark previously slipped past the sentence-end
+        # check ("- list 3 of 3Why has North Korea ...?").  The
+        # whole line is navigation and must never become a row.
+        out = article_sentences(
+            "Pyongyang has denounced the drills.\n"
+            "- list 3 of 3Why has North Korea's new satellite "
+            "alarmed Seoul?\n"
+            "North Korea has warned of retaliation.",
+            "North Korea fumes over military drills",
+        )
+        assert len(out) == 2
+        assert all(
+            "list 3 of 3" not in s and "alarmed Seoul" not in s
+            for s in out
+        )
+
     def test_section_header_line_dropped(self):
         out = article_sentences(
             "Serbian-made artillery shells\n"
@@ -486,6 +504,138 @@ class TestEnrichThinStories:
         assert stats["eligible"] == 0
         assert "article_sentences" not in out[0]
 
+    def test_reputable_score_60_thin_story_fetched(self):
+        # Audit regression: thin HIGH-priority stories from
+        # reputable sources (tier 1-2) scoring 60-64 were
+        # previously rejected as insufficient without ever
+        # attempting article enrichment.  A reputable source
+        # now qualifies for a fetch so the full article can
+        # supply the missing sentences.
+        cfg = make_cfg()
+        cands = [
+            candidate(
+                score=60,
+                priority_level="HIGH",
+                tier=2,
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["eligible"] == 1
+        assert stats["fetched"] == 1
+        assert stats["expanded"] == 1
+        assert len(out[0]["article_sentences"]) >= 2
+
+    def test_official_tier1_score_60_thin_story_fetched(self):
+        # Official/government sources (tier 1) qualify too.
+        cfg = make_cfg()
+        cands = [
+            candidate(
+                score=60,
+                priority_level="HIGH",
+                tier=1,
+                url="https://www.bbc.co.uk/news/articles/c-t1",
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["eligible"] == 1
+        assert stats["fetched"] == 1
+
+    def test_primary_source_score_60_thin_story_fetched(self):
+        cfg = make_cfg()
+        cands = [
+            candidate(
+                score=60,
+                priority_level="HIGH",
+                tier=4,
+                primary_source=True,
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["eligible"] == 1
+        assert stats["fetched"] == 1
+
+    def test_unknown_tier_score_60_thin_story_not_fetched(self):
+        # The carve-out is narrow: a score-60 thin story from
+        # an unknown/unreputable source stays below the gate
+        # (no blanket threshold lowering).
+        cfg = make_cfg()
+        cands = [
+            candidate(
+                score=60,
+                priority_level="HIGH",
+                tier=4,
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["eligible"] == 0
+        assert stats["fetched"] == 0
+        assert "article_sentences" not in out[0]
+
+    def test_reputable_score_58_thin_story_not_fetched(self):
+        # Sub-HIGH scores stay excluded even from reputable
+        # sources.
+        cfg = make_cfg()
+        cands = [
+            candidate(
+                score=58,
+                priority_level="NORMAL",
+                tier=2,
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["eligible"] == 0
+        assert stats["fetched"] == 0
+
+    def test_reputable_not_thin_story_skipped(self):
+        # The thinness gate still applies after the carve-out:
+        # a story with two usable RSS sentences needs no fetch.
+        cfg = make_cfg()
+        cands = [
+            candidate(
+                score=60,
+                priority_level="HIGH",
+                tier=2,
+                summary=(
+                    "Officials confirmed the storm made landfall. "
+                    "Residents in the coastal town were evacuated."
+                ),
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["thin"] == 0
+        assert stats["fetched"] == 0
+
+    def test_reputable_video_url_still_never_fetched(self):
+        # The non-article URL gate is unchanged: video/newsfeed
+        # pages are never fetched even from reputable sources.
+        cfg = make_cfg()
+        cands = [
+            candidate(
+                score=60,
+                priority_level="HIGH",
+                tier=2,
+                url="https://www.aljazeera.com/video/newsfeed/clip",
+            )
+        ]
+        out, stats = enrich_thin_stories(
+            cands, cfg, NOW, cache=None, fetcher=fake_fetcher()
+        )
+        assert stats["non_article"] == 1
+        assert stats["fetched"] == 0
+        assert "article_sentences" not in out[0]
+
     def test_thin_important_story_fetched(self):
         cfg = make_cfg()
         cands = [candidate()]
@@ -518,8 +668,9 @@ class TestEnrichThinStories:
         cfg = make_cfg()
         cands = [
             candidate(
-                score=60,
+                score=70,
                 confidence="high",
+                primary_source=True,
                 effective_at=(
                     NOW - timedelta(minutes=5)
                 ).isoformat(),

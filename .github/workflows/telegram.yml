@@ -65,13 +65,14 @@ jobs:
           TELEGRAM_PUBLISH: "1"
 
       - name: Commit queue and state
-        # KNOWN PRODUCTION CAVEAT (at-least-once): queue
-        # and state are committed only after publishing. If
-        # this job fails between a successful send and this
-        # commit/push, the next run starts from the previous
-        # state and may re-publish one already-sent story.
-        # Accepted for now; a dedup/ack redesign is
-        # intentionally deferred.
+        # AT-LEAST-ONCE NARROWING: this step runs even when a
+        # previous step fails (if: always), so a message that
+        # was sent before a mid-run failure is recorded as
+        # posted before the next run reads the state. The
+        # remaining window is only an interrupted send where
+        # the state could not be written at all. If nothing
+        # changed, no commit is made.
+        if: always()
         run: |
           if git diff --quiet -- data/telegram_queue.json data/telegram_state.json; then
             echo "no state changes"

@@ -133,9 +133,10 @@ class TestArticleEnrichmentPipeline:
         assert any(
             "20,000 residents" in t for t in article_texts
         )
-        # The RSS row fills the remaining slot, after every
-        # article row, and never duplicates an article fact.
-        assert article_texts[-1].startswith("Fire crews")
+        # The article is the primary source and fills the
+        # 2-4 sentence cap; the RSS rows never duplicate an
+        # article fact.
+        assert len(with_article["briefing"]["sentences"]) <= 4
         assert not any(
             "20,000 residents" in t
             and t.startswith("Officials said")
@@ -270,13 +271,15 @@ class TestArticleEnrichmentPipeline:
         ]
         story = build_telegram_stories(cands, cfg, NOW)[0]
         rows = story["briefing"]["sentences"]
-        assert 2 <= len(rows) <= 8
+        # The final body carries 2-4 explanatory sentences,
+        # keeping the fact-bearing ones first.
+        assert 2 <= len(rows) <= 4
         texts = [r["text"] for r in rows]
         assert any("Ashcroft" in t for t in texts)
         assert any("evacuate" in t for t in texts)
-        assert any("shelters" in t for t in texts)
+        assert any("Friday" in t for t in texts)
         # Fact-bearing sentences lead the summary.
-        assert any("evacuate" in t for t in texts[:4])
+        assert any("Ashcroft" in t for t in texts[:2])
 
 
 # ---------------------------------------------------------------------------
@@ -418,11 +421,12 @@ class TestMinimumTwoSentencesPipeline:
         stories = build_telegram_stories(cands, cfg, NOW)
         assert len(stories) == 1
         rows = stories[0]["briefing"]["sentences"]
-        assert len(rows) <= 10
+        # The final body is capped at 4 sentences even when
+        # much more material is available.
+        assert 2 <= len(rows) <= 4
         # Every retained row must carry real text; the
         # headline-only RSS sentence never enters the list.
         assert all(r["text"] for r in rows)
         assert any("evacuated" in r["text"] for r in rows)
-        assert any("helicopters" in r["text"] for r in rows)
         msg = build_message(stories[0], cfg, NOW)
         assert msg is not None

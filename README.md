@@ -1,68 +1,118 @@
 # WorldNews
 
-Automated news collection and Telegram publishing. A pipeline gathers stories from
-42 RSS feeds, enriches them into source-grounded briefings, and publishes them to a
-Telegram channel — optionally with an image or video attachment.
+Automated worldwide-news collection and Telegram publishing. A pipeline gathers stories
+from 42 RSS feeds, filters them editorially, groups same-event coverage, enriches
+important thin stories with article text, composes a concise source-grounded 2–4
+sentence summary per event, and publishes to a Telegram channel — optionally with an
+image or video attachment.
+
+Telegram is the only publishing destination. There is no X/Twitter integration and no
+legacy X post/thread formatting anywhere in the pipeline.
 
 ## Features
 
-- **News gathering** — 42 RSS feeds across world, finance, technology, science,
-  space, health, disaster, cybersecurity, and regional categories.
+- **News gathering** — 42 RSS feeds across world, politics, finance, technology,
+  science, space, health, disaster, cybersecurity, conflict, environment and regional
+  categories.
+- **Editorial eligibility filter** — product reviews, buying guides, opinion columns,
+  personal essays, how-tos, sponsored/affiliate content, listicles, quizzes, recipes and
+  routine (non-extreme) weather are rejected before they reach the queue. Real science,
+  sports, technology, culture and environment news is not filtered out: only clearly
+  non-news formats are.
 - **Event grouping** — stories about the same event are merged into a single post;
-  conflicting or near-duplicate facts are dropped, never reconciled.
-- **Source-grounded summaries** — each post carries 2–8 explanatory sentences
-  composed from verbatim source text, verified against the source, and
-  quality-checked. No text is invented.
+  conflicting or near-duplicate facts are dropped, never reconciled. Same-event
+  duplicates are suppressed while genuinely new developments still publish as updates.
+- **Source-grounded summaries** — each post carries **2–4 explanatory sentences**
+  (headline, source line and "Read the full report" never count). Sentences are
+  selected by fact importance (what happened, where/when, how many, consequence),
+  ordered into a natural narrative, verified verbatim against the source, checked for
+  headline/body consistency, and quality-gated. No text is ever invented; a story with
+  fewer than two genuinely useful sentences is rejected rather than padded.
+- **Headline/body consistency** — a headline claiming a score, a win, deaths, or a
+  confirmed/announced development is rejected when the source only supports a weaker
+  claim (draw, loss, injuries, "reportedly").
+- **Label discipline** — `🚨 BREAKING`, `⚡ JUST IN`, `🔄 UPDATE` and `📰 NEWS` are
+  assigned from importance + freshness + verification, never from mere fetch recency.
 - **Automatic Telegram publishing** — scheduling, throttling (hourly/daily caps,
   minimum gap), retries, and rate-limit handling.
 - **Media attachment** — one image (preferred) or video is attached when suitable
-  media is available; the caption is always the exact existing message text.
+  media is available; the caption is always the exact existing message text, and a
+  media failure never blocks publishing.
+- **Atomic state writes** — queue/state JSON files are written via temp file + fsync +
+  atomic replace so an interrupted run can never leave a partially written file.
 
 ## How it works
 
-1. **Collect** — `src/main.py` fetches all configured feeds, applies deduplication,
-   language detection, classification, scoring, optional translation, and a quality
-   gate, then writes a Telegram candidate queue (`data/telegram_queue.json`).
-2. **Enrich** — thin important stories are enriched with article text, candidates
-   are grouped into events, and a 2–8 sentence source-grounded summary is composed
-   for each event.
+1. **Collect** — `src/main.py` fetches all configured feeds, applies dedup, language
+   detection, topic classification, the editorial eligibility filter, reliability
+   scoring, optional translation, and priority, then writes a Telegram candidate queue
+   (`data/telegram_queue.json`).
+2. **Enrich** — thin important stories are enriched with cleaned article text,
+   candidates are grouped into events, and a 2–4 sentence source-grounded summary is
+   composed for each event (article text primary when available, RSS otherwise).
 3. **Publish** — `src/telegram_run.py` schedules due stories (breaking posts
-   immediately, others on a randomized delay) and sends them through the Telegram
-   Bot API, respecting posting caps and minimum gaps, with retries and bounded
-   handling of rate limits. Before sending each post, the scheduler attempts to
-   attach suitable article media.
+   immediately, others on a randomized delay) and sends them through the Telegram Bot
+   API, respecting posting caps and minimum gaps, with retries and bounded handling of
+   rate limits. Before sending each post, the scheduler attempts to attach suitable
+   article media.
 
 Message format:
 
 ```
-🚨 BREAKING          (or ⚡ JUST IN / 📰 NEWS / 🔄 UPDATE)
+WorldNews🌎: 🚨 BREAKING     (or ⚡ JUST IN / 🔄 UPDATE / 📰 NEWS)
 
 **Headline**
 
-2–8 explanatory sentences
+2–4 concise explanatory sentences that clearly explain
+what happened and why it matters.
 
 📰 Source: <source name>
 🔗 Read the full report
 ```
 
+The body is capped at four sentences and never padded: a story that is clearly
+explained in two sentences publishes two. No internal fields (scores, confidence,
+event IDs, corroboration counts) are ever exposed in the message.
+
 ## Media attachment
 
 For each post, the scheduler tries to attach **one** image (preferred) or video from
-the article page. Only public, page-linked media is fetched; logos, icons, ads, and
-tiny thumbnails are rejected.
+the article page. Only public, page-linked media is fetched; logos, publisher icons,
+avatars, ads, tracking pixels, tiny thumbnails and unrelated recommendation images are
+rejected. `twitter:image` is used as ordinary webpage metadata for locating article
+images — it is not X publishing.
 
 - The **caption is always the exact same text** as the text-only version of the post.
 - The post falls back to **text-only** when: no media is found, the media is
-  unsuitable or fails to download, the caption exceeds Telegram's 1024-character
-  media caption limit, or Telegram rejects the media send (the message is then
-  resent as text-only).
+  unsuitable or fails to download, the caption exceeds Telegram's 1024-character media
+  caption limit, or Telegram rejects the media send (the message is then resent as
+  text-only).
 - A media failure never blocks, retries, or changes the story text.
+
+## Configuration
+
+`config.json` holds all pipeline settings. Key entries:
+
+| Entry | Purpose |
+| --- | --- |
+| `feeds` | RSS sources; `"news": false` feeds are still collected and stored but never become Telegram posts; `"discovery": true` feeds require independent confirmation |
+| `database` | SQLite file for dedup + event memory (`data/news.db`) |
+| `queue_file` | **Internal** pipeline diagnostics queue (`data/queue.json`) — the Telegram scheduler never reads this file |
+| `telegram.telegram_queue_file` | The Telegram output queue (`data/telegram_queue.json`) read by the scheduler |
+| `telegram.telegram_state_file` | Published-post state (`data/telegram_state.json`) |
+| `summarization` | `min_sentences: 2`, `max_sentences: 4` — the final body's explanatory-sentence limits |
+| `article_extraction` | Fetch/cleanup budget for thin-story enrichment (`max_fetches_per_run`, timeouts, cache TTLs, junk/paywall markers) |
+| `telegram` | Freshness window, hourly/daily caps, minimum gap, delays, message length targets (`target_message_chars: 950`, `max_message_chars: 1500`) |
+
+There is exactly one Telegram queue (`data/telegram_queue.json`). The legacy
+`data/queue.json` entry is now documented as the internal pipeline diagnostics queue.
 
 ## GitHub Actions automation
 
 - **`telegram.yml`** — the production workflow. Runs every 15 minutes: restores the
-  persistent dedup/event-memory database from the Actions cache, collects fresh
-  news, publishes Telegram posts, and commits the queue/state files back to `main`.
+  persistent dedup/event-memory database from the Actions cache, collects fresh news,
+  publishes Telegram posts, and commits the queue/state files back to `main`. State is
+  committed even when a publish attempt fails, narrowing the double-publish window.
 - **`telegram-test-one.yml`** — a manual workflow that verifies the scheduler state
   is exactly one due post, then publishes exactly one message. Triggered only via
   `workflow_dispatch`.
@@ -86,8 +136,8 @@ Then configure secrets (see below) and run:
 .venv/bin/python -m src.telegram_run --yes       # publish (requires TELEGRAM_PUBLISH=1 or --force)
 ```
 
-Real publishing happens only with `TELEGRAM_PUBLISH=1` or `--force`; `--yes` skips
-the confirmation prompt.
+Real publishing happens only with `TELEGRAM_PUBLISH=1` or `--force`; `--yes` confirms
+the prompt (declining with "n" or Ctrl-C aborts).
 
 ## Environment variables / secrets
 
@@ -108,6 +158,12 @@ secrets. The bot token is read only from the environment and never from files.
 .venv/bin/python -m pytest src/test_*.py -q
 ```
 
+The suite covers: editorial filtering (reviews/guides/opinion rejected, breaking news
+accepted), summary length (2/3/4 accepted, 5+ reduced to 4, 1 rejected), headline/body
+consistency, deduplication and same-event grouping, label classification
+(BREAKING/JUST IN/UPDATE/NEWS), date freshness, media selection, and exact Telegram
+message formatting.
+
 Optional live-send tests (opt-in):
 
 ```bash
@@ -118,7 +174,8 @@ TELEGRAM_LIVE=1 .venv/bin/python -m pytest src/test_telegram_send.py -q
 
 - **At-least-once delivery.** State is committed only after publishing; if a run
   fails between a successful send and the state commit, a story may be re-published
-  on the next run.
+  on the next run. Known successful Telegram `message_id`s are stored and skipped to
+  narrow this window.
 - **Media is best-effort.** Posts without a suitable image/video, or with captions
   over 1024 characters, are published text-only.
 - **Single channel.** Posts go to one channel configured at run time.
