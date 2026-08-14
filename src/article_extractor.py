@@ -277,10 +277,192 @@ def _is_paywall(text, markers):
     return any(m in lowered for m in markers)
 
 
+class _DeadlineExceeded(Exception):
+    """Internal: the bounded worker thread did not finish in time."""
+
+
+def _run_with_deadline(fn, timeout):
+    """Run fn in a daemon thread and wait at most `timeout` seconds.
+
+    Returns (True, value) on success.  On timeout the worker is
+    ABANDONED - the daemon thread keeps running (its socket leaks
+    until the process exits) and (False, None) is returned, so a
+    server that stalls inside a socket read can never hang the
+    pipeline no matter what the HTTP library's own timeouts do.
+    Worker exceptions are re-raised in the caller thread.  Never
+    blocks longer than `timeout` seconds."""
+    box = {}
+
+    def target():
+        try:
+            box["value"] = fn()
+        except BaseException as exc:  # noqa: BLE001 - reported
+            box["error"] = exc
+
+    thread = threading.Thread(
+        target=target,
+        daemon=True,
+        name="wn-fetch-deadline",
+    )
+    thread.start()
+    thread.join(timeout)
+    if thread.is_alive():
+        return False, None
+    if "error" in box:
+        raise box["error"]
+    return True, box.get("value")
+
+
+def _network_fetch(
+    url, cfg, allowlist, robots, pace,
+    total_timeout, connect_timeout, read_timeout,
+    max_bytes, max_redirects, payload,
+):
+    """The network section of fetch_article: robots.txt check,
+    redirect loop, body streaming and extraction.  Runs inside a
+    deadline-bounded worker thread (see _run_with_deadline) so no
+    socket read can stall the pipeline.  Returns (status, payload);
+    never raises - worker exceptions propagate through the bounded
+    runner to fetch_article's handler."""
+    parsed = urlparse(url)
+    hostname = (parsed.hostname or "").lower()
+    if not robots.allowed(hostname, parsed.path or "/"):
+        return ("blocked", payload)
+
+    deadline = time.monotonic() + total_timeout
+    current = url
+    redirect_count = 0
+
+    while True:
+        if redirect_count > max_redirects:
+            return ("http_error", payload)
+        if time.monotonic() > deadline:
+            return ("timeout", payload)
+        parsed = urlparse(current)
+        if parsed.scheme not in ("http", "https"):
+            return ("blocked", payload)
+        hostname = (parsed.hostname or "").lower()
+        if not _validate_url(current, allowlist):
+            return ("blocked", payload)
+        if not robots.allowed(hostname, parsed.path or "/"):
+            return ("blocked", payload)
+        if pace is not None:
+            if not pace.wait_for(hostname):
+                return ("blocked", payload)
+
+        remaining = max(
+            deadline - time.monotonic(), 1
+        )
+        resp = requests.get(
+            current,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Accept": (
+                    "text/html,application/xhtml+xml,"
+                    "*/*;q=0.8"
+                ),
+            },
+            timeout=(
+                connect_timeout,
+                min(
+                    read_timeout,
+                    remaining,
+                ),
+            ),
+            allow_redirects=False,
+            stream=True,
+            cookies=None,
+        )
+        try:
+            if resp.status_code in (301, 302, 303, 307, 308):
+                location = resp.headers.get("Location")
+                if not location:
+                    return ("http_error", payload)
+                current = (
+                    location
+                    if location.startswith("http")
+                    else urljoin(current, location)
+                )
+                redirect_count += 1
+                continue
+            if resp.status_code != 200:
+                return ("http_error", payload)
+            content_type = (
+                resp.headers.get("Content-Type") or ""
+            ).lower()
+            if content_type and (
+                "text/html" not in content_type
+                and "application/xhtml+xml" not in content_type
+            ):
+                return ("not_html", payload)
+            length_header = resp.headers.get(
+                "Content-Length"
+            )
+            if (
+                length_header
+                and int(length_header) > max_bytes
+            ):
+                return ("too_large", payload)
+            chunks = []
+            size = 0
+            for chunk in resp.iter_content(65536):
+                if time.monotonic() > deadline:
+                    return ("timeout", payload)
+                size += len(chunk)
+                if size > max_bytes:
+                    return ("too_large", payload)
+                chunks.append(chunk)
+            body = b"".join(chunks)
+            if not _looks_like_html(body[:2048].decode(
+                "utf-8", "ignore"
+            )):
+                return ("not_html", payload)
+        finally:
+            resp.close()
+        break
+
+    html = body.decode("utf-8", "replace")
+    text = trafilatura.extract(
+        html,
+        url=current,
+        output_format="txt",
+        include_comments=False,
+        include_tables=False,
+        include_links=False,
+        deduplicate=True,
+    )
+
+    if not text or not text.strip():
+        return ("no_text", payload)
+
+    if len(text.strip()) < 200 or _is_paywall(
+        text,
+        cfg.get("paywall_markers") or PAYWALL_MARKERS,
+    ):
+        return ("paywall", payload)
+
+    payload["text"] = text.strip()
+    payload["title"] = None
+    try:
+        meta = trafilatura.extract_metadata(
+            html, url=current
+        )
+        if meta is not None and getattr(meta, "title", None):
+            payload["title"] = meta.title.strip()
+    except Exception:
+        pass
+    payload["url"] = current
+    return (OK_STATUS, payload)
+
+
 def fetch_article(url, cfg, allowlist, robots=None, pace=None):
     """Fetch and extract one article.  Returns
     (status, payload) where payload carries text/title on
-    success.  Never raises."""
+    success.  Never raises and NEVER blocks longer than
+    total_timeout_seconds: the network section (robots.txt,
+    redirects, body streaming) runs inside a deadline-bounded
+    daemon thread, so a server that stalls mid-request returns
+    ("timeout", {}) instead of hanging the pipeline."""
     payload = {}
     try:
         if not url:
@@ -306,135 +488,18 @@ def fetch_article(url, cfg, allowlist, robots=None, pace=None):
 
         if robots is None:
             robots = _RobotCache()
-        parsed = urlparse(url)
-        hostname = (parsed.hostname or "").lower()
-        if not robots.allowed(hostname, parsed.path or "/"):
-            return ("blocked", payload)
 
-        deadline = time.monotonic() + total_timeout
-        current = url
-        redirect_count = 0
-
-        while True:
-            if redirect_count > max_redirects:
-                return ("http_error", payload)
-            if time.monotonic() > deadline:
-                return ("timeout", payload)
-            parsed = urlparse(current)
-            if parsed.scheme not in ("http", "https"):
-                return ("blocked", payload)
-            hostname = (parsed.hostname or "").lower()
-            if not _validate_url(current, allowlist):
-                return ("blocked", payload)
-            if not robots.allowed(hostname, parsed.path or "/"):
-                return ("blocked", payload)
-            if pace is not None:
-                if not pace.wait_for(hostname):
-                    return ("blocked", payload)
-
-            remaining = max(
-                deadline - time.monotonic(), 1
-            )
-            resp = requests.get(
-                current,
-                headers={
-                    "User-Agent": USER_AGENT,
-                    "Accept": (
-                        "text/html,application/xhtml+xml,"
-                        "*/*;q=0.8"
-                    ),
-                },
-                timeout=(
-                    connect_timeout,
-                    min(
-                        read_timeout,
-                        remaining,
-                    ),
-                ),
-                allow_redirects=False,
-                stream=True,
-                cookies=None,
-            )
-            try:
-                if resp.status_code in (301, 302, 303, 307, 308):
-                    location = resp.headers.get("Location")
-                    if not location:
-                        return ("http_error", payload)
-                    current = (
-                        location
-                        if location.startswith("http")
-                        else urljoin(current, location)
-                    )
-                    redirect_count += 1
-                    continue
-                if resp.status_code != 200:
-                    return ("http_error", payload)
-                content_type = (
-                    resp.headers.get("Content-Type") or ""
-                ).lower()
-                if content_type and (
-                    "text/html" not in content_type
-                    and "application/xhtml+xml" not in content_type
-                ):
-                    return ("not_html", payload)
-                length_header = resp.headers.get(
-                    "Content-Length"
-                )
-                if (
-                    length_header
-                    and int(length_header) > max_bytes
-                ):
-                    return ("too_large", payload)
-                chunks = []
-                size = 0
-                for chunk in resp.iter_content(65536):
-                    if time.monotonic() > deadline:
-                        return ("timeout", payload)
-                    size += len(chunk)
-                    if size > max_bytes:
-                        return ("too_large", payload)
-                    chunks.append(chunk)
-                body = b"".join(chunks)
-                if not _looks_like_html(body[:2048].decode(
-                    "utf-8", "ignore"
-                )):
-                    return ("not_html", payload)
-            finally:
-                resp.close()
-            break
-
-        html = body.decode("utf-8", "replace")
-        text = trafilatura.extract(
-            html,
-            url=current,
-            output_format="txt",
-            include_comments=False,
-            include_tables=False,
-            include_links=False,
-            deduplicate=True,
+        ok, result = _run_with_deadline(
+            lambda: _network_fetch(
+                url, cfg, allowlist, robots, pace,
+                total_timeout, connect_timeout, read_timeout,
+                max_bytes, max_redirects, payload,
+            ),
+            total_timeout,
         )
-
-        if not text or not text.strip():
-            return ("no_text", payload)
-
-        if len(text.strip()) < 200 or _is_paywall(
-            text,
-            cfg.get("paywall_markers") or PAYWALL_MARKERS,
-        ):
-            return ("paywall", payload)
-
-        payload["text"] = text.strip()
-        payload["title"] = None
-        try:
-            meta = trafilatura.extract_metadata(
-                html, url=current
-            )
-            if meta is not None and getattr(meta, "title", None):
-                payload["title"] = meta.title.strip()
-        except Exception:
-            pass
-        payload["url"] = current
-        return (OK_STATUS, payload)
+        if not ok:
+            return ("timeout", payload)
+        return result
     except requests.Timeout:
         return ("timeout", payload)
     except requests.ConnectionError:
@@ -623,80 +688,127 @@ class ArticleCache:
 
     Positive results are cached for cache_ttl_hours_ok hours,
     failures for cache_ttl_hours_error hours.  Raw HTML is
-    never stored."""
+    never stored.
+
+    The cache is a best-effort side store: a lock conflict with
+    the main pipeline connection ("database is locked") degrades
+    to a cache miss / no-op instead of stalling or failing the
+    run, so enrichment never blocks on the cache."""
 
     def __init__(self, db_path):
         self.db_path = str(db_path)
-        self._conn = sqlite3.connect(self.db_path)
-        self._conn.execute(
-            "CREATE TABLE IF NOT EXISTS article_cache ("
-            " story_id TEXT PRIMARY KEY,"
-            " url TEXT NOT NULL,"
-            " status TEXT NOT NULL,"
-            " text TEXT,"
-            " sentences_json TEXT,"
-            " title TEXT,"
-            " fetched_at TEXT NOT NULL,"
-            " ttl_hours INTEGER NOT NULL)"
-        )
-        self._conn.commit()
+        try:
+            # isolation_level=None = autocommit: every statement
+            # is its own transaction, so a blocked COMMIT can
+            # never leave a RESERVED/EXCLUSIVE lock behind that
+            # would deadlock the main pipeline connection (which
+            # commits once per run, after the decide loop).
+            self._conn = sqlite3.connect(
+                self.db_path,
+                timeout=2.0,
+                isolation_level=None,
+            )
+            self._conn.execute(
+                "PRAGMA busy_timeout=2000"
+            )
+            self._conn.execute(
+                "CREATE TABLE IF NOT EXISTS article_cache ("
+                " story_id TEXT PRIMARY KEY,"
+                " url TEXT NOT NULL,"
+                " status TEXT NOT NULL,"
+                " text TEXT,"
+                " sentences_json TEXT,"
+                " title TEXT,"
+                " fetched_at TEXT NOT NULL,"
+                " ttl_hours INTEGER NOT NULL)"
+            )
+        except sqlite3.Error:
+            # Locked/read-only DB: the cache is optional.
+            self._conn = None
+
+    def _open_ok(self):
+        return self._conn is not None
 
     def get(self, story_id, now=None):
-        now = now or datetime.now(timezone.utc)
-        row = self._conn.execute(
-            "SELECT story_id, url, status, text, "
-            "sentences_json, title, fetched_at, ttl_hours "
-            "FROM article_cache WHERE story_id=?",
-            (story_id,),
-        ).fetchone()
-        if row is None:
+        if not self._open_ok():
             return None
-        entry = {
-            "story_id": row[0],
-            "url": row[1],
-            "status": row[2],
-            "text": row[3],
-            "sentences_json": row[4],
-            "title": row[5],
-            "fetched_at": row[6],
-            "ttl_hours": row[7],
-        }
-        fetched = datetime.fromisoformat(entry["fetched_at"])
-        if fetched.tzinfo is None:
-            fetched = fetched.replace(tzinfo=timezone.utc)
-        age = now - fetched
-        if age.total_seconds() > float(entry["ttl_hours"]) * 3600:
+        try:
+            now = now or datetime.now(timezone.utc)
+            row = self._conn.execute(
+                "SELECT story_id, url, status, text, "
+                "sentences_json, title, fetched_at, ttl_hours "
+                "FROM article_cache WHERE story_id=?",
+                (story_id,),
+            ).fetchone()
+            if row is None:
+                return None
+            entry = {
+                "story_id": row[0],
+                "url": row[1],
+                "status": row[2],
+                "text": row[3],
+                "sentences_json": row[4],
+                "title": row[5],
+                "fetched_at": row[6],
+                "ttl_hours": row[7],
+            }
+            fetched = datetime.fromisoformat(entry["fetched_at"])
+            if fetched.tzinfo is None:
+                fetched = fetched.replace(tzinfo=timezone.utc)
+            age = now - fetched
+            if age.total_seconds() > float(entry["ttl_hours"]) * 3600:
+                return None
+            return entry
+        except sqlite3.Error:
+            try:
+                self._conn.rollback()
+            except sqlite3.Error:
+                pass
             return None
-        return entry
 
     def set(self, story_id, url, status, text=None,
             sentences=None, title=None, ttl_ok=48,
             ttl_error=24, now=None):
-        now = now or datetime.now(timezone.utc)
-        ttl = (
-            ttl_ok if status == OK_STATUS else ttl_error
-        )
-        self._conn.execute(
-            "INSERT OR REPLACE INTO article_cache ("
-            "story_id, url, status, text, sentences_json, "
-            "title, fetched_at, ttl_hours) VALUES (?,?,?,?,?,"
-            "?,?,?)",
-            (
-                story_id,
-                url,
-                status,
-                text,
-                json.dumps(sentences or [], ensure_ascii=False)
-                if sentences is not None else None,
-                title,
-                now.isoformat(),
-                ttl,
-            ),
-        )
-        self._conn.commit()
+        if not self._open_ok():
+            return
+        try:
+            now = now or datetime.now(timezone.utc)
+            ttl = (
+                ttl_ok if status == OK_STATUS else ttl_error
+            )
+            self._conn.execute(
+                "INSERT OR REPLACE INTO article_cache ("
+                "story_id, url, status, text, sentences_json, "
+                "title, fetched_at, ttl_hours) VALUES (?,?,?,?,?,"
+                "?,?,?)",
+                (
+                    story_id,
+                    url,
+                    status,
+                    text,
+                    json.dumps(sentences or [], ensure_ascii=False)
+                    if sentences is not None else None,
+                    title,
+                    now.isoformat(),
+                    ttl,
+                ),
+            )
+        except sqlite3.Error:
+            try:
+                self._conn.rollback()
+            except sqlite3.Error:
+                pass
+            # Locked or unavailable: never fail the pipeline for
+            # a cache write.
+            return
 
     def close(self):
-        self._conn.close()
+        if self._conn is not None:
+            try:
+                self._conn.close()
+            except sqlite3.Error:
+                pass
+            self._conn = None
 
 
 def cache_sentences(entry):
@@ -808,6 +920,138 @@ def has_mass_casualty(text):
 # ---------------------------------------------------------------------------
 # Enrichment driver
 # ---------------------------------------------------------------------------
+
+def enrich_thin_story_before_event_memory(
+    item, cfg, now_dt, cache=None, fetcher=None,
+    pace=None, robots=None, max_fetches=5,
+):
+    """C1: fetch the full article for a THIN story BEFORE event
+    memory, so a weak RSS summary cannot anchor a weak standalone
+    event identity (the cause of same-event splits - e.g. the
+    Uttarakhand tunnel collapse posting twice because the Al
+    Jazeera one-liner and the SCMP report never merged).
+
+    Conditions (all must hold):
+    - the story has a real article URL (not a non-article URL,
+      domain allowlisted from the configured feeds)
+    - its own RSS text carries fewer than 2 useful sentences
+      (the same thinness definition the post-queue enrichment
+      phase uses, computed without grouping)
+    - the per-run pre-decide fetch budget is not exhausted
+
+    On success the verbatim article sentences are attached as
+    item["article_sentences"] AND folded into item["summary"], so
+    decide() builds the event identity from real facts (killed /
+    tunnel / location / named project) instead of the thin RSS
+    one-liner.  The post-queue enrichment phase then sees a
+    non-thin story (its briefing includes the article sentences)
+    and skips it, and the DB-backed cache prevents any re-fetch.
+
+    Returns (item, stats).  Additive only: on any failure the
+    item is returned unchanged and the outcome is cached, so the
+    pipeline never fails and never re-fetches the same URL.
+    """
+    stats = {
+        "checked": 0,
+        "thin": 0,
+        "eligible": 0,
+        "non_article": 0,
+        "domain_blocked": 0,
+        "cache_hit": 0,
+        "fetched": 0,
+        "ok": 0,
+        "expanded": 0,
+        "not_expanded": 0,
+        "budget_exhausted": 0,
+    }
+    art_cfg = cfg.get("article_extraction") or {}
+    if not art_cfg.get("enabled", True):
+        return item, stats
+
+    stats["checked"] += 1
+    url = item.get("url")
+    headline = item.get("title") or ""
+    if not url:
+        return item, stats
+
+    # Thinness: the story's OWN RSS text carries fewer than two
+    # useful explanatory sentences (same filter the briefing
+    # pipeline applies, without grouping).
+    from src.telegram_briefing import count_meaningful_sentences
+    if count_meaningful_sentences(
+        item.get("summary") or "", headline
+    ) >= 2:
+        return item, stats
+    stats["thin"] += 1
+
+    if non_article_url(url, art_cfg.get("non_article_segments")):
+        stats["non_article"] += 1
+        return item, stats
+    allowlist = feed_domain_allowlist(cfg.get("feeds"))
+    if not domain_allowed(url, allowlist):
+        stats["domain_blocked"] += 1
+        return item, stats
+
+    fetcher = fetcher or fetch_article
+    robots = robots or _RobotCache()
+    pace = pace or _PaceLock(
+        art_cfg.get("min_domain_interval_seconds", 1),
+    )
+
+    if cache is not None:
+        entry = cache.get(item.get("story_id") or item.get("id"), now=now_dt)
+        if entry is not None:
+            stats["cache_hit"] += 1
+            sentences = cache_sentences(entry)
+            if entry.get("status") == OK_STATUS and len(sentences) >= 2:
+                item["article_sentences"] = sentences
+                item["summary"] = " ".join(sentences)
+                stats["expanded"] += 1
+            return item, stats
+
+    if max_fetches <= 0:
+        stats["budget_exhausted"] += 1
+        return item, stats
+    stats["fetched"] += 1
+    try:
+        status, payload = fetcher(
+            url, art_cfg, allowlist, robots=robots, pace=pace
+        )
+    except Exception:
+        status, payload = ("network_error", {})
+    stats[status] = stats.get(status, 0) + 1
+
+    sentences = []
+    if status == OK_STATUS:
+        if article_junk_ratio(payload.get("text", "")) > 0.5:
+            status = "junk"
+        else:
+            sentences = article_sentences(
+                payload.get("text", ""),
+                headline,
+                int(art_cfg.get("max_article_sentences", 12)),
+            )
+    if cache is not None:
+        cache.set(
+            item.get("story_id") or item.get("id"),
+            url,
+            status,
+            text=payload.get("text") if status == OK_STATUS else None,
+            sentences=sentences if status == OK_STATUS else None,
+            title=payload.get("title") if status == OK_STATUS else None,
+            ttl_ok=int(art_cfg.get("cache_ttl_hours_ok", 48)),
+            ttl_error=int(art_cfg.get("cache_ttl_hours_error", 24)),
+            now=now_dt,
+        )
+
+    if status == OK_STATUS and len(sentences) >= 2:
+        item["article_sentences"] = sentences
+        item["summary"] = " ".join(sentences)
+        stats["expanded"] += 1
+    else:
+        stats["not_expanded"] += 1
+    return item, stats
+
 
 def enrich_thin_stories(
     candidates, cfg, now_dt, cache=None, fetcher=None

@@ -180,10 +180,12 @@ def fetch():
             "primary_source": item["primary_source"],
             "tier": item["tier"],
             "region": item.get("region"),
-            "discovery": item.get(
-                "discovery",
-                False
-            ),
+            # Discovery is derived (feed flag OR Google News
+            # host), never inherited blindly: a thin Google News
+            # item must be treated as a discovery lead by the
+            # event-memory HELD gate exactly like a flagged
+            # discovery feed.
+            "discovery": is_discovery(item),
             "summary": s,
             "published_at": item.get(
                 "published_at"
@@ -577,6 +579,44 @@ def main():
 
     items = fetch()
 
+    # C1: pre-event-memory article enrichment.  A thin RSS
+    # summary must not anchor a weak standalone event identity
+    # (the cause of same-event splits - one incident posting
+    # twice).  Thin stories are enriched from their full article
+    # BEFORE decide(), so the event identity is built from real
+    # facts and can match the event's other reports.  The cache
+    # and budget are shared with the post-queue enrichment phase
+    # so no URL is ever fetched twice per run.
+    article_cache = None
+    try:
+        from src.article_extractor import (
+            ArticleCache,
+            _PaceLock,
+            _RobotCache,
+        )
+        article_cache = ArticleCache(DB)
+        pre_pace = _PaceLock(
+            int(
+                (CONFIG.get("article_extraction") or {})
+                .get("min_domain_interval_seconds", 1)
+            )
+        )
+        pre_robots = _RobotCache()
+    except Exception:
+        article_cache = None
+        pre_pace = None
+        pre_robots = None
+
+    pre_enrich_budget = {
+        "remaining": max(
+            3,
+            int(
+                (CONFIG.get("article_extraction") or {})
+                .get("max_fetches_per_run", 15)
+            ) // 3,
+        )
+    }
+
     q = []
     held = []
 
@@ -600,6 +640,7 @@ def main():
         "duplicates": 0,
         "below_score": 0,
         "discovery_held": 0,
+        "thin_held": 0,
         "low_confidence_rejected": 0,
         "editorial_rejected": 0,
         "translation_held": 0,
@@ -855,6 +896,62 @@ def main():
         # Event memory
         # -----------------------------------------------------
 
+        # C1: enrich thin stories from their full article BEFORE
+        # event memory so a one-line RSS summary cannot anchor a
+        # weak event identity (the confirmed Uttarakhand tunnel
+        # split).  Additive only: on any failure the story is
+        # processed unchanged; budget and cache are shared with
+        # the post-queue enrichment phase.
+        # The pre-decide enrichment budget is small and must go
+        # to the stories that will anchor important events, not
+        # to the first thin items in feed order (which let a
+        # weak seed split one event into several - the
+        # Uttarakhand tunnel case).  Low/medium items are still
+        # handled by the post-queue enrichment phase if they
+        # reach the queue.
+        if (
+            article_cache is not None
+            and pre_enrich_budget["remaining"] > 0
+            and (
+                x.get("priority_level") in (
+                    "HIGH",
+                    "IMMEDIATE",
+                )
+                or x.get("score", 0) >= 60
+            )
+        ):
+            try:
+                from src.article_extractor import (
+                    enrich_thin_story_before_event_memory,
+                )
+                x, pre_stats = enrich_thin_story_before_event_memory(
+                    x,
+                    CONFIG,
+                    now_dt_utc,
+                    cache=article_cache,
+                    pace=pre_pace,
+                    robots=pre_robots,
+                    max_fetches=pre_enrich_budget["remaining"],
+                )
+                pre_enrich_budget["remaining"] -= int(
+                    pre_stats.get("fetched", 0)
+                )
+                if pre_stats.get("expanded"):
+                    # The story now carries real article facts:
+                    # refresh the website-ready entity metadata so
+                    # the stored story row agrees with the event
+                    # identity it just anchored.
+                    try:
+                        from src.event_memory import story_entities
+                        x["entities"] = story_entities(
+                            x["title"],
+                            x["summary"],
+                        )
+                    except Exception:
+                        pass
+            except Exception:
+                pass
+
         status, eid, _ = decide(
             c,
             x,
@@ -959,6 +1056,23 @@ def main():
                 meta["verification"],
             )
         )
+
+        # -----------------------------------------------------
+        # Thin discovery held (C1)
+        #
+        # A thin item with insufficient identity signals is
+        # recorded as a story (so repeats are deduplicated) but
+        # never creates an event and never reaches the queue:
+        # its weak identity would split the same event into
+        # several.  A stronger report of the same event anchors
+        # the identity instead.
+        # -----------------------------------------------------
+
+        if status == "HELD":
+
+            run_stats["thin_held"] += 1
+
+            continue
 
         # -----------------------------------------------------
         # Duplicate
@@ -1260,7 +1374,11 @@ def main():
                 telegram_candidates,
                 CONFIG,
                 now_dt,
-                cache=ArticleCache(DB),
+                cache=(
+                    article_cache
+                    if article_cache is not None
+                    else ArticleCache(DB)
+                ),
             )
         )
 

@@ -180,6 +180,20 @@ BOILERPLATE_PATTERNS = [
     r"(?:updates|developments|news|coverage|headlines)\b[.\u2026]*",
     r"\bget (?:the )?latest updates?\b[^A-Za-z]*$",
     r"\blive ?blog(?:s)? (?:navigation|feed|index)\b",
+    # Live-blog UPDATE markers: "We just got an update from the
+    # ambulance service.", "Here is the latest.", "More coming
+    # up." carry no facts.  The first form removes the marker
+    # AND its trailing "from X" clause, so a body that is only
+    # an update pointer collapses to nothing instead of
+    # publishing a fact-free fragment.
+    r"\bwe (?:just )?(?:got|have|received|receive|are getting) "
+    r"an? (?:latest )?update\b"
+    r"(?: from [^.!?\u2026:\n]*)?[.!?\u2026]*",
+    r"\bhere(?:'s| is) the latest\b[^A-Za-z]*$",
+    r"\bwe bring you the latest\b[^A-Za-z]*$",
+    r"\bmore coming (?:up|soon)\b[^A-Za-z]*$",
+    r"\bupdates? (?:coming )?(?:shortly|soon)\b[^A-Za-z]*$",
+    r"\bcheck back (?:for|with us for) updates?\b[^A-Za-z]*$",
     # The Guardian business-live standfirst and its per-item
     # "( see earlier post )" navigation.
     r"\brolling coverage of the latest(?: and economic)? news\b",
@@ -220,6 +234,26 @@ FRAGMENT_LEAD_RE = re.compile(
     r"\s*(?=[A-Z]|$)"
 )
 
+# Wire-service datelines that lead an extracted sentence:
+# "NEW DELHI -", "SEOUL, Aug. 14 (Yonhap) --", "LONDON, Aug 14
+# (Reuters) -", "NEW YORK (AP) -", "Kabul, Afghanistan -".
+# The city is ALL CAPS or Title Case, optionally followed by a
+# ", Month Day" and an optional "(agency)", and MUST end in a
+# dash: without the dash it is ordinary sentence text ("Paris
+# city council votes...") and is never touched.  Short
+# capital-letter acronyms (US, UK, EU, UN, NATO, BBC, CNN) are
+# excluded so "US - China trade talks" is not damaged.
+DATELINE_RE = re.compile(
+    r"^(?!(?:us|uk|eu|un|nato|bbc|cnn)\b)"
+    r"(?:[A-Z][A-Z\s\u00b7']{1,40}?"
+    r"|[A-Z][a-z][a-zA-Z\u2019'-]*"
+    r"(?:,\s*[A-Z][a-z][a-zA-Z\u2019'-]*)?)"
+    r"(?:,\s*(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)"
+    r"[a-z]*\.?\s+\d{1,2}(?:,\s*\d{4})?)?"
+    r"(?:\s*\([A-Za-z\u2019 '-]+\))?"
+    r"\s*(?:[\u2013\u2014\u2015]\s*|--?\s+)"
+)
+
 
 def strip_boilerplate(text):
     """Remove recognizable publisher boilerplate fragments
@@ -253,6 +287,10 @@ def clean_sentence_text(text):
     # item, a nav divider); the fused form "- list 3 of 3Why ..."
     # collapses to "- Why ..." after the marker is stripped.
     text = re.sub(r"^\s*[-\u2013\u2014\u2022]\s+", "", text)
+    # A leading wire-service dateline ("NEW DELHI -", "LONDON,
+    # Aug 14 (Reuters) --") is page chrome, never sentence
+    # content.
+    text = DATELINE_RE.sub("", text)
     text = DUPLICATE_WORD_RE.sub(r"\1", text)
     # Drop a leading article/navigation fragment that is only
     # a series label ("Total solar eclipse (2/4) ...") while

@@ -279,6 +279,15 @@ FEATURE_PATTERNS = [
     r"\b(?:turn(?:ing|s|ed)?|transform(?:ing|s|ed)?|channel(?:ing|s|ed)?)"
     r"\s+(?:grief|loss|pain|trauma|heartbreak|tears?|sorrow)"
     r"\s+into\b",
+    # Analysis / argumentative headline formats: "Why X is...",
+    # "Can X save...", "X cannot save...".  Anchored at the
+    # headline START (or on the explicit "cannot save" form) so
+    # legitimate reporting that merely contains "why" mid-
+    # sentence stays eligible.
+    r"^why\s+(?:is|are|was|were|do|does|did|will|would|can|could|should)\b",
+    r"^why\s+(?:the|a|an|[A-Za-z\u2019'-]+)\s+[A-Za-z\u2019'-]+\s+(?:is|are|was|were)\b",
+    r"\b(?:can|could)\s+[A-Za-z\u2019'-]+\s+save\b",
+    r"\b(?:cannot|can't|can\s+not)\s+(?:save|revive|rescue|fix)\b",
 ]
 
 # Commemoration forms are unambiguous enough to check the body
@@ -297,6 +306,40 @@ _FEATURE_COMPILED = [
 _FEATURE_BODY_COMPILED = [
     re.compile(p, re.IGNORECASE) for p in FEATURE_BODY_PATTERNS
 ]
+
+# Anniversary / retrospective framing.  These are low-value
+# commemorations ONLY when they report no current development
+# (handled in editorial_eligibility); a genuine development that
+# happens to reference an anniversary stays eligible.
+ANNIVERSARY_RE = re.compile(
+    r"\b(?:a|one|two|three|four|five|six|seven|eight|nine|ten|"
+    r"several|few|multiple|dozen)\s+"
+    r"(?:years?|months?|weeks?|decades?)\s+after\b"
+    r"|\b(?:marks?|marked|marking|commemorates?|commemorated)\s+"
+    r"(?:the\s+)?(?:anniversary|centenary|centennial|birthday|death)\b"
+    r"|\b(?:anniversary|retrospective|commemoration)\b",
+    re.IGNORECASE,
+)
+
+# Current-development signals that override the anniversary rule:
+# present-tense reporting verbs ("releases new findings",
+# "announces", "says"), imminent-action forms ("is set to"), or
+# a concrete current number ("5,000 still displaced").  A pure
+# commemoration has none of these.
+CURRENT_DEVELOPMENT_RE = re.compile(
+    r"\b(?:releases?|announces?|issues?|reveals?|unveils?|"
+    r"reports?|warns?|declares?|signs?|approves?|launches?|"
+    r"opens?|closes?|finds?|returns?|wins?|strikes?|hits?|"
+    r"kills?|raises?|cuts?|bans?|imposes?|arrests?|rescues?|"
+    r"evacuates?|confirms?|rules?|sues?|fines?|charges?|"
+    r"indicts?|convicts?|sentences?|rejects?|votes?|elects?|"
+    r"says?|said)\b"
+    r"|\b(?:is|are|has|have)\s+(?:set to|expected to|about to)\b"
+    r"|\b\d+(?:[.,]\d+)?\s*(?:dead|killed|injured|percent|%|"
+    r"million|billion|km|miles|people|arrested|displaced|"
+    r"evacuated|missing)\b",
+    re.IGNORECASE,
+)
 
 
 def _title(text):
@@ -377,6 +420,18 @@ def editorial_eligibility(item, reasons_out=None):
         if reasons_out is not None:
             reasons_out.append("feature")
         return False
+
+    # Anniversary / retrospective framing ("A year after the
+    # protests...", "marks the anniversary of...", "retrospective").
+    # Rejected only when the piece reports NO current development:
+    # "One year after the disaster, regulators release new
+    # findings" is current news and stays eligible, while a pure
+    # commemoration or retrospective is a low-value feature.
+    if ANNIVERSARY_RE.search(title):
+        if not CURRENT_DEVELOPMENT_RE.search(combined):
+            if reasons_out is not None:
+                reasons_out.append("anniversary")
+            return False
 
     return True
 

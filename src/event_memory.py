@@ -565,17 +565,60 @@ _IMPACT_UNIT_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Word-numbers in casualty/impact contexts ("seven workers have
+# been killed") are bound facts just like digits ("7 killed") and
+# must produce the SAME canonical impact pair, otherwise a report
+# that spells a count out can never match one that writes it as a
+# digit - the root of the Uttarakhand tunnel split (DW seed
+# "7 dead" vs Al Jazeera "seven workers killed" never merged).
+# Only the unambiguous cardinal names are mapped; the context is
+# already constrained by _IMPACT_UNIT_RE's unit list, so "seven"
+# outside a casualty/measure phrase is never touched.
+_WORD_NUMBER_MAP = {
+    "one": "1", "two": "2", "three": "3", "four": "4",
+    "five": "5", "six": "6", "seven": "7", "eight": "8",
+    "nine": "9", "ten": "10", "eleven": "11",
+    "twelve": "12", "thirteen": "13", "fourteen": "14",
+    "fifteen": "15", "sixteen": "16", "seventeen": "17",
+    "eighteen": "18", "nineteen": "19", "twenty": "20",
+    "thirty": "30", "forty": "40", "fifty": "50",
+    "sixty": "60", "seventy": "70", "eighty": "80",
+    "ninety": "90",
+}
+
+_WORD_NUMBER_IMPACT_RE = re.compile(
+    r"\b("
+    + "|".join(sorted(_WORD_NUMBER_MAP, key=len, reverse=True))
+    + r")\s*"
+    r"(killed|dead|deaths|fatalities|injured|displaced|evacuated|"
+    r"missing|arrested|detained|hospitalized|hospitalised|people|"
+    r"residents|homes|families|troops|soldiers|hostages|workers|"
+    r"officers|toll)\b",
+    re.IGNORECASE,
+)
+
 
 def _impact_pairs(text):
     """Canonical "number:unit" impact facts in the text, e.g.
     "100:killed", "20000:evacuated", "64:magnitude".  Stored
-    as plain strings so the state survives JSON round-trips."""
+    as plain strings so the state survives JSON round-trips.
+
+    Word-numbers in casualty contexts ("seven workers killed")
+    are normalized to their digit form so spelled-out counts and
+    digit counts produce the same identity fact."""
+    text = text or ""
     pairs = set()
-    for m in _IMPACT_UNIT_RE.finditer(text or ""):
+    for m in _IMPACT_UNIT_RE.finditer(text):
         number = re.sub(r"[^0-9.]", "", m.group(1))
         unit = m.group(2).lower()
         if not number:
             continue
+        if unit in _CONSEQUENCE_WORDS:
+            unit = _CONSEQUENCE_NORMALIZE.get(unit, unit)
+        pairs.add(number + ":" + unit)
+    for m in _WORD_NUMBER_IMPACT_RE.finditer(text):
+        number = _WORD_NUMBER_MAP[m.group(1).lower()]
+        unit = m.group(2).lower()
         if unit in _CONSEQUENCE_WORDS:
             unit = _CONSEQUENCE_NORMALIZE.get(unit, unit)
         pairs.add(number + ":" + unit)
@@ -826,11 +869,27 @@ def _signals_text(title, summary=""):
     for canonical, variants in _ACTION_GROUPS.items():
         if variants & raw_words:
             actions.add(canonical)
+
+    # A political "landslide" (election sense) must not create
+    # disaster-landslide identity: drop it from the action and
+    # event-type-word surfaces when the context is political.
+    pol_landslide = _political_landslide(text)
+    if pol_landslide:
+        actions.discard("landslide")
+
     core_words = set()
     for w in entities | raw_words:
         cw = _CORE_NORMALIZE.get(w, w)
         if cw in CORE_EVENT_WORDS:
+            if cw == "landslide" and pol_landslide:
+                continue
             core_words.add(cw)
+
+    content_tokens = _content_tokens(text)
+    if pol_landslide:
+        content_tokens.discard("landslide")
+        content_tokens.discard("landslides")
+
     return {
         "entities": entities,
         "locations": locations,
@@ -844,7 +903,8 @@ def _signals_text(title, summary=""):
         "dev": _has_development_marker(text),
         "dev_facts": _dev_facts(text),
         "reaction": _has_reaction_marker(text),
-        "content_tokens": _content_tokens(text),
+        "content_tokens": content_tokens,
+        "political_landslide": pol_landslide,
         "text": text,
     }
 
@@ -868,6 +928,55 @@ def story_entities(title, summary=""):
     return sorted(
         _signals_text(title, summary)["entities"]
     )
+
+
+# ---------------------------------------------------------
+# "Landslide" sense disambiguation
+#
+# "landslide" has two unrelated meanings: a terrain collapse
+# (a disaster) and a one-sided election win ("won by a
+# landslide", "landslide victory").  A political "landslide"
+# must never contribute disaster-landslide identity signals,
+# or an election story could falsely merge into a
+# terrain-landslide event (and the reverse).  The terrain
+# sense is kept whenever the nearby context is not political.
+# ---------------------------------------------------------
+
+_POLITICAL_LANDSLIDE_WORDS = frozenset({
+    "victory", "victories", "win", "won", "wins", "winning",
+    "election", "elections", "vote", "voted", "voting",
+    "voters", "defeated", "defeat", "defeats", "defeating",
+    "re-elected", "reelected", "re-election", "reelection",
+    "majority", "mandate", "poll", "polls", "seat", "seats",
+    "candidate", "campaign", "party", "opposition",
+    "parliamentary", "re-elected", "ballot", "ballots",
+    "landslide-victory",
+})
+
+_LANDSLIDE_RE = re.compile(r"\blandslides?\b")
+
+
+def _political_landslide(text):
+    """True when "landslide" in the text is used in its
+    political sense (a one-sided election win) rather than as
+    a terrain collapse.  A word is considered political only
+    when a political term appears within a short window around
+    it, so "a landslide blocked the highway" keeps its
+    disaster meaning."""
+    lowered = (text or "").lower()
+    for m in _LANDSLIDE_RE.finditer(lowered):
+        # Window covers the clause around the word (and the
+        # enclosing sentence), so "defeating his arch-rival
+        # ... by a landslide in 2021" and "voters handed them
+        # a landslide" are caught while "a landslide blocked
+        # the highway" (no political term nearby) is not.
+        window = lowered[
+            max(0, m.start() - 120): m.end() + 120
+        ]
+        for word in _POLITICAL_LANDSLIDE_WORDS:
+            if re.search(r"\b" + re.escape(word) + r"\b", window):
+                return True
+    return False
 
 
 # ---------------------------------------------------------
@@ -1017,6 +1126,14 @@ def _identity_from_signals(item, signals):
     only.  Nothing that merges later ever touches this dict."""
     title = item.get("title") or ""
     summary = item.get("summary") or ""
+    title_tokens = _content_tokens(title)
+    if signals.get("political_landslide"):
+        title_tokens.discard("landslide")
+        title_tokens.discard("landslides")
+    content_tokens = _content_tokens(title + " " + summary)
+    if signals.get("political_landslide"):
+        content_tokens.discard("landslide")
+        content_tokens.discard("landslides")
     return {
         "title": title,
         "summary": summary,
@@ -1028,10 +1145,8 @@ def _identity_from_signals(item, signals):
         "numbers": sorted(signals["numbers"]),
         "impact": sorted(signals["impact"]),
         "magnitudes": sorted(signals["magnitudes"]),
-        "title_tokens": sorted(_content_tokens(title)),
-        "content_tokens": sorted(
-            _content_tokens(title + " " + summary)
-        ),
+        "title_tokens": sorted(title_tokens),
+        "content_tokens": sorted(content_tokens),
     }
 
 
@@ -1703,7 +1818,10 @@ def _write_event_meta(conn, event_id, item, state, now,
             subregion=?,
             country=?,
             entities=?,
-            last_development=COALESCE(?, last_development),
+            last_development=CASE
+                WHEN ? IS NULL THEN last_development
+                ELSE MAX(COALESCE(last_development, ?), ?)
+            END,
             related_sources=?,
             verification=?
         WHERE event_id=?
@@ -1716,11 +1834,54 @@ def _write_event_meta(conn, event_id, item, state, now,
             meta["country"],
             meta["entities"],
             meta["last_development"],
+            meta["last_development"],
+            meta["last_development"],
             meta["related_sources"],
             meta["verification"],
             event_id,
         ),
     )
+
+
+def _has_sufficient_identity(signals):
+    """Whether a story carries enough event-defining signals to
+    anchor a standalone event identity.
+
+    A thin discovery item (no bound fact, no event-type word,
+    no distinctive entity, no storm name, no magnitude) creates
+    an identity that later reports cannot reliably match - which
+    splits one event into several - while its generic words can
+    still falsely merge unrelated stories.  Such an item is held
+    instead of creating a weak standalone event (decide() returns
+    HELD).  The check mirrors exactly what the matching rules
+    treat as identity anchors, so it never needs a threshold
+    change: storm name, magnitude, bound fact ("7 dead"), a
+    strong non-place entity, or an event-type core word is
+    sufficient; everything else is not.
+    """
+    if signals.get("storm_names"):
+        return True
+    if signals.get("magnitudes"):
+        return True
+    if signals.get("core_words"):
+        return True
+    distinctive = (
+        set(signals.get("entities") or [])
+        - set(signals.get("locations") or [])
+    )
+    strong = distinctive - _WEAK_ENTITY_WORDS
+    if strong:
+        return True
+    # A bound fact alone ("7 killed") is NOT sufficient: the
+    # matching rules require a bound fact TOGETHER with a
+    # distinctive entity or event-type word (R1 impact+type), so
+    # an impact-only identity (e.g. a thin "Seven killed in
+    # India" discovery item whose only non-place signal is the
+    # casualty count) could never be matched by the event's own
+    # later reports and would only split the event.
+    if signals.get("impact") and strong:
+        return True
+    return False
 
 
 def _apply_canonical_enrichment(
@@ -1978,6 +2139,23 @@ def decide(conn, item, memory_hours=48, major_memory_hours=168):
     # No matching recent event: this is a new event.
     # ---------------------------------------------------------
     if best is None:
+        # A THIN DISCOVERY item must not establish a weak
+        # standalone event identity: its identity would be too
+        # generic to match the event's own later reports (same
+        # event split into several) while still being able to
+        # falsely merge unrelated stories.  It is held instead -
+        # recorded as a story, never creating an event - until a
+        # stronger report of the same event arrives and anchors
+        # the identity with real facts.
+        #
+        # Only DISCOVERY items are gated: a thin non-discovery
+        # report (a wire bulletin with no event-type vocabulary)
+        # may still be the only source of a genuine new event, so
+        # it keeps the pre-existing behavior.
+        if not _has_sufficient_identity(signals) and bool(
+            item.get("discovery")
+        ):
+            return ("HELD", None, 0.0)
         event_id = _new_id(
             item.get("title", "")
             + "|"

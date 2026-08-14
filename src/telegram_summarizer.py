@@ -1037,6 +1037,19 @@ def _dangling_ending(text):
     return words[-1] in DANGLING_LAST_WORDS
 
 
+# A sentence cut off by the feed ("...avoided any further time
+# behind...") is damaged text.  A trailing ellipsis is a
+# truncation marker in news copy, never a deliberate pause, so
+# the sentence is rejected rather than published half-cut.
+TRUNCATED_ENDING_RE = re.compile(
+    r"(?:\.\.\.|\u2026)\s*$"
+)
+
+
+def _truncated_ending(text):
+    return bool(TRUNCATED_ENDING_RE.search(text or ""))
+
+
 # ---------------------------------------------------------
 # Question / information gate
 #
@@ -1263,6 +1276,9 @@ def quality_check_sentence(text, headline):
 
     if _dangling_ending(text):
         problems.append("dangling ending")
+
+    if _truncated_ending(text):
+        problems.append("truncated ending")
 
     if HTML_ENTITY_RE.search(text):
         problems.append("html entity artifact")
@@ -1584,38 +1600,151 @@ def _coherence_stems(text):
     return stems
 
 
+# Event-type actions whose shared presence alone means the body
+# is about the same kind of event ("wildfire", "quake", "blast").
+# Generic actions ("hit", "strike") are not listed: they overlap
+# too easily between unrelated stories.
+_EVENT_TYPE_ACTIONS = {
+    "fire", "wildfire", "flood", "flooding", "storm", "typhoon",
+    "hurricane", "cyclone", "tornado", "blizzard", "quake",
+    "earthquake", "tremor", "tsunami", "landslide", "avalanche",
+    "volcano", "eruption", "blast", "explosion", "bombing",
+    "airstrike", "missile", "drone", "shooting", "gunman",
+    "outage", "blackout", "collapse", "ceasefire", "truce",
+    "coup", "referendum", "wildfires", "floods", "storms",
+}
+
+# Stems that are generic context (places, directionals, time
+# references, collectives, report verbs, consequence/health
+# descriptors).  A SINGLE shared stem is a coherent link only
+# when it is NOT one of these - "solar" or "fire" alone links,
+# while a headline and body that share only "west", "record"
+# or "hospital" are not necessarily the same event.
+_GENERIC_COHERENCE_STEMS = {
+    "north", "south", "east", "west", "central", "northern",
+    "southern", "eastern", "western", "coast", "coastal",
+    "island", "gulf", "region", "area", "city", "town",
+    "state", "province", "county", "district", "capital",
+    "world", "country", "nation", "population", "community",
+    "year", "month", "week", "day", "hour", "time", "today",
+    "yesterday", "tonight", "tomorrow", "decade", "century",
+    "record", "first", "latest", "recent", "last", "next",
+    "new", "old", "people", "person", "resident", "citizen",
+    "family", "home", "group", "number", "worker", "student",
+    "official", "authority", "government", "police", "minister",
+    "president", "leader", "chief", "member", "spokesman",
+    "spokesperson", "army", "navy", "force", "department",
+    "agency", "ministry", "council", "committee", "parliament",
+    "senate", "congress", "house", "court", "bank", "company",
+    "firm", "report", "reporte", "say", "said", "says",
+    "confirm", "announc", "declar", "issu", "warn", "urge",
+    "call", "plan", "set", "expect", "continu", "remain",
+    "tak", "mak", "get", "see", "show", "find", "follow",
+    "com", "go", "give", "leav", "bring", "put", "hold",
+    "meet", "talk", "discuss", "tell", "know", "think",
+    "believ", "look", "watch", "hear", "want", "need",
+    "help", "support", "work", "live", "hospital", "medic",
+    "health", "injur", "kill", "dead", "death", "die",
+    "victim", "casualt", "damag", "destro", "evacuat",
+    "rescu", "emerg", "shelter", "safe", "danger", "weather",
+    "forecast", "temperature", "heat", "rain", "wind", "snow",
+    "sun", "flame", "large", "small", "major", "high", "low",
+    "big", "total", "overall", "several", "many", "multiple",
+    "more", "most", "some", "few", "other", "another", "also",
+    "still", "now", "just", "already", "soon", "later",
+    "early", "soon", "million", "billion", "thousand",
+    "hundred", "dozen",
+} | set(LOCATION_SET)
+
+
+def _literal_places(text):
+    """LOCATION_SET words literally present in the raw text
+    (lowercase scan).  Used ONLY to decide which shared entities
+    are mere context: a place word that literally appears on
+    both sides ("Europe" in a headline AND in the body) is not
+    a named-entity link.  A false "us"/"uk" pronoun hit only
+    makes places look MORE shared, which can only weaken a
+    link - never create a false one."""
+    lowered = (text or "").lower()
+    return {
+        place
+        for place in LOCATION_SET
+        if re.search(r"\b" + re.escape(place) + r"\b", lowered)
+    }
+
+
 def _texts_link(a, b):
-    """True when two texts share any meaningful fact link: a
-    named entity, a place, an action, a number, a time reference
-    or a content word."""
+    """True when two texts share a SUBSTANTIVE fact link.
+
+    A single generic shared word or a shared place is never
+    enough: a multi-topic live-blog headline must not pass
+    merely because the extracted body shares a city or a
+    generic word with it.  The body must actually touch the
+    headline's event: the same named subject (person, company,
+    city/country alias), an event-type action (fire, quake,
+    flood...), a place combined with another signal, a shared
+    action with a supporting link, or at least two distinct
+    fact-bearing stems."""
     ea = set(_entity_words(a))
     eb = set(_entity_words(b))
-    if ea & eb:
-        return True
     ea_aliased = {ENTITY_ALIASES.get(e, e) for e in ea}
     eb_aliased = {ENTITY_ALIASES.get(e, e) for e in eb}
-    if ea_aliased & eb_aliased:
-        return True
-    if (ea & LOCATION_SET) & (eb & LOCATION_SET):
-        return True
-    if _actions(a) & _actions(b):
-        return True
-    if _numbers_of(a) & _numbers_of(b):
-        return True
-    if _temporal_of(a) & _temporal_of(b):
-        return True
+    shared_entity = ea_aliased & eb_aliased
+
+    places_a = ea & LOCATION_SET
+    places_b = eb & LOCATION_SET
+    shared_place = bool(places_a & places_b)
+
+    shared_actions = _actions(a) & _actions(b)
+    shared_number = bool(_numbers_of(a) & _numbers_of(b))
+    shared_temporal = bool(_temporal_of(a) & _temporal_of(b))
+
     sa = _coherence_stems(a)
     sb = _coherence_stems(b)
-    if sa & sb:
+    shared_stems = sa & sb
+
+    # The same named subject (a person, company, institution or
+    # a city/country alias such as Taipei -> Taiwan) is the
+    # strongest link.  A place literally named on BOTH sides
+    # ("Europe" in the headline AND in the body) is context,
+    # never a named-entity link.
+    literal_shared_place = (
+        _literal_places(a) & _literal_places(b)
+    )
+    if shared_entity - literal_shared_place:
         return True
-    for x in sa:
-        for y in sb:
-            if (
-                len(x) >= 4
-                and len(y) >= 4
-                and (x in y or y in x)
-            ):
-                return True
+
+    # A shared event-type action ("wildfire", "quake", "blast")
+    # means the body is about the same kind of event.
+    if shared_actions & _EVENT_TYPE_ACTIONS:
+        return True
+
+    # A shared place anchors the event only with another signal:
+    # "West Midlands fire" + a body about London cannot pass on
+    # the shared word "Europe" alone.
+    if shared_place and (
+        shared_actions or shared_number or len(shared_stems) >= 2
+    ):
+        return True
+
+    # A shared action anchors only with a supporting link.
+    if shared_actions and (
+        shared_number or shared_temporal or len(shared_stems) >= 2
+    ):
+        return True
+
+    # Substantial topic overlap: two distinct fact-bearing stems
+    # mean the body is actually about the headline's subject.  A
+    # single shared stem links only when it is a specific topic
+    # word ("solar", "fire") rather than generic context
+    # ("west", "record", "hospital").
+    if len(shared_stems) >= 2:
+        return True
+    if len(shared_stems) == 1:
+        (only,) = shared_stems
+        if only not in _GENERIC_COHERENCE_STEMS:
+            return True
+
     return False
 
 
