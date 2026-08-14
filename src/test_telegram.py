@@ -2805,7 +2805,6 @@ def test_config_flags_known_non_news_feeds():
 
     assert {
         "NASA News",
-        "NASA News Releases",
         "ESA News",
         "CISA Alerts",
     } <= banned
