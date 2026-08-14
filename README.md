@@ -302,6 +302,32 @@ with rates. Low-volume specialized sources are not penalized: a source with 5
 high-value events is valuable, not underrepresented — the audit only flags sources
 that fetch real volume and produce zero useful events.
 
+## Importance model
+
+The queue is ranked by a transparent, evidence-based importance score
+(`src/importance.py`), not a keyword sum.  Severity comes from the actual facts:
+
+| Component | Max | Meaning |
+|---|---|---|
+| impact | 34 | Magnitude + casualties + context: M7.5 in a populated area ≫ M2 tremor; 1000+ dead ≫ 10 dead; plane crash / dam collapse / bank failure floor |
+| urgency | 10 | Breaking/developing wording + age (<1h, <6h, <24h) |
+| novelty | 10 | Event-level: NEW = 10, UPDATE = 8, DUPLICATE = 0 |
+| scope | 8 | Local / National / Regional / Multi-country / Global, from content |
+| reliability | 8 | Source tier + primary-source flag (trust, never importance by itself) |
+| corroboration | 10 | Independent strong corroboration (syndication is not overcounted) |
+| significance | 40 | Six bounded dimensions (human/economic/security/scientific/infrastructure/geopolitical), tiered strong=8/weak=4 terms + fact-driven human scale |
+| coverage adjustment | +3 | Soft nudge for under-covered sectors; can win a tie, can never lift a 50-point story over a 90-point one |
+
+Levels: **CRITICAL ≥ 85, HIGH ≥ 70, MEDIUM ≥ 50, LOW < 50.**  Importance is
+**event-level**: the event's canonical material (title + accumulated summary) is
+passed in, so a thin follow-up article inherits the event's severity facts ("M7.4
+quake, 281 dead") and cannot demote a genuinely major event by accident.  Every
+candidate carries an explainable `importance_breakdown` dict (debug/audit only,
+never shown on Telegram).  No permanent sector priority exists: ranking comes from
+evidence, and labels (BREAKING / JUST IN / UPDATE / NEWS) remain separate from the
+importance level.  The legacy `priority_score` is still computed for the Telegram
+scheduler's delay logic; `importance_score` drives queue order.
+
 ## Limitations
 
 - **At-least-once delivery.** State is committed only after publishing; if a run

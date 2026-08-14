@@ -331,6 +331,26 @@ def record_source_health(conn, run, now_iso, feeds=None):
     return updated
 
 
+def sector_source_counts(conn):
+    """Sector -> number of distinct sources that have contributed
+    stories to that sector in the persistent database.
+
+    Used by the importance model as the trusted coverage signal
+    (Phase C source intelligence).  Empty/None sectors are
+    skipped; a sector absent from the map gets no adjustment.
+    """
+    try:
+        rows = conn.execute(
+            "SELECT sector, COUNT(DISTINCT source) "
+            "FROM stories "
+            "WHERE sector IS NOT NULL AND sector != '' "
+            "GROUP BY sector"
+        ).fetchall()
+        return {r[0]: int(r[1]) for r in rows}
+    except Exception:
+        return {}
+
+
 def source_health_rows(conn):
     """All persistent source-health rows as dicts."""
     conn.row_factory = sqlite3.Row

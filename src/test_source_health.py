@@ -17,6 +17,7 @@ from src.storage import (
     _error_class,
     init_schema,
     record_source_health,
+    sector_source_counts,
     source_health_rows,
 )
 
@@ -400,3 +401,29 @@ class TestJsonOutput:
         feeds, cfg = load_feeds("config.json")
         assert len(feeds) == 51
         assert all(f.get("name") for f in feeds)
+
+    def test_sector_source_counts_from_db(self):
+        conn = db()
+        now = NOW1
+        conn.execute(
+            "INSERT INTO stories (id, title, url, source, category, "
+            "summary, score, confidence, event_id, event_status, "
+            "first_seen, sector) VALUES "
+            "('a', 't1', 'u1', 'BBC World', 'world', 's', 60, 'medium', "
+            "'e1', 'NEW', ?, 'climate'),"
+            "('b', 't2', 'u2', 'SCMP', 'world', 's', 60, 'medium', "
+            "'e2', 'NEW', ?, 'climate'),"
+            "('c', 't3', 'u3', 'SCMP', 'world', 's', 60, 'medium', "
+            "'e3', 'NEW', ?, 'health')",
+            (now, now, now),
+        )
+        counts = sector_source_counts(conn)
+        assert counts["climate"] == 2  # two distinct sources
+        assert counts["health"] == 1
+        assert "general" not in counts  # no unclassified sector
+        conn.close()
+
+    def test_sector_source_counts_empty_db(self):
+        conn = db()
+        assert sector_source_counts(conn) == {}
+        conn.close()

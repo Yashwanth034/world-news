@@ -555,9 +555,25 @@ def main():
         )
     )
 
-    now = datetime.now(
+    now_dt_utc = datetime.now(
         timezone.utc
-    ).isoformat()
+    )
+
+    now = now_dt_utc.isoformat()
+
+    # Coverage awareness uses TRUSTED SOURCE INTELLIGENCE
+    # (Phase C): sector -> number of distinct sources that have
+    # actually contributed to that sector, read from the
+    # persistent database once per run.  The config feed labels
+    # are not used (they carry no sector field).  This stays a
+    # soft <=+3 tie-break for under-covered sectors; it can
+    # never force a post or suppress a major event.
+    sector_source_counts = {}
+    try:
+        from src.storage import sector_source_counts as _ssc
+        sector_source_counts = _ssc(c) or {}
+    except Exception:
+        sector_source_counts = {}
 
     items = fetch()
 
@@ -850,6 +866,48 @@ def main():
         x["event_id"] = eid
 
         # -----------------------------------------------------
+        # Importance (transparent multi-signal model)
+        #
+        # Replaces the crude keyword priority for RANKING only.
+        # priority_score / priority_level are still computed for
+        # the Telegram scheduler's delay logic; importance_score
+        # drives queue order and is an explainable breakdown
+        # (never shown on Telegram).
+        # -----------------------------------------------------
+
+        from src.importance import compute_importance
+
+        # Event-level importance: the event's canonical material
+        # (title + accumulated summary) is passed in so a thin
+        # follow-up article inherits the event's severity facts
+        # ("M7.4 quake, 281 dead") instead of being judged only
+        # on its own wording.  Read-only; matching unchanged.
+        event_text = None
+        try:
+            ev = c.execute(
+                "SELECT canonical_title, canonical_summary "
+                "FROM events WHERE event_id=?",
+                (eid,),
+            ).fetchone()
+            if ev and (ev[0] or ev[1]):
+                event_text = " ".join(
+                    p for p in ev if p
+                ).strip()
+        except Exception:
+            event_text = None
+
+        imp_score, imp_level, imp_breakdown = compute_importance(
+            x,
+            now_dt_utc,
+            sector_source_counts=sector_source_counts,
+            event_text=event_text,
+        )
+
+        x["importance_score"] = imp_score
+        x["importance_level"] = imp_level
+        x["importance_breakdown"] = imp_breakdown
+
+        # -----------------------------------------------------
         # Store story
         #
         # IMPORTANT:
@@ -1039,16 +1097,20 @@ def main():
     # Sort queue by priority
     # ---------------------------------------------------------
 
+    # Sort queue by importance (Phase D): the transparent
+    # multi-signal importance score ranks candidates; IMMEDIATE
+    # (an urgency/schedule signal) breaks ties; then event status
+    # and confidence as before.
     q.sort(
         key=lambda x: (
             x.get(
-                "priority_level"
-            ) == "IMMEDIATE",
+                "importance_score",
+                x.get("priority_score", 0),
+            ),
 
             x.get(
-                "priority_score",
-                0
-            ),
+                "priority_level"
+            ) == "IMMEDIATE",
 
             x["event_status"] == "UPDATE",
 
