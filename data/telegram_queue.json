@@ -1,23 +1,112 @@
 {
-  "generated_at": "2026-08-14T13:44:35.130776+00:00",
-  "count": 1,
+  "generated_at": "2026-08-14T13:50:59.125206+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "94465211d74ee13ad1651acf58d4c9f5a95fc060a4bc51f661b3c25dd1dbe875",
-      "title": "Congo: Ebola cases are rising at record pace",
-      "url": "https://www.dw.com/en/congo-ebola-cases-are-rising-at-record-pace/a-78364053?maca=en-rss-en-world-4025-rdf",
-      "source": "DW World",
+      "id": "f5a892ee6e390bdfb03900331694efdf530e1a3f93865c7942cd44854f968d91",
+      "title": "Mount Etna continues to erupt in Italy",
+      "url": "https://www.france24.com/en/mount-etna-continues-to-erupt-in-italy",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "The Ebola virus is spreading rapidly in the DRC. In Kinshasa, a city of millions, fears of a serious health crisis are growing. Hospitals are scrambling to prepare for emergencies as best as they can.",
-      "published_at": null,
-      "updated_at": "2026-08-14T13:25:00+00:00",
-      "effective_at": "2026-08-14T13:25:00+00:00",
+      "summary": "Flights at Catania airport in Sicily remain suspended because of ongoing volcanic activity from Mount Etna. But for those already on the island, the spectacular lava flows have become a major attraction, drawing crowds of tourists to safe viewing points. Companies organising guided nighttime hikes say they have been flooded with calls from visitors hoping to see the eruption up close. Etna is Europe’s largest active volcano, and the latest activity has been unusual for its persistence and sustained ash emissions. Emily Boyle reports.",
+      "published_at": "2026-08-14T13:49:18+00:00",
+      "updated_at": "2026-08-14T13:49:18+00:00",
+      "effective_at": "2026-08-14T13:49:18+00:00",
       "language_status": "ENGLISH",
-      "category": "health",
+      "category": "disaster",
+      "score": 81,
+      "confidence": "medium",
+      "urgency_terms": [
+        "eruption",
+        "volcano"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "9d769bc4a09633f9e48f2933",
+      "format": "single",
+      "post": "📰 NEWS: Mount Etna continues to erupt in Italy. Flights at Catania airport in Sicily remain suspended because of ongoing volcanic activity from Mount Etna. Source: France 24.",
+      "quality_pass": true,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "story_id": "f5a892ee6e390bdfb03900331694efdf530e1a3f93865c7942cd44854f968d91",
+      "public_label": "⚡ JUST IN",
+      "headline": "Mount Etna continues to erupt in Italy",
+      "briefing": {
+        "opening": [
+          "Flights at Catania airport in Sicily remain suspended because of ongoing volcanic activity from Mount Etna.",
+          "But for those already on the island, the spectacular lava flows have become a major attraction, drawing crowds of tourists to safe viewing points."
+        ],
+        "body": [
+          "Companies organising guided nighttime hikes say they have been flooded with calls from visitors hoping to see the eruption up close.",
+          "Etna is Europe’s largest active volcano, and the latest activity has been unusual for its persistence and sustained ash emissions.",
+          "Emily Boyle reports."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Catania"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Flights at Catania airport in Sicily remain suspended because of ongoing volcanic activity from Mount Etna.",
+            "source": "France 24",
+            "item_id": "f5a892ee6e390bdfb03900331694efdf530e1a3f93865c7942cd44854f968d91",
+            "composed": false
+          },
+          {
+            "text": "Etna is Europe’s largest active volcano, and the latest activity has been unusual for its persistence and sustained ash emissions.",
+            "source": "France 24",
+            "item_id": "f5a892ee6e390bdfb03900331694efdf530e1a3f93865c7942cd44854f968d91",
+            "composed": false
+          },
+          {
+            "text": "But for those already on the island, the spectacular lava flows have become a major attraction, drawing crowds of tourists to safe viewing points.",
+            "source": "France 24",
+            "item_id": "f5a892ee6e390bdfb03900331694efdf530e1a3f93865c7942cd44854f968d91",
+            "composed": false
+          },
+          {
+            "text": "Companies organising guided nighttime hikes say they have been flooded with calls from visitors hoping to see the eruption up close.",
+            "source": "France 24",
+            "item_id": "f5a892ee6e390bdfb03900331694efdf530e1a3f93865c7942cd44854f968d91",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/mount-etna-continues-to-erupt-in-italy"
+      },
+      "group_size": 1,
+      "label": "⚡ JUST IN"
+    },
+    {
+      "id": "cabc97e2dee35ebc3e3c76948a1f6abe5ba808feae2c937c095bea831a187f68",
+      "title": "AI could transform African agriculture but access remains a major challenge",
+      "url": "http://www.africanews.com/2026/08/14/ai-could-transform-african-agriculture-but-access-remains-a-major-challenge/",
+      "source": "Africanews English",
+      "source_category": "africa",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "Senior FAO official for Africa Meshack Malo described artificial intelligence as a powerful tool for farmers, stressing the need for Africa datasets, language models, research capacity and agritech firms, to enable the continent to be not only the consumer but the driver of the technology.",
+      "published_at": "2026-08-14T13:24:25+00:00",
+      "updated_at": "2026-08-14T13:24:25+00:00",
+      "effective_at": "2026-08-14T13:24:25+00:00",
+      "language_status": "ENGLISH",
+      "category": "technology",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
@@ -29,41 +118,84 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "d98d680943b4d6d727087c0e",
+      "event_id": "756a8e1c2f9e38dc23ee25fe",
       "format": "single",
-      "post": "📰 NEWS: Congo: Ebola cases are rising at record pace. The Ebola virus is spreading rapidly in the DRC. In Kinshasa, a city of millions, fears of a serious health crisis are growing. Source: DW World.",
+      "post": "📰 NEWS: AI could transform African agriculture but access remains a major challenge. Senior FAO official for Africa Meshack Malo described artificial intelligence as a powerful tool for farmers, stressing the need for Africa datasets. Source: Africanews English.",
       "quality_pass": true,
       "quality_errors": [],
       "quality_warnings": [],
-      "story_id": "94465211d74ee13ad1651acf58d4c9f5a95fc060a4bc51f661b3c25dd1dbe875",
+      "story_id": "cabc97e2dee35ebc3e3c76948a1f6abe5ba808feae2c937c095bea831a187f68",
+      "article_sentences": [
+        "Senior FAO official for Africa Meshack Malo described artificial intelligence as a powerful tool for farmers, stressing the need for Africa datasets, language models, research capacity and agritech firms, to enable the continent to be not only the consumer but the driver of the technology.",
+        "In an interview, FAO’s Deputy Regional Representative for Africa Malo said, “for weather and climate services, we've seen a great leap because in Africa that ability to combine historical weather information, satellite and earth observation data was not there and that is now really being used.”",
+        "He added, “the AI is becoming such a powerful tool, but I have to say that it is not there to replace the extension workers so that maybe governments or the private sector can pull out of extension work.",
+        "They still remain important and human oversight remains very essential.”",
+        "The Deputy Regional Representative also pointed out that less than 10 percent of farmers in Africa are benefiting from digital agriculture services, stressing that AI system exists does not mean that the smaller farmers and those in the rural areas are benefit from it.",
+        "He noted the limitation of connectivity is the challenge.",
+        "Malo also noted that traditional market information system was only able to tell farmers about the prizes of the current day.",
+        "He said, “AI is allowing us to really move forward.",
+        "We can even ask how things look tomorrow.” He continued, “this information will make the farmers to make a different decision.",
+        "They can make them to keep crops, put them in the warehousing.”",
+        "The FAO official stressed in agribusiness sector, “this is one of the transformative areas in which we are really looking at this application, playing a big role and making Africa, particularly, leap from in the area of information in the agribusiness sector.” On the challenges, Malo said, “the infrastructure in Africa, particularly in the areas of reliable electricity, affordable connectivity, appropriate devices really remain uneven particularly in rural areas.”",
+        "Second is data, he pointed out, “AI really requires good data and not only good, but relevant data."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "Congo: Ebola cases are rising at record pace",
+      "headline": "AI could transform African agriculture but access remains a major challenge",
       "briefing": {
         "opening": [
-          "The Ebola virus is spreading rapidly in the DRC.",
-          "In Kinshasa, a city of millions, fears of a serious health crisis are growing."
+          "Senior FAO official for Africa Meshack Malo described artificial intelligence as a powerful tool for farmers, stressing the need for Africa datasets, language models, research capacity and agritech firms, to enable the continent to be not only the consumer but the driver of the technology.",
+          "In an interview, FAO’s Deputy Regional Representative for Africa Malo said, “for weather and climate services, we've seen a great leap because in Africa that ability to combine historical weather information, satellite and earth observation data was not there and that is now really being used.” He added, “the AI is becoming such a powerful tool, but I have to say that it is not there to replace the extension workers so that maybe governments or the private sector can pull out of extension work."
         ],
         "body": [
-          "Hospitals are scrambling to prepare for emergencies as best as they can."
+          "They still remain important and human oversight remains very essential.” The Deputy Regional Representative also pointed out that less than 10 percent of farmers in Africa are benefiting from digital agriculture services, stressing that AI system exists does not mean that the smaller farmers and those in the rural areas are benefit from it.",
+          "He noted the limitation of connectivity is the challenge.",
+          "Malo also noted that traditional market information system was only able to tell farmers about the prizes of the current day.",
+          "He said, “AI is allowing us to really move forward.",
+          "We can even ask how things look tomorrow.” He continued, “this information will make the farmers to make a different decision.",
+          "They can make them to keep crops, put them in the warehousing.” The FAO official stressed in agribusiness sector, “this is one of the transformative areas in which we are really looking at this application, playing a big role and making Africa, particularly, leap from in the area of information in the agribusiness sector.” On the challenges, Malo said, “the infrastructure in Africa, particularly in the areas of reliable electricity, affordable connectivity, appropriate devices really remain uneven particularly in rural areas.” Second is data, he pointed out, “AI really requires good data and not only good, but relevant data."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Africa"
+          }
+        ],
         "sentences": [
           {
-            "text": "The Ebola virus is spreading rapidly in the DRC.",
-            "source": "DW World",
-            "item_id": "94465211d74ee13ad1651acf58d4c9f5a95fc060a4bc51f661b3c25dd1dbe875",
+            "text": "The Deputy Regional Representative also pointed out that less than 10 percent of farmers in Africa are benefiting from digital agriculture services, stressing that AI system exists does not mean that the smaller farmers and those in the rural areas are benefit from it.",
+            "source": "Africanews English",
+            "item_id": "cabc97e2dee35ebc3e3c76948a1f6abe5ba808feae2c937c095bea831a187f68:article",
             "composed": false
           },
           {
-            "text": "Hospitals are scrambling to prepare for emergencies as best as they can.",
-            "source": "DW World",
-            "item_id": "94465211d74ee13ad1651acf58d4c9f5a95fc060a4bc51f661b3c25dd1dbe875",
+            "text": "In an interview, FAO’s Deputy Regional Representative for Africa Malo said, “for weather and climate services, we've seen a great leap because in Africa that ability to combine historical weather information, satellite and earth observation data was not there and that is now really being used.”",
+            "source": "Africanews English",
+            "item_id": "cabc97e2dee35ebc3e3c76948a1f6abe5ba808feae2c937c095bea831a187f68:article",
+            "composed": false
+          },
+          {
+            "text": "On the challenges, Malo said, “the infrastructure in Africa, particularly in the areas of reliable electricity, affordable connectivity, appropriate devices really remain uneven particularly in rural areas.”",
+            "source": "Africanews English",
+            "item_id": "cabc97e2dee35ebc3e3c76948a1f6abe5ba808feae2c937c095bea831a187f68:article",
+            "composed": false
+          },
+          {
+            "text": "The FAO official stressed in agribusiness sector, “this is one of the transformative areas in which we are really looking at this application, playing a big role and making Africa, particularly, leap from in the area of information in the agribusiness sector.”",
+            "source": "Africanews English",
+            "item_id": "cabc97e2dee35ebc3e3c76948a1f6abe5ba808feae2c937c095bea831a187f68:article",
+            "composed": false
+          },
+          {
+            "text": "Senior FAO official for Africa Meshack Malo described artificial intelligence as a powerful tool for farmers, stressing the need for Africa datasets, language models, research capacity and agritech firms, to enable the continent to be not only the consumer but the driver of the technology.",
+            "source": "Africanews English",
+            "item_id": "cabc97e2dee35ebc3e3c76948a1f6abe5ba808feae2c937c095bea831a187f68:article",
             "composed": false
           }
         ],
-        "source": "DW World",
+        "source": "Africanews English",
         "corroborating": [],
-        "url": "https://www.dw.com/en/congo-ebola-cases-are-rising-at-record-pace/a-78364053?maca=en-rss-en-world-4025-rdf"
+        "url": "http://www.africanews.com/2026/08/14/ai-could-transform-african-agriculture-but-access-remains-a-major-challenge/"
       },
       "group_size": 1,
       "label": "📰 NEWS"
