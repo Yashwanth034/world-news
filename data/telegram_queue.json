@@ -1,23 +1,164 @@
 {
-  "generated_at": "2026-08-14T20:30:59.106180+00:00",
-  "count": 1,
+  "generated_at": "2026-08-14T20:40:49.080138+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "3030a31bd34b78f8834f72c873adce79f725a480a63cc87a7311348d591e7413",
-      "title": "White House calls Biden's transfer of large number of weapons to Ukraine deplorable",
-      "url": "https://tass.com/world/2173571",
-      "source": "TASS English",
+      "id": "5702b3c8de6459bbec92282a21bfe844cea8af42ed292d740b0401bbff142764",
+      "title": "Dozens injured and thousands evacuated in Croatia wildfire",
+      "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "At least one person has died and around 40 others have been injured after a severe wildfire tore through cities on Croatia's coastline on Thursday night and Friday morning. The blaze broke out near the village of Lokva Rogoznica on Thursday evening, and spread quickly towards the nearby tourist town of Omis, 6km (7 miles) away. Around 1,200 residents and tourists were evacuated, while 10 people were in intensive care in hospital, the prime minister said. Croatia's fire chief Slavko Tucakovic described it as \"one of the worst\" blazes in the country's history. Croatia is one of several European nations suffering devastating wildfires, after a summer of extreme heat and dry conditions. Villages near the Adriatic city of Split were struck by the blaze, which coursed through pine forest-lined hillside, causing extensive damage to homes and cars. Tucakovic said the firestorm burned through \"everything in their path\" as officials confirmed flames, fanned by strong winds, engulfed 1,000 hectares in just four hours. More than 300 firefighters were deployed overnight on Thursday, with crews sometimes forced to retreat as the fire advanced. Footage shared online shows thick smoke and huge flames tearing through surrounding vegetation, turning the sky red, as stranded residents and tourists looked on. Some people were forced to jump into the sea from boats to escape the fire. Emergency shelters were opened in several towns along the coast, as evacuations continued throughout the night. On Friday, officials confirmed that a body had been discovered in a burnt-out area as emergency services continued searching affected zones.",
+      "published_at": "2026-08-14T20:22:56+00:00",
+      "updated_at": "2026-08-14T20:22:56+00:00",
+      "effective_at": "2026-08-14T20:22:56+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 68,
+      "confidence": "medium",
+      "urgency_terms": [
+        "wildfire"
+      ],
+      "sector": "climate",
+      "subsector": "wildfires",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "adriatic",
+        "croatia",
+        "european",
+        "lokva",
+        "omis",
+        "rogoznica",
+        "slavko",
+        "split",
+        "tucakovic"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "The Guardian World"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 100,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "article_sentences": [
+        "At least one person has died and around 40 others have been injured after a severe wildfire tore through cities on Croatia's coastline on Thursday night and Friday morning.",
+        "The blaze broke out near the village of Lokva Rogoznica on Thursday evening, and spread quickly towards the nearby tourist town of Omis, 6km (7 miles) away.",
+        "Around 1,200 residents and tourists were evacuated, while 10 people were in intensive care in hospital, the prime minister said.",
+        "Croatia's fire chief Slavko Tucakovic described it as \"one of the worst\" blazes in the country's history.",
+        "Croatia is one of several European nations suffering devastating wildfires, after a summer of extreme heat and dry conditions.",
+        "Villages near the Adriatic city of Split were struck by the blaze, which coursed through pine forest-lined hillside, causing extensive damage to homes and cars.",
+        "Tucakovic said the firestorm burned through \"everything in their path\" as officials confirmed flames, fanned by strong winds, engulfed 1,000 hectares in just four hours.",
+        "More than 300 firefighters were deployed overnight on Thursday, with crews sometimes forced to retreat as the fire advanced.",
+        "Footage shared online shows thick smoke and huge flames tearing through surrounding vegetation, turning the sky red, as stranded residents and tourists looked on.",
+        "Some people were forced to jump into the sea from boats to escape the fire.",
+        "Emergency shelters were opened in several towns along the coast, as evacuations continued throughout the night.",
+        "On Friday, officials confirmed that a body had been discovered in a burnt-out area as emergency services continued searching affected zones."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "39f559d4a2a32a2c7eddfe8c",
+      "importance_score": 78.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 22,
+        "urgency": 9.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 6,
+        "significance": 22,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 40,
+          "injured": 3000,
+          "displaced": 3000,
+          "missing": 0,
+          "affected": 3000,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "infrastructure": 8,
+          "human": 10,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "5702b3c8de6459bbec92282a21bfe844cea8af42ed292d740b0401bbff142764",
+      "public_label": "🔄 UPDATE",
+      "headline": "Dozens injured and thousands evacuated in Croatia wildfire",
+      "briefing": {
+        "opening": [
+          "At least one person has died and around 40 others have been injured after a severe wildfire tore through cities on Croatia's coastline on Thursday night and Friday morning.",
+          "The blaze broke out near the village of Lokva Rogoznica on Thursday evening, and spread quickly towards the nearby tourist town of Omis, 6km (7 miles) away."
+        ],
+        "body": [
+          "Around 1,200 residents and tourists were evacuated, while 10 people were in intensive care in hospital, the prime minister said.",
+          "Croatia's fire chief Slavko Tucakovic described it as \"one of the worst\" blazes in the country's history.",
+          "Croatia is one of several European nations suffering devastating wildfires, after a summer of extreme heat and dry conditions.",
+          "Villages near the Adriatic city of Split were struck by the blaze, which coursed through pine forest-lined hillside, causing extensive damage to homes and cars.",
+          "Tucakovic said the firestorm burned through \"everything in their path\" as officials confirmed flames, fanned by strong winds, engulfed 1,000 hectares in just four hours.",
+          "More than 300 firefighters were deployed overnight on Thursday, with crews sometimes forced to retreat as the fire advanced.",
+          "Footage shared online shows thick smoke and huge flames tearing through surrounding vegetation, turning the sky red, as stranded residents and tourists looked on.",
+          "Some people were forced to jump into the sea from boats to escape the fire."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "Around 1,200 residents"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The blaze broke out near the village of Lokva Rogoznica on Thursday evening, and spread quickly towards the nearby tourist town of Omis, 6km (7 miles) away.",
+            "source": "BBC World",
+            "item_id": "5702b3c8de6459bbec92282a21bfe844cea8af42ed292d740b0401bbff142764:article",
+            "composed": false
+          },
+          {
+            "text": "At least one person has died and around 40 others have been injured after a severe wildfire tore through cities on Croatia's coastline on Thursday night and Friday morning.",
+            "source": "BBC World",
+            "item_id": "5702b3c8de6459bbec92282a21bfe844cea8af42ed292d740b0401bbff142764:article",
+            "composed": false
+          },
+          {
+            "text": "More than 300 firefighters were deployed overnight on Thursday, with crews sometimes forced to retreat as the fire advanced.",
+            "source": "BBC World",
+            "item_id": "5702b3c8de6459bbec92282a21bfe844cea8af42ed292d740b0401bbff142764:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC World",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "37e7b3af247a38f3348441f09e62a1f4d4d778e8a9a104a863a2783d975ddc8b",
+      "title": "Trump says he will declare Strait of Hormuz U.S. territory 'pretty soon'",
+      "url": "https://en.yna.co.kr/view/AEN20260815000300315",
+      "source": "Yonhap English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "North America",
       "discovery": false,
-      "summary": "WASHINGTON, August 14. The White House called a large transfer of weapons by the administration of the previous US President, Democrat Joe Biden, to foreign countries, including Ukraine, deplorable and tragic, according to spokesperson Karoline Leavitt. When asked about the prospects for military support for Kiev, Leavitt said that President Donald Trump \"has been very clear in our position on munitions. Unfortunately and tragically, Joe Biden gave away a lot of munitions, including to Ukraine.\" According to her, Trump is \"has been far more judicious than the last\" when it comes to giving away US munitions. On July 31, Trump said that the United States should be very careful about granting weapons licenses to other countries. He said that Washington had not agreed to transfer to Kiev either the technology for the production of Patriot systems or the Tomahawk cruise missiles and questioned this possibility.",
-      "published_at": "2026-08-14T20:22:59+00:00",
-      "updated_at": "2026-08-14T20:22:59+00:00",
-      "effective_at": "2026-08-14T20:22:59+00:00",
+      "summary": "U.S. President Donald Trump said Friday that he will declare the Strait of Hormuz a territory of the United States \"pretty soon,\" asserting America's control of the crucial waterway through its naval blockade. Trump made the remarks during a visit to a police academy in Garden City, New York, as disruptions to shipping through the strait, a key shipping route for oil, natural gas and other commodities, have continued amid the war in the Middle East, leaving energy prices high. \"After we finish defeating Iran, which is being very badly defeated... pretty soon, I will be declaring the Hormuz Strait a territory of the United States,\" Trump said. \"We have the blockade. No ships get through unless we want them to,\" he added. The president said that though he used the U.S. military \"a little bit more than I wanted to,\" the United States cannot let Iran have a nuclear weapon.",
+      "published_at": "2026-08-14T20:28:08+00:00",
+      "updated_at": "2026-08-14T20:28:08+00:00",
+      "effective_at": "2026-08-14T20:28:08+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
@@ -26,50 +167,50 @@
       "subregion": "United States",
       "country": null,
       "entities": [
-        "according",
-        "biden",
-        "democrat",
+        "america",
+        "city",
         "donald",
-        "house",
-        "joe",
-        "karoline",
-        "leavitt",
-        "patriot",
-        "tomahawk",
+        "east",
+        "garden",
+        "hormuz",
+        "iran",
+        "middle",
+        "new_york",
+        "strait",
         "trump",
-        "ukraine",
-        "united_states",
-        "us",
-        "white"
+        "united_states"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Middle East Eye"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 68,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "WASHINGTON, August 14.",
-        "The White House called a large transfer of weapons by the administration of the previous US President, Democrat Joe Biden, to foreign countries, including Ukraine, deplorable and tragic, according to spokesperson Karoline Leavitt.",
-        "When asked about the prospects for military support for Kiev, Leavitt said that President Donald Trump \"has been very clear in our position on munitions.",
-        "Unfortunately and tragically, Joe Biden gave away a lot of munitions, including to Ukraine.\" According to her, Trump is \"has been far more judicious than the last\" when it comes to giving away US munitions.",
-        "On July 31, Trump said that the United States should be very careful about granting weapons licenses to other countries.",
-        "He said that Washington had not agreed to transfer to Kiev either the technology for the production of Patriot systems or the Tomahawk cruise missiles and questioned this possibility."
+        "U.S. President Donald Trump said Friday that he will declare the Strait of Hormuz a territory of the United States \"pretty soon,\" asserting America's control of the crucial waterway through its naval blockade.",
+        "Trump made the remarks during a visit to a police academy in Garden City, New York, as disruptions to shipping through the strait, a key shipping route for oil, natural gas and other commodities, have continued amid the war in the Middle East, leaving energy prices high.",
+        "\"After we finish defeating Iran, which is being very badly defeated...",
+        "pretty soon, I will be declaring the Hormuz Strait a territory of the United States,\" Trump said.",
+        "\"We have the blockade.",
+        "No ships get through unless we want them to,\" he added.",
+        "The president said that though he used the U.S. military \"a little bit more than I wanted to,\" the United States cannot let Iran have a nuclear weapon."
       ],
-      "event_status": "UPDATE",
-      "event_id": "7572db0e716d15a6cb17d352",
-      "importance_score": 34.0,
-      "importance_level": "LOW",
+      "event_status": "NEW",
+      "event_id": "8fd22d669ea90f9840637d6a",
+      "importance_score": 50.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
+        "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
+        "corroboration": 6,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -82,51 +223,58 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 4,
-          "geopolitical": 4
+          "security": 8,
+          "geopolitical": 8
         }
       },
-      "story_id": "3030a31bd34b78f8834f72c873adce79f725a480a63cc87a7311348d591e7413",
-      "public_label": "🔄 UPDATE",
-      "headline": "White House calls Biden's transfer of large number of weapons to Ukraine deplorable",
+      "story_id": "37e7b3af247a38f3348441f09e62a1f4d4d778e8a9a104a863a2783d975ddc8b",
+      "public_label": "📰 NEWS",
+      "headline": "Trump says he will declare Strait of Hormuz U.S. territory 'pretty soon'",
       "briefing": {
         "opening": [
-          "WASHINGTON, August 14.",
-          "The White House called a large transfer of weapons by the administration of the previous US President, Democrat Joe Biden, to foreign countries, including Ukraine, deplorable and tragic, according to spokesperson Karoline Leavitt."
+          "U.S. President Donald Trump said Friday that he will declare the Strait of Hormuz a territory of the United States \"pretty soon,\" asserting America's control of the crucial waterway through its naval blockade.",
+          "Trump made the remarks during a visit to a police academy in Garden City, New York, as disruptions to shipping through the strait, a key shipping route for oil, natural gas and other commodities, have continued amid the war in the Middle East, leaving energy prices high."
         ],
         "body": [
-          "When asked about the prospects for military support for Kiev, Leavitt said that President Donald Trump \"has been very clear in our position on munitions.",
-          "Unfortunately and tragically, Joe Biden gave away a lot of munitions, including to Ukraine.\" According to her, Trump is \"has been far more judicious than the last\" when it comes to giving away US munitions.",
-          "On July 31, Trump said that the United States should be very careful about granting weapons licenses to other countries.",
-          "He said that Washington had not agreed to transfer to Kiev either the technology for the production of Patriot systems or the Tomahawk cruise missiles and questioned this possibility."
+          "\"After we finish defeating Iran, which is being very badly defeated...",
+          "pretty soon, I will be declaring the Hormuz Strait a territory of the United States,\" Trump said.",
+          "\"We have the blockade.",
+          "No ships get through unless we want them to,\" he added.",
+          "The president said that though he used the U.S. military \"a little bit more than I wanted to,\" the United States cannot let Iran have a nuclear weapon."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Garden City"
+          }
+        ],
         "sentences": [
           {
-            "text": "He said that Washington had not agreed to transfer to Kiev either the technology for the production of Patriot systems or the Tomahawk cruise missiles and questioned this possibility.",
-            "source": "TASS English",
-            "item_id": "3030a31bd34b78f8834f72c873adce79f725a480a63cc87a7311348d591e7413:article",
+            "text": "The president said that though he used the U.S. military \"a little bit more than I wanted to,\" the United States cannot let Iran have a nuclear weapon.",
+            "source": "Yonhap English",
+            "item_id": "37e7b3af247a38f3348441f09e62a1f4d4d778e8a9a104a863a2783d975ddc8b:article",
             "composed": false
           },
           {
-            "text": "WASHINGTON, August 14.",
-            "source": "TASS English",
-            "item_id": "3030a31bd34b78f8834f72c873adce79f725a480a63cc87a7311348d591e7413:article",
+            "text": "Trump made the remarks during a visit to a police academy in Garden City, New York, as disruptions to shipping through the strait, a key shipping route for oil, natural gas and other commodities, have continued amid the war in the Middle East, leaving energy prices high.",
+            "source": "Yonhap English",
+            "item_id": "37e7b3af247a38f3348441f09e62a1f4d4d778e8a9a104a863a2783d975ddc8b:article",
             "composed": false
           },
           {
-            "text": "On July 31, Trump said that the United States should be very careful about granting weapons licenses to other countries.",
-            "source": "TASS English",
-            "item_id": "3030a31bd34b78f8834f72c873adce79f725a480a63cc87a7311348d591e7413:article",
+            "text": "U.S. President Donald Trump said Friday that he will declare the Strait of Hormuz a territory of the United States \"pretty soon,\" asserting America's control of the crucial waterway through its naval blockade.",
+            "source": "Yonhap English",
+            "item_id": "37e7b3af247a38f3348441f09e62a1f4d4d778e8a9a104a863a2783d975ddc8b:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Yonhap English",
         "corroborating": [],
-        "url": "https://tass.com/world/2173571"
+        "url": "https://en.yna.co.kr/view/AEN20260815000300315"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     }
   ]
 }
