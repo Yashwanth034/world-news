@@ -1,41 +1,303 @@
 {
-  "generated_at": "2026-08-15T01:30:58.225216+00:00",
-  "count": 1,
+  "generated_at": "2026-08-15T01:40:49.235158+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "a7f921baf90041ce6ce79c1523fad370c453818560969e43bb80f0af81dc9dd5",
-      "title": "Hong Kong’s night economy must focus on after-dark vibes, not events",
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3363676/hong-kongs-night-economy-must-focus-after-dark-vibes-not-events?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "1a426916b45c84be32fbb43d677c0e9f7c03f5e147ceaa77b91620b821845289",
+      "title": "US ground forces suspend all training flights of Apache helicopters",
+      "url": "https://tass.com/world/2173615",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "WASHINGTON, August 15. The Ground Forces of the United States said all training flights of AH-64 Apache helicopters had been suspended after one of them crashed in Texas. All aircraft will remain grounded until the cause of the crash is established, the US military said in a statement. An Apache helicopter crashed in central Texas on August 12, killing the two people on board.",
+      "published_at": "2026-08-15T01:30:36+00:00",
+      "updated_at": "2026-08-15T01:30:36+00:00",
+      "effective_at": "2026-08-15T01:30:36+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "transport",
+      "subsector": "aviation",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "ah-64",
+        "apache",
+        "forces",
+        "ground",
+        "texas",
+        "united_states",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "WASHINGTON, August 15.",
+        "The Ground Forces of the United States said all training flights of AH-64 Apache helicopters had been suspended after one of them crashed in Texas.",
+        "All aircraft will remain grounded until the cause of the crash is established, the US military said in a statement.",
+        "An Apache helicopter crashed in central Texas on August 12, killing the two people on board."
+      ],
+      "event_status": "NEW",
+      "event_id": "3e4046e11159195f1f862872",
+      "importance_score": 56.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 12,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "human": 8
+        }
+      },
+      "story_id": "1a426916b45c84be32fbb43d677c0e9f7c03f5e147ceaa77b91620b821845289",
+      "public_label": "📰 NEWS",
+      "headline": "US ground forces suspend all training flights of Apache helicopters",
+      "briefing": {
+        "opening": [
+          "WASHINGTON, August 15.",
+          "The Ground Forces of the United States said all training flights of AH-64 Apache helicopters had been suspended after one of them crashed in Texas."
+        ],
+        "body": [
+          "All aircraft will remain grounded until the cause of the crash is established, the US military said in a statement.",
+          "An Apache helicopter crashed in central Texas on August 12, killing the two people on board."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Texas"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "An Apache helicopter crashed in central Texas on August 12, killing the two people on board.",
+            "source": "TASS English",
+            "item_id": "1a426916b45c84be32fbb43d677c0e9f7c03f5e147ceaa77b91620b821845289:article",
+            "composed": false
+          },
+          {
+            "text": "All aircraft will remain grounded until the cause of the crash is established, the US military said in a statement.",
+            "source": "TASS English",
+            "item_id": "1a426916b45c84be32fbb43d677c0e9f7c03f5e147ceaa77b91620b821845289:article",
+            "composed": false
+          },
+          {
+            "text": "The Ground Forces of the United States said all training flights of AH-64 Apache helicopters had been suspended after one of them crashed in Texas.",
+            "source": "TASS English",
+            "item_id": "1a426916b45c84be32fbb43d677c0e9f7c03f5e147ceaa77b91620b821845289:article",
+            "composed": false
+          },
+          {
+            "text": "WASHINGTON, August 15.",
+            "source": "TASS English",
+            "item_id": "1a426916b45c84be32fbb43d677c0e9f7c03f5e147ceaa77b91620b821845289:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/world/2173615"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "4d0c418c174649bbc1b12684752bf3bb1be075fce18a2d522bf1e79dd4159f59",
+      "title": "N. Korean leader pays tribute to Soviet soldiers amid deepening Russia ties",
+      "url": "https://en.yna.co.kr/view/AEN20260815001500320",
+      "source": "Yonhap English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "More than 86,000 football fans passed through Kai Tak Stadium over two nights recently as Manchester City faced Inter Milan and Chelsea took on Juventus. Supporters filled nearby malls and restaurants, with some merchants reporting foot traffic three to four times higher than usual. For those few hours, Kai Tak offered a glimpse of what Hong Kong’s day-to-night economy could become: international visitors and local residents arriving early and extending the occasion beyond the stadium. The...",
-      "published_at": "2026-08-15T01:30:06+00:00",
-      "updated_at": "2026-08-15T01:30:06+00:00",
-      "effective_at": "2026-08-15T01:30:06+00:00",
+      "summary": "SEOUL, Aug. 15 (Yonhap) -- North Korean leader Kim Jong-un has paid tribute to S...",
+      "published_at": "2026-08-15T01:26:53+00:00",
+      "updated_at": "2026-08-15T01:26:53+00:00",
+      "effective_at": "2026-08-15T01:26:53+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "economy",
+      "sector": "other",
+      "subsector": "general",
       "subregion": "East Asia",
       "country": null,
       "entities": [
-        "chelsea",
-        "city",
-        "hong_kong",
-        "inter",
-        "juventus",
-        "kai",
-        "manchester",
-        "milan",
-        "stadium",
-        "tak"
+        "aug",
+        "jong-un",
+        "kim",
+        "korean",
+        "north_korea",
+        "russia",
+        "seoul",
+        "soviet",
+        "yonhap"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "bc3a3678d4ab06be3bc72e1e",
+      "importance_score": 52.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 15,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8
+        }
+      },
+      "story_id": "4d0c418c174649bbc1b12684752bf3bb1be075fce18a2d522bf1e79dd4159f59",
+      "article_sentences": [
+        "North Korean leader Kim Jong-un has paid tribute to Soviet soldiers who fought against Japan during World War II to mark Korea's liberation from Japanese colonial rule, vowing to further strengthen ties with Russia, Pyongyang's state media reported Saturday.",
+        "Kim visited the Liberation Tower in Pyongyang on Friday, a day before the 81st anniversary of Korea's liberation from Japan's 1910-45 colonial rule, the North's Korean Central News Agency (KCNA) said.",
+        "Kim laid a wreath bearing the phrase, \"We will not forget the feats of the martyrs of the Soviet Army.\"",
+        "\"The excellent history, traditions and ties of blood between the DPRK and Russia now serve as a fundamental cornerstone and inexhaustible driving force for the bilateral relations of friendship and cooperation,\" Kim said in an English dispatch.",
+        "He added that their \"great friendship and unity\" would be carried forward \"generation after generation.\"",
+        "DPRK is the acronym of North Korea's official name, the Democratic People's Republic of Korea.",
+        "It marked the third time Kim has visited the Liberation Tower on the occasion of Liberation Day since the two countries forged a comprehensive strategic partnership in 2024, which laid the groundwork for North Korea's military support for Russia in its war against Ukraine.",
+        "Kim was accompanied by his daughter, Ju-ae, and his wife, Ri Sol-ju.",
+        "It marked Ju-ae's first known appearance accompanying her father on a visit to the tower.",
+        "On Saturday, Russian President Vladimir Putin sent a congratulatory message saying the two countries were actively cooperating across sectors and making concerted efforts to ensure regional security and stability, according to the KCNA.",
+        "Putin said their \"militant friendship and mutual assistance\" had elevated bilateral ties to an \"unprecedentedly high level of comprehensive strategic partnership.\"",
+        "\"I am convinced that we would as ever conduct constructive joint undertakings on the pressing bilateral and international issues,\" Putin was quoted as saying, apparently referring to growing military cooperation, including North Korea's troop deployment to support Russia's war in Ukraine."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "N. Korean leader pays tribute to Soviet soldiers amid deepening Russia ties",
+      "briefing": {
+        "opening": [
+          "North Korean leader Kim Jong-un has paid tribute to Soviet soldiers who fought against Japan during World War II to mark Korea's liberation from Japanese colonial rule, vowing to further strengthen ties with Russia, Pyongyang's state media reported Saturday.",
+          "Kim visited the Liberation Tower in Pyongyang on Friday, a day before the 81st anniversary of Korea's liberation from Japan's 1910-45 colonial rule, the North's Korean Central News Agency (KCNA) said."
+        ],
+        "body": [
+          "Kim laid a wreath bearing the phrase, \"We will not forget the feats of the martyrs of the Soviet Army.\" \"The excellent history, traditions and ties of blood between the DPRK and Russia now serve as a fundamental cornerstone and inexhaustible driving force for the bilateral relations of friendship and cooperation,\" Kim said in an English dispatch.",
+          "He added that their \"great friendship and unity\" would be carried forward \"generation after generation.\" DPRK is the acronym of North Korea's official name, the Democratic People's Republic of Korea.",
+          "It marked the third time Kim has visited the Liberation Tower on the occasion of Liberation Day since the two countries forged a comprehensive strategic partnership in 2024, which laid the groundwork for North Korea's military support for Russia in its war against Ukraine.",
+          "Kim was accompanied by his daughter, Ju-ae, and his wife, Ri Sol-ju.",
+          "It marked Ju-ae's first known appearance accompanying her father on a visit to the tower.",
+          "On Saturday, Russian President Vladimir Putin sent a congratulatory message saying the two countries were actively cooperating across sectors and making concerted efforts to ensure regional security and stability, according to the KCNA.",
+          "Putin said their \"militant friendship and mutual assistance\" had elevated bilateral ties to an \"unprecedentedly high level of comprehensive strategic partnership.\" \"I am convinced that we would as ever conduct constructive joint undertakings on the pressing bilateral and international issues,\" Putin was quoted as saying, apparently referring to growing military cooperation, including North Korea's troop deployment to support Russia's war in Ukraine.",
+          "North Korean leader Kim Jong-un has paid tribute to S..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Pyongyang"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Kim visited the Liberation Tower in Pyongyang on Friday, a day before the 81st anniversary of Korea's liberation from Japan's 1910-45 colonial rule, the North's Korean Central News Agency (KCNA) said.",
+            "source": "Yonhap English",
+            "item_id": "4d0c418c174649bbc1b12684752bf3bb1be075fce18a2d522bf1e79dd4159f59:article",
+            "composed": false
+          },
+          {
+            "text": "North Korean leader Kim Jong-un has paid tribute to Soviet soldiers who fought against Japan during World War II to mark Korea's liberation from Japanese colonial rule, vowing to further strengthen ties with Russia, Pyongyang's state media reported Saturday.",
+            "source": "Yonhap English",
+            "item_id": "4d0c418c174649bbc1b12684752bf3bb1be075fce18a2d522bf1e79dd4159f59:article",
+            "composed": false
+          },
+          {
+            "text": "Kim has visited the Liberation Tower on the occasion of Liberation Day since the two countries forged a comprehensive strategic partnership in 2024, which laid the groundwork for North Korea's military support for Russia in its war against Ukraine.",
+            "source": "Yonhap English",
+            "item_id": "4d0c418c174649bbc1b12684752bf3bb1be075fce18a2d522bf1e79dd4159f59:article",
+            "composed": false
+          }
+        ],
+        "source": "Yonhap English",
+        "corroborating": [],
+        "url": "https://en.yna.co.kr/view/AEN20260815001500320"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "a10b1af29cc6754af409d5426f3cacaf9763a10ff5a3953289802c420ecad55d",
+      "title": "Taiwan passes annual budget after long delay, including drone spending",
+      "url": "https://www.straitstimes.com/asia/taiwan-passes-annual-budget-after-long-delay-including-drone-spending",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Taiwan's opposition-controlled parliament approved this year's government budget late on Friday after a record delay, including spending on a key drone programme to bolster the island's defences, as the president called for a return to reason. While President Lai Ching-te won the election in 2024, his Democratic Progressive Party lost control of parliament, and the two main opposition parties have used their majority to push their own legislation and stymie government plans, including the budget citing the need to stop wasteful spending. Legally the budget should have been reviewed and approved by lawmakers by the end of last year, after being put forward by the cabinet last August, but repeated clashes between the opposition and ruling parties delayed its passage. Lawmakers voted to cut the originally proposed spending of T$3.034 trillion ($94.79 billion) by T$48 billion, but $63.4 billion earmarked for drones passed without cuts, funding systems the government wants to modernise in the military to better deter China, which views Taiwan as its own territory. Lai said in a statement that parliamentary oversight of the government and review of the budget are an important duty granted by the constitution. \"But budget review should return to principles of professionalism, reasonableness, and proportionality, and should not let political divisions affect the normal functioning of the state,\" he added. Taiwan's cabinet will formally propose next year's budget on Thursday, which will include a 16% annual rise in defence spending. Fu Kun-chi, caucus whip for the largest opposition party, the Kuomintang, wrote on his Facebook page that the opposition parties showed \"great goodwill\" in approving 98.4% of the general budget \"all in order to let the country function normally\". But the government must respect legislation the opposition has passed in parliament, he added, referring to disputes about laws the government has refused to enact.",
+      "published_at": "2026-08-15T01:30:34+00:00",
+      "updated_at": "2026-08-15T01:30:34+00:00",
+      "effective_at": "2026-08-15T01:30:34+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "china",
+        "ching-te",
+        "democratic",
+        "fu",
+        "kun-chi",
+        "kuomintang",
+        "lai",
+        "meta",
+        "party",
+        "progressive",
+        "taiwan"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -44,19 +306,30 @@
       "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "0e49ef5e249f24440305472c",
-      "importance_score": 32.0,
+      "article_sentences": [
+        "Taiwan's opposition-controlled parliament approved this year's government budget late on Friday after a record delay, including spending on a key drone programme to bolster the island's defences, as the president called for a return to reason.",
+        "While President Lai Ching-te won the election in 2024, his Democratic Progressive Party lost control of parliament, and the two main opposition parties have used their majority to push their own legislation and stymie government plans, including the budget citing the need to stop wasteful spending.",
+        "Legally the budget should have been reviewed and approved by lawmakers by the end of last year, after being put forward by the cabinet last August, but repeated clashes between the opposition and ruling parties delayed its passage.",
+        "Lawmakers voted to cut the originally proposed spending of T$3.034 trillion ($94.79 billion) by T$48 billion, but $63.4 billion earmarked for drones passed without cuts, funding systems the government wants to modernise in the military to better deter China, which views Taiwan as its own territory.",
+        "Lai said in a statement that parliamentary oversight of the government and review of the budget are an important duty granted by the constitution.",
+        "\"But budget review should return to principles of professionalism, reasonableness, and proportionality, and should not let political divisions affect the normal functioning of the state,\" he added.",
+        "Taiwan's cabinet will formally propose next year's budget on Thursday, which will include a 16% annual rise in defence spending.",
+        "Fu Kun-chi, caucus whip for the largest opposition party, the Kuomintang, wrote on his Facebook page that the opposition parties showed \"great goodwill\" in approving 98.4% of the general budget \"all in order to let the country function normally\".",
+        "But the government must respect legislation the opposition has passed in parliament, he added, referring to disputes about laws the government has refused to enact."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "c96afffbcb4c77abeaefc05f",
+      "importance_score": 34.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -69,41 +342,60 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 4
+          "security": 4,
+          "geopolitical": 4
         }
       },
-      "story_id": "a7f921baf90041ce6ce79c1523fad370c453818560969e43bb80f0af81dc9dd5",
-      "public_label": "📰 NEWS",
-      "headline": "Hong Kong’s night economy must focus on after-dark vibes, not events",
+      "story_id": "a10b1af29cc6754af409d5426f3cacaf9763a10ff5a3953289802c420ecad55d",
+      "public_label": "🔄 UPDATE",
+      "headline": "Taiwan passes annual budget after long delay, including drone spending",
       "briefing": {
         "opening": [
-          "More than 86,000 football fans passed through Kai Tak Stadium over two nights recently as Manchester City faced Inter Milan and Chelsea took on Juventus.",
-          "Supporters filled nearby malls and restaurants, with some merchants reporting foot traffic three to four times higher than usual."
+          "Taiwan's opposition-controlled parliament approved this year's government budget late on Friday after a record delay, including spending on a key drone programme to bolster the island's defences, as the president called for a return to reason.",
+          "While President Lai Ching-te won the election in 2024, his Democratic Progressive Party lost control of parliament, and the two main opposition parties have used their majority to push their own legislation and stymie government plans, including the budget citing the need to stop wasteful spending."
         ],
         "body": [
-          "For those few hours, Kai Tak offered a glimpse of what Hong Kong’s day-to-night economy could become: international visitors and local residents arriving early and extending the occasion beyond the stadium."
+          "Legally the budget should have been reviewed and approved by lawmakers by the end of last year, after being put forward by the cabinet last August, but repeated clashes between the opposition and ruling parties delayed its passage.",
+          "Lawmakers voted to cut the originally proposed spending of T$3.034 trillion ($94.79 billion) by T$48 billion, but $63.4 billion earmarked for drones passed without cuts, funding systems the government wants to modernise in the military to better deter China, which views Taiwan as its own territory.",
+          "Lai said in a statement that parliamentary oversight of the government and review of the budget are an important duty granted by the constitution.",
+          "\"But budget review should return to principles of professionalism, reasonableness, and proportionality, and should not let political divisions affect the normal functioning of the state,\" he added.",
+          "Taiwan's cabinet will formally propose next year's budget on Thursday, which will include a 16% annual rise in defence spending.",
+          "Fu Kun-chi, caucus whip for the largest opposition party, the Kuomintang, wrote on his Facebook page that the opposition parties showed \"great goodwill\" in approving 98.4% of the general budget \"all in order to let the country function normally\".",
+          "But the government must respect legislation the opposition has passed in parliament, he added, referring to disputes about laws the government has refused to enact."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "For those few hours, Kai Tak offered a glimpse of what Hong Kong’s day-to-night economy could become: international visitors and local residents arriving early and extending the occasion beyond the stadium.",
-            "source": "South China Morning Post",
-            "item_id": "a7f921baf90041ce6ce79c1523fad370c453818560969e43bb80f0af81dc9dd5",
+            "text": "Lawmakers voted to cut the originally proposed spending of T$3.034 trillion ($94.79 billion) by T$48 billion, but $63.4 billion earmarked for drones passed without cuts, funding systems the government wants to modernise in the military to better deter China, which views Taiwan as its own territory.",
+            "source": "Straits Times Asia",
+            "item_id": "a10b1af29cc6754af409d5426f3cacaf9763a10ff5a3953289802c420ecad55d:article",
             "composed": false
           },
           {
-            "text": "Supporters filled nearby malls and restaurants, with some merchants reporting foot traffic three to four times higher than usual.",
-            "source": "South China Morning Post",
-            "item_id": "a7f921baf90041ce6ce79c1523fad370c453818560969e43bb80f0af81dc9dd5",
+            "text": "Taiwan's cabinet will formally propose next year's budget on Thursday, which will include a 16% annual rise in defence spending.",
+            "source": "Straits Times Asia",
+            "item_id": "a10b1af29cc6754af409d5426f3cacaf9763a10ff5a3953289802c420ecad55d:article",
+            "composed": false
+          },
+          {
+            "text": "While President Lai Ching-te won the election in 2024, his Democratic Progressive Party lost control of parliament, and the two main opposition parties have used their majority to push their own legislation and stymie government plans, including the budget citing the need to stop wasteful spending.",
+            "source": "Straits Times Asia",
+            "item_id": "a10b1af29cc6754af409d5426f3cacaf9763a10ff5a3953289802c420ecad55d:article",
+            "composed": false
+          },
+          {
+            "text": "Fu Kun-chi, caucus whip for the largest opposition party, the Kuomintang, wrote on his Facebook page that the opposition parties showed \"great goodwill\" in approving 98.4% of the general budget \"all in order to let the country function normally\".",
+            "source": "Straits Times Asia",
+            "item_id": "a10b1af29cc6754af409d5426f3cacaf9763a10ff5a3953289802c420ecad55d:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3363676/hong-kongs-night-economy-must-focus-after-dark-vibes-not-events?utm_source=rss_feed"
+        "url": "https://www.straitstimes.com/asia/taiwan-passes-annual-budget-after-long-delay-including-drone-spending"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
