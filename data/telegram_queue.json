@@ -1,119 +1,128 @@
 {
-  "generated_at": "2026-08-15T20:40:51.548490+00:00",
+  "generated_at": "2026-08-15T20:50:51.598488+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "34a2db3d8b18c6b1292bdc140011850f50b56ba329b54804df4b732004f212e5",
-      "title": "Israeli strikes kill 11 in southern Lebanon, Hezbollah threatens to retaliate",
-      "url": "https://www.france24.com/en/middle-east/20260815-israeli-strikes-kill-11-in-southern-lebanon-hezbollah-threatens-to-retaliate",
-      "source": "France 24",
+      "id": "131fc01a904fe079bdc50b1c60790233130ee72e121cb240fb89c093bae65b08",
+      "title": "Toxic blue-green algae have spread along Baltic Sea coast — magazine",
+      "url": "https://tass.com/non-political/2173769",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": null,
       "discovery": false,
-      "summary": "Israeli airstrikes on southern Lebanon killed at least 11 people Saturday, some of the deadliest since deals in June eased hostilities between Israel and Hezbollah. Israel's military said the strikes were in retaliation for an attack by Hezbollah on its troops in the country's south and the Iran-backed militant group said that the attacks would be \"met with what they deserve\".",
-      "published_at": "2026-08-15T20:37:34+00:00",
-      "updated_at": "2026-08-15T20:37:34+00:00",
-      "effective_at": "2026-08-15T20:37:34+00:00",
+      "summary": "BERLIN, August 15. Toxic blue-green algae (cyanobacteria) have spread along the Baltic Sea coast in Germany due to an abnormal heatwave, the Der Spiegel magazine reported. Satellite images from the Federal Maritime and Hydrographic Agency show vast blooms of cyanobacteria blanketing the coast like a carpet, stretching from Rostock to Hiddensee, according to the report. They have also been detected in numerous lakes across northern Germany. Authorities in Schleswig-Holstein have already imposed swimming bans for certain lakes and several areas along the Baltic Sea coast. Hot weather, high water temperatures, and poor circulation create ideal conditions for the proliferation of cyanobacteria. They can release toxins capable of causing allergic reactions, irritation of the skin and mucous membranes, nausea, and vomiting.",
+      "published_at": "2026-08-15T20:45:31+00:00",
+      "updated_at": "2026-08-15T20:45:31+00:00",
+      "effective_at": "2026-08-15T20:45:31+00:00",
       "language_status": "ENGLISH",
-      "category": "conflict",
-      "score": 73,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
-      "urgency_terms": [
-        "airstrike"
-      ],
-      "sector": "geopolitics",
-      "subsector": "conflict",
-      "subregion": "West Asia / Middle East",
+      "urgency_terms": [],
+      "sector": "climate",
+      "subsector": "weather",
+      "subregion": null,
       "country": null,
       "entities": [
-        "hezbollah",
-        "iran-backed",
-        "israel",
-        "lebanon"
+        "agency",
+        "baltic",
+        "der",
+        "federal",
+        "germany",
+        "hiddensee",
+        "hydrographic",
+        "maritime",
+        "rostock",
+        "schleswig-holstein",
+        "sea",
+        "spiegel"
       ],
-      "corroborating_sources": 3,
-      "strong_corroboration": 2,
-      "corroborating_source_names": [
-        "Middle East Eye",
-        "South China Morning Post"
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "BERLIN, August 15.",
+        "Toxic blue-green algae (cyanobacteria) have spread along the Baltic Sea coast in Germany due to an abnormal heatwave, the Der Spiegel magazine reported.",
+        "Satellite images from the Federal Maritime and Hydrographic Agency show vast blooms of cyanobacteria blanketing the coast like a carpet, stretching from Rostock to Hiddensee, according to the report.",
+        "They have also been detected in numerous lakes across northern Germany.",
+        "Authorities in Schleswig-Holstein have already imposed swimming bans for certain lakes and several areas along the Baltic Sea coast.",
+        "Hot weather, high water temperatures, and poor circulation create ideal conditions for the proliferation of cyanobacteria.",
+        "They can release toxins capable of causing allergic reactions, irritation of the skin and mucous membranes, nausea, and vomiting."
       ],
-      "verified_match_count": 4,
-      "priority_score": 100,
-      "priority_level": "URGENT",
-      "max_delay_minutes": 15,
-      "event_status": "UPDATE",
-      "event_id": "e129955c5211cc68e6e51416",
-      "importance_score": 73.0,
-      "importance_level": "HIGH",
+      "event_status": "NEW",
+      "event_id": "73748a61fb743472061b884a",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 19,
+        "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
-        "corroboration": 8,
-        "significance": 20,
+        "corroboration": 0,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 17,
-          "injured": 17,
+          "dead": 0,
+          "injured": 0,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "security": 8,
-          "human": 8,
-          "geopolitical": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "34a2db3d8b18c6b1292bdc140011850f50b56ba329b54804df4b732004f212e5",
-      "public_label": "🔄 UPDATE",
-      "headline": "Israeli strikes kill 11 in southern Lebanon, Hezbollah threatens to retaliate",
+      "story_id": "131fc01a904fe079bdc50b1c60790233130ee72e121cb240fb89c093bae65b08",
+      "public_label": "📰 NEWS",
+      "headline": "Toxic blue-green algae have spread along Baltic Sea coast — magazine",
       "briefing": {
         "opening": [
-          "Israeli airstrikes on southern Lebanon killed at least 11 people Saturday, some of the deadliest since deals in June eased hostilities between Israel and Hezbollah.",
-          "Israel's military said the strikes were in retaliation for an attack by Hezbollah on its troops in the country's south and the Iran-backed militant group said that the attacks would be \"met with what they deserve\"."
+          "BERLIN, August 15.",
+          "Toxic blue-green algae (cyanobacteria) have spread along the Baltic Sea coast in Germany due to an abnormal heatwave, the Der Spiegel magazine reported."
         ],
-        "body": [],
+        "body": [
+          "Satellite images from the Federal Maritime and Hydrographic Agency show vast blooms of cyanobacteria blanketing the coast like a carpet, stretching from Rostock to Hiddensee, according to the report.",
+          "They have also been detected in numerous lakes across northern Germany.",
+          "Authorities in Schleswig-Holstein have already imposed swimming bans for certain lakes and several areas along the Baltic Sea coast.",
+          "Hot weather, high water temperatures, and poor circulation create ideal conditions for the proliferation of cyanobacteria.",
+          "They can release toxins capable of causing allergic reactions, irritation of the skin and mucous membranes, nausea, and vomiting."
+        ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "June"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "at least 11 people"
+            "text": "Germany"
           }
         ],
         "sentences": [
           {
-            "text": "Israeli airstrikes on southern Lebanon killed at least 11 people Saturday, some of the deadliest since deals in June eased hostilities between Israel and Hezbollah.",
-            "source": "France 24",
-            "item_id": "34a2db3d8b18c6b1292bdc140011850f50b56ba329b54804df4b732004f212e5",
+            "text": "BERLIN, August 15.",
+            "source": "TASS English",
+            "item_id": "131fc01a904fe079bdc50b1c60790233130ee72e121cb240fb89c093bae65b08:article",
             "composed": false
           },
           {
-            "text": "Israel's military said the strikes were in retaliation for an attack by Hezbollah on its troops in the country's south and the Iran-backed militant group said that the attacks would be \"met with what they deserve\".",
-            "source": "France 24",
-            "item_id": "34a2db3d8b18c6b1292bdc140011850f50b56ba329b54804df4b732004f212e5",
+            "text": "Authorities in Schleswig-Holstein have already imposed swimming bans for certain lakes and several areas along the Baltic Sea coast.",
+            "source": "TASS English",
+            "item_id": "131fc01a904fe079bdc50b1c60790233130ee72e121cb240fb89c093bae65b08:article",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.france24.com/en/middle-east/20260815-israeli-strikes-kill-11-in-southern-lebanon-hezbollah-threatens-to-retaliate"
+        "url": "https://tass.com/non-political/2173769"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     }
   ]
 }
