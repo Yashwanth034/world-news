@@ -1,94 +1,64 @@
 {
-  "generated_at": "2026-08-15T11:20:53.235350+00:00",
+  "generated_at": "2026-08-15T11:29:21.192869+00:00",
   "count": 3,
   "stories": [
     {
-      "id": "76a7ba3db45ced69379a177b9ddc01c9fc272e34d3779c433961f3f184b66485",
-      "title": "Ex-PM Kim wins Gwangju-Jeolla primaries in leadership election",
-      "url": "https://en.yna.co.kr/view/AEN20260815003000320",
-      "source": "Yonhap English",
+      "id": "31fa5cf632ea71cf099803c59b004887304386f832c2d13d71e99b03d89979f0",
+      "title": "Death toll from Indonesia earthquake rises to 38",
+      "url": "https://tass.com/emergencies/2173685",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Former Prime Minister Kim Min-seok won the ruling Democratic Party's (DP) primaries in Gwangju and Jeolla Province on Saturday, outpacing his two rivals in the party's leadership race. Kim garnered a combined 57.54 percent of the votes from Gwangju and North and South Jeolla provinces, beating Jung Chung-rae, who is seeking a second consecutive term as DP leader, with 32.65 percent. Song Young-gil, a former DP leader, came in third with 9.81 percent. Kim's victory Saturday allowed him to maintain his lead in the leadership race ahead of the party congress Monday, where the new leader will be elected. The party's new leader is expected to play a key role in overseeing the nomination of candidates for the April 2028 parliamentary elections. Kim leads the race in cumulative votes, garnering 52.21 percent, followed by Jung with 38.14 percent. The DP has held five of six regional primary rounds so far. The final primary, in Seoul and Gyeonggi Province, takes place Sunday. Kim has won four rounds -- in the central Chungcheong region; Incheon and Jeju Island; Gangwon Province, Daegu and North Gyeongsang Province; and Gwangju and Jeolla Province -- while losing to Jung in Busan, Ulsan and South Gyeongsang Province.",
-      "published_at": "2026-08-15T11:11:35+00:00",
-      "updated_at": "2026-08-15T11:11:35+00:00",
-      "effective_at": "2026-08-15T11:11:35+00:00",
+      "summary": "According to the Jakarta Globe newspaper, the earthquake damaged government buildings, homes, schools, as well as medical and religious institutions on the island",
+      "published_at": "2026-08-15T11:19:16+00:00",
+      "updated_at": "2026-08-15T11:19:16+00:00",
+      "effective_at": "2026-08-15T11:19:16+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 60,
+      "category": "disaster",
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "East Asia",
+      "urgency_terms": [
+        "earthquake"
+      ],
+      "sector": "climate",
+      "subsector": "earthquakes",
+      "subregion": "Southeast Asia",
       "country": null,
       "entities": [
-        "busan",
-        "chung-rae",
-        "chungcheong",
-        "daegu",
-        "democratic",
-        "dp",
-        "ex-pm",
-        "gangwon",
-        "gwangju",
-        "gwangju-jeolla",
-        "gyeonggi",
-        "gyeongsang",
-        "incheon",
-        "island",
-        "jeju",
-        "jeolla",
-        "jung",
-        "kim",
-        "min-seok",
-        "north",
-        "party",
-        "province",
-        "seoul",
-        "song",
-        "south",
-        "ulsan",
-        "young-gil"
+        "according",
+        "globe",
+        "indonesia",
+        "jakarta"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "Former Prime Minister Kim Min-seok won the ruling Democratic Party's (DP) primaries in Gwangju and Jeolla Province on Saturday, outpacing his two rivals in the party's leadership race.",
-        "Kim garnered a combined 57.54 percent of the votes from Gwangju and North and South Jeolla provinces, beating Jung Chung-rae, who is seeking a second consecutive term as DP leader, with 32.65 percent.",
-        "Song Young-gil, a former DP leader, came in third with 9.81 percent.",
-        "Kim's victory Saturday allowed him to maintain his lead in the leadership race ahead of the party congress Monday, where the new leader will be elected.",
-        "The party's new leader is expected to play a key role in overseeing the nomination of candidates for the April 2028 parliamentary elections.",
-        "Kim leads the race in cumulative votes, garnering 52.21 percent, followed by Jung with 38.14 percent.",
-        "The DP has held five of six regional primary rounds so far.",
-        "The final primary, in Seoul and Gyeonggi Province, takes place Sunday.",
-        "Kim has won four rounds -- in the central Chungcheong region; Incheon and Jeju Island; Gangwon Province, Daegu and North Gyeongsang Province; and Gwangju and Jeolla Province -- while losing to Jung in Busan, Ulsan and South Gyeongsang Province."
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Straits Times Asia"
       ],
+      "verified_match_count": 1,
+      "priority_score": 100,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
       "event_status": "UPDATE",
-      "event_id": "05034a2fa8fce73b89755c16",
-      "importance_score": 60.0,
+      "event_id": "a4ea30c932f2464d0aceaa0b",
+      "importance_score": 62.0,
       "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 16.0,
-        "urgency": 10,
-        "novelty": 8.0,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
+        "corroboration": 6,
         "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 18,
+          "dead": 38,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -101,138 +71,148 @@
           "human": 8
         }
       },
-      "story_id": "76a7ba3db45ced69379a177b9ddc01c9fc272e34d3779c433961f3f184b66485",
+      "story_id": "31fa5cf632ea71cf099803c59b004887304386f832c2d13d71e99b03d89979f0",
+      "article_sentences": [
+        "TOKYO, August 15.",
+        "At least 38 people have been killed in a magnitude 7.7 earthquake in Indonesia, Reuters reported, citing Suharyanto, head of Indonesia's National Disaster Mitigation Agency.",
+        "Earlier reports put the death toll at 20.",
+        "The initial tremor was followed by strong aftershocks, prompting authorities to advise residents along the coast of Flores Island to evacuate their homes and stay at least 2 kilometers away from the shoreline due to a tsunami warning.",
+        "According to the Jakarta Globe newspaper, the earthquake damaged government buildings, homes, schools, as well as medical and religious institutions on the island."
+      ],
       "public_label": "🔄 UPDATE",
-      "headline": "Ex-PM Kim wins Gwangju-Jeolla primaries in leadership election",
+      "headline": "Death toll from Indonesia earthquake rises to 38",
       "briefing": {
         "opening": [
-          "Former Prime Minister Kim Min-seok won the ruling Democratic Party's (DP) primaries in Gwangju and Jeolla Province on Saturday, outpacing his two rivals in the party's leadership race.",
-          "Kim garnered a combined 57.54 percent of the votes from Gwangju and North and South Jeolla provinces, beating Jung Chung-rae, who is seeking a second consecutive term as DP leader, with 32.65 percent."
+          "TOKYO, August 15.",
+          "At least 38 people have been killed in a magnitude 7.7 earthquake in Indonesia, Reuters reported, citing Suharyanto, head of Indonesia's National Disaster Mitigation Agency."
         ],
         "body": [
-          "Kim's victory Saturday allowed him to maintain his lead in the leadership race ahead of the party congress Monday, where the new leader will be elected.",
-          "The DP has held five of six regional primary rounds so far.",
-          "The final primary, in Seoul and Gyeonggi Province, takes place Sunday.",
-          "Kim has won four rounds -- in the central Chungcheong region; Incheon and Jeju Island; Gangwon Province, Daegu and North Gyeongsang Province; and Gwangju and Jeolla Province -- while losing to Jung in Busan, Ulsan and South Gyeongsang Province."
+          "Earlier reports put the death toll at 20.",
+          "The initial tremor was followed by strong aftershocks, prompting authorities to advise residents along the coast of Flores Island to evacuate their homes and stay at least 2 kilometers away from the shoreline due to a tsunami warning.",
+          "According to the Jakarta Globe newspaper, the earthquake damaged government buildings, homes, schools, as well as medical and religious institutions on the island."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Gwangju"
+            "text": "Indonesia"
           },
           {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "The party's new leader is expected to play a key role in overseeing the nomination of candidates for the April 2028 parliamentary elections."
+            "icon": "👥",
+            "label": "Impact",
+            "text": "At least 38 people"
           }
         ],
         "sentences": [
           {
-            "text": "Kim garnered a combined 57.54 percent of the votes from Gwangju and North and South Jeolla provinces, beating Jung Chung-rae, who is seeking a second consecutive term as DP leader, with 32.65 percent.",
-            "source": "Yonhap English",
-            "item_id": "76a7ba3db45ced69379a177b9ddc01c9fc272e34d3779c433961f3f184b66485:article",
+            "text": "At least 38 people have been killed in a magnitude 7.7 earthquake in Indonesia, Reuters reported, citing Suharyanto, head of Indonesia's National Disaster Mitigation Agency.",
+            "source": "TASS English",
+            "item_id": "31fa5cf632ea71cf099803c59b004887304386f832c2d13d71e99b03d89979f0:article",
             "composed": false
           },
           {
-            "text": "Former Prime Minister Kim Min-seok won the ruling Democratic Party's (DP) primaries in Gwangju and Jeolla Province on Saturday, outpacing his two rivals in the party's leadership race.",
-            "source": "Yonhap English",
-            "item_id": "76a7ba3db45ced69379a177b9ddc01c9fc272e34d3779c433961f3f184b66485:article",
+            "text": "According to the Jakarta Globe newspaper, the earthquake damaged government buildings, homes, schools, as well as medical and religious institutions on the island.",
+            "source": "TASS English",
+            "item_id": "31fa5cf632ea71cf099803c59b004887304386f832c2d13d71e99b03d89979f0:article",
             "composed": false
           },
           {
-            "text": "The final primary, in Seoul and Gyeonggi Province, takes place Sunday.",
-            "source": "Yonhap English",
-            "item_id": "76a7ba3db45ced69379a177b9ddc01c9fc272e34d3779c433961f3f184b66485:article",
+            "text": "TOKYO, August 15.",
+            "source": "TASS English",
+            "item_id": "31fa5cf632ea71cf099803c59b004887304386f832c2d13d71e99b03d89979f0:article",
             "composed": false
           },
           {
-            "text": "The party's new leader is expected to play a key role in overseeing the nomination of candidates for the April 2028 parliamentary elections.",
-            "source": "Yonhap English",
-            "item_id": "76a7ba3db45ced69379a177b9ddc01c9fc272e34d3779c433961f3f184b66485:article",
+            "text": "Earlier reports put the death toll at 20.",
+            "source": "TASS English",
+            "item_id": "31fa5cf632ea71cf099803c59b004887304386f832c2d13d71e99b03d89979f0:article",
             "composed": false
           }
         ],
-        "source": "Yonhap English",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://en.yna.co.kr/view/AEN20260815003000320"
+        "url": "https://tass.com/emergencies/2173685"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
     },
     {
-      "id": "51d1f89cfc207595299026184bd7569c49f62f48e34f324a5295d4ad2f159b74",
-      "title": "Japanese minister visits shrine to war dead, angering China, South Korea",
-      "url": "https://www.aljazeera.com/news/2026/8/15/japanese-minister-visits-shrine-to-war-dead-angering-china-south-korea?traffic_source=rss",
-      "source": "Al Jazeera",
+      "id": "0026b932bdb385ae099c4ede3b048ea9bed72a8a86d611e0aa19a82539ffe32f",
+      "title": "Seven killed in Israeli strike on southern Lebanon, country's PM says",
+      "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Defence Minister Koizumi’s visit to the Yasukuni Shrine comes on the 81st anniversary of Japan’s surrender in WWII. Japan’s Defence Minister Shinjiro Koizumi has visited a shrine paying tribute to the country’s war dead, drawing rebukes from China and South Korea. Koizumi paid his respects at Yasukuni Shrine on Saturday, on the 81st anniversary of Japan’s surrender in the second world war. The Yasukuni Shrine is dedicated to 2.5 million war dead, mostly Japanese, including convicted war criminals involved in Imperial Japan’s invasion and occupation of parts of Asia in the 1930s and 1940s. Japan’s neighbours have long seen the site and the regular visits by senior politicians as symbolic of the country’s failure to atone for the atrocities its forces committed. Koizumi, who has long been a regular visitor to Yasukuni, left the shrine without responding to reporters’ questions. He later said on Instagram that he visited to “offer his sincere condolences to the heroic spirits who sacrificed their precious lives for the nation”. “Along with our vow to renounce war, I reaffirmed our determination to continue fulfilling our responsibility to uphold Japan’s postwar path as a peaceful nation,” he added. There had been some speculation that Japan’s Prime Minister Sanae Takaichi, also a regular visitor before becoming prime minister in October, might attend the shrine, but she did not make the visit. Local media reported that Takaichi had sent an offering to the shrine, as previous prime ministers have done. China’s Ministry of Foreign Affairs said the nation “strongly condemns” Takaichi’s offering and the minister’s visit to the shrine. “We have lodged… strong protests with the Japanese side,” the ministry said.",
-      "published_at": "2026-08-15T11:09:27+00:00",
-      "updated_at": "2026-08-15T11:09:27+00:00",
-      "effective_at": "2026-08-15T11:09:27+00:00",
+      "summary": "An Israeli air strike has killed seven people in southern Lebanon, the nation's prime minister has said, in one of the deadliest attacks since an agreement aimed at reducing hostilities was announced in June. The strike hit a house on the outskirts of Ansar at about 04:30 (01:30 GMT), in the Nabatieh district, where authorities say displaced families were living. Those killed included three children and two women, Lebanon's state-run news agency reported. Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as an earlier action against its soldiers. The attack came as Israeli strikes intensified across parts of southern Lebanon overnight. Later on Saturday morning, another round of strikes hit the town of Deir al Zahrani, killing two and injured nine others, according to the Lebanese ministry of health. Social media footage shows large plumes of grey smoke permeating through the streets of the village as sirens ring in the background. Lebanon's Prime Minister Nawaf Salam condemned the attacks, saying the civilians killed were not \"military infrastructure\". \"Israel must halt this escalation,\" he said. \"For the security of our people and their right to life on their land are not subject to negotiation or bargaining.\" The Israel Defense Forces (IDF) said the incident that had prompted its strike on Ansar took place in the Ali al-Taher Ridge, a strategic high ground overlooking much of south-eastern Lebanon and of the war's most fiercely contested positions. Lebanon's state-run National News Agency (NNA) also reported a series of strikes around the ridge.",
+      "published_at": "2026-08-15T11:24:24+00:00",
+      "updated_at": "2026-08-15T11:24:24+00:00",
+      "effective_at": "2026-08-15T11:24:24+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "East Asia",
+      "sector": "law",
+      "subsector": "labor",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "affairs",
-        "asia",
-        "china",
-        "defence",
-        "foreign",
-        "imperial",
-        "instagram",
-        "japan",
-        "koizumi",
-        "ministry",
-        "sanae",
-        "shinjiro",
-        "shrine",
-        "south_korea",
-        "takaichi",
-        "wwii",
-        "yasukuni"
+        "agency",
+        "ali",
+        "ansar",
+        "defense",
+        "deir",
+        "forces",
+        "gmt",
+        "hezbollah",
+        "idf",
+        "israel",
+        "lebanese",
+        "lebanon",
+        "nabatieh",
+        "national",
+        "nawaf",
+        "news",
+        "nna",
+        "pm",
+        "ridge",
+        "salam",
+        "zahrani"
       ],
-      "corroborating_sources": 4,
+      "corroborating_sources": 2,
       "strong_corroboration": 1,
       "corroborating_source_names": [
-        "Straits Times Asia"
+        "Middle East Eye"
       ],
-      "verified_match_count": 4,
-      "priority_score": 100,
-      "priority_level": "URGENT",
-      "max_delay_minutes": 15,
+      "verified_match_count": 2,
+      "priority_score": 68,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
       "article_sentences": [
-        "Defence Minister Koizumi’s visit to the Yasukuni Shrine comes on the 81st anniversary of Japan’s surrender in WWII.",
-        "Japan’s Defence Minister Shinjiro Koizumi has visited a shrine paying tribute to the country’s war dead, drawing rebukes from China and South Korea.",
-        "Koizumi paid his respects at Yasukuni Shrine on Saturday, on the 81st anniversary of Japan’s surrender in the second world war.",
-        "The Yasukuni Shrine is dedicated to 2.5 million war dead, mostly Japanese, including convicted war criminals involved in Imperial Japan’s invasion and occupation of parts of Asia in the 1930s and 1940s.",
-        "Japan’s neighbours have long seen the site and the regular visits by senior politicians as symbolic of the country’s failure to atone for the atrocities its forces committed.",
-        "Koizumi, who has long been a regular visitor to Yasukuni, left the shrine without responding to reporters’ questions.",
-        "He later said on Instagram that he visited to “offer his sincere condolences to the heroic spirits who sacrificed their precious lives for the nation”.",
-        "“Along with our vow to renounce war, I reaffirmed our determination to continue fulfilling our responsibility to uphold Japan’s postwar path as a peaceful nation,” he added.",
-        "There had been some speculation that Japan’s Prime Minister Sanae Takaichi, also a regular visitor before becoming prime minister in October, might attend the shrine, but she did not make the visit.",
-        "Local media reported that Takaichi had sent an offering to the shrine, as previous prime ministers have done.",
-        "China’s Ministry of Foreign Affairs said the nation “strongly condemns” Takaichi’s offering and the minister’s visit to the shrine.",
-        "“We have lodged… strong protests with the Japanese side,” the ministry said."
+        "An Israeli air strike has killed seven people in southern Lebanon, the nation's prime minister has said, in one of the deadliest attacks since an agreement aimed at reducing hostilities was announced in June.",
+        "The strike hit a house on the outskirts of Ansar at about 04:30 (01:30 GMT), in the Nabatieh district, where authorities say displaced families were living.",
+        "Those killed included three children and two women, Lebanon's state-run news agency reported.",
+        "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as an earlier action against its soldiers.",
+        "The attack came as Israeli strikes intensified across parts of southern Lebanon overnight.",
+        "Later on Saturday morning, another round of strikes hit the town of Deir al Zahrani, killing two and injured nine others, according to the Lebanese ministry of health.",
+        "Social media footage shows large plumes of grey smoke permeating through the streets of the village as sirens ring in the background.",
+        "Lebanon's Prime Minister Nawaf Salam condemned the attacks, saying the civilians killed were not \"military infrastructure\".",
+        "\"Israel must halt this escalation,\" he said.",
+        "\"For the security of our people and their right to life on their land are not subject to negotiation or bargaining.\"",
+        "The Israel Defense Forces (IDF) said the incident that had prompted its strike on Ansar took place in the Ali al-Taher Ridge, a strategic high ground overlooking much of south-eastern Lebanon and of the war's most fiercely contested positions.",
+        "Lebanon's state-run National News Agency (NNA) also reported a series of strikes around the ridge."
       ],
-      "event_status": "NEW",
-      "event_id": "beffcf36aea3614f81943a96",
-      "importance_score": 54.0,
+      "event_status": "UPDATE",
+      "event_id": "9660da1bc84292fc940e0e37",
+      "importance_score": 52.0,
       "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
@@ -255,99 +235,89 @@
           "human": 4
         }
       },
-      "story_id": "51d1f89cfc207595299026184bd7569c49f62f48e34f324a5295d4ad2f159b74",
-      "public_label": "📰 NEWS",
-      "headline": "Japanese minister visits shrine to war dead, angering China, South Korea",
+      "story_id": "0026b932bdb385ae099c4ede3b048ea9bed72a8a86d611e0aa19a82539ffe32f",
+      "public_label": "🔄 UPDATE",
+      "headline": "Seven killed in Israeli strike on southern Lebanon, country's PM says",
       "briefing": {
         "opening": [
-          "Defence Minister Koizumi’s visit to the Yasukuni Shrine comes on the 81st anniversary of Japan’s surrender in WWII.",
-          "Japan’s Defence Minister Shinjiro Koizumi has visited a shrine paying tribute to the country’s war dead, drawing rebukes from China and South Korea."
+          "An Israeli air strike has killed seven people in southern Lebanon, the nation's prime minister has said, in one of the deadliest attacks since an agreement aimed at reducing hostilities was announced in June.",
+          "The strike hit a house on the outskirts of Ansar at about 04:30 (01:30 GMT), in the Nabatieh district, where authorities say displaced families were living."
         ],
         "body": [
-          "Koizumi paid his respects at Yasukuni Shrine on Saturday, on the 81st anniversary of Japan’s surrender in the second world war.",
-          "The Yasukuni Shrine is dedicated to 2.5 million war dead, mostly Japanese, including convicted war criminals involved in Imperial Japan’s invasion and occupation of parts of Asia in the 1930s and 1940s.",
-          "Japan’s neighbours have long seen the site and the regular visits by senior politicians as symbolic of the country’s failure to atone for the atrocities its forces committed.",
-          "Koizumi, who has long been a regular visitor to Yasukuni, left the shrine without responding to reporters’ questions.",
-          "He later said on Instagram that he visited to “offer his sincere condolences to the heroic spirits who sacrificed their precious lives for the nation”.",
-          "“Along with our vow to renounce war, I reaffirmed our determination to continue fulfilling our responsibility to uphold Japan’s postwar path as a peaceful nation,” he added.",
-          "There had been some speculation that Japan’s Prime Minister Sanae Takaichi, also a regular visitor before becoming prime minister in October, might attend the shrine, but she did not make the visit.",
-          "Local media reported that Takaichi had sent an offering to the shrine, as previous prime ministers have done."
+          "Those killed included three children and two women, Lebanon's state-run news agency reported.",
+          "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as an earlier action against its soldiers.",
+          "The attack came as Israeli strikes intensified across parts of southern Lebanon overnight.",
+          "Later on Saturday morning, another round of strikes hit the town of Deir al Zahrani, killing two and injured nine others, according to the Lebanese ministry of health.",
+          "Social media footage shows large plumes of grey smoke permeating through the streets of the village as sirens ring in the background.",
+          "Lebanon's Prime Minister Nawaf Salam condemned the attacks, saying the civilians killed were not \"military infrastructure\".",
+          "\"Israel must halt this escalation,\" he said.",
+          "\"For the security of our people and their right to life on their land are not subject to negotiation or bargaining.\" The Israel Defense Forces (IDF) said the incident that had prompted its strike on Ansar took place in the Ali al-Taher Ridge, a strategic high ground overlooking much of south-eastern Lebanon and of the war's most fiercely contested positions."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "WWII"
+            "text": "June"
           }
         ],
         "sentences": [
           {
-            "text": "The Yasukuni Shrine is dedicated to 2.5 million war dead, mostly Japanese, including convicted war criminals involved in Imperial Japan’s invasion and occupation of parts of Asia in the 1930s and 1940s.",
-            "source": "Al Jazeera",
-            "item_id": "51d1f89cfc207595299026184bd7569c49f62f48e34f324a5295d4ad2f159b74:article",
+            "text": "An Israeli air strike has killed seven people in southern Lebanon, the nation's prime minister has said, in one of the deadliest attacks since an agreement aimed at reducing hostilities was announced in June.",
+            "source": "BBC World",
+            "item_id": "0026b932bdb385ae099c4ede3b048ea9bed72a8a86d611e0aa19a82539ffe32f:article",
             "composed": false
           },
           {
-            "text": "Koizumi paid his respects at Yasukuni Shrine on Saturday, on the 81st anniversary of Japan’s surrender in the second world war.",
-            "source": "Al Jazeera",
-            "item_id": "51d1f89cfc207595299026184bd7569c49f62f48e34f324a5295d4ad2f159b74:article",
+            "text": "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as an earlier action against its soldiers.",
+            "source": "BBC World",
+            "item_id": "0026b932bdb385ae099c4ede3b048ea9bed72a8a86d611e0aa19a82539ffe32f:article",
             "composed": false
           },
           {
-            "text": "Defence Minister Koizumi’s visit to the Yasukuni Shrine comes on the 81st anniversary of Japan’s surrender in WWII.",
-            "source": "Al Jazeera",
-            "item_id": "51d1f89cfc207595299026184bd7569c49f62f48e34f324a5295d4ad2f159b74:article",
+            "text": "The strike hit a house on the outskirts of Ansar at about 04:30 (01:30 GMT), in the Nabatieh district, where authorities say displaced families were living.",
+            "source": "BBC World",
+            "item_id": "0026b932bdb385ae099c4ede3b048ea9bed72a8a86d611e0aa19a82539ffe32f:article",
             "composed": false
           },
           {
-            "text": "There had been some speculation that Japan’s Prime Minister Sanae Takaichi, also a regular visitor before becoming prime minister in October, might attend the shrine, but she did not make the visit.",
-            "source": "Al Jazeera",
-            "item_id": "51d1f89cfc207595299026184bd7569c49f62f48e34f324a5295d4ad2f159b74:article",
+            "text": "Later on Saturday morning, another round of strikes hit the town of Deir al Zahrani, killing two and injured nine others, according to the Lebanese ministry of health.",
+            "source": "BBC World",
+            "item_id": "0026b932bdb385ae099c4ede3b048ea9bed72a8a86d611e0aa19a82539ffe32f:article",
             "composed": false
           }
         ],
-        "source": "Al Jazeera",
+        "source": "BBC World",
         "corroborating": [],
-        "url": "https://www.aljazeera.com/news/2026/8/15/japanese-minister-visits-shrine-to-war-dead-angering-china-south-korea?traffic_source=rss"
+        "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "aead78fc972d74048f95e5c3674450e6d3429529a576826200f427cea868dd54",
-      "title": "What the Taliban achieved and failed to achieve in five years",
-      "url": "https://www.aljazeera.com/opinions/2026/8/15/what-the-taliban-achieved-and-failed-to-achieve-in-five-years?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_category": "world",
+      "id": "430165ac3c15583cf396f27a58ba06de4c33c40cb55f104c4d0f9af93dbd43d8",
+      "title": "Secondhand book sales are booming. Is it because of AI?",
+      "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "source_category": "technology",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "The Taliban government brought security and stability but is facing increasing alienation of the general population. Five years ago, the Taliban entered Kabul triumphant, almost 20 years after the collapse of its first government, triggered by the invasion of Afghanistan led by the United States. As US and other troops scrambled to leave, chaos and a bombing attack took the lives of nearly 200 Afghans. Today, Kabul is no longer a chaotic city dotted with reinforced walls to protect from bombings or roamed by armed personal convoys blocking the traffic. It is a cleaner, calmer city that is learning to live again. On this anniversary, it is worth looking back at what the Taliban has accomplished, where it has failed, and what the coming years may hold. One of the Taliban’s major failures during its first reign between 1996 and 2001 was its inability to capture all of Afghanistan. The provinces that resisted its rule eventually became the bases from which the US and its allies fought it. The Taliban appears determined not to repeat that mistake. It now controls all of Afghanistan and is able to maintain relative security and safety. This is quite remarkable considering the threat posed by the Islamic State – Khorasan Province (ISKP) during the final years of the pro-US government. The Taliban has significantly weakened the group and, for now, faces no major insurgent challenges.",
-      "published_at": "2026-08-15T11:07:05+00:00",
-      "updated_at": "2026-08-15T11:07:05+00:00",
-      "effective_at": "2026-08-15T11:07:05+00:00",
+      "summary": "Booksellers are reporting mysterious bulk orders. It's thought the books are being used to train AI - and ending up pulped.",
+      "published_at": "2026-08-15T11:25:32+00:00",
+      "updated_at": "2026-08-15T11:25:32+00:00",
+      "effective_at": "2026-08-15T11:25:32+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "technology",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
+      "sector": "technology",
+      "subsector": "ai",
       "subregion": null,
       "country": null,
       "entities": [
-        "afghanistan",
-        "afghans",
-        "iskp",
-        "islamic",
-        "kabul",
-        "khorasan",
-        "province",
-        "state",
-        "taliban",
-        "united_states",
-        "us"
+        "ai"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -356,33 +326,19 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "The Taliban government brought security and stability but is facing increasing alienation of the general population.",
-        "Five years ago, the Taliban entered Kabul triumphant, almost 20 years after the collapse of its first government, triggered by the invasion of Afghanistan led by the United States.",
-        "As US and other troops scrambled to leave, chaos and a bombing attack took the lives of nearly 200 Afghans.",
-        "Today, Kabul is no longer a chaotic city dotted with reinforced walls to protect from bombings or roamed by armed personal convoys blocking the traffic.",
-        "It is a cleaner, calmer city that is learning to live again.",
-        "On this anniversary, it is worth looking back at what the Taliban has accomplished, where it has failed, and what the coming years may hold.",
-        "One of the Taliban’s major failures during its first reign between 1996 and 2001 was its inability to capture all of Afghanistan.",
-        "The provinces that resisted its rule eventually became the bases from which the US and its allies fought it.",
-        "The Taliban appears determined not to repeat that mistake.",
-        "It now controls all of Afghanistan and is able to maintain relative security and safety.",
-        "This is quite remarkable considering the threat posed by the Islamic State – Khorasan Province (ISKP) during the final years of the pro-US government.",
-        "The Taliban has significantly weakened the group and, for now, faces no major insurgent challenges."
-      ],
       "event_status": "NEW",
-      "event_id": "e3e7cb43164ee6ce6265c3f9",
-      "importance_score": 53.0,
-      "importance_level": "MEDIUM",
+      "event_id": "aaf65f432023a96c702f88a1",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 8,
-        "urgency": 10,
+        "impact": 0.0,
+        "urgency": 7.0,
         "novelty": 10,
         "scope": "LOCAL",
         "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 16,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -392,61 +348,37 @@
           "missing": 0,
           "affected": 0,
           "major_incident": false,
-          "crisis": true
+          "crisis": false
         },
-        "significance_dims": {
-          "security": 8,
-          "geopolitical": 8
-        }
+        "significance_dims": {}
       },
-      "story_id": "aead78fc972d74048f95e5c3674450e6d3429529a576826200f427cea868dd54",
+      "story_id": "430165ac3c15583cf396f27a58ba06de4c33c40cb55f104c4d0f9af93dbd43d8",
       "public_label": "📰 NEWS",
-      "headline": "What the Taliban achieved and failed to achieve in five years",
+      "headline": "Secondhand book sales are booming. Is it because of AI?",
       "briefing": {
         "opening": [
-          "The Taliban government brought security and stability but is facing increasing alienation of the general population.",
-          "Five years ago, the Taliban entered Kabul triumphant, almost 20 years after the collapse of its first government, triggered by the invasion of Afghanistan led by the United States."
+          "Booksellers are reporting mysterious bulk orders.",
+          "It's thought the books are being used to train AI - and ending up pulped."
         ],
-        "body": [
-          "As US and other troops scrambled to leave, chaos and a bombing attack took the lives of nearly 200 Afghans.",
-          "Today, Kabul is no longer a chaotic city dotted with reinforced walls to protect from bombings or roamed by armed personal convoys blocking the traffic.",
-          "It is a cleaner, calmer city that is learning to live again.",
-          "On this anniversary, it is worth looking back at what the Taliban has accomplished, where it has failed, and what the coming years may hold.",
-          "One of the Taliban’s major failures during its first reign between 1996 and 2001 was its inability to capture all of Afghanistan.",
-          "The provinces that resisted its rule eventually became the bases from which the US and its allies fought it.",
-          "The Taliban appears determined not to repeat that mistake.",
-          "It now controls all of Afghanistan and is able to maintain relative security and safety."
-        ],
+        "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "One of the Taliban’s major failures during its first reign between 1996 and 2001 was its inability to capture all of Afghanistan.",
-            "source": "Al Jazeera",
-            "item_id": "aead78fc972d74048f95e5c3674450e6d3429529a576826200f427cea868dd54:article",
+            "text": "It's thought the books are being used to train AI - and ending up pulped.",
+            "source": "BBC Technology",
+            "item_id": "430165ac3c15583cf396f27a58ba06de4c33c40cb55f104c4d0f9af93dbd43d8",
             "composed": false
           },
           {
-            "text": "Five years ago, the Taliban entered Kabul triumphant, almost 20 years after the collapse of its first government, triggered by the invasion of Afghanistan led by the United States.",
-            "source": "Al Jazeera",
-            "item_id": "aead78fc972d74048f95e5c3674450e6d3429529a576826200f427cea868dd54:article",
-            "composed": false
-          },
-          {
-            "text": "As US and other troops scrambled to leave, chaos and a bombing attack took the lives of nearly 200 Afghans.",
-            "source": "Al Jazeera",
-            "item_id": "aead78fc972d74048f95e5c3674450e6d3429529a576826200f427cea868dd54:article",
-            "composed": false
-          },
-          {
-            "text": "On this anniversary, it is worth looking back at what the Taliban has accomplished, where it has failed, and what the coming years may hold.",
-            "source": "Al Jazeera",
-            "item_id": "aead78fc972d74048f95e5c3674450e6d3429529a576826200f427cea868dd54:article",
+            "text": "Booksellers are reporting mysterious bulk orders.",
+            "source": "BBC Technology",
+            "item_id": "430165ac3c15583cf396f27a58ba06de4c33c40cb55f104c4d0f9af93dbd43d8",
             "composed": false
           }
         ],
-        "source": "Al Jazeera",
+        "source": "BBC Technology",
         "corroborating": [],
-        "url": "https://www.aljazeera.com/opinions/2026/8/15/what-the-taliban-achieved-and-failed-to-achieve-in-five-years?traffic_source=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
       "label": "📰 NEWS"
