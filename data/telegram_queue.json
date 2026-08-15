@@ -1,122 +1,234 @@
 {
-  "generated_at": "2026-08-15T06:40:51.631471+00:00",
-  "count": 1,
+  "generated_at": "2026-08-15T06:45:50.069427+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "46154edbb615417dcae3116704e5cb0967dd3bdb6d3be36d22fc518fad96bc29",
-      "title": "Eight drones shot down over Moscow region overnight — region’s governor",
-      "url": "https://tass.com/emergencies/2173653",
+      "id": "840a45a03edad49660c9f88b704058caf27e1045e3011c41cf3bb1a9eac72c39",
+      "title": "Magnitude 5.0 earthquake strikes near Granada, Spain",
+      "url": "https://tass.com/emergencies/2173657",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "A 55-year-old woman and a 9-year-old boy were injured in the attack",
-      "published_at": "2026-08-15T06:35:56+00:00",
-      "updated_at": "2026-08-15T06:35:56+00:00",
-      "effective_at": "2026-08-15T06:35:56+00:00",
+      "summary": "MADRID, August 15. A magnitude 5.0 earthquake struck near the Spanish city of Granada in the autonomous community of Andalusia, the kingdom's National Geographic Institute reported. According to the institute, the earthquake was recorded at around 1:00 a.m. local time (11:00 p.m. GMT, August 14), with its focus at a depth of 2 kilometers. The epicenter was located near the town of Alendin. Regional authorities reported that emergency services received approximately 200 calls. No casualties have been reported so far. However, the earthquake caused structural damage across the area. According to the Andalusian government, residents reported cracks in structures, minor collapses--including walls and cornices--and damage to several buildings. In response, authorities have activated the emergency phase of the regional seismic action plan.",
+      "published_at": "2026-08-15T06:39:33+00:00",
+      "updated_at": "2026-08-15T06:39:33+00:00",
+      "effective_at": "2026-08-15T06:39:33+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "defense",
+      "urgency_terms": [
+        "earthquake"
+      ],
+      "sector": "climate",
+      "subsector": "earthquakes",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "russia"
+        "alendin",
+        "andalusia",
+        "andalusian",
+        "geographic",
+        "gmt",
+        "granada",
+        "institute",
+        "national",
+        "spain"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 88,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "MADRID, August 15.",
+        "A magnitude 5.0 earthquake struck near the Spanish city of Granada in the autonomous community of Andalusia, the kingdom's National Geographic Institute reported.",
+        "According to the institute, the earthquake was recorded at around 1:00 a.m. local time (11:00 p.m. GMT, August 14), with its focus at a depth of 2 kilometers.",
+        "The epicenter was located near the town of Alendin.",
+        "Regional authorities reported that emergency services received approximately 200 calls.",
+        "No casualties have been reported so far.",
+        "However, the earthquake caused structural damage across the area.",
+        "According to the Andalusian government, residents reported cracks in structures, minor collapses--including walls and cornices--and damage to several buildings.",
+        "In response, authorities have activated the emergency phase of the regional seismic action plan."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "ce01e6e9389951ca01660643",
+      "importance_score": 48.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 12.0,
+        "urgency": 9.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 5.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "human": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "840a45a03edad49660c9f88b704058caf27e1045e3011c41cf3bb1a9eac72c39",
+      "public_label": "🔄 UPDATE",
+      "headline": "Magnitude 5.0 earthquake strikes near Granada, Spain",
+      "briefing": {
+        "opening": [
+          "MADRID, August 15.",
+          "A magnitude 5.0 earthquake struck near the Spanish city of Granada in the autonomous community of Andalusia, the kingdom's National Geographic Institute reported."
+        ],
+        "body": [
+          "According to the institute, the earthquake was recorded at around 1:00 a.m. local time (11:00 p.m. GMT, August 14), with its focus at a depth of 2 kilometers.",
+          "The epicenter was located near the town of Alendin.",
+          "Regional authorities reported that emergency services received approximately 200 calls.",
+          "No casualties have been reported so far.",
+          "However, the earthquake caused structural damage across the area.",
+          "According to the Andalusian government, residents reported cracks in structures, minor collapses--including walls and cornices--and damage to several buildings.",
+          "In response, authorities have activated the emergency phase of the regional seismic action plan."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "According to the institute, the earthquake was recorded at around 1:00 a.m. local time (11:00 p.m. GMT, August 14), with its focus at a depth of 2 kilometers.",
+            "source": "TASS English",
+            "item_id": "840a45a03edad49660c9f88b704058caf27e1045e3011c41cf3bb1a9eac72c39:article",
+            "composed": false
+          },
+          {
+            "text": "MADRID, August 15.",
+            "source": "TASS English",
+            "item_id": "840a45a03edad49660c9f88b704058caf27e1045e3011c41cf3bb1a9eac72c39:article",
+            "composed": false
+          },
+          {
+            "text": "A magnitude 5.0 earthquake struck near the Spanish city of Granada in the autonomous community of Andalusia, the kingdom's National Geographic Institute reported.",
+            "source": "TASS English",
+            "item_id": "840a45a03edad49660c9f88b704058caf27e1045e3011c41cf3bb1a9eac72c39:article",
+            "composed": false
+          },
+          {
+            "text": "Regional authorities reported that emergency services received approximately 200 calls.",
+            "source": "TASS English",
+            "item_id": "840a45a03edad49660c9f88b704058caf27e1045e3011c41cf3bb1a9eac72c39:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/emergencies/2173657"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "105978c0e7cc455257c7a516dae54bb23cbf0303b72686302379693cf3e255cb",
+      "title": "Contractors suspended over ‘extremely serious’ Queen Mary Hospital lift defects",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3364137/contractors-suspended-over-extremely-serious-queen-mary-hospital-lift-defects?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Hong Kong authorities have suspended the main contractor and lift subcontractor working on Queen Mary Hospital’s new clinical block from public works tenders after serious defects left most lifts unreliable and delayed the launch of services. The Architectural Services Department said in a social media post late on Friday that the contractors’ poor performance had been recorded in assessment reports. It added that they would be required to bear the full cost of remedial works and could face...",
+      "published_at": "2026-08-15T06:40:47+00:00",
+      "updated_at": "2026-08-15T06:40:47+00:00",
+      "effective_at": "2026-08-15T06:40:47+00:00",
+      "language_status": "ENGLISH",
+      "category": "health",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "infrastructure",
+      "subsector": "construction",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "architectural",
+        "department",
+        "hong_kong",
+        "hospital",
+        "mary",
+        "services"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "2814272e01005b840d4e880b",
-      "importance_score": 41.0,
+      "event_id": "d38c177e15cfc7a97ea2b34c",
+      "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 3,
+        "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 10,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
           "dead": 0,
-          "injured": 55,
+          "injured": 0,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "human": 6,
-          "security": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "46154edbb615417dcae3116704e5cb0967dd3bdb6d3be36d22fc518fad96bc29",
-      "article_sentences": [
-        "MOSCOW, August 15.",
-        "Air defense forces shot down or suppressed eight drones over the Moscow region overnight; a 55-year-old woman and a 9-year-old boy were injured in the attack, the region’s governor, Andrey Vorobyov, reported.",
-        "\"Tonight, air defense forces repelled a drone attack on the Moscow region.",
-        "Eight UAVs were shot down and suppressed over the region -- in Domodedovo, Odintsovo, Ramenskoye, Chekhov, Shatura, and Voskresensk,\" he wrote on his Max social media channel.",
-        "\"Unfortunately, there are casualties.",
-        "In Shatura, a 55-year-old woman and a 9-year-old child were injured when a drone struck a private house,\" he said.",
-        "The governor added that the boy is in critical condition.",
-        "Doctors are providing him with all necessary medical assistance.",
-        "The boy will shortly be evacuated to the Leonid Roshal Children's Clinical and Research Center."
-      ],
+      "story_id": "105978c0e7cc455257c7a516dae54bb23cbf0303b72686302379693cf3e255cb",
       "public_label": "📰 NEWS",
-      "headline": "Eight drones shot down over Moscow region overnight — region’s governor",
+      "headline": "Contractors suspended over ‘extremely serious’ Queen Mary Hospital lift defects",
       "briefing": {
         "opening": [
-          "MOSCOW, August 15.",
-          "Air defense forces shot down or suppressed eight drones over the Moscow region overnight; a 55-year-old woman and a 9-year-old boy were injured in the attack, the region’s governor, Andrey Vorobyov, reported."
+          "Hong Kong authorities have suspended the main contractor and lift subcontractor working on Queen Mary Hospital’s new clinical block from public works tenders after serious defects left most lifts unreliable and delayed the launch of services.",
+          "The Architectural Services Department said in a social media post late on Friday that the contractors’ poor performance had been recorded in assessment reports."
         ],
         "body": [
-          "\"Tonight, air defense forces repelled a drone attack on the Moscow region.",
-          "Eight UAVs were shot down and suppressed over the region -- in Domodedovo, Odintsovo, Ramenskoye, Chekhov, Shatura, and Voskresensk,\" he wrote on his Max social media channel.",
-          "\"Unfortunately, there are casualties.",
-          "In Shatura, a 55-year-old woman and a 9-year-old child were injured when a drone struck a private house,\" he said.",
-          "The governor added that the boy is in critical condition.",
-          "Doctors are providing him with all necessary medical assistance.",
-          "The boy will shortly be evacuated to the Leonid Roshal Children's Clinical and Research Center.",
-          "A 55-year-old woman and a 9-year-old boy were injured in the attack."
+          "It added that they would be required to bear the full cost of remedial works and could face..."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Domodedovo"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Air defense forces shot down or suppressed eight drones over the Moscow region overnight; a 55-year-old woman and a 9-year-old boy were injured in the attack, the region’s governor, Andrey Vorobyov, reported.",
-            "source": "TASS English",
-            "item_id": "46154edbb615417dcae3116704e5cb0967dd3bdb6d3be36d22fc518fad96bc29:article",
+            "text": "Hong Kong authorities have suspended the main contractor and lift subcontractor working on Queen Mary Hospital’s new clinical block from public works tenders after serious defects left most lifts unreliable and delayed the launch of services.",
+            "source": "South China Morning Post",
+            "item_id": "105978c0e7cc455257c7a516dae54bb23cbf0303b72686302379693cf3e255cb",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 15.",
-            "source": "TASS English",
-            "item_id": "46154edbb615417dcae3116704e5cb0967dd3bdb6d3be36d22fc518fad96bc29:article",
+            "text": "The Architectural Services Department said in a social media post late on Friday that the contractors’ poor performance had been recorded in assessment reports.",
+            "source": "South China Morning Post",
+            "item_id": "105978c0e7cc455257c7a516dae54bb23cbf0303b72686302379693cf3e255cb",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://tass.com/emergencies/2173653"
+        "url": "https://www.scmp.com/news/hong-kong/society/article/3364137/contractors-suspended-over-extremely-serious-queen-mary-hospital-lift-defects?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
