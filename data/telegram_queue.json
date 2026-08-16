@@ -1,64 +1,385 @@
 {
-  "generated_at": "2026-08-16T09:10:46.757065+00:00",
-  "count": 1,
+  "generated_at": "2026-08-16T09:20:43.429886+00:00",
+  "count": 8,
   "stories": [
     {
-      "id": "a48f7d98b81dd8be1c51c7adf291439800fe35b8ea663fc5c9f680f7e6f36b9f",
-      "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: ‘Regain your humanity’",
-      "url": "https://www.theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman",
-      "source": "The Guardian Technology",
-      "source_category": "technology",
+      "id": "3009c4ff1440d6d4f98dd5ab2aafa29a0ee4c60f17d04dc02ceab097869607e2",
+      "title": "At least 12 people killed in Hungary bus crash",
+      "url": "https://www.aljazeera.com/news/2026/8/16/at-least-12-people-killed-in-hungary-bus-crash?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Europe",
       "discovery": false,
-      "summary": "Wynd Kaufman, 69, chained and locked the front doors of OpenAI’s headquarters last year with members of StopAI An activist who blocked the entrance to one of the world’s biggest AI companies is believed to have become the first person jailed for protesting against artificial intelligence as supporters dub her the “Rosa Parks of AI risk”. Wynd Kaufman, 69, surrendered herself on Friday to authorities in San Francisco. She was found guilty by a jury for her role in an action last year that saw members of the group StopAI chain and lock the front doors of OpenAI’s headquarters in protest against the pursuit of artificial superintelligence. Continue reading...",
-      "published_at": "2026-08-16T08:00:20+00:00",
-      "updated_at": "2026-08-16T08:00:20+00:00",
-      "effective_at": "2026-08-16T08:00:20+00:00",
+      "summary": "Bus carrying Polish tourists overturns, killing 12 people and injuring 10 others on the M3 motorway near Mezokeresztes. A bus crash in eastern Hungary has killed 12 people and seriously injured 10, police say. The bus carrying Polish tourists overturned on Sunday on the M3 motorway near the town of Mezokeresztes, 140km (87 miles) east of Hungary’s capital, Budapest. The bus, travelling from Serbia to Poland, was carrying 57 passengers and two drivers when it drove into a ditch and overturned, police said. Eleven people were declared dead at the scene, and another person died in hospital, the national disaster management agency said. The ambulance service said 37 people suffered minor injuries. The fire brigade and other rescue workers had to drag some people out through the windows because they were trapped in the bus. “A Polish-registered bus travelling on the M3 motorway towards Nyiregyhaza… veered off the straight stretch of road into a ditch and overturned. Preliminary information suggests the driver likely fell asleep,” police said on their website. They said the bus driver was taken into custody. Hungarian Prime Minister Peter Magyar offered his condolences to the families of the victims and thanked rescue workers who were dispatched to the scene. Polish Foreign Minister Radoslaw Sikorski said on X: “The consular service is operational.",
+      "published_at": "2026-08-16T08:50:30+00:00",
+      "updated_at": "2026-08-16T08:50:30+00:00",
+      "effective_at": "2026-08-16T08:50:30+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "ai",
-      "subregion": "United States",
+      "sector": "infrastructure",
+      "subsector": "roads",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "ai",
-        "anthropic",
-        "francisco",
-        "kaufman",
-        "meta",
-        "openai",
-        "parks",
-        "regain",
-        "rosa",
-        "san",
-        "stopai",
-        "wynd"
+        "budapest",
+        "bus",
+        "foreign",
+        "hungarian",
+        "hungary",
+        "m3",
+        "magyar",
+        "mezokeresztes",
+        "nyiregyhaza",
+        "peter",
+        "poland",
+        "polish",
+        "polish-registered",
+        "radoslaw",
+        "serbia",
+        "sikorski"
+      ],
+      "corroborating_sources": 2,
+      "strong_corroboration": 2,
+      "corroborating_source_names": [
+        "Euronews",
+        "The Hindu"
+      ],
+      "verified_match_count": 2,
+      "priority_score": 75,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "article_sentences": [
+        "Bus carrying Polish tourists overturns, killing 12 people and injuring 10 others on the M3 motorway near Mezokeresztes.",
+        "A bus crash in eastern Hungary has killed 12 people and seriously injured 10, police say.",
+        "The bus carrying Polish tourists overturned on Sunday on the M3 motorway near the town of Mezokeresztes, 140km (87 miles) east of Hungary’s capital, Budapest.",
+        "The bus, travelling from Serbia to Poland, was carrying 57 passengers and two drivers when it drove into a ditch and overturned, police said.",
+        "Eleven people were declared dead at the scene, and another person died in hospital, the national disaster management agency said.",
+        "The ambulance service said 37 people suffered minor injuries.",
+        "The fire brigade and other rescue workers had to drag some people out through the windows because they were trapped in the bus.",
+        "“A Polish-registered bus travelling on the M3 motorway towards Nyiregyhaza… veered off the straight stretch of road into a ditch and overturned.",
+        "Preliminary information suggests the driver likely fell asleep,” police said on their website.",
+        "They said the bus driver was taken into custody.",
+        "Hungarian Prime Minister Peter Magyar offered his condolences to the families of the victims and thanked rescue workers who were dispatched to the scene.",
+        "Polish Foreign Minister Radoslaw Sikorski said on X: “The consular service is operational."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "0eb40a67338aa441ee9b74b3",
+      "importance_score": 65.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 19,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 8,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 3.0,
+          "dead": 12,
+          "injured": 12,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "3009c4ff1440d6d4f98dd5ab2aafa29a0ee4c60f17d04dc02ceab097869607e2",
+      "public_label": "🔄 UPDATE",
+      "headline": "At least 12 people killed in Hungary bus crash",
+      "briefing": {
+        "opening": [
+          "Bus carrying Polish tourists overturns, killing 12 people and injuring 10 others on the M3 motorway near Mezokeresztes.",
+          "A bus crash in eastern Hungary has killed 12 people and seriously injured 10, police say."
+        ],
+        "body": [
+          "The bus carrying Polish tourists overturned on Sunday on the M3 motorway near the town of Mezokeresztes, 140km (87 miles) east of Hungary’s capital, Budapest.",
+          "The bus, travelling from Serbia to Poland, was carrying 57 passengers and two drivers when it drove into a ditch and overturned, police said.",
+          "Eleven people were declared dead at the scene, and another person died in hospital, the national disaster management agency said.",
+          "The ambulance service said 37 people suffered minor injuries.",
+          "The fire brigade and other rescue workers had to drag some people out through the windows because they were trapped in the bus.",
+          "“A Polish-registered bus travelling on the M3 motorway towards Nyiregyhaza… veered off the straight stretch of road into a ditch and overturned.",
+          "Preliminary information suggests the driver likely fell asleep,” police said on their website.",
+          "They said the bus driver was taken into custody."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Mezokeresztes"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "12 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Bus carrying Polish tourists overturns, killing 12 people and injuring 10 others on the M3 motorway near Mezokeresztes.",
+            "source": "Al Jazeera",
+            "item_id": "3009c4ff1440d6d4f98dd5ab2aafa29a0ee4c60f17d04dc02ceab097869607e2:article",
+            "composed": false
+          },
+          {
+            "text": "The bus carrying Polish tourists overturned on Sunday on the M3 motorway near the town of Mezokeresztes, 140km (87 miles) east of Hungary’s capital, Budapest.",
+            "source": "Al Jazeera",
+            "item_id": "3009c4ff1440d6d4f98dd5ab2aafa29a0ee4c60f17d04dc02ceab097869607e2:article",
+            "composed": false
+          },
+          {
+            "text": "A bus crash in eastern Hungary has killed 12 people and seriously injured 10, police say.",
+            "source": "Al Jazeera",
+            "item_id": "3009c4ff1440d6d4f98dd5ab2aafa29a0ee4c60f17d04dc02ceab097869607e2:article",
+            "composed": false
+          },
+          {
+            "text": "The ambulance service said 37 people suffered minor injuries.",
+            "source": "Al Jazeera",
+            "item_id": "3009c4ff1440d6d4f98dd5ab2aafa29a0ee4c60f17d04dc02ceab097869607e2:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/news/2026/8/16/at-least-12-people-killed-in-hungary-bus-crash?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "c6dc6d92dd20d157a7b9530583f23161ecc97790e8107542ca05547311e293cb",
+      "title": "Malaysia’s DAP votes to stay in government, easing pressure on PM Anwar after state polls setbacks",
+      "url": "https://www.straitstimes.com/asia/se-asia/malaysias-dap-votes-to-stay-in-government-easing-pressure-on-pm-anwar-after-state-polls-setbacks",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Malaysia’s Democratic Action Party (DAP) voted to remain in Prime Minister Anwar Ibrahim’s unity government despite recent electoral losses. The decision eases pressure on Anwar’s administration, helping maintain parliamentary majority and delaying early general elections before 2028. DAP delegates debated reforms and expressed mixed views, with some urging continued participation and others calling for party focus and government exit. Malaysia’s Democratic Action Party (DAP) voted to remain in Prime Minister Anwar Ibrahim’s unity government at its national conference that gathered more than 4,000 delegates, held for the first time in Putrajaya on Aug 16. The referendum resulted in 1,857 votes in favour of remaining in the Cabinet, 242 votes against, and seven spoilt votes. A total of 2,223 delegates voted, with a turnout of 52.1 per cent. The choice of Putrajaya, the country’s administrative capital, as the conference venue reflected the party leadership’s determination to remain in federal power. The result cemented its commitment to staying in Anwar’s government. The decision eases pressure on Anwar, whose administration had faced the prospect of collapse and an early general election following a string of electoral setbacks. Malaysia’s next nationwide polls must be called before February 2028. With 40 seats in Parliament, the Chinese-dominated DAP is the largest party in the Pakatan Harapan (PH) ruling coalition, making its decision critical to Anwar’s ability to maintain his parliamentary majority and remain in office. Anwar’s PH has suffered defeats in Sabah and Johor, with its latest setback coming on Aug 1 when it lost control of Negeri Sembilan.",
+      "published_at": "2026-08-16T09:10:33+00:00",
+      "updated_at": "2026-08-16T09:10:33+00:00",
+      "effective_at": "2026-08-16T09:10:33+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "action",
+        "anwar",
+        "aug",
+        "cabinet",
+        "chinese-dominated",
+        "dap",
+        "democratic",
+        "harapan",
+        "ibrahim",
+        "johor",
+        "malaysia",
+        "negeri",
+        "pakatan",
+        "parliament",
+        "party",
+        "ph",
+        "pm",
+        "putrajaya",
+        "sabah",
+        "sembilan"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 95,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "ab18a2f4d1d27fbfe42d16ae",
-      "importance_score": 39.0,
-      "importance_level": "LOW",
+      "article_sentences": [
+        "Malaysia’s Democratic Action Party (DAP) voted to remain in Prime Minister Anwar Ibrahim’s unity government despite recent electoral losses.",
+        "The decision eases pressure on Anwar’s administration, helping maintain parliamentary majority and delaying early general elections before 2028.",
+        "DAP delegates debated reforms and expressed mixed views, with some urging continued participation and others calling for party focus and government exit.",
+        "Malaysia’s Democratic Action Party (DAP) voted to remain in Prime Minister Anwar Ibrahim’s unity government at its national conference that gathered more than 4,000 delegates, held for the first time in Putrajaya on Aug 16.",
+        "The referendum resulted in 1,857 votes in favour of remaining in the Cabinet, 242 votes against, and seven spoilt votes.",
+        "A total of 2,223 delegates voted, with a turnout of 52.1 per cent.",
+        "The choice of Putrajaya, the country’s administrative capital, as the conference venue reflected the party leadership’s determination to remain in federal power.",
+        "The result cemented its commitment to staying in Anwar’s government.",
+        "The decision eases pressure on Anwar, whose administration had faced the prospect of collapse and an early general election following a string of electoral setbacks.",
+        "Malaysia’s next nationwide polls must be called before February 2028.",
+        "With 40 seats in Parliament, the Chinese-dominated DAP is the largest party in the Pakatan Harapan (PH) ruling coalition, making its decision critical to Anwar’s ability to maintain his parliamentary majority and remain in office.",
+        "Anwar’s PH has suffered defeats in Sabah and Johor, with its latest setback coming on Aug 1 when it lost control of Negeri Sembilan."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "fd3d66e2d21242d72bce7bac",
+      "importance_score": 54.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 6.0,
-        "novelty": 10,
+        "impact": 8,
+        "urgency": 7.0,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 12,
+        "significance": 20,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "scientific": 8,
+          "geopolitical": 8,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "c6dc6d92dd20d157a7b9530583f23161ecc97790e8107542ca05547311e293cb",
+      "public_label": "🔄 UPDATE",
+      "headline": "Malaysia’s DAP votes to stay in government, easing pressure on PM Anwar after state polls setbacks",
+      "briefing": {
+        "opening": [
+          "Malaysia’s Democratic Action Party (DAP) voted to remain in Prime Minister Anwar Ibrahim’s unity government despite recent electoral losses.",
+          "The decision eases pressure on Anwar’s administration, helping maintain parliamentary majority and delaying early general elections before 2028."
+        ],
+        "body": [
+          "DAP delegates debated reforms and expressed mixed views, with some urging continued participation and others calling for party focus and government exit.",
+          "Malaysia’s Democratic Action Party (DAP) voted to remain in Prime Minister Anwar Ibrahim’s unity government at its national conference that gathered more than 4,000 delegates, held for the first time in Putrajaya on Aug 16.",
+          "The referendum resulted in 1,857 votes in favour of remaining in the Cabinet, 242 votes against, and seven spoilt votes.",
+          "A total of 2,223 delegates voted, with a turnout of 52.1 per cent.",
+          "The choice of Putrajaya, the country’s administrative capital, as the conference venue reflected the party leadership’s determination to remain in federal power.",
+          "The result cemented its commitment to staying in Anwar’s government.",
+          "The decision eases pressure on Anwar, whose administration had faced the prospect of collapse and an early general election following a string of electoral setbacks.",
+          "Malaysia’s next nationwide polls must be called before February 2028."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Prime Minister Anwar"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Malaysia’s Democratic Action Party (DAP) voted to remain in Prime Minister Anwar Ibrahim’s unity government at its national conference that gathered more than 4,000 delegates, held for the first time in Putrajaya on Aug 16.",
+            "source": "Straits Times Asia",
+            "item_id": "c6dc6d92dd20d157a7b9530583f23161ecc97790e8107542ca05547311e293cb:article",
+            "composed": false
+          },
+          {
+            "text": "The referendum resulted in 1,857 votes in favour of remaining in the Cabinet, 242 votes against, and seven spoilt votes.",
+            "source": "Straits Times Asia",
+            "item_id": "c6dc6d92dd20d157a7b9530583f23161ecc97790e8107542ca05547311e293cb:article",
+            "composed": false
+          },
+          {
+            "text": "A total of 2,223 delegates voted, with a turnout of 52.1 per cent.",
+            "source": "Straits Times Asia",
+            "item_id": "c6dc6d92dd20d157a7b9530583f23161ecc97790e8107542ca05547311e293cb:article",
+            "composed": false
+          },
+          {
+            "text": "Malaysia’s next nationwide polls must be called before February 2028.",
+            "source": "Straits Times Asia",
+            "item_id": "c6dc6d92dd20d157a7b9530583f23161ecc97790e8107542ca05547311e293cb:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/se-asia/malaysias-dap-votes-to-stay-in-government-easing-pressure-on-pm-anwar-after-state-polls-setbacks"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "6c0e144687802ddb89976243eb29382c86dfa9d88de0f1c617d5d6950fbab50b",
+      "title": "Who will care for South Korea’s elderly? Foreign workers enter troubled market",
+      "url": "https://www.straitstimes.com/asia/east-asia/who-will-care-for-south-koreas-elderly-foreign-workers-enter-troubled-market",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "South Korea faces a severe shortage of eldercare workers, with 116,000 needed by 2028 and nearly 1 million more by 2043, despite many qualified South Koreans not working in care due to poor conditions. The government is launching programmes for foreign students to train as caregivers and stay in South Korea, aiming to fill workforce gaps amid an ageing population. Experts warn that without better pay, career paths, and realistic job expectations, foreign workers may also avoid or leave care jobs, risking instability in eldercare services. South Korea’s rapidly ageing population has created an issue that is at once demographic and deeply personal: Who will care for the growing number of older people? The arithmetic appears daunting. South Korea is projected to face a shortfall of roughly 116,000 eldercare workers by 2028, according to government data. The Health Ministry estimates the country will need 990,000 additional caregivers by 2043. Yet beneath that headline shortage lies a contradiction. Nearly 2.3 million people have obtained caregiver qualifications but are not working in the field, according to the care workers’ union affiliated with the Korean Confederation of Trade Unions. That has led workers and labour experts to question whether South Korea simply lacks people capable of providing care – or whether it lacks care jobs attractive enough for people to enter and remain in. As policymakers search for ways to expand the care workforce, one increasingly prominent part of their strategy is to open new pathways for foreign residents and international students. With South Korea firmly a super-aged society and demand for elderly care rising, the government has begun creating routes for international students to train as caregivers and remain in the country for work.",
+      "published_at": "2026-08-16T09:15:00+00:00",
+      "updated_at": "2026-08-16T09:15:00+00:00",
+      "effective_at": "2026-08-16T09:15:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "public_health",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "confederation",
+        "health",
+        "korean",
+        "koreans",
+        "ministry",
+        "south_korea",
+        "trade",
+        "unions"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 1,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "South Korea faces a severe shortage of eldercare workers, with 116,000 needed by 2028 and nearly 1 million more by 2043, despite many qualified South Koreans not working in care due to poor conditions.",
+        "The government is launching programmes for foreign students to train as caregivers and stay in South Korea, aiming to fill workforce gaps amid an ageing population.",
+        "Experts warn that without better pay, career paths, and realistic job expectations, foreign workers may also avoid or leave care jobs, risking instability in eldercare services.",
+        "South Korea’s rapidly ageing population has created an issue that is at once demographic and deeply personal: Who will care for the growing number of older people?",
+        "The arithmetic appears daunting.",
+        "South Korea is projected to face a shortfall of roughly 116,000 eldercare workers by 2028, according to government data.",
+        "The Health Ministry estimates the country will need 990,000 additional caregivers by 2043.",
+        "Yet beneath that headline shortage lies a contradiction.",
+        "Nearly 2.3 million people have obtained caregiver qualifications but are not working in the field, according to the care workers’ union affiliated with the Korean Confederation of Trade Unions.",
+        "That has led workers and labour experts to question whether South Korea simply lacks people capable of providing care – or whether it lacks care jobs attractive enough for people to enter and remain in.",
+        "As policymakers search for ways to expand the care workforce, one increasingly prominent part of their strategy is to open new pathways for foreign residents and international students.",
+        "With South Korea firmly a super-aged society and demand for elderly care rising, the government has begun creating routes for international students to train as caregivers and remain in the country for work."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "b43f43930bc72517b261915a",
+      "importance_score": 39.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "MULTI_COUNTRY",
+        "scope_points": 7,
+        "reliability": 6,
+        "corroboration": 3,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -71,47 +392,608 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 4,
-          "security": 4,
-          "scientific": 4
+          "economic": 4,
+          "geopolitical": 4
         }
       },
-      "story_id": "a48f7d98b81dd8be1c51c7adf291439800fe35b8ea663fc5c9f680f7e6f36b9f",
-      "public_label": "📰 NEWS",
-      "headline": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: ‘Regain your humanity’",
+      "story_id": "6c0e144687802ddb89976243eb29382c86dfa9d88de0f1c617d5d6950fbab50b",
+      "public_label": "🔄 UPDATE",
+      "headline": "Who will care for South Korea’s elderly? Foreign workers enter troubled market",
       "briefing": {
         "opening": [
-          "Wynd Kaufman, 69, chained and locked the front doors of OpenAI’s headquarters last year with members of StopAI.",
-          "An activist who blocked the entrance to one of the world’s biggest AI companies is believed to have become the first person jailed for protesting against artificial intelligence as supporters dub her the “Rosa Parks of AI risk”."
+          "South Korea faces a severe shortage of eldercare workers, with 116,000 needed by 2028 and nearly 1 million more by 2043, despite many qualified South Koreans not working in care due to poor conditions.",
+          "The government is launching programmes for foreign students to train as caregivers and stay in South Korea, aiming to fill workforce gaps amid an ageing population."
         ],
         "body": [
-          "Wynd Kaufman, 69, surrendered herself on Friday to authorities in San Francisco.",
-          "She was found guilty by a jury for her role in an action last year that saw members of the group StopAI chain and lock the front doors of OpenAI’s headquarters in protest against the pursuit of artificial superintelligence."
+          "Experts warn that without better pay, career paths, and realistic job expectations, foreign workers may also avoid or leave care jobs, risking instability in eldercare services.",
+          "South Korea’s rapidly ageing population has created an issue that is at once demographic and deeply personal: Who will care for the growing number of older people?",
+          "The arithmetic appears daunting.",
+          "South Korea is projected to face a shortfall of roughly 116,000 eldercare workers by 2028, according to government data.",
+          "The Health Ministry estimates the country will need 990,000 additional caregivers by 2043.",
+          "Yet beneath that headline shortage lies a contradiction.",
+          "That has led workers and labour experts to question whether South Korea simply lacks people capable of providing care – or whether it lacks care jobs attractive enough for people to enter and remain in.",
+          "As policymakers search for ways to expand the care workforce, one increasingly prominent part of their strategy is to open new pathways for foreign residents and international students."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "San Francisco"
+            "text": "South Korea"
           }
         ],
         "sentences": [
           {
-            "text": "An activist who blocked the entrance to one of the world’s biggest AI companies is believed to have become the first person jailed for protesting against artificial intelligence as supporters dub her the “Rosa Parks of AI risk”.",
-            "source": "The Guardian Technology",
-            "item_id": "a48f7d98b81dd8be1c51c7adf291439800fe35b8ea663fc5c9f680f7e6f36b9f",
+            "text": "South Korea’s rapidly ageing population has created an issue that is at once demographic and deeply personal: Who will care for the growing number of older people?",
+            "source": "Straits Times Asia",
+            "item_id": "6c0e144687802ddb89976243eb29382c86dfa9d88de0f1c617d5d6950fbab50b:article",
             "composed": false
           },
           {
-            "text": "She was found guilty by a jury for her role in an action last year that saw members of the group StopAI chain and lock the front doors of OpenAI’s headquarters in protest against the pursuit of artificial superintelligence.",
-            "source": "The Guardian Technology",
-            "item_id": "a48f7d98b81dd8be1c51c7adf291439800fe35b8ea663fc5c9f680f7e6f36b9f",
+            "text": "South Korea faces a severe shortage of eldercare workers, with 116,000 needed by 2028 and nearly 1 million more by 2043, despite many qualified South Koreans not working in care due to poor conditions.",
+            "source": "Straits Times Asia",
+            "item_id": "6c0e144687802ddb89976243eb29382c86dfa9d88de0f1c617d5d6950fbab50b:article",
+            "composed": false
+          },
+          {
+            "text": "The government is launching programmes for foreign students to train as caregivers and stay in South Korea, aiming to fill workforce gaps amid an ageing population.",
+            "source": "Straits Times Asia",
+            "item_id": "6c0e144687802ddb89976243eb29382c86dfa9d88de0f1c617d5d6950fbab50b:article",
             "composed": false
           }
         ],
-        "source": "The Guardian Technology",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman"
+        "url": "https://www.straitstimes.com/asia/east-asia/who-will-care-for-south-koreas-elderly-foreign-workers-enter-troubled-market"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "b126144ce991fafb65eb201f3cab11441e3118cbf73c69c1f86a671eb2462306",
+      "title": "US : Hawaii narrowly avoids direct hit as Hurricane Lala brings strong weather",
+      "url": "https://www.france24.com/en/us-hawaii-narrowly-avoids-direct-hit-as-hurricane-lala-brings-severe-weather",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "Hawaii has narrowly avoided a historic direct hit from Hurricane Lala, but torrential rain and hurricane-force winds are still causing widespread flooding, mudslides and power outages across the islands. Authorities are urging residents to shelter in place as the storm moves west and dangerous conditions persist.",
+      "published_at": "2026-08-16T08:53:56+00:00",
+      "updated_at": "2026-08-16T08:53:56+00:00",
+      "effective_at": "2026-08-16T08:53:56+00:00",
+      "language_status": "ENGLISH",
+      "category": "disaster",
+      "score": 73,
+      "confidence": "medium",
+      "urgency_terms": [
+        "hurricane"
+      ],
+      "sector": "climate",
+      "subsector": "storms",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "hawaii",
+        "hurricane",
+        "lala",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "6c6c9b30e41e9736a5fdd650",
+      "importance_score": 33.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 9.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "infrastructure": 4
+        }
+      },
+      "story_id": "b126144ce991fafb65eb201f3cab11441e3118cbf73c69c1f86a671eb2462306",
+      "public_label": "🔄 UPDATE",
+      "headline": "US : Hawaii narrowly avoids direct hit as Hurricane Lala brings strong weather",
+      "briefing": {
+        "opening": [
+          "Hawaii has narrowly avoided a historic direct hit from Hurricane Lala, but torrential rain and hurricane-force winds are still causing widespread flooding, mudslides and power outages across the islands.",
+          "Authorities are urging residents to shelter in place as the storm moves west and dangerous conditions persist."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Authorities are urging residents to shelter in place as the storm moves west and dangerous conditions persist.",
+            "source": "France 24",
+            "item_id": "b126144ce991fafb65eb201f3cab11441e3118cbf73c69c1f86a671eb2462306",
+            "composed": false
+          },
+          {
+            "text": "Hawaii has narrowly avoided a historic direct hit from Hurricane Lala, but torrential rain and hurricane-force winds are still causing widespread flooding, mudslides and power outages across the islands.",
+            "source": "France 24",
+            "item_id": "b126144ce991fafb65eb201f3cab11441e3118cbf73c69c1f86a671eb2462306",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/us-hawaii-narrowly-avoids-direct-hit-as-hurricane-lala-brings-severe-weather"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "944441e3e29a753ee4e0ae07655e6a1dd13ff9c3d7d6974c9edddda0e3ea87c0",
+      "title": "Morocco tightens security as migrants gather near Ceuta border",
+      "url": "https://www.france24.com/en/morocco-tightens-security-as-migrants-gather-near-ceuta-border",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "Morocco has deployed heavy security around the border city of Fnideq after false social media rumours claimed the border to Spain's Ceuta enclave would open. Hundreds of migrants, mostly from sub-Saharan Africa, have gathered nearby, raising fears of another mass crossing just weeks after tens of thousands attempted to enter the Spanish territory.",
+      "published_at": "2026-08-16T09:17:50+00:00",
+      "updated_at": "2026-08-16T09:17:50+00:00",
+      "effective_at": "2026-08-16T09:17:50+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "human_rights",
+      "subregion": "North Africa",
+      "country": null,
+      "entities": [
+        "africa",
+        "ceuta",
+        "fnideq",
+        "morocco",
+        "spain"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "8806605dcc97593e15761adc",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "944441e3e29a753ee4e0ae07655e6a1dd13ff9c3d7d6974c9edddda0e3ea87c0",
+      "public_label": "📰 NEWS",
+      "headline": "Morocco tightens security as migrants gather near Ceuta border",
+      "briefing": {
+        "opening": [
+          "Morocco has deployed heavy security around the border city of Fnideq after false social media rumours claimed the border to Spain's Ceuta enclave would open.",
+          "Hundreds of migrants, mostly from sub-Saharan Africa, have gathered nearby, raising fears of another mass crossing just weeks after tens of thousands attempted to enter the Spanish territory."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Morocco has deployed heavy security around the border city of Fnideq after false social media rumours claimed the border to Spain's Ceuta enclave would open.",
+            "source": "France 24",
+            "item_id": "944441e3e29a753ee4e0ae07655e6a1dd13ff9c3d7d6974c9edddda0e3ea87c0",
+            "composed": false
+          },
+          {
+            "text": "Hundreds of migrants, mostly from sub-Saharan Africa, have gathered nearby, raising fears of another mass crossing just weeks after tens of thousands attempted to enter the Spanish territory.",
+            "source": "France 24",
+            "item_id": "944441e3e29a753ee4e0ae07655e6a1dd13ff9c3d7d6974c9edddda0e3ea87c0",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/morocco-tightens-security-as-migrants-gather-near-ceuta-border"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "895249499281e43e75ea539da9639574026d59ed84651206056c0d14b60e5328",
+      "title": "Block export of ‘national treasure’ UK fossils, says MP",
+      "url": "https://www.theguardian.com/science/2026/aug/16/block-export-of-national-treasure-uk-fossils-says-mp",
+      "source": "The Guardian Science",
+      "source_category": "science",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Sale of one of UK’s top collections overseas prompts call new rules to help keep items in country One of UK’s best fossil collections sold in ‘loss to the nation’ An MP has called on ministers to change export controls so that significant fossils can be classed as national treasures after one of the UK’s best collections, unearthed on Dorset beaches, was sold overseas. Last week, a Guardian investigation revealed that an unparalleled collection of fossils from the UK’s Jurassic Coast, comprising hundreds of specimens including ichthyosaurs, had been sold to the Natural History Museum in Abu Dhabi for what one source described as an “eight-figure sum”. Continue reading...",
+      "published_at": "2026-08-16T09:00:22+00:00",
+      "updated_at": "2026-08-16T09:00:22+00:00",
+      "effective_at": "2026-08-16T09:00:22+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "science",
+      "subsector": "earth_science",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "abu",
+        "coast",
+        "dhabi",
+        "dorset",
+        "guardian",
+        "history",
+        "jurassic",
+        "mp",
+        "museum",
+        "natural",
+        "sale",
+        "uk"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "d323ed5c3f9dd10b04663be7",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "895249499281e43e75ea539da9639574026d59ed84651206056c0d14b60e5328",
+      "public_label": "📰 NEWS",
+      "headline": "Block export of ‘national treasure’ UK fossils, says MP",
+      "briefing": {
+        "opening": [
+          "Sale of one of UK’s top collections overseas prompts call new rules to help keep items in country.",
+          "One of UK’s best fossil collections sold in ‘loss to the nation’ An MP has called on ministers to change export controls so that significant fossils can be classed as national treasures after one of the UK’s best collections, unearthed on Dorset beaches, was sold overseas."
+        ],
+        "body": [
+          "Last week, a Guardian investigation revealed that an unparalleled collection of fossils from the UK’s Jurassic Coast, comprising hundreds of specimens including ichthyosaurs, had been sold to the Natural History Museum in Abu Dhabi for what one source described as an “eight-figure sum”."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Abu Dhabi"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "One of UK’s best fossil collections sold in ‘loss to the nation’ An MP has called on ministers to change export controls so that significant fossils can be classed as national treasures after one of the UK’s best collections, unearthed on Dorset beaches, was sold overseas.",
+            "source": "The Guardian Science",
+            "item_id": "895249499281e43e75ea539da9639574026d59ed84651206056c0d14b60e5328",
+            "composed": false
+          },
+          {
+            "text": "Last week, a Guardian investigation revealed that an unparalleled collection of fossils from the UK’s Jurassic Coast, comprising hundreds of specimens including ichthyosaurs, had been sold to the Natural History Museum in Abu Dhabi for what one source described as an “eight-figure sum”.",
+            "source": "The Guardian Science",
+            "item_id": "895249499281e43e75ea539da9639574026d59ed84651206056c0d14b60e5328",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian Science",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/science/2026/aug/16/block-export-of-national-treasure-uk-fossils-says-mp"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "d475899650d72b1d9b64284235721067bf2d7ff969985732375a83c215fc2b77",
+      "title": "Cincinnati Open: Djokovic stunned by Tirante in second round",
+      "url": "https://www.aljazeera.com/sports/2026/8/16/cincinnati-open-djokovic-stunned-by-tirante-in-second-round?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Novak Djokovic struggled in the hot conditions and was ousted from Cincinnati Open in his first match since Wimbledon. Novak Djokovic suffered from punishing heat and humidity on Saturday but made a match of it before falling 2-6, 6-4, 6-4 to Thiago Tirante in what could be the Serb’s last appearance at the ATP-WTA Cincinnati Masters. The second-round battle lasted for more than two and a half hours, and it proved too much for the 24-time Grand Slam champion, who was playing his first match since he lost to Jannik Sinner in the Wimbledon semifinals more than a month ago. Top-seeded Alexander Zverev, the French Open champion who fell to Sinner in the Wimbledon final, was more fortunate, squeezing out an opening 3-6, 6-3, 6-3 victory over Cameron Norrie in a match that took two hours and 45 minutes and ended at 2:15am. Britain’s Norrie has now lost all eight of his matches against the German, winner of the Cincinnati title five years ago, who is hoping a return to Ohio will help him shake off an abrupt exit in Canada last week. Norrie had wrapped up the opening set before Zverev began to find his footing to level the match. Norrie saved six break points in a 12-minute game to begin the deciding set but was broken twice as Zverev advanced. “I needed to get a match rhythm,” Zverev said. “The confidence was not there after Canada. “The first set was not great, but the other two were at a high level, and I’m happy about that.” Djokovic, who claimed the last of his three Cincinnati titles in 2023, took the opening set against Argentina’s Tirante with little fuss. But the sweltering afternoon temperatures took a toll.",
+      "published_at": "2026-08-16T09:03:05+00:00",
+      "updated_at": "2026-08-16T09:03:05+00:00",
+      "effective_at": "2026-08-16T09:03:05+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "sports",
+      "subsector": "sports",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "alexander",
+        "argentina",
+        "atp-wta",
+        "britain",
+        "cameron",
+        "canada",
+        "cincinnati",
+        "djokovic",
+        "france",
+        "german",
+        "grand",
+        "jannik",
+        "masters",
+        "norrie",
+        "novak",
+        "ohio",
+        "open",
+        "serb",
+        "sinner",
+        "slam",
+        "thiago",
+        "tirante",
+        "top-seeded",
+        "wimbledon",
+        "zverev"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Novak Djokovic struggled in the hot conditions and was ousted from Cincinnati Open in his first match since Wimbledon.",
+        "Novak Djokovic suffered from punishing heat and humidity on Saturday but made a match of it before falling 2-6, 6-4, 6-4 to Thiago Tirante in what could be the Serb’s last appearance at the ATP-WTA Cincinnati Masters.",
+        "The second-round battle lasted for more than two and a half hours, and it proved too much for the 24-time Grand Slam champion, who was playing his first match since he lost to Jannik Sinner in the Wimbledon semifinals more than a month ago.",
+        "Top-seeded Alexander Zverev, the French Open champion who fell to Sinner in the Wimbledon final, was more fortunate, squeezing out an opening 3-6, 6-3, 6-3 victory over Cameron Norrie in a match that took two hours and 45 minutes and ended at 2:15am.",
+        "Britain’s Norrie has now lost all eight of his matches against the German, winner of the Cincinnati title five years ago, who is hoping a return to Ohio will help him shake off an abrupt exit in Canada last week.",
+        "Norrie had wrapped up the opening set before Zverev began to find his footing to level the match.",
+        "Norrie saved six break points in a 12-minute game to begin the deciding set but was broken twice as Zverev advanced.",
+        "“I needed to get a match rhythm,” Zverev said.",
+        "“The confidence was not there after Canada.",
+        "“The first set was not great, but the other two were at a high level, and I’m happy about that.”",
+        "Djokovic, who claimed the last of his three Cincinnati titles in 2023, took the opening set against Argentina’s Tirante with little fuss.",
+        "But the sweltering afternoon temperatures took a toll."
+      ],
+      "event_status": "NEW",
+      "event_id": "45e2e6b636e61e1d81070eb3",
+      "importance_score": 27.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "d475899650d72b1d9b64284235721067bf2d7ff969985732375a83c215fc2b77",
+      "public_label": "📰 NEWS",
+      "headline": "Cincinnati Open: Djokovic stunned by Tirante in second round",
+      "briefing": {
+        "opening": [
+          "Novak Djokovic struggled in the hot conditions and was ousted from Cincinnati Open in his first match since Wimbledon.",
+          "Novak Djokovic suffered from punishing heat and humidity on Saturday but made a match of it before falling 2-6, 6-4, 6-4 to Thiago Tirante in what could be the Serb’s last appearance at the ATP-WTA Cincinnati Masters."
+        ],
+        "body": [
+          "The second-round battle lasted for more than two and a half hours, and it proved too much for the 24-time Grand Slam champion, who was playing his first match since he lost to Jannik Sinner in the Wimbledon semifinals more than a month ago.",
+          "Top-seeded Alexander Zverev, the French Open champion who fell to Sinner in the Wimbledon final, was more fortunate, squeezing out an opening 3-6, 6-3, 6-3 victory over Cameron Norrie in a match that took two hours and 45 minutes and ended at 2:15am.",
+          "Britain’s Norrie has now lost all eight of his matches against the German, winner of the Cincinnati title five years ago, who is hoping a return to Ohio will help him shake off an abrupt exit in Canada last week.",
+          "Norrie had wrapped up the opening set before Zverev began to find his footing to level the match.",
+          "Norrie saved six break points in a 12-minute game to begin the deciding set but was broken twice as Zverev advanced.",
+          "“I needed to get a match rhythm,” Zverev said.",
+          "“The confidence was not there after Canada.",
+          "“The first set was not great, but the other two were at a high level, and I’m happy about that.” Djokovic, who claimed the last of his three Cincinnati titles in 2023, took the opening set against Argentina’s Tirante with little fuss."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Canada"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Novak Djokovic suffered from punishing heat and humidity on Saturday but made a match of it before falling 2-6, 6-4, 6-4 to Thiago Tirante in what could be the Serb’s last appearance at the ATP-WTA Cincinnati Masters.",
+            "source": "Al Jazeera",
+            "item_id": "d475899650d72b1d9b64284235721067bf2d7ff969985732375a83c215fc2b77:article",
+            "composed": false
+          },
+          {
+            "text": "Top-seeded Alexander Zverev, the French Open champion who fell to Sinner in the Wimbledon final, was more fortunate, squeezing out an opening 3-6, 6-3, 6-3 victory over Cameron Norrie in a match that took two hours and 45 minutes and ended at 2:15am.",
+            "source": "Al Jazeera",
+            "item_id": "d475899650d72b1d9b64284235721067bf2d7ff969985732375a83c215fc2b77:article",
+            "composed": false
+          },
+          {
+            "text": "The second-round battle lasted for more than two and a half hours, and it proved too much for the 24-time Grand Slam champion, who was playing his first match since he lost to Jannik Sinner in the Wimbledon semifinals more than a month ago.",
+            "source": "Al Jazeera",
+            "item_id": "d475899650d72b1d9b64284235721067bf2d7ff969985732375a83c215fc2b77:article",
+            "composed": false
+          },
+          {
+            "text": "Norrie has now lost all eight of his matches against the German, winner of the Cincinnati title five years ago, who is hoping a return to Ohio will help him shake off an abrupt exit in Canada last week.",
+            "source": "Al Jazeera",
+            "item_id": "d475899650d72b1d9b64284235721067bf2d7ff969985732375a83c215fc2b77:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/sports/2026/8/16/cincinnati-open-djokovic-stunned-by-tirante-in-second-round?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "c9b5a882a7bb93ede7ab91bb0de2f242b0bd4a3d4867c02b2141bfe965a48218",
+      "title": "Pune court remands 'drug kingpin' Virender Singh Basoya to NCB custody till August 21",
+      "url": "https://www.thehindu.com/news/national/maharashtra/pune-court-remands-drug-kingpin-virender-singh-basoya-to-ncb-custody-till-august-21/article71352406.ece",
+      "source": "The Hindu",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "The prosecution told the court that the accused stayed abroad for a long time. His name has surfaced in several drug-related cases and there is a possibility that he is a key figure in a major drug trafficking racket.",
+      "published_at": "2026-08-16T09:13:24+00:00",
+      "updated_at": "2026-08-16T09:13:24+00:00",
+      "effective_at": "2026-08-16T09:13:24+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "medicine",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "basoya",
+        "ncb",
+        "singh",
+        "virender"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "823dca68f2d366280842498c",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "c9b5a882a7bb93ede7ab91bb0de2f242b0bd4a3d4867c02b2141bfe965a48218",
+      "public_label": "📰 NEWS",
+      "headline": "Pune court remands 'drug kingpin' Virender Singh Basoya to NCB custody till August 21",
+      "briefing": {
+        "opening": [
+          "The prosecution told the court that the accused stayed abroad for a long time.",
+          "His name has surfaced in several drug-related cases and there is a possibility that he is a key figure in a major drug trafficking racket."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The prosecution told the court that the accused stayed abroad for a long time.",
+            "source": "The Hindu",
+            "item_id": "c9b5a882a7bb93ede7ab91bb0de2f242b0bd4a3d4867c02b2141bfe965a48218",
+            "composed": false
+          },
+          {
+            "text": "His name has surfaced in several drug-related cases and there is a possibility that he is a key figure in a major drug trafficking racket.",
+            "source": "The Hindu",
+            "item_id": "c9b5a882a7bb93ede7ab91bb0de2f242b0bd4a3d4867c02b2141bfe965a48218",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/maharashtra/pune-court-remands-drug-kingpin-virender-singh-basoya-to-ncb-custody-till-august-21/article71352406.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS"
