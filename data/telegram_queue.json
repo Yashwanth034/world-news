@@ -1,57 +1,81 @@
 {
-  "generated_at": "2026-08-16T07:20:44.434858+00:00",
+  "generated_at": "2026-08-16T07:30:59.763333+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "1798a363014bb36fd83bc2fdff79af029a51d62f54cdc638fbad91eeac4c5cb3",
-      "title": "Europe's shrinking rivers give rise to debate over how to tackle drought",
-      "url": "https://www.rfi.fr/en/environment/20260816-europe-s-shrinking-rivers-give-rise-to-debate-over-how-to-tackle-drought",
-      "source": "RFI English",
+      "id": "0324894fb6c5fa86cd6f84b9a199f2463d6d2f3aa2d943ab173bb1f21ab56a3d",
+      "title": "At least 12 people killed in a Polish tourist bus crash in Hungary",
+      "url": "http://www.euronews.com/2026/08/16/at-least-12-people-killed-in-a-polish-tourist-bus-crash-in-hungary",
+      "source": "Euronews",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "Europe's shrinking rivers are disrupting industry, reducing power generation and intensifying the debate over how to respond to worsening drought. As water levels fall across the continent, authorities and businesses alike are looking for ways to keep freight moving and critical infrastructure operating. Hydrologists warn, however, that digging rivers deeper cannot create more water and could make shortages worse.",
-      "published_at": "2026-08-16T07:17:26+00:00",
-      "updated_at": "2026-08-16T07:17:26+00:00",
-      "effective_at": "2026-08-16T07:17:26+00:00",
+      "summary": "By 3 a.m. on Sunday, the disaster management service reported that firefighters had so far rescued thirty-five people from the coach, while several passengers had been trapped beneath the vehicle. In the early hours of Sunday, a coach overturned on a motorway in north east Hungary between Mezőkeresztes and Mezőnagymihály, Hungarian authorities reported. Units already at the scene entered the coach through its windows and have been rescuing passengers trapped inside, it added. At 3 a.m. on Sunday, the disaster management service reported that firefighters had so far rescued thirty-five people from the coach, while several passengers had been trapped beneath the vehicle. Meanwhile, Hungarian Prime Minister Péter Magyar published on his social media about the coach crash, reporting the deaths of a dozen passengers. \"12 people lost their lives and at least ten were seriously injured during the night, when a Polish coach overturned into a ditch on the M3 motorway,\" the prime minister said. Péter Magyar offered his condolences to the families of the victims and wished the injured a swift recovery. He also thanked those taking part in the rescue operation for their work. The Polish foreign minister has also confirmed the disaster, saying that they are in constant contact with the Hungarian authorities, but the details still need to be confirmed. While, Polish President Karol Nawrocki sent his thoughts to the families of the victims, Nawrocki said, \"I join in prayer and extend my deepest condolences to the families and loved ones of the victims\". According to information provided by Hungarian Interior Minister Gábor Pósfai 47 people were travelling on the coach, several of whom were seriously injured, adding that \"The driver of the vehicle involved in the accident has been taken into custody\".",
+      "published_at": "2026-08-16T07:22:21+00:00",
+      "updated_at": "2026-08-16T07:22:21+00:00",
+      "effective_at": "2026-08-16T07:22:21+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "agriculture",
-      "subsector": "water",
-      "subregion": null,
+      "sector": "climate",
+      "subsector": "disasters",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "europe"
+        "hungarian",
+        "hungary",
+        "interior",
+        "karol",
+        "m3",
+        "magyar",
+        "meanwhile",
+        "mez",
+        "nawrocki",
+        "polish"
       ],
       "corroborating_sources": 1,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "The Hindu"
+      ],
       "verified_match_count": 1,
-      "priority_score": 100,
+      "priority_score": 73,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "2fa246217c5c2062be1438aa",
-      "importance_score": 33.0,
-      "importance_level": "LOW",
+      "article_sentences": [
+        "By 3 a.m. on Sunday, the disaster management service reported that firefighters had so far rescued thirty-five people from the coach, while several passengers had been trapped beneath the vehicle.",
+        "In the early hours of Sunday, a coach overturned on a motorway in north east Hungary between Mezőkeresztes and Mezőnagymihály, Hungarian authorities reported.",
+        "Units already at the scene entered the coach through its windows and have been rescuing passengers trapped inside, it added.",
+        "At 3 a.m. on Sunday, the disaster management service reported that firefighters had so far rescued thirty-five people from the coach, while several passengers had been trapped beneath the vehicle.",
+        "Meanwhile, Hungarian Prime Minister Péter Magyar published on his social media about the coach crash, reporting the deaths of a dozen passengers.",
+        "\"12 people lost their lives and at least ten were seriously injured during the night, when a Polish coach overturned into a ditch on the M3 motorway,\" the prime minister said.",
+        "Péter Magyar offered his condolences to the families of the victims and wished the injured a swift recovery.",
+        "He also thanked those taking part in the rescue operation for their work.",
+        "The Polish foreign minister has also confirmed the disaster, saying that they are in constant contact with the Hungarian authorities, but the details still need to be confirmed.",
+        "While, Polish President Karol Nawrocki sent his thoughts to the families of the victims, Nawrocki said, \"I join in prayer and extend my deepest condolences to the families and loved ones of the victims\".",
+        "According to information provided by Hungarian Interior Minister Gábor Pósfai 47 people were travelling on the coach, several of whom were seriously injured, adding that \"The driver of the vehicle involved in the accident has been taken into custody\"."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "f18eb106f58b527780edc554",
+      "importance_score": 60.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 16.0,
         "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
-        "corroboration": 3,
-        "significance": 4,
+        "corroboration": 6,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
+          "magnitude": 3.0,
+          "dead": 12,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -60,47 +84,63 @@
           "crisis": false
         },
         "significance_dims": {
-          "infrastructure": 4
+          "human": 8,
+          "geopolitical": 4
         }
       },
-      "story_id": "1798a363014bb36fd83bc2fdff79af029a51d62f54cdc638fbad91eeac4c5cb3",
-      "public_label": "📰 NEWS",
-      "headline": "Europe's shrinking rivers give rise to debate over how to tackle drought",
+      "story_id": "0324894fb6c5fa86cd6f84b9a199f2463d6d2f3aa2d943ab173bb1f21ab56a3d",
+      "public_label": "🔄 UPDATE",
+      "headline": "At least 12 people killed in a Polish tourist bus crash in Hungary",
       "briefing": {
         "opening": [
-          "Europe's shrinking rivers are disrupting industry, reducing power generation and intensifying the debate over how to respond to worsening drought.",
-          "As water levels fall across the continent, authorities and businesses alike are looking for ways to keep freight moving and critical infrastructure operating."
+          "By 3 a.m. on Sunday, the disaster management service reported that firefighters had so far rescued thirty-five people from the coach, while several passengers had been trapped beneath the vehicle.",
+          "In the early hours of Sunday, a coach overturned on a motorway in north east Hungary between Mezőkeresztes and Mezőnagymihály, Hungarian authorities reported."
         ],
         "body": [
-          "Hydrologists warn, however, that digging rivers deeper cannot create more water and could make shortages worse."
+          "Units already at the scene entered the coach through its windows and have been rescuing passengers trapped inside, it added.",
+          "Meanwhile, Hungarian Prime Minister Péter Magyar published on his social media about the coach crash, reporting the deaths of a dozen passengers.",
+          "\"12 people lost their lives and at least ten were seriously injured during the night, when a Polish coach overturned into a ditch on the M3 motorway,\" the prime minister said.",
+          "Péter Magyar offered his condolences to the families of the victims and wished the injured a swift recovery.",
+          "He also thanked those taking part in the rescue operation for their work.",
+          "The Polish foreign minister has also confirmed the disaster, saying that they are in constant contact with the Hungarian authorities, but the details still need to be confirmed.",
+          "While, Polish President Karol Nawrocki sent his thoughts to the families of the victims, Nawrocki said, \"I join in prayer and extend my deepest condolences to the families and loved ones of the victims\".",
+          "The bus ran into a ditch and tipped ‌over early on Sunday (August 16, 2026) near the town of Mezokeresztes in eastern Hungary, police said."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "12 people"
+          }
+        ],
         "sentences": [
           {
-            "text": "Europe's shrinking rivers are disrupting industry, reducing power generation and intensifying the debate over how to respond to worsening drought.",
-            "source": "RFI English",
-            "item_id": "1798a363014bb36fd83bc2fdff79af029a51d62f54cdc638fbad91eeac4c5cb3",
+            "text": "By 3 a.m. on Sunday, the disaster management service reported that firefighters had so far rescued thirty-five people from the coach, while several passengers had been trapped beneath the vehicle.",
+            "source": "Euronews",
+            "item_id": "0324894fb6c5fa86cd6f84b9a199f2463d6d2f3aa2d943ab173bb1f21ab56a3d:article",
             "composed": false
           },
           {
-            "text": "Hydrologists warn, however, that digging rivers deeper cannot create more water and could make shortages worse.",
-            "source": "RFI English",
-            "item_id": "1798a363014bb36fd83bc2fdff79af029a51d62f54cdc638fbad91eeac4c5cb3",
+            "text": "Meanwhile, Hungarian Prime Minister Péter Magyar published on his social media about the coach crash, reporting the deaths of a dozen passengers.",
+            "source": "Euronews",
+            "item_id": "0324894fb6c5fa86cd6f84b9a199f2463d6d2f3aa2d943ab173bb1f21ab56a3d:article",
             "composed": false
           },
           {
-            "text": "As water levels fall across the continent, authorities and businesses alike are looking for ways to keep freight moving and critical infrastructure operating.",
-            "source": "RFI English",
-            "item_id": "1798a363014bb36fd83bc2fdff79af029a51d62f54cdc638fbad91eeac4c5cb3",
+            "text": "\"12 people lost their lives and at least ten were seriously injured during the night, when a Polish coach overturned into a ditch on the M3 motorway,\" the prime minister said.",
+            "source": "Euronews",
+            "item_id": "0324894fb6c5fa86cd6f84b9a199f2463d6d2f3aa2d943ab173bb1f21ab56a3d:article",
             "composed": false
           }
         ],
-        "source": "RFI English",
-        "corroborating": [],
-        "url": "https://www.rfi.fr/en/environment/20260816-europe-s-shrinking-rivers-give-rise-to-debate-over-how-to-tackle-drought"
+        "source": "Euronews",
+        "corroborating": [
+          "The Hindu"
+        ],
+        "url": "http://www.euronews.com/2026/08/16/at-least-12-people-killed-in-a-polish-tourist-bus-crash-in-hungary"
       },
-      "group_size": 1,
-      "label": "📰 NEWS"
+      "group_size": 2,
+      "label": "🔄 UPDATE"
     }
   ]
 }
