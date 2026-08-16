@@ -167,9 +167,26 @@
       "label": "🔄 UPDATE",
       "scheduled_at": "2026-08-16T05:12:34+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "7ad80223312e348067a0fc47f4f0e48ec2cc1c3428374015cd4c16510d406380",
+      "event_id": "083de7c70d541d0ee6f663ec",
+      "item_id": "7ad80223312e348067a0fc47f4f0e48ec2cc1c3428374015cd4c16510d406380",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-08-16T06:18:16+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "cb2c58e133220cc710d2459648ad0df88183759396313983e4e13b2924336fc7",
+      "event_id": "3836db827a85416caceb458a",
+      "item_id": "cb2c58e133220cc710d2459648ad0df88183759396313983e4e13b2924336fc7",
+      "label": "📰 NEWS",
+      "message_id": 630,
+      "posted_at": "2026-08-16T06:16:37.000178+00:00",
+      "scheduled_at": "2026-08-16T06:15:45+00:00"
+    },
     {
       "story_id": "f25c7e51187f8b9d5d509ee73637a18e0955da940bcfa59c32cf1654fb059597",
       "event_id": "eb1c515fbe002eb010e68b00",
@@ -2628,24 +2645,15 @@
       "scheduled_at": "2026-08-14T01:43:08+00:00"
     },
     {
-      "story_id": "9d6d85891144e3ce3e0fa2986c0d1d62f664d4fb57dd94a06b204e4c2508c707",
-      "event_id": "d4aa0ac5d248b0dfc07f2e73",
-      "item_id": "9d6d85891144e3ce3e0fa2986c0d1d62f664d4fb57dd94a06b204e4c2508c707",
-      "label": "⚡ JUST IN",
-      "message_id": 356,
-      "posted_at": "2026-08-14T00:13:33.000113+00:00",
-      "scheduled_at": "2026-08-14T00:13:33+00:00"
-    },
-    {
-      "story_id": "3ae8f1310507d313fd0c3dfa09eae13bd5bcb078b17b1e87d0849a4dc370ddfc",
-      "event_id": "59fdde819e33ce8dbecd9ecc",
-      "item_id": "3ae8f1310507d313fd0c3dfa09eae13bd5bcb078b17b1e87d0849a4dc370ddfc",
-      "label": "⚡ JUST IN",
-      "message_id": 355,
-      "posted_at": "2026-08-14T00:12:32.000108+00:00",
-      "scheduled_at": "2026-08-14T00:12:32+00:00"
+      "story_id": "d17f751b4f4b314b888f4fccd559094e6420a6b4ae592f0407e0acfd993b131f",
+      "event_id": "2604d0532f8d4e13f21dd5c1",
+      "item_id": "d17f751b4f4b314b888f4fccd559094e6420a6b4ae592f0407e0acfd993b131f",
+      "label": "🔄 UPDATE",
+      "message_id": 631,
+      "posted_at": "2026-08-16T06:18:16.000165+00:00",
+      "scheduled_at": "2026-08-16T06:16:37+00:00"
     }
   ],
   "failures": [],
-  "last_posted_at": "2026-08-16T05:54:00.000126+00:00"
+  "last_posted_at": "2026-08-16T06:18:16.000165+00:00"
 }
