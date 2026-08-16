@@ -1,33 +1,38 @@
 {
-  "generated_at": "2026-08-16T19:01:10.321872+00:00",
+  "generated_at": "2026-08-16T19:08:46.287308+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "1917b0af732a7c47cb44f17e939296ebc97f07b1faf82fc2d16a721ddc23cb14",
-      "title": "How AI can be optimised for better healthcare",
-      "url": "https://www.thehindu.com/opinion/op-ed/how-ai-can-be-optimised-for-better-healthcare/article71353761.ece",
-      "source": "The Hindu",
+      "id": "7b5b7e6134a778f0dc1675420a78dbd22415101ad0ae41d6f1a6176ea5087704",
+      "title": "Andrei Klepach no longer VEB.RF chief economist — press service",
+      "url": "https://tass.com/economy/2173921",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "Healthcare does not need AI everywhere. It needs it where delays can be reduced, clinicians can make better-informed decisions, and more patients can receive appropriate care.",
-      "published_at": "2026-08-16T17:52:10+00:00",
-      "updated_at": "2026-08-16T17:52:10+00:00",
-      "effective_at": "2026-08-16T17:52:10+00:00",
+      "summary": "MOSCOW, August 16. Andrei Klepach is no longer Chief Economist at VEB.RF, his successor has already been nominated, the corporation’s press service told TASS. \"Andrei Klepach is no longer serving as chief economist at VEB.RF. His successor will soon be appointed. The candidate has already been selected,\" it said. Klepach took office of VEB.RF chief economist in 2014, combining it with the post of the corporation’s deputy chairman after vacating the office of a deputy economic development minister in charge of macroeconomic policies.",
+      "published_at": "2026-08-16T19:02:09+00:00",
+      "updated_at": "2026-08-16T19:02:09+00:00",
+      "effective_at": "2026-08-16T19:02:09+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "health",
-      "subsector": "health",
+      "sector": "geopolitics",
+      "subsector": "politics",
       "subregion": null,
       "country": null,
       "entities": [
-        "ai",
-        "healthcare"
+        "andrei",
+        "economist",
+        "klepach",
+        "rf",
+        "russia",
+        "tass",
+        "veb"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -36,19 +41,27 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "MOSCOW, August 16.",
+        "Andrei Klepach is no longer Chief Economist at VEB.RF, his successor has already been nominated, the corporation’s press service told TASS.",
+        "\"Andrei Klepach is no longer serving as chief economist at VEB.RF.",
+        "His successor will soon be appointed.",
+        "The candidate has already been selected,\" it said.",
+        "Klepach took office of VEB.RF chief economist in 2014, combining it with the post of the corporation’s deputy chairman after vacating the office of a deputy economic development minister in charge of macroeconomic policies."
+      ],
       "event_status": "NEW",
-      "event_id": "18b74ed2b101bbb4fecad17e",
-      "importance_score": 25.0,
+      "event_id": "35f2efe513a16f6cef9aee6a",
+      "importance_score": 30.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 6.0,
+        "urgency": 7.0,
         "novelty": 10,
         "scope": "LOCAL",
         "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -60,35 +73,54 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "geopolitical": 4
+        }
       },
-      "story_id": "1917b0af732a7c47cb44f17e939296ebc97f07b1faf82fc2d16a721ddc23cb14",
+      "story_id": "7b5b7e6134a778f0dc1675420a78dbd22415101ad0ae41d6f1a6176ea5087704",
       "public_label": "📰 NEWS",
-      "headline": "How AI can be optimised for better healthcare",
+      "headline": "Andrei Klepach no longer VEB.RF chief economist — press service",
       "briefing": {
         "opening": [
-          "Healthcare does not need AI everywhere.",
-          "It needs it where delays can be reduced, clinicians can make better-informed decisions, and more patients can receive appropriate care."
+          "MOSCOW, August 16.",
+          "Andrei Klepach is no longer Chief Economist at VEB.RF, his successor has already been nominated, the corporation’s press service told TASS."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "\"Andrei Klepach is no longer serving as chief economist at VEB.RF.",
+          "His successor will soon be appointed.",
+          "The candidate has already been selected,\" it said.",
+          "Klepach took office of VEB.RF chief economist in 2014, combining it with the post of the corporation’s deputy chairman after vacating the office of a deputy economic development minister in charge of macroeconomic policies."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "VEB"
+          }
+        ],
         "sentences": [
           {
-            "text": "Healthcare does not need AI everywhere.",
-            "source": "The Hindu",
-            "item_id": "1917b0af732a7c47cb44f17e939296ebc97f07b1faf82fc2d16a721ddc23cb14",
+            "text": "MOSCOW, August 16.",
+            "source": "TASS English",
+            "item_id": "7b5b7e6134a778f0dc1675420a78dbd22415101ad0ae41d6f1a6176ea5087704:article",
             "composed": false
           },
           {
-            "text": "It needs it where delays can be reduced, clinicians can make better-informed decisions, and more patients can receive appropriate care.",
-            "source": "The Hindu",
-            "item_id": "1917b0af732a7c47cb44f17e939296ebc97f07b1faf82fc2d16a721ddc23cb14",
+            "text": "Klepach took office of VEB.RF chief economist in 2014, combining it with the post of the corporation’s deputy chairman after vacating the office of a deputy economic development minister in charge of macroeconomic policies.",
+            "source": "TASS English",
+            "item_id": "7b5b7e6134a778f0dc1675420a78dbd22415101ad0ae41d6f1a6176ea5087704:article",
+            "composed": false
+          },
+          {
+            "text": "Andrei Klepach is no longer Chief Economist at VEB.RF, his successor has already been nominated, the corporation’s press service told TASS.",
+            "source": "TASS English",
+            "item_id": "7b5b7e6134a778f0dc1675420a78dbd22415101ad0ae41d6f1a6176ea5087704:article",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.thehindu.com/opinion/op-ed/how-ai-can-be-optimised-for-better-healthcare/article71353761.ece"
+        "url": "https://tass.com/economy/2173921"
       },
       "group_size": 1,
       "label": "📰 NEWS"
