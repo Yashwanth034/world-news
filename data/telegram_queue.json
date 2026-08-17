@@ -1,221 +1,325 @@
 {
-  "generated_at": "2026-08-17T09:20:43.141284+00:00",
-  "count": 3,
+  "generated_at": "2026-08-17T09:30:56.813172+00:00",
+  "count": 6,
   "stories": [
     {
-      "id": "787009d28727e29f9002db292ba3c0f57f8555414104adce653c246809e03daf",
-      "title": "Ukrainian missile attack on Russia’s Belgorod Region kills six, leaves four others injured",
-      "url": "https://tass.com/politics/2174061",
+      "id": "55cd6744d2c4951c3e67e8cfa934704bf785ad74b2f4d310c0de3a3e1b0102be",
+      "title": "DRC Ebola outbreak deadliest ever with one death every 30 minutes",
+      "url": "http://www.africanews.com/2026/08/17/drc-ebola-outbreak-deadliest-ever-with-one-death-every-30-minutes/",
+      "source": "Africanews English",
+      "source_category": "africa",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "The Ebola outbreak in the DR Congo is the deadliest ever, new data shows, with one person dying from the virus every thirty minutes. Government figures released on Monday show 2,325 deaths from almost 5,000 confirmed cases. The death toll exceeds that of a 2018 to 2020 outbreak in North Kivu that killed close to 2,300 people out of more than 3,300 confirmed cases. Despite ongoing efforts to trace people potentially exposed to Ebola, health workers are failing to keep pace with the virus. Up to 70 percent of new cases are being detected among people not already being monitored as contacts. The gap means those patients may have already exposed others to the disease. The race to contain the spread of the virus is hampered by fighting in Ituri province, at the epicentre of the outbreak. Frequent population movements and hard to reach areas make some communities inaccessible to surveillance teams. On Friday the United Nations announced an additional $30 million in emergency funding to help tackle the outbreak.",
+      "published_at": "2026-08-17T09:16:50+00:00",
+      "updated_at": "2026-08-17T09:16:50+00:00",
+      "effective_at": "2026-08-17T09:16:50+00:00",
+      "language_status": "ENGLISH",
+      "category": "health",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "outbreaks",
+      "subregion": "Central Africa",
+      "country": null,
+      "entities": [
+        "congo",
+        "dr",
+        "drc",
+        "ebola",
+        "ituri",
+        "kivu",
+        "nations",
+        "north",
+        "united"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 80,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "The Ebola outbreak in the DR Congo is the deadliest ever, new data shows, with one person dying from the virus every thirty minutes.",
+        "Government figures released on Monday show 2,325 deaths from almost 5,000 confirmed cases.",
+        "The death toll exceeds that of a 2018 to 2020 outbreak in North Kivu that killed close to 2,300 people out of more than 3,300 confirmed cases.",
+        "Despite ongoing efforts to trace people potentially exposed to Ebola, health workers are failing to keep pace with the virus.",
+        "Up to 70 percent of new cases are being detected among people not already being monitored as contacts.",
+        "The gap means those patients may have already exposed others to the disease.",
+        "The race to contain the spread of the virus is hampered by fighting in Ituri province, at the epicentre of the outbreak.",
+        "Frequent population movements and hard to reach areas make some communities inaccessible to surveillance teams.",
+        "On Friday the United Nations announced an additional $30 million in emergency funding to help tackle the outbreak."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "f1129d524268d348df9e70c1",
+      "importance_score": 89.0,
+      "importance_level": "CRITICAL",
+      "importance_breakdown": {
+        "impact": 32,
+        "urgency": 10,
+        "novelty": 9.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 24,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 5000,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 12,
+          "scientific": 8,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "55cd6744d2c4951c3e67e8cfa934704bf785ad74b2f4d310c0de3a3e1b0102be",
+      "public_label": "🔄 UPDATE",
+      "headline": "DRC Ebola outbreak deadliest ever with one death every 30 minutes",
+      "briefing": {
+        "opening": [
+          "The Ebola outbreak in the DR Congo is the deadliest ever, new data shows, with one person dying from the virus every thirty minutes.",
+          "Government figures released on Monday show 2,325 deaths from almost 5,000 confirmed cases."
+        ],
+        "body": [
+          "The death toll exceeds that of a 2018 to 2020 outbreak in North Kivu that killed close to 2,300 people out of more than 3,300 confirmed cases.",
+          "Despite ongoing efforts to trace people potentially exposed to Ebola, health workers are failing to keep pace with the virus.",
+          "Up to 70 percent of new cases are being detected among people not already being monitored as contacts.",
+          "The gap means those patients may have already exposed others to the disease.",
+          "The race to contain the spread of the virus is hampered by fighting in Ituri province, at the epicentre of the outbreak.",
+          "Frequent population movements and hard to reach areas make some communities inaccessible to surveillance teams.",
+          "On Friday the United Nations announced an additional $30 million in emergency funding to help tackle the outbreak."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "North Kivu"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "2,300 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The death toll exceeds that of a 2018 to 2020 outbreak in North Kivu that killed close to 2,300 people out of more than 3,300 confirmed cases.",
+            "source": "Africanews English",
+            "item_id": "55cd6744d2c4951c3e67e8cfa934704bf785ad74b2f4d310c0de3a3e1b0102be:article",
+            "composed": false
+          },
+          {
+            "text": "Government figures released on Monday show 2,325 deaths from almost 5,000 confirmed cases.",
+            "source": "Africanews English",
+            "item_id": "55cd6744d2c4951c3e67e8cfa934704bf785ad74b2f4d310c0de3a3e1b0102be:article",
+            "composed": false
+          },
+          {
+            "text": "On Friday the United Nations announced an additional $30 million in emergency funding to help tackle the outbreak.",
+            "source": "Africanews English",
+            "item_id": "55cd6744d2c4951c3e67e8cfa934704bf785ad74b2f4d310c0de3a3e1b0102be:article",
+            "composed": false
+          },
+          {
+            "text": "The race to contain the spread of the virus is hampered by fighting in Ituri province, at the epicentre of the outbreak.",
+            "source": "Africanews English",
+            "item_id": "55cd6744d2c4951c3e67e8cfa934704bf785ad74b2f4d310c0de3a3e1b0102be:article",
+            "composed": false
+          }
+        ],
+        "source": "Africanews English",
+        "corroborating": [],
+        "url": "http://www.africanews.com/2026/08/17/drc-ebola-outbreak-deadliest-ever-with-one-death-every-30-minutes/"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "ee2f5bbe56f13f01d493c89cc7366b6871ff346a096f5a7e66a0ec9f5c876d42",
+      "title": "US senator condemns Ben Gvir’s call to 'kill 30 or 40 people in Gaza every night'",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-senator-condemns-ben-gvirs-calls-killings-gaza",
+      "source": "Middle East Eye",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "US senator condemns Ben Gvir’s call to 'kill 30 or 40 people in Gaza every night' US Senator Jacky Rosen has called for Israeli national security minister Itamar Ben Gvir to resign after comments in which he said Israeli forces should kill “30 or 40” people in Gaza every night. In a post on X, the Democratic senator described the remarks as “horrific and completely indefensible”. “Anyone advocating for acts of violence against innocent civilians should not be in an official government position,” Rosen said. “I believe Ben Gvir must resign,” she added, urging Prime Minister Benjamin Netanyahu to denounce the comments and “reaffirm to the world that this is not the government’s position.” Thes",
+      "published_at": "2026-08-17T09:22:14+00:00",
+      "updated_at": "2026-08-17T09:22:14+00:00",
+      "effective_at": "2026-08-17T09:22:14+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "ben",
+        "benjamin",
+        "democratic",
+        "gaza",
+        "gvir",
+        "israel",
+        "itamar",
+        "jacky",
+        "netanyahu",
+        "rosen",
+        "thes",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "d72722d3085c75d4d2118ead",
+      "importance_score": 56.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 40,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "ee2f5bbe56f13f01d493c89cc7366b6871ff346a096f5a7e66a0ec9f5c876d42",
+      "public_label": "📰 NEWS",
+      "headline": "US senator condemns Ben Gvir’s call to 'kill 30 or 40 people in Gaza every night'",
+      "briefing": {
+        "opening": [
+          "US senator condemns Ben Gvir’s call to 'kill 30 or 40 people in Gaza every night' US Senator Jacky Rosen has called for Israeli national security minister Itamar Ben Gvir to resign after comments in which he said Israeli forces should kill “30 or 40” people in Gaza every night.",
+          "In a post on X, the Democratic senator described the remarks as “horrific and completely indefensible”."
+        ],
+        "body": [
+          "“Anyone advocating for acts of violence against innocent civilians should not be in an official government position,” Rosen said.",
+          "“I believe Ben Gvir must resign,” she added, urging Prime Minister Benjamin Netanyahu to denounce the comments and “reaffirm to the world that this is not the government’s position.” Thes."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Gaza"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "40 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "US senator condemns Ben Gvir’s call to 'kill 30 or 40 people in Gaza every night' US Senator Jacky Rosen has called for Israeli national security minister Itamar Ben Gvir to resign after comments in which he said Israeli forces should kill “30 or 40” people in Gaza every night.",
+            "source": "Middle East Eye",
+            "item_id": "ee2f5bbe56f13f01d493c89cc7366b6871ff346a096f5a7e66a0ec9f5c876d42",
+            "composed": false
+          },
+          {
+            "text": "In a post on X, the Democratic senator described the remarks as “horrific and completely indefensible”.",
+            "source": "Middle East Eye",
+            "item_id": "ee2f5bbe56f13f01d493c89cc7366b6871ff346a096f5a7e66a0ec9f5c876d42",
+            "composed": false
+          },
+          {
+            "text": "“I believe Ben Gvir must resign,” she added, urging Prime Minister Benjamin Netanyahu to denounce the comments and “reaffirm to the world that this is not the government’s position.”",
+            "source": "Middle East Eye",
+            "item_id": "ee2f5bbe56f13f01d493c89cc7366b6871ff346a096f5a7e66a0ec9f5c876d42",
+            "composed": false
+          }
+        ],
+        "source": "Middle East Eye",
+        "corroborating": [],
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-senator-condemns-ben-gvirs-calls-killings-gaza"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "fc56805299dcfe66ad13d24a11ad123cfbf6caff94171056808bfd2e0c2c9a5a",
+      "title": "EU’s chief diplomat says bloc will unveil `largest sanctions ever’ on Russia in fall",
+      "url": "https://tass.com/world/2174075",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "A building was destroyed by fire and a car was damaged at the scene",
-      "published_at": "2026-08-17T09:13:19+00:00",
-      "updated_at": "2026-08-17T09:13:19+00:00",
-      "effective_at": "2026-08-17T09:13:19+00:00",
+      "summary": "Kaja Kallas expressed hope that the EU and US positions on sanctions against Russia would converge",
+      "published_at": "2026-08-17T09:21:29+00:00",
+      "updated_at": "2026-08-17T09:21:29+00:00",
+      "effective_at": "2026-08-17T09:21:29+00:00",
       "language_status": "ENGLISH",
-      "category": "conflict",
-      "score": 68,
-      "confidence": "medium",
-      "urgency_terms": [
-        "missile"
-      ],
-      "sector": "geopolitics",
-      "subsector": "conflict",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "belgorod",
-        "region",
-        "russia",
-        "ukraine"
-      ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 1,
-      "corroborating_source_names": [
-        "Al Jazeera"
-      ],
-      "verified_match_count": 1,
-      "priority_score": 100,
-      "priority_level": "URGENT",
-      "max_delay_minutes": 15,
-      "event_status": "UPDATE",
-      "event_id": "af4f1dca4dec579202493db0",
-      "importance_score": 67.0,
-      "importance_level": "MEDIUM",
-      "importance_breakdown": {
-        "impact": 8,
-        "urgency": 9.0,
-        "novelty": 9.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 6,
-        "significance": 24,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": true
-        },
-        "significance_dims": {
-          "security": 8,
-          "geopolitical": 8,
-          "human": 4,
-          "infrastructure": 4
-        }
-      },
-      "story_id": "787009d28727e29f9002db292ba3c0f57f8555414104adce653c246809e03daf",
-      "article_sentences": [
-        "BELGOROD, August 17.",
-        "The Ukrainian armed forces launched a missile strike on the village of Koloskovo in the Belgorod Region, killing six civilians and injuring four others, acting Governor Alexander Shuvayev wrote on Max channel.",
-        "TASS has compiled key details about the missile attack.",
-        "Ukrainian troops carried out a missile attack on the village of Koloskovo in the bordering Russian region of Belgorod.",
-        "A building was destroyed by fire and a car was damaged at the scene.",
-        "Similar crimes by Ukrainian armed formations have been systematic, accompanied by demonstrative cruelty, Russian Investigative Committee Spokeswoman Svetlana Petrenko emphasized.",
-        "Six civilians were killed in the attack, Shuvayev said.",
-        "Another four people, including a 14-year-old child, were injured, the acting governor specified.",
-        "Of those injured, two, including the teenager, have been hospitalized.",
-        "All injured people are being provided with necessary assistance.",
-        "Prosecutors in the Belgorod Region have put human rights violations under scrutiny in the wake of the Ukrainian missile attack on the Valuiki municipality, the regional prosecutor’s office said.",
-        "A criminal case over the terrorist attack has been launched, Petrenko said."
-      ],
-      "public_label": "🔄 UPDATE",
-      "headline": "Ukrainian missile attack on Russia’s Belgorod Region kills six, leaves four others injured",
-      "briefing": {
-        "opening": [
-          "BELGOROD, August 17.",
-          "The Ukrainian armed forces launched a missile strike on the village of Koloskovo in the Belgorod Region, killing six civilians and injuring four others, acting Governor Alexander Shuvayev wrote on Max channel."
-        ],
-        "body": [
-          "TASS has compiled key details about the missile attack.",
-          "Ukrainian troops carried out a missile attack on the village of Koloskovo in the bordering Russian region of Belgorod.",
-          "A building was destroyed by fire and a car was damaged at the scene.",
-          "Similar crimes by Ukrainian armed formations have been systematic, accompanied by demonstrative cruelty, Russian Investigative Committee Spokeswoman Svetlana Petrenko emphasized.",
-          "Six civilians were killed in the attack, Shuvayev said.",
-          "Another four people, including a 14-year-old child, were injured, the acting governor specified.",
-          "Of those injured, two, including the teenager, have been hospitalized.",
-          "All injured people are being provided with necessary assistance."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Ukrainian armed forces launched a missile strike on the village of Koloskovo in the Belgorod Region, killing six civilians and injuring four others, acting Governor Alexander Shuvayev wrote on Max channel.",
-            "source": "TASS English",
-            "item_id": "787009d28727e29f9002db292ba3c0f57f8555414104adce653c246809e03daf:article",
-            "composed": false
-          },
-          {
-            "text": "Ukrainian troops carried out a missile attack on the village of Koloskovo in the bordering Russian region of Belgorod.",
-            "source": "TASS English",
-            "item_id": "787009d28727e29f9002db292ba3c0f57f8555414104adce653c246809e03daf:article",
-            "composed": false
-          },
-          {
-            "text": "BELGOROD, August 17.",
-            "source": "TASS English",
-            "item_id": "787009d28727e29f9002db292ba3c0f57f8555414104adce653c246809e03daf:article",
-            "composed": false
-          },
-          {
-            "text": "Another four people, including a 14-year-old child, were injured, the acting governor specified.",
-            "source": "TASS English",
-            "item_id": "787009d28727e29f9002db292ba3c0f57f8555414104adce653c246809e03daf:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/politics/2174061"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "6760bac43d3e2c3f1f7d98b893c30bc28e38f1d3123788aab963df24266a1a66",
-      "title": "Photos: Rising energy prices disrupt education on Cambodia’s Tonle Sap lake",
-      "url": "https://www.aljazeera.com/gallery/2026/8/17/photos-rising-energy-prices-disrupt-education-on-cambodias-tonle-sap-lake?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Children on Tonle Sap sacrifice education, with many working to help their families cover increasing fuel costs. Every morning on Cambodia’s Tonle Sap lake, a small gas-powered boat weaves between floating homes, collecting children in crisp uniforms who balance carefully as they board. Among them is 13-year-old Sou Sreynich, who started school at 10 because her mother feared the journey across the vast freshwater lake was too dangerous. Now, soaring fuel prices driven by the US-Israel war on Iran are making that trip – and her education – even more precarious. For families already on the edge, the conflict’s impact is less visible than COVID-19 school closures, but it is hitting the poorest first and hardest. Higher fuel costs are making it more expensive for children and teachers to reach school and for governments to fund education as budgets are squeezed. On Tonle Sap, where most families survive on fishing and occasional casual work, everything already costs more because supplies must arrive by boat. Rising fuel prices mean Sreynich’s parents cannot always afford to travel to deeper, more plentiful fishing grounds. When money runs out, she skips school to gut fish or pick chilli peppers for extra income – absences she dreads. The pressures extend far beyond Cambodia. A recent UNICEF report warns that if the war continues, up to 23.4 million more children could be pushed into poverty by the end of the year, about 80 percent of them in Africa and Asia. In Vietnam, two sisters, Ly, 16, and Nhi, 13, dropped out of school to work long hours in a Hanoi restaurant after their fisherman father lost his job when diesel became too expensive.",
-      "published_at": "2026-08-17T09:01:52+00:00",
-      "updated_at": "2026-08-17T09:01:52+00:00",
-      "effective_at": "2026-08-17T09:01:52+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
+      "category": "finance",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "energy",
-      "subregion": "Southeast Asia",
+      "sector": "economy",
+      "subsector": "trade",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "africa",
-        "asia",
-        "cambodia",
-        "children",
-        "covid-19",
-        "hanoi",
-        "iran",
-        "ly",
-        "nhi",
-        "photos",
-        "rising",
-        "sap",
-        "sou",
-        "sreynich",
-        "tonle",
-        "unicef",
-        "us-israel",
-        "vietnam"
+        "eu",
+        "kaja",
+        "kallas",
+        "russia",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 75,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "Children on Tonle Sap sacrifice education, with many working to help their families cover increasing fuel costs.",
-        "Every morning on Cambodia’s Tonle Sap lake, a small gas-powered boat weaves between floating homes, collecting children in crisp uniforms who balance carefully as they board.",
-        "Among them is 13-year-old Sou Sreynich, who started school at 10 because her mother feared the journey across the vast freshwater lake was too dangerous.",
-        "Now, soaring fuel prices driven by the US-Israel war on Iran are making that trip – and her education – even more precarious.",
-        "For families already on the edge, the conflict’s impact is less visible than COVID-19 school closures, but it is hitting the poorest first and hardest.",
-        "Higher fuel costs are making it more expensive for children and teachers to reach school and for governments to fund education as budgets are squeezed.",
-        "On Tonle Sap, where most families survive on fishing and occasional casual work, everything already costs more because supplies must arrive by boat.",
-        "Rising fuel prices mean Sreynich’s parents cannot always afford to travel to deeper, more plentiful fishing grounds.",
-        "When money runs out, she skips school to gut fish or pick chilli peppers for extra income – absences she dreads.",
-        "The pressures extend far beyond Cambodia.",
-        "A recent UNICEF report warns that if the war continues, up to 23.4 million more children could be pushed into poverty by the end of the year, about 80 percent of them in Africa and Asia.",
-        "In Vietnam, two sisters, Ly, 16, and Nhi, 13, dropped out of school to work long hours in a Hanoi restaurant after their fisherman father lost his job when diesel became too expensive."
-      ],
       "event_status": "NEW",
-      "event_id": "f7057b099afa80497408e1ca",
-      "importance_score": 47.0,
+      "event_id": "a4d10264788124fd0e6001ac",
+      "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 10,
+        "urgency": 7.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 16,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -228,149 +332,135 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 8,
           "geopolitical": 8
         }
       },
-      "story_id": "6760bac43d3e2c3f1f7d98b893c30bc28e38f1d3123788aab963df24266a1a66",
+      "story_id": "fc56805299dcfe66ad13d24a11ad123cfbf6caff94171056808bfd2e0c2c9a5a",
+      "article_sentences": [
+        "BERLIN, August 17.",
+        "EU foreign policy chief Kaja Kallas said the bloc plans to introduce what she called the largest package of anti-Russian sanctions ever next fall.",
+        "\"In the fall, I will present the largest sanctions list since the war began.",
+        "If it is approved, the number of sanctioned individuals, companies and organizations will grow by one-third at once,\" Kallas told Die Welt in an interview.",
+        "She also expressed hope that the EU and US positions on sanctions against Russia will converge as she referred to a recent move by the US Senate to approve the Sanctioning Russia Act championed by the late Senator Lindsey Graham.",
+        "The European Union approved the 21st sanctions package against Russia in July.",
+        "Since the EU adopted the latest measure, it has added more Russian individuals and legal entities to its sanctions list, bringing the cumulative number to 3,100, or a record in the bloc’s sanctions policy in absolute terms."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "Photos: Rising energy prices disrupt education on Cambodia’s Tonle Sap lake",
+      "headline": "EU’s chief diplomat says bloc will unveil `largest sanctions ever’ on Russia in fall",
       "briefing": {
         "opening": [
-          "Children on Tonle Sap sacrifice education, with many working to help their families cover increasing fuel costs.",
-          "Every morning on Cambodia’s Tonle Sap lake, a small gas-powered boat weaves between floating homes, collecting children in crisp uniforms who balance carefully as they board."
+          "BERLIN, August 17.",
+          "EU foreign policy chief Kaja Kallas said the bloc plans to introduce what she called the largest package of anti-Russian sanctions ever next fall."
         ],
         "body": [
-          "Among them is 13-year-old Sou Sreynich, who started school at 10 because her mother feared the journey across the vast freshwater lake was too dangerous.",
-          "Now, soaring fuel prices driven by the US-Israel war on Iran are making that trip – and her education – even more precarious.",
-          "For families already on the edge, the conflict’s impact is less visible than COVID-19 school closures, but it is hitting the poorest first and hardest.",
-          "Higher fuel costs are making it more expensive for children and teachers to reach school and for governments to fund education as budgets are squeezed.",
-          "On Tonle Sap, where most families survive on fishing and occasional casual work, everything already costs more because supplies must arrive by boat.",
-          "Rising fuel prices mean Sreynich’s parents cannot always afford to travel to deeper, more plentiful fishing grounds.",
-          "When money runs out, she skips school to gut fish or pick chilli peppers for extra income – absences she dreads.",
-          "The pressures extend far beyond Cambodia."
+          "\"In the fall, I will present the largest sanctions list since the war began.",
+          "If it is approved, the number of sanctioned individuals, companies and organizations will grow by one-third at once,\" Kallas told Die Welt in an interview.",
+          "She also expressed hope that the EU and US positions on sanctions against Russia will converge as she referred to a recent move by the US Senate to approve the Sanctioning Russia Act championed by the late Senator Lindsey Graham.",
+          "The European Union approved the 21st sanctions package against Russia in July.",
+          "Since the EU adopted the latest measure, it has added more Russian individuals and legal entities to its sanctions list, bringing the cumulative number to 3,100, or a record in the bloc’s sanctions policy in absolute terms.",
+          "Kaja Kallas expressed hope that the EU and US positions on sanctions against Russia would converge."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "July"
+          }
+        ],
         "sentences": [
           {
-            "text": "Children on Tonle Sap sacrifice education, with many working to help their families cover increasing fuel costs.",
-            "source": "Al Jazeera",
-            "item_id": "6760bac43d3e2c3f1f7d98b893c30bc28e38f1d3123788aab963df24266a1a66:article",
+            "text": "EU foreign policy chief Kaja Kallas said the bloc plans to introduce what she called the largest package of anti-Russian sanctions ever next fall.",
+            "source": "TASS English",
+            "item_id": "fc56805299dcfe66ad13d24a11ad123cfbf6caff94171056808bfd2e0c2c9a5a:article",
             "composed": false
           },
           {
-            "text": "Every morning on Cambodia’s Tonle Sap lake, a small gas-powered boat weaves between floating homes, collecting children in crisp uniforms who balance carefully as they board.",
-            "source": "Al Jazeera",
-            "item_id": "6760bac43d3e2c3f1f7d98b893c30bc28e38f1d3123788aab963df24266a1a66:article",
+            "text": "The European Union approved the 21st sanctions package against Russia in July.",
+            "source": "TASS English",
+            "item_id": "fc56805299dcfe66ad13d24a11ad123cfbf6caff94171056808bfd2e0c2c9a5a:article",
             "composed": false
           },
           {
-            "text": "Among them is 13-year-old Sou Sreynich, who started school at 10 because her mother feared the journey across the vast freshwater lake was too dangerous.",
-            "source": "Al Jazeera",
-            "item_id": "6760bac43d3e2c3f1f7d98b893c30bc28e38f1d3123788aab963df24266a1a66:article",
+            "text": "BERLIN, August 17.",
+            "source": "TASS English",
+            "item_id": "fc56805299dcfe66ad13d24a11ad123cfbf6caff94171056808bfd2e0c2c9a5a:article",
             "composed": false
           },
           {
-            "text": "For families already on the edge, the conflict’s impact is less visible than COVID-19 school closures, but it is hitting the poorest first and hardest.",
-            "source": "Al Jazeera",
-            "item_id": "6760bac43d3e2c3f1f7d98b893c30bc28e38f1d3123788aab963df24266a1a66:article",
+            "text": "Since the EU adopted the latest measure, it has added more Russian individuals and legal entities to its sanctions list, bringing the cumulative number to 3,100, or a record in the bloc’s sanctions policy in absolute terms.",
+            "source": "TASS English",
+            "item_id": "fc56805299dcfe66ad13d24a11ad123cfbf6caff94171056808bfd2e0c2c9a5a:article",
             "composed": false
           }
         ],
-        "source": "Al Jazeera",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.aljazeera.com/gallery/2026/8/17/photos-rising-energy-prices-disrupt-education-on-cambodias-tonle-sap-lake?traffic_source=rss"
+        "url": "https://tass.com/world/2174075"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "8d80c695a8025b76b9ba464200d0240b678814f526c395bd01cff8192624c2b9",
-      "title": "Will India’s ‘Cockroach’ movement force Modi’s BJP to rethink its politics?",
-      "url": "https://www.aljazeera.com/news/2026/8/17/has-indias-cockroach-movement-forced-modis-bjp-to-recalibrate-agenda?traffic_source=rss",
-      "source": "Al Jazeera",
+      "id": "44df7478b646a22185b9d76532dc95ca63575ce321f542affee83824b2ecfcf5",
+      "title": "Virgin Trains gets go ahead to run services to Europe in new blow to Eurostar monopoly",
+      "url": "https://www.theguardian.com/business/2026/aug/17/virgin-trains-services-to-europe-eurostar",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "Modi’s BJP once controlled media narratives in India, but this might be changing with the ‘Cockroach’ movement’s ascendency. New Delhi, India – On the night of August 4, in a counting hall in the eastern Indian city of Patna, some 1,000km (620 miles) from the national capital, Prime Minister Narendra Modi’s Bharatiya Janata Party (BJP) suffered one of its most stunning political setbacks in 12 years. Bankipur, a constituency in the legislature of the state of Bihar, had been held by the BJP for three decades. But the fledgling Jan Suraaj Party, led by political strategist-turned-politician Prashant Kishor, ended that reign, winning a seat that the BJP’s national president, Nitin Nabin, had held until just a few months earlier. The defeat came less than two weeks after India’s Education Minister Dharmendra Pradhan resigned, bowing to seven weeks of student-led protests that had shaken New Delhi and spread to several cities. The Cockroach Janta Party (CJP), a satirical outfit born on Instagram in May after India’s chief justice, Surya Kant, compared unemployed young Indians with “cockroaches” and “parasites”, had led those protests. Nabin, the BJP chief, had spent the Bankipur campaign denouncing the country’s Gen Z protesters as “a virus and a cockroach gang devoted to breaking the country”. Instead, it was the BJP’s stranglehold over the constituency that was broken. That surprise electoral verdict has thrust upon India a broader question, say analysts: Will India’s most formidable political machine — the BJP — be forced to change? The clearest sign that the BJP treats the Gen Z uprising as more than a passing nuisance is the sheer awkwardness of the party’s response. During the peak of the protests, Modi released a string of selfie-style videos on Instagram addressing the exam paper leaks that led to the protests. He reportedly told cabinet colleagues that young people were “just on Instagram”, urging ministers to court them on the platform with reels rather than media briefings.",
-      "published_at": "2026-08-17T09:03:57+00:00",
-      "updated_at": "2026-08-17T09:03:57+00:00",
-      "effective_at": "2026-08-17T09:03:57+00:00",
+      "summary": "Operator wins track access approval for up to 20 daily return trains through tunnel to Paris, Brussels and Amsterdam in 2030 Virgin Trains has been granted track access by the rail regulator to run new services between London and Paris, Brussels and Amsterdam in 2030, in a step forward for its plans to break’s Eurostar’s passenger monopoly on the cross-Channel route. The Office of Rail and Road (ORR) said it had granted approval for Sir Richard Branson’s company to run up to 20 new daily return services through the Channel tunnel. Continue reading...",
+      "published_at": "2026-08-17T09:15:03+00:00",
+      "updated_at": "2026-08-17T09:15:03+00:00",
+      "effective_at": "2026-08-17T09:15:03+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "South Asia",
+      "sector": "transport",
+      "subsector": "rail",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "bankipur",
-        "bharatiya",
-        "bihar",
-        "bjp",
-        "cjp",
-        "cockroach",
-        "delhi",
-        "dharmendra",
-        "education",
-        "gen",
-        "india",
-        "indian",
-        "indians",
-        "instagram",
-        "jan",
-        "janata",
-        "janta",
-        "kant",
-        "kishor",
-        "modi",
-        "nabin",
-        "narendra",
-        "nitin",
-        "party",
-        "patna",
-        "pradhan",
-        "prashant",
-        "suraaj",
-        "surya"
+        "amsterdam",
+        "branson",
+        "brussels",
+        "channel",
+        "europe",
+        "eurostar",
+        "france",
+        "office",
+        "operator",
+        "orr",
+        "rail",
+        "richard",
+        "road",
+        "sir",
+        "trains",
+        "uk",
+        "virgin"
       ],
-      "corroborating_sources": 1,
+      "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
-      "verified_match_count": 1,
-      "priority_score": 60,
+      "verified_match_count": 0,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "Modi’s BJP once controlled media narratives in India, but this might be changing with the ‘Cockroach’ movement’s ascendency.",
-        "New Delhi, India – On the night of August 4, in a counting hall in the eastern Indian city of Patna, some 1,000km (620 miles) from the national capital, Prime Minister Narendra Modi’s Bharatiya Janata Party (BJP) suffered one of its most stunning political setbacks in 12 years.",
-        "Bankipur, a constituency in the legislature of the state of Bihar, had been held by the BJP for three decades.",
-        "But the fledgling Jan Suraaj Party, led by political strategist-turned-politician Prashant Kishor, ended that reign, winning a seat that the BJP’s national president, Nitin Nabin, had held until just a few months earlier.",
-        "The defeat came less than two weeks after India’s Education Minister Dharmendra Pradhan resigned, bowing to seven weeks of student-led protests that had shaken New Delhi and spread to several cities.",
-        "The Cockroach Janta Party (CJP), a satirical outfit born on Instagram in May after India’s chief justice, Surya Kant, compared unemployed young Indians with “cockroaches” and “parasites”, had led those protests.",
-        "Nabin, the BJP chief, had spent the Bankipur campaign denouncing the country’s Gen Z protesters as “a virus and a cockroach gang devoted to breaking the country”.",
-        "Instead, it was the BJP’s stranglehold over the constituency that was broken.",
-        "That surprise electoral verdict has thrust upon India a broader question, say analysts: Will India’s most formidable political machine — the BJP — be forced to change?",
-        "The clearest sign that the BJP treats the Gen Z uprising as more than a passing nuisance is the sheer awkwardness of the party’s response.",
-        "During the peak of the protests, Modi released a string of selfie-style videos on Instagram addressing the exam paper leaks that led to the protests.",
-        "He reportedly told cabinet colleagues that young people were “just on Instagram”, urging ministers to court them on the platform with reels rather than media briefings."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "ae3aac1d8c879db8bbe21219",
-      "importance_score": 37.0,
+      "event_status": "NEW",
+      "event_id": "876b9e1d6bb2a87a77eb1efa",
+      "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 10,
-        "novelty": 9.0,
+        "urgency": 7.0,
+        "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 3,
+        "corroboration": 0,
         "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
@@ -384,66 +474,276 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4
+          "infrastructure": 4
         }
       },
-      "story_id": "8d80c695a8025b76b9ba464200d0240b678814f526c395bd01cff8192624c2b9",
-      "public_label": "🔄 UPDATE",
-      "headline": "Will India’s ‘Cockroach’ movement force Modi’s BJP to rethink its politics?",
+      "story_id": "44df7478b646a22185b9d76532dc95ca63575ce321f542affee83824b2ecfcf5",
+      "public_label": "📰 NEWS",
+      "headline": "Virgin Trains gets go ahead to run services to Europe in new blow to Eurostar monopoly",
       "briefing": {
         "opening": [
-          "Modi’s BJP once controlled media narratives in India, but this might be changing with the ‘Cockroach’ movement’s ascendency.",
-          "New Delhi, India – On the night of August 4, in a counting hall in the eastern Indian city of Patna, some 1,000km (620 miles) from the national capital, Prime Minister Narendra Modi’s Bharatiya Janata Party (BJP) suffered one of its most stunning political setbacks in 12 years."
+          "Operator wins track access approval for up to 20 daily return trains through tunnel to Paris, Brussels and Amsterdam in 2030.",
+          "Virgin Trains has been granted track access by the rail regulator to run new services between London and Paris, Brussels and Amsterdam in 2030, in a step forward for its plans to break’s Eurostar’s passenger monopoly on the cross-Channel route."
         ],
         "body": [
-          "Bankipur, a constituency in the legislature of the state of Bihar, had been held by the BJP for three decades.",
-          "But the fledgling Jan Suraaj Party, led by political strategist-turned-politician Prashant Kishor, ended that reign, winning a seat that the BJP’s national president, Nitin Nabin, had held until just a few months earlier.",
-          "The defeat came less than two weeks after India’s Education Minister Dharmendra Pradhan resigned, bowing to seven weeks of student-led protests that had shaken New Delhi and spread to several cities.",
-          "The Cockroach Janta Party (CJP), a satirical outfit born on Instagram in May after India’s chief justice, Surya Kant, compared unemployed young Indians with “cockroaches” and “parasites”, had led those protests.",
-          "Nabin, the BJP chief, had spent the Bankipur campaign denouncing the country’s Gen Z protesters as “a virus and a cockroach gang devoted to breaking the country”.",
-          "Instead, it was the BJP’s stranglehold over the constituency that was broken.",
-          "That surprise electoral verdict has thrust upon India a broader question, say analysts: Will India’s most formidable political machine — the BJP — be forced to change?",
-          "The clearest sign that the BJP treats the Gen Z uprising as more than a passing nuisance is the sheer awkwardness of the party’s response."
+          "The Office of Rail and Road (ORR) said it had granted approval for Sir Richard Branson’s company to run up to 20 new daily return services through the Channel tunnel."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "India"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Bankipur, a constituency in the legislature of the state of Bihar, had been held by the BJP for three decades.",
-            "source": "Al Jazeera",
-            "item_id": "8d80c695a8025b76b9ba464200d0240b678814f526c395bd01cff8192624c2b9:article",
+            "text": "Virgin Trains has been granted track access by the rail regulator to run new services between London and Paris, Brussels and Amsterdam in 2030, in a step forward for its plans to break’s Eurostar’s passenger monopoly on the cross-Channel route.",
+            "source": "The Guardian World",
+            "item_id": "44df7478b646a22185b9d76532dc95ca63575ce321f542affee83824b2ecfcf5",
             "composed": false
           },
           {
-            "text": "New Delhi, India – On the night of August 4, in a counting hall in the eastern Indian city of Patna, some 1,000km (620 miles) from the national capital, Prime Minister Narendra Modi’s Bharatiya Janata Party (BJP) suffered one of its most stunning political setbacks in 12 years.",
-            "source": "Al Jazeera",
-            "item_id": "8d80c695a8025b76b9ba464200d0240b678814f526c395bd01cff8192624c2b9:article",
-            "composed": false
-          },
-          {
-            "text": "The Cockroach Janta Party (CJP), a satirical outfit born on Instagram in May after India’s chief justice, Surya Kant, compared unemployed young Indians with “cockroaches” and “parasites”, had led those protests.",
-            "source": "Al Jazeera",
-            "item_id": "8d80c695a8025b76b9ba464200d0240b678814f526c395bd01cff8192624c2b9:article",
-            "composed": false
-          },
-          {
-            "text": "Modi’s BJP once controlled media narratives in India, but this might be changing with the ‘Cockroach’ movement’s ascendency.",
-            "source": "Al Jazeera",
-            "item_id": "8d80c695a8025b76b9ba464200d0240b678814f526c395bd01cff8192624c2b9:article",
+            "text": "The Office of Rail and Road (ORR) said it had granted approval for Sir Richard Branson’s company to run up to 20 new daily return services through the Channel tunnel.",
+            "source": "The Guardian World",
+            "item_id": "44df7478b646a22185b9d76532dc95ca63575ce321f542affee83824b2ecfcf5",
             "composed": false
           }
         ],
-        "source": "Al Jazeera",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://www.aljazeera.com/news/2026/8/17/has-indias-cockroach-movement-forced-modis-bjp-to-recalibrate-agenda?traffic_source=rss"
+        "url": "https://www.theguardian.com/business/2026/aug/17/virgin-trains-services-to-europe-eurostar"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "8759bfb1924f96328c7cf818e1dd56b5ee8df81ddc10ab97feedbb4d7a0ed14e",
+      "title": "Movie that went viral for terrible animation becomes China box office hit",
+      "url": "https://www.bbc.co.uk/news/articles/c4g4r0mrmlpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "It's so bad, it's become a box office hit. Niu Lai, a low-budget animation film about a cow in a dream sequence has seen a huge jump in ticket sales after going viral for its confusing plot and terrible graphics. It grossed just 7,705 yuan ($1,140; £843) in the first 10 days after its release, but has now made more than 11.4 million yuan, according to movie tracking site Mao Yan. That means it is holding ground against Hollywood blockbusters like. The Odyssey and Spider Man: Brand New Day. \"You may regret for 80 minutes if you watch it, but if you don't, you'll regret it for life,\" one popular social media post about the film said. Other social media users have hailed the movie as the antidote to the AI slop that is taking over social media algorithms. They are sharing clips praising Niu Lai's \"hand-crafted\" method - a reference to the poor animation quality - as \"proof\" that its creators did not use AI. \"That's some serious craftsmanship,\" a Weibo user wrote. Another social media user called it \"pure handmade\" and the biggest \"dark horse\" of the summer movie season. Others say they are rooting for the movie because they desperately hope for a \"bullish\" stock market. \"If the index reaches 4,000 tomorrow I will go to the cinema to support this movie,\" one Weibo user wrote.",
+      "published_at": "2026-08-17T08:35:07+00:00",
+      "updated_at": "2026-08-17T08:35:07+00:00",
+      "effective_at": "2026-08-17T08:35:07+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "culture",
+      "subsector": "entertainment",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "ai",
+        "brand",
+        "china",
+        "day",
+        "hollywood",
+        "lai",
+        "man",
+        "mao",
+        "niu",
+        "odyssey",
+        "spider",
+        "weibo",
+        "yan"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "It's so bad, it's become a box office hit.",
+        "Niu Lai, a low-budget animation film about a cow in a dream sequence has seen a huge jump in ticket sales after going viral for its confusing plot and terrible graphics.",
+        "It grossed just 7,705 yuan ($1,140; £843) in the first 10 days after its release, but has now made more than 11.4 million yuan, according to movie tracking site Mao Yan.",
+        "That means it is holding ground against Hollywood blockbusters like.",
+        "The Odyssey and Spider Man: Brand New Day.",
+        "\"You may regret for 80 minutes if you watch it, but if you don't, you'll regret it for life,\" one popular social media post about the film said.",
+        "Other social media users have hailed the movie as the antidote to the AI slop that is taking over social media algorithms.",
+        "They are sharing clips praising Niu Lai's \"hand-crafted\" method - a reference to the poor animation quality - as \"proof\" that its creators did not use AI.",
+        "\"That's some serious craftsmanship,\" a Weibo user wrote.",
+        "Another social media user called it \"pure handmade\" and the biggest \"dark horse\" of the summer movie season.",
+        "Others say they are rooting for the movie because they desperately hope for a \"bullish\" stock market.",
+        "\"If the index reaches 4,000 tomorrow I will go to the cinema to support this movie,\" one Weibo user wrote."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "3bd44d576b6ba272638dffd4",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "8759bfb1924f96328c7cf818e1dd56b5ee8df81ddc10ab97feedbb4d7a0ed14e",
+      "public_label": "🔄 UPDATE",
+      "headline": "Movie that went viral for terrible animation becomes China box office hit",
+      "briefing": {
+        "opening": [
+          "It's so bad, it's become a box office hit.",
+          "Niu Lai, a low-budget animation film about a cow in a dream sequence has seen a huge jump in ticket sales after going viral for its confusing plot and terrible graphics."
+        ],
+        "body": [
+          "It grossed just 7,705 yuan ($1,140; £843) in the first 10 days after its release, but has now made more than 11.4 million yuan, according to movie tracking site Mao Yan.",
+          "That means it is holding ground against Hollywood blockbusters like.",
+          "The Odyssey and Spider Man: Brand New Day.",
+          "\"You may regret for 80 minutes if you watch it, but if you don't, you'll regret it for life,\" one popular social media post about the film said.",
+          "Other social media users have hailed the movie as the antidote to the AI slop that is taking over social media algorithms.",
+          "They are sharing clips praising Niu Lai's \"hand-crafted\" method - a reference to the poor animation quality - as \"proof\" that its creators did not use AI.",
+          "\"That's some serious craftsmanship,\" a Weibo user wrote.",
+          "Another social media user called it \"pure handmade\" and the biggest \"dark horse\" of the summer movie season."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Niu Lai, a low-budget animation film about a cow in a dream sequence has seen a huge jump in ticket sales after going viral for its confusing plot and terrible graphics.",
+            "source": "BBC World",
+            "item_id": "8759bfb1924f96328c7cf818e1dd56b5ee8df81ddc10ab97feedbb4d7a0ed14e:article",
+            "composed": false
+          },
+          {
+            "text": "They are sharing clips praising Niu Lai's \"hand-crafted\" method - a reference to the poor animation quality - as \"proof\" that its creators did not use AI.",
+            "source": "BBC World",
+            "item_id": "8759bfb1924f96328c7cf818e1dd56b5ee8df81ddc10ab97feedbb4d7a0ed14e:article",
+            "composed": false
+          },
+          {
+            "text": "That means it is holding ground against Hollywood blockbusters like.",
+            "source": "BBC World",
+            "item_id": "8759bfb1924f96328c7cf818e1dd56b5ee8df81ddc10ab97feedbb4d7a0ed14e:article",
+            "composed": false
+          },
+          {
+            "text": "It grossed just 7,705 yuan ($1,140; £843) in the first 10 days after its release, but has now made more than 11.4 million yuan, according to movie tracking site Mao Yan.",
+            "source": "BBC World",
+            "item_id": "8759bfb1924f96328c7cf818e1dd56b5ee8df81ddc10ab97feedbb4d7a0ed14e:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC World",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/c4g4r0mrmlpo?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
+    },
+    {
+      "id": "2a2e3a30bbd24aa5e8f8ef819eed659161b38d70679eab6e5cf462206a17969a",
+      "title": "Euro exchange rate exceeds 98 rubles on interbank market first since March 20",
+      "url": "https://tass.com/economy/2174087",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "As of 10:45 a.m. Moscow time, the euro exchange rate was up by 1.51% at 98.683 rubles",
+      "published_at": "2026-08-17T09:22:28+00:00",
+      "updated_at": "2026-08-17T09:22:28+00:00",
+      "effective_at": "2026-08-17T09:22:28+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "currencies",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "russia"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "1470622cb09b3707eacf5ff7",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "2a2e3a30bbd24aa5e8f8ef819eed659161b38d70679eab6e5cf462206a17969a",
+      "article_sentences": [
+        "MOSCOW, August 17.",
+        "The euro exchange rate in the Russian interbank market has grown above 98 rubles for the first time since March 20, 2026, according to trading data.",
+        "As of 10:45 a.m. Moscow time (7:45 a.m. GMT), the euro exchange rate was up by 1.51% at 98.683 rubles.",
+        "Meanwhile the dollar exchange rate in the Russian interbank market was up by 1.27% at 84.99 rubles."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Euro exchange rate exceeds 98 rubles on interbank market first since March 20",
+      "briefing": {
+        "opening": [
+          "MOSCOW, August 17.",
+          "The euro exchange rate in the Russian interbank market has grown above 98 rubles for the first time since March 20, 2026, according to trading data."
+        ],
+        "body": [
+          "As of 10:45 a.m. Moscow time (7:45 a.m. GMT), the euro exchange rate was up by 1.51% at 98.683 rubles."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "As of 10:45 a.m. Moscow time (7:45 a.m. GMT), the euro exchange rate was up by 1.51% at 98.683 rubles.",
+            "source": "TASS English",
+            "item_id": "2a2e3a30bbd24aa5e8f8ef819eed659161b38d70679eab6e5cf462206a17969a:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, August 17.",
+            "source": "TASS English",
+            "item_id": "2a2e3a30bbd24aa5e8f8ef819eed659161b38d70679eab6e5cf462206a17969a:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/economy/2174087"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
     }
   ]
 }
