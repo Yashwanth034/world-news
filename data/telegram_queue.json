@@ -1,63 +1,179 @@
 {
-  "generated_at": "2026-08-17T12:31:04.697866+00:00",
+  "generated_at": "2026-08-17T12:40:45.675087+00:00",
   "count": 3,
   "stories": [
     {
-      "id": "7a59cc4e09a3912195707fcd046e409b4799f131f85f80d2524290cfc8ede93e",
-      "title": "America is arguing over the wrong AI obstacle",
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3363909/america-arguing-over-wrong-ai-obstacle?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "77e6a5ae46baea5f86633e8fd8512816975618385a58ffa339d108cd8ac36f68",
+      "title": "No explanation from Japan why its ambassador ignored summons to Russian MFA",
+      "url": "https://tass.com/politics/2174207",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Last month, two Chinese companies released artificial intelligence models most people outside the industry know little about: Kimi K3 by Moonshot AI and Qwen3.8-Max by Alibaba Group Holding (which owns the South China Morning Post). The markets reacted even before publicly auditable evidence about the performance claims – detailed benchmark table, model card and licence – was made fully available. In the weeks that followed, global chip stocks shed about US$3 trillion in market value. That...",
-      "published_at": "2026-08-17T12:30:08+00:00",
-      "updated_at": "2026-08-17T12:30:08+00:00",
-      "effective_at": "2026-08-17T12:30:08+00:00",
+      "summary": "The Russian foreign minister revaled that the Japanese embassy's response was quite vague",
+      "published_at": "2026-08-17T12:38:09+00:00",
+      "updated_at": "2026-08-17T12:38:09+00:00",
+      "effective_at": "2026-08-17T12:38:09+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "ai",
+      "sector": "geopolitics",
+      "subsector": "diplomacy",
       "subregion": "East Asia",
       "country": null,
       "entities": [
-        "ai",
-        "alibaba",
-        "america",
-        "china",
-        "group",
-        "holding",
-        "k3",
-        "kimi",
-        "last",
-        "moonshot",
-        "post",
-        "qwen3",
-        "south",
-        "us"
+        "japan",
+        "mfa",
+        "russia"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "c0006c78e1e88967c9492492",
+      "event_id": "acad5dc247a32e59b132e3ef",
       "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 8.0,
+        "urgency": 7.0,
         "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 8
+        }
+      },
+      "story_id": "77e6a5ae46baea5f86633e8fd8512816975618385a58ffa339d108cd8ac36f68",
+      "article_sentences": [
+        "MOSCOW, August 17.",
+        "The Japanese embassy has failed to clearly explain why its ambassador ignored a summons to appear at the Russian foreign ministry in connection with Tokyo’s protest against Russian President Vladimir Putin’s visit to Iturup, Russian Foreign Minister Sergey Lavrov said.",
+        "\"When we learned how Mrs. Takaichi and her foreign minister had characterized our president’s trip within his own country, to his own citizens, we immediately summoned the Japanese ambassador,\" he said when asked by TASS about Moscow’s reaction to Tokyo’s protest following Putin’s visit to Iturup.",
+        "\"The embassy’s response was quite vague.",
+        "After a pause, they explained that he (the ambassador - TASS) would not be able to come either on Friday, August 14 or on Monday, August 17, i.e. today, because he is either not in Moscow or is not feeling well.",
+        "We did not quite understand,\" he noted."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "No explanation from Japan why its ambassador ignored summons to Russian MFA",
+      "briefing": {
+        "opening": [
+          "MOSCOW, August 17.",
+          "The Japanese embassy has failed to clearly explain why its ambassador ignored a summons to appear at the Russian foreign ministry in connection with Tokyo’s protest against Russian President Vladimir Putin’s visit to Iturup, Russian Foreign Minister Sergey Lavrov said."
+        ],
+        "body": [
+          "\"When we learned how Mrs. Takaichi and her foreign minister had characterized our president’s trip within his own country, to his own citizens, we immediately summoned the Japanese ambassador,\" he said when asked by TASS about Moscow’s reaction to Tokyo’s protest following Putin’s visit to Iturup.",
+          "\"The embassy’s response was quite vague.",
+          "After a pause, they explained that he (the ambassador - TASS) would not be able to come either on Friday, August 14 or on Monday, August 17, i.e. today, because he is either not in Moscow or is not feeling well.",
+          "We did not quite understand,\" he noted.",
+          "The Russian foreign minister revaled that the Japanese embassy's response was quite vague."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Moscow"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Japanese embassy has failed to clearly explain why its ambassador ignored a summons to appear at the Russian foreign ministry in connection with Tokyo’s protest against Russian President Vladimir Putin’s visit to Iturup, Russian Foreign Minister Sergey Lavrov said.",
+            "source": "TASS English",
+            "item_id": "77e6a5ae46baea5f86633e8fd8512816975618385a58ffa339d108cd8ac36f68:article",
+            "composed": false
+          },
+          {
+            "text": "\"When we learned how Mrs. Takaichi and her foreign minister had characterized our president’s trip within his own country, to his own citizens, we immediately summoned the Japanese ambassador,\" he said when asked by TASS about Moscow’s reaction to Tokyo’s protest following Putin’s visit to Iturup.",
+            "source": "TASS English",
+            "item_id": "77e6a5ae46baea5f86633e8fd8512816975618385a58ffa339d108cd8ac36f68:article",
+            "composed": false
+          },
+          {
+            "text": "After a pause, they explained that he (the ambassador - TASS) would not be able to come either on Friday, August 14 or on Monday, August 17, i.e. today, because he is either not in Moscow or is not feeling well.",
+            "source": "TASS English",
+            "item_id": "77e6a5ae46baea5f86633e8fd8512816975618385a58ffa339d108cd8ac36f68:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, August 17.",
+            "source": "TASS English",
+            "item_id": "77e6a5ae46baea5f86633e8fd8512816975618385a58ffa339d108cd8ac36f68:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/politics/2174207"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "87a31703ea6dc3186428f02f04aeb2fae2c8c8773609a92d38b6ddeb34b9e4d9",
+      "title": "Bundeswehr strength hits highest level in 13 years — German Ministry of Defense",
+      "url": "https://tass.com/world/2174201",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "As of July 31, the Bundeswehr had approximately 186,700 service members",
+      "published_at": "2026-08-17T12:32:51+00:00",
+      "updated_at": "2026-08-17T12:32:51+00:00",
+      "effective_at": "2026-08-17T12:32:51+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "bundeswehr",
+        "defense",
+        "german",
+        "ministry"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "ed8a310a6f67c8d587b0cf30",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 4,
@@ -76,72 +192,104 @@
           "security": 4
         }
       },
-      "story_id": "7a59cc4e09a3912195707fcd046e409b4799f131f85f80d2524290cfc8ede93e",
+      "story_id": "87a31703ea6dc3186428f02f04aeb2fae2c8c8773609a92d38b6ddeb34b9e4d9",
+      "article_sentences": [
+        "BERLIN, August 17.",
+        "The Bundeswehr (German Armed Forces) has reached its largest troop strength in the past 13 years, according to a press release published by the German Ministry of Defense on its website.",
+        "As of July 31, the Bundeswehr had approximately 186,700 service members.",
+        "The German Armed Forces have thus achieved this year’s recruitment target, which ranged from 186,000 to 190,000 service members.",
+        "On January 1, 2026, a law establishing a new model of military service came into effect in Germany.",
+        "It requires young people to undergo a medical examination and restores military registration.",
+        "Enlistment in the Bundeswehr is currently voluntary.",
+        "Under the new law, adult male citizens are required to fill out a questionnaire with questions about their physical fitness and willingness to join the German Armed Forces.",
+        "Filling out these questionnaires is voluntary for women.",
+        "German Chancellor Friedrich Merz had earlier repeatedly said the German government aimed to transform the Bundeswehr into the strongest conventional army in Europe.",
+        "Germany suspended compulsory military conscription in July 2011, after which the country switched to a professional army.",
+        "However, in recent years, German politicians have increasingly been discussing the need to restore conscription if the Bundeswehr faces a shortage of recruits."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "America is arguing over the wrong AI obstacle",
+      "headline": "Bundeswehr strength hits highest level in 13 years — German Ministry of Defense",
       "briefing": {
         "opening": [
-          "Last month, two Chinese companies released artificial intelligence models most people outside the industry know little about: Kimi K3 by Moonshot AI and Qwen3.8-Max by Alibaba Group Holding (which owns the South China Morning Post).",
-          "The markets reacted even before publicly auditable evidence about the performance claims – detailed benchmark table, model card and licence – was made fully available."
+          "BERLIN, August 17.",
+          "The Bundeswehr (German Armed Forces) has reached its largest troop strength in the past 13 years, according to a press release published by the German Ministry of Defense on its website."
         ],
         "body": [
-          "In the weeks that followed, global chip stocks shed about US$3 trillion in market value."
+          "As of July 31, the Bundeswehr had approximately 186,700 service members.",
+          "The German Armed Forces have thus achieved this year’s recruitment target, which ranged from 186,000 to 190,000 service members.",
+          "On January 1, 2026, a law establishing a new model of military service came into effect in Germany.",
+          "It requires young people to undergo a medical examination and restores military registration.",
+          "Enlistment in the Bundeswehr is currently voluntary.",
+          "Under the new law, adult male citizens are required to fill out a questionnaire with questions about their physical fitness and willingness to join the German Armed Forces.",
+          "Filling out these questionnaires is voluntary for women.",
+          "German Chancellor Friedrich Merz had earlier repeatedly said the German government aimed to transform the Bundeswehr into the strongest conventional army in Europe."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Germany"
+          }
+        ],
         "sentences": [
           {
-            "text": "The markets reacted even before publicly auditable evidence about the performance claims – detailed benchmark table, model card and licence – was made fully available.",
-            "source": "South China Morning Post",
-            "item_id": "7a59cc4e09a3912195707fcd046e409b4799f131f85f80d2524290cfc8ede93e",
+            "text": "On January 1, 2026, a law establishing a new model of military service came into effect in Germany.",
+            "source": "TASS English",
+            "item_id": "87a31703ea6dc3186428f02f04aeb2fae2c8c8773609a92d38b6ddeb34b9e4d9:article",
             "composed": false
           },
           {
-            "text": "Last month, two Chinese companies released artificial intelligence models most people outside the industry know little about: Kimi K3 by Moonshot AI and Qwen3.8-Max by Alibaba Group Holding (which owns the South China Morning Post).",
-            "source": "South China Morning Post",
-            "item_id": "7a59cc4e09a3912195707fcd046e409b4799f131f85f80d2524290cfc8ede93e",
+            "text": "As of July 31, the Bundeswehr had approximately 186,700 service members.",
+            "source": "TASS English",
+            "item_id": "87a31703ea6dc3186428f02f04aeb2fae2c8c8773609a92d38b6ddeb34b9e4d9:article",
             "composed": false
           },
           {
-            "text": "In the weeks that followed, global chip stocks shed about US$3 trillion in market value.",
-            "source": "South China Morning Post",
-            "item_id": "7a59cc4e09a3912195707fcd046e409b4799f131f85f80d2524290cfc8ede93e",
+            "text": "The German Armed Forces have thus achieved this year’s recruitment target, which ranged from 186,000 to 190,000 service members.",
+            "source": "TASS English",
+            "item_id": "87a31703ea6dc3186428f02f04aeb2fae2c8c8773609a92d38b6ddeb34b9e4d9:article",
+            "composed": false
+          },
+          {
+            "text": "BERLIN, August 17.",
+            "source": "TASS English",
+            "item_id": "87a31703ea6dc3186428f02f04aeb2fae2c8c8773609a92d38b6ddeb34b9e4d9:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.scmp.com/opinion/world-opinion/article/3363909/america-arguing-over-wrong-ai-obstacle?utm_source=rss_feed"
+        "url": "https://tass.com/world/2174201"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "e706d8f7e59548e50614778b7d3b4444d882c4da843e527cc64979ff07ec22d5",
-      "title": "Siemens hands over heavy-duty gas turbine training unit to Hainan — daily",
-      "url": "https://tass.com/economy/2174197",
+      "id": "6353e35712781becf94537f9cb025d839c494a0804f6458e4c8fb9018dfcbef4",
+      "title": "New tourist trail opened in Primorsky Region",
+      "url": "https://tass.com/economy/2174203",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "The equipment has arrived in Yangpu, a deep-water port, and will be used at a global training hub for turbine technical experts, Hainan Ribao reported",
-      "published_at": "2026-08-17T12:26:29+00:00",
-      "updated_at": "2026-08-17T12:26:29+00:00",
-      "effective_at": "2026-08-17T12:26:29+00:00",
+      "summary": "The ecology trail will be able to accommodate up to 70,000 people every year",
+      "published_at": "2026-08-17T12:35:36+00:00",
+      "updated_at": "2026-08-17T12:35:36+00:00",
+      "effective_at": "2026-08-17T12:35:36+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "oil_gas",
+      "sector": "other",
+      "subsector": "general",
       "subregion": null,
       "country": null,
       "entities": [
-        "hainan",
-        "ribao",
-        "yangpu"
+        "primorsky",
+        "region"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -151,149 +299,15 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "086c1c5323ccc0970f48a6db",
-      "importance_score": 35.0,
+      "event_id": "a6f801ae2217b43915e63f5c",
+      "importance_score": 26.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "infrastructure": 4
-        }
-      },
-      "story_id": "e706d8f7e59548e50614778b7d3b4444d882c4da843e527cc64979ff07ec22d5",
-      "article_sentences": [
-        "HAIKOU /China/, August 17.",
-        "Germany’s Siemens Energy has handed over a heavy-duty gas turbine training unit to south China’s island province of Hainan, Hainan Ribao reported.",
-        "According to the Chinese daily, the equipment is the world’s unique technology.",
-        "It has arrived in Yangpu, a deep-water port on the island’s western coast, and will be used at a global training hub for gas turbine technical experts.",
-        "According to the report, the cargo from Berlin was successfully unloaded last week.",
-        "Siemens Energy’s training program for turbine engineers will be fully moved from the German capital to the assembly center in Hainan soon.",
-        "This will make the Yangpu Port Siemens Energy’s sole global training hub for high-end gas turbine technical experts.",
-        "According to Lars Voelker, the general manager of Siemens Energy Hainan, the arrival of the gas turbine training unit is of “major strategic importance and will play a key role” in professional development of the technical staff, and help boost the company’s service potential in China and the Asia-Pacific.",
-        "A special mechanism for on-site coordination was set up for turbine unloading works, the newspaper wrote.",
-        "Initially, the training unit will be accommodated at a warehouse before it will be moved to an industrial site once its assembly center is operational.",
-        "The Yangpu Port administration ensured secure and fast customs clearance for this expensive large equipment, which helped significantly speed up the arrangements for launching it.",
-        "Siemens Energy is expected to build a plant in China’s southernmost province in 2027, and the first gas turbine will be off its line in 2028."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Siemens hands over heavy-duty gas turbine training unit to Hainan — daily",
-      "briefing": {
-        "opening": [
-          "HAIKOU /China/, August 17.",
-          "Germany’s Siemens Energy has handed over a heavy-duty gas turbine training unit to south China’s island province of Hainan, Hainan Ribao reported."
-        ],
-        "body": [
-          "According to the Chinese daily, the equipment is the world’s unique technology.",
-          "It has arrived in Yangpu, a deep-water port on the island’s western coast, and will be used at a global training hub for gas turbine technical experts.",
-          "According to the report, the cargo from Berlin was successfully unloaded last week.",
-          "Siemens Energy’s training program for turbine engineers will be fully moved from the German capital to the assembly center in Hainan soon.",
-          "This will make the Yangpu Port Siemens Energy’s sole global training hub for high-end gas turbine technical experts.",
-          "According to Lars Voelker, the general manager of Siemens Energy Hainan, the arrival of the gas turbine training unit is of “major strategic importance and will play a key role” in professional development of the technical staff, and help boost the company’s service potential in China and the Asia-Pacific.",
-          "A special mechanism for on-site coordination was set up for turbine unloading works, the newspaper wrote.",
-          "Initially, the training unit will be accommodated at a warehouse before it will be moved to an industrial site once its assembly center is operational."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Yangpu"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "HAIKOU /China/, August 17.",
-            "source": "TASS English",
-            "item_id": "e706d8f7e59548e50614778b7d3b4444d882c4da843e527cc64979ff07ec22d5:article",
-            "composed": false
-          },
-          {
-            "text": "According to the report, the cargo from Berlin was successfully unloaded last week.",
-            "source": "TASS English",
-            "item_id": "e706d8f7e59548e50614778b7d3b4444d882c4da843e527cc64979ff07ec22d5:article",
-            "composed": false
-          },
-          {
-            "text": "Siemens Energy’s training program for turbine engineers will be fully moved from the German capital to the assembly center in Hainan soon.",
-            "source": "TASS English",
-            "item_id": "e706d8f7e59548e50614778b7d3b4444d882c4da843e527cc64979ff07ec22d5:article",
-            "composed": false
-          },
-          {
-            "text": "According to Lars Voelker, the general manager of Siemens Energy Hainan, the arrival of the gas turbine training unit is of “major strategic importance and will play a key role” in professional development of the technical staff, and help boost the company’s service potential in China and the Asia-Pacific.",
-            "source": "TASS English",
-            "item_id": "e706d8f7e59548e50614778b7d3b4444d882c4da843e527cc64979ff07ec22d5:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/economy/2174197"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "132f56ece3eabac21d81160b6895e387bdf7f3c9d8d4dfd39f965731c49a8400",
-      "title": "Senegal’s historic pirogue regatta brings Saint-Louis to life",
-      "url": "http://www.africanews.com/2026/08/17/senegals-historic-pirogue-regatta-brings-saint-louis-to-life/",
-      "source": "Africanews English",
-      "source_category": "africa",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Africa",
-      "discovery": false,
-      "summary": "Thousands gathered in Saint-Louis on Saturday for the city’s traditional pirogue regatta, a centuries-old competition rooted in the fishing community of Guet-Ndar. Beyond the fierce rivalry on the water, the event celebrates heritage, solidarity and a legacy passed down through generations.",
-      "published_at": "2026-08-17T11:27:56+00:00",
-      "updated_at": "2026-08-17T11:27:56+00:00",
-      "effective_at": "2026-08-17T11:27:56+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "agriculture",
-      "subsector": "water",
-      "subregion": "West Africa",
-      "country": null,
-      "entities": [
-        "guet-ndar",
-        "saint-louis"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "0a6dbb52a03d6fc9959c0011",
-      "importance_score": 27.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 6.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -310,39 +324,73 @@
         },
         "significance_dims": {}
       },
-      "story_id": "132f56ece3eabac21d81160b6895e387bdf7f3c9d8d4dfd39f965731c49a8400",
+      "story_id": "6353e35712781becf94537f9cb025d839c494a0804f6458e4c8fb9018dfcbef4",
+      "article_sentences": [
+        "MOSCOW, August 17.",
+        "The Octopus Trail hiking route was opened in Nakhodka under the Trails of the Far East project, press service of the Corporation for the Development of the Far East and the Arctic said.",
+        "\"The Octopus Trail was opened in the city of Nakhodka, the Primorsky Region,\" the press service said.",
+        "\"It is a unique 6.2-km-long walking route that connects the picturesque bays of Kozin, Otrada and Prozrachnaya.",
+        "The ecology trail will be able to accommodate up to 70,000 people every year.\"",
+        "The route includes terrencures, ascents and descents, stairs, observation decks and decking, which makes it accessible for both trained tourists and for families with children, as well as for older people.",
+        "The trail offers panoramic views of the Askold Island, Crystal Waterfall and Dragon Rock.",
+        "The trail has more than 20 viewing points.",
+        "Numerous information stands, signs and observation towers are installed along the entire route.",
+        "\"The Far East is an amazing nature.",
+        "Every Far Eastern territory can surprise a traveler, can show to tourists the unusual beauty of many places, and can introduce interesting routes,\" said Yury Trutnev, Deputy Prime Minister and Presidential Envoy to the Far Eastern Federal District.",
+        "\"We want as many people as possible to engage in outdoor activities."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "Senegal’s historic pirogue regatta brings Saint-Louis to life",
+      "headline": "New tourist trail opened in Primorsky Region",
       "briefing": {
         "opening": [
-          "Thousands gathered in Saint-Louis on Saturday for the city’s traditional pirogue regatta, a centuries-old competition rooted in the fishing community of Guet-Ndar.",
-          "Beyond the fierce rivalry on the water, the event celebrates heritage, solidarity and a legacy passed down through generations."
+          "MOSCOW, August 17.",
+          "The Octopus Trail hiking route was opened in Nakhodka under the Trails of the Far East project, press service of the Corporation for the Development of the Far East and the Arctic said."
         ],
-        "body": [],
+        "body": [
+          "\"The Octopus Trail was opened in the city of Nakhodka, the Primorsky Region,\" the press service said.",
+          "\"It is a unique 6.2-km-long walking route that connects the picturesque bays of Kozin, Otrada and Prozrachnaya.",
+          "The ecology trail will be able to accommodate up to 70,000 people every year.\" The route includes terrencures, ascents and descents, stairs, observation decks and decking, which makes it accessible for both trained tourists and for families with children, as well as for older people.",
+          "The trail offers panoramic views of the Askold Island, Crystal Waterfall and Dragon Rock.",
+          "The trail has more than 20 viewing points.",
+          "Numerous information stands, signs and observation towers are installed along the entire route.",
+          "\"The Far East is an amazing nature.",
+          "Every Far Eastern territory can surprise a traveler, can show to tourists the unusual beauty of many places, and can introduce interesting routes,\" said Yury Trutnev, Deputy Prime Minister and Presidential Envoy to the Far Eastern Federal District."
+        ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Saint-Louis"
+            "text": "Nakhodka"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "up to 70,000 people"
           }
         ],
         "sentences": [
           {
-            "text": "Beyond the fierce rivalry on the water, the event celebrates heritage, solidarity and a legacy passed down through generations.",
-            "source": "Africanews English",
-            "item_id": "132f56ece3eabac21d81160b6895e387bdf7f3c9d8d4dfd39f965731c49a8400",
+            "text": "\"The Octopus Trail was opened in the city of Nakhodka, the Primorsky Region,\" the press service said.",
+            "source": "TASS English",
+            "item_id": "6353e35712781becf94537f9cb025d839c494a0804f6458e4c8fb9018dfcbef4:article",
             "composed": false
           },
           {
-            "text": "Thousands gathered in Saint-Louis on Saturday for the city’s traditional pirogue regatta, a centuries-old competition rooted in the fishing community of Guet-Ndar.",
-            "source": "Africanews English",
-            "item_id": "132f56ece3eabac21d81160b6895e387bdf7f3c9d8d4dfd39f965731c49a8400",
+            "text": "MOSCOW, August 17.",
+            "source": "TASS English",
+            "item_id": "6353e35712781becf94537f9cb025d839c494a0804f6458e4c8fb9018dfcbef4:article",
+            "composed": false
+          },
+          {
+            "text": "The Octopus Trail hiking route was opened in Nakhodka under the Trails of the Far East project, press service of the Corporation for the Development of the Far East and the Arctic said.",
+            "source": "TASS English",
+            "item_id": "6353e35712781becf94537f9cb025d839c494a0804f6458e4c8fb9018dfcbef4:article",
             "composed": false
           }
         ],
-        "source": "Africanews English",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "http://www.africanews.com/2026/08/17/senegals-historic-pirogue-regatta-brings-saint-louis-to-life/"
+        "url": "https://tass.com/economy/2174203"
       },
       "group_size": 1,
       "label": "📰 NEWS"
