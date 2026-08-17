@@ -1,109 +1,117 @@
 {
-  "generated_at": "2026-08-17T09:45:39.168133+00:00",
+  "generated_at": "2026-08-17T09:50:46.298494+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "67d3c5f4af8f179347fa90d4c0843ea5df968b758273da8b63335a35f1028c07",
-      "title": "Temperatures to fall across Europe as substantial rain heading for parts of UK",
-      "url": "https://www.theguardian.com/environment/2026/aug/17/temperatures-fall-europe-rain-uk",
-      "source": "The Guardian World",
+      "id": "1712854bc9a1c10ca3d289dbdf512d981c36ad5bf05964f691d26a1afb84e2b3",
+      "title": "Wildfires spread across Europe as thousands evacuated",
+      "url": "https://www.france24.com/en/video/20260817-wildfires-spread-across-europe-as-thousands-evacuated",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "Temperatures could drop by more than 15C compared with last Thursday as cold front moves arrives from Monday Relief from the unrelenting heat is finally arriving this week across western Europe, with more unsettled conditions bringing the chance of rain. Temperatures are expected to fall back towards the seasonal norm, with some parts of the UK even falling about 3C below normal by Thursday. After such a scorching summer, and with a temperature drop of more than 15C compared with last Thursday’s heat, it may feel surprisingly chilly. There are signs that some substantial rain could be on the cards for the south of the UK this week as a cold front moves in from the Atlantic on Monday night in",
-      "published_at": "2026-08-17T09:37:38+00:00",
-      "updated_at": "2026-08-17T09:37:38+00:00",
-      "effective_at": "2026-08-17T09:37:38+00:00",
+      "summary": "Wildfires are spreading across Europe, forcing evacuations and causing deaths and major damage. Greece, Spain, Italy, Belgium, Germany and the UK have all battled severe fires, with Croatia also seeing multiple blazes and arrests over suspected arson.",
+      "published_at": "2026-08-17T09:38:29+00:00",
+      "updated_at": "2026-08-17T09:38:29+00:00",
+      "effective_at": "2026-08-17T09:38:29+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
+      "category": "disaster",
+      "score": 81,
       "confidence": "medium",
-      "urgency_terms": [],
+      "urgency_terms": [
+        "evacuation",
+        "wildfire"
+      ],
       "sector": "climate",
-      "subsector": "weather",
+      "subsector": "wildfires",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "atlantic",
+        "belgium",
+        "croatia",
         "europe",
-        "relief",
-        "temperatures",
-        "uk"
+        "germany",
+        "greece",
+        "italy",
+        "spain",
+        "uk",
+        "wildfires"
       ],
-      "corroborating_sources": 1,
+      "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
-      "verified_match_count": 1,
+      "verified_match_count": 0,
       "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "79453564909a00f4df296cde",
-      "importance_score": 31.0,
-      "importance_level": "LOW",
+      "event_status": "UPDATE",
+      "event_id": "417f62c9c01f77bc49ba062e",
+      "importance_score": 54.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 8,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 3,
-        "significance": 0,
+        "corroboration": 0,
+        "significance": 20,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
           "dead": 0,
           "injured": 0,
-          "displaced": 0,
+          "displaced": 3000,
           "missing": 0,
           "affected": 0,
           "major_incident": false,
-          "crisis": false
+          "crisis": true
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "infrastructure": 8,
+          "human": 8,
+          "economic": 4
+        }
       },
-      "story_id": "67d3c5f4af8f179347fa90d4c0843ea5df968b758273da8b63335a35f1028c07",
-      "public_label": "📰 NEWS",
-      "headline": "Temperatures to fall across Europe as substantial rain heading for parts of UK",
+      "story_id": "1712854bc9a1c10ca3d289dbdf512d981c36ad5bf05964f691d26a1afb84e2b3",
+      "public_label": "🔄 UPDATE",
+      "headline": "Wildfires spread across Europe as thousands evacuated",
       "briefing": {
         "opening": [
-          "Temperatures could drop by more than 15C compared with last Thursday as cold front moves arrives from Monday Relief from the unrelenting heat is finally arriving this week across western Europe, with more unsettled conditions bringing the chance of rain.",
-          "Temperatures are expected to fall back towards the seasonal norm, with some parts of the UK even falling about 3C below normal by Thursday."
+          "Wildfires are spreading across Europe, forcing evacuations and causing deaths and major damage.",
+          "Greece, Spain, Italy, Belgium, Germany and the UK have all battled severe fires, with Croatia also seeing multiple blazes and arrests over suspected arson."
         ],
-        "body": [
-          "After such a scorching summer, and with a temperature drop of more than 15C compared with last Thursday’s heat, it may feel surprisingly chilly.",
-          "There are signs that some substantial rain could be on the cards for the south of the UK this week as a cold front moves in from the Atlantic on Monday night in."
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Europe"
+          }
         ],
-        "bullets": [],
         "sentences": [
           {
-            "text": "Temperatures could drop by more than 15C compared with last Thursday as cold front moves arrives from Monday Relief from the unrelenting heat is finally arriving this week across western Europe, with more unsettled conditions bringing the chance of rain.",
-            "source": "The Guardian World",
-            "item_id": "67d3c5f4af8f179347fa90d4c0843ea5df968b758273da8b63335a35f1028c07",
+            "text": "Greece, Spain, Italy, Belgium, Germany and the UK have all battled severe fires, with Croatia also seeing multiple blazes and arrests over suspected arson.",
+            "source": "France 24",
+            "item_id": "1712854bc9a1c10ca3d289dbdf512d981c36ad5bf05964f691d26a1afb84e2b3",
             "composed": false
           },
           {
-            "text": "Temperatures are expected to fall back towards the seasonal norm, with some parts of the UK even falling about 3C below normal by Thursday.",
-            "source": "The Guardian World",
-            "item_id": "67d3c5f4af8f179347fa90d4c0843ea5df968b758273da8b63335a35f1028c07",
-            "composed": false
-          },
-          {
-            "text": "After such a scorching summer, and with a temperature drop of more than 15C compared with last Thursday’s heat, it may feel surprisingly chilly.",
-            "source": "The Guardian World",
-            "item_id": "67d3c5f4af8f179347fa90d4c0843ea5df968b758273da8b63335a35f1028c07",
+            "text": "Wildfires are spreading across Europe, forcing evacuations and causing deaths and major damage.",
+            "source": "France 24",
+            "item_id": "1712854bc9a1c10ca3d289dbdf512d981c36ad5bf05964f691d26a1afb84e2b3",
             "composed": false
           }
         ],
-        "source": "The Guardian World",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.theguardian.com/environment/2026/aug/17/temperatures-fall-europe-rain-uk"
+        "url": "https://www.france24.com/en/video/20260817-wildfires-spread-across-europe-as-thousands-evacuated"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
