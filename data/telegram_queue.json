@@ -1,55 +1,67 @@
 {
-  "generated_at": "2026-08-17T13:01:08.439963+00:00",
-  "count": 1,
+  "generated_at": "2026-08-17T13:05:23.428909+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "7d54d3231fab63c9427be168db5ea6493bb867665ae9985e910f44ffec9b5ec4",
-      "title": "Novak instructs agricultural, energy sector development programs be kept under supervision",
-      "url": "https://tass.com/economy/2174211",
-      "source": "TASS English",
+      "id": "067960333698e2db94e4e701ed7c5f77966f767a07559300e3bf68cf04a5d1a4",
+      "title": "Europe’s wildfires: How prepared are we for the next fire?",
+      "url": "https://www.france24.com/en/europe-s-wildfires-how-prepared-are-we-for-the-next-fire",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "The economy grew by 0.6% over the past six months, signaling a return to a growth trajectory, according to estimates by the Economic Development Ministry",
-      "published_at": "2026-08-17T12:51:59+00:00",
-      "updated_at": "2026-08-17T12:51:59+00:00",
-      "effective_at": "2026-08-17T12:51:59+00:00",
+      "summary": "Massive wildfires are burning across Europe, from Belgium and Greece to Spain, Italy and France. Alexander Held, Senior Expert at the European Forest Institute, explains why fires are spreading into unexpected areas and whether Europe is facing a new normal. He also looks at how citizens can help prevent and limit wildfires, while stressing the need for greater resilience and better funded government support to deal with increasingly extreme fire seasons.",
+      "published_at": "2026-08-17T12:52:20+00:00",
+      "updated_at": "2026-08-17T12:52:20+00:00",
+      "effective_at": "2026-08-17T12:52:20+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 60,
+      "category": "disaster",
+      "score": 73,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "economy",
-      "subregion": null,
+      "urgency_terms": [
+        "wildfire"
+      ],
+      "sector": "climate",
+      "subsector": "wildfires",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "development",
-        "economic",
-        "ministry"
+        "alexander",
+        "belgium",
+        "europe",
+        "european",
+        "expert",
+        "forest",
+        "france",
+        "greece",
+        "held",
+        "institute",
+        "italy",
+        "senior",
+        "spain"
       ],
-      "corroborating_sources": 0,
+      "corroborating_sources": 1,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
+      "verified_match_count": 1,
+      "priority_score": 98,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "6d20515826fec1d79ac7add9",
-      "importance_score": 30.0,
+      "event_status": "UPDATE",
+      "event_id": "c4b37e35d1b523aeb597dcf7",
+      "importance_score": 41.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
+        "corroboration": 3,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -62,74 +74,159 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 4
+          "infrastructure": 8,
+          "geopolitical": 4
         }
       },
-      "story_id": "7d54d3231fab63c9427be168db5ea6493bb867665ae9985e910f44ffec9b5ec4",
-      "article_sentences": [
-        "MOSCOW, August 17.",
-        "Russian Deputy Prime Minister Alexander Novak has instructed that macroeconomic indicators be monitored and that development programs for agriculture and the fuel and energy sector be kept under close supervision, according to materials summarizing a meeting on the current economic situation published on the Russian government’s website.",
-        "\"Alexander Novak instructed that detailed monitoring of key macroeconomic indicators continue and that issues related to coordination of development programs for the agricultural and fuel-and-energy sectors be kept under close supervision in order to maintain the momentum of economic growth,\" according to materials.",
-        "The economy grew by 0.6% over the past six months, signaling a return to a growth trajectory, according to estimates by the Economic Development Ministry.",
-        "The meeting also addressed indicators for industry, construction, wholesale trade, freight turnover, and consumer activity.",
-        "\"In particular, consumer demand (retail trade, paid services to the population, and food services) grew by 4.8% in the first half of the year.",
-        "It was noted that the labor market remains stable: the unemployment rate in June stood at 2.2% of the workforce.",
-        "Real household income continued to rise in the second quarter,\" according to materials."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Novak instructs agricultural, energy sector development programs be kept under supervision",
+      "story_id": "067960333698e2db94e4e701ed7c5f77966f767a07559300e3bf68cf04a5d1a4",
+      "public_label": "🔄 UPDATE",
+      "headline": "Europe’s wildfires: How prepared are we for the next fire?",
       "briefing": {
         "opening": [
-          "MOSCOW, August 17.",
-          "Russian Deputy Prime Minister Alexander Novak has instructed that macroeconomic indicators be monitored and that development programs for agriculture and the fuel and energy sector be kept under close supervision, according to materials summarizing a meeting on the current economic situation published on the Russian government’s website."
+          "Massive wildfires are burning across Europe, from Belgium and Greece to Spain, Italy and France.",
+          "Alexander Held, Senior Expert at the European Forest Institute, explains why fires are spreading into unexpected areas and whether Europe is facing a new normal."
         ],
         "body": [
-          "\"Alexander Novak instructed that detailed monitoring of key macroeconomic indicators continue and that issues related to coordination of development programs for the agricultural and fuel-and-energy sectors be kept under close supervision in order to maintain the momentum of economic growth,\" according to materials.",
-          "The economy grew by 0.6% over the past six months, signaling a return to a growth trajectory, according to estimates by the Economic Development Ministry.",
-          "The meeting also addressed indicators for industry, construction, wholesale trade, freight turnover, and consumer activity.",
-          "\"In particular, consumer demand (retail trade, paid services to the population, and food services) grew by 4.8% in the first half of the year.",
-          "It was noted that the labor market remains stable: the unemployment rate in June stood at 2.2% of the workforce.",
-          "Real household income continued to rise in the second quarter,\" according to materials."
+          "He also looks at how citizens can help prevent and limit wildfires, while stressing the need for greater resilience and better funded government support to deal with increasingly extreme fire seasons."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "June"
+            "text": "Europe"
           }
         ],
         "sentences": [
           {
-            "text": "Russian Deputy Prime Minister Alexander Novak has instructed that macroeconomic indicators be monitored and that development programs for agriculture and the fuel and energy sector be kept under close supervision, according to materials summarizing a meeting on the current economic situation published on the Russian government’s website.",
-            "source": "TASS English",
-            "item_id": "7d54d3231fab63c9427be168db5ea6493bb867665ae9985e910f44ffec9b5ec4:article",
+            "text": "Alexander Held, Senior Expert at the European Forest Institute, explains why fires are spreading into unexpected areas and whether Europe is facing a new normal.",
+            "source": "France 24",
+            "item_id": "067960333698e2db94e4e701ed7c5f77966f767a07559300e3bf68cf04a5d1a4",
             "composed": false
           },
           {
-            "text": "It was noted that the labor market remains stable: the unemployment rate in June stood at 2.2% of the workforce.",
-            "source": "TASS English",
-            "item_id": "7d54d3231fab63c9427be168db5ea6493bb867665ae9985e910f44ffec9b5ec4:article",
+            "text": "He also looks at how citizens can help prevent and limit wildfires, while stressing the need for greater resilience and better funded government support to deal with increasingly extreme fire seasons.",
+            "source": "France 24",
+            "item_id": "067960333698e2db94e4e701ed7c5f77966f767a07559300e3bf68cf04a5d1a4",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 17.",
-            "source": "TASS English",
-            "item_id": "7d54d3231fab63c9427be168db5ea6493bb867665ae9985e910f44ffec9b5ec4:article",
-            "composed": false
-          },
-          {
-            "text": "The economy grew by 0.6% over the past six months, signaling a return to a growth trajectory, according to estimates by the Economic Development Ministry.",
-            "source": "TASS English",
-            "item_id": "7d54d3231fab63c9427be168db5ea6493bb867665ae9985e910f44ffec9b5ec4:article",
+            "text": "Massive wildfires are burning across Europe, from Belgium and Greece to Spain, Italy and France.",
+            "source": "France 24",
+            "item_id": "067960333698e2db94e4e701ed7c5f77966f767a07559300e3bf68cf04a5d1a4",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://tass.com/economy/2174211"
+        "url": "https://www.france24.com/en/europe-s-wildfires-how-prepared-are-we-for-the-next-fire"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "8f154653dbe5c2be7162695c26df0b93b30594e2466b465571cbf848b2094b2e",
+      "title": "Taiwan teams up with US start-up on underwater drones to boost island’s defences",
+      "url": "https://www.scmp.com/news/china/military/article/3364328/taiwan-teams-us-start-underwater-drones-boost-islands-defences?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Taiwan has signed a deal with US defence start-up Vatn Systems to develop autonomous underwater vehicles and strengthen its asymmetric warfare capabilities amid growing military pressure from Beijing. The agreement with the National Chung-Shan Institute of Science and Technology (NCSIST) – the island’s government-funded top weapons developer – is the latest in a series of moves to expand Taiwan’s unmanned underwater capabilities. Under the memorandum of understanding signed last week, NCSIST and...",
+      "published_at": "2026-08-17T13:04:02+00:00",
+      "updated_at": "2026-08-17T13:04:02+00:00",
+      "effective_at": "2026-08-17T13:04:02+00:00",
+      "language_status": "ENGLISH",
+      "category": "technology",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "china",
+        "chung-shan",
+        "institute",
+        "national",
+        "ncsist",
+        "science",
+        "systems",
+        "taiwan",
+        "technology",
+        "us",
+        "vatn"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "b13897dfba7d4d9a48177c82",
+      "importance_score": 34.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "8f154653dbe5c2be7162695c26df0b93b30594e2466b465571cbf848b2094b2e",
+      "public_label": "🔄 UPDATE",
+      "headline": "Taiwan teams up with US start-up on underwater drones to boost island’s defences",
+      "briefing": {
+        "opening": [
+          "Taiwan has signed a deal with US defence start-up Vatn Systems to develop autonomous underwater vehicles and strengthen its asymmetric warfare capabilities amid growing military pressure from Beijing.",
+          "The agreement with the National Chung-Shan Institute of Science and Technology (NCSIST) – the island’s government-funded top weapons developer – is the latest in a series of moves to expand Taiwan’s unmanned underwater capabilities."
+        ],
+        "body": [
+          "Under the memorandum of understanding signed last week, NCSIST and..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The agreement with the National Chung-Shan Institute of Science and Technology (NCSIST) – the island’s government-funded top weapons developer – is the latest in a series of moves to expand Taiwan’s unmanned underwater capabilities.",
+            "source": "South China Morning Post",
+            "item_id": "8f154653dbe5c2be7162695c26df0b93b30594e2466b465571cbf848b2094b2e",
+            "composed": false
+          },
+          {
+            "text": "Taiwan has signed a deal with US defence start-up Vatn Systems to develop autonomous underwater vehicles and strengthen its asymmetric warfare capabilities amid growing military pressure from Beijing.",
+            "source": "South China Morning Post",
+            "item_id": "8f154653dbe5c2be7162695c26df0b93b30594e2466b465571cbf848b2094b2e",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/china/military/article/3364328/taiwan-teams-us-start-underwater-drones-boost-islands-defences?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
     }
   ]
 }
