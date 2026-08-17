@@ -1,40 +1,33 @@
 {
-  "generated_at": "2026-08-17T10:50:47.112844+00:00",
-  "count": 4,
+  "generated_at": "2026-08-17T10:57:34.161289+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "6a4954acee74110163bf1dfbf51b57b194b21da97727c7ced024f0083efd040d",
-      "title": "Senior Russian banker fired after warning over wartime economy",
-      "url": "https://www.theguardian.com/world/2026/aug/17/andrei-klepach-russian-banker-fired-warning-economy",
-      "source": "The Guardian World",
+      "id": "18ded3dab4a595638643553e6e6baffcaa4a02b92a8df4b570ea1d9af22737ba",
+      "title": "French taxpayers warned after personal data stolen in major hack",
+      "url": "https://www.france24.com/en/french-taxpayers-warned-after-personal-data-stolen-in-major-hack",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "Andrei Klepach of VEB said Russia’s economy was falling behind China, US and ‘in some respects Ukraine’ Europe live – latest updates The chief economist at Russia’s second largest bank has been fired after a series of critical comments about the state of the economy, including warnings that Moscow would not win a prolonged economic war with Ukraine. Andrei Klepach, who had served in the role at the state-controlled development bank VEB since 2014, was fired days after Russian media reported on a scathing speech he had delivered to fellow economists in May. Continue reading...",
-      "published_at": "2026-08-17T10:29:58+00:00",
-      "updated_at": "2026-08-17T10:29:58+00:00",
-      "effective_at": "2026-08-17T10:29:58+00:00",
+      "summary": "More than 670,000 French taxpayers are being notified after their personal and tax information was stolen and allegedly offered online. Authorities warn the data could be used for scams and identity fraud, while Prime Minister Sébastien Lecornu is holding a meeting on the digital security of government institutions.",
+      "published_at": "2026-08-17T10:50:34+00:00",
+      "updated_at": "2026-08-17T10:50:34+00:00",
+      "effective_at": "2026-08-17T10:50:34+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
+      "category": "politics",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "economy",
+      "sector": "geopolitics",
+      "subsector": "politics",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "andrei",
-        "china",
-        "europe",
-        "klepach",
-        "russia",
-        "senior",
-        "ukraine",
-        "us",
-        "veb"
+        "france",
+        "lecornu"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -44,18 +37,18 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "bfc1dc3822dc13e4a75738d8",
-      "importance_score": 51.0,
-      "importance_level": "MEDIUM",
+      "event_id": "371a6fade03f07f9bf3cc196",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 10,
+        "urgency": 7.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 20,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -68,91 +61,79 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 8,
-          "geopolitical": 8,
-          "economic": 4
+          "geopolitical": 4
         }
       },
-      "story_id": "6a4954acee74110163bf1dfbf51b57b194b21da97727c7ced024f0083efd040d",
+      "story_id": "18ded3dab4a595638643553e6e6baffcaa4a02b92a8df4b570ea1d9af22737ba",
       "public_label": "📰 NEWS",
-      "headline": "Senior Russian banker fired after warning over wartime economy",
+      "headline": "French taxpayers warned after personal data stolen in major hack",
       "briefing": {
         "opening": [
-          "Andrei Klepach of VEB said Russia’s economy was falling behind China, US and ‘in some respects Ukraine’ Europe live – latest updates.",
-          "The chief economist at Russia’s second largest bank has been fired after a series of critical comments about the state of the economy, including warnings that Moscow would not win a prolonged economic war with Ukraine."
+          "More than 670,000 French taxpayers are being notified after their personal and tax information was stolen and allegedly offered online.",
+          "Authorities warn the data could be used for scams and identity fraud, while Prime Minister Sébastien Lecornu is holding a meeting on the digital security of government institutions."
         ],
-        "body": [
-          "Andrei Klepach, who had served in the role at the state-controlled development bank VEB since 2014, was fired days after Russian media reported on a scathing speech he had delivered to fellow economists in May."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Russia’s"
-          }
-        ],
+        "body": [],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Andrei Klepach, who had served in the role at the state-controlled development bank VEB since 2014, was fired days after Russian media reported on a scathing speech he had delivered to fellow economists in May.",
-            "source": "The Guardian World",
-            "item_id": "6a4954acee74110163bf1dfbf51b57b194b21da97727c7ced024f0083efd040d",
+            "text": "Authorities warn the data could be used for scams and identity fraud, while Prime Minister Sébastien Lecornu is holding a meeting on the digital security of government institutions.",
+            "source": "France 24",
+            "item_id": "18ded3dab4a595638643553e6e6baffcaa4a02b92a8df4b570ea1d9af22737ba",
             "composed": false
           },
           {
-            "text": "The chief economist at Russia’s second largest bank has been fired after a series of critical comments about the state of the economy, including warnings that Moscow would not win a prolonged economic war with Ukraine.",
-            "source": "The Guardian World",
-            "item_id": "6a4954acee74110163bf1dfbf51b57b194b21da97727c7ced024f0083efd040d",
+            "text": "More than 670,000 French taxpayers are being notified after their personal and tax information was stolen and allegedly offered online.",
+            "source": "France 24",
+            "item_id": "18ded3dab4a595638643553e6e6baffcaa4a02b92a8df4b570ea1d9af22737ba",
             "composed": false
           }
         ],
-        "source": "The Guardian World",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.theguardian.com/world/2026/aug/17/andrei-klepach-russian-banker-fired-warning-economy"
+        "url": "https://www.france24.com/en/french-taxpayers-warned-after-personal-data-stolen-in-major-hack"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "7d852fc053577aa5f69ed2bf735cae0902ba333187c16ce3086d0f413ac0375b",
-      "title": "Preservation order protects 300-year-old oak",
-      "url": "https://www.bbc.co.uk/news/articles/cqjxpvge0w9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Science",
-      "source_category": "science",
+      "id": "ece843cb9ef15e8c7244faf2678b1e742929476e1efa829a0005a8553797a8da",
+      "title": "Pakistan detains 258 foreigners in scam centre raid",
+      "url": "https://www.straitstimes.com/asia/pakistan-detains-258-foreigners-in-scam-centre-raid",
+      "source": "Straits Times Asia",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Asia",
       "discovery": false,
-      "summary": "A more than 300-year-old oak was among six sites given new preservation orders in Devon. West Devon Borough Council said the orders would help safeguard the trees for future generations and protect their benefits. On the list was The Honour Oak on Whitchurch Road in Tavistock, which has previously been described as one of the town's most historically significant trees. Leader of West Devon Borough Council, Councillor Mandy Ewings, said the trees helped \"provide homes for wildlife, support biodiversity, improve air quality and help create the green landscapes that define our borough.\" During the Napoleonic Wars, the Honour Oak marked the boundary beyond which French prisoners of war living in Tavistock on parole were not allowed to travel. The tree was also linked to the 1832 cholera outbreak, with historical records indicating money was deposited there in exchange for food to reduce contact between people. Follow BBC Devon on X, external, Facebook, external and Instagram, external. Send your story ideas to spotlight@bbc.co.uk, external.",
-      "published_at": "2026-08-17T10:40:55+00:00",
-      "updated_at": "2026-08-17T10:40:55+00:00",
-      "effective_at": "2026-08-17T10:40:55+00:00",
+      "summary": "The Pakistan authorities said on Aug 17 they detained 258 foreigners, including 40 Chinese nationals, following a raid on an alleged “scam call centre” in the capital Islamabad. “They were running a scam call centre in Gulberg Green, a housing society on the outskirts of Islamabad,” an official from the Federal Investigation Agency, a Pakistani intelligence service, told AFP. “They came to Pakistan on tourist visas and were not allowed to do what they were doing.” Those detained – including 170 people from Vietnam, as well as nationals from Malaysia and “other Asian countries” – were being held at a Rawalpindi jail. The official said the respective embassies were informed and that details of the allegations against the detainees would be released in the coming days as the investigation was ongoing. Possible outcomes included the deportation of those involved, the official added. Media reports said the foreigners were detained last week. AFP has asked the Chinese foreign ministry for comment on the detentions.",
+      "published_at": "2026-08-17T10:52:00+00:00",
+      "updated_at": "2026-08-17T10:52:00+00:00",
+      "effective_at": "2026-08-17T10:52:00+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "science",
-      "subsector": "science",
-      "subregion": null,
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "bbc",
-        "borough",
-        "councillor",
-        "devon",
-        "ewings",
-        "france",
-        "honour",
-        "instagram",
-        "mandy",
-        "meta",
-        "napoleonic",
-        "oak",
-        "road",
-        "tavistock",
-        "wars",
-        "west",
-        "whitchurch"
+        "afp",
+        "agency",
+        "asian",
+        "aug",
+        "china",
+        "federal",
+        "green",
+        "gulberg",
+        "investigation",
+        "islamabad",
+        "malaysia",
+        "pakistan",
+        "pakistani",
+        "rawalpindi",
+        "vietnam"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -162,28 +143,28 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "A more than 300-year-old oak was among six sites given new preservation orders in Devon.",
-        "West Devon Borough Council said the orders would help safeguard the trees for future generations and protect their benefits.",
-        "On the list was The Honour Oak on Whitchurch Road in Tavistock, which has previously been described as one of the town's most historically significant trees.",
-        "Leader of West Devon Borough Council, Councillor Mandy Ewings, said the trees helped \"provide homes for wildlife, support biodiversity, improve air quality and help create the green landscapes that define our borough.\"",
-        "During the Napoleonic Wars, the Honour Oak marked the boundary beyond which French prisoners of war living in Tavistock on parole were not allowed to travel.",
-        "The tree was also linked to the 1832 cholera outbreak, with historical records indicating money was deposited there in exchange for food to reduce contact between people.",
-        "Follow BBC Devon on X, external, Facebook, external and Instagram, external.",
-        "Send your story ideas to spotlight@bbc.co.uk, external."
+        "The Pakistan authorities said on Aug 17 they detained 258 foreigners, including 40 Chinese nationals, following a raid on an alleged “scam call centre” in the capital Islamabad.",
+        "“They were running a scam call centre in Gulberg Green, a housing society on the outskirts of Islamabad,” an official from the Federal Investigation Agency, a Pakistani intelligence service, told AFP.",
+        "“They came to Pakistan on tourist visas and were not allowed to do what they were doing.”",
+        "Those detained – including 170 people from Vietnam, as well as nationals from Malaysia and “other Asian countries” – were being held at a Rawalpindi jail.",
+        "The official said the respective embassies were informed and that details of the allegations against the detainees would be released in the coming days as the investigation was ongoing.",
+        "Possible outcomes included the deportation of those involved, the official added.",
+        "Media reports said the foreigners were detained last week.",
+        "AFP has asked the Chinese foreign ministry for comment on the detentions."
       ],
       "event_status": "NEW",
-      "event_id": "840599a32c23c00d9331c224",
-      "importance_score": 50.0,
-      "importance_level": "MEDIUM",
+      "event_id": "e01022eae30df5ca755204b6",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 24,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -196,100 +177,102 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 8,
-          "security": 8,
-          "geopolitical": 8
+          "security": 4
         }
       },
-      "story_id": "7d852fc053577aa5f69ed2bf735cae0902ba333187c16ce3086d0f413ac0375b",
+      "story_id": "ece843cb9ef15e8c7244faf2678b1e742929476e1efa829a0005a8553797a8da",
       "public_label": "📰 NEWS",
-      "headline": "Preservation order protects 300-year-old oak",
+      "headline": "Pakistan detains 258 foreigners in scam centre raid",
       "briefing": {
         "opening": [
-          "A more than 300-year-old oak was among six sites given new preservation orders in Devon.",
-          "West Devon Borough Council said the orders would help safeguard the trees for future generations and protect their benefits."
+          "The Pakistan authorities said on Aug 17 they detained 258 foreigners, including 40 Chinese nationals, following a raid on an alleged “scam call centre” in the capital Islamabad.",
+          "“They were running a scam call centre in Gulberg Green, a housing society on the outskirts of Islamabad,” an official from the Federal Investigation Agency, a Pakistani intelligence service, told AFP."
         ],
         "body": [
-          "On the list was The Honour Oak on Whitchurch Road in Tavistock, which has previously been described as one of the town's most historically significant trees.",
-          "Leader of West Devon Borough Council, Councillor Mandy Ewings, said the trees helped \"provide homes for wildlife, support biodiversity, improve air quality and help create the green landscapes that define our borough.\" During the Napoleonic Wars, the Honour Oak marked the boundary beyond which French prisoners of war living in Tavistock on parole were not allowed to travel.",
-          "The tree was also linked to the 1832 cholera outbreak, with historical records indicating money was deposited there in exchange for food to reduce contact between people.",
-          "Follow BBC Devon on X, external, Facebook, external and Instagram, external.",
-          "Send your story ideas to spotlight@bbc.co.uk, external."
+          "“They came to Pakistan on tourist visas and were not allowed to do what they were doing.” Those detained – including 170 people from Vietnam, as well as nationals from Malaysia and “other Asian countries” – were being held at a Rawalpindi jail.",
+          "The official said the respective embassies were informed and that details of the allegations against the detainees would be released in the coming days as the investigation was ongoing.",
+          "Possible outcomes included the deportation of those involved, the official added.",
+          "Media reports said the foreigners were detained last week.",
+          "AFP has asked the Chinese foreign ministry for comment on the detentions."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Devon"
+            "text": "Gulberg Green"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "170 people"
           }
         ],
         "sentences": [
           {
-            "text": "West Devon Borough Council said the orders would help safeguard the trees for future generations and protect their benefits.",
-            "source": "BBC Science",
-            "item_id": "7d852fc053577aa5f69ed2bf735cae0902ba333187c16ce3086d0f413ac0375b:article",
+            "text": "Those detained – including 170 people from Vietnam, as well as nationals from Malaysia and “other Asian countries” – were being held at a Rawalpindi jail.",
+            "source": "Straits Times Asia",
+            "item_id": "ece843cb9ef15e8c7244faf2678b1e742929476e1efa829a0005a8553797a8da:article",
             "composed": false
           },
           {
-            "text": "A more than 300-year-old oak was among six sites given new preservation orders in Devon.",
-            "source": "BBC Science",
-            "item_id": "7d852fc053577aa5f69ed2bf735cae0902ba333187c16ce3086d0f413ac0375b:article",
+            "text": "AFP has asked the Chinese foreign ministry for comment on the detentions.",
+            "source": "Straits Times Asia",
+            "item_id": "ece843cb9ef15e8c7244faf2678b1e742929476e1efa829a0005a8553797a8da:article",
             "composed": false
           },
           {
-            "text": "On the list was The Honour Oak on Whitchurch Road in Tavistock, which has previously been described as one of the town's most historically significant trees.",
-            "source": "BBC Science",
-            "item_id": "7d852fc053577aa5f69ed2bf735cae0902ba333187c16ce3086d0f413ac0375b:article",
+            "text": "The Pakistan authorities said on Aug 17 they detained 258 foreigners, including 40 Chinese nationals, following a raid on an alleged “scam call centre” in the capital Islamabad.",
+            "source": "Straits Times Asia",
+            "item_id": "ece843cb9ef15e8c7244faf2678b1e742929476e1efa829a0005a8553797a8da:article",
             "composed": false
           },
           {
-            "text": "During the Napoleonic Wars, the Honour Oak marked the boundary beyond which French prisoners of war living in Tavistock on parole were not allowed to travel.",
-            "source": "BBC Science",
-            "item_id": "7d852fc053577aa5f69ed2bf735cae0902ba333187c16ce3086d0f413ac0375b:article",
+            "text": "“They were running a scam call centre in Gulberg Green, a housing society on the outskirts of Islamabad,” an official from the Federal Investigation Agency, a Pakistani intelligence service, told AFP.",
+            "source": "Straits Times Asia",
+            "item_id": "ece843cb9ef15e8c7244faf2678b1e742929476e1efa829a0005a8553797a8da:article",
             "composed": false
           }
         ],
-        "source": "BBC Science",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/cqjxpvge0w9o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.straitstimes.com/asia/pakistan-detains-258-foreigners-in-scam-centre-raid"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "191fabe32157e3a2f4a9352a47c41c38a760b88e0b00d329f5c60244aa999417",
-      "title": "Effectiveness of Knyaz Vandal drone rises 2.5-fold — Ushkuynik Center",
-      "url": "https://tass.com/defense/2174127",
-      "source": "TASS English",
+      "id": "35cf45e38fa0d64f4a3d778af60ce947715a94c18e87872d057f7926ada1391e",
+      "title": "Cop17 aims to restore land and hope in fight against desertification",
+      "url": "https://www.rfi.fr/en/environment/20260817-cop17-aims-to-restore-land-and-hope-in-fight-against-desertification",
+      "source": "RFI English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Asia",
       "discovery": false,
-      "summary": "CEO of the Ushkuynik Research and Production Center Alexey Chadayev also mentioned the Knyaz Veshchy Oleg reconnaissance drone which is radio-controlled and has good communication capabilities",
-      "published_at": "2026-08-17T10:40:21+00:00",
-      "updated_at": "2026-08-17T10:40:21+00:00",
-      "effective_at": "2026-08-17T10:40:21+00:00",
+      "summary": "Extreme weather across much of Europe and elsewhere is lending added weight to the United Nations Convention to Combat Desertification (Cop17), which begins on Monday in Mongolia. RFI looks at what's at stake worldwide.",
+      "published_at": "2026-08-17T10:52:37+00:00",
+      "updated_at": "2026-08-17T10:52:37+00:00",
+      "effective_at": "2026-08-17T10:52:37+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
+      "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "geopolitics",
-      "subsector": "defense",
-      "subregion": null,
+      "subsector": "conflict",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "alexey",
-        "center",
-        "chadayev",
-        "knyaz",
-        "oleg",
-        "production",
-        "research",
-        "ushkuynik",
-        "vandal",
-        "veshchy"
+        "combat",
+        "convention",
+        "cop17",
+        "desertification",
+        "europe",
+        "extreme",
+        "mongolia",
+        "nations",
+        "united"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -299,149 +282,15 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "5953a9b27afa9dd1f768df71",
-      "importance_score": 35.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "security": 4,
-          "scientific": 4
-        }
-      },
-      "story_id": "191fabe32157e3a2f4a9352a47c41c38a760b88e0b00d329f5c60244aa999417",
-      "article_sentences": [
-        "MOSCOW, August 17.",
-        "The use of the Knyaz Vandal of Novgorod (KVN) fiber-optic FPV drone in conjunction with the Knyaz Veshchy Oleg reconnaissance drone has boosted its effectiveness by 2.5 times, CEO of the Ushkuynik Research and Production Center Alexey Chadayev told TASS.",
-        "\"New products have emerged that help increase the effectiveness of the Knyaz Vandal.",
-        "First and foremost, this is the Knyaz Veshchy Oleg reconnaissance drone.",
-        "It is radio-controlled, has good communication capabilities, and is the most affordable in its class.",
-        "This drone has already become a favorite among Russian drone operators and is widely used, which means it has a direct impact on the effectiveness of the Knyaz Vandal.",
-        "\"Because when a reconnaissance drone hovers above the Knyaz Vandal and its operator informs the strike drone’s operator where to fly, this makes the strike drone 2.5 times more effective compared to when it is simply on a free hunt,\" Chadayev stated.",
-        "The expert also discussed the combat use of the latest loitering munition, the Knyaz Vladimir Svyatoslavovich, with a range of over 50 km.",
-        "\"Currently, this drone is actively being used to produce an effect similar to the one the enemy achieved with Hornet drones on the Mariupol-Melitopol highway.",
-        "The Knyaz Vladimir Svyatoslavovich is used precisely for these purposes at comparable ranges.",
-        "It is still too early to discuss statistics of these operations,\" Chadayev emphasized.",
-        "The Knyaz Vandal fiber-optic FPV drone, developed by the Ushkuynik Research and Production Center, was first used in August 2024, after the Ukrainian armed forces launched an incursion into Russia’s Kursk Region."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Effectiveness of Knyaz Vandal drone rises 2.5-fold — Ushkuynik Center",
-      "briefing": {
-        "opening": [
-          "MOSCOW, August 17.",
-          "The use of the Knyaz Vandal of Novgorod (KVN) fiber-optic FPV drone in conjunction with the Knyaz Veshchy Oleg reconnaissance drone has boosted its effectiveness by 2.5 times, CEO of the Ushkuynik Research and Production Center Alexey Chadayev told TASS."
-        ],
-        "body": [
-          "\"New products have emerged that help increase the effectiveness of the Knyaz Vandal.",
-          "First and foremost, this is the Knyaz Veshchy Oleg reconnaissance drone.",
-          "It is radio-controlled, has good communication capabilities, and is the most affordable in its class.",
-          "This drone has already become a favorite among Russian drone operators and is widely used, which means it has a direct impact on the effectiveness of the Knyaz Vandal.",
-          "\"Because when a reconnaissance drone hovers above the Knyaz Vandal and its operator informs the strike drone’s operator where to fly, this makes the strike drone 2.5 times more effective compared to when it is simply on a free hunt,\" Chadayev stated.",
-          "The expert also discussed the combat use of the latest loitering munition, the Knyaz Vladimir Svyatoslavovich, with a range of over 50 km.",
-          "\"Currently, this drone is actively being used to produce an effect similar to the one the enemy achieved with Hornet drones on the Mariupol-Melitopol highway.",
-          "The Knyaz Vladimir Svyatoslavovich is used precisely for these purposes at comparable ranges."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "MOSCOW, August 17.",
-            "source": "TASS English",
-            "item_id": "191fabe32157e3a2f4a9352a47c41c38a760b88e0b00d329f5c60244aa999417:article",
-            "composed": false
-          },
-          {
-            "text": "The use of the Knyaz Vandal of Novgorod (KVN) fiber-optic FPV drone in conjunction with the Knyaz Veshchy Oleg reconnaissance drone has boosted its effectiveness by 2.5 times, CEO of the Ushkuynik Research and Production Center Alexey Chadayev told TASS.",
-            "source": "TASS English",
-            "item_id": "191fabe32157e3a2f4a9352a47c41c38a760b88e0b00d329f5c60244aa999417:article",
-            "composed": false
-          },
-          {
-            "text": "\"Because when a reconnaissance drone hovers above the Knyaz Vandal and its operator informs the strike drone’s operator where to fly, this makes the strike drone 2.5 times more effective compared to when it is simply on a free hunt,\" Chadayev stated.",
-            "source": "TASS English",
-            "item_id": "191fabe32157e3a2f4a9352a47c41c38a760b88e0b00d329f5c60244aa999417:article",
-            "composed": false
-          },
-          {
-            "text": "The expert also discussed the combat use of the latest loitering munition, the Knyaz Vladimir Svyatoslavovich, with a range of over 50 km.",
-            "source": "TASS English",
-            "item_id": "191fabe32157e3a2f4a9352a47c41c38a760b88e0b00d329f5c60244aa999417:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/defense/2174127"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "c480d808aea70052b76588125cbe69aa30856ef7d65930276237a5f640accf73",
-      "title": "Witkoff, Kushner may bring new proposals on Ukraine to Moscow — expert",
-      "url": "https://tass.com/politics/2174131",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "Oleg Karpovich views the upcoming visit as an effort by the Trump administration to actively participate in resolving the conflict in Ukraine",
-      "published_at": "2026-08-17T10:46:45+00:00",
-      "updated_at": "2026-08-17T10:46:45+00:00",
-      "effective_at": "2026-08-17T10:46:45+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "diplomacy",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "karpovich",
-        "kushner",
-        "oleg",
-        "russia",
-        "trump",
-        "ukraine",
-        "witkoff"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "2c31edb750126d3f7241c235",
-      "importance_score": 28.0,
+      "event_id": "1b7b7078c39c61c3245eb3c3",
+      "importance_score": 31.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -458,68 +307,39 @@
         },
         "significance_dims": {}
       },
-      "story_id": "c480d808aea70052b76588125cbe69aa30856ef7d65930276237a5f640accf73",
-      "article_sentences": [
-        "MOSCOW, August 17.",
-        "US President Donald Trump's special envoy, Steve Witkoff, along with Jared Kushner, the president’s son-in-law, are expected to arrive in Moscow equipped with tangible proposals for resolving the Ukrainian crisis, according to Oleg Karpovich, head of a department at the Diplomatic Academy of the Moscow State Institute of International Relations (MGIMO) and a corresponding member of the Russian Academy of Education, speaking to TASS.",
-        "\"Witkoff and Kushner will not come empty-handed; they are bringing specific ideas,\" Karpovich emphasized.",
-        "\"Their visit would be pointless without concrete proposals.",
-        "They are serving as intermediaries, engaged in shuttle diplomacy.\"",
-        "He views the upcoming visit as an effort by the Trump administration to actively participate in resolving the conflict in Ukraine.",
-        "\"There are various factions within Trump's circle.",
-        "Some favor normalizing relations with Russia, while others oppose Russia and support Ukraine,\" Karpovich explained.",
-        "\"This internal struggle within the administration accounts for the differing stances of President Trump and Secretary of State Marco Rubio.\"",
-        "Regarding Russia’s stance, Karpovich reaffirmed that Moscow's position is clear.",
-        "\"President Vladimir Putin has stated that the root causes of the Ukrainian conflict must be addressed.",
-        "The original objectives of the special military operation remain unchanged - they must be achieved.\""
-      ],
+      "story_id": "35cf45e38fa0d64f4a3d778af60ce947715a94c18e87872d057f7926ada1391e",
       "public_label": "📰 NEWS",
-      "headline": "Witkoff, Kushner may bring new proposals on Ukraine to Moscow — expert",
+      "headline": "Cop17 aims to restore land and hope in fight against desertification",
       "briefing": {
         "opening": [
-          "MOSCOW, August 17.",
-          "US President Donald Trump's special envoy, Steve Witkoff, along with Jared Kushner, the president’s son-in-law, are expected to arrive in Moscow equipped with tangible proposals for resolving the Ukrainian crisis, according to Oleg Karpovich, head of a department at the Diplomatic Academy of the Moscow State Institute of International Relations (MGIMO) and a corresponding member of the Russian Academy of Education, speaking to TASS."
+          "Extreme weather across much of Europe and elsewhere is lending added weight to the United Nations Convention to Combat Desertification (Cop17), which begins on Monday in Mongolia.",
+          "RFI looks at what's at stake worldwide."
         ],
-        "body": [
-          "\"Witkoff and Kushner will not come empty-handed; they are bringing specific ideas,\" Karpovich emphasized.",
-          "\"Their visit would be pointless without concrete proposals.",
-          "They are serving as intermediaries, engaged in shuttle diplomacy.\" He views the upcoming visit as an effort by the Trump administration to actively participate in resolving the conflict in Ukraine.",
-          "\"There are various factions within Trump's circle.",
-          "Some favor normalizing relations with Russia, while others oppose Russia and support Ukraine,\" Karpovich explained.",
-          "\"This internal struggle within the administration accounts for the differing stances of President Trump and Secretary of State Marco Rubio.\" Regarding Russia’s stance, Karpovich reaffirmed that Moscow's position is clear.",
-          "\"President Vladimir Putin has stated that the root causes of the Ukrainian conflict must be addressed.",
-          "The original objectives of the special military operation remain unchanged - they must be achieved.\""
-        ],
+        "body": [],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Moscow"
+            "text": "Mongolia"
           }
         ],
         "sentences": [
           {
-            "text": "MOSCOW, August 17.",
-            "source": "TASS English",
-            "item_id": "c480d808aea70052b76588125cbe69aa30856ef7d65930276237a5f640accf73:article",
+            "text": "RFI looks at what's at stake worldwide.",
+            "source": "RFI English",
+            "item_id": "35cf45e38fa0d64f4a3d778af60ce947715a94c18e87872d057f7926ada1391e",
             "composed": false
           },
           {
-            "text": "US President Donald Trump's special envoy, Steve Witkoff, along with Jared Kushner, the president’s son-in-law, are expected to arrive in Moscow equipped with tangible proposals for resolving the Ukrainian crisis, according to Oleg Karpovich, head of a department at the Diplomatic Academy of the Moscow State Institute of International Relations (MGIMO) and a corresponding member of the Russian Academy of Education, speaking to TASS.",
-            "source": "TASS English",
-            "item_id": "c480d808aea70052b76588125cbe69aa30856ef7d65930276237a5f640accf73:article",
-            "composed": false
-          },
-          {
-            "text": "He views the upcoming visit as an effort by the Trump administration to actively participate in resolving the conflict in Ukraine.",
-            "source": "TASS English",
-            "item_id": "c480d808aea70052b76588125cbe69aa30856ef7d65930276237a5f640accf73:article",
+            "text": "Extreme weather across much of Europe and elsewhere is lending added weight to the United Nations Convention to Combat Desertification (Cop17), which begins on Monday in Mongolia.",
+            "source": "RFI English",
+            "item_id": "35cf45e38fa0d64f4a3d778af60ce947715a94c18e87872d057f7926ada1391e",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "RFI English",
         "corroborating": [],
-        "url": "https://tass.com/politics/2174131"
+        "url": "https://www.rfi.fr/en/environment/20260817-cop17-aims-to-restore-land-and-hope-in-fight-against-desertification"
       },
       "group_size": 1,
       "label": "📰 NEWS"
