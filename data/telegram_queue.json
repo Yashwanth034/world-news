@@ -1,64 +1,78 @@
 {
-  "generated_at": "2026-08-18T06:50:43.684549+00:00",
-  "count": 1,
+  "generated_at": "2026-08-18T07:01:13.981961+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "8dd5fb7db9397b9f1b9022145217bbf80ba027953f17baabec6ddff84743c09e",
-      "title": "Trump leans on India’s election playbook in push to change how Americans vote",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3364400/trump-leans-indias-election-playbook-push-change-how-americans-vote?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "94b62f729c45c13f8e16738d342a55677dd5441c31e89d17d4f479ddb1c8de31",
+      "title": "Vessel hit by ‘unknown projectile’ in Strait of Hormuz, UKMTO says",
+      "url": "https://www.aljazeera.com/news/2026/8/18/vessel-hit-by-unknown-projectile-in-strait-of-hormuz-ukmto-says?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "US President Donald Trump cited India’s election system as a model for the US, bringing the world’s largest democracy into a contentious American debate over voter access and election security. Trump said the identification requirements make elections secure and pressed Congress to pass the SAVE America Act, which would require proof of citizenship to register for federal elections and photo identification to vote. The measure has stalled in the Senate as Trump and his Republican allies push for...",
-      "published_at": "2026-08-18T06:49:55+00:00",
-      "updated_at": "2026-08-18T06:49:55+00:00",
-      "effective_at": "2026-08-18T06:49:55+00:00",
+      "summary": "British maritime agency says the incident caused one casualty and damaged the vessel’s engine room. A vessel has been struck by an “unknown projectile” while transiting the Strait of Hormuz, causing damage to the engine room and resulting in a crew casualty, the United Kingdom Maritime Trade Operations (UKMTO) said. The vessel’s company security officer reported the strike to UKMTO early on Tuesday, saying the Omani coastguard was assisting the remaining crew. The British maritime agency said no environmental impact has been reported so far, and authorities are now investigating the incident, including who or what was responsible. UKMTO advised vessels transiting the strait to exercise caution and to report any suspicious activity. The incident comes as shipping through the Strait of Hormuz remains severely disrupted, with daily vessel crossings in the single digits, down from more than 130 a day before the United States and Israel launched the war on Iran — and as tensions over control of the waterway remain high. Iran effectively blocked the strait after the war began on February 28, frequently attacking commercial ships, and says it wants to charge users for passage. A memorandum of understanding between the US and Iran aimed at easing hostilities and unblocking the waterway expired on Monday, while Iran and Oman continue separate talks on future navigation arrangements through the strait.",
+      "published_at": "2026-08-18T06:35:43+00:00",
+      "updated_at": "2026-08-18T06:35:43+00:00",
+      "effective_at": "2026-08-18T06:35:43+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "South Asia",
+      "sector": "transport",
+      "subsector": "shipping",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "act",
-        "america",
-        "american",
-        "americans",
-        "congress",
-        "donald",
-        "india",
-        "republican",
-        "save",
-        "senate",
-        "trump",
+        "hormuz",
+        "iran",
+        "israel",
+        "maritime",
+        "oman",
+        "omani",
+        "operations",
+        "strait",
+        "trade",
+        "uk",
+        "ukmto",
+        "united_kingdom",
+        "united_states",
         "us"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Middle East Eye"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 68,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "British maritime agency says the incident caused one casualty and damaged the vessel’s engine room.",
+        "A vessel has been struck by an “unknown projectile” while transiting the Strait of Hormuz, causing damage to the engine room and resulting in a crew casualty, the United Kingdom Maritime Trade Operations (UKMTO) said.",
+        "The vessel’s company security officer reported the strike to UKMTO early on Tuesday, saying the Omani coastguard was assisting the remaining crew.",
+        "The British maritime agency said no environmental impact has been reported so far, and authorities are now investigating the incident, including who or what was responsible.",
+        "UKMTO advised vessels transiting the strait to exercise caution and to report any suspicious activity.",
+        "The incident comes as shipping through the Strait of Hormuz remains severely disrupted, with daily vessel crossings in the single digits, down from more than 130 a day before the United States and Israel launched the war on Iran — and as tensions over control of the waterway remain high.",
+        "Iran effectively blocked the strait after the war began on February 28, frequently attacking commercial ships, and says it wants to charge users for passage.",
+        "A memorandum of understanding between the US and Iran aimed at easing hostilities and unblocking the waterway expired on Monday, while Iran and Oman continue separate talks on future navigation arrangements through the strait."
+      ],
       "event_status": "UPDATE",
-      "event_id": "f6425a65c38ffbf12e170a6f",
-      "importance_score": 30.0,
-      "importance_level": "LOW",
+      "event_id": "fa86dd37ce1dc5db677404a5",
+      "importance_score": 50.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 8.0,
+        "urgency": 8.0,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
+        "corroboration": 6,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -71,41 +85,168 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4
+          "security": 8,
+          "geopolitical": 8
         }
       },
-      "story_id": "8dd5fb7db9397b9f1b9022145217bbf80ba027953f17baabec6ddff84743c09e",
+      "story_id": "94b62f729c45c13f8e16738d342a55677dd5441c31e89d17d4f479ddb1c8de31",
       "public_label": "🔄 UPDATE",
-      "headline": "Trump leans on India’s election playbook in push to change how Americans vote",
+      "headline": "Vessel hit by ‘unknown projectile’ in Strait of Hormuz, UKMTO says",
       "briefing": {
         "opening": [
-          "US President Donald Trump cited India’s election system as a model for the US, bringing the world’s largest democracy into a contentious American debate over voter access and election security.",
-          "Trump said the identification requirements make elections secure and pressed Congress to pass the SAVE America Act, which would require proof of citizenship to register for federal elections and photo identification to vote."
+          "British maritime agency says the incident caused one casualty and damaged the vessel’s engine room.",
+          "A vessel has been struck by an “unknown projectile” while transiting the Strait of Hormuz, causing damage to the engine room and resulting in a crew casualty, the United Kingdom Maritime Trade Operations (UKMTO) said."
         ],
         "body": [
-          "The measure has stalled in the Senate as Trump and his Republican allies push for..."
+          "The vessel’s company security officer reported the strike to UKMTO early on Tuesday, saying the Omani coastguard was assisting the remaining crew.",
+          "The British maritime agency said no environmental impact has been reported so far, and authorities are now investigating the incident, including who or what was responsible.",
+          "UKMTO advised vessels transiting the strait to exercise caution and to report any suspicious activity.",
+          "The incident comes as shipping through the Strait of Hormuz remains severely disrupted, with daily vessel crossings in the single digits, down from more than 130 a day before the United States and Israel launched the war on Iran — and as tensions over control of the waterway remain high.",
+          "Iran effectively blocked the strait after the war began on February 28, frequently attacking commercial ships, and says it wants to charge users for passage.",
+          "A memorandum of understanding between the US and Iran aimed at easing hostilities and unblocking the waterway expired on Monday, while Iran and Oman continue separate talks on future navigation arrangements through the strait."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Trump said the identification requirements make elections secure and pressed Congress to pass the SAVE America Act, which would require proof of citizenship to register for federal elections and photo identification to vote.",
-            "source": "South China Morning Post",
-            "item_id": "8dd5fb7db9397b9f1b9022145217bbf80ba027953f17baabec6ddff84743c09e",
+            "text": "British maritime agency says the incident caused one casualty and damaged the vessel’s engine room.",
+            "source": "Al Jazeera",
+            "item_id": "94b62f729c45c13f8e16738d342a55677dd5441c31e89d17d4f479ddb1c8de31:article",
             "composed": false
           },
           {
-            "text": "US President Donald Trump cited India’s election system as a model for the US, bringing the world’s largest democracy into a contentious American debate over voter access and election security.",
-            "source": "South China Morning Post",
-            "item_id": "8dd5fb7db9397b9f1b9022145217bbf80ba027953f17baabec6ddff84743c09e",
+            "text": "Iran effectively blocked the strait after the war began on February 28, frequently attacking commercial ships, and says it wants to charge users for passage.",
+            "source": "Al Jazeera",
+            "item_id": "94b62f729c45c13f8e16738d342a55677dd5441c31e89d17d4f479ddb1c8de31:article",
+            "composed": false
+          },
+          {
+            "text": "The incident comes as shipping through the Strait of Hormuz remains severely disrupted, with daily vessel crossings in the single digits, down from more than 130 a day before the United States and Israel launched the war on Iran — and as tensions over control of the waterway remain high.",
+            "source": "Al Jazeera",
+            "item_id": "94b62f729c45c13f8e16738d342a55677dd5441c31e89d17d4f479ddb1c8de31:article",
+            "composed": false
+          },
+          {
+            "text": "The vessel’s company security officer reported the strike to UKMTO early on Tuesday, saying the Omani coastguard was assisting the remaining crew.",
+            "source": "Al Jazeera",
+            "item_id": "94b62f729c45c13f8e16738d342a55677dd5441c31e89d17d4f479ddb1c8de31:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3364400/trump-leans-indias-election-playbook-push-change-how-americans-vote?utm_source=rss_feed"
+        "url": "https://www.aljazeera.com/news/2026/8/18/vessel-hit-by-unknown-projectile-in-strait-of-hormuz-ukmto-says?traffic_source=rss"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
+    },
+    {
+      "id": "84fb713edef8e653cf1af38603e413c70bf9eb81da5bc0fc6aece74da2fb0c25",
+      "title": "Argentina's vice-president says she is \"extremely worried\" about those who cannot make ends meet",
+      "url": "https://en.mercopress.com/2026/08/18/argentina-s-vice-president-says-she-is-extremely-worried-about-those-who-cannot-make-ends-meet?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "South America",
+      "discovery": false,
+      "summary": "Argentina's vice-president, Victoria Villarruel, has again distanced herself from Javier Milei's government, voicing concern over unemployment and the financial difficulties facing households. \"I am extremely worried about Argentines who today have no work or who cannot make ends meet,\" she said at the opening of Expo Venado 2026, an agricultural fair in Venado Tuerto, Santa Fe province.",
+      "published_at": "2026-08-18T06:52:00+00:00",
+      "updated_at": "2026-08-18T06:52:00+00:00",
+      "effective_at": "2026-08-18T06:52:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "South America",
+      "country": null,
+      "entities": [
+        "argentina",
+        "argentines",
+        "expo",
+        "fe",
+        "javier",
+        "milei",
+        "santa",
+        "tuerto",
+        "venado",
+        "victoria",
+        "villarruel"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "6cafcc9d115b13a78905b971",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "economic": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "84fb713edef8e653cf1af38603e413c70bf9eb81da5bc0fc6aece74da2fb0c25",
+      "public_label": "📰 NEWS",
+      "headline": "Argentina's vice-president says she is \"extremely worried\" about those who cannot make ends meet",
+      "briefing": {
+        "opening": [
+          "Argentina's vice-president, Victoria Villarruel, has again distanced herself from Javier Milei's government, voicing concern over unemployment and the financial difficulties facing households.",
+          "\"I am extremely worried about Argentines who today have no work or who cannot make ends meet,\" she said at the opening of Expo Venado 2026, an agricultural fair in Venado Tuerto, Santa Fe province."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Venado Tuerto"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "\"I am extremely worried about Argentines who today have no work or who cannot make ends meet,\" she said at the opening of Expo Venado 2026, an agricultural fair in Venado Tuerto, Santa Fe province.",
+            "source": "MercoPress",
+            "item_id": "84fb713edef8e653cf1af38603e413c70bf9eb81da5bc0fc6aece74da2fb0c25",
+            "composed": false
+          },
+          {
+            "text": "Argentina's vice-president, Victoria Villarruel, has again distanced herself from Javier Milei's government, voicing concern over unemployment and the financial difficulties facing households.",
+            "source": "MercoPress",
+            "item_id": "84fb713edef8e653cf1af38603e413c70bf9eb81da5bc0fc6aece74da2fb0c25",
+            "composed": false
+          }
+        ],
+        "source": "MercoPress",
+        "corroborating": [],
+        "url": "https://en.mercopress.com/2026/08/18/argentina-s-vice-president-says-she-is-extremely-worried-about-those-who-cannot-make-ends-meet?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
     }
   ]
 }
