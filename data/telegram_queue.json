@@ -1,38 +1,46 @@
 {
-  "generated_at": "2026-08-18T20:38:46.109120+00:00",
+  "generated_at": "2026-08-18T20:42:23.009209+00:00",
   "count": 2,
   "stories": [
     {
-      "id": "2f6b51f7047b7b027770f10e9aa3c52976d9cd0fd2d3ff147f08d9dc10e5e42b",
-      "title": "UAE cuts off trade with Iran until further notice",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-cuts-trade-iran-until-further-notice",
-      "source": "Middle East Eye",
+      "id": "773e38fa236ca48570dbee3d9680efd70cddf9ba191b6b94d74f82f6cb2145ff",
+      "title": "Death toll from earthquake in Colombia exceeds 300",
+      "url": "https://tass.com/emergencies/2174869",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "South America",
       "discovery": false,
-      "summary": "UAE cuts off trade with Iran until further notice The UAE said on Tuesday that all trade, commercial exchanges and financial transations with Iran have been halted until further notice, according to a statement from the country's foreign ministry. The statement added that the decision comes in light of Iran's regional escalation that \"undermine regional and international peace and security\". The UAE's defence ministry also posted on X on Tuesday that the two ballistic missiles launched earlier from Iran into its territory were targeting maritime traffic and fell into the sea. The Ministry of Defence announced that assessments revealed the two ballistic missiles detected, originating from Ira",
-      "published_at": "2026-08-18T20:30:59+00:00",
-      "updated_at": "2026-08-18T20:30:59+00:00",
-      "effective_at": "2026-08-18T20:30:59+00:00",
+      "summary": "BUENOS AIRES, August 18. The death toll from the devastating earthquake in western Colombia has climbed to 304, with 426 people being missing, the National Unit for Disaster Risk Management (UNGRD) said. \"As many as 304 people died, 4,548 were injured, 426 are reported missing, 356 have been rescued,\" it said. According to the latest official update, as many as 29,554 houses were ruined and 134,342 buildings were damaged. A magnitude 7.4 earthquake struck near the city of San Jose del Palmar in the Choco department on August 10.",
+      "published_at": "2026-08-18T20:38:50+00:00",
+      "updated_at": "2026-08-18T20:38:50+00:00",
+      "effective_at": "2026-08-18T20:38:50+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 73,
+      "category": "world",
+      "score": 68,
       "confidence": "medium",
       "urgency_terms": [
-        "missile"
+        "earthquake"
       ],
-      "sector": "economy",
-      "subsector": "trade",
-      "subregion": "West Asia / Middle East",
+      "sector": "climate",
+      "subsector": "earthquakes",
+      "subregion": "South America",
       "country": null,
       "entities": [
-        "defence",
-        "ira",
-        "iran",
-        "ministry",
-        "uae"
+        "aires",
+        "buenos",
+        "choco",
+        "colombia",
+        "disaster",
+        "jose",
+        "management",
+        "national",
+        "palmar",
+        "risk",
+        "san",
+        "ungrd",
+        "unit"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -41,19 +49,144 @@
       "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "BUENOS AIRES, August 18.",
+        "The death toll from the devastating earthquake in western Colombia has climbed to 304, with 426 people being missing, the National Unit for Disaster Risk Management (UNGRD) said.",
+        "\"As many as 304 people died, 4,548 were injured, 426 are reported missing, 356 have been rescued,\" it said.",
+        "According to the latest official update, as many as 29,554 houses were ruined and 134,342 buildings were damaged.",
+        "A magnitude 7.4 earthquake struck near the city of San Jose del Palmar in the Choco department on August 10."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "3f57813b37ce6b78ae2a905d",
+      "importance_score": 88.0,
+      "importance_level": "CRITICAL",
+      "importance_breakdown": {
+        "impact": 34,
+        "urgency": 10,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 24,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 7.4,
+          "dead": 4548,
+          "injured": 4548,
+          "displaced": 0,
+          "missing": 4548,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "scientific": 8,
+          "human": 12,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "773e38fa236ca48570dbee3d9680efd70cddf9ba191b6b94d74f82f6cb2145ff",
+      "public_label": "🔄 UPDATE",
+      "headline": "Death toll from earthquake in Colombia exceeds 300",
+      "briefing": {
+        "opening": [
+          "BUENOS AIRES, August 18.",
+          "The death toll from the devastating earthquake in western Colombia has climbed to 304, with 426 people being missing, the National Unit for Disaster Risk Management (UNGRD) said."
+        ],
+        "body": [
+          "\"As many as 304 people died, 4,548 were injured, 426 are reported missing, 356 have been rescued,\" it said.",
+          "According to the latest official update, as many as 29,554 houses were ruined and 134,342 buildings were damaged.",
+          "A magnitude 7.4 earthquake struck near the city of San Jose del Palmar in the Choco department on August 10."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "426 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A magnitude 7.4 earthquake struck near the city of San Jose del Palmar in the Choco department on August 10.",
+            "source": "TASS English",
+            "item_id": "773e38fa236ca48570dbee3d9680efd70cddf9ba191b6b94d74f82f6cb2145ff:article",
+            "composed": false
+          },
+          {
+            "text": "According to the latest official update, as many as 29,554 houses were ruined and 134,342 buildings were damaged.",
+            "source": "TASS English",
+            "item_id": "773e38fa236ca48570dbee3d9680efd70cddf9ba191b6b94d74f82f6cb2145ff:article",
+            "composed": false
+          },
+          {
+            "text": "The death toll from the devastating earthquake in western Colombia has climbed to 304, with 426 people being missing, the National Unit for Disaster Risk Management (UNGRD) said.",
+            "source": "TASS English",
+            "item_id": "773e38fa236ca48570dbee3d9680efd70cddf9ba191b6b94d74f82f6cb2145ff:article",
+            "composed": false
+          },
+          {
+            "text": "\"As many as 304 people died, 4,548 were injured, 426 are reported missing, 356 have been rescued,\" it said.",
+            "source": "TASS English",
+            "item_id": "773e38fa236ca48570dbee3d9680efd70cddf9ba191b6b94d74f82f6cb2145ff:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/emergencies/2174869"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "0472cda1a30c43e892eda4368c80bcc19af53e70080233d5a0a1e86024dc61c4",
+      "title": "Iran war puts Oman and other Gulf allies in a difficult spot",
+      "url": "https://www.npr.org/2026/08/18/nx-s1-5936283/iran-war-puts-oman-and-other-gulf-allies-in-a-difficult-spot",
+      "source": "NPR World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "The Iran war is putting Gulf countries in a bind. They want the U.S. as a security partner, but they also have to live with Iran as a neighbor.",
+      "published_at": "2026-08-18T20:34:49+00:00",
+      "updated_at": "2026-08-18T20:34:49+00:00",
+      "effective_at": "2026-08-18T20:34:49+00:00",
+      "language_status": "ENGLISH",
+      "category": "conflict",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "conflict",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "gulf",
+        "iran",
+        "oman"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 95,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "911ed52adba3d847ec2c8f82",
-      "importance_score": 32.0,
+      "event_id": "20f78b9fb97bb1e7dcd04f79",
+      "importance_score": 47.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 10,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -66,173 +199,37 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 4
+          "security": 8,
+          "geopolitical": 8
         }
       },
-      "story_id": "2f6b51f7047b7b027770f10e9aa3c52976d9cd0fd2d3ff147f08d9dc10e5e42b",
+      "story_id": "0472cda1a30c43e892eda4368c80bcc19af53e70080233d5a0a1e86024dc61c4",
       "public_label": "📰 NEWS",
-      "headline": "UAE cuts off trade with Iran until further notice",
+      "headline": "Iran war puts Oman and other Gulf allies in a difficult spot",
       "briefing": {
         "opening": [
-          "The UAE said on Tuesday that all trade, commercial exchanges and financial transations with Iran have been halted until further notice, according to a statement from the country's foreign ministry.",
-          "The statement added that the decision comes in light of Iran's regional escalation that \"undermine regional and international peace and security\"."
+          "The Iran war is putting Gulf countries in a bind.",
+          "They want the U.S. as a security partner, but they also have to live with Iran as a neighbor."
         ],
-        "body": [
-          "The UAE's defence ministry also posted on X on Tuesday that the two ballistic missiles launched earlier from Iran into its territory were targeting maritime traffic and fell into the sea.",
-          "The Ministry of Defence announced that assessments revealed the two ballistic missiles detected, originating from Ira."
-        ],
+        "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "The statement added that the decision comes in light of Iran's regional escalation that \"undermine regional and international peace and security\".",
-            "source": "Middle East Eye",
-            "item_id": "2f6b51f7047b7b027770f10e9aa3c52976d9cd0fd2d3ff147f08d9dc10e5e42b",
+            "text": "The Iran war is putting Gulf countries in a bind.",
+            "source": "NPR World",
+            "item_id": "0472cda1a30c43e892eda4368c80bcc19af53e70080233d5a0a1e86024dc61c4",
             "composed": false
           },
           {
-            "text": "The UAE's defence ministry also posted on X on Tuesday that the two ballistic missiles launched earlier from Iran into its territory were targeting maritime traffic and fell into the sea.",
-            "source": "Middle East Eye",
-            "item_id": "2f6b51f7047b7b027770f10e9aa3c52976d9cd0fd2d3ff147f08d9dc10e5e42b",
-            "composed": false
-          },
-          {
-            "text": "The UAE said on Tuesday that all trade, commercial exchanges and financial transations with Iran have been halted until further notice, according to a statement from the country's foreign ministry.",
-            "source": "Middle East Eye",
-            "item_id": "2f6b51f7047b7b027770f10e9aa3c52976d9cd0fd2d3ff147f08d9dc10e5e42b",
+            "text": "They want the U.S. as a security partner, but they also have to live with Iran as a neighbor.",
+            "source": "NPR World",
+            "item_id": "0472cda1a30c43e892eda4368c80bcc19af53e70080233d5a0a1e86024dc61c4",
             "composed": false
           }
         ],
-        "source": "Middle East Eye",
+        "source": "NPR World",
         "corroborating": [],
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-cuts-trade-iran-until-further-notice"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "3d4b17110ed19eac983ced38391232bd781c5ec311a19e2ecd0b38b4d97e3644",
-      "title": "Chancellor Merz still least liked national politician for Germans — poll",
-      "url": "https://tass.com/world/2174865",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "BERLIN, August 18. German Chancellor Friedrich Merz’ approval rating continues to fall, with only 13% of the country’s citizens being satisfied with his performance, according to an opinion poll conducted by the Forsa pollster for the RTL and NTV television channels. As many as 85% of respondents said they are dissatisfied with Merz’s work, the worst ever figure in the history of Forsa polls. The lowest rating recorded for his predecessor, Olaf Scholz, was 76%. The poll was conducted on August 11 through 17 and involved 2,504 respondents.",
-      "published_at": "2026-08-18T20:32:27+00:00",
-      "updated_at": "2026-08-18T20:32:27+00:00",
-      "effective_at": "2026-08-18T20:32:27+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "forsa",
-        "friedrich",
-        "german",
-        "germans",
-        "germany",
-        "merz",
-        "ntv",
-        "olaf",
-        "rtl",
-        "scholz"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "BERLIN, August 18.",
-        "German Chancellor Friedrich Merz’ approval rating continues to fall, with only 13% of the country’s citizens being satisfied with his performance, according to an opinion poll conducted by the Forsa pollster for the RTL and NTV television channels.",
-        "As many as 85% of respondents said they are dissatisfied with Merz’s work, the worst ever figure in the history of Forsa polls.",
-        "The lowest rating recorded for his predecessor, Olaf Scholz, was 76%.",
-        "The poll was conducted on August 11 through 17 and involved 2,504 respondents."
-      ],
-      "event_status": "NEW",
-      "event_id": "857f0073c193189795ea441d",
-      "importance_score": 27.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "3d4b17110ed19eac983ced38391232bd781c5ec311a19e2ecd0b38b4d97e3644",
-      "public_label": "📰 NEWS",
-      "headline": "Chancellor Merz still least liked national politician for Germans — poll",
-      "briefing": {
-        "opening": [
-          "BERLIN, August 18.",
-          "German Chancellor Friedrich Merz’ approval rating continues to fall, with only 13% of the country’s citizens being satisfied with his performance, according to an opinion poll conducted by the Forsa pollster for the RTL and NTV television channels."
-        ],
-        "body": [
-          "As many as 85% of respondents said they are dissatisfied with Merz’s work, the worst ever figure in the history of Forsa polls.",
-          "The lowest rating recorded for his predecessor, Olaf Scholz, was 76%.",
-          "The poll was conducted on August 11 through 17 and involved 2,504 respondents."
-        ],
-        "bullets": [
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "continues to"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The poll was conducted on August 11 through 17 and involved 2,504 respondents.",
-            "source": "TASS English",
-            "item_id": "3d4b17110ed19eac983ced38391232bd781c5ec311a19e2ecd0b38b4d97e3644:article",
-            "composed": false
-          },
-          {
-            "text": "BERLIN, August 18.",
-            "source": "TASS English",
-            "item_id": "3d4b17110ed19eac983ced38391232bd781c5ec311a19e2ecd0b38b4d97e3644:article",
-            "composed": false
-          },
-          {
-            "text": "German Chancellor Friedrich Merz’ approval rating continues to fall, with only 13% of the country’s citizens being satisfied with his performance, according to an opinion poll conducted by the Forsa pollster for the RTL and NTV television channels.",
-            "source": "TASS English",
-            "item_id": "3d4b17110ed19eac983ced38391232bd781c5ec311a19e2ecd0b38b4d97e3644:article",
-            "composed": false
-          },
-          {
-            "text": "As many as 85% of respondents said they are dissatisfied with Merz’s work, the worst ever figure in the history of Forsa polls.",
-            "source": "TASS English",
-            "item_id": "3d4b17110ed19eac983ced38391232bd781c5ec311a19e2ecd0b38b4d97e3644:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/world/2174865"
+        "url": "https://www.npr.org/2026/08/18/nx-s1-5936283/iran-war-puts-oman-and-other-gulf-allies-in-a-difficult-spot"
       },
       "group_size": 1,
       "label": "📰 NEWS"
