@@ -1,14 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "03469d69f46c2fafe3670699fd0046fe654e7b3b88442768961ac4fc9aa635a3",
-      "event_id": "9fe0a550bef4503c02550f86",
-      "item_id": "03469d69f46c2fafe3670699fd0046fe654e7b3b88442768961ac4fc9aa635a3",
-      "label": "🔄 UPDATE",
-      "scheduled_at": "2026-08-18T03:15:10+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "0c248146b3ff9ccc40dc11da24940d22f1237a11057da16d8253d4f534babbb4",
       "event_id": "90d9bb6d1066f7ae4f60682a",
       "item_id": "0c248146b3ff9ccc40dc11da24940d22f1237a11057da16d8253d4f534babbb4",
@@ -935,9 +927,59 @@
       "label": "📰 NEWS",
       "scheduled_at": "2026-08-18T15:07:43+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "1128750cd3de0813aec6d1f2e7e082ba918923cc635c8e4c80afd51e09e50b5d",
+      "event_id": "fa9f79745f372b6c07a61ee8",
+      "item_id": "1128750cd3de0813aec6d1f2e7e082ba918923cc635c8e4c80afd51e09e50b5d",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-08-18T15:17:41+00:00",
+      "attempts": 0
+    },
+    {
+      "story_id": "6c7ebc25c59cf53d5cd0d75bdac4c155564ddc17c783d81bac64058407312da5",
+      "event_id": "a0bf0073d10648a3ee3da64d",
+      "item_id": "6c7ebc25c59cf53d5cd0d75bdac4c155564ddc17c783d81bac64058407312da5",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-08-18T15:15:01+00:00",
+      "attempts": 0
+    },
+    {
+      "story_id": "51cdbe3f6c3bf955e3e765e79b6a3f2c1ca41a78c620f3cbaa40c4603f841d41",
+      "event_id": "29559ca38239ba11e8be9141",
+      "item_id": "51cdbe3f6c3bf955e3e765e79b6a3f2c1ca41a78c620f3cbaa40c4603f841d41",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-08-18T15:14:47+00:00",
+      "attempts": 0
+    },
+    {
+      "story_id": "f75168b29ca919851606fbf38736880d40f26c55d92f0466b626ba34d5f11407",
+      "event_id": "495c4d1449dbcd523eb5db83",
+      "item_id": "f75168b29ca919851606fbf38736880d40f26c55d92f0466b626ba34d5f11407",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-08-18T15:14:34+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "d853f0a18da7a147ca15db5eebfaff91b86ab954b3fa37463239f51c19e9f236",
+      "event_id": "7b4bccd095ffa7268f8cb213",
+      "item_id": "d853f0a18da7a147ca15db5eebfaff91b86ab954b3fa37463239f51c19e9f236",
+      "label": "📰 NEWS",
+      "message_id": 987,
+      "posted_at": "2026-08-18T15:17:41.000137+00:00",
+      "scheduled_at": "2026-08-18T15:12:42+00:00"
+    },
+    {
+      "story_id": "2e4445814c2024ab0f075b87883bae50426d4cf2f77675a9f7bd4e3a6e530268",
+      "event_id": "cfcd8ee939f922b6d8fa075b",
+      "item_id": "2e4445814c2024ab0f075b87883bae50426d4cf2f77675a9f7bd4e3a6e530268",
+      "label": "📰 NEWS",
+      "message_id": 986,
+      "posted_at": "2026-08-18T15:07:43.000108+00:00",
+      "scheduled_at": "2026-08-18T15:03:19+00:00"
+    },
     {
       "story_id": "e85ec2c8645a5a83f0df9776f7fec79a4dd035da99f5817a8412b21fd3dd5c5f",
       "event_id": "be70eeec0ee6740fb23b19a6",
@@ -3970,26 +4012,8 @@
       "message_id": 649,
       "posted_at": "2026-08-16T09:23:27.000110+00:00",
       "scheduled_at": "2026-08-16T09:23:18+00:00"
-    },
-    {
-      "story_id": "a48f7d98b81dd8be1c51c7adf291439800fe35b8ea663fc5c9f680f7e6f36b9f",
-      "event_id": "ab18a2f4d1d27fbfe42d16ae",
-      "item_id": "a48f7d98b81dd8be1c51c7adf291439800fe35b8ea663fc5c9f680f7e6f36b9f",
-      "label": "📰 NEWS",
-      "message_id": 648,
-      "posted_at": "2026-08-16T09:17:43.000133+00:00",
-      "scheduled_at": "2026-08-16T09:17:43+00:00"
-    },
-    {
-      "story_id": "2e4445814c2024ab0f075b87883bae50426d4cf2f77675a9f7bd4e3a6e530268",
-      "event_id": "cfcd8ee939f922b6d8fa075b",
-      "item_id": "2e4445814c2024ab0f075b87883bae50426d4cf2f77675a9f7bd4e3a6e530268",
-      "label": "📰 NEWS",
-      "message_id": 986,
-      "posted_at": "2026-08-18T15:07:43.000108+00:00",
-      "scheduled_at": "2026-08-18T15:03:19+00:00"
     }
   ],
   "failures": [],
-  "last_posted_at": "2026-08-18T15:07:43.000108+00:00"
+  "last_posted_at": "2026-08-18T15:17:41.000137+00:00"
 }
