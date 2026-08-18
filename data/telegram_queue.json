@@ -1,54 +1,80 @@
 {
-  "generated_at": "2026-08-18T09:10:50.347521+00:00",
-  "count": 1,
+  "generated_at": "2026-08-18T09:20:43.465813+00:00",
+  "count": 4,
   "stories": [
     {
-      "id": "4dd522a0c9e85542793e48849ffc9b4a6fc97e1a23144b95e1391760b86bc088",
-      "title": "She told no one about her agony except ChatGPT. What her death reveals about AI risks",
-      "url": "https://www.npr.org/2026/08/18/nx-s1-5929575/ai-suicide-risks-mental-health",
-      "source": "NPR Technology",
-      "source_category": "technology",
+      "id": "3a244b495ce38681253b4078b368bd21e7f428645e8ceb4557aa5c7d8da5a92e",
+      "title": "Russia warns UK will pay for supplying drones to Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "A 29-year-old woman confided her suicidal thoughts to an AI chatbot — not to her therapist, not to her parents, not to her best friend. What can AI learn from her death?",
-      "published_at": "2026-08-18T09:00:00+00:00",
-      "updated_at": "2026-08-18T09:00:00+00:00",
-      "effective_at": "2026-08-18T09:00:00+00:00",
+      "summary": "Russia has accused the UK of \"deliberately opting for an escalation of the Ukraine crisis\", following confirmation that British-made drones were used in recent strikes on military and industrial targets in Russia. \"London's actions will inevitably carry consequences for which it will have to answer,\" the Russian embassy to the UK wrote in a statement, adding \"the deeper its involvement in the conflict... the higher the price it will pay\". Ukraine has stepped up attacks on Moscow and elsewhere deep inside Russia, particularly targeting its oil refineries and logistics sites for key online retailer Wildberries. A spokesperson for the UK Ministry of Defence (MoD) said they stood \"shoulder to shoulder\" with Ukraine. \"Russia should be in no doubt about the resolve of this government to stand against Russian aggression, in Ukraine and against the UK and our allies,\" the spokesperson said. Russia has threatened the UK in the past over its role in providing Ukraine with drone technology, as well as Storm Shadow missiles. In its statement, the Russian embassy did not elaborate on the type of threat Moscow was considering. However, the latest phase of the war has directly affected Russia's domestic fuel supplies and dented the Russian economy. The Ministry of Defence said the UK was \"committed to providing the equipment Ukraine needs to defend itself against [Russian President Vladimir] Putin's illegal invasion\". Ukraine has also been able to use home-grown drone and missile technology in recent weeks, including its FP-5 Flamingo cruise missile. Hundreds of drones have been launched by Ukrainian forces towards the Moscow region in the past two days alone.",
+      "published_at": "2026-08-18T09:11:57+00:00",
+      "updated_at": "2026-08-18T09:11:57+00:00",
+      "effective_at": "2026-08-18T09:11:57+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "ai",
-      "subregion": null,
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "ai",
-        "chatgpt"
+        "british-made",
+        "defence",
+        "flamingo",
+        "fp-5",
+        "ministry",
+        "mod",
+        "putin",
+        "russia",
+        "shadow",
+        "storm",
+        "uk",
+        "ukraine",
+        "vladimir",
+        "wildberries"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 95,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "00805383c21134d82f0923d4",
-      "importance_score": 26.0,
+      "article_sentences": [
+        "Russia has accused the UK of \"deliberately opting for an escalation of the Ukraine crisis\", following confirmation that British-made drones were used in recent strikes on military and industrial targets in Russia.",
+        "\"London's actions will inevitably carry consequences for which it will have to answer,\" the Russian embassy to the UK wrote in a statement, adding \"the deeper its involvement in the conflict...",
+        "the higher the price it will pay\".",
+        "Ukraine has stepped up attacks on Moscow and elsewhere deep inside Russia, particularly targeting its oil refineries and logistics sites for key online retailer Wildberries.",
+        "A spokesperson for the UK Ministry of Defence (MoD) said they stood \"shoulder to shoulder\" with Ukraine.",
+        "\"Russia should be in no doubt about the resolve of this government to stand against Russian aggression, in Ukraine and against the UK and our allies,\" the spokesperson said.",
+        "Russia has threatened the UK in the past over its role in providing Ukraine with drone technology, as well as Storm Shadow missiles.",
+        "In its statement, the Russian embassy did not elaborate on the type of threat Moscow was considering.",
+        "However, the latest phase of the war has directly affected Russia's domestic fuel supplies and dented the Russian economy.",
+        "The Ministry of Defence said the UK was \"committed to providing the equipment Ukraine needs to defend itself against [Russian President Vladimir] Putin's illegal invasion\".",
+        "Ukraine has also been able to use home-grown drone and missile technology in recent weeks, including its FP-5 Flamingo cruise missile.",
+        "Hundreds of drones have been launched by Ukrainian forces towards the Moscow region in the past two days alone."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "03da6ff59d6c7214164bbd40",
+      "importance_score": 49.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "urgency": 9.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 20,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -60,35 +86,439 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8,
+          "economic": 4
+        }
       },
-      "story_id": "4dd522a0c9e85542793e48849ffc9b4a6fc97e1a23144b95e1391760b86bc088",
-      "public_label": "📰 NEWS",
-      "headline": "She told no one about her agony except ChatGPT. What her death reveals about AI risks",
+      "story_id": "3a244b495ce38681253b4078b368bd21e7f428645e8ceb4557aa5c7d8da5a92e",
+      "public_label": "🔄 UPDATE",
+      "headline": "Russia warns UK will pay for supplying drones to Ukraine",
       "briefing": {
         "opening": [
-          "A 29-year-old woman confided her suicidal thoughts to an AI chatbot — not to her therapist, not to her parents, not to her best friend.",
-          "What can AI learn from her death?"
+          "Russia has accused the UK of \"deliberately opting for an escalation of the Ukraine crisis\", following confirmation that British-made drones were used in recent strikes on military and industrial targets in Russia.",
+          "\"London's actions will inevitably carry consequences for which it will have to answer,\" the Russian embassy to the UK wrote in a statement, adding \"the deeper its involvement in the conflict..."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "the higher the price it will pay\".",
+          "Ukraine has stepped up attacks on Moscow and elsewhere deep inside Russia, particularly targeting its oil refineries and logistics sites for key online retailer Wildberries.",
+          "A spokesperson for the UK Ministry of Defence (MoD) said they stood \"shoulder to shoulder\" with Ukraine.",
+          "\"Russia should be in no doubt about the resolve of this government to stand against Russian aggression, in Ukraine and against the UK and our allies,\" the spokesperson said.",
+          "Russia has threatened the UK in the past over its role in providing Ukraine with drone technology, as well as Storm Shadow missiles.",
+          "In its statement, the Russian embassy did not elaborate on the type of threat Moscow was considering.",
+          "However, the latest phase of the war has directly affected Russia's domestic fuel supplies and dented the Russian economy.",
+          "The Ministry of Defence said the UK was \"committed to providing the equipment Ukraine needs to defend itself against [Russian President Vladimir] Putin's illegal invasion\"."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Russia"
+          }
+        ],
         "sentences": [
           {
-            "text": "What can AI learn from her death?",
-            "source": "NPR Technology",
-            "item_id": "4dd522a0c9e85542793e48849ffc9b4a6fc97e1a23144b95e1391760b86bc088",
+            "text": "The Ministry of Defence said the UK was \"committed to providing the equipment Ukraine needs to defend itself against [Russian President Vladimir] Putin's illegal invasion\".",
+            "source": "BBC World",
+            "item_id": "3a244b495ce38681253b4078b368bd21e7f428645e8ceb4557aa5c7d8da5a92e:article",
             "composed": false
           },
           {
-            "text": "A 29-year-old woman confided her suicidal thoughts to an AI chatbot — not to her therapist, not to her parents, not to her best friend.",
-            "source": "NPR Technology",
-            "item_id": "4dd522a0c9e85542793e48849ffc9b4a6fc97e1a23144b95e1391760b86bc088",
+            "text": "Russia has accused the UK of \"deliberately opting for an escalation of the Ukraine crisis\", following confirmation that British-made drones were used in recent strikes on military and industrial targets in Russia.",
+            "source": "BBC World",
+            "item_id": "3a244b495ce38681253b4078b368bd21e7f428645e8ceb4557aa5c7d8da5a92e:article",
+            "composed": false
+          },
+          {
+            "text": "\"Russia should be in no doubt about the resolve of this government to stand against Russian aggression, in Ukraine and against the UK and our allies,\" the spokesperson said.",
+            "source": "BBC World",
+            "item_id": "3a244b495ce38681253b4078b368bd21e7f428645e8ceb4557aa5c7d8da5a92e:article",
             "composed": false
           }
         ],
-        "source": "NPR Technology",
+        "source": "BBC World",
         "corroborating": [],
-        "url": "https://www.npr.org/2026/08/18/nx-s1-5929575/ai-suicide-risks-mental-health"
+        "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "54f4c1f936ad4fa536fe680ae81ab42710106f486a6986f88a6bf2b8850f3f15",
+      "title": "Russia, Ghana discuss trade and recruitment of citizens for Ukraine War",
+      "url": "http://www.africanews.com/2026/08/18/russia-ghana-discuss-trade-and-recruitment-of-citizens-for-ukraine-war/",
+      "source": "Africanews English",
+      "source_category": "africa",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Russia hosts Ghana’s foreign minister in Moscow as Sergey Lavrov meets Samuel Okudzeto Ablakwa. The talks focused on trade, Africa’s security and ongoing crises across the continent.",
+      "published_at": "2026-08-18T09:17:38+00:00",
+      "updated_at": "2026-08-18T09:17:38+00:00",
+      "effective_at": "2026-08-18T09:17:38+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "trade",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "ablakwa",
+        "africa",
+        "ghana",
+        "lavrov",
+        "okudzeto",
+        "russia",
+        "samuel",
+        "sergey",
+        "ukraine",
+        "war"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "4650807b7c105fd66ec8ba98",
+      "importance_score": 45.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8
+        }
+      },
+      "story_id": "54f4c1f936ad4fa536fe680ae81ab42710106f486a6986f88a6bf2b8850f3f15",
+      "public_label": "📰 NEWS",
+      "headline": "Russia, Ghana discuss trade and recruitment of citizens for Ukraine War",
+      "briefing": {
+        "opening": [
+          "Russia hosts Ghana’s foreign minister in Moscow as Sergey Lavrov meets Samuel Okudzeto Ablakwa.",
+          "The talks focused on trade, Africa’s security and ongoing crises across the continent."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Moscow"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The talks focused on trade, Africa’s security and ongoing crises across the continent.",
+            "source": "Africanews English",
+            "item_id": "54f4c1f936ad4fa536fe680ae81ab42710106f486a6986f88a6bf2b8850f3f15",
+            "composed": false
+          },
+          {
+            "text": "Russia hosts Ghana’s foreign minister in Moscow as Sergey Lavrov meets Samuel Okudzeto Ablakwa.",
+            "source": "Africanews English",
+            "item_id": "54f4c1f936ad4fa536fe680ae81ab42710106f486a6986f88a6bf2b8850f3f15",
+            "composed": false
+          }
+        ],
+        "source": "Africanews English",
+        "corroborating": [],
+        "url": "http://www.africanews.com/2026/08/18/russia-ghana-discuss-trade-and-recruitment-of-citizens-for-ukraine-war/"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "3fe5024f25b3e07e0fc49f8ed14cef0582cc4cbd99e91e65f3330e044477dc67",
+      "title": "At least 18 logistics centers linked to Ukrainian military destroyed since early August",
+      "url": "https://tass.com/politics/2174507",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Warehouse complexes in the Kiev suburb of Brovary, which were also used to supply the Ukrainian armed forces, have been completely destroyed",
+      "published_at": "2026-08-18T09:15:33+00:00",
+      "updated_at": "2026-08-18T09:15:33+00:00",
+      "effective_at": "2026-08-18T09:15:33+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "transport",
+      "subsector": "logistics",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "brovary",
+        "ukraine",
+        "warehouse"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 95,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "21fcdd098276a72a5c4b0236",
+      "importance_score": 40.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 8,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "security": 4
+        }
+      },
+      "story_id": "3fe5024f25b3e07e0fc49f8ed14cef0582cc4cbd99e91e65f3330e044477dc67",
+      "article_sentences": [
+        "MOSCOW, August 18.",
+        "At least 18 logistics centers and warehouse complexes linked to the Ukrainian armed forces on an area potentially exceeding 500,000 square meters have been destroyed in Ukraine since August 1, according to TASS calculations based on Ukrainian authorities’ data.",
+        "Among the targets hit are logistics centers belonging to Nova Poshta, Epicenter, and Raben Ukraine, which were used to supply the Ukrainian military, as well as logistics centers in the Odessa ports, where Western weapons were stored.",
+        "Warehouse complexes in the Kiev suburb of Brovary, which were also used to supply the Ukrainian armed forces, have been completely destroyed, as has a logistics center in Pavlograd, which serves as a key stronghold for the Ukrainian army in the Dnepropetrovsk region.",
+        "In addition, at least five logistics centers have been hit in Kiev itself and its suburbs.",
+        "The actual number of destroyed logistics facilities in Ukraine since August 1 is much higher since the Ukrainian authorities often only report the type of facility struck without specifying the exact number of buildings or their total area."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "At least 18 logistics centers linked to Ukrainian military destroyed since early August",
+      "briefing": {
+        "opening": [
+          "MOSCOW, August 18.",
+          "At least 18 logistics centers and warehouse complexes linked to the Ukrainian armed forces on an area potentially exceeding 500,000 square meters have been destroyed in Ukraine since August 1, according to TASS calculations based on Ukrainian authorities’ data."
+        ],
+        "body": [
+          "Among the targets hit are logistics centers belonging to Nova Poshta, Epicenter, and Raben Ukraine, which were used to supply the Ukrainian military, as well as logistics centers in the Odessa ports, where Western weapons were stored.",
+          "Warehouse complexes in the Kiev suburb of Brovary, which were also used to supply the Ukrainian armed forces, have been completely destroyed, as has a logistics center in Pavlograd, which serves as a key stronghold for the Ukrainian army in the Dnepropetrovsk region.",
+          "In addition, at least five logistics centers have been hit in Kiev itself and its suburbs.",
+          "The actual number of destroyed logistics facilities in Ukraine since August 1 is much higher since the Ukrainian authorities often only report the type of facility struck without specifying the exact number of buildings or their total area.",
+          "Warehouse complexes in the Kiev suburb of Brovary, which were also used to supply the Ukrainian armed forces, have been completely destroyed."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Ukraine"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "At least 18 logistics centers and warehouse complexes linked to the Ukrainian armed forces on an area potentially exceeding 500,000 square meters have been destroyed in Ukraine since August 1, according to TASS calculations based on Ukrainian authorities’ data.",
+            "source": "TASS English",
+            "item_id": "3fe5024f25b3e07e0fc49f8ed14cef0582cc4cbd99e91e65f3330e044477dc67:article",
+            "composed": false
+          },
+          {
+            "text": "The actual number of destroyed logistics facilities in Ukraine since August 1 is much higher since the Ukrainian authorities often only report the type of facility struck without specifying the exact number of buildings or their total area.",
+            "source": "TASS English",
+            "item_id": "3fe5024f25b3e07e0fc49f8ed14cef0582cc4cbd99e91e65f3330e044477dc67:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, August 18.",
+            "source": "TASS English",
+            "item_id": "3fe5024f25b3e07e0fc49f8ed14cef0582cc4cbd99e91e65f3330e044477dc67:article",
+            "composed": false
+          },
+          {
+            "text": "Warehouse complexes in the Kiev suburb of Brovary, which were also used to supply the Ukrainian armed forces, have been completely destroyed, as has a logistics center in Pavlograd, which serves as a key stronghold for the Ukrainian army in the Dnepropetrovsk region.",
+            "source": "TASS English",
+            "item_id": "3fe5024f25b3e07e0fc49f8ed14cef0582cc4cbd99e91e65f3330e044477dc67:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/politics/2174507"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "542597f12f6e2e9a5fe1d7bcfdd11f37ebc965a0e54aa94fe74d15232d2384cb",
+      "title": "Kenya opposition draws large crowds despite efforts to disrupt rally",
+      "url": "http://www.africanews.com/2026/08/18/kenya-opposition-draws-large-crowds-despite-efforts-to-disrupt-rally/",
+      "source": "Africanews English",
+      "source_category": "africa",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "A section of Kenyan opposition politicians held a series of rallies in Homa Bay County on Sunday, attracting large crowds of supporters. Led by Nairobi's Senator Edwin Sifuna, the movement dubbed 'Linda Mwananchi' which translates to 'Safeguarding the People', has become one of the opposition factions that has been agitating for political change from the current regime. There were widespread reports of violent attacks by gangs of stone throwing youth who also barricaded roads to deter the opposition leaders from holding their rallies. Local journalists from Citizen TV and an AFP freelancer were also allegedly attacked and robbed off their eqiupment. According to local media, the youths were paid up to 4,000 shillings to disrupt the event. \"We were told we would not get here because of goons. But we want to tell the goons that the power of the people is stronger than the people in power,\" said Babu Owino, a Member of Parliament in Nairobi, at the rally. Ahead of next year's general elections, President William Ruto is under mounting pressure from the opposition over economic stagnation, corruption and violent tactics used to suppress anti-government protesters. \"I cannot support and join a government that is killing our people. It is not possible, not possible,\" said Sifuna.",
+      "published_at": "2026-08-18T08:35:17+00:00",
+      "updated_at": "2026-08-18T08:35:17+00:00",
+      "effective_at": "2026-08-18T08:35:17+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "East Africa",
+      "country": null,
+      "entities": [
+        "afp",
+        "babu",
+        "bay",
+        "citizen",
+        "county",
+        "edwin",
+        "homa",
+        "kenya",
+        "kenyan",
+        "linda",
+        "member",
+        "mwananchi",
+        "nairobi",
+        "owino",
+        "parliament",
+        "ruto",
+        "safeguarding",
+        "sifuna",
+        "tv",
+        "william"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "A section of Kenyan opposition politicians held a series of rallies in Homa Bay County on Sunday, attracting large crowds of supporters.",
+        "Led by Nairobi's Senator Edwin Sifuna, the movement dubbed 'Linda Mwananchi' which translates to 'Safeguarding the People', has become one of the opposition factions that has been agitating for political change from the current regime.",
+        "There were widespread reports of violent attacks by gangs of stone throwing youth who also barricaded roads to deter the opposition leaders from holding their rallies.",
+        "Local journalists from Citizen TV and an AFP freelancer were also allegedly attacked and robbed off their eqiupment.",
+        "According to local media, the youths were paid up to 4,000 shillings to disrupt the event.",
+        "\"We were told we would not get here because of goons.",
+        "But we want to tell the goons that the power of the people is stronger than the people in power,\" said Babu Owino, a Member of Parliament in Nairobi, at the rally.",
+        "Ahead of next year's general elections, President William Ruto is under mounting pressure from the opposition over economic stagnation, corruption and violent tactics used to suppress anti-government protesters.",
+        "\"I cannot support and join a government that is killing our people.",
+        "It is not possible, not possible,\" said Sifuna."
+      ],
+      "event_status": "NEW",
+      "event_id": "a392e2d41a90002c666ad7f0",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "542597f12f6e2e9a5fe1d7bcfdd11f37ebc965a0e54aa94fe74d15232d2384cb",
+      "public_label": "📰 NEWS",
+      "headline": "Kenya opposition draws large crowds despite efforts to disrupt rally",
+      "briefing": {
+        "opening": [
+          "A section of Kenyan opposition politicians held a series of rallies in Homa Bay County on Sunday, attracting large crowds of supporters.",
+          "Led by Nairobi's Senator Edwin Sifuna, the movement dubbed 'Linda Mwananchi' which translates to 'Safeguarding the People', has become one of the opposition factions that has been agitating for political change from the current regime."
+        ],
+        "body": [
+          "There were widespread reports of violent attacks by gangs of stone throwing youth who also barricaded roads to deter the opposition leaders from holding their rallies.",
+          "Local journalists from Citizen TV and an AFP freelancer were also allegedly attacked and robbed off their eqiupment.",
+          "According to local media, the youths were paid up to 4,000 shillings to disrupt the event.",
+          "\"We were told we would not get here because of goons.",
+          "But we want to tell the goons that the power of the people is stronger than the people in power,\" said Babu Owino, a Member of Parliament in Nairobi, at the rally.",
+          "Ahead of next year's general elections, President William Ruto is under mounting pressure from the opposition over economic stagnation, corruption and violent tactics used to suppress anti-government protesters.",
+          "\"I cannot support and join a government that is killing our people.",
+          "It is not possible, not possible,\" said Sifuna."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Homa Bay County"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Led by Nairobi's Senator Edwin Sifuna, the movement dubbed 'Linda Mwananchi' which translates to 'Safeguarding the People', has become one of the opposition factions that has been agitating for political change from the current regime.",
+            "source": "Africanews English",
+            "item_id": "542597f12f6e2e9a5fe1d7bcfdd11f37ebc965a0e54aa94fe74d15232d2384cb:article",
+            "composed": false
+          },
+          {
+            "text": "A section of Kenyan opposition politicians held a series of rallies in Homa Bay County on Sunday, attracting large crowds of supporters.",
+            "source": "Africanews English",
+            "item_id": "542597f12f6e2e9a5fe1d7bcfdd11f37ebc965a0e54aa94fe74d15232d2384cb:article",
+            "composed": false
+          },
+          {
+            "text": "Ahead of next year's general elections, President William Ruto is under mounting pressure from the opposition over economic stagnation, corruption and violent tactics used to suppress anti-government protesters.",
+            "source": "Africanews English",
+            "item_id": "542597f12f6e2e9a5fe1d7bcfdd11f37ebc965a0e54aa94fe74d15232d2384cb:article",
+            "composed": false
+          }
+        ],
+        "source": "Africanews English",
+        "corroborating": [],
+        "url": "http://www.africanews.com/2026/08/18/kenya-opposition-draws-large-crowds-despite-efforts-to-disrupt-rally/"
       },
       "group_size": 1,
       "label": "📰 NEWS"
