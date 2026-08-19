@@ -1,46 +1,146 @@
 {
-  "generated_at": "2026-08-19T15:31:04.149294+00:00",
-  "count": 1,
+  "generated_at": "2026-08-19T15:40:50.322663+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "64a570b32ebe4eb46d5d8d5b8291112c6e73f56a6856985ea4382c508663abcc",
-      "title": "French politician calls Fyodorov's speech disaster for Zelensky",
-      "url": "https://tass.com/world/2175241",
-      "source": "TASS English",
+      "id": "2b63a96d49998d7e575aef4009718c856083f5611d2b2cb8d427849371d08ae5",
+      "title": "France measures more than 7,300 excess deaths – and counting – during historic heatwaves",
+      "url": "https://www.france24.com/en/france/20260819-france-experienced-more-than-7-300-excess-deaths-during-historic-heatwaves",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "Florian Philippot advised that the former Ukrainian defense minister watch his safety",
-      "published_at": "2026-08-19T15:27:13+00:00",
-      "updated_at": "2026-08-19T15:27:13+00:00",
-      "effective_at": "2026-08-19T15:27:13+00:00",
+      "summary": "More than 7,300 excess deaths have been recorded in France over the historically hot summer as Europe grapples with worsening heatwaves, wildfires and droughts, public health authorities said Wednesday. France has suffered a record-breaking 52 days of heatwaves since mid-June, an AFP analysis found.",
+      "published_at": "2026-08-19T14:29:13+00:00",
+      "updated_at": "2026-08-19T14:29:13+00:00",
+      "effective_at": "2026-08-19T14:29:13+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 73,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
+      "urgency_terms": [
+        "wildfire"
+      ],
+      "sector": "climate",
+      "subsector": "weather",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "florian",
-        "fyodorov",
-        "philippot",
-        "ukraine",
-        "zelensky"
+        "afp",
+        "europe",
+        "france"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "d2150ec928bebf0b67463db4",
+      "importance_score": 77.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 32,
+        "urgency": 9.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 7300,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 12,
+          "scientific": 4
+        }
+      },
+      "story_id": "2b63a96d49998d7e575aef4009718c856083f5611d2b2cb8d427849371d08ae5",
+      "public_label": "🔄 UPDATE",
+      "headline": "France measures more than 7,300 excess deaths – and counting – during historic heatwaves",
+      "briefing": {
+        "opening": [
+          "More than 7,300 excess deaths have been recorded in France over the historically hot summer as Europe grapples with worsening heatwaves, wildfires and droughts, public health authorities said Wednesday.",
+          "France has suffered a record-breaking 52 days of heatwaves since mid-June, an AFP analysis found."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "France"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "More than 7,300 excess deaths have been recorded in France over the historically hot summer as Europe grapples with worsening heatwaves, wildfires and droughts, public health authorities said Wednesday.",
+            "source": "France 24",
+            "item_id": "2b63a96d49998d7e575aef4009718c856083f5611d2b2cb8d427849371d08ae5",
+            "composed": false
+          },
+          {
+            "text": "France has suffered a record-breaking 52 days of heatwaves since mid-June, an AFP analysis found.",
+            "source": "France 24",
+            "item_id": "2b63a96d49998d7e575aef4009718c856083f5611d2b2cb8d427849371d08ae5",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/france/20260819-france-experienced-more-than-7-300-excess-deaths-during-historic-heatwaves"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "8f73a7859929f4c02622e4dacf0fb7248398008d4131b5b091fc4b5e3b5133a1",
+      "title": "US treasury doubles debt buyback to steady bond market amid inflation fears",
+      "url": "https://www.theguardian.com/business/2026/aug/19/us-treasury-doubles-debt-buyback-bond-market",
+      "source": "The Guardian Business",
+      "source_category": "finance",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "Yields, at recent highs this week, dropped after treasury’s vow to ‘provide greater liquidity support’ to bond market The US treasury is doubling its buyback of government debt in an effort to balance out the bond market and counterbalance investor concern over high inflation. The yield rate on 10-year, 20-year and 30-year treasury notes all hit 20-year highs this week, with the 30-year treasury yield rising to its highest rate since 2007. The rapid rise was concerning news for borrowers as major loans, including mortgages, are backed by treasuries. Continue reading...",
+      "published_at": "2026-08-19T14:57:21+00:00",
+      "updated_at": "2026-08-19T14:57:21+00:00",
+      "effective_at": "2026-08-19T14:57:21+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "finance",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "us",
+        "yields"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "97823b9aecfdf0e751ae3884",
+      "event_id": "e6dc17913096efe7dd42cdbd",
       "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -64,65 +164,46 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 4,
+          "economic": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "64a570b32ebe4eb46d5d8d5b8291112c6e73f56a6856985ea4382c508663abcc",
-      "article_sentences": [
-        "PARIS, August 19.",
-        "Florian Philippot, leader of the French Patriots party, called former Ukrainian Defense Minister Mikhail Fyodorov's remarks about a governance crisis in the country a disaster for Vladimir Zelensky.",
-        "\"A disaster for Zelensky!",
-        "The popular minister whom Zelensky dismissed because he exposed the theft of $7 billion recalls that Zelensky has not been an elected president since the spring of 2024.",
-        "He also highlights the rampant corruption that is devouring the country and the ruling regime,\" the politician wrote on X.",
-        "Philippot advised that the former minister watch his safety, saying that he could be killed after making such statements.",
-        "Earlier, Fyodorov posted a video on his YouTube channel in which he spoke of a systemic governance crisis in the country and the need to hold elections."
-      ],
+      "story_id": "8f73a7859929f4c02622e4dacf0fb7248398008d4131b5b091fc4b5e3b5133a1",
       "public_label": "📰 NEWS",
-      "headline": "French politician calls Fyodorov's speech disaster for Zelensky",
+      "headline": "US treasury doubles debt buyback to steady bond market amid inflation fears",
       "briefing": {
         "opening": [
-          "PARIS, August 19.",
-          "Florian Philippot, leader of the French Patriots party, called former Ukrainian Defense Minister Mikhail Fyodorov's remarks about a governance crisis in the country a disaster for Vladimir Zelensky."
+          "Yields, at recent highs this week, dropped after treasury’s vow to ‘provide greater liquidity support’ to bond market.",
+          "The US treasury is doubling its buyback of government debt in an effort to balance out the bond market and counterbalance investor concern over high inflation."
         ],
         "body": [
-          "\"A disaster for Zelensky!",
-          "The popular minister whom Zelensky dismissed because he exposed the theft of $7 billion recalls that Zelensky has not been an elected president since the spring of 2024.",
-          "He also highlights the rampant corruption that is devouring the country and the ruling regime,\" the politician wrote on X.",
-          "Philippot advised that the former minister watch his safety, saying that he could be killed after making such statements.",
-          "Earlier, Fyodorov posted a video on his YouTube channel in which he spoke of a systemic governance crisis in the country and the need to hold elections.",
-          "Florian Philippot advised that the former Ukrainian defense minister watch his safety."
+          "The yield rate on 10-year, 20-year and 30-year treasury notes all hit 20-year highs this week, with the 30-year treasury yield rising to its highest rate since 2007.",
+          "The rapid rise was concerning news for borrowers as major loans, including mortgages, are backed by treasuries."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Florian Philippot, leader of the French Patriots party, called former Ukrainian Defense Minister Mikhail Fyodorov's remarks about a governance crisis in the country a disaster for Vladimir Zelensky.",
-            "source": "TASS English",
-            "item_id": "64a570b32ebe4eb46d5d8d5b8291112c6e73f56a6856985ea4382c508663abcc:article",
+            "text": "The US treasury is doubling its buyback of government debt in an effort to balance out the bond market and counterbalance investor concern over high inflation.",
+            "source": "The Guardian Business",
+            "item_id": "8f73a7859929f4c02622e4dacf0fb7248398008d4131b5b091fc4b5e3b5133a1",
             "composed": false
           },
           {
-            "text": "Earlier, Fyodorov posted a video on his YouTube channel in which he spoke of a systemic governance crisis in the country and the need to hold elections.",
-            "source": "TASS English",
-            "item_id": "64a570b32ebe4eb46d5d8d5b8291112c6e73f56a6856985ea4382c508663abcc:article",
+            "text": "The rapid rise was concerning news for borrowers as major loans, including mortgages, are backed by treasuries.",
+            "source": "The Guardian Business",
+            "item_id": "8f73a7859929f4c02622e4dacf0fb7248398008d4131b5b091fc4b5e3b5133a1",
             "composed": false
           },
           {
-            "text": "The popular minister whom Zelensky dismissed because he exposed the theft of $7 billion recalls that Zelensky has not been an elected president since the spring of 2024.",
-            "source": "TASS English",
-            "item_id": "64a570b32ebe4eb46d5d8d5b8291112c6e73f56a6856985ea4382c508663abcc:article",
-            "composed": false
-          },
-          {
-            "text": "PARIS, August 19.",
-            "source": "TASS English",
-            "item_id": "64a570b32ebe4eb46d5d8d5b8291112c6e73f56a6856985ea4382c508663abcc:article",
+            "text": "The yield rate on 10-year, 20-year and 30-year treasury notes all hit 20-year highs this week, with the 30-year treasury yield rising to its highest rate since 2007.",
+            "source": "The Guardian Business",
+            "item_id": "8f73a7859929f4c02622e4dacf0fb7248398008d4131b5b091fc4b5e3b5133a1",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "The Guardian Business",
         "corroborating": [],
-        "url": "https://tass.com/world/2175241"
+        "url": "https://www.theguardian.com/business/2026/aug/19/us-treasury-doubles-debt-buyback-bond-market"
       },
       "group_size": 1,
       "label": "📰 NEWS"
