@@ -1,36 +1,43 @@
 {
-  "generated_at": "2026-08-19T20:20:51.000349+00:00",
-  "count": 3,
+  "generated_at": "2026-08-19T20:30:35.488545+00:00",
+  "count": 1,
   "stories": [
     {
-      "id": "a47a244ea43978c1ec070b3ab817eb378b3780376e3afff7bbf46aaf59bd4440",
-      "title": "Amid the Iran war, the U.S. has pivoted it's geopolitical attention away from Asia",
-      "url": "https://www.npr.org/2026/08/19/nx-s1-5935388/amid-the-iran-war-the-u-s-has-pivoted-its-geopolitical-attention-away-from-asia",
-      "source": "NPR World",
+      "id": "f33f8c4d59f8251a82bf87010747f9038c3eac8d757b914bc17aee1e0367ffc4",
+      "title": "US establishes corridor in Strait of Hormuz for covertly transporting oil — news outlet",
+      "url": "https://tass.com/world/2175341",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "North America",
       "discovery": false,
-      "summary": "A decade ago, the U.S. was still in its \"pivot to Asia.\" Today, as conflicts in the Middle East suck up American military resources, analysts say that pivot is over — or never really began.",
-      "published_at": "2026-08-19T20:16:16+00:00",
-      "updated_at": "2026-08-19T20:16:16+00:00",
-      "effective_at": "2026-08-19T20:16:16+00:00",
+      "summary": "WASHINGTON, August 19. The US Army has organized the covert transport of millions of barrels of oil through the Strait of Hormuz without coordination with the Iranian authorities, Axios reported, citing sources. According to the news outlet, between 15 and 20 tankers pass through the strait’s southern channel along the coast of Oman every day, successfully exporting about 10 million barrels of oil from the Middle East, roughly half of the pre-war level. \"We have been controlling the southern lane of the Strait of Hormuz for two months now. The Islamic Revolutionary Guard Corps can be a nuisance, but they don't control the strait. We do,\" Axios quoted a source as saying.",
+      "published_at": "2026-08-19T20:28:14+00:00",
+      "updated_at": "2026-08-19T20:28:14+00:00",
+      "effective_at": "2026-08-19T20:28:14+00:00",
       "language_status": "ENGLISH",
-      "category": "conflict",
+      "category": "industry",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "conflict",
-      "subregion": "West Asia / Middle East",
+      "sector": "transport",
+      "subsector": "shipping",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "american",
-        "asia",
+        "army",
+        "axios",
+        "corps",
         "east",
+        "guard",
+        "hormuz",
         "iran",
+        "islamic",
         "middle",
+        "oman",
+        "revolutionary",
+        "strait",
         "us"
       ],
       "corroborating_sources": 0,
@@ -40,19 +47,27 @@
       "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "d47a0c74122fb07b10bdce39",
-      "importance_score": 44.0,
+      "article_sentences": [
+        "WASHINGTON, August 19.",
+        "The US Army has organized the covert transport of millions of barrels of oil through the Strait of Hormuz without coordination with the Iranian authorities, Axios reported, citing sources.",
+        "According to the news outlet, between 15 and 20 tankers pass through the strait’s southern channel along the coast of Oman every day, successfully exporting about 10 million barrels of oil from the Middle East, roughly half of the pre-war level.",
+        "\"We have been controlling the southern lane of the Strait of Hormuz for two months now.",
+        "The Islamic Revolutionary Guard Corps can be a nuisance, but they don't control the strait.",
+        "We do,\" Axios quoted a source as saying."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "07e2fba6c44417cd4643d055",
+      "importance_score": 48.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "urgency": 8.0,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 16,
+        "significance": 20,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -66,265 +81,51 @@
         },
         "significance_dims": {
           "security": 8,
-          "geopolitical": 8
+          "geopolitical": 8,
+          "infrastructure": 4
         }
       },
-      "story_id": "a47a244ea43978c1ec070b3ab817eb378b3780376e3afff7bbf46aaf59bd4440",
-      "public_label": "📰 NEWS",
-      "headline": "Amid the Iran war, the U.S. has pivoted it's geopolitical attention away from Asia",
+      "story_id": "f33f8c4d59f8251a82bf87010747f9038c3eac8d757b914bc17aee1e0367ffc4",
+      "public_label": "🔄 UPDATE",
+      "headline": "US establishes corridor in Strait of Hormuz for covertly transporting oil — news outlet",
       "briefing": {
         "opening": [
-          "A decade ago, the U.S. was still in its \"pivot to Asia.\" Today, as conflicts in the Middle East suck up American military resources, analysts say that pivot is over — or never really began."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "A decade ago, the U.S. was still in its \"pivot to Asia.\"",
-            "source": "NPR World",
-            "item_id": "a47a244ea43978c1ec070b3ab817eb378b3780376e3afff7bbf46aaf59bd4440",
-            "composed": false
-          },
-          {
-            "text": "Today, as conflicts in the Middle East suck up American military resources, analysts say that pivot is over — or never really began.",
-            "source": "NPR World",
-            "item_id": "a47a244ea43978c1ec070b3ab817eb378b3780376e3afff7bbf46aaf59bd4440",
-            "composed": false
-          }
-        ],
-        "source": "NPR World",
-        "corroborating": [],
-        "url": "https://www.npr.org/2026/08/19/nx-s1-5935388/amid-the-iran-war-the-u-s-has-pivoted-its-geopolitical-attention-away-from-asia"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "615f4c0a34dea8b6f5380f3dcf4847aa0747d0ea764a9e24b95e143a527aa554",
-      "title": "The U.S. debt tops a record-shattering $40 trillion. Yes, with a T.",
-      "url": "https://www.npr.org/2026/08/19/nx-s1-5937552/the-u-s-debt-tops-a-record-shattering-40-trillion-yes-with-a-t",
-      "source": "NPR Business",
-      "source_category": "finance",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "The federal debt reached $40 trillion as the government adds red ink at a rapid rate. That's leading nervous investors to demand higher interest rates —pushing up borrowing costs for everyone else.",
-      "published_at": "2026-08-19T20:09:39+00:00",
-      "updated_at": "2026-08-19T20:09:39+00:00",
-      "effective_at": "2026-08-19T20:09:39+00:00",
-      "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "finance",
-      "subregion": null,
-      "country": null,
-      "entities": [],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 85,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "8627ce6c19707f8415759d22",
-      "importance_score": 34.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "economic": 4,
-          "geopolitical": 4
-        }
-      },
-      "story_id": "615f4c0a34dea8b6f5380f3dcf4847aa0747d0ea764a9e24b95e143a527aa554",
-      "public_label": "📰 NEWS",
-      "headline": "The U.S. debt tops a record-shattering $40 trillion. Yes, with a T.",
-      "briefing": {
-        "opening": [
-          "The federal debt reached $40 trillion as the government adds red ink at a rapid rate.",
-          "That's leading nervous investors to demand higher interest rates —pushing up borrowing costs for everyone else."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "That's leading nervous investors to demand higher interest rates —pushing up borrowing costs for everyone else.",
-            "source": "NPR Business",
-            "item_id": "615f4c0a34dea8b6f5380f3dcf4847aa0747d0ea764a9e24b95e143a527aa554",
-            "composed": false
-          },
-          {
-            "text": "The federal debt reached $40 trillion as the government adds red ink at a rapid rate.",
-            "source": "NPR Business",
-            "item_id": "615f4c0a34dea8b6f5380f3dcf4847aa0747d0ea764a9e24b95e143a527aa554",
-            "composed": false
-          }
-        ],
-        "source": "NPR Business",
-        "corroborating": [],
-        "url": "https://www.npr.org/2026/08/19/nx-s1-5937552/the-u-s-debt-tops-a-record-shattering-40-trillion-yes-with-a-t"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "02a2b9cccfa206ffad25b0497c5755c7b6f5342321f0d69d4703bccbc9ea8838",
-      "title": "Russian aircraft to begin firefighting in Serbia on August 20 — group head",
-      "url": "https://tass.com/emergencies/2175337",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "Aircraft Commander Andrey Vilkov says the city of Nis \"is welcoming us with open arms and wonderful people\"",
-      "published_at": "2026-08-19T20:09:47+00:00",
-      "updated_at": "2026-08-19T20:09:47+00:00",
-      "effective_at": "2026-08-19T20:09:47+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "aviation",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "aircraft",
-        "andrey",
-        "nis",
-        "russia",
-        "serbia",
-        "vilkov"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "fe07dbc24852df93ccec13dd",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "02a2b9cccfa206ffad25b0497c5755c7b6f5342321f0d69d4703bccbc9ea8838",
-      "article_sentences": [
-        "NIS, /Serbia/, August 19.",
-        "An Il-76 aircraft of the Russian Emergencies Ministry that arrived in the Serbian city of Nis will begin fighting forest fires on Thursday, Aircraft Commander and head of the Russian specialists' group.",
-        "Andrey Vilkov said.",
-        "\"As in the old good days, Nis is welcoming us with open arms and wonderful people.",
-        "We arrived today as if we were coming home.",
-        "Thank you all.",
-        "We will begin work tomorrow,\" Vilkov told reporters.",
-        "The Russian Emergencies Ministry aircraft landed at Nis airport earlier on Wednesday.",
-        "It carries a water-dropping device specially designed for use on the Il-76.",
-        "It can drop up to 42 tons of water on the most intense fire zones, covering an area measuring up to 700 by 65 meters.",
-        "This capability has earned the Il-76 the nickname \"fire bomber.\"",
-        "Serbia is facing a difficult wildfire situation, which prompted local authorities to request assistance from Moscow."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Russian aircraft to begin firefighting in Serbia on August 20 — group head",
-      "briefing": {
-        "opening": [
-          "NIS, /Serbia/, August 19.",
-          "An Il-76 aircraft of the Russian Emergencies Ministry that arrived in the Serbian city of Nis will begin fighting forest fires on Thursday, Aircraft Commander and head of the Russian specialists' group."
+          "WASHINGTON, August 19.",
+          "The US Army has organized the covert transport of millions of barrels of oil through the Strait of Hormuz without coordination with the Iranian authorities, Axios reported, citing sources."
         ],
         "body": [
-          "Andrey Vilkov said.",
-          "\"As in the old good days, Nis is welcoming us with open arms and wonderful people.",
-          "We arrived today as if we were coming home.",
-          "Thank you all.",
-          "We will begin work tomorrow,\" Vilkov told reporters.",
-          "The Russian Emergencies Ministry aircraft landed at Nis airport earlier on Wednesday.",
-          "It carries a water-dropping device specially designed for use on the Il-76.",
-          "It can drop up to 42 tons of water on the most intense fire zones, covering an area measuring up to 700 by 65 meters."
+          "According to the news outlet, between 15 and 20 tankers pass through the strait’s southern channel along the coast of Oman every day, successfully exporting about 10 million barrels of oil from the Middle East, roughly half of the pre-war level.",
+          "\"We have been controlling the southern lane of the Strait of Hormuz for two months now.",
+          "The Islamic Revolutionary Guard Corps can be a nuisance, but they don't control the strait.",
+          "We do,\" Axios quoted a source as saying."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nis"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "NIS, /Serbia/, August 19.",
+            "text": "The US Army has organized the covert transport of millions of barrels of oil through the Strait of Hormuz without coordination with the Iranian authorities, Axios reported, citing sources.",
             "source": "TASS English",
-            "item_id": "02a2b9cccfa206ffad25b0497c5755c7b6f5342321f0d69d4703bccbc9ea8838:article",
+            "item_id": "f33f8c4d59f8251a82bf87010747f9038c3eac8d757b914bc17aee1e0367ffc4:article",
             "composed": false
           },
           {
-            "text": "An Il-76 aircraft of the Russian Emergencies Ministry that arrived in the Serbian city of Nis will begin fighting forest fires on Thursday, Aircraft Commander and head of the Russian specialists' group.",
+            "text": "According to the news outlet, between 15 and 20 tankers pass through the strait’s southern channel along the coast of Oman every day, successfully exporting about 10 million barrels of oil from the Middle East, roughly half of the pre-war level.",
             "source": "TASS English",
-            "item_id": "02a2b9cccfa206ffad25b0497c5755c7b6f5342321f0d69d4703bccbc9ea8838:article",
+            "item_id": "f33f8c4d59f8251a82bf87010747f9038c3eac8d757b914bc17aee1e0367ffc4:article",
             "composed": false
           },
           {
-            "text": "The Russian Emergencies Ministry aircraft landed at Nis airport earlier on Wednesday.",
+            "text": "WASHINGTON, August 19.",
             "source": "TASS English",
-            "item_id": "02a2b9cccfa206ffad25b0497c5755c7b6f5342321f0d69d4703bccbc9ea8838:article",
-            "composed": false
-          },
-          {
-            "text": "It can drop up to 42 tons of water on the most intense fire zones, covering an area measuring up to 700 by 65 meters.",
-            "source": "TASS English",
-            "item_id": "02a2b9cccfa206ffad25b0497c5755c7b6f5342321f0d69d4703bccbc9ea8838:article",
+            "item_id": "f33f8c4d59f8251a82bf87010747f9038c3eac8d757b914bc17aee1e0367ffc4:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/emergencies/2175337"
+        "url": "https://tass.com/world/2175341"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
