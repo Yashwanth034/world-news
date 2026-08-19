@@ -1,60 +1,82 @@
 {
-  "generated_at": "2026-08-19T07:40:02.603652+00:00",
-  "count": 3,
+  "generated_at": "2026-08-19T07:45:09.551415+00:00",
+  "count": 1,
   "stories": [
     {
-      "id": "14b04c5fcce1f7accd9be8627f309fc8accc4c8d0de38a483ef571ee7fe73e9c",
-      "title": "Malaysia PM Anwar orders probe after immigration truck crash in KL kills father and two daughters",
-      "url": "https://www.straitstimes.com/asia/se-asia/man-and-two-daughters-killed-after-immigration-truck-runs-red-light-and-crashes-into-car-in-kl",
+      "id": "5907893097b65dc1579457580eec7dfc1847d546a7adbc4942115ec3cd7d6dc8",
+      "title": "At least 9 killed in hotel fire in India’s Kolkata",
+      "url": "https://www.straitstimes.com/asia/south-asia/at-least-nine-killed-in-hotel-fire-in-indias-kolkata",
       "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "A 53-year-old man and his two daughters, aged 25 and 12, died at the scene.",
-      "published_at": "2026-08-19T04:14:38+00:00",
-      "updated_at": "2026-08-19T04:14:38+00:00",
-      "effective_at": "2026-08-19T04:14:38+00:00",
+      "summary": "A fire in a Kolkata hotel killed nine people, including a child, possibly caused by a faulty air conditioner, with thick smoke trapping guests inside. Sixty guests were staying in the hotel; six were injured and taken to hospital, with some victims likely Bangladeshi nationals visiting for medical treatment. Authorities are investigating safety lapses, while firefighters faced challenges due to dense smoke; Prime Minister Modi expressed condolences and support for the victims. A fire ripped through a hotel in the Indian city of Kolkata on Aug 19, killing nine people, authorities said, with investigators suspecting a faulty air conditioner may be the cause. “Nine people were killed, including a child, in the fire that broke out early on Wednesday,” Anuj Sharma, the fire services director of West Bengal state, told AFP. “Thick smoke enveloped the hotel. Some victims were found in the bathrooms.” Building fires are common in India due to a lack of firefighting equipment and routine disregard for safety regulations. Preliminary information suggested an air conditioner in the budget hotel may have exploded and caused the blaze, Sharma said. A forensic team was deployed to examine the scene after the fire had been brought under control. Sixty guests were staying at the hotel, police said in a statement. Media reports said six people were injured and taken to hospital for treatment.",
+      "published_at": "2026-08-19T04:01:39+00:00",
+      "updated_at": "2026-08-19T04:01:39+00:00",
+      "effective_at": "2026-08-19T04:01:39+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "law",
-      "subsector": "regulation",
-      "subregion": "Southeast Asia",
+      "sector": "climate",
+      "subsector": "wildfires",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "anwar",
-        "kl",
-        "malaysia",
-        "pm"
+        "afp",
+        "anuj",
+        "aug",
+        "bangladeshi",
+        "bengal",
+        "building",
+        "india",
+        "indian",
+        "kolkata",
+        "modi",
+        "sharma",
+        "west"
       ],
-      "corroborating_sources": 0,
+      "corroborating_sources": 1,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 95,
+      "verified_match_count": 2,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "16014a9e2f8da7e94ff4adf1",
-      "importance_score": 51.0,
+      "article_sentences": [
+        "A fire in a Kolkata hotel killed nine people, including a child, possibly caused by a faulty air conditioner, with thick smoke trapping guests inside.",
+        "Sixty guests were staying in the hotel; six were injured and taken to hospital, with some victims likely Bangladeshi nationals visiting for medical treatment.",
+        "Authorities are investigating safety lapses, while firefighters faced challenges due to dense smoke; Prime Minister Modi expressed condolences and support for the victims.",
+        "A fire ripped through a hotel in the Indian city of Kolkata on Aug 19, killing nine people, authorities said, with investigators suspecting a faulty air conditioner may be the cause.",
+        "“Nine people were killed, including a child, in the fire that broke out early on Wednesday,” Anuj Sharma, the fire services director of West Bengal state, told AFP.",
+        "“Thick smoke enveloped the hotel.",
+        "Some victims were found in the bathrooms.”",
+        "Building fires are common in India due to a lack of firefighting equipment and routine disregard for safety regulations.",
+        "Preliminary information suggested an air conditioner in the budget hotel may have exploded and caused the blaze, Sharma said.",
+        "A forensic team was deployed to examine the scene after the fire had been brought under control.",
+        "Sixty guests were staying at the hotel, police said in a statement.",
+        "Media reports said six people were injured and taken to hospital for treatment."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "f044d786acf305968e7d24b4",
+      "importance_score": 60.0,
       "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 16.0,
         "urgency": 6.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
+        "corroboration": 3,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 53,
+          "dead": 19,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -63,275 +85,73 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 8
+          "human": 8,
+          "scientific": 4,
+          "geopolitical": 4
         }
       },
-      "story_id": "14b04c5fcce1f7accd9be8627f309fc8accc4c8d0de38a483ef571ee7fe73e9c",
-      "article_sentences": [
-        "Malaysian PM Anwar Ibrahim has ordered an immediate investigation after an Immigration Department truck crash in Kuala Lumpur killed three family members.",
-        "The truck, with activated sirens, entered a red light and collided with a car, then hit four pedestrians, causing three deaths and one critical injury.",
-        "Police detained both drivers and are investigating, while the Immigration Department will review procedures and cooperate fully with authorities.",
-        "Malaysian Prime Minister Anwar Ibrahim has ordered the country’s Immigration Department to immediately conduct a thorough investigation after an accident involving one of its trucks killed three members of a family on Aug 19.",
-        "He said in a Facebook post on Aug 19 that action must be taken if the investigation finds any negligence or breach of the law.",
-        "A man and his two daughters were killed after they were hit by an Immigration Department truck that veered off course after a collision at a traffic light intersection along Jalan Sultan Ismail in Kuala Lumpur.",
-        "Kuala Lumpur Traffic Investigation and Enforcement Department chief Mohd Zamzuri Mohd Isa said the accident happened at about 1am, according to Sinar Harian.",
-        "He said the truck was travelling without passengers from the Kuala Lumpur Immigration office to Chow Kit to pick up detainees following an operation against illegal immigrants.",
-        "“Initial investigations found that the truck, driven by a 43-year-old man, was believed to have entered the intersection while the traffic light in its direction was red, with its beacon lights and siren activated,” he said.",
-        "“At the same time, a car driven by a 50-year-old man was travelling straight through the intersection as the traffic light in his direction was green.",
-        "“The driver was unable to avoid the truck, resulting in a collision in the middle of the intersection.”",
-        "Assistant Commissioner Zamzuri said the impact caused the Immigration Department truck to veer towards four pedestrians, who were a family."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Malaysia PM Anwar orders probe after immigration truck crash in KL kills father and two daughters",
+      "story_id": "5907893097b65dc1579457580eec7dfc1847d546a7adbc4942115ec3cd7d6dc8",
+      "public_label": "🔄 UPDATE",
+      "headline": "At least 9 killed in hotel fire in India’s Kolkata",
       "briefing": {
         "opening": [
-          "Malaysian PM Anwar Ibrahim has ordered an immediate investigation after an Immigration Department truck crash in Kuala Lumpur killed three family members.",
-          "The truck, with activated sirens, entered a red light and collided with a car, then hit four pedestrians, causing three deaths and one critical injury."
+          "A fire in a Kolkata hotel killed nine people, including a child, possibly caused by a faulty air conditioner, with thick smoke trapping guests inside.",
+          "Sixty guests were staying in the hotel; six were injured and taken to hospital, with some victims likely Bangladeshi nationals visiting for medical treatment."
         ],
         "body": [
-          "Police detained both drivers and are investigating, while the Immigration Department will review procedures and cooperate fully with authorities.",
-          "Malaysian Prime Minister Anwar Ibrahim has ordered the country’s Immigration Department to immediately conduct a thorough investigation after an accident involving one of its trucks killed three members of a family on Aug 19.",
-          "He said in a Facebook post on Aug 19 that action must be taken if the investigation finds any negligence or breach of the law.",
-          "A man and his two daughters were killed after they were hit by an Immigration Department truck that veered off course after a collision at a traffic light intersection along Jalan Sultan Ismail in Kuala Lumpur.",
-          "Kuala Lumpur Traffic Investigation and Enforcement Department chief Mohd Zamzuri Mohd Isa said the accident happened at about 1am, according to Sinar Harian.",
-          "He said the truck was travelling without passengers from the Kuala Lumpur Immigration office to Chow Kit to pick up detainees following an operation against illegal immigrants.",
-          "“Initial investigations found that the truck, driven by a 43-year-old man, was believed to have entered the intersection while the traffic light in its direction was red, with its beacon lights and siren activated,” he said.",
-          "“At the same time, a car driven by a 50-year-old man was travelling straight through the intersection as the traffic light in his direction was green."
+          "Authorities are investigating safety lapses, while firefighters faced challenges due to dense smoke; Prime Minister Modi expressed condolences and support for the victims.",
+          "A fire ripped through a hotel in the Indian city of Kolkata on Aug 19, killing nine people, authorities said, with investigators suspecting a faulty air conditioner may be the cause.",
+          "“Nine people were killed, including a child, in the fire that broke out early on Wednesday,” Anuj Sharma, the fire services director of West Bengal state, told AFP.",
+          "“Thick smoke enveloped the hotel.",
+          "Some victims were found in the bathrooms.” Building fires are common in India due to a lack of firefighting equipment and routine disregard for safety regulations.",
+          "Preliminary information suggested an air conditioner in the budget hotel may have exploded and caused the blaze, Sharma said.",
+          "A forensic team was deployed to examine the scene after the fire had been brought under control.",
+          "Sixty guests were staying at the hotel, police said in a statement."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Kuala Lumpur"
+            "text": "India"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "under control"
           }
         ],
         "sentences": [
           {
-            "text": "He said in a Facebook post on Aug 19 that action must be taken if the investigation finds any negligence or breach of the law.",
+            "text": "A fire ripped through a hotel in the Indian city of Kolkata on Aug 19, killing nine people, authorities said, with investigators suspecting a faulty air conditioner may be the cause.",
             "source": "Straits Times Asia",
-            "item_id": "14b04c5fcce1f7accd9be8627f309fc8accc4c8d0de38a483ef571ee7fe73e9c:article",
+            "item_id": "5907893097b65dc1579457580eec7dfc1847d546a7adbc4942115ec3cd7d6dc8:article",
             "composed": false
           },
           {
-            "text": "Malaysian Prime Minister Anwar Ibrahim has ordered the country’s Immigration Department to immediately conduct a thorough investigation after an accident involving one of its trucks killed three members of a family on Aug 19.",
+            "text": "“Nine people were killed, including a child, in the fire that broke out early on Wednesday,” Anuj Sharma, the fire services director of West Bengal state, told AFP.",
             "source": "Straits Times Asia",
-            "item_id": "14b04c5fcce1f7accd9be8627f309fc8accc4c8d0de38a483ef571ee7fe73e9c:article",
+            "item_id": "5907893097b65dc1579457580eec7dfc1847d546a7adbc4942115ec3cd7d6dc8:article",
             "composed": false
           },
           {
-            "text": "Malaysian PM Anwar Ibrahim has ordered an immediate investigation after an Immigration Department truck crash in Kuala Lumpur killed three family members.",
+            "text": "Building fires are common in India due to a lack of firefighting equipment and routine disregard for safety regulations.",
             "source": "Straits Times Asia",
-            "item_id": "14b04c5fcce1f7accd9be8627f309fc8accc4c8d0de38a483ef571ee7fe73e9c:article",
+            "item_id": "5907893097b65dc1579457580eec7dfc1847d546a7adbc4942115ec3cd7d6dc8:article",
             "composed": false
           },
           {
-            "text": "The truck, with activated sirens, entered a red light and collided with a car, then hit four pedestrians, causing three deaths and one critical injury.",
+            "text": "A fire in a Kolkata hotel killed nine people, including a child, possibly caused by a faulty air conditioner, with thick smoke trapping guests inside.",
             "source": "Straits Times Asia",
-            "item_id": "14b04c5fcce1f7accd9be8627f309fc8accc4c8d0de38a483ef571ee7fe73e9c:article",
+            "item_id": "5907893097b65dc1579457580eec7dfc1847d546a7adbc4942115ec3cd7d6dc8:article",
             "composed": false
           }
         ],
         "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/se-asia/man-and-two-daughters-killed-after-immigration-truck-runs-red-light-and-crashes-into-car-in-kl"
+        "url": "https://www.straitstimes.com/asia/south-asia/at-least-nine-killed-in-hotel-fire-in-indias-kolkata"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "be33f01fd2a96b7eabe0ac76eb572f52d9655297b2728a79cd74c163d54df390",
-      "title": "Hong Kong parents lose legal bid to get baby Danny back from welfare authorities",
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364545/hong-kong-parents-lose-legal-bid-get-baby-danny-back-welfare-authorities?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "The parents of a Hong Kong baby taken into the care of welfare authorities have lost a legal bid to have their home-born baby son returned to them, with the judge arguing the father’s child-raising methods failed to consider the possible risks. High Court Judge Queeny Au Yeung Kwai-yue on Wednesday dismissed Tsang Wai-bong’s application after he earlier filed a writ of habeas corpus regarding his son Danny. The boy was placed in a shelter run by the Social Welfare Department after a child...",
-      "published_at": "2026-08-19T07:33:50+00:00",
-      "updated_at": "2026-08-19T07:33:50+00:00",
-      "effective_at": "2026-08-19T07:33:50+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "courts",
-      "subregion": "East Asia",
-      "country": null,
-      "entities": [
-        "au",
-        "court",
-        "danny",
-        "department",
-        "high",
-        "hong_kong",
-        "kwai-yue",
-        "queeny",
-        "social",
-        "tsang",
-        "wai-bong",
-        "welfare",
-        "yeung"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "fe86423ef696e33b31999910",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "be33f01fd2a96b7eabe0ac76eb572f52d9655297b2728a79cd74c163d54df390",
-      "public_label": "📰 NEWS",
-      "headline": "Hong Kong parents lose legal bid to get baby Danny back from welfare authorities",
-      "briefing": {
-        "opening": [
-          "The parents of a Hong Kong baby taken into the care of welfare authorities have lost a legal bid to have their home-born baby son returned to them, with the judge arguing the father’s child-raising methods failed to consider the possible risks.",
-          "High Court Judge Queeny Au Yeung Kwai-yue on Wednesday dismissed Tsang Wai-bong’s application after he earlier filed a writ of habeas corpus regarding his son Danny."
-        ],
-        "body": [
-          "The boy was placed in a shelter run by the Social Welfare Department after a child..."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The parents of a Hong Kong baby taken into the care of welfare authorities have lost a legal bid to have their home-born baby son returned to them, with the judge arguing the father’s child-raising methods failed to consider the possible risks.",
-            "source": "South China Morning Post",
-            "item_id": "be33f01fd2a96b7eabe0ac76eb572f52d9655297b2728a79cd74c163d54df390",
-            "composed": false
-          },
-          {
-            "text": "High Court Judge Queeny Au Yeung Kwai-yue on Wednesday dismissed Tsang Wai-bong’s application after he earlier filed a writ of habeas corpus regarding his son Danny.",
-            "source": "South China Morning Post",
-            "item_id": "be33f01fd2a96b7eabe0ac76eb572f52d9655297b2728a79cd74c163d54df390",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364545/hong-kong-parents-lose-legal-bid-get-baby-danny-back-welfare-authorities?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "5c77e8fcaa4caa4a48084ded513aa79bdb9f463b5573cf5a84d17846c6cca4bb",
-      "title": "Onam rush: Action plan ready for stringent traffic enforcement from August 20 in Kozhikode city",
-      "url": "https://www.thehindu.com/news/cities/kozhikode/onam-rush-action-plan-ready-for-stringent-traffic-enforcement-from-august-20-in-kozhikode-city/article71363637.ece",
-      "source": "The Hindu",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "As per the latest action plan, special squads will be deployed for implementing the new regulations, which will be in force from August 20 to 31. Arrangements are also in place to track violations using digital cameras and drones.",
-      "published_at": "2026-08-19T07:27:28+00:00",
-      "updated_at": "2026-08-19T07:27:28+00:00",
-      "effective_at": "2026-08-19T07:27:28+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "defense",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "action",
-        "kozhikode"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "8f27f93a41ebe77a55381ead",
-      "importance_score": 26.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "5c77e8fcaa4caa4a48084ded513aa79bdb9f463b5573cf5a84d17846c6cca4bb",
-      "public_label": "📰 NEWS",
-      "headline": "Onam rush: Action plan ready for stringent traffic enforcement from August 20 in Kozhikode city",
-      "briefing": {
-        "opening": [
-          "As per the latest action plan, special squads will be deployed for implementing the new regulations, which will be in force from August 20 to 31.",
-          "Arrangements are also in place to track violations using digital cameras and drones."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Arrangements are also in place to track violations using digital cameras and drones.",
-            "source": "The Hindu",
-            "item_id": "5c77e8fcaa4caa4a48084ded513aa79bdb9f463b5573cf5a84d17846c6cca4bb",
-            "composed": false
-          },
-          {
-            "text": "As per the latest action plan, special squads will be deployed for implementing the new regulations, which will be in force from August 20 to 31.",
-            "source": "The Hindu",
-            "item_id": "5c77e8fcaa4caa4a48084ded513aa79bdb9f463b5573cf5a84d17846c6cca4bb",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/cities/kozhikode/onam-rush-action-plan-ready-for-stringent-traffic-enforcement-from-august-20-in-kozhikode-city/article71363637.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
