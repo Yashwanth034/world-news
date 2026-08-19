@@ -1,46 +1,148 @@
 {
-  "generated_at": "2026-08-19T04:31:01.783393+00:00",
-  "count": 1,
+  "generated_at": "2026-08-19T04:39:01.696113+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "35cf0dd892a339be2e87d42b2076a12a9ef79d632685d9b71edd2cc8d5e7ee86",
-      "title": "Australia mushroom killer’s lawyers point to jury irregularities at appeal",
-      "url": "https://www.straitstimes.com/asia/australianz/australia-mushroom-killers-lawyers-point-to-jury-irregularities-at-appeal",
+      "id": "1e8456b70be0e9cbef76815a9cc4626818f74be7f419cea58922d8e22e1ee47f",
+      "title": "Southeast Asia’s landmine clearers face closure as global aid shifts to new wars",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3364510/southeast-asias-landmine-clearers-face-closure-global-aid-shifts-new-wars?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "En Poy was minding cattle in a former Khmer Rouge stronghold in Cambodia when he set off his first landmine. The blast from the rusty relic he picked up cost him an arm and an eye. It also inspired his career with non-profit organisation Cambodian Self Help Demining, which clears landmines and unexploded ordnance across the country, deadly remnants of wars from the last century. Groups like Poy’s that rely on foreign aid are struggling as donors shift funding for humanitarian demining towards...",
+      "published_at": "2026-08-19T04:35:04+00:00",
+      "updated_at": "2026-08-19T04:35:04+00:00",
+      "effective_at": "2026-08-19T04:35:04+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "conflict",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "asia",
+        "cambodia",
+        "cambodian",
+        "demining",
+        "en",
+        "help",
+        "khmer",
+        "poy",
+        "rouge",
+        "self",
+        "southeast"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "ddad33e463316eae42167173",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "1e8456b70be0e9cbef76815a9cc4626818f74be7f419cea58922d8e22e1ee47f",
+      "public_label": "📰 NEWS",
+      "headline": "Southeast Asia’s landmine clearers face closure as global aid shifts to new wars",
+      "briefing": {
+        "opening": [
+          "En Poy was minding cattle in a former Khmer Rouge stronghold in Cambodia when he set off his first landmine.",
+          "The blast from the rusty relic he picked up cost him an arm and an eye."
+        ],
+        "body": [
+          "It also inspired his career with non-profit organisation Cambodian Self Help Demining, which clears landmines and unexploded ordnance across the country, deadly remnants of wars from the last century.",
+          "Groups like Poy’s that rely on foreign aid are struggling as donors shift funding for humanitarian demining towards..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Cambodia"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "It also inspired his career with non-profit organisation Cambodian Self Help Demining, which clears landmines and unexploded ordnance across the country, deadly remnants of wars from the last century.",
+            "source": "South China Morning Post",
+            "item_id": "1e8456b70be0e9cbef76815a9cc4626818f74be7f419cea58922d8e22e1ee47f",
+            "composed": false
+          },
+          {
+            "text": "The blast from the rusty relic he picked up cost him an arm and an eye.",
+            "source": "South China Morning Post",
+            "item_id": "1e8456b70be0e9cbef76815a9cc4626818f74be7f419cea58922d8e22e1ee47f",
+            "composed": false
+          },
+          {
+            "text": "En Poy was minding cattle in a former Khmer Rouge stronghold in Cambodia when he set off his first landmine.",
+            "source": "South China Morning Post",
+            "item_id": "1e8456b70be0e9cbef76815a9cc4626818f74be7f419cea58922d8e22e1ee47f",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3364510/southeast-asias-landmine-clearers-face-closure-global-aid-shifts-new-wars?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "60e47ce2cc8522c7464567c331ac42bf741e29af2fde8b4a67469633479c5a6e",
+      "title": "Hormuz traffic slows as uncertainty over waterway persists",
+      "url": "https://www.straitstimes.com/asia/hormuz-traffic-slows-as-uncertainty-over-waterway-persists",
       "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Oceania",
+      "region": null,
       "discovery": false,
-      "summary": "Erin Patterson’s lawyers argue jury was not properly sequestered, claiming unfair trial due to jury staying with police witnesses during her triple-murder conviction appeal. Lawyers challenge key evidence on cell towers and mushroom sightings as unreliable, and say prosecution’s cross-examination was unfair and oppressive. Prosecution appeals Patterson’s 33-year non-parole sentence as too lenient, arguing judge erred over solitary confinement considerations affecting sentencing decision. Australian mushroom killer Erin Patterson’s lawyers said on Aug 19 the jury was not properly sequestered in her trial as they sought to overturn her conviction in a triple-murder case that sparked a worldwide media frenzy. The 51-year-old was found guilty in 2025 of murdering her husband’s parents and an elderly aunt in 2023 by serving them a beef Wellington lunch laced with lethal death cap mushrooms. Patterson was also convicted of the attempted murder of her husband’s uncle, a small-town local pastor who survived the beef-and-pastry dish after weeks in hospital. A judge sentenced her to life imprisonment, eligible for parole after 33 years. Three judges are hearing two appeals – Patterson’s attempt to overturn her conviction and the prosecution’s demand for a stiffer sentence – on Aug 19 and 20. Patterson watched the proceedings at Melbourne’s Supreme Court via a live video link from her maximum-security prison, the Dame Phyllis Frost Centre in Melbourne’s western suburbs. She was wearing a blue prison jumper, national broadcaster ABC said. Her lawyer, Richard Edney, argued that the fact that members of the jury had stayed in the same hotel as a witness for the police – as well as members of the prosecution – undermined the fairness of the trial. He said it represented a “fundamental failure” of the legal process “in perhaps one of the most high-profile criminal trials this state has ever had”.",
-      "published_at": "2026-08-19T04:22:00+00:00",
-      "updated_at": "2026-08-19T04:22:00+00:00",
-      "effective_at": "2026-08-19T04:22:00+00:00",
+      "summary": "Six commodity vessels crossed the strait on Aug 18.",
+      "published_at": "2026-08-19T04:30:56+00:00",
+      "updated_at": "2026-08-19T04:30:56+00:00",
+      "effective_at": "2026-08-19T04:30:56+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "law",
-      "subsector": "law",
-      "subregion": "Australia",
+      "sector": "transport",
+      "subsector": "shipping",
+      "subregion": null,
       "country": null,
       "entities": [
-        "abc",
         "aug",
-        "australia",
-        "centre",
-        "court",
-        "dame",
-        "edney",
-        "erin",
-        "frost",
-        "melbourne",
-        "patterson",
-        "phyllis",
-        "richard",
-        "supreme",
-        "wellington"
+        "hormuz"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -49,37 +151,23 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "Erin Patterson’s lawyers argue jury was not properly sequestered, claiming unfair trial due to jury staying with police witnesses during her triple-murder conviction appeal.",
-        "Lawyers challenge key evidence on cell towers and mushroom sightings as unreliable, and say prosecution’s cross-examination was unfair and oppressive.",
-        "Prosecution appeals Patterson’s 33-year non-parole sentence as too lenient, arguing judge erred over solitary confinement considerations affecting sentencing decision.",
-        "Australian mushroom killer Erin Patterson’s lawyers said on Aug 19 the jury was not properly sequestered in her trial as they sought to overturn her conviction in a triple-murder case that sparked a worldwide media frenzy.",
-        "The 51-year-old was found guilty in 2025 of murdering her husband’s parents and an elderly aunt in 2023 by serving them a beef Wellington lunch laced with lethal death cap mushrooms.",
-        "Patterson was also convicted of the attempted murder of her husband’s uncle, a small-town local pastor who survived the beef-and-pastry dish after weeks in hospital.",
-        "A judge sentenced her to life imprisonment, eligible for parole after 33 years.",
-        "Three judges are hearing two appeals – Patterson’s attempt to overturn her conviction and the prosecution’s demand for a stiffer sentence – on Aug 19 and 20.",
-        "Patterson watched the proceedings at Melbourne’s Supreme Court via a live video link from her maximum-security prison, the Dame Phyllis Frost Centre in Melbourne’s western suburbs.",
-        "She was wearing a blue prison jumper, national broadcaster ABC said.",
-        "Her lawyer, Richard Edney, argued that the fact that members of the jury had stayed in the same hotel as a witness for the police – as well as members of the prosecution – undermined the fairness of the trial.",
-        "He said it represented a “fundamental failure” of the legal process “in perhaps one of the most high-profile criminal trials this state has ever had”."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "8f2405d80c3574903c77f33d",
-      "importance_score": 60.0,
-      "importance_level": "MEDIUM",
+      "event_status": "NEW",
+      "event_id": "6b847d2cde302058fe14392a",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 16.0,
-        "urgency": 10,
-        "novelty": 8.0,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 12,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 19,
+          "dead": 0,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -87,68 +175,68 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "scientific": 4,
-          "human": 8
-        }
+        "significance_dims": {}
       },
-      "story_id": "35cf0dd892a339be2e87d42b2076a12a9ef79d632685d9b71edd2cc8d5e7ee86",
-      "public_label": "🔄 UPDATE",
-      "headline": "Australia mushroom killer’s lawyers point to jury irregularities at appeal",
+      "story_id": "60e47ce2cc8522c7464567c331ac42bf741e29af2fde8b4a67469633479c5a6e",
+      "article_sentences": [
+        "Shipping through the Strait of Hormuz slowed, data showed on Aug 19, as most shipowners avoided the key waterway because of a lack of clear signalling on its reopening from a blockade during the Iran war.",
+        "Six commodity vessels crossed the strait on Aug 18, Kpler data showed by 2.58am GMT (10.58am, Singapore time), down from nine a day earlier and below the 10-day daily average of 11.",
+        "Inbound traffic included an empty very large crude carrier that followed the Omani side of the strait, as well as two tankers, one of medium-range and the other intermediate, the data showed.",
+        "Two medium-range fuel tankers and a post-Panamax vessel exited the strait.",
+        "On Aug 18, US President Donald Trump said no talks were taking place with Iran and insisted the Strait of Hormuz was open, contradicting Iran’s assertion that it remained shut to shipping.",
+        "The waterway handled a fifth of the world’s shipments of crude oil and liquefied natural gas before the war.",
+        "As security concerns curb oil shipments to the world’s largest importer, two Chinese shipping giants that used to carry half its imports of Middle Eastern oil before the war have kept their tankers out of the Strait of Hormuz and Bab al-Mandeb since late July, say tanker tracker Vortexa and a ship broker.",
+        "At the Bab el-Mandeb strait on the Red Sea, where Yemeni Houthis declared a naval blockade on Saudi Arabia on July 20, Kpler data showed 30 weekend transits by commodity vessels, up from 19 in the prior week."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Hormuz traffic slows as uncertainty over waterway persists",
       "briefing": {
         "opening": [
-          "Erin Patterson’s lawyers argue jury was not properly sequestered, claiming unfair trial due to jury staying with police witnesses during her triple-murder conviction appeal.",
-          "Lawyers challenge key evidence on cell towers and mushroom sightings as unreliable, and say prosecution’s cross-examination was unfair and oppressive."
+          "Shipping through the Strait of Hormuz slowed, data showed on Aug 19, as most shipowners avoided the key waterway because of a lack of clear signalling on its reopening from a blockade during the Iran war.",
+          "Six commodity vessels crossed the strait on Aug 18, Kpler data showed by 2.58am GMT (10.58am, Singapore time), down from nine a day earlier and below the 10-day daily average of 11."
         ],
         "body": [
-          "Prosecution appeals Patterson’s 33-year non-parole sentence as too lenient, arguing judge erred over solitary confinement considerations affecting sentencing decision.",
-          "Australian mushroom killer Erin Patterson’s lawyers said on Aug 19 the jury was not properly sequestered in her trial as they sought to overturn her conviction in a triple-murder case that sparked a worldwide media frenzy.",
-          "The 51-year-old was found guilty in 2025 of murdering her husband’s parents and an elderly aunt in 2023 by serving them a beef Wellington lunch laced with lethal death cap mushrooms.",
-          "Patterson was also convicted of the attempted murder of her husband’s uncle, a small-town local pastor who survived the beef-and-pastry dish after weeks in hospital.",
-          "A judge sentenced her to life imprisonment, eligible for parole after 33 years.",
-          "Three judges are hearing two appeals – Patterson’s attempt to overturn her conviction and the prosecution’s demand for a stiffer sentence – on Aug 19 and 20.",
-          "Patterson watched the proceedings at Melbourne’s Supreme Court via a live video link from her maximum-security prison, the Dame Phyllis Frost Centre in Melbourne’s western suburbs.",
-          "She was wearing a blue prison jumper, national broadcaster ABC said."
+          "Inbound traffic included an empty very large crude carrier that followed the Omani side of the strait, as well as two tankers, one of medium-range and the other intermediate, the data showed.",
+          "Two medium-range fuel tankers and a post-Panamax vessel exited the strait.",
+          "On Aug 18, US President Donald Trump said no talks were taking place with Iran and insisted the Strait of Hormuz was open, contradicting Iran’s assertion that it remained shut to shipping.",
+          "The waterway handled a fifth of the world’s shipments of crude oil and liquefied natural gas before the war.",
+          "As security concerns curb oil shipments to the world’s largest importer, two Chinese shipping giants that used to carry half its imports of Middle Eastern oil before the war have kept their tankers out of the Strait of Hormuz and Bab al-Mandeb since late July, say tanker tracker Vortexa and a ship broker.",
+          "At the Bab el-Mandeb strait on the Red Sea, where Yemeni Houthis declared a naval blockade on Saudi Arabia on July 20, Kpler data showed 30 weekend transits by commodity vessels, up from 19 in the prior week.",
+          "Six commodity vessels crossed the strait on Aug 18."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Melbourne’s Supreme Court"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Three judges are hearing two appeals – Patterson’s attempt to overturn her conviction and the prosecution’s demand for a stiffer sentence – on Aug 19 and 20.",
+            "text": "Inbound traffic included an empty very large crude carrier that followed the Omani side of the strait, as well as two tankers, one of medium-range and the other intermediate, the data showed.",
             "source": "Straits Times Asia",
-            "item_id": "35cf0dd892a339be2e87d42b2076a12a9ef79d632685d9b71edd2cc8d5e7ee86:article",
+            "item_id": "60e47ce2cc8522c7464567c331ac42bf741e29af2fde8b4a67469633479c5a6e:article",
             "composed": false
           },
           {
-            "text": "The 51-year-old was found guilty in 2025 of murdering her husband’s parents and an elderly aunt in 2023 by serving them a beef Wellington lunch laced with lethal death cap mushrooms.",
+            "text": "Six commodity vessels crossed the strait on Aug 18, Kpler data showed by 2.58am GMT (10.58am, Singapore time), down from nine a day earlier and below the 10-day daily average of 11.",
             "source": "Straits Times Asia",
-            "item_id": "35cf0dd892a339be2e87d42b2076a12a9ef79d632685d9b71edd2cc8d5e7ee86:article",
+            "item_id": "60e47ce2cc8522c7464567c331ac42bf741e29af2fde8b4a67469633479c5a6e:article",
             "composed": false
           },
           {
-            "text": "Patterson watched the proceedings at Melbourne’s Supreme Court via a live video link from her maximum-security prison, the Dame Phyllis Frost Centre in Melbourne’s western suburbs.",
+            "text": "Shipping through the Strait of Hormuz slowed, data showed on Aug 19, as most shipowners avoided the key waterway because of a lack of clear signalling on its reopening from a blockade during the Iran war.",
             "source": "Straits Times Asia",
-            "item_id": "35cf0dd892a339be2e87d42b2076a12a9ef79d632685d9b71edd2cc8d5e7ee86:article",
+            "item_id": "60e47ce2cc8522c7464567c331ac42bf741e29af2fde8b4a67469633479c5a6e:article",
             "composed": false
           },
           {
-            "text": "Australian mushroom killer Erin Patterson’s lawyers said on Aug 19 the jury was not properly sequestered in her trial as they sought to overturn her conviction in a triple-murder case that sparked a worldwide media frenzy.",
+            "text": "On Aug 18, US President Donald Trump said no talks were taking place with Iran and insisted the Strait of Hormuz was open, contradicting Iran’s assertion that it remained shut to shipping.",
             "source": "Straits Times Asia",
-            "item_id": "35cf0dd892a339be2e87d42b2076a12a9ef79d632685d9b71edd2cc8d5e7ee86:article",
+            "item_id": "60e47ce2cc8522c7464567c331ac42bf741e29af2fde8b4a67469633479c5a6e:article",
             "composed": false
           }
         ],
         "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/australianz/australia-mushroom-killers-lawyers-point-to-jury-irregularities-at-appeal"
+        "url": "https://www.straitstimes.com/asia/hormuz-traffic-slows-as-uncertainty-over-waterway-persists"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     }
   ]
 }
