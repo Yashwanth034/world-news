@@ -1,61 +1,218 @@
 {
-  "generated_at": "2026-08-19T15:40:50.322663+00:00",
-  "count": 2,
+  "generated_at": "2026-08-19T15:49:49.473655+00:00",
+  "count": 4,
   "stories": [
     {
-      "id": "2b63a96d49998d7e575aef4009718c856083f5611d2b2cb8d427849371d08ae5",
-      "title": "France measures more than 7,300 excess deaths – and counting – during historic heatwaves",
-      "url": "https://www.france24.com/en/france/20260819-france-experienced-more-than-7-300-excess-deaths-during-historic-heatwaves",
-      "source": "France 24",
+      "id": "9e14b04242db51e2ab4edb9f9b1af94d7dd3ad0ea2d3ea057e7973101f3f7050",
+      "title": "At least 100 people may have died after gold mine collapsed in Central African Republic",
+      "url": "http://www.euronews.com/2026/08/19/at-least-100-people-may-have-died-after-gold-mine-collapsed-in-central-african-republic",
+      "source": "Euronews",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Africa",
       "discovery": false,
-      "summary": "More than 7,300 excess deaths have been recorded in France over the historically hot summer as Europe grapples with worsening heatwaves, wildfires and droughts, public health authorities said Wednesday. France has suffered a record-breaking 52 days of heatwaves since mid-June, an AFP analysis found.",
-      "published_at": "2026-08-19T14:29:13+00:00",
-      "updated_at": "2026-08-19T14:29:13+00:00",
-      "effective_at": "2026-08-19T14:29:13+00:00",
+      "summary": "According to the Baboua public prosecutor, the incident is believed to have been caused by \"the collapse of several underground tunnels in which miners were operating.\" At least 100 people may have been killed after a landslide at a gold mine in the Central African Republic on Tuesday, local sources have told the AFP news agency. Search and rescue operations are still ongoing at the Zamboye mining site, near the CAR's border with Cameroon. Video footage posted to social media appears to show a large mound of earth break away from the side of the mine and slide down into a mass of people, burying some of them. \"At this stage it's difficult for us to establish a formal toll,\" Laurent Ngon Baba, an elected official from the town of Baboua, told AFP on Wednesday. One miner at the site described the incident as \"catastrophic\". \"The ground completely collapsed and buried people,\" he said. The governor of the eastern Cameroon region, Gregoire Mvongo, said on CRTV radio that Cameroon was \"working in close collaboration with our Central African colleagues to deal with the aftermath of this tragedy.\"",
+      "published_at": "2026-08-19T15:43:07+00:00",
+      "updated_at": "2026-08-19T15:43:07+00:00",
+      "effective_at": "2026-08-19T15:43:07+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 73,
+      "score": 60,
       "confidence": "medium",
-      "urgency_terms": [
-        "wildfire"
-      ],
-      "sector": "climate",
-      "subsector": "weather",
-      "subregion": "Europe",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "commodities",
+      "subregion": "Central Africa",
       "country": null,
       "entities": [
+        "according",
         "afp",
-        "europe",
-        "france"
+        "african",
+        "baba",
+        "baboua",
+        "cameroon",
+        "car",
+        "central",
+        "crtv",
+        "gregoire",
+        "laurent",
+        "mvongo",
+        "ngon",
+        "republic",
+        "zamboye"
+      ],
+      "corroborating_sources": 2,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Al Jazeera"
+      ],
+      "verified_match_count": 2,
+      "priority_score": 68,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "According to the Baboua public prosecutor, the incident is believed to have been caused by \"the collapse of several underground tunnels in which miners were operating.\"",
+        "At least 100 people may have been killed after a landslide at a gold mine in the Central African Republic on Tuesday, local sources have told the AFP news agency.",
+        "Search and rescue operations are still ongoing at the Zamboye mining site, near the CAR's border with Cameroon.",
+        "Video footage posted to social media appears to show a large mound of earth break away from the side of the mine and slide down into a mass of people, burying some of them.",
+        "\"At this stage it's difficult for us to establish a formal toll,\" Laurent Ngon Baba, an elected official from the town of Baboua, told AFP on Wednesday.",
+        "One miner at the site described the incident as \"catastrophic\".",
+        "\"The ground completely collapsed and buried people,\" he said.",
+        "The governor of the eastern Cameroon region, Gregoire Mvongo, said on CRTV radio that Cameroon was \"working in close collaboration with our Central African colleagues to deal with the aftermath of this tragedy.\""
+      ],
+      "event_status": "UPDATE",
+      "event_id": "af0d11e78f5f1aeb2c45409a",
+      "importance_score": 70.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 22.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 6,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 100,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": true,
+          "crisis": true
+        },
+        "significance_dims": {
+          "human": 12,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "9e14b04242db51e2ab4edb9f9b1af94d7dd3ad0ea2d3ea057e7973101f3f7050",
+      "public_label": "🔄 UPDATE",
+      "headline": "At least 100 people may have died after gold mine collapsed in Central African Republic",
+      "briefing": {
+        "opening": [
+          "According to the Baboua public prosecutor, the incident is believed to have been caused by \"the collapse of several underground tunnels in which miners were operating.\" At least 100 people may have been killed after a landslide at a gold mine in the Central African Republic on Tuesday, local sources have told the AFP news agency.",
+          "Search and rescue operations are still ongoing at the Zamboye mining site, near the CAR's border with Cameroon."
+        ],
+        "body": [
+          "Video footage posted to social media appears to show a large mound of earth break away from the side of the mine and slide down into a mass of people, burying some of them.",
+          "\"At this stage it's difficult for us to establish a formal toll,\" Laurent Ngon Baba, an elected official from the town of Baboua, told AFP on Wednesday.",
+          "One miner at the site described the incident as \"catastrophic\".",
+          "\"The ground completely collapsed and buried people,\" he said.",
+          "The governor of the eastern Cameroon region, Gregoire Mvongo, said on CRTV radio that Cameroon was \"working in close collaboration with our Central African colleagues to deal with the aftermath of this tragedy.\""
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "At least 100 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "At least 100 people may have been killed after a landslide at a gold mine in the Central African Republic on Tuesday, local sources have told the AFP news agency.",
+            "source": "Euronews",
+            "item_id": "9e14b04242db51e2ab4edb9f9b1af94d7dd3ad0ea2d3ea057e7973101f3f7050:article",
+            "composed": false
+          },
+          {
+            "text": "Search and rescue operations are still ongoing at the Zamboye mining site, near the CAR's border with Cameroon.",
+            "source": "Euronews",
+            "item_id": "9e14b04242db51e2ab4edb9f9b1af94d7dd3ad0ea2d3ea057e7973101f3f7050:article",
+            "composed": false
+          },
+          {
+            "text": "Cameroon was \"working in close collaboration with our Central African colleagues to deal with the aftermath of this tragedy.\"",
+            "source": "Euronews",
+            "item_id": "9e14b04242db51e2ab4edb9f9b1af94d7dd3ad0ea2d3ea057e7973101f3f7050:article",
+            "composed": false
+          },
+          {
+            "text": "According to the Baboua public prosecutor, the incident is believed to have been caused by \"the collapse of several underground tunnels in which miners were operating.\"",
+            "source": "Euronews",
+            "item_id": "9e14b04242db51e2ab4edb9f9b1af94d7dd3ad0ea2d3ea057e7973101f3f7050:article",
+            "composed": false
+          }
+        ],
+        "source": "Euronews",
+        "corroborating": [],
+        "url": "http://www.euronews.com/2026/08/19/at-least-100-people-may-have-died-after-gold-mine-collapsed-in-central-african-republic"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "afa3d69f198975cb9d89fd8e064566bbf237597b075bc352a0d384e9589e6314",
+      "title": "Salmonella outbreak: What we know so far",
+      "url": "https://www.bbc.co.uk/news/articles/cp30gqnpqjqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Health",
+      "source_category": "health",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "The UK Health Security Agency (UKHSA) has recently declared a national outbreak, external of salmonella food poisoning after one person died and hundreds more fell ill with the bug. Although not yet proven, imported eggs or products containing them are the leading suspects as to the cause. Evidence also suggests people caught the bug while eating out, rather than at home - with catering and food services such as restaurants or cafes likely to play a part. But there is still a lot to be discovered. What do we know and what questions remain? What is salmonella and how do you catch it? Salmonella are a family of bacteria that typically live harmlessly in the digestive tract of animals including cattle, pigs and chicken - which is why eggs and poultry are among foods commonly associated with the infection. The bacteria are shed in animal faeces. What are the symptoms? Signs to watch out for include stomach cramps, diarrhoea, vomiting or fever. These usually develop between 12 and 72 hours after becoming infected. In most cases people recover without further help but older people, babies and people with weakened immune systems are at greatest risk of severe disease.",
+      "published_at": "2026-08-19T15:48:49+00:00",
+      "updated_at": "2026-08-19T15:48:49+00:00",
+      "effective_at": "2026-08-19T15:48:49+00:00",
+      "language_status": "ENGLISH",
+      "category": "health",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "outbreaks",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "agency",
+        "health",
+        "security",
+        "uk",
+        "ukhsa"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 80,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "d2150ec928bebf0b67463db4",
-      "importance_score": 77.0,
-      "importance_level": "HIGH",
+      "article_sentences": [
+        "The UK Health Security Agency (UKHSA) has recently declared a national outbreak, external of salmonella food poisoning after one person died and hundreds more fell ill with the bug.",
+        "Although not yet proven, imported eggs or products containing them are the leading suspects as to the cause.",
+        "Evidence also suggests people caught the bug while eating out, rather than at home - with catering and food services such as restaurants or cafes likely to play a part.",
+        "But there is still a lot to be discovered.",
+        "What do we know and what questions remain?",
+        "What is salmonella and how do you catch it?",
+        "Salmonella are a family of bacteria that typically live harmlessly in the digestive tract of animals including cattle, pigs and chicken - which is why eggs and poultry are among foods commonly associated with the infection.",
+        "The bacteria are shed in animal faeces.",
+        "What are the symptoms?",
+        "Signs to watch out for include stomach cramps, diarrhoea, vomiting or fever.",
+        "These usually develop between 12 and 72 hours after becoming infected.",
+        "In most cases people recover without further help but older people, babies and people with weakened immune systems are at greatest risk of severe disease."
+      ],
+      "event_status": "NEW",
+      "event_id": "a7d91da815d0c0f25e1b8659",
+      "importance_score": 61.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 32,
-        "urgency": 9.0,
-        "novelty": 9.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "impact": 22.0,
+        "urgency": 10,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 16,
+        "significance": 10,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 7300,
+          "dead": 300,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -64,84 +221,102 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 12,
-          "scientific": 4
+          "human": 10
         }
       },
-      "story_id": "2b63a96d49998d7e575aef4009718c856083f5611d2b2cb8d427849371d08ae5",
-      "public_label": "🔄 UPDATE",
-      "headline": "France measures more than 7,300 excess deaths – and counting – during historic heatwaves",
+      "story_id": "afa3d69f198975cb9d89fd8e064566bbf237597b075bc352a0d384e9589e6314",
+      "public_label": "📰 NEWS",
+      "headline": "Salmonella outbreak: What we know so far",
       "briefing": {
         "opening": [
-          "More than 7,300 excess deaths have been recorded in France over the historically hot summer as Europe grapples with worsening heatwaves, wildfires and droughts, public health authorities said Wednesday.",
-          "France has suffered a record-breaking 52 days of heatwaves since mid-June, an AFP analysis found."
+          "The UK Health Security Agency (UKHSA) has recently declared a national outbreak, external of salmonella food poisoning after one person died and hundreds more fell ill with the bug.",
+          "Although not yet proven, imported eggs or products containing them are the leading suspects as to the cause."
         ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "France"
-          }
+        "body": [
+          "Evidence also suggests people caught the bug while eating out, rather than at home - with catering and food services such as restaurants or cafes likely to play a part.",
+          "But there is still a lot to be discovered.",
+          "What do we know and what questions remain?",
+          "What is salmonella and how do you catch it?",
+          "Salmonella are a family of bacteria that typically live harmlessly in the digestive tract of animals including cattle, pigs and chicken - which is why eggs and poultry are among foods commonly associated with the infection.",
+          "The bacteria are shed in animal faeces.",
+          "What are the symptoms?",
+          "Signs to watch out for include stomach cramps, diarrhoea, vomiting or fever."
         ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "More than 7,300 excess deaths have been recorded in France over the historically hot summer as Europe grapples with worsening heatwaves, wildfires and droughts, public health authorities said Wednesday.",
-            "source": "France 24",
-            "item_id": "2b63a96d49998d7e575aef4009718c856083f5611d2b2cb8d427849371d08ae5",
+            "text": "The UK Health Security Agency (UKHSA) has recently declared a national outbreak, external of salmonella food poisoning after one person died and hundreds more fell ill with the bug.",
+            "source": "BBC Health",
+            "item_id": "afa3d69f198975cb9d89fd8e064566bbf237597b075bc352a0d384e9589e6314:article",
             "composed": false
           },
           {
-            "text": "France has suffered a record-breaking 52 days of heatwaves since mid-June, an AFP analysis found.",
-            "source": "France 24",
-            "item_id": "2b63a96d49998d7e575aef4009718c856083f5611d2b2cb8d427849371d08ae5",
+            "text": "Evidence also suggests people caught the bug while eating out, rather than at home - with catering and food services such as restaurants or cafes likely to play a part.",
+            "source": "BBC Health",
+            "item_id": "afa3d69f198975cb9d89fd8e064566bbf237597b075bc352a0d384e9589e6314:article",
+            "composed": false
+          },
+          {
+            "text": "Although not yet proven, imported eggs or products containing them are the leading suspects as to the cause.",
+            "source": "BBC Health",
+            "item_id": "afa3d69f198975cb9d89fd8e064566bbf237597b075bc352a0d384e9589e6314:article",
+            "composed": false
+          },
+          {
+            "text": "But there is still a lot to be discovered.",
+            "source": "BBC Health",
+            "item_id": "afa3d69f198975cb9d89fd8e064566bbf237597b075bc352a0d384e9589e6314:article",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "BBC Health",
         "corroborating": [],
-        "url": "https://www.france24.com/en/france/20260819-france-experienced-more-than-7-300-excess-deaths-during-historic-heatwaves"
+        "url": "https://www.bbc.co.uk/news/articles/cp30gqnpqjqo?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     },
     {
-      "id": "8f73a7859929f4c02622e4dacf0fb7248398008d4131b5b091fc4b5e3b5133a1",
-      "title": "US treasury doubles debt buyback to steady bond market amid inflation fears",
-      "url": "https://www.theguardian.com/business/2026/aug/19/us-treasury-doubles-debt-buyback-bond-market",
-      "source": "The Guardian Business",
-      "source_category": "finance",
+      "id": "53495b23d65b468e9e89b1778218ac656f0c4578df99e48287f90af8a89dc846",
+      "title": "North Korea leader’s sister ‘unaware’ of reported Kim-Trump communication",
+      "url": "https://www.straitstimes.com/asia/east-asia/north-korea-leaders-sister-unaware-of-reported-kim-trump-communication",
+      "source": "Straits Times Asia",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Yields, at recent highs this week, dropped after treasury’s vow to ‘provide greater liquidity support’ to bond market The US treasury is doubling its buyback of government debt in an effort to balance out the bond market and counterbalance investor concern over high inflation. The yield rate on 10-year, 20-year and 30-year treasury notes all hit 20-year highs this week, with the 30-year treasury yield rising to its highest rate since 2007. The rapid rise was concerning news for borrowers as major loans, including mortgages, are backed by treasuries. Continue reading...",
-      "published_at": "2026-08-19T14:57:21+00:00",
-      "updated_at": "2026-08-19T14:57:21+00:00",
-      "effective_at": "2026-08-19T14:57:21+00:00",
+      "summary": "Kim Yo Jong nevertheless said her brother still had “good memories and feelings” about the US president.",
+      "published_at": "2026-08-19T15:46:00+00:00",
+      "updated_at": "2026-08-19T15:46:00+00:00",
+      "effective_at": "2026-08-19T15:46:00+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "finance",
-      "subregion": "United States",
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
+        "jong",
+        "kim",
+        "kim-trump",
+        "north_korea",
         "us",
-        "yields"
+        "yo"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 95,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "e6dc17913096efe7dd42cdbd",
-      "importance_score": 36.0,
+      "event_id": "4b91a7405bfe7a0bd8375382",
+      "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
@@ -151,7 +326,7 @@
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -164,46 +339,165 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "8f73a7859929f4c02622e4dacf0fb7248398008d4131b5b091fc4b5e3b5133a1",
+      "story_id": "53495b23d65b468e9e89b1778218ac656f0c4578df99e48287f90af8a89dc846",
+      "article_sentences": [
+        "The powerful sister of Kim Jong Un said on Aug 19 that she was “unaware” of reported communication between her brother and Donald Trump, after the US president hinted at contact with the North Korean leader, but said ties between the two remained “excellent”.",
+        "Kim Yo Jong’s statement came hours after Washington and Seoul announced their annual exercises would end about a week earlier than planned following an order from Trump to scale them back.",
+        "Trump said on Aug 16 that he had told the Pentagon to curtail the annual Ulchi Freedom Shield exercises – a day before they started – citing his “good relationship” with North Korean leader Kim Jong Un.",
+        "Asked on Aug 17 whether Kim had responded to his requests for a conversation, Trump said: “Yeah, he has.”",
+        "But Kim’s sister, Kim Yo Jong, said on Aug 19 that she was unaware of any such contact between her brother and Trump.",
+        "“Regarding the recent news from Washington about communication between the leaders of North Korea and the United States, I am completely unaware of it,” she said in a statement.",
+        "“It is likely the only matter concerning our top leadership’s foreign policy that I am unaware of.”",
+        "Kim Yo Jong nevertheless said her brother still had “good memories and feelings” about Trump and that the relationship between the two leaders remains “excellent”.",
+        "Earlier on Aug 19, Seoul’s military said the drills would wrap up on Aug 21, not on Aug 27, as originally planned.",
+        "“We have decided to adjust the UFS exercise period to run from the 17th to the 21st,” South Korea’s Joint Chiefs of Staff said in a statement.",
+        "The decision was made “at the suggestion of the US side”, it added.",
+        "The Pentagon said the “substantially reduced” drills would “preserve essential readiness and..."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "US treasury doubles debt buyback to steady bond market amid inflation fears",
+      "headline": "North Korea leader’s sister ‘unaware’ of reported Kim-Trump communication",
       "briefing": {
         "opening": [
-          "Yields, at recent highs this week, dropped after treasury’s vow to ‘provide greater liquidity support’ to bond market.",
-          "The US treasury is doubling its buyback of government debt in an effort to balance out the bond market and counterbalance investor concern over high inflation."
+          "The powerful sister of Kim Jong Un said on Aug 19 that she was “unaware” of reported communication between her brother and Donald Trump, after the US president hinted at contact with the North Korean leader, but said ties between the two remained “excellent”.",
+          "Kim Yo Jong’s statement came hours after Washington and Seoul announced their annual exercises would end about a week earlier than planned following an order from Trump to scale them back."
         ],
         "body": [
-          "The yield rate on 10-year, 20-year and 30-year treasury notes all hit 20-year highs this week, with the 30-year treasury yield rising to its highest rate since 2007.",
-          "The rapid rise was concerning news for borrowers as major loans, including mortgages, are backed by treasuries."
+          "Trump said on Aug 16 that he had told the Pentagon to curtail the annual Ulchi Freedom Shield exercises – a day before they started – citing his “good relationship” with North Korean leader Kim Jong Un.",
+          "Asked on Aug 17 whether Kim had responded to his requests for a conversation, Trump said: “Yeah, he has.” But Kim’s sister, Kim Yo Jong, said on Aug 19 that she was unaware of any such contact between her brother and Trump.",
+          "“Regarding the recent news from Washington about communication between the leaders of North Korea and the United States, I am completely unaware of it,” she said in a statement.",
+          "“It is likely the only matter concerning our top leadership’s foreign policy that I am unaware of.” Kim Yo Jong nevertheless said her brother still had “good memories and feelings” about Trump and that the relationship between the two leaders remains “excellent”.",
+          "Earlier on Aug 19, Seoul’s military said the drills would wrap up on Aug 21, not on Aug 27, as originally planned.",
+          "“We have decided to adjust the UFS exercise period to run from the 17th to the 21st,” South Korea’s Joint Chiefs of Staff said in a statement.",
+          "The decision was made “at the suggestion of the US side”, it added.",
+          "The Pentagon said the “substantially reduced” drills would “preserve essential readiness and..."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "The US treasury is doubling its buyback of government debt in an effort to balance out the bond market and counterbalance investor concern over high inflation.",
-            "source": "The Guardian Business",
-            "item_id": "8f73a7859929f4c02622e4dacf0fb7248398008d4131b5b091fc4b5e3b5133a1",
+            "text": "Earlier on Aug 19, Seoul’s military said the drills would wrap up on Aug 21, not on Aug 27, as originally planned.",
+            "source": "Straits Times Asia",
+            "item_id": "53495b23d65b468e9e89b1778218ac656f0c4578df99e48287f90af8a89dc846:article",
             "composed": false
           },
           {
-            "text": "The rapid rise was concerning news for borrowers as major loans, including mortgages, are backed by treasuries.",
-            "source": "The Guardian Business",
-            "item_id": "8f73a7859929f4c02622e4dacf0fb7248398008d4131b5b091fc4b5e3b5133a1",
+            "text": "“We have decided to adjust the UFS exercise period to run from the 17th to the 21st,” South Korea’s Joint Chiefs of Staff said in a statement.",
+            "source": "Straits Times Asia",
+            "item_id": "53495b23d65b468e9e89b1778218ac656f0c4578df99e48287f90af8a89dc846:article",
             "composed": false
           },
           {
-            "text": "The yield rate on 10-year, 20-year and 30-year treasury notes all hit 20-year highs this week, with the 30-year treasury yield rising to its highest rate since 2007.",
-            "source": "The Guardian Business",
-            "item_id": "8f73a7859929f4c02622e4dacf0fb7248398008d4131b5b091fc4b5e3b5133a1",
+            "text": "Trump said on Aug 16 that he had told the Pentagon to curtail the annual Ulchi Freedom Shield exercises – a day before they started – citing his “good relationship” with North Korean leader Kim Jong Un.",
+            "source": "Straits Times Asia",
+            "item_id": "53495b23d65b468e9e89b1778218ac656f0c4578df99e48287f90af8a89dc846:article",
+            "composed": false
+          },
+          {
+            "text": "The powerful sister of Kim Jong Un said on Aug 19 that she was “unaware” of reported communication between her brother and Donald Trump, after the US president hinted at contact with the North Korean leader, but said ties between the two remained “excellent”.",
+            "source": "Straits Times Asia",
+            "item_id": "53495b23d65b468e9e89b1778218ac656f0c4578df99e48287f90af8a89dc846:article",
             "composed": false
           }
         ],
-        "source": "The Guardian Business",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.theguardian.com/business/2026/aug/19/us-treasury-doubles-debt-buyback-bond-market"
+        "url": "https://www.straitstimes.com/asia/east-asia/north-korea-leaders-sister-unaware-of-reported-kim-trump-communication"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "5ab2e787604b88ab21e34961d655d2c8e936349700bfba9dbf9f56351b06ef4f",
+      "title": "This high-speed star is whipping around the black hole in the middle of our galaxy",
+      "url": "https://www.npr.org/2026/08/19/nx-s1-5936479/fastest-star-galaxy-black-hole-sagittarius-a-milky-way",
+      "source": "NPR Science",
+      "source_category": "science",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Researchers have identified a speed demon at the heart of the Milky Way. This fast-moving star may yield insights into the black hole parked at the center of our galaxy.",
+      "published_at": "2026-08-19T15:38:57+00:00",
+      "updated_at": "2026-08-19T15:38:57+00:00",
+      "effective_at": "2026-08-19T15:38:57+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "science",
+      "subsector": "astronomy",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "milky",
+        "researchers",
+        "way"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "7ad847c8b4f6a774eb2d79d7",
+      "importance_score": 30.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 4
+        }
+      },
+      "story_id": "5ab2e787604b88ab21e34961d655d2c8e936349700bfba9dbf9f56351b06ef4f",
+      "public_label": "📰 NEWS",
+      "headline": "This high-speed star is whipping around the black hole in the middle of our galaxy",
+      "briefing": {
+        "opening": [
+          "Researchers have identified a speed demon at the heart of the Milky Way.",
+          "This fast-moving star may yield insights into the black hole parked at the center of our galaxy."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Researchers have identified a speed demon at the heart of the Milky Way.",
+            "source": "NPR Science",
+            "item_id": "5ab2e787604b88ab21e34961d655d2c8e936349700bfba9dbf9f56351b06ef4f",
+            "composed": false
+          },
+          {
+            "text": "This fast-moving star may yield insights into the black hole parked at the center of our galaxy.",
+            "source": "NPR Science",
+            "item_id": "5ab2e787604b88ab21e34961d655d2c8e936349700bfba9dbf9f56351b06ef4f",
+            "composed": false
+          }
+        ],
+        "source": "NPR Science",
+        "corroborating": [],
+        "url": "https://www.npr.org/2026/08/19/nx-s1-5936479/fastest-star-galaxy-black-hole-sagittarius-a-milky-way"
       },
       "group_size": 1,
       "label": "📰 NEWS"
