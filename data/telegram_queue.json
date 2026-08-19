@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-19T04:10:43.545931+00:00",
-  "count": 1,
+  "generated_at": "2026-08-19T04:20:47.303424+00:00",
+  "count": 4,
   "stories": [
     {
-      "id": "7712c40defe5f01300c231e3324ae4c472af796d87c2d260e685160f75fa3c0c",
-      "title": "At least nine killed in hotel fire in India's Kolkata",
+      "id": "66edde6a9343ff91b4b9fa1181135a51d7970ef665e3d33769d539f28e7a4c98",
+      "title": "At least 9 killed in India hotel fire, says official",
       "url": "https://www.straitstimes.com/asia/at-least-nine-killed-in-hotel-fire-in-indias-kolkata",
       "source": "Straits Times Asia",
       "source_category": "world",
@@ -12,7 +12,7 @@
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Aug 19 - At least nine people were killed, including a child, in a fire at a hotel in India's eastern city of Kolkata on Wednesday, local police said. The fire broke out at around 2:50 a.m. local time on the second floor of the hotel building and was brought under control within an hour, a senior police officer told Reuters. Around 30 people were evacuated safely in the incident, which may have been triggered by electrical short circuiting, the officer said. The exact cause of the blaze is yet to be ascertained, he added. Local media reported injuries, with at least six wounded undergoing hospital treatment. News agency ANI, in which Reuters has a minority stake, reported citing the fire department, that among the dead were Bangladeshi citizens who were in Kolkata to seek medical treatment. NDTV reported all nine dead were Bangladeshis. The senior police official Reuters spoke to, however, said the nationalities of those killed were yet to be ascertained.",
+      "summary": "Preliminary information suggested an air conditioner in the budget hotel may have exploded and caused the blaze.",
       "published_at": "2026-08-19T04:01:39+00:00",
       "updated_at": "2026-08-19T04:01:39+00:00",
       "effective_at": "2026-08-19T04:01:39+00:00",
@@ -21,18 +21,13 @@
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
+      "sector": "climate",
+      "subsector": "wildfires",
       "subregion": "South Asia",
       "country": null,
       "entities": [
-        "ani",
-        "aug",
-        "bangladeshi",
-        "bangladeshis",
         "india",
-        "kolkata",
-        "reuters"
+        "preliminary"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -41,90 +36,86 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "Aug 19 - At least nine people were killed, including a child, in a fire at a hotel in India's eastern city of Kolkata on Wednesday, local police said.",
-        "The fire broke out at around 2:50 a.m. local time on the second floor of the hotel building and was brought under control within an hour, a senior police officer told Reuters.",
-        "Around 30 people were evacuated safely in the incident, which may have been triggered by electrical short circuiting, the officer said.",
-        "The exact cause of the blaze is yet to be ascertained, he added.",
-        "Local media reported injuries, with at least six wounded undergoing hospital treatment.",
-        "News agency ANI, in which Reuters has a minority stake, reported citing the fire department, that among the dead were Bangladeshi citizens who were in Kolkata to seek medical treatment.",
-        "NDTV reported all nine dead were Bangladeshis.",
-        "The senior police official Reuters spoke to, however, said the nationalities of those killed were yet to be ascertained."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "2db9572877f42248c53664bf",
-      "importance_score": 66.0,
-      "importance_level": "MEDIUM",
+      "event_status": "NEW",
+      "event_id": "daacf5ef2425b011a0b6dbfc",
+      "importance_score": 44.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 16.0,
-        "urgency": 10,
-        "novelty": 9.0,
+        "impact": 10.0,
+        "urgency": 7.0,
+        "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 20,
+        "significance": 6,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 30,
+          "dead": 9,
           "injured": 0,
-          "displaced": 30,
+          "displaced": 0,
           "missing": 0,
           "affected": 0,
           "major_incident": false,
           "crisis": false
         },
         "significance_dims": {
-          "infrastructure": 8,
-          "human": 8,
-          "geopolitical": 4
+          "human": 6
         }
       },
-      "story_id": "7712c40defe5f01300c231e3324ae4c472af796d87c2d260e685160f75fa3c0c",
-      "public_label": "🔄 UPDATE",
-      "headline": "At least nine killed in hotel fire in India's Kolkata",
+      "story_id": "66edde6a9343ff91b4b9fa1181135a51d7970ef665e3d33769d539f28e7a4c98",
+      "article_sentences": [
+        "At least nine people were killed and several others injured in a fire at a hotel in the Indian city of Kolkata on Aug 19, a senior fire department official said.",
+        "“Nine people were killed, including a child, in the fire that broke out early on Wednesday,” Anuj Sharma, the fire services director of West Bengal state, told AFP.",
+        "“Thick smoke enveloped the hotel.",
+        "Some victims were found in the bathrooms.”",
+        "Preliminary information suggested an air conditioner in the budget hotel may have exploded and caused the blaze, Sharma said.",
+        "He added that nine people – six men, two women and a child – were rescued and taken to hospital.",
+        "Some victims seemed to be Bangladeshi nationals who had travelled to Kolkata for medical treatment, Santosh Pathak, a member of West Bengal’s ruling party, said.",
+        "“We are trying to confirm the nationality of the victims,” he told reporters.",
+        "A total of 60 guests were in the hotel when the fire broke out."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "At least 9 killed in India hotel fire, says official",
       "briefing": {
         "opening": [
-          "Aug 19 - At least nine people were killed, including a child, in a fire at a hotel in India's eastern city of Kolkata on Wednesday, local police said.",
-          "The fire broke out at around 2:50 a.m. local time on the second floor of the hotel building and was brought under control within an hour, a senior police officer told Reuters."
+          "At least nine people were killed and several others injured in a fire at a hotel in the Indian city of Kolkata on Aug 19, a senior fire department official said.",
+          "“Nine people were killed, including a child, in the fire that broke out early on Wednesday,” Anuj Sharma, the fire services director of West Bengal state, told AFP."
         ],
         "body": [
-          "Around 30 people were evacuated safely in the incident, which may have been triggered by electrical short circuiting, the officer said.",
-          "The exact cause of the blaze is yet to be ascertained, he added.",
-          "Local media reported injuries, with at least six wounded undergoing hospital treatment.",
-          "News agency ANI, in which Reuters has a minority stake, reported citing the fire department, that among the dead were Bangladeshi citizens who were in Kolkata to seek medical treatment.",
-          "NDTV reported all nine dead were Bangladeshis.",
-          "The senior police official Reuters spoke to, however, said the nationalities of those killed were yet to be ascertained."
+          "“Thick smoke enveloped the hotel.",
+          "Some victims were found in the bathrooms.” Preliminary information suggested an air conditioner in the budget hotel may have exploded and caused the blaze, Sharma said.",
+          "He added that nine people – six men, two women and a child – were rescued and taken to hospital.",
+          "Some victims seemed to be Bangladeshi nationals who had travelled to Kolkata for medical treatment, Santosh Pathak, a member of West Bengal’s ruling party, said.",
+          "“We are trying to confirm the nationality of the victims,” he told reporters.",
+          "A total of 60 guests were in the hotel when the fire broke out.",
+          "Preliminary information suggested an air conditioner in the budget hotel may have exploded and caused the blaze."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "India's eastern city"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "under control"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "Around 30 people"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The fire broke out at around 2:50 a.m. local time on the second floor of the hotel building and was brought under control within an hour, a senior police officer told Reuters.",
+            "text": "“Nine people were killed, including a child, in the fire that broke out early on Wednesday,” Anuj Sharma, the fire services director of West Bengal state, told AFP.",
             "source": "Straits Times Asia",
-            "item_id": "7712c40defe5f01300c231e3324ae4c472af796d87c2d260e685160f75fa3c0c:article",
+            "item_id": "66edde6a9343ff91b4b9fa1181135a51d7970ef665e3d33769d539f28e7a4c98:article",
             "composed": false
           },
           {
-            "text": "NDTV reported all nine dead were Bangladeshis.",
+            "text": "Sharma said preliminary information suggested an air conditioner in the budget hotel may have exploded and caused the blaze.",
             "source": "Straits Times Asia",
-            "item_id": "7712c40defe5f01300c231e3324ae4c472af796d87c2d260e685160f75fa3c0c:article",
+            "item_id": "66edde6a9343ff91b4b9fa1181135a51d7970ef665e3d33769d539f28e7a4c98:article",
+            "composed": true
+          },
+          {
+            "text": "At least nine people were killed and several others injured in a fire at a hotel in the Indian city of Kolkata on Aug 19, a senior fire department official said.",
+            "source": "Straits Times Asia",
+            "item_id": "66edde6a9343ff91b4b9fa1181135a51d7970ef665e3d33769d539f28e7a4c98:article",
+            "composed": false
+          },
+          {
+            "text": "He added that nine people – six men, two women and a child – were rescued and taken to hospital.",
+            "source": "Straits Times Asia",
+            "item_id": "66edde6a9343ff91b4b9fa1181135a51d7970ef665e3d33769d539f28e7a4c98:article",
             "composed": false
           }
         ],
@@ -133,7 +124,341 @@
         "url": "https://www.straitstimes.com/asia/at-least-nine-killed-in-hotel-fire-in-indias-kolkata"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "35c25e327a2ed6f72e2466843f6a5003e49abc4b735aed597b84f7d6d2ec83d6",
+      "title": "HKEX profit jumps to record high on surging IPOs and turnover, beating market estimates",
+      "url": "https://www.scmp.com/business/banking-finance/article/3364515/hkex-profit-jumps-record-high-surging-ipos-and-turnover-beating-market-estimates?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Hong Kong Exchanges and Clearing (HKEX) profit jumped to a record amid a boom in initial public offerings (IPOs) and sizzling stock market turnover in the second quarter, according to a stock exchange filing on Wednesday. Quarterly net profit for the operator of Asia’s third-largest stock market soared 21 per cent year on year to HK$5.38 billion (US$683.4 million), or HK$4.26 per share, higher than analysts’ estimate of HK$4.96 billion. It was the second consecutive quarter of record profit for...",
+      "published_at": "2026-08-19T04:13:01+00:00",
+      "updated_at": "2026-08-19T04:13:01+00:00",
+      "effective_at": "2026-08-19T04:13:01+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "companies",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "asia",
+        "clearing",
+        "exchanges",
+        "hk",
+        "hkex",
+        "hong_kong",
+        "ipos",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "f302a97ed0d52a87c25d6c39",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 8,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {}
+      },
+      "story_id": "35c25e327a2ed6f72e2466843f6a5003e49abc4b735aed597b84f7d6d2ec83d6",
+      "public_label": "📰 NEWS",
+      "headline": "HKEX profit jumps to record high on surging IPOs and turnover, beating market estimates",
+      "briefing": {
+        "opening": [
+          "Hong Kong Exchanges and Clearing (HKEX) profit jumped to a record amid a boom in initial public offerings (IPOs) and sizzling stock market turnover in the second quarter, according to a stock exchange filing on Wednesday.",
+          "Quarterly net profit for the operator of Asia’s third-largest stock market soared 21 per cent year on year to HK$5.38 billion (US$683.4 million), or HK$4.26 per share, higher than analysts’ estimate of HK$4.96 billion."
+        ],
+        "body": [
+          "It was the second consecutive quarter of record profit for..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Quarterly net profit for the operator of Asia’s third-largest stock market soared 21 per cent year on year to HK$5.38 billion (US$683.4 million), or HK$4.26 per share, higher than analysts’ estimate of HK$4.96 billion.",
+            "source": "South China Morning Post",
+            "item_id": "35c25e327a2ed6f72e2466843f6a5003e49abc4b735aed597b84f7d6d2ec83d6",
+            "composed": false
+          },
+          {
+            "text": "Hong Kong Exchanges and Clearing (HKEX) profit jumped to a record amid a boom in initial public offerings (IPOs) and sizzling stock market turnover in the second quarter, according to a stock exchange filing on Wednesday.",
+            "source": "South China Morning Post",
+            "item_id": "35c25e327a2ed6f72e2466843f6a5003e49abc4b735aed597b84f7d6d2ec83d6",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/business/banking-finance/article/3364515/hkex-profit-jumps-record-high-surging-ipos-and-turnover-beating-market-estimates?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "01e47ad95d698210d955b42636d1daa3f617988aa405568ac9c0a45a8ad20073",
+      "title": "Man and two daughters killed after immigration truck runs red light and crashes into car in KL",
+      "url": "https://www.straitstimes.com/asia/se-asia/man-and-two-daughters-killed-after-immigration-truck-runs-red-light-and-crashes-into-car-in-kl",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "A collision with a car caused the truck to veer towards a family of four pedestrians.",
+      "published_at": "2026-08-19T04:14:38+00:00",
+      "updated_at": "2026-08-19T04:14:38+00:00",
+      "effective_at": "2026-08-19T04:14:38+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "transport",
+      "subsector": "automotive",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "kl"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 95,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "01ab53264bfcbf07c67494aa",
+      "importance_score": 30.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 4
+        }
+      },
+      "story_id": "01e47ad95d698210d955b42636d1daa3f617988aa405568ac9c0a45a8ad20073",
+      "article_sentences": [
+        "An Immigration Department truck ran a red light with sirens on and collided with a car at Jalan Sultan Ismail, Kuala Lumpur, causing the truck to hit a family of pedestrians.",
+        "A father and his two daughters died at the scene; the mother was critically injured and taken to Hospital Kuala Lumpur for treatment.",
+        "Both drivers tested negative for alcohol and drugs; police are investigating with CCTV footage and witness statements, while the Immigration Department will review its procedures.",
+        "A man and his two daughters were killed after they were hit by an Immigration Department truck that veered off course following a collision at a traffic light intersection along Jalan Sultan Ismail in Kuala Lumpur, Malaysia, on Aug 19.",
+        "Kuala Lumpur Traffic Investigation and Enforcement Department chief Mohd Zamzuri Mohd Isa said the accident happened at about 1am when the empty truck was travelling from the Kuala Lumpur Immigration office towards Chow Kit to pick up detainees following an operation on illegal immigrants in the area, reported Sinar Harian.",
+        "“Initial investigations found that the truck, driven by a 43-year-old man, was believed to have entered the intersection while the traffic light in its direction was red, with its beacon lights and siren activated,” Assistant Commissioner Zamzuri said.",
+        "“At the same time, a car driven by a 50-year-old man was travelling straight through the intersection as the traffic light in his direction was green.",
+        "“The driver was unable to avoid the truck, resulting in a collision in the middle of the intersection.”",
+        "Zamzuri said the impact caused the Immigration Department truck to veer towards four pedestrians, who were members of the same family.",
+        "“The truck also hit another car that had stopped at the traffic light intersection.",
+        "“The three victims who died at the scene were a 53-year-old man and his two daughters, aged 25 and 12.",
+        "Zamzuri said the man’s 55-year-old wife was also hit and suffered injuries to her head, right hand and legs, adding that she was taken to the critical care unit of Hospital Kuala Lumpur for further treatment."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Man and two daughters killed after immigration truck runs red light and crashes into car in KL",
+      "briefing": {
+        "opening": [
+          "An Immigration Department truck ran a red light with sirens on and collided with a car at Jalan Sultan Ismail, Kuala Lumpur, causing the truck to hit a family of pedestrians.",
+          "A father and his two daughters died at the scene; the mother was critically injured and taken to Hospital Kuala Lumpur for treatment."
+        ],
+        "body": [
+          "Both drivers tested negative for alcohol and drugs; police are investigating with CCTV footage and witness statements, while the Immigration Department will review its procedures.",
+          "A man and his two daughters were killed after they were hit by an Immigration Department truck that veered off course following a collision at a traffic light intersection along Jalan Sultan Ismail in Kuala Lumpur, Malaysia, on Aug 19.",
+          "Kuala Lumpur Traffic Investigation and Enforcement Department chief Mohd Zamzuri Mohd Isa said the accident happened at about 1am when the empty truck was travelling from the Kuala Lumpur Immigration office towards Chow Kit to pick up detainees following an operation on illegal immigrants in the area, reported Sinar Harian.",
+          "“Initial investigations found that the truck, driven by a 43-year-old man, was believed to have entered the intersection while the traffic light in its direction was red, with its beacon lights and siren activated,” Assistant Commissioner Zamzuri said.",
+          "“At the same time, a car driven by a 50-year-old man was travelling straight through the intersection as the traffic light in his direction was green.",
+          "“The driver was unable to avoid the truck, resulting in a collision in the middle of the intersection.” Zamzuri said the impact caused the Immigration Department truck to veer towards four pedestrians, who were members of the same family.",
+          "“The truck also hit another car that had stopped at the traffic light intersection.",
+          "“The three victims who died at the scene were a 53-year-old man and his two daughters, aged 25 and 12."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Jalan Sultan Ismail"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A man and his two daughters were killed after they were hit by an Immigration Department truck that veered off course following a collision at a traffic light intersection along Jalan Sultan Ismail in Kuala Lumpur, Malaysia, on Aug 19.",
+            "source": "Straits Times Asia",
+            "item_id": "01e47ad95d698210d955b42636d1daa3f617988aa405568ac9c0a45a8ad20073:article",
+            "composed": false
+          },
+          {
+            "text": "Kuala Lumpur Traffic Investigation and Enforcement Department chief Mohd Zamzuri Mohd Isa said the accident happened at about 1am when the empty truck was travelling from the Kuala Lumpur Immigration office towards Chow Kit to pick up detainees following an operation on illegal immigrants in the area, reported Sinar Harian.",
+            "source": "Straits Times Asia",
+            "item_id": "01e47ad95d698210d955b42636d1daa3f617988aa405568ac9c0a45a8ad20073:article",
+            "composed": false
+          },
+          {
+            "text": "“Initial investigations found that the truck, driven by a 43-year-old man, was believed to have entered the intersection while the traffic light in its direction was red, with its beacon lights and siren activated,” Assistant Commissioner Zamzuri said.",
+            "source": "Straits Times Asia",
+            "item_id": "01e47ad95d698210d955b42636d1daa3f617988aa405568ac9c0a45a8ad20073:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/se-asia/man-and-two-daughters-killed-after-immigration-truck-runs-red-light-and-crashes-into-car-in-kl"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "7341a6c24c6fe4349d08eeebcc98b10ebd7b4f6d21b5e9afccf1d56ed9432999",
+      "title": "Tourists on pastry quest overrun scenic spot in Italian mountains",
+      "url": "https://www.theguardian.com/world/2026/aug/19/italy-krapfen-friedrich-august-dolomites-tourists-social-media-influencers",
+      "source": "The Guardian World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Alpine communities hit out after influencer videos draw huge queues to Friedrich August refuge in Dolomites Hundreds of people overwhelmed a mountain hut in the Italian Dolomites, not for the panoramic views but in search of a creamy pastry, reigniting the debate about social-media-driven tourism. The visitors ventured en masse to the Friedrich August refuge – perched at 2,300 metres (7,500ft) above sea level, between Col Rodella and Passo Sella in Val di Fassa – some reportedly waking up at dawn or camping overnight, just to ensure they could buy a freshly baked krapfen , a traditional German pastry similar to a doughnut, before they ran out. Continue reading...",
+      "published_at": "2026-08-19T04:00:05+00:00",
+      "updated_at": "2026-08-19T04:00:05+00:00",
+      "effective_at": "2026-08-19T04:00:05+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "alpine",
+        "col",
+        "dolomites",
+        "fassa",
+        "friedrich",
+        "german",
+        "italian",
+        "passo",
+        "rodella",
+        "sella",
+        "val"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "c007af495eac08475049bcdc",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "7341a6c24c6fe4349d08eeebcc98b10ebd7b4f6d21b5e9afccf1d56ed9432999",
+      "public_label": "📰 NEWS",
+      "headline": "Tourists on pastry quest overrun scenic spot in Italian mountains",
+      "briefing": {
+        "opening": [
+          "Alpine communities hit out after influencer videos draw huge queues to Friedrich August refuge in Dolomites.",
+          "Hundreds of people overwhelmed a mountain hut in the Italian Dolomites, not for the panoramic views but in search of a creamy pastry, reigniting the debate about social-media-driven tourism."
+        ],
+        "body": [
+          "The visitors ventured en masse to the Friedrich August refuge – perched at 2,300 metres (7,500ft) above sea level, between Col Rodella and Passo Sella in Val di Fassa – some reportedly waking up at dawn or camping overnight, just to ensure they could buy a freshly baked krapfen, a traditional German pastry similar to a doughnut, before they ran out."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Dolomites"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Hundreds of people overwhelmed a mountain hut in the Italian Dolomites, not for the panoramic views but in search of a creamy pastry, reigniting the debate about social-media-driven tourism.",
+            "source": "The Guardian World",
+            "item_id": "7341a6c24c6fe4349d08eeebcc98b10ebd7b4f6d21b5e9afccf1d56ed9432999",
+            "composed": false
+          },
+          {
+            "text": "The visitors ventured en masse to the Friedrich August refuge – perched at 2,300 metres (7,500ft) above sea level, between Col Rodella and Passo Sella in Val di Fassa – some reportedly waking up at dawn or camping overnight, just to ensure they could buy a freshly baked krapfen, a traditional German pastry similar to a doughnut, before they ran out.",
+            "source": "The Guardian World",
+            "item_id": "7341a6c24c6fe4349d08eeebcc98b10ebd7b4f6d21b5e9afccf1d56ed9432999",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian World",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/world/2026/aug/19/italy-krapfen-friedrich-august-dolomites-tourists-social-media-influencers"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
     }
   ]
 }
