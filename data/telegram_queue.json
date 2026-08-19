@@ -1,35 +1,56 @@
 {
-  "generated_at": "2026-08-19T03:10:44.217047+00:00",
-  "count": 1,
+  "generated_at": "2026-08-19T03:20:44.767956+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "fc4f65c20cfb5322d66a0d257cb00e93e66ece8fd68220f2068bc52ed88d554d",
-      "title": "Price of Brent oil up above $92 per barrel on London’s ICE first since July 30",
-      "url": "https://tass.com/economy/2174903",
-      "source": "TASS English",
+      "id": "0a954c3ef7ba9464b0a74e79a00777421dc4cc0303f42079c62c630f05c6977b",
+      "title": "Iranian academic writes of US detention 'hell' over link to 1979 hostage crisis",
+      "url": "https://www.bbc.co.uk/news/articles/cgjeped6ewxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "As of 1:50 a.m. GMT, the price was up by 1.13% at $92.05 a barrel",
-      "published_at": "2026-08-19T02:58:19+00:00",
-      "updated_at": "2026-08-19T02:58:19+00:00",
-      "effective_at": "2026-08-19T02:58:19+00:00",
+      "summary": "An Iranian woman detained for months in Texas has accused the US government of \"bloodline punishment\" after it revoked her family's green cards over her husband's ties to a prominent figure in Iran. Maryam Tahmasebi, a professor of psychology and statistics in Los Angeles, her husband, Seyed Eissa Hashemi, and their teenage son - all permanent residents of the US - were detained by immigration agents in April. Her husband's mother was a spokesperson for the group that took dozens of Americans captive during the 1979 Iran hostage crisis. The State department has cited those ties as the reason for revoking the family's status. Tahmasebi and her son remain at a detention centre in Dilley, Texas, while her husband endures \"horrible conditions\" at a separate South Texas Detention Facility in Pearsall, she wrote in The Nation magazine, external. \"We have been put through hell for the past four months, and our physical and mental health have deteriorated in ways that might not be reversible for years,\" Tahmasebi wrote. Tahmasebi wrote her account from inside her detention facility, where she has limited access to email, according to Jack Mirkinson, a senior editor at The Nation. Tahmasebi and her lawyer then submitted it to the magazine, he said. Hashemi is the son of Masoumeh Ebtekar, who became known as \"Screaming Mary\" or \"Sister Mary\" for her English-language statements on behalf of the students who occupied the US embassy in Iran and held 52 Americans hostage for 444 days. Ebtekar later went on to hold several Iranian government roles. She was most recently vice president for women and family affairs, but has not held a government role since 2021. \"The government had decided to punish my husband for being the son of a woman who was a translator for the Iranian hostage takers in 1979, before Eissa was even born,\" Tahmasebi wrote.",
+      "published_at": "2026-08-19T03:12:06+00:00",
+      "updated_at": "2026-08-19T03:12:06+00:00",
+      "effective_at": "2026-08-19T03:12:06+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "oil_gas",
-      "subregion": "Europe",
+      "sector": "law",
+      "subsector": "human_rights",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "brent",
-        "gmt",
-        "ice",
-        "uk"
+        "americans",
+        "detention",
+        "dilley",
+        "ebtekar",
+        "eissa",
+        "english-language",
+        "facility",
+        "hashemi",
+        "iran",
+        "jack",
+        "los_angeles",
+        "mary",
+        "maryam",
+        "masoumeh",
+        "mirkinson",
+        "nation",
+        "pearsall",
+        "screaming",
+        "seyed",
+        "sister",
+        "south",
+        "state",
+        "tahmasebi",
+        "texas",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -38,19 +59,33 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "c62beec2c9551854ef621e28",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
+      "article_sentences": [
+        "An Iranian woman detained for months in Texas has accused the US government of \"bloodline punishment\" after it revoked her family's green cards over her husband's ties to a prominent figure in Iran.",
+        "Maryam Tahmasebi, a professor of psychology and statistics in Los Angeles, her husband, Seyed Eissa Hashemi, and their teenage son - all permanent residents of the US - were detained by immigration agents in April.",
+        "Her husband's mother was a spokesperson for the group that took dozens of Americans captive during the 1979 Iran hostage crisis.",
+        "The State department has cited those ties as the reason for revoking the family's status.",
+        "Tahmasebi and her son remain at a detention centre in Dilley, Texas, while her husband endures \"horrible conditions\" at a separate South Texas Detention Facility in Pearsall, she wrote in The Nation magazine, external.",
+        "\"We have been put through hell for the past four months, and our physical and mental health have deteriorated in ways that might not be reversible for years,\" Tahmasebi wrote.",
+        "Tahmasebi wrote her account from inside her detention facility, where she has limited access to email, according to Jack Mirkinson, a senior editor at The Nation.",
+        "Tahmasebi and her lawyer then submitted it to the magazine, he said.",
+        "Hashemi is the son of Masoumeh Ebtekar, who became known as \"Screaming Mary\" or \"Sister Mary\" for her English-language statements on behalf of the students who occupied the US embassy in Iran and held 52 Americans hostage for 444 days.",
+        "Ebtekar later went on to hold several Iranian government roles.",
+        "She was most recently vice president for women and family affairs, but has not held a government role since 2021.",
+        "\"The government had decided to punish my husband for being the son of a woman who was a translator for the Iranian hostage takers in 1979, before Eissa was even born,\" Tahmasebi wrote."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "c83c8a106650920d235c9001",
+      "importance_score": 58.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "impact": 18,
+        "urgency": 8.0,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -59,57 +94,222 @@
           "displaced": 0,
           "missing": 0,
           "affected": 0,
-          "major_incident": false,
+          "major_incident": true,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "human": 4,
+          "scientific": 4,
+          "geopolitical": 4
+        }
       },
-      "story_id": "fc4f65c20cfb5322d66a0d257cb00e93e66ece8fd68220f2068bc52ed88d554d",
-      "article_sentences": [
-        "MOSCOW, August 19.",
-        "The price of futures contracts of Brent crude oil for October 2026 delivery on London’s ICE has risen above $92 per barrel for the first time since July 30, 2026, according to trade data.",
-        "As of 4:50 a.m. Moscow time (1:50 a.m. GMT), the Brent price was up by 1.13% at $92.05 a barrel.",
-        "As of 5:08 a.m. Moscow time (2:08 a.m. GMT), the price of Brent was up by 0.97% reaching $91.9 per barrel.",
-        "Meanwhile the price of futures contracts of WTI crude oil for September 2026 delivery was up by 1.46% at $84.96 per barrel."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Price of Brent oil up above $92 per barrel on London’s ICE first since July 30",
+      "story_id": "0a954c3ef7ba9464b0a74e79a00777421dc4cc0303f42079c62c630f05c6977b",
+      "public_label": "🔄 UPDATE",
+      "headline": "Iranian academic writes of US detention 'hell' over link to 1979 hostage crisis",
       "briefing": {
         "opening": [
-          "MOSCOW, August 19.",
-          "The price of futures contracts of Brent crude oil for October 2026 delivery on London’s ICE has risen above $92 per barrel for the first time since July 30, 2026, according to trade data."
+          "An Iranian woman detained for months in Texas has accused the US government of \"bloodline punishment\" after it revoked her family's green cards over her husband's ties to a prominent figure in Iran.",
+          "Maryam Tahmasebi, a professor of psychology and statistics in Los Angeles, her husband, Seyed Eissa Hashemi, and their teenage son - all permanent residents of the US - were detained by immigration agents in April."
         ],
         "body": [
-          "As of 4:50 a.m. Moscow time (1:50 a.m. GMT), the Brent price was up by 1.13% at $92.05 a barrel.",
-          "As of 1:50 a.m. GMT, the price was up by 1.13% at $92.05 a barrel."
+          "Her husband's mother was a spokesperson for the group that took dozens of Americans captive during the 1979 Iran hostage crisis.",
+          "The State department has cited those ties as the reason for revoking the family's status.",
+          "Tahmasebi and her son remain at a detention centre in Dilley, Texas, while her husband endures \"horrible conditions\" at a separate South Texas Detention Facility in Pearsall, she wrote in The Nation magazine, external.",
+          "\"We have been put through hell for the past four months, and our physical and mental health have deteriorated in ways that might not be reversible for years,\" Tahmasebi wrote.",
+          "Tahmasebi wrote her account from inside her detention facility, where she has limited access to email, according to Jack Mirkinson, a senior editor at The Nation.",
+          "Tahmasebi and her lawyer then submitted it to the magazine, he said.",
+          "Hashemi is the son of Masoumeh Ebtekar, who became known as \"Screaming Mary\" or \"Sister Mary\" for her English-language statements on behalf of the students who occupied the US embassy in Iran and held 52 Americans hostage for 444 days.",
+          "Ebtekar later went on to hold several Iranian government roles."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Texas"
+          }
+        ],
         "sentences": [
           {
-            "text": "As of 4:50 a.m. Moscow time (1:50 a.m. GMT), the Brent price was up by 1.13% at $92.05 a barrel.",
-            "source": "TASS English",
-            "item_id": "fc4f65c20cfb5322d66a0d257cb00e93e66ece8fd68220f2068bc52ed88d554d:article",
+            "text": "Hashemi is the son of Masoumeh Ebtekar, who became known as \"Screaming Mary\" or \"Sister Mary\" for her English-language statements on behalf of the students who occupied the US embassy in Iran and held 52 Americans hostage for 444 days.",
+            "source": "BBC World",
+            "item_id": "0a954c3ef7ba9464b0a74e79a00777421dc4cc0303f42079c62c630f05c6977b:article",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 19.",
-            "source": "TASS English",
-            "item_id": "fc4f65c20cfb5322d66a0d257cb00e93e66ece8fd68220f2068bc52ed88d554d:article",
+            "text": "Maryam Tahmasebi, a professor of psychology and statistics in Los Angeles, her husband, Seyed Eissa Hashemi, and their teenage son - all permanent residents of the US - were detained by immigration agents in April.",
+            "source": "BBC World",
+            "item_id": "0a954c3ef7ba9464b0a74e79a00777421dc4cc0303f42079c62c630f05c6977b:article",
             "composed": false
           },
           {
-            "text": "As of 1:50 a.m. GMT, the price was up by 1.13% at $92.05 a barrel.",
-            "source": "TASS English",
-            "item_id": "fc4f65c20cfb5322d66a0d257cb00e93e66ece8fd68220f2068bc52ed88d554d",
+            "text": "An Iranian woman detained for months in Texas has accused the US government of \"bloodline punishment\" after it revoked her family's green cards over her husband's ties to a prominent figure in Iran.",
+            "source": "BBC World",
+            "item_id": "0a954c3ef7ba9464b0a74e79a00777421dc4cc0303f42079c62c630f05c6977b:article",
+            "composed": false
+          },
+          {
+            "text": "Tahmasebi and her son remain at a detention centre in Dilley, Texas, while her husband endures \"horrible conditions\" at a separate South Texas Detention Facility in Pearsall, she wrote in The Nation magazine, external.",
+            "source": "BBC World",
+            "item_id": "0a954c3ef7ba9464b0a74e79a00777421dc4cc0303f42079c62c630f05c6977b:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "BBC World",
         "corroborating": [],
-        "url": "https://tass.com/economy/2174903"
+        "url": "https://www.bbc.co.uk/news/articles/cgjeped6ewxo?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "07f842d57d27be71688945adca4690dae74b0953d3e2d7afc492ad957515c54c",
+      "title": "Husband and mother-in-law charged over Indian bride's death",
+      "url": "https://www.bbc.co.uk/news/articles/cjej8nze1wko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "India's federal police have filed charges in the case of a 33-year-old model and actor who was found dead in her matrimonial home in May just five months after her wedding. Twisha Sharma's death on 12 May in Bhopal city sparked a huge media frenzy, with the case making headlines every day amid rival claims of murder and suicide. In the chargesheet by the Central Bureau of Investigation (CBI), Twisha's husband and mother-in-law have been charged with \"abetment to suicide\" and \"cruelty\". Her husband Samarth Singh, a lawyer, and mother-in-law Giribala Singh, a retired judge, have denied the allegations against them. Warning: This article contains details some readers may find distressing. Twisha's death has generated an extraordinary interest in India because in public perception, members of India's powerful judiciary are meant to lead by example. Twisha's parents and siblings alleged that she was tortured by Singh and his mother over dowry demands and that she was murdered. Giribala called the accusations \"baseless\" and alleged that Twisha had mental health issues and that she killed herself. Samarth initially could not be located but later surrendered to police. Giribala was arrested a few days later and the mother and son remain in jail. \"Due to continuous mental cruelty at the hands of both the accused [Twisha's husband and mother-in-law], she was left with no option but to end her life,\" the CBI said in the 600-page chargesheet submitted in the court last week. Twisha's family lawyer Ankur Pandey told BBC Hindi that since the CBI has invoked sections related to abetment to suicide, \"it means that the investigation has considered the death to be an alleged suicide\".",
+      "published_at": "2026-08-19T03:04:07+00:00",
+      "updated_at": "2026-08-19T03:04:07+00:00",
+      "effective_at": "2026-08-19T03:04:07+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "law",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "ankur",
+        "bbc",
+        "bhopal",
+        "bureau",
+        "cbi",
+        "central",
+        "giribala",
+        "hindi",
+        "india",
+        "indian",
+        "investigation",
+        "pandey",
+        "samarth",
+        "sharma",
+        "singh",
+        "twisha",
+        "warning"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "India's federal police have filed charges in the case of a 33-year-old model and actor who was found dead in her matrimonial home in May just five months after her wedding.",
+        "Twisha Sharma's death on 12 May in Bhopal city sparked a huge media frenzy, with the case making headlines every day amid rival claims of murder and suicide.",
+        "In the chargesheet by the Central Bureau of Investigation (CBI), Twisha's husband and mother-in-law have been charged with \"abetment to suicide\" and \"cruelty\".",
+        "Her husband Samarth Singh, a lawyer, and mother-in-law Giribala Singh, a retired judge, have denied the allegations against them.",
+        "Warning: This article contains details some readers may find distressing.",
+        "Twisha's death has generated an extraordinary interest in India because in public perception, members of India's powerful judiciary are meant to lead by example.",
+        "Twisha's parents and siblings alleged that she was tortured by Singh and his mother over dowry demands and that she was murdered.",
+        "Giribala called the accusations \"baseless\" and alleged that Twisha had mental health issues and that she killed herself.",
+        "Samarth initially could not be located but later surrendered to police.",
+        "Giribala was arrested a few days later and the mother and son remain in jail.",
+        "\"Due to continuous mental cruelty at the hands of both the accused [Twisha's husband and mother-in-law], she was left with no option but to end her life,\" the CBI said in the 600-page chargesheet submitted in the court last week.",
+        "Twisha's family lawyer Ankur Pandey told BBC Hindi that since the CBI has invoked sections related to abetment to suicide, \"it means that the investigation has considered the death to be an alleged suicide\"."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "b63a3430caca6a386b15a764",
+      "importance_score": 57.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 9.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 33,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8,
+          "scientific": 4
+        }
+      },
+      "story_id": "07f842d57d27be71688945adca4690dae74b0953d3e2d7afc492ad957515c54c",
+      "public_label": "🔄 UPDATE",
+      "headline": "Husband and mother-in-law charged over Indian bride's death",
+      "briefing": {
+        "opening": [
+          "India's federal police have filed charges in the case of a 33-year-old model and actor who was found dead in her matrimonial home in May just five months after her wedding.",
+          "Twisha Sharma's death on 12 May in Bhopal city sparked a huge media frenzy, with the case making headlines every day amid rival claims of murder and suicide."
+        ],
+        "body": [
+          "In the chargesheet by the Central Bureau of Investigation (CBI), Twisha's husband and mother-in-law have been charged with \"abetment to suicide\" and \"cruelty\".",
+          "Her husband Samarth Singh, a lawyer, and mother-in-law Giribala Singh, a retired judge, have denied the allegations against them.",
+          "Warning: This article contains details some readers may find distressing.",
+          "Twisha's death has generated an extraordinary interest in India because in public perception, members of India's powerful judiciary are meant to lead by example.",
+          "Twisha's parents and siblings alleged that she was tortured by Singh and his mother over dowry demands and that she was murdered.",
+          "Giribala called the accusations \"baseless\" and alleged that Twisha had mental health issues and that she killed herself.",
+          "Samarth initially could not be located but later surrendered to police.",
+          "Giribala was arrested a few days later and the mother and son remain in jail."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "May"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "In the chargesheet by the Central Bureau of Investigation (CBI), Twisha's husband and mother-in-law have been charged with \"abetment to suicide\" and \"cruelty\".",
+            "source": "BBC World",
+            "item_id": "07f842d57d27be71688945adca4690dae74b0953d3e2d7afc492ad957515c54c:article",
+            "composed": false
+          },
+          {
+            "text": "Twisha Sharma's death on 12 May in Bhopal city sparked a huge media frenzy, with the case making headlines every day amid rival claims of murder and suicide.",
+            "source": "BBC World",
+            "item_id": "07f842d57d27be71688945adca4690dae74b0953d3e2d7afc492ad957515c54c:article",
+            "composed": false
+          },
+          {
+            "text": "India's federal police have filed charges in the case of a 33-year-old model and actor who was found dead in her matrimonial home in May just five months after her wedding.",
+            "source": "BBC World",
+            "item_id": "07f842d57d27be71688945adca4690dae74b0953d3e2d7afc492ad957515c54c:article",
+            "composed": false
+          },
+          {
+            "text": "Twisha's death has generated an extraordinary interest in India because in public perception, members of India's powerful judiciary are meant to lead by example.",
+            "source": "BBC World",
+            "item_id": "07f842d57d27be71688945adca4690dae74b0953d3e2d7afc492ad957515c54c:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC World",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/cjej8nze1wko?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
     }
   ]
 }
