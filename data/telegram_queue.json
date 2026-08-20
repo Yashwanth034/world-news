@@ -1,57 +1,84 @@
 {
-  "generated_at": "2026-08-20T10:00:49.841139+00:00",
-  "count": 4,
+  "generated_at": "2026-08-20T10:05:12.897191+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "41a60e69b9fc377eb01e7eea617e717e4c05f9672479cf6b71dafabd475f6f1d",
-      "title": "Kazakhstan to hold snap election expected to tighten president's control",
-      "url": "https://www.straitstimes.com/asia/kazakhstan-to-hold-snap-election-expected-to-tighten-presidents-control",
-      "source": "Straits Times Asia",
-      "source_category": "world",
+      "id": "25fbd880e2baa45f32aecff1252895e1bea62edc2e57be4884c32ddcc5c69d98",
+      "title": "Sirens, shelters and scaled-back war games: South Korea rehearses for crisis",
+      "url": "http://www.africanews.com/2026/08/20/sirens-shelters-and-scaled-back-war-games-south-korea-rehearses-for-crisis/",
+      "source": "Africanews English",
+      "source_category": "africa",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "ALMATY, Aug 20 - Kazakhstan votes on Sunday in a snap parliamentary election expected to strengthen President Kassym-Jomart Tokayev's hold over the country after constitutional changes allowed him to extend his seven years in power for another seven.",
-      "published_at": "2026-08-20T09:52:21+00:00",
-      "updated_at": "2026-08-20T09:52:21+00:00",
-      "effective_at": "2026-08-20T09:52:21+00:00",
+      "summary": "Residents across Seoul took part in civil defence drills as sirens sounded and police cleared roads for emergency vehicles. People were directed to metro stations and underground shelters, while evacuees at Seoul City Hall were shown how to give first aid and perform CPR. The exercise was part of Ulchi Freedom Shield, the annual US-South Korean military drill, which also featured military equipment and drone simulators for children. This year’s scenarios included drone threats, GPS disruption and cyberattacks. The military component has been reduced, however, following a request from US President Donald Trump, who pointed to his “very good relationship” with Kim Jong Un. The exercise began on 17 August and will now end on 21 August, with some field manoeuvres replaced by simulations. The scaled-back exercise comes as Washington and Seoul try to maintain their readiness while avoiding a further escalation with Pyongyang. President Lee Jae-myung said the civil defence measures were about protecting people and preserving daily life, rather than preparing for war.",
+      "published_at": "2026-08-20T09:41:59+00:00",
+      "updated_at": "2026-08-20T09:41:59+00:00",
+      "effective_at": "2026-08-20T09:41:59+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
+      "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "Central Asia",
+      "subsector": "conflict",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "almaty",
-        "aug",
-        "kassym-jomart",
-        "kazakhstan",
-        "tokayev"
+        "city",
+        "cpr",
+        "donald",
+        "freedom",
+        "gps",
+        "hall",
+        "jae-myung",
+        "jong",
+        "kim",
+        "korean",
+        "lee",
+        "pyongyang",
+        "seoul",
+        "shield",
+        "south_korea",
+        "trump",
+        "ulchi",
+        "un",
+        "us",
+        "us-south"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "5155e17f387363d53a178049",
-      "importance_score": 36.0,
-      "importance_level": "LOW",
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Euronews"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 100,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "article_sentences": [
+        "Residents across Seoul took part in civil defence drills as sirens sounded and police cleared roads for emergency vehicles.",
+        "People were directed to metro stations and underground shelters, while evacuees at Seoul City Hall were shown how to give first aid and perform CPR.",
+        "The exercise was part of Ulchi Freedom Shield, the annual US-South Korean military drill, which also featured military equipment and drone simulators for children.",
+        "This year’s scenarios included drone threats, GPS disruption and cyberattacks.",
+        "The military component has been reduced, however, following a request from US President Donald Trump, who pointed to his “very good relationship” with Kim Jong Un.",
+        "The exercise began on 17 August and will now end on 21 August, with some field manoeuvres replaced by simulations.",
+        "The scaled-back exercise comes as Washington and Seoul try to maintain their readiness while avoiding a further escalation with Pyongyang.",
+        "President Lee Jae-myung said the civil defence measures were about protecting people and preserving daily life, rather than preparing for war."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "a8491b6af1de28e30bd8b779",
+      "importance_score": 70.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "impact": 18,
+        "urgency": 10,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
+        "corroboration": 6,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -60,139 +87,247 @@
           "displaced": 0,
           "missing": 0,
           "affected": 0,
-          "major_incident": false,
+          "major_incident": true,
           "crisis": false
         },
         "significance_dims": {
-          "infrastructure": 4,
-          "geopolitical": 4
+          "security": 8,
+          "geopolitical": 8
         }
       },
-      "story_id": "41a60e69b9fc377eb01e7eea617e717e4c05f9672479cf6b71dafabd475f6f1d",
-      "article_sentences": [
-        "Kazakhstan votes on Sunday in a snap parliamentary election expected to strengthen President Kassym-Jomart Tokayev's hold over the country after constitutional changes allowed him to extend his seven years in power for another seven.",
-        "Tokayev was the chosen successor of Nursultan Nazarbayev, who ruled the tightly-controlled central Asian state since the 1990s, but broke with his predecessor in 2022.",
-        "Like Nazarbayev, he has maintained close ties with China, the West and Russia and last month publicly suggested that Russian President Vladimir Putin should make peace in Ukraine.",
-        "Kazakhstan accounts for around 2% of daily world oil supply, with the bulk of its exports shipped to European countries via the Caspian Pipeline Consortium to Russia's port of Novorossiysk.",
-        "The pipeline and tankers serving it have periodically come under attack by Ukrainian drones, causing disruptions in exports.",
-        "Like other central Asian countries, Kazakhstan has also benefited from trade flows rerouted by the war in Ukraine although growth has coincided with periodic inflationary shocks.",
-        "Tokayev described the 2022 unrest, in which more than 200 people were killed in clashes with the security forces, as a coup attempt by elements loyal to Nazarbayev.",
-        "Earlier this year, longtime ruling party Amanat, which had dominated Kazakh politics under various names since the 1990s, voted to dissolve itself into Adilet, a new party led by top aides to Tokayev.",
-        "Around Almaty, Kazakhstan’s largest city, election posters – mostly in support of Adilet – have been ubiquitous for weeks.",
-        "Opinion polls show the new party with a large majority of the vote, with a number of smaller opposition parties, which analysts consider broadly loyal to Tokayev, also likely to enter parliament.",
-        "Kazakh political analyst Rustam Burnashev told Reuters that though the election offered Tokayev a chance to remove figures associated with his predecessor from the political stage, major reform of the political system was unlikely.",
-        "\"All the parliamentary candidates are known,\" he said."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Kazakhstan to hold snap election expected to tighten president's control",
+      "story_id": "25fbd880e2baa45f32aecff1252895e1bea62edc2e57be4884c32ddcc5c69d98",
+      "public_label": "🔄 UPDATE",
+      "headline": "Sirens, shelters and scaled-back war games: South Korea rehearses for crisis",
       "briefing": {
         "opening": [
-          "Kazakhstan votes on Sunday in a snap parliamentary election expected to strengthen President Kassym-Jomart Tokayev's hold over the country after constitutional changes allowed him to extend his seven years in power for another seven.",
-          "Tokayev was the chosen successor of Nursultan Nazarbayev, who ruled the tightly-controlled central Asian state since the 1990s, but broke with his predecessor in 2022."
+          "Residents across Seoul took part in civil defence drills as sirens sounded and police cleared roads for emergency vehicles.",
+          "People were directed to metro stations and underground shelters, while evacuees at Seoul City Hall were shown how to give first aid and perform CPR."
         ],
         "body": [
-          "Like Nazarbayev, he has maintained close ties with China, the West and Russia and last month publicly suggested that Russian President Vladimir Putin should make peace in Ukraine.",
-          "Kazakhstan accounts for around 2% of daily world oil supply, with the bulk of its exports shipped to European countries via the Caspian Pipeline Consortium to Russia's port of Novorossiysk.",
-          "The pipeline and tankers serving it have periodically come under attack by Ukrainian drones, causing disruptions in exports.",
-          "Like other central Asian countries, Kazakhstan has also benefited from trade flows rerouted by the war in Ukraine although growth has coincided with periodic inflationary shocks.",
-          "Tokayev described the 2022 unrest, in which more than 200 people were killed in clashes with the security forces, as a coup attempt by elements loyal to Nazarbayev.",
-          "Earlier this year, longtime ruling party Amanat, which had dominated Kazakh politics under various names since the 1990s, voted to dissolve itself into Adilet, a new party led by top aides to Tokayev.",
-          "Around Almaty, Kazakhstan’s largest city, election posters – mostly in support of Adilet – have been ubiquitous for weeks.",
-          "Opinion polls show the new party with a large majority of the vote, with a number of smaller opposition parties, which analysts consider broadly loyal to Tokayev, also likely to enter parliament."
+          "The exercise was part of Ulchi Freedom Shield, the annual US-South Korean military drill, which also featured military equipment and drone simulators for children.",
+          "This year’s scenarios included drone threats, GPS disruption and cyberattacks.",
+          "The military component has been reduced, however, following a request from US President Donald Trump, who pointed to his “very good relationship” with Kim Jong Un.",
+          "The exercise began on 17 August and will now end on 21 August, with some field manoeuvres replaced by simulations.",
+          "The scaled-back exercise comes as Washington and Seoul try to maintain their readiness while avoiding a further escalation with Pyongyang.",
+          "President Lee Jae-myung said the civil defence measures were about protecting people and preserving daily life, rather than preparing for war."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Ukraine"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "more than 200 people"
+            "text": "Seoul"
           }
         ],
         "sentences": [
           {
-            "text": "Tokayev was the chosen successor of Nursultan Nazarbayev, who ruled the tightly-controlled central Asian state since the 1990s, but broke with his predecessor in 2022.",
-            "source": "Straits Times Asia",
-            "item_id": "41a60e69b9fc377eb01e7eea617e717e4c05f9672479cf6b71dafabd475f6f1d:article",
+            "text": "President Lee Jae-myung said the civil defence measures were about protecting people and preserving daily life, rather than preparing for war.",
+            "source": "Africanews English",
+            "item_id": "25fbd880e2baa45f32aecff1252895e1bea62edc2e57be4884c32ddcc5c69d98:article",
             "composed": false
           },
           {
-            "text": "Kazakhstan accounts for around 2% of daily world oil supply, with the bulk of its exports shipped to European countries via the Caspian Pipeline Consortium to Russia's port of Novorossiysk.",
-            "source": "Straits Times Asia",
-            "item_id": "41a60e69b9fc377eb01e7eea617e717e4c05f9672479cf6b71dafabd475f6f1d:article",
+            "text": "The exercise began on 17 August and will now end on 21 August, with some field manoeuvres replaced by simulations.",
+            "source": "Africanews English",
+            "item_id": "25fbd880e2baa45f32aecff1252895e1bea62edc2e57be4884c32ddcc5c69d98:article",
             "composed": false
           },
           {
-            "text": "Earlier this year, longtime ruling party Amanat, which had dominated Kazakh politics under various names since the 1990s, voted to dissolve itself into Adilet, a new party led by top aides to Tokayev.",
-            "source": "Straits Times Asia",
-            "item_id": "41a60e69b9fc377eb01e7eea617e717e4c05f9672479cf6b71dafabd475f6f1d:article",
+            "text": "People were directed to metro stations and underground shelters, while evacuees at Seoul City Hall were shown how to give first aid and perform CPR.",
+            "source": "Africanews English",
+            "item_id": "25fbd880e2baa45f32aecff1252895e1bea62edc2e57be4884c32ddcc5c69d98:article",
             "composed": false
           },
           {
-            "text": "Tokayev described the 2022 unrest, in which more than 200 people were killed in clashes with the security forces, as a coup attempt by elements loyal to Nazarbayev.",
-            "source": "Straits Times Asia",
-            "item_id": "41a60e69b9fc377eb01e7eea617e717e4c05f9672479cf6b71dafabd475f6f1d:article",
+            "text": "Residents across Seoul took part in civil defence drills as sirens sounded and police cleared roads for emergency vehicles.",
+            "source": "Africanews English",
+            "item_id": "25fbd880e2baa45f32aecff1252895e1bea62edc2e57be4884c32ddcc5c69d98:article",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "Africanews English",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/kazakhstan-to-hold-snap-election-expected-to-tighten-presidents-control"
+        "url": "http://www.africanews.com/2026/08/20/sirens-shelters-and-scaled-back-war-games-south-korea-rehearses-for-crisis/"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "8f6e0933b62bbd71adfe2cec9278ce9f478548b17d294e6792044cc7f027b409",
-      "title": "Fyodorov's statements undermine Zelensky's position — media",
-      "url": "https://tass.com/world/2175537",
-      "source": "TASS English",
+      "id": "46429155d8aa0e2e0ca8a1a94ecc1a8b53fdb8b043755fb70907aac4fe3ac5cf",
+      "title": "Russia launches ‘massive attack’ on Kyiv and surrounding region – Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "The former minister's address also deepened skepticism toward Kiev in Washington, the newspaper wrote",
-      "published_at": "2026-08-20T09:56:04+00:00",
-      "updated_at": "2026-08-20T09:56:04+00:00",
-      "effective_at": "2026-08-20T09:56:04+00:00",
+      "summary": "Ukraine faces ‘terror that is only growing’ from Russia, former army chief says The death toll from the overnight Russian attack on Kyiv has gone up to 15, Kyiv authorities said. 39 people were injured. “Civilians were killed again, dozens were injured. Pain, loss and destruction. Terror that is only growing. Ukraine needs protection. Not words, but concrete help from partners. Continue reading...",
+      "published_at": "2026-08-20T09:47:19+00:00",
+      "updated_at": "2026-08-20T09:47:19+00:00",
+      "effective_at": "2026-08-20T09:47:19+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "conflict",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "geopolitics",
-      "subsector": "politics",
+      "subsector": "defense",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "ukraine",
-        "us",
-        "zelensky"
+        "europe",
+        "russia",
+        "ukraine"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 95,
+      "priority_score": 93,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "8ef9ae21c8f03de09bb4ded1",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
+      "event_id": "7a088b1b87c6407fee1408f6",
+      "importance_score": 70.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
+        "impact": 19,
+        "urgency": 10,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 20,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 39,
+          "injured": 39,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 8,
+          "human": 8,
+          "security": 4
+        }
+      },
+      "story_id": "46429155d8aa0e2e0ca8a1a94ecc1a8b53fdb8b043755fb70907aac4fe3ac5cf",
+      "public_label": "📰 NEWS",
+      "headline": "Russia launches ‘massive attack’ on Kyiv and surrounding region – Europe live",
+      "briefing": {
+        "opening": [
+          "Ukraine faces ‘terror that is only growing’ from Russia, former army chief says.",
+          "The death toll from the overnight Russian attack on Kyiv has gone up to 15, Kyiv authorities said."
+        ],
+        "body": [
+          "39 people were injured.",
+          "“Civilians were killed again, dozens were injured.",
+          "Pain, loss and destruction.",
+          "Terror that is only growing.",
+          "Ukraine needs protection.",
+          "Not words, but concrete help from partners."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "39 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Ukraine needs protection.",
+            "source": "The Guardian World",
+            "item_id": "46429155d8aa0e2e0ca8a1a94ecc1a8b53fdb8b043755fb70907aac4fe3ac5cf",
+            "composed": false
+          },
+          {
+            "text": "39 people were injured.",
+            "source": "The Guardian World",
+            "item_id": "46429155d8aa0e2e0ca8a1a94ecc1a8b53fdb8b043755fb70907aac4fe3ac5cf",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian World",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "3c6a124a5b63d34ba52894950deaafe4e1bbc326848438fcc3b0579758f556e9",
+      "title": "Zambian opposition leader to challenge presidential poll results in court",
+      "url": "http://www.africanews.com/2026/08/20/zambian-opposition-leader-to-challenge-presidential-poll-results-in-court/",
+      "source": "Africanews English",
+      "source_category": "africa",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "Zambia’s opposition leader said on Wednesday that he is going to court to challenge the 13 August presidential election results which handed President Hakainde Hichelema a second term in office. In a statement, Brian Mundubile said his campaign documented “serious irregularities” and inconsistencies surrounding the conduct, counting, transmission, and declaration of results. While last week’s vote was largely peaceful, the opposition said its campaign was marred by intimidation and restrictions, concerns that were echoed by international election observers. Zambia’s election commission declared Hichilema the winner with about 60 per cent of votes compared with 38 per cent for Mundubile. The dispute over the results is unfolding against a rapidly worsening security situation. Police arrested several leading opposition figures on the night of the elections, accusing them of posing a threat to state security. They’ve confirmed that former cabinet minister and opposition MP Mutotwe Kafwaya, was shot dead in a security-force raid at Mundubile’s home a day after the vote. The electoral commission also suspended vote-counting for hours due to reports of violence against polling staff and the theft of ballot papers. Mundubile issued his statement from an undisclosed location saying he is under protection due to unnamed threats. UN human rights chief Volker Türk has urged Zambia to stop arbitrary arrests and ensure due process for those detained.",
+      "published_at": "2026-08-20T09:42:33+00:00",
+      "updated_at": "2026-08-20T09:42:33+00:00",
+      "effective_at": "2026-08-20T09:42:33+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "infrastructure",
+      "subsector": "power_grids",
+      "subregion": "East Africa",
+      "country": null,
+      "entities": [
+        "brian",
+        "hakainde",
+        "hichelema",
+        "hichilema",
+        "kafwaya",
+        "mp",
+        "mundubile",
+        "mutotwe",
+        "un",
+        "volker",
+        "zambia"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Zambia’s opposition leader said on Wednesday that he is going to court to challenge the 13 August presidential election results which handed President Hakainde Hichelema a second term in office.",
+        "In a statement, Brian Mundubile said his campaign documented “serious irregularities” and inconsistencies surrounding the conduct, counting, transmission, and declaration of results.",
+        "While last week’s vote was largely peaceful, the opposition said its campaign was marred by intimidation and restrictions, concerns that were echoed by international election observers.",
+        "Zambia’s election commission declared Hichilema the winner with about 60 per cent of votes compared with 38 per cent for Mundubile.",
+        "The dispute over the results is unfolding against a rapidly worsening security situation.",
+        "Police arrested several leading opposition figures on the night of the elections, accusing them of posing a threat to state security.",
+        "They’ve confirmed that former cabinet minister and opposition MP Mutotwe Kafwaya, was shot dead in a security-force raid at Mundubile’s home a day after the vote.",
+        "The electoral commission also suspended vote-counting for hours due to reports of violence against polling staff and the theft of ballot papers.",
+        "Mundubile issued his statement from an undisclosed location saying he is under protection due to unnamed threats.",
+        "UN human rights chief Volker Türk has urged Zambia to stop arbitrary arrests and ensure due process for those detained."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "5bfec4c5d307bd3ecf541418",
+      "importance_score": 48.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 9.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 20,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -205,276 +340,69 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4
+          "geopolitical": 8,
+          "human": 4,
+          "economic": 4,
+          "infrastructure": 4
         }
       },
-      "story_id": "8f6e0933b62bbd71adfe2cec9278ce9f478548b17d294e6792044cc7f027b409",
-      "article_sentences": [
-        "LONDON, August 20.",
-        "A video address by former Ukrainian Defense Minister Mikhail Fyodorov revived the issue of Vladimir Zelensky's legitimacy, The Daily Telegraph said.",
-        "Fyodorov's call for elections in Ukraine undermined the position of the Kiev leadership, the article said.",
-        "The newspaper noted that his remarks had also intensified doubts within Ukrainian society about Zelensky's legitimacy amid a wave of discontent following Fyodorov's dismissal.",
-        "The former minister's address also deepened skepticism toward Kiev in Washington, the authors wrote.",
-        "Earlier, Fyodorov posted a video on his YouTube channel in which he spoke of a systemic governance crisis in Ukraine and the need to hold elections.",
-        "Zelensky's presidential term officially expired on May 20, 2024.",
-        "Kiev, however, did not hold the next election, saying that this was impossible until martial law ends.",
-        "Russian President Vladimir Putin has stressed that Zelensky's presidential term \"expired together with his legitimacy, which cannot be restored by any tricks.\"."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Fyodorov's statements undermine Zelensky's position — media",
+      "story_id": "3c6a124a5b63d34ba52894950deaafe4e1bbc326848438fcc3b0579758f556e9",
+      "public_label": "🔄 UPDATE",
+      "headline": "Zambian opposition leader to challenge presidential poll results in court",
       "briefing": {
         "opening": [
-          "LONDON, August 20.",
-          "A video address by former Ukrainian Defense Minister Mikhail Fyodorov revived the issue of Vladimir Zelensky's legitimacy, The Daily Telegraph said."
+          "Zambia’s opposition leader said on Wednesday that he is going to court to challenge the 13 August presidential election results which handed President Hakainde Hichelema a second term in office.",
+          "In a statement, Brian Mundubile said his campaign documented “serious irregularities” and inconsistencies surrounding the conduct, counting, transmission, and declaration of results."
         ],
         "body": [
-          "Fyodorov's call for elections in Ukraine undermined the position of the Kiev leadership, the article said.",
-          "The newspaper noted that his remarks had also intensified doubts within Ukrainian society about Zelensky's legitimacy amid a wave of discontent following Fyodorov's dismissal.",
-          "The former minister's address also deepened skepticism toward Kiev in Washington, the authors wrote.",
-          "Earlier, Fyodorov posted a video on his YouTube channel in which he spoke of a systemic governance crisis in Ukraine and the need to hold elections.",
-          "Zelensky's presidential term officially expired on May 20, 2024.",
-          "Kiev, however, did not hold the next election, saying that this was impossible until martial law ends.",
-          "Russian President Vladimir Putin has stressed that Zelensky's presidential term \"expired together with his legitimacy, which cannot be restored by any tricks.\"."
+          "While last week’s vote was largely peaceful, the opposition said its campaign was marred by intimidation and restrictions, concerns that were echoed by international election observers.",
+          "Zambia’s election commission declared Hichilema the winner with about 60 per cent of votes compared with 38 per cent for Mundubile.",
+          "The dispute over the results is unfolding against a rapidly worsening security situation.",
+          "Police arrested several leading opposition figures on the night of the elections, accusing them of posing a threat to state security.",
+          "They’ve confirmed that former cabinet minister and opposition MP Mutotwe Kafwaya, was shot dead in a security-force raid at Mundubile’s home a day after the vote.",
+          "The electoral commission also suspended vote-counting for hours due to reports of violence against polling staff and the theft of ballot papers.",
+          "Mundubile issued his statement from an undisclosed location saying he is under protection due to unnamed threats.",
+          "UN human rights chief Volker Türk has urged Zambia to stop arbitrary arrests and ensure due process for those detained."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Ukraine"
+            "text": "Mundubile’s"
           }
         ],
         "sentences": [
           {
-            "text": "Zelensky's presidential term officially expired on May 20, 2024.",
-            "source": "TASS English",
-            "item_id": "8f6e0933b62bbd71adfe2cec9278ce9f478548b17d294e6792044cc7f027b409:article",
+            "text": "In a statement, Brian Mundubile said his campaign documented “serious irregularities” and inconsistencies surrounding the conduct, counting, transmission, and declaration of results.",
+            "source": "Africanews English",
+            "item_id": "3c6a124a5b63d34ba52894950deaafe4e1bbc326848438fcc3b0579758f556e9:article",
             "composed": false
           },
           {
-            "text": "LONDON, August 20.",
-            "source": "TASS English",
-            "item_id": "8f6e0933b62bbd71adfe2cec9278ce9f478548b17d294e6792044cc7f027b409:article",
+            "text": "Zambia’s election commission declared Hichilema the winner with about 60 per cent of votes compared with 38 per cent for Mundubile.",
+            "source": "Africanews English",
+            "item_id": "3c6a124a5b63d34ba52894950deaafe4e1bbc326848438fcc3b0579758f556e9:article",
             "composed": false
           },
           {
-            "text": "The former minister's address also deepened skepticism toward Kiev in Washington, the authors wrote.",
-            "source": "TASS English",
-            "item_id": "8f6e0933b62bbd71adfe2cec9278ce9f478548b17d294e6792044cc7f027b409:article",
+            "text": "Zambia’s opposition leader said on Wednesday that he is going to court to challenge the 13 August presidential election results which handed President Hakainde Hichelema a second term in office.",
+            "source": "Africanews English",
+            "item_id": "3c6a124a5b63d34ba52894950deaafe4e1bbc326848438fcc3b0579758f556e9:article",
+            "composed": false
+          },
+          {
+            "text": "They’ve confirmed that former cabinet minister and opposition MP Mutotwe Kafwaya, was shot dead in a security-force raid at Mundubile’s home a day after the vote.",
+            "source": "Africanews English",
+            "item_id": "3c6a124a5b63d34ba52894950deaafe4e1bbc326848438fcc3b0579758f556e9:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Africanews English",
         "corroborating": [],
-        "url": "https://tass.com/world/2175537"
+        "url": "http://www.africanews.com/2026/08/20/zambian-opposition-leader-to-challenge-presidential-poll-results-in-court/"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "2ca278c4a0b1eebea764ded5efbb6504ee37c6d39f516228178524f87fe851d1",
-      "title": "Chinese ‘hardship camps’ see children chop wood, feed pigs to learn family appreciation",
-      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3364643/chinese-hardship-camps-see-children-chop-wood-feed-pigs-learn-family-appreciation?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Chinese parents are sending their children to “hardship summer camps” to engage in farm work, often to the point of tears, in an effort to teach them the realities of life and foster appreciation for their families. This summer, a programme known as “hardship camp” is gaining popularity across China. Many parents are investing thousands of yuan (hundreds of US dollars) to send their children to the countryside to experience rural life first-hand. These programmes are primarily located in the...",
-      "published_at": "2026-08-20T10:00:07+00:00",
-      "updated_at": "2026-08-20T10:00:07+00:00",
-      "effective_at": "2026-08-20T10:00:07+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "currencies",
-      "subregion": "East Asia",
-      "country": null,
-      "entities": [
-        "china",
-        "us"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "5c68b44464f39c519d4de024",
-      "importance_score": 29.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "2ca278c4a0b1eebea764ded5efbb6504ee37c6d39f516228178524f87fe851d1",
-      "public_label": "📰 NEWS",
-      "headline": "Chinese ‘hardship camps’ see children chop wood, feed pigs to learn family appreciation",
-      "briefing": {
-        "opening": [
-          "Chinese parents are sending their children to “hardship summer camps” to engage in farm work, often to the point of tears, in an effort to teach them the realities of life and foster appreciation for their families.",
-          "This summer, a programme known as “hardship camp” is gaining popularity across China."
-        ],
-        "body": [
-          "Many parents are investing thousands of yuan (hundreds of US dollars) to send their children to the countryside to experience rural life first-hand.",
-          "These programmes are primarily located in the..."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "China"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Chinese parents are sending their children to “hardship summer camps” to engage in farm work, often to the point of tears, in an effort to teach them the realities of life and foster appreciation for their families.",
-            "source": "South China Morning Post",
-            "item_id": "2ca278c4a0b1eebea764ded5efbb6504ee37c6d39f516228178524f87fe851d1",
-            "composed": false
-          },
-          {
-            "text": "Many parents are investing thousands of yuan (hundreds of US dollars) to send their children to the countryside to experience rural life first-hand.",
-            "source": "South China Morning Post",
-            "item_id": "2ca278c4a0b1eebea764ded5efbb6504ee37c6d39f516228178524f87fe851d1",
-            "composed": false
-          },
-          {
-            "text": "This summer, a programme known as “hardship camp” is gaining popularity across China.",
-            "source": "South China Morning Post",
-            "item_id": "2ca278c4a0b1eebea764ded5efbb6504ee37c6d39f516228178524f87fe851d1",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/news/people-culture/trending-china/article/3364643/chinese-hardship-camps-see-children-chop-wood-feed-pigs-learn-family-appreciation?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "4a658ebac18b3bc2e39041978f33233d86ddc799f599aa0bb583c4c78f6f97b6",
-      "title": "ICC separates Taliban probe from US case as Afghan women's fate stays uncertain",
-      "url": "http://www.euronews.com/2026/08/20/icc-separates-taliban-probe-from-us-case-as-afghan-womens-fate-stays-uncertain",
-      "source": "Euronews",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "North America",
-      "discovery": false,
-      "summary": "ICC judges reportedly ordered prosecutors to open a standalone investigation into Taliban persecution of women, separating it from the probe that also covered alleged US crimes in Afghanistan. Afghan rights advocates warned the split risked undermining comprehensive justice.",
-      "published_at": "2026-08-20T09:44:05+00:00",
-      "updated_at": "2026-08-20T09:44:05+00:00",
-      "effective_at": "2026-08-20T09:44:05+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "courts",
-      "subregion": "United States",
-      "country": null,
-      "entities": [
-        "afghan",
-        "afghanistan",
-        "icc",
-        "taliban",
-        "us"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 100,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "17d03b8d6ea4d66c4f71b348",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "4a658ebac18b3bc2e39041978f33233d86ddc799f599aa0bb583c4c78f6f97b6",
-      "public_label": "📰 NEWS",
-      "headline": "ICC separates Taliban probe from US case as Afghan women's fate stays uncertain",
-      "briefing": {
-        "opening": [
-          "ICC judges reportedly ordered prosecutors to open a standalone investigation into Taliban persecution of women, separating it from the probe that also covered alleged US crimes in Afghanistan.",
-          "Afghan rights advocates warned the split risked undermining comprehensive justice."
-        ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Afghanistan"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Afghan rights advocates warned the split risked undermining comprehensive justice.",
-            "source": "Euronews",
-            "item_id": "4a658ebac18b3bc2e39041978f33233d86ddc799f599aa0bb583c4c78f6f97b6",
-            "composed": false
-          },
-          {
-            "text": "ICC judges reportedly ordered prosecutors to open a standalone investigation into Taliban persecution of women, separating it from the probe that also covered alleged US crimes in Afghanistan.",
-            "source": "Euronews",
-            "item_id": "4a658ebac18b3bc2e39041978f33233d86ddc799f599aa0bb583c4c78f6f97b6",
-            "composed": false
-          }
-        ],
-        "source": "Euronews",
-        "corroborating": [],
-        "url": "http://www.euronews.com/2026/08/20/icc-separates-taliban-probe-from-us-case-as-afghan-womens-fate-stays-uncertain"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
