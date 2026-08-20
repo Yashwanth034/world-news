@@ -1,183 +1,170 @@
 {
-  "generated_at": "2026-08-20T13:20:53.992047+00:00",
-  "count": 4,
+  "generated_at": "2026-08-20T13:31:06.863829+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "b78b02ed3b7117194b34e1d16b0cb3f03fa3b2ef5bdfa13738bb3d2e02064045",
-      "title": "Woman found dead in Hong Kong with suspected dog bites, probe under way",
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364727/woman-found-dead-hong-kong-suspected-dog-bites-probe-under-way?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "e6613060d1cf3d83c62f0fa051a08436c0e780b3f02129f12230e502990862ab",
+      "title": "DRC’s Ebola outbreak reaches 5,000 cases, outpaces response efforts at unprecedented speed",
+      "url": "https://www.france24.com/en/video/20260820-drc-s-ebola-outbreak-reaches-5-000-cases-outpaces-response-efforts-at-unprecedented-speed",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Africa",
       "discovery": false,
-      "summary": "A woman has been found dead in northern Hong Kong with suspected dog bites on her body. Police said they received a report at 4.12pm on Thursday that a woman had been found collapsed outside Ping Yeung San Tsuen in Ta Kwu Ling. She was certified dead at the scene. A preliminary examination revealed suspected dog bites on her body, the force added. The incident comes amid citywide concern over the management of large dogs in Hong Kong, after an unleashed 60kg canine fatally attacked two smaller...",
-      "published_at": "2026-08-20T13:15:03+00:00",
-      "updated_at": "2026-08-20T13:15:03+00:00",
-      "effective_at": "2026-08-20T13:15:03+00:00",
+      "summary": "The Ebola outbreak in Congo has reached 5,000 cases, government data showed Wednesday, as responders warn it is spreading at an unprecedented speed outpacing efforts to slow it in one of the country’s remotest regions. Data from Congo’s Ministry of Health showed the outbreak had so far recorded 5,021 cases, including 2,378 deaths as of Sunday, as it rages in some of the most challenging conditions imaginable fueled by insecurity, displacement and intense population movements. The outbreak has infected and killed more people at a greater speed than any other outbreak in history.",
+      "published_at": "2026-08-20T13:25:48+00:00",
+      "updated_at": "2026-08-20T13:25:48+00:00",
+      "effective_at": "2026-08-20T13:25:48+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "health",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "law",
-      "subsector": "regulation",
-      "subregion": "East Asia",
+      "sector": "health",
+      "subsector": "outbreaks",
+      "subregion": "Central Africa",
       "country": null,
       "entities": [
-        "hong_kong",
-        "kwu",
-        "ling",
-        "ping",
-        "san",
-        "ta",
-        "tsuen",
-        "yeung"
+        "congo",
+        "drc",
+        "ebola",
+        "health",
+        "ministry"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 93,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "0cb4dc2d9bbac4548abe1eed",
-      "importance_score": 58.0,
-      "importance_level": "MEDIUM",
+      "event_status": "UPDATE",
+      "event_id": "f1129d524268d348df9e70c1",
+      "importance_score": 86.0,
+      "importance_level": "CRITICAL",
       "importance_breakdown": {
-        "impact": 16.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "impact": 32,
+        "urgency": 10,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 14,
+        "significance": 24,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 60,
+          "dead": 5021,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
           "major_incident": false,
-          "crisis": true
+          "crisis": false
         },
         "significance_dims": {
-          "human": 10,
-          "scientific": 4
+          "human": 12,
+          "scientific": 8,
+          "geopolitical": 4
         }
       },
-      "story_id": "b78b02ed3b7117194b34e1d16b0cb3f03fa3b2ef5bdfa13738bb3d2e02064045",
-      "public_label": "📰 NEWS",
-      "headline": "Woman found dead in Hong Kong with suspected dog bites, probe under way",
+      "story_id": "e6613060d1cf3d83c62f0fa051a08436c0e780b3f02129f12230e502990862ab",
+      "public_label": "🔄 UPDATE",
+      "headline": "DRC’s Ebola outbreak reaches 5,000 cases, outpaces response efforts at unprecedented speed",
       "briefing": {
         "opening": [
-          "A woman has been found dead in northern Hong Kong with suspected dog bites on her body.",
-          "Police said they received a report at 4.12pm on Thursday that a woman had been found collapsed outside Ping Yeung San Tsuen in Ta Kwu Ling."
+          "The Ebola outbreak in Congo has reached 5,000 cases, government data showed Wednesday, as responders warn it is spreading at an unprecedented speed outpacing efforts to slow it in one of the country’s remotest regions.",
+          "Data from Congo’s Ministry of Health showed the outbreak had so far recorded 5,021 cases, including 2,378 deaths as of Sunday, as it rages in some of the most challenging conditions imaginable fueled by insecurity, displacement and intense population movements."
         ],
         "body": [
-          "She was certified dead at the scene.",
-          "A preliminary examination revealed suspected dog bites on her body, the force added.",
-          "The incident comes amid citywide concern over the management of large dogs in Hong Kong, after an unleashed 60kg canine fatally attacked two smaller..."
+          "The outbreak has infected and killed more people at a greater speed than any other outbreak in history."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Ta Kwu Ling"
+            "text": "Congo"
           }
         ],
         "sentences": [
           {
-            "text": "A woman has been found dead in northern Hong Kong with suspected dog bites on her body.",
-            "source": "South China Morning Post",
-            "item_id": "b78b02ed3b7117194b34e1d16b0cb3f03fa3b2ef5bdfa13738bb3d2e02064045",
+            "text": "Data from Congo’s Ministry of Health showed the outbreak had so far recorded 5,021 cases, including 2,378 deaths as of Sunday, as it rages in some of the most challenging conditions imaginable fueled by insecurity, displacement and intense population movements.",
+            "source": "France 24",
+            "item_id": "e6613060d1cf3d83c62f0fa051a08436c0e780b3f02129f12230e502990862ab",
             "composed": false
           },
           {
-            "text": "Police said they received a report at 4.12pm on Thursday that a woman had been found collapsed outside Ping Yeung San Tsuen in Ta Kwu Ling.",
-            "source": "South China Morning Post",
-            "item_id": "b78b02ed3b7117194b34e1d16b0cb3f03fa3b2ef5bdfa13738bb3d2e02064045",
+            "text": "The outbreak has infected and killed more people at a greater speed than any other outbreak in history.",
+            "source": "France 24",
+            "item_id": "e6613060d1cf3d83c62f0fa051a08436c0e780b3f02129f12230e502990862ab",
+            "composed": false
+          },
+          {
+            "text": "The Ebola outbreak in Congo has reached 5,000 cases, government data showed Wednesday, as responders warn it is spreading at an unprecedented speed outpacing efforts to slow it in one of the country’s remotest regions.",
+            "source": "France 24",
+            "item_id": "e6613060d1cf3d83c62f0fa051a08436c0e780b3f02129f12230e502990862ab",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364727/woman-found-dead-hong-kong-suspected-dog-bites-probe-under-way?utm_source=rss_feed"
+        "url": "https://www.france24.com/en/video/20260820-drc-s-ebola-outbreak-reaches-5-000-cases-outpaces-response-efforts-at-unprecedented-speed"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "68825d0be98c66221998d501cd3c9d955af00762418f4bb72adb28433b84f415",
-      "title": "India's top court forms panel to probe allegations of violence during youth protests",
-      "url": "https://www.straitstimes.com/asia/indias-top-court-forms-panel-to-probe-allegations-of-violence-during-youth-protests",
-      "source": "Straits Times Asia",
+      "id": "16b1af67f6f6c9534176971801572f9e4be25c227fffb3553629033483e6ce33",
+      "title": "US national debt tops $40 trillion for first time, dealing blow to Trump",
+      "url": "https://www.france24.com/en/video/20260820-us-national-debt-tops-40-trillion-for-first-time-dealing-blow-to-trump",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "North America",
       "discovery": false,
-      "summary": "India's Supreme Court created a panel on Thursday to investigate allegations of police violence and of attacks on security personnel by demonstrators during youth protests that forced the education minister to resign last month. The protests were triggered by the leak of question papers for a national medical college entrance exam. Demonstrations began in New Delhi and spread to other cities after tens of thousands of people attempting to march on parliament were met with tear gas and baton charges. The panel will be headed by a former Supreme Court judge and include two other retired judges and two retired police chiefs, the court said in an order on its website. It will address allegations including that female protesters faced \"targeted violence, harassment, and molestation\" and demonstrators suffered \"grievous harm and injury\" at the hands of security personnel, the court added. The court order came in response to petitions filed by student protesters and activists saying police and paramilitary forces used excessive force and pellet guns. Police told the court earlier this week they only used force after protesters \"resorted to violence\". Police have said anti-social elements \"masquerading as aggrieved students\" caused \"grievous injuries\" to security forces. The court did not set a deadline for the investigation. It asked the panel to submit an interim report as soon as possible. The demonstrations, seen as the worst political crisis of Prime Minister Narendra Modi's third term, ended after then-education minister Dharmendra Pradhan resigned.",
-      "published_at": "2026-08-20T13:12:17+00:00",
-      "updated_at": "2026-08-20T13:12:17+00:00",
-      "effective_at": "2026-08-20T13:12:17+00:00",
+      "summary": "The US gross national debt has surged past $40 trillion for the first time, government data showed Wednesday, outstripping earlier forecasts at a pace fuelled in part by President Donald Trump's invalidated tariffs. The uptick in borrowing is a blow to Trump, who promised to cut public spending during his 2024 presidential campaign, and sparked a backlash from US representatives across the political field.",
+      "published_at": "2026-08-20T13:28:47+00:00",
+      "updated_at": "2026-08-20T13:28:47+00:00",
+      "effective_at": "2026-08-20T13:28:47+00:00",
       "language_status": "ENGLISH",
       "category": "politics",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "law",
-      "subsector": "courts",
-      "subregion": "South Asia",
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "court",
-        "delhi",
-        "dharmendra",
-        "india",
-        "modi",
-        "narendra",
-        "pradhan",
-        "supreme"
+        "donald",
+        "trump",
+        "us"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 93,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "India's Supreme Court created a panel on Thursday to investigate allegations of police violence and of attacks on security personnel by demonstrators during youth protests that forced the education minister to resign last month.",
-        "The protests were triggered by the leak of question papers for a national medical college entrance exam.",
-        "Demonstrations began in New Delhi and spread to other cities after tens of thousands of people attempting to march on parliament were met with tear gas and baton charges.",
-        "The panel will be headed by a former Supreme Court judge and include two other retired judges and two retired police chiefs, the court said in an order on its website.",
-        "It will address allegations including that female protesters faced \"targeted violence, harassment, and molestation\" and demonstrators suffered \"grievous harm and injury\" at the hands of security personnel, the court added.",
-        "The court order came in response to petitions filed by student protesters and activists saying police and paramilitary forces used excessive force and pellet guns.",
-        "Police told the court earlier this week they only used force after protesters \"resorted to violence\".",
-        "Police have said anti-social elements \"masquerading as aggrieved students\" caused \"grievous injuries\" to security forces.",
-        "The court did not set a deadline for the investigation.",
-        "It asked the panel to submit an interim report as soon as possible.",
-        "The demonstrations, seen as the worst political crisis of Prime Minister Narendra Modi's third term, ended after then-education minister Dharmendra Pradhan resigned."
+      "corroborating_sources": 2,
+      "strong_corroboration": 2,
+      "corroborating_source_names": [
+        "MercoPress",
+        "The Guardian Business"
       ],
+      "verified_match_count": 2,
+      "priority_score": 95,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
       "event_status": "UPDATE",
-      "event_id": "0445a560e6f046c406149d53",
-      "importance_score": 51.0,
-      "importance_level": "MEDIUM",
+      "event_id": "6678a9116e149eabd9d55c38",
+      "importance_score": 46.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 9.0,
+        "urgency": 7.0,
         "novelty": 8.0,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 20,
+        "corroboration": 8,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -191,200 +178,57 @@
         },
         "significance_dims": {
           "scientific": 8,
-          "human": 4,
-          "security": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "68825d0be98c66221998d501cd3c9d955af00762418f4bb72adb28433b84f415",
+      "story_id": "16b1af67f6f6c9534176971801572f9e4be25c227fffb3553629033483e6ce33",
       "public_label": "🔄 UPDATE",
-      "headline": "India's top court forms panel to probe allegations of violence during youth protests",
+      "headline": "US national debt tops $40 trillion for first time, dealing blow to Trump",
       "briefing": {
         "opening": [
-          "India's Supreme Court created a panel on Thursday to investigate allegations of police violence and of attacks on security personnel by demonstrators during youth protests that forced the education minister to resign last month.",
-          "The protests were triggered by the leak of question papers for a national medical college entrance exam."
+          "The US gross national debt has surged past $40 trillion for the first time, government data showed Wednesday, outstripping earlier forecasts at a pace fuelled in part by President Donald Trump's invalidated tariffs.",
+          "The uptick in borrowing is a blow to Trump, who promised to cut public spending during his 2024 presidential campaign, and sparked a backlash from US representatives across the political field."
         ],
-        "body": [
-          "Demonstrations began in New Delhi and spread to other cities after tens of thousands of people attempting to march on parliament were met with tear gas and baton charges.",
-          "The panel will be headed by a former Supreme Court judge and include two other retired judges and two retired police chiefs, the court said in an order on its website.",
-          "It will address allegations including that female protesters faced \"targeted violence, harassment, and molestation\" and demonstrators suffered \"grievous harm and injury\" at the hands of security personnel, the court added.",
-          "The court order came in response to petitions filed by student protesters and activists saying police and paramilitary forces used excessive force and pellet guns.",
-          "Police told the court earlier this week they only used force after protesters \"resorted to violence\".",
-          "Police have said anti-social elements \"masquerading as aggrieved students\" caused \"grievous injuries\" to security forces.",
-          "The court did not set a deadline for the investigation.",
-          "It asked the panel to submit an interim report as soon as possible."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "New Delhi"
-          }
-        ],
+        "body": [],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The panel will be headed by a former Supreme Court judge and include two other retired judges and two retired police chiefs, the court said in an order on its website.",
-            "source": "Straits Times Asia",
-            "item_id": "68825d0be98c66221998d501cd3c9d955af00762418f4bb72adb28433b84f415:article",
+            "text": "The uptick in borrowing is a blow to Trump, who promised to cut public spending during his 2024 presidential campaign, and sparked a backlash from US representatives across the political field.",
+            "source": "France 24",
+            "item_id": "16b1af67f6f6c9534176971801572f9e4be25c227fffb3553629033483e6ce33",
             "composed": false
           },
           {
-            "text": "Police told the court earlier this week they only used force after protesters \"resorted to violence\".",
-            "source": "Straits Times Asia",
-            "item_id": "68825d0be98c66221998d501cd3c9d955af00762418f4bb72adb28433b84f415:article",
-            "composed": false
-          },
-          {
-            "text": "India's Supreme Court created a panel on Thursday to investigate allegations of police violence and of attacks on security personnel by demonstrators during youth protests that forced the education minister to resign last month.",
-            "source": "Straits Times Asia",
-            "item_id": "68825d0be98c66221998d501cd3c9d955af00762418f4bb72adb28433b84f415:article",
+            "text": "The US gross national debt has surged past $40 trillion for the first time, government data showed Wednesday, outstripping earlier forecasts at a pace fuelled in part by President Donald Trump's invalidated tariffs.",
+            "source": "France 24",
+            "item_id": "16b1af67f6f6c9534176971801572f9e4be25c227fffb3553629033483e6ce33",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/indias-top-court-forms-panel-to-probe-allegations-of-violence-during-youth-protests"
+        "url": "https://www.france24.com/en/video/20260820-us-national-debt-tops-40-trillion-for-first-time-dealing-blow-to-trump"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
     },
     {
-      "id": "07d85e3d8dd763e4a08aa907550c49b0b636f8a01f07b474a37a86a7c938ca85",
-      "title": "Tokyo-bound express train hits and kills four workers at railway station in Japan",
-      "url": "http://www.euronews.com/2026/08/20/tokyo-bound-express-train-hits-and-kills-four-workers-at-railway-station-in-japan",
-      "source": "Euronews",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Railway officials said it was unclear why the workers did not leave the site when the train was approaching, or what the lookout people were doing.",
-      "published_at": "2026-08-20T13:10:27+00:00",
-      "updated_at": "2026-08-20T13:10:27+00:00",
-      "effective_at": "2026-08-20T13:10:27+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "rail",
-      "subregion": "East Asia",
-      "country": null,
-      "entities": [
-        "japan",
-        "railway"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "4275e54b2960dbbed3e10aa9",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "07d85e3d8dd763e4a08aa907550c49b0b636f8a01f07b474a37a86a7c938ca85",
-      "article_sentences": [
-        "Railway officials said it was unclear why the workers did not leave the site when the train was approaching, or what the lookout people were doing.",
-        "Four people doing weed control work on a railway track in Japan were killed after being hit by an express train as it entered a station where they were working, officials said on Thursday.",
-        "The accident occurred at Shin-Kanuma Station, north of Tokyo, and involved the Tokyo-bound Spacia express train, the Tochigi prefectural police said.",
-        "The four, three workers and a supervisor, were rushed to a hospital but later pronounced dead, according to police and train operator Tobu Railway Co.",
-        "Six other people at the site, two other workers, three on lookout duty and an on-site supervisor, were safe, Tobu Railway said.",
-        "They had been assigned to spray herbicide.",
-        "About 50 passengers on the train were also uninjured.",
-        "They said they are cooperating with authorities investigating the cause of the accident.",
-        "Those on lookout duty are supposed to warn fellow workers of an approaching train by waving a flag, using a whistle or a microphone.",
-        "Takao Suzuki, head of Tobu's railway business division, apologised for the fatal accident.",
-        "“We take this severe accident seriously and we will ensure preventive measures and never let this happen,\" he said.",
-        "Trains on the line were suspended for several hours, but services resumed later on Thursday, officials said."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Tokyo-bound express train hits and kills four workers at railway station in Japan",
-      "briefing": {
-        "opening": [
-          "Railway officials said it was unclear why the workers did not leave the site when the train was approaching, or what the lookout people were doing.",
-          "Four people doing weed control work on a railway track in Japan were killed after being hit by an express train as it entered a station where they were working, officials said on Thursday."
-        ],
-        "body": [
-          "The accident occurred at Shin-Kanuma Station, north of Tokyo, and involved the Tokyo-bound Spacia express train, the Tochigi prefectural police said.",
-          "The four, three workers and a supervisor, were rushed to a hospital but later pronounced dead, according to police and train operator Tobu Railway Co.",
-          "Six other people at the site, two other workers, three on lookout duty and an on-site supervisor, were safe, Tobu Railway said.",
-          "They had been assigned to spray herbicide.",
-          "About 50 passengers on the train were also uninjured.",
-          "They said they are cooperating with authorities investigating the cause of the accident.",
-          "Those on lookout duty are supposed to warn fellow workers of an approaching train by waving a flag, using a whistle or a microphone.",
-          "Takao Suzuki, head of Tobu's railway business division, apologised for the fatal accident."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Japan"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Four people doing weed control work on a railway track in Japan were killed after being hit by an express train as it entered a station where they were working, officials said on Thursday.",
-            "source": "Euronews",
-            "item_id": "07d85e3d8dd763e4a08aa907550c49b0b636f8a01f07b474a37a86a7c938ca85:article",
-            "composed": false
-          },
-          {
-            "text": "The four, three workers and a supervisor, were rushed to a hospital but later pronounced dead, according to police and train operator Tobu Railway Co.",
-            "source": "Euronews",
-            "item_id": "07d85e3d8dd763e4a08aa907550c49b0b636f8a01f07b474a37a86a7c938ca85:article",
-            "composed": false
-          }
-        ],
-        "source": "Euronews",
-        "corroborating": [],
-        "url": "http://www.euronews.com/2026/08/20/tokyo-bound-express-train-hits-and-kills-four-workers-at-railway-station-in-japan"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "20600eb5ee8acb7757cfe9d276a5d59b34ba8c676667fdc108bab3f66d6d4f90",
-      "title": "Liberation of Matyashevo opens way for Russian forces’ advance in Dobropolye area",
-      "url": "https://tass.com/politics/2175659",
-      "source": "TASS English",
+      "id": "f5789a24788cf5a7e710e5bada4882280d2e420c4d52152a0a10164e817becaa",
+      "title": "Huge questions loom over Prince Harry and Meghan's shock return to UK",
+      "url": "https://www.france24.com/en/video/20260820-huge-questions-loom-over-prince-harry-and-meghan-s-shock-return-to-uk",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "The settlement was liberated by Pskov Guards Airborne Forces formation",
-      "published_at": "2026-08-20T13:19:41+00:00",
-      "updated_at": "2026-08-20T13:19:41+00:00",
-      "effective_at": "2026-08-20T13:19:41+00:00",
+      "summary": "Dozens of questions swirled Thursday as Prince Harry prepares to move back to the UK with his wife and children, six years after his departure sparked a bitter rift with the royal family. In a surprise move, Harry and Meghan \"plan to leave the United States by the end of the month to settle in a private, non-royal residence, which is said to be located outside London\", The Daily Telegraph reported late on Wednesday. FRANCE 24's Delano D'Souza tells us more.",
+      "published_at": "2026-08-20T13:24:23+00:00",
+      "updated_at": "2026-08-20T13:24:23+00:00",
+      "effective_at": "2026-08-20T13:24:23+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "other",
@@ -392,23 +236,24 @@
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "airborne",
-        "dobropolye",
-        "forces",
-        "guards",
-        "matyashevo",
-        "pskov",
-        "russia"
+        "daily",
+        "delano",
+        "france",
+        "harry",
+        "meghan",
+        "telegraph",
+        "uk",
+        "united_states"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "23e247c25760a1bf11e61f46",
+      "event_id": "0ffc895ab432c92734c2704f",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -433,49 +278,41 @@
         },
         "significance_dims": {}
       },
-      "story_id": "20600eb5ee8acb7757cfe9d276a5d59b34ba8c676667fdc108bab3f66d6d4f90",
-      "article_sentences": [
-        "MOSCOW, August 20.",
-        "The liberation of Matyashevo in the Donetsk People’s Republic (DPR) has allowed the Russian Armed Forces to sever Ukrainian forces’ supply routes and create conditions for further advance in the Dobropolye direction, Russia’s Defense Ministry reported.",
-        "Service members of the Battlegroup Center’s Pskov Guards Airborne Forces (VDV) formation liberated the settlement of Matyashevo during combat operations in the Dobropolye direction.",
-        "\"The liberation of Matyashevo has made it possible to cut off the enemy’s logistical routes and create conditions for the further advance of Russian units in the Dobropolye direction of the special military operation,\" the ministry said in a statement."
-      ],
+      "story_id": "f5789a24788cf5a7e710e5bada4882280d2e420c4d52152a0a10164e817becaa",
       "public_label": "📰 NEWS",
-      "headline": "Liberation of Matyashevo opens way for Russian forces’ advance in Dobropolye area",
+      "headline": "Huge questions loom over Prince Harry and Meghan's shock return to UK",
       "briefing": {
         "opening": [
-          "MOSCOW, August 20.",
-          "The liberation of Matyashevo in the Donetsk People’s Republic (DPR) has allowed the Russian Armed Forces to sever Ukrainian forces’ supply routes and create conditions for further advance in the Dobropolye direction, Russia’s Defense Ministry reported."
+          "Dozens of questions swirled Thursday as Prince Harry prepares to move back to the UK with his wife and children, six years after his departure sparked a bitter rift with the royal family.",
+          "In a surprise move, Harry and Meghan \"plan to leave the United States by the end of the month to settle in a private, non-royal residence, which is said to be located outside London\", The Daily Telegraph reported late on Wednesday."
         ],
         "body": [
-          "Service members of the Battlegroup Center’s Pskov Guards Airborne Forces (VDV) formation liberated the settlement of Matyashevo during combat operations in the Dobropolye direction.",
-          "\"The liberation of Matyashevo has made it possible to cut off the enemy’s logistical routes and create conditions for the further advance of Russian units in the Dobropolye direction of the special military operation,\" the ministry said in a statement.",
-          "The settlement was liberated by Pskov Guards Airborne Forces formation."
+          "FRANCE 24's Delano D'Souza tells us more."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Service members of the Battlegroup Center’s Pskov Guards Airborne Forces (VDV) formation liberated the settlement of Matyashevo during combat operations in the Dobropolye direction.",
-            "source": "TASS English",
-            "item_id": "20600eb5ee8acb7757cfe9d276a5d59b34ba8c676667fdc108bab3f66d6d4f90:article",
+            "text": "FRANCE 24's Delano D'Souza tells us more.",
+            "source": "France 24",
+            "item_id": "f5789a24788cf5a7e710e5bada4882280d2e420c4d52152a0a10164e817becaa",
             "composed": false
           },
           {
-            "text": "\"The liberation of Matyashevo has made it possible to cut off the enemy’s logistical routes and create conditions for the further advance of Russian units in the Dobropolye direction of the special military operation,\" the ministry said in a statement.",
-            "source": "TASS English",
-            "item_id": "20600eb5ee8acb7757cfe9d276a5d59b34ba8c676667fdc108bab3f66d6d4f90:article",
+            "text": "Dozens of questions swirled Thursday as Prince Harry prepares to move back to the UK with his wife and children, six years after his departure sparked a bitter rift with the royal family.",
+            "source": "France 24",
+            "item_id": "f5789a24788cf5a7e710e5bada4882280d2e420c4d52152a0a10164e817becaa",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 20.",
-            "source": "TASS English",
-            "item_id": "20600eb5ee8acb7757cfe9d276a5d59b34ba8c676667fdc108bab3f66d6d4f90:article",
+            "text": "In a surprise move, Harry and Meghan \"plan to leave the United States by the end of the month to settle in a private, non-royal residence, which is said to be located outside London\", The Daily Telegraph reported late on Wednesday.",
+            "source": "France 24",
+            "item_id": "f5789a24788cf5a7e710e5bada4882280d2e420c4d52152a0a10164e817becaa",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://tass.com/politics/2175659"
+        "url": "https://www.france24.com/en/video/20260820-huge-questions-loom-over-prince-harry-and-meghan-s-shock-return-to-uk"
       },
       "group_size": 1,
       "label": "📰 NEWS"
