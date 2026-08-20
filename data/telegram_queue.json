@@ -1,38 +1,410 @@
 {
-  "generated_at": "2026-08-20T14:31:05.847205+00:00",
-  "count": 1,
+  "generated_at": "2026-08-20T14:38:28.181784+00:00",
+  "count": 4,
   "stories": [
     {
-      "id": "ea35afd3e5561da950b2fe8674c026ca8645f20a0c2d5a815f49a2520cb4dd38",
-      "title": "Their cities dropped Flock surveillance cameras. They’re still being watched",
-      "url": "https://www.theguardian.com/us-news/2026/aug/20/flock-cameras-surveillance",
-      "source": "The Guardian Technology",
-      "source_category": "technology",
+      "id": "e77ec027117f81f43b86b5b210b1acd253bffac72660e3b0f006505ca7da369b",
+      "title": "At least 13 workers killed in landslide at Colombian gold mine",
+      "url": "https://www.bbc.co.uk/news/articles/czxel9lz3vqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "South America",
+      "discovery": false,
+      "summary": "At least 13 workers have been killed and another seven injured in a landslide at a unlicensed mine in southern Colombia, local officials say. Witnesses described hearing an explosion at the open-air artisanal gold mine on Wednesday afternoon, moments before the workers below were trapped. Emergency workers and locals were able to retrieve the bodies with the help of diggers. Deadly accidents are not uncommon in Colombia, especially at unlicensed mines where locals dig for precious metals without any official oversight. Witnesses said that four of the 13 dead were members of the same indigenous family. Residents of the area said some 50 people, most of them members of the Quillacinga indigenous group, regularly worked in the mine near Policarpa, in southern Nariño province. Between 200,000 and 400,000 people are estimated to engage in artisanal mining in Colombia, with many families relying on the income from selling the precious metals and stones they find to make ends meet.",
+      "published_at": "2026-08-20T14:34:15+00:00",
+      "updated_at": "2026-08-20T14:34:15+00:00",
+      "effective_at": "2026-08-20T14:34:15+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "commodities",
+      "subregion": "South America",
+      "country": null,
+      "entities": [
+        "colombia",
+        "colombian",
+        "nari",
+        "policarpa",
+        "quillacinga"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "At least 13 workers have been killed and another seven injured in a landslide at a unlicensed mine in southern Colombia, local officials say.",
+        "Witnesses described hearing an explosion at the open-air artisanal gold mine on Wednesday afternoon, moments before the workers below were trapped.",
+        "Emergency workers and locals were able to retrieve the bodies with the help of diggers.",
+        "Deadly accidents are not uncommon in Colombia, especially at unlicensed mines where locals dig for precious metals without any official oversight.",
+        "Witnesses said that four of the 13 dead were members of the same indigenous family.",
+        "Residents of the area said some 50 people, most of them members of the Quillacinga indigenous group, regularly worked in the mine near Policarpa, in southern Nariño province.",
+        "Between 200,000 and 400,000 people are estimated to engage in artisanal mining in Colombia, with many families relying on the income from selling the precious metals and stones they find to make ends meet."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "1873aeb1b00c0b726f58bae5",
+      "importance_score": 77.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 29,
+        "urgency": 9.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 20,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 7.4,
+          "dead": 13,
+          "injured": 13,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 8,
+          "human": 8,
+          "economic": 4
+        }
+      },
+      "story_id": "e77ec027117f81f43b86b5b210b1acd253bffac72660e3b0f006505ca7da369b",
+      "public_label": "🔄 UPDATE",
+      "headline": "At least 13 workers killed in landslide at Colombian gold mine",
+      "briefing": {
+        "opening": [
+          "At least 13 workers have been killed and another seven injured in a landslide at a unlicensed mine in southern Colombia, local officials say.",
+          "Witnesses described hearing an explosion at the open-air artisanal gold mine on Wednesday afternoon, moments before the workers below were trapped."
+        ],
+        "body": [
+          "Emergency workers and locals were able to retrieve the bodies with the help of diggers.",
+          "Deadly accidents are not uncommon in Colombia, especially at unlicensed mines where locals dig for precious metals without any official oversight.",
+          "Witnesses said that four of the 13 dead were members of the same indigenous family.",
+          "Residents of the area said some 50 people, most of them members of the Quillacinga indigenous group, regularly worked in the mine near Policarpa, in southern Nariño province.",
+          "Between 200,000 and 400,000 people are estimated to engage in artisanal mining in Colombia, with many families relying on the income from selling the precious metals and stones they find to make ends meet."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Colombia"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "13 dead"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Between 200,000 and 400,000 people are estimated to engage in artisanal mining in Colombia, with many families relying on the income from selling the precious metals and stones they find to make ends meet.",
+            "source": "BBC World",
+            "item_id": "e77ec027117f81f43b86b5b210b1acd253bffac72660e3b0f006505ca7da369b:article",
+            "composed": false
+          },
+          {
+            "text": "Residents of the area said some 50 people, most of them members of the Quillacinga indigenous group, regularly worked in the mine near Policarpa, in southern Nariño province.",
+            "source": "BBC World",
+            "item_id": "e77ec027117f81f43b86b5b210b1acd253bffac72660e3b0f006505ca7da369b:article",
+            "composed": false
+          },
+          {
+            "text": "At least 13 workers have been killed and another seven injured in a landslide at a unlicensed mine in southern Colombia, local officials say.",
+            "source": "BBC World",
+            "item_id": "e77ec027117f81f43b86b5b210b1acd253bffac72660e3b0f006505ca7da369b:article",
+            "composed": false
+          },
+          {
+            "text": "Witnesses said that four of the 13 dead were members of the same indigenous family.",
+            "source": "BBC World",
+            "item_id": "e77ec027117f81f43b86b5b210b1acd253bffac72660e3b0f006505ca7da369b:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC World",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/czxel9lz3vqo?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "35154616b3433a05008302c2ccbab68bae9b286ad4f1cecff755259dee1c4b0a",
+      "title": "EU aids terrorists by transferring proceeds from Russian assets to Kiev — diplomat",
+      "url": "https://tass.com/politics/2175699",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Maria Zakharova said that Russia has the right to file claims against individuals who sponsor genocide, terrorism, or other international crimes committed by Ukraine",
+      "published_at": "2026-08-20T14:34:03+00:00",
+      "updated_at": "2026-08-20T14:34:03+00:00",
+      "effective_at": "2026-08-20T14:34:03+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "finance",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "eu",
+        "maria",
+        "russia",
+        "ukraine",
+        "zakharova"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "ba74cbe742084ee5158f94bf",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8
+        }
+      },
+      "story_id": "35154616b3433a05008302c2ccbab68bae9b286ad4f1cecff755259dee1c4b0a",
+      "article_sentences": [
+        "MOSCOW, August 20.",
+        "The EU is aiding and abetting terrorism by transferring proceeds from frozen Russian assets to Ukraine, Russian Foreign Ministry Spokeswoman Maria Zakharova told reporters.",
+        "\"Transferring funds to the Kiev regime is nothing less than aiding and abetting the organization of terrorist attacks,\" the diplomat noted.",
+        "\"Russia has the right to file claims against individuals who sponsor genocide, terrorism, or other international crimes committed by Ukraine.",
+        "Europeans participating in the plundering of interest from the reinvestment of Bank of Russia assets fully fall into this category.",
+        "Such actions will not go unpunished,\" she emphasized."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "EU aids terrorists by transferring proceeds from Russian assets to Kiev — diplomat",
+      "briefing": {
+        "opening": [
+          "MOSCOW, August 20.",
+          "The EU is aiding and abetting terrorism by transferring proceeds from frozen Russian assets to Ukraine, Russian Foreign Ministry Spokeswoman Maria Zakharova told reporters."
+        ],
+        "body": [
+          "\"Transferring funds to the Kiev regime is nothing less than aiding and abetting the organization of terrorist attacks,\" the diplomat noted.",
+          "\"Russia has the right to file claims against individuals who sponsor genocide, terrorism, or other international crimes committed by Ukraine.",
+          "Europeans participating in the plundering of interest from the reinvestment of Bank of Russia assets fully fall into this category.",
+          "Such actions will not go unpunished,\" she emphasized."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The EU is aiding and abetting terrorism by transferring proceeds from frozen Russian assets to Ukraine, Russian Foreign Ministry Spokeswoman Maria Zakharova told reporters.",
+            "source": "TASS English",
+            "item_id": "35154616b3433a05008302c2ccbab68bae9b286ad4f1cecff755259dee1c4b0a:article",
+            "composed": false
+          },
+          {
+            "text": "\"Transferring funds to the Kiev regime is nothing less than aiding and abetting the organization of terrorist attacks,\" the diplomat noted.",
+            "source": "TASS English",
+            "item_id": "35154616b3433a05008302c2ccbab68bae9b286ad4f1cecff755259dee1c4b0a:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, August 20.",
+            "source": "TASS English",
+            "item_id": "35154616b3433a05008302c2ccbab68bae9b286ad4f1cecff755259dee1c4b0a:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/politics/2175699"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "c4e157767e771851657a378dde7f6c8ea139fee72d0053f9da734606d365b64a",
+      "title": "Northern Sea Route to become most reliable route between Russia, China — NewNew Shipping",
+      "url": "https://tass.com/economy/2175697",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "The Black Sea route between China and Russia is effectively closed now",
+      "published_at": "2026-08-20T14:31:18+00:00",
+      "updated_at": "2026-08-20T14:31:18+00:00",
+      "effective_at": "2026-08-20T14:31:18+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "transport",
+      "subsector": "shipping",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "black",
+        "china",
+        "newnew",
+        "northern",
+        "route",
+        "russia",
+        "sea",
+        "shipping"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "119f9022c86dd315510d1fd5",
+      "importance_score": 29.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "c4e157767e771851657a378dde7f6c8ea139fee72d0053f9da734606d365b64a",
+      "article_sentences": [
+        "MURMANSK, August 20.",
+        "The Northern Sea Route (NSR) could become the most reliable and safe route for container shipping between Russia, China, and Europe, Chief Executive Officer of NewNew Shipping Line Ke Jin said.",
+        "\"The Black Sea route between China and Russia is effectively closed now.",
+        "Therefore, we believe the Northern Sea Route could become the safest and most reliable route.",
+        "In the long term, we are interested in developing a container port in Murmansk to contribute to the development of the Northern Sea Route,\" he said at the ceremony marking the arrival of the first container ship from China to Murmansk via the Northern Sea Route.",
+        "The Northern Sea Route is a shipping route in the Russian Arctic.",
+        "It is nearly half the length of other maritime routes from Europe to the Far East.",
+        "In particular, the distance from St. Petersburg to Vladivostok is 23,200 km via the Suez Canal, and 14,280 km (40% shorter) via the Northern Sea Route."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Northern Sea Route to become most reliable route between Russia, China — NewNew Shipping",
+      "briefing": {
+        "opening": [
+          "MURMANSK, August 20.",
+          "The Northern Sea Route (NSR) could become the most reliable and safe route for container shipping between Russia, China, and Europe, Chief Executive Officer of NewNew Shipping Line Ke Jin said."
+        ],
+        "body": [
+          "\"The Black Sea route between China and Russia is effectively closed now.",
+          "Therefore, we believe the Northern Sea Route could become the safest and most reliable route.",
+          "In the long term, we are interested in developing a container port in Murmansk to contribute to the development of the Northern Sea Route,\" he said at the ceremony marking the arrival of the first container ship from China to Murmansk via the Northern Sea Route.",
+          "The Northern Sea Route is a shipping route in the Russian Arctic.",
+          "It is nearly half the length of other maritime routes from Europe to the Far East.",
+          "In particular, the distance from St. Petersburg to Vladivostok is 23,200 km via the Suez Canal, and 14,280 km (40% shorter) via the Northern Sea Route."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Murmansk"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Northern Sea Route (NSR) could become the most reliable and safe route for container shipping between Russia, China, and Europe, Chief Executive Officer of NewNew Shipping Line Ke Jin said.",
+            "source": "TASS English",
+            "item_id": "c4e157767e771851657a378dde7f6c8ea139fee72d0053f9da734606d365b64a:article",
+            "composed": false
+          },
+          {
+            "text": "In particular, the distance from St. Petersburg to Vladivostok is 23,200 km via the Suez Canal, and 14,280 km (40% shorter) via the Northern Sea Route.",
+            "source": "TASS English",
+            "item_id": "c4e157767e771851657a378dde7f6c8ea139fee72d0053f9da734606d365b64a:article",
+            "composed": false
+          },
+          {
+            "text": "It is nearly half the length of other maritime routes from Europe to the Far East.",
+            "source": "TASS English",
+            "item_id": "c4e157767e771851657a378dde7f6c8ea139fee72d0053f9da734606d365b64a:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/economy/2175697"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "7e4e5c06c8fb9e12d978b5a3a708729eedab116b786d047e64cfc30b62fd18b1",
+      "title": "5-year-old boy drowns in swimming pool",
+      "url": "https://www.thehindu.com/news/national/kerala/5-year-old-boy-drowns-in-swimming-pool/article71369632.ece",
+      "source": "The Hindu",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "Despite policy victories over Flock, Americans are finding themselves under similar monitoring by a new company – or unable to remove the original cameras Activists in Colorado thought they would be celebrating a victory against mass surveillance in December when the Longmont city council decided to let a contract with Flock Safety lapse. But that excitement was cut short only months later when lawmakers voted to approve a new vendor to install automated license plate readers (ALPRs) on the city’s streets. Continue reading...",
-      "published_at": "2026-08-20T13:00:53+00:00",
-      "updated_at": "2026-08-20T13:00:53+00:00",
-      "effective_at": "2026-08-20T13:00:53+00:00",
+      "summary": "The boy, who was on holiday with his family from Kodungallur, slipped and fell into the water. Despite being quickly rescued and rushed to a nearby hospital, Rihan could not be saved.",
+      "published_at": "2026-08-20T14:24:29+00:00",
+      "updated_at": "2026-08-20T14:24:29+00:00",
+      "effective_at": "2026-08-20T14:24:29+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
+      "category": "health",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
+      "sector": "health",
+      "subsector": "health",
       "subregion": null,
       "country": null,
       "entities": [
-        "activists",
-        "alprs",
-        "americans",
-        "colorado",
-        "flock",
-        "longmont",
-        "safety"
+        "kodungallur",
+        "rihan"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -42,12 +414,12 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "c3ef153c1425b8b168acb937",
-      "importance_score": 25.0,
+      "event_id": "8f13e3650ecbe982040cd70a",
+      "importance_score": 26.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 6.0,
+        "urgency": 7.0,
         "novelty": 10,
         "scope": "LOCAL",
         "scope_points": 3,
@@ -67,39 +439,33 @@
         },
         "significance_dims": {}
       },
-      "story_id": "ea35afd3e5561da950b2fe8674c026ca8645f20a0c2d5a815f49a2520cb4dd38",
+      "story_id": "7e4e5c06c8fb9e12d978b5a3a708729eedab116b786d047e64cfc30b62fd18b1",
       "public_label": "📰 NEWS",
-      "headline": "Their cities dropped Flock surveillance cameras. They’re still being watched",
+      "headline": "5-year-old boy drowns in swimming pool",
       "briefing": {
         "opening": [
-          "Despite policy victories over Flock, Americans are finding themselves under similar monitoring by a new company – or unable to remove the original cameras Activists in Colorado thought they would be celebrating a victory against mass surveillance in December when the Longmont city council decided to let a contract with Flock Safety lapse.",
-          "But that excitement was cut short only months later when lawmakers voted to approve a new vendor to install automated license plate readers (ALPRs) on the city’s streets."
+          "The boy, who was on holiday with his family from Kodungallur, slipped and fell into the water.",
+          "Despite being quickly rescued and rushed to a nearby hospital, Rihan could not be saved."
         ],
         "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Colorado"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "But that excitement was cut short only months later when lawmakers voted to approve a new vendor to install automated license plate readers (ALPRs) on the city’s streets.",
-            "source": "The Guardian Technology",
-            "item_id": "ea35afd3e5561da950b2fe8674c026ca8645f20a0c2d5a815f49a2520cb4dd38",
+            "text": "Despite being quickly rescued and rushed to a nearby hospital, Rihan could not be saved.",
+            "source": "The Hindu",
+            "item_id": "7e4e5c06c8fb9e12d978b5a3a708729eedab116b786d047e64cfc30b62fd18b1",
             "composed": false
           },
           {
-            "text": "Despite policy victories over Flock, Americans are finding themselves under similar monitoring by a new company – or unable to remove the original cameras Activists in Colorado thought they would be celebrating a victory against mass surveillance in December when the Longmont city council decided to let a contract with Flock Safety lapse.",
-            "source": "The Guardian Technology",
-            "item_id": "ea35afd3e5561da950b2fe8674c026ca8645f20a0c2d5a815f49a2520cb4dd38",
+            "text": "The boy, who was on holiday with his family from Kodungallur, slipped and fell into the water.",
+            "source": "The Hindu",
+            "item_id": "7e4e5c06c8fb9e12d978b5a3a708729eedab116b786d047e64cfc30b62fd18b1",
             "composed": false
           }
         ],
-        "source": "The Guardian Technology",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.theguardian.com/us-news/2026/aug/20/flock-cameras-surveillance"
+        "url": "https://www.thehindu.com/news/national/kerala/5-year-old-boy-drowns-in-swimming-pool/article71369632.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS"
