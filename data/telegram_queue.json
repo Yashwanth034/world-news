@@ -1,54 +1,55 @@
 {
-  "generated_at": "2026-08-20T08:51:53.173452+00:00",
-  "count": 1,
+  "generated_at": "2026-08-20T09:01:08.382109+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "bdf68967cfe73cd69bdaa37c68287727645cdec488ed410d3f4c9bbb71174683",
-      "title": "U.S. debt tops $40 trillion",
-      "url": "https://www.npr.org/2026/08/20/nx-s1-5937556/u-s-debt-tops-40-trillion",
-      "source": "NPR Business",
-      "source_category": "finance",
+      "id": "3babba52fb00964bfcd15974fa50b54baf50eb17e4154b19f1a652adefae95a0",
+      "title": "Are Hormuz ships more willing to defy Iran or the US? What data shows",
+      "url": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Asia",
       "discovery": false,
-      "summary": "The federal debt is growing even faster than expected. Just paying interest on the $40 trillion balance is now the government's second-largest expense, outpacing everything but Social Security.",
-      "published_at": "2026-08-20T08:45:30+00:00",
-      "updated_at": "2026-08-20T08:45:30+00:00",
-      "effective_at": "2026-08-20T08:45:30+00:00",
+      "summary": "Most ships are trying to mask identities while trying to cross the strait. But more seem scared of Iran than of the US.",
+      "published_at": "2026-08-20T08:43:17+00:00",
+      "updated_at": "2026-08-20T08:43:17+00:00",
+      "effective_at": "2026-08-20T08:43:17+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "finance",
-      "subregion": null,
+      "sector": "transport",
+      "subsector": "shipping",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "security",
-        "social"
+        "hormuz",
+        "iran",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "85e47bd0eaf100b718851fe0",
-      "importance_score": 31.0,
+      "event_id": "497f0135ed596d44bf415569",
+      "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 8.0,
+        "urgency": 7.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -60,37 +61,128 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "geopolitical": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "bdf68967cfe73cd69bdaa37c68287727645cdec488ed410d3f4c9bbb71174683",
+      "story_id": "3babba52fb00964bfcd15974fa50b54baf50eb17e4154b19f1a652adefae95a0",
       "public_label": "📰 NEWS",
-      "headline": "U.S. debt tops $40 trillion",
+      "headline": "Are Hormuz ships more willing to defy Iran or the US? What data shows",
       "briefing": {
         "opening": [
-          "The federal debt is growing even faster than expected.",
-          "Just paying interest on the $40 trillion balance is now the government's second-largest expense, outpacing everything but Social Security."
+          "Most ships are trying to mask identities while trying to cross the strait.",
+          "But more seem scared of Iran than of the US."
         ],
         "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "The federal debt is growing even faster than expected.",
-            "source": "NPR Business",
-            "item_id": "bdf68967cfe73cd69bdaa37c68287727645cdec488ed410d3f4c9bbb71174683",
+            "text": "But more seem scared of Iran than of the US.",
+            "source": "Al Jazeera",
+            "item_id": "3babba52fb00964bfcd15974fa50b54baf50eb17e4154b19f1a652adefae95a0",
             "composed": false
           },
           {
-            "text": "Just paying interest on the $40 trillion balance is now the government's second-largest expense, outpacing everything but Social Security.",
-            "source": "NPR Business",
-            "item_id": "bdf68967cfe73cd69bdaa37c68287727645cdec488ed410d3f4c9bbb71174683",
+            "text": "Most ships are trying to mask identities while trying to cross the strait.",
+            "source": "Al Jazeera",
+            "item_id": "3babba52fb00964bfcd15974fa50b54baf50eb17e4154b19f1a652adefae95a0",
             "composed": false
           }
         ],
-        "source": "NPR Business",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.npr.org/2026/08/20/nx-s1-5937556/u-s-debt-tops-40-trillion"
+        "url": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "912638e35b285619a701ddcaa48398e4755c656ecabce6871a5133534725d1bb",
+      "title": "Lotteries for Indiramma Houses in Hyderabad from August 27; draws to be livestreamed",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/lotteries-for-indiramma-houses-in-hyderabad-from-august-27-draws-to-be-livestreamed/article71368366.ece",
+      "source": "The Hindu",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Applicants list to be displayed online from the evening on August 21. Objections can be raised till the evening on August 23.",
+      "published_at": "2026-08-20T08:55:31+00:00",
+      "updated_at": "2026-08-20T08:55:31+00:00",
+      "effective_at": "2026-08-20T08:55:31+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "technology",
+      "subsector": "internet",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "applicants",
+        "houses",
+        "hyderabad",
+        "indiramma"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "c89fd4d78d7e00b0b9a54b35",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "912638e35b285619a701ddcaa48398e4755c656ecabce6871a5133534725d1bb",
+      "public_label": "📰 NEWS",
+      "headline": "Lotteries for Indiramma Houses in Hyderabad from August 27; draws to be livestreamed",
+      "briefing": {
+        "opening": [
+          "Applicants list to be displayed online from the evening on August 21.",
+          "Objections can be raised till the evening on August 23."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Applicants list to be displayed online from the evening on August 21.",
+            "source": "The Hindu",
+            "item_id": "912638e35b285619a701ddcaa48398e4755c656ecabce6871a5133534725d1bb",
+            "composed": false
+          },
+          {
+            "text": "Objections can be raised till the evening on August 23.",
+            "source": "The Hindu",
+            "item_id": "912638e35b285619a701ddcaa48398e4755c656ecabce6871a5133534725d1bb",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/lotteries-for-indiramma-houses-in-hyderabad-from-august-27-draws-to-be-livestreamed/article71368366.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS"
