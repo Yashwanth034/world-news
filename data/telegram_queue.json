@@ -1,45 +1,71 @@
 {
-  "generated_at": "2026-08-20T12:31:02.860854+00:00",
-  "count": 2,
+  "generated_at": "2026-08-20T12:40:45.573554+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "d23a5f18ef5547e79369e8c47273915ec164b90112282d88c8886d2547cf5bf7",
-      "title": "Chinese AI chips fall short on coding, forcing firms to stretch scarce Nvidia supply",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3364700/chinese-ai-chips-fall-short-coding-forcing-firms-stretch-scarce-nvidia-supply?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "77be3269ce92ee506d8e4840273da37ffd0b7e74f5c42a07b6ec2c44154ccb4a",
+      "title": "Ukrainian women in EU must now prove compliance with military duties — EC",
+      "url": "https://tass.com/world/2175627",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "Chinese AI companies are optimising software to cope with surging demand for inference, as part of that workload still relies on computing power from a limited pool of high-end chips amid restricted access to Nvidia processors. Compared with training an artificial intelligence model, which relies on high-end chips, inference – a later phase in which the trained model applies its knowledge to process responses – can be adapted to domestic hardware. However, industry insiders said complex tasks...",
-      "published_at": "2026-08-20T12:30:12+00:00",
-      "updated_at": "2026-08-20T12:30:12+00:00",
-      "effective_at": "2026-08-20T12:30:12+00:00",
+      "summary": "BRUSSELS, August 20. All refugees arriving in the European Union from Ukraine, both men and women, must prove that they are not evading military service in order to receive temporary protection status, European Commission Spokesman Markus Lammert said at a briefing in Brussels. \"As a matter of fact, the Council decision extending the Temporary Protection Directive came into force earlier this month, in August 2026. This means that the practical assessment of individual cases is for the competent national member states. It is for the national member state authorities to apply the new rules and to do the actual checks which the rules provide for,\" he said. \"The Council decision does not differentiate between men and women in the application. This is about military service or former military service, so there is no distinction between men and women [provided they are subject to military service],\" Lammert added. Earlier reports said that migration authorities in several EU countries had required certain categories of Ukrainian women, including qualified medical professionals subject to military service under Ukrainian law, to confirm that they were not evading participation in combat operations against Russia. On August 5, the EU Council published a decision extending temporary protection for Ukrainian refugees until March 2028. The decision also introduced a change to the temporary protection regime for the first time: all new arrivals from Ukraine must provide legal proof that they are not evading conscription. EU foreign policy chief Kaja Kallas previously said that the amendment had been adopted at Kiev's request. The measure was initially expected to apply only to men of conscription age.",
+      "published_at": "2026-08-20T12:32:07+00:00",
+      "updated_at": "2026-08-20T12:32:07+00:00",
+      "effective_at": "2026-08-20T12:32:07+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "semiconductors",
-      "subregion": "East Asia",
+      "sector": "law",
+      "subsector": "regulation",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "ai",
-        "china",
-        "nvidia"
+        "brussels",
+        "commission",
+        "directive",
+        "ec",
+        "eu",
+        "european",
+        "kaja",
+        "kallas",
+        "lammert",
+        "markus",
+        "protection",
+        "russia",
+        "temporary",
+        "ukraine",
+        "union"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "BRUSSELS, August 20.",
+        "All refugees arriving in the European Union from Ukraine, both men and women, must prove that they are not evading military service in order to receive temporary protection status, European Commission Spokesman Markus Lammert said at a briefing in Brussels.",
+        "\"As a matter of fact, the Council decision extending the Temporary Protection Directive came into force earlier this month, in August 2026.",
+        "This means that the practical assessment of individual cases is for the competent national member states.",
+        "It is for the national member state authorities to apply the new rules and to do the actual checks which the rules provide for,\" he said.",
+        "\"The Council decision does not differentiate between men and women in the application.",
+        "This is about military service or former military service, so there is no distinction between men and women [provided they are subject to military service],\" Lammert added.",
+        "Earlier reports said that migration authorities in several EU countries had required certain categories of Ukrainian women, including qualified medical professionals subject to military service under Ukrainian law, to confirm that they were not evading participation in combat operations against Russia.",
+        "On August 5, the EU Council published a decision extending temporary protection for Ukrainian refugees until March 2028.",
+        "The decision also introduced a change to the temporary protection regime for the first time: all new arrivals from Ukraine must provide legal proof that they are not evading conscription.",
+        "EU foreign policy chief Kaja Kallas previously said that the amendment had been adopted at Kiev's request.",
+        "The measure was initially expected to apply only to men of conscription age."
+      ],
       "event_status": "NEW",
-      "event_id": "26ca9706462ba60cc7d0a043",
-      "importance_score": 37.0,
+      "event_id": "0508729988ea2a536959034c",
+      "importance_score": 41.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
@@ -49,7 +75,7 @@
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -62,68 +88,121 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 4,
-          "infrastructure": 4
+          "scientific": 8,
+          "security": 4
         }
       },
-      "story_id": "d23a5f18ef5547e79369e8c47273915ec164b90112282d88c8886d2547cf5bf7",
+      "story_id": "77be3269ce92ee506d8e4840273da37ffd0b7e74f5c42a07b6ec2c44154ccb4a",
       "public_label": "📰 NEWS",
-      "headline": "Chinese AI chips fall short on coding, forcing firms to stretch scarce Nvidia supply",
+      "headline": "Ukrainian women in EU must now prove compliance with military duties — EC",
       "briefing": {
         "opening": [
-          "Chinese AI companies are optimising software to cope with surging demand for inference, as part of that workload still relies on computing power from a limited pool of high-end chips amid restricted access to Nvidia processors.",
-          "Compared with training an artificial intelligence model, which relies on high-end chips, inference – a later phase in which the trained model applies its knowledge to process responses – can be adapted to domestic hardware."
+          "BRUSSELS, August 20.",
+          "All refugees arriving in the European Union from Ukraine, both men and women, must prove that they are not evading military service in order to receive temporary protection status, European Commission Spokesman Markus Lammert said at a briefing in Brussels."
         ],
         "body": [
-          "However, industry insiders said complex tasks..."
+          "\"As a matter of fact, the Council decision extending the Temporary Protection Directive came into force earlier this month, in August 2026.",
+          "This means that the practical assessment of individual cases is for the competent national member states.",
+          "It is for the national member state authorities to apply the new rules and to do the actual checks which the rules provide for,\" he said.",
+          "\"The Council decision does not differentiate between men and women in the application.",
+          "This is about military service or former military service, so there is no distinction between men and women [provided they are subject to military service],\" Lammert added.",
+          "Earlier reports said that migration authorities in several EU countries had required certain categories of Ukrainian women, including qualified medical professionals subject to military service under Ukrainian law, to confirm that they were not evading participation in combat operations against Russia.",
+          "On August 5, the EU Council published a decision extending temporary protection for Ukrainian refugees until March 2028.",
+          "The decision also introduced a change to the temporary protection regime for the first time: all new arrivals from Ukraine must provide legal proof that they are not evading conscription."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Brussels"
+          }
+        ],
         "sentences": [
           {
-            "text": "Chinese AI companies are optimising software to cope with surging demand for inference, as part of that workload still relies on computing power from a limited pool of high-end chips amid restricted access to Nvidia processors.",
-            "source": "South China Morning Post",
-            "item_id": "d23a5f18ef5547e79369e8c47273915ec164b90112282d88c8886d2547cf5bf7",
+            "text": "Earlier reports said that migration authorities in several EU countries had required certain categories of Ukrainian women, including qualified medical professionals subject to military service under Ukrainian law, to confirm that they were not evading participation in combat operations against Russia.",
+            "source": "TASS English",
+            "item_id": "77be3269ce92ee506d8e4840273da37ffd0b7e74f5c42a07b6ec2c44154ccb4a:article",
             "composed": false
           },
           {
-            "text": "Compared with training an artificial intelligence model, which relies on high-end chips, inference – a later phase in which the trained model applies its knowledge to process responses – can be adapted to domestic hardware.",
-            "source": "South China Morning Post",
-            "item_id": "d23a5f18ef5547e79369e8c47273915ec164b90112282d88c8886d2547cf5bf7",
+            "text": "On August 5, the EU Council published a decision extending temporary protection for Ukrainian refugees until March 2028.",
+            "source": "TASS English",
+            "item_id": "77be3269ce92ee506d8e4840273da37ffd0b7e74f5c42a07b6ec2c44154ccb4a:article",
+            "composed": false
+          },
+          {
+            "text": "All refugees arriving in the European Union from Ukraine, both men and women, must prove that they are not evading military service in order to receive temporary protection status, European Commission Spokesman Markus Lammert said at a briefing in Brussels.",
+            "source": "TASS English",
+            "item_id": "77be3269ce92ee506d8e4840273da37ffd0b7e74f5c42a07b6ec2c44154ccb4a:article",
+            "composed": false
+          },
+          {
+            "text": "The decision also introduced a change to the temporary protection regime for the first time: all new arrivals from Ukraine must provide legal proof that they are not evading conscription.",
+            "source": "TASS English",
+            "item_id": "77be3269ce92ee506d8e4840273da37ffd0b7e74f5c42a07b6ec2c44154ccb4a:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.scmp.com/tech/tech-trends/article/3364700/chinese-ai-chips-fall-short-coding-forcing-firms-stretch-scarce-nvidia-supply?utm_source=rss_feed"
+        "url": "https://tass.com/world/2175627"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "1b246150528620468459ff236abf3a333d8ade149a738438fc55f982b3f3b3e7",
-      "title": "China’s falling gaokao numbers offer a revealing snapshot",
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3364311/chinas-falling-gaokao-numbers-offer-revealing-snapshot?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "0d9043c1da7c6b81d2ad0fa1680b45e004bb5355151d03bd84144723cd038520",
+      "title": "Bangladesh elects ruling party veteran Alamgir as president",
+      "url": "https://www.straitstimes.com/asia/bangladesh-elects-ruling-party-veteran-alamgir-as-president",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Every summer, China’s gaokao, the national higher education entrance examination, provides an unusually revealing snapshot of household expectations. The critical metrics are not average scores or admission volumes. They are the choices families make about how their children will spend four years of their lives. The 2026 examination attracted 12.9 million registered candidates. This is a decline from 13.35 million in 2025 and 13.42 million in 2024. Demographics explain much of this contraction....",
-      "published_at": "2026-08-20T12:30:06+00:00",
-      "updated_at": "2026-08-20T12:30:06+00:00",
-      "effective_at": "2026-08-20T12:30:06+00:00",
+      "summary": "Bangladeshi lawmakers elected veteran Bangladesh Nationalist Party leader Mirza Fakhrul Islam Alamgir as the country's new president on Thursday, making the longtime opposition figure the head of state after his party came to power in a major political transition. The BNP returned to power in February in the long wake of the fall of Sheikh Hasina's Awami League government in 2024. While the presidency is largely ceremonial, Alamgir will serve as head of state and commander-in-chief of the armed forces. Executive authority remains with the prime minister and cabinet in the South Asian nation of about 173 million people. Alamgir, 78, defeated Oli Ahmed, a retired army colonel and chairman of the Liberal Democratic Party and candidate of the Jamaat-e-Islami-led 11-party opposition alliance, in a parliamentary vote. Chief Election Commissioner A.M.M. Nasir Uddin declared Alamgir the winner after the 255-to-88 vote. The BNP and its allies hold a two-thirds majority in parliament after winning the February 12 general election, which returned the party to power after years in opposition and brought Tarique Rahman to the office of prime minister. The resignation last month of Mohammed Shahabuddin on health grounds before the end of his five-year term triggered the presidential election. A former Awami League politician and close confidant of Hasina, Shahabuddin was elected president in 2023 when her party was at the height of its power. Hasina has been living in India since fleeing Bangladesh after a mass uprising ousted her government in August 2024 and has said that she intends to return in December this year. One of the BNP's longest-serving leaders, Alamgir served as the party's secretary-general from 2016 until his nomination for the presidency. During Hasina's rule, he became one of the opposition's most prominent voices and faced repeated arrests and a series of legal cases.",
+      "published_at": "2026-08-20T12:37:30+00:00",
+      "updated_at": "2026-08-20T12:37:30+00:00",
+      "effective_at": "2026-08-20T12:37:30+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "politics",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "geopolitics",
       "subsector": "politics",
-      "subregion": "East Asia",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "china"
+        "ahmed",
+        "alamgir",
+        "asian",
+        "awami",
+        "bangladesh",
+        "bangladeshi",
+        "bnp",
+        "commissioner",
+        "democratic",
+        "election",
+        "fakhrul",
+        "hasina",
+        "india",
+        "islam",
+        "jamaat-e-islami-led",
+        "league",
+        "liberal",
+        "mirza",
+        "mohammed",
+        "nasir",
+        "nationalist",
+        "oli",
+        "party",
+        "rahman",
+        "shahabuddin",
+        "sheikh",
+        "south",
+        "tarique",
+        "uddin"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -132,19 +211,33 @@
       "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "72ab3bcfc88d7f5c541e7cd4",
-      "importance_score": 28.0,
+      "article_sentences": [
+        "Bangladeshi lawmakers elected veteran Bangladesh Nationalist Party leader Mirza Fakhrul Islam Alamgir as the country's new president on Thursday, making the longtime opposition figure the head of state after his party came to power in a major political transition.",
+        "The BNP returned to power in February in the long wake of the fall of Sheikh Hasina's Awami League government in 2024.",
+        "While the presidency is largely ceremonial, Alamgir will serve as head of state and commander-in-chief of the armed forces.",
+        "Executive authority remains with the prime minister and cabinet in the South Asian nation of about 173 million people.",
+        "Alamgir, 78, defeated Oli Ahmed, a retired army colonel and chairman of the Liberal Democratic Party and candidate of the Jamaat-e-Islami-led 11-party opposition alliance, in a parliamentary vote.",
+        "Chief Election Commissioner A.M.M. Nasir Uddin declared Alamgir the winner after the 255-to-88 vote.",
+        "The BNP and its allies hold a two-thirds majority in parliament after winning the February 12 general election, which returned the party to power after years in opposition and brought Tarique Rahman to the office of prime minister.",
+        "The resignation last month of Mohammed Shahabuddin on health grounds before the end of his five-year term triggered the presidential election.",
+        "A former Awami League politician and close confidant of Hasina, Shahabuddin was elected president in 2023 when her party was at the height of its power.",
+        "Hasina has been living in India since fleeing Bangladesh after a mass uprising ousted her government in August 2024 and has said that she intends to return in December this year.",
+        "One of the BNP's longest-serving leaders, Alamgir served as the party's secretary-general from 2016 until his nomination for the presidency.",
+        "During Hasina's rule, he became one of the opposition's most prominent voices and faced repeated arrests and a series of legal cases."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "5fb977e2a9918eb3c5d63150",
+      "importance_score": 38.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -156,52 +249,172 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "geopolitical": 8,
+          "infrastructure": 4
+        }
       },
-      "story_id": "1b246150528620468459ff236abf3a333d8ade149a738438fc55f982b3f3b3e7",
-      "public_label": "📰 NEWS",
-      "headline": "China’s falling gaokao numbers offer a revealing snapshot",
+      "story_id": "0d9043c1da7c6b81d2ad0fa1680b45e004bb5355151d03bd84144723cd038520",
+      "public_label": "🔄 UPDATE",
+      "headline": "Bangladesh elects ruling party veteran Alamgir as president",
       "briefing": {
         "opening": [
-          "Every summer, China’s gaokao, the national higher education entrance examination, provides an unusually revealing snapshot of household expectations.",
-          "The critical metrics are not average scores or admission volumes."
+          "Bangladeshi lawmakers elected veteran Bangladesh Nationalist Party leader Mirza Fakhrul Islam Alamgir as the country's new president on Thursday, making the longtime opposition figure the head of state after his party came to power in a major political transition.",
+          "The BNP returned to power in February in the long wake of the fall of Sheikh Hasina's Awami League government in 2024."
         ],
         "body": [
-          "They are the choices families make about how their children will spend four years of their lives.",
-          "The 2026 examination attracted 12.9 million registered candidates.",
-          "This is a decline from 13.35 million in 2025 and 13.42 million in 2024.",
-          "Demographics explain much of this contraction...."
+          "While the presidency is largely ceremonial, Alamgir will serve as head of state and commander-in-chief of the armed forces.",
+          "Executive authority remains with the prime minister and cabinet in the South Asian nation of about 173 million people.",
+          "Alamgir, 78, defeated Oli Ahmed, a retired army colonel and chairman of the Liberal Democratic Party and candidate of the Jamaat-e-Islami-led 11-party opposition alliance, in a parliamentary vote.",
+          "Chief Election Commissioner.",
+          "A.M.M. Nasir Uddin declared Alamgir the winner after the 255-to-88 vote.",
+          "The BNP and its allies hold a two-thirds majority in parliament after winning the February 12 general election, which returned the party to power after years in opposition and brought Tarique Rahman to the office of prime minister.",
+          "The resignation last month of Mohammed Shahabuddin on health grounds before the end of his five-year term triggered the presidential election.",
+          "A former Awami League politician and close confidant of Hasina, Shahabuddin was elected president in 2023 when her party was at the height of its power."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "February"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Alamgir, 78, defeated Oli Ahmed, a retired army colonel and chairman of the Liberal Democratic Party and candidate of the Jamaat-e-Islami-led 11-party opposition alliance, in a parliamentary vote.",
+            "source": "Straits Times Asia",
+            "item_id": "0d9043c1da7c6b81d2ad0fa1680b45e004bb5355151d03bd84144723cd038520:article",
+            "composed": false
+          },
+          {
+            "text": "A.M.M. Nasir Uddin declared Alamgir the winner after the 255-to-88 vote.",
+            "source": "Straits Times Asia",
+            "item_id": "0d9043c1da7c6b81d2ad0fa1680b45e004bb5355151d03bd84144723cd038520:article",
+            "composed": false
+          },
+          {
+            "text": "The BNP and its allies hold a two-thirds majority in parliament after winning the February 12 general election, which returned the party to power after years in opposition and brought Tarique Rahman to the office of prime minister.",
+            "source": "Straits Times Asia",
+            "item_id": "0d9043c1da7c6b81d2ad0fa1680b45e004bb5355151d03bd84144723cd038520:article",
+            "composed": false
+          },
+          {
+            "text": "Executive authority remains with the prime minister and cabinet in the South Asian nation of about 173 million people.",
+            "source": "Straits Times Asia",
+            "item_id": "0d9043c1da7c6b81d2ad0fa1680b45e004bb5355151d03bd84144723cd038520:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/bangladesh-elects-ruling-party-veteran-alamgir-as-president"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "61ae05cc0dd82515234aed1d3edadde09b96a04a710bcc86acc219597c035929",
+      "title": "Bali jails Swiss tourist for insulting sacred Day of Silence",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3364722/bali-jails-swiss-tourist-insulting-sacred-day-silence?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "A court on the Indonesian resort island of Bali sentenced a Swiss tourist on Thursday to one year in prison for insulting a sacred Balinese Hindu observance. Luzian Andrin Zgraggen, 26, was found guilty of violating Indonesia’s new criminal code by posting social media messages about the Day of Silence, when people are required to stay home and are urged to remain silent and meditate. The Denpasar District Court determined that he posted the messages even after staff at the villa where he was...",
+      "published_at": "2026-08-20T12:31:24+00:00",
+      "updated_at": "2026-08-20T12:31:24+00:00",
+      "effective_at": "2026-08-20T12:31:24+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "courts",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "andrin",
+        "bali",
+        "balinese",
+        "court",
+        "day",
+        "denpasar",
+        "district",
+        "hindu",
+        "indonesia",
+        "indonesian",
+        "luzian",
+        "silence",
+        "swiss",
+        "zgraggen"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "be4247a53f047db39a8e6b82",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 4
+        }
+      },
+      "story_id": "61ae05cc0dd82515234aed1d3edadde09b96a04a710bcc86acc219597c035929",
+      "public_label": "📰 NEWS",
+      "headline": "Bali jails Swiss tourist for insulting sacred Day of Silence",
+      "briefing": {
+        "opening": [
+          "A court on the Indonesian resort island of Bali sentenced a Swiss tourist on Thursday to one year in prison for insulting a sacred Balinese Hindu observance.",
+          "Luzian Andrin Zgraggen, 26, was found guilty of violating Indonesia’s new criminal code by posting social media messages about the Day of Silence, when people are required to stay home and are urged to remain silent and meditate."
+        ],
+        "body": [
+          "The Denpasar District Court determined that he posted the messages even after staff at the villa where he was..."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Every summer, China’s gaokao, the national higher education entrance examination, provides an unusually revealing snapshot of household expectations.",
+            "text": "Luzian Andrin Zgraggen, 26, was found guilty of violating Indonesia’s new criminal code by posting social media messages about the Day of Silence, when people are required to stay home and are urged to remain silent and meditate.",
             "source": "South China Morning Post",
-            "item_id": "1b246150528620468459ff236abf3a333d8ade149a738438fc55f982b3f3b3e7",
+            "item_id": "61ae05cc0dd82515234aed1d3edadde09b96a04a710bcc86acc219597c035929",
             "composed": false
           },
           {
-            "text": "The critical metrics are not average scores or admission volumes.",
+            "text": "A court on the Indonesian resort island of Bali sentenced a Swiss tourist on Thursday to one year in prison for insulting a sacred Balinese Hindu observance.",
             "source": "South China Morning Post",
-            "item_id": "1b246150528620468459ff236abf3a333d8ade149a738438fc55f982b3f3b3e7",
-            "composed": false
-          },
-          {
-            "text": "The 2026 examination attracted 12.9 million registered candidates.",
-            "source": "South China Morning Post",
-            "item_id": "1b246150528620468459ff236abf3a333d8ade149a738438fc55f982b3f3b3e7",
-            "composed": false
-          },
-          {
-            "text": "This is a decline from 13.35 million in 2025 and 13.42 million in 2024.",
-            "source": "South China Morning Post",
-            "item_id": "1b246150528620468459ff236abf3a333d8ade149a738438fc55f982b3f3b3e7",
+            "item_id": "61ae05cc0dd82515234aed1d3edadde09b96a04a710bcc86acc219597c035929",
             "composed": false
           }
         ],
         "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.scmp.com/opinion/china-opinion/article/3364311/chinas-falling-gaokao-numbers-offer-revealing-snapshot?utm_source=rss_feed"
+        "url": "https://www.scmp.com/news/asia/east-asia/article/3364722/bali-jails-swiss-tourist-insulting-sacred-day-silence?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
