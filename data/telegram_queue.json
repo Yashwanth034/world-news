@@ -1,36 +1,57 @@
 {
-  "generated_at": "2026-08-20T13:31:06.863829+00:00",
+  "generated_at": "2026-08-20T13:40:49.656708+00:00",
   "count": 3,
   "stories": [
     {
-      "id": "e6613060d1cf3d83c62f0fa051a08436c0e780b3f02129f12230e502990862ab",
-      "title": "DRC’s Ebola outbreak reaches 5,000 cases, outpaces response efforts at unprecedented speed",
-      "url": "https://www.france24.com/en/video/20260820-drc-s-ebola-outbreak-reaches-5-000-cases-outpaces-response-efforts-at-unprecedented-speed",
-      "source": "France 24",
+      "id": "1babe163c3d8b957d3dc6f5ddad8e6771619b4acecbcc78ef863bdb257172b19",
+      "title": "Myanmar military chief visits Bangkok as diplomatic offensive continues",
+      "url": "https://www.aljazeera.com/news/2026/8/20/myanmar-military-chief-visits-bangkok-as-diplomatic-offensive-continues?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Africa",
+      "region": "Asia",
       "discovery": false,
-      "summary": "The Ebola outbreak in Congo has reached 5,000 cases, government data showed Wednesday, as responders warn it is spreading at an unprecedented speed outpacing efforts to slow it in one of the country’s remotest regions. Data from Congo’s Ministry of Health showed the outbreak had so far recorded 5,021 cases, including 2,378 deaths as of Sunday, as it rages in some of the most challenging conditions imaginable fueled by insecurity, displacement and intense population movements. The outbreak has infected and killed more people at a greater speed than any other outbreak in history.",
-      "published_at": "2026-08-20T13:25:48+00:00",
-      "updated_at": "2026-08-20T13:25:48+00:00",
-      "effective_at": "2026-08-20T13:25:48+00:00",
+      "summary": "After five years of isolation, Myanmar’s post-coup leadership is trying to boost its legitmacy. Myanmar’s military chief has met Thailand’s top general in Bangkok during the former’s first international trip since assuming the role, as the post-coup leaders seek to boost their legitimacy. Myanmar’s military had ousted the elected government during a 2021 coup and detained its leader, Aung San Suu Kyi, prompting an ongoing civil war that has killed more than 100,000 people, according to monitoring group Armed Conflict Location & Event Data (ACLED). The post-coup leadership was isolated for five years but has started a diplomatic offensive. Officials are touting deeply restricted elections staged about the start of 2026 as a return to normality, even as United Nations experts dismissed them as a “sham”. Min Aung Hlaing, who led the coup, was sworn in as president of Myanmar in April, handing the office of military leader to Ye Win Oo. Thai military chief Ukris Boontanondha met Oo on Thursday at a Bangkok hotel. The talks between them focused on cooperation on the nation’s 2,400km (1,500-mile) border, according to Bangkok. The officials also discussed joint efforts to tackle the illicit drug trade and cyberscam networks as well as military cooperation on counterterrorism, training, humanitarian assistance and disaster relief. The visit comes weeks after Thai Prime Minister Anutin Charnvirakul welcomed Min Aung Hlaing to Bangkok earlier this month and stressed that his country wanted to end the war and restore peace. Defending the decision to host the Myanmar officials, the Thai foreign minister said it’s “not about legitimacy; it’s about reality”. The international community remains divided over how to deal with Myanmar since the elections.",
+      "published_at": "2026-08-20T13:10:50+00:00",
+      "updated_at": "2026-08-20T13:10:50+00:00",
+      "effective_at": "2026-08-20T13:10:50+00:00",
       "language_status": "ENGLISH",
-      "category": "health",
-      "score": 65,
+      "category": "conflict",
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "health",
-      "subsector": "outbreaks",
-      "subregion": "Central Africa",
+      "urgency_terms": [
+        "coup"
+      ],
+      "sector": "geopolitics",
+      "subsector": "diplomacy",
+      "subregion": "Southeast Asia",
       "country": null,
       "entities": [
-        "congo",
-        "drc",
-        "ebola",
-        "health",
-        "ministry"
+        "acled",
+        "anutin",
+        "armed",
+        "aung",
+        "boontanondha",
+        "charnvirakul",
+        "conflict",
+        "data",
+        "event",
+        "hlaing",
+        "kyi",
+        "location",
+        "min",
+        "myanmar",
+        "nations",
+        "oo",
+        "san",
+        "suu",
+        "thai",
+        "thailand",
+        "ukris",
+        "united",
+        "win",
+        "ye"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -39,211 +60,136 @@
       "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "After five years of isolation, Myanmar’s post-coup leadership is trying to boost its legitmacy.",
+        "Myanmar’s military chief has met Thailand’s top general in Bangkok during the former’s first international trip since assuming the role, as the post-coup leaders seek to boost their legitimacy.",
+        "Myanmar’s military had ousted the elected government during a 2021 coup and detained its leader, Aung San Suu Kyi, prompting an ongoing civil war that has killed more than 100,000 people, according to monitoring group Armed Conflict Location & Event Data (ACLED).",
+        "The post-coup leadership was isolated for five years but has started a diplomatic offensive.",
+        "Officials are touting deeply restricted elections staged about the start of 2026 as a return to normality, even as United Nations experts dismissed them as a “sham”.",
+        "Min Aung Hlaing, who led the coup, was sworn in as president of Myanmar in April, handing the office of military leader to Ye Win Oo.",
+        "Thai military chief Ukris Boontanondha met Oo on Thursday at a Bangkok hotel.",
+        "The talks between them focused on cooperation on the nation’s 2,400km (1,500-mile) border, according to Bangkok.",
+        "The officials also discussed joint efforts to tackle the illicit drug trade and cyberscam networks as well as military cooperation on counterterrorism, training, humanitarian assistance and disaster relief.",
+        "The visit comes weeks after Thai Prime Minister Anutin Charnvirakul welcomed Min Aung Hlaing to Bangkok earlier this month and stressed that his country wanted to end the war and restore peace.",
+        "Defending the decision to host the Myanmar officials, the Thai foreign minister said it’s “not about legitimacy; it’s about reality”.",
+        "The international community remains divided over how to deal with Myanmar since the elections."
+      ],
       "event_status": "UPDATE",
-      "event_id": "f1129d524268d348df9e70c1",
-      "importance_score": 86.0,
+      "event_id": "59ff2a51576309b9c41a8615",
+      "importance_score": 91.0,
       "importance_level": "CRITICAL",
       "importance_breakdown": {
         "impact": 32,
-        "urgency": 10,
+        "urgency": 8.0,
         "novelty": 9.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 24,
+        "significance": 28,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 5021,
+          "dead": 100000,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
-          "major_incident": false,
+          "major_incident": true,
           "crisis": false
         },
         "significance_dims": {
-          "human": 12,
-          "scientific": 8,
-          "geopolitical": 4
+          "security": 8,
+          "geopolitical": 8,
+          "human": 12
         }
       },
-      "story_id": "e6613060d1cf3d83c62f0fa051a08436c0e780b3f02129f12230e502990862ab",
+      "story_id": "1babe163c3d8b957d3dc6f5ddad8e6771619b4acecbcc78ef863bdb257172b19",
       "public_label": "🔄 UPDATE",
-      "headline": "DRC’s Ebola outbreak reaches 5,000 cases, outpaces response efforts at unprecedented speed",
+      "headline": "Myanmar military chief visits Bangkok as diplomatic offensive continues",
       "briefing": {
         "opening": [
-          "The Ebola outbreak in Congo has reached 5,000 cases, government data showed Wednesday, as responders warn it is spreading at an unprecedented speed outpacing efforts to slow it in one of the country’s remotest regions.",
-          "Data from Congo’s Ministry of Health showed the outbreak had so far recorded 5,021 cases, including 2,378 deaths as of Sunday, as it rages in some of the most challenging conditions imaginable fueled by insecurity, displacement and intense population movements."
+          "After five years of isolation, Myanmar’s post-coup leadership is trying to boost its legitmacy.",
+          "Myanmar’s military chief has met Thailand’s top general in Bangkok during the former’s first international trip since assuming the role, as the post-coup leaders seek to boost their legitimacy."
         ],
         "body": [
-          "The outbreak has infected and killed more people at a greater speed than any other outbreak in history."
+          "Myanmar’s military had ousted the elected government during a 2021 coup and detained its leader, Aung San Suu Kyi, prompting an ongoing civil war that has killed more than 100,000 people, according to monitoring group Armed Conflict Location & Event Data (ACLED).",
+          "The post-coup leadership was isolated for five years but has started a diplomatic offensive.",
+          "Officials are touting deeply restricted elections staged about the start of 2026 as a return to normality, even as United Nations experts dismissed them as a “sham”.",
+          "Min Aung Hlaing, who led the coup, was sworn in as president of Myanmar in April, handing the office of military leader to Ye Win Oo.",
+          "Thai military chief Ukris Boontanondha met Oo on Thursday at a Bangkok hotel.",
+          "The talks between them focused on cooperation on the nation’s 2,400km (1,500-mile) border, according to Bangkok.",
+          "The officials also discussed joint efforts to tackle the illicit drug trade and cyberscam networks as well as military cooperation on counterterrorism, training, humanitarian assistance and disaster relief.",
+          "The visit comes weeks after Thai Prime Minister Anutin Charnvirakul welcomed Min Aung Hlaing to Bangkok earlier this month and stressed that his country wanted to end the war and restore peace."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Congo"
+            "text": "Bangkok"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "more than 100,000 people"
           }
         ],
         "sentences": [
           {
-            "text": "Data from Congo’s Ministry of Health showed the outbreak had so far recorded 5,021 cases, including 2,378 deaths as of Sunday, as it rages in some of the most challenging conditions imaginable fueled by insecurity, displacement and intense population movements.",
-            "source": "France 24",
-            "item_id": "e6613060d1cf3d83c62f0fa051a08436c0e780b3f02129f12230e502990862ab",
+            "text": "Min Aung Hlaing, who led the coup, was sworn in as president of Myanmar in April, handing the office of military leader to Ye Win Oo.",
+            "source": "Al Jazeera",
+            "item_id": "1babe163c3d8b957d3dc6f5ddad8e6771619b4acecbcc78ef863bdb257172b19:article",
             "composed": false
           },
           {
-            "text": "The outbreak has infected and killed more people at a greater speed than any other outbreak in history.",
-            "source": "France 24",
-            "item_id": "e6613060d1cf3d83c62f0fa051a08436c0e780b3f02129f12230e502990862ab",
+            "text": "Myanmar’s military chief has met Thailand’s top general in Bangkok during the former’s first international trip since assuming the role, as the post-coup leaders seek to boost their legitimacy.",
+            "source": "Al Jazeera",
+            "item_id": "1babe163c3d8b957d3dc6f5ddad8e6771619b4acecbcc78ef863bdb257172b19:article",
             "composed": false
           },
           {
-            "text": "The Ebola outbreak in Congo has reached 5,000 cases, government data showed Wednesday, as responders warn it is spreading at an unprecedented speed outpacing efforts to slow it in one of the country’s remotest regions.",
-            "source": "France 24",
-            "item_id": "e6613060d1cf3d83c62f0fa051a08436c0e780b3f02129f12230e502990862ab",
+            "text": "Myanmar’s military had ousted the elected government during a 2021 coup and detained its leader, Aung San Suu Kyi, prompting an ongoing civil war that has killed more than 100,000 people, according to monitoring group Armed Conflict Location & Event Data (ACLED).",
+            "source": "Al Jazeera",
+            "item_id": "1babe163c3d8b957d3dc6f5ddad8e6771619b4acecbcc78ef863bdb257172b19:article",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.france24.com/en/video/20260820-drc-s-ebola-outbreak-reaches-5-000-cases-outpaces-response-efforts-at-unprecedented-speed"
+        "url": "https://www.aljazeera.com/news/2026/8/20/myanmar-military-chief-visits-bangkok-as-diplomatic-offensive-continues?traffic_source=rss"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
     },
     {
-      "id": "16b1af67f6f6c9534176971801572f9e4be25c227fffb3553629033483e6ce33",
-      "title": "US national debt tops $40 trillion for first time, dealing blow to Trump",
-      "url": "https://www.france24.com/en/video/20260820-us-national-debt-tops-40-trillion-for-first-time-dealing-blow-to-trump",
-      "source": "France 24",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "North America",
-      "discovery": false,
-      "summary": "The US gross national debt has surged past $40 trillion for the first time, government data showed Wednesday, outstripping earlier forecasts at a pace fuelled in part by President Donald Trump's invalidated tariffs. The uptick in borrowing is a blow to Trump, who promised to cut public spending during his 2024 presidential campaign, and sparked a backlash from US representatives across the political field.",
-      "published_at": "2026-08-20T13:28:47+00:00",
-      "updated_at": "2026-08-20T13:28:47+00:00",
-      "effective_at": "2026-08-20T13:28:47+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "United States",
-      "country": null,
-      "entities": [
-        "donald",
-        "trump",
-        "us"
-      ],
-      "corroborating_sources": 2,
-      "strong_corroboration": 2,
-      "corroborating_source_names": [
-        "MercoPress",
-        "The Guardian Business"
-      ],
-      "verified_match_count": 2,
-      "priority_score": 95,
-      "priority_level": "URGENT",
-      "max_delay_minutes": 15,
-      "event_status": "UPDATE",
-      "event_id": "6678a9116e149eabd9d55c38",
-      "importance_score": 46.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 8.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 8,
-        "significance": 12,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "scientific": 8,
-          "geopolitical": 4
-        }
-      },
-      "story_id": "16b1af67f6f6c9534176971801572f9e4be25c227fffb3553629033483e6ce33",
-      "public_label": "🔄 UPDATE",
-      "headline": "US national debt tops $40 trillion for first time, dealing blow to Trump",
-      "briefing": {
-        "opening": [
-          "The US gross national debt has surged past $40 trillion for the first time, government data showed Wednesday, outstripping earlier forecasts at a pace fuelled in part by President Donald Trump's invalidated tariffs.",
-          "The uptick in borrowing is a blow to Trump, who promised to cut public spending during his 2024 presidential campaign, and sparked a backlash from US representatives across the political field."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The uptick in borrowing is a blow to Trump, who promised to cut public spending during his 2024 presidential campaign, and sparked a backlash from US representatives across the political field.",
-            "source": "France 24",
-            "item_id": "16b1af67f6f6c9534176971801572f9e4be25c227fffb3553629033483e6ce33",
-            "composed": false
-          },
-          {
-            "text": "The US gross national debt has surged past $40 trillion for the first time, government data showed Wednesday, outstripping earlier forecasts at a pace fuelled in part by President Donald Trump's invalidated tariffs.",
-            "source": "France 24",
-            "item_id": "16b1af67f6f6c9534176971801572f9e4be25c227fffb3553629033483e6ce33",
-            "composed": false
-          }
-        ],
-        "source": "France 24",
-        "corroborating": [],
-        "url": "https://www.france24.com/en/video/20260820-us-national-debt-tops-40-trillion-for-first-time-dealing-blow-to-trump"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "f5789a24788cf5a7e710e5bada4882280d2e420c4d52152a0a10164e817becaa",
-      "title": "Huge questions loom over Prince Harry and Meghan's shock return to UK",
-      "url": "https://www.france24.com/en/video/20260820-huge-questions-loom-over-prince-harry-and-meghan-s-shock-return-to-uk",
+      "id": "c27c0392be8b83ee7d7efcf66621288a39231e319d1b931f2141137098c11402",
+      "title": "Ceuta: FRANCE 24 brings you up-to-speed",
+      "url": "https://www.france24.com/en/video/20260820-ceuta-france-24-brings-you-up-to-speed",
       "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "Dozens of questions swirled Thursday as Prince Harry prepares to move back to the UK with his wife and children, six years after his departure sparked a bitter rift with the royal family. In a surprise move, Harry and Meghan \"plan to leave the United States by the end of the month to settle in a private, non-royal residence, which is said to be located outside London\", The Daily Telegraph reported late on Wednesday. FRANCE 24's Delano D'Souza tells us more.",
-      "published_at": "2026-08-20T13:24:23+00:00",
-      "updated_at": "2026-08-20T13:24:23+00:00",
-      "effective_at": "2026-08-20T13:24:23+00:00",
+      "summary": "🇪🇸 🌍 🔎 In Ceuta, the fate of migrants who crossed into the Spanish enclave at the end of July remains murky, but the trauma of the precarious journey remains. Most of the migrants who remain are forced to sleep in dangerous conditions, many among them unaccompanied minors. Meanwhile, the families of those who attempted the crossing have little to no news of what happened to their loved ones. FRANCE 24’s Hamza Hahboub, back from the enclave, brings you up-to-speed on the situation.",
+      "published_at": "2026-08-20T13:31:40+00:00",
+      "updated_at": "2026-08-20T13:31:40+00:00",
+      "effective_at": "2026-08-20T13:31:40+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "health",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
+      "sector": "health",
+      "subsector": "public_health",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "daily",
-        "delano",
+        "ceuta",
         "france",
-        "harry",
-        "meghan",
-        "telegraph",
-        "uk",
-        "united_states"
+        "hahboub",
+        "hamza",
+        "spain"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -253,7 +199,7 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "0ffc895ab432c92734c2704f",
+      "event_id": "29670f8d0e238de11d78c548",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -278,41 +224,133 @@
         },
         "significance_dims": {}
       },
-      "story_id": "f5789a24788cf5a7e710e5bada4882280d2e420c4d52152a0a10164e817becaa",
+      "story_id": "c27c0392be8b83ee7d7efcf66621288a39231e319d1b931f2141137098c11402",
       "public_label": "📰 NEWS",
-      "headline": "Huge questions loom over Prince Harry and Meghan's shock return to UK",
+      "headline": "Ceuta: FRANCE 24 brings you up-to-speed",
       "briefing": {
         "opening": [
-          "Dozens of questions swirled Thursday as Prince Harry prepares to move back to the UK with his wife and children, six years after his departure sparked a bitter rift with the royal family.",
-          "In a surprise move, Harry and Meghan \"plan to leave the United States by the end of the month to settle in a private, non-royal residence, which is said to be located outside London\", The Daily Telegraph reported late on Wednesday."
+          "🇪🇸 🌍 🔎 In Ceuta, the fate of migrants who crossed into the Spanish enclave at the end of July remains murky, but the trauma of the precarious journey remains.",
+          "Most of the migrants who remain are forced to sleep in dangerous conditions, many among them unaccompanied minors."
         ],
         "body": [
-          "FRANCE 24's Delano D'Souza tells us more."
+          "Meanwhile, the families of those who attempted the crossing have little to no news of what happened to their loved ones.",
+          "FRANCE 24’s Hamza Hahboub, back from the enclave, brings you up-to-speed on the situation."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "FRANCE 24's Delano D'Souza tells us more.",
+            "text": "Most of the migrants who remain are forced to sleep in dangerous conditions, many among them unaccompanied minors.",
             "source": "France 24",
-            "item_id": "f5789a24788cf5a7e710e5bada4882280d2e420c4d52152a0a10164e817becaa",
+            "item_id": "c27c0392be8b83ee7d7efcf66621288a39231e319d1b931f2141137098c11402",
             "composed": false
           },
           {
-            "text": "Dozens of questions swirled Thursday as Prince Harry prepares to move back to the UK with his wife and children, six years after his departure sparked a bitter rift with the royal family.",
+            "text": "FRANCE 24’s Hamza Hahboub, back from the enclave, brings you up-to-speed on the situation.",
             "source": "France 24",
-            "item_id": "f5789a24788cf5a7e710e5bada4882280d2e420c4d52152a0a10164e817becaa",
+            "item_id": "c27c0392be8b83ee7d7efcf66621288a39231e319d1b931f2141137098c11402",
             "composed": false
           },
           {
-            "text": "In a surprise move, Harry and Meghan \"plan to leave the United States by the end of the month to settle in a private, non-royal residence, which is said to be located outside London\", The Daily Telegraph reported late on Wednesday.",
+            "text": "🇪🇸 🌍 🔎 In Ceuta, the fate of migrants who crossed into the Spanish enclave at the end of July remains murky, but the trauma of the precarious journey remains.",
             "source": "France 24",
-            "item_id": "f5789a24788cf5a7e710e5bada4882280d2e420c4d52152a0a10164e817becaa",
+            "item_id": "c27c0392be8b83ee7d7efcf66621288a39231e319d1b931f2141137098c11402",
             "composed": false
           }
         ],
         "source": "France 24",
         "corroborating": [],
-        "url": "https://www.france24.com/en/video/20260820-huge-questions-loom-over-prince-harry-and-meghan-s-shock-return-to-uk"
+        "url": "https://www.france24.com/en/video/20260820-ceuta-france-24-brings-you-up-to-speed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "0ce0b1f269a2618a6f0eb0d7e779b99f1a9e17877187c4bdd5e00f761353b19f",
+      "title": "Drug trafficking: two accused teachers released in police custody",
+      "url": "https://www.thehindu.com/news/national/kerala/drug-trafficking-two-accused-teachers-released-in-police-custody/article71369044.ece",
+      "source": "The Hindu",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "The teachers were recently arrested and remanded in judicial custody for allegedly functioning as financial intermediaries for inter-State drug traffickers. Their role was uncovered following the arrest of Safwan, the first accused in the case from Vadakara.",
+      "published_at": "2026-08-20T13:24:47+00:00",
+      "updated_at": "2026-08-20T13:24:47+00:00",
+      "effective_at": "2026-08-20T13:24:47+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "medicine",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "safwan",
+        "vadakara"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "bba59ea808d83aa6cd95dfa2",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "0ce0b1f269a2618a6f0eb0d7e779b99f1a9e17877187c4bdd5e00f761353b19f",
+      "public_label": "📰 NEWS",
+      "headline": "Drug trafficking: two accused teachers released in police custody",
+      "briefing": {
+        "opening": [
+          "The teachers were recently arrested and remanded in judicial custody for allegedly functioning as financial intermediaries for inter-State drug traffickers.",
+          "Their role was uncovered following the arrest of Safwan, the first accused in the case from Vadakara."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The teachers were recently arrested and remanded in judicial custody for allegedly functioning as financial intermediaries for inter-State drug traffickers.",
+            "source": "The Hindu",
+            "item_id": "0ce0b1f269a2618a6f0eb0d7e779b99f1a9e17877187c4bdd5e00f761353b19f",
+            "composed": false
+          },
+          {
+            "text": "Their role was uncovered following the arrest of Safwan, the first accused in the case from Vadakara.",
+            "source": "The Hindu",
+            "item_id": "0ce0b1f269a2618a6f0eb0d7e779b99f1a9e17877187c4bdd5e00f761353b19f",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/national/kerala/drug-trafficking-two-accused-teachers-released-in-police-custody/article71369044.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS"
