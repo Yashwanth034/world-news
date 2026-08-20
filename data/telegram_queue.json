@@ -1,36 +1,34 @@
 {
-  "generated_at": "2026-08-20T06:40:57.621080+00:00",
-  "count": 1,
+  "generated_at": "2026-08-20T06:50:46.486594+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "3ecebc1e48b174ea244fc65cb525d979e66ed40f2c2ee8abc4b5898e61e50578",
-      "title": "Yang Guo Fu Group apologises over restaurant’s unauthorised use of Japanese celebrities’ names",
-      "url": "https://www.straitstimes.com/asia/east-asia/yang-guo-fu-group-apologises-over-restaurants-unauthorised-use-of-japanese-celebrities-names",
+      "id": "18d15faf89cfccb6267999d2e95b3d84ca98b68c0464158a34ffa4b16d5ab1c5",
+      "title": "Malaysian plane bound for Kuala Lumpur aborts takeoff at Narita airport",
+      "url": "https://www.straitstimes.com/asia/east-asia/malaysian-plane-bound-for-kuala-lumpur-aborts-takeoff-at-narita-airport",
       "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "The restaurant displayed congratulatory flower stands bearing the names of well-known figures.",
-      "published_at": "2026-08-20T06:37:00+00:00",
-      "updated_at": "2026-08-20T06:37:00+00:00",
-      "effective_at": "2026-08-20T06:37:00+00:00",
+      "summary": "The runway was closed for about two and a half hours.",
+      "published_at": "2026-08-20T06:49:00+00:00",
+      "updated_at": "2026-08-20T06:49:00+00:00",
+      "effective_at": "2026-08-20T06:49:00+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "East Asia",
+      "sector": "transport",
+      "subsector": "aviation",
+      "subregion": "Southeast Asia",
       "country": null,
       "entities": [
-        "fu",
-        "group",
-        "guo",
-        "japan",
-        "yang"
+        "kuala",
+        "lumpur",
+        "narita"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -40,15 +38,150 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "b73aad620c18b047408115d8",
-      "importance_score": 29.0,
+      "event_id": "4571f7d6a691a26bf98c8bee",
+      "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 8.0,
+        "urgency": 7.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "infrastructure": 4
+        }
+      },
+      "story_id": "18d15faf89cfccb6267999d2e95b3d84ca98b68c0464158a34ffa4b16d5ab1c5",
+      "article_sentences": [
+        "A Malaysia Airlines Airbus.",
+        "A330 aborted takeoff at Narita airport due to a left engine problem.",
+        "Black smoke was seen from the plane as it moved onto the runway around 10.40am local time.",
+        "No injuries occurred among the 160 crew and passengers; the runway was closed for about two and a half hours.",
+        "A Malaysia Airlines plane bound for Kuala Lumpur aborted takeoff on the morning of Aug 20 at Narita airport near Tokyo due to a problem with the aircraft, the transport ministry said, adding that none of the 160 crew and passengers were injured.",
+        "Black smoke was reportedly seen coming from the Airbus.",
+        "A330 plane when it was moving onto one of the airport’s runways at around 10.40am (9.40am Singapore time).",
+        "Operating as Flight 89, the plane is believed to have had a problem with its left engine, according to the airport branch of the Ministry of Land, Infrastructure, Transport and Tourism."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Malaysian plane bound for Kuala Lumpur aborts takeoff at Narita airport",
+      "briefing": {
+        "opening": [
+          "A Malaysia Airlines Airbus.",
+          "A330 aborted takeoff at Narita airport due to a left engine problem."
+        ],
+        "body": [
+          "Black smoke was seen from the plane as it moved onto the runway around 10.40am local time.",
+          "No injuries occurred among the 160 crew and passengers; the runway was closed for about two and a half hours.",
+          "A Malaysia Airlines plane bound for Kuala Lumpur aborted takeoff on the morning of Aug 20 at Narita airport near Tokyo due to a problem with the aircraft, the transport ministry said, adding that none of the 160 crew and passengers were injured.",
+          "Black smoke was reportedly seen coming from the Airbus.",
+          "A330 plane when it was moving onto one of the airport’s runways at around 10.40am (9.40am Singapore time).",
+          "Operating as Flight 89, the plane is believed to have had a problem with its left engine, according to the airport branch of the Ministry of Land, Infrastructure, Transport and Tourism.",
+          "The runway was closed for about two and a half hours."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Narita"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A Malaysia Airlines plane bound for Kuala Lumpur aborted takeoff on the morning of Aug 20 at Narita airport near Tokyo due to a problem with the aircraft, the transport ministry said, adding that none of the 160 crew and passengers were injured.",
+            "source": "Straits Times Asia",
+            "item_id": "18d15faf89cfccb6267999d2e95b3d84ca98b68c0464158a34ffa4b16d5ab1c5:article",
+            "composed": false
+          },
+          {
+            "text": "A330 plane when it was moving onto one of the airport’s runways at around 10.40am (9.40am Singapore time).",
+            "source": "Straits Times Asia",
+            "item_id": "18d15faf89cfccb6267999d2e95b3d84ca98b68c0464158a34ffa4b16d5ab1c5:article",
+            "composed": false
+          },
+          {
+            "text": "A330 aborted takeoff at Narita airport due to a left engine problem.",
+            "source": "Straits Times Asia",
+            "item_id": "18d15faf89cfccb6267999d2e95b3d84ca98b68c0464158a34ffa4b16d5ab1c5:article",
+            "composed": false
+          },
+          {
+            "text": "Operating as Flight 89, the plane is believed to have had a problem with its left engine, according to the airport branch of the Ministry of Land, Infrastructure, Transport and Tourism.",
+            "source": "Straits Times Asia",
+            "item_id": "18d15faf89cfccb6267999d2e95b3d84ca98b68c0464158a34ffa4b16d5ab1c5:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/east-asia/malaysian-plane-bound-for-kuala-lumpur-aborts-takeoff-at-narita-airport"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "1130526d010f73a3db407379d2b2a273a5c57cfe9ec5f4ee19dd9a537eb7e920",
+      "title": "Oxfam ‘can’t guarantee future’ of charity shops as it also reviews warehouse business",
+      "url": "https://www.theguardian.com/world/2026/aug/20/oxfam-cant-guarantee-future-of-charity-shops-as-it-also-reviews-warehouse-business",
+      "source": "The Guardian Business",
+      "source_category": "finance",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Dwindling donations and stiff competition from secondhand sellers online prompt review but ‘no plans for closures yet’ Oxfam is reviewing the operations of its three warehouses in Batley, Bicester and Milton Keynes and says it “cannot give guarantees” on the future of its high street shops in a “difficult economic climate”. The charity said it had no plans to close warehouses or shops but insiders fear that Batley, which houses Oxfam’s main textile recycling centre, will shut as part of a cost-cutting drive because the West Yorkshire site’s lease is up for renewal. Continue reading...",
+      "published_at": "2026-08-20T05:00:43+00:00",
+      "updated_at": "2026-08-20T05:00:43+00:00",
+      "effective_at": "2026-08-20T05:00:43+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "transport",
+      "subsector": "logistics",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "batley",
+        "bicester",
+        "dwindling",
+        "keynes",
+        "milton",
+        "oxfam",
+        "west",
+        "yorkshire"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "5cb7bbc1161b3934270da7c4",
+      "importance_score": 25.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -65,65 +198,39 @@
         },
         "significance_dims": {}
       },
-      "story_id": "3ecebc1e48b174ea244fc65cb525d979e66ed40f2c2ee8abc4b5898e61e50578",
-      "article_sentences": [
-        "The China-based Yang Guo Fu group has apologised after one of its franchise restaurants in north-eastern Japan displayed congratulatory flower stands bearing the names of well-known figures without their permission during its recent opening.",
-        "According to local sources, the operator of restaurants serving malatang, a popular Chinese fast-food dish, used the names of professional figure skater Yuzuru Hanyu and former prime minister Yukio Hatoyama at the restaurant in Sendai on Aug 17.",
-        "The group said on social media that none of the flowers had been sent by the people whose names were attached.",
-        "“We deeply apologise for harming the reputation of those concerned,” the restaurant said Aug 18, adding the outlet will remain closed through Aug 21 as it takes measures to prevent a recurrence.",
-        "Hanyu, a native of Sendai, is a two-time Olympic men’s figure skating champion.",
-        "Malatang is named after the numbing sensation of Sichuan peppercorns and the heat of chili peppers in its broth."
-      ],
+      "story_id": "1130526d010f73a3db407379d2b2a273a5c57cfe9ec5f4ee19dd9a537eb7e920",
       "public_label": "📰 NEWS",
-      "headline": "Yang Guo Fu Group apologises over restaurant’s unauthorised use of Japanese celebrities’ names",
+      "headline": "Oxfam ‘can’t guarantee future’ of charity shops as it also reviews warehouse business",
       "briefing": {
         "opening": [
-          "The China-based Yang Guo Fu group has apologised after one of its franchise restaurants in north-eastern Japan displayed congratulatory flower stands bearing the names of well-known figures without their permission during its recent opening.",
-          "According to local sources, the operator of restaurants serving malatang, a popular Chinese fast-food dish, used the names of professional figure skater Yuzuru Hanyu and former prime minister Yukio Hatoyama at the restaurant in Sendai on Aug 17."
+          "Dwindling donations and stiff competition from secondhand sellers online prompt review but ‘no plans for closures yet’ Oxfam is reviewing the operations of its three warehouses in Batley, Bicester and Milton Keynes and says it “cannot give guarantees” on the future of its high street shops in a “difficult economic climate”.",
+          "The charity said it had no plans to close warehouses or shops but insiders fear that Batley, which houses Oxfam’s main textile recycling centre, will shut as part of a cost-cutting drive because the West Yorkshire site’s lease is up for renewal."
         ],
-        "body": [
-          "The group said on social media that none of the flowers had been sent by the people whose names were attached.",
-          "“We deeply apologise for harming the reputation of those concerned,” the restaurant said Aug 18, adding the outlet will remain closed through Aug 21 as it takes measures to prevent a recurrence.",
-          "Hanyu, a native of Sendai, is a two-time Olympic men’s figure skating champion.",
-          "Malatang is named after the numbing sensation of Sichuan peppercorns and the heat of chili peppers in its broth.",
-          "The restaurant displayed congratulatory flower stands bearing the names of well-known figures."
-        ],
+        "body": [],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Sendai"
+            "text": "Batley"
           }
         ],
         "sentences": [
           {
-            "text": "The China-based Yang Guo Fu group has apologised after one of its franchise restaurants in north-eastern Japan displayed congratulatory flower stands bearing the names of well-known figures without their permission during its recent opening.",
-            "source": "Straits Times Asia",
-            "item_id": "3ecebc1e48b174ea244fc65cb525d979e66ed40f2c2ee8abc4b5898e61e50578:article",
+            "text": "The charity said it had no plans to close warehouses or shops but insiders fear that Batley, which houses Oxfam’s main textile recycling centre, will shut as part of a cost-cutting drive because the West Yorkshire site’s lease is up for renewal.",
+            "source": "The Guardian Business",
+            "item_id": "1130526d010f73a3db407379d2b2a273a5c57cfe9ec5f4ee19dd9a537eb7e920",
             "composed": false
           },
           {
-            "text": "Hanyu, a native of Sendai, is a two-time Olympic men’s figure skating champion.",
-            "source": "Straits Times Asia",
-            "item_id": "3ecebc1e48b174ea244fc65cb525d979e66ed40f2c2ee8abc4b5898e61e50578:article",
-            "composed": false
-          },
-          {
-            "text": "According to local sources, the operator of restaurants serving malatang, a popular Chinese fast-food dish, used the names of professional figure skater Yuzuru Hanyu and former prime minister Yukio Hatoyama at the restaurant in Sendai on Aug 17.",
-            "source": "Straits Times Asia",
-            "item_id": "3ecebc1e48b174ea244fc65cb525d979e66ed40f2c2ee8abc4b5898e61e50578:article",
-            "composed": false
-          },
-          {
-            "text": "“We deeply apologise for harming the reputation of those concerned,” the restaurant said Aug 18, adding the outlet will remain closed through Aug 21 as it takes measures to prevent a recurrence.",
-            "source": "Straits Times Asia",
-            "item_id": "3ecebc1e48b174ea244fc65cb525d979e66ed40f2c2ee8abc4b5898e61e50578:article",
+            "text": "Oxfam is reviewing the operations of its three warehouses in Batley, Bicester and Milton Keynes and says it “cannot give guarantees” on the future of its high street shops in a “difficult economic climate”.",
+            "source": "The Guardian Business",
+            "item_id": "1130526d010f73a3db407379d2b2a273a5c57cfe9ec5f4ee19dd9a537eb7e920",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "The Guardian Business",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/east-asia/yang-guo-fu-group-apologises-over-restaurants-unauthorised-use-of-japanese-celebrities-names"
+        "url": "https://www.theguardian.com/world/2026/aug/20/oxfam-cant-guarantee-future-of-charity-shops-as-it-also-reviews-warehouse-business"
       },
       "group_size": 1,
       "label": "📰 NEWS"
