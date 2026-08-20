@@ -1,38 +1,39 @@
 {
-  "generated_at": "2026-08-20T06:10:51.709091+00:00",
+  "generated_at": "2026-08-20T06:20:45.910036+00:00",
   "count": 2,
   "stories": [
     {
-      "id": "5041d5adb8ce6f94c13c328c3ecd31690eeb44850631bea7bf01571b69cfcad1",
-      "title": "Investigation into killing of Hind Rajab and Gaza paramedics comes ‘extremely late’",
-      "url": "https://www.france24.com/en/investigation-into-killing-of-hind-rajab-and-gaza-paramedics-comes-extremely-late",
-      "source": "France 24",
+      "id": "d171bfcdefaf7c3ec7972e236d0f0e8f825204040ff95eefcc045a8f21e946f4",
+      "title": "Melancholy made in Hungary is fuelling bestsellers across the globe – and widely misunderstood",
+      "url": "https://www.theguardian.com/books/2026/aug/20/melancholy-made-in-hungary-is-fuelling-bestsellers-across-the-globe-and-widely-misunderstood",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "The investigation into the killing of Hind Rajab and paramedics in Gaza launched by the Israeli army came as a “surprise” in the country, “because so much time has passed” since the events took place, FRANCE 24 correspondent Noga Tarnopolsky said. “The timing is extremely late.” But Tarnopolsky said “the fact that these two very renown cases are being referred to criminal investigation is already an admission on the part of the Israeli army that something here went deeply wrong.”",
-      "published_at": "2026-08-20T06:06:07+00:00",
-      "updated_at": "2026-08-20T06:06:07+00:00",
-      "effective_at": "2026-08-20T06:06:07+00:00",
+      "summary": "A ‘capacity for despair’ forged by political oppression has long been consider a Magyar national trait. But after Orbán, writers in the country remind us that melancholy must not always be bleak A lone visitor looks for a garden outside an empty monastery. A morose housekeeper won’t let anyone behind the door of her own home. A retired general living alone on a crumbling estate waits 40 years to confront the only friend he ever had. Melancholy, an affinity with oblivion without a concrete cause, suffuses the Hungarian fiction translated for foreign audiences over the past 30 years, from the tortured tales of Sándor Márai to the taut novels of Magda Szabó. In his book In Praise of Melancholy,",
+      "published_at": "2026-08-20T06:00:44+00:00",
+      "updated_at": "2026-08-20T06:00:44+00:00",
+      "effective_at": "2026-08-20T06:00:44+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "geopolitics",
-      "subsector": "defense",
-      "subregion": "West Asia / Middle East",
+      "subsector": "politics",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "france",
-        "gaza",
-        "hind",
-        "israel",
-        "noga",
-        "rajab",
-        "tarnopolsky"
+        "hungarian",
+        "hungary",
+        "magda",
+        "magyar",
+        "melancholy",
+        "orb",
+        "praise",
+        "szab"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -42,22 +43,22 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "d567974ab5b0296e92199a66",
-      "importance_score": 29.0,
-      "importance_level": "LOW",
+      "event_id": "1fc471a0ca91fe174e9dde49",
+      "importance_score": 52.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
+        "impact": 16.0,
+        "urgency": 7.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
+          "dead": 30,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -65,61 +66,68 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "human": 8
+        }
       },
-      "story_id": "5041d5adb8ce6f94c13c328c3ecd31690eeb44850631bea7bf01571b69cfcad1",
+      "story_id": "d171bfcdefaf7c3ec7972e236d0f0e8f825204040ff95eefcc045a8f21e946f4",
       "public_label": "📰 NEWS",
-      "headline": "Investigation into killing of Hind Rajab and Gaza paramedics comes ‘extremely late’",
+      "headline": "Melancholy made in Hungary is fuelling bestsellers across the globe – and widely misunderstood",
       "briefing": {
         "opening": [
-          "The investigation into the killing of Hind Rajab and paramedics in Gaza launched by the Israeli army came as a “surprise” in the country, “because so much time has passed” since the events took place, FRANCE 24 correspondent.",
-          "Noga Tarnopolsky said."
+          "A ‘capacity for despair’ forged by political oppression has long been consider a Magyar national trait.",
+          "But after Orbán, writers in the country remind us that melancholy must not always be bleak."
         ],
         "body": [
-          "“The timing is extremely late.” But Tarnopolsky said “the fact that these two very renown cases are being referred to criminal investigation is already an admission on the part of the Israeli army that something here went deeply wrong.”"
+          "A lone visitor looks for a garden outside an empty monastery.",
+          "A morose housekeeper won’t let anyone behind the door of her own home.",
+          "A retired general living alone on a crumbling estate waits 40 years to confront the only friend he ever had.",
+          "Melancholy, an affinity with oblivion without a concrete cause, suffuses the Hungarian fiction translated for foreign audiences over the past 30 years, from the tortured tales of Sándor Márai to the taut novels of Magda Szabó.",
+          "In his book.",
+          "In Praise of Melancholy,."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Gaza"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "But Tarnopolsky said “the fact that these two very renown cases are being referred to criminal investigation is already an admission on the part of the Israeli army that something here went deeply wrong.”",
-            "source": "France 24",
-            "item_id": "5041d5adb8ce6f94c13c328c3ecd31690eeb44850631bea7bf01571b69cfcad1",
+            "text": "A ‘capacity for despair’ forged by political oppression has long been consider a Magyar national trait.",
+            "source": "The Guardian World",
+            "item_id": "d171bfcdefaf7c3ec7972e236d0f0e8f825204040ff95eefcc045a8f21e946f4",
             "composed": false
           },
           {
-            "text": "“The timing is extremely late.”",
-            "source": "France 24",
-            "item_id": "5041d5adb8ce6f94c13c328c3ecd31690eeb44850631bea7bf01571b69cfcad1",
+            "text": "Melancholy, an affinity with oblivion without a concrete cause, suffuses the Hungarian fiction translated for foreign audiences over the past 30 years, from the tortured tales of Sándor Márai to the taut novels of Magda Szabó.",
+            "source": "The Guardian World",
+            "item_id": "d171bfcdefaf7c3ec7972e236d0f0e8f825204040ff95eefcc045a8f21e946f4",
+            "composed": false
+          },
+          {
+            "text": "A retired general living alone on a crumbling estate waits 40 years to confront the only friend he ever had.",
+            "source": "The Guardian World",
+            "item_id": "d171bfcdefaf7c3ec7972e236d0f0e8f825204040ff95eefcc045a8f21e946f4",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://www.france24.com/en/investigation-into-killing-of-hind-rajab-and-gaza-paramedics-comes-extremely-late"
+        "url": "https://www.theguardian.com/books/2026/aug/20/melancholy-made-in-hungary-is-fuelling-bestsellers-across-the-globe-and-widely-misunderstood"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "59ff852bdbd96c2e3d6726a9aadabdea7fd254db99f52adda2fe9e0fbf6eb802",
-      "title": "Suspense thriller 'Mousetrap' reinvents Korean folktale: director",
-      "url": "https://en.yna.co.kr/view/AEN20260820005500315",
+      "id": "782a1cca698059c1abc341b3d0c5fe5d39dd3dd3972eb2da60912457208e51b8",
+      "title": "Seoul mayor rejects gov't proposal to build apartments in Yongsan Park",
+      "url": "https://en.yna.co.kr/view/AEN20260820005700315",
       "source": "Yonhap English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "SEOUL, Aug. 20 (Yonhap) -- The upcoming Netflix original series &quot;Mousetrap&quot; draw...",
-      "published_at": "2026-08-20T05:59:18+00:00",
-      "updated_at": "2026-08-20T05:59:18+00:00",
-      "effective_at": "2026-08-20T05:59:18+00:00",
+      "summary": "Seoul Mayor Oh Se-hoon said Thursday that he met with Land Minister Kim Yun-duk to discuss the government's proposal to build apartments in Yongsan Park in central Seoul, but the two were unable to narrow their differences. \"I met with Minister Kim to discuss several pending issues but, ultimately, we were unable to bridge our differences regarding Yongsan Park,\" Oh said in a press briefing at Seoul City Hall. \"I clearly stated in a strong tone that the Seoul city government cannot agree to the plan to build apartments on the entire Yongsan Park site under any circumstances,\" Oh said. Oh also said he emphasized that agreeing to the plan would leave him remembered in history as a sinner to the city. The government and the ruling party are reviewing a plan to build rental apartments for young people in Yongsan Park, as part of efforts to increase housing supply in the capital. But the Seoul city government is opposed to the plan, arguing the park is a national asset that should be left intact as green space for future generations. The park, mostly located on land returned from a U.S. military garrison, is state-owned property whose use has already been legally designated under a special law. Oh reiterated that Yongsan Park is directly linked to the quality of life and leisure of Seoul citizens and is a major part of the green axis extending from Mount Namsan to the Han River. \"It is difficult to agree to convert even a certain portion of the entire park site for residential use.\" However, the mayor said he proposed a compromise under which housing could be supplied using state-owned land scattered around Yongsan Park. He cited the former site of U.S. military Camp Kim, the former site of Gyeongridan (Army Financial Management Corps) and a foreign ministry parking lot.",
+      "published_at": "2026-08-20T06:07:44+00:00",
+      "updated_at": "2026-08-20T06:07:44+00:00",
+      "effective_at": "2026-08-20T06:07:44+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
@@ -130,12 +138,27 @@
       "subregion": "East Asia",
       "country": null,
       "entities": [
-        "aug",
-        "korean",
-        "mousetrap",
-        "netflix",
+        "army",
+        "camp",
+        "city",
+        "corps",
+        "financial",
+        "gyeongridan",
+        "hall",
+        "han",
+        "however",
+        "kim",
+        "land",
+        "management",
+        "mount",
+        "namsan",
+        "oh",
+        "park",
+        "river",
+        "se-hoon",
         "seoul",
-        "yonhap"
+        "yongsan",
+        "yun-duk"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -144,9 +167,22 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "Seoul Mayor Oh Se-hoon said Thursday that he met with Land Minister Kim Yun-duk to discuss the government's proposal to build apartments in Yongsan Park in central Seoul, but the two were unable to narrow their differences.",
+        "\"I met with Minister Kim to discuss several pending issues but, ultimately, we were unable to bridge our differences regarding Yongsan Park,\" Oh said in a press briefing at Seoul City Hall.",
+        "\"I clearly stated in a strong tone that the Seoul city government cannot agree to the plan to build apartments on the entire Yongsan Park site under any circumstances,\" Oh said.",
+        "Oh also said he emphasized that agreeing to the plan would leave him remembered in history as a sinner to the city.",
+        "The government and the ruling party are reviewing a plan to build rental apartments for young people in Yongsan Park, as part of efforts to increase housing supply in the capital.",
+        "But the Seoul city government is opposed to the plan, arguing the park is a national asset that should be left intact as green space for future generations.",
+        "The park, mostly located on land returned from a U.S. military garrison, is state-owned property whose use has already been legally designated under a special law.",
+        "Oh reiterated that Yongsan Park is directly linked to the quality of life and leisure of Seoul citizens and is a major part of the green axis extending from Mount Namsan to the Han River.",
+        "\"It is difficult to agree to convert even a certain portion of the entire park site for residential use.\"",
+        "However, the mayor said he proposed a compromise under which housing could be supplied using state-owned land scattered around Yongsan Park.",
+        "He cited the former site of U.S. military Camp Kim, the former site of Gyeongridan (Army Financial Management Corps) and a foreign ministry parking lot."
+      ],
       "event_status": "NEW",
-      "event_id": "95629c675358dbb44dcf0f65",
-      "importance_score": 28.0,
+      "event_id": "34a2031197f2f2f9987c971e",
+      "importance_score": 40.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
@@ -156,7 +192,7 @@
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -168,70 +204,66 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "security": 4,
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
       },
-      "story_id": "59ff852bdbd96c2e3d6726a9aadabdea7fd254db99f52adda2fe9e0fbf6eb802",
-      "article_sentences": [
-        "The upcoming Netflix original series \"Mousetrap\" draws inspiration from a Korean folktale in which a rat turns into a person by eating that person's clipped nails, while weaving in a chase to track down the rat-turned-human, its director said Thursday.",
-        "Based on the webtoon \"Field Mouse,\" it follows Moon-jae (Ryu Jun-yeol), a reclusive writer who finds himself robbed of his identity and becomes embroiled in a high-stakes hunt to track down the \"rat\" that seems to know him even better than he knows himself.",
-        "The 10-episode series also features Sul Kyung-gu as Noja, a loan shark who teams up with Moon-jae to track down the rat, and Lee Kyoo-hyung as a police detective involved in the mysterious case.",
-        "\"It is a story inspired by the traditional folktale of a field mouse who eats clipped nails,\" director Kim Hong-sun said at a press conference.",
-        "\"It is a thriller in which a person whose life has been completely taken away seeks to regain his identity.\"",
-        "To differentiate the series from other works that explore themes of stolen identities and truth, Kim said he made the process of tracking down the rat central to the plot.",
-        "While the story does not feature heroes with superpowers, the lead actors said they were drawn to the plot of losing and regaining one's identity and questioning what is real in the process.",
-        "\"The characters are not superheroes, they are actually very normal people.",
-        "The plot centers on the uneasiness, the fear and doubt the characters go through, exploring what it means to be true, to be real,\" Sul said.",
-        "Ryu, who said he read the webtoon before reading the full script, said the original work asks readers how a person's identity can be understood and proven.",
-        "\"The original webtoon is very deep and philosophical.",
-        "I think what it wanted to ask was how we can be defined and proven, whether that is our true self and whether the people we see are also their true selves,\" he said."
-      ],
+      "story_id": "782a1cca698059c1abc341b3d0c5fe5d39dd3dd3972eb2da60912457208e51b8",
       "public_label": "📰 NEWS",
-      "headline": "Suspense thriller 'Mousetrap' reinvents Korean folktale: director",
+      "headline": "Seoul mayor rejects gov't proposal to build apartments in Yongsan Park",
       "briefing": {
         "opening": [
-          "The upcoming Netflix original series \"Mousetrap\" draws inspiration from a Korean folktale in which a rat turns into a person by eating that person's clipped nails, while weaving in a chase to track down the rat-turned-human, its director said Thursday.",
-          "Based on the webtoon \"Field Mouse,\" it follows Moon-jae (Ryu Jun-yeol), a reclusive writer who finds himself robbed of his identity and becomes embroiled in a high-stakes hunt to track down the \"rat\" that seems to know him even better than he knows himself."
+          "Seoul Mayor Oh Se-hoon said Thursday that he met with Land Minister Kim Yun-duk to discuss the government's proposal to build apartments in Yongsan Park in central Seoul, but the two were unable to narrow their differences.",
+          "\"I met with Minister Kim to discuss several pending issues but, ultimately, we were unable to bridge our differences regarding Yongsan Park,\" Oh said in a press briefing at Seoul City Hall."
         ],
         "body": [
-          "The 10-episode series also features Sul Kyung-gu as Noja, a loan shark who teams up with Moon-jae to track down the rat, and Lee Kyoo-hyung as a police detective involved in the mysterious case.",
-          "\"It is a story inspired by the traditional folktale of a field mouse who eats clipped nails,\" director Kim Hong-sun said at a press conference.",
-          "\"It is a thriller in which a person whose life has been completely taken away seeks to regain his identity.\" To differentiate the series from other works that explore themes of stolen identities and truth, Kim said he made the process of tracking down the rat central to the plot.",
-          "While the story does not feature heroes with superpowers, the lead actors said they were drawn to the plot of losing and regaining one's identity and questioning what is real in the process.",
-          "\"The characters are not superheroes, they are actually very normal people.",
-          "The plot centers on the uneasiness, the fear and doubt the characters go through, exploring what it means to be true, to be real,\" Sul said.",
-          "Ryu, who said he read the webtoon before reading the full script, said the original work asks readers how a person's identity can be understood and proven.",
-          "\"The original webtoon is very deep and philosophical."
+          "\"I clearly stated in a strong tone that the Seoul city government cannot agree to the plan to build apartments on the entire Yongsan Park site under any circumstances,\" Oh said.",
+          "Oh also said he emphasized that agreeing to the plan would leave him remembered in history as a sinner to the city.",
+          "The government and the ruling party are reviewing a plan to build rental apartments for young people in Yongsan Park, as part of efforts to increase housing supply in the capital.",
+          "But the Seoul city government is opposed to the plan, arguing the park is a national asset that should be left intact as green space for future generations.",
+          "The park, mostly located on land returned from a U.S. military garrison, is state-owned property whose use has already been legally designated under a special law.",
+          "Oh reiterated that Yongsan Park is directly linked to the quality of life and leisure of Seoul citizens and is a major part of the green axis extending from Mount Namsan to the Han River.",
+          "\"It is difficult to agree to convert even a certain portion of the entire park site for residential use.\" However, the mayor said he proposed a compromise under which housing could be supplied using state-owned land scattered around Yongsan Park.",
+          "He cited the former site of U.S. military Camp Kim, the former site of Gyeongridan (Army Financial Management Corps) and a foreign ministry parking lot."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Yongsan Park"
+          }
+        ],
         "sentences": [
           {
-            "text": "Based on the webtoon \"Field Mouse,\" it follows Moon-jae (Ryu Jun-yeol), a reclusive writer who finds himself robbed of his identity and becomes embroiled in a high-stakes hunt to track down the \"rat\" that seems to know him even better than he knows himself.",
+            "text": "Seoul Mayor Oh Se-hoon said Thursday that he met with Land Minister Kim Yun-duk to discuss the government's proposal to build apartments in Yongsan Park in central Seoul, but the two were unable to narrow their differences.",
             "source": "Yonhap English",
-            "item_id": "59ff852bdbd96c2e3d6726a9aadabdea7fd254db99f52adda2fe9e0fbf6eb802:article",
+            "item_id": "782a1cca698059c1abc341b3d0c5fe5d39dd3dd3972eb2da60912457208e51b8:article",
             "composed": false
           },
           {
-            "text": "\"It is a story inspired by the traditional folktale of a field mouse who eats clipped nails,\" director Kim Hong-sun said at a press conference.",
+            "text": "\"I met with Minister Kim to discuss several pending issues but, ultimately, we were unable to bridge our differences regarding Yongsan Park,\" Oh said in a press briefing at Seoul City Hall.",
             "source": "Yonhap English",
-            "item_id": "59ff852bdbd96c2e3d6726a9aadabdea7fd254db99f52adda2fe9e0fbf6eb802:article",
+            "item_id": "782a1cca698059c1abc341b3d0c5fe5d39dd3dd3972eb2da60912457208e51b8:article",
             "composed": false
           },
           {
-            "text": "To differentiate the series from other works that explore themes of stolen identities and truth, Kim said he made the process of tracking down the rat central to the plot.",
+            "text": "The government and the ruling party are reviewing a plan to build rental apartments for young people in Yongsan Park, as part of efforts to increase housing supply in the capital.",
             "source": "Yonhap English",
-            "item_id": "59ff852bdbd96c2e3d6726a9aadabdea7fd254db99f52adda2fe9e0fbf6eb802:article",
+            "item_id": "782a1cca698059c1abc341b3d0c5fe5d39dd3dd3972eb2da60912457208e51b8:article",
             "composed": false
           },
           {
-            "text": "The upcoming Netflix original series \"Mousetrap\" draws inspiration from a Korean folktale in which a rat turns into a person by eating that person's clipped nails, while weaving in a chase to track down the rat-turned-human, its director said Thursday.",
+            "text": "Oh reiterated that Yongsan Park is directly linked to the quality of life and leisure of Seoul citizens and is a major part of the green axis extending from Mount Namsan to the Han River.",
             "source": "Yonhap English",
-            "item_id": "59ff852bdbd96c2e3d6726a9aadabdea7fd254db99f52adda2fe9e0fbf6eb802:article",
+            "item_id": "782a1cca698059c1abc341b3d0c5fe5d39dd3dd3972eb2da60912457208e51b8:article",
             "composed": false
           }
         ],
         "source": "Yonhap English",
         "corroborating": [],
-        "url": "https://en.yna.co.kr/view/AEN20260820005500315"
+        "url": "https://en.yna.co.kr/view/AEN20260820005700315"
       },
       "group_size": 1,
       "label": "📰 NEWS"
