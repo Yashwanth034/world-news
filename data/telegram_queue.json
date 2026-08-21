@@ -1,64 +1,61 @@
 {
-  "generated_at": "2026-08-21T11:01:16.140915+00:00",
-  "count": 4,
+  "generated_at": "2026-08-21T11:10:51.154930+00:00",
+  "count": 6,
   "stories": [
     {
-      "id": "5dd5c13c65a04601045dea42700de8f4a0c7dc6dd897fdf9ebaaf48951544b02",
-      "title": "CUHK researchers perform Hong Kong’s first robot-assisted pelvic fracture surgery",
-      "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3364843/cuhk-researchers-perform-hong-kongs-first-robot-assisted-pelvic-fracture-surgery?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
+      "id": "d834f2b23bc2927dd2c2dea8ad5105e5ddffa1f85f04d7029ae1210e65a804f2",
+      "title": "Drone strike wounds 13 in Tigray capital as fears of renewed war grow",
+      "url": "http://www.africanews.com/2026/08/21/drone-strike-wounds-13-in-tigray-capital-as-fears-of-renewed-war-grow/",
+      "source": "Africanews English",
+      "source_category": "africa",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Africa",
       "discovery": false,
-      "summary": "A team of researchers from the Chinese University of Hong Kong (CUHK) has conducted the city’s first robot-assisted pelvic fracture surgery in what promises to be a safer, less intrusive alternative to a procedure typically considered among the most challenging. CUHK’s faculty of medicine on Friday said the novel orthopaedic robotic surgical system could turn a “new page” in trauma care amid a rising number of pelvic fracture cases among the city’s rapidly ageing population. Dr Ronald Wong...",
-      "published_at": "2026-08-21T11:00:07+00:00",
-      "updated_at": "2026-08-21T11:00:07+00:00",
-      "effective_at": "2026-08-21T11:00:07+00:00",
+      "summary": "A drone strike on Mekelle, the capital of Ethiopia’s Tigray region, injured at least 13 people, including five children, a hospital official said Thursday. The attack comes amid growing tensions between federal and Tigrayan forces and fears the region could slide back into war.",
+      "published_at": "2026-08-21T10:41:33+00:00",
+      "updated_at": "2026-08-21T10:41:33+00:00",
+      "effective_at": "2026-08-21T10:41:33+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
+      "category": "conflict",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "technology",
-      "subregion": "East Asia",
+      "sector": "geopolitics",
+      "subsector": "conflict",
+      "subregion": "East Africa",
       "country": null,
       "entities": [
-        "china",
-        "cuhk",
-        "dr",
-        "hong_kong",
-        "ronald",
-        "university",
-        "wong"
+        "ethiopia",
+        "mekelle",
+        "tigray",
+        "tigrayan"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "3a9d3b0ba925b1985264082f",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
+      "event_status": "UPDATE",
+      "event_id": "5b12964d2722da20aa286cc9",
+      "importance_score": 51.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 3,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 22,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
           "dead": 0,
-          "injured": 0,
+          "injured": 13,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
@@ -66,171 +63,62 @@
           "crisis": false
         },
         "significance_dims": {
-          "scientific": 4
+          "security": 8,
+          "geopolitical": 8,
+          "human": 6
         }
       },
-      "story_id": "5dd5c13c65a04601045dea42700de8f4a0c7dc6dd897fdf9ebaaf48951544b02",
-      "public_label": "📰 NEWS",
-      "headline": "CUHK researchers perform Hong Kong’s first robot-assisted pelvic fracture surgery",
+      "story_id": "d834f2b23bc2927dd2c2dea8ad5105e5ddffa1f85f04d7029ae1210e65a804f2",
+      "public_label": "🔄 UPDATE",
+      "headline": "Drone strike wounds 13 in Tigray capital as fears of renewed war grow",
       "briefing": {
         "opening": [
-          "A team of researchers from the Chinese University of Hong Kong (CUHK) has conducted the city’s first robot-assisted pelvic fracture surgery in what promises to be a safer, less intrusive alternative to a procedure typically considered among the most challenging.",
-          "CUHK’s faculty of medicine on Friday said the novel orthopaedic robotic surgical system could turn a “new page” in trauma care amid a rising number of pelvic fracture cases among the city’s rapidly ageing population."
+          "A drone strike on Mekelle, the capital of Ethiopia’s Tigray region, injured at least 13 people, including five children, a hospital official said Thursday.",
+          "The attack comes amid growing tensions between federal and Tigrayan forces and fears the region could slide back into war."
         ],
-        "body": [
-          "Dr Ronald Wong..."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "A team of researchers from the Chinese University of Hong Kong (CUHK) has conducted the city’s first robot-assisted pelvic fracture surgery in what promises to be a safer, less intrusive alternative to a procedure typically considered among the most challenging.",
-            "source": "South China Morning Post",
-            "item_id": "5dd5c13c65a04601045dea42700de8f4a0c7dc6dd897fdf9ebaaf48951544b02",
-            "composed": false
-          },
-          {
-            "text": "CUHK’s faculty of medicine on Friday said the novel orthopaedic robotic surgical system could turn a “new page” in trauma care amid a rising number of pelvic fracture cases among the city’s rapidly ageing population.",
-            "source": "South China Morning Post",
-            "item_id": "5dd5c13c65a04601045dea42700de8f4a0c7dc6dd897fdf9ebaaf48951544b02",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3364843/cuhk-researchers-perform-hong-kongs-first-robot-assisted-pelvic-fracture-surgery?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "065612bd243f15c48aad2ab687f60975f40275ff0bc3062ca23362789ba6b0ca",
-      "title": "Six countries’ special force units to participate in competitions in Urals",
-      "url": "https://tass.com/defense/2176081",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "The competition includes a separate stage for sniper pairs and a military-style relay race – a total of eight competitive exercises have been planned for the participants",
-      "published_at": "2026-08-21T10:52:01+00:00",
-      "updated_at": "2026-08-21T10:52:01+00:00",
-      "effective_at": "2026-08-21T10:52:01+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "urals"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "377f496c4502796d999ca60a",
-      "importance_score": 30.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "security": 4
-        }
-      },
-      "story_id": "065612bd243f15c48aad2ab687f60975f40275ff0bc3062ca23362789ba6b0ca",
-      "article_sentences": [
-        "MOSCOW, August 21.",
-        "Teams from the special forces’ units of Belarus, Bosnia and Herzegovina, Kazakhstan, Kyrgyzstan, Mongolia, and Russia will take part in the seventh Vyzov 7 (Challenge 7) special forces competition, which will be held at the Russian Central Military District training ground in Yekaterinburg on August 24-30, the district’s press service told TASS.",
-        "\"During the competition, the teams will determine the best performers in handling several types of weapons – pistols, rifles, assault rifles, and sniper rifles – as well as in conducting assaults, rescuing simulated hostages, and evacuating from the battlefield.",
-        "In addition, the competition includes a separate stage for sniper pairs and a military-style relay race – a total of eight competitive exercises have been planned for the participants,\" the press service said.",
-        "It noted that the final event, the awards ceremony for the winners, and the competition closing ceremony, will take place on August 30."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Six countries’ special force units to participate in competitions in Urals",
-      "briefing": {
-        "opening": [
-          "MOSCOW, August 21.",
-          "Teams from the special forces’ units of Belarus, Bosnia and Herzegovina, Kazakhstan, Kyrgyzstan, Mongolia, and Russia will take part in the seventh Vyzov 7 (Challenge 7) special forces competition, which will be held at the Russian Central Military District training ground in Yekaterinburg on August 24-30, the district’s press service told TASS."
-        ],
-        "body": [
-          "\"During the competition, the teams will determine the best performers in handling several types of weapons – pistols, rifles, assault rifles, and sniper rifles – as well as in conducting assaults, rescuing simulated hostages, and evacuating from the battlefield.",
-          "In addition, the competition includes a separate stage for sniper pairs and a military-style relay race – a total of eight competitive exercises have been planned for the participants,\" the press service said.",
-          "It noted that the final event, the awards ceremony for the winners, and the competition closing ceremony, will take place on August 30."
-        ],
+        "body": [],
         "bullets": [
           {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Yekaterinburg"
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 13 people"
           }
         ],
         "sentences": [
           {
-            "text": "Teams from the special forces’ units of Belarus, Bosnia and Herzegovina, Kazakhstan, Kyrgyzstan, Mongolia, and Russia will take part in the seventh Vyzov 7 (Challenge 7) special forces competition, which will be held at the Russian Central Military District training ground in Yekaterinburg on August 24-30, the district’s press service told TASS.",
-            "source": "TASS English",
-            "item_id": "065612bd243f15c48aad2ab687f60975f40275ff0bc3062ca23362789ba6b0ca:article",
+            "text": "A drone strike on Mekelle, the capital of Ethiopia’s Tigray region, injured at least 13 people, including five children, a hospital official said Thursday.",
+            "source": "Africanews English",
+            "item_id": "d834f2b23bc2927dd2c2dea8ad5105e5ddffa1f85f04d7029ae1210e65a804f2",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 21.",
-            "source": "TASS English",
-            "item_id": "065612bd243f15c48aad2ab687f60975f40275ff0bc3062ca23362789ba6b0ca:article",
-            "composed": false
-          },
-          {
-            "text": "It noted that the final event, the awards ceremony for the winners, and the competition closing ceremony, will take place on August 30.",
-            "source": "TASS English",
-            "item_id": "065612bd243f15c48aad2ab687f60975f40275ff0bc3062ca23362789ba6b0ca:article",
+            "text": "The attack comes amid growing tensions between federal and Tigrayan forces and fears the region could slide back into war.",
+            "source": "Africanews English",
+            "item_id": "d834f2b23bc2927dd2c2dea8ad5105e5ddffa1f85f04d7029ae1210e65a804f2",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Africanews English",
         "corroborating": [],
-        "url": "https://tass.com/defense/2176081"
+        "url": "http://www.africanews.com/2026/08/21/drone-strike-wounds-13-in-tigray-capital-as-fears-of-renewed-war-grow/"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "4e28d70a614f32f2f43b0c1716dcca1fdf1a7e6698e5984ea743114b914f4ce7",
-      "title": "Hungary’s lakes and rivers hit record lows as severe drought deepens",
-      "url": "http://www.euronews.com/video/2026/08/21/hungarys-lakes-and-rivers-hit-record-lows-as-severe-drought-deepens",
-      "source": "Euronews",
-      "source_category": "world",
+      "id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d",
+      "title": "Mongolia hosts UN desertification summit as drought crisis deepens",
+      "url": "http://www.africanews.com/2026/08/21/mongolia-hosts-un-desertification-summit-as-drought-crisis-deepens/",
+      "source": "Africanews English",
+      "source_category": "africa",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Hungary is facing a severe water crisis, with prolonged heat and drought driving water levels sharply lower. Around 99% of the country is under severe or extreme drought, while desertification threatens the Great Hungarian Plain.",
-      "published_at": "2026-08-21T10:54:43+00:00",
-      "updated_at": "2026-08-21T10:54:43+00:00",
-      "effective_at": "2026-08-21T10:54:43+00:00",
+      "summary": "Held under the theme “Restoring Land, Restoring Hope”, UNCCD COP17 in Ulaanbaatar is focused on restoring degraded ecosystems, strengthening resilience to drought and securing funding for countries most affected by desertification. The talks come as land degradation threatens food production, water supplies and livelihoods, while Mongolia’s drylands face growing pressure from drought, overgrazing and desertification. At the opening on 17 August, speakers warned that existing restoration pledges were not being translated into action quickly enough, making funding and measurable projects a key test for the summit. The opening ceremony also highlighted Mongolian traditions. An 11-minute cultural programme featured a ceremonial dance, the traditional long song Erkhem tör and khoomei, a distinctive form of Mongolian throat singing. Performers associated with the Grand Theatre of National Art also presented a khadag, a traditional blue ceremonial scarf symbolising welcome and respect. On 20 August, around 50 Indigenous representatives and civil-society activists protested in Ulaanbaatar, calling for greater recognition of Indigenous Peoples’ rights and a more meaningful role in negotiations on land degradation, drought and desertification. They urged governments to ensure that Indigenous Peoples, pastoralists, local communities, women and young people could influence the formal process, rather than being confined largely to side events. Protesters also called for greater recognition of traditional knowledge and the rights of communities whose livelihoods depend directly on land and grazing areas. They argued that a dedicated Indigenous Peoples and Traditional Communities Caucus would have limited value without a meaningful influence on formal decisions. COP17 brings together representatives from 196 countries and the European Union and runs until 28 August.",
+      "published_at": "2026-08-21T10:41:09+00:00",
+      "updated_at": "2026-08-21T10:41:09+00:00",
+      "effective_at": "2026-08-21T10:41:09+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
@@ -238,34 +126,67 @@
       "urgency_terms": [],
       "sector": "agriculture",
       "subsector": "water",
-      "subregion": "Europe",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "great",
-        "hungarian",
-        "hungary",
-        "plain"
+        "art",
+        "caucus",
+        "communities",
+        "cop17",
+        "erkhem",
+        "european",
+        "grand",
+        "held",
+        "hope",
+        "indigenous",
+        "land",
+        "mongolia",
+        "mongolian",
+        "national",
+        "peoples",
+        "restoring",
+        "theatre",
+        "traditional",
+        "ulaanbaatar",
+        "un",
+        "unccd",
+        "union"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Euronews"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 73,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "4bd2b459ffe78a9357f3fc14",
-      "importance_score": 28.0,
+      "article_sentences": [
+        "Held under the theme “Restoring Land, Restoring Hope”, UNCCD COP17 in Ulaanbaatar is focused on restoring degraded ecosystems, strengthening resilience to drought and securing funding for countries most affected by desertification.",
+        "The talks come as land degradation threatens food production, water supplies and livelihoods, while Mongolia’s drylands face growing pressure from drought, overgrazing and desertification.",
+        "At the opening on 17 August, speakers warned that existing restoration pledges were not being translated into action quickly enough, making funding and measurable projects a key test for the summit.",
+        "The opening ceremony also highlighted Mongolian traditions.",
+        "An 11-minute cultural programme featured a ceremonial dance, the traditional long song Erkhem tör and khoomei, a distinctive form of Mongolian throat singing.",
+        "Performers associated with the Grand Theatre of National Art also presented a khadag, a traditional blue ceremonial scarf symbolising welcome and respect.",
+        "On 20 August, around 50 Indigenous representatives and civil-society activists protested in Ulaanbaatar, calling for greater recognition of Indigenous Peoples’ rights and a more meaningful role in negotiations on land degradation, drought and desertification.",
+        "They urged governments to ensure that Indigenous Peoples, pastoralists, local communities, women and young people could influence the formal process, rather than being confined largely to side events.",
+        "Protesters also called for greater recognition of traditional knowledge and the rights of communities whose livelihoods depend directly on land and grazing areas.",
+        "They argued that a dedicated Indigenous Peoples and Traditional Communities Caucus would have limited value without a meaningful influence on formal decisions.",
+        "COP17 brings together representatives from 196 countries and the European Union and runs until 28 August."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "6a8a9e4cbf5ab80825858b32",
+      "importance_score": 38.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "urgency": 8.0,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
+        "corroboration": 6,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -277,67 +198,397 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "geopolitical": 4
+        }
       },
-      "story_id": "4e28d70a614f32f2f43b0c1716dcca1fdf1a7e6698e5984ea743114b914f4ce7",
-      "public_label": "📰 NEWS",
-      "headline": "Hungary’s lakes and rivers hit record lows as severe drought deepens",
+      "story_id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d",
+      "public_label": "🔄 UPDATE",
+      "headline": "Mongolia hosts UN desertification summit as drought crisis deepens",
       "briefing": {
         "opening": [
-          "Hungary is facing a severe water crisis, with prolonged heat and drought driving water levels sharply lower.",
-          "Around 99% of the country is under severe or extreme drought, while desertification threatens the Great Hungarian Plain."
+          "Held under the theme “Restoring Land, Restoring Hope”, UNCCD COP17 in Ulaanbaatar is focused on restoring degraded ecosystems, strengthening resilience to drought and securing funding for countries most affected by desertification.",
+          "The talks come as land degradation threatens food production, water supplies and livelihoods, while Mongolia’s drylands face growing pressure from drought, overgrazing and desertification."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "At the opening on 17 August, speakers warned that existing restoration pledges were not being translated into action quickly enough, making funding and measurable projects a key test for the summit.",
+          "The opening ceremony also highlighted Mongolian traditions.",
+          "An 11-minute cultural programme featured a ceremonial dance, the traditional long song Erkhem tör and khoomei, a distinctive form of Mongolian throat singing.",
+          "Performers associated with the Grand Theatre of National Art also presented a khadag, a traditional blue ceremonial scarf symbolising welcome and respect.",
+          "On 20 August, around 50 Indigenous representatives and civil-society activists protested in Ulaanbaatar, calling for greater recognition of Indigenous Peoples’ rights and a more meaningful role in negotiations on land degradation, drought and desertification.",
+          "They urged governments to ensure that Indigenous Peoples, pastoralists, local communities, women and young people could influence the formal process, rather than being confined largely to side events.",
+          "Protesters also called for greater recognition of traditional knowledge and the rights of communities whose livelihoods depend directly on land and grazing areas.",
+          "They argued that a dedicated Indigenous Peoples and Traditional Communities Caucus would have limited value without a meaningful influence on formal decisions."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Ulaanbaatar"
+          }
+        ],
         "sentences": [
           {
-            "text": "Hungary is facing a severe water crisis, with prolonged heat and drought driving water levels sharply lower.",
-            "source": "Euronews",
-            "item_id": "4e28d70a614f32f2f43b0c1716dcca1fdf1a7e6698e5984ea743114b914f4ce7",
+            "text": "On 20 August, around 50 Indigenous representatives and civil-society activists protested in Ulaanbaatar, calling for greater recognition of Indigenous Peoples’ rights and a more meaningful role in negotiations on land degradation, drought and desertification.",
+            "source": "Africanews English",
+            "item_id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d:article",
             "composed": false
           },
           {
-            "text": "Around 99% of the country is under severe or extreme drought, while desertification threatens the Great Hungarian Plain.",
-            "source": "Euronews",
-            "item_id": "4e28d70a614f32f2f43b0c1716dcca1fdf1a7e6698e5984ea743114b914f4ce7",
+            "text": "Held under the theme “Restoring Land, Restoring Hope”, UNCCD COP17 in Ulaanbaatar is focused on restoring degraded ecosystems, strengthening resilience to drought and securing funding for countries most affected by desertification.",
+            "source": "Africanews English",
+            "item_id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d:article",
+            "composed": false
+          },
+          {
+            "text": "An 11-minute cultural programme featured a ceremonial dance, the traditional long song Erkhem tör and khoomei, a distinctive form of Mongolian throat singing.",
+            "source": "Africanews English",
+            "item_id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d:article",
+            "composed": false
+          },
+          {
+            "text": "At the opening on 17 August, speakers warned that existing restoration pledges were not being translated into action quickly enough, making funding and measurable projects a key test for the summit.",
+            "source": "Africanews English",
+            "item_id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d:article",
             "composed": false
           }
         ],
-        "source": "Euronews",
+        "source": "Africanews English",
         "corroborating": [],
-        "url": "http://www.euronews.com/video/2026/08/21/hungarys-lakes-and-rivers-hit-record-lows-as-severe-drought-deepens"
+        "url": "http://www.africanews.com/2026/08/21/mongolia-hosts-un-desertification-summit-as-drought-crisis-deepens/"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05",
+      "title": "Serie A: Key talking points heading into the new 2026-27 season",
+      "url": "https://www.aljazeera.com/sports/2026/8/21/serie-a-key-talking-points-heading-into-the-new-2026-27-season?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Holders Inter Milan face challenge from reinvigorated AC and Juventus, while Napoli and Roma look to bounce back. Expect northern Italian dominance to continue, as Serie. A kicks off its 125th season on Saturday. Inter, Juventus and Milan should be fighting it out for the scudetto – since 2001, the three teams have won all but two titles – with Napoli and Roma representing the south’s hopes. Inter captured last season’s championship in Cristian Chivu’s first season as manager, finishing 11 points ahead of Napoli. Serie A, though, is not what it used to be. With 12 Champions League titles, Italy ranks third on the list, behind Spain and England. No Italian club, however, has captured the Champions League since Inter in 2010, the Nerazzurri falling short in the finals in 2023 and 2025. Some blame the league’s decline on ageing stadiums, lack of player development, improved outside competition and diluted internal competition caused by too many teams at the top level. Serie A expanded to 20 teams in 2004, and proposals to return to 18 have been rejected. Al Jazeera Sport looks through the key talking points ahead of the new Serie. A season.",
+      "published_at": "2026-08-21T10:56:43+00:00",
+      "updated_at": "2026-08-21T10:56:43+00:00",
+      "effective_at": "2026-08-21T10:56:43+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "ac",
+        "al",
+        "champions",
+        "chivu",
+        "cristian",
+        "england",
+        "holders",
+        "inter",
+        "italian",
+        "italy",
+        "jazeera",
+        "juventus",
+        "key",
+        "league",
+        "milan",
+        "napoli",
+        "nerazzurri",
+        "roma",
+        "serie",
+        "spain",
+        "sport"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Holders Inter Milan face challenge from reinvigorated AC and Juventus, while Napoli and Roma look to bounce back.",
+        "Expect northern Italian dominance to continue, as Serie.",
+        "A kicks off its 125th season on Saturday.",
+        "Inter, Juventus and Milan should be fighting it out for the scudetto – since 2001, the three teams have won all but two titles – with Napoli and Roma representing the south’s hopes.",
+        "Inter captured last season’s championship in Cristian Chivu’s first season as manager, finishing 11 points ahead of Napoli.",
+        "Serie A, though, is not what it used to be.",
+        "With 12 Champions League titles, Italy ranks third on the list, behind Spain and England.",
+        "No Italian club, however, has captured the Champions League since Inter in 2010, the Nerazzurri falling short in the finals in 2023 and 2025.",
+        "Some blame the league’s decline on ageing stadiums, lack of player development, improved outside competition and diluted internal competition caused by too many teams at the top level.",
+        "Serie A expanded to 20 teams in 2004, and proposals to return to 18 have been rejected.",
+        "Al Jazeera Sport looks through the key talking points ahead of the new Serie.",
+        "A season."
+      ],
+      "event_status": "NEW",
+      "event_id": "57cb1fa991d3b94f5c45874a",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "cultural": 8
+        }
+      },
+      "story_id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05",
+      "public_label": "📰 NEWS",
+      "headline": "Serie A: Key talking points heading into the new 2026-27 season",
+      "briefing": {
+        "opening": [
+          "Holders Inter Milan face challenge from reinvigorated AC and Juventus, while Napoli and Roma look to bounce back.",
+          "Expect northern Italian dominance to continue, as Serie."
+        ],
+        "body": [
+          "A kicks off its 125th season on Saturday.",
+          "Inter, Juventus and Milan should be fighting it out for the scudetto – since 2001, the three teams have won all but two titles – with Napoli and Roma representing the south’s hopes.",
+          "Inter captured last season’s championship in Cristian Chivu’s first season as manager, finishing 11 points ahead of Napoli.",
+          "Serie.",
+          "A, though, is not what it used to be.",
+          "With 12 Champions League titles, Italy ranks third on the list, behind Spain and England.",
+          "No Italian club, however, has captured the Champions League since Inter in 2010, the Nerazzurri falling short in the finals in 2023 and 2025.",
+          "Some blame the league’s decline on ageing stadiums, lack of player development, improved outside competition and diluted internal competition caused by too many teams at the top level."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Cristian Chivu’s"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Expect northern Italian dominance to continue, as Serie.",
+            "source": "Al Jazeera",
+            "item_id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05:article",
+            "composed": false
+          },
+          {
+            "text": "Inter captured last season’s championship in Cristian Chivu’s first season as manager, finishing 11 points ahead of Napoli.",
+            "source": "Al Jazeera",
+            "item_id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05:article",
+            "composed": false
+          },
+          {
+            "text": "Milan should be fighting it out for the scudetto – since 2001, the three teams have won all but two titles – with Napoli and Roma representing the south’s hopes.",
+            "source": "Al Jazeera",
+            "item_id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05:article",
+            "composed": false
+          },
+          {
+            "text": "A kicks off its 125th season on Saturday.",
+            "source": "Al Jazeera",
+            "item_id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/sports/2026/8/21/serie-a-key-talking-points-heading-into-the-new-2026-27-season?traffic_source=rss"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "61b5a5deebc9afd2c0cd20ac8dcb81877e4ffe748d78eda5d355f9d379a99d86",
-      "title": "Germany’s gas reserves fall to record low — association",
-      "url": "https://tass.com/economy/2176083",
+      "id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8",
+      "title": "South Africa: Beauty Queen Chidimma Adetshina fights deportation",
+      "url": "http://www.africanews.com/2026/08/21/south-africa-beauty-queen-chidimma-adetshina-fights-deportation/",
+      "source": "Africanews English",
+      "source_category": "africa",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "South African beauty queen Chidimma Adetshina has maintained that she was born in the country and says she has been unfairly singled out as authorities seek to deport her. The 25-year-old is challenging a decision that declared her a prohibited person in South Africa. A legal case brought by the government seeking her detention was postponed on Wednesday, with the matter now expected to return to court in February 2027. Speaking outside the court in Cape Town, Adetshina said she had followed the legal process to establish her citizenship and accused authorities of trying to use her case as an example. “I remind everyone that I was born in South Africa,” she said. “I have applied through the proper legal channels to have my status and citizenship determined.” She also warned against allowing xenophobia and misinformation to influence how people are treated. Her comments came as protesters from anti-migrant group March and March gathered outside the court and called for her deportation. Some protesters followed her car as she left the building. Adetshina's citizenship has been under scrutiny since she became a finalist in the 2024 Miss South Africa competition. She was born in Soweto and grew up in Cape Town, according to previous interviews. Her mother, Anabela Rungo, has Mozambican roots, while her father is Nigerian.",
+      "published_at": "2026-08-21T10:34:31+00:00",
+      "updated_at": "2026-08-21T10:34:31+00:00",
+      "effective_at": "2026-08-21T10:34:31+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "human_rights",
+      "subregion": "Southern Africa",
+      "country": null,
+      "entities": [
+        "adetshina",
+        "african",
+        "anabela",
+        "beauty",
+        "cape",
+        "chidimma",
+        "miss",
+        "mozambican",
+        "nigerian",
+        "rungo",
+        "she",
+        "south_africa",
+        "soweto",
+        "town"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "South African beauty queen Chidimma Adetshina has maintained that she was born in the country and says she has been unfairly singled out as authorities seek to deport her.",
+        "The 25-year-old is challenging a decision that declared her a prohibited person in South Africa.",
+        "A legal case brought by the government seeking her detention was postponed on Wednesday, with the matter now expected to return to court in February 2027.",
+        "Speaking outside the court in Cape Town, Adetshina said she had followed the legal process to establish her citizenship and accused authorities of trying to use her case as an example.",
+        "“I remind everyone that I was born in South Africa,” she said.",
+        "“I have applied through the proper legal channels to have my status and citizenship determined.”",
+        "She also warned against allowing xenophobia and misinformation to influence how people are treated.",
+        "Her comments came as protesters from anti-migrant group March and March gathered outside the court and called for her deportation.",
+        "Some protesters followed her car as she left the building.",
+        "Adetshina's citizenship has been under scrutiny since she became a finalist in the 2024 Miss South Africa competition.",
+        "She was born in Soweto and grew up in Cape Town, according to previous interviews.",
+        "Her mother, Anabela Rungo, has Mozambican roots, while her father is Nigerian."
+      ],
+      "event_status": "NEW",
+      "event_id": "53d54a8741d16c024dc564aa",
+      "importance_score": 33.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8",
+      "public_label": "📰 NEWS",
+      "headline": "South Africa: Beauty Queen Chidimma Adetshina fights deportation",
+      "briefing": {
+        "opening": [
+          "South African beauty queen Chidimma Adetshina has maintained that she was born in the country and says she has been unfairly singled out as authorities seek to deport her.",
+          "The 25-year-old is challenging a decision that declared her a prohibited person in South Africa."
+        ],
+        "body": [
+          "Speaking outside the court in Cape Town, Adetshina said she had followed the legal process to establish her citizenship and accused authorities of trying to use her case as an example.",
+          "“I remind everyone that I was born in South Africa,” she said.",
+          "“I have applied through the proper legal channels to have my status and citizenship determined.” She also warned against allowing xenophobia and misinformation to influence how people are treated.",
+          "Her comments came as protesters from anti-migrant group March and March gathered outside the court and called for her deportation.",
+          "Some protesters followed her car as she left the building.",
+          "Adetshina's citizenship has been under scrutiny since she became a finalist in the 2024 Miss South Africa competition.",
+          "She was born in Soweto and grew up in Cape Town, according to previous interviews."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "South Africa"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "A legal case brought by the government seeking her detention was postponed on Wednesday, with the matter now expected to return to court in February 2027."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A legal case brought by the government seeking her detention was postponed on Wednesday, with the matter now expected to return to court in February 2027.",
+            "source": "Africanews English",
+            "item_id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8:article",
+            "composed": false
+          },
+          {
+            "text": "The 25-year-old is challenging a decision that declared her a prohibited person in South Africa.",
+            "source": "Africanews English",
+            "item_id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8:article",
+            "composed": false
+          },
+          {
+            "text": "Adetshina's citizenship has been under scrutiny since she became a finalist in the 2024 Miss South Africa competition.",
+            "source": "Africanews English",
+            "item_id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8:article",
+            "composed": false
+          },
+          {
+            "text": "Speaking outside the court in Cape Town, Adetshina said she had followed the legal process to establish her citizenship and accused authorities of trying to use her case as an example.",
+            "source": "Africanews English",
+            "item_id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8:article",
+            "composed": false
+          }
+        ],
+        "source": "Africanews English",
+        "corroborating": [],
+        "url": "http://www.africanews.com/2026/08/21/south-africa-beauty-queen-chidimma-adetshina-fights-deportation/"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792",
+      "title": "Ukraine faces extremely negative situation on agricultural market",
+      "url": "https://tass.com/world/2176095",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "Managing Director Sebastian Heinermann said that gas storage facilities are currently 49% full, compared with 67% at the same time last year",
-      "published_at": "2026-08-21T10:55:14+00:00",
-      "updated_at": "2026-08-21T10:55:14+00:00",
-      "effective_at": "2026-08-21T10:55:14+00:00",
+      "summary": "Experts noted that the difference between 2022 and the current situation lies in prices",
+      "published_at": "2026-08-21T11:06:30+00:00",
+      "updated_at": "2026-08-21T11:06:30+00:00",
+      "effective_at": "2026-08-21T11:06:30+00:00",
       "language_status": "ENGLISH",
-      "category": "industry",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "oil_gas",
+      "sector": "other",
+      "subsector": "general",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "germany",
-        "heinermann",
-        "managing",
-        "sebastian"
+        "experts",
+        "ukraine"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -347,7 +598,7 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "2253f789effc522938e00f8b",
+      "event_id": "cbf0c5823020a74e11cbe6a1",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -372,74 +623,183 @@
         },
         "significance_dims": {}
       },
-      "story_id": "61b5a5deebc9afd2c0cd20ac8dcb81877e4ffe748d78eda5d355f9d379a99d86",
+      "story_id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792",
       "article_sentences": [
-        "BERLIN, August 21.",
-        "Germany’s Association of Gas Storage Operators (INES) said the country’s gas storage facilities are currently less full than at any time since records began in 2011.",
-        "\"The current gas storage level is by far the lowest ever recorded in Germany for this time of year,\" INES Managing Director Sebastian Heinermann told DPA.",
-        "\"We are therefore dealing with a historic low,\" he said.",
-        "Heinermann stressed that gas storage facilities are currently 49% full, compared with 67% at the same time last year.",
-        "Even if all currently booked capacity – which amounts to 78% of Germany’s total gas storage capacity – is fully utilized by winter, the volume of gas accumulated would not be sufficient to fully meet demand in the event of extremely low temperatures.",
-        "At present, the cost of purchasing gas is often higher than the price at which it can be sold in winter.",
-        "As a result, companies have little economic incentive to inject gas into storage.",
-        "On August 20, Germany’s Economy Ministry said it did not expect a gas shortage this winter.",
-        "The ministry believes that preparing for winter is primarily the responsibility of the private sector, including gas companies and traders.",
-        "Government intervention carries risks, it said.",
-        "Nevertheless, the German government is \"preparing the necessary options for action\" should the situation deteriorate, the ministry explained."
+        "MOSCOW, August 21.",
+        "The situation on Ukraine’s agricultural market is becoming critical and is developing into a perfect storm that is hitting agricultural producers particularly hard, Ukraine’s industry publication Agroportal reported after surveying sector experts.",
+        "The publication noted that agricultural exports from the Greater Odessa ports have been completely blocked at the height of the harvest season, but the current situation is far more critical than in 2022 because agricultural producers now need working capital both for the planting season and to meet their debt obligations to banks, while farmers are unable to receive initial proceeds from the sale of their harvest.",
+        "However, experts noted that the difference between 2022 and the current situation lies in prices.",
+        "In 2022, grain cost $380-400 per metric ton, and that price was high enough to absorb the increase in logistics costs.",
+        "Today, with grain priced at around $230 per metric ton, higher logistics costs make exporting agricultural products unprofitable."
       ],
       "public_label": "📰 NEWS",
-      "headline": "Germany’s gas reserves fall to record low — association",
+      "headline": "Ukraine faces extremely negative situation on agricultural market",
       "briefing": {
         "opening": [
-          "BERLIN, August 21.",
-          "Germany’s Association of Gas Storage Operators (INES) said the country’s gas storage facilities are currently less full than at any time since records began in 2011."
+          "MOSCOW, August 21.",
+          "The situation on Ukraine’s agricultural market is becoming critical and is developing into a perfect storm that is hitting agricultural producers particularly hard, Ukraine’s industry publication Agroportal reported after surveying sector experts."
         ],
         "body": [
-          "\"The current gas storage level is by far the lowest ever recorded in Germany for this time of year,\" INES Managing Director Sebastian Heinermann told DPA.",
-          "\"We are therefore dealing with a historic low,\" he said.",
-          "Heinermann stressed that gas storage facilities are currently 49% full, compared with 67% at the same time last year.",
-          "At present, the cost of purchasing gas is often higher than the price at which it can be sold in winter.",
-          "As a result, companies have little economic incentive to inject gas into storage.",
-          "On August 20, Germany’s Economy Ministry said it did not expect a gas shortage this winter.",
-          "The ministry believes that preparing for winter is primarily the responsibility of the private sector, including gas companies and traders.",
-          "Government intervention carries risks, it said."
+          "The publication noted that agricultural exports from the Greater Odessa ports have been completely blocked at the height of the harvest season, but the current situation is far more critical than in 2022 because agricultural producers now need working capital both for the planting season and to meet their debt obligations to banks, while farmers are unable to receive initial proceeds from the sale of their harvest.",
+          "However, experts noted that the difference between 2022 and the current situation lies in prices.",
+          "In 2022, grain cost $380-400 per metric ton, and that price was high enough to absorb the increase in logistics costs.",
+          "Today, with grain priced at around $230 per metric ton, higher logistics costs make exporting agricultural products unprofitable."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Germany"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Heinermann stressed that gas storage facilities are currently 49% full, compared with 67% at the same time last year.",
+            "text": "MOSCOW, August 21.",
             "source": "TASS English",
-            "item_id": "61b5a5deebc9afd2c0cd20ac8dcb81877e4ffe748d78eda5d355f9d379a99d86:article",
+            "item_id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792:article",
             "composed": false
           },
           {
-            "text": "BERLIN, August 21.",
+            "text": "The publication noted that agricultural exports from the Greater Odessa ports have been completely blocked at the height of the harvest season, but the current situation is far more critical than in 2022 because agricultural producers now need working capital both for the planting season and to meet their debt obligations to banks, while farmers are unable to receive initial proceeds from the sale of their harvest.",
             "source": "TASS English",
-            "item_id": "61b5a5deebc9afd2c0cd20ac8dcb81877e4ffe748d78eda5d355f9d379a99d86:article",
+            "item_id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792:article",
             "composed": false
           },
           {
-            "text": "On August 20, Germany’s Economy Ministry said it did not expect a gas shortage this winter.",
+            "text": "In 2022, grain cost $380-400 per metric ton, and that price was high enough to absorb the increase in logistics costs.",
             "source": "TASS English",
-            "item_id": "61b5a5deebc9afd2c0cd20ac8dcb81877e4ffe748d78eda5d355f9d379a99d86:article",
+            "item_id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792:article",
             "composed": false
           },
           {
-            "text": "Germany’s Association of Gas Storage Operators (INES) said the country’s gas storage facilities are currently less full than at any time since records began in 2011.",
+            "text": "Today, with grain priced at around $230 per metric ton, higher logistics costs make exporting agricultural products unprofitable.",
             "source": "TASS English",
-            "item_id": "61b5a5deebc9afd2c0cd20ac8dcb81877e4ffe748d78eda5d355f9d379a99d86:article",
+            "item_id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/economy/2176083"
+        "url": "https://tass.com/world/2176095"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "1da4d424fbf9316e5d523d5dbbafb26b762c03412878f942b8638930c87dbaa6",
+      "title": "En+ energy business IFRS net profit rises by 8.9% to $490 mln in 1H",
+      "url": "https://tass.com/economy/2176091",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Revenue for the six-month period increased by 22.9% to $2.9 bln",
+      "published_at": "2026-08-21T11:04:07+00:00",
+      "updated_at": "2026-08-21T11:04:07+00:00",
+      "effective_at": "2026-08-21T11:04:07+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "companies",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "ifrs",
+        "revenue"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "b020f01a536d797f88747e86",
+      "importance_score": 27.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "1da4d424fbf9316e5d523d5dbbafb26b762c03412878f942b8638930c87dbaa6",
+      "article_sentences": [
+        "MOSCOW, August 21.",
+        "The net profit of En+’s energy segment under the International Financial Reporting Standards (IFRS) amounted to $490 mln in January-June 2026, up 8.9% from the same period a year earlier, according to the company’s report.",
+        "The group’s energy business adjusted EBITDA rose by 35.5% to $1.1 bln.",
+        "Revenue for the six-month period increased by 22.9% to $2.9 bln, driven primarily by higher electricity prices and an overall increase in generation.",
+        "Revenue from electricity sales amounted to $1.5 bln, up 22.7% from the first half of 2025.",
+        "Revenue from capacity sales rose 17% to $460 mln.",
+        "The adjusted EBITDA margin increased by 3.5 percentage points to 38.1%.",
+        "En+ is a vertically integrated aluminum and power producer.",
+        "It combines power plants with 19.4 GW of installed capacity and aluminum production facilities with annual capacity of 4.2 mln metric tons through its controlling stake in Rusal.",
+        "En+’s main shareholders are company founder Oleg Deripaska, who owns 44.95%, with his voting rights capped at 35%, and commodities trader Glencore with 10.55%.",
+        "Treasury shares account for 21.37%, while the free float stands at 13.95%."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "En+ energy business IFRS net profit rises by 8.9% to $490 mln in 1H",
+      "briefing": {
+        "opening": [
+          "MOSCOW, August 21.",
+          "The net profit of En+’s energy segment under the International Financial Reporting Standards (IFRS) amounted to $490 mln in January-June 2026, up 8.9% from the same period a year earlier, according to the company’s report."
+        ],
+        "body": [
+          "The group’s energy business adjusted EBITDA rose by 35.5% to $1.1 bln.",
+          "Revenue for the six-month period increased by 22.9% to $2.9 bln, driven primarily by higher electricity prices and an overall increase in generation.",
+          "Revenue from capacity sales rose 17% to $460 mln.",
+          "En+ is a vertically integrated aluminum and power producer.",
+          "It combines power plants with 19.4 GW of installed capacity and aluminum production facilities with annual capacity of 4.2 mln metric tons through its controlling stake in Rusal.",
+          "En+’s main shareholders are company founder Oleg Deripaska, who owns 44.95%, with his voting rights capped at 35%, and commodities trader Glencore with 10.55%.",
+          "Treasury shares account for 21.37%, while the free float stands at 13.95%.",
+          "Revenue for the six-month period increased by 22.9% to $2.9 bln."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "January-June"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "It combines power plants with 19.4 GW of installed capacity and aluminum production facilities with annual capacity of 4.2 mln metric tons through its controlling stake in Rusal.",
+            "source": "TASS English",
+            "item_id": "1da4d424fbf9316e5d523d5dbbafb26b762c03412878f942b8638930c87dbaa6:article",
+            "composed": false
+          },
+          {
+            "text": "En+’s main shareholders are company founder Oleg Deripaska, who owns 44.95%, with his voting rights capped at 35%, and commodities trader Glencore with 10.55%.",
+            "source": "TASS English",
+            "item_id": "1da4d424fbf9316e5d523d5dbbafb26b762c03412878f942b8638930c87dbaa6:article",
+            "composed": false
+          },
+          {
+            "text": "The group’s energy business adjusted EBITDA rose by 35.5% to $1.1 bln.",
+            "source": "TASS English",
+            "item_id": "1da4d424fbf9316e5d523d5dbbafb26b762c03412878f942b8638930c87dbaa6:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/economy/2176091"
       },
       "group_size": 1,
       "label": "📰 NEWS"
