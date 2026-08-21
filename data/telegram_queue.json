@@ -1,68 +1,231 @@
 {
-  "generated_at": "2026-08-21T07:00:34.237248+00:00",
-  "count": 2,
+  "generated_at": "2026-08-21T07:07:59.044593+00:00",
+  "count": 5,
   "stories": [
     {
-      "id": "fa8f253204a750317e08f1ec23a235be4800fc4b4f3bcdcaaf08a7362e6474ef",
-      "title": "Russian-Australian to appear in court charged with spying on Ukraine military",
-      "url": "https://www.straitstimes.com/asia/russian-australian-arrested-for-attempting-to-spy-on-ukraine-military",
-      "source": "Straits Times Asia",
-      "source_category": "world",
+      "id": "fa3e3d47c0a048402d65f9650fb77fc578ed005bd4863fac2ba1dc5f39333a40",
+      "title": "Kyiv residents search through the wreckage after Russia’s deadly barrage",
+      "url": "http://www.africanews.com/2026/08/21/kyiv-residents-search-through-the-wreckage-after-russias-deadly-barrage/",
+      "source": "Africanews English",
+      "source_category": "africa",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "A dual Russian-Australian citizen is set to appear in court on Friday after being charged with foreign interference, for trying to give Ukrainian military information to people he believed were linked to Russian intelligence. The 27-year-old, who will face a judge in the northern city of Brisbane, is accused by Australian federal police of having joined the Ukrainian armed forces in May 2025 and sharing information he obtained there. If proved, the charge carries a maximum penalty of 20 years' imprisonment. The man could not be reached for comment. A spokesperson for Russia's embassy in Canberra said it first learnt of the case from media reports, and received no official communications from either the Australian authorities or the suspect. He is accused of travelling to Russia in October 2024 for military-style training, before returning to Australia that December. He then joined the Ukrainian armed forces. Authorities said there is nothing to suggest a current threat to Australia, though their investigation continues. \"Foreign interference is an insidious crime and has a bigger impact on Australia than many people realise,\" AFP Commissioner Krissy Barrett said in a statement.",
-      "published_at": "2026-08-21T05:07:16+00:00",
-      "updated_at": "2026-08-21T05:07:16+00:00",
-      "effective_at": "2026-08-21T05:07:16+00:00",
+      "summary": "The attack began shortly after midnight on 20 August and lasted for nearly nine hours. In Solomianskyi, the upper floors of a nine-storey apartment block were destroyed, killing at least eight people and leaving others trapped beneath the rubble. Emergency crews rescued 12 residents as they searched the wreckage for survivors. Rescuers worked through the debris as residents inspected shattered windows, damaged homes and burned vehicles. The strike also damaged nearby civilian infrastructure, including a school and a children’s hospital, according to Ukrainian authorities. Mayor Vitali Klitschko said the attack caused extensive damage in three Kyiv districts, with Solomianskyi among the areas hit hardest. The strikes damaged residential buildings and critical infrastructure, while emergency services remained at the scene to clear rubble and secure unsafe structures. The attack highlighted the vulnerability of Kyiv’s civilian areas to Russian ballistic missiles, which are difficult to intercept. President Volodymyr Zelenskyy said Ukraine urgently needed more air-defence interceptors, including Patriot systems capable of engaging some of Russia’s ballistic missiles. Kyiv authorities declared Friday, 21 August, a day of mourning for those killed in the attack. Flags were flown at half-mast and public entertainment events were cancelled across the capital.",
+      "published_at": "2026-08-21T07:00:57+00:00",
+      "updated_at": "2026-08-21T07:00:57+00:00",
+      "effective_at": "2026-08-21T07:00:57+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
+      "category": "world",
+      "score": 73,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "courts",
+      "urgency_terms": [
+        "missile"
+      ],
+      "sector": "geopolitics",
+      "subsector": "conflict",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "afp",
-        "australia",
-        "australian",
-        "barrett",
-        "brisbane",
-        "canberra",
-        "commissioner",
-        "krissy",
+        "klitschko",
+        "patriot",
         "russia",
-        "russian-australian",
-        "ukraine"
+        "solomianskyi",
+        "ukraine",
+        "vitali",
+        "volodymyr",
+        "zelenskyy"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Euronews"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 100,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "article_sentences": [
+        "The attack began shortly after midnight on 20 August and lasted for nearly nine hours.",
+        "In Solomianskyi, the upper floors of a nine-storey apartment block were destroyed, killing at least eight people and leaving others trapped beneath the rubble.",
+        "Emergency crews rescued 12 residents as they searched the wreckage for survivors.",
+        "Rescuers worked through the debris as residents inspected shattered windows, damaged homes and burned vehicles.",
+        "The strike also damaged nearby civilian infrastructure, including a school and a children’s hospital, according to Ukrainian authorities.",
+        "Mayor Vitali Klitschko said the attack caused extensive damage in three Kyiv districts, with Solomianskyi among the areas hit hardest.",
+        "The strikes damaged residential buildings and critical infrastructure, while emergency services remained at the scene to clear rubble and secure unsafe structures.",
+        "The attack highlighted the vulnerability of Kyiv’s civilian areas to Russian ballistic missiles, which are difficult to intercept.",
+        "President Volodymyr Zelenskyy said Ukraine urgently needed more air-defence interceptors, including Patriot systems capable of engaging some of Russia’s ballistic missiles.",
+        "Kyiv authorities declared Friday, 21 August, a day of mourning for those killed in the attack.",
+        "Flags were flown at half-mast and public entertainment events were cancelled across the capital."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "0e167e7c6dee3875cf621001",
+      "importance_score": 68.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 9.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 6,
+        "significance": 18,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 21,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "human": 10,
+          "security": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "fa3e3d47c0a048402d65f9650fb77fc578ed005bd4863fac2ba1dc5f39333a40",
+      "public_label": "🔄 UPDATE",
+      "headline": "Kyiv residents search through the wreckage after Russia’s deadly barrage",
+      "briefing": {
+        "opening": [
+          "The attack began shortly after midnight on 20 August and lasted for nearly nine hours.",
+          "In Solomianskyi, the upper floors of a nine-storey apartment block were destroyed, killing at least eight people and leaving others trapped beneath the rubble."
+        ],
+        "body": [
+          "Emergency crews rescued 12 residents as they searched the wreckage for survivors.",
+          "Rescuers worked through the debris as residents inspected shattered windows, damaged homes and burned vehicles.",
+          "The strike also damaged nearby civilian infrastructure, including a school and a children’s hospital, according to Ukrainian authorities.",
+          "Mayor Vitali Klitschko said the attack caused extensive damage in three Kyiv districts, with Solomianskyi among the areas hit hardest.",
+          "The strikes damaged residential buildings and critical infrastructure, while emergency services remained at the scene to clear rubble and secure unsafe structures.",
+          "The attack highlighted the vulnerability of Kyiv’s civilian areas to Russian ballistic missiles, which are difficult to intercept.",
+          "President Volodymyr Zelenskyy said Ukraine urgently needed more air-defence interceptors, including Patriot systems capable of engaging some of Russia’s ballistic missiles.",
+          "Kyiv authorities declared Friday, 21 August, a day of mourning for those killed in the attack."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "12 residents"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Kyiv authorities declared Friday, 21 August, a day of mourning for those killed in the attack.",
+            "source": "Africanews English",
+            "item_id": "fa3e3d47c0a048402d65f9650fb77fc578ed005bd4863fac2ba1dc5f39333a40:article",
+            "composed": false
+          },
+          {
+            "text": "The attack began shortly after midnight on 20 August and lasted for nearly nine hours.",
+            "source": "Africanews English",
+            "item_id": "fa3e3d47c0a048402d65f9650fb77fc578ed005bd4863fac2ba1dc5f39333a40:article",
+            "composed": false
+          },
+          {
+            "text": "Emergency crews rescued 12 residents as they searched the wreckage for survivors.",
+            "source": "Africanews English",
+            "item_id": "fa3e3d47c0a048402d65f9650fb77fc578ed005bd4863fac2ba1dc5f39333a40:article",
+            "composed": false
+          },
+          {
+            "text": "In Solomianskyi, the upper floors of a nine-storey apartment block were destroyed, killing at least eight people and leaving others trapped beneath the rubble.",
+            "source": "Africanews English",
+            "item_id": "fa3e3d47c0a048402d65f9650fb77fc578ed005bd4863fac2ba1dc5f39333a40:article",
+            "composed": false
+          }
+        ],
+        "source": "Africanews English",
+        "corroborating": [],
+        "url": "http://www.africanews.com/2026/08/21/kyiv-residents-search-through-the-wreckage-after-russias-deadly-barrage/"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "3b2663dbfcb15763dc88f2d240a003f0aa0c58fff72f445578d19ddc5435d87e",
+      "title": "Thai queen Suthida undergoes advanced Gripen fighter flight training",
+      "url": "https://www.straitstimes.com/asia/se-asia/thai-queen-suthida-undergoes-advanced-gripen-fighter-flight-training",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Queen Suthida of Thailand is undergoing Gripen fighter flight training, aiming to become the first reigning queen to fly a fighter aircraft. She has extensive aviation experience, including military, civilian, and commercial pilot licences, and prior training on advanced jet trainers. The training programme is supervised by Royal Thai Air Force experts and progresses through standard stages towards a solo Gripen flight. Queen Suthida Bajrasudhabimalalakshana of Thailand is undertaking a Gripen fighter flight-training programme at Wing 7 in Surat Thani. The privately undertaken programme, scheduled to run from Aug 20 to Sept 4, is expected to progress through the Royal Thai Air Force’s standard training stages towards a solo flight. Flight instructors and aviation specialists are overseeing the programme and providing guidance throughout the training, the reports stated. The reports described successful completion of the programme as potentially making Queen Suthida the first reigning queen to fly a fighter aircraft. She is the wife of Thailand’s King Maha Vajiralongkorn. Before beginning the Gripen programme, Queen Suthida reportedly trained on the L-39 advanced jet trainer at the Royal Thai Air Force Flying Training School in Kamphaeng Saen district, Nakhon Pathom. Queen Suthida also completed several simulator sessions, including recent training at the Royal Thai Air Force facility in Don Mueang. She has made several private visits to Wing 7, the principal operating base for Thailand’s Gripen 39 C/D fleet, to study the aircraft’s technical systems and speak with operational pilots. The Royal Thai Air Force marked the 15th anniversary of the entry into service of its Gripen 39 C/D fighters and Saab 340 airborne early-warning aircraft at Wing 7 in July.",
+      "published_at": "2026-08-21T07:00:00+00:00",
+      "updated_at": "2026-08-21T07:00:00+00:00",
+      "effective_at": "2026-08-21T07:00:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "transport",
+      "subsector": "aviation",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "air",
+        "aug",
+        "bajrasudhabimalalakshana",
+        "don",
+        "flying",
+        "force",
+        "gripen",
+        "kamphaeng",
+        "l-39",
+        "maha",
+        "mueang",
+        "nakhon",
+        "pathom",
+        "royal",
+        "saab",
+        "saen",
+        "school",
+        "sept",
+        "surat",
+        "suthida",
+        "thai",
+        "thailand",
+        "thani",
+        "training",
+        "vajiralongkorn",
+        "wing"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "A dual Russian-Australian citizen is set to appear in court on Friday after being charged with foreign interference, for trying to give Ukrainian military information to people he believed were linked to Russian intelligence.",
-        "The 27-year-old, who will face a judge in the northern city of Brisbane, is accused by Australian federal police of having joined the Ukrainian armed forces in May 2025 and sharing information he obtained there.",
-        "If proved, the charge carries a maximum penalty of 20 years' imprisonment.",
-        "The man could not be reached for comment.",
-        "A spokesperson for Russia's embassy in Canberra said it first learnt of the case from media reports, and received no official communications from either the Australian authorities or the suspect.",
-        "He is accused of travelling to Russia in October 2024 for military-style training, before returning to Australia that December.",
-        "He then joined the Ukrainian armed forces.",
-        "Authorities said there is nothing to suggest a current threat to Australia, though their investigation continues.",
-        "\"Foreign interference is an insidious crime and has a bigger impact on Australia than many people realise,\" AFP Commissioner Krissy Barrett said in a statement."
+        "Queen Suthida of Thailand is undergoing Gripen fighter flight training, aiming to become the first reigning queen to fly a fighter aircraft.",
+        "She has extensive aviation experience, including military, civilian, and commercial pilot licences, and prior training on advanced jet trainers.",
+        "The training programme is supervised by Royal Thai Air Force experts and progresses through standard stages towards a solo Gripen flight.",
+        "Queen Suthida Bajrasudhabimalalakshana of Thailand is undertaking a Gripen fighter flight-training programme at Wing 7 in Surat Thani.",
+        "The privately undertaken programme, scheduled to run from Aug 20 to Sept 4, is expected to progress through the Royal Thai Air Force’s standard training stages towards a solo flight.",
+        "Flight instructors and aviation specialists are overseeing the programme and providing guidance throughout the training, the reports stated.",
+        "The reports described successful completion of the programme as potentially making Queen Suthida the first reigning queen to fly a fighter aircraft.",
+        "She is the wife of Thailand’s King Maha Vajiralongkorn.",
+        "Before beginning the Gripen programme, Queen Suthida reportedly trained on the L-39 advanced jet trainer at the Royal Thai Air Force Flying Training School in Kamphaeng Saen district, Nakhon Pathom.",
+        "Queen Suthida also completed several simulator sessions, including recent training at the Royal Thai Air Force facility in Don Mueang.",
+        "She has made several private visits to Wing 7, the principal operating base for Thailand’s Gripen 39 C/D fleet, to study the aircraft’s technical systems and speak with operational pilots.",
+        "The Royal Thai Air Force marked the 15th anniversary of the entry into service of its Gripen 39 C/D fighters and Saab 340 airborne early-warning aircraft at Wing 7 in July."
       ],
       "event_status": "NEW",
-      "event_id": "c1cafa0603c1c0cb84e9329b",
-      "importance_score": 36.0,
+      "event_id": "8502beaa9860804e239d098a",
+      "importance_score": 38.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 9.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
@@ -82,98 +245,129 @@
         },
         "significance_dims": {
           "security": 4,
-          "geopolitical": 4
+          "scientific": 4
         }
       },
-      "story_id": "fa8f253204a750317e08f1ec23a235be4800fc4b4f3bcdcaaf08a7362e6474ef",
+      "story_id": "3b2663dbfcb15763dc88f2d240a003f0aa0c58fff72f445578d19ddc5435d87e",
       "public_label": "📰 NEWS",
-      "headline": "Russian-Australian to appear in court charged with spying on Ukraine military",
+      "headline": "Thai queen Suthida undergoes advanced Gripen fighter flight training",
       "briefing": {
         "opening": [
-          "A dual Russian-Australian citizen is set to appear in court on Friday after being charged with foreign interference, for trying to give Ukrainian military information to people he believed were linked to Russian intelligence.",
-          "The 27-year-old, who will face a judge in the northern city of Brisbane, is accused by Australian federal police of having joined the Ukrainian armed forces in May 2025 and sharing information he obtained there."
+          "Queen Suthida of Thailand is undergoing Gripen fighter flight training, aiming to become the first reigning queen to fly a fighter aircraft.",
+          "She has extensive aviation experience, including military, civilian, and commercial pilot licences, and prior training on advanced jet trainers."
         ],
         "body": [
-          "If proved, the charge carries a maximum penalty of 20 years' imprisonment.",
-          "The man could not be reached for comment.",
-          "A spokesperson for Russia's embassy in Canberra said it first learnt of the case from media reports, and received no official communications from either the Australian authorities or the suspect.",
-          "He is accused of travelling to Russia in October 2024 for military-style training, before returning to Australia that December.",
-          "He then joined the Ukrainian armed forces.",
-          "Authorities said there is nothing to suggest a current threat to Australia, though their investigation continues.",
-          "\"Foreign interference is an insidious crime and has a bigger impact on Australia than many people realise,\" AFP Commissioner Krissy Barrett said in a statement."
+          "The training programme is supervised by Royal Thai Air Force experts and progresses through standard stages towards a solo Gripen flight.",
+          "Queen Suthida Bajrasudhabimalalakshana of Thailand is undertaking a Gripen fighter flight-training programme at Wing 7 in Surat Thani.",
+          "Flight instructors and aviation specialists are overseeing the programme and providing guidance throughout the training, the reports stated.",
+          "The reports described successful completion of the programme as potentially making Queen Suthida the first reigning queen to fly a fighter aircraft.",
+          "She is the wife of Thailand’s King Maha Vajiralongkorn.",
+          "Before beginning the Gripen programme, Queen Suthida reportedly trained on the L-39 advanced jet trainer at the Royal Thai Air Force Flying Training School in Kamphaeng Saen district, Nakhon Pathom.",
+          "Queen Suthida also completed several simulator sessions, including recent training at the Royal Thai Air Force facility in Don Mueang."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "May"
+            "text": "Wing"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The privately undertaken programme, scheduled to run from Aug 20 to Sept 4, is expected to progress through the Royal Thai Air Force’s standard training stages towards a solo flight."
           }
         ],
         "sentences": [
           {
-            "text": "The 27-year-old, who will face a judge in the northern city of Brisbane, is accused by Australian federal police of having joined the Ukrainian armed forces in May 2025 and sharing information he obtained there.",
+            "text": "The privately undertaken programme, scheduled to run from Aug 20 to Sept 4, is expected to progress through the Royal Thai Air Force’s standard training stages towards a solo flight.",
             "source": "Straits Times Asia",
-            "item_id": "fa8f253204a750317e08f1ec23a235be4800fc4b4f3bcdcaaf08a7362e6474ef:article",
+            "item_id": "3b2663dbfcb15763dc88f2d240a003f0aa0c58fff72f445578d19ddc5435d87e:article",
             "composed": false
           },
           {
-            "text": "He is accused of travelling to Russia in October 2024 for military-style training, before returning to Australia that December.",
+            "text": "Queen Suthida Bajrasudhabimalalakshana of Thailand is undertaking a Gripen fighter flight-training programme at Wing 7 in Surat Thani.",
             "source": "Straits Times Asia",
-            "item_id": "fa8f253204a750317e08f1ec23a235be4800fc4b4f3bcdcaaf08a7362e6474ef:article",
+            "item_id": "3b2663dbfcb15763dc88f2d240a003f0aa0c58fff72f445578d19ddc5435d87e:article",
             "composed": false
           },
           {
-            "text": "A spokesperson for Russia's embassy in Canberra said it first learnt of the case from media reports, and received no official communications from either the Australian authorities or the suspect.",
+            "text": "Before beginning the Gripen programme, Queen Suthida reportedly trained on the L-39 advanced jet trainer at the Royal Thai Air Force Flying Training School in Kamphaeng Saen district, Nakhon Pathom.",
             "source": "Straits Times Asia",
-            "item_id": "fa8f253204a750317e08f1ec23a235be4800fc4b4f3bcdcaaf08a7362e6474ef:article",
+            "item_id": "3b2663dbfcb15763dc88f2d240a003f0aa0c58fff72f445578d19ddc5435d87e:article",
             "composed": false
           },
           {
-            "text": "A dual Russian-Australian citizen is set to appear in court on Friday after being charged with foreign interference, for trying to give Ukrainian military information to people he believed were linked to Russian intelligence.",
+            "text": "Queen Suthida also completed several simulator sessions, including recent training at the Royal Thai Air Force facility in Don Mueang.",
             "source": "Straits Times Asia",
-            "item_id": "fa8f253204a750317e08f1ec23a235be4800fc4b4f3bcdcaaf08a7362e6474ef:article",
+            "item_id": "3b2663dbfcb15763dc88f2d240a003f0aa0c58fff72f445578d19ddc5435d87e:article",
             "composed": false
           }
         ],
         "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/russian-australian-arrested-for-attempting-to-spy-on-ukraine-military"
+        "url": "https://www.straitstimes.com/asia/se-asia/thai-queen-suthida-undergoes-advanced-gripen-fighter-flight-training"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "54f86a315093901f9a17b13b35ac3b1a5afcf27ee486ecb3730ea3cdb51afa9c",
-      "title": "Russian strike brings Ukrainian industrial site in Brovary near Kiev offline — top brass",
-      "url": "https://tass.com/politics/2175941",
-      "source": "TASS English",
+      "id": "95ed1fb22a580754f2bf9b37201d674fd17d2aa637a035c3b6fec53272bb42da",
+      "title": "‘Very unusual’: UK Palestine activists could be sentenced as terrorists",
+      "url": "https://www.aljazeera.com/news/2026/8/21/very-unusual-uk-palestine-activists-could-be-sentenced-as-terrorists?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "The facility was struck by Separate Unmanned Systems Brigade Varyag",
-      "published_at": "2026-08-21T06:57:39+00:00",
-      "updated_at": "2026-08-21T06:57:39+00:00",
-      "effective_at": "2026-08-21T06:57:39+00:00",
+      "summary": "Court to rule on whether five activists accused of vandalising a Barclays bank will face terrorism sentencing. Preston, United Kingdom – Five Palestine Action activists in the UK are set to hear whether terrorism-linked offences could be included in their sentencing. Brendon O’Hagan, 28, Amanda Kelly, 31, Hmeera Atiqnisar, 31, Mohammed Malik, 28, and Alma Yaniv, 70, were convicted of causing 212,000 pounds ($290,000) in damages during a direct action against a branch of Barclays Bank in the town of Burnley in Lancashire in August 2024. The activists were protesting the bank’s shareholdings in the Israeli defence company Elbit Systems. On Friday, Preston Crown Court is expected to determine whether the five activists, who are scheduled to be sentenced on September 4, will face terrorism sentencing. According to leading criminal lawyer Raj Chada, of the firm Hodge Jones & Allen, which has been involved in defending a number of Palestine Action activists, “terrorist connection” laws date back years, but only appear to have been applied recently and solely in Palestine Action cases. “To the best of our knowledge, the only time this law was used was in relation to direct action protest groups was against those convicted at Filton,” he said, outlining laws used by prosecutors to target the offence rather than the individual or group that had carried it out. “Certainly, in our experience, using the law like this is very, very unusual and appears to be being used to target Palestine Action activists whose offence predates the banning of the group,“ he said. At the time of their verdicts, Palestine Action had not been proscribed as a terrorist group. Neither the defendants nor the jury were aware that terrorism charges might be involved. However, following the verdicts trial judge Philip Parry notified the defendants’ legal team that he intended to consider whether the offence carried a “terrorist connection”. Parry made a similar move after circulating a ruling from a case in June, during which four Palestine Action activists convicted of criminal damage at Elbit Systems’ Filton site near Bristol were sentenced as terrorists nearly two years after their protest at Woolwich Crown Court in London.",
+      "published_at": "2026-08-21T06:56:19+00:00",
+      "updated_at": "2026-08-21T06:56:19+00:00",
+      "effective_at": "2026-08-21T06:56:19+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "industry",
+      "sector": "economy",
+      "subsector": "banking",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "brigade",
-        "brovary",
-        "russia",
-        "separate",
+        "action",
+        "allen",
+        "alma",
+        "amanda",
+        "atiqnisar",
+        "bank",
+        "barclays",
+        "brendon",
+        "bristol",
+        "burnley",
+        "chada",
+        "court",
+        "crown",
+        "elbit",
+        "filton",
+        "five",
+        "hmeera",
+        "hodge",
+        "israel",
+        "jones",
+        "kelly",
+        "lancashire",
+        "malik",
+        "mohammed",
+        "palestine",
+        "parry",
+        "philip",
+        "preston",
+        "raj",
         "systems",
-        "ukraine",
-        "unmanned",
-        "varyag"
+        "uk",
+        "united_kingdom",
+        "woolwich",
+        "yaniv"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -182,8 +376,153 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "Court to rule on whether five activists accused of vandalising a Barclays bank will face terrorism sentencing.",
+        "Preston, United Kingdom – Five Palestine Action activists in the UK are set to hear whether terrorism-linked offences could be included in their sentencing.",
+        "Brendon O’Hagan, 28, Amanda Kelly, 31, Hmeera Atiqnisar, 31, Mohammed Malik, 28, and Alma Yaniv, 70, were convicted of causing 212,000 pounds ($290,000) in damages during a direct action against a branch of Barclays Bank in the town of Burnley in Lancashire in August 2024.",
+        "The activists were protesting the bank’s shareholdings in the Israeli defence company Elbit Systems.",
+        "On Friday, Preston Crown Court is expected to determine whether the five activists, who are scheduled to be sentenced on September 4, will face terrorism sentencing.",
+        "According to leading criminal lawyer Raj Chada, of the firm Hodge Jones & Allen, which has been involved in defending a number of Palestine Action activists, “terrorist connection” laws date back years, but only appear to have been applied recently and solely in Palestine Action cases.",
+        "“To the best of our knowledge, the only time this law was used was in relation to direct action protest groups was against those convicted at Filton,” he said, outlining laws used by prosecutors to target the offence rather than the individual or group that had carried it out.",
+        "“Certainly, in our experience, using the law like this is very, very unusual and appears to be being used to target Palestine Action activists whose offence predates the banning of the group,“ he said.",
+        "At the time of their verdicts, Palestine Action had not been proscribed as a terrorist group.",
+        "Neither the defendants nor the jury were aware that terrorism charges might be involved.",
+        "However, following the verdicts trial judge Philip Parry notified the defendants’ legal team that he intended to consider whether the offence carried a “terrorist connection”.",
+        "Parry made a similar move after circulating a ruling from a case in June, during which four Palestine Action activists convicted of criminal damage at Elbit Systems’ Filton site near Bristol were sentenced as terrorists nearly two years after their protest at Woolwich Crown Court in London."
+      ],
       "event_status": "NEW",
-      "event_id": "915fc64c8690089039a745b7",
+      "event_id": "1eaad4b5a58d3b7c5459ff5a",
+      "importance_score": 37.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 4,
+          "security": 4
+        }
+      },
+      "story_id": "95ed1fb22a580754f2bf9b37201d674fd17d2aa637a035c3b6fec53272bb42da",
+      "public_label": "📰 NEWS",
+      "headline": "‘Very unusual’: UK Palestine activists could be sentenced as terrorists",
+      "briefing": {
+        "opening": [
+          "Court to rule on whether five activists accused of vandalising a Barclays bank will face terrorism sentencing.",
+          "Preston, United Kingdom – Five Palestine Action activists in the UK are set to hear whether terrorism-linked offences could be included in their sentencing."
+        ],
+        "body": [
+          "Brendon O’Hagan, 28, Amanda Kelly, 31, Hmeera Atiqnisar, 31, Mohammed Malik, 28, and Alma Yaniv, 70, were convicted of causing 212,000 pounds ($290,000) in damages during a direct action against a branch of Barclays Bank in the town of Burnley in Lancashire in August 2024.",
+          "The activists were protesting the bank’s shareholdings in the Israeli defence company Elbit Systems.",
+          "According to leading criminal lawyer Raj Chada, of the firm Hodge Jones & Allen, which has been involved in defending a number of Palestine Action activists, “terrorist connection” laws date back years, but only appear to have been applied recently and solely in Palestine Action cases.",
+          "“To the best of our knowledge, the only time this law was used was in relation to direct action protest groups was against those convicted at Filton,” he said, outlining laws used by prosecutors to target the offence rather than the individual or group that had carried it out.",
+          "“Certainly, in our experience, using the law like this is very, very unusual and appears to be being used to target Palestine Action activists whose offence predates the banning of the group,“ he said.",
+          "At the time of their verdicts, Palestine Action had not been proscribed as a terrorist group.",
+          "Neither the defendants nor the jury were aware that terrorism charges might be involved."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Lancashire"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "On Friday, Preston Crown Court is expected to determine whether the five activists, who are scheduled to be sentenced on September 4, will face terrorism sentencing."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Preston, United Kingdom – Five Palestine Action activists in the UK are set to hear whether terrorism-linked offences could be included in their sentencing.",
+            "source": "Al Jazeera",
+            "item_id": "95ed1fb22a580754f2bf9b37201d674fd17d2aa637a035c3b6fec53272bb42da:article",
+            "composed": false
+          },
+          {
+            "text": "The activists were protesting the bank’s shareholdings in the Israeli defence company Elbit Systems.",
+            "source": "Al Jazeera",
+            "item_id": "95ed1fb22a580754f2bf9b37201d674fd17d2aa637a035c3b6fec53272bb42da:article",
+            "composed": false
+          },
+          {
+            "text": "On Friday, Preston Crown Court is expected to determine whether the five activists, who are scheduled to be sentenced on September 4, will face terrorism sentencing.",
+            "source": "Al Jazeera",
+            "item_id": "95ed1fb22a580754f2bf9b37201d674fd17d2aa637a035c3b6fec53272bb42da:article",
+            "composed": false
+          },
+          {
+            "text": "According to leading criminal lawyer Raj Chada, of the firm Hodge Jones & Allen, which has been involved in defending a number of Palestine Action activists, “terrorist connection” laws date back years, but only appear to have been applied recently and solely in Palestine Action cases.",
+            "source": "Al Jazeera",
+            "item_id": "95ed1fb22a580754f2bf9b37201d674fd17d2aa637a035c3b6fec53272bb42da:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/news/2026/8/21/very-unusual-uk-palestine-activists-could-be-sentenced-as-terrorists?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "10941143dee06431b3139ab250636da6a1c1e1f7bec43af12b12b399f10186df",
+      "title": "Japan’s Aeon exits Thai retail to chase Vietnam’s booming middle class",
+      "url": "https://www.scmp.com/week-asia/economics/article/3364797/japans-aeon-exits-thai-retail-chase-vietnams-booming-middle-class?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "The decision by Japanese retailer Aeon to sell its MaxValu minimart chain in Thailand is the latest example of the tight grip domestic conglomerates hold over Thai consumers, retail experts say. Yet the move also hints at the shifting economic fortunes of neighbouring Vietnam, where major Asian retailers including Aeon are competing aggressively for market share among a rapidly expanding middle class. On September 30, MaxValu, a store beloved by many Thais for its affordability and varied fresh...",
+      "published_at": "2026-08-21T07:05:09+00:00",
+      "updated_at": "2026-08-21T07:05:09+00:00",
+      "effective_at": "2026-08-21T07:05:09+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "economy",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "aeon",
+        "asian",
+        "japan",
+        "maxvalu",
+        "thai",
+        "thailand",
+        "thais",
+        "vietnam"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "22ca9b0ce7dbe8b9207eaad2",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -208,52 +547,148 @@
         },
         "significance_dims": {}
       },
-      "story_id": "54f86a315093901f9a17b13b35ac3b1a5afcf27ee486ecb3730ea3cdb51afa9c",
-      "article_sentences": [
-        "MOSCOW, August 21.",
-        "Russian drone crews have rendered an industrial site in Brovary in the Kiev Region completely inoperable, the Russian Defense Ministry said in a report on Friday.",
-        "\"Crews from the Separate Unmanned Systems Brigade Varyag struck an industrial site, serving the Ukrainian army, in the locality of Brovary east of Kiev with precision-guided strikes.",
-        "<…> As a result of the skillful combat work of Russian attack drone crews, the enemy’s plant was brought out of operation indefinitely,\" the report reads."
-      ],
+      "story_id": "10941143dee06431b3139ab250636da6a1c1e1f7bec43af12b12b399f10186df",
       "public_label": "📰 NEWS",
-      "headline": "Russian strike brings Ukrainian industrial site in Brovary near Kiev offline — top brass",
+      "headline": "Japan’s Aeon exits Thai retail to chase Vietnam’s booming middle class",
       "briefing": {
         "opening": [
-          "MOSCOW, August 21.",
-          "Russian drone crews have rendered an industrial site in Brovary in the Kiev Region completely inoperable, the Russian Defense Ministry said in a report on Friday."
+          "The decision by Japanese retailer Aeon to sell its MaxValu minimart chain in Thailand is the latest example of the tight grip domestic conglomerates hold over Thai consumers, retail experts say.",
+          "Yet the move also hints at the shifting economic fortunes of neighbouring Vietnam, where major Asian retailers including Aeon are competing aggressively for market share among a rapidly expanding middle class."
         ],
         "body": [
-          "\"Crews from the Separate Unmanned Systems Brigade Varyag struck an industrial site, serving the Ukrainian army, in the locality of Brovary east of Kiev with precision-guided strikes.",
-          "<…> As a result of the skillful combat work of Russian attack drone crews, the enemy’s plant was brought out of operation indefinitely,\" the report reads.",
-          "The facility was struck by Separate Unmanned Systems Brigade Varyag."
+          "On September 30, MaxValu, a store beloved by many Thais for its affordability and varied fresh..."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Brovary"
+            "text": "Thailand"
           }
         ],
         "sentences": [
           {
-            "text": "MOSCOW, August 21.",
-            "source": "TASS English",
-            "item_id": "54f86a315093901f9a17b13b35ac3b1a5afcf27ee486ecb3730ea3cdb51afa9c:article",
+            "text": "Yet the move also hints at the shifting economic fortunes of neighbouring Vietnam, where major Asian retailers including Aeon are competing aggressively for market share among a rapidly expanding middle class.",
+            "source": "South China Morning Post",
+            "item_id": "10941143dee06431b3139ab250636da6a1c1e1f7bec43af12b12b399f10186df",
             "composed": false
           },
           {
-            "text": "Russian drone crews have rendered an industrial site in Brovary in the Kiev Region completely inoperable, the Russian Defense Ministry said in a report on Friday.",
-            "source": "TASS English",
-            "item_id": "54f86a315093901f9a17b13b35ac3b1a5afcf27ee486ecb3730ea3cdb51afa9c:article",
+            "text": "The decision by Japanese retailer Aeon to sell its MaxValu minimart chain in Thailand is the latest example of the tight grip domestic conglomerates hold over Thai consumers, retail experts say.",
+            "source": "South China Morning Post",
+            "item_id": "10941143dee06431b3139ab250636da6a1c1e1f7bec43af12b12b399f10186df",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://tass.com/politics/2175941"
+        "url": "https://www.scmp.com/week-asia/economics/article/3364797/japans-aeon-exits-thai-retail-chase-vietnams-booming-middle-class?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
+    },
+    {
+      "id": "212c174c3c2bddc67c4c29746ef7c73d0fa1900ff7bdb6742fa29b2eccfae7c9",
+      "title": "Ex-Deloitte IT manager jailed for 22 months over HK$1.2 million laptop theft",
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364795/ex-deloitte-it-manager-jailed-22-months-hk12-million-laptop-theft?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "A former Deloitte information technology manager has been jailed for 22 months for stealing 423 laptops worth HK$1.2 million (US$153,000) from the accounting firm’s Hong Kong office to fund his stock trading addiction. The District Court sentenced Ho Man-kit, 40, on Friday after he pleaded guilty earlier this month to a count of theft for misappropriating Lenovo computers and selling them to an electronics recycler between September 2021 and February 2023. Deputy Judge Minnie Wat Lai-man said...",
+      "published_at": "2026-08-21T07:04:41+00:00",
+      "updated_at": "2026-08-21T07:04:41+00:00",
+      "effective_at": "2026-08-21T07:04:41+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "technology",
+      "subsector": "hardware",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "court",
+        "deloitte",
+        "district",
+        "ex-deloitte",
+        "hk",
+        "ho",
+        "hong_kong",
+        "lai-man",
+        "lenovo",
+        "man-kit",
+        "minnie",
+        "us",
+        "wat"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "d6c7bdd0a7e4835a5192fc82",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "212c174c3c2bddc67c4c29746ef7c73d0fa1900ff7bdb6742fa29b2eccfae7c9",
+      "public_label": "🔄 UPDATE",
+      "headline": "Ex-Deloitte IT manager jailed for 22 months over HK$1.2 million laptop theft",
+      "briefing": {
+        "opening": [
+          "A former Deloitte information technology manager has been jailed for 22 months for stealing 423 laptops worth HK$1.2 million (US$153,000) from the accounting firm’s Hong Kong office to fund his stock trading addiction.",
+          "The District Court sentenced Ho Man-kit, 40, on Friday after he pleaded guilty earlier this month to a count of theft for misappropriating Lenovo computers and selling them to an electronics recycler between September 2021 and February 2023."
+        ],
+        "body": [
+          "Deputy Judge Minnie Wat Lai-man said..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The District Court sentenced Ho Man-kit, 40, on Friday after he pleaded guilty earlier this month to a count of theft for misappropriating Lenovo computers and selling them to an electronics recycler between September 2021 and February 2023.",
+            "source": "South China Morning Post",
+            "item_id": "212c174c3c2bddc67c4c29746ef7c73d0fa1900ff7bdb6742fa29b2eccfae7c9",
+            "composed": false
+          },
+          {
+            "text": "A former Deloitte information technology manager has been jailed for 22 months for stealing 423 laptops worth HK$1.2 million (US$153,000) from the accounting firm’s Hong Kong office to fund his stock trading addiction.",
+            "source": "South China Morning Post",
+            "item_id": "212c174c3c2bddc67c4c29746ef7c73d0fa1900ff7bdb6742fa29b2eccfae7c9",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364795/ex-deloitte-it-manager-jailed-22-months-hk12-million-laptop-theft?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
     }
   ]
 }
