@@ -1,14 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "a2cbebab5d50412126ad3ac083def89db049f436c5f0d20c48b9a972333b404c",
-      "event_id": "247cf69a080ba4c88870c8e7",
-      "item_id": "a2cbebab5d50412126ad3ac083def89db049f436c5f0d20c48b9a972333b404c",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-08-21T00:44:42+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "c0da2e6bb816bbad3220a4961887269659438cf4be76c659bf879edee16d8fab",
       "event_id": "ed9d2d45395666d4a747fcfb",
       "item_id": "c0da2e6bb816bbad3220a4961887269659438cf4be76c659bf879edee16d8fab",
@@ -967,9 +959,34 @@
       "label": "📰 NEWS",
       "scheduled_at": "2026-08-21T12:37:48+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "1c9ddd7602a07d59f142f96a0295c12e92b441f803ce2336b38f8affb8101524",
+      "event_id": "3c981e6b1810ccbc05cf4226",
+      "item_id": "1c9ddd7602a07d59f142f96a0295c12e92b441f803ce2336b38f8affb8101524",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-08-21T12:44:23+00:00",
+      "attempts": 0
+    },
+    {
+      "story_id": "be6ff3589ea34233c4f9a26eaadac6e423ba23cad736f9efde57838bb4afc3b4",
+      "event_id": "5b0db927a4d1cd22e8d567dc",
+      "item_id": "be6ff3589ea34233c4f9a26eaadac6e423ba23cad736f9efde57838bb4afc3b4",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-08-21T12:44:45+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "f44803fc6ee1059d9971aba15fbe48ff2899141c3c98a3dde05141c83e913009",
+      "event_id": "5939c419ad0abbf950882087",
+      "item_id": "f44803fc6ee1059d9971aba15fbe48ff2899141c3c98a3dde05141c83e913009",
+      "label": "📰 NEWS",
+      "message_id": 1406,
+      "posted_at": "2026-08-21T12:44:23.000134+00:00",
+      "scheduled_at": "2026-08-21T12:42:47+00:00"
+    },
     {
       "story_id": "8dde97903a35b2a4c2a71db12b6ac4f2c905340089d7b30cd10eb2e973f1398a",
       "event_id": "9976dce81d23bf7c36be0e3c",
@@ -4059,5 +4076,5 @@
     }
   ],
   "failures": [],
-  "last_posted_at": "2026-08-21T12:37:48.000118+00:00"
+  "last_posted_at": "2026-08-21T12:44:23.000134+00:00"
 }
