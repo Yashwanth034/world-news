@@ -1,57 +1,68 @@
 {
-  "generated_at": "2026-08-21T03:10:47.499421+00:00",
-  "count": 1,
+  "generated_at": "2026-08-21T03:20:50.962096+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "114eb23c9f39914ea0e2c6ae3a9869a18eec51062ebcbf33e3ebd3e2f7adac2f",
-      "title": "Dengue cases spike in Malaysia, with 55 deaths so far in 2026",
-      "url": "https://www.straitstimes.com/asia/se-asia/dengue-cases-spike-in-malaysia-with-55-deaths-so-far-in-2026",
-      "source": "Straits Times Asia",
+      "id": "d194a1a8803848964859b0c697a65df84b659eb4c25f603c5ae80be9cf95642b",
+      "title": "Mystery about discovery of tunnel sparks excitement in 500-year-old Golconda Fort in Hyderabad",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/mystery-about-discovery-of-tunnel-sparks-excitement-in-500-year-old-golconda-fort-in-hyderabad/article71372065.ece",
+      "source": "The Hindu",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": null,
       "discovery": false,
-      "summary": "The ministry said the rise in dengue cases was influenced by several factors, including the weather.",
-      "published_at": "2026-08-21T03:07:00+00:00",
-      "updated_at": "2026-08-21T03:07:00+00:00",
-      "effective_at": "2026-08-21T03:07:00+00:00",
+      "summary": "The Golconda Fort is a multi-layered fort that dates back to the Kakatiya and Qutb Shahi dynasties. There have been rumours about secret tunnels and passages connecting the fort to various parts of Hyderabad including Charminar, Goshamahal, Chowmahalla Palace and Naubat Pahad.",
+      "published_at": "2026-08-21T03:13:49+00:00",
+      "updated_at": "2026-08-21T03:13:49+00:00",
+      "effective_at": "2026-08-21T03:13:49+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "weather",
-      "subregion": "Southeast Asia",
+      "sector": "science",
+      "subsector": "science",
+      "subregion": null,
       "country": null,
       "entities": [
-        "malaysia"
+        "charminar",
+        "chowmahalla",
+        "fort",
+        "golconda",
+        "goshamahal",
+        "hyderabad",
+        "kakatiya",
+        "naubat",
+        "pahad",
+        "palace",
+        "qutb",
+        "shahi"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "fcc4f8175ba3a0c859af62be",
-      "importance_score": 72.0,
-      "importance_level": "HIGH",
+      "event_id": "3db9359ee7309354dd50476d",
+      "importance_score": 34.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 32,
+        "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 12,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 2026,
+          "dead": 0,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -60,77 +71,138 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 12
+          "scientific": 8
         }
       },
-      "story_id": "114eb23c9f39914ea0e2c6ae3a9869a18eec51062ebcbf33e3ebd3e2f7adac2f",
-      "article_sentences": [
-        "Dengue cases across Malaysia have surged 56.2 per cent in 2026, with 58,079 infections and 55 deaths recorded as at Aug 15.",
-        "“The risk of dengue transmission remains high, and the national situation remains worrying following increases in cases now also detected in several other states,” said the Health Ministry in a statement on Aug 21.",
-        "The ministry said the increase was initially concentrated in the Klang Valley, particularly Selangor, Kuala Lumpur and Putrajaya.",
-        "Intensive and targeted prevention and control measures, including early case detection, vector control, outbreak management and mobilisation of personnel, have since begun to show positive results, it said.",
-        "However, figures released by the ministry showed sharp increases elsewhere.",
-        "According to the ministry, Perlis recorded the highest percentage increase at 207 per cent, with cases rising from 55 in 2025 (Jan 1 to Aug 15) to 169 in 2026.",
-        "Johor saw cases more than double from 4,140 to 8,639, an increase of 109 per cent, while Kuala Lumpur and Putrajaya recorded a 106 per cent rise from 5,013 to 10,316 cases.",
-        "Selangor continued to record the highest number of infections nationwide at 25,090, up 61 per cent from 15,610 cases.",
-        "Sabah recorded 3,753 cases compared with 2,806 previously, an increase of 34 per cent.",
-        "Only Penang, Melaka and Kedah recorded reductions, with cases falling by 26 per cent, 36 per cent and 60 per cent, respectively.",
-        "The ministry said the rise in dengue cases was influenced by several factors, including the weather.",
-        "Stagnant water in and around residential areas also contributed to the risk."
-      ],
+      "story_id": "d194a1a8803848964859b0c697a65df84b659eb4c25f603c5ae80be9cf95642b",
       "public_label": "📰 NEWS",
-      "headline": "Dengue cases spike in Malaysia, with 55 deaths so far in 2026",
+      "headline": "Mystery about discovery of tunnel sparks excitement in 500-year-old Golconda Fort in Hyderabad",
       "briefing": {
         "opening": [
-          "Dengue cases across Malaysia have surged 56.2 per cent in 2026, with 58,079 infections and 55 deaths recorded as at Aug 15.",
-          "“The risk of dengue transmission remains high, and the national situation remains worrying following increases in cases now also detected in several other states,” said the Health Ministry in a statement on Aug 21."
+          "The Golconda Fort is a multi-layered fort that dates back to the Kakatiya and Qutb Shahi dynasties.",
+          "There have been rumours about secret tunnels and passages connecting the fort to various parts of Hyderabad including Charminar, Goshamahal, Chowmahalla Palace and Naubat Pahad."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Golconda Fort is a multi-layered fort that dates back to the Kakatiya and Qutb Shahi dynasties.",
+            "source": "The Hindu",
+            "item_id": "d194a1a8803848964859b0c697a65df84b659eb4c25f603c5ae80be9cf95642b",
+            "composed": false
+          },
+          {
+            "text": "There have been rumours about secret tunnels and passages connecting the fort to various parts of Hyderabad including Charminar, Goshamahal, Chowmahalla Palace and Naubat Pahad.",
+            "source": "The Hindu",
+            "item_id": "d194a1a8803848964859b0c697a65df84b659eb4c25f603c5ae80be9cf95642b",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/mystery-about-discovery-of-tunnel-sparks-excitement-in-500-year-old-golconda-fort-in-hyderabad/article71372065.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "7f24aacf2ad98150a1f49f37e6f4770db4f9ce5dfc7bae838eadd775e66ac8da",
+      "title": "Alleged rapist arrested after returning to Brisbane crime scene that night, police say",
+      "url": "https://www.theguardian.com/australia-news/2026/aug/21/alleged-rapist-arrested-after-returning-to-brisbane-scene-police-say-ntwnfb",
+      "source": "The Guardian World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Oceania",
+      "discovery": false,
+      "summary": "Man, 32, charged with six counts of rape, stalking and assault after woman was allegedly attacked in Brookfield Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast Queensland police say a man accused of raping and assaulting a young woman, who was taking a morning bushwalk, has been arrested after he returned to the crime scene in his vehicle later that evening. A woman, aged in her 20s, was walking in the semi-rural Brisbane suburb of Brookfield about 6.30am on Thursday when she was allegedly stopped by the man and sexually assaulted. She told police her attacker fled on foot. Continue reading...",
+      "published_at": "2026-08-21T03:14:19+00:00",
+      "updated_at": "2026-08-21T03:14:19+00:00",
+      "effective_at": "2026-08-21T03:14:19+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "technology",
+      "subsector": "software",
+      "subregion": "Australia",
+      "country": null,
+      "entities": [
+        "australia",
+        "brisbane",
+        "brookfield",
+        "man",
+        "queensland"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "416e9ab8ff9dd8cb758e5944",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 10,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "7f24aacf2ad98150a1f49f37e6f4770db4f9ce5dfc7bae838eadd775e66ac8da",
+      "public_label": "📰 NEWS",
+      "headline": "Alleged rapist arrested after returning to Brisbane crime scene that night, police say",
+      "briefing": {
+        "opening": [
+          "Man, 32, charged with six counts of rape, stalking and assault after woman was allegedly attacked in Brookfield Queensland police say a man accused of raping and assaulting a young woman, who was taking a morning bushwalk, has been arrested after he returned to the crime scene in his vehicle later that evening.",
+          "A woman, aged in her 20s, was walking in the semi-rural Brisbane suburb of Brookfield about 6.30am on Thursday when she was allegedly stopped by the man and sexually assaulted."
         ],
         "body": [
-          "The ministry said the increase was initially concentrated in the Klang Valley, particularly Selangor, Kuala Lumpur and Putrajaya.",
-          "Intensive and targeted prevention and control measures, including early case detection, vector control, outbreak management and mobilisation of personnel, have since begun to show positive results, it said.",
-          "However, figures released by the ministry showed sharp increases elsewhere.",
-          "According to the ministry, Perlis recorded the highest percentage increase at 207 per cent, with cases rising from 55 in 2025 (Jan 1 to Aug 15) to 169 in 2026.",
-          "Johor saw cases more than double from 4,140 to 8,639, an increase of 109 per cent, while Kuala Lumpur and Putrajaya recorded a 106 per cent rise from 5,013 to 10,316 cases.",
-          "Selangor continued to record the highest number of infections nationwide at 25,090, up 61 per cent from 15,610 cases.",
-          "Sabah recorded 3,753 cases compared with 2,806 previously, an increase of 34 per cent.",
-          "Only Penang, Melaka and Kedah recorded reductions, with cases falling by 26 per cent, 36 per cent and 60 per cent, respectively."
+          "She told police her attacker fled on foot."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Malaysia"
+            "text": "Brookfield Queensland"
           }
         ],
         "sentences": [
           {
-            "text": "Dengue cases across Malaysia have surged 56.2 per cent in 2026, with 58,079 infections and 55 deaths recorded as at Aug 15.",
-            "source": "Straits Times Asia",
-            "item_id": "114eb23c9f39914ea0e2c6ae3a9869a18eec51062ebcbf33e3ebd3e2f7adac2f:article",
+            "text": "She told police her attacker fled on foot.",
+            "source": "The Guardian World",
+            "item_id": "7f24aacf2ad98150a1f49f37e6f4770db4f9ce5dfc7bae838eadd775e66ac8da",
             "composed": false
           },
           {
-            "text": "According to the ministry, Perlis recorded the highest percentage increase at 207 per cent, with cases rising from 55 in 2025 (Jan 1 to Aug 15) to 169 in 2026.",
-            "source": "Straits Times Asia",
-            "item_id": "114eb23c9f39914ea0e2c6ae3a9869a18eec51062ebcbf33e3ebd3e2f7adac2f:article",
-            "composed": false
-          },
-          {
-            "text": "Johor saw cases more than double from 4,140 to 8,639, an increase of 109 per cent, while Kuala Lumpur and Putrajaya recorded a 106 per cent rise from 5,013 to 10,316 cases.",
-            "source": "Straits Times Asia",
-            "item_id": "114eb23c9f39914ea0e2c6ae3a9869a18eec51062ebcbf33e3ebd3e2f7adac2f:article",
-            "composed": false
-          },
-          {
-            "text": "Only Penang, Melaka and Kedah recorded reductions, with cases falling by 26 per cent, 36 per cent and 60 per cent, respectively.",
-            "source": "Straits Times Asia",
-            "item_id": "114eb23c9f39914ea0e2c6ae3a9869a18eec51062ebcbf33e3ebd3e2f7adac2f:article",
+            "text": "A woman, aged in her 20s, was walking in the semi-rural Brisbane suburb of Brookfield about 6.30am on Thursday when she was allegedly stopped by the man and sexually assaulted.",
+            "source": "The Guardian World",
+            "item_id": "7f24aacf2ad98150a1f49f37e6f4770db4f9ce5dfc7bae838eadd775e66ac8da",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/se-asia/dengue-cases-spike-in-malaysia-with-55-deaths-so-far-in-2026"
+        "url": "https://www.theguardian.com/australia-news/2026/aug/21/alleged-rapist-arrested-after-returning-to-brisbane-scene-police-say-ntwnfb"
       },
       "group_size": 1,
       "label": "📰 NEWS"
