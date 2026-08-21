@@ -1,52 +1,79 @@
 {
-  "generated_at": "2026-08-21T10:20:44.358150+00:00",
-  "count": 3,
+  "generated_at": "2026-08-21T10:30:57.705767+00:00",
+  "count": 6,
   "stories": [
     {
-      "id": "e6e27649e85180d788a0b1c42b35bea1ec5b8fbce04af1077503db7432e9f992",
-      "title": "Gun stash discovered in German forest believed to be linked to Russia, say reports",
-      "url": "https://www.theguardian.com/world/2026/aug/21/gun-stash-germany-forest-berlin-believed-linked-russia-reports",
-      "source": "The Guardian World",
+      "id": "6cb3021581d98f53d42377be7fbd2ea3c7f573e85a691fca2f3bc6d385306e00",
+      "title": "Nord Stream bombing suspect to Hollywood fixer: Who is Volodymyr Zhuravlev?",
+      "url": "https://www.aljazeera.com/news/2026/8/21/nord-stream-bombing-suspect-to-hollywood-fixer-who-is-volodymyr-zhuravlev?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "Authorities believe handguns found in forest near Berlin were ⁠to be used ⁠to ​carry out assassinations for Russian intelligence, Sueddeutsche reports German security authorities discovered handguns stashed in ⁠a forest near Berlin last year that they believe were ⁠to be used ⁠to ​carry out assassinations on behalf of Russian intelligence, Sueddeutsche Zeitung reported on ⁠Friday. The Russian embassy did not immediately respond to a request for comment. Continue reading...",
-      "published_at": "2026-08-21T10:13:50+00:00",
-      "updated_at": "2026-08-21T10:13:50+00:00",
-      "effective_at": "2026-08-21T10:13:50+00:00",
+      "summary": "German authorities allege that Ukrainian scuba diver Volodymyr Zhuravlev was involved in the Nord Stream explosions. It could be a Hollywood script – with a twist. Croatian authorities on Wednesday arrested Ukrainian diver Volodymyr Zhuravlev in connection with the 2022 bombing of the Nord Stream gas pipelines that connected Russia to Germany under the Baltic Sea, while he was on the set of a Hollywood film under production. German media reported that Zhuravlev, a scuba diver, had been working as a consultant on the set of an upcoming Hollywood movie called Snake Island, a dramatic reconstruction of the bombings that he was allegedly involved in. Here is more about Zhuravlev, the Nord Stream bombings and the Hollywood connection. Who is Volodymyr Zhuravlev? Zhuravlev is a Ukrainian citizen, professional scuba diver and diving instructor. Some reports indicate he is affiliated with a diving school in Kyiv. He is sometimes referred to in German prosecution filings as Vladimir Z, identified under German privacy rules only by his first name and initial. According to German authorities, he is one of the suspects in the September 2022 Nord Stream pipeline bombing and was reportedly arrested by Croatian authorities. Zhuravlev denies any role in the sabotage. In 2024, Zhuravlev evaded arrest in Poland and fled back to Ukraine.",
+      "published_at": "2026-08-21T10:10:52+00:00",
+      "updated_at": "2026-08-21T10:10:52+00:00",
+      "effective_at": "2026-08-21T10:10:52+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 65,
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
+      "urgency_terms": [
+        "explosion"
+      ],
       "sector": "geopolitics",
-      "subsector": "diplomacy",
+      "subsector": "conflict",
       "subregion": "Europe",
       "country": null,
       "entities": [
+        "baltic",
+        "croatian",
         "german",
         "germany",
+        "hollywood",
+        "island",
+        "nord",
+        "poland",
         "russia",
-        "sueddeutsche",
-        "zeitung"
+        "sea",
+        "snake",
+        "stream",
+        "ukraine",
+        "vladimir",
+        "volodymyr",
+        "zhuravlev"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 98,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "43ef753f40098d2cbf184c76",
-      "importance_score": 58.0,
+      "article_sentences": [
+        "German authorities allege that Ukrainian scuba diver Volodymyr Zhuravlev was involved in the Nord Stream explosions.",
+        "It could be a Hollywood script – with a twist.",
+        "Croatian authorities on Wednesday arrested Ukrainian diver Volodymyr Zhuravlev in connection with the 2022 bombing of the Nord Stream gas pipelines that connected Russia to Germany under the Baltic Sea, while he was on the set of a Hollywood film under production.",
+        "German media reported that Zhuravlev, a scuba diver, had been working as a consultant on the set of an upcoming Hollywood movie called Snake Island, a dramatic reconstruction of the bombings that he was allegedly involved in.",
+        "Here is more about Zhuravlev, the Nord Stream bombings and the Hollywood connection.",
+        "Who is Volodymyr Zhuravlev?",
+        "Zhuravlev is a Ukrainian citizen, professional scuba diver and diving instructor.",
+        "Some reports indicate he is affiliated with a diving school in Kyiv.",
+        "He is sometimes referred to in German prosecution filings as Vladimir Z, identified under German privacy rules only by his first name and initial.",
+        "According to German authorities, he is one of the suspects in the September 2022 Nord Stream pipeline bombing and was reportedly arrested by Croatian authorities.",
+        "Zhuravlev denies any role in the sabotage.",
+        "In 2024, Zhuravlev evaded arrest in Poland and fled back to Ukraine."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "909ca6de66f5caf97ce806d6",
+      "importance_score": 57.0,
       "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 18,
-        "urgency": 7.0,
-        "novelty": 10,
+        "urgency": 8.0,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
@@ -64,100 +91,115 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 4,
-          "scientific": 4,
-          "geopolitical": 4
+          "infrastructure": 8,
+          "scientific": 4
         }
       },
-      "story_id": "e6e27649e85180d788a0b1c42b35bea1ec5b8fbce04af1077503db7432e9f992",
-      "public_label": "📰 NEWS",
-      "headline": "Gun stash discovered in German forest believed to be linked to Russia, say reports",
+      "story_id": "6cb3021581d98f53d42377be7fbd2ea3c7f573e85a691fca2f3bc6d385306e00",
+      "public_label": "🔄 UPDATE",
+      "headline": "Nord Stream bombing suspect to Hollywood fixer: Who is Volodymyr Zhuravlev?",
       "briefing": {
         "opening": [
-          "Authorities believe handguns found in forest near Berlin were ⁠to be used ⁠to ​carry out assassinations for Russian intelligence, Sueddeutsche reports German security authorities discovered handguns stashed in ⁠a forest near Berlin last year that they believe were ⁠to be used ⁠to ​carry out assassinations on behalf of Russian intelligence, Sueddeutsche Zeitung reported on ⁠Friday.",
-          "The Russian embassy did not immediately respond to a request for comment."
+          "German authorities allege that Ukrainian scuba diver Volodymyr Zhuravlev was involved in the Nord Stream explosions.",
+          "It could be a Hollywood script – with a twist."
         ],
-        "body": [],
+        "body": [
+          "Croatian authorities on Wednesday arrested Ukrainian diver Volodymyr Zhuravlev in connection with the 2022 bombing of the Nord Stream gas pipelines that connected Russia to Germany under the Baltic Sea, while he was on the set of a Hollywood film under production.",
+          "German media reported that Zhuravlev, a scuba diver, had been working as a consultant on the set of an upcoming Hollywood movie called Snake Island, a dramatic reconstruction of the bombings that he was allegedly involved in.",
+          "Here is more about Zhuravlev, the Nord Stream bombings and the Hollywood connection.",
+          "Who is Volodymyr Zhuravlev?",
+          "Zhuravlev is a Ukrainian citizen, professional scuba diver and diving instructor.",
+          "Some reports indicate he is affiliated with a diving school in Kyiv.",
+          "He is sometimes referred to in German prosecution filings as Vladimir Z, identified under German privacy rules only by his first name and initial.",
+          "According to German authorities, he is one of the suspects in the September 2022 Nord Stream pipeline bombing and was reportedly arrested by Croatian authorities."
+        ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Berlin"
+            "text": "Kyiv"
           }
         ],
         "sentences": [
           {
-            "text": "The Russian embassy did not immediately respond to a request for comment.",
-            "source": "The Guardian World",
-            "item_id": "e6e27649e85180d788a0b1c42b35bea1ec5b8fbce04af1077503db7432e9f992",
+            "text": "Croatian authorities on Wednesday arrested Ukrainian diver Volodymyr Zhuravlev in connection with the 2022 bombing of the Nord Stream gas pipelines that connected Russia to Germany under the Baltic Sea, while he was on the set of a Hollywood film under production.",
+            "source": "Al Jazeera",
+            "item_id": "6cb3021581d98f53d42377be7fbd2ea3c7f573e85a691fca2f3bc6d385306e00:article",
             "composed": false
           },
           {
-            "text": "Authorities believe handguns found in forest near Berlin were ⁠to be used ⁠to ​carry out assassinations for Russian intelligence, Sueddeutsche reports German security authorities discovered handguns stashed in ⁠a forest near Berlin last year that they believe were ⁠to be used ⁠to ​carry out assassinations on behalf of Russian intelligence, Sueddeutsche Zeitung reported on ⁠Friday.",
-            "source": "The Guardian World",
-            "item_id": "e6e27649e85180d788a0b1c42b35bea1ec5b8fbce04af1077503db7432e9f992",
+            "text": "According to German authorities, he is one of the suspects in the September 2022 Nord Stream pipeline bombing and was reportedly arrested by Croatian authorities.",
+            "source": "Al Jazeera",
+            "item_id": "6cb3021581d98f53d42377be7fbd2ea3c7f573e85a691fca2f3bc6d385306e00:article",
+            "composed": false
+          },
+          {
+            "text": "Some reports indicate he is affiliated with a diving school in Kyiv.",
+            "source": "Al Jazeera",
+            "item_id": "6cb3021581d98f53d42377be7fbd2ea3c7f573e85a691fca2f3bc6d385306e00:article",
             "composed": false
           }
         ],
-        "source": "The Guardian World",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.theguardian.com/world/2026/aug/21/gun-stash-germany-forest-berlin-believed-linked-russia-reports"
+        "url": "https://www.aljazeera.com/news/2026/8/21/nord-stream-bombing-suspect-to-hollywood-fixer-who-is-volodymyr-zhuravlev?traffic_source=rss"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "894f91cd0c63af779739f42e20600a5d3565f8f64a8021f0c3c86e5761246fd1",
-      "title": "Montevideo hosts a progressive congress after three consecutive electoral defeats in the region",
-      "url": "https://en.mercopress.com/2026/08/21/montevideo-hosts-a-progressive-congress-after-three-consecutive-electoral-defeats-in-the-region?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "source": "MercoPress",
+      "id": "ea9f5bc881e25faa37dea58d0246f44e971753a34300f65b664ff6c9846e4774",
+      "title": "In Senegal's Saint-Louis, traces of slave-trading past fade away",
+      "url": "https://www.france24.com/en/video/20260821-in-senegal-s-saint-louis-traces-of-slave-trading-past-fade-away",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "South America",
+      "region": "Africa",
       "discovery": false,
-      "summary": "More than a hundred lawmakers, former presidents, ministers and political figures from fifteen countries across the Americas gather from Friday at Uruguay's Legislative Palace in Montevideo for the third Pan-American Congress, a parliamentary forum of progressive forces running until Sunday. Organisers put attendance at more than 150 participants.",
-      "published_at": "2026-08-21T10:12:00+00:00",
-      "updated_at": "2026-08-21T10:12:00+00:00",
-      "effective_at": "2026-08-21T10:12:00+00:00",
+      "summary": "A dilapidated two-century-old building in Saint-Louis, Senegal bears testament to the island's little-known past as part of the transatlantic slave trade, the traces of which are quickly and quietly disappearing from view. Located in the country's north, between the Atlantic Ocean and the Senegal River, the island is rarely mentioned in the history of the slave trade, even though it was a hub through which tens of thousands of Africans passed.",
+      "published_at": "2026-08-21T09:50:38+00:00",
+      "updated_at": "2026-08-21T09:50:38+00:00",
+      "effective_at": "2026-08-21T09:50:38+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
+      "category": "finance",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "South America",
+      "sector": "economy",
+      "subsector": "trade",
+      "subregion": "West Africa",
       "country": null,
       "entities": [
-        "americas",
-        "congress",
-        "legislative",
-        "montevideo",
-        "palace",
-        "pan-american",
-        "uruguay"
+        "africans",
+        "atlantic",
+        "ocean",
+        "river",
+        "saint-louis",
+        "senegal"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Africanews English"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 73,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "ffff91b8816a9bd154d86d27",
-      "importance_score": 36.0,
+      "event_status": "UPDATE",
+      "event_id": "180be19ab2bd4740f9ad8ae0",
+      "importance_score": 34.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "urgency": 8.0,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
+        "corroboration": 6,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -169,82 +211,186 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "scientific": 8
-        }
+        "significance_dims": {}
       },
-      "story_id": "894f91cd0c63af779739f42e20600a5d3565f8f64a8021f0c3c86e5761246fd1",
-      "public_label": "📰 NEWS",
-      "headline": "Montevideo hosts a progressive congress after three consecutive electoral defeats in the region",
+      "story_id": "ea9f5bc881e25faa37dea58d0246f44e971753a34300f65b664ff6c9846e4774",
+      "public_label": "🔄 UPDATE",
+      "headline": "In Senegal's Saint-Louis, traces of slave-trading past fade away",
       "briefing": {
         "opening": [
-          "More than a hundred lawmakers, former presidents, ministers and political figures from fifteen countries across the Americas gather from Friday at Uruguay's Legislative Palace in Montevideo for the third Pan-American Congress, a parliamentary forum of progressive forces running until Sunday.",
-          "Organisers put attendance at more than 150 participants."
+          "A dilapidated two-century-old building in Saint-Louis, Senegal bears testament to the island's little-known past as part of the transatlantic slave trade, the traces of which are quickly and quietly disappearing from view.",
+          "Located in the country's north, between the Atlantic Ocean and the Senegal River, the island is rarely mentioned in the history of the slave trade, even though it was a hub through which tens of thousands of Africans passed."
         ],
         "body": [],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Uruguay's Legislative Palace"
+            "text": "Saint-Louis"
           }
         ],
         "sentences": [
           {
-            "text": "More than a hundred lawmakers, former presidents, ministers and political figures from fifteen countries across the Americas gather from Friday at Uruguay's Legislative Palace in Montevideo for the third Pan-American Congress, a parliamentary forum of progressive forces running until Sunday.",
-            "source": "MercoPress",
-            "item_id": "894f91cd0c63af779739f42e20600a5d3565f8f64a8021f0c3c86e5761246fd1",
+            "text": "Located in the country's north, between the Atlantic Ocean and the Senegal River, the island is rarely mentioned in the history of the slave trade, even though it was a hub through which tens of thousands of Africans passed.",
+            "source": "France 24",
+            "item_id": "ea9f5bc881e25faa37dea58d0246f44e971753a34300f65b664ff6c9846e4774",
             "composed": false
           },
           {
-            "text": "Organisers put attendance at more than 150 participants.",
-            "source": "MercoPress",
-            "item_id": "894f91cd0c63af779739f42e20600a5d3565f8f64a8021f0c3c86e5761246fd1",
+            "text": "A dilapidated two-century-old building in Saint-Louis, Senegal bears testament to the island's little-known past as part of the transatlantic slave trade, the traces of which are quickly and quietly disappearing from view.",
+            "source": "France 24",
+            "item_id": "ea9f5bc881e25faa37dea58d0246f44e971753a34300f65b664ff6c9846e4774",
             "composed": false
           }
         ],
-        "source": "MercoPress",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://en.mercopress.com/2026/08/21/montevideo-hosts-a-progressive-congress-after-three-consecutive-electoral-defeats-in-the-region?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+        "url": "https://www.france24.com/en/video/20260821-in-senegal-s-saint-louis-traces-of-slave-trading-past-fade-away"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "d58930d62733945a94d7063a491e5d24fe010624a89609e206e6b8d3d2ddbbd1",
-      "title": "Millennials have found it hard to buy homes – but things may be turning a corner",
-      "url": "https://www.bbc.co.uk/news/articles/cgewlld498xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "source_category": "finance",
+      "id": "53262351eebb338632019344b8446d5e8c051ed6d6616ed4404f373a136d0f48",
+      "title": "This year's El Nino set to be strongest in more than a century, UK forecasters say",
+      "url": "https://www.france24.com/en/environment/20260821-this-year-s-el-nino-set-to-be-strongest-in-more-than-a-century-uk-forecasters-say",
+      "source": "France 24",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "Twenty-somethings are much less likely to own a home than previous generations. But data suggests things may be improving.",
-      "published_at": "2026-08-21T10:02:03+00:00",
-      "updated_at": "2026-08-21T10:02:03+00:00",
-      "effective_at": "2026-08-21T10:02:03+00:00",
+      "summary": "Britain's Met Office has predicted sea surface temperatures in the tropical Pacific will reach an \"unheard-of\" level of potentially more than three degrees above average, triggering severe droughts across South America and the West Pacific. Such an event would have serious knock-on effects for global food security.",
+      "published_at": "2026-08-21T10:28:32+00:00",
+      "updated_at": "2026-08-21T10:28:32+00:00",
+      "effective_at": "2026-08-21T10:28:32+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "finance",
-      "subregion": null,
+      "sector": "agriculture",
+      "subsector": "food",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "twenty-somethings"
+        "america",
+        "britain",
+        "el",
+        "met",
+        "nino",
+        "office",
+        "pacific",
+        "south",
+        "uk",
+        "west"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "5fe98a3ff2f4c5f7fcc652ec",
+      "event_id": "7851b0259b4b53acb56e5edb",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "53262351eebb338632019344b8446d5e8c051ed6d6616ed4404f373a136d0f48",
+      "public_label": "📰 NEWS",
+      "headline": "This year's El Nino set to be strongest in more than a century, UK forecasters say",
+      "briefing": {
+        "opening": [
+          "Britain's Met Office has predicted sea surface temperatures in the tropical Pacific will reach an \"unheard-of\" level of potentially more than three degrees above average, triggering severe droughts across South America and the West Pacific.",
+          "Such an event would have serious knock-on effects for global food security."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "South America"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Such an event would have serious knock-on effects for global food security.",
+            "source": "France 24",
+            "item_id": "53262351eebb338632019344b8446d5e8c051ed6d6616ed4404f373a136d0f48",
+            "composed": false
+          },
+          {
+            "text": "Britain's Met Office has predicted sea surface temperatures in the tropical Pacific will reach an \"unheard-of\" level of potentially more than three degrees above average, triggering severe droughts across South America and the West Pacific.",
+            "source": "France 24",
+            "item_id": "53262351eebb338632019344b8446d5e8c051ed6d6616ed4404f373a136d0f48",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/environment/20260821-this-year-s-el-nino-set-to-be-strongest-in-more-than-a-century-uk-forecasters-say"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "33580ad3bf34eff4516775b963d6427c3ca0513da9988c524b3c6d44dd0e10d8",
+      "title": "Over 11,000 Zanoza FPV drones delivered to special military op zone — manufacturer",
+      "url": "https://tass.com/defense/2176065",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "The Zanoza series drones are designed to carry a warhead of up to 3.5 kg over a distance of up to 40 km",
+      "published_at": "2026-08-21T10:18:23+00:00",
+      "updated_at": "2026-08-21T10:18:23+00:00",
+      "effective_at": "2026-08-21T10:18:23+00:00",
+      "language_status": "ENGLISH",
+      "category": "technology",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "fpv",
+        "zanoza"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 95,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "4d2160af557e589da6fd0427",
       "importance_score": 30.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -268,36 +414,351 @@
           "crisis": false
         },
         "significance_dims": {
-          "scientific": 4
+          "security": 4
         }
       },
-      "story_id": "d58930d62733945a94d7063a491e5d24fe010624a89609e206e6b8d3d2ddbbd1",
+      "story_id": "33580ad3bf34eff4516775b963d6427c3ca0513da9988c524b3c6d44dd0e10d8",
+      "article_sentences": [
+        "MOSCOW, August 21.",
+        "More than 11,000 Zanoza FPV drones of various models have been delivered to Russia’s special military operation zone in Ukraine since 2022, the manufacturer, Zanoza Drones, told TASS.",
+        "\"The 10-inch Zanoza-10 FPV drone, developed by Urals specialists, is being successfully deployed across all key sectors of the battle contact line, where it has proven its effectiveness despite the enemy’s intense electronic warfare.",
+        "To date, total deliveries exceed 11,000 drones in various configurations: of these, more than 10,000 are standard radio-controlled versions and over 1,000 are specialized fiber-optic-controlled drones.",
+        "\"We are not resting on our laurels: active work is underway to increase the range of the fiber-optic versions, while paying special attention to maintaining the reliability of the communication channel and reducing the risk of signal loss at maximum ranges,\" the company stated.",
+        "The company specified that it continues to improve the drones based on combat experience and feedback from Russian military personnel.",
+        "\"Based on feedback from the front, we carried out a comprehensive upgrade of the Zanoza-10 hardware component, significantly enhancing protection against external and onboard interference, which guarantees the stability and clarity of the radio signal under the harshest combat conditions,\" the manufacturer noted.",
+        "The Zanoza series drones are designed to carry a warhead of up to 3.5 kg over a distance of up to 40 km.",
+        "\"The drone’s confirmed strike range under real-world conditions reaches 42 km.",
+        "The drone is effective not only as a means of engaging armored targets, vehicles, and fortifications.",
+        "It can be used for reconnaissance, as well as for delivering necessary supplies to the combat zone.",
+        "The fiber-optic version of the drone is completely immune to electronic jamming and is equipped with 15-, 20-, and 25-km cables,\" the company emphasized."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "Millennials have found it hard to buy homes – but things may be turning a corner",
+      "headline": "Over 11,000 Zanoza FPV drones delivered to special military op zone — manufacturer",
       "briefing": {
         "opening": [
-          "Twenty-somethings are much less likely to own a home than previous generations.",
-          "But data suggests things may be improving."
+          "MOSCOW, August 21.",
+          "More than 11,000 Zanoza FPV drones of various models have been delivered to Russia’s special military operation zone in Ukraine since 2022, the manufacturer, Zanoza Drones, told TASS."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "\"The 10-inch Zanoza-10 FPV drone, developed by Urals specialists, is being successfully deployed across all key sectors of the battle contact line, where it has proven its effectiveness despite the enemy’s intense electronic warfare.",
+          "To date, total deliveries exceed 11,000 drones in various configurations: of these, more than 10,000 are standard radio-controlled versions and over 1,000 are specialized fiber-optic-controlled drones.",
+          "\"We are not resting on our laurels: active work is underway to increase the range of the fiber-optic versions, while paying special attention to maintaining the reliability of the communication channel and reducing the risk of signal loss at maximum ranges,\" the company stated.",
+          "\"Based on feedback from the front, we carried out a comprehensive upgrade of the Zanoza-10 hardware component, significantly enhancing protection against external and onboard interference, which guarantees the stability and clarity of the radio signal under the harshest combat conditions,\" the manufacturer noted.",
+          "The Zanoza series drones are designed to carry a warhead of up to 3.5 kg over a distance of up to 40 km.",
+          "\"The drone’s confirmed strike range under real-world conditions reaches 42 km.",
+          "The drone is effective not only as a means of engaging armored targets, vehicles, and fortifications."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Ukraine"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The company specified that it continues to improve the drones based on combat experience and feedback from Russian military personnel."
+          }
+        ],
         "sentences": [
           {
-            "text": "Twenty-somethings are much less likely to own a home than previous generations.",
-            "source": "BBC Business",
-            "item_id": "d58930d62733945a94d7063a491e5d24fe010624a89609e206e6b8d3d2ddbbd1",
+            "text": "More than 11,000 Zanoza FPV drones of various models have been delivered to Russia’s special military operation zone in Ukraine since 2022, the manufacturer, Zanoza Drones, told TASS.",
+            "source": "TASS English",
+            "item_id": "33580ad3bf34eff4516775b963d6427c3ca0513da9988c524b3c6d44dd0e10d8:article",
             "composed": false
           },
           {
-            "text": "But data suggests things may be improving.",
-            "source": "BBC Business",
-            "item_id": "d58930d62733945a94d7063a491e5d24fe010624a89609e206e6b8d3d2ddbbd1",
+            "text": "The Zanoza series drones are designed to carry a warhead of up to 3.5 kg over a distance of up to 40 km.",
+            "source": "TASS English",
+            "item_id": "33580ad3bf34eff4516775b963d6427c3ca0513da9988c524b3c6d44dd0e10d8:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, August 21.",
+            "source": "TASS English",
+            "item_id": "33580ad3bf34eff4516775b963d6427c3ca0513da9988c524b3c6d44dd0e10d8:article",
             "composed": false
           }
         ],
-        "source": "BBC Business",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/cgewlld498xo?at_medium=RSS&at_campaign=rss"
+        "url": "https://tass.com/defense/2176065"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "18af8bf39b1f5c1298f72197ded38140b9aaadb40c819683cf80668a9cca3db3",
+      "title": "King penguin chick hatches in UK heatwave",
+      "url": "https://www.bbc.co.uk/news/articles/clyj3yrerpeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Science",
+      "source_category": "science",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "A wildlife park is celebrating the hatching of the first king penguin chick in the UK since 2014. The chick weighed 188g (6.6oz) when it hatched and is being hand-reared by keepers at Birdland Park and Gardens in Gloucestershire, who previously had to move the egg to an incubator for safety reasons. The egg belongs to parents French and Frank, with staff at the zoo saying the chick has already overcome several obstacles to survive - including the heat. \"While everyone else has been talking about how to keep cool this summer, we've spent the past few weeks concentrating on one very important little penguin,\" said Alistair Keen, head of living collection at the park. \"There's a long way to go and we won't be taking anything for granted, but we're delighted with the progress so far.\" King penguin parents share incubation duties by putting eggs on top of their feet and covering them with a fold of fat. However, keepers moved the egg to an incubator after Frank incorrectly positioned the egg between himself and French. The park said the egg was also slightly smaller than expected, weighing 298g (10oz) - just one of the challenges Keen said the chick had to overcome. \"French was a first-time breeder, Frank is an elderly gentleman by king penguin standards, and the egg itself was smaller than average,\" he said. \"But nature has surprised us in the best possible way.\" When is a water leak your responsibility? The incubation period lasted for two months and it may be another 16 months before the chick fledges.",
+      "published_at": "2026-08-21T10:22:10+00:00",
+      "updated_at": "2026-08-21T10:22:10+00:00",
+      "effective_at": "2026-08-21T10:22:10+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "climate",
+      "subsector": "weather",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "alistair",
+        "birdland",
+        "france",
+        "frank",
+        "gardens",
+        "gloucestershire",
+        "keen",
+        "park",
+        "uk"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "A wildlife park is celebrating the hatching of the first king penguin chick in the UK since 2014.",
+        "The chick weighed 188g (6.6oz) when it hatched and is being hand-reared by keepers at Birdland Park and Gardens in Gloucestershire, who previously had to move the egg to an incubator for safety reasons.",
+        "The egg belongs to parents French and Frank, with staff at the zoo saying the chick has already overcome several obstacles to survive - including the heat.",
+        "\"While everyone else has been talking about how to keep cool this summer, we've spent the past few weeks concentrating on one very important little penguin,\" said Alistair Keen, head of living collection at the park.",
+        "\"There's a long way to go and we won't be taking anything for granted, but we're delighted with the progress so far.\"",
+        "King penguin parents share incubation duties by putting eggs on top of their feet and covering them with a fold of fat.",
+        "However, keepers moved the egg to an incubator after Frank incorrectly positioned the egg between himself and French.",
+        "The park said the egg was also slightly smaller than expected, weighing 298g (10oz) - just one of the challenges Keen said the chick had to overcome.",
+        "\"French was a first-time breeder, Frank is an elderly gentleman by king penguin standards, and the egg itself was smaller than average,\" he said.",
+        "\"But nature has surprised us in the best possible way.\"",
+        "When is a water leak your responsibility?",
+        "The incubation period lasted for two months and it may be another 16 months before the chick fledges."
+      ],
+      "event_status": "NEW",
+      "event_id": "fad5bcc03dfa1be7b981ca06",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "18af8bf39b1f5c1298f72197ded38140b9aaadb40c819683cf80668a9cca3db3",
+      "public_label": "📰 NEWS",
+      "headline": "King penguin chick hatches in UK heatwave",
+      "briefing": {
+        "opening": [
+          "A wildlife park is celebrating the hatching of the first king penguin chick in the UK since 2014.",
+          "The chick weighed 188g (6.6oz) when it hatched and is being hand-reared by keepers at Birdland Park and Gardens in Gloucestershire, who previously had to move the egg to an incubator for safety reasons."
+        ],
+        "body": [
+          "The egg belongs to parents French and Frank, with staff at the zoo saying the chick has already overcome several obstacles to survive - including the heat.",
+          "\"While everyone else has been talking about how to keep cool this summer, we've spent the past few weeks concentrating on one very important little penguin,\" said Alistair Keen, head of living collection at the park.",
+          "\"There's a long way to go and we won't be taking anything for granted, but we're delighted with the progress so far.\" King penguin parents share incubation duties by putting eggs on top of their feet and covering them with a fold of fat.",
+          "However, keepers moved the egg to an incubator after Frank incorrectly positioned the egg between himself and French.",
+          "The park said the egg was also slightly smaller than expected, weighing 298g (10oz) - just one of the challenges Keen said the chick had to overcome.",
+          "\"French was a first-time breeder, Frank is an elderly gentleman by king penguin standards, and the egg itself was smaller than average,\" he said.",
+          "\"But nature has surprised us in the best possible way.\" When is a water leak your responsibility?",
+          "The incubation period lasted for two months and it may be another 16 months before the chick fledges."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Birdland Park"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The chick weighed 188g (6.6oz) when it hatched and is being hand-reared by keepers at Birdland Park and Gardens in Gloucestershire, who previously had to move the egg to an incubator for safety reasons.",
+            "source": "BBC Science",
+            "item_id": "18af8bf39b1f5c1298f72197ded38140b9aaadb40c819683cf80668a9cca3db3:article",
+            "composed": false
+          },
+          {
+            "text": "The park said the egg was also slightly smaller than expected, weighing 298g (10oz) - just one of the challenges Keen said the chick had to overcome.",
+            "source": "BBC Science",
+            "item_id": "18af8bf39b1f5c1298f72197ded38140b9aaadb40c819683cf80668a9cca3db3:article",
+            "composed": false
+          },
+          {
+            "text": "A wildlife park is celebrating the hatching of the first king penguin chick in the UK since 2014.",
+            "source": "BBC Science",
+            "item_id": "18af8bf39b1f5c1298f72197ded38140b9aaadb40c819683cf80668a9cca3db3:article",
+            "composed": false
+          },
+          {
+            "text": "The incubation period lasted for two months and it may be another 16 months before the chick fledges.",
+            "source": "BBC Science",
+            "item_id": "18af8bf39b1f5c1298f72197ded38140b9aaadb40c819683cf80668a9cca3db3:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC Science",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/clyj3yrerpeo?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "235296b469c71586add50bb79605565df88730d06fb29911ec9f257c539fbf01",
+      "title": "‘Astonishing’ if Polish PM truly supports terrorist sabotage — Kremlin",
+      "url": "https://tass.com/politics/2176063",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Donald Tusk earlier stated that Germany should not prosecute those responsible for sabotaging the Nord Stream pipelines",
+      "published_at": "2026-08-21T10:20:00+00:00",
+      "updated_at": "2026-08-21T10:20:00+00:00",
+      "effective_at": "2026-08-21T10:20:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "oil_gas",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "donald",
+        "germany",
+        "nord",
+        "pm",
+        "polish",
+        "russia",
+        "stream",
+        "tusk"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "6d83cbcba07b744abb5b9e49",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "235296b469c71586add50bb79605565df88730d06fb29911ec9f257c539fbf01",
+      "article_sentences": [
+        "MOSCOW, August 21.",
+        "If Polish Prime Minister Donald Tusk truly supports acts of terrorist sabotage against Europe’s energy infrastructure, such as the sabotage of the Nord Stream pipelines, then this is astonishing, Kremlin Spokesman Dmitry Peskov told reporters.",
+        "\"If Mr. Tusk advocates for and supports such acts of terrorist sabotage, it can only evoke astonishment and incomprehension,\" he noted.",
+        "Earlier, Tusk stated that Germany should not prosecute those responsible for sabotaging the Nord Stream pipelines.",
+        "He noted the blame should fall on those who built the pipeline, not those who sabotaged it.",
+        "On September 26, 2022, unprecedented damage was recorded on three branches of the Nord Stream pipeline and the Nord Stream 2 pipeline, which had not yet been put into operation.",
+        "The Russian Prosecutor General’s Office opened a criminal investigation into an act of international terrorism.",
+        "Later, the German Public Prosecutor General’s Office reported the arrest in Croatia of a Ukrainian national who is suspected of participating in the sabotage of the gas pipelines."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "‘Astonishing’ if Polish PM truly supports terrorist sabotage — Kremlin",
+      "briefing": {
+        "opening": [
+          "MOSCOW, August 21.",
+          "If Polish Prime Minister Donald Tusk truly supports acts of terrorist sabotage against Europe’s energy infrastructure, such as the sabotage of the Nord Stream pipelines, then this is astonishing, Kremlin Spokesman Dmitry Peskov told reporters."
+        ],
+        "body": [
+          "\"If Mr. Tusk advocates for and supports such acts of terrorist sabotage, it can only evoke astonishment and incomprehension,\" he noted.",
+          "Earlier, Tusk stated that Germany should not prosecute those responsible for sabotaging the Nord Stream pipelines.",
+          "He noted the blame should fall on those who built the pipeline, not those who sabotaged it.",
+          "On September 26, 2022, unprecedented damage was recorded on three branches of the Nord Stream pipeline and the Nord Stream 2 pipeline, which had not yet been put into operation.",
+          "The Russian Prosecutor General’s Office opened a criminal investigation into an act of international terrorism.",
+          "Later, the German Public Prosecutor General’s Office reported the arrest in Croatia of a Ukrainian national who is suspected of participating in the sabotage of the gas pipelines."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Croatia"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "If Polish Prime Minister Donald Tusk truly supports acts of terrorist sabotage against Europe’s energy infrastructure, such as the sabotage of the Nord Stream pipelines, then this is astonishing, Kremlin Spokesman Dmitry Peskov told reporters.",
+            "source": "TASS English",
+            "item_id": "235296b469c71586add50bb79605565df88730d06fb29911ec9f257c539fbf01:article",
+            "composed": false
+          },
+          {
+            "text": "\"If Mr. Tusk advocates for and supports such acts of terrorist sabotage, it can only evoke astonishment and incomprehension,\" he noted.",
+            "source": "TASS English",
+            "item_id": "235296b469c71586add50bb79605565df88730d06fb29911ec9f257c539fbf01:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, August 21.",
+            "source": "TASS English",
+            "item_id": "235296b469c71586add50bb79605565df88730d06fb29911ec9f257c539fbf01:article",
+            "composed": false
+          },
+          {
+            "text": "Office reported the arrest in Croatia of a Ukrainian national who is suspected of participating in the sabotage of the gas pipelines.",
+            "source": "TASS English",
+            "item_id": "235296b469c71586add50bb79605565df88730d06fb29911ec9f257c539fbf01:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/politics/2176063"
       },
       "group_size": 1,
       "label": "📰 NEWS"
