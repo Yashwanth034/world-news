@@ -1,56 +1,63 @@
 {
-  "generated_at": "2026-08-21T22:00:08.290604+00:00",
-  "count": 1,
+  "generated_at": "2026-08-21T22:03:25.236860+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "bb7e6d6b78d387b1017066c2f88a5976287d53557c43605bda45ea364d543b01",
-      "title": "Turkey denounces Netanyahu's 'petty political tactics'",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-denounces-netanyahus-petty-political-tactics",
-      "source": "Middle East Eye",
+      "id": "10808197333d65b8b3264de99dd1cde986ef7e2fa786fcc28480fd6e615b2742",
+      "title": "As natural disasters rage, does China’s ‘top-down’ climate model provide a way forward?",
+      "url": "https://www.scmp.com/economy/global-economy/article/3364849/natural-disasters-rage-does-chinas-top-down-climate-model-provide-way-forward?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Turkey denounces Netanyahu's 'petty political tactics' Turkey on Friday denounced Israeli Prime Minister Benjamin Netanyahu's \"petty political tactics\" in a statement from the president's office. In a statement posted on X, it condemned what it called the Netanyahu government's attempt \"to present Turkey as a new threat\".",
-      "published_at": "2026-08-21T21:53:29+00:00",
-      "updated_at": "2026-08-21T21:53:29+00:00",
-      "effective_at": "2026-08-21T21:53:29+00:00",
+      "summary": "A punishing drought is draining Europe’s great rivers, pushing the Loire, the Danube and the Rhine towards record lows. At the Kaub gauging station, the reference point for shipping on the Rhine – Germany’s economic artery – the water level fell to 17cm (6.7 inches) this month, a low unseen since measurements began in 1880. Meanwhile, wildfires are burning across southern Europe, forcing the evacuation of hundreds of thousands and producing the defining image of a European summer in which...",
+      "published_at": "2026-08-21T22:00:08+00:00",
+      "updated_at": "2026-08-21T22:00:08+00:00",
+      "effective_at": "2026-08-21T22:00:08+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
+      "category": "disaster",
+      "score": 81,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "West Asia / Middle East",
+      "urgency_terms": [
+        "evacuation",
+        "wildfire"
+      ],
+      "sector": "agriculture",
+      "subsector": "water",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "benjamin",
-        "israel",
-        "netanyahu",
-        "turkey"
+        "china",
+        "danube",
+        "europe",
+        "european",
+        "germany",
+        "kaub",
+        "loire",
+        "rhine"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "bef99b24d0366e7357cde822",
-      "importance_score": 32.0,
+      "event_status": "UPDATE",
+      "event_id": "c4b37e35d1b523aeb597dcf7",
+      "importance_score": 41.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "novelty": 8.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -63,36 +70,187 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4
+          "infrastructure": 8,
+          "human": 4
         }
       },
-      "story_id": "bb7e6d6b78d387b1017066c2f88a5976287d53557c43605bda45ea364d543b01",
-      "public_label": "📰 NEWS",
-      "headline": "Turkey denounces Netanyahu's 'petty political tactics'",
+      "story_id": "10808197333d65b8b3264de99dd1cde986ef7e2fa786fcc28480fd6e615b2742",
+      "public_label": "🔄 UPDATE",
+      "headline": "As natural disasters rage, does China’s ‘top-down’ climate model provide a way forward?",
       "briefing": {
         "opening": [
-          "Turkey denounces Netanyahu's 'petty political tactics' Turkey on Friday denounced Israeli Prime Minister Benjamin Netanyahu's \"petty political tactics\" in a statement from the president's office.",
-          "In a statement posted on X, it condemned what it called the Netanyahu government's attempt \"to present Turkey as a new threat\"."
+          "A punishing drought is draining Europe’s great rivers, pushing the Loire, the Danube and the Rhine towards record lows.",
+          "At the Kaub gauging station, the reference point for shipping on the Rhine – Germany’s economic artery – the water level fell to 17cm (6.7 inches) this month, a low unseen since measurements began in 1880."
         ],
-        "body": [],
+        "body": [
+          "Meanwhile, wildfires are burning across southern Europe, forcing the evacuation of hundreds of thousands and producing the defining image of a European summer in which..."
+        ],
         "bullets": [],
         "sentences": [
           {
-            "text": "In a statement posted on X, it condemned what it called the Netanyahu government's attempt \"to present Turkey as a new threat\".",
-            "source": "Middle East Eye",
-            "item_id": "bb7e6d6b78d387b1017066c2f88a5976287d53557c43605bda45ea364d543b01",
+            "text": "A punishing drought is draining Europe’s great rivers, pushing the Loire, the Danube and the Rhine towards record lows.",
+            "source": "South China Morning Post",
+            "item_id": "10808197333d65b8b3264de99dd1cde986ef7e2fa786fcc28480fd6e615b2742",
             "composed": false
           },
           {
-            "text": "Turkey denounces Netanyahu's 'petty political tactics' Turkey on Friday denounced Israeli Prime Minister Benjamin Netanyahu's \"petty political tactics\" in a statement from the president's office.",
-            "source": "Middle East Eye",
-            "item_id": "bb7e6d6b78d387b1017066c2f88a5976287d53557c43605bda45ea364d543b01",
+            "text": "At the Kaub gauging station, the reference point for shipping on the Rhine – Germany’s economic artery – the water level fell to 17cm (6.7 inches) this month, a low unseen since measurements began in 1880.",
+            "source": "South China Morning Post",
+            "item_id": "10808197333d65b8b3264de99dd1cde986ef7e2fa786fcc28480fd6e615b2742",
             "composed": false
           }
         ],
-        "source": "Middle East Eye",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-denounces-netanyahus-petty-political-tactics"
+        "url": "https://www.scmp.com/economy/global-economy/article/3364849/natural-disasters-rage-does-chinas-top-down-climate-model-provide-way-forward?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "3bb09d7346cc870b272c826d9b0fb0b7a564aff6569bb649587ade0dfcc10760",
+      "title": "Mexico Governor Ruben Rocha returns to office despite US criminal charges",
+      "url": "https://www.aljazeera.com/news/2026/8/21/mexico-governor-ruben-rocha-returns-to-office-despite-us-criminal-charges?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "The governor, who leads the state of Sinaloa, has been accused by the Trump administration of partnering with a cartel. The governor of the Mexican state of Sinaloa, Ruben Rocha Moya, has returned to his post after facing accusations of drug trafficking from the United States government. On Friday, Rocha announced on social media that he had resumed his duties, after taking a leave of absence on May 1. He used his post to maintain his innocence after the US charged him with protecting a faction of the Sinaloa Cartel in exchange for help with his political career. “Today, I return to my responsibilities as governor of Sinaloa with a clear conscience and my head held high, with the power of the truth on our side,” Rocha said. “Let there be no doubt: Now and always, I will defend — relentlessly and without compromise — my honour and that of my family.” Rocha is one of several Mexican officials who have faced criminal charges and other punitive measures under the second administration of US President Donald Trump. Since returning to office in 2025, Trump has sought to crack down on crime across the Western Hemisphere, including by labelling gangs like the Sinaloa Cartel as “foreign terrorist organisations”. Trump has also threatened military action in Mexico. He has accused the country’s cartels of “orchestrating much of the bloodshed and chaos in this hemisphere” and has depicted the Mexican government as overrun by criminal elements. On April 29, the Trump administration unsealed a criminal indictment against 10 Mexican officials and businessmen. They included a senator representing Sinaloa, a public security secretary for the state, the mayor of the city Culiacan and several high-ranking police leaders.",
+      "published_at": "2026-08-21T21:38:32+00:00",
+      "updated_at": "2026-08-21T21:38:32+00:00",
+      "effective_at": "2026-08-21T21:38:32+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "public_health",
+      "subregion": "Mexico",
+      "country": null,
+      "entities": [
+        "cartel",
+        "culiacan",
+        "donald",
+        "hemisphere",
+        "mexican",
+        "mexico",
+        "moya",
+        "rocha",
+        "ruben",
+        "sinaloa",
+        "trump",
+        "united_states",
+        "us",
+        "western"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "The governor, who leads the state of Sinaloa, has been accused by the Trump administration of partnering with a cartel.",
+        "The governor of the Mexican state of Sinaloa, Ruben Rocha Moya, has returned to his post after facing accusations of drug trafficking from the United States government.",
+        "On Friday, Rocha announced on social media that he had resumed his duties, after taking a leave of absence on May 1.",
+        "He used his post to maintain his innocence after the US charged him with protecting a faction of the Sinaloa Cartel in exchange for help with his political career.",
+        "“Today, I return to my responsibilities as governor of Sinaloa with a clear conscience and my head held high, with the power of the truth on our side,” Rocha said.",
+        "“Let there be no doubt: Now and always, I will defend — relentlessly and without compromise — my honour and that of my family.”",
+        "Rocha is one of several Mexican officials who have faced criminal charges and other punitive measures under the second administration of US President Donald Trump.",
+        "Since returning to office in 2025, Trump has sought to crack down on crime across the Western Hemisphere, including by labelling gangs like the Sinaloa Cartel as “foreign terrorist organisations”.",
+        "Trump has also threatened military action in Mexico.",
+        "He has accused the country’s cartels of “orchestrating much of the bloodshed and chaos in this hemisphere” and has depicted the Mexican government as overrun by criminal elements.",
+        "On April 29, the Trump administration unsealed a criminal indictment against 10 Mexican officials and businessmen.",
+        "They included a senator representing Sinaloa, a public security secretary for the state, the mayor of the city Culiacan and several high-ranking police leaders."
+      ],
+      "event_status": "NEW",
+      "event_id": "b18dcfa997f0921871668e15",
+      "importance_score": 41.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "3bb09d7346cc870b272c826d9b0fb0b7a564aff6569bb649587ade0dfcc10760",
+      "public_label": "📰 NEWS",
+      "headline": "Mexico Governor Ruben Rocha returns to office despite US criminal charges",
+      "briefing": {
+        "opening": [
+          "The governor, who leads the state of Sinaloa, has been accused by the Trump administration of partnering with a cartel.",
+          "The governor of the Mexican state of Sinaloa, Ruben Rocha Moya, has returned to his post after facing accusations of drug trafficking from the United States government."
+        ],
+        "body": [
+          "On Friday, Rocha announced on social media that he had resumed his duties, after taking a leave of absence on May 1.",
+          "He used his post to maintain his innocence after the US charged him with protecting a faction of the Sinaloa Cartel in exchange for help with his political career.",
+          "“Today, I return to my responsibilities as governor of Sinaloa with a clear conscience and my head held high, with the power of the truth on our side,” Rocha said.",
+          "“Let there be no doubt: Now and always, I will defend — relentlessly and without compromise — my honour and that of my family.” Rocha is one of several Mexican officials who have faced criminal charges and other punitive measures under the second administration of US President Donald Trump.",
+          "Since returning to office in 2025, Trump has sought to crack down on crime across the Western Hemisphere, including by labelling gangs like the Sinaloa Cartel as “foreign terrorist organisations”.",
+          "Trump has also threatened military action in Mexico.",
+          "He has accused the country’s cartels of “orchestrating much of the bloodshed and chaos in this hemisphere” and has depicted the Mexican government as overrun by criminal elements.",
+          "On April 29, the Trump administration unsealed a criminal indictment against 10 Mexican officials and businessmen."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Mexico"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "On April 29, the Trump administration unsealed a criminal indictment against 10 Mexican officials and businessmen.",
+            "source": "Al Jazeera",
+            "item_id": "3bb09d7346cc870b272c826d9b0fb0b7a564aff6569bb649587ade0dfcc10760:article",
+            "composed": false
+          },
+          {
+            "text": "On Friday, Rocha announced on social media that he had resumed his duties, after taking a leave of absence on May 1.",
+            "source": "Al Jazeera",
+            "item_id": "3bb09d7346cc870b272c826d9b0fb0b7a564aff6569bb649587ade0dfcc10760:article",
+            "composed": false
+          },
+          {
+            "text": "Since returning to office in 2025, Trump has sought to crack down on crime across the Western Hemisphere, including by labelling gangs like the Sinaloa Cartel as “foreign terrorist organisations”.",
+            "source": "Al Jazeera",
+            "item_id": "3bb09d7346cc870b272c826d9b0fb0b7a564aff6569bb649587ade0dfcc10760:article",
+            "composed": false
+          },
+          {
+            "text": "“Today, I return to my responsibilities as governor of Sinaloa with a clear conscience and my head held high, with the power of the truth on our side,” Rocha said.",
+            "source": "Al Jazeera",
+            "item_id": "3bb09d7346cc870b272c826d9b0fb0b7a564aff6569bb649587ade0dfcc10760:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/news/2026/8/21/mexico-governor-ruben-rocha-returns-to-office-despite-us-criminal-charges?traffic_source=rss"
       },
       "group_size": 1,
       "label": "📰 NEWS"
