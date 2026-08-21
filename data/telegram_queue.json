@@ -1,59 +1,84 @@
 {
-  "generated_at": "2026-08-21T08:58:14.965213+00:00",
-  "count": 1,
+  "generated_at": "2026-08-21T09:01:21.238126+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "fbeb131f59aa70ff400c2f67023f3151f2831757e12a8945eaa6a54bb8be4838",
-      "title": "ECLAC trims its 2026 forecast for Latin America and the Caribbean to 2.2%",
-      "url": "https://en.mercopress.com/2026/08/21/eclac-trims-its-2026-forecast-for-latin-america-and-the-caribbean-to-2.2?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "source": "MercoPress",
+      "id": "b2eaef57953235c3ec6bc1cca7ea39fa088ce34e09fedd02711985262e3ac5e5",
+      "title": "Australia charges man for passing Ukrainian military intel to Russia",
+      "url": "https://www.aljazeera.com/news/2026/8/21/australia-charges-man-for-passing-ukrainian-military-intel-to-russia?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Oceania",
       "discovery": false,
-      "summary": "The Economic Commission for Latin America and the Caribbean on Thursday lowered its regional growth projection for 2026 to 2.2%, one tenth below the estimate issued in December. The United Nations body expects a partial recovery to 2.5% in 2027 and warns that the current pace is insufficient to sustainably raise income per capita.",
-      "published_at": "2026-08-21T08:47:00+00:00",
-      "updated_at": "2026-08-21T08:47:00+00:00",
-      "effective_at": "2026-08-21T08:47:00+00:00",
+      "summary": "Police allege Australian-Russian citizen joined Ukrainian military seeking to send information to Russian intelligence. Australian police have charged a dual Russian-Australian citizen for trying to pass Ukrainian military information to people he believed were linked to Russian intelligence. The 27-year-old man was due to appear in court in Brisbane on Friday on charges of foreign interference. Australian Federal Police Commissioner Krissy Barrett told a news conference that the suspect travelled to Russia for training in October 2024. He then returned to Australia but “maintained contact” with individuals he believed were linked to Moscow’s intelligence services. The police allege the man enlisted in the Ukrainian military in May 2025, where he “gained access to information relating to their military personnel, units and locations”. Barrett said he shared the information obtained in Ukraine with “individuals he believed were acting on behalf of Russian intelligence services”, putting the safety of Ukrainian military staff at risk. “We don’t want Australia to become a safe haven for people who are undertaking foreign interference on behalf of other countries,” the commissioner said. The identity of the suspect, who is unemployed, has not been revealed. Police said there was no indication he had received military training in Australia. Search warrants have been executed, they added, noting the possibility of further arrests related to the case. Australian Federal Police and the Australian Security Intelligence Organisation spy agency conducted the investigation.",
+      "published_at": "2026-08-21T08:42:20+00:00",
+      "updated_at": "2026-08-21T08:42:20+00:00",
+      "effective_at": "2026-08-21T08:42:20+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
+      "category": "conflict",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "economy",
-      "subregion": null,
+      "sector": "technology",
+      "subsector": "semiconductors",
+      "subregion": "Australia",
       "country": null,
       "entities": [
-        "america",
-        "caribbean",
-        "commission",
-        "economic",
-        "latin",
-        "nations",
-        "united"
+        "australia",
+        "australian",
+        "australian-russian",
+        "barrett",
+        "brisbane",
+        "commissioner",
+        "federal",
+        "intelligence",
+        "krissy",
+        "organisation",
+        "police",
+        "russia",
+        "russian-australian",
+        "security",
+        "ukraine"
       ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 1,
-      "priority_score": 100,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "47c854157aea5da04ddabf9c",
-      "importance_score": 36.0,
-      "importance_level": "LOW",
+      "corroborating_sources": 3,
+      "strong_corroboration": 2,
+      "corroborating_source_names": [
+        "Euronews",
+        "Straits Times Asia"
+      ],
+      "verified_match_count": 3,
+      "priority_score": 75,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "article_sentences": [
+        "Police allege Australian-Russian citizen joined Ukrainian military seeking to send information to Russian intelligence.",
+        "Australian police have charged a dual Russian-Australian citizen for trying to pass Ukrainian military information to people he believed were linked to Russian intelligence.",
+        "The 27-year-old man was due to appear in court in Brisbane on Friday on charges of foreign interference.",
+        "Australian Federal Police Commissioner Krissy Barrett told a news conference that the suspect travelled to Russia for training in October 2024.",
+        "He then returned to Australia but “maintained contact” with individuals he believed were linked to Moscow’s intelligence services.",
+        "The police allege the man enlisted in the Ukrainian military in May 2025, where he “gained access to information relating to their military personnel, units and locations”.",
+        "Barrett said he shared the information obtained in Ukraine with “individuals he believed were acting on behalf of Russian intelligence services”, putting the safety of Ukrainian military staff at risk.",
+        "“We don’t want Australia to become a safe haven for people who are undertaking foreign interference on behalf of other countries,” the commissioner said.",
+        "The identity of the suspect, who is unemployed, has not been revealed.",
+        "Police said there was no indication he had received military training in Australia.",
+        "Search warrants have been executed, they added, noting the possibility of further arrests related to the case.",
+        "Australian Federal Police and the Australian Security Intelligence Organisation spy agency conducted the investigation."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "c1cafa0603c1c0cb84e9329b",
+      "importance_score": 50.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 9.0,
-        "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
-        "corroboration": 3,
-        "significance": 0,
+        "corroboration": 8,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -65,41 +90,192 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8
+        }
       },
-      "story_id": "fbeb131f59aa70ff400c2f67023f3151f2831757e12a8945eaa6a54bb8be4838",
-      "public_label": "📰 NEWS",
-      "headline": "ECLAC trims its 2026 forecast for Latin America and the Caribbean to 2.2%",
+      "story_id": "b2eaef57953235c3ec6bc1cca7ea39fa088ce34e09fedd02711985262e3ac5e5",
+      "public_label": "🔄 UPDATE",
+      "headline": "Australia charges man for passing Ukrainian military intel to Russia",
       "briefing": {
         "opening": [
-          "The Economic Commission for Latin America and the Caribbean on Thursday lowered its regional growth projection for 2026 to 2.2%, one tenth below the estimate issued in December.",
-          "The United Nations body expects a partial recovery to 2.5% in 2027 and warns that the current pace is insufficient to sustainably raise income per capita."
+          "Police allege Australian-Russian citizen joined Ukrainian military seeking to send information to Russian intelligence.",
+          "Australian police have charged a dual Russian-Australian citizen for trying to pass Ukrainian military information to people he believed were linked to Russian intelligence."
         ],
-        "body": [],
+        "body": [
+          "The 27-year-old man was due to appear in court in Brisbane on Friday on charges of foreign interference.",
+          "Australian Federal.",
+          "Police Commissioner Krissy Barrett told a news conference that the suspect travelled to Russia for training in October 2024.",
+          "He then returned to Australia but “maintained contact” with individuals he believed were linked to Moscow’s intelligence services.",
+          "The police allege the man enlisted in the Ukrainian military in May 2025, where he “gained access to information relating to their military personnel, units and locations”.",
+          "Barrett said he shared the information obtained in Ukraine with “individuals he believed were acting on behalf of Russian intelligence services”, putting the safety of Ukrainian military staff at risk.",
+          "“We don’t want Australia to become a safe haven for people who are undertaking foreign interference on behalf of other countries,” the commissioner said.",
+          "The identity of the suspect, who is unemployed, has not been revealed."
+        ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "December"
+            "text": "Brisbane"
           }
         ],
         "sentences": [
           {
-            "text": "The Economic Commission for Latin America and the Caribbean on Thursday lowered its regional growth projection for 2026 to 2.2%, one tenth below the estimate issued in December.",
-            "source": "MercoPress",
-            "item_id": "fbeb131f59aa70ff400c2f67023f3151f2831757e12a8945eaa6a54bb8be4838",
+            "text": "Police Commissioner Krissy Barrett told a news conference that the suspect travelled to Russia for training in October 2024.",
+            "source": "Al Jazeera",
+            "item_id": "b2eaef57953235c3ec6bc1cca7ea39fa088ce34e09fedd02711985262e3ac5e5:article",
             "composed": false
           },
           {
-            "text": "The United Nations body expects a partial recovery to 2.5% in 2027 and warns that the current pace is insufficient to sustainably raise income per capita.",
-            "source": "MercoPress",
-            "item_id": "fbeb131f59aa70ff400c2f67023f3151f2831757e12a8945eaa6a54bb8be4838",
+            "text": "The 27-year-old man was due to appear in court in Brisbane on Friday on charges of foreign interference.",
+            "source": "Al Jazeera",
+            "item_id": "b2eaef57953235c3ec6bc1cca7ea39fa088ce34e09fedd02711985262e3ac5e5:article",
+            "composed": false
+          },
+          {
+            "text": "The police allege the man enlisted in the Ukrainian military in May 2025, where he “gained access to information relating to their military personnel, units and locations”.",
+            "source": "Al Jazeera",
+            "item_id": "b2eaef57953235c3ec6bc1cca7ea39fa088ce34e09fedd02711985262e3ac5e5:article",
+            "composed": false
+          },
+          {
+            "text": "Barrett said he shared the information obtained in Ukraine with “individuals he believed were acting on behalf of Russian intelligence services”, putting the safety of Ukrainian military staff at risk.",
+            "source": "Al Jazeera",
+            "item_id": "b2eaef57953235c3ec6bc1cca7ea39fa088ce34e09fedd02711985262e3ac5e5:article",
             "composed": false
           }
         ],
-        "source": "MercoPress",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://en.mercopress.com/2026/08/21/eclac-trims-its-2026-forecast-for-latin-america-and-the-caribbean-to-2.2?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/21/australia-charges-man-for-passing-ukrainian-military-intel-to-russia?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "c945cc0c6108353f248e6d2b49e3d28e29d56551f587a9b344b71fed7d096024",
+      "title": "Wang Yi visits South Korea, China’s economy cools, Warsh speaks at Jackson Hole",
+      "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3364793/wang-yi-visits-south-korea-chinas-economy-cools-warsh-speaks-jackson-hole?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Note: SCMP Plus subscribers can attend an exclusive event with Zhou Bo, a retired People’s Liberation Army senior colonel, in Hong Kong on Tuesday. Zhou will discuss China’s military modernisation as the PLA works towards its 2027 centenary goal. SCMP Editor-in-Chief Chow Chung-yan will host the fireside chat. Zhou is now a senior fellow at Tsinghua University. Chinese Foreign Minister Wang Yi sought to boost ties with South Korea amid signs of strains in the long-standing US-South Korean...",
+      "published_at": "2026-08-21T09:00:16+00:00",
+      "updated_at": "2026-08-21T09:00:16+00:00",
+      "effective_at": "2026-08-21T09:00:16+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "army",
+        "bo",
+        "china",
+        "chow",
+        "chung-yan",
+        "editor-in-chief",
+        "foreign",
+        "hole",
+        "hong_kong",
+        "jackson",
+        "korean",
+        "liberation",
+        "note",
+        "pla",
+        "plus",
+        "scmp",
+        "south_korea",
+        "tsinghua",
+        "university",
+        "us-south",
+        "wang",
+        "warsh",
+        "yi",
+        "zhou"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "30b5908118aca4146110fcb8",
+      "importance_score": 41.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "economic": 4,
+          "security": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "c945cc0c6108353f248e6d2b49e3d28e29d56551f587a9b344b71fed7d096024",
+      "public_label": "📰 NEWS",
+      "headline": "Wang Yi visits South Korea, China’s economy cools, Warsh speaks at Jackson Hole",
+      "briefing": {
+        "opening": [
+          "Note: SCMP Plus subscribers can attend an exclusive event with Zhou Bo, a retired People’s Liberation Army senior colonel, in Hong Kong on Tuesday.",
+          "Zhou will discuss China’s military modernisation as the PLA works towards its 2027 centenary goal."
+        ],
+        "body": [
+          "SCMP Editor-in-Chief Chow Chung-yan will host the fireside chat.",
+          "Zhou is now a senior fellow at Tsinghua University.",
+          "Chinese Foreign Minister Wang Yi sought to boost ties with South Korea amid signs of strains in the long-standing US-South Korean..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Hong Kong"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Note: SCMP Plus subscribers can attend an exclusive event with Zhou Bo, a retired People’s Liberation Army senior colonel, in Hong Kong on Tuesday.",
+            "source": "South China Morning Post",
+            "item_id": "c945cc0c6108353f248e6d2b49e3d28e29d56551f587a9b344b71fed7d096024",
+            "composed": false
+          },
+          {
+            "text": "Zhou will discuss China’s military modernisation as the PLA works towards its 2027 centenary goal.",
+            "source": "South China Morning Post",
+            "item_id": "c945cc0c6108353f248e6d2b49e3d28e29d56551f587a9b344b71fed7d096024",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3364793/wang-yi-visits-south-korea-chinas-economy-cools-warsh-speaks-jackson-hole?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
