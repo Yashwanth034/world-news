@@ -1,53 +1,61 @@
 {
-  "generated_at": "2026-08-21T13:20:50.441207+00:00",
-  "count": 2,
+  "generated_at": "2026-08-21T13:31:01.414564+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "8f47675866ffe4b280edf660d30ac9f2fb23014817bba653060572482c890309",
-      "title": "BRICS countries support GFCN’s initiative to develop centers to combat disinformation",
-      "url": "https://tass.com/world/2176157",
+      "id": "67094db14f1b01f681f5d19bb320d3ff96221fb000142f650119b94773d21da2",
+      "title": "Poland plans to deploy missiles with range of over 1,000 km in its east — defense ministry",
+      "url": "https://tass.com/world/2176159",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "The initiatives are focused on sharing the best practices and methods for verifying information, building fact-checking capacity and developing educational programs for journalists, government officials and other user groups",
-      "published_at": "2026-08-21T13:17:57+00:00",
-      "updated_at": "2026-08-21T13:17:57+00:00",
-      "effective_at": "2026-08-21T13:17:57+00:00",
+      "summary": "At the same time, Polish Defense Minister Wladyslaw Kosiniak-Kamysz said that Poland had already constructed 150 km of fortifications under the \"East Shield\" program and plans to add another 50 km by the end of this year",
+      "published_at": "2026-08-21T13:27:33+00:00",
+      "updated_at": "2026-08-21T13:27:33+00:00",
+      "effective_at": "2026-08-21T13:27:33+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 65,
+      "score": 73,
       "confidence": "medium",
-      "urgency_terms": [],
+      "urgency_terms": [
+        "missile"
+      ],
       "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": null,
+      "subsector": "defense",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "gfcn"
+        "defense",
+        "east",
+        "kosiniak-kamysz",
+        "poland",
+        "polish",
+        "shield",
+        "wladyslaw"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 80,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "740d58384c9de82143d18e1a",
-      "importance_score": 33.0,
+      "event_id": "e952ba76ac87716a325e6553",
+      "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 10,
+        "urgency": 7.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -60,102 +68,111 @@
           "crisis": false
         },
         "significance_dims": {
+          "security": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "8f47675866ffe4b280edf660d30ac9f2fb23014817bba653060572482c890309",
+      "story_id": "67094db14f1b01f681f5d19bb320d3ff96221fb000142f650119b94773d21da2",
       "article_sentences": [
         "MOSCOW, August 21.",
-        "The BRICS countries have endorsed a proposal by the Global Fact-Checking Network (GFCN) to establish centers and institutions dedicated to combating misinformation, the association told TASS.",
-        "According to the GFCN, its initiatives aimed at fostering international cooperation in combating misinformation were included in the statement issued following the 12th meeting of BRICS communications ministers in the Indian city of Pune.",
-        "These initiatives focused on sharing the best practices and methods for verifying information, building fact-checking capacity, and developing educational programs for journalists, government officials, and other user groups.",
-        "\"Another proposal voiced by the GFCN concerns developing specialized centers and institutions in BRICS countries dedicated to countering disinformation.",
-        "The statement reaffirms support for raising public awareness and the exchange of best practices for implementing educational programs and training sessions,\" the GFCN noted.",
-        "The association clarified that such programs \"should help users, including journalists and government officials, acquire the knowledge and skills necessary for critical evaluation of information, as well as increase society’s resilience to the negative impact of false reports.\"",
-        "In addition, the final statement included provisions proposed by the association on the fight against fake and misleading information.",
-        "At the GFCN's initiative, the document emphasized the need to strengthen international cooperation in this area, including the exchange of experience and verification methods, as well as building fact-checking capacity.",
-        "\"Collaboration in this area must take into account the cultural and national contexts of the BRICS countries,\" the association noted.",
-        "The Global Fact-Checking Network (GFCN) unites experts and fact-checking organizations worldwide.",
-        "Established in 2025 by the TASS news agency, the autonomous nonprofit organization \"Dialogue Regions,\" and the New Media Workshop, the association was formed to combat disinformation."
+        "Poland's Defense Ministry plans to deploy missiles with a range of over 1,000 km along its eastern border in addition to the \"East Shield\" fortification system, Polish Defense Minister Wladyslaw Kosiniak-Kamysz said.",
+        "\"We will develop the \"East Sword\" for deterrence within the framework of the \"East Shield\" program because long-range precision strikes and strategic strike capabilities are crucial for the security of the Polish state,\" the Wirtualna Polska news portal quoted him as saying.",
+        "According to the defense minister, JASSM cruise missiles with a range of up to 370 km and JASSM-ER missiles with a range of up to 900 km could be used for this purpose.",
+        "Kosiniak-Kamysz added that the defense ministry plans to acquire \"weapons capable of hitting targets more than 1,000 km away.\"",
+        "At the same time, the minister said that Poland has already constructed 150 km of fortifications under the \"East Shield\" program and plans to add another 50 km by the end of this year.",
+        "Among other things, the authorities will install 300,000 concrete anti-tank obstacles along the borders with Russia and Belarus by mid-October.",
+        "Polish authorities announced plans to build fortifications along the borders with Russia and Belarus in May 2024.",
+        "The \"East Shield\" program is expected to cost 10 billion zlotys (about $2.5 billion), with work scheduled to be completed in 2028.",
+        "The plans include digging trenches along Poland's eastern border, deploying minefields, installing anti-tank obstacles and establishing an active surveillance system.",
+        "The first construction work began along the border with the Kaliningrad Region in early November 2024."
       ],
       "public_label": "📰 NEWS",
-      "headline": "BRICS countries support GFCN’s initiative to develop centers to combat disinformation",
+      "headline": "Poland plans to deploy missiles with range of over 1,000 km in its east — defense ministry",
       "briefing": {
         "opening": [
           "MOSCOW, August 21.",
-          "The BRICS countries have endorsed a proposal by the Global Fact-Checking Network (GFCN) to establish centers and institutions dedicated to combating misinformation, the association told TASS."
+          "Poland's Defense Ministry plans to deploy missiles with a range of over 1,000 km along its eastern border in addition to the \"East Shield\" fortification system, Polish Defense Minister Wladyslaw Kosiniak-Kamysz said."
         ],
         "body": [
-          "According to the GFCN, its initiatives aimed at fostering international cooperation in combating misinformation were included in the statement issued following the 12th meeting of BRICS communications ministers in the Indian city of Pune.",
-          "These initiatives focused on sharing the best practices and methods for verifying information, building fact-checking capacity, and developing educational programs for journalists, government officials, and other user groups.",
-          "\"Another proposal voiced by the GFCN concerns developing specialized centers and institutions in BRICS countries dedicated to countering disinformation.",
-          "The statement reaffirms support for raising public awareness and the exchange of best practices for implementing educational programs and training sessions,\" the GFCN noted.",
-          "The association clarified that such programs \"should help users, including journalists and government officials, acquire the knowledge and skills necessary for critical evaluation of information, as well as increase society’s resilience to the negative impact of false reports.\" In addition, the final statement included provisions proposed by the association on the fight against fake and misleading information.",
-          "At the GFCN's initiative, the document emphasized the need to strengthen international cooperation in this area, including the exchange of experience and verification methods, as well as building fact-checking capacity.",
-          "\"Collaboration in this area must take into account the cultural and national contexts of the BRICS countries,\" the association noted.",
-          "The Global Fact-Checking Network (GFCN) unites experts and fact-checking organizations worldwide."
+          "\"We will develop the \"East Sword\" for deterrence within the framework of the \"East Shield\" program because long-range precision strikes and strategic strike capabilities are crucial for the security of the Polish state,\" the Wirtualna Polska news portal quoted him as saying.",
+          "Among other things, the authorities will install 300,000 concrete anti-tank obstacles along the borders with Russia and Belarus by mid-October.",
+          "Polish authorities announced plans to build fortifications along the borders with Russia and Belarus in May 2024.",
+          "The plans include digging trenches along Poland's eastern border, deploying minefields, installing anti-tank obstacles and establishing an active surveillance system.",
+          "The first construction work began along the border with the Kaliningrad Region in early November 2024."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "BRICS"
+            "text": "May"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The \"East Shield\" program is expected to cost 10 billion zlotys (about $2.5 billion), with work scheduled to be completed in 2028."
           }
         ],
         "sentences": [
           {
-            "text": "The BRICS countries have endorsed a proposal by the Global Fact-Checking Network (GFCN) to establish centers and institutions dedicated to combating misinformation, the association told TASS.",
+            "text": "Polish authorities announced plans to build fortifications along the borders with Russia and Belarus in May 2024.",
             "source": "TASS English",
-            "item_id": "8f47675866ffe4b280edf660d30ac9f2fb23014817bba653060572482c890309:article",
+            "item_id": "67094db14f1b01f681f5d19bb320d3ff96221fb000142f650119b94773d21da2:article",
+            "composed": false
+          },
+          {
+            "text": "The \"East Shield\" program is expected to cost 10 billion zlotys (about $2.5 billion), with work scheduled to be completed in 2028.",
+            "source": "TASS English",
+            "item_id": "67094db14f1b01f681f5d19bb320d3ff96221fb000142f650119b94773d21da2:article",
             "composed": false
           },
           {
             "text": "MOSCOW, August 21.",
             "source": "TASS English",
-            "item_id": "8f47675866ffe4b280edf660d30ac9f2fb23014817bba653060572482c890309:article",
+            "item_id": "67094db14f1b01f681f5d19bb320d3ff96221fb000142f650119b94773d21da2:article",
             "composed": false
           },
           {
-            "text": "According to the GFCN, its initiatives aimed at fostering international cooperation in combating misinformation were included in the statement issued following the 12th meeting of BRICS communications ministers in the Indian city of Pune.",
+            "text": "Among other things, the authorities will install 300,000 concrete anti-tank obstacles along the borders with Russia and Belarus by mid-October.",
             "source": "TASS English",
-            "item_id": "8f47675866ffe4b280edf660d30ac9f2fb23014817bba653060572482c890309:article",
+            "item_id": "67094db14f1b01f681f5d19bb320d3ff96221fb000142f650119b94773d21da2:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/world/2176157"
+        "url": "https://tass.com/world/2176159"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "d56ad633fc04ecc831fb708404f38d1420142d057e0d521015d3c86110972091",
-      "title": "Four-to five-day forums can generate 1-2 months’ worth of revenue for local businesses",
-      "url": "https://tass.com/economy/2176153",
+      "id": "14482062667bddbdadcb3a318146e5ac6d1ad53254905804f2ed73c229849f69",
+      "title": "Russian weightlifter wins gold at European youth championships",
+      "url": "https://tass.com/sports/2176163",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "Hosting forums generates additional revenue for restaurants, transport and hotel companies, as well as other small and medium-sized businesses, Anton Kobyakov noted",
-      "published_at": "2026-08-21T13:15:14+00:00",
-      "updated_at": "2026-08-21T13:15:14+00:00",
-      "effective_at": "2026-08-21T13:15:14+00:00",
+      "summary": "Sergey Novozhilov competed in the 55-kg weight class, lifting a total of 202 kg",
+      "published_at": "2026-08-21T13:29:09+00:00",
+      "updated_at": "2026-08-21T13:29:09+00:00",
+      "effective_at": "2026-08-21T13:29:09+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "companies",
-      "subregion": null,
+      "sector": "economy",
+      "subsector": "commodities",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "anton",
-        "hosting",
-        "kobyakov"
+        "european",
+        "novozhilov",
+        "russia",
+        "sergey"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -165,18 +182,18 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "22364f8860ad1efc9a0b300a",
-      "importance_score": 30.0,
+      "event_id": "0fa86c8bf0413b94bf0c4502",
+      "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -188,72 +205,201 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "infrastructure": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "d56ad633fc04ecc831fb708404f38d1420142d057e0d521015d3c86110972091",
+      "story_id": "14482062667bddbdadcb3a318146e5ac6d1ad53254905804f2ed73c229849f69",
       "article_sentences": [
         "MOSCOW, August 21.",
-        "Forums lasting 4-5 days can provide local businesses with 1-2 months of revenue, Anton Kobyakov, Adviser to the Russian President, Executive Secretary of the Eastern Economic Forum’s (EEF) Organizing Committee, said in an interview with TASS ahead of the event.",
-        "\"The cream of the country’s small, medium, and large business sectors, along with government officials and foreign guests, descend on the forum’s host city for 4-5 days.",
-        "For local businesses these 4-5 days sometimes generate revenue equivalent to 1-2 months’ worth,\" he said.",
-        "Hosting forums generates additional revenue for restaurants, transport and hotel companies, as well as other small and medium-sized businesses, Kobyakov noted, adding that regional authorities improve urban areas and prepare cities to welcome guests.",
-        "\"In other words, a region or city should understand why it needs the forum and what benefits it offers.",
-        "Geography matters, too, of course.",
-        "It would be odd, for instance, to host an Eastern forum in St. Petersburg or an Arctic forum in Sochi,\" he stressed.",
-        "Overall, many cities with experience in organizing major international events are potentially ready to host forums, according to the official.",
-        "The Eastern Economic Forum will be held September 1-4 in Vladivostok on the campus of the Far Eastern Federal University.",
-        "The main theme of this year’s EEF is \"The Far East: Development for the Benefit of People.\" The event is organized by the Roscongress Foundation with the support of the Russian government.",
-        "TASS is its general information partner."
+        "Russian weightlifter Sergey Novozhilov won gold at the European championships for athletes aged 15 and under in Pristina, Kosovo.",
+        "He competed in the 55-kg weight class, lifting a total of 202 kg (94 kg in the snatch; 108 kg in the clean and jerk).",
+        "Novozhilov is 15 years old.",
+        "He won the Russian championships for athletes aged 15 and under in the 55-kg weight class.",
+        "The competition in Pristina ends on August 27.",
+        "Russian athletes are competing under the country's flag and to its national anthem."
       ],
       "public_label": "📰 NEWS",
-      "headline": "Four-to five-day forums can generate 1-2 months’ worth of revenue for local businesses",
+      "headline": "Russian weightlifter wins gold at European youth championships",
       "briefing": {
         "opening": [
           "MOSCOW, August 21.",
-          "Forums lasting 4-5 days can provide local businesses with 1-2 months of revenue, Anton Kobyakov, Adviser to the Russian President, Executive Secretary of the Eastern Economic Forum’s (EEF) Organizing Committee, said in an interview with TASS ahead of the event."
+          "Russian weightlifter Sergey Novozhilov won gold at the European championships for athletes aged 15 and under in Pristina, Kosovo."
         ],
         "body": [
-          "\"The cream of the country’s small, medium, and large business sectors, along with government officials and foreign guests, descend on the forum’s host city for 4-5 days.",
-          "For local businesses these 4-5 days sometimes generate revenue equivalent to 1-2 months’ worth,\" he said.",
-          "Hosting forums generates additional revenue for restaurants, transport and hotel companies, as well as other small and medium-sized businesses, Kobyakov noted, adding that regional authorities improve urban areas and prepare cities to welcome guests.",
-          "\"In other words, a region or city should understand why it needs the forum and what benefits it offers.",
-          "Geography matters, too, of course.",
-          "It would be odd, for instance, to host an Eastern forum in St. Petersburg or an Arctic forum in Sochi,\" he stressed.",
-          "Overall, many cities with experience in organizing major international events are potentially ready to host forums, according to the official.",
-          "The Eastern Economic Forum will be held September 1-4 in Vladivostok on the campus of the Far Eastern Federal University."
+          "He competed in the 55-kg weight class, lifting a total of 202 kg (94 kg in the snatch; 108 kg in the clean and jerk).",
+          "Novozhilov is 15 years old.",
+          "He won the Russian championships for athletes aged 15 and under in the 55-kg weight class.",
+          "The competition in Pristina ends on August 27.",
+          "Russian athletes are competing under the country's flag and to its national anthem.",
+          "Sergey Novozhilov competed in the 55-kg weight class, lifting a total of 202 kg."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "St"
+            "text": "Pristina"
           }
         ],
         "sentences": [
           {
-            "text": "The Eastern Economic Forum will be held September 1-4 in Vladivostok on the campus of the Far Eastern Federal University.",
+            "text": "He won the Russian championships for athletes aged 15 and under in the 55-kg weight class.",
             "source": "TASS English",
-            "item_id": "d56ad633fc04ecc831fb708404f38d1420142d057e0d521015d3c86110972091:article",
+            "item_id": "14482062667bddbdadcb3a318146e5ac6d1ad53254905804f2ed73c229849f69:article",
             "composed": false
           },
           {
-            "text": "Forums lasting 4-5 days can provide local businesses with 1-2 months of revenue, Anton Kobyakov, Adviser to the Russian President, Executive Secretary of the Eastern Economic Forum’s (EEF) Organizing Committee, said in an interview with TASS ahead of the event.",
+            "text": "The competition in Pristina ends on August 27.",
             "source": "TASS English",
-            "item_id": "d56ad633fc04ecc831fb708404f38d1420142d057e0d521015d3c86110972091:article",
+            "item_id": "14482062667bddbdadcb3a318146e5ac6d1ad53254905804f2ed73c229849f69:article",
+            "composed": false
+          },
+          {
+            "text": "Russian weightlifter Sergey Novozhilov won gold at the European championships for athletes aged 15 and under in Pristina, Kosovo.",
+            "source": "TASS English",
+            "item_id": "14482062667bddbdadcb3a318146e5ac6d1ad53254905804f2ed73c229849f69:article",
             "composed": false
           },
           {
             "text": "MOSCOW, August 21.",
             "source": "TASS English",
-            "item_id": "d56ad633fc04ecc831fb708404f38d1420142d057e0d521015d3c86110972091:article",
+            "item_id": "14482062667bddbdadcb3a318146e5ac6d1ad53254905804f2ed73c229849f69:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/economy/2176153"
+        "url": "https://tass.com/sports/2176163"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "5092bc9b9db94d21f25fe9dd36089ff12fac0d76c9b3de96431e266843a9c90a",
+      "title": "Murky pond will cost £100k for full restoration",
+      "url": "https://www.bbc.co.uk/news/articles/cwyr079ve75o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Science",
+      "source_category": "science",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "A pond covered in green algae will cost £100,000 to restore and cannot be fixed with simple measures, an environment boss has said. Islanders were warned in 2022 not to let pets jump in or drink from the pond at Saumarez Park due to the high levels of green algae. Pond maintenance expert Daniel Lloyd recently said the situation had worsened, stressing the States \"needs to think hard about what they need to do\" and \"act quickly\". In response, Natural Environment director Jim Robinson said recent rain would \"help alleviate the immediate problem\" but the expense of an entire restoration \"would impact on the other services which we deliver\". He said: \"Simply refilling the pond, encouraging volunteers to help or asking people not to feed the ducks wouldn't be sufficient to significantly improve the current issues with the pond following the long dry period we experienced.\" The environment director noted that \"ongoing pressure on States' budgets\" have sparked real term cuts to the budgets for Saumarez Park in recent years, including a \"significant reduction\" in 2026. He added: \"A local firm has indicated that the restoration of the pond would cost over £100,000, which would include dredging a large amount of silt, improving the surrounding drainage and installing devices to improve aeration, but instigating this would impact on the other services which we deliver.\" Follow BBC Guernsey on X, external and Facebook, external and Instagram, external. Send your story ideas to channel.islands@bbc.co.uk, external.",
+      "published_at": "2026-08-21T13:21:36+00:00",
+      "updated_at": "2026-08-21T13:21:36+00:00",
+      "effective_at": "2026-08-21T13:21:36+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "climate",
+      "subsector": "weather",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "bbc",
+        "daniel",
+        "environment",
+        "guernsey",
+        "instagram",
+        "jim",
+        "lloyd",
+        "meta",
+        "natural",
+        "park",
+        "robinson",
+        "saumarez",
+        "simply",
+        "states"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "A pond covered in green algae will cost £100,000 to restore and cannot be fixed with simple measures, an environment boss has said.",
+        "Islanders were warned in 2022 not to let pets jump in or drink from the pond at Saumarez Park due to the high levels of green algae.",
+        "Pond maintenance expert Daniel Lloyd recently said the situation had worsened, stressing the States \"needs to think hard about what they need to do\" and \"act quickly\".",
+        "In response, Natural Environment director Jim Robinson said recent rain would \"help alleviate the immediate problem\" but the expense of an entire restoration \"would impact on the other services which we deliver\".",
+        "He said: \"Simply refilling the pond, encouraging volunteers to help or asking people not to feed the ducks wouldn't be sufficient to significantly improve the current issues with the pond following the long dry period we experienced.\"",
+        "The environment director noted that \"ongoing pressure on States' budgets\" have sparked real term cuts to the budgets for Saumarez Park in recent years, including a \"significant reduction\" in 2026.",
+        "He added: \"A local firm has indicated that the restoration of the pond would cost over £100,000, which would include dredging a large amount of silt, improving the surrounding drainage and installing devices to improve aeration, but instigating this would impact on the other services which we deliver.\"",
+        "Follow BBC Guernsey on X, external and Facebook, external and Instagram, external.",
+        "Send your story ideas to channel.islands@bbc.co.uk, external."
+      ],
+      "event_status": "NEW",
+      "event_id": "74ebedb391a8b4f3035b7a56",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "5092bc9b9db94d21f25fe9dd36089ff12fac0d76c9b3de96431e266843a9c90a",
+      "public_label": "📰 NEWS",
+      "headline": "Murky pond will cost £100k for full restoration",
+      "briefing": {
+        "opening": [
+          "A pond covered in green algae will cost £100,000 to restore and cannot be fixed with simple measures, an environment boss has said.",
+          "Islanders were warned in 2022 not to let pets jump in or drink from the pond at Saumarez Park due to the high levels of green algae."
+        ],
+        "body": [
+          "Pond maintenance expert Daniel Lloyd recently said the situation had worsened, stressing the States \"needs to think hard about what they need to do\" and \"act quickly\".",
+          "In response, Natural Environment director Jim Robinson said recent rain would \"help alleviate the immediate problem\" but the expense of an entire restoration \"would impact on the other services which we deliver\".",
+          "He said: \"Simply refilling the pond, encouraging volunteers to help or asking people not to feed the ducks wouldn't be sufficient to significantly improve the current issues with the pond following the long dry period we experienced.\" The environment director noted that \"ongoing pressure on States' budgets\" have sparked real term cuts to the budgets for Saumarez Park in recent years, including a \"significant reduction\" in 2026.",
+          "He added: \"A local firm has indicated that the restoration of the pond would cost over £100,000, which would include dredging a large amount of silt, improving the surrounding drainage and installing devices to improve aeration, but instigating this would impact on the other services which we deliver.\" Follow BBC Guernsey on X, external and Facebook, external and Instagram, external.",
+          "Send your story ideas to channel.islands@bbc.co.uk, external."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Saumarez Park"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Pond maintenance expert Daniel Lloyd recently said the situation had worsened, stressing the States \"needs to think hard about what they need to do\" and \"act quickly\".",
+            "source": "BBC Science",
+            "item_id": "5092bc9b9db94d21f25fe9dd36089ff12fac0d76c9b3de96431e266843a9c90a:article",
+            "composed": false
+          },
+          {
+            "text": "Islanders were warned in 2022 not to let pets jump in or drink from the pond at Saumarez Park due to the high levels of green algae.",
+            "source": "BBC Science",
+            "item_id": "5092bc9b9db94d21f25fe9dd36089ff12fac0d76c9b3de96431e266843a9c90a:article",
+            "composed": false
+          },
+          {
+            "text": "He added: \"A local firm has indicated that the restoration of the pond would cost over £100,000, which would include dredging a large amount of silt, improving the surrounding drainage and installing devices to improve aeration, but instigating this would impact on the other services which we deliver.\"",
+            "source": "BBC Science",
+            "item_id": "5092bc9b9db94d21f25fe9dd36089ff12fac0d76c9b3de96431e266843a9c90a:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC Science",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/cwyr079ve75o?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
       "label": "📰 NEWS"
