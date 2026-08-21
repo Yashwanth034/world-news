@@ -1,35 +1,55 @@
 {
-  "generated_at": "2026-08-21T11:10:51.154930+00:00",
-  "count": 6,
+  "generated_at": "2026-08-21T11:20:46.772838+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "d834f2b23bc2927dd2c2dea8ad5105e5ddffa1f85f04d7029ae1210e65a804f2",
-      "title": "Drone strike wounds 13 in Tigray capital as fears of renewed war grow",
-      "url": "http://www.africanews.com/2026/08/21/drone-strike-wounds-13-in-tigray-capital-as-fears-of-renewed-war-grow/",
-      "source": "Africanews English",
-      "source_category": "africa",
+      "id": "99062de204830b522871e5c98790465f1c1a9857fa742b779ed1020b446acbd2",
+      "title": "Charter plane crash near Alaskan military site kills 8",
+      "url": "https://www.aljazeera.com/news/2026/8/21/charter-plane-crash-near-alaskan-military-site-kills-8?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Africa",
+      "region": null,
       "discovery": false,
-      "summary": "A drone strike on Mekelle, the capital of Ethiopia’s Tigray region, injured at least 13 people, including five children, a hospital official said Thursday. The attack comes amid growing tensions between federal and Tigrayan forces and fears the region could slide back into war.",
-      "published_at": "2026-08-21T10:41:33+00:00",
-      "updated_at": "2026-08-21T10:41:33+00:00",
-      "effective_at": "2026-08-21T10:41:33+00:00",
+      "summary": "Rescuers who landed near the crash site ‘confirmed there were no survivors’. The civilian-contracted Cessna 441, operated by Anchorage-based air charter company Security Aviation, crashed west of Cape Newenham LRRS Airport on Thursday at about 20:15 GMT, a Federal Aviation Administration spokesperson said. Rescuers who landed near the crash site “confirmed there were no survivors”, according to a statement by the Alaskan Command. It did not say what those on board were doing at the radar site, which tracks aircraft operating in Alaskan airspace. A spokesperson said Alaskan Command was investigating the crash and would name the dead after their families had been informed. “This is a devastating loss for our military family and the communities we serve,” Alaskan Command chief Robert Davis said. “These individuals were dedicated professionals carrying out a vital mission in a demanding environment,” he added. Clint Johnson, the National Transportation Safety Board’s Alaska region chief, said earlier on Thursday evening that two pilots and six passengers were on board.",
+      "published_at": "2026-08-21T10:59:50+00:00",
+      "updated_at": "2026-08-21T10:59:50+00:00",
+      "effective_at": "2026-08-21T10:59:50+00:00",
       "language_status": "ENGLISH",
-      "category": "conflict",
-      "score": 65,
+      "category": "world",
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "conflict",
-      "subregion": "East Africa",
+      "urgency_terms": [
+        "plane crash"
+      ],
+      "sector": "health",
+      "subsector": "public_health",
+      "subregion": null,
       "country": null,
       "entities": [
-        "ethiopia",
-        "mekelle",
-        "tigray",
-        "tigrayan"
+        "administration",
+        "airport",
+        "alaska",
+        "alaskan",
+        "anchorage-based",
+        "aviation",
+        "cape",
+        "cessna",
+        "clint",
+        "command",
+        "davis",
+        "federal",
+        "gmt",
+        "johnson",
+        "lrrs",
+        "national",
+        "newenham",
+        "rescuers",
+        "robert",
+        "safety",
+        "security",
+        "transportation"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -38,145 +58,175 @@
       "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "Rescuers who landed near the crash site ‘confirmed there were no survivors’.",
+        "The civilian-contracted Cessna 441, operated by Anchorage-based air charter company Security Aviation, crashed west of Cape Newenham LRRS Airport on Thursday at about 20:15 GMT, a Federal Aviation Administration spokesperson said.",
+        "Rescuers who landed near the crash site “confirmed there were no survivors”, according to a statement by the Alaskan Command.",
+        "It did not say what those on board were doing at the radar site, which tracks aircraft operating in Alaskan airspace.",
+        "A spokesperson said Alaskan Command was investigating the crash and would name the dead after their families had been informed.",
+        "“This is a devastating loss for our military family and the communities we serve,” Alaskan Command chief Robert Davis said.",
+        "“These individuals were dedicated professionals carrying out a vital mission in a demanding environment,” he added.",
+        "Clint Johnson, the National Transportation Safety Board’s Alaska region chief, said earlier on Thursday evening that two pilots and six passengers were on board."
+      ],
       "event_status": "UPDATE",
-      "event_id": "5b12964d2722da20aa286cc9",
-      "importance_score": 51.0,
+      "event_id": "48578014c350c7096d41ed7f",
+      "importance_score": 62.0,
       "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 3,
+        "impact": 18,
         "urgency": 7.0,
         "novelty": 8.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 22,
+        "significance": 20,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
-          "injured": 13,
+          "dead": 8,
+          "injured": 0,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
-          "major_incident": false,
-          "crisis": false
+          "major_incident": true,
+          "crisis": true
         },
         "significance_dims": {
-          "security": 8,
-          "geopolitical": 8,
-          "human": 6
+          "human": 8,
+          "security": 4,
+          "scientific": 4,
+          "infrastructure": 4
         }
       },
-      "story_id": "d834f2b23bc2927dd2c2dea8ad5105e5ddffa1f85f04d7029ae1210e65a804f2",
+      "story_id": "99062de204830b522871e5c98790465f1c1a9857fa742b779ed1020b446acbd2",
       "public_label": "🔄 UPDATE",
-      "headline": "Drone strike wounds 13 in Tigray capital as fears of renewed war grow",
+      "headline": "Charter plane crash near Alaskan military site kills 8",
       "briefing": {
         "opening": [
-          "A drone strike on Mekelle, the capital of Ethiopia’s Tigray region, injured at least 13 people, including five children, a hospital official said Thursday.",
-          "The attack comes amid growing tensions between federal and Tigrayan forces and fears the region could slide back into war."
+          "Rescuers who landed near the crash site ‘confirmed there were no survivors’.",
+          "The civilian-contracted Cessna 441, operated by Anchorage-based air charter company Security Aviation, crashed west of Cape Newenham LRRS Airport on Thursday at about 20:15 GMT, a Federal Aviation Administration spokesperson said."
         ],
-        "body": [],
+        "body": [
+          "Rescuers who landed near the crash site “confirmed there were no survivors”, according to a statement by the Alaskan Command.",
+          "It did not say what those on board were doing at the radar site, which tracks aircraft operating in Alaskan airspace.",
+          "A spokesperson said Alaskan Command was investigating the crash and would name the dead after their families had been informed.",
+          "“This is a devastating loss for our military family and the communities we serve,” Alaskan Command chief Robert Davis said.",
+          "“These individuals were dedicated professionals carrying out a vital mission in a demanding environment,” he added.",
+          "Clint Johnson, the National Transportation Safety Board’s Alaska region chief, said earlier on Thursday evening that two pilots and six passengers were on board."
+        ],
         "bullets": [
           {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "at least 13 people"
+            "icon": "📍",
+            "label": "Location",
+            "text": "Alaskan"
           }
         ],
         "sentences": [
           {
-            "text": "A drone strike on Mekelle, the capital of Ethiopia’s Tigray region, injured at least 13 people, including five children, a hospital official said Thursday.",
-            "source": "Africanews English",
-            "item_id": "d834f2b23bc2927dd2c2dea8ad5105e5ddffa1f85f04d7029ae1210e65a804f2",
+            "text": "A spokesperson said Alaskan Command was investigating the crash and would name the dead after their families had been informed.",
+            "source": "Al Jazeera",
+            "item_id": "99062de204830b522871e5c98790465f1c1a9857fa742b779ed1020b446acbd2:article",
             "composed": false
           },
           {
-            "text": "The attack comes amid growing tensions between federal and Tigrayan forces and fears the region could slide back into war.",
-            "source": "Africanews English",
-            "item_id": "d834f2b23bc2927dd2c2dea8ad5105e5ddffa1f85f04d7029ae1210e65a804f2",
+            "text": "The civilian-contracted Cessna 441, operated by Anchorage-based air charter company Security Aviation, crashed west of Cape Newenham LRRS Airport on Thursday at about 20:15 GMT, a Federal Aviation Administration spokesperson said.",
+            "source": "Al Jazeera",
+            "item_id": "99062de204830b522871e5c98790465f1c1a9857fa742b779ed1020b446acbd2:article",
+            "composed": false
+          },
+          {
+            "text": "Clint Johnson, the National Transportation Safety Board’s Alaska region chief, said earlier on Thursday evening that two pilots and six passengers were on board.",
+            "source": "Al Jazeera",
+            "item_id": "99062de204830b522871e5c98790465f1c1a9857fa742b779ed1020b446acbd2:article",
+            "composed": false
+          },
+          {
+            "text": "It did not say what those on board were doing at the radar site, which tracks aircraft operating in Alaskan airspace.",
+            "source": "Al Jazeera",
+            "item_id": "99062de204830b522871e5c98790465f1c1a9857fa742b779ed1020b446acbd2:article",
             "composed": false
           }
         ],
-        "source": "Africanews English",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "http://www.africanews.com/2026/08/21/drone-strike-wounds-13-in-tigray-capital-as-fears-of-renewed-war-grow/"
+        "url": "https://www.aljazeera.com/news/2026/8/21/charter-plane-crash-near-alaskan-military-site-kills-8?traffic_source=rss"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
     },
     {
-      "id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d",
-      "title": "Mongolia hosts UN desertification summit as drought crisis deepens",
-      "url": "http://www.africanews.com/2026/08/21/mongolia-hosts-un-desertification-summit-as-drought-crisis-deepens/",
-      "source": "Africanews English",
-      "source_category": "africa",
+      "id": "c6b8d8fe7e7692cb261a8909988d37d39594b723e38b817ab8e2b249026f27ed",
+      "title": "Russia ready for ‘new ideas’ on Ukraine war that match Putin’s goals",
+      "url": "https://www.aljazeera.com/news/2026/8/21/russia-ready-for-new-ideas-on-ukraine-war-that-match-putins-goals?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "Held under the theme “Restoring Land, Restoring Hope”, UNCCD COP17 in Ulaanbaatar is focused on restoring degraded ecosystems, strengthening resilience to drought and securing funding for countries most affected by desertification. The talks come as land degradation threatens food production, water supplies and livelihoods, while Mongolia’s drylands face growing pressure from drought, overgrazing and desertification. At the opening on 17 August, speakers warned that existing restoration pledges were not being translated into action quickly enough, making funding and measurable projects a key test for the summit. The opening ceremony also highlighted Mongolian traditions. An 11-minute cultural programme featured a ceremonial dance, the traditional long song Erkhem tör and khoomei, a distinctive form of Mongolian throat singing. Performers associated with the Grand Theatre of National Art also presented a khadag, a traditional blue ceremonial scarf symbolising welcome and respect. On 20 August, around 50 Indigenous representatives and civil-society activists protested in Ulaanbaatar, calling for greater recognition of Indigenous Peoples’ rights and a more meaningful role in negotiations on land degradation, drought and desertification. They urged governments to ensure that Indigenous Peoples, pastoralists, local communities, women and young people could influence the formal process, rather than being confined largely to side events. Protesters also called for greater recognition of traditional knowledge and the rights of communities whose livelihoods depend directly on land and grazing areas. They argued that a dedicated Indigenous Peoples and Traditional Communities Caucus would have limited value without a meaningful influence on formal decisions. COP17 brings together representatives from 196 countries and the European Union and runs until 28 August.",
-      "published_at": "2026-08-21T10:41:09+00:00",
-      "updated_at": "2026-08-21T10:41:09+00:00",
-      "effective_at": "2026-08-21T10:41:09+00:00",
+      "summary": "Deputy Foreign Minister Sergey Ryabkov suggests Moscow is keen for the US – which has shown support for Russia’s agenda – to revive its involvement in negotiations. Moscow is ready to listen to new ideas for ending the war in Ukraine, provided they align with President Vladimir Putin’s position, a senior Russian diplomat has said. Deputy Foreign Minister Sergey Ryabkov said in an interview published by News.ru on Friday that Russia is open to proposals that are in line with “realities on the ground”. Ryabkov’s words suggest that Moscow may be seeking to revive the Trump administration’s support for its agenda. Moscow previously welcomed the United States’ demonstrating “an understanding of Russia’s position”, but Washington has been distracted from mediation efforts amid its war on Iran. “The Russian Federation is ready to listen to any reasonable proposals and ideas that are in line with the goals set by the Russian president and meet the ‘realities on the ground’,” Ryabkov said. “At this stage, it is more important to what extent Washington is able to influence the decisions of the Kyiv regime and its European sponsors, who still dream of a ‘strategic defeat’ of Russia,” he added. Putin has previously demanded that before agreeing to a ceasefire in the war he launched in February 2022, Ukraine must hand over the whole of the eastern Donbas region, demilitarise, and pledge it will not seek to join NATO. Several rounds of US-brokered negotiations at the start of the year failed to reach a settlement. Further talks slated for early March were cancelled as the US launched its war on Iran alongside Israel. The meetings followed the circulation of a 28-point, Washington-generated peace plan last November that raised ire for its capitulations to Russian demands. US special envoys Jared Kushner and Steve Witkoff led the negotiations between Moscow and Kyiv earlier this year, but the Kremlin said on Thursday that it has no new information on a potential visit from the duo.",
+      "published_at": "2026-08-21T10:59:37+00:00",
+      "updated_at": "2026-08-21T10:59:37+00:00",
+      "effective_at": "2026-08-21T10:59:37+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 65,
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "agriculture",
-      "subsector": "water",
-      "subregion": "East Asia",
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "art",
-        "caucus",
-        "communities",
-        "cop17",
-        "erkhem",
+        "donbas",
         "european",
-        "grand",
-        "held",
-        "hope",
-        "indigenous",
-        "land",
-        "mongolia",
-        "mongolian",
-        "national",
-        "peoples",
-        "restoring",
-        "theatre",
-        "traditional",
-        "ulaanbaatar",
-        "un",
-        "unccd",
-        "union"
+        "federation",
+        "foreign",
+        "iran",
+        "israel",
+        "jared",
+        "kushner",
+        "nato",
+        "news",
+        "putin",
+        "russia",
+        "ryabkov",
+        "sergey",
+        "steve",
+        "trump",
+        "ukraine",
+        "united_states",
+        "us",
+        "us-brokered",
+        "vladimir",
+        "washington-generated",
+        "witkoff"
       ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 1,
-      "corroborating_source_names": [
-        "Euronews"
-      ],
-      "verified_match_count": 1,
-      "priority_score": 73,
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 95,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "Held under the theme “Restoring Land, Restoring Hope”, UNCCD COP17 in Ulaanbaatar is focused on restoring degraded ecosystems, strengthening resilience to drought and securing funding for countries most affected by desertification.",
-        "The talks come as land degradation threatens food production, water supplies and livelihoods, while Mongolia’s drylands face growing pressure from drought, overgrazing and desertification.",
-        "At the opening on 17 August, speakers warned that existing restoration pledges were not being translated into action quickly enough, making funding and measurable projects a key test for the summit.",
-        "The opening ceremony also highlighted Mongolian traditions.",
-        "An 11-minute cultural programme featured a ceremonial dance, the traditional long song Erkhem tör and khoomei, a distinctive form of Mongolian throat singing.",
-        "Performers associated with the Grand Theatre of National Art also presented a khadag, a traditional blue ceremonial scarf symbolising welcome and respect.",
-        "On 20 August, around 50 Indigenous representatives and civil-society activists protested in Ulaanbaatar, calling for greater recognition of Indigenous Peoples’ rights and a more meaningful role in negotiations on land degradation, drought and desertification.",
-        "They urged governments to ensure that Indigenous Peoples, pastoralists, local communities, women and young people could influence the formal process, rather than being confined largely to side events.",
-        "Protesters also called for greater recognition of traditional knowledge and the rights of communities whose livelihoods depend directly on land and grazing areas.",
-        "They argued that a dedicated Indigenous Peoples and Traditional Communities Caucus would have limited value without a meaningful influence on formal decisions.",
-        "COP17 brings together representatives from 196 countries and the European Union and runs until 28 August."
+        "Deputy Foreign Minister Sergey Ryabkov suggests Moscow is keen for the US – which has shown support for Russia’s agenda – to revive its involvement in negotiations.",
+        "Moscow is ready to listen to new ideas for ending the war in Ukraine, provided they align with President Vladimir Putin’s position, a senior Russian diplomat has said.",
+        "Deputy Foreign Minister Sergey Ryabkov said in an interview published by News.ru on Friday that Russia is open to proposals that are in line with “realities on the ground”.",
+        "Ryabkov’s words suggest that Moscow may be seeking to revive the Trump administration’s support for its agenda.",
+        "Moscow previously welcomed the United States’ demonstrating “an understanding of Russia’s position”, but Washington has been distracted from mediation efforts amid its war on Iran.",
+        "“The Russian Federation is ready to listen to any reasonable proposals and ideas that are in line with the goals set by the Russian president and meet the ‘realities on the ground’,” Ryabkov said.",
+        "“At this stage, it is more important to what extent Washington is able to influence the decisions of the Kyiv regime and its European sponsors, who still dream of a ‘strategic defeat’ of Russia,” he added.",
+        "Putin has previously demanded that before agreeing to a ceasefire in the war he launched in February 2022, Ukraine must hand over the whole of the eastern Donbas region, demilitarise, and pledge it will not seek to join NATO.",
+        "Several rounds of US-brokered negotiations at the start of the year failed to reach a settlement.",
+        "Further talks slated for early March were cancelled as the US launched its war on Iran alongside Israel.",
+        "The meetings followed the circulation of a 28-point, Washington-generated peace plan last November that raised ire for its capitulations to Russian demands.",
+        "US special envoys Jared Kushner and Steve Witkoff led the negotiations between Moscow and Kyiv earlier this year, but the Kremlin said on Thursday that it has no new information on a potential visit from the duo."
       ],
       "event_status": "UPDATE",
-      "event_id": "6a8a9e4cbf5ab80825858b32",
-      "importance_score": 38.0,
+      "event_id": "5085e9e4473c0caf0cbc9f4a",
+      "importance_score": 44.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
@@ -185,8 +235,8 @@
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 6,
-        "significance": 4,
+        "corroboration": 0,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -199,141 +249,114 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4
+          "security": 8,
+          "geopolitical": 8
         }
       },
-      "story_id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d",
+      "story_id": "c6b8d8fe7e7692cb261a8909988d37d39594b723e38b817ab8e2b249026f27ed",
       "public_label": "🔄 UPDATE",
-      "headline": "Mongolia hosts UN desertification summit as drought crisis deepens",
+      "headline": "Russia ready for ‘new ideas’ on Ukraine war that match Putin’s goals",
       "briefing": {
         "opening": [
-          "Held under the theme “Restoring Land, Restoring Hope”, UNCCD COP17 in Ulaanbaatar is focused on restoring degraded ecosystems, strengthening resilience to drought and securing funding for countries most affected by desertification.",
-          "The talks come as land degradation threatens food production, water supplies and livelihoods, while Mongolia’s drylands face growing pressure from drought, overgrazing and desertification."
+          "Deputy Foreign Minister Sergey Ryabkov suggests Moscow is keen for the US – which has shown support for Russia’s agenda – to revive its involvement in negotiations.",
+          "Moscow is ready to listen to new ideas for ending the war in Ukraine, provided they align with President Vladimir Putin’s position, a senior Russian diplomat has said."
         ],
         "body": [
-          "At the opening on 17 August, speakers warned that existing restoration pledges were not being translated into action quickly enough, making funding and measurable projects a key test for the summit.",
-          "The opening ceremony also highlighted Mongolian traditions.",
-          "An 11-minute cultural programme featured a ceremonial dance, the traditional long song Erkhem tör and khoomei, a distinctive form of Mongolian throat singing.",
-          "Performers associated with the Grand Theatre of National Art also presented a khadag, a traditional blue ceremonial scarf symbolising welcome and respect.",
-          "On 20 August, around 50 Indigenous representatives and civil-society activists protested in Ulaanbaatar, calling for greater recognition of Indigenous Peoples’ rights and a more meaningful role in negotiations on land degradation, drought and desertification.",
-          "They urged governments to ensure that Indigenous Peoples, pastoralists, local communities, women and young people could influence the formal process, rather than being confined largely to side events.",
-          "Protesters also called for greater recognition of traditional knowledge and the rights of communities whose livelihoods depend directly on land and grazing areas.",
-          "They argued that a dedicated Indigenous Peoples and Traditional Communities Caucus would have limited value without a meaningful influence on formal decisions."
+          "Deputy Foreign Minister Sergey Ryabkov said in an interview published by News.ru on Friday that Russia is open to proposals that are in line with “realities on the ground”.",
+          "Ryabkov’s words suggest that Moscow may be seeking to revive the Trump administration’s support for its agenda.",
+          "Moscow previously welcomed the United States’ demonstrating “an understanding of Russia’s position”, but Washington has been distracted from mediation efforts amid its war on Iran.",
+          "“The Russian Federation is ready to listen to any reasonable proposals and ideas that are in line with the goals set by the Russian president and meet the ‘realities on the ground’,” Ryabkov said.",
+          "“At this stage, it is more important to what extent Washington is able to influence the decisions of the Kyiv regime and its European sponsors, who still dream of a ‘strategic defeat’ of Russia,” he added.",
+          "Putin has previously demanded that before agreeing to a ceasefire in the war he launched in February 2022, Ukraine must hand over the whole of the eastern Donbas region, demilitarise, and pledge it will not seek to join NATO.",
+          "Several rounds of US-brokered negotiations at the start of the year failed to reach a settlement.",
+          "Further talks slated for early March were cancelled as the US launched its war on Iran alongside Israel."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Ulaanbaatar"
+            "text": "Ukraine"
           }
         ],
         "sentences": [
           {
-            "text": "On 20 August, around 50 Indigenous representatives and civil-society activists protested in Ulaanbaatar, calling for greater recognition of Indigenous Peoples’ rights and a more meaningful role in negotiations on land degradation, drought and desertification.",
-            "source": "Africanews English",
-            "item_id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d:article",
+            "text": "Putin has previously demanded that before agreeing to a ceasefire in the war he launched in February 2022, Ukraine must hand over the whole of the eastern Donbas region, demilitarise, and pledge it will not seek to join NATO.",
+            "source": "Al Jazeera",
+            "item_id": "c6b8d8fe7e7692cb261a8909988d37d39594b723e38b817ab8e2b249026f27ed:article",
             "composed": false
           },
           {
-            "text": "Held under the theme “Restoring Land, Restoring Hope”, UNCCD COP17 in Ulaanbaatar is focused on restoring degraded ecosystems, strengthening resilience to drought and securing funding for countries most affected by desertification.",
-            "source": "Africanews English",
-            "item_id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d:article",
+            "text": "Moscow is ready to listen to new ideas for ending the war in Ukraine, provided they align with President Vladimir Putin’s position, a senior Russian diplomat has said.",
+            "source": "Al Jazeera",
+            "item_id": "c6b8d8fe7e7692cb261a8909988d37d39594b723e38b817ab8e2b249026f27ed:article",
             "composed": false
           },
           {
-            "text": "An 11-minute cultural programme featured a ceremonial dance, the traditional long song Erkhem tör and khoomei, a distinctive form of Mongolian throat singing.",
-            "source": "Africanews English",
-            "item_id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d:article",
+            "text": "Deputy Foreign Minister Sergey Ryabkov said in an interview published by News.ru on Friday that Russia is open to proposals that are in line with “realities on the ground”.",
+            "source": "Al Jazeera",
+            "item_id": "c6b8d8fe7e7692cb261a8909988d37d39594b723e38b817ab8e2b249026f27ed:article",
             "composed": false
           },
           {
-            "text": "At the opening on 17 August, speakers warned that existing restoration pledges were not being translated into action quickly enough, making funding and measurable projects a key test for the summit.",
-            "source": "Africanews English",
-            "item_id": "2096bd56d1942109ebd70f4efdaf46338808e4bf302466a0a1e4702a72cdee2d:article",
+            "text": "Ryabkov’s words suggest that Moscow may be seeking to revive the Trump administration’s support for its agenda.",
+            "source": "Al Jazeera",
+            "item_id": "c6b8d8fe7e7692cb261a8909988d37d39594b723e38b817ab8e2b249026f27ed:article",
             "composed": false
           }
         ],
-        "source": "Africanews English",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "http://www.africanews.com/2026/08/21/mongolia-hosts-un-desertification-summit-as-drought-crisis-deepens/"
+        "url": "https://www.aljazeera.com/news/2026/8/21/russia-ready-for-new-ideas-on-ukraine-war-that-match-putins-goals?traffic_source=rss"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
     },
     {
-      "id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05",
-      "title": "Serie A: Key talking points heading into the new 2026-27 season",
-      "url": "https://www.aljazeera.com/sports/2026/8/21/serie-a-key-talking-points-heading-into-the-new-2026-27-season?traffic_source=rss",
-      "source": "Al Jazeera",
+      "id": "0ca3522ad7147d641766168c887751c8b1cd1819404394cd81f7900bf221a13a",
+      "title": "Iranian oil prices rise as US blockade tightens supplies to China",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-oil-prices-rise-us-blockade-tightens-supplies-china",
+      "source": "Middle East Eye",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Holders Inter Milan face challenge from reinvigorated AC and Juventus, while Napoli and Roma look to bounce back. Expect northern Italian dominance to continue, as Serie. A kicks off its 125th season on Saturday. Inter, Juventus and Milan should be fighting it out for the scudetto – since 2001, the three teams have won all but two titles – with Napoli and Roma representing the south’s hopes. Inter captured last season’s championship in Cristian Chivu’s first season as manager, finishing 11 points ahead of Napoli. Serie A, though, is not what it used to be. With 12 Champions League titles, Italy ranks third on the list, behind Spain and England. No Italian club, however, has captured the Champions League since Inter in 2010, the Nerazzurri falling short in the finals in 2023 and 2025. Some blame the league’s decline on ageing stadiums, lack of player development, improved outside competition and diluted internal competition caused by too many teams at the top level. Serie A expanded to 20 teams in 2004, and proposals to return to 18 have been rejected. Al Jazeera Sport looks through the key talking points ahead of the new Serie. A season.",
-      "published_at": "2026-08-21T10:56:43+00:00",
-      "updated_at": "2026-08-21T10:56:43+00:00",
-      "effective_at": "2026-08-21T10:56:43+00:00",
+      "summary": "Iranian oil prices rise as US blockade tightens supplies to China Iranian crude prices have climbed as fewer cargoes reach Chinese buyers under a tightening US blockade, Reuters reports. Traders said Iranian oil deliveries for September and October had fallen below volumes in July and August. Sellers have already placed much of the crude shipped earlier, leaving fewer barrels available. Iranian oil that traders offered at discounts is now commanding premiums as supplies tighten. The shift follows a decline in Iranian exports since mid-July, when the United States intensified its blockade on the country’s oil shipments. Pressure on buyers could increase after US President Donald Trump threate",
+      "published_at": "2026-08-21T11:11:45+00:00",
+      "updated_at": "2026-08-21T11:11:45+00:00",
+      "effective_at": "2026-08-21T11:11:45+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "industry",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "Europe",
+      "sector": "companies",
+      "subsector": "oil_gas",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "ac",
-        "al",
-        "champions",
-        "chivu",
-        "cristian",
-        "england",
-        "holders",
-        "inter",
-        "italian",
-        "italy",
-        "jazeera",
-        "juventus",
-        "key",
-        "league",
-        "milan",
-        "napoli",
-        "nerazzurri",
-        "roma",
-        "serie",
-        "spain",
-        "sport"
+        "china",
+        "donald",
+        "iran",
+        "reuters",
+        "trump",
+        "united_states",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "Holders Inter Milan face challenge from reinvigorated AC and Juventus, while Napoli and Roma look to bounce back.",
-        "Expect northern Italian dominance to continue, as Serie.",
-        "A kicks off its 125th season on Saturday.",
-        "Inter, Juventus and Milan should be fighting it out for the scudetto – since 2001, the three teams have won all but two titles – with Napoli and Roma representing the south’s hopes.",
-        "Inter captured last season’s championship in Cristian Chivu’s first season as manager, finishing 11 points ahead of Napoli.",
-        "Serie A, though, is not what it used to be.",
-        "With 12 Champions League titles, Italy ranks third on the list, behind Spain and England.",
-        "No Italian club, however, has captured the Champions League since Inter in 2010, the Nerazzurri falling short in the finals in 2023 and 2025.",
-        "Some blame the league’s decline on ageing stadiums, lack of player development, improved outside competition and diluted internal competition caused by too many teams at the top level.",
-        "Serie A expanded to 20 teams in 2004, and proposals to return to 18 have been rejected.",
-        "Al Jazeera Sport looks through the key talking points ahead of the new Serie.",
-        "A season."
-      ],
       "event_status": "NEW",
-      "event_id": "57cb1fa991d3b94f5c45874a",
-      "importance_score": 36.0,
+      "event_id": "8fde62a773cb76effd6c11dc",
+      "importance_score": 37.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 8.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
@@ -352,454 +375,54 @@
           "crisis": false
         },
         "significance_dims": {
-          "cultural": 8
-        }
-      },
-      "story_id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05",
-      "public_label": "📰 NEWS",
-      "headline": "Serie A: Key talking points heading into the new 2026-27 season",
-      "briefing": {
-        "opening": [
-          "Holders Inter Milan face challenge from reinvigorated AC and Juventus, while Napoli and Roma look to bounce back.",
-          "Expect northern Italian dominance to continue, as Serie."
-        ],
-        "body": [
-          "A kicks off its 125th season on Saturday.",
-          "Inter, Juventus and Milan should be fighting it out for the scudetto – since 2001, the three teams have won all but two titles – with Napoli and Roma representing the south’s hopes.",
-          "Inter captured last season’s championship in Cristian Chivu’s first season as manager, finishing 11 points ahead of Napoli.",
-          "Serie.",
-          "A, though, is not what it used to be.",
-          "With 12 Champions League titles, Italy ranks third on the list, behind Spain and England.",
-          "No Italian club, however, has captured the Champions League since Inter in 2010, the Nerazzurri falling short in the finals in 2023 and 2025.",
-          "Some blame the league’s decline on ageing stadiums, lack of player development, improved outside competition and diluted internal competition caused by too many teams at the top level."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Cristian Chivu’s"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Expect northern Italian dominance to continue, as Serie.",
-            "source": "Al Jazeera",
-            "item_id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05:article",
-            "composed": false
-          },
-          {
-            "text": "Inter captured last season’s championship in Cristian Chivu’s first season as manager, finishing 11 points ahead of Napoli.",
-            "source": "Al Jazeera",
-            "item_id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05:article",
-            "composed": false
-          },
-          {
-            "text": "Milan should be fighting it out for the scudetto – since 2001, the three teams have won all but two titles – with Napoli and Roma representing the south’s hopes.",
-            "source": "Al Jazeera",
-            "item_id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05:article",
-            "composed": false
-          },
-          {
-            "text": "A kicks off its 125th season on Saturday.",
-            "source": "Al Jazeera",
-            "item_id": "2711a53164944c03a4b56ee5393a4c3e29422f9cc2ed28948a55148b0ba20d05:article",
-            "composed": false
-          }
-        ],
-        "source": "Al Jazeera",
-        "corroborating": [],
-        "url": "https://www.aljazeera.com/sports/2026/8/21/serie-a-key-talking-points-heading-into-the-new-2026-27-season?traffic_source=rss"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8",
-      "title": "South Africa: Beauty Queen Chidimma Adetshina fights deportation",
-      "url": "http://www.africanews.com/2026/08/21/south-africa-beauty-queen-chidimma-adetshina-fights-deportation/",
-      "source": "Africanews English",
-      "source_category": "africa",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Africa",
-      "discovery": false,
-      "summary": "South African beauty queen Chidimma Adetshina has maintained that she was born in the country and says she has been unfairly singled out as authorities seek to deport her. The 25-year-old is challenging a decision that declared her a prohibited person in South Africa. A legal case brought by the government seeking her detention was postponed on Wednesday, with the matter now expected to return to court in February 2027. Speaking outside the court in Cape Town, Adetshina said she had followed the legal process to establish her citizenship and accused authorities of trying to use her case as an example. “I remind everyone that I was born in South Africa,” she said. “I have applied through the proper legal channels to have my status and citizenship determined.” She also warned against allowing xenophobia and misinformation to influence how people are treated. Her comments came as protesters from anti-migrant group March and March gathered outside the court and called for her deportation. Some protesters followed her car as she left the building. Adetshina's citizenship has been under scrutiny since she became a finalist in the 2024 Miss South Africa competition. She was born in Soweto and grew up in Cape Town, according to previous interviews. Her mother, Anabela Rungo, has Mozambican roots, while her father is Nigerian.",
-      "published_at": "2026-08-21T10:34:31+00:00",
-      "updated_at": "2026-08-21T10:34:31+00:00",
-      "effective_at": "2026-08-21T10:34:31+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "human_rights",
-      "subregion": "Southern Africa",
-      "country": null,
-      "entities": [
-        "adetshina",
-        "african",
-        "anabela",
-        "beauty",
-        "cape",
-        "chidimma",
-        "miss",
-        "mozambican",
-        "nigerian",
-        "rungo",
-        "she",
-        "south_africa",
-        "soweto",
-        "town"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "South African beauty queen Chidimma Adetshina has maintained that she was born in the country and says she has been unfairly singled out as authorities seek to deport her.",
-        "The 25-year-old is challenging a decision that declared her a prohibited person in South Africa.",
-        "A legal case brought by the government seeking her detention was postponed on Wednesday, with the matter now expected to return to court in February 2027.",
-        "Speaking outside the court in Cape Town, Adetshina said she had followed the legal process to establish her citizenship and accused authorities of trying to use her case as an example.",
-        "“I remind everyone that I was born in South Africa,” she said.",
-        "“I have applied through the proper legal channels to have my status and citizenship determined.”",
-        "She also warned against allowing xenophobia and misinformation to influence how people are treated.",
-        "Her comments came as protesters from anti-migrant group March and March gathered outside the court and called for her deportation.",
-        "Some protesters followed her car as she left the building.",
-        "Adetshina's citizenship has been under scrutiny since she became a finalist in the 2024 Miss South Africa competition.",
-        "She was born in Soweto and grew up in Cape Town, according to previous interviews.",
-        "Her mother, Anabela Rungo, has Mozambican roots, while her father is Nigerian."
-      ],
-      "event_status": "NEW",
-      "event_id": "53d54a8741d16c024dc564aa",
-      "importance_score": 33.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
+          "economic": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8",
+      "story_id": "0ca3522ad7147d641766168c887751c8b1cd1819404394cd81f7900bf221a13a",
       "public_label": "📰 NEWS",
-      "headline": "South Africa: Beauty Queen Chidimma Adetshina fights deportation",
+      "headline": "Iranian oil prices rise as US blockade tightens supplies to China",
       "briefing": {
         "opening": [
-          "South African beauty queen Chidimma Adetshina has maintained that she was born in the country and says she has been unfairly singled out as authorities seek to deport her.",
-          "The 25-year-old is challenging a decision that declared her a prohibited person in South Africa."
+          "Iranian oil prices rise as US blockade tightens supplies to China Iranian crude prices have climbed as fewer cargoes reach Chinese buyers under a tightening US blockade, Reuters reports.",
+          "Traders said Iranian oil deliveries for September and October had fallen below volumes in July and August."
         ],
         "body": [
-          "Speaking outside the court in Cape Town, Adetshina said she had followed the legal process to establish her citizenship and accused authorities of trying to use her case as an example.",
-          "“I remind everyone that I was born in South Africa,” she said.",
-          "“I have applied through the proper legal channels to have my status and citizenship determined.” She also warned against allowing xenophobia and misinformation to influence how people are treated.",
-          "Her comments came as protesters from anti-migrant group March and March gathered outside the court and called for her deportation.",
-          "Some protesters followed her car as she left the building.",
-          "Adetshina's citizenship has been under scrutiny since she became a finalist in the 2024 Miss South Africa competition.",
-          "She was born in Soweto and grew up in Cape Town, according to previous interviews."
+          "Sellers have already placed much of the crude shipped earlier, leaving fewer barrels available.",
+          "Iranian oil that traders offered at discounts is now commanding premiums as supplies tighten.",
+          "The shift follows a decline in Iranian exports since mid-July, when the United States intensified its blockade on the country’s oil shipments.",
+          "Pressure on buyers could increase after US President Donald Trump threate."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "South Africa"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "A legal case brought by the government seeking her detention was postponed on Wednesday, with the matter now expected to return to court in February 2027."
+            "text": "July"
           }
         ],
         "sentences": [
           {
-            "text": "A legal case brought by the government seeking her detention was postponed on Wednesday, with the matter now expected to return to court in February 2027.",
-            "source": "Africanews English",
-            "item_id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8:article",
+            "text": "Iranian oil that traders offered at discounts is now commanding premiums as supplies tighten.",
+            "source": "Middle East Eye",
+            "item_id": "0ca3522ad7147d641766168c887751c8b1cd1819404394cd81f7900bf221a13a",
             "composed": false
           },
           {
-            "text": "The 25-year-old is challenging a decision that declared her a prohibited person in South Africa.",
-            "source": "Africanews English",
-            "item_id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8:article",
+            "text": "Traders said Iranian oil deliveries for September and October had fallen below volumes in July and August.",
+            "source": "Middle East Eye",
+            "item_id": "0ca3522ad7147d641766168c887751c8b1cd1819404394cd81f7900bf221a13a",
             "composed": false
           },
           {
-            "text": "Adetshina's citizenship has been under scrutiny since she became a finalist in the 2024 Miss South Africa competition.",
-            "source": "Africanews English",
-            "item_id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8:article",
-            "composed": false
-          },
-          {
-            "text": "Speaking outside the court in Cape Town, Adetshina said she had followed the legal process to establish her citizenship and accused authorities of trying to use her case as an example.",
-            "source": "Africanews English",
-            "item_id": "facf28c62754d3f8d199e958156cddd67f8799a1162ffd0f0ae170bc2b3e65a8:article",
+            "text": "The shift follows a decline in Iranian exports since mid-July, when the United States intensified its blockade on the country’s oil shipments.",
+            "source": "Middle East Eye",
+            "item_id": "0ca3522ad7147d641766168c887751c8b1cd1819404394cd81f7900bf221a13a",
             "composed": false
           }
         ],
-        "source": "Africanews English",
+        "source": "Middle East Eye",
         "corroborating": [],
-        "url": "http://www.africanews.com/2026/08/21/south-africa-beauty-queen-chidimma-adetshina-fights-deportation/"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792",
-      "title": "Ukraine faces extremely negative situation on agricultural market",
-      "url": "https://tass.com/world/2176095",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "Experts noted that the difference between 2022 and the current situation lies in prices",
-      "published_at": "2026-08-21T11:06:30+00:00",
-      "updated_at": "2026-08-21T11:06:30+00:00",
-      "effective_at": "2026-08-21T11:06:30+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "experts",
-        "ukraine"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "cbf0c5823020a74e11cbe6a1",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792",
-      "article_sentences": [
-        "MOSCOW, August 21.",
-        "The situation on Ukraine’s agricultural market is becoming critical and is developing into a perfect storm that is hitting agricultural producers particularly hard, Ukraine’s industry publication Agroportal reported after surveying sector experts.",
-        "The publication noted that agricultural exports from the Greater Odessa ports have been completely blocked at the height of the harvest season, but the current situation is far more critical than in 2022 because agricultural producers now need working capital both for the planting season and to meet their debt obligations to banks, while farmers are unable to receive initial proceeds from the sale of their harvest.",
-        "However, experts noted that the difference between 2022 and the current situation lies in prices.",
-        "In 2022, grain cost $380-400 per metric ton, and that price was high enough to absorb the increase in logistics costs.",
-        "Today, with grain priced at around $230 per metric ton, higher logistics costs make exporting agricultural products unprofitable."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Ukraine faces extremely negative situation on agricultural market",
-      "briefing": {
-        "opening": [
-          "MOSCOW, August 21.",
-          "The situation on Ukraine’s agricultural market is becoming critical and is developing into a perfect storm that is hitting agricultural producers particularly hard, Ukraine’s industry publication Agroportal reported after surveying sector experts."
-        ],
-        "body": [
-          "The publication noted that agricultural exports from the Greater Odessa ports have been completely blocked at the height of the harvest season, but the current situation is far more critical than in 2022 because agricultural producers now need working capital both for the planting season and to meet their debt obligations to banks, while farmers are unable to receive initial proceeds from the sale of their harvest.",
-          "However, experts noted that the difference between 2022 and the current situation lies in prices.",
-          "In 2022, grain cost $380-400 per metric ton, and that price was high enough to absorb the increase in logistics costs.",
-          "Today, with grain priced at around $230 per metric ton, higher logistics costs make exporting agricultural products unprofitable."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "MOSCOW, August 21.",
-            "source": "TASS English",
-            "item_id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792:article",
-            "composed": false
-          },
-          {
-            "text": "The publication noted that agricultural exports from the Greater Odessa ports have been completely blocked at the height of the harvest season, but the current situation is far more critical than in 2022 because agricultural producers now need working capital both for the planting season and to meet their debt obligations to banks, while farmers are unable to receive initial proceeds from the sale of their harvest.",
-            "source": "TASS English",
-            "item_id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792:article",
-            "composed": false
-          },
-          {
-            "text": "In 2022, grain cost $380-400 per metric ton, and that price was high enough to absorb the increase in logistics costs.",
-            "source": "TASS English",
-            "item_id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792:article",
-            "composed": false
-          },
-          {
-            "text": "Today, with grain priced at around $230 per metric ton, higher logistics costs make exporting agricultural products unprofitable.",
-            "source": "TASS English",
-            "item_id": "0adf8763cbc015762710ccdde075a2952d69d08f2bac5c91cc86f37307d1e792:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/world/2176095"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "1da4d424fbf9316e5d523d5dbbafb26b762c03412878f942b8638930c87dbaa6",
-      "title": "En+ energy business IFRS net profit rises by 8.9% to $490 mln in 1H",
-      "url": "https://tass.com/economy/2176091",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "Revenue for the six-month period increased by 22.9% to $2.9 bln",
-      "published_at": "2026-08-21T11:04:07+00:00",
-      "updated_at": "2026-08-21T11:04:07+00:00",
-      "effective_at": "2026-08-21T11:04:07+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "companies",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "ifrs",
-        "revenue"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "b020f01a536d797f88747e86",
-      "importance_score": 27.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "1da4d424fbf9316e5d523d5dbbafb26b762c03412878f942b8638930c87dbaa6",
-      "article_sentences": [
-        "MOSCOW, August 21.",
-        "The net profit of En+’s energy segment under the International Financial Reporting Standards (IFRS) amounted to $490 mln in January-June 2026, up 8.9% from the same period a year earlier, according to the company’s report.",
-        "The group’s energy business adjusted EBITDA rose by 35.5% to $1.1 bln.",
-        "Revenue for the six-month period increased by 22.9% to $2.9 bln, driven primarily by higher electricity prices and an overall increase in generation.",
-        "Revenue from electricity sales amounted to $1.5 bln, up 22.7% from the first half of 2025.",
-        "Revenue from capacity sales rose 17% to $460 mln.",
-        "The adjusted EBITDA margin increased by 3.5 percentage points to 38.1%.",
-        "En+ is a vertically integrated aluminum and power producer.",
-        "It combines power plants with 19.4 GW of installed capacity and aluminum production facilities with annual capacity of 4.2 mln metric tons through its controlling stake in Rusal.",
-        "En+’s main shareholders are company founder Oleg Deripaska, who owns 44.95%, with his voting rights capped at 35%, and commodities trader Glencore with 10.55%.",
-        "Treasury shares account for 21.37%, while the free float stands at 13.95%."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "En+ energy business IFRS net profit rises by 8.9% to $490 mln in 1H",
-      "briefing": {
-        "opening": [
-          "MOSCOW, August 21.",
-          "The net profit of En+’s energy segment under the International Financial Reporting Standards (IFRS) amounted to $490 mln in January-June 2026, up 8.9% from the same period a year earlier, according to the company’s report."
-        ],
-        "body": [
-          "The group’s energy business adjusted EBITDA rose by 35.5% to $1.1 bln.",
-          "Revenue for the six-month period increased by 22.9% to $2.9 bln, driven primarily by higher electricity prices and an overall increase in generation.",
-          "Revenue from capacity sales rose 17% to $460 mln.",
-          "En+ is a vertically integrated aluminum and power producer.",
-          "It combines power plants with 19.4 GW of installed capacity and aluminum production facilities with annual capacity of 4.2 mln metric tons through its controlling stake in Rusal.",
-          "En+’s main shareholders are company founder Oleg Deripaska, who owns 44.95%, with his voting rights capped at 35%, and commodities trader Glencore with 10.55%.",
-          "Treasury shares account for 21.37%, while the free float stands at 13.95%.",
-          "Revenue for the six-month period increased by 22.9% to $2.9 bln."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "January-June"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "It combines power plants with 19.4 GW of installed capacity and aluminum production facilities with annual capacity of 4.2 mln metric tons through its controlling stake in Rusal.",
-            "source": "TASS English",
-            "item_id": "1da4d424fbf9316e5d523d5dbbafb26b762c03412878f942b8638930c87dbaa6:article",
-            "composed": false
-          },
-          {
-            "text": "En+’s main shareholders are company founder Oleg Deripaska, who owns 44.95%, with his voting rights capped at 35%, and commodities trader Glencore with 10.55%.",
-            "source": "TASS English",
-            "item_id": "1da4d424fbf9316e5d523d5dbbafb26b762c03412878f942b8638930c87dbaa6:article",
-            "composed": false
-          },
-          {
-            "text": "The group’s energy business adjusted EBITDA rose by 35.5% to $1.1 bln.",
-            "source": "TASS English",
-            "item_id": "1da4d424fbf9316e5d523d5dbbafb26b762c03412878f942b8638930c87dbaa6:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/economy/2176091"
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-oil-prices-rise-us-blockade-tightens-supplies-china"
       },
       "group_size": 1,
       "label": "📰 NEWS"
