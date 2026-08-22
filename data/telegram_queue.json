@@ -1,242 +1,43 @@
 {
-  "generated_at": "2026-08-22T09:50:50.587257+00:00",
-  "count": 6,
+  "generated_at": "2026-08-22T09:58:33.579554+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "81ac272ab74956ebf21a648c3c5add52e215b5527ae3f312a4819f484da474d6",
-      "title": "U.S.-Canada trade talks collapse just before deadline for tariffs",
-      "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
-      "source": "NPR World",
+      "id": "2c99c207662468b729f968bb69f5c4b37a55f12d992190f492433ed0a69d41c1",
+      "title": "Myanmar air strike on monastery kills 14: rebel witnesses",
+      "url": "https://www.straitstimes.com/asia/se-asia/myanmar-air-strike-on-monastery-kills-14-rebel-witnesses",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Asia",
       "discovery": false,
-      "summary": "The midnight deadline means that U.S. will impose 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada \"will match those tariffs dollar for dollar.\"",
-      "published_at": "2026-08-22T04:36:27+00:00",
-      "updated_at": "2026-08-22T04:36:27+00:00",
-      "effective_at": "2026-08-22T04:36:27+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "trade",
-      "subregion": "Canada",
-      "country": null,
-      "entities": [
-        "canada",
-        "carney",
-        "mark"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 92,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "723e54ec0e3809307240e489",
-      "importance_score": 75.0,
-      "importance_level": "HIGH",
-      "importance_breakdown": {
-        "impact": 16.0,
-        "urgency": 6.0,
-        "novelty": 8.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 34,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 50,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": true
-        },
-        "significance_dims": {
-          "economic": 8,
-          "security": 8,
-          "geopolitical": 8,
-          "human": 10
-        }
-      },
-      "story_id": "81ac272ab74956ebf21a648c3c5add52e215b5527ae3f312a4819f484da474d6",
-      "public_label": "🔄 UPDATE",
-      "headline": "U.S.-Canada trade talks collapse just before deadline for tariffs",
-      "briefing": {
-        "opening": [
-          "The midnight deadline means that U.S. will impose 50% tariffs on $20 billion worth of Canadian products.",
-          "Prime Minister Mark Carney says Canada \"will match those tariffs dollar for dollar.\""
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Prime Minister Mark Carney says Canada \"will match those tariffs dollar for dollar.\"",
-            "source": "NPR World",
-            "item_id": "81ac272ab74956ebf21a648c3c5add52e215b5527ae3f312a4819f484da474d6",
-            "composed": false
-          },
-          {
-            "text": "The midnight deadline means that U.S. will impose 50% tariffs on $20 billion worth of Canadian products.",
-            "source": "NPR World",
-            "item_id": "81ac272ab74956ebf21a648c3c5add52e215b5527ae3f312a4819f484da474d6",
-            "composed": false
-          }
-        ],
-        "source": "NPR World",
-        "corroborating": [],
-        "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "f1b2e0974a741a43206cfd05d133274710e347fa796201562b1f261f4427e48d",
-      "title": "France's Fontainebleau forest reopens one month after wilfire",
-      "url": "https://www.france24.com/en/france-s-fontainebleau-forest-reopens-one-month-after-wilfire",
-      "source": "France 24",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "Good news for hiking and climbing enthusiasts today: the Fontainebleau Forest just South of Paris is set to reopen to the public. But a month and a half after the terrible fire that ravaged 10% of this unique haven of biodiversity, the disaster is still fresh in everyone’s minds. Portions of the forest remain closed to the public. Story by France 2 and Camille Corcoran.",
-      "published_at": "2026-08-22T09:11:54+00:00",
-      "updated_at": "2026-08-22T09:11:54+00:00",
-      "effective_at": "2026-08-22T09:11:54+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "science",
-      "subsector": "biology",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "camille",
-        "corcoran",
-        "fontainebleau",
-        "forest",
-        "france",
-        "good",
-        "south"
-      ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 1,
-      "corroborating_source_names": [
-        "RFI English"
-      ],
-      "verified_match_count": 1,
-      "priority_score": 73,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "33a1f4686550d64b4c7b3f7b",
-      "importance_score": 34.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 6,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "f1b2e0974a741a43206cfd05d133274710e347fa796201562b1f261f4427e48d",
-      "public_label": "📰 NEWS",
-      "headline": "France's Fontainebleau forest reopens one month after wilfire",
-      "briefing": {
-        "opening": [
-          "Good news for hiking and climbing enthusiasts today: the Fontainebleau Forest just South of Paris is set to reopen to the public.",
-          "But a month and a half after the terrible fire that ravaged 10% of this unique haven of biodiversity, the disaster is still fresh in everyone’s minds."
-        ],
-        "body": [
-          "Portions of the forest remain closed to the public.",
-          "Story by France 2 and Camille Corcoran."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Portions of the forest remain closed to the public.",
-            "source": "France 24",
-            "item_id": "f1b2e0974a741a43206cfd05d133274710e347fa796201562b1f261f4427e48d",
-            "composed": false
-          },
-          {
-            "text": "Story by France 2 and Camille Corcoran.",
-            "source": "France 24",
-            "item_id": "f1b2e0974a741a43206cfd05d133274710e347fa796201562b1f261f4427e48d",
-            "composed": false
-          },
-          {
-            "text": "Good news for hiking and climbing enthusiasts today: the Fontainebleau Forest just South of Paris is set to reopen to the public.",
-            "source": "France 24",
-            "item_id": "f1b2e0974a741a43206cfd05d133274710e347fa796201562b1f261f4427e48d",
-            "composed": false
-          },
-          {
-            "text": "But a month and a half after the terrible fire that ravaged 10% of this unique haven of biodiversity, the disaster is still fresh in everyone’s minds.",
-            "source": "France 24",
-            "item_id": "f1b2e0974a741a43206cfd05d133274710e347fa796201562b1f261f4427e48d",
-            "composed": false
-          }
-        ],
-        "source": "France 24",
-        "corroborating": [],
-        "url": "https://www.france24.com/en/france-s-fontainebleau-forest-reopens-one-month-after-wilfire"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "c5f2bc0c64449c28ea2476def2058adf6ef2d49005c23c261db20ab59bef2fb6",
-      "title": "Trump frames upcoming midterms as battle to defeat communists who he says never laugh",
-      "url": "https://tass.com/world/2176393",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "North America",
-      "discovery": false,
-      "summary": "US President said he has never seen a happy communist",
-      "published_at": "2026-08-22T09:43:23+00:00",
-      "updated_at": "2026-08-22T09:43:23+00:00",
-      "effective_at": "2026-08-22T09:43:23+00:00",
+      "summary": "A Myanmar military air strike killed 14 civilians at a monastery during a Buddhist Lent meditation retreat in Sagaing region. The victims were mostly elderly, aged between 50 and 70, and the attack was described as intentional by rebel witnesses. UN investigators recently accused Myanmar’s military of deliberate aerial attacks on civilians. A Myanmar military air strike on a monastery where civilians were gathered for a meditation retreat marking Buddhist Lent killed 14 people, two rebel fighters who witnessed the aftermath said. The Aug 21 attack hit a monastery hall around 9.00 am (10.30am Singapore time) in Myaung township of central Sagaing region, killing 11 men and three women, Nway Oo Myaung, a pro-democracy rebel who helped clear bodies, said on Aug 21. “Since Buddhist Lent was being marked... older people had entered the meditation centre for three months,” he said. “Those who were killed, their ages were between 50 and 70,” he added. “It wasn’t a mistaken target, they intentionally attacked a monastery.” A second local opposition fighter, speaking on condition of anonymity, said on Aug 22: “Five dead people were from our village and the other nine were from other villages.” “While we were trying to rescue people, the aircraft came to bomb a second time,” he said. It was not immediately possible to contact the Myanmar military for comment.",
+      "published_at": "2026-08-22T09:55:00+00:00",
+      "updated_at": "2026-08-22T09:55:00+00:00",
+      "effective_at": "2026-08-22T09:55:00+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "United States",
+      "sector": "law",
+      "subsector": "labor",
+      "subregion": "Southeast Asia",
       "country": null,
       "entities": [
-        "us"
+        "aug",
+        "buddhist",
+        "five",
+        "lent",
+        "myanmar",
+        "myaung",
+        "nway",
+        "oo",
+        "sagaing",
+        "since",
+        "singapore",
+        "un"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -245,23 +46,37 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "d59f903c393078066ab2552c",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
+      "article_sentences": [
+        "A Myanmar military air strike killed 14 civilians at a monastery during a Buddhist Lent meditation retreat in Sagaing region.",
+        "The victims were mostly elderly, aged between 50 and 70, and the attack was described as intentional by rebel witnesses.",
+        "UN investigators recently accused Myanmar’s military of deliberate aerial attacks on civilians.",
+        "A Myanmar military air strike on a monastery where civilians were gathered for a meditation retreat marking Buddhist Lent killed 14 people, two rebel fighters who witnessed the aftermath said.",
+        "The Aug 21 attack hit a monastery hall around 9.00 am (10.30am Singapore time) in Myaung township of central Sagaing region, killing 11 men and three women, Nway Oo Myaung, a pro-democracy rebel who helped clear bodies, said on Aug 21.",
+        "“Since Buddhist Lent was being marked...",
+        "older people had entered the meditation centre for three months,” he said.",
+        "“Those who were killed, their ages were between 50 and 70,” he added.",
+        "“It wasn’t a mistaken target, they intentionally attacked a monastery.”",
+        "A second local opposition fighter, speaking on condition of anonymity, said on Aug 22: “Five dead people were from our village and the other nine were from other villages.”",
+        "“While we were trying to rescue people, the aircraft came to bomb a second time,” he said.",
+        "It was not immediately possible to contact the Myanmar military for comment."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "2c517d9d840ab46aba3b6cf0",
+      "importance_score": 70.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 16.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 28,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
+          "dead": 70,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -270,107 +85,106 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4
+          "security": 8,
+          "geopolitical": 8,
+          "human": 8,
+          "infrastructure": 4
         }
       },
-      "story_id": "c5f2bc0c64449c28ea2476def2058adf6ef2d49005c23c261db20ab59bef2fb6",
-      "article_sentences": [
-        "WASHINGTON, August 22.",
-        "US President Donald Trump said he has never seen a happy communist.",
-        "\"I've known communists.",
-        "They don't laugh.",
-        "There're very unhappy people,\" the US leader told his supporters at a rally in Myrtle Beach, a city in South Carolina, on Friday.",
-        "Trump also pledged to defeat what he called a growing communist threat from the Democratic Party at the midterms in November.",
-        "In his speech, Trump said he would be happy if rules were changed to allow him a third run."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Trump frames upcoming midterms as battle to defeat communists who he says never laugh",
+      "story_id": "2c99c207662468b729f968bb69f5c4b37a55f12d992190f492433ed0a69d41c1",
+      "public_label": "🔄 UPDATE",
+      "headline": "Myanmar air strike on monastery kills 14: rebel witnesses",
       "briefing": {
         "opening": [
-          "WASHINGTON, August 22.",
-          "US President Donald Trump said he has never seen a happy communist."
+          "A Myanmar military air strike killed 14 civilians at a monastery during a Buddhist Lent meditation retreat in Sagaing region.",
+          "The victims were mostly elderly, aged between 50 and 70, and the attack was described as intentional by rebel witnesses."
         ],
         "body": [
-          "\"I've known communists.",
-          "They don't laugh.",
-          "There're very unhappy people,\" the US leader told his supporters at a rally in Myrtle Beach, a city in South Carolina, on Friday.",
-          "Trump also pledged to defeat what he called a growing communist threat from the Democratic Party at the midterms in November.",
-          "In his speech, Trump said he would be happy if rules were changed to allow him a third run.",
-          "US President said he has never seen a happy communist."
+          "UN investigators recently accused Myanmar’s military of deliberate aerial attacks on civilians.",
+          "A Myanmar military air strike on a monastery where civilians were gathered for a meditation retreat marking Buddhist Lent killed 14 people, two rebel fighters who witnessed the aftermath said.",
+          "The Aug 21 attack hit a monastery hall around 9.00 am (10.30am Singapore time) in Myaung township of central Sagaing region, killing 11 men and three women, Nway Oo Myaung, a pro-democracy rebel who helped clear bodies, said on Aug 21.",
+          "“Since Buddhist Lent was being marked...",
+          "older people had entered the meditation centre for three months,” he said.",
+          "“Those who were killed, their ages were between 50 and 70,” he added.",
+          "“It wasn’t a mistaken target, they intentionally attacked a monastery.” A second local opposition fighter, speaking on condition of anonymity, said on Aug 22: “Five dead people were from our village and the other nine were from other villages.” “While we were trying to rescue people, the aircraft came to bomb a second time,” he said.",
+          "It was not immediately possible to contact the Myanmar military for comment."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Myrtle Beach"
+            "text": "Sagaing region"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "14 people"
           }
         ],
         "sentences": [
           {
-            "text": "US President Donald Trump said he has never seen a happy communist.",
-            "source": "TASS English",
-            "item_id": "c5f2bc0c64449c28ea2476def2058adf6ef2d49005c23c261db20ab59bef2fb6:article",
+            "text": "The Aug 21 attack hit a monastery hall around 9.00 am (10.30am Singapore time) in Myaung township of central Sagaing region, killing 11 men and three women, Nway Oo Myaung, a pro-democracy rebel who helped clear bodies, said on Aug 21.",
+            "source": "Straits Times Asia",
+            "item_id": "2c99c207662468b729f968bb69f5c4b37a55f12d992190f492433ed0a69d41c1:article",
             "composed": false
           },
           {
-            "text": "In his speech, Trump said he would be happy if rules were changed to allow him a third run.",
-            "source": "TASS English",
-            "item_id": "c5f2bc0c64449c28ea2476def2058adf6ef2d49005c23c261db20ab59bef2fb6:article",
+            "text": "A Myanmar military air strike killed 14 civilians at a monastery during a Buddhist Lent meditation retreat in Sagaing region.",
+            "source": "Straits Times Asia",
+            "item_id": "2c99c207662468b729f968bb69f5c4b37a55f12d992190f492433ed0a69d41c1:article",
             "composed": false
           },
           {
-            "text": "WASHINGTON, August 22.",
-            "source": "TASS English",
-            "item_id": "c5f2bc0c64449c28ea2476def2058adf6ef2d49005c23c261db20ab59bef2fb6:article",
+            "text": "A Myanmar military air strike on a monastery where civilians were gathered for a meditation retreat marking Buddhist Lent killed 14 people, two rebel fighters who witnessed the aftermath said.",
+            "source": "Straits Times Asia",
+            "item_id": "2c99c207662468b729f968bb69f5c4b37a55f12d992190f492433ed0a69d41c1:article",
             "composed": false
           },
           {
-            "text": "Trump also pledged to defeat what he called a growing communist threat from the Democratic Party at the midterms in November.",
-            "source": "TASS English",
-            "item_id": "c5f2bc0c64449c28ea2476def2058adf6ef2d49005c23c261db20ab59bef2fb6:article",
+            "text": "A second local opposition fighter, speaking on condition of anonymity, said on Aug 22: “Five dead people were from our village and the other nine were from other villages.”",
+            "source": "Straits Times Asia",
+            "item_id": "2c99c207662468b729f968bb69f5c4b37a55f12d992190f492433ed0a69d41c1:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://tass.com/world/2176393"
+        "url": "https://www.straitstimes.com/asia/se-asia/myanmar-air-strike-on-monastery-kills-14-rebel-witnesses"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "88416aeccc95dbcd4bef375b7526e88b63fbc8b8894ba96da4d61793f5a1d092",
-      "title": "Maradona's 'Hand of God' ball in match against England goes for auction",
-      "url": "https://www.france24.com/en/maradona-s-hand-of-god-ball-in-match-against-england-goes-for-auction",
-      "source": "France 24",
+      "id": "36b9e9b0d8b35011186669d0b0a5c783eebab3d7700ad0cc9cee5b41fa9ab958",
+      "title": "Customs seizes endangered turtles and parrots in 2 cases, arrests woman",
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364924/customs-seizes-endangered-turtles-and-parrots-2-cases-arrests-woman?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "The football that Diego Maradona punched into the net for his infamous \"Hand of God\" goal is under the hammer this weekend. The historic ball from that infamous quarter final World Cup match between Argentina and England in 1986 is expected to fetch over 10 million dollars. Details by Camille Knight.",
-      "published_at": "2026-08-22T09:37:21+00:00",
-      "updated_at": "2026-08-22T09:37:21+00:00",
-      "effective_at": "2026-08-22T09:37:21+00:00",
+      "summary": "Hong Kong customs officers have seized endangered turtles and parrots alongside other animals in two separate smuggling cases, resulting in the arrest of one woman. The Customs and Excise Department said on Saturday that 17 live turtles were discovered in a package declared as containing a jacket arriving at Hong Kong International Airport from the United States. “Upon inspection, a batch of live turtles of suspected scheduled endangered species was found concealed in socks,” it said. Customs...",
+      "published_at": "2026-08-22T09:55:51+00:00",
+      "updated_at": "2026-08-22T09:55:51+00:00",
+      "effective_at": "2026-08-22T09:55:51+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "sports",
-      "subsector": "sports",
-      "subregion": "Europe",
+      "sector": "economy",
+      "subsector": "trade",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "argentina",
-        "camille",
-        "cup",
-        "diego",
-        "england",
-        "god",
-        "hand",
-        "knight",
-        "maradona"
+        "airport",
+        "customs",
+        "department",
+        "excise",
+        "hong_kong",
+        "international",
+        "united_states"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -380,118 +194,18 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "4a1bb7d7aaf1dd672f64c132",
-      "importance_score": 31.0,
+      "event_id": "7b1a93d2e5386cbb43bf4aeb",
+      "importance_score": 39.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 10,
         "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "88416aeccc95dbcd4bef375b7526e88b63fbc8b8894ba96da4d61793f5a1d092",
-      "public_label": "📰 NEWS",
-      "headline": "Maradona's 'Hand of God' ball in match against England goes for auction",
-      "briefing": {
-        "opening": [
-          "The football that Diego Maradona punched into the net for his infamous \"Hand of God\" goal is under the hammer this weekend.",
-          "The historic ball from that infamous quarter final World Cup match between Argentina and England in 1986 is expected to fetch over 10 million dollars."
-        ],
-        "body": [
-          "Details by Camille Knight."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The football that Diego Maradona punched into the net for his infamous \"Hand of God\" goal is under the hammer this weekend.",
-            "source": "France 24",
-            "item_id": "88416aeccc95dbcd4bef375b7526e88b63fbc8b8894ba96da4d61793f5a1d092",
-            "composed": false
-          },
-          {
-            "text": "The historic ball from that infamous quarter final World Cup match between Argentina and England in 1986 is expected to fetch over 10 million dollars.",
-            "source": "France 24",
-            "item_id": "88416aeccc95dbcd4bef375b7526e88b63fbc8b8894ba96da4d61793f5a1d092",
-            "composed": false
-          }
-        ],
-        "source": "France 24",
-        "corroborating": [],
-        "url": "https://www.france24.com/en/maradona-s-hand-of-god-ball-in-match-against-england-goes-for-auction"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "9b354c62bb280a2b660e3d933d7b7081c2be073f7f4ef56dec3671831ec97726",
-      "title": "Chintha Jerome elected DYFI’s first woman State president in Keralam",
-      "url": "https://www.thehindu.com/news/national/kerala/chintha-jerome-elected-dyfis-first-woman-state-president-in-keralam/article71377068.ece",
-      "source": "The Hindu",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "Former SFI State secretary and Kalliaseri MLA M. Vijin was elected State secretary, while R. Rahul of Alappuzha was elected treasurer",
-      "published_at": "2026-08-22T09:41:43+00:00",
-      "updated_at": "2026-08-22T09:41:43+00:00",
-      "effective_at": "2026-08-22T09:41:43+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "alappuzha",
-        "chintha",
-        "dyfi",
-        "jerome",
-        "kalliaseri",
-        "keralam",
-        "mla",
-        "sfi",
-        "state"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "e977ea7e209cd4944121e911",
-      "importance_score": 30.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -504,170 +218,52 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4
+          "scientific": 4,
+          "infrastructure": 4
         }
       },
-      "story_id": "9b354c62bb280a2b660e3d933d7b7081c2be073f7f4ef56dec3671831ec97726",
+      "story_id": "36b9e9b0d8b35011186669d0b0a5c783eebab3d7700ad0cc9cee5b41fa9ab958",
       "public_label": "📰 NEWS",
-      "headline": "Chintha Jerome elected DYFI’s first woman State president in Keralam",
+      "headline": "Customs seizes endangered turtles and parrots in 2 cases, arrests woman",
       "briefing": {
         "opening": [
-          "Former SFI State secretary and Kalliaseri MLA M.",
-          "Vijin was elected State secretary, while R."
+          "Hong Kong customs officers have seized endangered turtles and parrots alongside other animals in two separate smuggling cases, resulting in the arrest of one woman.",
+          "The Customs and Excise Department said on Saturday that 17 live turtles were discovered in a package declared as containing a jacket arriving at Hong Kong International Airport from the United States."
         ],
         "body": [
-          "Rahul of Alappuzha was elected treasurer."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Former SFI State secretary and Kalliaseri MLA M.",
-            "source": "The Hindu",
-            "item_id": "9b354c62bb280a2b660e3d933d7b7081c2be073f7f4ef56dec3671831ec97726",
-            "composed": false
-          },
-          {
-            "text": "Vijin was elected State secretary, while R.",
-            "source": "The Hindu",
-            "item_id": "9b354c62bb280a2b660e3d933d7b7081c2be073f7f4ef56dec3671831ec97726",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/kerala/chintha-jerome-elected-dyfis-first-woman-state-president-in-keralam/article71377068.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "8be1ecd7caae82421ab6942cb7441e0eebe856d6ab3f784134434e51165d0702",
-      "title": "Germany’s top diplomat arrives in Kiev on unannounced visit",
-      "url": "https://tass.com/world/2176395",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "Johann Wadephul's agenda includes meetings to discuss assistance to Ukraine and bilateral cooperation in security",
-      "published_at": "2026-08-22T09:46:45+00:00",
-      "updated_at": "2026-08-22T09:46:45+00:00",
-      "effective_at": "2026-08-22T09:46:45+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "diplomacy",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "germany",
-        "johann",
-        "ukraine",
-        "wadephul"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "a4313c14f25ffa26d9045298",
-      "importance_score": 30.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "MULTI_COUNTRY",
-        "scope_points": 7,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "8be1ecd7caae82421ab6942cb7441e0eebe856d6ab3f784134434e51165d0702",
-      "article_sentences": [
-        "BERLIN, August 22.",
-        "German Foreign Minister Johann Wadephul arrived in Kiev on an unannounced visit on Saturday.",
-        "His agenda includes meetings to discuss assistance to Ukraine and bilateral cooperation in security, Germany’s MFA said.",
-        "The visit comes ahead of Independence Day of Ukraine celebrated on August 24, the German Foreign Ministry specified.",
-        "\"The visit will mostly center on preparations for the winter.",
-        "Among other things, these include supplying generators, spare parts and other energy equipment, support to the Ukrainian energy sector, and also measures to protect critical infrastructure,\" Germany’s diplomatic agency specified.",
-        "In addition, Wadephul will discuss \"deepening cooperation with Ukraine in the sphere of defense and security, mostly in bolstering military capabilities, exchanging experience, and jointly producing long-term security structures.\"",
-        "The minister arrived in Kiev by rail.",
-        "The trip was not announced for security reasons.",
-        "This is Wadephul’s fourth visit to Ukraine as Germany’s Foreign Minister."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Germany’s top diplomat arrives in Kiev on unannounced visit",
-      "briefing": {
-        "opening": [
-          "BERLIN, August 22.",
-          "German Foreign Minister Johann Wadephul arrived in Kiev on an unannounced visit on Saturday."
-        ],
-        "body": [
-          "His agenda includes meetings to discuss assistance to Ukraine and bilateral cooperation in security, Germany’s MFA said.",
-          "The visit comes ahead of Independence Day of Ukraine celebrated on August 24, the German Foreign Ministry specified.",
-          "\"The visit will mostly center on preparations for the winter.",
-          "Among other things, these include supplying generators, spare parts and other energy equipment, support to the Ukrainian energy sector, and also measures to protect critical infrastructure,\" Germany’s diplomatic agency specified.",
-          "In addition, Wadephul will discuss \"deepening cooperation with Ukraine in the sphere of defense and security, mostly in bolstering military capabilities, exchanging experience, and jointly producing long-term security structures.\" The minister arrived in Kiev by rail.",
-          "The trip was not announced for security reasons.",
-          "This is Wadephul’s fourth visit to Ukraine as Germany’s Foreign Minister.",
-          "Johann Wadephul's agenda includes meetings to discuss assistance to Ukraine and bilateral cooperation in security."
+          "“Upon inspection, a batch of live turtles of suspected scheduled endangered species was found concealed in socks,” it said.",
+          "Customs..."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Kiev"
+            "text": "Hong Kong International"
           }
         ],
         "sentences": [
           {
-            "text": "BERLIN, August 22.",
-            "source": "TASS English",
-            "item_id": "8be1ecd7caae82421ab6942cb7441e0eebe856d6ab3f784134434e51165d0702:article",
+            "text": "Hong Kong customs officers have seized endangered turtles and parrots alongside other animals in two separate smuggling cases, resulting in the arrest of one woman.",
+            "source": "South China Morning Post",
+            "item_id": "36b9e9b0d8b35011186669d0b0a5c783eebab3d7700ad0cc9cee5b41fa9ab958",
             "composed": false
           },
           {
-            "text": "The visit comes ahead of Independence Day of Ukraine celebrated on August 24, the German Foreign Ministry specified.",
-            "source": "TASS English",
-            "item_id": "8be1ecd7caae82421ab6942cb7441e0eebe856d6ab3f784134434e51165d0702:article",
+            "text": "“Upon inspection, a batch of live turtles of suspected scheduled endangered species was found concealed in socks,” it said.",
+            "source": "South China Morning Post",
+            "item_id": "36b9e9b0d8b35011186669d0b0a5c783eebab3d7700ad0cc9cee5b41fa9ab958",
             "composed": false
           },
           {
-            "text": "German Foreign Minister Johann Wadephul arrived in Kiev on an unannounced visit on Saturday.",
-            "source": "TASS English",
-            "item_id": "8be1ecd7caae82421ab6942cb7441e0eebe856d6ab3f784134434e51165d0702:article",
-            "composed": false
-          },
-          {
-            "text": "The minister arrived in Kiev by rail.",
-            "source": "TASS English",
-            "item_id": "8be1ecd7caae82421ab6942cb7441e0eebe856d6ab3f784134434e51165d0702:article",
+            "text": "The Customs and Excise Department said on Saturday that 17 live turtles were discovered in a package declared as containing a jacket arriving at Hong Kong International Airport from the United States.",
+            "source": "South China Morning Post",
+            "item_id": "36b9e9b0d8b35011186669d0b0a5c783eebab3d7700ad0cc9cee5b41fa9ab958",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://tass.com/world/2176395"
+        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364924/customs-seizes-endangered-turtles-and-parrots-2-cases-arrests-woman?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
