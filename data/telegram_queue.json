@@ -1,72 +1,72 @@
 {
-  "generated_at": "2026-08-22T19:40:47.290482+00:00",
+  "generated_at": "2026-08-22T19:50:47.807690+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "7efead75e16b9b664415b0dbcdcc96e41abc8de3c73c175a634c20158173fa81",
-      "title": "Fake news on Armenian NPP aimed at undermining ties with Russia — diplomat",
-      "url": "https://tass.com/politics/2176531",
+      "id": "94d747209d4c7e18d48c02a2961d091819fea02ff63299bbc115b661d28817d8",
+      "title": "Magnitude 5.9 earthquake rattles Tokyo area",
+      "url": "https://tass.com/emergencies/2176533",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "MOSCOW, August 22. Moscow views fake news about an alleged safety threat posed by the Metsamor Nuclear Power Plant in Armenia as an attempt to disrupt energy ties between he two countries, the Russian Foreign Ministry’s official spokeswoman, Maria Zakharova, said. Earlier, foreign media started to publish rumors about an alleged safety threat posed by the NPP, claiming that the it puts for the entire region in danger and should be put out of operation.",
-      "published_at": "2026-08-22T19:36:36+00:00",
-      "updated_at": "2026-08-22T19:36:36+00:00",
-      "effective_at": "2026-08-22T19:36:36+00:00",
+      "summary": "TOKYO, August 22. A 5.9-magnitude earthquake occurred in the central part of Japan, triggering the nationwide alert system, a TASS correspondent reported. The tremors continued for about 20 seconds. Furniture was shaking and kitchenware dropped from shelves. The epicenter was located in the Ibaraki prefecture that borders Tokyo, at the depth of 70 km. The national meteorological service has issued a tsunami alert, but it was lifted a few minutes later. It was ranked as a category five earthquake on Japan’s national seven-tier scale. No damage or casualties have been reported.",
+      "published_at": "2026-08-22T19:40:57+00:00",
+      "updated_at": "2026-08-22T19:40:57+00:00",
+      "effective_at": "2026-08-22T19:40:57+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "Europe",
+      "urgency_terms": [
+        "earthquake"
+      ],
+      "sector": "climate",
+      "subsector": "earthquakes",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "armenia",
-        "armenian",
-        "foreign",
-        "maria",
-        "metsamor",
-        "ministry",
-        "npp",
-        "nuclear",
-        "plant",
-        "power",
-        "russia",
-        "zakharova"
+        "ibaraki",
+        "japan",
+        "tass"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
+      "corroborating_sources": 2,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Japan Times"
+      ],
+      "verified_match_count": 3,
+      "priority_score": 100,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
       "article_sentences": [
-        "MOSCOW, August 22.",
-        "Moscow views fake news about an alleged safety threat posed by the Metsamor Nuclear Power Plant in Armenia as an attempt to disrupt energy ties between he two countries, the Russian Foreign Ministry’s official spokeswoman, Maria Zakharova, said.",
-        "Earlier, foreign media started to publish rumors about an alleged safety threat posed by the NPP, claiming that the it puts for the entire region in danger and should be put out of operation."
+        "TOKYO, August 22.",
+        "A 5.9-magnitude earthquake occurred in the central part of Japan, triggering the nationwide alert system, a TASS correspondent reported.",
+        "The tremors continued for about 20 seconds.",
+        "Furniture was shaking and kitchenware dropped from shelves.",
+        "The epicenter was located in the Ibaraki prefecture that borders Tokyo, at the depth of 70 km.",
+        "The national meteorological service has issued a tsunami alert, but it was lifted a few minutes later.",
+        "It was ranked as a category five earthquake on Japan’s national seven-tier scale.",
+        "No damage or casualties have been reported."
       ],
-      "event_status": "NEW",
-      "event_id": "0d1c7df66559ff93454a6405",
-      "importance_score": 40.0,
+      "event_status": "UPDATE",
+      "event_id": "2c3075a430c6a244209068d8",
+      "importance_score": 49.0,
       "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 12.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 12,
+        "corroboration": 6,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
-          "magnitude": 0.0,
+          "magnitude": 5.9,
           "dead": 0,
           "injured": 0,
           "displaced": 0,
@@ -76,54 +76,52 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 8,
-          "infrastructure": 4
+          "human": 4
         }
       },
-      "story_id": "7efead75e16b9b664415b0dbcdcc96e41abc8de3c73c175a634c20158173fa81",
-      "public_label": "📰 NEWS",
-      "headline": "Fake news on Armenian NPP aimed at undermining ties with Russia — diplomat",
+      "story_id": "94d747209d4c7e18d48c02a2961d091819fea02ff63299bbc115b661d28817d8",
+      "public_label": "🔄 UPDATE",
+      "headline": "Magnitude 5.9 earthquake rattles Tokyo area",
       "briefing": {
         "opening": [
-          "MOSCOW, August 22.",
-          "Moscow views fake news about an alleged safety threat posed by the Metsamor Nuclear Power Plant in Armenia as an attempt to disrupt energy ties between he two countries, the Russian Foreign Ministry’s official spokeswoman, Maria Zakharova, said."
+          "TOKYO, August 22.",
+          "A 5.9-magnitude earthquake occurred in the central part of Japan, triggering the nationwide alert system, a TASS correspondent reported."
         ],
         "body": [
-          "Earlier, foreign media started to publish rumors about an alleged safety threat posed by the NPP, claiming that the it puts for the entire region in danger and should be put out of operation."
+          "The tremors continued for about 20 seconds.",
+          "Furniture was shaking and kitchenware dropped from shelves.",
+          "The epicenter was located in the Ibaraki prefecture that borders Tokyo, at the depth of 70 km.",
+          "The national meteorological service has issued a tsunami alert, but it was lifted a few minutes later.",
+          "It was ranked as a category five earthquake on Japan’s national seven-tier scale.",
+          "No damage or casualties have been reported."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Armenia"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Earlier, foreign media started to publish rumors about an alleged safety threat posed by the NPP, claiming that the it puts for the entire region in danger and should be put out of operation.",
+            "text": "TOKYO, August 22.",
             "source": "TASS English",
-            "item_id": "7efead75e16b9b664415b0dbcdcc96e41abc8de3c73c175a634c20158173fa81:article",
+            "item_id": "94d747209d4c7e18d48c02a2961d091819fea02ff63299bbc115b661d28817d8:article",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 22.",
+            "text": "The epicenter was located in the Ibaraki prefecture that borders Tokyo, at the depth of 70 km.",
             "source": "TASS English",
-            "item_id": "7efead75e16b9b664415b0dbcdcc96e41abc8de3c73c175a634c20158173fa81:article",
+            "item_id": "94d747209d4c7e18d48c02a2961d091819fea02ff63299bbc115b661d28817d8:article",
             "composed": false
           },
           {
-            "text": "Moscow views fake news about an alleged safety threat posed by the Metsamor Nuclear Power Plant in Armenia as an attempt to disrupt energy ties between he two countries, the Russian Foreign Ministry’s official spokeswoman, Maria Zakharova, said.",
+            "text": "The tremors continued for about 20 seconds.",
             "source": "TASS English",
-            "item_id": "7efead75e16b9b664415b0dbcdcc96e41abc8de3c73c175a634c20158173fa81:article",
+            "item_id": "94d747209d4c7e18d48c02a2961d091819fea02ff63299bbc115b661d28817d8:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/politics/2176531"
+        "url": "https://tass.com/emergencies/2176533"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
