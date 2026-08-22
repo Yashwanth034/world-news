@@ -1,44 +1,158 @@
 {
-  "generated_at": "2026-08-22T21:20:44.744756+00:00",
-  "count": 1,
+  "generated_at": "2026-08-22T21:31:00.867525+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "d2f691cd1f7622f1ce237fe3a369accf2e84aef79c68ed5e9cc6312af4e93d09",
-      "title": "Russian Defense Ministry delegation discusses cooperation with its Indian colleagues",
-      "url": "https://tass.com/defense/2176545",
+      "id": "e6d9839c9eca584c8e0d914c6678a44375263fbcb5900ac48d38cf8feee26544",
+      "title": "Hong Kong must abandon superiority complex over mainland China",
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3364326/hong-kong-must-abandon-superiority-complex-over-mainland-china?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "After many years in Hong Kong, with some sadness, I left the city for greener pastures, though my link with it remains an emotional one. When I moved my two dogs across the border to Shenzhen, I was told by agents, officials, even artificial intelligence, that the mainland bureaucracy would be rigid and unhelpful. My experience was the opposite. The young customs officers at Shenzhen Bay answered my phone calls, gave candid advice and treated my situation – a single parent relocating with a...",
+      "published_at": "2026-08-22T21:30:07+00:00",
+      "updated_at": "2026-08-22T21:30:07+00:00",
+      "effective_at": "2026-08-22T21:30:07+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "trade",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "bay",
+        "china",
+        "hong_kong",
+        "shenzhen"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "0d3cf5689b89970d0e237ed5",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "e6d9839c9eca584c8e0d914c6678a44375263fbcb5900ac48d38cf8feee26544",
+      "public_label": "📰 NEWS",
+      "headline": "Hong Kong must abandon superiority complex over mainland China",
+      "briefing": {
+        "opening": [
+          "After many years in Hong Kong, with some sadness, I left the city for greener pastures, though my link with it remains an emotional one.",
+          "When I moved my two dogs across the border to Shenzhen, I was told by agents, officials, even artificial intelligence, that the mainland bureaucracy would be rigid and unhelpful."
+        ],
+        "body": [
+          "My experience was the opposite.",
+          "The young customs officers at Shenzhen Bay answered my phone calls, gave candid advice and treated my situation – a single parent relocating with a..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Hong Kong"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "When I moved my two dogs across the border to Shenzhen, I was told by agents, officials, even artificial intelligence, that the mainland bureaucracy would be rigid and unhelpful.",
+            "source": "South China Morning Post",
+            "item_id": "e6d9839c9eca584c8e0d914c6678a44375263fbcb5900ac48d38cf8feee26544",
+            "composed": false
+          },
+          {
+            "text": "My experience was the opposite.",
+            "source": "South China Morning Post",
+            "item_id": "e6d9839c9eca584c8e0d914c6678a44375263fbcb5900ac48d38cf8feee26544",
+            "composed": false
+          },
+          {
+            "text": "After many years in Hong Kong, with some sadness, I left the city for greener pastures, though my link with it remains an emotional one.",
+            "source": "South China Morning Post",
+            "item_id": "e6d9839c9eca584c8e0d914c6678a44375263fbcb5900ac48d38cf8feee26544",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3364326/hong-kong-must-abandon-superiority-complex-over-mainland-china?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "63053b37e382d760cd0849df1db3e0041c6b6bd06c36912e42faf04604497b84",
+      "title": "American rapper Lil Pump says loves Putin",
+      "url": "https://tass.com/society/2176547",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "North America",
       "discovery": false,
-      "summary": "MOSCOW, August 23. A Russian Defense Ministry delegation has taken part in a meeting of a working subgroup on planning military cooperation between Russia and India, according to the website of the Russian Defense Ministry. \"On August 20-22, 2026, in the city of New Delhi, a delegation of the Main Directorate for International Military Cooperation of the Defense Ministry of the Russian Federation took part in a meeting of the working subgroup on planning military cooperation of the Russian-Indian intergovernmental commission on military and military-technical cooperation,\" the ministry said. During the negotiations, issues and prospects for the development of defense cooperation were discussed.",
-      "published_at": "2026-08-22T21:16:31+00:00",
-      "updated_at": "2026-08-22T21:16:31+00:00",
-      "effective_at": "2026-08-22T21:16:31+00:00",
+      "summary": "MOSCOW, August 23. American rapper. Lil Pump said after a concert in Moscow that he loves Russian President Vladimir Putin, a TASS correspondent reports. \"I love [Vladimir] Putin. God bless Putin,\" the rapper said getting into his car. On August 22, the artist gave a concert at the VK Stadium. Two days before the performance, the rapper, in a conversation with TASS, called Russia the number one country among the places where he has had the opportunity to perform. He added he was glad to be back in Moscow. Lil Pump (Gazzy Garcia) became famous in the mid·2010s, when he was one of the first to use the SoundCloud platform to launch his music career and attract the attention of major labels. His debut album was ranked third on the Billboard 200 chart, while the Gucci Gang track became a worldwide hit.",
+      "published_at": "2026-08-22T21:25:47+00:00",
+      "updated_at": "2026-08-22T21:25:47+00:00",
+      "effective_at": "2026-08-22T21:25:47+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "defense",
-      "subregion": "Europe",
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "cooperation",
-        "defense",
-        "delhi",
-        "directorate",
-        "federation",
-        "india",
-        "indian",
-        "international",
-        "main",
-        "military",
-        "ministry",
+        "american",
+        "billboard",
+        "gang",
+        "garcia",
+        "gazzy",
+        "gucci",
+        "lil",
+        "pump",
+        "putin",
         "russia",
-        "russian-indian"
+        "soundcloud",
+        "stadium",
+        "tass",
+        "us",
+        "vk",
+        "vladimir"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -49,20 +163,26 @@
       "max_delay_minutes": 30,
       "article_sentences": [
         "MOSCOW, August 23.",
-        "A Russian Defense Ministry delegation has taken part in a meeting of a working subgroup on planning military cooperation between Russia and India, according to the website of the Russian Defense Ministry.",
-        "\"On August 20-22, 2026, in the city of New Delhi, a delegation of the Main Directorate for International Military Cooperation of the Defense Ministry of the Russian Federation took part in a meeting of the working subgroup on planning military cooperation of the Russian-Indian intergovernmental commission on military and military-technical cooperation,\" the ministry said.",
-        "During the negotiations, issues and prospects for the development of defense cooperation were discussed."
+        "American rapper.",
+        "Lil Pump said after a concert in Moscow that he loves Russian President Vladimir Putin, a TASS correspondent reports.",
+        "\"I love [Vladimir] Putin.",
+        "God bless Putin,\" the rapper said getting into his car.",
+        "On August 22, the artist gave a concert at the VK Stadium.",
+        "Two days before the performance, the rapper, in a conversation with TASS, called Russia the number one country among the places where he has had the opportunity to perform.",
+        "He added he was glad to be back in Moscow.",
+        "Lil Pump (Gazzy Garcia) became famous in the mid·2010s, when he was one of the first to use the SoundCloud platform to launch his music career and attract the attention of major labels.",
+        "His debut album was ranked third on the Billboard 200 chart, while the Gucci Gang track became a worldwide hit."
       ],
       "event_status": "NEW",
-      "event_id": "afac0d8c1b57898bb22f8ac7",
-      "importance_score": 32.0,
+      "event_id": "4ef6122d28a2b08b40882d85",
+      "importance_score": 35.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
         "significance": 4,
@@ -78,51 +198,57 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 4
+          "geopolitical": 4
         }
       },
-      "story_id": "d2f691cd1f7622f1ce237fe3a369accf2e84aef79c68ed5e9cc6312af4e93d09",
+      "story_id": "63053b37e382d760cd0849df1db3e0041c6b6bd06c36912e42faf04604497b84",
       "public_label": "📰 NEWS",
-      "headline": "Russian Defense Ministry delegation discusses cooperation with its Indian colleagues",
+      "headline": "American rapper Lil Pump says loves Putin",
       "briefing": {
         "opening": [
           "MOSCOW, August 23.",
-          "A Russian Defense Ministry delegation has taken part in a meeting of a working subgroup on planning military cooperation between Russia and India, according to the website of the Russian Defense Ministry."
+          "American rapper."
         ],
         "body": [
-          "\"On August 20-22, 2026, in the city of New Delhi, a delegation of the Main Directorate for International Military Cooperation of the Defense Ministry of the Russian Federation took part in a meeting of the working subgroup on planning military cooperation of the Russian-Indian intergovernmental commission on military and military-technical cooperation,\" the ministry said.",
-          "During the negotiations, issues and prospects for the development of defense cooperation were discussed."
+          "Lil Pump said after a concert in Moscow that he loves Russian President Vladimir Putin, a TASS correspondent reports.",
+          "\"I love [Vladimir] Putin.",
+          "God bless Putin,\" the rapper said getting into his car.",
+          "On August 22, the artist gave a concert at the VK Stadium.",
+          "Two days before the performance, the rapper, in a conversation with TASS, called Russia the number one country among the places where he has had the opportunity to perform.",
+          "He added he was glad to be back in Moscow.",
+          "Lil Pump (Gazzy Garcia) became famous in the mid·2010s, when he was one of the first to use the SoundCloud platform to launch his music career and attract the attention of major labels.",
+          "His debut album was ranked third on the Billboard 200 chart, while the Gucci Gang track became a worldwide hit."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Moscow"
+          }
+        ],
         "sentences": [
-          {
-            "text": "A Russian Defense Ministry delegation has taken part in a meeting of a working subgroup on planning military cooperation between Russia and India, according to the website of the Russian Defense Ministry.",
-            "source": "TASS English",
-            "item_id": "d2f691cd1f7622f1ce237fe3a369accf2e84aef79c68ed5e9cc6312af4e93d09:article",
-            "composed": false
-          },
-          {
-            "text": "During the negotiations, issues and prospects for the development of defense cooperation were discussed.",
-            "source": "TASS English",
-            "item_id": "d2f691cd1f7622f1ce237fe3a369accf2e84aef79c68ed5e9cc6312af4e93d09:article",
-            "composed": false
-          },
-          {
-            "text": "\"On August 20-22, 2026, in the city of New Delhi, a delegation of the Main Directorate for International Military Cooperation of the Defense Ministry of the Russian Federation took part in a meeting of the working subgroup on planning military cooperation of the Russian-Indian intergovernmental commission on military and military-technical cooperation,\" the ministry said.",
-            "source": "TASS English",
-            "item_id": "d2f691cd1f7622f1ce237fe3a369accf2e84aef79c68ed5e9cc6312af4e93d09:article",
-            "composed": false
-          },
           {
             "text": "MOSCOW, August 23.",
             "source": "TASS English",
-            "item_id": "d2f691cd1f7622f1ce237fe3a369accf2e84aef79c68ed5e9cc6312af4e93d09:article",
+            "item_id": "63053b37e382d760cd0849df1db3e0041c6b6bd06c36912e42faf04604497b84:article",
+            "composed": false
+          },
+          {
+            "text": "He added he was glad to be back in Moscow.",
+            "source": "TASS English",
+            "item_id": "63053b37e382d760cd0849df1db3e0041c6b6bd06c36912e42faf04604497b84:article",
+            "composed": false
+          },
+          {
+            "text": "Lil Pump (Gazzy Garcia) became famous in the mid·2010s, when he was one of the first to use the SoundCloud platform to launch his music career and attract the attention of major labels.",
+            "source": "TASS English",
+            "item_id": "63053b37e382d760cd0849df1db3e0041c6b6bd06c36912e42faf04604497b84:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/defense/2176545"
+        "url": "https://tass.com/society/2176547"
       },
       "group_size": 1,
       "label": "📰 NEWS"
