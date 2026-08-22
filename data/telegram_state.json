@@ -1,14 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "b9e48fd4c1b0b6c465f7a09ad30d96d26035bc93ff9d63de3f6929ce184de75c",
-      "event_id": "e6e753c52ed612bd6257e78c",
-      "item_id": "b9e48fd4c1b0b6c465f7a09ad30d96d26035bc93ff9d63de3f6929ce184de75c",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-08-21T14:41:15+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "ba0877c4a404fb088963f7b1b4c310ddb0c0a179a9816a1420c42a4813e542eb",
       "event_id": "cdf9dfc4e4d7f31401f37b65",
       "item_id": "ba0877c4a404fb088963f7b1b4c310ddb0c0a179a9816a1420c42a4813e542eb",
@@ -407,9 +399,26 @@
       "label": "🔄 UPDATE",
       "scheduled_at": "2026-08-22T01:35:23+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "f77a59790b422ba70ccbdb9e0bb26620e78bbc64122969cef0918e12ccb05ff6",
+      "event_id": "d0d216d21a7a9a46b795406a",
+      "item_id": "f77a59790b422ba70ccbdb9e0bb26620e78bbc64122969cef0918e12ccb05ff6",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-08-22T02:44:55+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "18acc3db111e00a260d4c15cadd59282a2bcafa494dc17946c73d582f65a9fe9",
+      "event_id": "9b5b00621ff75db8da3af381",
+      "item_id": "18acc3db111e00a260d4c15cadd59282a2bcafa494dc17946c73d582f65a9fe9",
+      "label": "📰 NEWS",
+      "message_id": 1483,
+      "posted_at": "2026-08-22T02:44:55.000153+00:00",
+      "scheduled_at": "2026-08-22T02:44:33+00:00"
+    },
     {
       "story_id": "1298550170ec0debe1040e95dac44ecb05d33262f36aaaeedf5fb61c4c06702f",
       "event_id": "6eafe024da434686c207d27f",
@@ -3298,17 +3307,8 @@
       "message_id": 1161,
       "posted_at": "2026-08-19T20:52:53.000135+00:00",
       "scheduled_at": "2026-08-19T20:52:53+00:00"
-    },
-    {
-      "story_id": "b8eaed9375cd6b05a48aaceb1800c69152029fc3651b2376fc06edbe7a0b124d",
-      "event_id": "789dc15dcca3b85254803d15",
-      "item_id": "b8eaed9375cd6b05a48aaceb1800c69152029fc3651b2376fc06edbe7a0b124d",
-      "label": "📰 NEWS",
-      "message_id": 1160,
-      "posted_at": "2026-08-19T20:44:00.000135+00:00",
-      "scheduled_at": "2026-08-19T20:44:00+00:00"
     }
   ],
   "failures": [],
-  "last_posted_at": "2026-08-22T02:03:57.000126+00:00"
+  "last_posted_at": "2026-08-22T02:44:55.000153+00:00"
 }
