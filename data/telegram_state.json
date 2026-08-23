@@ -1,22 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "bad1498a9039c1aab65f6414a639f166cf3e0ae12d993f23f003e4ba38e8290b",
-      "event_id": "11ab015197bc48c09d3c7bf0",
-      "item_id": "bad1498a9039c1aab65f6414a639f166cf3e0ae12d993f23f003e4ba38e8290b",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-08-23T05:33:47+00:00",
-      "attempts": 0
-    },
-    {
-      "story_id": "dec97267f2b10eadef0e1d3d92c805c791d6d5ed1aa040ea776d62adc67274b7",
-      "event_id": "53d54a8741d16c024dc564aa",
-      "item_id": "dec97267f2b10eadef0e1d3d92c805c791d6d5ed1aa040ea776d62adc67274b7",
-      "label": "🔄 UPDATE",
-      "scheduled_at": "2026-08-23T05:34:39+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "e7b099b7ab3e759343475c728ea48824ad0194fe333c432eefeff9c77b2dc1d5",
       "event_id": "0db3cb4d570c45fc3713296c",
       "item_id": "e7b099b7ab3e759343475c728ea48824ad0194fe333c432eefeff9c77b2dc1d5",
@@ -314,6 +298,15 @@
     }
   ],
   "posted": [
+    {
+      "story_id": "a0525a003a97350e5740a1681f12d18542e35c65d6abf13fd4fce187056e81de",
+      "event_id": "07dbd74f2dd48e525900d2a8",
+      "item_id": "a0525a003a97350e5740a1681f12d18542e35c65d6abf13fd4fce187056e81de",
+      "label": "📰 NEWS",
+      "message_id": 1679,
+      "posted_at": "2026-08-23T17:33:40.000148+00:00",
+      "scheduled_at": "2026-08-23T17:33:40+00:00"
+    },
     {
       "story_id": "2c9c2a36f04446893dab1a4060bb59b3b876369acbe0c5f48eb690538ee07809",
       "event_id": "939112da04bcf0288e05f06c",
@@ -2860,15 +2853,6 @@
       "message_id": 1396,
       "posted_at": "2026-08-21T11:46:01.000143+00:00",
       "scheduled_at": "2026-08-21T11:46:01+00:00"
-    },
-    {
-      "story_id": "a0525a003a97350e5740a1681f12d18542e35c65d6abf13fd4fce187056e81de",
-      "event_id": "07dbd74f2dd48e525900d2a8",
-      "item_id": "a0525a003a97350e5740a1681f12d18542e35c65d6abf13fd4fce187056e81de",
-      "label": "📰 NEWS",
-      "message_id": 1679,
-      "posted_at": "2026-08-23T17:33:40.000148+00:00",
-      "scheduled_at": "2026-08-23T17:33:40+00:00"
     }
   ],
   "failures": [],
