@@ -1,56 +1,252 @@
 {
-  "generated_at": "2026-08-23T09:01:05.802655+00:00",
-  "count": 1,
+  "generated_at": "2026-08-23T09:05:09.763477+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "ce8a6c78462950f88cb605492ac572e7ecdb4e0bfd3eae80823cf123bb7bf607",
-      "title": "People’s Daily defends China’s economic resilience, says annual targets will be met",
-      "url": "https://www.scmp.com/news/article/3364968/peoples-daily-defends-chinas-economic-resilience-says-annual-targets-will-be-met?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "2851fa0908b56fff11b53c12586ef600b9d6c96f4235c420d7fca112cb22de72",
+      "title": "5.9-magnitude earthquake strikes Japan, injuring at least 37",
+      "url": "http://www.euronews.com/2026/08/23/59-magnitude-earthquake-strikes-japan-injuring-at-least-37",
+      "source": "Euronews",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "The flagship newspaper of China’s ruling Communist Party has run back-to-back commentaries defending the resilience of the world’s second-largest economy, saying domestic risks were being contained while China continued to provide greater stability to the global economy. The People’s Daily commentaries, published on Saturday and Sunday, came as weak domestic demand and persistent imbalances weighed on second-quarter growth, with July data showing little improvement. “In the second half of the...",
-      "published_at": "2026-08-23T09:00:35+00:00",
-      "updated_at": "2026-08-23T09:00:35+00:00",
-      "effective_at": "2026-08-23T09:00:35+00:00",
+      "summary": "\"I would ask residents in the areas where the shaking was particularly strong to remain vigilant for the possibility of another earthquake of a similar magnitude,\" Japanese Prime Minister Sanae Takaichi said. A 5.9-magnitude earthquake struck Japan early on Sunday, causing strong shaking and injuring dozens of people, according to authorities. The quake hit around the southern part of the Ibaraki Prefecture, close to Tokyo, at a depth of roughly 68 km, the Japan Meteorological Agency (JMA) said, adding that there was \"no concern about tsunamis.\" Japan's Fire and Disaster Management Agency said at least 37 people were injured following the tremor, including one person who was seriously hurt. One building was also damaged in Saitama Prefecture, it added. In Tokyo, some regional train services were also reportedly disrupted. Japanese Prime Minister Sanae Takaichi said the quake was felt across the capital as well as in the prefectures of, Ibaraki, Saitama, and Chiba. She said authorities were \"taking appropriate measures\" and that she had told officials to assess the extent of the damage and to \"provide the public with timely and accurate information.\" \"I would ask residents in the areas where the shaking was particularly strong to remain vigilant for the possibility of another earthquake of a similar magnitude,\" Takaichi added. Check back for further details.",
+      "published_at": "2026-08-23T09:02:48+00:00",
+      "updated_at": "2026-08-23T09:02:48+00:00",
+      "effective_at": "2026-08-23T09:02:48+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 65,
+      "category": "politics",
+      "score": 73,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "economy",
+      "urgency_terms": [
+        "earthquake"
+      ],
+      "sector": "climate",
+      "subsector": "earthquakes",
       "subregion": "East Asia",
       "country": null,
       "entities": [
-        "china",
-        "communist",
-        "daily",
-        "party"
+        "agency",
+        "chiba",
+        "disaster",
+        "fire",
+        "ibaraki",
+        "japan",
+        "jma",
+        "management",
+        "meteorological",
+        "prefecture",
+        "saitama",
+        "sanae",
+        "takaichi"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 1,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "\"I would ask residents in the areas where the shaking was particularly strong to remain vigilant for the possibility of another earthquake of a similar magnitude,\" Japanese Prime Minister Sanae Takaichi said.",
+        "A 5.9-magnitude earthquake struck Japan early on Sunday, causing strong shaking and injuring dozens of people, according to authorities.",
+        "The quake hit around the southern part of the Ibaraki Prefecture, close to Tokyo, at a depth of roughly 68 km, the Japan Meteorological Agency (JMA) said, adding that there was \"no concern about tsunamis.\"",
+        "Japan's Fire and Disaster Management Agency said at least 37 people were injured following the tremor, including one person who was seriously hurt.",
+        "One building was also damaged in Saitama Prefecture, it added.",
+        "In Tokyo, some regional train services were also reportedly disrupted.",
+        "Japanese Prime Minister Sanae Takaichi said the quake was felt across the capital as well as in the prefectures of, Ibaraki, Saitama, and Chiba.",
+        "She said authorities were \"taking appropriate measures\" and that she had told officials to assess the extent of the damage and to \"provide the public with timely and accurate information.\"",
+        "\"I would ask residents in the areas where the shaking was particularly strong to remain vigilant for the possibility of another earthquake of a similar magnitude,\" Takaichi added.",
+        "Check back for further details."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "a2d48654712d25a76184b7b1",
+      "importance_score": 54.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 15,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 3,
+        "significance": 10,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 5.9,
+          "dead": 0,
+          "injured": 37,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 6,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "2851fa0908b56fff11b53c12586ef600b9d6c96f4235c420d7fca112cb22de72",
+      "public_label": "🔄 UPDATE",
+      "headline": "5.9-magnitude earthquake strikes Japan, injuring at least 37",
+      "briefing": {
+        "opening": [
+          "\"I would ask residents in the areas where the shaking was particularly strong to remain vigilant for the possibility of another earthquake of a similar magnitude,\" Japanese Prime Minister Sanae Takaichi said.",
+          "A 5.9-magnitude earthquake struck Japan early on Sunday, causing strong shaking and injuring dozens of people, according to authorities."
+        ],
+        "body": [
+          "The quake hit around the southern part of the Ibaraki Prefecture, close to Tokyo, at a depth of roughly 68 km, the Japan Meteorological Agency (JMA) said, adding that there was \"no concern about tsunamis.\" Japan's Fire and Disaster Management Agency said at least 37 people were injured following the tremor, including one person who was seriously hurt.",
+          "One building was also damaged in Saitama Prefecture, it added.",
+          "In Tokyo, some regional train services were also reportedly disrupted.",
+          "Japanese Prime Minister Sanae Takaichi said the quake was felt across the capital as well as in the prefectures of, Ibaraki, Saitama, and Chiba.",
+          "She said authorities were \"taking appropriate measures\" and that she had told officials to assess the extent of the damage and to \"provide the public with timely and accurate information.\" \"I would ask residents in the areas where the shaking was particularly strong to remain vigilant for the possibility of another earthquake of a similar magnitude,\" Takaichi added.",
+          "Check back for further details."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Saitama Prefecture"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 37 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "\"I would ask residents in the areas where the shaking was particularly strong to remain vigilant for the possibility of another earthquake of a similar magnitude,\" Japanese Prime Minister Sanae Takaichi said.",
+            "source": "Euronews",
+            "item_id": "2851fa0908b56fff11b53c12586ef600b9d6c96f4235c420d7fca112cb22de72:article",
+            "composed": false
+          },
+          {
+            "text": "In Tokyo, some regional train services were also reportedly disrupted.",
+            "source": "Euronews",
+            "item_id": "2851fa0908b56fff11b53c12586ef600b9d6c96f4235c420d7fca112cb22de72:article",
+            "composed": false
+          },
+          {
+            "text": "The quake hit around the southern part of the Ibaraki Prefecture, close to Tokyo, at a depth of roughly 68 km, the Japan Meteorological Agency (JMA) said, adding that there was \"no concern about tsunamis.\"",
+            "source": "Euronews",
+            "item_id": "2851fa0908b56fff11b53c12586ef600b9d6c96f4235c420d7fca112cb22de72:article",
+            "composed": false
+          }
+        ],
+        "source": "Euronews",
+        "corroborating": [],
+        "url": "http://www.euronews.com/2026/08/23/59-magnitude-earthquake-strikes-japan-injuring-at-least-37"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "2a9a329301e2245b18879918e03ce88f54b1039aaa678675a66b54733981d657",
+      "title": "SM Lee to visit Central Asia from Aug 24 to 31",
+      "url": "https://www.straitstimes.com/asia/sm-lee-to-visit-central-asia-from-aug-24-to-31",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Senior Minister Lee Hsien Loong will visit Kazakhstan from Aug 24 to 27, and Uzbekistan from Aug 27 to 31. Announcing the official visits on Aug 23, the Prime Minister’s Office (PMO) said this will be his first visit to Central Asia. In Kazakhstan, Lee will visit Astana and Almaty. In Astana, he will call on President Kassym-Jomart Tokayev, Prime Minister Olzhas Bektenov, Deputy Prime Minister and Minister for Digital Development Zhaslan Madiyev, and Deputy Prime Minister Kanat Bozumbayev. During the trip, Lee will be conferred the Order of Dostyk (Friendship) of the First Class Award by Tokayev. Previous Singapore leaders who have received the award include founding prime minister Lee Kuan Yew in 2012 and then-President Halimah Yacob in 2023. Lee will also deliver a lecture at Nazarbayev University, where he will be conferred an Honorary Professorship. Established in 2010, Nazarbayev University is an autonomous research university in Astana that was set up as part of Kazakhstan’s efforts to develop its higher education and research sector. In Almaty, Lee will be hosted to lunch by the Akim, or mayor, of Almaty Darkhan Satybaldy, and meet Singapore and Kazakh business leaders. Singapore and Kazakhstan established diplomatic relations in March 1993, and bilateral ties have grown in recent years, including through state visits by Halimah in May 2023 and Tokayev in May 2024. Kazakhstan is Singapore’s largest trading partner in Central Asia. Bilateral trade in goods amounted to $326.6 million, while trade in services was $159 million.",
+      "published_at": "2026-08-23T09:00:00+00:00",
+      "updated_at": "2026-08-23T09:00:00+00:00",
+      "effective_at": "2026-08-23T09:00:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "diplomacy",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "akim",
+        "almaty",
+        "asia",
+        "astana",
+        "aug",
+        "award",
+        "bektenov",
+        "bozumbayev",
+        "central",
+        "class",
+        "darkhan",
+        "development",
+        "digital",
+        "dostyk",
+        "friendship",
+        "halimah",
+        "honorary",
+        "hsien",
+        "kanat",
+        "kassym-jomart",
+        "kazakh",
+        "kazakhstan",
+        "kuan",
+        "lee",
+        "loong",
+        "madiyev",
+        "nazarbayev",
+        "office",
+        "olzhas",
+        "order",
+        "pmo",
+        "previous",
+        "professorship",
+        "satybaldy",
+        "senior",
+        "singapore",
+        "sm",
+        "tokayev",
+        "university",
+        "uzbekistan",
+        "yacob",
+        "yew",
+        "zhaslan"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "Senior Minister Lee Hsien Loong will visit Kazakhstan from Aug 24 to 27, and Uzbekistan from Aug 27 to 31.",
+        "Announcing the official visits on Aug 23, the Prime Minister’s Office (PMO) said this will be his first visit to Central Asia.",
+        "In Kazakhstan, Lee will visit Astana and Almaty.",
+        "In Astana, he will call on President Kassym-Jomart Tokayev, Prime Minister Olzhas Bektenov, Deputy Prime Minister and Minister for Digital Development Zhaslan Madiyev, and Deputy Prime Minister Kanat Bozumbayev.",
+        "During the trip, Lee will be conferred the Order of Dostyk (Friendship) of the First Class Award by Tokayev.",
+        "Previous Singapore leaders who have received the award include founding prime minister Lee Kuan Yew in 2012 and then-President Halimah Yacob in 2023.",
+        "Lee will also deliver a lecture at Nazarbayev University, where he will be conferred an Honorary Professorship.",
+        "Established in 2010, Nazarbayev University is an autonomous research university in Astana that was set up as part of Kazakhstan’s efforts to develop its higher education and research sector.",
+        "In Almaty, Lee will be hosted to lunch by the Akim, or mayor, of Almaty Darkhan Satybaldy, and meet Singapore and Kazakh business leaders.",
+        "Singapore and Kazakhstan established diplomatic relations in March 1993, and bilateral ties have grown in recent years, including through state visits by Halimah in May 2023 and Tokayev in May 2024.",
+        "Kazakhstan is Singapore’s largest trading partner in Central Asia.",
+        "Bilateral trade in goods amounted to $326.6 million, while trade in services was $159 million."
+      ],
       "event_status": "NEW",
-      "event_id": "8a7b9c5c969f08bf88df0022",
-      "importance_score": 35.0,
+      "event_id": "fe1ae283581c14a172dbd18f",
+      "importance_score": 38.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "scope": "MULTI_COUNTRY",
+        "scope_points": 7,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -63,39 +259,64 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 4
+          "scientific": 4,
+          "geopolitical": 4
         }
       },
-      "story_id": "ce8a6c78462950f88cb605492ac572e7ecdb4e0bfd3eae80823cf123bb7bf607",
+      "story_id": "2a9a329301e2245b18879918e03ce88f54b1039aaa678675a66b54733981d657",
       "public_label": "📰 NEWS",
-      "headline": "People’s Daily defends China’s economic resilience, says annual targets will be met",
+      "headline": "SM Lee to visit Central Asia from Aug 24 to 31",
       "briefing": {
         "opening": [
-          "The flagship newspaper of China’s ruling.",
-          "Communist Party has run back-to-back commentaries defending the resilience of the world’s second-largest economy, saying domestic risks were being contained while China continued to provide greater stability to the global economy."
+          "Senior Minister Lee Hsien Loong will visit Kazakhstan from Aug 24 to 27, and Uzbekistan from Aug 27 to 31.",
+          "Announcing the official visits on Aug 23, the Prime Minister’s Office (PMO) said this will be his first visit to Central Asia."
         ],
         "body": [
-          "The People’s Daily commentaries, published on Saturday and Sunday, came as weak domestic demand and persistent imbalances weighed on second-quarter growth, with July data showing little improvement.",
-          "“In the second half of the..."
+          "In Kazakhstan, Lee will visit Astana and Almaty.",
+          "In Astana, he will call on President Kassym-Jomart Tokayev, Prime Minister Olzhas Bektenov, Deputy Prime Minister and Minister for Digital Development Zhaslan Madiyev, and Deputy Prime Minister Kanat Bozumbayev.",
+          "During the trip, Lee will be conferred the Order of Dostyk (Friendship) of the First Class Award by Tokayev.",
+          "Previous Singapore leaders who have received the award include founding prime minister Lee Kuan Yew in 2012 and then-President Halimah Yacob in 2023.",
+          "Lee will also deliver a lecture at Nazarbayev University, where he will be conferred an Honorary Professorship.",
+          "Established in 2010, Nazarbayev University is an autonomous research university in Astana that was set up as part of Kazakhstan’s efforts to develop its higher education and research sector.",
+          "In Almaty, Lee will be hosted to lunch by the Akim, or mayor, of Almaty Darkhan Satybaldy, and meet Singapore and Kazakh business leaders.",
+          "Singapore and Kazakhstan established diplomatic relations in March 1993, and bilateral ties have grown in recent years, including through state visits by Halimah in May 2023 and Tokayev in May 2024."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nazarbayev University"
+          }
+        ],
         "sentences": [
           {
-            "text": "Communist Party has run back-to-back commentaries defending the resilience of the world’s second-largest economy, saying domestic risks were being contained while China continued to provide greater stability to the global economy.",
-            "source": "South China Morning Post",
-            "item_id": "ce8a6c78462950f88cb605492ac572e7ecdb4e0bfd3eae80823cf123bb7bf607",
+            "text": "Singapore and Kazakhstan established diplomatic relations in March 1993, and bilateral ties have grown in recent years, including through state visits by Halimah in May 2023 and Tokayev in May 2024.",
+            "source": "Straits Times Asia",
+            "item_id": "2a9a329301e2245b18879918e03ce88f54b1039aaa678675a66b54733981d657:article",
             "composed": false
           },
           {
-            "text": "The People’s Daily commentaries, published on Saturday and Sunday, came as weak domestic demand and persistent imbalances weighed on second-quarter growth, with July data showing little improvement.",
-            "source": "South China Morning Post",
-            "item_id": "ce8a6c78462950f88cb605492ac572e7ecdb4e0bfd3eae80823cf123bb7bf607",
+            "text": "Senior Minister Lee Hsien Loong will visit Kazakhstan from Aug 24 to 27, and Uzbekistan from Aug 27 to 31.",
+            "source": "Straits Times Asia",
+            "item_id": "2a9a329301e2245b18879918e03ce88f54b1039aaa678675a66b54733981d657:article",
+            "composed": false
+          },
+          {
+            "text": "Previous Singapore leaders who have received the award include founding prime minister Lee Kuan Yew in 2012 and then-President Halimah Yacob in 2023.",
+            "source": "Straits Times Asia",
+            "item_id": "2a9a329301e2245b18879918e03ce88f54b1039aaa678675a66b54733981d657:article",
+            "composed": false
+          },
+          {
+            "text": "Announcing the official visits on Aug 23, the Prime Minister’s Office (PMO) said this will be his first visit to Central Asia.",
+            "source": "Straits Times Asia",
+            "item_id": "2a9a329301e2245b18879918e03ce88f54b1039aaa678675a66b54733981d657:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/article/3364968/peoples-daily-defends-chinas-economic-resilience-says-annual-targets-will-be-met?utm_source=rss_feed"
+        "url": "https://www.straitstimes.com/asia/sm-lee-to-visit-central-asia-from-aug-24-to-31"
       },
       "group_size": 1,
       "label": "📰 NEWS"
