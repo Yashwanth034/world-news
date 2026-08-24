@@ -1,47 +1,34 @@
 {
-  "generated_at": "2026-08-24T11:10:47.002378+00:00",
-  "count": 1,
+  "generated_at": "2026-08-24T11:20:52.779905+00:00",
+  "count": 4,
   "stories": [
     {
-      "id": "9bfadf97d4f4cd4fbe748185ea6d80b86b8535d9e2df83ff637a4870d7e5c922",
-      "title": "Europe ramps up support to Ukraine as its US-dependent air defence runs low",
-      "url": "https://www.france24.com/en/europe-ramps-up-support-to-ukraine-as-its-us-dependent-air-defence-runs-low",
-      "source": "France 24",
+      "id": "caba2ce4d31ea3f5e4588a9bb638c2626ce88bf4d58776c77dd38d405a7a876b",
+      "title": "Death toll from eastern Indonesia earthquake rises to 100",
+      "url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-death-toll-from-august-15-earthquake-reaches-100",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "European leaders are meeting Kyiv as Ukraine holds celebrations for its 35th Independence Day. The so-called Coalition of the Willing is set to hold talks regarding support to the country, four-and-a-half years after the Russian invasion started, with the European Union having announced it was releasing over six billion euros in aid. But US support to Kyiv regarding critical air defence is still missing. FRANCE 24's Kethevane Gorjestani tells us more.",
-      "published_at": "2026-08-24T10:37:54+00:00",
-      "updated_at": "2026-08-24T10:37:54+00:00",
-      "effective_at": "2026-08-24T10:37:54+00:00",
+      "summary": "More people undergoing treatment succumbed to their injuries, while more than 1,600 are injured.",
+      "published_at": "2026-08-24T11:15:00+00:00",
+      "updated_at": "2026-08-24T11:15:00+00:00",
+      "effective_at": "2026-08-24T11:15:00+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 73,
+      "score": 68,
       "confidence": "medium",
       "urgency_terms": [
-        "invasion"
+        "earthquake"
       ],
-      "sector": "geopolitics",
-      "subsector": "defense",
-      "subregion": "Europe",
+      "sector": "health",
+      "subsector": "medicine",
+      "subregion": "Southeast Asia",
       "country": null,
       "entities": [
-        "coalition",
-        "day",
-        "europe",
-        "european",
-        "france",
-        "gorjestani",
-        "independence",
-        "kethevane",
-        "russia",
-        "ukraine",
-        "union",
-        "us",
-        "us-dependent",
-        "willing"
+        "indonesia"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -50,72 +37,539 @@
       "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "8bc69a72f3b066b79e7c8b8e",
-      "importance_score": 52.0,
-      "importance_level": "MEDIUM",
+      "event_status": "UPDATE",
+      "event_id": "a4ea30c932f2464d0aceaa0b",
+      "importance_score": 70.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 2,
-        "urgency": 7.0,
-        "novelty": 10,
+        "impact": 28,
+        "urgency": 8.0,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 22,
+        "significance": 14,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 100,
+          "injured": 1600,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 10,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "caba2ce4d31ea3f5e4588a9bb638c2626ce88bf4d58776c77dd38d405a7a876b",
+      "article_sentences": [
+        "The death toll from the 7.7-magnitude earthquake in eastern Indonesia rose to 100, with over 1,600 injured and 73,000 homes damaged.",
+        "Relief efforts continued for the 10th day, using helicopters, trucks, and motorcycles to deliver aid to about 180,000 evacuated people.",
+        "Indonesia lies on the Pacific Ring of Fire, making it prone to frequent earthquakes and volcanic eruptions, with this quake being the deadliest since 2022.",
+        "The death toll from an earthquake that hit eastern Indonesia reached 100 on Aug 24, the national disaster agency chief said, as relief operations continued for a 10th day.",
+        "The 7.7-magnitude quake shook the province of East Nusa Tenggara on Aug 15, followed by thousands of aftershocks, damaging more than 73,000 homes and forcing the evacuation of about 180,000 people.",
+        "The death toll reached 100 as more people undergoing treatment succumbed to their injuries, disaster agency head Suharyanto said in a press conference, adding that more than 1,600 people were injured.",
+        "The authorities were distributing aid using helicopters, trucks, and motorcycles, he said.",
+        "The earthquake on Flores island was Indonesia’s deadliest since 2022, when a shallow 5.6-magnitude quake killed hundreds in West Java."
+      ],
+      "public_label": "🔄 UPDATE",
+      "headline": "Death toll from eastern Indonesia earthquake rises to 100",
+      "briefing": {
+        "opening": [
+          "The death toll from the 7.7-magnitude earthquake in eastern Indonesia rose to 100, with over 1,600 injured and 73,000 homes damaged.",
+          "Relief efforts continued for the 10th day, using helicopters, trucks, and motorcycles to deliver aid to about 180,000 evacuated people."
+        ],
+        "body": [
+          "Indonesia lies on the Pacific Ring of Fire, making it prone to frequent earthquakes and volcanic eruptions, with this quake being the deadliest since 2022.",
+          "The death toll from an earthquake that hit eastern Indonesia reached 100 on Aug 24, the national disaster agency chief said, as relief operations continued for a 10th day.",
+          "The 7.7-magnitude quake shook the province of East Nusa Tenggara on Aug 15, followed by thousands of aftershocks, damaging more than 73,000 homes and forcing the evacuation of about 180,000 people.",
+          "The death toll reached 100 as more people undergoing treatment succumbed to their injuries, disaster agency head Suharyanto said in a press conference, adding that more than 1,600 people were injured.",
+          "The authorities were distributing aid using helicopters, trucks, and motorcycles, he said.",
+          "The earthquake on Flores island was Indonesia’s deadliest since 2022, when a shallow 5.6-magnitude quake killed hundreds in West Java.",
+          "More people undergoing treatment succumbed to their injuries, while more than 1,600 are injured."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "West Java"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "over 1,600 injured"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The earthquake on Flores island was Indonesia’s deadliest since 2022, when a shallow 5.6-magnitude quake killed hundreds in West Java.",
+            "source": "Straits Times Asia",
+            "item_id": "caba2ce4d31ea3f5e4588a9bb638c2626ce88bf4d58776c77dd38d405a7a876b:article",
+            "composed": false
+          },
+          {
+            "text": "The 7.7-magnitude quake shook the province of East Nusa Tenggara on Aug 15, followed by thousands of aftershocks, damaging more than 73,000 homes and forcing the evacuation of about 180,000 people.",
+            "source": "Straits Times Asia",
+            "item_id": "caba2ce4d31ea3f5e4588a9bb638c2626ce88bf4d58776c77dd38d405a7a876b:article",
+            "composed": false
+          },
+          {
+            "text": "The death toll from the 7.7-magnitude earthquake in eastern Indonesia rose to 100, with over 1,600 injured and 73,000 homes damaged.",
+            "source": "Straits Times Asia",
+            "item_id": "caba2ce4d31ea3f5e4588a9bb638c2626ce88bf4d58776c77dd38d405a7a876b:article",
+            "composed": false
+          },
+          {
+            "text": "Relief efforts continued for the 10th day, using helicopters, trucks, and motorcycles to deliver aid to about 180,000 evacuated people.",
+            "source": "Straits Times Asia",
+            "item_id": "caba2ce4d31ea3f5e4588a9bb638c2626ce88bf4d58776c77dd38d405a7a876b:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-death-toll-from-august-15-earthquake-reaches-100"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "310c6ae20b1b41f3153cfa593621244ba858944e9bdb169fee2b11de0a38dce5",
+      "title": "Dutch public broadcaster to boycott ‘no longer’ neutral Eurovision",
+      "url": "https://www.aljazeera.com/news/2026/8/24/dutch-public-broadcaster-to-boycott-no-longer-neutral-eurovision?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "AVROTROS says escalating international conflicts are undermining the event’s neutrality and fuelling divisions. The public broadcaster in the Netherlands has announced it will not participate in next year’s Eurovision Song Contest because the event can “no longer be considered neutral” due to ongoing divisions over the war in Gaza. “It is undeniable that international conflicts are increasingly affecting the Contest, undermining its neutral character. The Eurovision Song Contest has therefore become a platform for division,” said Taco Zimmerman, Director-General of AVROTROS, in a statement on Monday. The widely-watched show has recently faced a series of boycotts over Israel’s participation. Organisers announced earlier this month that they would exclude any country involved in an armed conflict from hosting the competition. “However, the recently announced changes… do not provide sufficient confidence that the independent and neutral character of the Eurovision Song Contest has been restored,” the AVROTROS statement added. Israel finished second in the competition – the world’s largest live televised music event – in both 2025 and 2026. Next year’s Eurovision is due to be held in Bulgaria’s Black Sea city of Burgas, after Bulgarian singer Darina Yotova, known as Dara, won this year’s contest in Vienna, Austria, with her catchy floor-filler ‘Bangaranga’. The contest on May 15 will be the first time the Balkan nation has hosted. Since its launch in 1955, Eurovision has become the ultimate pop platform, catapulting Swedish icons ABBA to worldwide fame, while also boosting the careers of artists such as Celine Dion, Cliff Richard and Olivia Newton-John. However, this year’s competition pulled in 131 million viewers, 35 million fewer than last year, after five countries boycotted over Israel’s participation.",
+      "published_at": "2026-08-24T10:42:16+00:00",
+      "updated_at": "2026-08-24T10:42:16+00:00",
+      "effective_at": "2026-08-24T10:42:16+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "abba",
+        "austria",
+        "avrotros",
+        "balkan",
+        "bangaranga",
+        "black",
+        "bulgaria",
+        "bulgarian",
+        "burgas",
+        "celine",
+        "cliff",
+        "contest",
+        "dara",
+        "darina",
+        "dion",
+        "director-general",
+        "eurovision",
+        "gaza",
+        "israel",
+        "netherlands",
+        "newton-john",
+        "olivia",
+        "richard",
+        "sea",
+        "song",
+        "swedish",
+        "taco",
+        "vienna",
+        "yotova",
+        "zimmerman"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "AVROTROS says escalating international conflicts are undermining the event’s neutrality and fuelling divisions.",
+        "The public broadcaster in the Netherlands has announced it will not participate in next year’s Eurovision Song Contest because the event can “no longer be considered neutral” due to ongoing divisions over the war in Gaza.",
+        "“It is undeniable that international conflicts are increasingly affecting the Contest, undermining its neutral character.",
+        "The Eurovision Song Contest has therefore become a platform for division,” said Taco Zimmerman, Director-General of AVROTROS, in a statement on Monday.",
+        "The widely-watched show has recently faced a series of boycotts over Israel’s participation.",
+        "Organisers announced earlier this month that they would exclude any country involved in an armed conflict from hosting the competition.",
+        "“However, the recently announced changes… do not provide sufficient confidence that the independent and neutral character of the Eurovision Song Contest has been restored,” the AVROTROS statement added.",
+        "Israel finished second in the competition – the world’s largest live televised music event – in both 2025 and 2026.",
+        "Next year’s Eurovision is due to be held in Bulgaria’s Black Sea city of Burgas, after Bulgarian singer Darina Yotova, known as Dara, won this year’s contest in Vienna, Austria, with her catchy floor-filler ‘Bangaranga’.",
+        "The contest on May 15 will be the first time the Balkan nation has hosted.",
+        "Since its launch in 1955, Eurovision has become the ultimate pop platform, catapulting Swedish icons ABBA to worldwide fame, while also boosting the careers of artists such as Celine Dion, Cliff Richard and Olivia Newton-John.",
+        "However, this year’s competition pulled in 131 million viewers, 35 million fewer than last year, after five countries boycotted over Israel’s participation."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "c5a7a2781cfa98a3420229fa",
+      "importance_score": 57.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 10,
+        "novelty": 9.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 24,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
           "dead": 0,
           "injured": 0,
           "displaced": 0,
-          "missing": 24,
+          "missing": 0,
           "affected": 0,
           "major_incident": false,
           "crisis": false
         },
         "significance_dims": {
           "security": 8,
-          "geopolitical": 8,
-          "human": 6
+          "scientific": 8,
+          "geopolitical": 8
         }
       },
-      "story_id": "9bfadf97d4f4cd4fbe748185ea6d80b86b8535d9e2df83ff637a4870d7e5c922",
-      "public_label": "📰 NEWS",
-      "headline": "Europe ramps up support to Ukraine as its US-dependent air defence runs low",
+      "story_id": "310c6ae20b1b41f3153cfa593621244ba858944e9bdb169fee2b11de0a38dce5",
+      "public_label": "🔄 UPDATE",
+      "headline": "Dutch public broadcaster to boycott ‘no longer’ neutral Eurovision",
       "briefing": {
         "opening": [
-          "European leaders are meeting Kyiv as Ukraine holds celebrations for its 35th Independence Day.",
-          "The so-called Coalition of the Willing is set to hold talks regarding support to the country, four-and-a-half years after the Russian invasion started, with the European Union having announced it was releasing over six billion euros in aid."
+          "AVROTROS says escalating international conflicts are undermining the event’s neutrality and fuelling divisions.",
+          "The public broadcaster in the Netherlands has announced it will not participate in next year’s Eurovision Song Contest because the event can “no longer be considered neutral” due to ongoing divisions over the war in Gaza."
         ],
         "body": [
-          "But US support to Kyiv regarding critical air defence is still missing.",
-          "FRANCE 24's Kethevane Gorjestani tells us more."
+          "“It is undeniable that international conflicts are increasingly affecting the Contest, undermining its neutral character.",
+          "The Eurovision Song Contest has therefore become a platform for division,” said Taco Zimmerman, Director-General of AVROTROS, in a statement on Monday.",
+          "The widely-watched show has recently faced a series of boycotts over Israel’s participation.",
+          "Organisers announced earlier this month that they would exclude any country involved in an armed conflict from hosting the competition.",
+          "“However, the recently announced changes… do not provide sufficient confidence that the independent and neutral character of the Eurovision Song Contest has been restored,” the AVROTROS statement added.",
+          "Israel finished second in the competition – the world’s largest live televised music event – in both 2025 and 2026.",
+          "Next year’s Eurovision is due to be held in Bulgaria’s Black Sea city of Burgas, after Bulgarian singer Darina Yotova, known as Dara, won this year’s contest in Vienna, Austria, with her catchy floor-filler ‘Bangaranga’.",
+          "The contest on May 15 will be the first time the Balkan nation has hosted."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Gaza"
+          }
+        ],
         "sentences": [
           {
-            "text": "The so-called Coalition of the Willing is set to hold talks regarding support to the country, four-and-a-half years after the Russian invasion started, with the European Union having announced it was releasing over six billion euros in aid.",
-            "source": "France 24",
-            "item_id": "9bfadf97d4f4cd4fbe748185ea6d80b86b8535d9e2df83ff637a4870d7e5c922",
+            "text": "Israel finished second in the competition – the world’s largest live televised music event – in both 2025 and 2026.",
+            "source": "Al Jazeera",
+            "item_id": "310c6ae20b1b41f3153cfa593621244ba858944e9bdb169fee2b11de0a38dce5:article",
             "composed": false
           },
           {
-            "text": "But US support to Kyiv regarding critical air defence is still missing.",
-            "source": "France 24",
-            "item_id": "9bfadf97d4f4cd4fbe748185ea6d80b86b8535d9e2df83ff637a4870d7e5c922",
+            "text": "Eurovision is due to be held in Bulgaria’s Black Sea city of Burgas, after Bulgarian singer Darina Yotova, known as Dara, won this year’s contest in Vienna, Austria, with her catchy floor-filler ‘Bangaranga’.",
+            "source": "Al Jazeera",
+            "item_id": "310c6ae20b1b41f3153cfa593621244ba858944e9bdb169fee2b11de0a38dce5:article",
             "composed": false
           },
           {
-            "text": "European leaders are meeting Kyiv as Ukraine holds celebrations for its 35th Independence Day.",
-            "source": "France 24",
-            "item_id": "9bfadf97d4f4cd4fbe748185ea6d80b86b8535d9e2df83ff637a4870d7e5c922",
+            "text": "The public broadcaster in the Netherlands has announced it will not participate in next year’s Eurovision Song Contest because the event can “no longer be considered neutral” due to ongoing divisions over the war in Gaza.",
+            "source": "Al Jazeera",
+            "item_id": "310c6ae20b1b41f3153cfa593621244ba858944e9bdb169fee2b11de0a38dce5:article",
+            "composed": false
+          },
+          {
+            "text": "The contest on May 15 will be the first time the Balkan nation has hosted.",
+            "source": "Al Jazeera",
+            "item_id": "310c6ae20b1b41f3153cfa593621244ba858944e9bdb169fee2b11de0a38dce5:article",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.france24.com/en/europe-ramps-up-support-to-ukraine-as-its-us-dependent-air-defence-runs-low"
+        "url": "https://www.aljazeera.com/news/2026/8/24/dutch-public-broadcaster-to-boycott-no-longer-neutral-eurovision?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "2246e3b1ce5bd0b64aa2400ca8e08114db2fe76b3eb63ef72b6e636ff12677a1",
+      "title": "'No place like Halkidiki': Travellers' vote of confidence as tourist profile shifts",
+      "url": "http://www.euronews.com/2026/08/24/no-place-like-halkidiki-travellers-vote-of-confidence-as-tourist-profile-shifts",
+      "source": "Euronews",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "There is \"nowhere like Halkidiki\" say locals and more than a million foreign tourists each year, yet geopolitical shifts in the past five years have changed who visits the area – an on-the-ground report by Euronews.",
+      "published_at": "2026-08-24T11:13:16+00:00",
+      "updated_at": "2026-08-24T11:13:16+00:00",
+      "effective_at": "2026-08-24T11:13:16+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "euronews",
+        "halkidiki",
+        "travellers"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "97372d8b91f47707e409918d",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "2246e3b1ce5bd0b64aa2400ca8e08114db2fe76b3eb63ef72b6e636ff12677a1",
+      "article_sentences": [
+        "There is \"nowhere like Halkidiki\" say locals and more than a million foreign tourists each year, yet geopolitical shifts in the past five years have changed who visits the area – an on-the-ground report by Euronews.",
+        "\"There's nowhere like Halkidiki\", say the locals, but above all the people of Thessaloniki, for whom it has long been a traditional holiday destination not only in summer but throughout the year, especially for short weekend breaks.",
+        "However, the latest data suggest that many Europeans feel the same way.",
+        "More than one million foreign tourists (the vast majority of them Europeans) are estimated to have visited the area over the whole of 2025, and this season so far is running at similar, perhaps even higher, numbers.",
+        "The images of the large wildfire in Siviri did little to dent visitor numbers, as there was no downturn at all in the days that followed, not even in the first 'leg' of Halkidiki, the part directly affected by the blaze.",
+        "Hotel owners say there have been no cancellations, and the only noticeable change this year is that most tourists are coming for fewer days than in the past, but with a willingness to spend proportionally more money during their stay.",
+        "In recent years there has also been a marked shift in the demographic mix of tourists visiting the area.",
+        "Because of geopolitical conditions, and in particular the war in Ukraine and the European sanctions that among other things ban direct flights between Greek and Russian airports, the number of Russian visitors has fallen sharply.",
+        "They used to combine their stay in the region with a trip to Mount Athos, but that market has now largely shifted towards neighbouring Turkey.",
+        "But the gap that opened up has already been filled, not only by neighbouring Balkan countries (chiefly Serbia, Bulgaria and North Macedonia), which have traditionally had the region in their holiday calendar, but also by a growing number of visitors from Western Europe.",
+        "More and more British, German, French, Swiss and Italian tourists are being won over by Halkidiki's crystal-clear waters and are choosing the area for their summer holidays – and they tend to come back.",
+        "Euronews visited Sani, one of Halkidiki's most famous beaches, and spoke to bathers there, as you can see in the video."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "'No place like Halkidiki': Travellers' vote of confidence as tourist profile shifts",
+      "briefing": {
+        "opening": [
+          "There is \"nowhere like Halkidiki\" say locals and more than a million foreign tourists each year, yet geopolitical shifts in the past five years have changed who visits the area – an on-the-ground report by Euronews.",
+          "\"There's nowhere like Halkidiki\", say the locals, but above all the people of Thessaloniki, for whom it has long been a traditional holiday destination not only in summer but throughout the year, especially for short weekend breaks."
+        ],
+        "body": [
+          "However, the latest data suggest that many Europeans feel the same way.",
+          "More than one million foreign tourists (the vast majority of them Europeans) are estimated to have visited the area over the whole of 2025, and this season so far is running at similar, perhaps even higher, numbers.",
+          "The images of the large wildfire in Siviri did little to dent visitor numbers, as there was no downturn at all in the days that followed, not even in the first 'leg' of Halkidiki, the part directly affected by the blaze.",
+          "Hotel owners say there have been no cancellations, and the only noticeable change this year is that most tourists are coming for fewer days than in the past, but with a willingness to spend proportionally more money during their stay.",
+          "In recent years there has also been a marked shift in the demographic mix of tourists visiting the area.",
+          "Because of geopolitical conditions, and in particular the war in Ukraine and the European sanctions that among other things ban direct flights between Greek and Russian airports, the number of Russian visitors has fallen sharply.",
+          "They used to combine their stay in the region with a trip to Mount Athos, but that market has now largely shifted towards neighbouring Turkey.",
+          "But the gap that opened up has already been filled, not only by neighbouring Balkan countries (chiefly Serbia, Bulgaria and North Macedonia), which have traditionally had the region in their holiday calendar, but also by a growing number of visitors from Western Europe."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Siviri"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "There is \"nowhere like Halkidiki\" say locals and more than a million foreign tourists each year, yet geopolitical shifts in the past five years have changed who visits the area – an on-the-ground report by Euronews.",
+            "source": "Euronews",
+            "item_id": "2246e3b1ce5bd0b64aa2400ca8e08114db2fe76b3eb63ef72b6e636ff12677a1:article",
+            "composed": false
+          },
+          {
+            "text": "The images of the large wildfire in Siviri did little to dent visitor numbers, as there was no downturn at all in the days that followed, not even in the first 'leg' of Halkidiki, the part directly affected by the blaze.",
+            "source": "Euronews",
+            "item_id": "2246e3b1ce5bd0b64aa2400ca8e08114db2fe76b3eb63ef72b6e636ff12677a1:article",
+            "composed": false
+          },
+          {
+            "text": "Because of geopolitical conditions, and in particular the war in Ukraine and the European sanctions that among other things ban direct flights between Greek and Russian airports, the number of Russian visitors has fallen sharply.",
+            "source": "Euronews",
+            "item_id": "2246e3b1ce5bd0b64aa2400ca8e08114db2fe76b3eb63ef72b6e636ff12677a1:article",
+            "composed": false
+          },
+          {
+            "text": "More than one million foreign tourists (the vast majority of them Europeans) are estimated to have visited the area over the whole of 2025, and this season so far is running at similar, perhaps even higher, numbers.",
+            "source": "Euronews",
+            "item_id": "2246e3b1ce5bd0b64aa2400ca8e08114db2fe76b3eb63ef72b6e636ff12677a1:article",
+            "composed": false
+          }
+        ],
+        "source": "Euronews",
+        "corroborating": [],
+        "url": "http://www.euronews.com/2026/08/24/no-place-like-halkidiki-travellers-vote-of-confidence-as-tourist-profile-shifts"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "ae8cd8c4524c80dde8b0b62bd706a84633ef607b71b776f0e591f150d707988a",
+      "title": "Part of Tomari city on Sakhalin flooded",
+      "url": "https://tass.com/emergencies/2176963",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "According to the region's governor Valery Limarenko, the water level in the Tomarinka River rose above five meters",
+      "published_at": "2026-08-24T11:13:40+00:00",
+      "updated_at": "2026-08-24T11:13:40+00:00",
+      "effective_at": "2026-08-24T11:13:40+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "agriculture",
+      "subsector": "water",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "according",
+        "limarenko",
+        "river",
+        "sakhalin",
+        "tomari",
+        "tomarinka",
+        "valery"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 85,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "fc5fedd7a7a7ff2c8783c7b3",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "ae8cd8c4524c80dde8b0b62bd706a84633ef607b71b776f0e591f150d707988a",
+      "article_sentences": [
+        "YUZHNO-SAKHALINSK, August 24.",
+        "The lower part of the city of Tomari in the Sakhalin Region has been flooded after a powerful cyclone struck the region, Sakhalin Region Governor Valery Limarenko said.",
+        "\"The lower part of the city, roads, dachas, and residential buildings were flooded.",
+        "I have sent Deputy Prime Minister Alexey Rimsha to the area to coordinate the work to eliminate the consequences there.",
+        "Currently, work is underway to divert the water flow into the sea.",
+        "All services are operating at an enhanced level, and all necessary measures are being taken.",
+        "Residents are being provided with all possible assistance,\" the head of the region said.",
+        "According to Limarenko, the water level in the Tomarinka River rose above five meters.",
+        "Water levels in other rivers also rose after heavy rains fell across 13 districts of the region, flooding 17 houses.",
+        "Rescuers are urging people not to leave the settlements.",
+        "Rescuers from the Emergencies Ministry were dispatched to the Tomari district to help deal with the consequences of the cyclone, according to the ministry.",
+        "Six rescuers from the Polyakov search and rescue team, using three pieces of equipment, including a watercraft, were sent to assist the people."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Part of Tomari city on Sakhalin flooded",
+      "briefing": {
+        "opening": [
+          "YUZHNO-SAKHALINSK, August 24.",
+          "The lower part of the city of Tomari in the Sakhalin Region has been flooded after a powerful cyclone struck the region, Sakhalin Region Governor Valery Limarenko said."
+        ],
+        "body": [
+          "\"The lower part of the city, roads, dachas, and residential buildings were flooded.",
+          "I have sent Deputy Prime Minister Alexey Rimsha to the area to coordinate the work to eliminate the consequences there.",
+          "Currently, work is underway to divert the water flow into the sea.",
+          "All services are operating at an enhanced level, and all necessary measures are being taken.",
+          "Residents are being provided with all possible assistance,\" the head of the region said.",
+          "According to Limarenko, the water level in the Tomarinka River rose above five meters.",
+          "Water levels in other rivers also rose after heavy rains fell across 13 districts of the region, flooding 17 houses.",
+          "Rescuers are urging people not to leave the settlements."
+        ],
+        "bullets": [
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The lower part of the city of Tomari in the Sakhalin Region has been flooded after a powerful cyclone struck the region, Sakhalin Region Governor Valery Limarenko said.",
+            "source": "TASS English",
+            "item_id": "ae8cd8c4524c80dde8b0b62bd706a84633ef607b71b776f0e591f150d707988a:article",
+            "composed": false
+          },
+          {
+            "text": "According to Limarenko, the water level in the Tomarinka River rose above five meters.",
+            "source": "TASS English",
+            "item_id": "ae8cd8c4524c80dde8b0b62bd706a84633ef607b71b776f0e591f150d707988a:article",
+            "composed": false
+          },
+          {
+            "text": "YUZHNO-SAKHALINSK, August 24.",
+            "source": "TASS English",
+            "item_id": "ae8cd8c4524c80dde8b0b62bd706a84633ef607b71b776f0e591f150d707988a:article",
+            "composed": false
+          },
+          {
+            "text": "Water levels in other rivers also rose after heavy rains fell across 13 districts of the region, flooding 17 houses.",
+            "source": "TASS English",
+            "item_id": "ae8cd8c4524c80dde8b0b62bd706a84633ef607b71b776f0e591f150d707988a:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/emergencies/2176963"
       },
       "group_size": 1,
       "label": "📰 NEWS"
