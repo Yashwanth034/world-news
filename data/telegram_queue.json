@@ -1,57 +1,78 @@
 {
-  "generated_at": "2026-08-24T21:40:43.049987+00:00",
-  "count": 2,
+  "generated_at": "2026-08-24T21:50:47.277248+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "a0d3c58ea0e161c11d07d49d635fbe81bc1fb3f142bee4de8ba7c7177e7fe482",
-      "title": "Zambia shuts down court system",
-      "url": "https://www.france24.com/en/zambia-shuts-down-court-system",
-      "source": "France 24",
+      "id": "1fd877ab62001d0122407b117813322030bb80697fcf1bedb57605e871e8b45e",
+      "title": "US public support for Iran war falls as Trump approval at record low: Poll",
+      "url": "https://www.aljazeera.com/news/2026/8/24/us-public-support-for-iran-war-falls-as-trump-approval-at-record-low-poll?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Africa",
+      "region": "North America",
       "discovery": false,
-      "summary": "In tonight's programme, rights groups and the law association demand an explanation as Zambia completely shuts down its court system. Also in Guinea, rescuers are still trying to unearth victims of a deadly landfill collapse. Nigeria wishes Ogogo on his way, the veteran star of the Nollywood screen is buried berfore heart broken crowds in his hometown after passing away from cancer.",
-      "published_at": "2026-08-24T20:58:42+00:00",
-      "updated_at": "2026-08-24T20:58:42+00:00",
-      "effective_at": "2026-08-24T20:58:42+00:00",
+      "summary": "Falling Republican support, rising gas prices, and fears of a long conflict drive a decline in backing for the Iran war. Support in the United States for the war on Iran has fallen as President Donald Trump’s approval remains at a record low, a Reuters/Ipsos poll suggests. Public backing for the war has dropped to its lowest level since the early stages of the conflict, with declining Republican support contributing to the shift, according to the poll released on Monday. Just 31 percent of Americans surveyed said they support US military action against Iran, down from 37 percent in March and 34 percent earlier this month. Support among Republican respondents fell to 69 percent, compared with 77 percent in March. The war is also continuing to weigh on Trump’s standing with the public, the poll suggests. For the second consecutive Reuters/Ipsos survey, 33 percent of respondents said they approved of Trump’s performance as president, matching the lowest approval rating recorded in the polling series across his first and second terms. Trump has defended the military campaign as necessary to prevent Iran from developing a nuclear weapon. The conflict began on February 28 with US and Israeli attacks on Iran. But the economic effects of the war remain a concern for Americans. Iran has maintained a de facto blockade of oil exports from the region, contributing to a rise in US petrol prices to near record highs. The Trump administration has also announced recent pledges to increase economic pressure on Iran.",
+      "published_at": "2026-08-24T21:35:10+00:00",
+      "updated_at": "2026-08-24T21:35:10+00:00",
+      "effective_at": "2026-08-24T21:35:10+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
+      "category": "conflict",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "law",
-      "subsector": "courts",
-      "subregion": "East Africa",
+      "sector": "geopolitics",
+      "subsector": "conflict",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "guinea",
-        "nigeria",
-        "nollywood",
-        "ogogo",
-        "zambia"
+        "americans",
+        "donald",
+        "falling",
+        "ipsos",
+        "iran",
+        "israel",
+        "poll",
+        "republican",
+        "reuters",
+        "trump",
+        "united_states",
+        "us"
       ],
-      "corroborating_sources": 1,
+      "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
-      "verified_match_count": 1,
-      "priority_score": 65,
+      "verified_match_count": 0,
+      "priority_score": 95,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "4b3aee879b816c8036132f41",
-      "importance_score": 39.0,
-      "importance_level": "LOW",
+      "article_sentences": [
+        "Falling Republican support, rising gas prices, and fears of a long conflict drive a decline in backing for the Iran war.",
+        "Support in the United States for the war on Iran has fallen as President Donald Trump’s approval remains at a record low, a Reuters/Ipsos poll suggests.",
+        "Public backing for the war has dropped to its lowest level since the early stages of the conflict, with declining Republican support contributing to the shift, according to the poll released on Monday.",
+        "Just 31 percent of Americans surveyed said they support US military action against Iran, down from 37 percent in March and 34 percent earlier this month.",
+        "Support among Republican respondents fell to 69 percent, compared with 77 percent in March.",
+        "The war is also continuing to weigh on Trump’s standing with the public, the poll suggests.",
+        "For the second consecutive Reuters/Ipsos survey, 33 percent of respondents said they approved of Trump’s performance as president, matching the lowest approval rating recorded in the polling series across his first and second terms.",
+        "Trump has defended the military campaign as necessary to prevent Iran from developing a nuclear weapon.",
+        "The conflict began on February 28 with US and Israeli attacks on Iran.",
+        "But the economic effects of the war remain a concern for Americans.",
+        "Iran has maintained a de facto blockade of oil exports from the region, contributing to a rise in US petrol prices to near record highs.",
+        "The Trump administration has also announced recent pledges to increase economic pressure on Iran."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "71392bdde36c74c643ac180d",
+      "importance_score": 54.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 8,
-        "urgency": 7.0,
-        "novelty": 10,
+        "urgency": 10,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 3,
-        "significance": 0,
+        "corroboration": 0,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -63,63 +84,85 @@
           "major_incident": false,
           "crisis": true
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8
+        }
       },
-      "story_id": "a0d3c58ea0e161c11d07d49d635fbe81bc1fb3f142bee4de8ba7c7177e7fe482",
-      "public_label": "📰 NEWS",
-      "headline": "Zambia shuts down court system",
+      "story_id": "1fd877ab62001d0122407b117813322030bb80697fcf1bedb57605e871e8b45e",
+      "public_label": "🔄 UPDATE",
+      "headline": "US public support for Iran war falls as Trump approval at record low: Poll",
       "briefing": {
         "opening": [
-          "In tonight's programme, rights groups and the law association demand an explanation as Zambia completely shuts down its court system.",
-          "Also in Guinea, rescuers are still trying to unearth victims of a deadly landfill collapse."
+          "Falling Republican support, rising gas prices, and fears of a long conflict drive a decline in backing for the Iran war.",
+          "Support in the United States for the war on Iran has fallen as President Donald Trump’s approval remains at a record low, a Reuters/Ipsos poll suggests."
         ],
         "body": [
-          "Nigeria wishes Ogogo on his way, the veteran star of the Nollywood screen is buried berfore heart broken crowds in his hometown after passing away from cancer."
+          "Public backing for the war has dropped to its lowest level since the early stages of the conflict, with declining Republican support contributing to the shift, according to the poll released on Monday.",
+          "Just 31 percent of Americans surveyed said they support US military action against Iran, down from 37 percent in March and 34 percent earlier this month.",
+          "The war is also continuing to weigh on Trump’s standing with the public, the poll suggests.",
+          "For the second consecutive Reuters/Ipsos survey, 33 percent of respondents said they approved of Trump’s performance as president, matching the lowest approval rating recorded in the polling series across his first and second terms.",
+          "Trump has defended the military campaign as necessary to prevent Iran from developing a nuclear weapon.",
+          "The conflict began on February 28 with US and Israeli attacks on Iran.",
+          "But the economic effects of the war remain a concern for Americans.",
+          "Iran has maintained a de facto blockade of oil exports from the region, contributing to a rise in US petrol prices to near record highs."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Guinea"
+            "text": "March"
           }
         ],
         "sentences": [
           {
-            "text": "Nigeria wishes Ogogo on his way, the veteran star of the Nollywood screen is buried berfore heart broken crowds in his hometown after passing away from cancer.",
-            "source": "France 24",
-            "item_id": "a0d3c58ea0e161c11d07d49d635fbe81bc1fb3f142bee4de8ba7c7177e7fe482",
+            "text": "Just 31 percent of Americans surveyed said they support US military action against Iran, down from 37 percent in March and 34 percent earlier this month.",
+            "source": "Al Jazeera",
+            "item_id": "1fd877ab62001d0122407b117813322030bb80697fcf1bedb57605e871e8b45e:article",
             "composed": false
           },
           {
-            "text": "In tonight's programme, rights groups and the law association demand an explanation as Zambia completely shuts down its court system.",
-            "source": "France 24",
-            "item_id": "a0d3c58ea0e161c11d07d49d635fbe81bc1fb3f142bee4de8ba7c7177e7fe482",
+            "text": "The conflict began on February 28 with US and Israeli attacks on Iran.",
+            "source": "Al Jazeera",
+            "item_id": "1fd877ab62001d0122407b117813322030bb80697fcf1bedb57605e871e8b45e:article",
+            "composed": false
+          },
+          {
+            "text": "For the second consecutive Reuters/Ipsos survey, 33 percent of respondents said they approved of Trump’s performance as president, matching the lowest approval rating recorded in the polling series across his first and second terms.",
+            "source": "Al Jazeera",
+            "item_id": "1fd877ab62001d0122407b117813322030bb80697fcf1bedb57605e871e8b45e:article",
+            "composed": false
+          },
+          {
+            "text": "Iran has maintained a de facto blockade of oil exports from the region, contributing to a rise in US petrol prices to near record highs.",
+            "source": "Al Jazeera",
+            "item_id": "1fd877ab62001d0122407b117813322030bb80697fcf1bedb57605e871e8b45e:article",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.france24.com/en/zambia-shuts-down-court-system"
+        "url": "https://www.aljazeera.com/news/2026/8/24/us-public-support-for-iran-war-falls-as-trump-approval-at-record-low-poll?traffic_source=rss"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "59ca663f46363b31e928c7e93001b768a10878dc435d5c3a83f53bbc4ca802dc",
-      "title": "Milei links Lula to the case of the Argentine former adviser detained in Bolivia",
-      "url": "https://en.mercopress.com/2026/08/24/milei-links-lula-to-the-case-of-the-argentine-former-adviser-detained-in-bolivia?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "id": "0aa78d86bad3f0f9753814838ada991a9c432e5574e7ed69fb57c7c4ba000685",
+      "title": "Colombia orders deportation of irregular migrants after a decade as the main host country",
+      "url": "https://en.mercopress.com/2026/08/24/colombia-orders-deportation-of-irregular-migrants-after-a-decade-as-the-main-host-country?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
       "source": "MercoPress",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "South America",
       "discovery": false,
-      "summary": "Argentine President Javier Milei has attributed the criminal case against his former adviser Fernando Cerimedo, detained in Bolivia over an attempted femicide, to a regional plot in which he included Brazilian President Luiz Inácio Lula da Silva, former Bolivian president Evo Morales and Argentine lawmaker Marcela Pagano. He offered no evidence to support the claim.",
-      "published_at": "2026-08-24T21:26:00+00:00",
-      "updated_at": "2026-08-24T21:26:00+00:00",
-      "effective_at": "2026-08-24T21:26:00+00:00",
+      "summary": "Colombian President Abelardo de la Espriella has ordered coordinated operations between the migration authority and the police to begin this week to identify and deport foreigners without regular migration status, marking a shift from the policy the country has maintained for more than a decade as the main destination for Venezuelan migration. “The order to Migration is clear: first those committing crimes, second those who have not regularised their status, who in due course will have to be deported,” he said during a security council meeting held on Sunday in Barranquilla, the alternate seat of his government. The remarks became known through a leaked video of that meeting. “I will not accept illegal migration. First Colombians, second Colombians and third Colombians,” he added. Figures on the scope of the measure differ. The Venezuela Observatory at Universidad del Rosario puts the number of Venezuelans without regular status at 848,000, of whom 193,000 would be minors. Migración Colombia data as of January 2026, cited by the outlet La Silla Vacía, indicate that around 82% of Venezuelan migrants hold regular status and close to 500,000 do not. The United Nations refugee agency estimated three million Venezuelans living in Colombia in 2025. The announcement calls into question the Temporary Protection Statute for Venezuelan Migrants, created by decree in March 2021, which provides a free temporary protection permit and made the country an international reference point on migration regularisation. Colombia took in almost a third of the 7.8 million people who have left Venezuela since 2015, under governments of differing political persuasions. “A person in irregular status is not a criminal,” said Ronal Rodríguez, a researcher at the observatory, warning against linking irregularity with crime.",
+      "published_at": "2026-08-24T21:37:00+00:00",
+      "updated_at": "2026-08-24T21:37:00+00:00",
+      "effective_at": "2026-08-24T21:37:00+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
+      "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
@@ -128,21 +171,30 @@
       "subregion": "South America",
       "country": null,
       "entities": [
-        "argentine",
-        "bolivia",
-        "bolivian",
-        "brazilian",
-        "cerimedo",
-        "evo",
-        "fernando",
-        "javier",
-        "luiz",
-        "lula",
-        "marcela",
-        "milei",
-        "morales",
-        "pagano",
-        "silva"
+        "abelardo",
+        "barranquilla",
+        "colombia",
+        "colombian",
+        "colombians",
+        "espriella",
+        "la",
+        "migrants",
+        "migration",
+        "nations",
+        "observatory",
+        "protection",
+        "rodr",
+        "ronal",
+        "rosario",
+        "silla",
+        "statute",
+        "temporary",
+        "united",
+        "universidad",
+        "vac",
+        "venezuela",
+        "venezuelan",
+        "venezuelans"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -151,19 +203,33 @@
       "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "Colombian President Abelardo de la Espriella has ordered coordinated operations between the migration authority and the police to begin this week to identify and deport foreigners without regular migration status, marking a shift from the policy the country has maintained for more than a decade as the main destination for Venezuelan migration.",
+        "“The order to Migration is clear: first those committing crimes, second those who have not regularised their status, who in due course will have to be deported,” he said during a security council meeting held on Sunday in Barranquilla, the alternate seat of his government.",
+        "The remarks became known through a leaked video of that meeting.",
+        "“I will not accept illegal migration.",
+        "First Colombians, second Colombians and third Colombians,” he added.",
+        "Figures on the scope of the measure differ.",
+        "The Venezuela Observatory at Universidad del Rosario puts the number of Venezuelans without regular status at 848,000, of whom 193,000 would be minors.",
+        "Migración Colombia data as of January 2026, cited by the outlet La Silla Vacía, indicate that around 82% of Venezuelan migrants hold regular status and close to 500,000 do not.",
+        "The United Nations refugee agency estimated three million Venezuelans living in Colombia in 2025.",
+        "The announcement calls into question the Temporary Protection Statute for Venezuelan Migrants, created by decree in March 2021, which provides a free temporary protection permit and made the country an international reference point on migration regularisation.",
+        "Colombia took in almost a third of the 7.8 million people who have left Venezuela since 2015, under governments of differing political persuasions.",
+        "“A person in irregular status is not a criminal,” said Ronal Rodríguez, a researcher at the observatory, warning against linking irregularity with crime."
+      ],
       "event_status": "NEW",
-      "event_id": "43d16664fdbe0560ef6760a9",
-      "importance_score": 32.0,
+      "event_id": "0cf91294c32bb66c4199f320",
+      "importance_score": 42.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 10,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -176,44 +242,165 @@
           "crisis": false
         },
         "significance_dims": {
+          "human": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "59ca663f46363b31e928c7e93001b768a10878dc435d5c3a83f53bbc4ca802dc",
+      "story_id": "0aa78d86bad3f0f9753814838ada991a9c432e5574e7ed69fb57c7c4ba000685",
       "public_label": "📰 NEWS",
-      "headline": "Milei links Lula to the case of the Argentine former adviser detained in Bolivia",
+      "headline": "Colombia orders deportation of irregular migrants after a decade as the main host country",
       "briefing": {
         "opening": [
-          "Argentine President Javier Milei has attributed the criminal case against his former adviser Fernando Cerimedo, detained in Bolivia over an attempted femicide, to a regional plot in which he included Brazilian President Luiz.",
-          "Inácio Lula da Silva, former Bolivian president Evo Morales and Argentine lawmaker Marcela Pagano."
+          "Colombian President Abelardo de la Espriella has ordered coordinated operations between the migration authority and the police to begin this week to identify and deport foreigners without regular migration status, marking a shift from the policy the country has maintained for more than a decade as the main destination for Venezuelan migration.",
+          "“The order to Migration is clear: first those committing crimes, second those who have not regularised their status, who in due course will have to be deported,” he said during a security council meeting held on Sunday in Barranquilla, the alternate seat of his government."
         ],
         "body": [
-          "He offered no evidence to support the claim."
+          "The remarks became known through a leaked video of that meeting.",
+          "“I will not accept illegal migration.",
+          "First Colombians, second Colombians and third Colombians,” he added.",
+          "Figures on the scope of the measure differ.",
+          "The Venezuela Observatory at Universidad del Rosario puts the number of Venezuelans without regular status at 848,000, of whom 193,000 would be minors.",
+          "Migración Colombia data as of January 2026, cited by the outlet La Silla Vacía, indicate that around 82% of Venezuelan migrants hold regular status and close to 500,000 do not.",
+          "The United Nations refugee agency estimated three million Venezuelans living in Colombia in 2025.",
+          "The announcement calls into question the Temporary Protection Statute for Venezuelan Migrants, created by decree in March 2021, which provides a free temporary protection permit and made the country an international reference point on migration regularisation."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Bolivia"
+            "text": "Barranquilla"
           }
         ],
         "sentences": [
           {
-            "text": "Inácio Lula da Silva, former Bolivian president Evo Morales and Argentine lawmaker Marcela Pagano.",
+            "text": "The Venezuela Observatory at Universidad del Rosario puts the number of Venezuelans without regular status at 848,000, of whom 193,000 would be minors.",
             "source": "MercoPress",
-            "item_id": "59ca663f46363b31e928c7e93001b768a10878dc435d5c3a83f53bbc4ca802dc",
+            "item_id": "0aa78d86bad3f0f9753814838ada991a9c432e5574e7ed69fb57c7c4ba000685:article",
             "composed": false
           },
           {
-            "text": "He offered no evidence to support the claim.",
+            "text": "Migración Colombia data as of January 2026, cited by the outlet La Silla Vacía, indicate that around 82% of Venezuelan migrants hold regular status and close to 500,000 do not.",
             "source": "MercoPress",
-            "item_id": "59ca663f46363b31e928c7e93001b768a10878dc435d5c3a83f53bbc4ca802dc",
+            "item_id": "0aa78d86bad3f0f9753814838ada991a9c432e5574e7ed69fb57c7c4ba000685:article",
+            "composed": false
+          },
+          {
+            "text": "The announcement calls into question the Temporary Protection Statute for Venezuelan Migrants, created by decree in March 2021, which provides a free temporary protection permit and made the country an international reference point on migration regularisation.",
+            "source": "MercoPress",
+            "item_id": "0aa78d86bad3f0f9753814838ada991a9c432e5574e7ed69fb57c7c4ba000685:article",
+            "composed": false
+          },
+          {
+            "text": "The United Nations refugee agency estimated three million Venezuelans living in Colombia in 2025.",
+            "source": "MercoPress",
+            "item_id": "0aa78d86bad3f0f9753814838ada991a9c432e5574e7ed69fb57c7c4ba000685:article",
             "composed": false
           }
         ],
         "source": "MercoPress",
         "corroborating": [],
-        "url": "https://en.mercopress.com/2026/08/24/milei-links-lula-to-the-case-of-the-argentine-former-adviser-detained-in-bolivia?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+        "url": "https://en.mercopress.com/2026/08/24/colombia-orders-deportation-of-irregular-migrants-after-a-decade-as-the-main-host-country?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "292eae1e7969d5524bc0dd01698ea20d93550107f717af3cd99f1e53192972ca",
+      "title": "The latest twists and turns in the proposed Paramount and Warner Bros. merger",
+      "url": "https://www.npr.org/2026/08/24/nx-s1-5940824/the-latest-twists-and-turns-in-the-proposed-paramount-and-warner-bros-merger",
+      "source": "NPR Business",
+      "source_category": "finance",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "The proposed merger between Hollywood heavyweights Paramount and Warner Bros. continues to inch along. Many in the film industry hope to block the deal — but now some are calling for a settlement.",
+      "published_at": "2026-08-24T21:38:29+00:00",
+      "updated_at": "2026-08-24T21:38:29+00:00",
+      "effective_at": "2026-08-24T21:38:29+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "companies",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "bros",
+        "hollywood",
+        "paramount",
+        "warner"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "6a55237a2d3faabbf66e4152",
+      "importance_score": 27.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "292eae1e7969d5524bc0dd01698ea20d93550107f717af3cd99f1e53192972ca",
+      "public_label": "📰 NEWS",
+      "headline": "The latest twists and turns in the proposed Paramount and Warner Bros. merger",
+      "briefing": {
+        "opening": [
+          "The proposed merger between Hollywood heavyweights Paramount and Warner Bros.",
+          "continues to inch along."
+        ],
+        "body": [
+          "Many in the film industry hope to block the deal — but now some are calling for a settlement."
+        ],
+        "bullets": [
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The proposed merger between Hollywood heavyweights Paramount and Warner Bros.",
+            "source": "NPR Business",
+            "item_id": "292eae1e7969d5524bc0dd01698ea20d93550107f717af3cd99f1e53192972ca",
+            "composed": false
+          },
+          {
+            "text": "Many in the film industry hope to block the deal — but now some are calling for a settlement.",
+            "source": "NPR Business",
+            "item_id": "292eae1e7969d5524bc0dd01698ea20d93550107f717af3cd99f1e53192972ca",
+            "composed": false
+          }
+        ],
+        "source": "NPR Business",
+        "corroborating": [],
+        "url": "https://www.npr.org/2026/08/24/nx-s1-5940824/the-latest-twists-and-turns-in-the-proposed-paramount-and-warner-bros-merger"
       },
       "group_size": 1,
       "label": "📰 NEWS"
