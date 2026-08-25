@@ -1,52 +1,158 @@
 {
-  "generated_at": "2026-08-25T04:10:43.897103+00:00",
-  "count": 1,
+  "generated_at": "2026-08-25T04:20:48.559587+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "d6e1a42c8cf53d23f74332dcd1a60e61c9e2b79841bd406dcb78e4072fdaacc7",
-      "title": "Singapore reports rise in home thefts, shoplifting and molestation",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365136/singapore-molest-shoplifting-and-theft-dwelling-rise-first-half-2026-police?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "884bcb71baa6a19c3ec8121cd177fe5f49a6fc6a6e74ab4fce799d233fe9f96c",
+      "title": "At least 35,000 excess deaths recorded in Europe’s back-to-back heatwaves",
+      "url": "https://www.theguardian.com/environment/2026/aug/25/at-least-35000-excess-deaths-europe-back-to-back-heatwaves",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "The number of theft cases in homes jumped by about 25 per cent in the first half of 2026, even as Singapore’s overall physical crime situation remained stable. There were 459 thefts in dwelling cases at residential premises in the first six months of the year, up 25.1 per cent from 367 cases over the same period in 2025, according to the Singapore police’s midyear crime brief for 2026. Theft in dwelling cases across all types of premises rose just slightly, by 0.6 per cent, from 726 cases in the...",
-      "published_at": "2026-08-25T03:06:46+00:00",
-      "updated_at": "2026-08-25T03:06:46+00:00",
-      "effective_at": "2026-08-25T03:06:46+00:00",
+      "summary": "True figure likely to be much higher as it only covers about half of continent and does not include August totals At least 35,000 more people died during Europe’s four record-breaking, back-to-back heatwaves this summer than would normally be expected, according to incomplete figures from barely half the continent. Excess mortality in three of the EU’s larger countries – Germany, France and Spain – alone has already exceeded 25,000, according to the provisional national figures, and experts say the toll will rise significantly once August totals are consolidated. Continue reading...",
+      "published_at": "2026-08-25T04:00:47+00:00",
+      "updated_at": "2026-08-25T04:00:47+00:00",
+      "effective_at": "2026-08-25T04:00:47+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "Southeast Asia",
+      "sector": "climate",
+      "subsector": "weather",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "singapore"
+        "eu",
+        "europe",
+        "france",
+        "germany",
+        "spain",
+        "true"
       ],
-      "corroborating_sources": 0,
+      "corroborating_sources": 1,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
+      "verified_match_count": 1,
+      "priority_score": 85,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "65fcbcdc29d048738caf2f7d",
-      "importance_score": 27.0,
-      "importance_level": "LOW",
+      "event_id": "89b7dbadbeff09aef4d1d189",
+      "importance_score": 78.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 6.0,
+        "impact": 32,
+        "urgency": 10,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
+        "corroboration": 3,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 35000,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 12
+        }
+      },
+      "story_id": "884bcb71baa6a19c3ec8121cd177fe5f49a6fc6a6e74ab4fce799d233fe9f96c",
+      "public_label": "📰 NEWS",
+      "headline": "At least 35,000 excess deaths recorded in Europe’s back-to-back heatwaves",
+      "briefing": {
+        "opening": [
+          "True figure likely to be much higher as it only covers about half of continent and does not include August totals.",
+          "At least 35,000 more people died during Europe’s four record-breaking, back-to-back heatwaves this summer than would normally be expected, according to incomplete figures from barely half the continent."
+        ],
+        "body": [
+          "Excess mortality in three of the EU’s larger countries – Germany, France and Spain – alone has already exceeded 25,000, according to the provisional national figures, and experts say the toll will rise significantly once August totals are consolidated."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Excess mortality in three of the EU’s larger countries – Germany, France and Spain – alone has already exceeded 25,000, according to the provisional national figures, and experts say the toll will rise significantly once August totals are consolidated.",
+            "source": "The Guardian World",
+            "item_id": "884bcb71baa6a19c3ec8121cd177fe5f49a6fc6a6e74ab4fce799d233fe9f96c",
+            "composed": false
+          },
+          {
+            "text": "At least 35,000 more people died during Europe’s four record-breaking, back-to-back heatwaves this summer than would normally be expected, according to incomplete figures from barely half the continent.",
+            "source": "The Guardian World",
+            "item_id": "884bcb71baa6a19c3ec8121cd177fe5f49a6fc6a6e74ab4fce799d233fe9f96c",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian World",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/environment/2026/aug/25/at-least-35000-excess-deaths-europe-back-to-back-heatwaves"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "363b34f31df38632bd6d30dfeaf243182a6e50bed0d426b7afbe21df1b203215",
+      "title": "India wanted red flags on chip packets and soda. Big Food fought back",
+      "url": "https://www.straitstimes.com/asia/india-wanted-red-flags-on-chip-packets-and-soda-big-food-fought-back",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "NEW DELHI/LONDON, Aug 25 - A can of Fanta sold in London has 63 calories. Buy the same brand in India, and it contains three times as much sugar. It also includes artificial dye, whose presence in food products in Europe requires a prominent health warning.",
+      "published_at": "2026-08-25T04:09:12+00:00",
+      "updated_at": "2026-08-25T04:09:12+00:00",
+      "effective_at": "2026-08-25T04:09:12+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "agriculture",
+      "subsector": "food",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "aug",
+        "big",
+        "delhi",
+        "europe",
+        "fanta",
+        "food",
+        "india",
+        "uk"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 2,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "6adea57557e8f08ea2f865d6",
+      "importance_score": 33.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 9.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 3,
         "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
@@ -61,35 +167,47 @@
         },
         "significance_dims": {}
       },
-      "story_id": "d6e1a42c8cf53d23f74332dcd1a60e61c9e2b79841bd406dcb78e4072fdaacc7",
+      "story_id": "363b34f31df38632bd6d30dfeaf243182a6e50bed0d426b7afbe21df1b203215",
       "public_label": "📰 NEWS",
-      "headline": "Singapore reports rise in home thefts, shoplifting and molestation",
+      "headline": "India wanted red flags on chip packets and soda. Big Food fought back",
       "briefing": {
         "opening": [
-          "The number of theft cases in homes jumped by about 25 per cent in the first half of 2026, even as Singapore’s overall physical crime situation remained stable.",
-          "There were 459 thefts in dwelling cases at residential premises in the first six months of the year, up 25.1 per cent from 367 cases over the same period in 2025, according to the Singapore police’s midyear crime brief for 2026."
+          "NEW DELHI/LONDON, Aug 25 - A can of Fanta sold in London has 63 calories.",
+          "Buy the same brand in India, and it contains three times as much sugar."
         ],
         "body": [
-          "Theft in dwelling cases across all types of premises rose just slightly, by 0.6 per cent, from 726 cases in the..."
+          "It also includes artificial dye, whose presence in food products in Europe requires a prominent health warning."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "London"
+          }
+        ],
         "sentences": [
           {
-            "text": "The number of theft cases in homes jumped by about 25 per cent in the first half of 2026, even as Singapore’s overall physical crime situation remained stable.",
-            "source": "South China Morning Post",
-            "item_id": "d6e1a42c8cf53d23f74332dcd1a60e61c9e2b79841bd406dcb78e4072fdaacc7",
+            "text": "NEW DELHI/LONDON, Aug 25 - A can of Fanta sold in London has 63 calories.",
+            "source": "Straits Times Asia",
+            "item_id": "363b34f31df38632bd6d30dfeaf243182a6e50bed0d426b7afbe21df1b203215",
             "composed": false
           },
           {
-            "text": "There were 459 thefts in dwelling cases at residential premises in the first six months of the year, up 25.1 per cent from 367 cases over the same period in 2025, according to the Singapore police’s midyear crime brief for 2026.",
-            "source": "South China Morning Post",
-            "item_id": "d6e1a42c8cf53d23f74332dcd1a60e61c9e2b79841bd406dcb78e4072fdaacc7",
+            "text": "Buy the same brand in India, and it contains three times as much sugar.",
+            "source": "Straits Times Asia",
+            "item_id": "363b34f31df38632bd6d30dfeaf243182a6e50bed0d426b7afbe21df1b203215",
+            "composed": false
+          },
+          {
+            "text": "It also includes artificial dye, whose presence in food products in Europe requires a prominent health warning.",
+            "source": "Straits Times Asia",
+            "item_id": "363b34f31df38632bd6d30dfeaf243182a6e50bed0d426b7afbe21df1b203215",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365136/singapore-molest-shoplifting-and-theft-dwelling-rise-first-half-2026-police?utm_source=rss_feed"
+        "url": "https://www.straitstimes.com/asia/india-wanted-red-flags-on-chip-packets-and-soda-big-food-fought-back"
       },
       "group_size": 1,
       "label": "📰 NEWS"
