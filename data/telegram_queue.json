@@ -1,246 +1,60 @@
 {
-  "generated_at": "2026-08-25T13:40:51.817080+00:00",
-  "count": 4,
+  "generated_at": "2026-08-25T13:50:52.484217+00:00",
+  "count": 1,
   "stories": [
     {
-      "id": "532112c45122aa95a0486b391cb15096548702a3e7834200887f9faa17394a88",
-      "title": "With sanctions and tariffs, US bets on its economic power to get what it wants",
-      "url": "https://www.france24.com/en/with-sanctions-and-tariffs-us-bets-on-its-economic-power-to-get-what-it-wants",
-      "source": "France 24",
+      "id": "81d9bb2f898176d03123c7f4fe83dc04f2813e4572ca57599bff3e114eca764e",
+      "title": "US admits defeat in China minerals race. Can Brazil turn panic into processing power?",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3365239/us-admits-defeat-china-minerals-race-can-brazil-turn-panic-processing-power?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "North America",
       "discovery": false,
-      "summary": "The US has announced a new wave of sanctions on Iran and has promised to sanction any countries trading with it - including China. It also comes as the US deepens a trade war with its neighbour Canada. FRANCE 24's Kethevane Gorjestani tells us more.",
-      "published_at": "2026-08-25T13:25:54+00:00",
-      "updated_at": "2026-08-25T13:25:54+00:00",
-      "effective_at": "2026-08-25T13:25:54+00:00",
+      "summary": "Brazilian Mines and Energy Minister Alexandre Silveira revealed that US President Donald Trump and his team conceded during White House talks in May that the United States had lost the critical minerals race to China. The minister made the disclosure in an unscripted speech on Monday to Exposibram, the industry conference run by the Brazilian Mining Institute, in the state of Minas Gerais, responsible for more than 40 per cent of national mineral output. But as the US pours billions of dollars...",
+      "published_at": "2026-08-25T13:48:52+00:00",
+      "updated_at": "2026-08-25T13:48:52+00:00",
+      "effective_at": "2026-08-25T13:48:52+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
+      "category": "politics",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "economy",
-      "subsector": "trade",
+      "subsector": "commodities",
       "subregion": "United States",
       "country": null,
       "entities": [
-        "canada",
+        "alexandre",
+        "brazil",
+        "brazilian",
         "china",
-        "france",
-        "gorjestani",
-        "iran",
-        "kethevane",
-        "us"
+        "donald",
+        "energy",
+        "exposibram",
+        "gerais",
+        "house",
+        "institute",
+        "minas",
+        "mines",
+        "mining",
+        "silveira",
+        "trump",
+        "united_states",
+        "us",
+        "white"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "f98810184b8d303a466b2a43",
-      "importance_score": 56.0,
-      "importance_level": "MEDIUM",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 28,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "economic": 8,
-          "security": 8,
-          "geopolitical": 8,
-          "infrastructure": 4
-        }
-      },
-      "story_id": "532112c45122aa95a0486b391cb15096548702a3e7834200887f9faa17394a88",
-      "public_label": "📰 NEWS",
-      "headline": "With sanctions and tariffs, US bets on its economic power to get what it wants",
-      "briefing": {
-        "opening": [
-          "The US has announced a new wave of sanctions on Iran and has promised to sanction any countries trading with it - including China.",
-          "It also comes as the US deepens a trade war with its neighbour Canada."
-        ],
-        "body": [
-          "FRANCE 24's Kethevane Gorjestani tells us more."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The US has announced a new wave of sanctions on Iran and has promised to sanction any countries trading with it - including China.",
-            "source": "France 24",
-            "item_id": "532112c45122aa95a0486b391cb15096548702a3e7834200887f9faa17394a88",
-            "composed": false
-          },
-          {
-            "text": "It also comes as the US deepens a trade war with its neighbour Canada.",
-            "source": "France 24",
-            "item_id": "532112c45122aa95a0486b391cb15096548702a3e7834200887f9faa17394a88",
-            "composed": false
-          }
-        ],
-        "source": "France 24",
-        "corroborating": [],
-        "url": "https://www.france24.com/en/with-sanctions-and-tariffs-us-bets-on-its-economic-power-to-get-what-it-wants"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "7d6cb6e5b47c65ae21c4041ee20f7df0766ec0dc90601eeac2a8cc6c3721374c",
-      "title": "Canada to announce measures to protect workers as trade war with US deepens",
-      "url": "https://www.france24.com/en/canada-to-announce-measures-to-protect-workers-as-trade-war-with-us-deepens",
-      "source": "France 24",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "North America",
-      "discovery": false,
-      "summary": "As the US escalates its trade war with Canada, Ottawa is preparing to hit back. With new tariffs threatening its car industry, as well as a wave of other products, Canada has announced its finance, labor and industry will be announcing new countermeasures to protect workers whose jobs may be at risk.",
-      "published_at": "2026-08-25T13:27:33+00:00",
-      "updated_at": "2026-08-25T13:27:33+00:00",
-      "effective_at": "2026-08-25T13:27:33+00:00",
-      "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "trade",
-      "subregion": "Canada",
-      "country": null,
-      "entities": [
-        "canada",
-        "us"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 100,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "dd22e96e4962b5dd941ecb93",
-      "importance_score": 52.0,
-      "importance_level": "MEDIUM",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 24,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "economic": 8,
-          "security": 8,
-          "geopolitical": 8
-        }
-      },
-      "story_id": "7d6cb6e5b47c65ae21c4041ee20f7df0766ec0dc90601eeac2a8cc6c3721374c",
-      "public_label": "📰 NEWS",
-      "headline": "Canada to announce measures to protect workers as trade war with US deepens",
-      "briefing": {
-        "opening": [
-          "As the US escalates its trade war with Canada, Ottawa is preparing to hit back.",
-          "With new tariffs threatening its car industry, as well as a wave of other products, Canada has announced its finance, labor and industry will be announcing new countermeasures to protect workers whose jobs may be at risk."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "As the US escalates its trade war with Canada, Ottawa is preparing to hit back.",
-            "source": "France 24",
-            "item_id": "7d6cb6e5b47c65ae21c4041ee20f7df0766ec0dc90601eeac2a8cc6c3721374c",
-            "composed": false
-          },
-          {
-            "text": "With new tariffs threatening its car industry, as well as a wave of other products, Canada has announced its finance, labor and industry will be announcing new countermeasures to protect workers whose jobs may be at risk.",
-            "source": "France 24",
-            "item_id": "7d6cb6e5b47c65ae21c4041ee20f7df0766ec0dc90601eeac2a8cc6c3721374c",
-            "composed": false
-          }
-        ],
-        "source": "France 24",
-        "corroborating": [],
-        "url": "https://www.france24.com/en/canada-to-announce-measures-to-protect-workers-as-trade-war-with-us-deepens"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "c13d60267734d311c3dbb1d204c1d26ea0d33ffbcb1b0a3583ac8af58e663721",
-      "title": "US removes Syria off its list of state sponsors of terrorism",
-      "url": "https://www.france24.com/en/us-removes-syria-off-its-list-of-state-sponsors-of-terrorism",
-      "source": "France 24",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "North America",
-      "discovery": false,
-      "summary": "Turkey has welcomed a US decision to remove Syria from its list of state sponsors of terrorism. The move rescinds a decades-old designation which came with severe economic consequences for Damascus. Corresponding sanctions relief for Syria have also been announced.",
-      "published_at": "2026-08-25T13:18:25+00:00",
-      "updated_at": "2026-08-25T13:18:25+00:00",
-      "effective_at": "2026-08-25T13:18:25+00:00",
-      "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "economy",
-      "subregion": "United States",
-      "country": null,
-      "entities": [
-        "damascus",
-        "syria",
-        "turkey",
-        "us"
-      ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 1,
-      "corroborating_source_names": [
-        "BBC World"
-      ],
-      "verified_match_count": 1,
-      "priority_score": 88,
-      "priority_level": "URGENT",
-      "max_delay_minutes": 15,
-      "event_status": "NEW",
-      "event_id": "748ad2e89332d2eb240fddce",
-      "importance_score": 42.0,
+      "event_id": "e7a197dabc79f2c07975b332",
+      "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
@@ -248,110 +62,6 @@
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 6,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "geopolitical": 8
-        }
-      },
-      "story_id": "c13d60267734d311c3dbb1d204c1d26ea0d33ffbcb1b0a3583ac8af58e663721",
-      "public_label": "📰 NEWS",
-      "headline": "US removes Syria off its list of state sponsors of terrorism",
-      "briefing": {
-        "opening": [
-          "Turkey has welcomed a US decision to remove Syria from its list of state sponsors of terrorism.",
-          "The move rescinds a decades-old designation which came with severe economic consequences for Damascus."
-        ],
-        "body": [
-          "Corresponding sanctions relief for Syria have also been announced."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Turkey has welcomed a US decision to remove Syria from its list of state sponsors of terrorism.",
-            "source": "France 24",
-            "item_id": "c13d60267734d311c3dbb1d204c1d26ea0d33ffbcb1b0a3583ac8af58e663721",
-            "composed": false
-          },
-          {
-            "text": "The move rescinds a decades-old designation which came with severe economic consequences for Damascus.",
-            "source": "France 24",
-            "item_id": "c13d60267734d311c3dbb1d204c1d26ea0d33ffbcb1b0a3583ac8af58e663721",
-            "composed": false
-          },
-          {
-            "text": "Corresponding sanctions relief for Syria have also been announced.",
-            "source": "France 24",
-            "item_id": "c13d60267734d311c3dbb1d204c1d26ea0d33ffbcb1b0a3583ac8af58e663721",
-            "composed": false
-          }
-        ],
-        "source": "France 24",
-        "corroborating": [],
-        "url": "https://www.france24.com/en/us-removes-syria-off-its-list-of-state-sponsors-of-terrorism"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "54152b46031105b912e629713478444523e12a67c0f83bd796cfe503b36506a6",
-      "title": "Thampu launches tribal rights campaign in Attappady",
-      "url": "https://www.thehindu.com/news/national/kerala/thampu-launches-tribal-rights-campaign-in-attappady/article71388961.ece",
-      "source": "The Hindu",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "The campaign began on August 9 marking the International Day of the World’s Indigenous Peoples. It will conclude on September 13.",
-      "published_at": "2026-08-25T13:35:17+00:00",
-      "updated_at": "2026-08-25T13:35:17+00:00",
-      "effective_at": "2026-08-25T13:35:17+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "science",
-      "subsector": "space",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "attappady",
-        "day",
-        "indigenous",
-        "international",
-        "peoples"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "82f447e3814b5d04411b17eb",
-      "importance_score": 34.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
         "significance": 8,
@@ -367,36 +77,45 @@
           "crisis": false
         },
         "significance_dims": {
-          "scientific": 8
+          "infrastructure": 4,
+          "geopolitical": 4
         }
       },
-      "story_id": "54152b46031105b912e629713478444523e12a67c0f83bd796cfe503b36506a6",
+      "story_id": "81d9bb2f898176d03123c7f4fe83dc04f2813e4572ca57599bff3e114eca764e",
       "public_label": "📰 NEWS",
-      "headline": "Thampu launches tribal rights campaign in Attappady",
+      "headline": "US admits defeat in China minerals race. Can Brazil turn panic into processing power?",
       "briefing": {
         "opening": [
-          "The campaign began on August 9 marking the International Day of the World’s Indigenous Peoples.",
-          "It will conclude on September 13."
+          "Brazilian Mines and Energy Minister Alexandre Silveira revealed that US President Donald Trump and his team conceded during White House talks in May that the United States had lost the critical minerals race to China.",
+          "The minister made the disclosure in an unscripted speech on Monday to Exposibram, the industry conference run by the Brazilian Mining Institute, in the state of Minas Gerais, responsible for more than 40 per cent of national mineral output."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "But as the US pours billions of dollars..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "May"
+          }
+        ],
         "sentences": [
           {
-            "text": "The campaign began on August 9 marking the International Day of the World’s Indigenous Peoples.",
-            "source": "The Hindu",
-            "item_id": "54152b46031105b912e629713478444523e12a67c0f83bd796cfe503b36506a6",
+            "text": "The minister made the disclosure in an unscripted speech on Monday to Exposibram, the industry conference run by the Brazilian Mining Institute, in the state of Minas Gerais, responsible for more than 40 per cent of national mineral output.",
+            "source": "South China Morning Post",
+            "item_id": "81d9bb2f898176d03123c7f4fe83dc04f2813e4572ca57599bff3e114eca764e",
             "composed": false
           },
           {
-            "text": "It will conclude on September 13.",
-            "source": "The Hindu",
-            "item_id": "54152b46031105b912e629713478444523e12a67c0f83bd796cfe503b36506a6",
+            "text": "Brazilian Mines and Energy Minister Alexandre Silveira revealed that US President Donald Trump and his team conceded during White House talks in May that the United States had lost the critical minerals race to China.",
+            "source": "South China Morning Post",
+            "item_id": "81d9bb2f898176d03123c7f4fe83dc04f2813e4572ca57599bff3e114eca764e",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/kerala/thampu-launches-tribal-rights-campaign-in-attappady/article71388961.ece"
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3365239/us-admits-defeat-china-minerals-race-can-brazil-turn-panic-processing-power?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
