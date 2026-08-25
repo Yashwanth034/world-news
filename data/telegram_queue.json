@@ -1,34 +1,330 @@
 {
-  "generated_at": "2026-08-25T06:30:58.430879+00:00",
-  "count": 1,
+  "generated_at": "2026-08-25T06:40:43.210169+00:00",
+  "count": 5,
   "stories": [
     {
-      "id": "61b852d9ab51867b67873e248d4f41edd7349551b2af0b367442692aa00c5e07",
-      "title": "Lotteries for Telangana govt’s affordable flats in Hyderabad from August 27; draws to be livestreamed",
-      "url": "https://www.thehindu.com/news/cities/Hyderabad/lotteries-for-indiramma-houses-in-hyderabad-from-august-27-draws-to-be-livestreamed/article71368366.ece",
-      "source": "The Hindu",
+      "id": "030c8a2cfa348fbbb264f7c07b0ef7f6f1bf0b7192169c63ded8c32beb11d3c2",
+      "title": "The Iran war is bringing cyberwarfare into critical infrastructure",
+      "url": "https://www.aljazeera.com/opinions/2026/8/25/the-iran-war-is-bringing-cyberwarfare-into-critical-infrastructure?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Asia",
       "discovery": false,
-      "summary": "Applicants list to be displayed online from the evening on August 21. Objections can be raised till the evening on August 23.",
-      "published_at": "2026-08-25T06:18:41+00:00",
-      "updated_at": "2026-08-25T06:18:41+00:00",
-      "effective_at": "2026-08-25T06:18:41+00:00",
+      "summary": "Recent attacks in the UK and the US demonstrate critical vulnerabilities that governments need to urgently address. Media reports about a cyberattack that forced a British power plant offline for four days should be taken seriously far beyond the United Kingdom. It gives us a glimpse of how the Iran conflict could develop and signals to governments and businesses around the world that they need to be ready for a new battlefield. The facility reportedly targeted by Iran-linked hackers was relatively small, and the British government has stressed that there was no risk to the wider energy system. That is important context, but it would be a mistake to judge the significance of this attack purely by how much electricity was lost. The question for every country operating critical infrastructure is what happens when the target is bigger. We have already seen reasons to be concerned elsewhere as well. Water and wastewater systems across at least 12 states in the United States have recently reported cyberattacks. More than 30 community water systems were affected in Minnesota alone. In Georgia, one incident caused a drop in water pressure and led to a boil-water advisory. The US government has not publicly accused Iran of the attacks, but reports point to a hacker group linked to the Islamic Revolutionary Guard Corps (IRGC). These incidents mark an important shift in cybersecurity.",
+      "published_at": "2026-08-25T06:37:32+00:00",
+      "updated_at": "2026-08-25T06:37:32+00:00",
+      "effective_at": "2026-08-25T06:37:32+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "internet",
-      "subregion": null,
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "applicants",
-        "hyderabad",
-        "telangana"
+        "corps",
+        "georgia",
+        "guard",
+        "iran",
+        "iran-linked",
+        "irgc",
+        "islamic",
+        "minnesota",
+        "recent",
+        "revolutionary",
+        "uk",
+        "united_kingdom",
+        "united_states",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Recent attacks in the UK and the US demonstrate critical vulnerabilities that governments need to urgently address.",
+        "Media reports about a cyberattack that forced a British power plant offline for four days should be taken seriously far beyond the United Kingdom.",
+        "It gives us a glimpse of how the Iran conflict could develop and signals to governments and businesses around the world that they need to be ready for a new battlefield.",
+        "The facility reportedly targeted by Iran-linked hackers was relatively small, and the British government has stressed that there was no risk to the wider energy system.",
+        "That is important context, but it would be a mistake to judge the significance of this attack purely by how much electricity was lost.",
+        "The question for every country operating critical infrastructure is what happens when the target is bigger.",
+        "We have already seen reasons to be concerned elsewhere as well.",
+        "Water and wastewater systems across at least 12 states in the United States have recently reported cyberattacks.",
+        "More than 30 community water systems were affected in Minnesota alone.",
+        "In Georgia, one incident caused a drop in water pressure and led to a boil-water advisory.",
+        "The US government has not publicly accused Iran of the attacks, but reports point to a hacker group linked to the Islamic Revolutionary Guard Corps (IRGC).",
+        "These incidents mark an important shift in cybersecurity."
+      ],
+      "event_status": "NEW",
+      "event_id": "86daed127b9e144400070c65",
+      "importance_score": 71.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 18,
+        "urgency": 9.0,
+        "novelty": 10,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 20,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 30,
+          "major_incident": true,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "030c8a2cfa348fbbb264f7c07b0ef7f6f1bf0b7192169c63ded8c32beb11d3c2",
+      "public_label": "📰 NEWS",
+      "headline": "The Iran war is bringing cyberwarfare into critical infrastructure",
+      "briefing": {
+        "opening": [
+          "Recent attacks in the UK and the US demonstrate critical vulnerabilities that governments need to urgently address.",
+          "Media reports about a cyberattack that forced a British power plant offline for four days should be taken seriously far beyond the United Kingdom."
+        ],
+        "body": [
+          "It gives us a glimpse of how the Iran conflict could develop and signals to governments and businesses around the world that they need to be ready for a new battlefield.",
+          "The facility reportedly targeted by Iran-linked hackers was relatively small, and the British government has stressed that there was no risk to the wider energy system.",
+          "That is important context, but it would be a mistake to judge the significance of this attack purely by how much electricity was lost.",
+          "The question for every country operating critical infrastructure is what happens when the target is bigger.",
+          "We have already seen reasons to be concerned elsewhere as well.",
+          "Water and wastewater systems across at least 12 states in the United States have recently reported cyberattacks.",
+          "More than 30 community water systems were affected in Minnesota alone.",
+          "In Georgia, one incident caused a drop in water pressure and led to a boil-water advisory."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Minnesota"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Recent attacks in the UK and the US demonstrate critical vulnerabilities that governments need to urgently address.",
+            "source": "Al Jazeera",
+            "item_id": "030c8a2cfa348fbbb264f7c07b0ef7f6f1bf0b7192169c63ded8c32beb11d3c2:article",
+            "composed": false
+          },
+          {
+            "text": "The facility reportedly targeted by Iran-linked hackers was relatively small, and the British government has stressed that there was no risk to the wider energy system.",
+            "source": "Al Jazeera",
+            "item_id": "030c8a2cfa348fbbb264f7c07b0ef7f6f1bf0b7192169c63ded8c32beb11d3c2:article",
+            "composed": false
+          },
+          {
+            "text": "It gives us a glimpse of how the Iran conflict could develop and signals to governments and businesses around the world that they need to be ready for a new battlefield.",
+            "source": "Al Jazeera",
+            "item_id": "030c8a2cfa348fbbb264f7c07b0ef7f6f1bf0b7192169c63ded8c32beb11d3c2:article",
+            "composed": false
+          },
+          {
+            "text": "More than 30 community water systems were affected in Minnesota alone.",
+            "source": "Al Jazeera",
+            "item_id": "030c8a2cfa348fbbb264f7c07b0ef7f6f1bf0b7192169c63ded8c32beb11d3c2:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/opinions/2026/8/25/the-iran-war-is-bringing-cyberwarfare-into-critical-infrastructure?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "8280f40a08185d6b3af30fab57357ef04ca0d6f86cf67b21da150fa3b0afced4",
+      "title": "Vietnam says its foreign minister will visit Myanmar on Wednesday",
+      "url": "https://www.straitstimes.com/asia/vietnam-says-its-foreign-minister-will-visit-myanmar-on-wednesday",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "HANOI, Aug 25 - Vietnamese Foreign Minister Le Hoai Trung is scheduled to pay an official visit to Myanmar on Wednesday, Vietnam's foreign ministry said, in what would be the first trip by a senior Vietnamese official to the country since a 2021 military coup triggered a civil war.",
+      "published_at": "2026-08-25T06:33:46+00:00",
+      "updated_at": "2026-08-25T06:33:46+00:00",
+      "effective_at": "2026-08-25T06:33:46+00:00",
+      "language_status": "ENGLISH",
+      "category": "conflict",
+      "score": 73,
+      "confidence": "medium",
+      "urgency_terms": [
+        "coup"
+      ],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "aug",
+        "foreign",
+        "hanoi",
+        "hoai",
+        "le",
+        "myanmar",
+        "trung",
+        "vietnam",
+        "vietnamese"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "e68917ffde61e808e1c381c5",
+      "importance_score": 44.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8
+        }
+      },
+      "story_id": "8280f40a08185d6b3af30fab57357ef04ca0d6f86cf67b21da150fa3b0afced4",
+      "article_sentences": [
+        "Vietnamese Foreign Minister Le Hoai Trung is scheduled to pay an official visit to Myanmar on Wednesday, Vietnam's foreign ministry said, in what would be the first trip by a senior Vietnamese official to the country since a 2021 military coup triggered a civil war.",
+        "Trung is expected to co-chair a bilateral cooperation meeting with his Myanmar counterpart, the ministry said in a statement.",
+        "The trip comes a month after Vietnam and Myanmar exchanged new ambassadors.",
+        "Vietnam regards Myanmar as an integral member of ASEAN and considers ASEAN's Five-Point Consensus on bringing peace to the country as the key framework for the bloc's continued engagement and support, the foreign ministry has said."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Vietnam says its foreign minister will visit Myanmar on Wednesday",
+      "briefing": {
+        "opening": [
+          "Vietnamese Foreign Minister Le Hoai Trung is scheduled to pay an official visit to Myanmar on Wednesday, Vietnam's foreign ministry said, in what would be the first trip by a senior Vietnamese official to the country since a 2021 military coup triggered a civil war.",
+          "Trung is expected to co-chair a bilateral cooperation meeting with his Myanmar counterpart, the ministry said in a statement."
+        ],
+        "body": [
+          "The trip comes a month after Vietnam and Myanmar exchanged new ambassadors.",
+          "Vietnam regards Myanmar as an integral member of ASEAN and considers ASEAN's Five-Point Consensus on bringing peace to the country as the key framework for the bloc's continued engagement and support, the foreign ministry has said."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The trip comes a month after Vietnam and Myanmar exchanged new ambassadors.",
+            "source": "Straits Times Asia",
+            "item_id": "8280f40a08185d6b3af30fab57357ef04ca0d6f86cf67b21da150fa3b0afced4:article",
+            "composed": false
+          },
+          {
+            "text": "Trung is expected to co-chair a bilateral cooperation meeting with his Myanmar counterpart, the ministry said in a statement.",
+            "source": "Straits Times Asia",
+            "item_id": "8280f40a08185d6b3af30fab57357ef04ca0d6f86cf67b21da150fa3b0afced4:article",
+            "composed": false
+          },
+          {
+            "text": "Vietnamese Foreign Minister Le Hoai Trung is scheduled to pay an official visit to Myanmar on Wednesday, Vietnam's foreign ministry said, in what would be the first trip by a senior Vietnamese official to the country since a 2021 military coup triggered a civil war.",
+            "source": "Straits Times Asia",
+            "item_id": "8280f40a08185d6b3af30fab57357ef04ca0d6f86cf67b21da150fa3b0afced4:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/vietnam-says-its-foreign-minister-will-visit-myanmar-on-wednesday"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "16e9f9e029454ce8306939ffa8a2e9875f98526c0ecec47fb38251281b312969",
+      "title": "Fulham vs Chelsea: Alonso starts new era with thrilling 3–2 win",
+      "url": "https://www.aljazeera.com/sports/2026/8/25/fulham-vs-chelsea-alonso-starts-new-era-with-thrilling-3-2?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Joao Pedro, Morgan Rogers and Cole Palmer on target as Chelsea open scoring within 31 seconds of the match in London. Chelsea began life under new coach Xabi Alonso with a breathless 3-2 Premier League victory at West London neighbours Fulham as their exciting front three of Joao Pedro, Morgan Rogers and Cole Palmer all found the net. Chelsea’s first league match of the season got off to a dream start on Monday when Palmer – looking back to his best after struggling with an injury last season – passed to Joao Pedro, and the Brazilian flicked the ball over goalkeeper Bernd Leno 31 seconds into the first half. It was the quickest goal scored in the opening round of fixtures on Sunday in the Premier League’s 34-year history. Fulham equalised when Josh King beat goalkeeper Robert Sanchez at his near post in the 24th minute, giving the home fans something to cheer against their fiercest rivals. But two of Chelsea’s new signings then combined in the 41st as central defender Maxence Lacroix jinked down the right before cutting the ball back to the club’s 117 million pounds ($159.4m) record signing Rogers, who made no mistake. Four minutes into the second half, Joao Pedro held up the ball in attack and fed Palmer, who angled a shot through Leno’s legs, underlining the midfielder’s return to form after missing out on a place with England at the World Cup. “It was a difficult season with injuries and whatnot, but through the summer and since I’ve been back I’ve worked extra hard,” Palmer told Sky Sports. “Obviously, with the injuries I’ve had to try and prevent them and work extra hard day in, day out. I know the talent I’ve got, so I can put in performances like that.” Fulham’s Gonzalo Garcia, on his league debut after signing from Real Madrid, gave the hosts some hope by heading in after Sanchez could only parry a Timothy Castagne shot in the 54th. Fulham then had a great chance to level again through Antonee Robinson in the 78th minute, but his chip over a stranded Sanchez went wide, and Chelsea held out to claim the points.",
+      "published_at": "2026-08-25T06:32:43+00:00",
+      "updated_at": "2026-08-25T06:32:43+00:00",
+      "effective_at": "2026-08-25T06:32:43+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "sports",
+      "subsector": "sports",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "alonso",
+        "antonee",
+        "bernd",
+        "brazilian",
+        "castagne",
+        "chelsea",
+        "cole",
+        "cup",
+        "england",
+        "fulham",
+        "garcia",
+        "gonzalo",
+        "joao",
+        "josh",
+        "lacroix",
+        "league",
+        "leno",
+        "maxence",
+        "morgan",
+        "palmer",
+        "pedro",
+        "real",
+        "robert",
+        "robinson",
+        "rogers",
+        "sanchez",
+        "sky",
+        "spain",
+        "sports",
+        "timothy",
+        "uk",
+        "west",
+        "xabi"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -37,14 +333,327 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "e68f8def7f7c58623d318789",
-      "importance_score": 26.0,
+      "article_sentences": [
+        "Joao Pedro, Morgan Rogers and Cole Palmer on target as Chelsea open scoring within 31 seconds of the match in London.",
+        "Chelsea began life under new coach Xabi Alonso with a breathless 3-2 Premier League victory at West London neighbours Fulham as their exciting front three of Joao Pedro, Morgan Rogers and Cole Palmer all found the net.",
+        "Chelsea’s first league match of the season got off to a dream start on Monday when Palmer – looking back to his best after struggling with an injury last season – passed to Joao Pedro, and the Brazilian flicked the ball over goalkeeper Bernd Leno 31 seconds into the first half.",
+        "It was the quickest goal scored in the opening round of fixtures on Sunday in the Premier League’s 34-year history.",
+        "Fulham equalised when Josh King beat goalkeeper Robert Sanchez at his near post in the 24th minute, giving the home fans something to cheer against their fiercest rivals.",
+        "But two of Chelsea’s new signings then combined in the 41st as central defender Maxence Lacroix jinked down the right before cutting the ball back to the club’s 117 million pounds ($159.4m) record signing Rogers, who made no mistake.",
+        "Four minutes into the second half, Joao Pedro held up the ball in attack and fed Palmer, who angled a shot through Leno’s legs, underlining the midfielder’s return to form after missing out on a place with England at the World Cup.",
+        "“It was a difficult season with injuries and whatnot, but through the summer and since I’ve been back I’ve worked extra hard,” Palmer told Sky Sports.",
+        "“Obviously, with the injuries I’ve had to try and prevent them and work extra hard day in, day out.",
+        "I know the talent I’ve got, so I can put in performances like that.”",
+        "Fulham’s Gonzalo Garcia, on his league debut after signing from Real Madrid, gave the hosts some hope by heading in after Sanchez could only parry a Timothy Castagne shot in the 54th.",
+        "Fulham then had a great chance to level again through Antonee Robinson in the 78th minute, but his chip over a stranded Sanchez went wide, and Chelsea held out to claim the points."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "d374b5a77e50dc254e61cf4c",
+      "importance_score": 43.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 4,
+          "security": 4,
+          "scientific": 4
+        }
+      },
+      "story_id": "16e9f9e029454ce8306939ffa8a2e9875f98526c0ecec47fb38251281b312969",
+      "public_label": "🔄 UPDATE",
+      "headline": "Fulham vs Chelsea: Alonso starts new era with thrilling 3–2 win",
+      "briefing": {
+        "opening": [
+          "Joao Pedro, Morgan Rogers and Cole Palmer on target as Chelsea open scoring within 31 seconds of the match in London.",
+          "Chelsea began life under new coach Xabi Alonso with a breathless 3-2 Premier League victory at West London neighbours Fulham as their exciting front three of Joao Pedro, Morgan Rogers and Cole Palmer all found the net."
+        ],
+        "body": [
+          "Chelsea’s first league match of the season got off to a dream start on Monday when Palmer – looking back to his best after struggling with an injury last season – passed to Joao Pedro, and the Brazilian flicked the ball over goalkeeper Bernd Leno 31 seconds into the first half.",
+          "It was the quickest goal scored in the opening round of fixtures on Sunday in the Premier League’s 34-year history.",
+          "Fulham equalised when Josh King beat goalkeeper Robert Sanchez at his near post in the 24th minute, giving the home fans something to cheer against their fiercest rivals.",
+          "But two of Chelsea’s new signings then combined in the 41st as central defender Maxence Lacroix jinked down the right before cutting the ball back to the club’s 117 million pounds ($159.4m) record signing Rogers, who made no mistake.",
+          "Four minutes into the second half, Joao Pedro held up the ball in attack and fed Palmer, who angled a shot through Leno’s legs, underlining the midfielder’s return to form after missing out on a place with England at the World Cup.",
+          "“It was a difficult season with injuries and whatnot, but through the summer and since I’ve been back I’ve worked extra hard,” Palmer told Sky Sports.",
+          "“Obviously, with the injuries I’ve had to try and prevent them and work extra hard day in, day out.",
+          "I know the talent I’ve got, so I can put in performances like that.” Fulham’s Gonzalo Garcia, on his league debut after signing from Real Madrid, gave the hosts some hope by heading in after Sanchez could only parry a Timothy Castagne shot in the 54th."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "London"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "But two of Chelsea’s new signings then combined in the 41st as central defender Maxence Lacroix jinked down the right before cutting the ball back to the club’s 117 million pounds ($159.4m) record signing Rogers, who made no mistake.",
+            "source": "Al Jazeera",
+            "item_id": "16e9f9e029454ce8306939ffa8a2e9875f98526c0ecec47fb38251281b312969:article",
+            "composed": false
+          },
+          {
+            "text": "Joao Pedro, Morgan Rogers and Cole Palmer on target as Chelsea open scoring within 31 seconds of the match in London.",
+            "source": "Al Jazeera",
+            "item_id": "16e9f9e029454ce8306939ffa8a2e9875f98526c0ecec47fb38251281b312969:article",
+            "composed": false
+          },
+          {
+            "text": "Fulham’s Gonzalo Garcia, on his league debut after signing from Real Madrid, gave the hosts some hope by heading in after Sanchez could only parry a Timothy Castagne shot in the 54th.",
+            "source": "Al Jazeera",
+            "item_id": "16e9f9e029454ce8306939ffa8a2e9875f98526c0ecec47fb38251281b312969:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/sports/2026/8/25/fulham-vs-chelsea-alonso-starts-new-era-with-thrilling-3-2?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "6a76edd09ac376f462194eb580022b2b7c0cf33d96352f1dbb2593b88b6bab88",
+      "title": "Libya factions draft initial election pact amid lingering mistrust",
+      "url": "https://www.aljazeera.com/news/2026/8/25/libya-factions-draft-initial-election-pact-despite-lingering-mistrust?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "A newly-formed committee has signed a preliminary agreement, but divided state institutions and legal voids threaten its execution. Libyan negotiators have agreed to an initial election pact aimed at ending years of political divisions within the country. The agreement covers electoral laws and the restructuring of the national elections commission, moving the process toward a highly complex and delicate implementation phase, experts and officials told Al Jazeera. Since 2014, Libya has been divided between two bitterly opposed administrations that separately control the east and west of the country, with repeated United Nations-led efforts to end the crisis. Current negotiations have been conducted by a committee consisting of four representatives from the House of Representatives, based in eastern Libya, and four representatives from the High Council of State, linked to the internationally-recognised Government of National Unity in Tripoli. The United Nations-backed ‘4+4 committee’ signed the initial draft in Tunis on August 20, with the challenge now in getting other parties in Libya on board. Legal expert Al-Mahdi Kashbour told Al Jazeera that there appears to be a gap between the powers of the parties that signed the agreement and the institutions with the authority to implement it. Libya political analyst Elias Al-Barouni stressed that the pact does not make any concrete plans for the country’s elections. Even if legal hurdles are cleared, the problem then shifts to who governs Libya in the interim, he added. This could be the most difficult test yet for the peace process, as the transitional authority would control state resources and have to navigate a highly sensitive security environment. Key Libyan legislative bodies and politicians have strong reservations about the negotiations. Among them is Nuh al-Malati, a member of the High Council of State, an advisory body for the Government of National Unity.",
+      "published_at": "2026-08-25T06:10:49+00:00",
+      "updated_at": "2026-08-25T06:10:49+00:00",
+      "effective_at": "2026-08-25T06:10:49+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "elections",
+      "subregion": "North Africa",
+      "country": null,
+      "entities": [
+        "al",
+        "al-barouni",
+        "al-mahdi",
+        "elias",
+        "government",
+        "high",
+        "house",
+        "jazeera",
+        "kashbour",
+        "key",
+        "libya",
+        "libyan",
+        "national",
+        "nations-backed",
+        "nations-led",
+        "nuh",
+        "representatives",
+        "state",
+        "tripoli",
+        "tunis",
+        "united",
+        "unity"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "A newly-formed committee has signed a preliminary agreement, but divided state institutions and legal voids threaten its execution.",
+        "Libyan negotiators have agreed to an initial election pact aimed at ending years of political divisions within the country.",
+        "The agreement covers electoral laws and the restructuring of the national elections commission, moving the process toward a highly complex and delicate implementation phase, experts and officials told Al Jazeera.",
+        "Since 2014, Libya has been divided between two bitterly opposed administrations that separately control the east and west of the country, with repeated United Nations-led efforts to end the crisis.",
+        "Current negotiations have been conducted by a committee consisting of four representatives from the House of Representatives, based in eastern Libya, and four representatives from the High Council of State, linked to the internationally-recognised Government of National Unity in Tripoli.",
+        "The United Nations-backed ‘4+4 committee’ signed the initial draft in Tunis on August 20, with the challenge now in getting other parties in Libya on board.",
+        "Legal expert Al-Mahdi Kashbour told Al Jazeera that there appears to be a gap between the powers of the parties that signed the agreement and the institutions with the authority to implement it.",
+        "Libya political analyst Elias Al-Barouni stressed that the pact does not make any concrete plans for the country’s elections.",
+        "Even if legal hurdles are cleared, the problem then shifts to who governs Libya in the interim, he added.",
+        "This could be the most difficult test yet for the peace process, as the transitional authority would control state resources and have to navigate a highly sensitive security environment.",
+        "Key Libyan legislative bodies and politicians have strong reservations about the negotiations.",
+        "Among them is Nuh al-Malati, a member of the High Council of State, an advisory body for the Government of National Unity."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "c83c8a106650920d235c9001",
+      "importance_score": 39.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "6a76edd09ac376f462194eb580022b2b7c0cf33d96352f1dbb2593b88b6bab88",
+      "public_label": "🔄 UPDATE",
+      "headline": "Libya factions draft initial election pact amid lingering mistrust",
+      "briefing": {
+        "opening": [
+          "A newly-formed committee has signed a preliminary agreement, but divided state institutions and legal voids threaten its execution.",
+          "Libyan negotiators have agreed to an initial election pact aimed at ending years of political divisions within the country."
+        ],
+        "body": [
+          "The agreement covers electoral laws and the restructuring of the national elections commission, moving the process toward a highly complex and delicate implementation phase, experts and officials told Al Jazeera.",
+          "Since 2014, Libya has been divided between two bitterly opposed administrations that separately control the east and west of the country, with repeated United Nations-led efforts to end the crisis.",
+          "Current negotiations have been conducted by a committee consisting of four representatives from the House of Representatives, based in eastern Libya, and four representatives from the High Council of State, linked to the internationally-recognised Government of National Unity in Tripoli.",
+          "The United Nations-backed ‘4+4 committee’ signed the initial draft in Tunis on August 20, with the challenge now in getting other parties in Libya on board.",
+          "Legal expert.",
+          "Al-Mahdi Kashbour told Al Jazeera that there appears to be a gap between the powers of the parties that signed the agreement and the institutions with the authority to implement it.",
+          "Libya political analyst Elias Al-Barouni stressed that the pact does not make any concrete plans for the country’s elections.",
+          "Even if legal hurdles are cleared, the problem then shifts to who governs Libya in the interim, he added."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Tripoli"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Al-Mahdi Kashbour told Al Jazeera that there appears to be a gap between the powers of the parties that signed the agreement and the institutions with the authority to implement it.",
+            "source": "Al Jazeera",
+            "item_id": "6a76edd09ac376f462194eb580022b2b7c0cf33d96352f1dbb2593b88b6bab88:article",
+            "composed": false
+          },
+          {
+            "text": "The United Nations-backed ‘4+4 committee’ signed the initial draft in Tunis on August 20, with the challenge now in getting other parties in Libya on board.",
+            "source": "Al Jazeera",
+            "item_id": "6a76edd09ac376f462194eb580022b2b7c0cf33d96352f1dbb2593b88b6bab88:article",
+            "composed": false
+          },
+          {
+            "text": "Since 2014, Libya has been divided between two bitterly opposed administrations that separately control the east and west of the country, with repeated United Nations-led efforts to end the crisis.",
+            "source": "Al Jazeera",
+            "item_id": "6a76edd09ac376f462194eb580022b2b7c0cf33d96352f1dbb2593b88b6bab88:article",
+            "composed": false
+          },
+          {
+            "text": "Current negotiations have been conducted by a committee consisting of four representatives from the House of Representatives, based in eastern Libya, and four representatives from the High Council of State, linked to the internationally-recognised Government of National Unity in Tripoli.",
+            "source": "Al Jazeera",
+            "item_id": "6a76edd09ac376f462194eb580022b2b7c0cf33d96352f1dbb2593b88b6bab88:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/news/2026/8/25/libya-factions-draft-initial-election-pact-despite-lingering-mistrust?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "ecec9b04eeb122ac06f871f218879b4a78f5c810e42eaf4a8146c666e8e0574a",
+      "title": "Angel Reese breaks WNBA record with 26 rebounds in Dream’s win over Sparks",
+      "url": "https://www.aljazeera.com/sports/2026/8/25/angel-reese-breaks-wnba-record-with-26-rebounds-in-dreams-win-over-sparks?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Reese broke Chamique Holdsclaw’s record of 24 rebounds and added 11 points for her 27th double-double of the season. Angel Reese broke the WNBA single-game rebounding record with 26, while also breaking the league’s season record for rebounds, as the Atlanta Dream beat the Los Angeles Sparks. Reese surpassed Chamique Holdsclaw’s record of 24 rebounds, set on May 23, 2003 for the Washington Mystics, in the Dream’s 78-71 win on Monday. The Dream star has 458 rebounds this season, seven more than A’ja Wilson’s mark set in 2024. “Last time I was here, I didn’t miss any shots. Tonight I couldn’t hit (anything), so I knew I was going to be able to get them on the rebounding side,” Reese told the postgame show. “I just want to be there for my team. Offensively, defensively, whatever it takes to win.” Reese finished with 11 points. She secured her WNBA-leading 27th double-double of the season on a basket with 13.9 seconds left in the game. “That’s a talent,” Dream guard. Allisha Gray said.",
+      "published_at": "2026-08-25T06:12:43+00:00",
+      "updated_at": "2026-08-25T06:12:43+00:00",
+      "effective_at": "2026-08-25T06:12:43+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "allisha",
+        "angel",
+        "atlanta",
+        "chamique",
+        "dream",
+        "gray",
+        "holdsclaw",
+        "los_angeles",
+        "mystics",
+        "reese",
+        "sparks",
+        "tonight",
+        "us",
+        "wilson",
+        "wnba",
+        "wnba-leading"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Reese broke Chamique Holdsclaw’s record of 24 rebounds and added 11 points for her 27th double-double of the season.",
+        "Angel Reese broke the WNBA single-game rebounding record with 26, while also breaking the league’s season record for rebounds, as the Atlanta Dream beat the Los Angeles Sparks.",
+        "Reese surpassed Chamique Holdsclaw’s record of 24 rebounds, set on May 23, 2003 for the Washington Mystics, in the Dream’s 78-71 win on Monday.",
+        "The Dream star has 458 rebounds this season, seven more than A’ja Wilson’s mark set in 2024.",
+        "“Last time I was here, I didn’t miss any shots.",
+        "Tonight I couldn’t hit (anything), so I knew I was going to be able to get them on the rebounding side,” Reese told the postgame show.",
+        "“I just want to be there for my team.",
+        "Offensively, defensively, whatever it takes to win.”",
+        "Reese finished with 11 points.",
+        "She secured her WNBA-leading 27th double-double of the season on a basket with 13.9 seconds left in the game.",
+        "“That’s a talent,” Dream guard.",
+        "Allisha Gray said."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "201682d2e046682d89bcb4e0",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 10,
+        "novelty": 9.0,
         "scope": "LOCAL",
         "scope_points": 3,
         "reliability": 6,
@@ -63,36 +672,57 @@
         },
         "significance_dims": {}
       },
-      "story_id": "61b852d9ab51867b67873e248d4f41edd7349551b2af0b367442692aa00c5e07",
-      "public_label": "📰 NEWS",
-      "headline": "Lotteries for Telangana govt’s affordable flats in Hyderabad from August 27; draws to be livestreamed",
+      "story_id": "ecec9b04eeb122ac06f871f218879b4a78f5c810e42eaf4a8146c666e8e0574a",
+      "public_label": "🔄 UPDATE",
+      "headline": "Angel Reese breaks WNBA record with 26 rebounds in Dream’s win over Sparks",
       "briefing": {
         "opening": [
-          "Applicants list to be displayed online from the evening on August 21.",
-          "Objections can be raised till the evening on August 23."
+          "Reese broke Chamique Holdsclaw’s record of 24 rebounds and added 11 points for her 27th double-double of the season.",
+          "Angel Reese broke the WNBA single-game rebounding record with 26, while also breaking the league’s season record for rebounds, as the Atlanta Dream beat the Los Angeles Sparks."
         ],
-        "body": [],
+        "body": [
+          "Reese surpassed Chamique Holdsclaw’s record of 24 rebounds, set on May 23, 2003 for the Washington Mystics, in the Dream’s 78-71 win on Monday.",
+          "The Dream star has 458 rebounds this season, seven more than A’ja Wilson’s mark set in 2024.",
+          "“Last time I was here, I didn’t miss any shots.",
+          "Tonight I couldn’t hit (anything), so I knew I was going to be able to get them on the rebounding side,” Reese told the postgame show.",
+          "“I just want to be there for my team.",
+          "Offensively, defensively, whatever it takes to win.” Reese finished with 11 points.",
+          "She secured her WNBA-leading 27th double-double of the season on a basket with 13.9 seconds left in the game.",
+          "“That’s a talent,” Dream guard."
+        ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Applicants list to be displayed online from the evening on August 21.",
-            "source": "The Hindu",
-            "item_id": "61b852d9ab51867b67873e248d4f41edd7349551b2af0b367442692aa00c5e07",
+            "text": "Reese surpassed Chamique Holdsclaw’s record of 24 rebounds, set on May 23, 2003 for the Washington Mystics, in the Dream’s 78-71 win on Monday.",
+            "source": "Al Jazeera",
+            "item_id": "ecec9b04eeb122ac06f871f218879b4a78f5c810e42eaf4a8146c666e8e0574a:article",
             "composed": false
           },
           {
-            "text": "Objections can be raised till the evening on August 23.",
-            "source": "The Hindu",
-            "item_id": "61b852d9ab51867b67873e248d4f41edd7349551b2af0b367442692aa00c5e07",
+            "text": "Reese broke Chamique Holdsclaw’s record of 24 rebounds and added 11 points for her 27th double-double of the season.",
+            "source": "Al Jazeera",
+            "item_id": "ecec9b04eeb122ac06f871f218879b4a78f5c810e42eaf4a8146c666e8e0574a:article",
+            "composed": false
+          },
+          {
+            "text": "The Dream star has 458 rebounds this season, seven more than A’ja Wilson’s mark set in 2024.",
+            "source": "Al Jazeera",
+            "item_id": "ecec9b04eeb122ac06f871f218879b4a78f5c810e42eaf4a8146c666e8e0574a:article",
+            "composed": false
+          },
+          {
+            "text": "She secured her WNBA-leading 27th double-double of the season on a basket with 13.9 seconds left in the game.",
+            "source": "Al Jazeera",
+            "item_id": "ecec9b04eeb122ac06f871f218879b4a78f5c810e42eaf4a8146c666e8e0574a:article",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/cities/Hyderabad/lotteries-for-indiramma-houses-in-hyderabad-from-august-27-draws-to-be-livestreamed/article71368366.ece"
+        "url": "https://www.aljazeera.com/sports/2026/8/25/angel-reese-breaks-wnba-record-with-26-rebounds-in-dreams-win-over-sparks?traffic_source=rss"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
