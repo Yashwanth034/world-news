@@ -1,58 +1,70 @@
 {
-  "generated_at": "2026-08-25T00:01:16.177828+00:00",
-  "count": 1,
+  "generated_at": "2026-08-25T00:10:48.017238+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "f184fc104e53e2952a56f7b84289e22224ee1a51d87467cec794b75597fa59b5",
-      "title": "Australia news live: Coles blames competitor’s Ooshies for slowing sales; young people the first generation to earn less than their parents at same age",
-      "url": "https://www.theguardian.com/australia-news/live/2026/aug/25/australia-news-live-sydney-trains-delays-cancellations-albanese-gst-wa-one-nation-coalition-secret-harbour-election-tax-reform-royal-commission-antisemitism-icac-victorian-rail-loop-alan-jones-trial-ntwnfb",
-      "source": "The Guardian World",
+      "id": "b1463883203caae23c9ef252de6d3a85c28546757535549591ceae1be2912a46",
+      "title": "Tanker hit by projectile, disabled off Oman — UKMTO",
+      "url": "https://tass.com/world/2177223",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Oceania",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Supermarket chain says growth slumped amid ‘competitor’s collectibles campaign’. Follow today’s news live Get our breaking news email , free app or daily news podcast Number of NSW households in urgent need of priority housing hits highest level in over a year The number of NSW households in urgent need of priority social housing has reached 13,776, the highest in more than a year. The waitlist has sat [at] around 70,000 since May. Anyone reading that as stability should look at what is happening inside that number. Urgent need is growing six times faster than general need on this register. Every month, a bigger share of the people waiting are people who cannot afford to wait. These changes ",
-      "published_at": "2026-08-24T23:51:33+00:00",
-      "updated_at": "2026-08-24T23:51:33+00:00",
-      "effective_at": "2026-08-24T23:51:33+00:00",
+      "summary": "LONDON, August 25. An oil tanker was damaged and left not under command in an attack off the coast of Oman, the United Kingdom Maritime Trade Operations (UKMTO) said. \"UKMTO has received a report of an incident 9NM northeast of Ash Shishah, Oman. The Master of an oil tanker reports the vessel has been struck by an unknown projectile causing damage to the engine room and disabling the vessel,\" the organization said. According to UKMTO, the crew are safe and no environmental impact has been reported. No further details, including the vessel's name and port of registry, were provided.",
+      "published_at": "2026-08-24T23:30:01+00:00",
+      "updated_at": "2026-08-24T23:30:01+00:00",
+      "effective_at": "2026-08-24T23:30:01+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 65,
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "infrastructure",
-      "subsector": "construction",
-      "subregion": "Australia",
+      "sector": "transport",
+      "subsector": "shipping",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "australia",
-        "coles",
-        "nsw",
-        "number",
-        "ooshies",
-        "supermarket"
+        "ash",
+        "maritime",
+        "master",
+        "oman",
+        "operations",
+        "shishah",
+        "trade",
+        "uk",
+        "ukmto",
+        "united_kingdom"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "740ae896d31f7dbf6dd633df",
-      "importance_score": 31.0,
+      "article_sentences": [
+        "LONDON, August 25.",
+        "An oil tanker was damaged and left not under command in an attack off the coast of Oman, the United Kingdom Maritime Trade Operations (UKMTO) said.",
+        "\"UKMTO has received a report of an incident 9NM northeast of Ash Shishah, Oman.",
+        "The Master of an oil tanker reports the vessel has been struck by an unknown projectile causing damage to the engine room and disabling the vessel,\" the organization said.",
+        "According to UKMTO, the crew are safe and no environmental impact has been reported.",
+        "No further details, including the vessel's name and port of registry, were provided."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "c86eb327cb55a9e26da8e748",
+      "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 10,
-        "novelty": 10,
+        "urgency": 8.0,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -64,48 +76,169 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "security": 4,
+          "infrastructure": 4
+        }
       },
-      "story_id": "f184fc104e53e2952a56f7b84289e22224ee1a51d87467cec794b75597fa59b5",
-      "public_label": "📰 NEWS",
-      "headline": "Australia news live: Coles blames competitor’s Ooshies for slowing sales; young people the first generation to earn less than their parents at same age",
+      "story_id": "b1463883203caae23c9ef252de6d3a85c28546757535549591ceae1be2912a46",
+      "public_label": "🔄 UPDATE",
+      "headline": "Tanker hit by projectile, disabled off Oman — UKMTO",
       "briefing": {
         "opening": [
-          "Supermarket chain says growth slumped amid ‘competitor’s collectibles campaign’.",
-          "Follow today’s news live Number of NSW households in urgent need of priority housing hits highest level in over a year."
+          "LONDON, August 25.",
+          "An oil tanker was damaged and left not under command in an attack off the coast of Oman, the United Kingdom Maritime Trade Operations (UKMTO) said."
         ],
         "body": [
-          "The number of NSW households in urgent need of priority social housing has reached 13,776, the highest in more than a year.",
-          "The waitlist has sat [at] around 70,000 since May.",
-          "Anyone reading that as stability should look at what is happening inside that number.",
-          "Urgent need is growing six times faster than general need on this register.",
-          "Every month, a bigger share of the people waiting are people who cannot afford to wait.",
-          "These changes."
+          "\"UKMTO has received a report of an incident 9NM northeast of Ash Shishah, Oman.",
+          "The Master of an oil tanker reports the vessel has been struck by an unknown projectile causing damage to the engine room and disabling the vessel,\" the organization said.",
+          "According to UKMTO, the crew are safe and no environmental impact has been reported.",
+          "No further details, including the vessel's name and port of registry, were provided."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Supermarket chain says growth slumped amid ‘competitor’s collectibles campaign’.",
-            "source": "The Guardian World",
-            "item_id": "f184fc104e53e2952a56f7b84289e22224ee1a51d87467cec794b75597fa59b5",
+            "text": "An oil tanker was damaged and left not under command in an attack off the coast of Oman, the United Kingdom Maritime Trade Operations (UKMTO) said.",
+            "source": "TASS English",
+            "item_id": "b1463883203caae23c9ef252de6d3a85c28546757535549591ceae1be2912a46:article",
             "composed": false
           },
           {
-            "text": "The number of NSW households in urgent need of priority social housing has reached 13,776, the highest in more than a year.",
-            "source": "The Guardian World",
-            "item_id": "f184fc104e53e2952a56f7b84289e22224ee1a51d87467cec794b75597fa59b5",
-            "composed": false
-          },
-          {
-            "text": "The waitlist has sat [at] around 70,000 since May.",
-            "source": "The Guardian World",
-            "item_id": "f184fc104e53e2952a56f7b84289e22224ee1a51d87467cec794b75597fa59b5",
+            "text": "LONDON, August 25.",
+            "source": "TASS English",
+            "item_id": "b1463883203caae23c9ef252de6d3a85c28546757535549591ceae1be2912a46:article",
             "composed": false
           }
         ],
-        "source": "The Guardian World",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.theguardian.com/australia-news/live/2026/aug/25/australia-news-live-sydney-trains-delays-cancellations-albanese-gst-wa-one-nation-coalition-secret-harbour-election-tax-reform-royal-commission-antisemitism-icac-victorian-rail-loop-alan-jones-trial-ntwnfb"
+        "url": "https://tass.com/world/2177223"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "1817c7512e0c270394c31a685b4804f65ff7d4aca63fda6c6655f82fcb6f4e27",
+      "title": "S. Korea to develop environmental, ocean observation satellite",
+      "url": "https://en.yna.co.kr/view/AEN20260825001400320",
+      "source": "Yonhap English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "South Korea will develop a next-generation environmental and ocean observation satellite by 2033 to succeed the current geostationary satellite, the country's space agency said Tuesday. The Korea AeroSpace Administration (KASA) said the proposal to develop the Cheollian-6 satellite has passed a preliminary feasibility review for a state-funded research and development project. The proposed satellite is scheduled for launch in 2033, with an estimated budget of about 770 billion won (US$556.7 million). It will take over the observation missions of Cheollian 2B, which was launched in 2020. Cheollian-6 will be tasked with monitoring the environment and oceans, enabling authorities to more quickly detect and track air and marine pollution as well as maritime disasters. The geostationary satellite will be developed using homegrown technologies, including a hybrid propulsion system. It will also be equipped with instruments capable of simultaneously conducting both environmental and ocean observations from a fixed position relative to the Earth, according to KASA.",
+      "published_at": "2026-08-25T00:00:02+00:00",
+      "updated_at": "2026-08-25T00:00:02+00:00",
+      "effective_at": "2026-08-25T00:00:02+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "science",
+      "subsector": "space",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "administration",
+        "aerospace",
+        "cheollian",
+        "cheollian-6",
+        "earth",
+        "kasa",
+        "south_korea",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "South Korea will develop a next-generation environmental and ocean observation satellite by 2033 to succeed the current geostationary satellite, the country's space agency said Tuesday.",
+        "The Korea AeroSpace Administration (KASA) said the proposal to develop the Cheollian-6 satellite has passed a preliminary feasibility review for a state-funded research and development project.",
+        "The proposed satellite is scheduled for launch in 2033, with an estimated budget of about 770 billion won (US$556.7 million).",
+        "It will take over the observation missions of Cheollian 2B, which was launched in 2020.",
+        "Cheollian-6 will be tasked with monitoring the environment and oceans, enabling authorities to more quickly detect and track air and marine pollution as well as maritime disasters.",
+        "The geostationary satellite will be developed using homegrown technologies, including a hybrid propulsion system.",
+        "It will also be equipped with instruments capable of simultaneously conducting both environmental and ocean observations from a fixed position relative to the Earth, according to KASA."
+      ],
+      "event_status": "NEW",
+      "event_id": "1db9439468cde2abe7f05e14",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 4
+        }
+      },
+      "story_id": "1817c7512e0c270394c31a685b4804f65ff7d4aca63fda6c6655f82fcb6f4e27",
+      "public_label": "📰 NEWS",
+      "headline": "S. Korea to develop environmental, ocean observation satellite",
+      "briefing": {
+        "opening": [
+          "South Korea will develop a next-generation environmental and ocean observation satellite by 2033 to succeed the current geostationary satellite, the country's space agency said Tuesday.",
+          "The Korea AeroSpace Administration (KASA) said the proposal to develop the Cheollian-6 satellite has passed a preliminary feasibility review for a state-funded research and development project."
+        ],
+        "body": [
+          "The proposed satellite is scheduled for launch in 2033, with an estimated budget of about 770 billion won (US$556.7 million).",
+          "It will take over the observation missions of Cheollian 2B, which was launched in 2020.",
+          "Cheollian-6 will be tasked with monitoring the environment and oceans, enabling authorities to more quickly detect and track air and marine pollution as well as maritime disasters.",
+          "The geostationary satellite will be developed using homegrown technologies, including a hybrid propulsion system.",
+          "It will also be equipped with instruments capable of simultaneously conducting both environmental and ocean observations from a fixed position relative to the Earth, according to KASA."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The proposed satellite is scheduled for launch in 2033, with an estimated budget of about 770 billion won (US$556.7 million).",
+            "source": "Yonhap English",
+            "item_id": "1817c7512e0c270394c31a685b4804f65ff7d4aca63fda6c6655f82fcb6f4e27:article",
+            "composed": false
+          },
+          {
+            "text": "It will take over the observation missions of Cheollian 2B, which was launched in 2020.",
+            "source": "Yonhap English",
+            "item_id": "1817c7512e0c270394c31a685b4804f65ff7d4aca63fda6c6655f82fcb6f4e27:article",
+            "composed": false
+          },
+          {
+            "text": "South Korea will develop a next-generation environmental and ocean observation satellite by 2033 to succeed the current geostationary satellite, the country's space agency said Tuesday.",
+            "source": "Yonhap English",
+            "item_id": "1817c7512e0c270394c31a685b4804f65ff7d4aca63fda6c6655f82fcb6f4e27:article",
+            "composed": false
+          },
+          {
+            "text": "The Korea AeroSpace Administration (KASA) said the proposal to develop the Cheollian-6 satellite has passed a preliminary feasibility review for a state-funded research and development project.",
+            "source": "Yonhap English",
+            "item_id": "1817c7512e0c270394c31a685b4804f65ff7d4aca63fda6c6655f82fcb6f4e27:article",
+            "composed": false
+          }
+        ],
+        "source": "Yonhap English",
+        "corroborating": [],
+        "url": "https://en.yna.co.kr/view/AEN20260825001400320"
       },
       "group_size": 1,
       "label": "📰 NEWS"
