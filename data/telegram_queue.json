@@ -1,47 +1,158 @@
 {
-  "generated_at": "2026-08-25T03:40:43.969108+00:00",
-  "count": 1,
+  "generated_at": "2026-08-25T03:50:42.316783+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "e01b071a53fdc37c139822f8e94938993c51f2072b53eb74189891572b168606",
-      "title": "Trump administration plans to revoke 200,000 visas of asylum seekers",
-      "url": "http://www.euronews.com/2026/08/25/trump-administration-plans-to-revoke-200000-visas-of-asylum-seekers",
-      "source": "Euronews",
+      "id": "902d7f737c2eab25943f133e4095241df988fae279eeeb2435d40f5b1a124aee",
+      "title": "Chinese woman, 31, faces lifelong walking issues after water-only diet cuts 20kg in weeks",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3365140/chinese-woman-31-faces-lifelong-walking-issues-after-water-only-diet-cuts-20kg-weeks?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Asia",
       "discovery": false,
-      "summary": "The move is the latest in the Trump administration's crackdown on immigration. If it happens, the move would mark the largest single mass revocation of visas in US history.",
-      "published_at": "2026-08-25T03:38:06+00:00",
-      "updated_at": "2026-08-25T03:38:06+00:00",
-      "effective_at": "2026-08-25T03:38:06+00:00",
+      "summary": "A woman from central China undertook a fasting regimen for half a month and lost 20kg, but ultimately suffered from a serious brain disorder from which she may never fully recover. The 31-year-old woman from Henan province, who wishes to remain anonymous, was recently reported by local media to have developed walking difficulties and memory deterioration after consuming nothing but water for 15 consecutive days. Standing at 160 cm tall, the woman, previously weighing 70kg, managed to shed 20kg...",
+      "published_at": "2026-08-25T03:41:17+00:00",
+      "updated_at": "2026-08-25T03:41:17+00:00",
+      "effective_at": "2026-08-25T03:41:17+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 60,
+      "category": "world",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "law",
-      "subsector": "human_rights",
-      "subregion": "United States",
+      "sector": "agriculture",
+      "subsector": "water",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "trump",
-        "us"
+        "china",
+        "henan"
       ],
-      "corroborating_sources": 2,
-      "strong_corroboration": 2,
-      "corroborating_source_names": [
-        "Al Jazeera",
-        "France 24"
-      ],
-      "verified_match_count": 2,
-      "priority_score": 75,
-      "priority_level": "URGENT",
-      "max_delay_minutes": 15,
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "9ebd8a89f65944d2b6f40570",
-      "importance_score": 36.0,
+      "event_id": "af5f44afa872546b7e1b6089",
+      "importance_score": 52.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 31,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8
+        }
+      },
+      "story_id": "902d7f737c2eab25943f133e4095241df988fae279eeeb2435d40f5b1a124aee",
+      "public_label": "📰 NEWS",
+      "headline": "Chinese woman, 31, faces lifelong walking issues after water-only diet cuts 20kg in weeks",
+      "briefing": {
+        "opening": [
+          "A woman from central China undertook a fasting regimen for half a month and lost 20kg, but ultimately suffered from a serious brain disorder from which she may never fully recover.",
+          "The 31-year-old woman from Henan province, who wishes to remain anonymous, was recently reported by local media to have developed walking difficulties and memory deterioration after consuming nothing but water for 15 consecutive days."
+        ],
+        "body": [
+          "Standing at 160 cm tall, the woman, previously weighing 70kg, managed to shed 20kg..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The 31-year-old woman from Henan province, who wishes to remain anonymous, was recently reported by local media to have developed walking difficulties and memory deterioration after consuming nothing but water for 15 consecutive days.",
+            "source": "South China Morning Post",
+            "item_id": "902d7f737c2eab25943f133e4095241df988fae279eeeb2435d40f5b1a124aee",
+            "composed": false
+          },
+          {
+            "text": "A woman from central China undertook a fasting regimen for half a month and lost 20kg, but ultimately suffered from a serious brain disorder from which she may never fully recover.",
+            "source": "South China Morning Post",
+            "item_id": "902d7f737c2eab25943f133e4095241df988fae279eeeb2435d40f5b1a124aee",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/people-culture/trending-china/article/3365140/chinese-woman-31-faces-lifelong-walking-issues-after-water-only-diet-cuts-20kg-weeks?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "d1f4d2252f600a2f2549fbf01b2393e952db098e896f7231adb51f1ed3f09290",
+      "title": "Pakistan and Iran made 'significant progress' in talks on conflict, minister says",
+      "url": "https://www.straitstimes.com/asia/pakistan-and-iran-made-significant-progress-in-talks-on-conflict-minister-says",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Pakistan and Iran made \"significant progress\" in talks that focused on the U.S.-Israeli war on Iran and a path to peace, Pakistan's interior minister said on Tuesday, at the end of a visit to Tehran. Talks between the two sides focused on measures to prevent further escalation, reopening of the Strait of Hormuz and an expedited termination of the conflict, a statement from the Pakistani military said about the meeting between the country's army chief, Asim Munir, and the Iranian leadership. The two sides also exchanged views on regional peace and the way to arrive at a negotiated settlement to the dispute, the statement said. \"The Iranian President candidly shared his government's perspective and we had a very constructive exchange on the issues involved,\" Interior Minister Mohsin Naqvi, who accompanied Munir to Tehran, said in a post on X. Munir spoke with U.S. President Donald Trump ahead of his Tehran visit, Reuters reported on Monday.",
+      "published_at": "2026-08-25T03:43:44+00:00",
+      "updated_at": "2026-08-25T03:43:44+00:00",
+      "effective_at": "2026-08-25T03:43:44+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "asim",
+        "donald",
+        "hormuz",
+        "interior",
+        "iran",
+        "israel",
+        "mohsin",
+        "munir",
+        "naqvi",
+        "pakistan",
+        "pakistani",
+        "reuters",
+        "strait",
+        "trump"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Pakistan and Iran made \"significant progress\" in talks that focused on the U.S.-Israeli war on Iran and a path to peace, Pakistan's interior minister said on Tuesday, at the end of a visit to Tehran.",
+        "Talks between the two sides focused on measures to prevent further escalation, reopening of the Strait of Hormuz and an expedited termination of the conflict, a statement from the Pakistani military said about the meeting between the country's army chief, Asim Munir, and the Iranian leadership.",
+        "The two sides also exchanged views on regional peace and the way to arrive at a negotiated settlement to the dispute, the statement said.",
+        "\"The Iranian President candidly shared his government's perspective and we had a very constructive exchange on the issues involved,\" Interior Minister Mohsin Naqvi, who accompanied Munir to Tehran, said in a post on X.",
+        "Munir spoke with U.S. President Donald Trump ahead of his Tehran visit, Reuters reported on Monday."
+      ],
+      "event_status": "NEW",
+      "event_id": "6968b1b78b27ac542fbf2d38",
+      "importance_score": 44.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
@@ -50,8 +161,8 @@
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 8,
-        "significance": 0,
+        "corroboration": 0,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -63,41 +174,54 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8
+        }
       },
-      "story_id": "e01b071a53fdc37c139822f8e94938993c51f2072b53eb74189891572b168606",
+      "story_id": "d1f4d2252f600a2f2549fbf01b2393e952db098e896f7231adb51f1ed3f09290",
       "public_label": "📰 NEWS",
-      "headline": "Trump administration plans to revoke 200,000 visas of asylum seekers",
+      "headline": "Pakistan and Iran made 'significant progress' in talks on conflict, minister says",
       "briefing": {
         "opening": [
-          "The move is the latest in the Trump administration's crackdown on immigration.",
-          "If it happens, the move would mark the largest single mass revocation of visas in US history."
+          "Pakistan and Iran made \"significant progress\" in talks that focused on the U.S.-Israeli war on Iran and a path to peace, Pakistan's interior minister said on Tuesday, at the end of a visit to Tehran.",
+          "Talks between the two sides focused on measures to prevent further escalation, reopening of the Strait of Hormuz and an expedited termination of the conflict, a statement from the Pakistani military said about the meeting between the country's army chief, Asim Munir, and the Iranian leadership."
         ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "US"
-          }
+        "body": [
+          "The two sides also exchanged views on regional peace and the way to arrive at a negotiated settlement to the dispute, the statement said.",
+          "\"The Iranian President candidly shared his government's perspective and we had a very constructive exchange on the issues involved,\" Interior Minister Mohsin Naqvi, who accompanied Munir to Tehran, said in a post on X.",
+          "Munir spoke with U.S. President Donald Trump ahead of his Tehran visit, Reuters reported on Monday."
         ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The move is the latest in the Trump administration's crackdown on immigration.",
-            "source": "Euronews",
-            "item_id": "e01b071a53fdc37c139822f8e94938993c51f2072b53eb74189891572b168606",
+            "text": "Talks between the two sides focused on measures to prevent further escalation, reopening of the Strait of Hormuz and an expedited termination of the conflict, a statement from the Pakistani military said about the meeting between the country's army chief, Asim Munir, and the Iranian leadership.",
+            "source": "Straits Times Asia",
+            "item_id": "d1f4d2252f600a2f2549fbf01b2393e952db098e896f7231adb51f1ed3f09290:article",
             "composed": false
           },
           {
-            "text": "If it happens, the move would mark the largest single mass revocation of visas in US history.",
-            "source": "Euronews",
-            "item_id": "e01b071a53fdc37c139822f8e94938993c51f2072b53eb74189891572b168606",
+            "text": "\"The Iranian President candidly shared his government's perspective and we had a very constructive exchange on the issues involved,\" Interior Minister Mohsin Naqvi, who accompanied Munir to Tehran, said in a post on X.",
+            "source": "Straits Times Asia",
+            "item_id": "d1f4d2252f600a2f2549fbf01b2393e952db098e896f7231adb51f1ed3f09290:article",
+            "composed": false
+          },
+          {
+            "text": "Pakistan and Iran made \"significant progress\" in talks that focused on the U.S.-Israeli war on Iran and a path to peace, Pakistan's interior minister said on Tuesday, at the end of a visit to Tehran.",
+            "source": "Straits Times Asia",
+            "item_id": "d1f4d2252f600a2f2549fbf01b2393e952db098e896f7231adb51f1ed3f09290:article",
+            "composed": false
+          },
+          {
+            "text": "Munir spoke with U.S. President Donald Trump ahead of his Tehran visit, Reuters reported on Monday.",
+            "source": "Straits Times Asia",
+            "item_id": "d1f4d2252f600a2f2549fbf01b2393e952db098e896f7231adb51f1ed3f09290:article",
             "composed": false
           }
         ],
-        "source": "Euronews",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "http://www.euronews.com/2026/08/25/trump-administration-plans-to-revoke-200000-visas-of-asylum-seekers"
+        "url": "https://www.straitstimes.com/asia/pakistan-and-iran-made-significant-progress-in-talks-on-conflict-minister-says"
       },
       "group_size": 1,
       "label": "📰 NEWS"
