@@ -1,61 +1,218 @@
 {
-  "generated_at": "2026-08-25T16:01:22.195819+00:00",
-  "count": 1,
+  "generated_at": "2026-08-25T16:05:33.420708+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "37ac7452bafc31836bdd4f912b3561c19e5ad9d68fef919a998b52bddc9e0f95",
-      "title": "France says US risks ‘blocking everything’ at UN talks to protect world’s soils",
-      "url": "https://www.rfi.fr/en/environment/20260825-france-says-us-risks-blocking-everything-at-un-talks-to-protect-world-soils-cop17-desertification",
-      "source": "RFI English",
+      "id": "7abad013b8e582056d292591a749003075559e1e8032f89547b9510b923cd47e",
+      "title": "Nevada wildfire contained to 27 percent as thousands still displaced",
+      "url": "https://www.aljazeera.com/news/2026/8/25/nevada-wildfire-contained-to-27-percent-as-thousands-still-displaced?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": null,
       "discovery": false,
-      "summary": "The soil that grows the world's food and holds its water is becoming less productive, yet governments are struggling to agree on how to respond to this crisis. As political talks at Cop17, the United Nations conference on desertification and land degradation, stepped up in Mongolia on Tuesday, France's environment ambassador Barbara Pompili warned that disputes involving the United States are threatening progress.",
-      "published_at": "2026-08-25T15:59:31+00:00",
-      "updated_at": "2026-08-25T15:59:31+00:00",
-      "effective_at": "2026-08-25T15:59:31+00:00",
+      "summary": "The third wildfire in two weeks devastates neighbourhoods across Reno, home to major entertainment and casino resorts. Fire containment has reached 27 percent in the rampant wildfire that first erupted in the Sierra Nevada foothills near the city of Reno in the state of Nevada in the United States. At least seven people – three first responders and four civilians – have been injured. The blaze first broke out on Saturday and exploded in size by Sunday, destroying at least 32 homes and damaging six as it spread perilously close to dense neighbourhoods. Local officials, speaking at an afternoon news briefing on Monday, said those numbers are sure to rise as assessment teams begin to survey the charred areas. They also said the fire had no new growth and has held steady at about 60 square kilometres (23 square miles) since it burned out of control on Sunday. “We are making progress,” assured US Forest Service District Ranger Matt Zumstein. Videos posted on social media showed the smouldering ruins of homes and cars, with only a scorched basketball hoop still standing. By Monday, the number of residents under evacuation orders and warnings was lowered to about 63,000, down from more than 90,000 people when the blaze first mushroomed over the weekend. While winds have eased, there are still concerns that gusts could propel the flames through dry brush into newly developed neighbourhoods in Nevada’s largest city outside of metro Las Vegas. Reno is home to about 280,000 people. Schools across the local area were closed because of the evacuations and to keep roads clear for emergency crews.",
+      "published_at": "2026-08-25T15:52:42+00:00",
+      "updated_at": "2026-08-25T15:52:42+00:00",
+      "effective_at": "2026-08-25T15:52:42+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
+      "category": "disaster",
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "Europe",
+      "urgency_terms": [
+        "wildfire"
+      ],
+      "sector": "climate",
+      "subsector": "wildfires",
+      "subregion": null,
       "country": null,
       "entities": [
-        "barbara",
-        "cop17",
-        "france",
-        "mongolia",
-        "nations",
-        "pompili",
-        "un",
+        "district",
+        "forest",
+        "las",
+        "matt",
+        "nevada",
+        "ranger",
+        "reno",
+        "service",
+        "sierra",
         "united_states",
-        "us"
+        "us",
+        "vegas",
+        "zumstein"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 93,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "The third wildfire in two weeks devastates neighbourhoods across Reno, home to major entertainment and casino resorts.",
+        "Fire containment has reached 27 percent in the rampant wildfire that first erupted in the Sierra Nevada foothills near the city of Reno in the state of Nevada in the United States.",
+        "At least seven people – three first responders and four civilians – have been injured.",
+        "The blaze first broke out on Saturday and exploded in size by Sunday, destroying at least 32 homes and damaging six as it spread perilously close to dense neighbourhoods.",
+        "Local officials, speaking at an afternoon news briefing on Monday, said those numbers are sure to rise as assessment teams begin to survey the charred areas.",
+        "They also said the fire had no new growth and has held steady at about 60 square kilometres (23 square miles) since it burned out of control on Sunday.",
+        "“We are making progress,” assured US Forest Service District Ranger Matt Zumstein.",
+        "Videos posted on social media showed the smouldering ruins of homes and cars, with only a scorched basketball hoop still standing.",
+        "By Monday, the number of residents under evacuation orders and warnings was lowered to about 63,000, down from more than 90,000 people when the blaze first mushroomed over the weekend.",
+        "While winds have eased, there are still concerns that gusts could propel the flames through dry brush into newly developed neighbourhoods in Nevada’s largest city outside of metro Las Vegas.",
+        "Reno is home to about 280,000 people.",
+        "Schools across the local area were closed because of the evacuations and to keep roads clear for emergency crews."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "1eda36da21f3b49c5fd88f58",
+      "importance_score": 51.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 8,
+        "urgency": 9.0,
+        "novelty": 9.0,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 3000,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "infrastructure": 8,
+          "human": 8
+        }
+      },
+      "story_id": "7abad013b8e582056d292591a749003075559e1e8032f89547b9510b923cd47e",
+      "public_label": "🔄 UPDATE",
+      "headline": "Nevada wildfire contained to 27 percent as thousands still displaced",
+      "briefing": {
+        "opening": [
+          "The third wildfire in two weeks devastates neighbourhoods across Reno, home to major entertainment and casino resorts.",
+          "Fire containment has reached 27 percent in the rampant wildfire that first erupted in the Sierra Nevada foothills near the city of Reno in the state of Nevada in the United States."
+        ],
+        "body": [
+          "At least seven people – three first responders and four civilians – have been injured.",
+          "The blaze first broke out on Saturday and exploded in size by Sunday, destroying at least 32 homes and damaging six as it spread perilously close to dense neighbourhoods.",
+          "Local officials, speaking at an afternoon news briefing on Monday, said those numbers are sure to rise as assessment teams begin to survey the charred areas.",
+          "They also said the fire had no new growth and has held steady at about 60 square kilometres (23 square miles) since it burned out of control on Sunday.",
+          "“We are making progress,” assured US Forest Service District Ranger Matt Zumstein.",
+          "Videos posted on social media showed the smouldering ruins of homes and cars, with only a scorched basketball hoop still standing.",
+          "By Monday, the number of residents under evacuation orders and warnings was lowered to about 63,000, down from more than 90,000 people when the blaze first mushroomed over the weekend.",
+          "While winds have eased, there are still concerns that gusts could propel the flames through dry brush into newly developed neighbourhoods in Nevada’s largest city outside of metro Las Vegas."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Reno"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "out of control"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 32 homes"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "By Monday, the number of residents under evacuation orders and warnings was lowered to about 63,000, down from more than 90,000 people when the blaze first mushroomed over the weekend.",
+            "source": "Al Jazeera",
+            "item_id": "7abad013b8e582056d292591a749003075559e1e8032f89547b9510b923cd47e:article",
+            "composed": false
+          },
+          {
+            "text": "The blaze first broke out on Saturday and exploded in size by Sunday, destroying at least 32 homes and damaging six as it spread perilously close to dense neighbourhoods.",
+            "source": "Al Jazeera",
+            "item_id": "7abad013b8e582056d292591a749003075559e1e8032f89547b9510b923cd47e:article",
+            "composed": false
+          },
+          {
+            "text": "They also said the fire had no new growth and has held steady at about 60 square kilometres (23 square miles) since it burned out of control on Sunday.",
+            "source": "Al Jazeera",
+            "item_id": "7abad013b8e582056d292591a749003075559e1e8032f89547b9510b923cd47e:article",
+            "composed": false
+          },
+          {
+            "text": "Fire containment has reached 27 percent in the rampant wildfire that first erupted in the Sierra Nevada foothills near the city of Reno in the state of Nevada in the United States.",
+            "source": "Al Jazeera",
+            "item_id": "7abad013b8e582056d292591a749003075559e1e8032f89547b9510b923cd47e:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/news/2026/8/25/nevada-wildfire-contained-to-27-percent-as-thousands-still-displaced?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "121e04344529e87236dd9ee2d043ffca38f79178bac061a12be36f69cde85901",
+      "title": "VW workers boo boss as he urges them to ‘pull together’ amid job cuts",
+      "url": "https://www.theguardian.com/business/2026/aug/25/vw-workers-boo-boss-as-he-urges-them-to-pull-together-amid-job-cuts",
+      "source": "The Guardian World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Oliver Blume faces workforce at German HQ as carmaker struggles against Chinese competition and US tariffs The chief executive of Volkswagen has faced boos and whistles of protest at the company’s headquarters after telling thousands of workers that a comprehensive reorganisation, which could include job losses and factory closures, is vital for its future. As Oliver Blume urged more than 10,000 workers on Tuesday to “pull together”, saying drastic restructuring measures at the struggling manufacturer were essential, they held up banners and shouted slogans, including: “Our jobs are not your balance sheet adjustments”. Continue reading...",
+      "published_at": "2026-08-25T15:47:56+00:00",
+      "updated_at": "2026-08-25T15:47:56+00:00",
+      "effective_at": "2026-08-25T15:47:56+00:00",
+      "language_status": "ENGLISH",
+      "category": "industry",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "labor",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "blume",
+        "china",
+        "german",
+        "hq",
+        "oliver",
+        "our",
+        "us",
+        "volkswagen"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 80,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "e5133265208d3c2f117bcf56",
-      "importance_score": 39.0,
+      "event_id": "39540177951ee581d56252ac",
+      "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -68,42 +225,44 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 8
+          "human": 4
         }
       },
-      "story_id": "37ac7452bafc31836bdd4f912b3561c19e5ad9d68fef919a998b52bddc9e0f95",
+      "story_id": "121e04344529e87236dd9ee2d043ffca38f79178bac061a12be36f69cde85901",
       "public_label": "📰 NEWS",
-      "headline": "France says US risks ‘blocking everything’ at UN talks to protect world’s soils",
+      "headline": "VW workers boo boss as he urges them to ‘pull together’ amid job cuts",
       "briefing": {
         "opening": [
-          "The soil that grows the world's food and holds its water is becoming less productive, yet governments are struggling to agree on how to respond to this crisis.",
-          "As political talks at Cop17, the United Nations conference on desertification and land degradation, stepped up in Mongolia on Tuesday, France's environment ambassador Barbara Pompili warned that disputes involving the United States are threatening progress."
+          "Oliver Blume faces workforce at German HQ as carmaker struggles against Chinese competition and US tariffs.",
+          "The chief executive of Volkswagen has faced boos and whistles of protest at the company’s headquarters after telling thousands of workers that a comprehensive reorganisation, which could include job losses and factory closures, is vital for its future."
         ],
-        "body": [],
+        "body": [
+          "As Oliver Blume urged more than 10,000 workers on Tuesday to “pull together”, saying drastic restructuring measures at the struggling manufacturer were essential, they held up banners and shouted slogans, including: “Our jobs are not your balance sheet adjustments”."
+        ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Cop"
+            "text": "German HQ"
           }
         ],
         "sentences": [
           {
-            "text": "The soil that grows the world's food and holds its water is becoming less productive, yet governments are struggling to agree on how to respond to this crisis.",
-            "source": "RFI English",
-            "item_id": "37ac7452bafc31836bdd4f912b3561c19e5ad9d68fef919a998b52bddc9e0f95",
+            "text": "The chief executive of Volkswagen has faced boos and whistles of protest at the company’s headquarters after telling thousands of workers that a comprehensive reorganisation, which could include job losses and factory closures, is vital for its future.",
+            "source": "The Guardian World",
+            "item_id": "121e04344529e87236dd9ee2d043ffca38f79178bac061a12be36f69cde85901",
             "composed": false
           },
           {
-            "text": "As political talks at Cop17, the United Nations conference on desertification and land degradation, stepped up in Mongolia on Tuesday, France's environment ambassador Barbara Pompili warned that disputes involving the United States are threatening progress.",
-            "source": "RFI English",
-            "item_id": "37ac7452bafc31836bdd4f912b3561c19e5ad9d68fef919a998b52bddc9e0f95",
+            "text": "As Oliver Blume urged more than 10,000 workers on Tuesday to “pull together”, saying drastic restructuring measures at the struggling manufacturer were essential, they held up banners and shouted slogans, including: “Our jobs are not your balance sheet adjustments”.",
+            "source": "The Guardian World",
+            "item_id": "121e04344529e87236dd9ee2d043ffca38f79178bac061a12be36f69cde85901",
             "composed": false
           }
         ],
-        "source": "RFI English",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://www.rfi.fr/en/environment/20260825-france-says-us-risks-blocking-everything-at-un-talks-to-protect-world-soils-cop17-desertification"
+        "url": "https://www.theguardian.com/business/2026/aug/25/vw-workers-boo-boss-as-he-urges-them-to-pull-together-amid-job-cuts"
       },
       "group_size": 1,
       "label": "📰 NEWS"
