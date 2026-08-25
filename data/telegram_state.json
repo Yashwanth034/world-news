@@ -1,14 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "e88f6a2278c973d0204811d08cdb957ae2d8d65c7d0c2ee3f9f91ffd6e686cd8",
-      "event_id": "5e42589af549ca0778e62f01",
-      "item_id": "e88f6a2278c973d0204811d08cdb957ae2d8d65c7d0c2ee3f9f91ffd6e686cd8",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-08-24T21:34:38+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "5e537778df04b9c809116b15c4444c77745c08054ce954360d94c5aa12e334b6",
       "event_id": "10a244c7cd87ccd234b58530",
       "item_id": "5e537778df04b9c809116b15c4444c77745c08054ce954360d94c5aa12e334b6",
@@ -751,9 +743,26 @@
       "label": "📰 NEWS",
       "scheduled_at": "2026-08-25T09:27:53+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "fea200e585bd9c534a2f3e1417e3fc619127da918d7bf1c6f217006d17184585",
+      "event_id": "29aba1b58929f63238755cf4",
+      "item_id": "fea200e585bd9c534a2f3e1417e3fc619127da918d7bf1c6f217006d17184585",
+      "label": "🔄 UPDATE",
+      "scheduled_at": "2026-08-25T09:34:56+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "59eec0a2cf3e484745e9dae298cec23acf9f831e74ef2aec7942a092a87d1a62",
+      "event_id": "272de826e520815c2768167a",
+      "item_id": "59eec0a2cf3e484745e9dae298cec23acf9f831e74ef2aec7942a092a87d1a62",
+      "label": "🔄 UPDATE",
+      "message_id": 1919,
+      "posted_at": "2026-08-25T09:34:56.000145+00:00",
+      "scheduled_at": "2026-08-25T09:33:47+00:00"
+    },
     {
       "story_id": "10d1042b774f9333e58ce99534505b37209d3e8c99a3b00de40d3aa177549e6f",
       "event_id": "db2c2faeefdaf5fb0cfb274d",
@@ -3597,17 +3606,8 @@
       "message_id": 1600,
       "posted_at": "2026-08-23T03:43:07.000142+00:00",
       "scheduled_at": "2026-08-23T03:43:07+00:00"
-    },
-    {
-      "story_id": "61e11e206e85ed1a5df44c00502f110ccad2cd2d3f8f5c02197d3b646f313a72",
-      "event_id": "7db6d0401e08c45c8e054af7",
-      "item_id": "61e11e206e85ed1a5df44c00502f110ccad2cd2d3f8f5c02197d3b646f313a72",
-      "label": "🔄 UPDATE",
-      "message_id": 1599,
-      "posted_at": "2026-08-23T03:34:29.000122+00:00",
-      "scheduled_at": "2026-08-23T03:34:26+00:00"
     }
   ],
   "failures": [],
-  "last_posted_at": "2026-08-25T09:27:03.000156+00:00"
+  "last_posted_at": "2026-08-25T09:34:56.000145+00:00"
 }
