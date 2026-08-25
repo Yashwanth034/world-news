@@ -1,55 +1,220 @@
 {
-  "generated_at": "2026-08-25T02:01:07.077818+00:00",
-  "count": 1,
+  "generated_at": "2026-08-25T02:10:46.839160+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "3687e52b3450dc143eef701981cb43fd461f38261ec932160b5bb86eae5f013c",
-      "title": "Hong Kong to revamp senior secondary science and maths curriculum from 2029-30",
-      "url": "https://www.scmp.com/news/hong-kong/education/article/3365107/hong-kong-revamp-senior-secondary-science-and-maths-curriculum-2029-30?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "aefd60c6b481398fef96f0a17a5b09fe9a012bb710ad3f8f88c693d052e37519",
+      "title": "China’s hackers use DeepSeek for attacks, researchers say",
+      "url": "https://www.straitstimes.com/asia/east-asia/chinas-hackers-use-deepseek-for-attacks-researchers-say",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Hong Kong’s education authorities will revamp the senior secondary school science and extended maths curriculum by providing additional syllabus options from the 2029-30 academic year in a bid to attract more students and nurture talent in the field. The Education Bureau also said it had asked schools to actively encourage students interested in science and mathematics to take two or more science subjects to create a synergistic effect. The bureau said in a circular to schools on Monday that the...",
-      "published_at": "2026-08-25T02:00:24+00:00",
-      "updated_at": "2026-08-25T02:00:24+00:00",
-      "effective_at": "2026-08-25T02:00:24+00:00",
+      "summary": "Chinese state-affiliated hackers have increased attacks by using DeepSeek and other open-source AI models to automate tasks and develop advanced malicious software, according to TeamT5. DeepSeek is popular among Chinese hackers due to its high performance, customisability, low cost, and weak cybersecurity guardrails compared to Western AI models. Groups linked to the Chinese government use AI tools like DeepSeek, Claude Code, and ChatGPT for reconnaissance, exploit creation, and lateral movement in cyberattacks on foreign companies and institutions. Chinese hackers are ramping up attacks after integrating DeepSeek and other open-source artificial intelligence models into their operations, highlighting attackers’ ability to leverage basic AI tools to hit targets abroad. State-affiliated cyber groups more than doubled the amount of attacks they carried out since they began delegating mundane tasks to AI and using it to develop advanced malicious software, according to TeamT5, a Taiwanese research firm. Researchers said it was not always possible to identify the AI model they used, but in general DeepSeek’s offerings are popular with hackers in the country because of its high performance and ability to be customised. Anxieties among US national security officials are mounting over the autonomous capabilities of advanced models from Anthropic PBC and OpenAI after a series of high-profile incidents in which they managed to break out of testing environments. Researchers say experienced Chinese hackers are using far less capable AI to scale up their activities and achieve breakthroughs. While other models produced in the country are more powerful – including Moonshot’s breakout Kimi K3 model – hackers are drawn to DeepSeek’s relatively lax cybersecurity barriers and low cost of running, researchers said. They added that they had yet to record an incident involving Kimi K3, which they believe is prohibitively expensive for hackers to run. “DeepSeek is the AI of choice for Chinese hackers because it’s relatively powerful with very low cyber guardrails,” said Charles Li, chief analyst at Team T5. “Western models are highly sought-after but their guardrails are much more strict and require a lot more effort to bypass.”",
+      "published_at": "2026-08-25T02:00:00+00:00",
+      "updated_at": "2026-08-25T02:00:00+00:00",
+      "effective_at": "2026-08-25T02:00:00+00:00",
       "language_status": "ENGLISH",
-      "category": "science",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "law",
-      "subsector": "education",
+      "sector": "technology",
+      "subsector": "cybersecurity",
       "subregion": "East Asia",
       "country": null,
       "entities": [
-        "bureau",
-        "education",
-        "hong_kong"
+        "ai",
+        "anthropic",
+        "charles",
+        "chatgpt",
+        "china",
+        "claude",
+        "code",
+        "deepseek",
+        "k3",
+        "kimi",
+        "li",
+        "moonshot",
+        "openai",
+        "pbc",
+        "t5",
+        "taiwanese",
+        "teamt5",
+        "us",
+        "western"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 88,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "Chinese state-affiliated hackers have increased attacks by using DeepSeek and other open-source AI models to automate tasks and develop advanced malicious software, according to TeamT5.",
+        "DeepSeek is popular among Chinese hackers due to its high performance, customisability, low cost, and weak cybersecurity guardrails compared to Western AI models.",
+        "Groups linked to the Chinese government use AI tools like DeepSeek, Claude Code, and ChatGPT for reconnaissance, exploit creation, and lateral movement in cyberattacks on foreign companies and institutions.",
+        "Chinese hackers are ramping up attacks after integrating DeepSeek and other open-source artificial intelligence models into their operations, highlighting attackers’ ability to leverage basic AI tools to hit targets abroad.",
+        "State-affiliated cyber groups more than doubled the amount of attacks they carried out since they began delegating mundane tasks to AI and using it to develop advanced malicious software, according to TeamT5, a Taiwanese research firm.",
+        "Researchers said it was not always possible to identify the AI model they used, but in general DeepSeek’s offerings are popular with hackers in the country because of its high performance and ability to be customised.",
+        "Anxieties among US national security officials are mounting over the autonomous capabilities of advanced models from Anthropic PBC and OpenAI after a series of high-profile incidents in which they managed to break out of testing environments.",
+        "Researchers say experienced Chinese hackers are using far less capable AI to scale up their activities and achieve breakthroughs.",
+        "While other models produced in the country are more powerful – including Moonshot’s breakout Kimi K3 model – hackers are drawn to DeepSeek’s relatively lax cybersecurity barriers and low cost of running, researchers said.",
+        "They added that they had yet to record an incident involving Kimi K3, which they believe is prohibitively expensive for hackers to run.",
+        "“DeepSeek is the AI of choice for Chinese hackers because it’s relatively powerful with very low cyber guardrails,” said Charles Li, chief analyst at Team T5.",
+        "“Western models are highly sought-after but their guardrails are much more strict and require a lot more effort to bypass.”"
+      ],
+      "event_status": "UPDATE",
+      "event_id": "9fe0a550bef4503c02550f86",
+      "importance_score": 77.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 18,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 28,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": true,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8,
+          "human": 4,
+          "economic": 4,
+          "scientific": 4
+        }
+      },
+      "story_id": "aefd60c6b481398fef96f0a17a5b09fe9a012bb710ad3f8f88c693d052e37519",
+      "public_label": "🔄 UPDATE",
+      "headline": "China’s hackers use DeepSeek for attacks, researchers say",
+      "briefing": {
+        "opening": [
+          "Chinese state-affiliated hackers have increased attacks by using DeepSeek and other open-source AI models to automate tasks and develop advanced malicious software, according to TeamT5.",
+          "DeepSeek is popular among Chinese hackers due to its high performance, customisability, low cost, and weak cybersecurity guardrails compared to Western AI models."
+        ],
+        "body": [
+          "Groups linked to the Chinese government use AI tools like DeepSeek, Claude Code, and ChatGPT for reconnaissance, exploit creation, and lateral movement in cyberattacks on foreign companies and institutions.",
+          "Chinese hackers are ramping up attacks after integrating DeepSeek and other open-source artificial intelligence models into their operations, highlighting attackers’ ability to leverage basic AI tools to hit targets abroad.",
+          "State-affiliated cyber groups more than doubled the amount of attacks they carried out since they began delegating mundane tasks to AI and using it to develop advanced malicious software, according to TeamT5, a Taiwanese research firm.",
+          "Researchers said it was not always possible to identify the AI model they used, but in general DeepSeek’s offerings are popular with hackers in the country because of its high performance and ability to be customised.",
+          "Anxieties among US national security officials are mounting over the autonomous capabilities of advanced models from Anthropic PBC and OpenAI after a series of high-profile incidents in which they managed to break out of testing environments.",
+          "Researchers say experienced Chinese hackers are using far less capable AI to scale up their activities and achieve breakthroughs.",
+          "While other models produced in the country are more powerful – including Moonshot’s breakout Kimi K3 model – hackers are drawn to DeepSeek’s relatively lax cybersecurity barriers and low cost of running, researchers said.",
+          "They added that they had yet to record an incident involving Kimi K3, which they believe is prohibitively expensive for hackers to run."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Chinese state-affiliated hackers have increased attacks by using DeepSeek and other open-source AI models to automate tasks and develop advanced malicious software, according to TeamT5.",
+            "source": "Straits Times Asia",
+            "item_id": "aefd60c6b481398fef96f0a17a5b09fe9a012bb710ad3f8f88c693d052e37519:article",
+            "composed": false
+          },
+          {
+            "text": "They added that they had yet to record an incident involving Kimi K3, which they believe is prohibitively expensive for hackers to run.",
+            "source": "Straits Times Asia",
+            "item_id": "aefd60c6b481398fef96f0a17a5b09fe9a012bb710ad3f8f88c693d052e37519:article",
+            "composed": false
+          },
+          {
+            "text": "State-affiliated cyber groups more than doubled the amount of attacks they carried out since they began delegating mundane tasks to AI and using it to develop advanced malicious software, according to TeamT5, a Taiwanese research firm.",
+            "source": "Straits Times Asia",
+            "item_id": "aefd60c6b481398fef96f0a17a5b09fe9a012bb710ad3f8f88c693d052e37519:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/east-asia/chinas-hackers-use-deepseek-for-attacks-researchers-say"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "7879576be6124c26c7dcbb70880ada5e9de379197f37fa7cdaba3fbf93227774",
+      "title": "Burnham refuses to rule out tax rises in autumn Budget",
+      "url": "https://www.bbc.co.uk/news/articles/cj06818jgzlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_category": "finance",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Andy Burnham has refused to rule out tax rises in the upcoming autumn Budget, saying he \"won't be unrealistic\" about the \"challenging\" state of public finances. The prime minister said he would take a \"careful approach\" to the economy, and defended his previously announced cost of living pledges as funded spending commitments. Burnham became prime minister in July promising to give people breathing space and help with the cost of living, but questions remain over how major policies such as social care reforms will be funded. Experts have previously warned that he and Chancellor John Healey will have little financial room to manoeuvre in their first Budget on 28 October. Speaking during his first visit to Ukraine, Burnham said the policies announced so far including capping bus fares at £2 and cutting VAT on household electricity bills were \"the first steps that I've felt able to make\", and were doable because he was able to reprioritise funding from elsewhere. \"I took the decision early on that digital ID wasn't the top priority for now. And so we've reprioritised funding to other priorities,\" he said in an interview with ITV. Asked if the public needed to accept some of the new policies would have to be paid for in tax rises, Burnham said they wouldn't necessarily have to accept that. Pushed on whether he would need to raise taxes to cover spending gaps, he said: \"I will always take a careful approach to things. I ran Greater Manchester for 10 years and we ran a very tight ship with rock solid finances. \"Nothing will change as I come into this role as prime minister. I won't take risks with people's jobs or their livelihoods or their family finances.",
+      "published_at": "2026-08-25T01:35:47+00:00",
+      "updated_at": "2026-08-25T01:35:47+00:00",
+      "effective_at": "2026-08-25T01:35:47+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "finance",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "andy",
+        "budget",
+        "burnham",
+        "greater",
+        "healey",
+        "id",
+        "itv",
+        "john",
+        "manchester",
+        "ukraine",
+        "vat"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 95,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Andy Burnham has refused to rule out tax rises in the upcoming autumn Budget, saying he \"won't be unrealistic\" about the \"challenging\" state of public finances.",
+        "The prime minister said he would take a \"careful approach\" to the economy, and defended his previously announced cost of living pledges as funded spending commitments.",
+        "Burnham became prime minister in July promising to give people breathing space and help with the cost of living, but questions remain over how major policies such as social care reforms will be funded.",
+        "Experts have previously warned that he and Chancellor John Healey will have little financial room to manoeuvre in their first Budget on 28 October.",
+        "Speaking during his first visit to Ukraine, Burnham said the policies announced so far including capping bus fares at £2 and cutting VAT on household electricity bills were \"the first steps that I've felt able to make\", and were doable because he was able to reprioritise funding from elsewhere.",
+        "\"I took the decision early on that digital ID wasn't the top priority for now.",
+        "And so we've reprioritised funding to other priorities,\" he said in an interview with ITV.",
+        "Asked if the public needed to accept some of the new policies would have to be paid for in tax rises, Burnham said they wouldn't necessarily have to accept that.",
+        "Pushed on whether he would need to raise taxes to cover spending gaps, he said: \"I will always take a careful approach to things.",
+        "I ran Greater Manchester for 10 years and we ran a very tight ship with rock solid finances.",
+        "\"Nothing will change as I come into this role as prime minister.",
+        "I won't take risks with people's jobs or their livelihoods or their family finances."
+      ],
       "event_status": "NEW",
-      "event_id": "e79da749387ad91610da3563",
-      "importance_score": 28.0,
+      "event_id": "73083928a7d7e663d8470513",
+      "importance_score": 39.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 8.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -61,37 +226,188 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "economic": 4,
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
       },
-      "story_id": "3687e52b3450dc143eef701981cb43fd461f38261ec932160b5bb86eae5f013c",
+      "story_id": "7879576be6124c26c7dcbb70880ada5e9de379197f37fa7cdaba3fbf93227774",
       "public_label": "📰 NEWS",
-      "headline": "Hong Kong to revamp senior secondary science and maths curriculum from 2029-30",
+      "headline": "Burnham refuses to rule out tax rises in autumn Budget",
       "briefing": {
         "opening": [
-          "Hong Kong’s education authorities will revamp the senior secondary school science and extended maths curriculum by providing additional syllabus options from the 2029-30 academic year in a bid to attract more students and nurture talent in the field.",
-          "The Education Bureau also said it had asked schools to actively encourage students interested in science and mathematics to take two or more science subjects to create a synergistic effect."
+          "Andy Burnham has refused to rule out tax rises in the upcoming autumn Budget, saying he \"won't be unrealistic\" about the \"challenging\" state of public finances.",
+          "The prime minister said he would take a \"careful approach\" to the economy, and defended his previously announced cost of living pledges as funded spending commitments."
         ],
         "body": [
-          "The bureau said in a circular to schools on Monday that the..."
+          "Burnham became prime minister in July promising to give people breathing space and help with the cost of living, but questions remain over how major policies such as social care reforms will be funded.",
+          "Experts have previously warned that he and Chancellor John Healey will have little financial room to manoeuvre in their first Budget on 28 October.",
+          "Speaking during his first visit to Ukraine, Burnham said the policies announced so far including capping bus fares at £2 and cutting VAT on household electricity bills were \"the first steps that I've felt able to make\", and were doable because he was able to reprioritise funding from elsewhere.",
+          "\"I took the decision early on that digital ID wasn't the top priority for now.",
+          "And so we've reprioritised funding to other priorities,\" he said in an interview with ITV.",
+          "Asked if the public needed to accept some of the new policies would have to be paid for in tax rises, Burnham said they wouldn't necessarily have to accept that.",
+          "Pushed on whether he would need to raise taxes to cover spending gaps, he said: \"I will always take a careful approach to things.",
+          "I ran Greater Manchester for 10 years and we ran a very tight ship with rock solid finances."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "July"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Andy Burnham has refused to rule out tax rises in the upcoming autumn Budget, saying he \"won't be unrealistic\" about the \"challenging\" state of public finances.",
+            "source": "BBC Business",
+            "item_id": "7879576be6124c26c7dcbb70880ada5e9de379197f37fa7cdaba3fbf93227774:article",
+            "composed": false
+          },
+          {
+            "text": "Experts have previously warned that he and Chancellor John Healey will have little financial room to manoeuvre in their first Budget on 28 October.",
+            "source": "BBC Business",
+            "item_id": "7879576be6124c26c7dcbb70880ada5e9de379197f37fa7cdaba3fbf93227774:article",
+            "composed": false
+          },
+          {
+            "text": "Speaking during his first visit to Ukraine, Burnham said the policies announced so far including capping bus fares at £2 and cutting VAT on household electricity bills were \"the first steps that I've felt able to make\", and were doable because he was able to reprioritise funding from elsewhere.",
+            "source": "BBC Business",
+            "item_id": "7879576be6124c26c7dcbb70880ada5e9de379197f37fa7cdaba3fbf93227774:article",
+            "composed": false
+          },
+          {
+            "text": "Burnham became prime minister in July promising to give people breathing space and help with the cost of living, but questions remain over how major policies such as social care reforms will be funded.",
+            "source": "BBC Business",
+            "item_id": "7879576be6124c26c7dcbb70880ada5e9de379197f37fa7cdaba3fbf93227774:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC Business",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/cj06818jgzlo?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "1323f31c19c841b7c7b95e790e0db03b6acd3264c42fc245b2de933b40e6adfe",
+      "title": "Lee says police will be biggest power, stresses need for reform by gov't body",
+      "url": "https://en.yna.co.kr/view/AEN20260825003500315",
+      "source": "Yonhap English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "SEOUL, Aug. 25 (Yonhap) -- President Lee Jae Myung said Tuesday the police will ...",
+      "published_at": "2026-08-25T01:54:41+00:00",
+      "updated_at": "2026-08-25T01:54:41+00:00",
+      "effective_at": "2026-08-25T01:54:41+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "aug",
+        "jae",
+        "lee",
+        "myung",
+        "seoul",
+        "yonhap"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "93bfe9a08c1fcfbc6e453a27",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "1323f31c19c841b7c7b95e790e0db03b6acd3264c42fc245b2de933b40e6adfe",
+      "article_sentences": [
+        "President Lee Jae Myung said Tuesday the police will soon wield the greatest power among government agencies, calling for the formation of a government body to be in charge of police reform.",
+        "The president made the remarks at a Cabinet meeting following the recent passage of a revision to the Criminal Procedure Act, which, when enacted, will completely strip the prosecution of all investigative authority, leaving such power solely to the police.",
+        "They also come after the discovery of the presumed body of a woman reported missing on the southern Jeju Island.",
+        "A police officer on Jeju reportedly closed the missing person case without confirming her whereabouts or safety, prompting a public outcry over lax police investigations.",
+        "\"As there is skepticism about whether (police) are qualified to exercise their great authority, I hope (the government) will consider how to reform the police, how to establish a (government) body\" that will oversee police reform, Lee said."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Lee says police will be biggest power, stresses need for reform by gov't body",
+      "briefing": {
+        "opening": [
+          "President Lee Jae Myung said Tuesday the police will soon wield the greatest power among government agencies, calling for the formation of a government body to be in charge of police reform.",
+          "The president made the remarks at a Cabinet meeting following the recent passage of a revision to the Criminal Procedure Act, which, when enacted, will completely strip the prosecution of all investigative authority, leaving such power solely to the police."
+        ],
+        "body": [
+          "They also come after the discovery of the presumed body of a woman reported missing on the southern Jeju Island.",
+          "A police officer on Jeju reportedly closed the missing person case without confirming her whereabouts or safety, prompting a public outcry over lax police investigations.",
+          "\"As there is skepticism about whether (police) are qualified to exercise their great authority, I hope (the government) will consider how to reform the police, how to establish a (government) body\" that will oversee police reform, Lee said.",
+          "President Lee Jae Myung said Tuesday the police will..."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "The Education Bureau also said it had asked schools to actively encourage students interested in science and mathematics to take two or more science subjects to create a synergistic effect.",
-            "source": "South China Morning Post",
-            "item_id": "3687e52b3450dc143eef701981cb43fd461f38261ec932160b5bb86eae5f013c",
+            "text": "\"As there is skepticism about whether (police) are qualified to exercise their great authority, I hope (the government) will consider how to reform the police, how to establish a (government) body\" that will oversee police reform, Lee said.",
+            "source": "Yonhap English",
+            "item_id": "1323f31c19c841b7c7b95e790e0db03b6acd3264c42fc245b2de933b40e6adfe:article",
             "composed": false
           },
           {
-            "text": "Hong Kong’s education authorities will revamp the senior secondary school science and extended maths curriculum by providing additional syllabus options from the 2029-30 academic year in a bid to attract more students and nurture talent in the field.",
-            "source": "South China Morning Post",
-            "item_id": "3687e52b3450dc143eef701981cb43fd461f38261ec932160b5bb86eae5f013c",
+            "text": "The president made the remarks at a Cabinet meeting following the recent passage of a revision to the Criminal Procedure Act, which, when enacted, will completely strip the prosecution of all investigative authority, leaving such power solely to the police.",
+            "source": "Yonhap English",
+            "item_id": "1323f31c19c841b7c7b95e790e0db03b6acd3264c42fc245b2de933b40e6adfe:article",
+            "composed": false
+          },
+          {
+            "text": "They also come after the discovery of the presumed body of a woman reported missing on the southern Jeju Island.",
+            "source": "Yonhap English",
+            "item_id": "1323f31c19c841b7c7b95e790e0db03b6acd3264c42fc245b2de933b40e6adfe:article",
+            "composed": false
+          },
+          {
+            "text": "President Lee Jae Myung said Tuesday the police will soon wield the greatest power among government agencies, calling for the formation of a government body to be in charge of police reform.",
+            "source": "Yonhap English",
+            "item_id": "1323f31c19c841b7c7b95e790e0db03b6acd3264c42fc245b2de933b40e6adfe:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "Yonhap English",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/education/article/3365107/hong-kong-revamp-senior-secondary-science-and-maths-curriculum-2029-30?utm_source=rss_feed"
+        "url": "https://en.yna.co.kr/view/AEN20260825003500315"
       },
       "group_size": 1,
       "label": "📰 NEWS"
