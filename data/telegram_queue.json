@@ -1,66 +1,78 @@
 {
-  "generated_at": "2026-08-26T06:00:04.750137+00:00",
+  "generated_at": "2026-08-26T06:05:05.286992+00:00",
   "count": 2,
   "stories": [
     {
-      "id": "f5efbe0cbe9ca8d973da1f77b7c929b8ddc9af32452f3fa931831caba75fb43f",
-      "title": "Vietnam's Ho Chi Minh City proposes curbs on gasoline, diesel vehicles from mid-2027",
-      "url": "https://www.straitstimes.com/asia/vietnams-ho-chi-minh-city-proposes-curbs-on-gasoline-diesel-vehicles-from-mid-2027",
+      "id": "5c0e3858c491a8853f4fee198e3c2b474a0c34dca84641beffbb200f0e0bbdc1",
+      "title": "Japan to extend weather forecasts in response to climate change",
+      "url": "https://www.straitstimes.com/asia/east-asia/japan-to-extend-weather-forecasts-in-response-to-climate-change",
       "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "HANOI, Aug 26 - Ho Chi Minh City, Vietnam's commercial hub, is proposing to gradually restrict gasoline- and diesel-powered vehicles from its downtown area from mid-2027 as part of a planned low-emission zone (LEZ), state-run Thanh Nien newspaper reported, citing city authorities.",
-      "published_at": "2026-08-26T05:53:55+00:00",
-      "updated_at": "2026-08-26T05:53:55+00:00",
-      "effective_at": "2026-08-26T05:53:55+00:00",
+      "summary": "Japan's Meteorological Agency plans to extend weather forecasts from seven days to two weeks by 2030 to better prepare for extreme weather events. Climate change is increasing the frequency and severity of dangerous weather in Japan, including record heat and deadly rains. Longer forecasts will help with early preparations, such as securing manpower for snow removal, improving safety and response measures. Japan’s meteorological agency said on Aug 26 it plans to start issuing two-week forecasts to better prepare for extreme weather events, up from seven days at present. Like elsewhere, human-induced climate change is increasing the frequency and intensity of dangerous weather in Japan, scientists say. In 2025, the country had its hottest summer on record and earlier in August torrential rains in the Chiba region killed at least 13 people. Currently the Japan Meteorological Agency (JMA) issues forecasts for the following seven days. But an expert report commissioned by the JMA said that advances in climate data observations and simulations made it possible – and desirable – to extend this to two weeks. “Extended period of weather forecasts with warnings will help better preparations for extreme weather that have been frequently observed in recent years, something which is driven by global warming,” JMA official Masayuki Kyoda told AFP. “We have heard, for example, that it takes two weeks to secure manpower needed for snow removal. You can’t gather people quickly to clear snow,” added Kyoda, who is in charge of analysing abnormal weather for the agency.",
+      "published_at": "2026-08-26T06:00:00+00:00",
+      "updated_at": "2026-08-26T06:00:00+00:00",
+      "effective_at": "2026-08-26T06:00:00+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
+      "category": "environment",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "Southeast Asia",
+      "sector": "climate",
+      "subsector": "weather",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
+        "afp",
+        "agency",
         "aug",
-        "chi",
-        "city",
-        "hanoi",
-        "ho",
-        "lez",
-        "minh",
-        "nien",
-        "thanh",
-        "vietnam"
+        "chiba",
+        "japan",
+        "jma",
+        "kyoda",
+        "masayuki",
+        "meteorological"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "Japan's Meteorological Agency plans to extend weather forecasts from seven days to two weeks by 2030 to better prepare for extreme weather events.",
+        "Climate change is increasing the frequency and severity of dangerous weather in Japan, including record heat and deadly rains.",
+        "Longer forecasts will help with early preparations, such as securing manpower for snow removal, improving safety and response measures.",
+        "Japan’s meteorological agency said on Aug 26 it plans to start issuing two-week forecasts to better prepare for extreme weather events, up from seven days at present.",
+        "Like elsewhere, human-induced climate change is increasing the frequency and intensity of dangerous weather in Japan, scientists say.",
+        "In 2025, the country had its hottest summer on record and earlier in August torrential rains in the Chiba region killed at least 13 people.",
+        "Currently the Japan Meteorological Agency (JMA) issues forecasts for the following seven days.",
+        "But an expert report commissioned by the JMA said that advances in climate data observations and simulations made it possible – and desirable – to extend this to two weeks.",
+        "“Extended period of weather forecasts with warnings will help better preparations for extreme weather that have been frequently observed in recent years, something which is driven by global warming,” JMA official Masayuki Kyoda told AFP.",
+        "“We have heard, for example, that it takes two weeks to secure manpower needed for snow removal.",
+        "You can’t gather people quickly to clear snow,” added Kyoda, who is in charge of analysing abnormal weather for the agency."
+      ],
       "event_status": "NEW",
-      "event_id": "72ea8a115c3e7d9eb33553ab",
-      "importance_score": 72.0,
-      "importance_level": "HIGH",
+      "event_id": "4f6394bc8393bcc9ccf38613",
+      "importance_score": 62.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 32,
-        "urgency": 7.0,
+        "impact": 16.0,
+        "urgency": 10,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
         "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 2027,
+          "dead": 13,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -69,203 +81,216 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 12
+          "human": 8,
+          "scientific": 4
         }
       },
-      "story_id": "f5efbe0cbe9ca8d973da1f77b7c929b8ddc9af32452f3fa931831caba75fb43f",
-      "article_sentences": [
-        "Ho Chi Minh City, Vietnam's commercial hub, is proposing to gradually restrict gasoline- and diesel-powered vehicles from its downtown area from mid-2027 as part of a planned low-emission zone (LEZ), state-run Thanh Nien newspaper reported, citing city authorities.",
-        "Under the proposal, the city would pilot the LEZ from July 2027 in its core downtown area and the new Thu Thiem urban area, which covers roughly 930 hectares (3.59 square miles), Thanh Nien reported.",
-        "After two years of piloting, the LEZ would expand to within the city's Ring Road 2 from early 2029, an area that already restricts heavy trucks and sleeper buses from the inner city during certain hours, it added.",
-        "The new timeline is later than a previous proposal, in which the implementation of the LEZ was set to begin in early 2026.",
-        "The revised plan adjusts the scope and some milestones to align with the launch of green transport infrastructure and give residents and businesses more time to switch vehicles.",
-        "Buses are the first group required to convert, and will need to use electricity or clean energy when entering the LEZ starting in 2027.",
-        "Motorcycle-taxi drivers and delivery riders would follow, while other categories such as taxis face later deadlines.",
-        "The proposal remains subject to further review before it is formally approved."
-      ],
+      "story_id": "5c0e3858c491a8853f4fee198e3c2b474a0c34dca84641beffbb200f0e0bbdc1",
       "public_label": "📰 NEWS",
-      "headline": "Vietnam's Ho Chi Minh City proposes curbs on gasoline, diesel vehicles from mid-2027",
+      "headline": "Japan to extend weather forecasts in response to climate change",
       "briefing": {
         "opening": [
-          "Ho Chi Minh City, Vietnam's commercial hub, is proposing to gradually restrict gasoline- and diesel-powered vehicles from its downtown area from mid-2027 as part of a planned low-emission zone (LEZ), state-run Thanh Nien newspaper reported, citing city authorities.",
-          "Under the proposal, the city would pilot the LEZ from July 2027 in its core downtown area and the new Thu Thiem urban area, which covers roughly 930 hectares (3.59 square miles), Thanh Nien reported."
+          "Japan's Meteorological Agency plans to extend weather forecasts from seven days to two weeks by 2030 to better prepare for extreme weather events.",
+          "Climate change is increasing the frequency and severity of dangerous weather in Japan, including record heat and deadly rains."
         ],
         "body": [
-          "After two years of piloting, the LEZ would expand to within the city's Ring Road 2 from early 2029, an area that already restricts heavy trucks and sleeper buses from the inner city during certain hours, it added.",
-          "The new timeline is later than a previous proposal, in which the implementation of the LEZ was set to begin in early 2026.",
-          "The revised plan adjusts the scope and some milestones to align with the launch of green transport infrastructure and give residents and businesses more time to switch vehicles.",
-          "Buses are the first group required to convert, and will need to use electricity or clean energy when entering the LEZ starting in 2027.",
-          "Motorcycle-taxi drivers and delivery riders would follow, while other categories such as taxis face later deadlines.",
-          "The proposal remains subject to further review before it is formally approved."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Ho Chi Minh City, Vietnam's commercial hub, is proposing to gradually restrict gasoline- and diesel-powered vehicles from its downtown area from mid-2027 as part of a planned low-emission zone (LEZ), state-run Thanh Nien newspaper reported, citing city authorities.",
-            "source": "Straits Times Asia",
-            "item_id": "f5efbe0cbe9ca8d973da1f77b7c929b8ddc9af32452f3fa931831caba75fb43f:article",
-            "composed": false
-          },
-          {
-            "text": "The new timeline is later than a previous proposal, in which the implementation of the LEZ was set to begin in early 2026.",
-            "source": "Straits Times Asia",
-            "item_id": "f5efbe0cbe9ca8d973da1f77b7c929b8ddc9af32452f3fa931831caba75fb43f:article",
-            "composed": false
-          }
-        ],
-        "source": "Straits Times Asia",
-        "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/vietnams-ho-chi-minh-city-proposes-curbs-on-gasoline-diesel-vehicles-from-mid-2027"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "b0fb88545fc581e9855c102ab470f6c8908ef7248b6be1515e11437a134eab3e",
-      "title": "Indonesia’s Destry says she will back growth policies if confirmed as central bank chief",
-      "url": "https://www.straitstimes.com/asia/se-asia/indonesias-destry-says-she-will-back-growth-policies-if-confirmed-as-central-bank-chief",
-      "source": "Straits Times Asia",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Destry Damayanti, nominee for Indonesia's central bank governor, pledges to support growth, job creation, and financial stability while maintaining Bank Indonesia's independence. She aims to strengthen exchange-rate stabilisation with smart interventions and optimise monetary operations to ensure liquidity and policy effectiveness. Destry's confirmation is expected soon amid economic concerns, with her leadership seen as continuity after recent resignations and market instability. Destry Damayanti, the sole candidate nominated for Indonesia’s central bank governor, on Aug 26 told a vetting panel she will look to support growth and job creation while ensuring financial stability if she becomes Bank Indonesia’s chief. She also said synergy with other institutions would not reduce Bank Indonesia’s independence. Destry, 62, currently interim governor, is undergoing a “fit and proper” hearing in Parliament for the role, which could see her become the first woman to take the top job. It comes at a tumultuous time in Indonesia, with unease among businesses and investors about fiscal management, central bank autonomy, equity market transparency and the stewardship of the US$1.4 trillion (S$1.78 million) G-20 economy. “BI is not only tasked with maintaining the stability of the rupiah exchange rate, the stability of the payment system and the stability of the financial system, but also with implementing a policy mix that can create an economic environment conducive to real sector growth and job creation,” Destry told Parliament’s financial committee in her opening remarks. With Parliament dominated by parties allied with President Prabowo Subianto, senior deputy governor Destry is widely expected to be confirmed by legislators, who have not rejected a sitting president’s nominee for the post since 2008. Destry needs to pass a plenary vote before being appointed by the president. The committee’s decision on Destry is expected on Aug 27, with the interview process for the senior deputy chief slot expected later on Aug 26. Reuters had reported Destry was the frontrunner for the job and the Aug 10 announcement of her candidacy gave a boost to the rupiah, which has plunged amid capital outflows triggered by anxiety and perceptions of policymaking uncertainty.",
-      "published_at": "2026-08-26T05:55:00+00:00",
-      "updated_at": "2026-08-26T05:55:00+00:00",
-      "effective_at": "2026-08-26T05:55:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "banking",
-      "subregion": "Southeast Asia",
-      "country": null,
-      "entities": [
-        "aug",
-        "bank",
-        "damayanti",
-        "destry",
-        "g-20",
-        "indonesia",
-        "parliament",
-        "prabowo",
-        "subianto",
-        "us"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 78,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "Destry Damayanti, nominee for Indonesia's central bank governor, pledges to support growth, job creation, and financial stability while maintaining Bank Indonesia's independence.",
-        "She aims to strengthen exchange-rate stabilisation with smart interventions and optimise monetary operations to ensure liquidity and policy effectiveness.",
-        "Destry's confirmation is expected soon amid economic concerns, with her leadership seen as continuity after recent resignations and market instability.",
-        "Destry Damayanti, the sole candidate nominated for Indonesia’s central bank governor, on Aug 26 told a vetting panel she will look to support growth and job creation while ensuring financial stability if she becomes Bank Indonesia’s chief.",
-        "She also said synergy with other institutions would not reduce Bank Indonesia’s independence.",
-        "Destry, 62, currently interim governor, is undergoing a “fit and proper” hearing in Parliament for the role, which could see her become the first woman to take the top job.",
-        "It comes at a tumultuous time in Indonesia, with unease among businesses and investors about fiscal management, central bank autonomy, equity market transparency and the stewardship of the US$1.4 trillion (S$1.78 million) G-20 economy.",
-        "“BI is not only tasked with maintaining the stability of the rupiah exchange rate, the stability of the payment system and the stability of the financial system, but also with implementing a policy mix that can create an economic environment conducive to real sector growth and job creation,” Destry told Parliament’s financial committee in her opening remarks.",
-        "With Parliament dominated by parties allied with President Prabowo Subianto, senior deputy governor Destry is widely expected to be confirmed by legislators, who have not rejected a sitting president’s nominee for the post since 2008.",
-        "Destry needs to pass a plenary vote before being appointed by the president.",
-        "The committee’s decision on Destry is expected on Aug 27, with the interview process for the senior deputy chief slot expected later on Aug 26.",
-        "Reuters had reported Destry was the frontrunner for the job and the Aug 10 announcement of her candidacy gave a boost to the rupiah, which has plunged amid capital outflows triggered by anxiety and perceptions of policymaking uncertainty."
-      ],
-      "event_status": "NEW",
-      "event_id": "32bf500a3582d4fbb5d6932e",
-      "importance_score": 36.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "economic": 4,
-          "geopolitical": 4
-        }
-      },
-      "story_id": "b0fb88545fc581e9855c102ab470f6c8908ef7248b6be1515e11437a134eab3e",
-      "public_label": "📰 NEWS",
-      "headline": "Indonesia’s Destry says she will back growth policies if confirmed as central bank chief",
-      "briefing": {
-        "opening": [
-          "Destry Damayanti, nominee for Indonesia's central bank governor, pledges to support growth, job creation, and financial stability while maintaining Bank Indonesia's independence.",
-          "She aims to strengthen exchange-rate stabilisation with smart interventions and optimise monetary operations to ensure liquidity and policy effectiveness."
-        ],
-        "body": [
-          "Destry Damayanti, the sole candidate nominated for Indonesia’s central bank governor, on Aug 26 told a vetting panel she will look to support growth and job creation while ensuring financial stability if she becomes Bank Indonesia’s chief.",
-          "She also said synergy with other institutions would not reduce Bank Indonesia’s independence.",
-          "Destry, 62, currently interim governor, is undergoing a “fit and proper” hearing in Parliament for the role, which could see her become the first woman to take the top job.",
-          "It comes at a tumultuous time in Indonesia, with unease among businesses and investors about fiscal management, central bank autonomy, equity market transparency and the stewardship of the US$1.4 trillion (S$1.78 million) G-20 economy.",
-          "“BI is not only tasked with maintaining the stability of the rupiah exchange rate, the stability of the payment system and the stability of the financial system, but also with implementing a policy mix that can create an economic environment conducive to real sector growth and job creation,” Destry told Parliament’s financial committee in her opening remarks.",
-          "With Parliament dominated by parties allied with President Prabowo Subianto, senior deputy governor Destry is widely expected to be confirmed by legislators, who have not rejected a sitting president’s nominee for the post since 2008.",
-          "Destry needs to pass a plenary vote before being appointed by the president."
+          "Longer forecasts will help with early preparations, such as securing manpower for snow removal, improving safety and response measures.",
+          "Japan’s meteorological agency said on Aug 26 it plans to start issuing two-week forecasts to better prepare for extreme weather events, up from seven days at present.",
+          "Like elsewhere, human-induced climate change is increasing the frequency and intensity of dangerous weather in Japan, scientists say.",
+          "In 2025, the country had its hottest summer on record and earlier in August torrential rains in the Chiba region killed at least 13 people.",
+          "Currently the Japan Meteorological Agency (JMA) issues forecasts for the following seven days.",
+          "But an expert report commissioned by the JMA said that advances in climate data observations and simulations made it possible – and desirable – to extend this to two weeks.",
+          "“Extended period of weather forecasts with warnings will help better preparations for extreme weather that have been frequently observed in recent years, something which is driven by global warming,” JMA official Masayuki Kyoda told AFP.",
+          "“We have heard, for example, that it takes two weeks to secure manpower needed for snow removal."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Parliament"
+            "text": "Japan"
           },
           {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "Destry's confirmation is expected soon amid economic concerns, with her leadership seen as continuity after recent resignations and market instability."
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 13 people"
           }
         ],
         "sentences": [
           {
-            "text": "She also said synergy with other institutions would not reduce Bank Indonesia’s independence.",
+            "text": "In 2025, the country had its hottest summer on record and earlier in August torrential rains in the Chiba region killed at least 13 people.",
             "source": "Straits Times Asia",
-            "item_id": "b0fb88545fc581e9855c102ab470f6c8908ef7248b6be1515e11437a134eab3e:article",
+            "item_id": "5c0e3858c491a8853f4fee198e3c2b474a0c34dca84641beffbb200f0e0bbdc1:article",
             "composed": false
           },
           {
-            "text": "It comes at a tumultuous time in Indonesia, with unease among businesses and investors about fiscal management, central bank autonomy, equity market transparency and the stewardship of the US$1.4 trillion (S$1.78 million) G-20 economy.",
+            "text": "Japan's Meteorological Agency plans to extend weather forecasts from seven days to two weeks by 2030 to better prepare for extreme weather events.",
             "source": "Straits Times Asia",
-            "item_id": "b0fb88545fc581e9855c102ab470f6c8908ef7248b6be1515e11437a134eab3e:article",
+            "item_id": "5c0e3858c491a8853f4fee198e3c2b474a0c34dca84641beffbb200f0e0bbdc1:article",
             "composed": false
           },
           {
-            "text": "Destry, 62, currently interim governor, is undergoing a “fit and proper” hearing in Parliament for the role, which could see her become the first woman to take the top job.",
+            "text": "Japan’s meteorological agency said on Aug 26 it plans to start issuing two-week forecasts to better prepare for extreme weather events, up from seven days at present.",
             "source": "Straits Times Asia",
-            "item_id": "b0fb88545fc581e9855c102ab470f6c8908ef7248b6be1515e11437a134eab3e:article",
+            "item_id": "5c0e3858c491a8853f4fee198e3c2b474a0c34dca84641beffbb200f0e0bbdc1:article",
             "composed": false
           },
           {
-            "text": "Destry Damayanti, the sole candidate nominated for Indonesia’s central bank governor, on Aug 26 told a vetting panel she will look to support growth and job creation while ensuring financial stability if she becomes Bank Indonesia’s chief.",
+            "text": "Climate change is increasing the frequency and severity of dangerous weather in Japan, including record heat and deadly rains.",
             "source": "Straits Times Asia",
-            "item_id": "b0fb88545fc581e9855c102ab470f6c8908ef7248b6be1515e11437a134eab3e:article",
+            "item_id": "5c0e3858c491a8853f4fee198e3c2b474a0c34dca84641beffbb200f0e0bbdc1:article",
             "composed": false
           }
         ],
         "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/se-asia/indonesias-destry-says-she-will-back-growth-policies-if-confirmed-as-central-bank-chief"
+        "url": "https://www.straitstimes.com/asia/east-asia/japan-to-extend-weather-forecasts-in-response-to-climate-change"
       },
       "group_size": 1,
       "label": "📰 NEWS"
+    },
+    {
+      "id": "3b7205d566a9ff234c40d5b3f1879abef872b59eb29ea0b7a1e60062756466bf",
+      "title": "At least 14 newborns killed in Pakistan hospital nursery fire",
+      "url": "https://www.aljazeera.com/news/2026/8/26/at-least-15-newborns-killed-in-pakistan-hospital-fire?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Only one child rescued after fire breaks out in nursery at Pakistan Institute of Medical Sciences Hospital, Geo News reports. At least 14 newborn babies have been killed after a fire broke out in the nursery of a government-run hospital in Pakistan’s capital, Islamabad, according to officials. The blaze started shortly before 07:00am local time (02:00 GMT) on Wednesday on the third floor of the Mother and Child Centre at the Pakistan Institute of Medical Sciences (PIMS) Hospital. Local broadcaster Geo TV put the death toll at 15, and said one infant was rescued from the ward before firefighters managed to extinguish the flames. In a statement posted on social media platform X, Prime Minister Shehbaz Sharif offered his condolences to the bereaved families and ordered an immediate investigation into the incident. He promised that those responsible would face the “strictest action”. Initial reports from officials indicate the fire was likely caused by a short circuit in a malfunctioning air conditioning unit. Building fires are a frequent occurrence in Pakistan, where safety regulations and building codes are routinely ignored or poorly enforced. In January, at least 65 people died when a massive fire swept through a crowded shopping complex in the southern port city of Karachi. Wednesday’s blaze is one of the deadliest hospital fires in Pakistan’s history. While the government provides subsidised medical treatment through public hospitals, the state sector remains severely underfunded, mismanaged, and overcrowded.",
+      "published_at": "2026-08-26T04:27:15+00:00",
+      "updated_at": "2026-08-26T04:27:15+00:00",
+      "effective_at": "2026-08-26T04:27:15+00:00",
+      "language_status": "ENGLISH",
+      "category": "health",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "health",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "centre",
+        "child",
+        "geo",
+        "gmt",
+        "hospital",
+        "institute",
+        "islamabad",
+        "karachi",
+        "medical",
+        "mother",
+        "news",
+        "only",
+        "pakistan",
+        "pims",
+        "sciences",
+        "sharif",
+        "shehbaz",
+        "tv"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Only one child rescued after fire breaks out in nursery at Pakistan Institute of Medical Sciences Hospital, Geo News reports.",
+        "At least 14 newborn babies have been killed after a fire broke out in the nursery of a government-run hospital in Pakistan’s capital, Islamabad, according to officials.",
+        "The blaze started shortly before 07:00am local time (02:00 GMT) on Wednesday on the third floor of the Mother and Child Centre at the Pakistan Institute of Medical Sciences (PIMS) Hospital.",
+        "Local broadcaster Geo TV put the death toll at 15, and said one infant was rescued from the ward before firefighters managed to extinguish the flames.",
+        "In a statement posted on social media platform X, Prime Minister Shehbaz Sharif offered his condolences to the bereaved families and ordered an immediate investigation into the incident.",
+        "He promised that those responsible would face the “strictest action”.",
+        "Initial reports from officials indicate the fire was likely caused by a short circuit in a malfunctioning air conditioning unit.",
+        "Building fires are a frequent occurrence in Pakistan, where safety regulations and building codes are routinely ignored or poorly enforced.",
+        "In January, at least 65 people died when a massive fire swept through a crowded shopping complex in the southern port city of Karachi.",
+        "Wednesday’s blaze is one of the deadliest hospital fires in Pakistan’s history.",
+        "While the government provides subsidised medical treatment through public hospitals, the state sector remains severely underfunded, mismanaged, and overcrowded."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "805afd83e008d960c89c9a71",
+      "importance_score": 57.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 6.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 65,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8,
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "3b7205d566a9ff234c40d5b3f1879abef872b59eb29ea0b7a1e60062756466bf",
+      "public_label": "🔄 UPDATE",
+      "headline": "At least 14 newborns killed in Pakistan hospital nursery fire",
+      "briefing": {
+        "opening": [
+          "Only one child rescued after fire breaks out in nursery at Pakistan Institute of Medical Sciences Hospital, Geo News reports.",
+          "At least 14 newborn babies have been killed after a fire broke out in the nursery of a government-run hospital in Pakistan’s capital, Islamabad, according to officials."
+        ],
+        "body": [
+          "The blaze started shortly before 07:00am local time (02:00 GMT) on Wednesday on the third floor of the Mother and Child Centre at the Pakistan Institute of Medical Sciences (PIMS) Hospital.",
+          "Local broadcaster Geo TV put the death toll at 15, and said one infant was rescued from the ward before firefighters managed to extinguish the flames.",
+          "In a statement posted on social media platform X, Prime Minister Shehbaz Sharif offered his condolences to the bereaved families and ordered an immediate investigation into the incident.",
+          "He promised that those responsible would face the “strictest action”.",
+          "Initial reports from officials indicate the fire was likely caused by a short circuit in a malfunctioning air conditioning unit.",
+          "Building fires are a frequent occurrence in Pakistan, where safety regulations and building codes are routinely ignored or poorly enforced.",
+          "In January, at least 65 people died when a massive fire swept through a crowded shopping complex in the southern port city of Karachi.",
+          "Wednesday’s blaze is one of the deadliest hospital fires in Pakistan’s history."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Pakistan Institute"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 65 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "In January, at least 65 people died when a massive fire swept through a crowded shopping complex in the southern port city of Karachi.",
+            "source": "Al Jazeera",
+            "item_id": "3b7205d566a9ff234c40d5b3f1879abef872b59eb29ea0b7a1e60062756466bf:article",
+            "composed": false
+          },
+          {
+            "text": "The blaze started shortly before 07:00am local time (02:00 GMT) on Wednesday on the third floor of the Mother and Child Centre at the Pakistan Institute of Medical Sciences (PIMS) Hospital.",
+            "source": "Al Jazeera",
+            "item_id": "3b7205d566a9ff234c40d5b3f1879abef872b59eb29ea0b7a1e60062756466bf:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/news/2026/8/26/at-least-15-newborns-killed-in-pakistan-hospital-fire?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
     }
   ]
 }
