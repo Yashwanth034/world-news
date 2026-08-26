@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-08-26T11:01:11.516607+00:00",
-  "count": 1,
+  "generated_at": "2026-08-26T11:11:00.440516+00:00",
+  "count": 6,
   "stories": [
     {
-      "id": "adfc9e71bab0573bdb3806b589af320bf73a1fe979382c8f65861295f255215d",
-      "title": "So long, West? Why South Asian students are rethinking where to go for university",
-      "url": "https://www.scmp.com/week-asia/people/article/3365328/so-long-west-why-south-asian-students-are-rethinking-where-go-university?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
+      "id": "8499319ec6da50ab9295e1467055823fd8c7f1c1e6ceebacf1698c0130b76506",
+      "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+      "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+      "source": "The Guardian Technology",
+      "source_category": "technology",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "North America",
       "discovery": false,
-      "summary": "For years, South Asian students – particularly from India – treated an overseas undergraduate degree as the default springboard to an international career. That assumption is now changing. Students across the region are still drawn to prestigious Western institutions, but tightening visa restrictions, rising costs and uncertain post-graduation job markets in countries like the United States are prompting families to rethink their options. Experts say more are choosing to complete their first...",
-      "published_at": "2026-08-26T11:00:08+00:00",
-      "updated_at": "2026-08-26T11:00:08+00:00",
-      "effective_at": "2026-08-26T11:00:08+00:00",
+      "summary": "In effort to prime chatbots to make pro-Israel arguments the site published 124 reports, over 560,000 words in nine days, Guardian analysis shows A pro-Israel messaging website badged with the name of a thinktank that does not exist has published more than half a million words in nine days, built on a commercial platform that promises to optimize content so that AI chatbots will cite it. The site gives Israel’s position on subjects including the torture of Palestinian prisoners , Israeli war crimes and whether Israel has deliberately starved Palestinians in Gaza, all presented as neutral research. Continue reading...",
+      "published_at": "2026-08-26T11:00:11+00:00",
+      "updated_at": "2026-08-26T11:00:11+00:00",
+      "effective_at": "2026-08-26T11:00:11+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 73,
+      "category": "technology",
+      "score": 65,
       "confidence": "medium",
-      "urgency_terms": [
-        "default"
-      ],
-      "sector": "law",
-      "subsector": "education",
-      "subregion": "South Asia",
+      "urgency_terms": [],
+      "sector": "technology",
+      "subsector": "ai",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "asian",
-        "india",
-        "south",
-        "united_states",
-        "west",
-        "western"
+        "ai",
+        "fake",
+        "gaza",
+        "guardian",
+        "israel",
+        "palestine",
+        "palestinians",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -43,15 +43,119 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "9c22bdb48723cfb22fad5a49",
-      "importance_score": 37.0,
+      "event_id": "1f6b04d937b25a55546d65ae",
+      "importance_score": 48.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 20,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8,
+          "scientific": 4
+        }
+      },
+      "story_id": "8499319ec6da50ab9295e1467055823fd8c7f1c1e6ceebacf1698c0130b76506",
+      "public_label": "📰 NEWS",
+      "headline": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+      "briefing": {
+        "opening": [
+          "In effort to prime chatbots to make pro-Israel arguments the site published 124 reports, over 560,000 words in nine days, Guardian analysis shows.",
+          "A pro-Israel messaging website badged with the name of a thinktank that does not exist has published more than half a million words in nine days, built on a commercial platform that promises to optimize content so that AI chatbots will cite it."
+        ],
+        "body": [
+          "The site gives Israel’s position on subjects including the torture of Palestinian prisoners, Israeli war crimes and whether Israel has deliberately starved Palestinians in Gaza, all presented as neutral research."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Gaza"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A pro-Israel messaging website badged with the name of a thinktank that does not exist has published more than half a million words in nine days, built on a commercial platform that promises to optimize content so that AI chatbots will cite it.",
+            "source": "The Guardian Technology",
+            "item_id": "8499319ec6da50ab9295e1467055823fd8c7f1c1e6ceebacf1698c0130b76506",
+            "composed": false
+          },
+          {
+            "text": "The site gives Israel’s position on subjects including the torture of Palestinian prisoners, Israeli war crimes and whether Israel has deliberately starved Palestinians in Gaza, all presented as neutral research.",
+            "source": "The Guardian Technology",
+            "item_id": "8499319ec6da50ab9295e1467055823fd8c7f1c1e6ceebacf1698c0130b76506",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian Technology",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "c167abf3464cafeab6b11e56b20d3d495d40b39bd299a56a33693359139b9ce9",
+      "title": "Mpox is back – and in new countries. How this outbreak can be contained",
+      "url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
+      "source": "The Guardian World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "The public health emergencies in 2022 and 2024 saw the virus reported in 145 countries, but in the new cases children appear particularly affected A fresh outbreak of mpox in Guinea Bissau – the country’s first – means the virus formerly known as monkey pox is back in the headlines. So what has changed? Since 2022, there have been almost 190,000 lab-confirmed cases of mpox reported worldwide in 145 countries. Before then, outbreaks of mpox tended to be relatively small and in a handful of African countries, where the viral infection was known to be endemic. Continue reading...",
+      "published_at": "2026-08-26T11:00:12+00:00",
+      "updated_at": "2026-08-26T11:00:12+00:00",
+      "effective_at": "2026-08-26T11:00:12+00:00",
+      "language_status": "ENGLISH",
+      "category": "health",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "outbreaks",
+      "subregion": "West Africa",
+      "country": null,
+      "entities": [
+        "african",
+        "bissau",
+        "guinea"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 85,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "541d9453faf61a4c74ba7709",
+      "importance_score": 40.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 8.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
         "significance": 8,
@@ -67,45 +171,494 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 8
+          "human": 8
         }
       },
-      "story_id": "adfc9e71bab0573bdb3806b589af320bf73a1fe979382c8f65861295f255215d",
+      "story_id": "c167abf3464cafeab6b11e56b20d3d495d40b39bd299a56a33693359139b9ce9",
       "public_label": "📰 NEWS",
-      "headline": "So long, West? Why South Asian students are rethinking where to go for university",
+      "headline": "Mpox is back – and in new countries. How this outbreak can be contained",
       "briefing": {
         "opening": [
-          "For years, South Asian students – particularly from India – treated an overseas undergraduate degree as the default springboard to an international career.",
-          "That assumption is now changing."
+          "The public health emergencies in 2022 and 2024 saw the virus reported in 145 countries, but in the new cases children appear particularly affected.",
+          "A fresh outbreak of mpox in Guinea Bissau – the country’s first – means the virus formerly known as monkey pox is back in the headlines."
         ],
         "body": [
-          "Students across the region are still drawn to prestigious Western institutions, but tightening visa restrictions, rising costs and uncertain post-graduation job markets in countries like the United States are prompting families to rethink their options.",
-          "Experts say more are choosing to complete their first..."
+          "So what has changed?",
+          "Since 2022, there have been almost 190,000 lab-confirmed cases of mpox reported worldwide in 145 countries.",
+          "Before then, outbreaks of mpox tended to be relatively small and in a handful of African countries, where the viral infection was known to be endemic."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Guinea Bissau"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Before then, outbreaks of mpox tended to be relatively small and in a handful of African countries, where the viral infection was known to be endemic.",
+            "source": "The Guardian World",
+            "item_id": "c167abf3464cafeab6b11e56b20d3d495d40b39bd299a56a33693359139b9ce9",
+            "composed": false
+          },
+          {
+            "text": "Since 2022, there have been almost 190,000 lab-confirmed cases of mpox reported worldwide in 145 countries.",
+            "source": "The Guardian World",
+            "item_id": "c167abf3464cafeab6b11e56b20d3d495d40b39bd299a56a33693359139b9ce9",
+            "composed": false
+          },
+          {
+            "text": "A fresh outbreak of mpox in Guinea Bissau – the country’s first – means the virus formerly known as monkey pox is back in the headlines.",
+            "source": "The Guardian World",
+            "item_id": "c167abf3464cafeab6b11e56b20d3d495d40b39bd299a56a33693359139b9ce9",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian World",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "927bd195da323f6216b552ec5edc0f561944418cea64098be06927e29cb16a63",
+      "title": "US proposes expanding UN Sudan arms embargo to entire country",
+      "url": "https://www.france24.com/en/video/20260826-us-proposes-expanding-un-sudan-arms-embargo-to-entire-country",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "The United States urged the UN Security Council on Monday to expand an arms embargo on the Sudanese region of Darfur to cover all of Sudan, saying the nation's brutal conflict risks regional expansion. The Darfur arms embargo, in place for over two decades, is set to expire on September 12, 2026 if a new agreement is not reached. Expanding the restrictions to all of Sudan would require a vote of the UN Security Council, with veto-holding Russia warning on Monday against new measures that would impact the Sudanese army.",
+      "published_at": "2026-08-26T11:00:36+00:00",
+      "updated_at": "2026-08-26T11:00:36+00:00",
+      "effective_at": "2026-08-26T11:00:36+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "darfur",
+        "russia",
+        "security",
+        "sudan",
+        "sudanese",
+        "un",
+        "united_states",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "6aa0b49fb532f69902fbc7aa",
+      "importance_score": 34.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 9.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "927bd195da323f6216b552ec5edc0f561944418cea64098be06927e29cb16a63",
+      "public_label": "📰 NEWS",
+      "headline": "US proposes expanding UN Sudan arms embargo to entire country",
+      "briefing": {
+        "opening": [
+          "The United States urged the UN Security Council on Monday to expand an arms embargo on the Sudanese region of Darfur to cover all of Sudan, saying the nation's brutal conflict risks regional expansion.",
+          "The Darfur arms embargo, in place for over two decades, is set to expire on September 12, 2026 if a new agreement is not reached."
+        ],
+        "body": [
+          "Expanding the restrictions to all of Sudan would require a vote of the UN Security Council, with veto-holding Russia warning on Monday against new measures that would impact the Sudanese army."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Students across the region are still drawn to prestigious Western institutions, but tightening visa restrictions, rising costs and uncertain post-graduation job markets in countries like the United States are prompting families to rethink their options.",
-            "source": "South China Morning Post",
-            "item_id": "adfc9e71bab0573bdb3806b589af320bf73a1fe979382c8f65861295f255215d",
+            "text": "The Darfur arms embargo, in place for over two decades, is set to expire on September 12, 2026 if a new agreement is not reached.",
+            "source": "France 24",
+            "item_id": "927bd195da323f6216b552ec5edc0f561944418cea64098be06927e29cb16a63",
             "composed": false
           },
           {
-            "text": "That assumption is now changing.",
-            "source": "South China Morning Post",
-            "item_id": "adfc9e71bab0573bdb3806b589af320bf73a1fe979382c8f65861295f255215d",
+            "text": "The United States urged the UN Security Council on Monday to expand an arms embargo on the Sudanese region of Darfur to cover all of Sudan, saying the nation's brutal conflict risks regional expansion.",
+            "source": "France 24",
+            "item_id": "927bd195da323f6216b552ec5edc0f561944418cea64098be06927e29cb16a63",
             "composed": false
           },
           {
-            "text": "For years, South Asian students – particularly from India – treated an overseas undergraduate degree as the default springboard to an international career.",
-            "source": "South China Morning Post",
-            "item_id": "adfc9e71bab0573bdb3806b589af320bf73a1fe979382c8f65861295f255215d",
+            "text": "Expanding the restrictions to all of Sudan would require a vote of the UN Security Council, with veto-holding Russia warning on Monday against new measures that would impact the Sudanese army.",
+            "source": "France 24",
+            "item_id": "927bd195da323f6216b552ec5edc0f561944418cea64098be06927e29cb16a63",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.scmp.com/week-asia/people/article/3365328/so-long-west-why-south-asian-students-are-rethinking-where-go-university?utm_source=rss_feed"
+        "url": "https://www.france24.com/en/video/20260826-us-proposes-expanding-un-sudan-arms-embargo-to-entire-country"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "6431553a78f8f8a5fd0e21fb5462b802f84354b07b10c8bc2ee3943a437931d2",
+      "title": "A new chapter for Syria’s Kurds: What integration really means",
+      "url": "https://www.france24.com/en/video/20260826-a-new-chapter-for-syria-s-kurds-what-integration-really-means",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "The integration of the Kurdish administration within Syria's state institutions is now complete, Syrian Kurdish leader Mazloum Abdi said on Thursday, marking the end of the Kurds' long-held dream of autonomy. The announcement follows months of negotiations between the two sides after a January agreement that called for the full integration of Kurdish civil and military institutions into the state -- a move Washington deemed \"historic\". FRANCE 24's International Affairs Editor Andrew Hilliar tells us more.",
+      "published_at": "2026-08-26T11:05:16+00:00",
+      "updated_at": "2026-08-26T11:05:16+00:00",
+      "effective_at": "2026-08-26T11:05:16+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "diplomacy",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "abdi",
+        "affairs",
+        "andrew",
+        "editor",
+        "france",
+        "hilliar",
+        "international",
+        "kurdish",
+        "kurds",
+        "mazloum",
+        "syria",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "502489c3a07fc8aeaf7cda49",
+      "importance_score": 33.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4
+        }
+      },
+      "story_id": "6431553a78f8f8a5fd0e21fb5462b802f84354b07b10c8bc2ee3943a437931d2",
+      "public_label": "📰 NEWS",
+      "headline": "A new chapter for Syria’s Kurds: What integration really means",
+      "briefing": {
+        "opening": [
+          "The integration of the Kurdish administration within Syria's state institutions is now complete, Syrian Kurdish leader Mazloum Abdi said on Thursday, marking the end of the Kurds' long-held dream of autonomy.",
+          "The announcement follows months of negotiations between the two sides after a January agreement that called for the full integration of Kurdish civil and military institutions into the state -- a move Washington deemed \"historic\"."
+        ],
+        "body": [
+          "FRANCE 24's International Affairs Editor Andrew Hilliar tells us more."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "FRANCE 24's International Affairs Editor Andrew Hilliar tells us more.",
+            "source": "France 24",
+            "item_id": "6431553a78f8f8a5fd0e21fb5462b802f84354b07b10c8bc2ee3943a437931d2",
+            "composed": false
+          },
+          {
+            "text": "The integration of the Kurdish administration within Syria's state institutions is now complete, Syrian Kurdish leader Mazloum Abdi said on Thursday, marking the end of the Kurds' long-held dream of autonomy.",
+            "source": "France 24",
+            "item_id": "6431553a78f8f8a5fd0e21fb5462b802f84354b07b10c8bc2ee3943a437931d2",
+            "composed": false
+          },
+          {
+            "text": "The announcement follows months of negotiations between the two sides after a January agreement that called for the full integration of Kurdish civil and military institutions into the state -- a move Washington deemed \"historic\".",
+            "source": "France 24",
+            "item_id": "6431553a78f8f8a5fd0e21fb5462b802f84354b07b10c8bc2ee3943a437931d2",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/video/20260826-a-new-chapter-for-syria-s-kurds-what-integration-really-means"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "792e82c5f7d027e0a88ec8fabcc98d6245bf1b5538f8ff209bac7b9746e47cfd",
+      "title": "Emaduku’s “Colours of My Mind”: Memorialising the paradoxes of a beloved landscape",
+      "url": "https://www.premiumtimesng.com/entertainment/905468-emadukus-colours-of-my-mind-memorialising-the-paradoxes-of-a-beloved-landscape.html",
+      "source": "Premium Times Nigeria",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "&#160; Emaduku’s &#8220;Colours of My Mind&#8221; is a product of experience and expression, which bestride different facets of the Nigerian society. The different sections of the book weave together relatable sociopolitical and cultural episodes in Nigeria. The author’s social and socialist vision reflects patriotic and transformative commitment in the Niger Delta and Nigeria. With the [&#8230;] The post Emaduku’s &#8220;Colours of My Mind&#8221;: Memorialising the paradoxes of a beloved landscape appeared first on Premium Times Nigeria .",
+      "published_at": "2026-08-26T11:02:33+00:00",
+      "updated_at": "2026-08-26T11:02:33+00:00",
+      "effective_at": "2026-08-26T11:02:33+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "West Africa",
+      "country": null,
+      "entities": [
+        "colours",
+        "delta",
+        "emaduku",
+        "memorialising",
+        "mind",
+        "my",
+        "niger",
+        "nigeria",
+        "nigerian",
+        "premium",
+        "times"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "087fdec1f05ff938f42047ea",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "792e82c5f7d027e0a88ec8fabcc98d6245bf1b5538f8ff209bac7b9746e47cfd",
+      "public_label": "📰 NEWS",
+      "headline": "Emaduku’s “Colours of My Mind”: Memorialising the paradoxes of a beloved landscape",
+      "briefing": {
+        "opening": [
+          "Emaduku’s “Colours of My Mind” is a product of experience and expression, which bestride different facets of the Nigerian society.",
+          "The different sections of the book weave together relatable sociopolitical and cultural episodes in Nigeria."
+        ],
+        "body": [
+          "The author’s social and socialist vision reflects patriotic and transformative commitment in the Niger Delta and Nigeria.",
+          "With the […] The post Emaduku’s “Colours of My Mind”: Memorialising the paradoxes of a beloved landscape appeared first on Premium Times Nigeria."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nigeria"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Emaduku’s “Colours of My Mind” is a product of experience and expression, which bestride different facets of the Nigerian society.",
+            "source": "Premium Times Nigeria",
+            "item_id": "792e82c5f7d027e0a88ec8fabcc98d6245bf1b5538f8ff209bac7b9746e47cfd",
+            "composed": false
+          },
+          {
+            "text": "The author’s social and socialist vision reflects patriotic and transformative commitment in the Niger Delta and Nigeria.",
+            "source": "Premium Times Nigeria",
+            "item_id": "792e82c5f7d027e0a88ec8fabcc98d6245bf1b5538f8ff209bac7b9746e47cfd",
+            "composed": false
+          },
+          {
+            "text": "The different sections of the book weave together relatable sociopolitical and cultural episodes in Nigeria.",
+            "source": "Premium Times Nigeria",
+            "item_id": "792e82c5f7d027e0a88ec8fabcc98d6245bf1b5538f8ff209bac7b9746e47cfd",
+            "composed": false
+          }
+        ],
+        "source": "Premium Times Nigeria",
+        "corroborating": [],
+        "url": "https://www.premiumtimesng.com/entertainment/905468-emadukus-colours-of-my-mind-memorialising-the-paradoxes-of-a-beloved-landscape.html"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "9e5ba0cb0e50c43406d915f03b6b02e6b902fd5ffb4a33a8a6cf2e0a05e5d705",
+      "title": "No contacts between Kremlin, US representatives planned — spokesman",
+      "url": "https://tass.com/politics/2177881",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "Russia’s contacts with Ratcliffe were conducted through special services, Dmitry Peskov added",
+      "published_at": "2026-08-26T11:09:00+00:00",
+      "updated_at": "2026-08-26T11:09:00+00:00",
+      "effective_at": "2026-08-26T11:09:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "dmitry",
+        "peskov",
+        "ratcliffe",
+        "russia",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "5655df292ffa069bfe5f0d6f",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "9e5ba0cb0e50c43406d915f03b6b02e6b902fd5ffb4a33a8a6cf2e0a05e5d705",
+      "article_sentences": [
+        "MOSCOW, August 26.",
+        "No contacts between Kremlin and US representatives are planned so far, Kremlin Spokesman Dmitry Peskov told a briefing.",
+        "\"There were no contacts between [CIA Director John Ratcliffe who visited Moscow] and the Kremlin.",
+        "I cannot tell you anything about any further contacts-related agreements so far.",
+        "I cannot speak on behalf of other agencies.",
+        "No contacts are currently planned through Kremlin channels,\" he said when asked whether the Kremlin expects any visits by high-ranked US officials, whether any contacts are planned any time soon.",
+        "Russia’s contacts with Ratcliffe were conducted through special services, Peskov added."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "No contacts between Kremlin, US representatives planned — spokesman",
+      "briefing": {
+        "opening": [
+          "MOSCOW, August 26.",
+          "No contacts between Kremlin and US representatives are planned so far, Kremlin Spokesman Dmitry Peskov told a briefing."
+        ],
+        "body": [
+          "\"There were no contacts between [CIA Director John Ratcliffe who visited Moscow] and the Kremlin.",
+          "I cannot tell you anything about any further contacts-related agreements so far.",
+          "I cannot speak on behalf of other agencies.",
+          "No contacts are currently planned through Kremlin channels,\" he said when asked whether the Kremlin expects any visits by high-ranked US officials, whether any contacts are planned any time soon.",
+          "Russia’s contacts with Ratcliffe were conducted through special services, Peskov added."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "No contacts between Kremlin and US representatives are planned so far, Kremlin Spokesman Dmitry Peskov told a briefing.",
+            "source": "TASS English",
+            "item_id": "9e5ba0cb0e50c43406d915f03b6b02e6b902fd5ffb4a33a8a6cf2e0a05e5d705:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, August 26.",
+            "source": "TASS English",
+            "item_id": "9e5ba0cb0e50c43406d915f03b6b02e6b902fd5ffb4a33a8a6cf2e0a05e5d705:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/politics/2177881"
       },
       "group_size": 1,
       "label": "📰 NEWS"
