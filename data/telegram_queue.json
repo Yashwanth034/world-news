@@ -1,354 +1,118 @@
 {
-  "generated_at": "2026-08-26T13:01:13.986242+00:00",
-  "count": 3,
+  "generated_at": "2026-08-26T13:10:49.797827+00:00",
+  "count": 1,
   "stories": [
     {
-      "id": "5c21b205c526f354fcf96a1d2eb7b8d91fa222e77c1be0eb7675da14beefebc6",
-      "title": "Kilauea volcano erupts in Hawaii",
-      "url": "https://tass.com/emergencies/2177923",
-      "source": "TASS English",
+      "id": "1460491eb93051f6208222062d76005f2a103d4409e9344796f1d738869b833f",
+      "title": "‘Major casualties’ feared after flash floods along Nepal-Tibet border",
+      "url": "https://www.theguardian.com/world/2026/aug/26/major-casualties-feared-after-flash-floods-along-nepal-tibet-border",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Asia",
       "discovery": false,
-      "summary": "NEW YORK, August 26. Kilauea volcano has erupted in the US state of Hawaii, the US Geological Survey said. According to the agency, four million cubic meters of lava erupted from the volcano’s vent, while lava fountains reached a height of 150 meters. The eruption currently poses no threat to residents of the islands. Kilauea is one of the largest and most active volcanoes in the Hawaiian Islands.",
-      "published_at": "2026-08-26T12:58:14+00:00",
-      "updated_at": "2026-08-26T12:58:14+00:00",
-      "effective_at": "2026-08-26T12:58:14+00:00",
+      "summary": "Hundreds missing and at least 22 people dead after floods sweep away houses, roads, bridges and power projects Hundreds are missing and at least 22 people have died after torrential floods ⁠hit the Himalayan border areas of ⁠Nepal and in ​Tibet in China. Houses, roads, bridges and power projects were swept away ⁠in Nepal while officials in Tibet said they feared “major casualties” with some missing in the county of Gyirong after a mudslide hit a land crossing between the neighbours. Continue reading...",
+      "published_at": "2026-08-26T12:51:08+00:00",
+      "updated_at": "2026-08-26T12:51:08+00:00",
+      "effective_at": "2026-08-26T12:51:08+00:00",
       "language_status": "ENGLISH",
-      "category": "disaster",
-      "score": 68,
+      "category": "world",
+      "score": 65,
       "confidence": "medium",
-      "urgency_terms": [
-        "volcano"
-      ],
+      "urgency_terms": [],
       "sector": "climate",
-      "subsector": "volcanoes",
-      "subregion": "United States",
+      "subsector": "floods",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "geological",
-        "hawaii",
-        "hawaiian",
-        "islands",
-        "new_york",
-        "survey",
-        "us"
+        "china",
+        "gyirong",
+        "himalayan",
+        "nepal",
+        "nepal-tibet",
+        "tibet"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 98,
+      "priority_score": 90,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "NEW YORK, August 26.",
-        "Kilauea volcano has erupted in the US state of Hawaii, the US Geological Survey said.",
-        "According to the agency, four million cubic meters of lava erupted from the volcano’s vent, while lava fountains reached a height of 150 meters.",
-        "The eruption currently poses no threat to residents of the islands.",
-        "Kilauea is one of the largest and most active volcanoes in the Hawaiian Islands."
-      ],
       "event_status": "UPDATE",
-      "event_id": "7335b11eaa678f33ed25a298",
-      "importance_score": 34.0,
-      "importance_level": "LOW",
+      "event_id": "e4d3767d4143cf9f648fdbc6",
+      "importance_score": 71.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 8.0,
+        "impact": 24,
+        "urgency": 9.0,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 18,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
+          "dead": 300,
           "injured": 0,
           "displaced": 0,
-          "missing": 0,
+          "missing": 300,
           "affected": 0,
           "major_incident": false,
           "crisis": false
         },
         "significance_dims": {
-          "scientific": 8
+          "human": 10,
+          "infrastructure": 4,
+          "geopolitical": 4
         }
       },
-      "story_id": "5c21b205c526f354fcf96a1d2eb7b8d91fa222e77c1be0eb7675da14beefebc6",
+      "story_id": "1460491eb93051f6208222062d76005f2a103d4409e9344796f1d738869b833f",
       "public_label": "🔄 UPDATE",
-      "headline": "Kilauea volcano erupts in Hawaii",
+      "headline": "‘Major casualties’ feared after flash floods along Nepal-Tibet border",
       "briefing": {
         "opening": [
-          "NEW YORK, August 26.",
-          "Kilauea volcano has erupted in the US state of Hawaii, the US Geological Survey said."
+          "Hundreds missing and at least 22 people dead after floods sweep away houses, roads, bridges and power projects.",
+          "Hundreds are missing and at least 22 people have died after torrential floods ⁠hit the Himalayan border areas of ⁠Nepal and in ​Tibet in China."
         ],
         "body": [
-          "According to the agency, four million cubic meters of lava erupted from the volcano’s vent, while lava fountains reached a height of 150 meters.",
-          "The eruption currently poses no threat to residents of the islands.",
-          "Kilauea is one of the largest and most active volcanoes in the Hawaiian Islands."
+          "Houses, roads, bridges and power projects were swept away ⁠in Nepal while officials in Tibet said they feared “major casualties” with some missing in the county of Gyirong after a mudslide hit a land crossing between the neighbours."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "China"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 22 people"
+          }
+        ],
         "sentences": [
           {
-            "text": "Kilauea is one of the largest and most active volcanoes in the Hawaiian Islands.",
-            "source": "TASS English",
-            "item_id": "5c21b205c526f354fcf96a1d2eb7b8d91fa222e77c1be0eb7675da14beefebc6:article",
+            "text": "Hundreds are missing and at least 22 people have died after torrential floods ⁠hit the Himalayan border areas of ⁠Nepal and in ​Tibet in China.",
+            "source": "The Guardian World",
+            "item_id": "1460491eb93051f6208222062d76005f2a103d4409e9344796f1d738869b833f",
             "composed": false
           },
           {
-            "text": "The eruption currently poses no threat to residents of the islands.",
-            "source": "TASS English",
-            "item_id": "5c21b205c526f354fcf96a1d2eb7b8d91fa222e77c1be0eb7675da14beefebc6:article",
-            "composed": false
-          },
-          {
-            "text": "According to the agency, four million cubic meters of lava erupted from the volcano’s vent, while lava fountains reached a height of 150 meters.",
-            "source": "TASS English",
-            "item_id": "5c21b205c526f354fcf96a1d2eb7b8d91fa222e77c1be0eb7675da14beefebc6:article",
+            "text": "Houses, roads, bridges and power projects were swept away ⁠in Nepal while officials in Tibet said they feared “major casualties” with some missing in the county of Gyirong after a mudslide hit a land crossing between the neighbours.",
+            "source": "The Guardian World",
+            "item_id": "1460491eb93051f6208222062d76005f2a103d4409e9344796f1d738869b833f",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://tass.com/emergencies/2177923"
+        "url": "https://www.theguardian.com/world/2026/aug/26/major-casualties-feared-after-flash-floods-along-nepal-tibet-border"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
-    },
-    {
-      "id": "fcbb69514653082a8eadf964b19cb11baa1b785c3205a70ed5059728536d3057",
-      "title": "Luxury apparel store Pernia to raise ₹680 crore through IPO",
-      "url": "https://www.thehindu.com/business/Industry/luxury-apparel-store-pernia-to-raise-680-crore-through-ipo/article71392741.ece",
-      "source": "The Hindu",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "The company has fixed the IPO price band at ₹546-575 per equity share. Around ₹371 crore from the IPO proceeds would be invested in PSL’s wholly owned subsidiary, PSL Retail.",
-      "published_at": "2026-08-26T12:50:43+00:00",
-      "updated_at": "2026-08-26T12:50:43+00:00",
-      "effective_at": "2026-08-26T12:50:43+00:00",
-      "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "companies",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "ipo",
-        "pernia",
-        "psl",
-        "retail"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "0745891032534413ebbc9fa1",
-      "importance_score": 26.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "fcbb69514653082a8eadf964b19cb11baa1b785c3205a70ed5059728536d3057",
-      "public_label": "📰 NEWS",
-      "headline": "Luxury apparel store Pernia to raise ₹680 crore through IPO",
-      "briefing": {
-        "opening": [
-          "The company has fixed the IPO price band at ₹546-575 per equity share.",
-          "Around ₹371 crore from the IPO proceeds would be invested in PSL’s wholly owned subsidiary, PSL Retail."
-        ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "PSL’s"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Around ₹371 crore from the IPO proceeds would be invested in PSL’s wholly owned subsidiary, PSL Retail.",
-            "source": "The Hindu",
-            "item_id": "fcbb69514653082a8eadf964b19cb11baa1b785c3205a70ed5059728536d3057",
-            "composed": false
-          },
-          {
-            "text": "The company has fixed the IPO price band at ₹546-575 per equity share.",
-            "source": "The Hindu",
-            "item_id": "fcbb69514653082a8eadf964b19cb11baa1b785c3205a70ed5059728536d3057",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/business/Industry/luxury-apparel-store-pernia-to-raise-680-crore-through-ipo/article71392741.ece"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb",
-      "title": "New ecology trail to be organized on Solovki Islands",
-      "url": "https://tass.com/economy/2177921",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "The project's implementation will contribute to the organization of tourist flows, the development of ecology tourism and higher ecological culture of visiting tourists",
-      "published_at": "2026-08-26T12:56:23+00:00",
-      "updated_at": "2026-08-26T12:56:23+00:00",
-      "effective_at": "2026-08-26T12:56:23+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "culture",
-      "subsector": "culture",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "islands",
-        "solovki"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "427478c7660747def8880cd5",
-      "importance_score": 26.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb",
-      "article_sentences": [
-        "ARKHANGELSK, August 26.",
-        "Students of the Summer School on the Solovki Islands will develop an ecology trail to Cape Beluzhy on the Bolshoy Solovetsky Island, the School's Program Director, Director of the Intellectual Center at the Northern Arctic Federal University (NARFU) Svetlana Tyukina told TASS.",
-        "\"We have organized the ecology workshop to make an ecology trail to Cape Beluzhy at the suggestion from the Solovki Museum-Reserve,\" she said.",
-        "\"Presently, we can see new approaches to organization of ecology trails.",
-        "We will create this trail's passport, will specify the route, and will prepare information materials.",
-        "Based on results of the field research, we will present proposals for landscaping in certain areas.\"",
-        "Cape Beluzhy is located on the western tip of the Bolshoy Solovetsky Island.",
-        "This is one of the few places on the Earth where people can watch belugas from land.",
-        "In other places, people have to get into the open sea to watch the animals.",
-        "At low tide, belugas swim near Cape Beluzhy, and in shallow waters near the cape is their place for reproduction and upbringing of young animals.",
-        "The Russian Academy of Sciences' Institute of Oceanology has been observing the animals since 1994.",
-        "Specialists have built a tower to conduct observations there."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "New ecology trail to be organized on Solovki Islands",
-      "briefing": {
-        "opening": [
-          "ARKHANGELSK, August 26.",
-          "Students of the Summer School on the Solovki Islands will develop an ecology trail to Cape Beluzhy on the Bolshoy Solovetsky Island, the School's Program Director, Director of the Intellectual Center at the Northern Arctic Federal University (NARFU) Svetlana Tyukina told TASS."
-        ],
-        "body": [
-          "\"We have organized the ecology workshop to make an ecology trail to Cape Beluzhy at the suggestion from the Solovki Museum-Reserve,\" she said.",
-          "\"Presently, we can see new approaches to organization of ecology trails.",
-          "We will create this trail's passport, will specify the route, and will prepare information materials.",
-          "Based on results of the field research, we will present proposals for landscaping in certain areas.\" Cape Beluzhy is located on the western tip of the Bolshoy Solovetsky Island.",
-          "This is one of the few places on the Earth where people can watch belugas from land.",
-          "In other places, people have to get into the open sea to watch the animals.",
-          "At low tide, belugas swim near Cape Beluzhy, and in shallow waters near the cape is their place for reproduction and upbringing of young animals.",
-          "The Russian Academy of Sciences' Institute of Oceanology has been observing the animals since 1994."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Cape Beluzhy"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Students of the Summer School on the Solovki Islands will develop an ecology trail to Cape Beluzhy on the Bolshoy Solovetsky Island, the School's Program Director, Director of the Intellectual Center at the Northern Arctic Federal University (NARFU) Svetlana Tyukina told TASS.",
-            "source": "TASS English",
-            "item_id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb:article",
-            "composed": false
-          },
-          {
-            "text": "\"We have organized the ecology workshop to make an ecology trail to Cape Beluzhy at the suggestion from the Solovki Museum-Reserve,\" she said.",
-            "source": "TASS English",
-            "item_id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb:article",
-            "composed": false
-          },
-          {
-            "text": "Cape Beluzhy is located on the western tip of the Bolshoy Solovetsky Island.",
-            "source": "TASS English",
-            "item_id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb:article",
-            "composed": false
-          },
-          {
-            "text": "This is one of the few places on the Earth where people can watch belugas from land.",
-            "source": "TASS English",
-            "item_id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/economy/2177921"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
     }
   ]
 }
