@@ -615,9 +615,34 @@
       "label": "🔄 UPDATE",
       "scheduled_at": "2026-08-26T10:02:06+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "a06a33c734fc79584d676b8543deddd3dee761b816aa05fd33959a800ce18468",
+      "event_id": "b5088c038fade4f452cb9c20",
+      "item_id": "a06a33c734fc79584d676b8543deddd3dee761b816aa05fd33959a800ce18468",
+      "label": "🔄 UPDATE",
+      "scheduled_at": "2026-08-26T10:05:12+00:00",
+      "attempts": 0
+    },
+    {
+      "story_id": "7c20e02e3313b8c0e9135e71c96e91362a46886eba9fff9323d8085c4af830cd",
+      "event_id": "d74d4c559ea825c6663aaf8c",
+      "item_id": "7c20e02e3313b8c0e9135e71c96e91362a46886eba9fff9323d8085c4af830cd",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-08-26T10:04:58+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "e982d1e8073def1837fa902fcfb235dae0e06624fbb5a2dc78da0e3e9d52b465",
+      "event_id": "42b357a2210d7f4ff80a3353",
+      "item_id": "e982d1e8073def1837fa902fcfb235dae0e06624fbb5a2dc78da0e3e9d52b465",
+      "label": "📰 NEWS",
+      "message_id": 2072,
+      "posted_at": "2026-08-26T10:05:12.000118+00:00",
+      "scheduled_at": "2026-08-26T10:03:47+00:00"
+    },
     {
       "story_id": "eec312396ce2d91757fed74eb748cf747a4467036caf894f56d5dfd9e72810f5",
       "event_id": "22310bc97bb084b3df1a9a1a",
@@ -3659,17 +3684,8 @@
       "message_id": 1733,
       "posted_at": "2026-08-24T04:14:14.000121+00:00",
       "scheduled_at": "2026-08-24T04:13:50+00:00"
-    },
-    {
-      "story_id": "75d604d33b229e2c9bca2d1b8450b07dc5153841dd2e3d9eed1a944e43d5591e",
-      "event_id": "31a5a474493daf615e788bcf",
-      "item_id": "75d604d33b229e2c9bca2d1b8450b07dc5153841dd2e3d9eed1a944e43d5591e",
-      "label": "📰 NEWS",
-      "message_id": 1732,
-      "posted_at": "2026-08-24T04:04:39.000100+00:00",
-      "scheduled_at": "2026-08-24T04:04:39+00:00"
     }
   ],
   "failures": [],
-  "last_posted_at": "2026-08-26T10:01:17.000139+00:00"
+  "last_posted_at": "2026-08-26T10:05:12.000118+00:00"
 }
