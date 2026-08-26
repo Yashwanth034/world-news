@@ -1,142 +1,112 @@
 {
-  "generated_at": "2026-08-26T16:31:05.270994+00:00",
+  "generated_at": "2026-08-26T16:40:48.858825+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "a7e4c13f74c199fb493d47307e42ab7fac3622dff6f20558a2d7a0d2a8f1a364",
-      "title": "Three killed, 265 missing after mudslide in Tibet",
-      "url": "https://tass.com/emergencies/2178009",
-      "source": "TASS English",
+      "id": "8b8fe30734b6c70c2532e46f98aaf8ca001e724d64c454c13b037436eae37a7e",
+      "title": "‘Escape wizard’ who used human pyramid arrested in Spain after breaking out of four jails",
+      "url": "https://www.theguardian.com/world/2026/aug/26/escape-wizard-albanian-fugitive-toma-taulant-arrested-spain-after-breaking-out-of-four-jails",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "The exact number of people affected is still being determined, while search-and-rescue operations continue",
-      "published_at": "2026-08-26T16:29:11+00:00",
-      "updated_at": "2026-08-26T16:29:11+00:00",
-      "effective_at": "2026-08-26T16:29:11+00:00",
+      "summary": "A dangerous Albanian criminal also sawed through bars and clambered down knotted sheets to breach prison walls Police in Spain have arrested a dangerous Albanian criminal nicknamed the “escape wizard”, who has managed to break out of four jails in Italy and Belgium by sawing through bars, clambering down knotted sheets and even using a human pyramid to breach prison walls. The fugitive, who has not been officially named, was arrested after officers from the Policía Nacional force discovered that the he was living in the north-eastern Spanish city of Tarragona and was the subject of a European arrest warrant issued by the Italian authorities. Continue reading...",
+      "published_at": "2026-08-26T16:22:57+00:00",
+      "updated_at": "2026-08-26T16:22:57+00:00",
+      "effective_at": "2026-08-26T16:22:57+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "health",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "disasters",
-      "subregion": null,
+      "sector": "health",
+      "subsector": "public_health",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "tibet"
+        "albanian",
+        "belgium",
+        "european",
+        "italian",
+        "italy",
+        "nacional",
+        "polic",
+        "spain",
+        "tarragona"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "0e167e7c6dee3875cf621001",
-      "importance_score": 70.0,
-      "importance_level": "HIGH",
+      "event_status": "NEW",
+      "event_id": "b026d6e7610d130426e5600a",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 24,
-        "urgency": 9.0,
-        "novelty": 8.0,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "impact": 0.0,
+        "urgency": 10,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 20,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 265,
+          "dead": 0,
           "injured": 0,
           "displaced": 0,
-          "missing": 265,
+          "missing": 0,
           "affected": 0,
           "major_incident": false,
-          "crisis": true
+          "crisis": false
         },
-        "significance_dims": {
-          "human": 12,
-          "security": 4,
-          "geopolitical": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "a7e4c13f74c199fb493d47307e42ab7fac3622dff6f20558a2d7a0d2a8f1a364",
-      "article_sentences": [
-        "BEIJING, August 26.",
-        "Three people have been killed and 265 remain missing after a mudslide struck Gyirong County in Shigatse, in China’s Tibet Autonomous Region, China Central Television reported, citing the crisis management center.",
-        "Preliminary figures as of 8 p.m. local time (12 p.m. GMT) put the death toll at three, with 265 people missing.",
-        "The exact number of people affected is still being determined, while search-and-rescue operations continue.",
-        "The mudslide struck at around 10:30 a.m. (2:30 a.m. GMT) from the Nepal side and affected the Gyirong Port area.",
-        "Chinese authorities deployed 249 firefighters and rescuers, along with 325 engineering rescue personnel and equipment, to the disaster area.",
-        "A Level II national emergency response for a geological disaster has been activated in the area.",
-        "China’s Finance Ministry and Emergency Management Ministry have allocated 120 million yuan [about $16.8 million] for rescue operations and assistance to those affected.",
-        "The disaster area has also received 30,000 items of relief supplies."
-      ],
-      "public_label": "🔄 UPDATE",
-      "headline": "Three killed, 265 missing after mudslide in Tibet",
+      "story_id": "8b8fe30734b6c70c2532e46f98aaf8ca001e724d64c454c13b037436eae37a7e",
+      "public_label": "📰 NEWS",
+      "headline": "‘Escape wizard’ who used human pyramid arrested in Spain after breaking out of four jails",
       "briefing": {
         "opening": [
-          "BEIJING, August 26.",
-          "Three people have been killed and 265 remain missing after a mudslide struck Gyirong County in Shigatse, in China’s Tibet Autonomous Region, China Central Television reported, citing the crisis management center."
+          "A dangerous Albanian criminal also sawed through bars and clambered down knotted sheets to breach prison walls.",
+          "Police in Spain have arrested a dangerous Albanian criminal nicknamed the “escape wizard”, who has managed to break out of four jails in Italy and Belgium by sawing through bars, clambering down knotted sheets and even using a human pyramid to breach prison walls."
         ],
         "body": [
-          "Preliminary figures as of 8 p.m. local time (12 p.m. GMT) put the death toll at three, with 265 people missing.",
-          "The exact number of people affected is still being determined, while search-and-rescue operations continue.",
-          "The mudslide struck at around 10:30 a.m. (2:30 a.m. GMT) from the Nepal side and affected the Gyirong Port area.",
-          "Chinese authorities deployed 249 firefighters and rescuers, along with 325 engineering rescue personnel and equipment, to the disaster area.",
-          "A Level II national emergency response for a geological disaster has been activated in the area.",
-          "China’s Finance Ministry and Emergency Management Ministry have allocated 120 million yuan [about $16.8 million] for rescue operations and assistance to those affected.",
-          "The disaster area has also received 30,000 items of relief supplies."
+          "The fugitive, who has not been officially named, was arrested after officers from the Policía Nacional force discovered that the he was living in the north-eastern Spanish city of Tarragona and was the subject of a European arrest warrant issued by the Italian authorities."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Shigatse"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "265 people"
+            "text": "Spain"
           }
         ],
         "sentences": [
           {
-            "text": "Three people have been killed and 265 remain missing after a mudslide struck Gyirong County in Shigatse, in China’s Tibet Autonomous Region, China Central Television reported, citing the crisis management center.",
-            "source": "TASS English",
-            "item_id": "a7e4c13f74c199fb493d47307e42ab7fac3622dff6f20558a2d7a0d2a8f1a364:article",
+            "text": "The fugitive, who has not been officially named, was arrested after officers from the Policía Nacional force discovered that the he was living in the north-eastern Spanish city of Tarragona and was the subject of a European arrest warrant issued by the Italian authorities.",
+            "source": "The Guardian World",
+            "item_id": "8b8fe30734b6c70c2532e46f98aaf8ca001e724d64c454c13b037436eae37a7e",
             "composed": false
           },
           {
-            "text": "The mudslide struck at around 10:30 a.m. (2:30 a.m. GMT) from the Nepal side and affected the Gyirong Port area.",
-            "source": "TASS English",
-            "item_id": "a7e4c13f74c199fb493d47307e42ab7fac3622dff6f20558a2d7a0d2a8f1a364:article",
-            "composed": false
-          },
-          {
-            "text": "Chinese authorities deployed 249 firefighters and rescuers, along with 325 engineering rescue personnel and equipment, to the disaster area.",
-            "source": "TASS English",
-            "item_id": "a7e4c13f74c199fb493d47307e42ab7fac3622dff6f20558a2d7a0d2a8f1a364:article",
-            "composed": false
-          },
-          {
-            "text": "Preliminary figures as of 8 p.m. local time (12 p.m. GMT) put the death toll at three, with 265 people missing.",
-            "source": "TASS English",
-            "item_id": "a7e4c13f74c199fb493d47307e42ab7fac3622dff6f20558a2d7a0d2a8f1a364:article",
+            "text": "Police in Spain have arrested a dangerous Albanian criminal nicknamed the “escape wizard”, who has managed to break out of four jails in Italy and Belgium by sawing through bars, clambering down knotted sheets and even using a human pyramid to breach prison walls.",
+            "source": "The Guardian World",
+            "item_id": "8b8fe30734b6c70c2532e46f98aaf8ca001e724d64c454c13b037436eae37a7e",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://tass.com/emergencies/2178009"
+        "url": "https://www.theguardian.com/world/2026/aug/26/escape-wizard-albanian-fugitive-toma-taulant-arrested-spain-after-breaking-out-of-four-jails"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     }
   ]
 }
