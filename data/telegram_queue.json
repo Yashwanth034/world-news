@@ -1,148 +1,115 @@
 {
-  "generated_at": "2026-08-26T23:40:46.442437+00:00",
+  "generated_at": "2026-08-26T23:50:46.861655+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "c237ea7c930619f1a33df0bb06ff46cb1c77157b1a7528079dcb8676c23e36b4",
-      "title": "UN needs to rebuild trust with major donors — Grossi",
-      "url": "https://tass.com/world/2178101",
-      "source": "TASS English",
+      "id": "0c65d3c87e78f3a3069b15938e184c3701e171fe2ca2edc8b4a14afd02512a25",
+      "title": "Wildfires kill 12 in Algeria as severe heatwave sweeps North Africa",
+      "url": "https://www.france24.com/en/africa/20260826-wildfires-algeria-severe-heatwave-sweeps-north-africa",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Africa",
       "discovery": false,
-      "summary": "WASHINGTON, August 27. The United Nations needs to rebuild trust with its largest donors, including the United States, International Atomic Energy Agency (IAEA) Director General Rafael Grossi, who is seeking the post of UN secretary-general, said. \"I think there has to be a restoration of trust [in the UN relations] with not only the United States but the so-called Geneva Group - the top ten contributors, who, I would say, agree in private with much of what the United States says. They don't say it in public, but I don't see any of them coming and saying, ‘Don't worry, UN, we will pay for them\",\" he said, speaking at the Stimson Center in Washington. When asked whether the UN could effectively perform its functions without contributions from the United States, Grossi said it could not. \"Perhaps this is why the administration has decided to withhold payments or to delay payments. At the risk of being a bit provocative, I would say I don't find it illogical. The United States is paying 22-25%, and they do not like the way the institution is, you know, going. They may question it. Of course, assess contributions are an obligation. There is no doubt about it. This is an obligation, and it should be complied with,\" he noted.",
-      "published_at": "2026-08-26T23:34:22+00:00",
-      "updated_at": "2026-08-26T23:34:22+00:00",
-      "effective_at": "2026-08-26T23:34:22+00:00",
+      "summary": "Twelve people died and dozens were injured as wildfires tore through northern Algeria on Wednesday, with authorities battling more than 150 blazes amid a scorching heatwave sweeping across North Africa. Six of the 54 injured were in critical condition and receiving intensive care.",
+      "published_at": "2026-08-26T23:46:52+00:00",
+      "updated_at": "2026-08-26T23:46:52+00:00",
+      "effective_at": "2026-08-26T23:46:52+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "disaster",
+      "score": 73,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "nuclear",
-      "subregion": "United States",
+      "urgency_terms": [
+        "wildfire"
+      ],
+      "sector": "climate",
+      "subsector": "wildfires",
+      "subregion": "North Africa",
       "country": null,
       "entities": [
-        "agency",
-        "atomic",
-        "center",
-        "don",
-        "energy",
-        "geneva",
-        "grossi",
-        "group",
-        "iaea",
-        "international",
-        "nations",
-        "rafael",
-        "stimson",
-        "un",
-        "united_states",
-        "us"
+        "africa",
+        "algeria",
+        "north",
+        "twelve"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 98,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "WASHINGTON, August 27.",
-        "The United Nations needs to rebuild trust with its largest donors, including the United States, International Atomic Energy Agency (IAEA) Director General Rafael Grossi, who is seeking the post of UN secretary-general, said.",
-        "\"I think there has to be a restoration of trust [in the UN relations] with not only the United States but the so-called Geneva Group - the top ten contributors, who, I would say, agree in private with much of what the United States says.",
-        "They don't say it in public, but I don't see any of them coming and saying, ‘Don't worry, UN, we will pay for them\",\" he said, speaking at the Stimson Center in Washington.",
-        "When asked whether the UN could effectively perform its functions without contributions from the United States, Grossi said it could not.",
-        "\"Perhaps this is why the administration has decided to withhold payments or to delay payments.",
-        "At the risk of being a bit provocative, I would say I don't find it illogical.",
-        "The United States is paying 22-25%, and they do not like the way the institution is, you know, going.",
-        "They may question it.",
-        "Of course, assess contributions are an obligation.",
-        "There is no doubt about it.",
-        "This is an obligation, and it should be complied with,\" he noted."
-      ],
-      "event_status": "NEW",
-      "event_id": "fb70cae40b4c3d1e4056ade7",
-      "importance_score": 36.0,
-      "importance_level": "LOW",
+      "event_status": "UPDATE",
+      "event_id": "c7dd64202d74ef08abe0fd1c",
+      "importance_score": 67.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "impact": 25,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
+          "dead": 100,
+          "injured": 54,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
-          "major_incident": false,
-          "crisis": false
+          "major_incident": true,
+          "crisis": true
         },
         "significance_dims": {
+          "human": 12,
           "geopolitical": 4
         }
       },
-      "story_id": "c237ea7c930619f1a33df0bb06ff46cb1c77157b1a7528079dcb8676c23e36b4",
-      "public_label": "📰 NEWS",
-      "headline": "UN needs to rebuild trust with major donors — Grossi",
+      "story_id": "0c65d3c87e78f3a3069b15938e184c3701e171fe2ca2edc8b4a14afd02512a25",
+      "public_label": "🔄 UPDATE",
+      "headline": "Wildfires kill 12 in Algeria as severe heatwave sweeps North Africa",
       "briefing": {
         "opening": [
-          "WASHINGTON, August 27.",
-          "The United Nations needs to rebuild trust with its largest donors, including the United States, International Atomic Energy Agency (IAEA) Director General Rafael Grossi, who is seeking the post of UN secretary-general, said."
+          "Twelve people died and dozens were injured as wildfires tore through northern Algeria on Wednesday, with authorities battling more than 150 blazes amid a scorching heatwave sweeping across North Africa.",
+          "Six of the 54 injured were in critical condition and receiving intensive care."
         ],
-        "body": [
-          "\"I think there has to be a restoration of trust [in the UN relations] with not only the United States but the so-called Geneva Group - the top ten contributors, who, I would say, agree in private with much of what the United States says.",
-          "They don't say it in public, but I don't see any of them coming and saying, ‘Don't worry, UN, we will pay for them\",\" he said, speaking at the Stimson Center in Washington.",
-          "When asked whether the UN could effectively perform its functions without contributions from the United States, Grossi said it could not.",
-          "\"Perhaps this is why the administration has decided to withhold payments or to delay payments.",
-          "At the risk of being a bit provocative, I would say.",
-          "I don't find it illogical.",
-          "The United States is paying 22-25%, and they do not like the way the institution is, you know, going.",
-          "They may question it."
-        ],
+        "body": [],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Washington"
+            "text": "North Africa"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "54 injured"
           }
         ],
         "sentences": [
           {
-            "text": "The United Nations needs to rebuild trust with its largest donors, including the United States, International Atomic Energy Agency (IAEA) Director General Rafael Grossi, who is seeking the post of UN secretary-general, said.",
-            "source": "TASS English",
-            "item_id": "c237ea7c930619f1a33df0bb06ff46cb1c77157b1a7528079dcb8676c23e36b4:article",
+            "text": "Twelve people died and dozens were injured as wildfires tore through northern Algeria on Wednesday, with authorities battling more than 150 blazes amid a scorching heatwave sweeping across North Africa.",
+            "source": "France 24",
+            "item_id": "0c65d3c87e78f3a3069b15938e184c3701e171fe2ca2edc8b4a14afd02512a25",
             "composed": false
           },
           {
-            "text": "WASHINGTON, August 27.",
-            "source": "TASS English",
-            "item_id": "c237ea7c930619f1a33df0bb06ff46cb1c77157b1a7528079dcb8676c23e36b4:article",
-            "composed": false
-          },
-          {
-            "text": "They don't say it in public, but I don't see any of them coming and saying, ‘Don't worry, UN, we will pay for them\",\" he said, speaking at the Stimson Center in Washington.",
-            "source": "TASS English",
-            "item_id": "c237ea7c930619f1a33df0bb06ff46cb1c77157b1a7528079dcb8676c23e36b4:article",
+            "text": "Six of the 54 injured were in critical condition and receiving intensive care.",
+            "source": "France 24",
+            "item_id": "0c65d3c87e78f3a3069b15938e184c3701e171fe2ca2edc8b4a14afd02512a25",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://tass.com/world/2178101"
+        "url": "https://www.france24.com/en/africa/20260826-wildfires-algeria-severe-heatwave-sweeps-north-africa"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
