@@ -1,59 +1,74 @@
 {
-  "generated_at": "2026-08-26T05:40:52.697602+00:00",
-  "count": 3,
+  "generated_at": "2026-08-26T05:50:47.553642+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "a6781039e14aa190f0fa8ee0b845a3bee861400b0dd00c4249f2e759ff20f7e4",
-      "title": "Three killed in Bihar after speeding car hits kirtan group",
-      "url": "https://www.thehindu.com/videos/three-killed-in-bihar-after-speeding-car-hits-kirtan-group/article71391552.ece",
-      "source": "The Hindu",
+      "id": "949e6f83b29f50ef23ba8a9a2eee2ff49653a4344c18ec198e02dfdeb07f1c44",
+      "title": "Six Chinese nationals among seven killed in Russian gas plant fire",
+      "url": "https://www.straitstimes.com/asia/six-chinese-nationals-among-seven-killed-in-russian-gas-plant-fire",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Asia",
       "discovery": false,
-      "summary": "Three people were killed and three others injured after a speeding car ploughed into a group performing kirtan near a temple in Bihar’s Supaul district. The vehicle later crashed into a roadside welding shop. Following the accident, locals blocked NH-327E in protest.",
-      "published_at": "2026-08-26T05:27:42+00:00",
-      "updated_at": "2026-08-26T05:27:42+00:00",
-      "effective_at": "2026-08-26T05:27:42+00:00",
+      "summary": "Six Chinese nationals were killed and nine more are missing after a fire broke out at a gas chemical complex in Russia's far eastern Amur region, the plant said on Wednesday. A total of seven people died and 152 people were treated for injures, including 36 who were rushed to hospitals, the plant said on the Telegram messaging app on Wednesday. The fire, which broke out on Tuesday, was extinguished, it added. An emergency services plane had arrived to transport the injured to other hospitals in Russia. The complex, which bills itself as one of the world's largest polyethylene and polypropylene producers, is a joint project of Russian company Sibur and Chinese oil and gas company Sinopec. It has yet to begin operations and was preparing for production start. Russia frequently relies on foreign labour, including workers from China, for the construction of large industrial and infrastructure projects. Russia's Investigative Committee said it was investigating the incident as a potential breach of industrial safety regulations and was working to establish the cause of the fire.",
+      "published_at": "2026-08-26T05:43:48+00:00",
+      "updated_at": "2026-08-26T05:43:48+00:00",
+      "effective_at": "2026-08-26T05:43:48+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "industry",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "automotive",
-      "subregion": null,
+      "sector": "companies",
+      "subsector": "industry",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "bihar",
-        "nh-327e",
-        "supaul"
+        "amur",
+        "china",
+        "investigative",
+        "russia",
+        "sibur",
+        "sinopec",
+        "six",
+        "telegram"
       ],
-      "corroborating_sources": 0,
+      "corroborating_sources": 1,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
-      "verified_match_count": 0,
+      "verified_match_count": 1,
       "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "Six Chinese nationals were killed and nine more are missing after a fire broke out at a gas chemical complex in Russia's far eastern Amur region, the plant said on Wednesday.",
+        "A total of seven people died and 152 people were treated for injures, including 36 who were rushed to hospitals, the plant said on the Telegram messaging app on Wednesday.",
+        "The fire, which broke out on Tuesday, was extinguished, it added.",
+        "An emergency services plane had arrived to transport the injured to other hospitals in Russia.",
+        "The complex, which bills itself as one of the world's largest polyethylene and polypropylene producers, is a joint project of Russian company Sibur and Chinese oil and gas company Sinopec.",
+        "It has yet to begin operations and was preparing for production start.",
+        "Russia frequently relies on foreign labour, including workers from China, for the construction of large industrial and infrastructure projects.",
+        "Russia's Investigative Committee said it was investigating the incident as a potential breach of industrial safety regulations and was working to establish the cause of the fire."
+      ],
       "event_status": "NEW",
-      "event_id": "41af28a374cb4ed4743514c9",
-      "importance_score": 58.0,
+      "event_id": "37a3342b45289d489a6ec41f",
+      "importance_score": 69.0,
       "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 22.0,
-        "urgency": 7.0,
+        "urgency": 9.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 10,
+        "corroboration": 3,
+        "significance": 14,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 327,
+          "dead": 152,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -62,94 +77,104 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 10
+          "human": 10,
+          "infrastructure": 4
         }
       },
-      "story_id": "a6781039e14aa190f0fa8ee0b845a3bee861400b0dd00c4249f2e759ff20f7e4",
+      "story_id": "949e6f83b29f50ef23ba8a9a2eee2ff49653a4344c18ec198e02dfdeb07f1c44",
       "public_label": "📰 NEWS",
-      "headline": "Three killed in Bihar after speeding car hits kirtan group",
+      "headline": "Six Chinese nationals among seven killed in Russian gas plant fire",
       "briefing": {
         "opening": [
-          "Three people were killed and three others injured after a speeding car ploughed into a group performing kirtan near a temple in Bihar’s Supaul district.",
-          "The vehicle later crashed into a roadside welding shop."
+          "Six Chinese nationals were killed and nine more are missing after a fire broke out at a gas chemical complex in Russia's far eastern Amur region, the plant said on Wednesday.",
+          "A total of seven people died and 152 people were treated for injures, including 36 who were rushed to hospitals, the plant said on the Telegram messaging app on Wednesday."
         ],
         "body": [
-          "Following the accident, locals blocked NH-327E in protest."
+          "The fire, which broke out on Tuesday, was extinguished, it added.",
+          "An emergency services plane had arrived to transport the injured to other hospitals in Russia.",
+          "The complex, which bills itself as one of the world's largest polyethylene and polypropylene producers, is a joint project of Russian company Sibur and Chinese oil and gas company Sinopec.",
+          "It has yet to begin operations and was preparing for production start.",
+          "Russia frequently relies on foreign labour, including workers from China, for the construction of large industrial and infrastructure projects.",
+          "Russia's Investigative Committee said it was investigating the incident as a potential breach of industrial safety regulations and was working to establish the cause of the fire."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Bihar’s Supaul district"
+            "text": "Russia's"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "152 people"
           }
         ],
         "sentences": [
           {
-            "text": "Three people were killed and three others injured after a speeding car ploughed into a group performing kirtan near a temple in Bihar’s Supaul district.",
-            "source": "The Hindu",
-            "item_id": "a6781039e14aa190f0fa8ee0b845a3bee861400b0dd00c4249f2e759ff20f7e4",
+            "text": "A total of seven people died and 152 people were treated for injures, including 36 who were rushed to hospitals, the plant said on the Telegram messaging app on Wednesday.",
+            "source": "Straits Times Asia",
+            "item_id": "949e6f83b29f50ef23ba8a9a2eee2ff49653a4344c18ec198e02dfdeb07f1c44:article",
             "composed": false
           },
           {
-            "text": "The vehicle later crashed into a roadside welding shop.",
-            "source": "The Hindu",
-            "item_id": "a6781039e14aa190f0fa8ee0b845a3bee861400b0dd00c4249f2e759ff20f7e4",
+            "text": "Russia's Investigative Committee said it was investigating the incident as a potential breach of industrial safety regulations and was working to establish the cause of the fire.",
+            "source": "Straits Times Asia",
+            "item_id": "949e6f83b29f50ef23ba8a9a2eee2ff49653a4344c18ec198e02dfdeb07f1c44:article",
             "composed": false
           },
           {
-            "text": "Following the accident, locals blocked NH-327E in protest.",
-            "source": "The Hindu",
-            "item_id": "a6781039e14aa190f0fa8ee0b845a3bee861400b0dd00c4249f2e759ff20f7e4",
+            "text": "Six Chinese nationals were killed and nine more are missing after a fire broke out at a gas chemical complex in Russia's far eastern Amur region, the plant said on Wednesday.",
+            "source": "Straits Times Asia",
+            "item_id": "949e6f83b29f50ef23ba8a9a2eee2ff49653a4344c18ec198e02dfdeb07f1c44:article",
+            "composed": false
+          },
+          {
+            "text": "Russia frequently relies on foreign labour, including workers from China, for the construction of large industrial and infrastructure projects.",
+            "source": "Straits Times Asia",
+            "item_id": "949e6f83b29f50ef23ba8a9a2eee2ff49653a4344c18ec198e02dfdeb07f1c44:article",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.thehindu.com/videos/three-killed-in-bihar-after-speeding-car-hits-kirtan-group/article71391552.ece"
+        "url": "https://www.straitstimes.com/asia/six-chinese-nationals-among-seven-killed-in-russian-gas-plant-fire"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "43b1b9d854d30e539da77c2e5cbf9fca689ef2f6d465a8726293e8cb5e66e16e",
-      "title": "TikTok expected to contribute over 40 tln won to S. Korean economy by 2030",
-      "url": "https://en.yna.co.kr/view/AEN20260826005200320",
-      "source": "Yonhap English",
-      "source_category": "world",
+      "id": "e91567220f358990bd36d08a7691ed1d68eab64a37ef64203237d4563beab31c",
+      "title": "'Magical' and rare barn owl has bumper breeding season",
+      "url": "https://www.bbc.co.uk/news/articles/crl6r66yjklo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Science",
+      "source_category": "science",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": null,
       "discovery": false,
-      "summary": "TikTok is expected to contribute up to 40.6 trillion won (US$29.3 billion) to the South Korean economy by 2030, by promoting K-culture through its platform, the company said in its latest report released Wednesday. The report, co-published by the global consulting firm Kearney, surveyed 3,300 consumers aged 16 to 49 across ten countries, and provided a quantitative analysis of how the K-pop fandom created on TikTok has impacted the local economy and its major industries. \"TikTok not only reinforces global interest in K-culture but has contributed greatly to the actual purchase of products related to K-culture,\" Chung Tae-hwan, a partner at Kearny Korea LLC, said. According to the survey, 88.7 percent of users said TikTok helped them discover Korean culture, while 69.5 percent said their preference for it grew after using the platform. More than half, or 55.7 percent, said they have bought Korean products after consuming content about Korean culture on TikTok. The economic impact of TikTok on South Korea is expected to grow by 29 percent from 31.3 trillion won this year to around 40.6 trillion in 2030, the report said. During the conference, an executive from TikTok's local office denied rumors the company plans to launch TikTok Shop, its in-app e-commerce feature, in South Korea this year. \"We have received many questions about TikTok Shop, but we are not launching the feature this year,\" a communications executive from the company said. The social media platform owned by China's ByteDance also reiterated its commitment to youth safety, adding it does not view the global push to ban minors from social media as an existential roadblock to its business expansion. \"There are no rules currently being enforced in a way that we actually feel or that requires us to take immediate action,\" Jung Jae-hoon, head of operations at TikTok Korea, said.",
-      "published_at": "2026-08-26T05:29:01+00:00",
-      "updated_at": "2026-08-26T05:29:01+00:00",
-      "effective_at": "2026-08-26T05:29:01+00:00",
+      "summary": "Barn owls have had a bumper summer in County Fermanagh, with 10 chicks recorded across two sites. The breeding success follows years of conservation work by Ulster Wildlife with local farmers installing nest boxes and improving habitat for the elusive bird. There are thought to be fewer than 30 breeding pairs left in Northern Ireland. The chicks have had rings placed on their legs so that they can be recorded in any other areas they turn up in after leaving the nest. People are being encouraged to report any sightings of barn owls across Northern Ireland, particularly in the west, to help fill in gaps in the records and even help protect important breeding areas. The Fermanagh chicks are thought to be the first recorded ones in the county for half a century. Most of Ulster Wildlife's barn owl records come from the east of Northern Ireland. The two broods of five chicks appeared in nest boxes that had been installed at different sites, after more than a decade of work with landowners. The locations are being kept secret to help protect the rare, locally endangered bird. Katy Bell, a senior conservation officer from Ulster Wildlife, said nest boxes play a part, but the willingness of farmers to adapt to the needs of the \"magical, mystical\" barn owl has been important too. \"We've been working closely with landowners, advising on land management and also putting up boxes,\" she said. \"So it's the combination of both - really you need nice thick hedgerows, lots of kind of rough areas and long grass for them to hunt over and then somewhere for them to nest.",
+      "published_at": "2026-08-26T05:43:05+00:00",
+      "updated_at": "2026-08-26T05:43:05+00:00",
+      "effective_at": "2026-08-26T05:43:05+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "economy",
-      "subregion": "East Asia",
+      "sector": "science",
+      "subsector": "science",
+      "subregion": null,
       "country": null,
       "entities": [
-        "bytedance",
-        "china",
-        "chung",
-        "jae-hoon",
-        "jung",
-        "k-culture",
-        "k-pop",
-        "kearney",
-        "kearny",
-        "korean",
-        "llc",
-        "shop",
-        "south_korea",
-        "tae-hwan",
-        "tiktok",
-        "us"
+        "barn",
+        "bell",
+        "county",
+        "fermanagh",
+        "ireland",
+        "katy",
+        "northern",
+        "ulster",
+        "wildlife"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -159,30 +184,32 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "TikTok is expected to contribute up to 40.6 trillion won (US$29.3 billion) to the South Korean economy by 2030, by promoting K-culture through its platform, the company said in its latest report released Wednesday.",
-        "The report, co-published by the global consulting firm Kearney, surveyed 3,300 consumers aged 16 to 49 across ten countries, and provided a quantitative analysis of how the K-pop fandom created on TikTok has impacted the local economy and its major industries.",
-        "\"TikTok not only reinforces global interest in K-culture but has contributed greatly to the actual purchase of products related to K-culture,\" Chung Tae-hwan, a partner at Kearny Korea LLC, said.",
-        "According to the survey, 88.7 percent of users said TikTok helped them discover Korean culture, while 69.5 percent said their preference for it grew after using the platform.",
-        "More than half, or 55.7 percent, said they have bought Korean products after consuming content about Korean culture on TikTok.",
-        "The economic impact of TikTok on South Korea is expected to grow by 29 percent from 31.3 trillion won this year to around 40.6 trillion in 2030, the report said.",
-        "During the conference, an executive from TikTok's local office denied rumors the company plans to launch TikTok Shop, its in-app e-commerce feature, in South Korea this year.",
-        "\"We have received many questions about TikTok Shop, but we are not launching the feature this year,\" a communications executive from the company said.",
-        "The social media platform owned by China's ByteDance also reiterated its commitment to youth safety, adding it does not view the global push to ban minors from social media as an existential roadblock to its business expansion.",
-        "\"There are no rules currently being enforced in a way that we actually feel or that requires us to take immediate action,\" Jung Jae-hoon, head of operations at TikTok Korea, said."
+        "Barn owls have had a bumper summer in County Fermanagh, with 10 chicks recorded across two sites.",
+        "The breeding success follows years of conservation work by Ulster Wildlife with local farmers installing nest boxes and improving habitat for the elusive bird.",
+        "There are thought to be fewer than 30 breeding pairs left in Northern Ireland.",
+        "The chicks have had rings placed on their legs so that they can be recorded in any other areas they turn up in after leaving the nest.",
+        "People are being encouraged to report any sightings of barn owls across Northern Ireland, particularly in the west, to help fill in gaps in the records and even help protect important breeding areas.",
+        "The Fermanagh chicks are thought to be the first recorded ones in the county for half a century.",
+        "Most of Ulster Wildlife's barn owl records come from the east of Northern Ireland.",
+        "The two broods of five chicks appeared in nest boxes that had been installed at different sites, after more than a decade of work with landowners.",
+        "The locations are being kept secret to help protect the rare, locally endangered bird.",
+        "Katy Bell, a senior conservation officer from Ulster Wildlife, said nest boxes play a part, but the willingness of farmers to adapt to the needs of the \"magical, mystical\" barn owl has been important too.",
+        "\"We've been working closely with landowners, advising on land management and also putting up boxes,\" she said.",
+        "\"So it's the combination of both - really you need nice thick hedgerows, lots of kind of rough areas and long grass for them to hunt over and then somewhere for them to nest."
       ],
       "event_status": "NEW",
-      "event_id": "53d17fe4c579c9133b01d966",
-      "importance_score": 43.0,
+      "event_id": "33e65f288b31822e883cba02",
+      "importance_score": 26.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 12,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -194,177 +221,62 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "scientific": 8,
-          "economic": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "43b1b9d854d30e539da77c2e5cbf9fca689ef2f6d465a8726293e8cb5e66e16e",
+      "story_id": "e91567220f358990bd36d08a7691ed1d68eab64a37ef64203237d4563beab31c",
       "public_label": "📰 NEWS",
-      "headline": "TikTok expected to contribute over 40 tln won to S. Korean economy by 2030",
+      "headline": "'Magical' and rare barn owl has bumper breeding season",
       "briefing": {
         "opening": [
-          "TikTok is expected to contribute up to 40.6 trillion won (US$29.3 billion) to the South Korean economy by 2030, by promoting K-culture through its platform, the company said in its latest report released Wednesday.",
-          "The report, co-published by the global consulting firm Kearney, surveyed 3,300 consumers aged 16 to 49 across ten countries, and provided a quantitative analysis of how the K-pop fandom created on TikTok has impacted the local economy and its major industries."
+          "Barn owls have had a bumper summer in County Fermanagh, with 10 chicks recorded across two sites.",
+          "The breeding success follows years of conservation work by Ulster Wildlife with local farmers installing nest boxes and improving habitat for the elusive bird."
         ],
         "body": [
-          "\"TikTok not only reinforces global interest in K-culture but has contributed greatly to the actual purchase of products related to K-culture,\" Chung Tae-hwan, a partner at Kearny Korea LLC, said.",
-          "According to the survey, 88.7 percent of users said TikTok helped them discover Korean culture, while 69.5 percent said their preference for it grew after using the platform.",
-          "During the conference, an executive from TikTok's local office denied rumors the company plans to launch TikTok Shop, its in-app e-commerce feature, in South Korea this year.",
-          "\"We have received many questions about TikTok Shop, but we are not launching the feature this year,\" a communications executive from the company said.",
-          "The social media platform owned by China's ByteDance also reiterated its commitment to youth safety, adding it does not view the global push to ban minors from social media as an existential roadblock to its business expansion.",
-          "\"There are no rules currently being enforced in a way that we actually feel or that requires us to take immediate action,\" Jung Jae-hoon, head of operations at TikTok Korea, said."
+          "There are thought to be fewer than 30 breeding pairs left in Northern Ireland.",
+          "The chicks have had rings placed on their legs so that they can be recorded in any other areas they turn up in after leaving the nest.",
+          "People are being encouraged to report any sightings of barn owls across Northern Ireland, particularly in the west, to help fill in gaps in the records and even help protect important breeding areas.",
+          "The Fermanagh chicks are thought to be the first recorded ones in the county for half a century.",
+          "Most of Ulster Wildlife's barn owl records come from the east of Northern Ireland.",
+          "The two broods of five chicks appeared in nest boxes that had been installed at different sites, after more than a decade of work with landowners.",
+          "The locations are being kept secret to help protect the rare, locally endangered bird.",
+          "Katy Bell, a senior conservation officer from Ulster Wildlife, said nest boxes play a part, but the willingness of farmers to adapt to the needs of the \"magical, mystical\" barn owl has been important too."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "K-culture"
+            "text": "County Fermanagh"
           }
         ],
         "sentences": [
           {
-            "text": "TikTok is expected to contribute up to 40.6 trillion won (US$29.3 billion) to the South Korean economy by 2030, by promoting K-culture through its platform, the company said in its latest report released Wednesday.",
-            "source": "Yonhap English",
-            "item_id": "43b1b9d854d30e539da77c2e5cbf9fca689ef2f6d465a8726293e8cb5e66e16e:article",
+            "text": "Barn owls have had a bumper summer in County Fermanagh, with 10 chicks recorded across two sites.",
+            "source": "BBC Science",
+            "item_id": "e91567220f358990bd36d08a7691ed1d68eab64a37ef64203237d4563beab31c:article",
             "composed": false
           },
           {
-            "text": "The report, co-published by the global consulting firm Kearney, surveyed 3,300 consumers aged 16 to 49 across ten countries, and provided a quantitative analysis of how the K-pop fandom created on TikTok has impacted the local economy and its major industries.",
-            "source": "Yonhap English",
-            "item_id": "43b1b9d854d30e539da77c2e5cbf9fca689ef2f6d465a8726293e8cb5e66e16e:article",
+            "text": "There are thought to be fewer than 30 breeding pairs left in Northern Ireland.",
+            "source": "BBC Science",
+            "item_id": "e91567220f358990bd36d08a7691ed1d68eab64a37ef64203237d4563beab31c:article",
             "composed": false
           },
           {
-            "text": "According to the survey, 88.7 percent of users said TikTok helped them discover Korean culture, while 69.5 percent said their preference for it grew after using the platform.",
-            "source": "Yonhap English",
-            "item_id": "43b1b9d854d30e539da77c2e5cbf9fca689ef2f6d465a8726293e8cb5e66e16e:article",
+            "text": "People are being encouraged to report any sightings of barn owls across Northern Ireland, particularly in the west, to help fill in gaps in the records and even help protect important breeding areas.",
+            "source": "BBC Science",
+            "item_id": "e91567220f358990bd36d08a7691ed1d68eab64a37ef64203237d4563beab31c:article",
             "composed": false
           },
           {
-            "text": "\"TikTok not only reinforces global interest in K-culture but has contributed greatly to the actual purchase of products related to K-culture,\" Chung Tae-hwan, a partner at Kearny Korea LLC, said.",
-            "source": "Yonhap English",
-            "item_id": "43b1b9d854d30e539da77c2e5cbf9fca689ef2f6d465a8726293e8cb5e66e16e:article",
+            "text": "Katy Bell, a senior conservation officer from Ulster Wildlife, said nest boxes play a part, but the willingness of farmers to adapt to the needs of the \"magical, mystical\" barn owl has been important too.",
+            "source": "BBC Science",
+            "item_id": "e91567220f358990bd36d08a7691ed1d68eab64a37ef64203237d4563beab31c:article",
             "composed": false
           }
         ],
-        "source": "Yonhap English",
+        "source": "BBC Science",
         "corroborating": [],
-        "url": "https://en.yna.co.kr/view/AEN20260826005200320"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "38d968a4e00e47bb4cbc5e9d8f92c0e9eca59223a2955b10b695ee78f4c447d0",
-      "title": "Hong Kong police officer accidentally discharges firearm at base",
-      "url": "https://www.scmp.com/news/hong-kong/article/3365289/hong-kong-police-officer-accidentally-discharges-firearm-base-loading-area?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "A Hong Kong constable is suspected of discharging his service firearm accidentally at a police base in Mong Kok, the force has revealed. The incident occurred at 11.01pm on Tuesday as the officer was loading a round into his service firearm at the West Kowloon Regional Emergency Unit’s base, police said on Wednesday. A single round was fired and no one was injured. Police stressed that the force had strict regulations on the use of firearms and that the incident was being investigated.",
-      "published_at": "2026-08-26T05:37:33+00:00",
-      "updated_at": "2026-08-26T05:37:33+00:00",
-      "effective_at": "2026-08-26T05:37:33+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "disasters",
-      "subregion": "East Asia",
-      "country": null,
-      "entities": [
-        "emergency",
-        "hong_kong",
-        "kok",
-        "kowloon",
-        "mong",
-        "regional",
-        "unit",
-        "west"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "95d8b2e88513667bd8e3c8be",
-      "importance_score": 34.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 9.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "human": 4
-        }
-      },
-      "story_id": "38d968a4e00e47bb4cbc5e9d8f92c0e9eca59223a2955b10b695ee78f4c447d0",
-      "public_label": "📰 NEWS",
-      "headline": "Hong Kong police officer accidentally discharges firearm at base",
-      "briefing": {
-        "opening": [
-          "A Hong Kong constable is suspected of discharging his service firearm accidentally at a police base in Mong Kok, the force has revealed.",
-          "The incident occurred at 11.01pm on Tuesday as the officer was loading a round into his service firearm at the West Kowloon Regional Emergency Unit’s base, police said on Wednesday."
-        ],
-        "body": [
-          "A single round was fired and no one was injured.",
-          "Police stressed that the force had strict regulations on the use of firearms and that the incident was being investigated."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Mong Kok"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Police stressed that the force had strict regulations on the use of firearms and that the incident was being investigated.",
-            "source": "South China Morning Post",
-            "item_id": "38d968a4e00e47bb4cbc5e9d8f92c0e9eca59223a2955b10b695ee78f4c447d0",
-            "composed": false
-          },
-          {
-            "text": "A single round was fired and no one was injured.",
-            "source": "South China Morning Post",
-            "item_id": "38d968a4e00e47bb4cbc5e9d8f92c0e9eca59223a2955b10b695ee78f4c447d0",
-            "composed": false
-          },
-          {
-            "text": "The incident occurred at 11.01pm on Tuesday as the officer was loading a round into his service firearm at the West Kowloon Regional Emergency Unit’s base, police said on Wednesday.",
-            "source": "South China Morning Post",
-            "item_id": "38d968a4e00e47bb4cbc5e9d8f92c0e9eca59223a2955b10b695ee78f4c447d0",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/article/3365289/hong-kong-police-officer-accidentally-discharges-firearm-base-loading-area?utm_source=rss_feed"
+        "url": "https://www.bbc.co.uk/news/articles/crl6r66yjklo?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
       "label": "📰 NEWS"
