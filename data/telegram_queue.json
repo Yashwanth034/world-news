@@ -1,59 +1,93 @@
 {
-  "generated_at": "2026-08-26T14:10:51.748359+00:00",
-  "count": 3,
+  "generated_at": "2026-08-26T14:20:51.510301+00:00",
+  "count": 1,
   "stories": [
     {
-      "id": "48a46a649d45c030360577c44e3e4e55f7bc1174f95022c4f461768faebf7a57",
-      "title": "Majority of South Koreans not on board with US policy, first time in two decades — poll",
-      "url": "https://tass.com/world/2177955",
-      "source": "TASS English",
+      "id": "97202e1cf0b5df47424b48006578b3edd9d5dabd9ddd8563613cbf18573fddc5",
+      "title": "Guinea's president dismisses 173 soldiers, including coup ally, for desertion",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z0j3nyl4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Africa",
       "discovery": false,
-      "summary": "In 2025, only 39% of respondents had a negative opinion about US policy while 61% of respondents held the opposite view",
-      "published_at": "2026-08-26T14:04:33+00:00",
-      "updated_at": "2026-08-26T14:04:33+00:00",
-      "effective_at": "2026-08-26T14:04:33+00:00",
+      "summary": "Guinea's President Mamadi Doumbouya, 41, has dismissed more than 170 soldiers for \"desertion\", including a colonel who helped him seize power in a coup in 2021. Col Michel Lamah was a member of the Special Forces Group (GFS), the elite army unit which Doumbouya once commanded. When he overthrew President Alpha Condé, Doumbouya said he would not seek election and would hand over to civilian rule. He went on to renege on that promise and stood in December's election - which he won with a landslide. The dismissals, announced in a decree on state television, are thought to be part of ongoing efforts by the president to consolidate his control and prevent potential challenges to his leadership. Those in the firing line came from various branches of the military. No details were given about the circumstances of the alleged desertions of the 173 military personnel when Gen Amara Camara, the president's spokesman, read out the decree on Monday. Col Lamah caught public attention during the September 2021 coup when he was photographed in a vehicle carrying deposed President Condé. Troops had stormed the presidential palace and arrested Condé, who had been re-elected the year before for a controversial third term in office amid violent protests. Since the coup, the West African nation has seen a crackdown on many civil liberties. Media outlets have been shut down, protests have been banned and some political parties have been suspended, while activists and opposition figures have been arrested or exiled. Two of Guinea's biggest opposition parties - RPG Arc en Ciel and UFDG - were excluded from last year's election, which saw the former junta leader win 87% of the vote.",
+      "published_at": "2026-08-26T13:49:55+00:00",
+      "updated_at": "2026-08-26T13:49:55+00:00",
+      "effective_at": "2026-08-26T13:49:55+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "conflict",
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
+      "urgency_terms": [
+        "coup"
+      ],
       "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "United States",
+      "subsector": "conflict",
+      "subregion": "West Africa",
       "country": null,
       "entities": [
-        "koreans",
-        "south_korea",
-        "us"
+        "african",
+        "alpha",
+        "amara",
+        "arc",
+        "camara",
+        "ciel",
+        "col",
+        "cond",
+        "doumbouya",
+        "forces",
+        "gen",
+        "gfs",
+        "group",
+        "guinea",
+        "lamah",
+        "mamadi",
+        "michel",
+        "rpg",
+        "special",
+        "ufdg",
+        "west"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "a9d3d699fd3ad116742ce26b",
-      "importance_score": 36.0,
-      "importance_level": "LOW",
+      "article_sentences": [
+        "Guinea's President Mamadi Doumbouya, 41, has dismissed more than 170 soldiers for \"desertion\", including a colonel who helped him seize power in a coup in 2021.",
+        "Col Michel Lamah was a member of the Special Forces Group (GFS), the elite army unit which Doumbouya once commanded.",
+        "When he overthrew President Alpha Condé, Doumbouya said he would not seek election and would hand over to civilian rule.",
+        "He went on to renege on that promise and stood in December's election - which he won with a landslide.",
+        "The dismissals, announced in a decree on state television, are thought to be part of ongoing efforts by the president to consolidate his control and prevent potential challenges to his leadership.",
+        "Those in the firing line came from various branches of the military.",
+        "No details were given about the circumstances of the alleged desertions of the 173 military personnel when Gen Amara Camara, the president's spokesman, read out the decree on Monday.",
+        "Col Lamah caught public attention during the September 2021 coup when he was photographed in a vehicle carrying deposed President Condé.",
+        "Troops had stormed the presidential palace and arrested Condé, who had been re-elected the year before for a controversial third term in office amid violent protests.",
+        "Since the coup, the West African nation has seen a crackdown on many civil liberties.",
+        "Media outlets have been shut down, protests have been banned and some political parties have been suspended, while activists and opposition figures have been arrested or exiled.",
+        "Two of Guinea's biggest opposition parties - RPG Arc en Ciel and UFDG - were excluded from last year's election, which saw the former junta leader win 87% of the vote."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "fd7587c44dbe425b2cd70750",
+      "importance_score": 74.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 22.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 26,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
+          "dead": 173,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -62,292 +96,74 @@
           "crisis": false
         },
         "significance_dims": {
-          "scientific": 8
+          "geopolitical": 8,
+          "security": 4,
+          "infrastructure": 4,
+          "human": 10
         }
       },
-      "story_id": "48a46a649d45c030360577c44e3e4e55f7bc1174f95022c4f461768faebf7a57",
-      "article_sentences": [
-        "SEOUL, August 26.",
-        "For the first time in 23 years, a majority (55%) of residents of the Republic of Korea negatively assess the policies of the United States, according to the results of a poll conducted by the US-based Pew Research Center.",
-        "The Center polled 1,045 people between March 3 and April 4, prior to US President Donald Trump ordering the Pentagon to scale back annual joint military exercises with South Korea.",
-        "\"For the first time in over 20 years, a majority of South Koreans have an unfavorable opinion of the US,\" a report from the research center reads.",
-        "According to the data provided, a similar situation was recorded only in 2003 when 50% of respondents reported feeling negative towards the United States while 46% were pro-American.",
-        "The Center has been conducting research on this issue since 2002.",
-        "\"South Koreans are much less likely than a few years ago to view the US as a reliable partner to their country,\" according to the report.",
-        "\"While around six-in-ten South Korean adults (57%) consider the US a reliable partner, that’s down from 83% in 2022, when we last asked this question during the Biden administration.\"",
-        "In 2026, only 47% of respondents agreed that the United States contributes to peace and stability on the planet.",
-        "This figure stood at 74% in 2023.",
-        "\"A broad majority of South Koreans (85%) disapprove of the way Trump is dealing with tariffs, including 63% who strongly disapprove.",
-        "Only 14% approve of the US president’s handling of tariffs,\" the report continued."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Majority of South Koreans not on board with US policy, first time in two decades — poll",
+      "story_id": "97202e1cf0b5df47424b48006578b3edd9d5dabd9ddd8563613cbf18573fddc5",
+      "public_label": "🔄 UPDATE",
+      "headline": "Guinea's president dismisses 173 soldiers, including coup ally, for desertion",
       "briefing": {
         "opening": [
-          "SEOUL, August 26.",
-          "For the first time in 23 years, a majority (55%) of residents of the Republic of Korea negatively assess the policies of the United States, according to the results of a poll conducted by the US-based Pew Research Center."
+          "Guinea's President Mamadi Doumbouya, 41, has dismissed more than 170 soldiers for \"desertion\", including a colonel who helped him seize power in a coup in 2021.",
+          "Col Michel Lamah was a member of the Special Forces Group (GFS), the elite army unit which Doumbouya once commanded."
         ],
         "body": [
-          "The Center polled 1,045 people between March 3 and April 4, prior to US President Donald Trump ordering the Pentagon to scale back annual joint military exercises with South Korea.",
-          "\"For the first time in over 20 years, a majority of South Koreans have an unfavorable opinion of the US,\" a report from the research center reads.",
-          "The Center has been conducting research on this issue since 2002.",
-          "\"South Koreans are much less likely than a few years ago to view the US as a reliable partner to their country,\" according to the report.",
-          "This figure stood at 74% in 2023.",
-          "\"A broad majority of South Koreans (85%) disapprove of the way Trump is dealing with tariffs, including 63% who strongly disapprove.",
-          "Only 14% approve of the US president’s handling of tariffs,\" the report continued.",
-          "In 2025, only 39% of respondents had a negative opinion about US policy while 61% of respondents held the opposite view."
+          "When he overthrew President Alpha Condé, Doumbouya said he would not seek election and would hand over to civilian rule.",
+          "He went on to renege on that promise and stood in December's election - which he won with a landslide.",
+          "The dismissals, announced in a decree on state television, are thought to be part of ongoing efforts by the president to consolidate his control and prevent potential challenges to his leadership.",
+          "Those in the firing line came from various branches of the military.",
+          "No details were given about the circumstances of the alleged desertions of the 173 military personnel when Gen Amara Camara, the president's spokesman, read out the decree on Monday.",
+          "Col Lamah caught public attention during the September 2021 coup when he was photographed in a vehicle carrying deposed President Condé.",
+          "Troops had stormed the presidential palace and arrested Condé, who had been re-elected the year before for a controversial third term in office amid violent protests.",
+          "Since the coup, the West African nation has seen a crackdown on many civil liberties."
         ],
         "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "December's"
+          },
           {
             "icon": "👥",
             "label": "Impact",
-            "text": "1,045 people"
+            "text": "more than 170 soldiers"
           }
         ],
         "sentences": [
           {
-            "text": "The Center polled 1,045 people between March 3 and April 4, prior to US President Donald Trump ordering the Pentagon to scale back annual joint military exercises with South Korea.",
-            "source": "TASS English",
-            "item_id": "48a46a649d45c030360577c44e3e4e55f7bc1174f95022c4f461768faebf7a57:article",
+            "text": "No details were given about the circumstances of the alleged desertions of the 173 military personnel when Gen Amara Camara, the president's spokesman, read out the decree on Monday.",
+            "source": "BBC World",
+            "item_id": "97202e1cf0b5df47424b48006578b3edd9d5dabd9ddd8563613cbf18573fddc5:article",
             "composed": false
           },
           {
-            "text": "For the first time in 23 years, a majority (55%) of residents of the Republic of Korea negatively assess the policies of the United States, according to the results of a poll conducted by the US-based Pew Research Center.",
-            "source": "TASS English",
-            "item_id": "48a46a649d45c030360577c44e3e4e55f7bc1174f95022c4f461768faebf7a57:article",
+            "text": "Col Lamah caught public attention during the September 2021 coup when he was photographed in a vehicle carrying deposed President Condé.",
+            "source": "BBC World",
+            "item_id": "97202e1cf0b5df47424b48006578b3edd9d5dabd9ddd8563613cbf18573fddc5:article",
             "composed": false
           },
           {
-            "text": "\"For the first time in over 20 years, a majority of South Koreans have an unfavorable opinion of the US,\" a report from the research center reads.",
-            "source": "TASS English",
-            "item_id": "48a46a649d45c030360577c44e3e4e55f7bc1174f95022c4f461768faebf7a57:article",
+            "text": "He went on to renege on that promise and stood in December's election - which he won with a landslide.",
+            "source": "BBC World",
+            "item_id": "97202e1cf0b5df47424b48006578b3edd9d5dabd9ddd8563613cbf18573fddc5:article",
+            "composed": false
+          },
+          {
+            "text": "Guinea's President Mamadi Doumbouya, 41, has dismissed more than 170 soldiers for \"desertion\", including a colonel who helped him seize power in a coup in 2021.",
+            "source": "BBC World",
+            "item_id": "97202e1cf0b5df47424b48006578b3edd9d5dabd9ddd8563613cbf18573fddc5:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "BBC World",
         "corroborating": [],
-        "url": "https://tass.com/world/2177955"
+        "url": "https://www.bbc.co.uk/news/articles/cx2z0j3nyl4o?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "3965eebc5356e7fb270809ce43851c8c49565a139c182c0cae98407fdd7a6dfa",
-      "title": "Iranian president expects to meet with Putin at SCO summit",
-      "url": "https://tass.com/world/2177953",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "The summit will be held in Bishkek on August 31 and September 1",
-      "published_at": "2026-08-26T14:00:08+00:00",
-      "updated_at": "2026-08-26T14:00:08+00:00",
-      "effective_at": "2026-08-26T14:00:08+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "diplomacy",
-      "subregion": "West Asia / Middle East",
-      "country": null,
-      "entities": [
-        "bishkek",
-        "iran",
-        "putin",
-        "sco"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "9393649528ec9b06cb5dfe08",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "geopolitical": 4
-        }
-      },
-      "story_id": "3965eebc5356e7fb270809ce43851c8c49565a139c182c0cae98407fdd7a6dfa",
-      "article_sentences": [
-        "CAIRO, August 26.",
-        "Iranian President Masoud Pezeshkian is expecting a meeting with Russian leader Vladimir Putin at the summit of the Shanghai Cooperation Organization (SCO) in Bishkek, according to Iranian TV channel Press TV.",
-        "According to it, Pezeshkian will take part in the summit, which will be held in the capital of Kyrgyzstan on August 31 and September 1.",
-        "The office of the head of the Iranian government has not yet officially commented on this information."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Iranian president expects to meet with Putin at SCO summit",
-      "briefing": {
-        "opening": [
-          "CAIRO, August 26.",
-          "Iranian President Masoud Pezeshkian is expecting a meeting with Russian leader Vladimir Putin at the summit of the Shanghai Cooperation Organization (SCO) in Bishkek, according to Iranian TV channel Press TV."
-        ],
-        "body": [
-          "According to it, Pezeshkian will take part in the summit, which will be held in the capital of Kyrgyzstan on August 31 and September 1.",
-          "The office of the head of the Iranian government has not yet officially commented on this information.",
-          "The summit will be held in Bishkek on August 31 and September 1."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Bishkek"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The office of the head of the Iranian government has not yet officially commented on this information.",
-            "source": "TASS English",
-            "item_id": "3965eebc5356e7fb270809ce43851c8c49565a139c182c0cae98407fdd7a6dfa:article",
-            "composed": false
-          },
-          {
-            "text": "According to it, Pezeshkian will take part in the summit, which will be held in the capital of Kyrgyzstan on August 31 and September 1.",
-            "source": "TASS English",
-            "item_id": "3965eebc5356e7fb270809ce43851c8c49565a139c182c0cae98407fdd7a6dfa:article",
-            "composed": false
-          },
-          {
-            "text": "Iranian President Masoud Pezeshkian is expecting a meeting with Russian leader Vladimir Putin at the summit of the Shanghai Cooperation Organization (SCO) in Bishkek, according to Iranian TV channel Press TV.",
-            "source": "TASS English",
-            "item_id": "3965eebc5356e7fb270809ce43851c8c49565a139c182c0cae98407fdd7a6dfa:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/world/2177953"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "379c763a84035cf4332376bfc4ef9c6d03ea24a7006acce9771e5c568a4a91db",
-      "title": "Devon man becomes first person to swim Switzerland’s 10 largest lakes",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/aug/26/devon-man-becomes-first-person-to-swim-switzerlands-10-largest-lakes",
-      "source": "The Guardian World",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "Neil Gilson completes 230-mile challenge after a ‘tough’ 22-hour crossing of Lac Léman He staggered rather than sprang out of the lake but it wasn’t surprising. Neil Gilson , a former international athlete, could be forgiven for feeling a little wobbly, having become the first person to swim the 10 largest lakes in Switzerland, a total of about 230 miles (370km). Continue reading...",
-      "published_at": "2026-08-26T13:58:06+00:00",
-      "updated_at": "2026-08-26T13:58:06+00:00",
-      "effective_at": "2026-08-26T13:58:06+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "sports",
-      "subsector": "sports",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "gilson",
-        "lac",
-        "neil",
-        "switzerland"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "972ab5b9f4b5955a44a9f76b",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "379c763a84035cf4332376bfc4ef9c6d03ea24a7006acce9771e5c568a4a91db",
-      "public_label": "📰 NEWS",
-      "headline": "Devon man becomes first person to swim Switzerland’s 10 largest lakes",
-      "briefing": {
-        "opening": [
-          "Neil Gilson completes 230-mile challenge after a ‘tough’ 22-hour crossing of Lac Léman.",
-          "He staggered rather than sprang out of the lake but it wasn’t surprising."
-        ],
-        "body": [
-          "Neil Gilson, a former international athlete, could be forgiven for feeling a little wobbly, having become the first person to swim the 10 largest lakes in Switzerland, a total of about 230 miles (370km)."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Switzerland"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "He staggered rather than sprang out of the lake but it wasn’t surprising.",
-            "source": "The Guardian World",
-            "item_id": "379c763a84035cf4332376bfc4ef9c6d03ea24a7006acce9771e5c568a4a91db",
-            "composed": false
-          },
-          {
-            "text": "Neil Gilson, a former international athlete, could be forgiven for feeling a little wobbly, having become the first person to swim the 10 largest lakes in Switzerland, a total of about 230 miles (370km).",
-            "source": "The Guardian World",
-            "item_id": "379c763a84035cf4332376bfc4ef9c6d03ea24a7006acce9771e5c568a4a91db",
-            "composed": false
-          }
-        ],
-        "source": "The Guardian World",
-        "corroborating": [],
-        "url": "https://www.theguardian.com/lifeandstyle/2026/aug/26/devon-man-becomes-first-person-to-swim-switzerlands-10-largest-lakes"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
