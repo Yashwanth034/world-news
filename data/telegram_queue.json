@@ -1,226 +1,65 @@
 {
-  "generated_at": "2026-08-26T12:56:20.916908+00:00",
+  "generated_at": "2026-08-26T13:01:13.986242+00:00",
   "count": 3,
   "stories": [
     {
-      "id": "89928da22359c417fa7b98c293dfcc9e49eb2c483ee3000df3c7230c2927dd94",
-      "title": "Nepal flood death toll rises to 16, hundreds missing — TV",
-      "url": "https://tass.com/emergencies/2177917",
+      "id": "5c21b205c526f354fcf96a1d2eb7b8d91fa222e77c1be0eb7675da14beefebc6",
+      "title": "Kilauea volcano erupts in Hawaii",
+      "url": "https://tass.com/emergencies/2177923",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "North America",
       "discovery": false,
-      "summary": "NEW DELHI, August 26. Rescuers in Nepal have recovered the bodies of at least 16 people killed in flooding in the country’s north, India TV reported. According to preliminary data, around 1,000 people may have been swept away by floodwaters. The figure has not been officially confirmed, and the exact number of people affected remains unknown as search-and-rescue operations continue. So far, 20 people have been rescued in the affected areas. Fifteen helicopters are involved in the operation, seven of them belonging to the Nepal Army and the rest to other agencies. Authorities have urged residents living along the Bhote Koshi River to remain vigilant and move to higher ground amid fears of further flooding. People needing help and those out of contact have been advised to light fires so rescuers can spot the smoke. At least 60 workers building the Langtang Khola Hydropower Project have gone missing in the flash flood, project Managing Director Bijay Mohan Bhattarai told reporters. Contact with the workers was lost after the river flooded the construction site. \"At the time contact was lost, more than 60 people were carrying out concrete work inside a tunnel,\" he said. \"We request the government to begin a search for them.",
-      "published_at": "2026-08-26T12:51:31+00:00",
-      "updated_at": "2026-08-26T12:51:31+00:00",
-      "effective_at": "2026-08-26T12:51:31+00:00",
+      "summary": "NEW YORK, August 26. Kilauea volcano has erupted in the US state of Hawaii, the US Geological Survey said. According to the agency, four million cubic meters of lava erupted from the volcano’s vent, while lava fountains reached a height of 150 meters. The eruption currently poses no threat to residents of the islands. Kilauea is one of the largest and most active volcanoes in the Hawaiian Islands.",
+      "published_at": "2026-08-26T12:58:14+00:00",
+      "updated_at": "2026-08-26T12:58:14+00:00",
+      "effective_at": "2026-08-26T12:58:14+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "disaster",
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
+      "urgency_terms": [
+        "volcano"
+      ],
       "sector": "climate",
-      "subsector": "floods",
-      "subregion": "South Asia",
+      "subsector": "volcanoes",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "army",
-        "bhattarai",
-        "bhote",
-        "bijay",
-        "delhi",
-        "hydropower",
-        "india",
-        "khola",
-        "koshi",
-        "langtang",
-        "managing",
-        "mohan",
-        "nepal",
-        "project",
-        "river",
-        "tv"
+        "geological",
+        "hawaii",
+        "hawaiian",
+        "islands",
+        "new_york",
+        "survey",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 85,
+      "priority_score": 98,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "NEW DELHI, August 26.",
-        "Rescuers in Nepal have recovered the bodies of at least 16 people killed in flooding in the country’s north, India TV reported.",
-        "According to preliminary data, around 1,000 people may have been swept away by floodwaters.",
-        "The figure has not been officially confirmed, and the exact number of people affected remains unknown as search-and-rescue operations continue.",
-        "So far, 20 people have been rescued in the affected areas.",
-        "Fifteen helicopters are involved in the operation, seven of them belonging to the Nepal Army and the rest to other agencies.",
-        "Authorities have urged residents living along the Bhote Koshi River to remain vigilant and move to higher ground amid fears of further flooding.",
-        "People needing help and those out of contact have been advised to light fires so rescuers can spot the smoke.",
-        "At least 60 workers building the Langtang Khola Hydropower Project have gone missing in the flash flood, project Managing Director Bijay Mohan Bhattarai told reporters.",
-        "Contact with the workers was lost after the river flooded the construction site.",
-        "\"At the time contact was lost, more than 60 people were carrying out concrete work inside a tunnel,\" he said.",
-        "\"We request the government to begin a search for them."
+        "NEW YORK, August 26.",
+        "Kilauea volcano has erupted in the US state of Hawaii, the US Geological Survey said.",
+        "According to the agency, four million cubic meters of lava erupted from the volcano’s vent, while lava fountains reached a height of 150 meters.",
+        "The eruption currently poses no threat to residents of the islands.",
+        "Kilauea is one of the largest and most active volcanoes in the Hawaiian Islands."
       ],
       "event_status": "UPDATE",
-      "event_id": "fd716c23ac0e630a7d14d5ac",
-      "importance_score": 86.0,
-      "importance_level": "CRITICAL",
-      "importance_breakdown": {
-        "impact": 34,
-        "urgency": 8.0,
-        "novelty": 9.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 24,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 3000,
-          "injured": 0,
-          "displaced": 3000,
-          "missing": 300,
-          "affected": 20,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "cultural": 8,
-          "human": 12,
-          "geopolitical": 4
-        }
-      },
-      "story_id": "89928da22359c417fa7b98c293dfcc9e49eb2c483ee3000df3c7230c2927dd94",
-      "public_label": "🔄 UPDATE",
-      "headline": "Nepal flood death toll rises to 16, hundreds missing — TV",
-      "briefing": {
-        "opening": [
-          "NEW DELHI, August 26.",
-          "Rescuers in Nepal have recovered the bodies of at least 16 people killed in flooding in the country’s north, India TV reported."
-        ],
-        "body": [
-          "According to preliminary data, around 1,000 people may have been swept away by floodwaters.",
-          "The figure has not been officially confirmed, and the exact number of people affected remains unknown as search-and-rescue operations continue.",
-          "So far, 20 people have been rescued in the affected areas.",
-          "Fifteen helicopters are involved in the operation, seven of them belonging to the Nepal Army and the rest to other agencies.",
-          "Authorities have urged residents living along the Bhote Koshi River to remain vigilant and move to higher ground amid fears of further flooding.",
-          "People needing help and those out of contact have been advised to light fires so rescuers can spot the smoke.",
-          "At least 60 workers building the Langtang Khola Hydropower Project have gone missing in the flash flood, project Managing Director Bijay Mohan Bhattarai told reporters.",
-          "Contact with the workers was lost after the river flooded the construction site."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "at least 16 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "According to preliminary data, around 1,000 people may have been swept away by floodwaters.",
-            "source": "TASS English",
-            "item_id": "89928da22359c417fa7b98c293dfcc9e49eb2c483ee3000df3c7230c2927dd94:article",
-            "composed": false
-          },
-          {
-            "text": "At least 60 workers building the Langtang Khola Hydropower Project have gone missing in the flash flood, project Managing Director Bijay Mohan Bhattarai told reporters.",
-            "source": "TASS English",
-            "item_id": "89928da22359c417fa7b98c293dfcc9e49eb2c483ee3000df3c7230c2927dd94:article",
-            "composed": false
-          },
-          {
-            "text": "So far, 20 people have been rescued in the affected areas.",
-            "source": "TASS English",
-            "item_id": "89928da22359c417fa7b98c293dfcc9e49eb2c483ee3000df3c7230c2927dd94:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/emergencies/2177917"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "4b241808fedf7a183f26a0088443b2a3a1a77cc43a550a6b94a72129aeb1b0d2",
-      "title": "Reform proposes £30 tax rebate for HMRC phone delays",
-      "url": "https://www.bbc.co.uk/news/articles/c804rd7leppo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "source_category": "finance",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "People on hold to HM Revenue and Customs (HMRC) for more than 30 minutes would get £30 off their tax bill under a Reform UK government, Robert Jenrick has announced. Reform's economy spokesman said HMRC's treatment of taxpayers was \"offensive to working people\" and his party would tie the pay of senior HMRC officials to customer service targets. To prevent abuse, the tax credit for phone delays would be limited to two occasions in a given tax year, Jenrick said. HMRC has said it has improved its response times since a highly critical report by a committee of MPs, external, in January 2025, accused the organisation of seeking to \"degrade its telephone service to drive taxpayers to digital channels\". The Public Accounts Committee report said nearly 44,000 customers were cut off without warning after being on hold for more than an hour in 2024 and \"HMRC's treatment of taxpayers has damaged trust in the tax system\". Jenrick highlighted the findings - which were rejected as \"completely baseless\" by the then boss of HMRC - at a media conference in central London. \"Frankly, it is offensive to working people and I have had enough,\" said the former Tory MP. \"So, we will give HMRC a big incentive to actually provide proper customer service. \"I'm announcing today that under a Reform government, if you spend more than half an hour waiting for HMRC to answer your call, you will get a £30 credit off your tax bill. If HMRC delay, they can repay. \"And to make sure that the staff actually hit their targets, we'll tie the pay of senior HMRC officials to their customer service performance.\" Jenrick also pledged to scrap UK privacy rules in favour of a \"light-touch\" approach to data protection as part of a bid to slash \"red tape\" for businesses.",
-      "published_at": "2026-08-26T12:39:37+00:00",
-      "updated_at": "2026-08-26T12:39:37+00:00",
-      "effective_at": "2026-08-26T12:39:37+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "finance",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "accounts",
-        "customs",
-        "hm",
-        "hmrc",
-        "if",
-        "jenrick",
-        "mp",
-        "mps",
-        "public",
-        "reform",
-        "revenue",
-        "robert",
-        "tory",
-        "uk"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "People on hold to HM Revenue and Customs (HMRC) for more than 30 minutes would get £30 off their tax bill under a Reform UK government, Robert Jenrick has announced.",
-        "Reform's economy spokesman said HMRC's treatment of taxpayers was \"offensive to working people\" and his party would tie the pay of senior HMRC officials to customer service targets.",
-        "To prevent abuse, the tax credit for phone delays would be limited to two occasions in a given tax year, Jenrick said.",
-        "HMRC has said it has improved its response times since a highly critical report by a committee of MPs, external, in January 2025, accused the organisation of seeking to \"degrade its telephone service to drive taxpayers to digital channels\".",
-        "The Public Accounts Committee report said nearly 44,000 customers were cut off without warning after being on hold for more than an hour in 2024 and \"HMRC's treatment of taxpayers has damaged trust in the tax system\".",
-        "Jenrick highlighted the findings - which were rejected as \"completely baseless\" by the then boss of HMRC - at a media conference in central London.",
-        "\"Frankly, it is offensive to working people and I have had enough,\" said the former Tory MP.",
-        "\"So, we will give HMRC a big incentive to actually provide proper customer service.",
-        "\"I'm announcing today that under a Reform government, if you spend more than half an hour waiting for HMRC to answer your call, you will get a £30 credit off your tax bill.",
-        "If HMRC delay, they can repay.",
-        "\"And to make sure that the staff actually hit their targets, we'll tie the pay of senior HMRC officials to their customer service performance.\"",
-        "Jenrick also pledged to scrap UK privacy rules in favour of a \"light-touch\" approach to data protection as part of a bid to slash \"red tape\" for businesses."
-      ],
-      "event_status": "NEW",
-      "event_id": "b73842ba59fcaca6c54a7d8b",
-      "importance_score": 36.0,
+      "event_id": "7335b11eaa678f33ed25a298",
+      "importance_score": 34.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 9.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 8,
@@ -236,103 +75,99 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 4,
-          "geopolitical": 4
+          "scientific": 8
         }
       },
-      "story_id": "4b241808fedf7a183f26a0088443b2a3a1a77cc43a550a6b94a72129aeb1b0d2",
-      "public_label": "📰 NEWS",
-      "headline": "Reform proposes £30 tax rebate for HMRC phone delays",
+      "story_id": "5c21b205c526f354fcf96a1d2eb7b8d91fa222e77c1be0eb7675da14beefebc6",
+      "public_label": "🔄 UPDATE",
+      "headline": "Kilauea volcano erupts in Hawaii",
       "briefing": {
         "opening": [
-          "People on hold to HM Revenue and Customs (HMRC) for more than 30 minutes would get £30 off their tax bill under a Reform UK government, Robert Jenrick has announced.",
-          "Reform's economy spokesman said HMRC's treatment of taxpayers was \"offensive to working people\" and his party would tie the pay of senior HMRC officials to customer service targets."
+          "NEW YORK, August 26.",
+          "Kilauea volcano has erupted in the US state of Hawaii, the US Geological Survey said."
         ],
         "body": [
-          "To prevent abuse, the tax credit for phone delays would be limited to two occasions in a given tax year, Jenrick said.",
-          "HMRC has said it has improved its response times since a highly critical report by a committee of MPs, external, in January 2025, accused the organisation of seeking to \"degrade its telephone service to drive taxpayers to digital channels\".",
-          "The Public Accounts Committee report said nearly 44,000 customers were cut off without warning after being on hold for more than an hour in 2024 and \"HMRC's treatment of taxpayers has damaged trust in the tax system\".",
-          "Jenrick highlighted the findings - which were rejected as \"completely baseless\" by the then boss of HMRC - at a media conference in central London.",
-          "\"Frankly, it is offensive to working people and I have had enough,\" said the former Tory MP.",
-          "\"So, we will give HMRC a big incentive to actually provide proper customer service.",
-          "\"I'm announcing today that under a Reform government, if you spend more than half an hour waiting for HMRC to answer your call, you will get a £30 credit off your tax bill.",
-          "If HMRC delay, they can repay."
+          "According to the agency, four million cubic meters of lava erupted from the volcano’s vent, while lava fountains reached a height of 150 meters.",
+          "The eruption currently poses no threat to residents of the islands.",
+          "Kilauea is one of the largest and most active volcanoes in the Hawaiian Islands."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "January"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "HMRC has said it has improved its response times since a highly critical report by a committee of MPs, external, in January 2025, accused the organisation of seeking to \"degrade its telephone service to drive taxpayers to digital channels\".",
-            "source": "BBC Business",
-            "item_id": "4b241808fedf7a183f26a0088443b2a3a1a77cc43a550a6b94a72129aeb1b0d2:article",
+            "text": "Kilauea is one of the largest and most active volcanoes in the Hawaiian Islands.",
+            "source": "TASS English",
+            "item_id": "5c21b205c526f354fcf96a1d2eb7b8d91fa222e77c1be0eb7675da14beefebc6:article",
             "composed": false
           },
           {
-            "text": "The Public Accounts Committee report said nearly 44,000 customers were cut off without warning after being on hold for more than an hour in 2024 and \"HMRC's treatment of taxpayers has damaged trust in the tax system\".",
-            "source": "BBC Business",
-            "item_id": "4b241808fedf7a183f26a0088443b2a3a1a77cc43a550a6b94a72129aeb1b0d2:article",
+            "text": "The eruption currently poses no threat to residents of the islands.",
+            "source": "TASS English",
+            "item_id": "5c21b205c526f354fcf96a1d2eb7b8d91fa222e77c1be0eb7675da14beefebc6:article",
+            "composed": false
+          },
+          {
+            "text": "According to the agency, four million cubic meters of lava erupted from the volcano’s vent, while lava fountains reached a height of 150 meters.",
+            "source": "TASS English",
+            "item_id": "5c21b205c526f354fcf96a1d2eb7b8d91fa222e77c1be0eb7675da14beefebc6:article",
             "composed": false
           }
         ],
-        "source": "BBC Business",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/c804rd7leppo?at_medium=RSS&at_campaign=rss"
+        "url": "https://tass.com/emergencies/2177923"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "b4d8b8b1a0ddcbfdfab7816ee00f2f0ea539ffe8a5082ff10098761db7e8e05f",
-      "title": "No gym needed: scientists in China develop self-exercising muscle grafts",
-      "url": "https://www.scmp.com/news/china/science/article/3365356/no-gym-needed-scientists-china-develop-self-exercising-muscle-grafts?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "fcbb69514653082a8eadf964b19cb11baa1b785c3205a70ed5059728536d3057",
+      "title": "Luxury apparel store Pernia to raise ₹680 crore through IPO",
+      "url": "https://www.thehindu.com/business/Industry/luxury-apparel-store-pernia-to-raise-680-crore-through-ipo/article71392741.ece",
+      "source": "The Hindu",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": null,
       "discovery": false,
-      "summary": "Scientists in China have created a self-exercising muscle graft that could allow bedridden people to obtain the benefits of working out without any physical exertion. With just an injection of muscle cells below the skin, the cells self-assembled into muscle grafts, which not only improved whole-body muscle mass in mice but also led to improvements in bone density, endurance, liver function and cognitive health. The “myografts” could provide the health benefits of exercise to patients with...",
-      "published_at": "2026-08-26T12:53:43+00:00",
-      "updated_at": "2026-08-26T12:53:43+00:00",
-      "effective_at": "2026-08-26T12:53:43+00:00",
+      "summary": "The company has fixed the IPO price band at ₹546-575 per equity share. Around ₹371 crore from the IPO proceeds would be invested in PSL’s wholly owned subsidiary, PSL Retail.",
+      "published_at": "2026-08-26T12:50:43+00:00",
+      "updated_at": "2026-08-26T12:50:43+00:00",
+      "effective_at": "2026-08-26T12:50:43+00:00",
       "language_status": "ENGLISH",
-      "category": "health",
-      "score": 65,
+      "category": "finance",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "health",
-      "subsector": "health",
-      "subregion": "East Asia",
+      "sector": "companies",
+      "subsector": "companies",
+      "subregion": null,
       "country": null,
       "entities": [
-        "china",
-        "scientists"
+        "ipo",
+        "pernia",
+        "psl",
+        "retail"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "5655d2eb8493f570ed96c051",
-      "importance_score": 32.0,
+      "event_id": "0745891032534413ebbc9fa1",
+      "importance_score": 26.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -344,45 +179,173 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "scientific": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "b4d8b8b1a0ddcbfdfab7816ee00f2f0ea539ffe8a5082ff10098761db7e8e05f",
+      "story_id": "fcbb69514653082a8eadf964b19cb11baa1b785c3205a70ed5059728536d3057",
       "public_label": "📰 NEWS",
-      "headline": "No gym needed: scientists in China develop self-exercising muscle grafts",
+      "headline": "Luxury apparel store Pernia to raise ₹680 crore through IPO",
       "briefing": {
         "opening": [
-          "Scientists in China have created a self-exercising muscle graft that could allow bedridden people to obtain the benefits of working out without any physical exertion.",
-          "With just an injection of muscle cells below the skin, the cells self-assembled into muscle grafts, which not only improved whole-body muscle mass in mice but also led to improvements in bone density, endurance, liver function and cognitive health."
+          "The company has fixed the IPO price band at ₹546-575 per equity share.",
+          "Around ₹371 crore from the IPO proceeds would be invested in PSL’s wholly owned subsidiary, PSL Retail."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "PSL’s"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Around ₹371 crore from the IPO proceeds would be invested in PSL’s wholly owned subsidiary, PSL Retail.",
+            "source": "The Hindu",
+            "item_id": "fcbb69514653082a8eadf964b19cb11baa1b785c3205a70ed5059728536d3057",
+            "composed": false
+          },
+          {
+            "text": "The company has fixed the IPO price band at ₹546-575 per equity share.",
+            "source": "The Hindu",
+            "item_id": "fcbb69514653082a8eadf964b19cb11baa1b785c3205a70ed5059728536d3057",
+            "composed": false
+          }
+        ],
+        "source": "The Hindu",
+        "corroborating": [],
+        "url": "https://www.thehindu.com/business/Industry/luxury-apparel-store-pernia-to-raise-680-crore-through-ipo/article71392741.ece"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb",
+      "title": "New ecology trail to be organized on Solovki Islands",
+      "url": "https://tass.com/economy/2177921",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "The project's implementation will contribute to the organization of tourist flows, the development of ecology tourism and higher ecological culture of visiting tourists",
+      "published_at": "2026-08-26T12:56:23+00:00",
+      "updated_at": "2026-08-26T12:56:23+00:00",
+      "effective_at": "2026-08-26T12:56:23+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "culture",
+      "subsector": "culture",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "islands",
+        "solovki"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "427478c7660747def8880cd5",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb",
+      "article_sentences": [
+        "ARKHANGELSK, August 26.",
+        "Students of the Summer School on the Solovki Islands will develop an ecology trail to Cape Beluzhy on the Bolshoy Solovetsky Island, the School's Program Director, Director of the Intellectual Center at the Northern Arctic Federal University (NARFU) Svetlana Tyukina told TASS.",
+        "\"We have organized the ecology workshop to make an ecology trail to Cape Beluzhy at the suggestion from the Solovki Museum-Reserve,\" she said.",
+        "\"Presently, we can see new approaches to organization of ecology trails.",
+        "We will create this trail's passport, will specify the route, and will prepare information materials.",
+        "Based on results of the field research, we will present proposals for landscaping in certain areas.\"",
+        "Cape Beluzhy is located on the western tip of the Bolshoy Solovetsky Island.",
+        "This is one of the few places on the Earth where people can watch belugas from land.",
+        "In other places, people have to get into the open sea to watch the animals.",
+        "At low tide, belugas swim near Cape Beluzhy, and in shallow waters near the cape is their place for reproduction and upbringing of young animals.",
+        "The Russian Academy of Sciences' Institute of Oceanology has been observing the animals since 1994.",
+        "Specialists have built a tower to conduct observations there."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "New ecology trail to be organized on Solovki Islands",
+      "briefing": {
+        "opening": [
+          "ARKHANGELSK, August 26.",
+          "Students of the Summer School on the Solovki Islands will develop an ecology trail to Cape Beluzhy on the Bolshoy Solovetsky Island, the School's Program Director, Director of the Intellectual Center at the Northern Arctic Federal University (NARFU) Svetlana Tyukina told TASS."
         ],
         "body": [
-          "The “myografts” could provide the health benefits of exercise to patients with..."
+          "\"We have organized the ecology workshop to make an ecology trail to Cape Beluzhy at the suggestion from the Solovki Museum-Reserve,\" she said.",
+          "\"Presently, we can see new approaches to organization of ecology trails.",
+          "We will create this trail's passport, will specify the route, and will prepare information materials.",
+          "Based on results of the field research, we will present proposals for landscaping in certain areas.\" Cape Beluzhy is located on the western tip of the Bolshoy Solovetsky Island.",
+          "This is one of the few places on the Earth where people can watch belugas from land.",
+          "In other places, people have to get into the open sea to watch the animals.",
+          "At low tide, belugas swim near Cape Beluzhy, and in shallow waters near the cape is their place for reproduction and upbringing of young animals.",
+          "The Russian Academy of Sciences' Institute of Oceanology has been observing the animals since 1994."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "China"
+            "text": "Cape Beluzhy"
           }
         ],
         "sentences": [
           {
-            "text": "With just an injection of muscle cells below the skin, the cells self-assembled into muscle grafts, which not only improved whole-body muscle mass in mice but also led to improvements in bone density, endurance, liver function and cognitive health.",
-            "source": "South China Morning Post",
-            "item_id": "b4d8b8b1a0ddcbfdfab7816ee00f2f0ea539ffe8a5082ff10098761db7e8e05f",
+            "text": "Students of the Summer School on the Solovki Islands will develop an ecology trail to Cape Beluzhy on the Bolshoy Solovetsky Island, the School's Program Director, Director of the Intellectual Center at the Northern Arctic Federal University (NARFU) Svetlana Tyukina told TASS.",
+            "source": "TASS English",
+            "item_id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb:article",
             "composed": false
           },
           {
-            "text": "Scientists in China have created a self-exercising muscle graft that could allow bedridden people to obtain the benefits of working out without any physical exertion.",
-            "source": "South China Morning Post",
-            "item_id": "b4d8b8b1a0ddcbfdfab7816ee00f2f0ea539ffe8a5082ff10098761db7e8e05f",
+            "text": "\"We have organized the ecology workshop to make an ecology trail to Cape Beluzhy at the suggestion from the Solovki Museum-Reserve,\" she said.",
+            "source": "TASS English",
+            "item_id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb:article",
+            "composed": false
+          },
+          {
+            "text": "Cape Beluzhy is located on the western tip of the Bolshoy Solovetsky Island.",
+            "source": "TASS English",
+            "item_id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb:article",
+            "composed": false
+          },
+          {
+            "text": "This is one of the few places on the Earth where people can watch belugas from land.",
+            "source": "TASS English",
+            "item_id": "ffeb14c7d5bd4de69e5a91b83ae7bfc5667cecfb146f87438259ab0b5d0d49eb:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/china/science/article/3365356/no-gym-needed-scientists-china-develop-self-exercising-muscle-grafts?utm_source=rss_feed"
+        "url": "https://tass.com/economy/2177921"
       },
       "group_size": 1,
       "label": "📰 NEWS"
