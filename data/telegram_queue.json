@@ -1,57 +1,95 @@
 {
-  "generated_at": "2026-08-26T21:10:50.556800+00:00",
+  "generated_at": "2026-08-26T21:20:51.204463+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "b9a591ed2d92e5b4ef7154227f96427fd1380c1143b360e29e4c259066f5aa21",
-      "title": "South-Africa kingpin and the corruption commission",
-      "url": "https://www.france24.com/en/south-africa-kingpin-and-the-corruption-commission",
-      "source": "France 24",
+      "id": "9cea4968f494e38d28e433728f0bb90f593b43f6373680379e4d8b45321c0d61",
+      "title": "US says Chinese-linked hackers attacked NASA, Senate, and gov’t agencies",
+      "url": "https://www.aljazeera.com/news/2026/8/26/us-says-chinese-linked-hackers-attacked-nasa-senate-and-govt-agencies?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Africa",
+      "region": "North America",
       "discovery": false,
-      "summary": "In tonight's programme, a three-day testimony of an alleged underworld kingpin exposed how deep the link between alleged criminals and high profile police officers is in South Africa. Also, in Tunisia grieving families lay their lost youth, all victims of a boat that went down in the Mediterranean Sea over the weekend. And finally in an era of mass production and electric machines, a young Kenyan fashion designer is taking a slower approach.",
-      "published_at": "2026-08-26T20:48:12+00:00",
-      "updated_at": "2026-08-26T20:48:12+00:00",
-      "effective_at": "2026-08-26T20:48:12+00:00",
+      "summary": "US authorities seized two domains allegedly used to target sensitive government networks since 2018. The United States said it has disrupted a China-affiliated hacking operation that targeted sensitive US government bodies, including the US Department of Justice, NASA, the Federal Reserve, and the US Senate. The Justice Department’s announcement, released on Wednesday, said the operation took down two hacking platforms, QScan and QTRouter, that were used to break into internet-connected devices and hide the source of attacks. The infrastructure had been used to compromise critical infrastructure and other sensitive networks in the US and elsewhere since at least 2018, according to an affidavit. Hackers had unsuccessfully attempted to access NASA networks in August 2019. In September 2024, they successfully breached networks at three Department of Energy laboratories, NIH, HHS, and a US security-device manufacturer, according to court documents. The Federal Reserve, US Senate, and four unnamed companies in the US and South Korea were also identified as targets. The Justice Department said the platforms were run by a China-based firm, the Nanjing Xinjiuwei Network Technology Company, whose clients it said included China’s civilian intelligence agency, the Ministry of State Security, and its military, the People’s Liberation Army. Neither the Chinese embassy in Washington nor Nanjing Xinjiuwei responded to requests for comment by the Reuters news agency. According to the announcement, QScan was used to find and infect thousands of internet-connected devices, including routers and other network equipment. Those devices were then incorporated into a network through QTRouter. That network allowed the hackers to route their attacks through computers and other devices outside China.",
+      "published_at": "2026-08-26T20:59:10+00:00",
+      "updated_at": "2026-08-26T20:59:10+00:00",
+      "effective_at": "2026-08-26T20:59:10+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
+      "category": "politics",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "industry",
-      "subregion": "Southern Africa",
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "kenyan",
-        "mediterranean",
-        "sea",
-        "south_africa",
-        "tunisia"
+        "army",
+        "china",
+        "china-affiliated",
+        "china-based",
+        "chinese-linked",
+        "company",
+        "department",
+        "energy",
+        "federal",
+        "hhs",
+        "justice",
+        "liberation",
+        "ministry",
+        "nanjing",
+        "nasa",
+        "network",
+        "nih",
+        "qscan",
+        "qtrouter",
+        "reserve",
+        "reuters",
+        "security",
+        "senate",
+        "south_korea",
+        "state",
+        "technology",
+        "united_states",
+        "us",
+        "xinjiuwei"
       ],
-      "corroborating_sources": 1,
+      "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
-      "verified_match_count": 1,
-      "priority_score": 65,
+      "verified_match_count": 0,
+      "priority_score": 88,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "e7a3861e1e3c294e3cb2b905",
-      "importance_score": 31.0,
+      "article_sentences": [
+        "US authorities seized two domains allegedly used to target sensitive government networks since 2018.",
+        "The United States said it has disrupted a China-affiliated hacking operation that targeted sensitive US government bodies, including the US Department of Justice, NASA, the Federal Reserve, and the US Senate.",
+        "The Justice Department’s announcement, released on Wednesday, said the operation took down two hacking platforms, QScan and QTRouter, that were used to break into internet-connected devices and hide the source of attacks.",
+        "The infrastructure had been used to compromise critical infrastructure and other sensitive networks in the US and elsewhere since at least 2018, according to an affidavit.",
+        "Hackers had unsuccessfully attempted to access NASA networks in August 2019.",
+        "In September 2024, they successfully breached networks at three Department of Energy laboratories, NIH, HHS, and a US security-device manufacturer, according to court documents.",
+        "The Federal Reserve, US Senate, and four unnamed companies in the US and South Korea were also identified as targets.",
+        "The Justice Department said the platforms were run by a China-based firm, the Nanjing Xinjiuwei Network Technology Company, whose clients it said included China’s civilian intelligence agency, the Ministry of State Security, and its military, the People’s Liberation Army.",
+        "Neither the Chinese embassy in Washington nor Nanjing Xinjiuwei responded to requests for comment by the Reuters news agency.",
+        "According to the announcement, QScan was used to find and infect thousands of internet-connected devices, including routers and other network equipment.",
+        "Those devices were then incorporated into a network through QTRouter.",
+        "That network allowed the hackers to route their attacks through computers and other devices outside China."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "0f5252901a8cd93add013a4f",
+      "importance_score": 38.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 3,
-        "significance": 0,
+        "corroboration": 0,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -63,46 +101,57 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "security": 4,
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
       },
-      "story_id": "b9a591ed2d92e5b4ef7154227f96427fd1380c1143b360e29e4c259066f5aa21",
-      "public_label": "📰 NEWS",
-      "headline": "South-Africa kingpin and the corruption commission",
+      "story_id": "9cea4968f494e38d28e433728f0bb90f593b43f6373680379e4d8b45321c0d61",
+      "public_label": "🔄 UPDATE",
+      "headline": "US says Chinese-linked hackers attacked NASA, Senate, and gov’t agencies",
       "briefing": {
         "opening": [
-          "In tonight's programme, a three-day testimony of an alleged underworld kingpin exposed how deep the link between alleged criminals and high profile police officers is in South Africa.",
-          "Also, in Tunisia grieving families lay their lost youth, all victims of a boat that went down in the Mediterranean Sea over the weekend."
+          "US authorities seized two domains allegedly used to target sensitive government networks since 2018.",
+          "The United States said it has disrupted a China-affiliated hacking operation that targeted sensitive US government bodies, including the US Department of Justice, NASA, the Federal Reserve, and the US Senate."
         ],
         "body": [
-          "And finally in an era of mass production and electric machines, a young Kenyan fashion designer is taking a slower approach."
+          "The Justice Department’s announcement, released on Wednesday, said the operation took down two hacking platforms, QScan and QTRouter, that were used to break into internet-connected devices and hide the source of attacks.",
+          "The infrastructure had been used to compromise critical infrastructure and other sensitive networks in the US and elsewhere since at least 2018, according to an affidavit.",
+          "Hackers had unsuccessfully attempted to access NASA networks in August 2019.",
+          "In September 2024, they successfully breached networks at three Department of Energy laboratories, NIH, HHS, and a US security-device manufacturer, according to court documents.",
+          "The Federal Reserve, US Senate, and four unnamed companies in the US and South Korea were also identified as targets.",
+          "The Justice Department said the platforms were run by a China-based firm, the Nanjing Xinjiuwei Network Technology Company, whose clients it said included China’s civilian intelligence agency, the Ministry of State Security, and its military, the People’s Liberation Army.",
+          "Neither the Chinese embassy in Washington nor Nanjing Xinjiuwei responded to requests for comment by the Reuters news agency.",
+          "According to the announcement, QScan was used to find and infect thousands of internet-connected devices, including routers and other network equipment."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "South Africa"
+            "text": "August"
           }
         ],
         "sentences": [
           {
-            "text": "And finally in an era of mass production and electric machines, a young Kenyan fashion designer is taking a slower approach.",
-            "source": "France 24",
-            "item_id": "b9a591ed2d92e5b4ef7154227f96427fd1380c1143b360e29e4c259066f5aa21",
+            "text": "Hackers had unsuccessfully attempted to access NASA networks in August 2019.",
+            "source": "Al Jazeera",
+            "item_id": "9cea4968f494e38d28e433728f0bb90f593b43f6373680379e4d8b45321c0d61:article",
             "composed": false
           },
           {
-            "text": "In tonight's programme, a three-day testimony of an alleged underworld kingpin exposed how deep the link between alleged criminals and high profile police officers is in South Africa.",
-            "source": "France 24",
-            "item_id": "b9a591ed2d92e5b4ef7154227f96427fd1380c1143b360e29e4c259066f5aa21",
+            "text": "Neither the Chinese embassy in Washington nor Nanjing Xinjiuwei responded to requests for comment by the Reuters news agency.",
+            "source": "Al Jazeera",
+            "item_id": "9cea4968f494e38d28e433728f0bb90f593b43f6373680379e4d8b45321c0d61:article",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.france24.com/en/south-africa-kingpin-and-the-corruption-commission"
+        "url": "https://www.aljazeera.com/news/2026/8/26/us-says-chinese-linked-hackers-attacked-nasa-senate-and-govt-agencies?traffic_source=rss"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
