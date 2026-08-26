@@ -1,92 +1,187 @@
 {
-  "generated_at": "2026-08-26T21:20:51.204463+00:00",
-  "count": 1,
+  "generated_at": "2026-08-26T21:31:02.598308+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "9cea4968f494e38d28e433728f0bb90f593b43f6373680379e4d8b45321c0d61",
-      "title": "US says Chinese-linked hackers attacked NASA, Senate, and gov’t agencies",
-      "url": "https://www.aljazeera.com/news/2026/8/26/us-says-chinese-linked-hackers-attacked-nasa-senate-and-govt-agencies?traffic_source=rss",
-      "source": "Al Jazeera",
+      "id": "d0f7294c871d900657b6b87e095da0679cab9fd697809a1063a51f086051f6ff",
+      "title": "Dozens of Australians believed to be among hundreds of foreign tourists missing in Nepal flash floods",
+      "url": "https://www.theguardian.com/australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+      "source": "The Guardian World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Powerful floods in Himalayan border area sweep away houses, roads and bridges Get our breaking news email , free app or daily news podcast Dozens of Australian tourists are reportedly missing in the deadly flash floods that swept through the Nepal-Tibet border, as the Australian government says it is urgently working to confirm their welfare. According to the Nepal Tourist Board, as reported by Press Association, at least 403 people have been reported missing, with 341 foreign nationals unaccounted for. Continue reading...",
+      "published_at": "2026-08-26T21:16:41+00:00",
+      "updated_at": "2026-08-26T21:16:41+00:00",
+      "effective_at": "2026-08-26T21:16:41+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "climate",
+      "subsector": "floods",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "association",
+        "australian",
+        "australians",
+        "himalayan",
+        "nepal",
+        "nepal-tibet",
+        "powerful",
+        "press",
+        "tourist"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 1,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "361abdec0493e7db7153d198",
+      "importance_score": 45.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 2,
+        "urgency": 10,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 3,
+        "significance": 10,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 403,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 6,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "d0f7294c871d900657b6b87e095da0679cab9fd697809a1063a51f086051f6ff",
+      "public_label": "🔄 UPDATE",
+      "headline": "Dozens of Australians believed to be among hundreds of foreign tourists missing in Nepal flash floods",
+      "briefing": {
+        "opening": [
+          "Powerful floods in Himalayan border area sweep away houses, roads and bridges.",
+          "Dozens of Australian tourists are reportedly missing in the deadly flash floods that swept through the Nepal-Tibet border, as the Australian government says it is urgently working to confirm their welfare."
+        ],
+        "body": [
+          "According to the Nepal Tourist Board, as reported by Press Association, at least 403 people have been reported missing, with 341 foreign nationals unaccounted for.",
+          "Dozens of Americans and Canadians are among hundreds of people who are missing following a deadly flash flood and mudslide near the Nepal-Tibet border, Nepali authorities say.",
+          "More than 150 people are so far known to have died, according to the authorities.",
+          "The US State Department said it was aware that Americans were impacted by Wednesday's floods but did not provide numbers.",
+          "It added that the US embassy in Nepal is working closely with local tour agencies and authorities to assist affected Americans, a spokesperson said.",
+          "Canada's foreign office said it was also monitoring developments and was ready to provide assistance if needed.",
+          "According to Nepal police, 579 tourists are missing - including 466 who are foreign nationals and from 28 different countries.",
+          "They include 54 people from the US, more than 100 from India, 33 from the UK and more than 100 from Nepal.",
+          "The State Department did not provide figures or additional details regarding the Americans affected for privacy reasons.",
+          "A further 24 Canadians are also missing, a Nepal Tourist Board spokesperson said.",
+          "Canada's Prime Minister Mark Carney said his government was closely following the situation.",
+          "\"As rescue efforts continue, Canada stands ready to provide support,\" Carney wrote on X.",
+          "The BBC has contacted Canada's foreign office for further details."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Himalayan"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 403 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "They include 54 people from the US, more than 100 from India, 33 from the UK and more than 100 from Nepal.",
+            "source": "BBC Science",
+            "item_id": "48fa27a74d1c2e50fe890b4d85ba2084871308e1ab9395f74907db3dc097ab89",
+            "composed": false
+          },
+          {
+            "text": "According to Nepal police, 579 tourists are missing - including 466 who are foreign nationals and from 28 different countries.",
+            "source": "BBC Science",
+            "item_id": "48fa27a74d1c2e50fe890b4d85ba2084871308e1ab9395f74907db3dc097ab89",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian World",
+        "corroborating": [
+          "BBC Science"
+        ],
+        "url": "https://www.theguardian.com/australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods"
+      },
+      "group_size": 2,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "cbcd0f602f4fadcbc8b3118bb1c78bcd168571afc35f12a6848e6776f4897fd4",
+      "title": "As the US and China compete over AI, Asean must secure strategic autonomy",
+      "url": "https://www.scmp.com/opinion/asia-opinion/article/3365058/us-and-china-compete-over-ai-asean-must-secure-strategic-autonomy?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "North America",
       "discovery": false,
-      "summary": "US authorities seized two domains allegedly used to target sensitive government networks since 2018. The United States said it has disrupted a China-affiliated hacking operation that targeted sensitive US government bodies, including the US Department of Justice, NASA, the Federal Reserve, and the US Senate. The Justice Department’s announcement, released on Wednesday, said the operation took down two hacking platforms, QScan and QTRouter, that were used to break into internet-connected devices and hide the source of attacks. The infrastructure had been used to compromise critical infrastructure and other sensitive networks in the US and elsewhere since at least 2018, according to an affidavit. Hackers had unsuccessfully attempted to access NASA networks in August 2019. In September 2024, they successfully breached networks at three Department of Energy laboratories, NIH, HHS, and a US security-device manufacturer, according to court documents. The Federal Reserve, US Senate, and four unnamed companies in the US and South Korea were also identified as targets. The Justice Department said the platforms were run by a China-based firm, the Nanjing Xinjiuwei Network Technology Company, whose clients it said included China’s civilian intelligence agency, the Ministry of State Security, and its military, the People’s Liberation Army. Neither the Chinese embassy in Washington nor Nanjing Xinjiuwei responded to requests for comment by the Reuters news agency. According to the announcement, QScan was used to find and infect thousands of internet-connected devices, including routers and other network equipment. Those devices were then incorporated into a network through QTRouter. That network allowed the hackers to route their attacks through computers and other devices outside China.",
-      "published_at": "2026-08-26T20:59:10+00:00",
-      "updated_at": "2026-08-26T20:59:10+00:00",
-      "effective_at": "2026-08-26T20:59:10+00:00",
+      "summary": "International relations has long measured power through familiar instruments: military capability, territory, energy, capital and control of trade. The digital revolution added information to that equation. Artificial intelligence (AI) is taking the transformation further by turning information into a strategic capability that can shape economies, governments and societies. For the Association of Southeast Asian Nations (Asean), the central question is no longer whether Southeast Asia will...",
+      "published_at": "2026-08-26T21:30:05+00:00",
+      "updated_at": "2026-08-26T21:30:05+00:00",
+      "effective_at": "2026-08-26T21:30:05+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 60,
+      "category": "technology",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
+      "sector": "technology",
+      "subsector": "ai",
       "subregion": "United States",
       "country": null,
       "entities": [
-        "army",
+        "ai",
+        "asean",
+        "asia",
+        "asian",
+        "association",
         "china",
-        "china-affiliated",
-        "china-based",
-        "chinese-linked",
-        "company",
-        "department",
-        "energy",
-        "federal",
-        "hhs",
-        "justice",
-        "liberation",
-        "ministry",
-        "nanjing",
-        "nasa",
-        "network",
-        "nih",
-        "qscan",
-        "qtrouter",
-        "reserve",
-        "reuters",
-        "security",
-        "senate",
-        "south_korea",
-        "state",
-        "technology",
-        "united_states",
-        "us",
-        "xinjiuwei"
+        "international",
+        "nations",
+        "southeast",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 88,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "US authorities seized two domains allegedly used to target sensitive government networks since 2018.",
-        "The United States said it has disrupted a China-affiliated hacking operation that targeted sensitive US government bodies, including the US Department of Justice, NASA, the Federal Reserve, and the US Senate.",
-        "The Justice Department’s announcement, released on Wednesday, said the operation took down two hacking platforms, QScan and QTRouter, that were used to break into internet-connected devices and hide the source of attacks.",
-        "The infrastructure had been used to compromise critical infrastructure and other sensitive networks in the US and elsewhere since at least 2018, according to an affidavit.",
-        "Hackers had unsuccessfully attempted to access NASA networks in August 2019.",
-        "In September 2024, they successfully breached networks at three Department of Energy laboratories, NIH, HHS, and a US security-device manufacturer, according to court documents.",
-        "The Federal Reserve, US Senate, and four unnamed companies in the US and South Korea were also identified as targets.",
-        "The Justice Department said the platforms were run by a China-based firm, the Nanjing Xinjiuwei Network Technology Company, whose clients it said included China’s civilian intelligence agency, the Ministry of State Security, and its military, the People’s Liberation Army.",
-        "Neither the Chinese embassy in Washington nor Nanjing Xinjiuwei responded to requests for comment by the Reuters news agency.",
-        "According to the announcement, QScan was used to find and infect thousands of internet-connected devices, including routers and other network equipment.",
-        "Those devices were then incorporated into a network through QTRouter.",
-        "That network allowed the hackers to route their attacks through computers and other devices outside China."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "0f5252901a8cd93add013a4f",
-      "importance_score": 38.0,
+      "event_status": "NEW",
+      "event_id": "1431ef13cf5336ac3f693be8",
+      "importance_score": 42.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "novelty": 10,
+        "scope": "MULTI_COUNTRY",
+        "scope_points": 7,
         "reliability": 6,
         "corroboration": 0,
         "significance": 12,
@@ -107,51 +202,45 @@
           "geopolitical": 4
         }
       },
-      "story_id": "9cea4968f494e38d28e433728f0bb90f593b43f6373680379e4d8b45321c0d61",
-      "public_label": "🔄 UPDATE",
-      "headline": "US says Chinese-linked hackers attacked NASA, Senate, and gov’t agencies",
+      "story_id": "cbcd0f602f4fadcbc8b3118bb1c78bcd168571afc35f12a6848e6776f4897fd4",
+      "public_label": "📰 NEWS",
+      "headline": "As the US and China compete over AI, Asean must secure strategic autonomy",
       "briefing": {
         "opening": [
-          "US authorities seized two domains allegedly used to target sensitive government networks since 2018.",
-          "The United States said it has disrupted a China-affiliated hacking operation that targeted sensitive US government bodies, including the US Department of Justice, NASA, the Federal Reserve, and the US Senate."
+          "International relations has long measured power through familiar instruments: military capability, territory, energy, capital and control of trade.",
+          "The digital revolution added information to that equation."
         ],
         "body": [
-          "The Justice Department’s announcement, released on Wednesday, said the operation took down two hacking platforms, QScan and QTRouter, that were used to break into internet-connected devices and hide the source of attacks.",
-          "The infrastructure had been used to compromise critical infrastructure and other sensitive networks in the US and elsewhere since at least 2018, according to an affidavit.",
-          "Hackers had unsuccessfully attempted to access NASA networks in August 2019.",
-          "In September 2024, they successfully breached networks at three Department of Energy laboratories, NIH, HHS, and a US security-device manufacturer, according to court documents.",
-          "The Federal Reserve, US Senate, and four unnamed companies in the US and South Korea were also identified as targets.",
-          "The Justice Department said the platforms were run by a China-based firm, the Nanjing Xinjiuwei Network Technology Company, whose clients it said included China’s civilian intelligence agency, the Ministry of State Security, and its military, the People’s Liberation Army.",
-          "Neither the Chinese embassy in Washington nor Nanjing Xinjiuwei responded to requests for comment by the Reuters news agency.",
-          "According to the announcement, QScan was used to find and infect thousands of internet-connected devices, including routers and other network equipment."
+          "Artificial intelligence (AI) is taking the transformation further by turning information into a strategic capability that can shape economies, governments and societies.",
+          "For the Association of Southeast Asian Nations (Asean), the central question is no longer whether Southeast Asia will..."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "August"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Hackers had unsuccessfully attempted to access NASA networks in August 2019.",
-            "source": "Al Jazeera",
-            "item_id": "9cea4968f494e38d28e433728f0bb90f593b43f6373680379e4d8b45321c0d61:article",
+            "text": "Artificial intelligence (AI) is taking the transformation further by turning information into a strategic capability that can shape economies, governments and societies.",
+            "source": "South China Morning Post",
+            "item_id": "cbcd0f602f4fadcbc8b3118bb1c78bcd168571afc35f12a6848e6776f4897fd4",
             "composed": false
           },
           {
-            "text": "Neither the Chinese embassy in Washington nor Nanjing Xinjiuwei responded to requests for comment by the Reuters news agency.",
-            "source": "Al Jazeera",
-            "item_id": "9cea4968f494e38d28e433728f0bb90f593b43f6373680379e4d8b45321c0d61:article",
+            "text": "The digital revolution added information to that equation.",
+            "source": "South China Morning Post",
+            "item_id": "cbcd0f602f4fadcbc8b3118bb1c78bcd168571afc35f12a6848e6776f4897fd4",
+            "composed": false
+          },
+          {
+            "text": "International relations has long measured power through familiar instruments: military capability, territory, energy, capital and control of trade.",
+            "source": "South China Morning Post",
+            "item_id": "cbcd0f602f4fadcbc8b3118bb1c78bcd168571afc35f12a6848e6776f4897fd4",
             "composed": false
           }
         ],
-        "source": "Al Jazeera",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.aljazeera.com/news/2026/8/26/us-says-chinese-linked-hackers-attacked-nasa-senate-and-govt-agencies?traffic_source=rss"
+        "url": "https://www.scmp.com/opinion/asia-opinion/article/3365058/us-and-china-compete-over-ai-asean-must-secure-strategic-autonomy?utm_source=rss_feed"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     }
   ]
 }
