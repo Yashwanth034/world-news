@@ -1,42 +1,43 @@
 {
-  "generated_at": "2026-08-27T09:50:48.877687+00:00",
-  "count": 6,
+  "generated_at": "2026-08-27T10:01:17.529255+00:00",
+  "count": 7,
   "stories": [
     {
-      "id": "afcfb74a33f185bad325e9f4d65b6ca1dbcfb9a380bff91876aa14d432c95698",
-      "title": "'Rocky Horror Picture Show' star Tim Curry dead at 80",
-      "url": "https://www.france24.com/en/video/20260827-rocky-horror-picture-show-star-tim-curry-dead-at-80",
-      "source": "France 24",
+      "id": "af200fda216d8051e9e7063c80100b8e65a6ac6d00c293e857b8f30308ff9a6a",
+      "title": "Flights, ferries cancelled in Shanghai and Shenzhen as Typhoon Saudel closes in",
+      "url": "https://www.scmp.com/news/china/politics/article/3365463/flights-ferries-cancelled-shanghai-and-shenzhen-typhoon-saudel-closes?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Tim Curry, the English actor best known for his star turn as Dr Frank-N-Furter in the cult classic musical film \"The Rocky Horror Picture Show,\" has died at the age of 80, US media reported Wednesday. Curry, who had struggled with his health for more than a decade after a debilitating stroke, died at his home in Los Angeles, TMZ said, citing unnamed sources.",
-      "published_at": "2026-08-27T09:36:46+00:00",
-      "updated_at": "2026-08-27T09:36:46+00:00",
-      "effective_at": "2026-08-27T09:36:46+00:00",
+      "summary": "The coastal Chinese province of Zhejiang is battening down for the approach of Typhoon Saudel, with flights cancelled across the area. The eastern province is home to a number of major commercial centres, including the industrial hub of Ningbo, the port city of Zhoushan, and Wenzhou. Ningbo Lishe International Airport said flights in and out of the facility would be suspended from 11.30pm on Thursday. In Wenzhou, 90 flights were cancelled, while 22 flights were grounded in Zhoushan. According to...",
+      "published_at": "2026-08-27T10:00:13+00:00",
+      "updated_at": "2026-08-27T10:00:13+00:00",
+      "effective_at": "2026-08-27T10:00:13+00:00",
       "language_status": "ENGLISH",
-      "category": "health",
+      "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "health",
-      "subsector": "health",
-      "subregion": "Europe",
+      "sector": "transport",
+      "subsector": "aviation",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "curry",
-        "dr",
-        "english",
-        "frank-n-furter",
-        "horror",
-        "los_angeles",
-        "picture",
-        "rocky",
-        "tim",
-        "tmz",
-        "us"
+        "airport",
+        "china",
+        "international",
+        "lishe",
+        "ningbo",
+        "saudel",
+        "shanghai",
+        "shenzhen",
+        "typhoon",
+        "wenzhou",
+        "zhejiang",
+        "zhoushan"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -45,24 +46,24 @@
       "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "54690bf9fa32b1ce7a10c9b9",
-      "importance_score": 53.0,
+      "event_status": "UPDATE",
+      "event_id": "a2d48654712d25a76184b7b1",
+      "importance_score": 55.0,
       "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 16.0,
-        "urgency": 8.0,
-        "novelty": 10,
+        "impact": 15,
+        "urgency": 7.0,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 14,
         "coverage_adjustment": 0.0,
         "facts": {
-          "magnitude": 0.0,
-          "dead": 80,
-          "injured": 0,
+          "magnitude": 5.9,
+          "dead": 0,
+          "injured": 37,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
@@ -70,95 +71,255 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 8
+          "human": 6,
+          "infrastructure": 4,
+          "geopolitical": 4
         }
       },
-      "story_id": "afcfb74a33f185bad325e9f4d65b6ca1dbcfb9a380bff91876aa14d432c95698",
-      "public_label": "📰 NEWS",
-      "headline": "'Rocky Horror Picture Show' star Tim Curry dead at 80",
+      "story_id": "af200fda216d8051e9e7063c80100b8e65a6ac6d00c293e857b8f30308ff9a6a",
+      "public_label": "🔄 UPDATE",
+      "headline": "Flights, ferries cancelled in Shanghai and Shenzhen as Typhoon Saudel closes in",
       "briefing": {
         "opening": [
-          "Tim Curry, the English actor best known for his star turn as Dr Frank-N-Furter in the cult classic musical film \"The Rocky Horror Picture Show,\" has died at the age of 80, US media reported Wednesday.",
-          "Curry, who had struggled with his health for more than a decade after a debilitating stroke, died at his home in Los Angeles, TMZ said, citing unnamed sources."
+          "The coastal Chinese province of Zhejiang is battening down for the approach of Typhoon Saudel, with flights cancelled across the area.",
+          "The eastern province is home to a number of major commercial centres, including the industrial hub of Ningbo, the port city of Zhoushan, and Wenzhou."
+        ],
+        "body": [
+          "Ningbo Lishe International Airport said flights in and out of the facility would be suspended from 11.30pm on Thursday.",
+          "In Wenzhou, 90 flights were cancelled, while 22 flights were grounded in Zhoushan.",
+          "According to..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Zhoushan"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The coastal Chinese province of Zhejiang is battening down for the approach of Typhoon Saudel, with flights cancelled across the area.",
+            "source": "South China Morning Post",
+            "item_id": "af200fda216d8051e9e7063c80100b8e65a6ac6d00c293e857b8f30308ff9a6a",
+            "composed": false
+          },
+          {
+            "text": "The eastern province is home to a number of major commercial centres, including the industrial hub of Ningbo, the port city of Zhoushan, and Wenzhou.",
+            "source": "South China Morning Post",
+            "item_id": "af200fda216d8051e9e7063c80100b8e65a6ac6d00c293e857b8f30308ff9a6a",
+            "composed": false
+          },
+          {
+            "text": "In Wenzhou, 90 flights were cancelled, while 22 flights were grounded in Zhoushan.",
+            "source": "South China Morning Post",
+            "item_id": "af200fda216d8051e9e7063c80100b8e65a6ac6d00c293e857b8f30308ff9a6a",
+            "composed": false
+          },
+          {
+            "text": "Ningbo Lishe International Airport said flights in and out of the facility would be suspended from 11.30pm on Thursday.",
+            "source": "South China Morning Post",
+            "item_id": "af200fda216d8051e9e7063c80100b8e65a6ac6d00c293e857b8f30308ff9a6a",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/china/politics/article/3365463/flights-ferries-cancelled-shanghai-and-shenzhen-typhoon-saudel-closes?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "36eb743919d2768f321b168777a232fa247f969ce26bb3492a0090674dfe0ce2",
+      "title": "Countries send rescue teams to Nepal to search for missing tourists",
+      "url": "https://www.france24.com/en/video/20260827-countries-send-rescue-teams-to-nepal-to-search-for-missing-tourists",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Over 1,300 people are still missing in Nepal and Tibet, a day after catastrophic flooding believed to have been caused by a glacier collapse. A total of 800 foreign tourists are missing across the affected Himalayan region, including South Korean, Indian and Australian nationals, with some of those countries sending their own rescue teams to aid in the search.",
+      "published_at": "2026-08-27T09:54:27+00:00",
+      "updated_at": "2026-08-27T09:54:27+00:00",
+      "effective_at": "2026-08-27T09:54:27+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "climate",
+      "subsector": "disasters",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "australian",
+        "himalayan",
+        "indian",
+        "korean",
+        "nepal",
+        "south_korea",
+        "tibet"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 90,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "69aff44299d8ec0a2d02ec15",
+      "importance_score": 48.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 8,
+        "urgency": 9.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 1300,
+          "affected": 800,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "human": 8,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "36eb743919d2768f321b168777a232fa247f969ce26bb3492a0090674dfe0ce2",
+      "public_label": "🔄 UPDATE",
+      "headline": "Countries send rescue teams to Nepal to search for missing tourists",
+      "briefing": {
+        "opening": [
+          "Over 1,300 people are still missing in Nepal and Tibet, a day after catastrophic flooding believed to have been caused by a glacier collapse.",
+          "A total of 800 foreign tourists are missing across the affected Himalayan region, including South Korean, Indian and Australian nationals, with some of those countries sending their own rescue teams to aid in the search."
         ],
         "body": [],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Los Angeles"
+            "text": "Nepal"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "Over 1,300 people"
           }
         ],
         "sentences": [
           {
-            "text": "Tim Curry, the English actor best known for his star turn as Dr Frank-N-Furter in the cult classic musical film \"The Rocky Horror Picture Show,\" has died at the age of 80, US media reported Wednesday.",
+            "text": "Over 1,300 people are still missing in Nepal and Tibet, a day after catastrophic flooding believed to have been caused by a glacier collapse.",
             "source": "France 24",
-            "item_id": "afcfb74a33f185bad325e9f4d65b6ca1dbcfb9a380bff91876aa14d432c95698",
+            "item_id": "36eb743919d2768f321b168777a232fa247f969ce26bb3492a0090674dfe0ce2",
             "composed": false
           },
           {
-            "text": "Curry, who had struggled with his health for more than a decade after a debilitating stroke, died at his home in Los Angeles, TMZ said, citing unnamed sources.",
+            "text": "A total of 800 foreign tourists are missing across the affected Himalayan region, including South Korean, Indian and Australian nationals, with some of those countries sending their own rescue teams to aid in the search.",
             "source": "France 24",
-            "item_id": "afcfb74a33f185bad325e9f4d65b6ca1dbcfb9a380bff91876aa14d432c95698",
+            "item_id": "36eb743919d2768f321b168777a232fa247f969ce26bb3492a0090674dfe0ce2",
             "composed": false
           }
         ],
         "source": "France 24",
         "corroborating": [],
-        "url": "https://www.france24.com/en/video/20260827-rocky-horror-picture-show-star-tim-curry-dead-at-80"
+        "url": "https://www.france24.com/en/video/20260827-countries-send-rescue-teams-to-nepal-to-search-for-missing-tourists"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "baf05bedc9b89602a48acf9d8355059fda3ae816d822216bde18f430f4f015f9",
-      "title": "US Democratic Party’s progressives and moderates face off in pre-midterms civil war",
-      "url": "http://www.euronews.com/2026/08/27/us-democratic-partys-progressives-and-moderates-face-off-in-pre-midterms-civil-war",
+      "id": "9e2a5087f281a7df106e6736ad5810351cb212052aa11bc0d60d7d346bff19b3",
+      "title": "Kilometre-long petrol queues in Iran signal further strain on Tehran",
+      "url": "http://www.euronews.com/2026/08/27/kilometre-long-petrol-queues-in-iran-signal-further-strain-on-tehran",
       "source": "Euronews",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Asia",
       "discovery": false,
-      "summary": "A string of recent primaries across the US have thrown new light on the deep divisions between the party's political factions. Is opposition to Trump enough to unify the coalition?",
-      "published_at": "2026-08-27T09:42:01+00:00",
-      "updated_at": "2026-08-27T09:42:01+00:00",
-      "effective_at": "2026-08-27T09:42:01+00:00",
+      "summary": "Lines formed outside Tehran petrol stations from midnight as a daily shortfall met with panic buying, while officials denied a shortage and said prices would have to change, without clarifying when or by how much. Long queues stretched for kilometres outside petrol stations in Tehran and other Iranian cities in the early hours of Thursday as a daily fuel shortfall collided with a surge in panic buying, and government officials simultaneously confirmed that petrol prices will rise, without specifying when or by how much. Videos posted on social media showed lines of vehicles forming in the capital and nearby city of Karaj around midnight on Wednesday and lasting into the early hours, with several stations closing before demand could be met. Officials attributed the surge to rumours of shortages, but the scale of the disruption and the announcement of a price increase suggested a growing structural problem. The shortfall of 15 million litres per day is the result of US sanctions that have curtailed imports, US-Israeli strikes on Iranian refining infrastructure and the naval blockade of Iranian ports that has been in place since the war began on 28 February. The National Iranian Oil Products Refining and Distribution Company's managing director Mohammad Sadegh Azimifar said consumption in Tehran province had risen 30% but insisted the supply chain was stable. \"Some people have gone to petrol stations because of rumours, but there is no cause for concern,\" he said. Keramat Veis-Karami, managing director of the National Iranian Fuel Distribution Company, confirmed that average daily distribution rose from 138 million litres in Mordad to 150 million litres on Wednesday — a figure that suggests demand is running well ahead of normal levels. He called the shortage rumours \"baseless and unfounded\" and urged drivers not to queue unless their tanks were genuinely close to empty. Vice President of Iran for Executive Affairs Mohammad Jafar Ghaempanah said on Wednesday evening that fuel prices would have to change. \"Today we need to make changes to the price of petrol and diesel,\" he told Gilan provincial television. \"The way, extent and timing of this price change have not yet been decided, we need to sit down with all those involved and then inform the public of the outcome,\" Ghaempanah explained.",
+      "published_at": "2026-08-27T09:59:50+00:00",
+      "updated_at": "2026-08-27T09:59:50+00:00",
+      "effective_at": "2026-08-27T09:59:50+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
+      "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "United States",
+      "sector": "transport",
+      "subsector": "supply_chains",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "democratic",
-        "party",
-        "trump",
-        "us"
+        "affairs",
+        "azimifar",
+        "company",
+        "distribution",
+        "fuel",
+        "ghaempanah",
+        "gilan",
+        "iran",
+        "jafar",
+        "karaj",
+        "keramat",
+        "lines",
+        "mohammad",
+        "mordad",
+        "national",
+        "oil",
+        "products",
+        "refining",
+        "sadegh",
+        "us",
+        "us-israeli",
+        "veis-karami"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "65a41ca9930cc313bdff7697",
-      "importance_score": 44.0,
+      "article_sentences": [
+        "Lines formed outside Tehran petrol stations from midnight as a daily shortfall met with panic buying, while officials denied a shortage and said prices would have to change, without clarifying when or by how much.",
+        "Long queues stretched for kilometres outside petrol stations in Tehran and other Iranian cities in the early hours of Thursday as a daily fuel shortfall collided with a surge in panic buying, and government officials simultaneously confirmed that petrol prices will rise, without specifying when or by how much.",
+        "Videos posted on social media showed lines of vehicles forming in the capital and nearby city of Karaj around midnight on Wednesday and lasting into the early hours, with several stations closing before demand could be met.",
+        "Officials attributed the surge to rumours of shortages, but the scale of the disruption and the announcement of a price increase suggested a growing structural problem.",
+        "The shortfall of 15 million litres per day is the result of US sanctions that have curtailed imports, US-Israeli strikes on Iranian refining infrastructure and the naval blockade of Iranian ports that has been in place since the war began on 28 February.",
+        "The National Iranian Oil Products Refining and Distribution Company's managing director Mohammad Sadegh Azimifar said consumption in Tehran province had risen 30% but insisted the supply chain was stable.",
+        "\"Some people have gone to petrol stations because of rumours, but there is no cause for concern,\" he said.",
+        "Keramat Veis-Karami, managing director of the National Iranian Fuel Distribution Company, confirmed that average daily distribution rose from 138 million litres in Mordad to 150 million litres on Wednesday — a figure that suggests demand is running well ahead of normal levels.",
+        "He called the shortage rumours \"baseless and unfounded\" and urged drivers not to queue unless their tanks were genuinely close to empty.",
+        "Vice President of Iran for Executive Affairs Mohammad Jafar Ghaempanah said on Wednesday evening that fuel prices would have to change.",
+        "\"Today we need to make changes to the price of petrol and diesel,\" he told Gilan provincial television.",
+        "\"The way, extent and timing of this price change have not yet been decided, we need to sit down with all those involved and then inform the public of the outcome,\" Ghaempanah explained."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "2a5bbb8e5a090f53804815f4",
+      "importance_score": 46.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 16,
+        "significance": 20,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -172,447 +333,94 @@
         },
         "significance_dims": {
           "security": 8,
-          "geopolitical": 8
+          "geopolitical": 8,
+          "economic": 4
         }
       },
-      "story_id": "baf05bedc9b89602a48acf9d8355059fda3ae816d822216bde18f430f4f015f9",
-      "public_label": "📰 NEWS",
-      "headline": "US Democratic Party’s progressives and moderates face off in pre-midterms civil war",
-      "briefing": {
-        "opening": [
-          "A string of recent primaries across the US have thrown new light on the deep divisions between the party's political factions.",
-          "Is opposition to Trump enough to unify the coalition?"
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "A string of recent primaries across the US have thrown new light on the deep divisions between the party's political factions.",
-            "source": "Euronews",
-            "item_id": "baf05bedc9b89602a48acf9d8355059fda3ae816d822216bde18f430f4f015f9",
-            "composed": false
-          },
-          {
-            "text": "Is opposition to Trump enough to unify the coalition?",
-            "source": "Euronews",
-            "item_id": "baf05bedc9b89602a48acf9d8355059fda3ae816d822216bde18f430f4f015f9",
-            "composed": false
-          }
-        ],
-        "source": "Euronews",
-        "corroborating": [],
-        "url": "http://www.euronews.com/2026/08/27/us-democratic-partys-progressives-and-moderates-face-off-in-pre-midterms-civil-war"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "21af96a320782d38b30382874e463426a14e0b386caaa81427d099b9feb37103",
-      "title": "When lakes decline, can they recover?",
-      "url": "https://www.dw.com/en/when-lakes-decline-can-they-recover/a-78460263?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business",
-      "source_category": "finance",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "Some of the world's largest lakes could shrink substantially within this century, with far-reaching consequences for ecosystems and roughly a quarter of the global population living in affected regions. Although restoration efforts have proved successful in some cases, many inland bodies of water face extreme challenges. Despite its name, the Caspian Sea is actually a lake. Bordered by Iran, Russia, Azerbaijan, Turkmenistan and Kazakhstan, it is the largest inland water body on Earth. But its surface area has been rapidly receding since the 1990s. This shift is partly due to the use of dams and water-management practices in the Volga River basin. But hotter conditions driven by burning fossil fuels to power societies is also a contributing factor. Rising temperatues increase evaporation rates. Scientific models project that water levels could fall up to 21 metres (68 feet) by 2100. Even a decline of ten metres could leave large parts of the shallow northern basin dry, eliminating nearly one-third of the lake's current surface area. The consequences are already becoming apparent. Ports require increasingly extensive dredging, fish stocks and wetlands are coming under growing pressure, and habitats used by the endangered Caspian seal are drying out.",
-      "published_at": null,
-      "updated_at": "2026-08-27T09:38:00+00:00",
-      "effective_at": "2026-08-27T09:38:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "finance",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "azerbaijan",
-        "caspian",
-        "earth",
-        "iran",
-        "kazakhstan",
-        "river",
-        "russia",
-        "sea",
-        "turkmenistan",
-        "volga"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "Some of the world's largest lakes could shrink substantially within this century, with far-reaching consequences for ecosystems and roughly a quarter of the global population living in affected regions.",
-        "Although restoration efforts have proved successful in some cases, many inland bodies of water face extreme challenges.",
-        "Despite its name, the Caspian Sea is actually a lake.",
-        "Bordered by Iran, Russia, Azerbaijan, Turkmenistan and Kazakhstan, it is the largest inland water body on Earth.",
-        "But its surface area has been rapidly receding since the 1990s.",
-        "This shift is partly due to the use of dams and water-management practices in the Volga River basin.",
-        "But hotter conditions driven by burning fossil fuels to power societies is also a contributing factor.",
-        "Rising temperatues increase evaporation rates.",
-        "Scientific models project that water levels could fall up to 21 metres (68 feet) by 2100.",
-        "Even a decline of ten metres could leave large parts of the shallow northern basin dry, eliminating nearly one-third of the lake's current surface area.",
-        "The consequences are already becoming apparent.",
-        "Ports require increasingly extensive dredging, fish stocks and wetlands are coming under growing pressure, and habitats used by the endangered Caspian seal are drying out."
-      ],
-      "event_status": "NEW",
-      "event_id": "1b0ef750055a266877ca5730",
-      "importance_score": 35.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "infrastructure": 4
-        }
-      },
-      "story_id": "21af96a320782d38b30382874e463426a14e0b386caaa81427d099b9feb37103",
-      "public_label": "📰 NEWS",
-      "headline": "When lakes decline, can they recover?",
-      "briefing": {
-        "opening": [
-          "Some of the world's largest lakes could shrink substantially within this century, with far-reaching consequences for ecosystems and roughly a quarter of the global population living in affected regions.",
-          "Although restoration efforts have proved successful in some cases, many inland bodies of water face extreme challenges."
-        ],
-        "body": [
-          "Despite its name, the Caspian Sea is actually a lake.",
-          "Bordered by Iran, Russia, Azerbaijan, Turkmenistan and Kazakhstan, it is the largest inland water body on Earth.",
-          "But its surface area has been rapidly receding since the 1990s.",
-          "This shift is partly due to the use of dams and water-management practices in the Volga River basin.",
-          "But hotter conditions driven by burning fossil fuels to power societies is also a contributing factor.",
-          "Rising temperatues increase evaporation rates.",
-          "Scientific models project that water levels could fall up to 21 metres (68 feet) by 2100.",
-          "Even a decline of ten metres could leave large parts of the shallow northern basin dry, eliminating nearly one-third of the lake's current surface area."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Despite its name, the Caspian Sea is actually a lake.",
-            "source": "DW Business",
-            "item_id": "21af96a320782d38b30382874e463426a14e0b386caaa81427d099b9feb37103:article",
-            "composed": false
-          },
-          {
-            "text": "Bordered by Iran, Russia, Azerbaijan, Turkmenistan and Kazakhstan, it is the largest inland water body on Earth.",
-            "source": "DW Business",
-            "item_id": "21af96a320782d38b30382874e463426a14e0b386caaa81427d099b9feb37103:article",
-            "composed": false
-          },
-          {
-            "text": "Scientific models project that water levels could fall up to 21 metres (68 feet) by 2100.",
-            "source": "DW Business",
-            "item_id": "21af96a320782d38b30382874e463426a14e0b386caaa81427d099b9feb37103:article",
-            "composed": false
-          },
-          {
-            "text": "But its surface area has been rapidly receding since the 1990s.",
-            "source": "DW Business",
-            "item_id": "21af96a320782d38b30382874e463426a14e0b386caaa81427d099b9feb37103:article",
-            "composed": false
-          }
-        ],
-        "source": "DW Business",
-        "corroborating": [],
-        "url": "https://www.dw.com/en/when-lakes-decline-can-they-recover/a-78460263?maca=en-rss-en-bus-2091-rdf"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "1b3f52e31e2d8060f7faccb2221f1bbcf66bbae5990707cb07d253b4f0be8365",
-      "title": "Some European states fear lack of funding for Kiev, demand seizure of Russian assets — FT",
-      "url": "https://tass.com/world/2178327",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "LONDON, August 27. A number of European countries fear that the financial aid provided by the EU will be insufficient for Kiev, which is why they are once again attempting to seize Russia’s frozen assets, the Financial Times wrote, citing sources. Among EU members supporting the initiative are Sweden, the Netherlands, Spain, and Poland. They plan to send a letter to the European Commission on Thursday requesting to resume attempts to seize frozen Russian assets. Last December, the initiative for their seizure was blocked by the authorities of Belgium, where the majority of assets are held. The letter will also seek clarity on any progress in alternative legal and technical frameworks that could sidestep Belgium’s veto, according to the publication. \"Now is the time to start a new discussion about how we can make further use of Russia’s frozen assets for Ukraine’s, and our, benefit. This is the fair and smart way to make sure that Ukraine can defend itself, and all of Europe,\" the Financial Times quoted Swedish foreign minister Maria Malmer Stenergard as saying.",
-      "published_at": "2026-08-27T09:45:56+00:00",
-      "updated_at": "2026-08-27T09:45:56+00:00",
-      "effective_at": "2026-08-27T09:45:56+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "finance",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "belgium",
-        "commission",
-        "eu",
-        "europe",
-        "european",
-        "financial",
-        "ft",
-        "last",
-        "malmer",
-        "maria",
-        "netherlands",
-        "poland",
-        "russia",
-        "some",
-        "spain",
-        "stenergard",
-        "sweden",
-        "swedish",
-        "times",
-        "uk",
-        "ukraine"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "LONDON, August 27.",
-        "A number of European countries fear that the financial aid provided by the EU will be insufficient for Kiev, which is why they are once again attempting to seize Russia’s frozen assets, the Financial Times wrote, citing sources.",
-        "Among EU members supporting the initiative are Sweden, the Netherlands, Spain, and Poland.",
-        "They plan to send a letter to the European Commission on Thursday requesting to resume attempts to seize frozen Russian assets.",
-        "Last December, the initiative for their seizure was blocked by the authorities of Belgium, where the majority of assets are held.",
-        "The letter will also seek clarity on any progress in alternative legal and technical frameworks that could sidestep Belgium’s veto, according to the publication.",
-        "\"Now is the time to start a new discussion about how we can make further use of Russia’s frozen assets for Ukraine’s, and our, benefit.",
-        "This is the fair and smart way to make sure that Ukraine can defend itself, and all of Europe,\" the Financial Times quoted Swedish foreign minister Maria Malmer Stenergard as saying."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "a0d6aee8502d0026f2b75e96",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 9.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "geopolitical": 4
-        }
-      },
-      "story_id": "1b3f52e31e2d8060f7faccb2221f1bbcf66bbae5990707cb07d253b4f0be8365",
+      "story_id": "9e2a5087f281a7df106e6736ad5810351cb212052aa11bc0d60d7d346bff19b3",
       "public_label": "🔄 UPDATE",
-      "headline": "Some European states fear lack of funding for Kiev, demand seizure of Russian assets",
+      "headline": "Kilometre-long petrol queues in Iran signal further strain on Tehran",
       "briefing": {
         "opening": [
-          "LONDON, August 27.",
-          "A number of European countries fear that the financial aid provided by the EU will be insufficient for Kiev, which is why they are once again attempting to seize Russia’s frozen assets, the Financial Times wrote, citing sources."
+          "Lines formed outside Tehran petrol stations from midnight as a daily shortfall met with panic buying, while officials denied a shortage and said prices would have to change, without clarifying when or by how much.",
+          "Long queues stretched for kilometres outside petrol stations in Tehran and other Iranian cities in the early hours of Thursday as a daily fuel shortfall collided with a surge in panic buying, and government officials simultaneously confirmed that petrol prices will rise, without specifying when or by how much."
         ],
         "body": [
-          "Among EU members supporting the initiative are Sweden, the Netherlands, Spain, and Poland.",
-          "They plan to send a letter to the European Commission on Thursday requesting to resume attempts to seize frozen Russian assets.",
-          "Last December, the initiative for their seizure was blocked by the authorities of Belgium, where the majority of assets are held.",
-          "The letter will also seek clarity on any progress in alternative legal and technical frameworks that could sidestep Belgium’s veto, according to the publication.",
-          "\"Now is the time to start a new discussion about how we can make further use of Russia’s frozen assets for Ukraine’s, and our, benefit.",
-          "This is the fair and smart way to make sure that Ukraine can defend itself, and all of Europe,\" the Financial Times quoted Swedish foreign minister Maria Malmer Stenergard as saying."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "A number of European countries fear that the financial aid provided by the EU will be insufficient for Kiev, which is why they are once again attempting to seize Russia’s frozen assets, the Financial Times wrote, citing sources.",
-            "source": "TASS English",
-            "item_id": "1b3f52e31e2d8060f7faccb2221f1bbcf66bbae5990707cb07d253b4f0be8365:article",
-            "composed": false
-          },
-          {
-            "text": "LONDON, August 27.",
-            "source": "TASS English",
-            "item_id": "1b3f52e31e2d8060f7faccb2221f1bbcf66bbae5990707cb07d253b4f0be8365:article",
-            "composed": false
-          },
-          {
-            "text": "They plan to send a letter to the European Commission on Thursday requesting to resume attempts to seize frozen Russian assets.",
-            "source": "TASS English",
-            "item_id": "1b3f52e31e2d8060f7faccb2221f1bbcf66bbae5990707cb07d253b4f0be8365:article",
-            "composed": false
-          },
-          {
-            "text": "Last December, the initiative for their seizure was blocked by the authorities of Belgium, where the majority of assets are held.",
-            "source": "TASS English",
-            "item_id": "1b3f52e31e2d8060f7faccb2221f1bbcf66bbae5990707cb07d253b4f0be8365:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/world/2178327"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "f537e48d8dfa9a9c4a5791233ab0388a0ad3da471db20daf946664764df95fb2",
-      "title": "Hong Kong lowers heat stress warning system thresholds after calls for revamp",
-      "url": "https://www.scmp.com/news/hong-kong/article/3365453/hong-kong-lowers-heat-stress-warning-system-thresholds-after-criticism?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Hong Kong labour authorities have unveiled changes to the system that sends out warnings to workers about overexertion during very hot weather, reducing thresholds so higher-tier alerts can be issued more easily following intense criticism of the mechanism. The Labour Department said on Thursday that two new conditions would be introduced to the Heat Stress at Work Warning system from Friday. The system has three warning levels – amber, red and black – which alert employers and staff to the...",
-      "published_at": "2026-08-27T08:52:59+00:00",
-      "updated_at": "2026-08-27T08:52:59+00:00",
-      "effective_at": "2026-08-27T08:52:59+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "labor",
-      "subregion": "East Asia",
-      "country": null,
-      "entities": [
-        "department",
-        "heat",
-        "hong_kong",
-        "labour",
-        "stress",
-        "warning",
-        "work"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 100,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "d502017468b77d66d02269de",
-      "importance_score": 30.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 9.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "f537e48d8dfa9a9c4a5791233ab0388a0ad3da471db20daf946664764df95fb2",
-      "public_label": "📰 NEWS",
-      "headline": "Hong Kong lowers heat stress warning system thresholds after calls for revamp",
-      "briefing": {
-        "opening": [
-          "Hong Kong labour authorities have unveiled changes to the system that sends out warnings to workers about overexertion during very hot weather, reducing thresholds so higher-tier alerts can be issued more easily following intense criticism of the mechanism.",
-          "The Labour Department said on Thursday that two new conditions would be introduced to the Heat Stress at Work Warning system from Friday."
-        ],
-        "body": [
-          "The system has three warning levels – amber, red and black – which alert employers and staff to the..."
+          "Videos posted on social media showed lines of vehicles forming in the capital and nearby city of Karaj around midnight on Wednesday and lasting into the early hours, with several stations closing before demand could be met.",
+          "Officials attributed the surge to rumours of shortages, but the scale of the disruption and the announcement of a price increase suggested a growing structural problem.",
+          "The shortfall of 15 million litres per day is the result of US sanctions that have curtailed imports, US-Israeli strikes on Iranian refining infrastructure and the naval blockade of Iranian ports that has been in place since the war began on 28 February.",
+          "The National Iranian Oil Products Refining and Distribution Company's managing director Mohammad Sadegh Azimifar said consumption in Tehran province had risen 30% but insisted the supply chain was stable.",
+          "\"Some people have gone to petrol stations because of rumours, but there is no cause for concern,\" he said.",
+          "He called the shortage rumours \"baseless and unfounded\" and urged drivers not to queue unless their tanks were genuinely close to empty.",
+          "Vice President of Iran for Executive Affairs Mohammad Jafar Ghaempanah said on Wednesday evening that fuel prices would have to change.",
+          "\"Today we need to make changes to the price of petrol and diesel,\" he told Gilan provincial television."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Work Warning"
+            "text": "Tehran"
           }
         ],
         "sentences": [
           {
-            "text": "Hong Kong labour authorities have unveiled changes to the system that sends out warnings to workers about overexertion during very hot weather, reducing thresholds so higher-tier alerts can be issued more easily following intense criticism of the mechanism.",
-            "source": "South China Morning Post",
-            "item_id": "f537e48d8dfa9a9c4a5791233ab0388a0ad3da471db20daf946664764df95fb2",
+            "text": "The shortfall of 15 million litres per day is the result of US sanctions that have curtailed imports, US-Israeli strikes on Iranian refining infrastructure and the naval blockade of Iranian ports that has been in place since the war began on 28 February.",
+            "source": "Euronews",
+            "item_id": "9e2a5087f281a7df106e6736ad5810351cb212052aa11bc0d60d7d346bff19b3:article",
             "composed": false
           },
           {
-            "text": "The Labour Department said on Thursday that two new conditions would be introduced to the Heat Stress at Work Warning system from Friday.",
-            "source": "South China Morning Post",
-            "item_id": "f537e48d8dfa9a9c4a5791233ab0388a0ad3da471db20daf946664764df95fb2",
+            "text": "The National Iranian Oil Products Refining and Distribution Company's managing director Mohammad Sadegh Azimifar said consumption in Tehran province had risen 30% but insisted the supply chain was stable.",
+            "source": "Euronews",
+            "item_id": "9e2a5087f281a7df106e6736ad5810351cb212052aa11bc0d60d7d346bff19b3:article",
+            "composed": false
+          },
+          {
+            "text": "Long queues stretched for kilometres outside petrol stations in Tehran and other Iranian cities in the early hours of Thursday as a daily fuel shortfall collided with a surge in panic buying, and government officials simultaneously confirmed that petrol prices will rise, without specifying when or by how much.",
+            "source": "Euronews",
+            "item_id": "9e2a5087f281a7df106e6736ad5810351cb212052aa11bc0d60d7d346bff19b3:article",
+            "composed": false
+          },
+          {
+            "text": "Videos posted on social media showed lines of vehicles forming in the capital and nearby city of Karaj around midnight on Wednesday and lasting into the early hours, with several stations closing before demand could be met.",
+            "source": "Euronews",
+            "item_id": "9e2a5087f281a7df106e6736ad5810351cb212052aa11bc0d60d7d346bff19b3:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "Euronews",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/article/3365453/hong-kong-lowers-heat-stress-warning-system-thresholds-after-criticism?utm_source=rss_feed"
+        "url": "http://www.euronews.com/2026/08/27/kilometre-long-petrol-queues-in-iran-signal-further-strain-on-tehran"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "f95833d3c522a8fca7f0c01b24be0f36f35060baff876a670785f603f0c41325",
-      "title": "Social media harms: Hard to ignore, tougher to regulate",
-      "url": "https://www.dw.com/en/social-media-harms-hard-to-ignore-tougher-to-regulate/a-78482023?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business",
-      "source_category": "finance",
+      "id": "c5d736df7d7d91f28e59693a0ca0b28f1f2cfe273aa7fd40d685f369e2516473",
+      "title": "Presidential candidates to be grilled on economy at French business summit",
+      "url": "https://www.france24.com/en/video/20260827-presidential-candidates-to-be-grilled-on-economy-at-french-business-summit",
+      "source": "France 24",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "Meta and other social media platforms face lawsuits alleging they foster addictive use among young people. Now regulators are struggling to rein in their engagement-driven business models.",
-      "published_at": null,
-      "updated_at": "2026-08-27T09:25:00+00:00",
-      "effective_at": "2026-08-27T09:25:00+00:00",
+      "summary": "France's main candidates for next year's presidential election will be quizzed by business leaders about their plans for the nation at the Medef employers federation's annual end of summer conference on Thursday. Taxation, the burden of regulations, reindustrialisation and France's public debt of over 3.5 trillion euros are all issues on the table.",
+      "published_at": "2026-08-27T09:56:48+00:00",
+      "updated_at": "2026-08-27T09:56:48+00:00",
+      "effective_at": "2026-08-27T09:56:48+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "politics",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "internet",
-      "subregion": null,
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "hard",
-        "meta"
+        "france",
+        "medef"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -622,15 +430,115 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "bda4dd332eef69ba789408b0",
-      "importance_score": 27.0,
+      "event_id": "d86bcd299ce119b3a2b8847e",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "economic": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "c5d736df7d7d91f28e59693a0ca0b28f1f2cfe273aa7fd40d685f369e2516473",
+      "public_label": "📰 NEWS",
+      "headline": "Presidential candidates to be grilled on economy at French business summit",
+      "briefing": {
+        "opening": [
+          "France's main candidates for next year's presidential election will be quizzed by business leaders about their plans for the nation at the Medef employers federation's annual end of summer conference on Thursday.",
+          "Taxation, the burden of regulations, reindustrialisation and France's public debt of over 3.5 trillion euros are all issues on the table."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Taxation, the burden of regulations, reindustrialisation and France's public debt of over 3.5 trillion euros are all issues on the table.",
+            "source": "France 24",
+            "item_id": "c5d736df7d7d91f28e59693a0ca0b28f1f2cfe273aa7fd40d685f369e2516473",
+            "composed": false
+          },
+          {
+            "text": "France's main candidates for next year's presidential election will be quizzed by business leaders about their plans for the nation at the Medef employers federation's annual end of summer conference on Thursday.",
+            "source": "France 24",
+            "item_id": "c5d736df7d7d91f28e59693a0ca0b28f1f2cfe273aa7fd40d685f369e2516473",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/video/20260827-presidential-candidates-to-be-grilled-on-economy-at-french-business-summit"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "84737f641932e71b8b9cf510e74971649a3c77c9a91ef02c5e4dd0f172ae1bce",
+      "title": "Viral China maths genius new workbook sells 26,000 copies in 4 days, sparking mixed reactions",
+      "url": "https://www.scmp.com/news/people-culture/china-personalities/article/3365462/viral-china-maths-genius-new-workbook-sells-26000-copies-4-days-sparking-mixed-reactions?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "A famous Chinese mathematician known for his dishevelled genius image recently began selling workbooks for primary and secondary school students, which were quickly sold out within days. Wei Dongyi, 35, is an associate professor in the Mathematics Department at Peking University. He gained instant fame in 2021 after a vox pop on the Peking University campus. In the video, he appears dressed simply, carrying a 1.5-litre plastic bottle of water and a bag of steamed buns. In the clip, he shared...",
+      "published_at": "2026-08-27T10:00:10+00:00",
+      "updated_at": "2026-08-27T10:00:10+00:00",
+      "effective_at": "2026-08-27T10:00:10+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "education",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "china",
+        "department",
+        "dongyi",
+        "mathematics",
+        "peking",
+        "university",
+        "viral",
+        "wei"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "91a0c71e43e8f6c91e9f4f46",
+      "importance_score": 29.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 8.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -647,33 +555,284 @@
         },
         "significance_dims": {}
       },
-      "story_id": "f95833d3c522a8fca7f0c01b24be0f36f35060baff876a670785f603f0c41325",
+      "story_id": "84737f641932e71b8b9cf510e74971649a3c77c9a91ef02c5e4dd0f172ae1bce",
       "public_label": "📰 NEWS",
-      "headline": "Social media harms: Hard to ignore, tougher to regulate",
+      "headline": "Viral China maths genius new workbook sells 26,000 copies in 4 days, sparking mixed reactions",
       "briefing": {
         "opening": [
-          "Meta and other social media platforms face lawsuits alleging they foster addictive use among young people.",
-          "Now regulators are struggling to rein in their engagement-driven business models."
+          "A famous Chinese mathematician known for his dishevelled genius image recently began selling workbooks for primary and secondary school students, which were quickly sold out within days.",
+          "Wei Dongyi, 35, is an associate professor in the Mathematics Department at Peking University."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "He gained instant fame in 2021 after a vox pop on the Peking University campus.",
+          "In the video, he appears dressed simply, carrying a 1.5-litre plastic bottle of water and a bag of steamed buns.",
+          "In the clip, he shared..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Peking University"
+          }
+        ],
         "sentences": [
           {
-            "text": "Meta and other social media platforms face lawsuits alleging they foster addictive use among young people.",
-            "source": "DW Business",
-            "item_id": "f95833d3c522a8fca7f0c01b24be0f36f35060baff876a670785f603f0c41325",
+            "text": "A famous Chinese mathematician known for his dishevelled genius image recently began selling workbooks for primary and secondary school students, which were quickly sold out within days.",
+            "source": "South China Morning Post",
+            "item_id": "84737f641932e71b8b9cf510e74971649a3c77c9a91ef02c5e4dd0f172ae1bce",
             "composed": false
           },
           {
-            "text": "Now regulators are struggling to rein in their engagement-driven business models.",
-            "source": "DW Business",
-            "item_id": "f95833d3c522a8fca7f0c01b24be0f36f35060baff876a670785f603f0c41325",
+            "text": "Wei Dongyi, 35, is an associate professor in the Mathematics Department at Peking University.",
+            "source": "South China Morning Post",
+            "item_id": "84737f641932e71b8b9cf510e74971649a3c77c9a91ef02c5e4dd0f172ae1bce",
+            "composed": false
+          },
+          {
+            "text": "In the video, he appears dressed simply, carrying a 1.5-litre plastic bottle of water and a bag of steamed buns.",
+            "source": "South China Morning Post",
+            "item_id": "84737f641932e71b8b9cf510e74971649a3c77c9a91ef02c5e4dd0f172ae1bce",
             "composed": false
           }
         ],
-        "source": "DW Business",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.dw.com/en/social-media-harms-hard-to-ignore-tougher-to-regulate/a-78482023?maca=en-rss-en-bus-2091-rdf"
+        "url": "https://www.scmp.com/news/people-culture/china-personalities/article/3365462/viral-china-maths-genius-new-workbook-sells-26000-copies-4-days-sparking-mixed-reactions?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "d10b4c53961751d968de1f1867f4bba381050181c3c72c8fe17acf394dbd959a",
+      "title": "Drought-hit Danube gives way to mammoth fossil hunt in Bulgaria",
+      "url": "https://www.france24.com/en/drought-hit-danube-gives-way-to-mammoth-fossil-hunt-in-bulgaria",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "As drought in Europe brings river levels to record lows, a group of volunteers scans the dried-up Danube riverbank in northern Bulgaria, not far from where the receding waters revealed mammoth bones in July. About 20 volunteers join an effort in the hope of discovering new fossils or artifacts in a search organised by the Regional Museum of History of Ruse.",
+      "published_at": "2026-08-27T09:58:14+00:00",
+      "updated_at": "2026-08-27T09:58:14+00:00",
+      "effective_at": "2026-08-27T09:58:14+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "agriculture",
+      "subsector": "water",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "bulgaria",
+        "danube",
+        "drought-hit",
+        "europe",
+        "history",
+        "museum",
+        "regional",
+        "ruse"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "8606d82a583c5c84b448f51e",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "d10b4c53961751d968de1f1867f4bba381050181c3c72c8fe17acf394dbd959a",
+      "public_label": "📰 NEWS",
+      "headline": "Drought-hit Danube gives way to mammoth fossil hunt in Bulgaria",
+      "briefing": {
+        "opening": [
+          "As drought in Europe brings river levels to record lows, a group of volunteers scans the dried-up Danube riverbank in northern Bulgaria, not far from where the receding waters revealed mammoth bones in July.",
+          "About 20 volunteers join an effort in the hope of discovering new fossils or artifacts in a search organised by the Regional Museum of History of Ruse."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Europe"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "As drought in Europe brings river levels to record lows, a group of volunteers scans the dried-up Danube riverbank in northern Bulgaria, not far from where the receding waters revealed mammoth bones in July.",
+            "source": "France 24",
+            "item_id": "d10b4c53961751d968de1f1867f4bba381050181c3c72c8fe17acf394dbd959a",
+            "composed": false
+          },
+          {
+            "text": "About 20 volunteers join an effort in the hope of discovering new fossils or artifacts in a search organised by the Regional Museum of History of Ruse.",
+            "source": "France 24",
+            "item_id": "d10b4c53961751d968de1f1867f4bba381050181c3c72c8fe17acf394dbd959a",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/drought-hit-danube-gives-way-to-mammoth-fossil-hunt-in-bulgaria"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "e8c34bb930dc2ae3c3fc574a9c33dc815e3bd18b46c9597f9b4ffe68b67935b0",
+      "title": "Russia destroys Ukraine’s infrastructure capable of producing SCALP missiles — expert",
+      "url": "https://tass.com/defense/2178343",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Sergey Lipovoy noted that even if Kiev manages to assemble them somewhere using available components, \"it is not a given that these missiles will be fully controllable\"",
+      "published_at": "2026-08-27T09:59:40+00:00",
+      "updated_at": "2026-08-27T09:59:40+00:00",
+      "effective_at": "2026-08-27T09:59:40+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 68,
+      "confidence": "medium",
+      "urgency_terms": [
+        "missile"
+      ],
+      "sector": "geopolitics",
+      "subsector": "conflict",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "lipovoy",
+        "russia",
+        "scalp",
+        "sergey",
+        "ukraine"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "be98e69cbbecbacb7b997964",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "e8c34bb930dc2ae3c3fc574a9c33dc815e3bd18b46c9597f9b4ffe68b67935b0",
+      "article_sentences": [
+        "MOSCOW, August 27.",
+        "Ukraine will not be able to launch production of Storm Shadow (SCALP - French) long-range missiles due to the lack of the necessary infrastructure, which was destroyed by strikes from the Russian Armed Forces, Chairman of the presidium of the all-Russian organization.",
+        "Officers of Russia, Hero of Russia Major General Sergey Lipovoy told TASS.",
+        "\"SCALP missiles require a serious approach, which the Kiev regime currently lacks for one simple reason: all the technological supply chains they previously had have been destroyed by our forces’ systematic strikes.",
+        "In fact, there is now a chaotic attempt to assemble and set up production of these high-precision weapons, but they will not succeed,\" he said.",
+        "Lipovoy noted that even if Kiev manages to assemble them somewhere using available components, \"it is not a given that these missiles will be fully controllable.\" \"Such missiles, as a rule, often go out of control if manufacturing procedures are violated, and continue flying wherever they please, landing, for example, in the territory of neighboring states,\" he noted.",
+        "Earlier, British Prime Minister Andy Burnham announced that his government had agreed to allow the defense company MBDA to transfer to Kiev classified data on British components for the SCALP long-range missile (the French version of the British Storm Shadow) – an air-launched cruise missile equipped with a subsonic turbojet engine, an infrared homing system, and an onboard processor with GPS.",
+        "It is capable of flying at extremely low altitudes (30-40 m)."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Russia destroys Ukraine’s infrastructure capable of producing SCALP missiles — expert",
+      "briefing": {
+        "opening": [
+          "MOSCOW, August 27.",
+          "Ukraine will not be able to launch production of Storm Shadow (SCALP - French) long-range missiles due to the lack of the necessary infrastructure, which was destroyed by strikes from the Russian Armed Forces, Chairman of the presidium of the all-Russian organization."
+        ],
+        "body": [
+          "Officers of Russia, Hero of Russia Major General Sergey Lipovoy told TASS.",
+          "\"SCALP missiles require a serious approach, which the Kiev regime currently lacks for one simple reason: all the technological supply chains they previously had have been destroyed by our forces’ systematic strikes.",
+          "In fact, there is now a chaotic attempt to assemble and set up production of these high-precision weapons, but they will not succeed,\" he said.",
+          "Lipovoy noted that even if Kiev manages to assemble them somewhere using available components, \"it is not a given that these missiles will be fully controllable.\" \"Such missiles, as a rule, often go out of control if manufacturing procedures are violated, and continue flying wherever they please, landing, for example, in the territory of neighboring states,\" he noted.",
+          "Earlier, British Prime Minister Andy Burnham announced that his government had agreed to allow the defense company MBDA to transfer to Kiev classified data on British components for the SCALP long-range missile (the French version of the British Storm Shadow) – an air-launched cruise missile equipped with a subsonic turbojet engine, an infrared homing system, and an onboard processor with GPS.",
+          "It is capable of flying at extremely low altitudes (30-40 m).",
+          "Sergey Lipovoy noted that even if Kiev manages to assemble them somewhere using available components, \"it is not a given that these missiles will be fully controllable\"."
+        ],
+        "bullets": [
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "out of control"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Lipovoy noted that even if Kiev manages to assemble them somewhere using available components, \"it is not a given that these missiles will be fully controllable.\"",
+            "source": "TASS English",
+            "item_id": "e8c34bb930dc2ae3c3fc574a9c33dc815e3bd18b46c9597f9b4ffe68b67935b0:article",
+            "composed": false
+          },
+          {
+            "text": "Ukraine will not be able to launch production of Storm Shadow (SCALP - French) long-range missiles due to the lack of the necessary infrastructure, which was destroyed by strikes from the Russian Armed Forces, Chairman of the presidium of the all-Russian organization.",
+            "source": "TASS English",
+            "item_id": "e8c34bb930dc2ae3c3fc574a9c33dc815e3bd18b46c9597f9b4ffe68b67935b0:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, August 27.",
+            "source": "TASS English",
+            "item_id": "e8c34bb930dc2ae3c3fc574a9c33dc815e3bd18b46c9597f9b4ffe68b67935b0:article",
+            "composed": false
+          },
+          {
+            "text": "It is capable of flying at extremely low altitudes (30-40 m).",
+            "source": "TASS English",
+            "item_id": "e8c34bb930dc2ae3c3fc574a9c33dc815e3bd18b46c9597f9b4ffe68b67935b0:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/defense/2178343"
       },
       "group_size": 1,
       "label": "📰 NEWS"
