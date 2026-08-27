@@ -1,137 +1,116 @@
 {
-  "generated_at": "2026-08-27T14:50:56.971578+00:00",
+  "generated_at": "2026-08-27T15:01:16.476410+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "4e2e9c4b56d3877deef4e17a3d87bea1bab4af242cb0a18b244164714ec29f7e",
-      "title": "More than 900 people remain missing in Nepal, nearly 1,500 rescued",
-      "url": "https://tass.com/emergencies/2178485",
-      "source": "TASS English",
+      "id": "5ecf60e8442c77609579e8f2601b8f60f9bd6c7972f811ac67ad6c98b0bb7648",
+      "title": "Alleged 9/11 mastermind Khalid Sheikh Mohammed to go on trial in 2028",
+      "url": "https://www.france24.com/en/americas/20260827-alleged-9-11-mastermind-khalid-sheikh-mohammed-to-go-on-trial-in-2028",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "North America",
       "discovery": false,
-      "summary": "The authority said that 73 people were injured",
-      "published_at": "2026-08-27T14:45:52+00:00",
-      "updated_at": "2026-08-27T14:45:52+00:00",
-      "effective_at": "2026-08-27T14:45:52+00:00",
+      "summary": "A spokesman for the US military court at Guantanamo Bay said Thursday that Khalid Sheikh Mohammed – the alleged mastermind of the September 11, 2001 attacks on the United States – will go on trial before a US military court in June 2028. Mohammed, also known as \"KSM\", was considered one of Osama bin Laden's top lieutenants before he was captured in March 2003.",
+      "published_at": "2026-08-27T13:27:28+00:00",
+      "updated_at": "2026-08-27T13:27:28+00:00",
+      "effective_at": "2026-08-27T13:27:28+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "politics",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "South Asia",
+      "sector": "law",
+      "subsector": "courts",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "nepal"
+        "bay",
+        "guantanamo",
+        "khalid",
+        "ksm",
+        "laden",
+        "mohammed",
+        "osama",
+        "sheikh",
+        "united_states",
+        "us"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "9853b0ab0d9da8d846176d7a",
+      "corroborating_sources": 2,
+      "strong_corroboration": 2,
+      "corroborating_source_names": [
+        "Euronews",
+        "Al Jazeera"
+      ],
+      "verified_match_count": 2,
+      "priority_score": 100,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "event_status": "UPDATE",
+      "event_id": "6f17f6a1e989b88f8f9edb5b",
       "importance_score": 39.0,
       "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 5,
+        "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 6,
+        "corroboration": 8,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
           "dead": 0,
-          "injured": 900,
+          "injured": 0,
           "displaced": 0,
-          "missing": 1500,
+          "missing": 0,
           "affected": 0,
           "major_incident": false,
           "crisis": false
         },
         "significance_dims": {
-          "human": 6
+          "security": 4
         }
       },
-      "story_id": "4e2e9c4b56d3877deef4e17a3d87bea1bab4af242cb0a18b244164714ec29f7e",
-      "article_sentences": [
-        "NEW DELHI, August 27.",
-        "More than 900 people remain missing in Nepal after a powerful flood, while nearly 1,500 have been rescued, according to data from the country’s National Disaster Risk Reduction and Management Authority.",
-        "The authority said that 910 people remain missing, including 28 police officers, 57 military personnel and 517 foreign tourists, and reported 73 injuries.",
-        "It added that more than 17,290 people are taking part in the rescue operation, clarifying that rescuers had saved 716 people by air and 756 by land.",
-        "A powerful flood wave struck northern Nepal on Wednesday morning.",
-        "Preliminary data indicate that the flooding was caused by a snow-and-rock avalanche near the Nepal-China border, about 20 kilometers northeast of the Rasuwagadhi border crossing.",
-        "According to the latest data, search teams have recovered the bodies of nearly 360 people killed in the disaster.",
-        "The Russian Embassy in Nepal said eight Russian nationals may be missing in the flood zone."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "More than 900 people remain missing in Nepal, nearly 1,500 rescued",
+      "story_id": "5ecf60e8442c77609579e8f2601b8f60f9bd6c7972f811ac67ad6c98b0bb7648",
+      "public_label": "🔄 UPDATE",
+      "headline": "Alleged 9/11 mastermind Khalid Sheikh Mohammed to go on trial in 2028",
       "briefing": {
         "opening": [
-          "NEW DELHI, August 27.",
-          "More than 900 people remain missing in Nepal after a powerful flood, while nearly 1,500 have been rescued, according to data from the country’s National Disaster Risk Reduction and Management Authority."
+          "A spokesman for the US military court at Guantanamo Bay said Thursday that Khalid Sheikh Mohammed – the alleged mastermind of the September 11, 2001 attacks on the United States – will go on trial before a US military court in June 2028.",
+          "Mohammed, also known as \"KSM\", was considered one of Osama bin Laden's top lieutenants before he was captured in March 2003."
         ],
-        "body": [
-          "It added that more than 17,290 people are taking part in the rescue operation, clarifying that rescuers had saved 716 people by air and 756 by land.",
-          "A powerful flood wave struck northern Nepal on Wednesday morning.",
-          "Preliminary data indicate that the flooding was caused by a snow-and-rock avalanche near the Nepal-China border, about 20 kilometers northeast of the Rasuwagadhi border crossing.",
-          "The Russian Embassy in Nepal said eight Russian nationals may be missing in the flood zone.",
-          "The authority said that 73 people were injured."
-        ],
+        "body": [],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Nepal"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "More than 900 people"
+            "text": "Guantanamo Bay"
           }
         ],
         "sentences": [
           {
-            "text": "More than 900 people remain missing in Nepal after a powerful flood, while nearly 1,500 have been rescued, according to data from the country’s National Disaster Risk Reduction and Management Authority.",
-            "source": "TASS English",
-            "item_id": "4e2e9c4b56d3877deef4e17a3d87bea1bab4af242cb0a18b244164714ec29f7e:article",
+            "text": "A spokesman for the US military court at Guantanamo Bay said Thursday that Khalid Sheikh Mohammed – the alleged mastermind of the September 11, 2001 attacks on the United States – will go on trial before a US military court in June 2028.",
+            "source": "France 24",
+            "item_id": "5ecf60e8442c77609579e8f2601b8f60f9bd6c7972f811ac67ad6c98b0bb7648",
             "composed": false
           },
           {
-            "text": "Preliminary data indicate that the flooding was caused by a snow-and-rock avalanche near the Nepal-China border, about 20 kilometers northeast of the Rasuwagadhi border crossing.",
-            "source": "TASS English",
-            "item_id": "4e2e9c4b56d3877deef4e17a3d87bea1bab4af242cb0a18b244164714ec29f7e:article",
-            "composed": false
-          },
-          {
-            "text": "The Russian Embassy in Nepal said eight Russian nationals may be missing in the flood zone.",
-            "source": "TASS English",
-            "item_id": "4e2e9c4b56d3877deef4e17a3d87bea1bab4af242cb0a18b244164714ec29f7e:article",
-            "composed": false
-          },
-          {
-            "text": "It added that more than 17,290 people are taking part in the rescue operation, clarifying that rescuers had saved 716 people by air and 756 by land.",
-            "source": "TASS English",
-            "item_id": "4e2e9c4b56d3877deef4e17a3d87bea1bab4af242cb0a18b244164714ec29f7e:article",
+            "text": "Mohammed, also known as \"KSM\", was considered one of Osama bin Laden's top lieutenants before he was captured in March 2003.",
+            "source": "France 24",
+            "item_id": "5ecf60e8442c77609579e8f2601b8f60f9bd6c7972f811ac67ad6c98b0bb7648",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://tass.com/emergencies/2178485"
+        "url": "https://www.france24.com/en/americas/20260827-alleged-9-11-mastermind-khalid-sheikh-mohammed-to-go-on-trial-in-2028"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
