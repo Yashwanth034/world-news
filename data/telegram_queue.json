@@ -1,35 +1,181 @@
 {
-  "generated_at": "2026-08-27T12:20:49.497429+00:00",
-  "count": 2,
+  "generated_at": "2026-08-27T12:30:58.814803+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "63a1414191ed0b13d2859ab243898922513b4b9f9d7a2d6d565c18904ef5eee9",
-      "title": "Scientists study lichens to assess ecosystems on Cape Chelyuskin in Arctic",
-      "url": "https://tass.com/economy/2178405",
+      "id": "48fa27a74d1c2e50fe890b4d85ba2084871308e1ab9395f74907db3dc097ab89",
+      "title": "Dozens of US and Canadian citizens missing after flash flooding in Nepal",
+      "url": "https://www.bbc.co.uk/news/articles/cn5dzldq1pzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Science",
+      "source_category": "science",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "Dozens of Americans and Canadians are among hundreds of people who are missing following a deadly flash flood and mudslide near the Nepal-Tibet border, Nepali authorities say. More than 350 people are so far known to have died, according to the authorities. The US State Department said it was aware that Americans were impacted by Wednesday's floods but did not provide numbers. It added that the US embassy in Nepal is working closely with local tour agencies and authorities to assist affected Americans, a spokesperson said. Canada's foreign office said it was also monitoring developments and was ready to provide assistance if needed. According to Nepal police, more than 500 tourists are missing from 28 different countries - most of whom are foreign nationals. The Nepal Tourism Board has broken down the missing by nationality. Its latest announcement on Thursday morning, external said there are 65 people from the US and 25 from Canada. State media in China, which controls Tibet, reported three dead and at least 558 missing there. Among these are 260 foreign nationals, CCTV said. It is not clear if these figures overlap with Nepal's. CCTV from Tibet showed a wall of water and mud hitting buildings at a border crossing.",
+      "published_at": "2026-08-27T12:26:12+00:00",
+      "updated_at": "2026-08-27T12:26:12+00:00",
+      "effective_at": "2026-08-27T12:26:12+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "climate",
+      "subsector": "floods",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "americans",
+        "canada",
+        "canadians",
+        "cctv",
+        "china",
+        "department",
+        "nepal",
+        "nepal-tibet",
+        "nepali",
+        "state",
+        "tibet",
+        "tourism",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 85,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Dozens of Americans and Canadians are among hundreds of people who are missing following a deadly flash flood and mudslide near the Nepal-Tibet border, Nepali authorities say.",
+        "More than 350 people are so far known to have died, according to the authorities.",
+        "The US State Department said it was aware that Americans were impacted by Wednesday's floods but did not provide numbers.",
+        "It added that the US embassy in Nepal is working closely with local tour agencies and authorities to assist affected Americans, a spokesperson said.",
+        "Canada's foreign office said it was also monitoring developments and was ready to provide assistance if needed.",
+        "According to Nepal police, more than 500 tourists are missing from 28 different countries - most of whom are foreign nationals.",
+        "The Nepal Tourism Board has broken down the missing by nationality.",
+        "Its latest announcement on Thursday morning, external said there are 65 people from the US and 25 from Canada.",
+        "State media in China, which controls Tibet, reported three dead and at least 558 missing there.",
+        "Among these are 260 foreign nationals, CCTV said.",
+        "It is not clear if these figures overlap with Nepal's.",
+        "CCTV from Tibet showed a wall of water and mud hitting buildings at a border crossing."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "e4d3767d4143cf9f648fdbc6",
+      "importance_score": 78.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 28,
+        "urgency": 10,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 20,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 558,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 558,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "human": 12,
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "48fa27a74d1c2e50fe890b4d85ba2084871308e1ab9395f74907db3dc097ab89",
+      "public_label": "🔄 UPDATE",
+      "headline": "Dozens of US and Canadian citizens missing after flash flooding in Nepal",
+      "briefing": {
+        "opening": [
+          "Dozens of Americans and Canadians are among hundreds of people who are missing following a deadly flash flood and mudslide near the Nepal-Tibet border, Nepali authorities say.",
+          "More than 350 people are so far known to have died, according to the authorities."
+        ],
+        "body": [
+          "The US State Department said it was aware that Americans were impacted by Wednesday's floods but did not provide numbers.",
+          "It added that the US embassy in Nepal is working closely with local tour agencies and authorities to assist affected Americans, a spokesperson said.",
+          "Canada's foreign office said it was also monitoring developments and was ready to provide assistance if needed.",
+          "According to Nepal police, more than 500 tourists are missing from 28 different countries - most of whom are foreign nationals.",
+          "The Nepal Tourism Board has broken down the missing by nationality.",
+          "Its latest announcement on Thursday morning, external said there are 65 people from the US and 25 from Canada.",
+          "State media in China, which controls Tibet, reported three dead and at least 558 missing there.",
+          "Among these are 260 foreign nationals, CCTV said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "More than 350 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "State media in China, which controls Tibet, reported three dead and at least 558 missing there.",
+            "source": "BBC Science",
+            "item_id": "48fa27a74d1c2e50fe890b4d85ba2084871308e1ab9395f74907db3dc097ab89:article",
+            "composed": false
+          },
+          {
+            "text": "Its latest announcement on Thursday morning, external said there are 65 people from the US and 25 from Canada.",
+            "source": "BBC Science",
+            "item_id": "48fa27a74d1c2e50fe890b4d85ba2084871308e1ab9395f74907db3dc097ab89:article",
+            "composed": false
+          },
+          {
+            "text": "According to Nepal police, more than 500 tourists are missing from 28 different countries - most of whom are foreign nationals.",
+            "source": "BBC Science",
+            "item_id": "48fa27a74d1c2e50fe890b4d85ba2084871308e1ab9395f74907db3dc097ab89:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC Science",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/cn5dzldq1pzo?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "2496ef5dc11763e917ae69a413014d424186c45c92e1c4262fb95ebfefeff8e6",
+      "title": "Tourist flow between Russia, North Korea steady up over past three years — minister",
+      "url": "https://tass.com/economy/2178415",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "Along with the research of lichens, scientists are sampling the soil cover",
-      "published_at": "2026-08-27T12:10:06+00:00",
-      "updated_at": "2026-08-27T12:10:06+00:00",
-      "effective_at": "2026-08-27T12:10:06+00:00",
+      "summary": "Alexander Kozlov added that general figures are modest so far",
+      "published_at": "2026-08-27T12:27:37+00:00",
+      "updated_at": "2026-08-27T12:27:37+00:00",
+      "effective_at": "2026-08-27T12:27:37+00:00",
       "language_status": "ENGLISH",
-      "category": "science",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "science",
-      "subsector": "science",
-      "subregion": null,
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "along",
-        "arctic",
-        "cape",
-        "chelyuskin"
+        "alexander",
+        "kozlov",
+        "north_korea",
+        "russia"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -39,15 +185,15 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "7670625f03dd3d52d5e5ac1f",
-      "importance_score": 30.0,
+      "event_id": "90a25e8fb995247108e24164",
+      "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 4,
@@ -63,115 +209,100 @@
           "crisis": false
         },
         "significance_dims": {
-          "scientific": 4
+          "geopolitical": 4
         }
       },
-      "story_id": "63a1414191ed0b13d2859ab243898922513b4b9f9d7a2d6d565c18904ef5eee9",
+      "story_id": "2496ef5dc11763e917ae69a413014d424186c45c92e1c4262fb95ebfefeff8e6",
       "article_sentences": [
         "MOSCOW, August 27.",
-        "The Clean Arctic project's scientific and ecological expedition studies lichens to assess pollution degree on Cape Chelyuskin, which is Eurasia's northernmost mainland point.",
-        "The expedition participants will collect at least 70 samples of soil, water, lichens and polar bear fur, the project's press service said.",
-        "\"Lichens are a very expressive test object for assessing pollution,\" the press service quoted researcher at the Dokuchaev Soil Institute, and expert of the Moscow State University's Geography Department Danila Bardashov as saying.",
-        "\"We are selecting species with a bushy life form, for example, representatives of the genus cetraria (also known as Iceland moss), since their layer can be easily separated from the substrate, and they provide sufficient biomass for tests.",
-        "The lichen, as a very vulnerable organism in harsh physical conditions, is forced to assimilate all the mineral elements that are available around, thus it accumulates heavy metals very actively as well.\"",
-        "Biologists have special interest in the species composition of lichens, which form up to 80% of the soil organic mass and serve as a primary link in the food chain of Arctic animals.",
-        "It is for the first time that the expedition combines several directions at a time: the elimination of accumulated environmental damage, and the study of Arctic flora and fauna.",
-        "\"Arctic ecosystems are distinguished by their nondescript appearance, but at the same time they have extremely high biodiversity,\" the scientist continued.",
-        "\"We can see that lichens on the cape make such a colorful carpet of different species, genera and life forms.",
-        "Thus, extremely high biological diversity is possible even in a small area, and we need to preserve and increase this biodiversity.\"",
-        "Lichens, like sponges, absorb all mineral elements from the environment, including heavy metals, and thus lichens serve as harbingers of changes long before human eye may notice them."
+        "The flow of tourists between Russia and North Korea has been stable, demonstrating growth over the past three years, Russian Minister of Natural Resources and Environment, co-chair of the Russia-DPRK intergovernmental commission.",
+        "Alexander Kozlov said in an interview with TASS ahead of the Eastern Economic Forum (EEF).",
+        "\"The flow of tourists between Russia and Korea has been stable over the past three years, demonstrating growth, of course.",
+        "General figures are modest so far, but we only ramped up this work in 2024, after a fairly long period of the pandemic, during which tourism development opportunities were severely limited,\" he said.",
+        "Russian tourists are interested in traveling to this country and exploring the peculiarities of its culture and traditions, Kozlov added."
       ],
       "public_label": "📰 NEWS",
-      "headline": "Scientists study lichens to assess ecosystems on Cape Chelyuskin in Arctic",
+      "headline": "Tourist flow between Russia, North Korea steady up over past three years — minister",
       "briefing": {
         "opening": [
           "MOSCOW, August 27.",
-          "The Clean Arctic project's scientific and ecological expedition studies lichens to assess pollution degree on Cape Chelyuskin, which is Eurasia's northernmost mainland point."
+          "The flow of tourists between Russia and North Korea has been stable, demonstrating growth over the past three years, Russian Minister of Natural Resources and Environment, co-chair of the Russia-DPRK intergovernmental commission."
         ],
         "body": [
-          "The expedition participants will collect at least 70 samples of soil, water, lichens and polar bear fur, the project's press service said.",
-          "\"Lichens are a very expressive test object for assessing pollution,\" the press service quoted researcher at the Dokuchaev Soil Institute, and expert of the Moscow State University's Geography Department Danila Bardashov as saying.",
-          "\"We are selecting species with a bushy life form, for example, representatives of the genus cetraria (also known as Iceland moss), since their layer can be easily separated from the substrate, and they provide sufficient biomass for tests.",
-          "The lichen, as a very vulnerable organism in harsh physical conditions, is forced to assimilate all the mineral elements that are available around, thus it accumulates heavy metals very actively as well.\" Biologists have special interest in the species composition of lichens, which form up to 80% of the soil organic mass and serve as a primary link in the food chain of Arctic animals.",
-          "It is for the first time that the expedition combines several directions at a time: the elimination of accumulated environmental damage, and the study of Arctic flora and fauna.",
-          "\"Arctic ecosystems are distinguished by their nondescript appearance, but at the same time they have extremely high biodiversity,\" the scientist continued.",
-          "\"We can see that lichens on the cape make such a colorful carpet of different species, genera and life forms.",
-          "Thus, extremely high biological diversity is possible even in a small area, and we need to preserve and increase this biodiversity.\" Lichens, like sponges, absorb all mineral elements from the environment, including heavy metals, and thus lichens serve as harbingers of changes long before human eye may notice them."
+          "Alexander Kozlov said in an interview with TASS ahead of the Eastern Economic Forum (EEF).",
+          "\"The flow of tourists between Russia and Korea has been stable over the past three years, demonstrating growth, of course.",
+          "General figures are modest so far, but we only ramped up this work in 2024, after a fairly long period of the pandemic, during which tourism development opportunities were severely limited,\" he said.",
+          "Russian tourists are interested in traveling to this country and exploring the peculiarities of its culture and traditions, Kozlov added.",
+          "Alexander Kozlov added that general figures are modest so far."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "The Clean Arctic project's scientific and ecological expedition studies lichens to assess pollution degree on Cape Chelyuskin, which is Eurasia's northernmost mainland point.",
+            "text": "The flow of tourists between Russia and North Korea has been stable, demonstrating growth over the past three years, Russian Minister of Natural Resources and Environment, co-chair of the Russia-DPRK intergovernmental commission.",
             "source": "TASS English",
-            "item_id": "63a1414191ed0b13d2859ab243898922513b4b9f9d7a2d6d565c18904ef5eee9:article",
+            "item_id": "2496ef5dc11763e917ae69a413014d424186c45c92e1c4262fb95ebfefeff8e6:article",
             "composed": false
           },
           {
             "text": "MOSCOW, August 27.",
             "source": "TASS English",
-            "item_id": "63a1414191ed0b13d2859ab243898922513b4b9f9d7a2d6d565c18904ef5eee9:article",
-            "composed": false
-          },
-          {
-            "text": "Biologists have special interest in the species composition of lichens, which form up to 80% of the soil organic mass and serve as a primary link in the food chain of Arctic animals.",
-            "source": "TASS English",
-            "item_id": "63a1414191ed0b13d2859ab243898922513b4b9f9d7a2d6d565c18904ef5eee9:article",
+            "item_id": "2496ef5dc11763e917ae69a413014d424186c45c92e1c4262fb95ebfefeff8e6:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/economy/2178405"
+        "url": "https://tass.com/economy/2178415"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "5d4757337058469d5d71cebd8bed03e0f4b5ff18ced88153a8f5874fe9a58283",
-      "title": "Near total lunar eclipse will be seen from North and South America Thursday night",
-      "url": "https://www.theguardian.com/science/2026/aug/27/lunar-eclipse-north-south-america",
-      "source": "The Guardian Science",
-      "source_category": "science",
+      "id": "4f26670923f799038765f98519d9ff545722644e1b9038b714585de8a1e92647",
+      "title": "Ukrainians massively fleeing training camps in Germany — diplomat",
+      "url": "https://tass.com/politics/2178411",
+      "source": "TASS English",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "Earth’s shadow will appear to be a reddish ‘blood moon’ due to the way sunlight is scattered by the atmosphere A near total lunar eclipse will be visible across large swathes of North and South America on Thursday night with millions of people expected to be able to see one of nature’s marvels. Lunar eclipses occur when Earth moves between the sun and the moon and its shadow is cast on to the lunar surface. Thursday night’s event will see 96% of the moon darkened by the Earth’s shadow at its peak moment. Continue reading...",
-      "published_at": "2026-08-27T12:13:02+00:00",
-      "updated_at": "2026-08-27T12:13:02+00:00",
-      "effective_at": "2026-08-27T12:13:02+00:00",
+      "summary": "The Ukrainian conscripts who have fled make it clear that they do not wish to fight for the ideas of this Kiev regime in its neo-Nazi guise, Maria Zakharova noted",
+      "published_at": "2026-08-27T12:19:38+00:00",
+      "updated_at": "2026-08-27T12:19:38+00:00",
+      "effective_at": "2026-08-27T12:19:38+00:00",
       "language_status": "ENGLISH",
-      "category": "space",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "science",
-      "subsector": "space",
-      "subregion": null,
+      "sector": "health",
+      "subsector": "public_health",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "america",
-        "earth",
-        "north",
-        "south"
+        "germany",
+        "maria",
+        "ukraine",
+        "zakharova"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "14d5531998e0e4f96a922440",
-      "importance_score": 26.0,
+      "event_id": "795c922df99c5d1f3af4e4f5",
+      "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -188,36 +319,61 @@
         },
         "significance_dims": {}
       },
-      "story_id": "5d4757337058469d5d71cebd8bed03e0f4b5ff18ced88153a8f5874fe9a58283",
+      "story_id": "4f26670923f799038765f98519d9ff545722644e1b9038b714585de8a1e92647",
+      "article_sentences": [
+        "MOSCOW, August 27.",
+        "Ukrainian conscripts are fleeing training camps in Germany in large numbers, making it clear that they do not wish to fight for so-called European values, Russian Foreign Ministry Spokeswoman Maria Zakharova told reporters.",
+        "\"Ukrainians who find themselves in the heart of Europe are fleeing these very training camps just as they fled from concentration camps.",
+        "This is a remarkable twist of history for those who are unaware of it,\" the diplomat said, emphasizing that this is not an isolated incident but a \"trend.\" According to Zakharova, \"several hundred such cases have been recorded throughout Germany.\" \"The Ukrainian conscripts who have fled make it clear that they do not wish to fight for the ideas of this Kiev regime in its neo-Nazi guise, nor for [Vladimir] Zelensky’s corrupt government, nor for so-called European values,\" she added."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "Near total lunar eclipse will be seen from North and South America Thursday night",
+      "headline": "Ukrainians massively fleeing training camps in Germany — diplomat",
       "briefing": {
         "opening": [
-          "Earth’s shadow will appear to be a reddish ‘blood moon’ due to the way sunlight is scattered by the atmosphere.",
-          "A near total lunar eclipse will be visible across large swathes of North and South America on Thursday night with millions of people expected to be able to see one of nature’s marvels."
+          "MOSCOW, August 27.",
+          "Ukrainian conscripts are fleeing training camps in Germany in large numbers, making it clear that they do not wish to fight for so-called European values, Russian Foreign Ministry Spokeswoman Maria Zakharova told reporters."
         ],
         "body": [
-          "Lunar eclipses occur when Earth moves between the sun and the moon and its shadow is cast on to the lunar surface.",
-          "Thursday night’s event will see 96% of the moon darkened by the Earth’s shadow at its peak moment."
+          "\"Ukrainians who find themselves in the heart of Europe are fleeing these very training camps just as they fled from concentration camps.",
+          "This is a remarkable twist of history for those who are unaware of it,\" the diplomat said, emphasizing that this is not an isolated incident but a \"trend.\" According to Zakharova, \"several hundred such cases have been recorded throughout Germany.\" \"The Ukrainian conscripts who have fled make it clear that they do not wish to fight for the ideas of this Kiev regime in its neo-Nazi guise, nor for [Vladimir] Zelensky’s corrupt government, nor for so-called European values,\" she added.",
+          "The Ukrainian conscripts who have fled make it clear that they do not wish to fight for the ideas of this Kiev regime in its neo-Nazi guise, Maria Zakharova noted."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Germany"
+          }
+        ],
         "sentences": [
           {
-            "text": "Thursday night’s event will see 96% of the moon darkened by the Earth’s shadow at its peak moment.",
-            "source": "The Guardian Science",
-            "item_id": "5d4757337058469d5d71cebd8bed03e0f4b5ff18ced88153a8f5874fe9a58283",
+            "text": "According to Zakharova, \"several hundred such cases have been recorded throughout Germany.\"",
+            "source": "TASS English",
+            "item_id": "4f26670923f799038765f98519d9ff545722644e1b9038b714585de8a1e92647:article",
             "composed": false
           },
           {
-            "text": "A near total lunar eclipse will be visible across large swathes of North and South America on Thursday night with millions of people expected to be able to see one of nature’s marvels.",
-            "source": "The Guardian Science",
-            "item_id": "5d4757337058469d5d71cebd8bed03e0f4b5ff18ced88153a8f5874fe9a58283",
+            "text": "\"The Ukrainian conscripts who have fled make it clear that they do not wish to fight for the ideas of this Kiev regime in its neo-Nazi guise, nor for [Vladimir] Zelensky’s corrupt government, nor for so-called European values,\" she added.",
+            "source": "TASS English",
+            "item_id": "4f26670923f799038765f98519d9ff545722644e1b9038b714585de8a1e92647:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, August 27.",
+            "source": "TASS English",
+            "item_id": "4f26670923f799038765f98519d9ff545722644e1b9038b714585de8a1e92647:article",
+            "composed": false
+          },
+          {
+            "text": "Ukrainian conscripts are fleeing training camps in Germany in large numbers, making it clear that they do not wish to fight for so-called European values, Russian Foreign Ministry Spokeswoman Maria Zakharova told reporters.",
+            "source": "TASS English",
+            "item_id": "4f26670923f799038765f98519d9ff545722644e1b9038b714585de8a1e92647:article",
             "composed": false
           }
         ],
-        "source": "The Guardian Science",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.theguardian.com/science/2026/aug/27/lunar-eclipse-north-south-america"
+        "url": "https://tass.com/politics/2178411"
       },
       "group_size": 1,
       "label": "📰 NEWS"
