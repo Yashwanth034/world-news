@@ -1,608 +1,31 @@
 {
-  "generated_at": "2026-08-27T06:50:44.154142+00:00",
-  "count": 6,
+  "generated_at": "2026-08-27T07:01:20.466934+00:00",
+  "count": 1,
   "stories": [
     {
-      "id": "0a6899b658b84eeab5cb7b4a1492352dfe596de8cb41c0be16bccd16da627253",
-      "title": "OpenAI says it detected malign activity months before Hugging Face attack",
-      "url": "https://www.aljazeera.com/economy/2026/8/27/openai-says-it-detected-malign-activity-months-before-hugging-face-attack?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "ChatGPT creator says AI agents collaborated and delegated work in hacking, calling themselves a ‘collective’. OpenAI detected its artificial intelligence models communicating with each other and gaining internet access without authorisation months before they hacked the start-up Hugging Face, the creator of ChatGPT has announced following an internal probe. In a report released on Wednesday, OpenAI said its AI agents exploited vulnerabilities in Artifactory, a software repository tool, to post notes and access the internet without human prompting as far back as May. OpenAI said its agents went on to exploit a separate Artifactory vulnerability on July 8 to facilitate communication among themselves, setting in motion a chain of actions that culminated in the July 11 attack on AI company Hugging Face. OpenAI’s findings come amid growing concern about the potential for AI to inflict serious real-world harm, including self-directed cyberattacks. OpenAI said in its report that its agents collaborated and delegated work in the lead-up to the attack, sometimes referring to themselves as a “swarm” or “collective”. METR and Redwood Research, two security research organisations contracted by OpenAI to investigate the incident, said in a separate report released on Wednesday that about 1200 agents had communicated with each other and roughly 700 participated in the attack. After discovering how to escape OpenAI’s controlled environment, agents shared their methods via a “inter-agent message board”, enabling additional agents to exploit the company’s infrastructure, the tech giant said. When one AI agent found Hugging Face user credentials that had been exposed online, it shared them with the group, enabling an agent to “discover and chain together several security exploits” that provided access to Hugging Face’s severs, according to the report. “An internal team observed an agent engaging in message board activity and instances of disallowed internet access as early as late May, and with the benefit of hindsight, some early signals identified in our report should have triggered an earlier response,” OpenAI said. OpenAI said agents created by an unreleased AI model were the primary participants in the attack, but publicly available GPT-5.6 Sol was also involved. The company also revealed that it took its security team 11 days to detect the malign activities leading up to the attack, which the company uncovered on July 19 and publicly disclosed on July 21.",
-      "published_at": "2026-08-27T06:33:18+00:00",
-      "updated_at": "2026-08-27T06:33:18+00:00",
-      "effective_at": "2026-08-27T06:33:18+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "ai",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "ai",
-        "artifactory",
-        "chatgpt",
-        "face",
-        "gpt-5",
-        "hugging",
-        "openai",
-        "redwood",
-        "research",
-        "sol"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 88,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "ChatGPT creator says AI agents collaborated and delegated work in hacking, calling themselves a ‘collective’.",
-        "OpenAI detected its artificial intelligence models communicating with each other and gaining internet access without authorisation months before they hacked the start-up Hugging Face, the creator of ChatGPT has announced following an internal probe.",
-        "In a report released on Wednesday, OpenAI said its AI agents exploited vulnerabilities in Artifactory, a software repository tool, to post notes and access the internet without human prompting as far back as May.",
-        "OpenAI said its agents went on to exploit a separate Artifactory vulnerability on July 8 to facilitate communication among themselves, setting in motion a chain of actions that culminated in the July 11 attack on AI company Hugging Face.",
-        "OpenAI’s findings come amid growing concern about the potential for AI to inflict serious real-world harm, including self-directed cyberattacks.",
-        "OpenAI said in its report that its agents collaborated and delegated work in the lead-up to the attack, sometimes referring to themselves as a “swarm” or “collective”.",
-        "METR and Redwood Research, two security research organisations contracted by OpenAI to investigate the incident, said in a separate report released on Wednesday that about 1200 agents had communicated with each other and roughly 700 participated in the attack.",
-        "After discovering how to escape OpenAI’s controlled environment, agents shared their methods via a “inter-agent message board”, enabling additional agents to exploit the company’s infrastructure, the tech giant said.",
-        "When one AI agent found Hugging Face user credentials that had been exposed online, it shared them with the group, enabling an agent to “discover and chain together several security exploits” that provided access to Hugging Face’s severs, according to the report.",
-        "“An internal team observed an agent engaging in message board activity and instances of disallowed internet access as early as late May, and with the benefit of hindsight, some early signals identified in our report should have triggered an earlier response,” OpenAI said.",
-        "OpenAI said agents created by an unreleased AI model were the primary participants in the attack, but publicly available GPT-5.6 Sol was also involved.",
-        "The company also revealed that it took its security team 11 days to detect the malign activities leading up to the attack, which the company uncovered on July 19 and publicly disclosed on July 21."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "e55a6e66fab1989d6b98a97f",
-      "importance_score": 58.0,
-      "importance_level": "MEDIUM",
-      "importance_breakdown": {
-        "impact": 18,
-        "urgency": 7.0,
-        "novelty": 8.0,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 16,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": true,
-          "crisis": false
-        },
-        "significance_dims": {
-          "scientific": 8,
-          "security": 4,
-          "infrastructure": 4
-        }
-      },
-      "story_id": "0a6899b658b84eeab5cb7b4a1492352dfe596de8cb41c0be16bccd16da627253",
-      "public_label": "🔄 UPDATE",
-      "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
-      "briefing": {
-        "opening": [
-          "ChatGPT creator says AI agents collaborated and delegated work in hacking, calling themselves a ‘collective’.",
-          "OpenAI detected its artificial intelligence models communicating with each other and gaining internet access without authorisation months before they hacked the start-up Hugging Face, the creator of ChatGPT has announced following an internal probe."
-        ],
-        "body": [
-          "In a report released on Wednesday, OpenAI said its AI agents exploited vulnerabilities in Artifactory, a software repository tool, to post notes and access the internet without human prompting as far back as May.",
-          "OpenAI said its agents went on to exploit a separate Artifactory vulnerability on July 8 to facilitate communication among themselves, setting in motion a chain of actions that culminated in the July 11 attack on AI company Hugging Face.",
-          "OpenAI’s findings come amid growing concern about the potential for AI to inflict serious real-world harm, including self-directed cyberattacks.",
-          "OpenAI said in its report that its agents collaborated and delegated work in the lead-up to the attack, sometimes referring to themselves as a “swarm” or “collective”.",
-          "METR and Redwood Research, two security research organisations contracted by OpenAI to investigate the incident, said in a separate report released on Wednesday that about 1200 agents had communicated with each other and roughly 700 participated in the attack.",
-          "After discovering how to escape OpenAI’s controlled environment, agents shared their methods via a “inter-agent message board”, enabling additional agents to exploit the company’s infrastructure, the tech giant said.",
-          "When one AI agent found Hugging Face user credentials that had been exposed online, it shared them with the group, enabling an agent to “discover and chain together several security exploits” that provided access to Hugging Face’s severs, according to the report.",
-          "“An internal team observed an agent engaging in message board activity and instances of disallowed internet access as early as late May, and with the benefit of hindsight, some early signals identified in our report should have triggered an earlier response,” OpenAI said."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Artifactory"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "OpenAI said its agents went on to exploit a separate Artifactory vulnerability on July 8 to facilitate communication among themselves, setting in motion a chain of actions that culminated in the July 11 attack on AI company Hugging Face.",
-            "source": "Al Jazeera",
-            "item_id": "0a6899b658b84eeab5cb7b4a1492352dfe596de8cb41c0be16bccd16da627253:article",
-            "composed": false
-          },
-          {
-            "text": "METR and Redwood Research, two security research organisations contracted by OpenAI to investigate the incident, said in a separate report released on Wednesday that about 1200 agents had communicated with each other and roughly 700 participated in the attack.",
-            "source": "Al Jazeera",
-            "item_id": "0a6899b658b84eeab5cb7b4a1492352dfe596de8cb41c0be16bccd16da627253:article",
-            "composed": false
-          },
-          {
-            "text": "In a report released on Wednesday, OpenAI said its AI agents exploited vulnerabilities in Artifactory, a software repository tool, to post notes and access the internet without human prompting as far back as May.",
-            "source": "Al Jazeera",
-            "item_id": "0a6899b658b84eeab5cb7b4a1492352dfe596de8cb41c0be16bccd16da627253:article",
-            "composed": false
-          }
-        ],
-        "source": "Al Jazeera",
-        "corroborating": [],
-        "url": "https://www.aljazeera.com/economy/2026/8/27/openai-says-it-detected-malign-activity-months-before-hugging-face-attack?traffic_source=rss"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153",
-      "title": "Body found in aircraft wheel well at Malaysia’s KLIA2",
-      "url": "https://www.straitstimes.com/asia/se-asia/body-found-in-aircraft-wheel-well-at-malaysias-klia2",
-      "source": "Straits Times Asia",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "The body of an unidentified person was found in the wheel well of a flight from Tokyo at Kuala Lumpur International Airport Terminal 2. Engineering personnel discovered the body after detecting a foul smell and reported it to the police for further investigation. The victim is believed to be in their 20s, dead for over 72 hours, with no ID found; investigations into identity and cause of death continue. The body of an unidentified person was found inside the wheel well of an aircraft at Kuala Lumpur International Airport Terminal 2 (KLIA2) on Aug 27. The body, whose gender has yet to be determined, was discovered at about 6.55am in the wheel well of a flight from Tokyo, Japan, which landed at about 6.30am. It is learnt that the body, clad in jeans and a white shirt, was found by engineering personnel who were tasked with opening the aircraft’s wheel well. The personnel detected a suspicious foul smell coming from the wheel well before opening the compartment. The body was subsequently discovered and the matter was reported to the KLIA2 police station operations room. Police forensic personnel were later deployed to the scene to conduct further investigations. Initial investigations found that the victim was believed to be in his or her 20s and may have been dead for more than 72 hours. However, no identification documents were found on the body.",
-      "published_at": "2026-08-27T06:40:00+00:00",
-      "updated_at": "2026-08-27T06:40:00+00:00",
-      "effective_at": "2026-08-27T06:40:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "aviation",
-      "subregion": "Southeast Asia",
-      "country": null,
-      "entities": [
-        "airport",
-        "aug",
-        "id",
-        "international",
-        "japan",
-        "klia2",
-        "kuala",
-        "lumpur",
-        "malaysia",
-        "terminal"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "The body of an unidentified person was found in the wheel well of a flight from Tokyo at Kuala Lumpur International Airport Terminal 2.",
-        "Engineering personnel discovered the body after detecting a foul smell and reported it to the police for further investigation.",
-        "The victim is believed to be in their 20s, dead for over 72 hours, with no ID found; investigations into identity and cause of death continue.",
-        "The body of an unidentified person was found inside the wheel well of an aircraft at Kuala Lumpur International Airport Terminal 2 (KLIA2) on Aug 27.",
-        "The body, whose gender has yet to be determined, was discovered at about 6.55am in the wheel well of a flight from Tokyo, Japan, which landed at about 6.30am.",
-        "It is learnt that the body, clad in jeans and a white shirt, was found by engineering personnel who were tasked with opening the aircraft’s wheel well.",
-        "The personnel detected a suspicious foul smell coming from the wheel well before opening the compartment.",
-        "The body was subsequently discovered and the matter was reported to the KLIA2 police station operations room.",
-        "Police forensic personnel were later deployed to the scene to conduct further investigations.",
-        "Initial investigations found that the victim was believed to be in his or her 20s and may have been dead for more than 72 hours.",
-        "However, no identification documents were found on the body."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "184fc3e05470e04359c89db8",
-      "importance_score": 58.0,
-      "importance_level": "MEDIUM",
-      "importance_breakdown": {
-        "impact": 16.0,
-        "urgency": 7.0,
-        "novelty": 8.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 16,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 72,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "human": 8,
-          "scientific": 4,
-          "infrastructure": 4
-        }
-      },
-      "story_id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153",
-      "public_label": "🔄 UPDATE",
-      "headline": "Body found in aircraft wheel well at Malaysia’s KLIA2",
-      "briefing": {
-        "opening": [
-          "The body of an unidentified person was found in the wheel well of a flight from Tokyo at Kuala Lumpur International Airport Terminal 2.",
-          "Engineering personnel discovered the body after detecting a foul smell and reported it to the police for further investigation."
-        ],
-        "body": [
-          "The victim is believed to be in their 20s, dead for over 72 hours, with no ID found; investigations into identity and cause of death continue.",
-          "The body of an unidentified person was found inside the wheel well of an aircraft at Kuala Lumpur International Airport Terminal 2 (KLIA2) on Aug 27.",
-          "The body, whose gender has yet to be determined, was discovered at about 6.55am in the wheel well of a flight from Tokyo, Japan, which landed at about 6.30am.",
-          "It is learnt that the body, clad in jeans and a white shirt, was found by engineering personnel who were tasked with opening the aircraft’s wheel well.",
-          "The personnel detected a suspicious foul smell coming from the wheel well before opening the compartment.",
-          "The body was subsequently discovered and the matter was reported to the KLIA2 police station operations room.",
-          "Police forensic personnel were later deployed to the scene to conduct further investigations.",
-          "Initial investigations found that the victim was believed to be in his or her 20s and may have been dead for more than 72 hours."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Kuala Lumpur International"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The body of an unidentified person was found inside the wheel well of an aircraft at Kuala Lumpur International Airport Terminal 2 (KLIA2) on Aug 27.",
-            "source": "Straits Times Asia",
-            "item_id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153:article",
-            "composed": false
-          },
-          {
-            "text": "The body, whose gender has yet to be determined, was discovered at about 6.55am in the wheel well of a flight from Tokyo, Japan, which landed at about 6.30am.",
-            "source": "Straits Times Asia",
-            "item_id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153:article",
-            "composed": false
-          },
-          {
-            "text": "The body of an unidentified person was found in the wheel well of a flight from Tokyo at Kuala Lumpur International Airport Terminal 2.",
-            "source": "Straits Times Asia",
-            "item_id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153:article",
-            "composed": false
-          },
-          {
-            "text": "The victim is believed to be in their 20s, dead for over 72 hours, with no ID found; investigations into identity and cause of death continue.",
-            "source": "Straits Times Asia",
-            "item_id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153:article",
-            "composed": false
-          }
-        ],
-        "source": "Straits Times Asia",
-        "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/se-asia/body-found-in-aircraft-wheel-well-at-malaysias-klia2"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "747edf3a8b28dcb9fb5d8827380f996dc854683a1eb82742607be427b1c8b93c",
-      "title": "Scottie Scheffler credits Tiger Woods with increasing size of purses on PGA Tour",
-      "url": "https://www.japantimes.co.jp/sports/2026/08/27/more-sports/scottie-scheffler-tiger-woods-earning-record/",
-      "source": "Japan Times",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "The winner of this week's Tour Championship takes home $10 million, and a spot in the top eight would push Scheffler to No. 1 on the Tour's all-time earnings list.",
-      "published_at": "2026-08-27T06:22:00+00:00",
-      "updated_at": "2026-08-27T06:22:00+00:00",
-      "effective_at": "2026-08-27T06:22:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "finance",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "championship",
-        "pga",
-        "scheffler",
-        "scottie",
-        "tiger",
-        "tour",
-        "woods"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "a7bf89a7176152610b569888",
-      "importance_score": 34.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "cultural": 8
-        }
-      },
-      "story_id": "747edf3a8b28dcb9fb5d8827380f996dc854683a1eb82742607be427b1c8b93c",
-      "public_label": "📰 NEWS",
-      "headline": "Scottie Scheffler credits Tiger Woods with increasing size of purses on PGA Tour",
-      "briefing": {
-        "opening": [
-          "The winner of this week's Tour Championship takes home $10 million, and a spot in the top eight would push Scheffler to No.",
-          "1 on the Tour's all-time earnings list."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The winner of this week's Tour Championship takes home $10 million, and a spot in the top eight would push Scheffler to No.",
-            "source": "Japan Times",
-            "item_id": "747edf3a8b28dcb9fb5d8827380f996dc854683a1eb82742607be427b1c8b93c",
-            "composed": false
-          },
-          {
-            "text": "1 on the Tour's all-time earnings list.",
-            "source": "Japan Times",
-            "item_id": "747edf3a8b28dcb9fb5d8827380f996dc854683a1eb82742607be427b1c8b93c",
-            "composed": false
-          }
-        ],
-        "source": "Japan Times",
-        "corroborating": [],
-        "url": "https://www.japantimes.co.jp/sports/2026/08/27/more-sports/scottie-scheffler-tiger-woods-earning-record/"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "264bfa59c070c146ecf7c228d98c1a1716a896b5f33f67a8444b5a3d835c83e0",
-      "title": "‘Panic’ as US immigrant visa interview pause hits at least 100 Hong Kong applicants",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3365428/panic-us-immigrant-visa-interview-pause-hits-least-100-hong-kong-applicants?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "North America",
-      "discovery": false,
-      "summary": "At least 100 Hong Kong-based applicants have been affected by the indefinite postponement of US immigrant visa interviews worldwide, immigration consultants say, with student and travel visa applications also disrupted. The global pause, which marks a sharp tightening of legal immigration under the Trump administration, has left some Hong Kong applicants fearing the US could scrap the entire immigration pathway, rendering their efforts and expenses futile. In an email seen by the South China...",
-      "published_at": "2026-08-27T06:42:40+00:00",
-      "updated_at": "2026-08-27T06:42:40+00:00",
-      "effective_at": "2026-08-27T06:42:40+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "human_rights",
-      "subregion": "United States",
-      "country": null,
-      "entities": [
-        "china",
-        "hong_kong",
-        "kong-based",
-        "south",
-        "trump",
-        "us"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "3d83da2f304e63fe54b2b636",
-      "importance_score": 31.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 100,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "264bfa59c070c146ecf7c228d98c1a1716a896b5f33f67a8444b5a3d835c83e0",
-      "public_label": "📰 NEWS",
-      "headline": "‘Panic’ as US immigrant visa interview pause hits at least 100 Hong Kong applicants",
-      "briefing": {
-        "opening": [
-          "At least 100 Hong Kong-based applicants have been affected by the indefinite postponement of US immigrant visa interviews worldwide, immigration consultants say, with student and travel visa applications also disrupted.",
-          "The global pause, which marks a sharp tightening of legal immigration under the Trump administration, has left some Hong Kong applicants fearing the US could scrap the entire immigration pathway, rendering their efforts and expenses futile."
-        ],
-        "body": [
-          "In an email seen by the South China..."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The global pause, which marks a sharp tightening of legal immigration under the Trump administration, has left some Hong Kong applicants fearing the US could scrap the entire immigration pathway, rendering their efforts and expenses futile.",
-            "source": "South China Morning Post",
-            "item_id": "264bfa59c070c146ecf7c228d98c1a1716a896b5f33f67a8444b5a3d835c83e0",
-            "composed": false
-          },
-          {
-            "text": "At least 100 Hong Kong-based applicants have been affected by the indefinite postponement of US immigrant visa interviews worldwide, immigration consultants say, with student and travel visa applications also disrupted.",
-            "source": "South China Morning Post",
-            "item_id": "264bfa59c070c146ecf7c228d98c1a1716a896b5f33f67a8444b5a3d835c83e0",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/society/article/3365428/panic-us-immigrant-visa-interview-pause-hits-least-100-hong-kong-applicants?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "aefe13ae5f129f817d8c85f39538a993c49ef11456c7723433bc0b6c661b8b66",
-      "title": "Hong Kong gold imports fall 18% in July as mainland giants rush to build vaults",
-      "url": "https://www.scmp.com/business/commodities/article/3365422/hong-kong-gold-imports-fall-18-july-mainland-giants-rush-build-vaults?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Gold flows into Hong Kong eased to about 107 tonnes in July despite mainland corporate buyers pouring capital into new bullion vaults, as they bet on the city’s strategic ambition to establish itself as Asia’s premier hub for the precious metal. The city’s non-monetary gold imports fell about 18 per cent from June, a month that registered a decade-long high as banks built up inventory ahead of the trial launch of the city’s gold clearing and settlement system that opened on July 7. The value of...",
-      "published_at": "2026-08-27T06:43:42+00:00",
-      "updated_at": "2026-08-27T06:43:42+00:00",
-      "effective_at": "2026-08-27T06:43:42+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "commodities",
-      "subregion": "East Asia",
-      "country": null,
-      "entities": [
-        "asia",
-        "gold",
-        "hong_kong"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "ae761c19b317e4fc426d0e8b",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "aefe13ae5f129f817d8c85f39538a993c49ef11456c7723433bc0b6c661b8b66",
-      "public_label": "📰 NEWS",
-      "headline": "Hong Kong gold imports fall 18% in July as mainland giants rush to build vaults",
-      "briefing": {
-        "opening": [
-          "Gold flows into Hong Kong eased to about 107 tonnes in July despite mainland corporate buyers pouring capital into new bullion vaults, as they bet on the city’s strategic ambition to establish itself as Asia’s premier hub for the precious metal.",
-          "The city’s non-monetary gold imports fell about 18 per cent from June, a month that registered a decade-long high as banks built up inventory ahead of the trial launch of the city’s gold clearing and settlement system that opened on July 7."
-        ],
-        "body": [
-          "The value of..."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "July"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The city’s non-monetary gold imports fell about 18 per cent from June, a month that registered a decade-long high as banks built up inventory ahead of the trial launch of the city’s gold clearing and settlement system that opened on July 7.",
-            "source": "South China Morning Post",
-            "item_id": "aefe13ae5f129f817d8c85f39538a993c49ef11456c7723433bc0b6c661b8b66",
-            "composed": false
-          },
-          {
-            "text": "Gold flows into Hong Kong eased to about 107 tonnes in July despite mainland corporate buyers pouring capital into new bullion vaults, as they bet on the city’s strategic ambition to establish itself as Asia’s premier hub for the precious metal.",
-            "source": "South China Morning Post",
-            "item_id": "aefe13ae5f129f817d8c85f39538a993c49ef11456c7723433bc0b6c661b8b66",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/business/commodities/article/3365422/hong-kong-gold-imports-fall-18-july-mainland-giants-rush-build-vaults?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1",
-      "title": "Ex-special forces commander sentenced to 12-yr prison term for martial law role",
-      "url": "https://en.yna.co.kr/view/AEN20260827007900315",
+      "id": "23328d70652e1532d33b5cdac64cc7085ef16db1895d06da32285bcfcb000a62",
+      "title": "State agency fined for leaking personal info of adoptees, missing children",
+      "url": "https://en.yna.co.kr/view/AEN20260827008600315",
       "source": "Yonhap English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "SEOUL, Aug. 27 (Yonhap) -- A former Army special forces commander was sentenced ...",
-      "published_at": "2026-08-27T06:39:59+00:00",
-      "updated_at": "2026-08-27T06:39:59+00:00",
-      "effective_at": "2026-08-27T06:39:59+00:00",
+      "summary": "SEOUL, Aug. 27 (Yonhap) -- A state-run child rights agency has been hit with rec...",
+      "published_at": "2026-08-27T06:48:08+00:00",
+      "updated_at": "2026-08-27T06:48:08+00:00",
+      "effective_at": "2026-08-27T06:48:08+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "defense",
+      "sector": "law",
+      "subsector": "regulation",
       "subregion": "East Asia",
       "country": null,
       "entities": [
-        "army",
         "aug",
         "seoul",
         "yonhap"
@@ -615,86 +38,97 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "e27cac1bcdbe126b89ad0b58",
-      "importance_score": 28.0,
+      "event_id": "17fe5f4dc31faae4248b0514",
+      "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 2,
         "urgency": 7.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 6,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
           "dead": 0,
           "injured": 0,
           "displaced": 0,
-          "missing": 0,
+          "missing": 27,
           "affected": 0,
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "human": 6
+        }
       },
-      "story_id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1",
+      "story_id": "23328d70652e1532d33b5cdac64cc7085ef16db1895d06da32285bcfcb000a62",
       "article_sentences": [
-        "A former Army special forces commander was sentenced to 12 years in prison Thursday for helping seal off the National Assembly compound during former President Yoon Suk Yeol's brief imposition of martial law.",
-        "The Seoul Central District Court handed down the sentence to Kim Hyun-tae, former commander of the 707th Special Missions Group, after convicting him of playing a key role in an insurrection.",
-        "Kim is accused of leading troops to break open the National Assembly's windows and shut off power to the building after Yoon declared martial law in December 2024.",
-        "\"(The defendants) abandoned their sacred duty to national security and defending the land and used military power that should be used for the nation and the people for the interests of themselves and select forces,\" the court said."
+        "A state-run child rights agency has been hit with record penalties for leaking more than 1.17 million pieces of personal information, including those of missing children and adoptees, and failing to report the breach, the state data protection watchdog said Thursday.",
+        "The Personal Information Protection Commission (PIPC) said it decided to impose a penalty of 863 million won (US$625,000) and a fine of 22.2 million won on the National Center for the Rights of the Child (NCRC) during a plenary meeting Wednesday for violating the Personal Information Protection Act.",
+        "This is the largest penalty ever imposed on a public institution.",
+        "The watchdog also asked the health ministry, which oversees the NCRC, to strengthen its guidance and supervision of the agency.",
+        "From 2013 to 2022, the NCRC carried out a computerization project to convert adoption records and missing child intake cards into Excel files and scanned documents.",
+        "During the process, the contractor provided the digitized data to the NCRC on removable storage media, including external hard drives, USB flash drives and CDs.",
+        "The NCRC belatedly discovered that the storage media had gone missing while conducting an internal inspection into allegations of mismanagement in the adoption record computerization project.",
+        "As a result, 1.17 million pieces of personal information were exposed, including the resident registration numbers of about 300,000 adopted children and 15,000 missing children.",
+        "The PIPC said a separate personal information breach also occurred in the NCRC's adoption information disclosure request system, involving the personal information of 47 people, including 37 adoptees and 10 prospective adoptive parents."
       ],
       "public_label": "📰 NEWS",
-      "headline": "Ex-special forces commander sentenced to 12-yr prison term for martial law role",
+      "headline": "State agency fined for leaking personal info of adoptees, missing children",
       "briefing": {
         "opening": [
-          "A former Army special forces commander was sentenced to 12 years in prison Thursday for helping seal off the National Assembly compound during former President Yoon Suk Yeol's brief imposition of martial law.",
-          "The Seoul Central District Court handed down the sentence to Kim Hyun-tae, former commander of the 707th Special Missions Group, after convicting him of playing a key role in an insurrection."
+          "A state-run child rights agency has been hit with record penalties for leaking more than 1.17 million pieces of personal information, including those of missing children and adoptees, and failing to report the breach, the state data protection watchdog said Thursday.",
+          "This is the largest penalty ever imposed on a public institution."
         ],
         "body": [
-          "Kim is accused of leading troops to break open the National Assembly's windows and shut off power to the building after Yoon declared martial law in December 2024.",
-          "\"(The defendants) abandoned their sacred duty to national security and defending the land and used military power that should be used for the nation and the people for the interests of themselves and select forces,\" the court said.",
-          "A former Army special forces commander was sentenced..."
+          "The watchdog also asked the health ministry, which oversees the NCRC, to strengthen its guidance and supervision of the agency.",
+          "From 2013 to 2022, the NCRC carried out a computerization project to convert adoption records and missing child intake cards into Excel files and scanned documents.",
+          "During the process, the contractor provided the digitized data to the NCRC on removable storage media, including external hard drives, USB flash drives and CDs.",
+          "The NCRC belatedly discovered that the storage media had gone missing while conducting an internal inspection into allegations of mismanagement in the adoption record computerization project.",
+          "As a result, 1.17 million pieces of personal information were exposed, including the resident registration numbers of about 300,000 adopted children and 15,000 missing children.",
+          "The PIPC said a separate personal information breach also occurred in the NCRC's adoption information disclosure request system, involving the personal information of 47 people, including 37 adoptees and 10 prospective adoptive parents.",
+          "A state-run child rights agency has been hit with rec..."
         ],
         "bullets": [
           {
-            "icon": "📍",
-            "label": "Location",
-            "text": "December"
+            "icon": "👥",
+            "label": "Impact",
+            "text": "47 people"
           }
         ],
         "sentences": [
           {
-            "text": "\"(The defendants) abandoned their sacred duty to national security and defending the land and used military power that should be used for the nation and the people for the interests of themselves and select forces,\" the court said.",
+            "text": "From 2013 to 2022, the NCRC carried out a computerization project to convert adoption records and missing child intake cards into Excel files and scanned documents.",
             "source": "Yonhap English",
-            "item_id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1:article",
+            "item_id": "23328d70652e1532d33b5cdac64cc7085ef16db1895d06da32285bcfcb000a62:article",
             "composed": false
           },
           {
-            "text": "Kim is accused of leading troops to break open the National Assembly's windows and shut off power to the building after Yoon declared martial law in December 2024.",
+            "text": "A state-run child rights agency has been hit with record penalties for leaking more than 1.17 million pieces of personal information, including those of missing children and adoptees, and failing to report the breach, the state data protection watchdog said Thursday.",
             "source": "Yonhap English",
-            "item_id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1:article",
+            "item_id": "23328d70652e1532d33b5cdac64cc7085ef16db1895d06da32285bcfcb000a62:article",
             "composed": false
           },
           {
-            "text": "A former Army special forces commander was sentenced to 12 years in prison Thursday for helping seal off the National Assembly compound during former President Yoon Suk Yeol's brief imposition of martial law.",
+            "text": "The PIPC said a separate personal information breach also occurred in the NCRC's adoption information disclosure request system, involving the personal information of 47 people, including 37 adoptees and 10 prospective adoptive parents.",
             "source": "Yonhap English",
-            "item_id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1:article",
+            "item_id": "23328d70652e1532d33b5cdac64cc7085ef16db1895d06da32285bcfcb000a62:article",
             "composed": false
           },
           {
-            "text": "The Seoul Central District Court handed down the sentence to Kim Hyun-tae, former commander of the 707th Special Missions Group, after convicting him of playing a key role in an insurrection.",
+            "text": "As a result, 1.17 million pieces of personal information were exposed, including the resident registration numbers of about 300,000 adopted children and 15,000 missing children.",
             "source": "Yonhap English",
-            "item_id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1:article",
+            "item_id": "23328d70652e1532d33b5cdac64cc7085ef16db1895d06da32285bcfcb000a62:article",
             "composed": false
           }
         ],
         "source": "Yonhap English",
         "corroborating": [],
-        "url": "https://en.yna.co.kr/view/AEN20260827007900315"
+        "url": "https://en.yna.co.kr/view/AEN20260827008600315"
       },
       "group_size": 1,
       "label": "📰 NEWS"
