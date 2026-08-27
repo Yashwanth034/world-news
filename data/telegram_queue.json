@@ -1,210 +1,73 @@
 {
-  "generated_at": "2026-08-27T06:40:45.495852+00:00",
-  "count": 3,
+  "generated_at": "2026-08-27T06:50:44.154142+00:00",
+  "count": 6,
   "stories": [
     {
-      "id": "fba0dbf6b088d0e776bdca6d5fde11b63e4e641a25c027aa8478c838eedc6627",
-      "title": "Rescuers seek nearly 1,500 still missing in Nepal and China after flash flood",
-      "url": "https://www.straitstimes.com/asia/rescuers-search-for-survivors-after-devastating-nepal-flood",
-      "source": "Straits Times Asia",
+      "id": "0a6899b658b84eeab5cb7b4a1492352dfe596de8cb41c0be16bccd16da627253",
+      "title": "OpenAI says it detected malign activity months before Hugging Face attack",
+      "url": "https://www.aljazeera.com/economy/2026/8/27/openai-says-it-detected-malign-activity-months-before-hugging-face-attack?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": null,
       "discovery": false,
-      "summary": "TRISHULI, Nepal, Aug 27 - Nearly 1,500 people, including more than 700 foreigners, are missing across Nepal and China's Tibet, authorities said on Thursday, after a wall of mud and rock collapsed into a Himalayan river, causing catastrophic flash floods.",
-      "published_at": "2026-08-27T01:09:15+00:00",
-      "updated_at": "2026-08-27T01:09:15+00:00",
-      "effective_at": "2026-08-27T01:09:15+00:00",
+      "summary": "ChatGPT creator says AI agents collaborated and delegated work in hacking, calling themselves a ‘collective’. OpenAI detected its artificial intelligence models communicating with each other and gaining internet access without authorisation months before they hacked the start-up Hugging Face, the creator of ChatGPT has announced following an internal probe. In a report released on Wednesday, OpenAI said its AI agents exploited vulnerabilities in Artifactory, a software repository tool, to post notes and access the internet without human prompting as far back as May. OpenAI said its agents went on to exploit a separate Artifactory vulnerability on July 8 to facilitate communication among themselves, setting in motion a chain of actions that culminated in the July 11 attack on AI company Hugging Face. OpenAI’s findings come amid growing concern about the potential for AI to inflict serious real-world harm, including self-directed cyberattacks. OpenAI said in its report that its agents collaborated and delegated work in the lead-up to the attack, sometimes referring to themselves as a “swarm” or “collective”. METR and Redwood Research, two security research organisations contracted by OpenAI to investigate the incident, said in a separate report released on Wednesday that about 1200 agents had communicated with each other and roughly 700 participated in the attack. After discovering how to escape OpenAI’s controlled environment, agents shared their methods via a “inter-agent message board”, enabling additional agents to exploit the company’s infrastructure, the tech giant said. When one AI agent found Hugging Face user credentials that had been exposed online, it shared them with the group, enabling an agent to “discover and chain together several security exploits” that provided access to Hugging Face’s severs, according to the report. “An internal team observed an agent engaging in message board activity and instances of disallowed internet access as early as late May, and with the benefit of hindsight, some early signals identified in our report should have triggered an earlier response,” OpenAI said. OpenAI said agents created by an unreleased AI model were the primary participants in the attack, but publicly available GPT-5.6 Sol was also involved. The company also revealed that it took its security team 11 days to detect the malign activities leading up to the attack, which the company uncovered on July 19 and publicly disclosed on July 21.",
+      "published_at": "2026-08-27T06:33:18+00:00",
+      "updated_at": "2026-08-27T06:33:18+00:00",
+      "effective_at": "2026-08-27T06:33:18+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 65,
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "floods",
-      "subregion": "South Asia",
+      "sector": "technology",
+      "subsector": "ai",
+      "subregion": null,
       "country": null,
       "entities": [
-        "aug",
-        "china",
-        "himalayan",
-        "nearly",
-        "nepal",
-        "tibet",
-        "trishuli"
-      ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 1,
-      "priority_score": 90,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "fa6198771d180fc64cc7b913",
-      "importance_score": 64.0,
-      "importance_level": "MEDIUM",
-      "importance_breakdown": {
-        "impact": 24,
-        "urgency": 6.0,
-        "novelty": 8.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 3,
-        "significance": 12,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 162,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 1500,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": true
-        },
-        "significance_dims": {
-          "human": 12
-        }
-      },
-      "story_id": "fba0dbf6b088d0e776bdca6d5fde11b63e4e641a25c027aa8478c838eedc6627",
-      "article_sentences": [
-        "TRISHULI, Nepal, Aug 27 - Nearly 1,500 people, including more than 700 foreigners, are missing across Nepal and China's Tibet, authorities said on Thursday, after a wall of mud and rock collapsed into a Himalayan river, causing catastrophic flash floods.",
-        "Rescuers in Nepal used helicopters to search for survivors and drop emergency supplies to thousands cut off in towns and valleys after Wednesday's disaster swept a road thronged by trekkers and pilgrims that links Kathmandu with Lhasa in Tibet.",
-        "Police said they expected the death toll to rise beyond 165.",
-        "\"This will go up, as we have resumed the search and more bodies are expected to be recovered,\" police spokesperson Abi Narayan Kafle told Reuters.",
-        "Almost 500 foreigners were among 826 people missing in Nepal, police and tourism officials said.",
-        "Among the missing tourists from more than two dozen countries, 177 were from India, 63 were from the United States, 34 from Australia, 33 from Britain and 25 from Canada.",
-        "Malaysia's foreign ministry said 55 nationals were uncontactable but there was no official confirmation of casualties.",
-        "The tally of missing in Tibet's Gyirong county was 558, Chinese state broadcaster CCTV said on Thursday, including 260 foreign nationals.",
-        "China said the death toll stayed at three.",
-        "Verified videos showed crushing masses of water and debris sweeping away dozens of people at a border crossing in Gyirong, with homes, roads and power projects washed away in Nepal as the flows travelled downstream.",
-        "\"It was a huge gush of mud coming straight towards us,\" said Keshav Prasad Baral, a 68-year-old survivor being treated in a Nepali hospital.",
-        "\"As it got closer, it kept rising higher and higher."
-      ],
-      "public_label": "🔄 UPDATE",
-      "headline": "Rescuers seek nearly 1,500 still missing in Nepal and China after flash flood",
-      "briefing": {
-        "opening": [
-          "TRISHULI, Nepal, Aug 27 - Nearly 1,500 people, including more than 700 foreigners, are missing across Nepal and China's Tibet, authorities said on Thursday, after a wall of mud and rock collapsed into a Himalayan river, causing catastrophic flash floods.",
-          "Rescuers in Nepal used helicopters to search for survivors and drop emergency supplies to thousands cut off in towns and valleys after Wednesday's disaster swept a road thronged by trekkers and pilgrims that links Kathmandu with Lhasa in Tibet."
-        ],
-        "body": [
-          "Police said they expected the death toll to rise beyond 165.",
-          "Among the missing tourists from more than two dozen countries, 177 were from India, 63 were from the United States, 34 from Australia, 33 from Britain and 25 from Canada.",
-          "Malaysia's foreign ministry said 55 nationals were uncontactable but there was no official confirmation of casualties.",
-          "The tally of missing in Tibet's Gyirong county was 558, Chinese state broadcaster CCTV said on Thursday, including 260 foreign nationals.",
-          "China said the death toll stayed at three.",
-          "Verified videos showed crushing masses of water and debris sweeping away dozens of people at a border crossing in Gyirong, with homes, roads and power projects washed away in Nepal as the flows travelled downstream.",
-          "\"It was a huge gush of mud coming straight towards us,\" said Keshav Prasad Baral, a 68-year-old survivor being treated in a Nepali hospital."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "Nearly 1,500 people"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "\"This will go up, as we have resumed the search and more bodies are expected to be recovered,\" police spokesperson Abi Narayan Kafle told Reuters."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "TRISHULI, Nepal, Aug 27 - Nearly 1,500 people, including more than 700 foreigners, are missing across Nepal and China's Tibet, authorities said on Thursday, after a wall of mud and rock collapsed into a Himalayan river, causing catastrophic flash floods.",
-            "source": "Straits Times Asia",
-            "item_id": "fba0dbf6b088d0e776bdca6d5fde11b63e4e641a25c027aa8478c838eedc6627:article",
-            "composed": false
-          },
-          {
-            "text": "Among the missing tourists from more than two dozen countries, 177 were from India, 63 were from the United States, 34 from Australia, 33 from Britain and 25 from Canada.",
-            "source": "Straits Times Asia",
-            "item_id": "fba0dbf6b088d0e776bdca6d5fde11b63e4e641a25c027aa8478c838eedc6627:article",
-            "composed": false
-          },
-          {
-            "text": "The tally of missing in Tibet's Gyirong county was 558, Chinese state broadcaster CCTV said on Thursday, including 260 foreign nationals.",
-            "source": "Straits Times Asia",
-            "item_id": "fba0dbf6b088d0e776bdca6d5fde11b63e4e641a25c027aa8478c838eedc6627:article",
-            "composed": false
-          },
-          {
-            "text": "Rescuers in Nepal used helicopters to search for survivors and drop emergency supplies to thousands cut off in towns and valleys after Wednesday's disaster swept a road thronged by trekkers and pilgrims that links Kathmandu with Lhasa in Tibet.",
-            "source": "Straits Times Asia",
-            "item_id": "fba0dbf6b088d0e776bdca6d5fde11b63e4e641a25c027aa8478c838eedc6627:article",
-            "composed": false
-          }
-        ],
-        "source": "Straits Times Asia",
-        "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/rescuers-search-for-survivors-after-devastating-nepal-flood"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "861870a30ca8faf15c4d91e9a58fa9b0718f2d37f45af857f7b66abaf68e1aa0",
-      "title": "Israel weighs expelling UK officials from post-war Gaza headquarters: Report",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-weighs-expelling-uk-officials-post-war-gaza-headquarters-report",
-      "source": "Middle East Eye",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Israel weighs expelling UK officials from post-war Gaza headquarters: Report Israel is considering expelling British - and possibly other European officials - from the coordination centre for post-war Gaza, according to the Financial Times citing sources familiar with the matter. The Israeli government in recent weeks has discussed removing the UK from the International Gaza Support Center, the multinational headquarters established to monitor the US-brokered truce deal between Tel Aviv and Hamas.",
-      "published_at": "2026-08-27T06:33:17+00:00",
-      "updated_at": "2026-08-27T06:33:17+00:00",
-      "effective_at": "2026-08-27T06:33:17+00:00",
-      "language_status": "ENGLISH",
-      "category": "conflict",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "conflict",
-      "subregion": "West Asia / Middle East",
-      "country": null,
-      "entities": [
-        "aviv",
-        "center",
-        "european",
-        "financial",
-        "gaza",
-        "hamas",
-        "international",
-        "israel",
-        "support",
-        "tel",
-        "times",
-        "uk",
-        "us-brokered"
+        "ai",
+        "artifactory",
+        "chatgpt",
+        "face",
+        "gpt-5",
+        "hugging",
+        "openai",
+        "redwood",
+        "research",
+        "sol"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 88,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "ChatGPT creator says AI agents collaborated and delegated work in hacking, calling themselves a ‘collective’.",
+        "OpenAI detected its artificial intelligence models communicating with each other and gaining internet access without authorisation months before they hacked the start-up Hugging Face, the creator of ChatGPT has announced following an internal probe.",
+        "In a report released on Wednesday, OpenAI said its AI agents exploited vulnerabilities in Artifactory, a software repository tool, to post notes and access the internet without human prompting as far back as May.",
+        "OpenAI said its agents went on to exploit a separate Artifactory vulnerability on July 8 to facilitate communication among themselves, setting in motion a chain of actions that culminated in the July 11 attack on AI company Hugging Face.",
+        "OpenAI’s findings come amid growing concern about the potential for AI to inflict serious real-world harm, including self-directed cyberattacks.",
+        "OpenAI said in its report that its agents collaborated and delegated work in the lead-up to the attack, sometimes referring to themselves as a “swarm” or “collective”.",
+        "METR and Redwood Research, two security research organisations contracted by OpenAI to investigate the incident, said in a separate report released on Wednesday that about 1200 agents had communicated with each other and roughly 700 participated in the attack.",
+        "After discovering how to escape OpenAI’s controlled environment, agents shared their methods via a “inter-agent message board”, enabling additional agents to exploit the company’s infrastructure, the tech giant said.",
+        "When one AI agent found Hugging Face user credentials that had been exposed online, it shared them with the group, enabling an agent to “discover and chain together several security exploits” that provided access to Hugging Face’s severs, according to the report.",
+        "“An internal team observed an agent engaging in message board activity and instances of disallowed internet access as early as late May, and with the benefit of hindsight, some early signals identified in our report should have triggered an earlier response,” OpenAI said.",
+        "OpenAI said agents created by an unreleased AI model were the primary participants in the attack, but publicly available GPT-5.6 Sol was also involved.",
+        "The company also revealed that it took its security team 11 days to detect the malign activities leading up to the attack, which the company uncovered on July 19 and publicly disclosed on July 21."
+      ],
       "event_status": "UPDATE",
-      "event_id": "ab50574e80dbdca836a23a01",
-      "importance_score": 44.0,
-      "importance_level": "LOW",
+      "event_id": "e55a6e66fab1989d6b98a97f",
+      "importance_score": 58.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 18,
         "urgency": 7.0,
         "novelty": 8.0,
-        "scope": "MULTI_COUNTRY",
-        "scope_points": 7,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
         "significance": 16,
@@ -216,62 +79,84 @@
           "displaced": 0,
           "missing": 0,
           "affected": 0,
-          "major_incident": false,
+          "major_incident": true,
           "crisis": false
         },
         "significance_dims": {
-          "security": 8,
-          "geopolitical": 8
+          "scientific": 8,
+          "security": 4,
+          "infrastructure": 4
         }
       },
-      "story_id": "861870a30ca8faf15c4d91e9a58fa9b0718f2d37f45af857f7b66abaf68e1aa0",
+      "story_id": "0a6899b658b84eeab5cb7b4a1492352dfe596de8cb41c0be16bccd16da627253",
       "public_label": "🔄 UPDATE",
-      "headline": "Israel weighs expelling UK officials from post-war Gaza headquarters: Report",
+      "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
       "briefing": {
         "opening": [
-          "Israel weighs expelling UK officials from post-war Gaza headquarters: Report Israel is considering expelling British - and possibly other European officials - from the coordination centre for post-war Gaza, according to the Financial Times citing sources familiar with the matter.",
-          "The Israeli government in recent weeks has discussed removing the UK from the International Gaza Support Center, the multinational headquarters established to monitor the US-brokered truce deal between Tel Aviv and Hamas."
+          "ChatGPT creator says AI agents collaborated and delegated work in hacking, calling themselves a ‘collective’.",
+          "OpenAI detected its artificial intelligence models communicating with each other and gaining internet access without authorisation months before they hacked the start-up Hugging Face, the creator of ChatGPT has announced following an internal probe."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "In a report released on Wednesday, OpenAI said its AI agents exploited vulnerabilities in Artifactory, a software repository tool, to post notes and access the internet without human prompting as far back as May.",
+          "OpenAI said its agents went on to exploit a separate Artifactory vulnerability on July 8 to facilitate communication among themselves, setting in motion a chain of actions that culminated in the July 11 attack on AI company Hugging Face.",
+          "OpenAI’s findings come amid growing concern about the potential for AI to inflict serious real-world harm, including self-directed cyberattacks.",
+          "OpenAI said in its report that its agents collaborated and delegated work in the lead-up to the attack, sometimes referring to themselves as a “swarm” or “collective”.",
+          "METR and Redwood Research, two security research organisations contracted by OpenAI to investigate the incident, said in a separate report released on Wednesday that about 1200 agents had communicated with each other and roughly 700 participated in the attack.",
+          "After discovering how to escape OpenAI’s controlled environment, agents shared their methods via a “inter-agent message board”, enabling additional agents to exploit the company’s infrastructure, the tech giant said.",
+          "When one AI agent found Hugging Face user credentials that had been exposed online, it shared them with the group, enabling an agent to “discover and chain together several security exploits” that provided access to Hugging Face’s severs, according to the report.",
+          "“An internal team observed an agent engaging in message board activity and instances of disallowed internet access as early as late May, and with the benefit of hindsight, some early signals identified in our report should have triggered an earlier response,” OpenAI said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Artifactory"
+          }
+        ],
         "sentences": [
           {
-            "text": "Israel weighs expelling UK officials from post-war Gaza headquarters: Report Israel is considering expelling British - and possibly other European officials - from the coordination centre for post-war Gaza, according to the Financial Times citing sources familiar with the matter.",
-            "source": "Middle East Eye",
-            "item_id": "861870a30ca8faf15c4d91e9a58fa9b0718f2d37f45af857f7b66abaf68e1aa0",
+            "text": "OpenAI said its agents went on to exploit a separate Artifactory vulnerability on July 8 to facilitate communication among themselves, setting in motion a chain of actions that culminated in the July 11 attack on AI company Hugging Face.",
+            "source": "Al Jazeera",
+            "item_id": "0a6899b658b84eeab5cb7b4a1492352dfe596de8cb41c0be16bccd16da627253:article",
             "composed": false
           },
           {
-            "text": "The Israeli government in recent weeks has discussed removing the UK from the International Gaza Support Center, the multinational headquarters established to monitor the US-brokered truce deal between Tel Aviv and Hamas.",
-            "source": "Middle East Eye",
-            "item_id": "861870a30ca8faf15c4d91e9a58fa9b0718f2d37f45af857f7b66abaf68e1aa0",
+            "text": "METR and Redwood Research, two security research organisations contracted by OpenAI to investigate the incident, said in a separate report released on Wednesday that about 1200 agents had communicated with each other and roughly 700 participated in the attack.",
+            "source": "Al Jazeera",
+            "item_id": "0a6899b658b84eeab5cb7b4a1492352dfe596de8cb41c0be16bccd16da627253:article",
+            "composed": false
+          },
+          {
+            "text": "In a report released on Wednesday, OpenAI said its AI agents exploited vulnerabilities in Artifactory, a software repository tool, to post notes and access the internet without human prompting as far back as May.",
+            "source": "Al Jazeera",
+            "item_id": "0a6899b658b84eeab5cb7b4a1492352dfe596de8cb41c0be16bccd16da627253:article",
             "composed": false
           }
         ],
-        "source": "Middle East Eye",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-weighs-expelling-uk-officials-post-war-gaza-headquarters-report"
+        "url": "https://www.aljazeera.com/economy/2026/8/27/openai-says-it-detected-malign-activity-months-before-hugging-face-attack?traffic_source=rss"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
     },
     {
-      "id": "7ccc524f46a6b08473adae696c332d6db4c9d07514b10e7ac3faa38dfc0990de",
-      "title": "Malaysian airport staff find body in wheel well of plane from Japan",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365427/malaysian-airport-staff-find-body-wheel-well-plane-japan?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153",
+      "title": "Body found in aircraft wheel well at Malaysia’s KLIA2",
+      "url": "https://www.straitstimes.com/asia/se-asia/body-found-in-aircraft-wheel-well-at-malaysias-klia2",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "The body of an unidentified person was found inside the wheel well of an aircraft at Malaysia’s Kuala Lumpur International Airport Terminal 2 (KLIA2) on Thursday (Aug 27). The body, whose gender has yet to be determined, was discovered at about 6.55am in the wheel well of a flight from Tokyo, Japan, which landed at about 6.30am. It is learnt that the body, clad in jeans and a white shirt, was found by engineering personnel who were tasked with opening the aircraft’s wheel well. The personnel...",
-      "published_at": "2026-08-27T06:39:20+00:00",
-      "updated_at": "2026-08-27T06:39:20+00:00",
-      "effective_at": "2026-08-27T06:39:20+00:00",
+      "summary": "The body of an unidentified person was found in the wheel well of a flight from Tokyo at Kuala Lumpur International Airport Terminal 2. Engineering personnel discovered the body after detecting a foul smell and reported it to the police for further investigation. The victim is believed to be in their 20s, dead for over 72 hours, with no ID found; investigations into identity and cause of death continue. The body of an unidentified person was found inside the wheel well of an aircraft at Kuala Lumpur International Airport Terminal 2 (KLIA2) on Aug 27. The body, whose gender has yet to be determined, was discovered at about 6.55am in the wheel well of a flight from Tokyo, Japan, which landed at about 6.30am. It is learnt that the body, clad in jeans and a white shirt, was found by engineering personnel who were tasked with opening the aircraft’s wheel well. The personnel detected a suspicious foul smell coming from the wheel well before opening the compartment. The body was subsequently discovered and the matter was reported to the KLIA2 police station operations room. Police forensic personnel were later deployed to the scene to conduct further investigations. Initial investigations found that the victim was believed to be in his or her 20s and may have been dead for more than 72 hours. However, no identification documents were found on the body.",
+      "published_at": "2026-08-27T06:40:00+00:00",
+      "updated_at": "2026-08-27T06:40:00+00:00",
+      "effective_at": "2026-08-27T06:40:00+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 65,
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "transport",
@@ -281,6 +166,7 @@
       "entities": [
         "airport",
         "aug",
+        "id",
         "international",
         "japan",
         "klia2",
@@ -293,19 +179,159 @@
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "The body of an unidentified person was found in the wheel well of a flight from Tokyo at Kuala Lumpur International Airport Terminal 2.",
+        "Engineering personnel discovered the body after detecting a foul smell and reported it to the police for further investigation.",
+        "The victim is believed to be in their 20s, dead for over 72 hours, with no ID found; investigations into identity and cause of death continue.",
+        "The body of an unidentified person was found inside the wheel well of an aircraft at Kuala Lumpur International Airport Terminal 2 (KLIA2) on Aug 27.",
+        "The body, whose gender has yet to be determined, was discovered at about 6.55am in the wheel well of a flight from Tokyo, Japan, which landed at about 6.30am.",
+        "It is learnt that the body, clad in jeans and a white shirt, was found by engineering personnel who were tasked with opening the aircraft’s wheel well.",
+        "The personnel detected a suspicious foul smell coming from the wheel well before opening the compartment.",
+        "The body was subsequently discovered and the matter was reported to the KLIA2 police station operations room.",
+        "Police forensic personnel were later deployed to the scene to conduct further investigations.",
+        "Initial investigations found that the victim was believed to be in his or her 20s and may have been dead for more than 72 hours.",
+        "However, no identification documents were found on the body."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "184fc3e05470e04359c89db8",
+      "importance_score": 58.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 72,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8,
+          "scientific": 4,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153",
+      "public_label": "🔄 UPDATE",
+      "headline": "Body found in aircraft wheel well at Malaysia’s KLIA2",
+      "briefing": {
+        "opening": [
+          "The body of an unidentified person was found in the wheel well of a flight from Tokyo at Kuala Lumpur International Airport Terminal 2.",
+          "Engineering personnel discovered the body after detecting a foul smell and reported it to the police for further investigation."
+        ],
+        "body": [
+          "The victim is believed to be in their 20s, dead for over 72 hours, with no ID found; investigations into identity and cause of death continue.",
+          "The body of an unidentified person was found inside the wheel well of an aircraft at Kuala Lumpur International Airport Terminal 2 (KLIA2) on Aug 27.",
+          "The body, whose gender has yet to be determined, was discovered at about 6.55am in the wheel well of a flight from Tokyo, Japan, which landed at about 6.30am.",
+          "It is learnt that the body, clad in jeans and a white shirt, was found by engineering personnel who were tasked with opening the aircraft’s wheel well.",
+          "The personnel detected a suspicious foul smell coming from the wheel well before opening the compartment.",
+          "The body was subsequently discovered and the matter was reported to the KLIA2 police station operations room.",
+          "Police forensic personnel were later deployed to the scene to conduct further investigations.",
+          "Initial investigations found that the victim was believed to be in his or her 20s and may have been dead for more than 72 hours."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kuala Lumpur International"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The body of an unidentified person was found inside the wheel well of an aircraft at Kuala Lumpur International Airport Terminal 2 (KLIA2) on Aug 27.",
+            "source": "Straits Times Asia",
+            "item_id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153:article",
+            "composed": false
+          },
+          {
+            "text": "The body, whose gender has yet to be determined, was discovered at about 6.55am in the wheel well of a flight from Tokyo, Japan, which landed at about 6.30am.",
+            "source": "Straits Times Asia",
+            "item_id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153:article",
+            "composed": false
+          },
+          {
+            "text": "The body of an unidentified person was found in the wheel well of a flight from Tokyo at Kuala Lumpur International Airport Terminal 2.",
+            "source": "Straits Times Asia",
+            "item_id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153:article",
+            "composed": false
+          },
+          {
+            "text": "The victim is believed to be in their 20s, dead for over 72 hours, with no ID found; investigations into identity and cause of death continue.",
+            "source": "Straits Times Asia",
+            "item_id": "6fc7427add40cea06c6c8ef65413ea8f18549b04b8cc36f01935ae15ca0ef153:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/se-asia/body-found-in-aircraft-wheel-well-at-malaysias-klia2"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "747edf3a8b28dcb9fb5d8827380f996dc854683a1eb82742607be427b1c8b93c",
+      "title": "Scottie Scheffler credits Tiger Woods with increasing size of purses on PGA Tour",
+      "url": "https://www.japantimes.co.jp/sports/2026/08/27/more-sports/scottie-scheffler-tiger-woods-earning-record/",
+      "source": "Japan Times",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "The winner of this week's Tour Championship takes home $10 million, and a spot in the top eight would push Scheffler to No. 1 on the Tour's all-time earnings list.",
+      "published_at": "2026-08-27T06:22:00+00:00",
+      "updated_at": "2026-08-27T06:22:00+00:00",
+      "effective_at": "2026-08-27T06:22:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "finance",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "championship",
+        "pga",
+        "scheffler",
+        "scottie",
+        "tiger",
+        "tour",
+        "woods"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "184fc3e05470e04359c89db8",
-      "importance_score": 36.0,
+      "event_id": "a7bf89a7176152610b569888",
+      "importance_score": 34.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
         "significance": 8,
@@ -321,52 +347,354 @@
           "crisis": false
         },
         "significance_dims": {
-          "scientific": 4,
-          "infrastructure": 4
+          "cultural": 8
         }
       },
-      "story_id": "7ccc524f46a6b08473adae696c332d6db4c9d07514b10e7ac3faa38dfc0990de",
+      "story_id": "747edf3a8b28dcb9fb5d8827380f996dc854683a1eb82742607be427b1c8b93c",
       "public_label": "📰 NEWS",
-      "headline": "Malaysian airport staff find body in wheel well of plane from Japan",
+      "headline": "Scottie Scheffler credits Tiger Woods with increasing size of purses on PGA Tour",
       "briefing": {
         "opening": [
-          "The body of an unidentified person was found inside the wheel well of an aircraft at Malaysia’s Kuala Lumpur International Airport Terminal 2 (KLIA2) on Thursday (Aug 27).",
-          "The body, whose gender has yet to be determined, was discovered at about 6.55am in the wheel well of a flight from Tokyo, Japan, which landed at about 6.30am."
+          "The winner of this week's Tour Championship takes home $10 million, and a spot in the top eight would push Scheffler to No.",
+          "1 on the Tour's all-time earnings list."
         ],
-        "body": [
-          "It is learnt that the body, clad in jeans and a white shirt, was found by engineering personnel who were tasked with opening the aircraft’s wheel well.",
-          "The personnel..."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Malaysia’s Kuala Lumpur"
-          }
-        ],
+        "body": [],
+        "bullets": [],
         "sentences": [
           {
-            "text": "It is learnt that the body, clad in jeans and a white shirt, was found by engineering personnel who were tasked with opening the aircraft’s wheel well.",
-            "source": "South China Morning Post",
-            "item_id": "7ccc524f46a6b08473adae696c332d6db4c9d07514b10e7ac3faa38dfc0990de",
+            "text": "The winner of this week's Tour Championship takes home $10 million, and a spot in the top eight would push Scheffler to No.",
+            "source": "Japan Times",
+            "item_id": "747edf3a8b28dcb9fb5d8827380f996dc854683a1eb82742607be427b1c8b93c",
             "composed": false
           },
           {
-            "text": "The body of an unidentified person was found inside the wheel well of an aircraft at Malaysia’s Kuala Lumpur International Airport Terminal 2 (KLIA2) on Thursday (Aug 27).",
+            "text": "1 on the Tour's all-time earnings list.",
+            "source": "Japan Times",
+            "item_id": "747edf3a8b28dcb9fb5d8827380f996dc854683a1eb82742607be427b1c8b93c",
+            "composed": false
+          }
+        ],
+        "source": "Japan Times",
+        "corroborating": [],
+        "url": "https://www.japantimes.co.jp/sports/2026/08/27/more-sports/scottie-scheffler-tiger-woods-earning-record/"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "264bfa59c070c146ecf7c228d98c1a1716a896b5f33f67a8444b5a3d835c83e0",
+      "title": "‘Panic’ as US immigrant visa interview pause hits at least 100 Hong Kong applicants",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3365428/panic-us-immigrant-visa-interview-pause-hits-least-100-hong-kong-applicants?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "At least 100 Hong Kong-based applicants have been affected by the indefinite postponement of US immigrant visa interviews worldwide, immigration consultants say, with student and travel visa applications also disrupted. The global pause, which marks a sharp tightening of legal immigration under the Trump administration, has left some Hong Kong applicants fearing the US could scrap the entire immigration pathway, rendering their efforts and expenses futile. In an email seen by the South China...",
+      "published_at": "2026-08-27T06:42:40+00:00",
+      "updated_at": "2026-08-27T06:42:40+00:00",
+      "effective_at": "2026-08-27T06:42:40+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "human_rights",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "china",
+        "hong_kong",
+        "kong-based",
+        "south",
+        "trump",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "3d83da2f304e63fe54b2b636",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 100,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "264bfa59c070c146ecf7c228d98c1a1716a896b5f33f67a8444b5a3d835c83e0",
+      "public_label": "📰 NEWS",
+      "headline": "‘Panic’ as US immigrant visa interview pause hits at least 100 Hong Kong applicants",
+      "briefing": {
+        "opening": [
+          "At least 100 Hong Kong-based applicants have been affected by the indefinite postponement of US immigrant visa interviews worldwide, immigration consultants say, with student and travel visa applications also disrupted.",
+          "The global pause, which marks a sharp tightening of legal immigration under the Trump administration, has left some Hong Kong applicants fearing the US could scrap the entire immigration pathway, rendering their efforts and expenses futile."
+        ],
+        "body": [
+          "In an email seen by the South China..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The global pause, which marks a sharp tightening of legal immigration under the Trump administration, has left some Hong Kong applicants fearing the US could scrap the entire immigration pathway, rendering their efforts and expenses futile.",
             "source": "South China Morning Post",
-            "item_id": "7ccc524f46a6b08473adae696c332d6db4c9d07514b10e7ac3faa38dfc0990de",
+            "item_id": "264bfa59c070c146ecf7c228d98c1a1716a896b5f33f67a8444b5a3d835c83e0",
             "composed": false
           },
           {
-            "text": "The body, whose gender has yet to be determined, was discovered at about 6.55am in the wheel well of a flight from Tokyo, Japan, which landed at about 6.30am.",
+            "text": "At least 100 Hong Kong-based applicants have been affected by the indefinite postponement of US immigrant visa interviews worldwide, immigration consultants say, with student and travel visa applications also disrupted.",
             "source": "South China Morning Post",
-            "item_id": "7ccc524f46a6b08473adae696c332d6db4c9d07514b10e7ac3faa38dfc0990de",
+            "item_id": "264bfa59c070c146ecf7c228d98c1a1716a896b5f33f67a8444b5a3d835c83e0",
             "composed": false
           }
         ],
         "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365427/malaysian-airport-staff-find-body-wheel-well-plane-japan?utm_source=rss_feed"
+        "url": "https://www.scmp.com/news/hong-kong/society/article/3365428/panic-us-immigrant-visa-interview-pause-hits-least-100-hong-kong-applicants?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "aefe13ae5f129f817d8c85f39538a993c49ef11456c7723433bc0b6c661b8b66",
+      "title": "Hong Kong gold imports fall 18% in July as mainland giants rush to build vaults",
+      "url": "https://www.scmp.com/business/commodities/article/3365422/hong-kong-gold-imports-fall-18-july-mainland-giants-rush-build-vaults?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Gold flows into Hong Kong eased to about 107 tonnes in July despite mainland corporate buyers pouring capital into new bullion vaults, as they bet on the city’s strategic ambition to establish itself as Asia’s premier hub for the precious metal. The city’s non-monetary gold imports fell about 18 per cent from June, a month that registered a decade-long high as banks built up inventory ahead of the trial launch of the city’s gold clearing and settlement system that opened on July 7. The value of...",
+      "published_at": "2026-08-27T06:43:42+00:00",
+      "updated_at": "2026-08-27T06:43:42+00:00",
+      "effective_at": "2026-08-27T06:43:42+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "commodities",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "asia",
+        "gold",
+        "hong_kong"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "ae761c19b317e4fc426d0e8b",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "aefe13ae5f129f817d8c85f39538a993c49ef11456c7723433bc0b6c661b8b66",
+      "public_label": "📰 NEWS",
+      "headline": "Hong Kong gold imports fall 18% in July as mainland giants rush to build vaults",
+      "briefing": {
+        "opening": [
+          "Gold flows into Hong Kong eased to about 107 tonnes in July despite mainland corporate buyers pouring capital into new bullion vaults, as they bet on the city’s strategic ambition to establish itself as Asia’s premier hub for the precious metal.",
+          "The city’s non-monetary gold imports fell about 18 per cent from June, a month that registered a decade-long high as banks built up inventory ahead of the trial launch of the city’s gold clearing and settlement system that opened on July 7."
+        ],
+        "body": [
+          "The value of..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "July"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The city’s non-monetary gold imports fell about 18 per cent from June, a month that registered a decade-long high as banks built up inventory ahead of the trial launch of the city’s gold clearing and settlement system that opened on July 7.",
+            "source": "South China Morning Post",
+            "item_id": "aefe13ae5f129f817d8c85f39538a993c49ef11456c7723433bc0b6c661b8b66",
+            "composed": false
+          },
+          {
+            "text": "Gold flows into Hong Kong eased to about 107 tonnes in July despite mainland corporate buyers pouring capital into new bullion vaults, as they bet on the city’s strategic ambition to establish itself as Asia’s premier hub for the precious metal.",
+            "source": "South China Morning Post",
+            "item_id": "aefe13ae5f129f817d8c85f39538a993c49ef11456c7723433bc0b6c661b8b66",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/business/commodities/article/3365422/hong-kong-gold-imports-fall-18-july-mainland-giants-rush-build-vaults?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1",
+      "title": "Ex-special forces commander sentenced to 12-yr prison term for martial law role",
+      "url": "https://en.yna.co.kr/view/AEN20260827007900315",
+      "source": "Yonhap English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "SEOUL, Aug. 27 (Yonhap) -- A former Army special forces commander was sentenced ...",
+      "published_at": "2026-08-27T06:39:59+00:00",
+      "updated_at": "2026-08-27T06:39:59+00:00",
+      "effective_at": "2026-08-27T06:39:59+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "army",
+        "aug",
+        "seoul",
+        "yonhap"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "e27cac1bcdbe126b89ad0b58",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1",
+      "article_sentences": [
+        "A former Army special forces commander was sentenced to 12 years in prison Thursday for helping seal off the National Assembly compound during former President Yoon Suk Yeol's brief imposition of martial law.",
+        "The Seoul Central District Court handed down the sentence to Kim Hyun-tae, former commander of the 707th Special Missions Group, after convicting him of playing a key role in an insurrection.",
+        "Kim is accused of leading troops to break open the National Assembly's windows and shut off power to the building after Yoon declared martial law in December 2024.",
+        "\"(The defendants) abandoned their sacred duty to national security and defending the land and used military power that should be used for the nation and the people for the interests of themselves and select forces,\" the court said."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Ex-special forces commander sentenced to 12-yr prison term for martial law role",
+      "briefing": {
+        "opening": [
+          "A former Army special forces commander was sentenced to 12 years in prison Thursday for helping seal off the National Assembly compound during former President Yoon Suk Yeol's brief imposition of martial law.",
+          "The Seoul Central District Court handed down the sentence to Kim Hyun-tae, former commander of the 707th Special Missions Group, after convicting him of playing a key role in an insurrection."
+        ],
+        "body": [
+          "Kim is accused of leading troops to break open the National Assembly's windows and shut off power to the building after Yoon declared martial law in December 2024.",
+          "\"(The defendants) abandoned their sacred duty to national security and defending the land and used military power that should be used for the nation and the people for the interests of themselves and select forces,\" the court said.",
+          "A former Army special forces commander was sentenced..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "December"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "\"(The defendants) abandoned their sacred duty to national security and defending the land and used military power that should be used for the nation and the people for the interests of themselves and select forces,\" the court said.",
+            "source": "Yonhap English",
+            "item_id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1:article",
+            "composed": false
+          },
+          {
+            "text": "Kim is accused of leading troops to break open the National Assembly's windows and shut off power to the building after Yoon declared martial law in December 2024.",
+            "source": "Yonhap English",
+            "item_id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1:article",
+            "composed": false
+          },
+          {
+            "text": "A former Army special forces commander was sentenced to 12 years in prison Thursday for helping seal off the National Assembly compound during former President Yoon Suk Yeol's brief imposition of martial law.",
+            "source": "Yonhap English",
+            "item_id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1:article",
+            "composed": false
+          },
+          {
+            "text": "The Seoul Central District Court handed down the sentence to Kim Hyun-tae, former commander of the 707th Special Missions Group, after convicting him of playing a key role in an insurrection.",
+            "source": "Yonhap English",
+            "item_id": "4f1130b7d9dee416828b9aa1cb1e2fdf032667cfc728653b63da6621daa8a0d1:article",
+            "composed": false
+          }
+        ],
+        "source": "Yonhap English",
+        "corroborating": [],
+        "url": "https://en.yna.co.kr/view/AEN20260827007900315"
       },
       "group_size": 1,
       "label": "📰 NEWS"
