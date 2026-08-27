@@ -1,64 +1,60 @@
 {
-  "generated_at": "2026-08-27T04:10:46.578603+00:00",
-  "count": 1,
+  "generated_at": "2026-08-27T04:20:51.515796+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "4b13d40ab5a056242c428c22805459f7e2dbe3c0f11bf368b3558e352a12abf9",
-      "title": "South Korean police look to charge 7 for lying about concrete structure in Jeju Air crash",
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3365399/south-korean-police-look-charge-7-lying-about-concrete-structure-jeju-air-crash?utm_source=rss_feed",
+      "id": "e8e48a76a48c093421ad4482219c8cbb65cc97c621f29d3663d3b6e3ac7674d2",
+      "title": "Anwar Ibrahim weighs delaying Malaysia general election to late 2027 amid poll setbacks",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365400/anwar-ibrahim-weighs-delaying-malaysia-general-election-late-2027-amid-poll-setbacks?utm_source=rss_feed",
       "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "South Korea’s police said on Thursday they were seeking indictments of seven transport ministry officials over the 2024 Jeju Air crash that killed all but two of the 181 people on board. The Boeing 737-800 operated by Jeju Air skidded off the runway at Muan International Airport in southern South Korea after its landing gear failed to deploy, slamming into a concrete structure and bursting into flames. Authorities have found traces of bird strike in the plane’s engines and the plane’s two black...",
-      "published_at": "2026-08-27T04:06:52+00:00",
-      "updated_at": "2026-08-27T04:06:52+00:00",
-      "effective_at": "2026-08-27T04:06:52+00:00",
+      "summary": "Malaysian Prime Minister Anwar Ibrahim is looking to push back national elections until the second half of next year, people familiar with the matter said, as state poll defeats and soured partnerships reveal his political vulnerability. That time frame would mark a significant delay. Just months ago, the 79-year-old leader was said to be mulling a snap election as soon as this October, perceiving his greatest risk at the time to be rising fuel prices. But two humbling state election losses...",
+      "published_at": "2026-08-27T04:12:12+00:00",
+      "updated_at": "2026-08-27T04:12:12+00:00",
+      "effective_at": "2026-08-27T04:12:12+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "politics",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "aviation",
-      "subregion": "East Asia",
+      "sector": "geopolitics",
+      "subsector": "elections",
+      "subregion": "Southeast Asia",
       "country": null,
       "entities": [
-        "air",
-        "airport",
-        "boeing",
-        "international",
-        "jeju",
-        "korean",
-        "muan",
-        "south_korea"
+        "anwar",
+        "ibrahim",
+        "malaysia",
+        "malaysian"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "a08cdd75a6017baedb648478",
-      "importance_score": 78.0,
-      "importance_level": "HIGH",
+      "event_status": "NEW",
+      "event_id": "eebbf249f1f23dfb83d2ddbc",
+      "importance_score": 40.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 32,
+        "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
+        "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 20,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 2024,
+          "dead": 0,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -67,54 +63,153 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 12,
-          "scientific": 4,
-          "infrastructure": 4
+          "scientific": 8,
+          "geopolitical": 4
         }
       },
-      "story_id": "4b13d40ab5a056242c428c22805459f7e2dbe3c0f11bf368b3558e352a12abf9",
-      "public_label": "🔄 UPDATE",
-      "headline": "South Korean police look to charge 7 for lying about concrete structure in Jeju Air crash",
+      "story_id": "e8e48a76a48c093421ad4482219c8cbb65cc97c621f29d3663d3b6e3ac7674d2",
+      "public_label": "📰 NEWS",
+      "headline": "Anwar Ibrahim weighs delaying Malaysia general election to late 2027 amid poll setbacks",
       "briefing": {
         "opening": [
-          "South Korea’s police said on Thursday they were seeking indictments of seven transport ministry officials over the 2024 Jeju Air crash that killed all but two of the 181 people on board.",
-          "The Boeing 737-800 operated by Jeju Air skidded off the runway at Muan International Airport in southern South Korea after its landing gear failed to deploy, slamming into a concrete structure and bursting into flames."
+          "Malaysian Prime Minister Anwar Ibrahim is looking to push back national elections until the second half of next year, people familiar with the matter said, as state poll defeats and soured partnerships reveal his political vulnerability.",
+          "That time frame would mark a significant delay."
         ],
         "body": [
-          "Authorities have found traces of bird strike in the plane’s engines and the plane’s two black..."
+          "Just months ago, the 79-year-old leader was said to be mulling a snap election as soon as this October, perceiving his greatest risk at the time to be rising fuel prices.",
+          "But two humbling state election losses..."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Muan International Airport"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "181 people"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "South Korea’s police said on Thursday they were seeking indictments of seven transport ministry officials over the 2024 Jeju Air crash that killed all but two of the 181 people on board.",
+            "text": "That time frame would mark a significant delay.",
             "source": "South China Morning Post",
-            "item_id": "4b13d40ab5a056242c428c22805459f7e2dbe3c0f11bf368b3558e352a12abf9",
+            "item_id": "e8e48a76a48c093421ad4482219c8cbb65cc97c621f29d3663d3b6e3ac7674d2",
             "composed": false
           },
           {
-            "text": "The Boeing 737-800 operated by Jeju Air skidded off the runway at Muan International Airport in southern South Korea after its landing gear failed to deploy, slamming into a concrete structure and bursting into flames.",
+            "text": "Just months ago, the 79-year-old leader was said to be mulling a snap election as soon as this October, perceiving his greatest risk at the time to be rising fuel prices.",
             "source": "South China Morning Post",
-            "item_id": "4b13d40ab5a056242c428c22805459f7e2dbe3c0f11bf368b3558e352a12abf9",
+            "item_id": "e8e48a76a48c093421ad4482219c8cbb65cc97c621f29d3663d3b6e3ac7674d2",
+            "composed": false
+          },
+          {
+            "text": "Malaysian Prime Minister Anwar Ibrahim is looking to push back national elections until the second half of next year, people familiar with the matter said, as state poll defeats and soured partnerships reveal his political vulnerability.",
+            "source": "South China Morning Post",
+            "item_id": "e8e48a76a48c093421ad4482219c8cbb65cc97c621f29d3663d3b6e3ac7674d2",
             "composed": false
           }
         ],
         "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/asia/east-asia/article/3365399/south-korean-police-look-charge-7-lying-about-concrete-structure-jeju-air-crash?utm_source=rss_feed"
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365400/anwar-ibrahim-weighs-delaying-malaysia-general-election-late-2027-amid-poll-setbacks?utm_source=rss_feed"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "69797e08996aab171ff39bc1d2d468067e97faeeacc2f5bcb87e893e4bf1a2df",
+      "title": "France to relax cheese production rules after drought takes toll on grazing land",
+      "url": "https://www.theguardian.com/world/2026/aug/27/france-cheese-production-rules-drought-comte-beaufort-abondance",
+      "source": "The Guardian World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Comté, beaufort and abondance makers can temporarily supplement cows’ diets as there is ‘no grass left to eat’ Strict production rules will be loosened for some of France’s most famous cheeses after drought and repeated heatwaves dried out grazing pastures, threatening the livelihoods of traditional dairy workers. Comté , a hard cheese made from raw cows’ milk in the Jura mountains, is France’s top-selling traditional cheese, with more than 62,000 tonnes produced last year. The government announced on Wednesday that its producers would be granted a temporary change to strict rules on grazing after farmers said extreme heat had scorched their pastures, putting production at risk. Continue rea",
+      "published_at": "2026-08-27T04:00:03+00:00",
+      "updated_at": "2026-08-27T04:00:03+00:00",
+      "effective_at": "2026-08-27T04:00:03+00:00",
+      "language_status": "ENGLISH",
+      "category": "industry",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "industry",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "comt",
+        "france",
+        "jura",
+        "strict"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "ba079a85a02ee55b14485cdb",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "69797e08996aab171ff39bc1d2d468067e97faeeacc2f5bcb87e893e4bf1a2df",
+      "public_label": "📰 NEWS",
+      "headline": "France to relax cheese production rules after drought takes toll on grazing land",
+      "briefing": {
+        "opening": [
+          "Comté, beaufort and abondance makers can temporarily supplement cows’ diets as there is ‘no grass left to eat’ Strict production rules will be loosened for some of France’s most famous cheeses after drought and repeated heatwaves dried out grazing pastures, threatening the livelihoods of traditional dairy workers.",
+          "Comté, a hard cheese made from raw cows’ milk in the Jura mountains, is France’s top-selling traditional cheese, with more than 62,000 tonnes produced last year."
+        ],
+        "body": [
+          "The government announced on Wednesday that its producers would be granted a temporary change to strict rules on grazing after farmers said extreme heat had scorched their pastures, putting production at risk.",
+          "Continue rea."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Strict production rules will be loosened for some of France’s most famous cheeses after drought and repeated heatwaves dried out grazing pastures, threatening the livelihoods of traditional dairy workers.",
+            "source": "The Guardian World",
+            "item_id": "69797e08996aab171ff39bc1d2d468067e97faeeacc2f5bcb87e893e4bf1a2df",
+            "composed": false
+          },
+          {
+            "text": "Comté, a hard cheese made from raw cows’ milk in the Jura mountains, is France’s top-selling traditional cheese, with more than 62,000 tonnes produced last year.",
+            "source": "The Guardian World",
+            "item_id": "69797e08996aab171ff39bc1d2d468067e97faeeacc2f5bcb87e893e4bf1a2df",
+            "composed": false
+          },
+          {
+            "text": "The government announced on Wednesday that its producers would be granted a temporary change to strict rules on grazing after farmers said extreme heat had scorched their pastures, putting production at risk.",
+            "source": "The Guardian World",
+            "item_id": "69797e08996aab171ff39bc1d2d468067e97faeeacc2f5bcb87e893e4bf1a2df",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian World",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/world/2026/aug/27/france-cheese-production-rules-drought-comte-beaufort-abondance"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
     }
   ]
 }
