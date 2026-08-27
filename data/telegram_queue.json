@@ -1,44 +1,210 @@
 {
-  "generated_at": "2026-08-27T14:31:05.640162+00:00",
-  "count": 2,
+  "generated_at": "2026-08-27T14:40:44.586500+00:00",
+  "count": 5,
   "stories": [
     {
-      "id": "4aa3415179d5d99f66933a9fee3f72c8f60f41df96062458bc974776ab017e73",
-      "title": "Russia’s budget revenues rising, exceeding forecasts — PM",
-      "url": "https://tass.com/economy/2178473",
-      "source": "TASS English",
-      "source_category": "world",
+      "id": "d9a132550d38e03fd29384dd8c9070e3fff00336523c3a696b37e6598b049984",
+      "title": "Rescuers search for survivors follow catastrophic flash floods in Nepal",
+      "url": "http://www.africanews.com/2026/08/27/rescuers-search-for-survivors-follow-catastrophic-flash-floods-in-nepal/",
+      "source": "Africanews English",
+      "source_category": "africa",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "The head of Russian government highlighted the changing the structure of budget revenues, emphasizing that the share of non-oil and gas revenues has surpassed 80% of the total amount",
-      "published_at": "2026-08-27T14:24:52+00:00",
-      "updated_at": "2026-08-27T14:24:52+00:00",
-      "effective_at": "2026-08-27T14:24:52+00:00",
+      "summary": "Rescue teams continued searching for survivors on Thursday, a day after catastrophic floods and mud swept through several communities along the Nepal-China border. More than 1,000 people are still missing after a wall of ice, mud, and rock collapsed into a mountain river, triggering the flash flood. Over 350 people have been killed and at least 700 foreign tourists are among those unaccounted for. The Nepalese army has rescued more than 100 people from flood-affected areas through helicopter operations on Thursday morning. Dozens of injured people have been transported to Kathmandu for advanced medical care. Local resident, Jaleshwar Kumar Sahni, said he was warned about the flooding in a phone call from a relative on Wednesday morning. “I got a call.. saying that a lot of water is flowing through there, leave your shops and run, the shops will not survive,” he said. Experts says the disaster appears to be have triggered by the collapse of a glacier in the mountainous area close to the Nepal-Tibet border, adding that there is a risk of more floods. The US Geological Survey first reported a magnitude 4.4 earthquake early Wednesday, about 66 kilometres north of Kathmandu, near the border. It later updated its analysis to say the seismic event it measured was a magnitude 5.2 glacier collapse that sent debris flowing downstream with catastrophic impact on communities. It said its determination was based on data from nearby seismic stations, long period seismic waves, and satellite imagery, and that no earthquake had occurred.",
+      "published_at": "2026-08-27T14:21:52+00:00",
+      "updated_at": "2026-08-27T14:21:52+00:00",
+      "effective_at": "2026-08-27T14:21:52+00:00",
       "language_status": "ENGLISH",
-      "category": "industry",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "oil_gas",
-      "subregion": "Europe",
+      "sector": "climate",
+      "subsector": "floods",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "pm",
-        "russia"
+        "geological",
+        "jaleshwar",
+        "kathmandu",
+        "kumar",
+        "nepal",
+        "nepal-china",
+        "nepal-tibet",
+        "nepalese",
+        "rescue",
+        "sahni",
+        "survey",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 85,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "Rescue teams continued searching for survivors on Thursday, a day after catastrophic floods and mud swept through several communities along the Nepal-China border.",
+        "More than 1,000 people are still missing after a wall of ice, mud, and rock collapsed into a mountain river, triggering the flash flood.",
+        "Over 350 people have been killed and at least 700 foreign tourists are among those unaccounted for.",
+        "The Nepalese army has rescued more than 100 people from flood-affected areas through helicopter operations on Thursday morning.",
+        "Dozens of injured people have been transported to Kathmandu for advanced medical care.",
+        "Local resident, Jaleshwar Kumar Sahni, said he was warned about the flooding in a phone call from a relative on Wednesday morning.",
+        "“I got a call..",
+        "saying that a lot of water is flowing through there, leave your shops and run, the shops will not survive,” he said.",
+        "Experts says the disaster appears to be have triggered by the collapse of a glacier in the mountainous area close to the Nepal-Tibet border, adding that there is a risk of more floods.",
+        "The US Geological Survey first reported a magnitude 4.4 earthquake early Wednesday, about 66 kilometres north of Kathmandu, near the border.",
+        "It later updated its analysis to say the seismic event it measured was a magnitude 5.2 glacier collapse that sent debris flowing downstream with catastrophic impact on communities.",
+        "It said its determination was based on data from nearby seismic stations, long period seismic waves, and satellite imagery, and that no earthquake had occurred."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "a6c7f712c4357f825d973430",
+      "importance_score": 73.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 29,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 5.2,
+          "dead": 700,
+          "injured": 30,
+          "displaced": 0,
+          "missing": 1000,
+          "affected": 100,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "human": 12,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "d9a132550d38e03fd29384dd8c9070e3fff00336523c3a696b37e6598b049984",
+      "public_label": "🔄 UPDATE",
+      "headline": "Rescuers search for survivors follow catastrophic flash floods in Nepal",
+      "briefing": {
+        "opening": [
+          "Rescue teams continued searching for survivors on Thursday, a day after catastrophic floods and mud swept through several communities along the Nepal-China border.",
+          "More than 1,000 people are still missing after a wall of ice, mud, and rock collapsed into a mountain river, triggering the flash flood."
+        ],
+        "body": [
+          "Over 350 people have been killed and at least 700 foreign tourists are among those unaccounted for.",
+          "The Nepalese army has rescued more than 100 people from flood-affected areas through helicopter operations on Thursday morning.",
+          "Dozens of injured people have been transported to Kathmandu for advanced medical care.",
+          "Local resident, Jaleshwar Kumar Sahni, said he was warned about the flooding in a phone call from a relative on Wednesday morning.",
+          "“I got a call..",
+          "saying that a lot of water is flowing through there, leave your shops and run, the shops will not survive,” he said.",
+          "Experts says the disaster appears to be have triggered by the collapse of a glacier in the mountainous area close to the Nepal-Tibet border, adding that there is a risk of more floods.",
+          "The US Geological Survey first reported a magnitude 4.4 earthquake early Wednesday, about 66 kilometres north of Kathmandu, near the border."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "More than 1,000 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Nepalese army has rescued more than 100 people from flood-affected areas through helicopter operations on Thursday morning.",
+            "source": "Africanews English",
+            "item_id": "d9a132550d38e03fd29384dd8c9070e3fff00336523c3a696b37e6598b049984:article",
+            "composed": false
+          },
+          {
+            "text": "The US Geological Survey first reported a magnitude 4.4 earthquake early Wednesday, about 66 kilometres north of Kathmandu, near the border.",
+            "source": "Africanews English",
+            "item_id": "d9a132550d38e03fd29384dd8c9070e3fff00336523c3a696b37e6598b049984:article",
+            "composed": false
+          },
+          {
+            "text": "More than 1,000 people are still missing after a wall of ice, mud, and rock collapsed into a mountain river, triggering the flash flood.",
+            "source": "Africanews English",
+            "item_id": "d9a132550d38e03fd29384dd8c9070e3fff00336523c3a696b37e6598b049984:article",
+            "composed": false
+          }
+        ],
+        "source": "Africanews English",
+        "corroborating": [],
+        "url": "http://www.africanews.com/2026/08/27/rescuers-search-for-survivors-follow-catastrophic-flash-floods-in-nepal/"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "92fd2d9049561d4b84a466bc09747cbb58d11c12acfe7c282f042dca32a9aadc",
+      "title": "Gamescom 2026 opens in Cologne with record exhibitors and visitors",
+      "url": "http://www.africanews.com/2026/08/27/gamescom-2026-opens-in-cologne-with-record-exhibitors-and-visitors/",
+      "source": "Africanews English",
+      "source_category": "africa",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "The event is bigger than ever this year, with the entire 233,000-square-metre exhibition space sold out for the first time. More than 1,700 exhibitors from 67 countries and regions are taking part, surpassing last year’s record of 1,568. Major industry names including Xbox, Sega and Nintendo are showcasing new titles and playable demos. Visitors can try games such as Sonic Racing: CrossWorlds and Mario Kart World, while long queues have formed for The Witcher 3: Wild Hunt following the announcement of a new expansion and remaster package, Songs of the Past. The fair also reflects the increasingly international nature of the gaming industry. More than 70% of exhibitors are based outside Germany, while a record 47 national and regional pavilions are represented. Artificial intelligence is another major focus, with developers exploring how new AI tools could support both production and creative work. Gamescom opens to the general public on 27 August, with organisers expecting more than 350,000 visitors before the event closes on 30 August. Despite its growing scale, the fair remains centred on bringing gaming communities together in person.",
+      "published_at": "2026-08-27T13:45:55+00:00",
+      "updated_at": "2026-08-27T13:45:55+00:00",
+      "effective_at": "2026-08-27T13:45:55+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "trade",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "ai",
+        "cologne",
+        "crossworlds",
+        "germany",
+        "hunt",
+        "kart",
+        "mario",
+        "nintendo",
+        "past",
+        "racing",
+        "sega",
+        "songs",
+        "sonic",
+        "wild",
+        "witcher",
+        "xbox"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Euronews"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 68,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "The event is bigger than ever this year, with the entire 233,000-square-metre exhibition space sold out for the first time.",
+        "More than 1,700 exhibitors from 67 countries and regions are taking part, surpassing last year’s record of 1,568.",
+        "Major industry names including Xbox, Sega and Nintendo are showcasing new titles and playable demos.",
+        "Visitors can try games such as Sonic Racing: CrossWorlds and Mario Kart World, while long queues have formed for The Witcher 3: Wild Hunt following the announcement of a new expansion and remaster package, Songs of the Past.",
+        "The fair also reflects the increasingly international nature of the gaming industry.",
+        "More than 70% of exhibitors are based outside Germany, while a record 47 national and regional pavilions are represented.",
+        "Artificial intelligence is another major focus, with developers exploring how new AI tools could support both production and creative work.",
+        "Gamescom opens to the general public on 27 August, with organisers expecting more than 350,000 visitors before the event closes on 30 August.",
+        "Despite its growing scale, the fair remains centred on bringing gaming communities together in person."
+      ],
       "event_status": "NEW",
-      "event_id": "a9cf1eb82a0efb32666bbced",
-      "importance_score": 32.0,
+      "event_id": "d9a39ce912ba193f240ce283",
+      "importance_score": 46.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
@@ -46,6 +212,145 @@
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 6,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 8,
+          "security": 4
+        }
+      },
+      "story_id": "92fd2d9049561d4b84a466bc09747cbb58d11c12acfe7c282f042dca32a9aadc",
+      "public_label": "📰 NEWS",
+      "headline": "Gamescom 2026 opens in Cologne with record exhibitors and visitors",
+      "briefing": {
+        "opening": [
+          "The event is bigger than ever this year, with the entire 233,000-square-metre exhibition space sold out for the first time.",
+          "More than 1,700 exhibitors from 67 countries and regions are taking part, surpassing last year’s record of 1,568."
+        ],
+        "body": [
+          "Major industry names including Xbox, Sega and Nintendo are showcasing new titles and playable demos.",
+          "Visitors can try games such as Sonic Racing: CrossWorlds and Mario Kart World, while long queues have formed for The Witcher 3: Wild Hunt following the announcement of a new expansion and remaster package, Songs of the Past.",
+          "The fair also reflects the increasingly international nature of the gaming industry.",
+          "More than 70% of exhibitors are based outside Germany, while a record 47 national and regional pavilions are represented.",
+          "Artificial intelligence is another major focus, with developers exploring how new AI tools could support both production and creative work.",
+          "Gamescom opens to the general public on 27 August, with organisers expecting more than 350,000 visitors before the event closes on 30 August.",
+          "Despite its growing scale, the fair remains centred on bringing gaming communities together in person."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Gamescom opens to the general public on 27 August, with organisers expecting more than 350,000 visitors before the event closes on 30 August.",
+            "source": "Africanews English",
+            "item_id": "92fd2d9049561d4b84a466bc09747cbb58d11c12acfe7c282f042dca32a9aadc:article",
+            "composed": false
+          },
+          {
+            "text": "More than 70% of exhibitors are based outside Germany, while a record 47 national and regional pavilions are represented.",
+            "source": "Africanews English",
+            "item_id": "92fd2d9049561d4b84a466bc09747cbb58d11c12acfe7c282f042dca32a9aadc:article",
+            "composed": false
+          },
+          {
+            "text": "More than 1,700 exhibitors from 67 countries and regions are taking part, surpassing last year’s record of 1,568.",
+            "source": "Africanews English",
+            "item_id": "92fd2d9049561d4b84a466bc09747cbb58d11c12acfe7c282f042dca32a9aadc:article",
+            "composed": false
+          },
+          {
+            "text": "Visitors can try games such as Sonic Racing: CrossWorlds and Mario Kart World, while long queues have formed for The Witcher 3: Wild Hunt following the announcement of a new expansion and remaster package, Songs of the Past.",
+            "source": "Africanews English",
+            "item_id": "92fd2d9049561d4b84a466bc09747cbb58d11c12acfe7c282f042dca32a9aadc:article",
+            "composed": false
+          }
+        ],
+        "source": "Africanews English",
+        "corroborating": [],
+        "url": "http://www.africanews.com/2026/08/27/gamescom-2026-opens-in-cologne-with-record-exhibitors-and-visitors/"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "cb49f2e10fe8a027e7ad4b2adf1cca3d73231d6735f29666bb06456ddc52b743",
+      "title": "Panama Canal cuts ship traffic as El Niño threatens water supplies",
+      "url": "http://www.africanews.com/2026/08/27/panama-canal-cuts-ship-traffic-as-el-nino-threatens-water-supplies/",
+      "source": "Africanews English",
+      "source_category": "africa",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "The Panama Canal is expected to reduce daily ship transits in September as authorities prepare for an unusually early dry season and lower rainfall linked to El Niño,. The waterway, which handles about 5% of global maritime trade, normally sees between 36 and 38 ships pass each day. Canal administrator Ricaurte Vásquez said the dry season, normally expected to begin in December, could start at least a month earlier, and rainfall during the normally wet months of October and November was expected to be below average. From Sept. 3, the canal will offer 34 daily transit slots before reducing the number to 32 from Sept. 15, the most significant restrictions since a drought in 2023 and 2024 forced authorities to sharply limit traffic. Steve Paton of the Smithsonian Tropical Research Institute said rainfall in the canal watershed since April had reached only about two-thirds of the average and was trending downward. \"The lake level will continue to drop and drop when it should be rising,\" Paton said, warning that lower rainfall could limit both the frequency of ship traffic and the maximum draft allowed through the canal. Panama Canal authorities are trying to preserve enough freshwater to maintain operations through a dry season that could last about five months, until rains are expected to return in April or May 2027. \"The water we have - the water we hope to have and that we monitor day by day - is the water we are striving to preserve and use more effectively so that we can provide the best possible service to our customers,\" Vásquez said. Ships without confirmed reservations could face longer waits as the canal reorganizes auctions for available transit slots. An auction this month reached a record $5.3 million for a Sept. 1 passage, according to a Panamanian maritime industry official who was not authorized to provide the information, compared with $50,000 to $100,000 under normal conditions. Paton said the El Niño event was expected to bring unusually high Pacific temperatures and reduced rainfall, putting further pressure on the canal's water reserves.",
+      "published_at": "2026-08-27T14:32:20+00:00",
+      "updated_at": "2026-08-27T14:32:20+00:00",
+      "effective_at": "2026-08-27T14:32:20+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "agriculture",
+      "subsector": "water",
+      "subregion": "Central America",
+      "country": null,
+      "entities": [
+        "canal",
+        "el",
+        "institute",
+        "ni",
+        "pacific",
+        "panama",
+        "panamanian",
+        "paton",
+        "research",
+        "ricaurte",
+        "sept",
+        "smithsonian",
+        "steve",
+        "tropical"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "The Panama Canal is expected to reduce daily ship transits in September as authorities prepare for an unusually early dry season and lower rainfall linked to El Niño,.",
+        "The waterway, which handles about 5% of global maritime trade, normally sees between 36 and 38 ships pass each day.",
+        "Canal administrator Ricaurte Vásquez said the dry season, normally expected to begin in December, could start at least a month earlier, and rainfall during the normally wet months of October and November was expected to be below average.",
+        "From Sept. 3, the canal will offer 34 daily transit slots before reducing the number to 32 from Sept. 15, the most significant restrictions since a drought in 2023 and 2024 forced authorities to sharply limit traffic.",
+        "Steve Paton of the Smithsonian Tropical Research Institute said rainfall in the canal watershed since April had reached only about two-thirds of the average and was trending downward.",
+        "\"The lake level will continue to drop and drop when it should be rising,\" Paton said, warning that lower rainfall could limit both the frequency of ship traffic and the maximum draft allowed through the canal.",
+        "Panama Canal authorities are trying to preserve enough freshwater to maintain operations through a dry season that could last about five months, until rains are expected to return in April or May 2027.",
+        "\"The water we have - the water we hope to have and that we monitor day by day - is the water we are striving to preserve and use more effectively so that we can provide the best possible service to our customers,\" Vásquez said.",
+        "Ships without confirmed reservations could face longer waits as the canal reorganizes auctions for available transit slots.",
+        "An auction this month reached a record $5.3 million for a Sept. 1 passage, according to a Panamanian maritime industry official who was not authorized to provide the information, compared with $50,000 to $100,000 under normal conditions.",
+        "Paton said the El Niño event was expected to bring unusually high Pacific temperatures and reduced rainfall, putting further pressure on the canal's water reserves."
+      ],
+      "event_status": "NEW",
+      "event_id": "2acd16c109a38860cf3d5b1a",
+      "importance_score": 37.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 9.0,
+        "novelty": 10,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
         "significance": 4,
@@ -61,92 +366,96 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4
+          "scientific": 4
         }
       },
-      "story_id": "4aa3415179d5d99f66933a9fee3f72c8f60f41df96062458bc974776ab017e73",
-      "article_sentences": [
-        "MOSCOW, August 27.",
-        "Russian Prime Minister Mikhail Mishustin has announced growth rates of budget revenues outpacing projected figures.",
-        "\"Budget revenues are rising, having exceeded 18.64 trillion rubles ($216.5 bln - TASS), which is significantly higher than projected,\" he said at a government meeting.",
-        "Mishustin also highlighted the changing the structure of budget revenues, adding that the share of non-oil and gas revenues has already surpassed 80% of the total amount.",
-        "\"Our economy is undergoing significant diversification toward sectors producing goods with higher value added,\" he said."
-      ],
+      "story_id": "cb49f2e10fe8a027e7ad4b2adf1cca3d73231d6735f29666bb06456ddc52b743",
       "public_label": "📰 NEWS",
-      "headline": "Russia’s budget revenues rising, exceeding forecasts — PM",
+      "headline": "Panama Canal cuts ship traffic as El Niño threatens water supplies",
       "briefing": {
         "opening": [
-          "MOSCOW, August 27.",
-          "Russian Prime Minister Mikhail Mishustin has announced growth rates of budget revenues outpacing projected figures."
+          "The Panama Canal is expected to reduce daily ship transits in September as authorities prepare for an unusually early dry season and lower rainfall linked to El Niño,.",
+          "The waterway, which handles about 5% of global maritime trade, normally sees between 36 and 38 ships pass each day."
         ],
         "body": [
-          "\"Budget revenues are rising, having exceeded 18.64 trillion rubles ($216.5 bln - TASS), which is significantly higher than projected,\" he said at a government meeting.",
-          "Mishustin also highlighted the changing the structure of budget revenues, adding that the share of non-oil and gas revenues has already surpassed 80% of the total amount.",
-          "\"Our economy is undergoing significant diversification toward sectors producing goods with higher value added,\" he said.",
-          "The head of Russian government highlighted the changing the structure of budget revenues, emphasizing that the share of non-oil and gas revenues has surpassed 80% of the total amount."
+          "Canal administrator Ricaurte Vásquez said the dry season, normally expected to begin in December, could start at least a month earlier, and rainfall during the normally wet months of October and November was expected to be below average.",
+          "From Sept. 3, the canal will offer 34 daily transit slots before reducing the number to 32 from Sept. 15, the most significant restrictions since a drought in 2023 and 2024 forced authorities to sharply limit traffic.",
+          "Steve Paton of the Smithsonian Tropical Research Institute said rainfall in the canal watershed since April had reached only about two-thirds of the average and was trending downward.",
+          "\"The lake level will continue to drop and drop when it should be rising,\" Paton said, warning that lower rainfall could limit both the frequency of ship traffic and the maximum draft allowed through the canal.",
+          "Panama Canal authorities are trying to preserve enough freshwater to maintain operations through a dry season that could last about five months, until rains are expected to return in April or May 2027.",
+          "\"The water we have - the water we hope to have and that we monitor day by day - is the water we are striving to preserve and use more effectively so that we can provide the best possible service to our customers,\" Vásquez said.",
+          "Ships without confirmed reservations could face longer waits as the canal reorganizes auctions for available transit slots.",
+          "An auction this month reached a record $5.3 million for a Sept. 1 passage, according to a Panamanian maritime industry official who was not authorized to provide the information, compared with $50,000 to $100,000 under normal conditions."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "September"
+          }
+        ],
         "sentences": [
           {
-            "text": "Russian Prime Minister Mikhail Mishustin has announced growth rates of budget revenues outpacing projected figures.",
-            "source": "TASS English",
-            "item_id": "4aa3415179d5d99f66933a9fee3f72c8f60f41df96062458bc974776ab017e73:article",
+            "text": "From Sept. 3, the canal will offer 34 daily transit slots before reducing the number to 32 from Sept. 15, the most significant restrictions since a drought in 2023 and 2024 forced authorities to sharply limit traffic.",
+            "source": "Africanews English",
+            "item_id": "cb49f2e10fe8a027e7ad4b2adf1cca3d73231d6735f29666bb06456ddc52b743:article",
             "composed": false
           },
           {
-            "text": "\"Budget revenues are rising, having exceeded 18.64 trillion rubles ($216.5 bln - TASS), which is significantly higher than projected,\" he said at a government meeting.",
-            "source": "TASS English",
-            "item_id": "4aa3415179d5d99f66933a9fee3f72c8f60f41df96062458bc974776ab017e73:article",
+            "text": "Panama Canal authorities are trying to preserve enough freshwater to maintain operations through a dry season that could last about five months, until rains are expected to return in April or May 2027.",
+            "source": "Africanews English",
+            "item_id": "cb49f2e10fe8a027e7ad4b2adf1cca3d73231d6735f29666bb06456ddc52b743:article",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 27.",
-            "source": "TASS English",
-            "item_id": "4aa3415179d5d99f66933a9fee3f72c8f60f41df96062458bc974776ab017e73:article",
+            "text": "An auction this month reached a record $5.3 million for a Sept. 1 passage, according to a Panamanian maritime industry official who was not authorized to provide the information, compared with $50,000 to $100,000 under normal conditions.",
+            "source": "Africanews English",
+            "item_id": "cb49f2e10fe8a027e7ad4b2adf1cca3d73231d6735f29666bb06456ddc52b743:article",
             "composed": false
           },
           {
-            "text": "Mishustin also highlighted the changing the structure of budget revenues, adding that the share of non-oil and gas revenues has already surpassed 80% of the total amount.",
-            "source": "TASS English",
-            "item_id": "4aa3415179d5d99f66933a9fee3f72c8f60f41df96062458bc974776ab017e73:article",
+            "text": "Canal administrator Ricaurte Vásquez said the dry season, normally expected to begin in December, could start at least a month earlier, and rainfall during the normally wet months of October and November was expected to be below average.",
+            "source": "Africanews English",
+            "item_id": "cb49f2e10fe8a027e7ad4b2adf1cca3d73231d6735f29666bb06456ddc52b743:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Africanews English",
         "corroborating": [],
-        "url": "https://tass.com/economy/2178473"
+        "url": "http://www.africanews.com/2026/08/27/panama-canal-cuts-ship-traffic-as-el-nino-threatens-water-supplies/"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "82b25827760dc2e60bae3234fd622f23161597d050cd6e5fee92f6ec4183fecd",
-      "title": "Unclear when, if Zaporozhstal steel plant to be able to resume work — Ukrainian lawmaker",
-      "url": "https://tass.com/world/2178471",
+      "id": "cad1e5b844c0f59d0fd1b638fed15fa7c09b08dbb245c3ca30ae65ea6f8067ac",
+      "title": "Russia, China working on several joint film projects — Roskino head",
+      "url": "https://tass.com/society/2178477",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "The consequences are extremely serious, Musa Magomedov said",
-      "published_at": "2026-08-27T14:23:17+00:00",
-      "updated_at": "2026-08-27T14:23:17+00:00",
-      "effective_at": "2026-08-27T14:23:17+00:00",
+      "summary": "The joint project 'Black Silk' is currently being actively discussed",
+      "published_at": "2026-08-27T14:30:18+00:00",
+      "updated_at": "2026-08-27T14:30:18+00:00",
+      "effective_at": "2026-08-27T14:30:18+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "industry",
+      "sector": "culture",
+      "subsector": "culture",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "magomedov",
-        "musa",
-        "ukraine",
-        "zaporozhstal"
+        "black",
+        "china",
+        "roskino",
+        "russia",
+        "silk"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -156,7 +465,7 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "5d194f7a5747c7b49a9ae93d",
+      "event_id": "7772e614d2c8c89b8a508983",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -181,69 +490,187 @@
         },
         "significance_dims": {}
       },
-      "story_id": "82b25827760dc2e60bae3234fd622f23161597d050cd6e5fee92f6ec4183fecd",
+      "story_id": "cad1e5b844c0f59d0fd1b638fed15fa7c09b08dbb245c3ca30ae65ea6f8067ac",
       "article_sentences": [
-        "MOSCOW, August 27.",
-        "The Zaporozhstal steel plant in the Kiev-controlled part of the Zaporozhye Region is still out of commission after taking heavy damage in Russian strikes, Musa Magomedov, a Verkhovna Rada lawmaker and chair of the parliamentary subcommittee on industry, said.",
-        "\"The consequences <...> are extremely serious, and when Zaporozhstal will be able to resume operations is a big question,\" he wrote on Facebook, which is banned in Russia and owned by Meta, designated extremist in the country.",
-        "According to him, Ukraine may be left without a steel industry until spring.",
-        "Ivan Fyodorov, head of the Kiev-appointed regional administration, in turn, reported a major fire \"at one of the enterprises,\" without specifying which one.",
-        "On August 11, the Russian Defense Ministry reported striking the plant.",
-        "The company subsequently said that it had completely halted operations.",
-        "On the morning of August 27, the ministry reported strikes on steel plants in Zaporozhye and Krivoy Rog supplying products for military production."
+        "BEIJING, August 27.",
+        "Russian and Chinese filmmakers are working on a number of new joint projects, including the films \"Black Silk\" and \"Allies,\" Roskino General Director Elsa Antonova told TASS.",
+        "\"The joint project ‘Black Silk’ is currently being actively discussed; it will be a sequel to the historical detective film ‘Red Silk’ (2025).",
+        "It is being developed by the National Media Group together with Chinese partners.",
+        "The ‘Allies’ project, which Gazprom·Media Holding is implementing together with Chinese partners, is also in active development,\" she said.",
+        "Antonova added that filmmakers from the two countries are also working on other joint projects, including \"The Sword of Justice\" and \"The Forgotten General.\" According to her, they are expected to be released widely and to find audiences both in Russia and in China.",
+        "The Russian Film Festival opened in Beijing on August 27.",
+        "Screenings will also be held in Shanghai, Hohhot, Harbin, and Heihe and will last until September 2.",
+        "The program includes Russian war dramas, family films, and animation."
       ],
       "public_label": "📰 NEWS",
-      "headline": "Unclear when, if Zaporozhstal steel plant to be able to resume work — Ukrainian lawmaker",
+      "headline": "Russia, China working on several joint film projects — Roskino head",
       "briefing": {
         "opening": [
-          "MOSCOW, August 27.",
-          "The Zaporozhstal steel plant in the Kiev-controlled part of the Zaporozhye Region is still out of commission after taking heavy damage in Russian strikes, Musa Magomedov, a Verkhovna Rada lawmaker and chair of the parliamentary subcommittee on industry, said."
+          "BEIJING, August 27.",
+          "Russian and Chinese filmmakers are working on a number of new joint projects, including the films \"Black Silk\" and \"Allies,\" Roskino General Director Elsa Antonova told TASS."
         ],
         "body": [
-          "\"The consequences <...> are extremely serious, and when Zaporozhstal will be able to resume operations is a big question,\" he wrote on Facebook, which is banned in Russia and owned by Meta, designated extremist in the country.",
-          "According to him, Ukraine may be left without a steel industry until spring.",
-          "Ivan Fyodorov, head of the Kiev-appointed regional administration, in turn, reported a major fire \"at one of the enterprises,\" without specifying which one.",
-          "On August 11, the Russian Defense Ministry reported striking the plant.",
-          "The company subsequently said that it had completely halted operations.",
-          "On the morning of August 27, the ministry reported strikes on steel plants in Zaporozhye and Krivoy Rog supplying products for military production.",
-          "The consequences are extremely serious, Musa Magomedov said."
+          "\"The joint project ‘Black Silk’ is currently being actively discussed; it will be a sequel to the historical detective film ‘Red Silk’ (2025).",
+          "It is being developed by the National Media Group together with Chinese partners.",
+          "The ‘Allies’ project, which Gazprom·Media Holding is implementing together with Chinese partners, is also in active development,\" she said.",
+          "Antonova added that filmmakers from the two countries are also working on other joint projects, including \"The Sword of Justice\" and \"The Forgotten General.\" According to her, they are expected to be released widely and to find audiences both in Russia and in China.",
+          "The Russian Film Festival opened in Beijing on August 27.",
+          "Screenings will also be held in Shanghai, Hohhot, Harbin, and Heihe and will last until September 2.",
+          "The program includes Russian war dramas, family films, and animation.",
+          "The joint project 'Black Silk' is currently being actively discussed."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Russian"
+            "text": "Russia"
           }
         ],
         "sentences": [
           {
-            "text": "On the morning of August 27, the ministry reported strikes on steel plants in Zaporozhye and Krivoy Rog supplying products for military production.",
+            "text": "The Russian Film Festival opened in Beijing on August 27.",
             "source": "TASS English",
-            "item_id": "82b25827760dc2e60bae3234fd622f23161597d050cd6e5fee92f6ec4183fecd:article",
+            "item_id": "cad1e5b844c0f59d0fd1b638fed15fa7c09b08dbb245c3ca30ae65ea6f8067ac:article",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 27.",
+            "text": "BEIJING, August 27.",
             "source": "TASS English",
-            "item_id": "82b25827760dc2e60bae3234fd622f23161597d050cd6e5fee92f6ec4183fecd:article",
+            "item_id": "cad1e5b844c0f59d0fd1b638fed15fa7c09b08dbb245c3ca30ae65ea6f8067ac:article",
             "composed": false
           },
           {
-            "text": "On August 11, the Russian Defense Ministry reported striking the plant.",
+            "text": "According to her, they are expected to be released widely and to find audiences both in Russia and in China.",
             "source": "TASS English",
-            "item_id": "82b25827760dc2e60bae3234fd622f23161597d050cd6e5fee92f6ec4183fecd:article",
-            "composed": false
-          },
-          {
-            "text": "The Zaporozhstal steel plant in the Kiev-controlled part of the Zaporozhye Region is still out of commission after taking heavy damage in Russian strikes, Musa Magomedov, a Verkhovna Rada lawmaker and chair of the parliamentary subcommittee on industry, said.",
-            "source": "TASS English",
-            "item_id": "82b25827760dc2e60bae3234fd622f23161597d050cd6e5fee92f6ec4183fecd:article",
+            "item_id": "cad1e5b844c0f59d0fd1b638fed15fa7c09b08dbb245c3ca30ae65ea6f8067ac:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/world/2178471"
+        "url": "https://tass.com/society/2178477"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "95cfc512a74a061dac25c172015bde03473b7fcdcda64b61c69f77868c0a811c",
+      "title": "Six EU countries call for hundreds of billions of euros in cuts to new EU budget",
+      "url": "https://tass.com/world/2178479",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "The statement emphasized that the European Union should make clear choices and reprioritize within the budget",
+      "published_at": "2026-08-27T14:31:47+00:00",
+      "updated_at": "2026-08-27T14:31:47+00:00",
+      "effective_at": "2026-08-27T14:31:47+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "currencies",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "eu",
+        "european",
+        "six",
+        "union"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "0b6c72a0c0c300a0d5ac06ba",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "95cfc512a74a061dac25c172015bde03473b7fcdcda64b61c69f77868c0a811c",
+      "article_sentences": [
+        "BERLIN, August 27.",
+        "Six EU countries have called for reducing the European Commission’s proposed budget by several hundred billion euros and opposed new common borrowing, according to a joint statement by Germany, Denmark, the Netherlands, Austria, Finland and Sweden, released by the German government’s press service.",
+        "The statement said that negotiations on the Multiannual Financial Framework (MFF) for 2028-2034 had entered a decisive stage and that the countries \"jointly support the ambition to conclude the negotiations in 2026.\" It emphasized that the European Union must make clear choices and reprioritize within the budget.",
+        "\"To arrive at an acceptable landing zone, the Commission’s proposal of nearly 2 trillion Euros needs to be reduced by several hundred billion Euros in a balanced manner.",
+        "All headings should contribute to such reductions,\" the statement said.",
+        "\"Given the exceptionally high level of outstanding payment commitments under the current MFF, together with additional transfer mechanisms outside the MFF, a holistic assessment of the payment flows is necessary in the context of the MFF negotiations.",
+        "Furthermore, we expect the EU institutions to organize their workload within the existing staff levels.",
+        "Excessive net imbalances must be corrected,\" it noted.",
+        "The new EU budget should be underpinned by \"an efficient, socially responsible and business-friendly legislative and regulatory framework.\" \"This framework must systematically prioritize the successful, swift and green transformation of our economies, in particular by accelerating planning and permitting procedures.",
+        "New common borrowing is not the solution to our budgetary challenges and is no alternative to structural reforms,\" the statement said.",
+        "The EU budget is adopted for seven years.",
+        "Negotiations are currently underway on the 2028-2034 budget plan, which, under the European Commission’s proposal, would total 1.76 trillion euros in current prices."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Six EU countries call for hundreds of billions of euros in cuts to new EU budget",
+      "briefing": {
+        "opening": [
+          "BERLIN, August 27.",
+          "Six EU countries have called for reducing the European Commission’s proposed budget by several hundred billion euros and opposed new common borrowing, according to a joint statement by Germany, Denmark, the Netherlands, Austria, Finland and Sweden, released by the German government’s press service."
+        ],
+        "body": [
+          "The statement said that negotiations on the Multiannual Financial Framework (MFF) for 2028-2034 had entered a decisive stage and that the countries \"jointly support the ambition to conclude the negotiations in 2026.\" It emphasized that the European Union must make clear choices and reprioritize within the budget.",
+          "\"To arrive at an acceptable landing zone, the Commission’s proposal of nearly 2 trillion Euros needs to be reduced by several hundred billion Euros in a balanced manner.",
+          "All headings should contribute to such reductions,\" the statement said.",
+          "\"Given the exceptionally high level of outstanding payment commitments under the current MFF, together with additional transfer mechanisms outside the MFF, a holistic assessment of the payment flows is necessary in the context of the MFF negotiations.",
+          "Furthermore, we expect the EU institutions to organize their workload within the existing staff levels.",
+          "Excessive net imbalances must be corrected,\" it noted.",
+          "The new EU budget should be underpinned by \"an efficient, socially responsible and business-friendly legislative and regulatory framework.\" \"This framework must systematically prioritize the successful, swift and green transformation of our economies, in particular by accelerating planning and permitting procedures.",
+          "New common borrowing is not the solution to our budgetary challenges and is no alternative to structural reforms,\" the statement said."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Six EU countries have called for reducing the European Commission’s proposed budget by several hundred billion euros and opposed new common borrowing, according to a joint statement by Germany, Denmark, the Netherlands, Austria, Finland and Sweden, released by the German government’s press service.",
+            "source": "TASS English",
+            "item_id": "95cfc512a74a061dac25c172015bde03473b7fcdcda64b61c69f77868c0a811c:article",
+            "composed": false
+          },
+          {
+            "text": "It emphasized that the European Union must make clear choices and reprioritize within the budget.",
+            "source": "TASS English",
+            "item_id": "95cfc512a74a061dac25c172015bde03473b7fcdcda64b61c69f77868c0a811c:article",
+            "composed": false
+          },
+          {
+            "text": "BERLIN, August 27.",
+            "source": "TASS English",
+            "item_id": "95cfc512a74a061dac25c172015bde03473b7fcdcda64b61c69f77868c0a811c:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/world/2178479"
       },
       "group_size": 1,
       "label": "📰 NEWS"
