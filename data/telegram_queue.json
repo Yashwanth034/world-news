@@ -1,160 +1,68 @@
 {
-  "generated_at": "2026-08-28T09:10:48.629345+00:00",
-  "count": 7,
+  "generated_at": "2026-08-28T09:20:48.748589+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "64386b69286d184623adddffc8cce9fa7a10a2956a789670d4fb844553af167f",
-      "title": "Countries step up aid for Nepal flood disaster",
-      "url": "https://www.france24.com/en/countries-step-up-aid-for-nepal-flood-disaster",
-      "source": "France 24",
+      "id": "ac0f0d527171f265507c98675c7e7e01ba74893c2d01051b5e020e0793e76107",
+      "title": "Persian Gulf oil exports recover to 15-16 mln barrels per day — Bloomberg",
+      "url": "https://tass.com/economy/2178767",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": null,
       "discovery": false,
-      "summary": "Countries including South Korea, India, China, the UK and the EU are ramping up rescue efforts and humanitarian aid after the devastating Nepal-China floods, with hundreds of foreign nationals still missing. Relief operations remain difficult in the Himalayan terrain, while authorities warn that a lake formed by the disaster could burst and trigger a second wave of flooding.",
-      "published_at": "2026-08-28T09:00:30+00:00",
-      "updated_at": "2026-08-28T09:00:30+00:00",
-      "effective_at": "2026-08-28T09:00:30+00:00",
+      "summary": "NEW YORK, August 28. Oil exports through the Persian Gulf have recovered to two-thirds of their pre-war level, reaching roughly 15-16 mln barrels per day, as the number of transits through the Strait of Hormuz has increased, Bloomberg reported, citing analysts at Goldman Sachs. According to the analysts, oil shipments through the strait would need to increase by another 6-8 mln barrels per day for exports to fully recover.",
+      "published_at": "2026-08-28T09:16:24+00:00",
+      "updated_at": "2026-08-28T09:16:24+00:00",
+      "effective_at": "2026-08-28T09:16:24+00:00",
       "language_status": "ENGLISH",
-      "category": "disaster",
-      "score": 65,
+      "category": "industry",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "disasters",
-      "subregion": "South Asia",
+      "sector": "economy",
+      "subsector": "trade",
+      "subregion": null,
       "country": null,
       "entities": [
-        "china",
-        "countries",
-        "eu",
-        "himalayan",
-        "india",
-        "nepal",
-        "nepal-china",
-        "south_korea",
-        "uk"
+        "bloomberg",
+        "goldman",
+        "gulf",
+        "hormuz",
+        "new_york",
+        "persian",
+        "sachs",
+        "strait"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "43eb780dcb0400d8fe5c8903",
-      "importance_score": 70.0,
-      "importance_level": "HIGH",
+      "article_sentences": [
+        "NEW YORK, August 28.",
+        "Oil exports through the Persian Gulf have recovered to two-thirds of their pre-war level, reaching roughly 15-16 mln barrels per day, as the number of transits through the Strait of Hormuz has increased, Bloomberg reported, citing analysts at Goldman Sachs.",
+        "According to the analysts, oil shipments through the strait would need to increase by another 6-8 mln barrels per day for exports to fully recover."
+      ],
+      "event_status": "NEW",
+      "event_id": "3f0dbcc55f699fa937b4fa61",
+      "importance_score": 42.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 24,
-        "urgency": 10,
-        "novelty": 9.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
         "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 400,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 300,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": true
-        },
-        "significance_dims": {
-          "human": 12,
-          "geopolitical": 4
-        }
-      },
-      "story_id": "64386b69286d184623adddffc8cce9fa7a10a2956a789670d4fb844553af167f",
-      "public_label": "🔄 UPDATE",
-      "headline": "Countries step up aid for Nepal flood disaster",
-      "briefing": {
-        "opening": [
-          "Countries including South Korea, India, China, the UK and the EU are ramping up rescue efforts and humanitarian aid after the devastating Nepal-China floods, with hundreds of foreign nationals still missing.",
-          "Relief operations remain difficult in the Himalayan terrain, while authorities warn that a lake formed by the disaster could burst and trigger a second wave of flooding."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Countries including South Korea, India, China, the UK and the EU are ramping up rescue efforts and humanitarian aid after the devastating Nepal-China floods, with hundreds of foreign nationals still missing.",
-            "source": "France 24",
-            "item_id": "64386b69286d184623adddffc8cce9fa7a10a2956a789670d4fb844553af167f",
-            "composed": false
-          },
-          {
-            "text": "Relief operations remain difficult in the Himalayan terrain, while authorities warn that a lake formed by the disaster could burst and trigger a second wave of flooding.",
-            "source": "France 24",
-            "item_id": "64386b69286d184623adddffc8cce9fa7a10a2956a789670d4fb844553af167f",
-            "composed": false
-          }
-        ],
-        "source": "France 24",
-        "corroborating": [],
-        "url": "https://www.france24.com/en/countries-step-up-aid-for-nepal-flood-disaster"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "ad0f100e2ec19bb59e171011c715cfdd99704722ed67d79095c033a9663a2eaa",
-      "title": "Mapping the 5.0-magnitude quake in China",
-      "url": "https://www.straitstimes.com/asia/east-asia/mapping-the-5-0-magnitude-quake-in-china",
-      "source": "Straits Times Asia",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "View the location of the earthquake’s epicenter and shake area.",
-      "published_at": "2026-08-28T09:00:00+00:00",
-      "updated_at": "2026-08-28T09:00:00+00:00",
-      "effective_at": "2026-08-28T09:00:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 68,
-      "confidence": "medium",
-      "urgency_terms": [
-        "earthquake"
-      ],
-      "sector": "climate",
-      "subsector": "earthquakes",
-      "subregion": "East Asia",
-      "country": null,
-      "entities": [
-        "china",
-        "view"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 100,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "4fedfd7c5bc075ce174ab541",
-      "importance_score": 40.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 12.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 5.0,
           "dead": 0,
           "injured": 0,
           "displaced": 0,
@@ -163,176 +71,64 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8
+        }
       },
-      "story_id": "ad0f100e2ec19bb59e171011c715cfdd99704722ed67d79095c033a9663a2eaa",
-      "article_sentences": [
-        "The 5.0-magnitude quake struck China’s southwestern Sichuan province on Aug 28.",
-        "The epicentre of the quake was located near the town of Fuji in Sichuan province.",
-        "The US Geological Survey said the quake struck at a depth of 10.0km.",
-        "Here’s where the quake struck and where the aftershocks with magnitudes above 2.5 were recorded."
-      ],
+      "story_id": "ac0f0d527171f265507c98675c7e7e01ba74893c2d01051b5e020e0793e76107",
       "public_label": "📰 NEWS",
-      "headline": "Mapping the 5.0-magnitude quake in China",
+      "headline": "Persian Gulf oil exports recover to 15-16 mln barrels per day",
       "briefing": {
         "opening": [
-          "The 5.0-magnitude quake struck China’s southwestern Sichuan province on Aug 28.",
-          "The epicentre of the quake was located near the town of Fuji in Sichuan province."
+          "NEW YORK, August 28.",
+          "Oil exports through the Persian Gulf have recovered to two-thirds of their pre-war level, reaching roughly 15-16 mln barrels per day, as the number of transits through the Strait of Hormuz has increased, Bloomberg reported, citing analysts at Goldman Sachs."
         ],
         "body": [
-          "The US Geological Survey said the quake struck at a depth of 10.0km.",
-          "Here’s where the quake struck and where the aftershocks with magnitudes above 2.5 were recorded.",
-          "View the location of the earthquake’s epicenter and shake area."
+          "According to the analysts, oil shipments through the strait would need to increase by another 6-8 mln barrels per day for exports to fully recover."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Sichuan province"
+            "text": "Goldman Sachs"
           }
         ],
         "sentences": [
           {
-            "text": "The 5.0-magnitude quake struck China’s southwestern Sichuan province on Aug 28.",
-            "source": "Straits Times Asia",
-            "item_id": "ad0f100e2ec19bb59e171011c715cfdd99704722ed67d79095c033a9663a2eaa:article",
+            "text": "Oil exports through the Persian Gulf have recovered to two-thirds of their pre-war level, reaching roughly 15-16 mln barrels per day, as the number of transits through the Strait of Hormuz has increased, Bloomberg reported, citing analysts at Goldman Sachs.",
+            "source": "TASS English",
+            "item_id": "ac0f0d527171f265507c98675c7e7e01ba74893c2d01051b5e020e0793e76107:article",
             "composed": false
           },
           {
-            "text": "The US Geological Survey said the quake struck at a depth of 10.0km.",
-            "source": "Straits Times Asia",
-            "item_id": "ad0f100e2ec19bb59e171011c715cfdd99704722ed67d79095c033a9663a2eaa:article",
-            "composed": false
-          },
-          {
-            "text": "The epicentre of the quake was located near the town of Fuji in Sichuan province.",
-            "source": "Straits Times Asia",
-            "item_id": "ad0f100e2ec19bb59e171011c715cfdd99704722ed67d79095c033a9663a2eaa:article",
-            "composed": false
-          },
-          {
-            "text": "Here’s where the quake struck and where the aftershocks with magnitudes above 2.5 were recorded.",
-            "source": "Straits Times Asia",
-            "item_id": "ad0f100e2ec19bb59e171011c715cfdd99704722ed67d79095c033a9663a2eaa:article",
+            "text": "According to the analysts, oil shipments through the strait would need to increase by another 6-8 mln barrels per day for exports to fully recover.",
+            "source": "TASS English",
+            "item_id": "ac0f0d527171f265507c98675c7e7e01ba74893c2d01051b5e020e0793e76107:article",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/east-asia/mapping-the-5-0-magnitude-quake-in-china"
+        "url": "https://tass.com/economy/2178767"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "eb662b804cf99638c342e1d886439d831b02e9bb18ecbbcfdc41cfc4449adf3d",
-      "title": "Businesses are getting tariff refunds. Why aren't consumers getting their cut?",
-      "url": "https://www.npr.org/2026/08/28/nx-s1-5946782/businesses-getting-tariff-refunds-why-arent-consumers-getting-their-cut",
-      "source": "NPR Business",
-      "source_category": "finance",
-      "primary_source": false,
-      "tier": 2,
-      "region": "North America",
-      "discovery": false,
-      "summary": "A slew of American companies are getting billions of dollars back in tariff refunds after a Supreme Court ruling. Many consumers, though, may never get anything back.",
-      "published_at": "2026-08-28T09:00:00+00:00",
-      "updated_at": "2026-08-28T09:00:00+00:00",
-      "effective_at": "2026-08-28T09:00:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "trade",
-      "subregion": "United States",
-      "country": null,
-      "entities": [
-        "american",
-        "court",
-        "supreme",
-        "us"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 75,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "b82abbf55571fbe2f565640a",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "economic": 4
-        }
-      },
-      "story_id": "eb662b804cf99638c342e1d886439d831b02e9bb18ecbbcfdc41cfc4449adf3d",
-      "public_label": "📰 NEWS",
-      "headline": "Businesses are getting tariff refunds. Why aren't consumers getting their cut?",
-      "briefing": {
-        "opening": [
-          "A slew of American companies are getting billions of dollars back in tariff refunds after a Supreme Court ruling.",
-          "Many consumers, though, may never get anything back."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "A slew of American companies are getting billions of dollars back in tariff refunds after a Supreme Court ruling.",
-            "source": "NPR Business",
-            "item_id": "eb662b804cf99638c342e1d886439d831b02e9bb18ecbbcfdc41cfc4449adf3d",
-            "composed": false
-          },
-          {
-            "text": "Many consumers, though, may never get anything back.",
-            "source": "NPR Business",
-            "item_id": "eb662b804cf99638c342e1d886439d831b02e9bb18ecbbcfdc41cfc4449adf3d",
-            "composed": false
-          }
-        ],
-        "source": "NPR Business",
-        "corroborating": [],
-        "url": "https://www.npr.org/2026/08/28/nx-s1-5946782/businesses-getting-tariff-refunds-why-arent-consumers-getting-their-cut"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "3e1ec6ca806f90f473a9a33c1419fa5034b430821fc5b8b18c50b68729e8afee",
-      "title": "Malaysia’s former human resources minister Saravanan claims trial on graft charges",
-      "url": "https://www.straitstimes.com/asia/se-asia/malaysian-former-human-resources-minister-saravanan-claims-trial-on-graft-charges",
-      "source": "Straits Times Asia",
+      "id": "9abd396048803d886f175232b0a92b652724fa678b37adf1c746e909671f8b3e",
+      "title": "Gov't finalizes Muan County area as site for Gwangju air base relocation",
+      "url": "https://en.yna.co.kr/view/AEN20260828010900315",
+      "source": "Yonhap English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "The 58-year-old pleaded not guilty after the charges were read out.",
-      "published_at": "2026-08-28T05:20:00+00:00",
-      "updated_at": "2026-08-28T05:20:00+00:00",
-      "effective_at": "2026-08-28T05:20:00+00:00",
+      "summary": "A government selection committee finalized Friday its designation of a southwestern county as the site for a military air base relocation from the neighboring city of Gwangju, a decision that clears the way for an expedited build-out of a major semiconductor cluster. The committee, led by the defense ministry, finalized an earlier decision designating Muan County as the new site for the air base, home to the 1st Fighter Wing, following a meeting joined by municipal government officials, the ministry said in a release. \"The final designation of Muan County as the relocation site puts the Gwangju base relocation project into full motion, laying the groundwork for a swift process in cooperation with relevant agencies,\" the ministry said. The latest decision clears the way for the government to accelerate its push to build a vast semiconductor and artificial intelligence (AI) cluster in Gwangju and surrounding regions, an 800 trillion-won (US$582.9 billion) project joined by Samsung Electronics Co. and SK hynix Inc.",
+      "published_at": "2026-08-28T09:06:17+00:00",
+      "updated_at": "2026-08-28T09:06:17+00:00",
+      "effective_at": "2026-08-28T09:06:17+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
@@ -340,11 +136,21 @@
       "urgency_terms": [],
       "sector": "geopolitics",
       "subsector": "politics",
-      "subregion": "Southeast Asia",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "malaysia",
-        "saravanan"
+        "ai",
+        "co",
+        "county",
+        "electronics",
+        "fighter",
+        "gwangju",
+        "inc",
+        "muan",
+        "samsung",
+        "sk",
+        "us",
+        "wing"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -353,19 +159,26 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "A government selection committee finalized Friday its designation of a southwestern county as the site for a military air base relocation from the neighboring city of Gwangju, a decision that clears the way for an expedited build-out of a major semiconductor cluster.",
+        "The committee, led by the defense ministry, finalized an earlier decision designating Muan County as the new site for the air base, home to the 1st Fighter Wing, following a meeting joined by municipal government officials, the ministry said in a release.",
+        "\"The final designation of Muan County as the relocation site puts the Gwangju base relocation project into full motion, laying the groundwork for a swift process in cooperation with relevant agencies,\" the ministry said.",
+        "The latest decision clears the way for the government to accelerate its push to build a vast semiconductor and artificial intelligence (AI) cluster in Gwangju and surrounding regions, an 800 trillion-won (US$582.9 billion) project joined by Samsung Electronics Co.",
+        "and SK hynix Inc."
+      ],
       "event_status": "NEW",
-      "event_id": "e2e25d608f107e6ec405416d",
-      "importance_score": 31.0,
+      "event_id": "58993f268e23909051796834",
+      "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 6.0,
+        "urgency": 7.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -378,120 +191,102 @@
           "crisis": false
         },
         "significance_dims": {
+          "security": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "3e1ec6ca806f90f473a9a33c1419fa5034b430821fc5b8b18c50b68729e8afee",
-      "article_sentences": [
-        "Former Malaysian human resources minister M.",
-        "Saravanan pleaded not guilty to three graft charges involving over RM1 million linked to foreign worker approvals.",
-        "The charges include receiving cash and cheque payments as kickbacks for approving 1,000 foreign worker quotas for TYKB Engineering.",
-        "Saravanan was granted bail of RM450,000 with conditions, including quarterly reporting to MACC and a ban on harassing witnesses; the case is set for mention on Sept 29.",
-        "Saravanan has claimed trial at the Kuala Lumpur Sessions Court to three charges of graft involving more than RM1 million (S$315,800) linked to foreign workers approval.",
-        "The 58-year-old pleaded not guilty after the charges were read out before Sessions Court judge Azura Alwi here on Aug 28.",
-        "“I understand the charges.",
-        "I plead not guilty,” said Saravanan.",
-        "According to the first and second charges, Saravanan allegedly received RM150,000 and RM350,000 in cash from Vectica Resources director Tan Teck Lim through one Syed Amirul Syed Ahmad at the Bukit Jalil Golf & Country Resorts, and at Jalan Telawi 3, Bangsar on June 16, 2022 and July 7, 2022.",
-        "For the third charge, Saravanan allegedly received RM597,000 through a cheque from the same person that was deposited into Big.",
-        "Seven Ventures bank account at Maybank Jalan Klang Lama, Taman Desa, on July 7, 2022.",
-        "The money was said to be a kickback for him in his capacity as the human resources minister to approve 1,000 quota for foreign workers for TYKB Engineering."
-      ],
+      "story_id": "9abd396048803d886f175232b0a92b652724fa678b37adf1c746e909671f8b3e",
       "public_label": "📰 NEWS",
-      "headline": "Malaysia’s former human resources minister Saravanan claims trial on graft charges",
+      "headline": "Gov't finalizes Muan County area as site for Gwangju air base relocation",
       "briefing": {
         "opening": [
-          "Former Malaysian human resources minister M.",
-          "Saravanan pleaded not guilty to three graft charges involving over RM1 million linked to foreign worker approvals."
+          "A government selection committee finalized Friday its designation of a southwestern county as the site for a military air base relocation from the neighboring city of Gwangju, a decision that clears the way for an expedited build-out of a major semiconductor cluster.",
+          "The committee, led by the defense ministry, finalized an earlier decision designating Muan County as the new site for the air base, home to the 1st Fighter Wing, following a meeting joined by municipal government officials, the ministry said in a release."
         ],
         "body": [
-          "The charges include receiving cash and cheque payments as kickbacks for approving 1,000 foreign worker quotas for TYKB Engineering.",
-          "Saravanan was granted bail of RM450,000 with conditions, including quarterly reporting to MACC and a ban on harassing witnesses; the case is set for mention on Sept 29.",
-          "Saravanan has claimed trial at the Kuala Lumpur Sessions Court to three charges of graft involving more than RM1 million (S$315,800) linked to foreign workers approval.",
-          "The 58-year-old pleaded not guilty after the charges were read out before Sessions Court judge Azura Alwi here on Aug 28.",
-          "“I understand the charges.",
-          "I plead not guilty,” said Saravanan.",
-          "According to the first and second charges, Saravanan allegedly received RM150,000 and RM350,000 in cash from Vectica Resources director Tan Teck Lim through one Syed Amirul Syed Ahmad at the Bukit Jalil Golf & Country Resorts, and at Jalan Telawi 3, Bangsar on June 16, 2022 and July 7, 2022.",
-          "For the third charge, Saravanan allegedly received RM597,000 through a cheque from the same person that was deposited into Big."
+          "\"The final designation of Muan County as the relocation site puts the Gwangju base relocation project into full motion, laying the groundwork for a swift process in cooperation with relevant agencies,\" the ministry said.",
+          "The latest decision clears the way for the government to accelerate its push to build a vast semiconductor and artificial intelligence (AI) cluster in Gwangju and surrounding regions, an 800 trillion-won (US$582.9 billion) project joined by Samsung Electronics Co.",
+          "and SK hynix Inc."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Jalan Telawi"
+            "text": "Gwangju"
           }
         ],
         "sentences": [
           {
-            "text": "According to the first and second charges, Saravanan allegedly received RM150,000 and RM350,000 in cash from Vectica Resources director Tan Teck Lim through one Syed Amirul Syed Ahmad at the Bukit Jalil Golf & Country Resorts, and at Jalan Telawi 3, Bangsar on June 16, 2022 and July 7, 2022.",
-            "source": "Straits Times Asia",
-            "item_id": "3e1ec6ca806f90f473a9a33c1419fa5034b430821fc5b8b18c50b68729e8afee:article",
+            "text": "\"The final designation of Muan County as the relocation site puts the Gwangju base relocation project into full motion, laying the groundwork for a swift process in cooperation with relevant agencies,\" the ministry said.",
+            "source": "Yonhap English",
+            "item_id": "9abd396048803d886f175232b0a92b652724fa678b37adf1c746e909671f8b3e:article",
             "composed": false
           },
           {
-            "text": "Saravanan has claimed trial at the Kuala Lumpur Sessions Court to three charges of graft involving more than RM1 million (S$315,800) linked to foreign workers approval.",
-            "source": "Straits Times Asia",
-            "item_id": "3e1ec6ca806f90f473a9a33c1419fa5034b430821fc5b8b18c50b68729e8afee:article",
+            "text": "The latest decision clears the way for the government to accelerate its push to build a vast semiconductor and artificial intelligence (AI) cluster in Gwangju and surrounding regions, an 800 trillion-won (US$582.9 billion) project joined by Samsung Electronics Co.",
+            "source": "Yonhap English",
+            "item_id": "9abd396048803d886f175232b0a92b652724fa678b37adf1c746e909671f8b3e:article",
             "composed": false
           },
           {
-            "text": "Saravanan was granted bail of RM450,000 with conditions, including quarterly reporting to MACC and a ban on harassing witnesses; the case is set for mention on Sept 29.",
-            "source": "Straits Times Asia",
-            "item_id": "3e1ec6ca806f90f473a9a33c1419fa5034b430821fc5b8b18c50b68729e8afee:article",
+            "text": "The committee, led by the defense ministry, finalized an earlier decision designating Muan County as the new site for the air base, home to the 1st Fighter Wing, following a meeting joined by municipal government officials, the ministry said in a release.",
+            "source": "Yonhap English",
+            "item_id": "9abd396048803d886f175232b0a92b652724fa678b37adf1c746e909671f8b3e:article",
             "composed": false
           },
           {
-            "text": "The 58-year-old pleaded not guilty after the charges were read out before Sessions Court judge Azura Alwi here on Aug 28.",
-            "source": "Straits Times Asia",
-            "item_id": "3e1ec6ca806f90f473a9a33c1419fa5034b430821fc5b8b18c50b68729e8afee:article",
+            "text": "A government selection committee finalized Friday its designation of a southwestern county as the site for a military air base relocation from the neighboring city of Gwangju, a decision that clears the way for an expedited build-out of a major semiconductor cluster.",
+            "source": "Yonhap English",
+            "item_id": "9abd396048803d886f175232b0a92b652724fa678b37adf1c746e909671f8b3e:article",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "Yonhap English",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/se-asia/malaysian-former-human-resources-minister-saravanan-claims-trial-on-graft-charges"
+        "url": "https://en.yna.co.kr/view/AEN20260828010900315"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "dfb37d6e9faa71c9fa7c5d54a23e9b7a243aefa242b3726c883344d01e0f6368",
-      "title": "Russia’s mass-produced Kuryer combat robot can be controlled via smartphone",
-      "url": "https://tass.com/defense/2178749",
-      "source": "TASS English",
+      "id": "99214e4e14058b74be3fec0758dd5c1018e63fafc8f92d990620f52793553e2d",
+      "title": "EU wants Meta to extend US teen safety restrictions to Europe",
+      "url": "https://www.france24.com/en/eu-wants-meta-to-extend-us-teen-safety-restrictions-to-europe",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "North America",
       "discovery": false,
-      "summary": "The robot is equipped with AGS-17 grenade launchers and 12.7-mm PKT and NSVT machine guns",
-      "published_at": "2026-08-28T09:02:35+00:00",
-      "updated_at": "2026-08-28T09:02:35+00:00",
-      "effective_at": "2026-08-28T09:02:35+00:00",
+      "summary": "The EU is pressing Meta to introduce the same protections for under-18s in Europe that it agreed to in a landmark US settlement, including screen-time limits and stronger parental controls on Facebook and Instagram. Brussels is also demanding additional measures.",
+      "published_at": "2026-08-28T09:13:28+00:00",
+      "updated_at": "2026-08-28T09:13:28+00:00",
+      "effective_at": "2026-08-28T09:13:28+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
-      "score": 60,
+      "category": "world",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "technology",
-      "subregion": "Europe",
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "ags-17",
-        "kuryer",
-        "nsvt",
-        "pkt",
-        "russia"
+        "eu",
+        "europe",
+        "instagram",
+        "meta",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "0722a537cca41220212d0edc",
+      "event_id": "9df91b470bd8a1e7d3d67ea5",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -516,248 +311,39 @@
         },
         "significance_dims": {}
       },
-      "story_id": "dfb37d6e9faa71c9fa7c5d54a23e9b7a243aefa242b3726c883344d01e0f6368",
-      "article_sentences": [
-        "NOVOSIBIRSK, August 28.",
-        "The Kuryer (Courier), Russia’s most widely deployed combat robot in the special military operation zone, is capable of firing weapons, laying and clearing mines, and evacuating the wounded - the platform, which an operator can control with a standard smartphone, was unveiled at the Technoprom forum, a TASS correspondent reports.",
-        "The ground robotic system was developed at the Kaps manufacturing company in collaboration with specialists from the Omsk Armored Engineering Institute (OABII).",
-        "The Kuryer has a range of more than 10 km and is controlled via fiber-optic cable, cellular communication, or a radio channel.",
-        "The robot is equipped with AGS-17 grenade launchers and 12.7-mm PKT and NSVT machine guns.",
-        "It is capable of covertly laying mines on a road, carrying out diversionary maneuvers, and firing to destroy targets.",
-        "\"The robot lays mines on a road in the evening while no one can see it, and by the morning, the enemy will already be driving along it.",
-        "In addition to this turret, we can mount completely different add-on modules here.",
-        "It could be a smoke-generating system, or it could be a laser device for mine clearance,\" Vyacheslav Kalabin, a cadet at the OABII, a corporal, and a member of the All-Russian Society of Inventors and Innovators (VOIR), told TASS.",
-        "The vehicle is also equipped with a thermal imager and 360-degree cameras, and can deploy TM-62 anti-tank mines.",
-        "\"This is the most combat-ready and most widely used robot to date,\" Nurzhan Rakimzhanov, a representative of the Omsk branch of VOIR, told TASS.",
-        "The developers did not specify the exact number of systems deployed on the front line, but noted their widespread use in the combat zone."
-      ],
+      "story_id": "99214e4e14058b74be3fec0758dd5c1018e63fafc8f92d990620f52793553e2d",
       "public_label": "📰 NEWS",
-      "headline": "Russia’s mass-produced Kuryer combat robot can be controlled via smartphone",
+      "headline": "EU wants Meta to extend US teen safety restrictions to Europe",
       "briefing": {
         "opening": [
-          "NOVOSIBIRSK, August 28.",
-          "The Kuryer (Courier), Russia’s most widely deployed combat robot in the special military operation zone, is capable of firing weapons, laying and clearing mines, and evacuating the wounded - the platform, which an operator can control with a standard smartphone, was unveiled at the Technoprom forum, a TASS correspondent reports."
-        ],
-        "body": [
-          "The ground robotic system was developed at the Kaps manufacturing company in collaboration with specialists from the Omsk Armored Engineering Institute (OABII).",
-          "The Kuryer has a range of more than 10 km and is controlled via fiber-optic cable, cellular communication, or a radio channel.",
-          "The robot is equipped with AGS-17 grenade launchers and 12.7-mm PKT and NSVT machine guns.",
-          "It is capable of covertly laying mines on a road, carrying out diversionary maneuvers, and firing to destroy targets.",
-          "\"The robot lays mines on a road in the evening while no one can see it, and by the morning, the enemy will already be driving along it.",
-          "In addition to this turret, we can mount completely different add-on modules here.",
-          "It could be a smoke-generating system, or it could be a laser device for mine clearance,\" Vyacheslav Kalabin, a cadet at the OABII, a corporal, and a member of the All-Russian Society of Inventors and Innovators (VOIR), told TASS.",
-          "The vehicle is also equipped with a thermal imager and 360-degree cameras, and can deploy TM-62 anti-tank mines."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The robot is equipped with AGS-17 grenade launchers and 12.7-mm PKT and NSVT machine guns.",
-            "source": "TASS English",
-            "item_id": "dfb37d6e9faa71c9fa7c5d54a23e9b7a243aefa242b3726c883344d01e0f6368:article",
-            "composed": false
-          },
-          {
-            "text": "The vehicle is also equipped with a thermal imager and 360-degree cameras, and can deploy TM-62 anti-tank mines.",
-            "source": "TASS English",
-            "item_id": "dfb37d6e9faa71c9fa7c5d54a23e9b7a243aefa242b3726c883344d01e0f6368:article",
-            "composed": false
-          },
-          {
-            "text": "The Kuryer has a range of more than 10 km and is controlled via fiber-optic cable, cellular communication, or a radio channel.",
-            "source": "TASS English",
-            "item_id": "dfb37d6e9faa71c9fa7c5d54a23e9b7a243aefa242b3726c883344d01e0f6368:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/defense/2178749"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "c47ab4699bb07d39e816bbb4b7544ae70fe4ef34a2871beb93e7ae994b9afb1a",
-      "title": "U.S. says pipelines will make Strait of Hormuz be irrelevant. Energy experts disagree",
-      "url": "https://www.npr.org/2026/08/28/g-s1-140309/us-iran-middle-east-oil-pipelines-hormuz",
-      "source": "NPR World",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "Treasure Secretary Scott Bessent said oil pipelines will make Strait of Hormuz irrelevant in two years. Energy experts say that is unlikely to happen.",
-      "published_at": "2026-08-28T09:00:00+00:00",
-      "updated_at": "2026-08-28T09:00:00+00:00",
-      "effective_at": "2026-08-28T09:00:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "industry",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "oil_gas",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "bessent",
-        "hormuz",
-        "scott",
-        "strait",
-        "treasure"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "46df5c2057c97c685361e0ca",
-      "importance_score": 26.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "c47ab4699bb07d39e816bbb4b7544ae70fe4ef34a2871beb93e7ae994b9afb1a",
-      "public_label": "📰 NEWS",
-      "headline": "U.S. says pipelines will make Strait of Hormuz be irrelevant. Energy experts disagree",
-      "briefing": {
-        "opening": [
-          "Treasure Secretary Scott Bessent said oil pipelines will make Strait of Hormuz irrelevant in two years.",
-          "Energy experts say that is unlikely to happen."
+          "The EU is pressing Meta to introduce the same protections for under-18s in Europe that it agreed to in a landmark US settlement, including screen-time limits and stronger parental controls on Facebook and Instagram.",
+          "Brussels is also demanding additional measures."
         ],
         "body": [],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Europe"
+          }
+        ],
         "sentences": [
           {
-            "text": "Treasure Secretary Scott Bessent said oil pipelines will make Strait of Hormuz irrelevant in two years.",
-            "source": "NPR World",
-            "item_id": "c47ab4699bb07d39e816bbb4b7544ae70fe4ef34a2871beb93e7ae994b9afb1a",
+            "text": "Brussels is also demanding additional measures.",
+            "source": "France 24",
+            "item_id": "99214e4e14058b74be3fec0758dd5c1018e63fafc8f92d990620f52793553e2d",
             "composed": false
           },
           {
-            "text": "Energy experts say that is unlikely to happen.",
-            "source": "NPR World",
-            "item_id": "c47ab4699bb07d39e816bbb4b7544ae70fe4ef34a2871beb93e7ae994b9afb1a",
+            "text": "The EU is pressing Meta to introduce the same protections for under-18s in Europe that it agreed to in a landmark US settlement, including screen-time limits and stronger parental controls on Facebook and Instagram.",
+            "source": "France 24",
+            "item_id": "99214e4e14058b74be3fec0758dd5c1018e63fafc8f92d990620f52793553e2d",
             "composed": false
           }
         ],
-        "source": "NPR World",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.npr.org/2026/08/28/g-s1-140309/us-iran-middle-east-oil-pipelines-hormuz"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "9ea11ca2f81955830e6fc413e0d2deba47bd721783bcbed88f17a0a742d378e3",
-      "title": "Can't stop fixating on the way you look? These 4 mental exercises may help",
-      "url": "https://www.npr.org/2026/08/28/nx-s1-5946751/cant-stop-fixating-on-the-way-you-look-these-4-mental-exercises-may-help",
-      "source": "NPR Technology",
-      "source_category": "technology",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "Obsessing over your looks should not take up all your energy, says psychologist Diana Hill. If you're struggling with uncomfortable thoughts about your body, ground yourself with these techniques.",
-      "published_at": "2026-08-28T09:01:00+00:00",
-      "updated_at": "2026-08-28T09:01:00+00:00",
-      "effective_at": "2026-08-28T09:01:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "technology",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "energy",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "diana",
-        "hill",
-        "obsessing"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "88e61df2fd1dd3a5f23d8c45",
-      "importance_score": 26.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "9ea11ca2f81955830e6fc413e0d2deba47bd721783bcbed88f17a0a742d378e3",
-      "public_label": "📰 NEWS",
-      "headline": "Can't stop fixating on the way you look? These 4 mental exercises may help",
-      "briefing": {
-        "opening": [
-          "Obsessing over your looks should not take up all your energy, says psychologist Diana Hill.",
-          "If you're struggling with uncomfortable thoughts about your body, ground yourself with these techniques."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Obsessing over your looks should not take up all your energy, says psychologist Diana Hill.",
-            "source": "NPR Technology",
-            "item_id": "9ea11ca2f81955830e6fc413e0d2deba47bd721783bcbed88f17a0a742d378e3",
-            "composed": false
-          },
-          {
-            "text": "If you're struggling with uncomfortable thoughts about your body, ground yourself with these techniques.",
-            "source": "NPR Technology",
-            "item_id": "9ea11ca2f81955830e6fc413e0d2deba47bd721783bcbed88f17a0a742d378e3",
-            "composed": false
-          }
-        ],
-        "source": "NPR Technology",
-        "corroborating": [],
-        "url": "https://www.npr.org/2026/08/28/nx-s1-5946751/cant-stop-fixating-on-the-way-you-look-these-4-mental-exercises-may-help"
+        "url": "https://www.france24.com/en/eu-wants-meta-to-extend-us-teen-safety-restrictions-to-europe"
       },
       "group_size": 1,
       "label": "📰 NEWS"
