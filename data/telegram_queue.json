@@ -1,65 +1,230 @@
 {
-  "generated_at": "2026-08-28T11:31:00.713021+00:00",
-  "count": 2,
+  "generated_at": "2026-08-28T11:40:44.464625+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "5e165c6ca150c81f96ffafc42a3f8823a818ca5ce121109529323e8ff775733c",
-      "title": "MTR Corp to deploy a world-first use of skidding method for Hung Shui Kiu station",
-      "url": "https://www.scmp.com/news/hong-kong/transport/article/3365627/mtr-corp-deploy-world-first-use-skidding-method-hung-shui-kiu-station?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "d8d86f67f874e8fd244ba4db6f1ab55d7aae3075c8b38f216055d974a5f74ff9",
+      "title": "Is Nepal facing another devastating flood from a new lake?",
+      "url": "https://www.aljazeera.com/news/2026/8/28/is-nepal-facing-another-devastating-flood-from-a-new-lake?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Hong Kong’s rail operator will use a skidding method – the first worldwide for a heavy-rail project – to build Hung Shui Kiu station, helping to overcome time constraints and ensure completion by 2030. The MTR Corporation said on Friday that the station structures, each weighing about 10,000 tonnes, would be assembled from prefabricated components at worksites on either side of an operational viaduct. They would then be skidded into their designated positions alongside the operating Tuen Ma...",
-      "published_at": "2026-08-28T11:21:18+00:00",
-      "updated_at": "2026-08-28T11:21:18+00:00",
-      "effective_at": "2026-08-28T11:21:18+00:00",
+      "summary": "Glacier collapse in Nepal triggered flash floods, mudslides and a barrier lake where a landslide dammed the river. Two days after a glacier collapse sent a catastrophic flood roaring through parts of Nepal and Tibet on Wednesday, a newly formed river has broken the banks, and a renewed flood threat is looming. The river breach on Friday halted rescue operations in the area after flash floods and mudslides caused by glacial collapse from the Himalayas led to 469 confirmed deaths. More than 1,000 people remain missing across Nepal and China’s Tibet. A lake has formed by the buildup of debris at the border of Nepal and China at the flood site, and as it continues to rise, it increases the flood risk. What happened? On Friday, officials in Nepal’s Rasuwa district said they had been notified that the barrier lake had begun to overflow. “We can see that the level of water in the river is rising,” Narendra Pariyar, Rasuwa’s most senior bureaucrat, said. He added that it is currently unclear how high the water level is. “We do not know how big it is and how high is its water level. We can see that the level of water in the river is rising.” Scientists say this disaster has created not one but two new lakes.",
+      "published_at": "2026-08-28T11:02:10+00:00",
+      "updated_at": "2026-08-28T11:02:10+00:00",
+      "effective_at": "2026-08-28T11:02:10+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
+      "category": "disaster",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "rail",
-      "subregion": "East Asia",
+      "sector": "climate",
+      "subsector": "floods",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "corp",
-        "corporation",
-        "hong_kong",
-        "hung",
-        "kiu",
-        "ma",
-        "mtr",
-        "shui",
-        "tuen"
+        "china",
+        "himalayas",
+        "narendra",
+        "nepal",
+        "pariyar",
+        "rasuwa",
+        "scientists",
+        "tibet"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 85,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "7219e332304520b689880143",
-      "importance_score": 35.0,
-      "importance_level": "LOW",
+      "article_sentences": [
+        "Glacier collapse in Nepal triggered flash floods, mudslides and a barrier lake where a landslide dammed the river.",
+        "Two days after a glacier collapse sent a catastrophic flood roaring through parts of Nepal and Tibet on Wednesday, a newly formed river has broken the banks, and a renewed flood threat is looming.",
+        "The river breach on Friday halted rescue operations in the area after flash floods and mudslides caused by glacial collapse from the Himalayas led to 469 confirmed deaths.",
+        "More than 1,000 people remain missing across Nepal and China’s Tibet.",
+        "A lake has formed by the buildup of debris at the border of Nepal and China at the flood site, and as it continues to rise, it increases the flood risk.",
+        "What happened?",
+        "On Friday, officials in Nepal’s Rasuwa district said they had been notified that the barrier lake had begun to overflow.",
+        "“We can see that the level of water in the river is rising,” Narendra Pariyar, Rasuwa’s most senior bureaucrat, said.",
+        "He added that it is currently unclear how high the water level is.",
+        "“We do not know how big it is and how high is its water level.",
+        "We can see that the level of water in the river is rising.”",
+        "Scientists say this disaster has created not one but two new lakes."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "8f31e9fce76dcb74150ae8a0",
+      "importance_score": 88.0,
+      "importance_level": "CRITICAL",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "impact": 32,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 28,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
+          "dead": 1000,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 1500,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "human": 12,
+          "economic": 4,
+          "scientific": 4,
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "d8d86f67f874e8fd244ba4db6f1ab55d7aae3075c8b38f216055d974a5f74ff9",
+      "public_label": "🔄 UPDATE",
+      "headline": "Is Nepal facing another devastating flood from a new lake?",
+      "briefing": {
+        "opening": [
+          "Glacier collapse in Nepal triggered flash floods, mudslides and a barrier lake where a landslide dammed the river.",
+          "Two days after a glacier collapse sent a catastrophic flood roaring through parts of Nepal and Tibet on Wednesday, a newly formed river has broken the banks, and a renewed flood threat is looming."
+        ],
+        "body": [
+          "The river breach on Friday halted rescue operations in the area after flash floods and mudslides caused by glacial collapse from the Himalayas led to 469 confirmed deaths.",
+          "More than 1,000 people remain missing across Nepal and China’s Tibet.",
+          "What happened?",
+          "On Friday, officials in Nepal’s Rasuwa district said they had been notified that the barrier lake had begun to overflow.",
+          "“We can see that the level of water in the river is rising,” Narendra Pariyar, Rasuwa’s most senior bureaucrat, said.",
+          "He added that it is currently unclear how high the water level is.",
+          "“We do not know how big it is and how high is its water level."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "More than 1,000 people"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "A lake has formed by the buildup of debris at the border of Nepal and China at the flood site, and as it continues to rise, it increases the flood risk."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "More than 1,000 people remain missing across Nepal and China’s Tibet.",
+            "source": "Al Jazeera",
+            "item_id": "d8d86f67f874e8fd244ba4db6f1ab55d7aae3075c8b38f216055d974a5f74ff9:article",
+            "composed": false
+          },
+          {
+            "text": "The river breach on Friday halted rescue operations in the area after flash floods and mudslides caused by glacial collapse from the Himalayas led to 469 confirmed deaths.",
+            "source": "Al Jazeera",
+            "item_id": "d8d86f67f874e8fd244ba4db6f1ab55d7aae3075c8b38f216055d974a5f74ff9:article",
+            "composed": false
+          },
+          {
+            "text": "On Friday, officials in Nepal’s Rasuwa district said they had been notified that the barrier lake had begun to overflow.",
+            "source": "Al Jazeera",
+            "item_id": "d8d86f67f874e8fd244ba4db6f1ab55d7aae3075c8b38f216055d974a5f74ff9:article",
+            "composed": false
+          },
+          {
+            "text": "Two days after a glacier collapse sent a catastrophic flood roaring through parts of Nepal and Tibet on Wednesday, a newly formed river has broken the banks, and a renewed flood threat is looming.",
+            "source": "Al Jazeera",
+            "item_id": "d8d86f67f874e8fd244ba4db6f1ab55d7aae3075c8b38f216055d974a5f74ff9:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/news/2026/8/28/is-nepal-facing-another-devastating-flood-from-a-new-lake?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "bca8d9927303e60dddc65cee6781da046995413c187893f8ad801bab22276e6c",
+      "title": "Norway’s King Harald dies aged 89",
+      "url": "https://www.theguardian.com/world/2026/aug/28/norway-king-harald-dies-leaving-stormy-succession-mette-marit-crown-princesss-epstein-links",
+      "source": "The Guardian World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Monarch’s death comes at turbulent time for royal family over association of crown princess with Jeffrey Epstein King Harald V of Norway, Europe’s oldest reigning monarch, has died aged 89, the royal palace in Oslo has announced. He was succeeded immediately by his son, King Haakon VIII. “It is with deep sadness that we announce that His Majesty King Harald passed away today. King Harald passed away peacefully at Oslo University hospital on Friday 28 August at 6.35am,” the palace said in a statement. Continue reading...",
+      "published_at": "2026-08-28T11:24:15+00:00",
+      "updated_at": "2026-08-28T11:24:15+00:00",
+      "effective_at": "2026-08-28T11:24:15+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "health",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "epstein",
+        "europe",
+        "haakon",
+        "harald",
+        "jeffrey",
+        "majesty",
+        "monarch",
+        "norway",
+        "oslo",
+        "university",
+        "viii"
+      ],
+      "corroborating_sources": 4,
+      "strong_corroboration": 4,
+      "corroborating_source_names": [
+        "South China Morning Post",
+        "Al Jazeera",
+        "DW World",
+        "France 24"
+      ],
+      "verified_match_count": 4,
+      "priority_score": 80,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "event_status": "UPDATE",
+      "event_id": "0dfac97dddffb37b6339218b",
+      "importance_score": 60.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 10,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 89,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -68,73 +233,76 @@
           "crisis": false
         },
         "significance_dims": {
-          "infrastructure": 4
+          "human": 8
         }
       },
-      "story_id": "5e165c6ca150c81f96ffafc42a3f8823a818ca5ce121109529323e8ff775733c",
-      "public_label": "📰 NEWS",
-      "headline": "MTR Corp to deploy a world-first use of skidding method for Hung Shui Kiu station",
+      "story_id": "bca8d9927303e60dddc65cee6781da046995413c187893f8ad801bab22276e6c",
+      "public_label": "🔄 UPDATE",
+      "headline": "Norway’s King Harald dies aged 89",
       "briefing": {
         "opening": [
-          "Hong Kong’s rail operator will use a skidding method – the first worldwide for a heavy-rail project – to build Hung Shui Kiu station, helping to overcome time constraints and ensure completion by 2030.",
-          "The MTR Corporation said on Friday that the station structures, each weighing about 10,000 tonnes, would be assembled from prefabricated components at worksites on either side of an operational viaduct."
+          "Monarch’s death comes at turbulent time for royal family over association of crown princess with Jeffrey Epstein King Harald V of Norway, Europe’s oldest reigning monarch, has died aged 89, the royal palace in Oslo has announced.",
+          "He was succeeded immediately by his son, King Haakon VIII."
         ],
         "body": [
-          "They would then be skidded into their designated positions alongside the operating Tuen Ma..."
+          "“It is with deep sadness that we announce that His Majesty King Harald passed away today.",
+          "King Harald passed away peacefully at Oslo University hospital on Friday 28 August at 6.35am,” the palace said in a statement."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Oslo"
+          }
+        ],
         "sentences": [
           {
-            "text": "The MTR Corporation said on Friday that the station structures, each weighing about 10,000 tonnes, would be assembled from prefabricated components at worksites on either side of an operational viaduct.",
-            "source": "South China Morning Post",
-            "item_id": "5e165c6ca150c81f96ffafc42a3f8823a818ca5ce121109529323e8ff775733c",
+            "text": "He was succeeded immediately by his son, King Haakon VIII.",
+            "source": "The Guardian World",
+            "item_id": "bca8d9927303e60dddc65cee6781da046995413c187893f8ad801bab22276e6c",
             "composed": false
           },
           {
-            "text": "Hong Kong’s rail operator will use a skidding method – the first worldwide for a heavy-rail project – to build Hung Shui Kiu station, helping to overcome time constraints and ensure completion by 2030.",
-            "source": "South China Morning Post",
-            "item_id": "5e165c6ca150c81f96ffafc42a3f8823a818ca5ce121109529323e8ff775733c",
+            "text": "Monarch’s death comes at turbulent time for royal family over association of crown princess with Jeffrey Epstein King Harald V of Norway, Europe’s oldest reigning monarch, has died aged 89, the royal palace in Oslo has announced.",
+            "source": "The Guardian World",
+            "item_id": "bca8d9927303e60dddc65cee6781da046995413c187893f8ad801bab22276e6c",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/transport/article/3365627/mtr-corp-deploy-world-first-use-skidding-method-hung-shui-kiu-station?utm_source=rss_feed"
+        "url": "https://www.theguardian.com/world/2026/aug/28/norway-king-harald-dies-leaving-stormy-succession-mette-marit-crown-princesss-epstein-links"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "f704dd04ee59a6df405600b7b982f2f723f267ebc58c906bca21cc78b630238d",
-      "title": "Uncertainty over CATL lithium mine restart could fuel price volatility: analysts",
-      "url": "https://www.scmp.com/economy/china-economy/article/3365601/uncertainty-over-catl-lithium-mine-restart-could-fuel-price-volatility-analysts?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "73e3ba92283a87108f59a4e1e58c96de4edd31a66149b975b296589cfad4e3a4",
+      "title": "Court sentences former Ukrainian presidential adviser in absentia to 11 years for fakes",
+      "url": "https://tass.com/society/2178875",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "Restart schedules for the Jianxiawo lithium mine in Yichun, Jiangxi Province operated by CATL – the world’s largest lithium-ion-battery producer – are now facing fresh uncertainty. Analysts said the development could fuel volatility in lithium prices in the fourth quarter since the mine – the world’s largest single‑deposit lepidolite mine according to Yichun city – represented roughly 4 to 5 per cent of global supply when operating at full capacity. Local environmental regulator Yichun Ecology...",
-      "published_at": "2026-08-28T11:30:08+00:00",
-      "updated_at": "2026-08-28T11:30:08+00:00",
-      "effective_at": "2026-08-28T11:30:08+00:00",
+      "summary": "The case was heard in absentia after investigators took \"exhaustive measures\" to locate Alexey Arestovich and achieve his extradition, but determined that there was no possibility of securing his appearance in court",
+      "published_at": "2026-08-28T11:34:06+00:00",
+      "updated_at": "2026-08-28T11:34:06+00:00",
+      "effective_at": "2026-08-28T11:34:06+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "politics",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "banking",
-      "subregion": null,
+      "sector": "law",
+      "subsector": "courts",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "catl",
-        "ecology",
-        "jiangxi",
-        "jianxiawo",
-        "province",
-        "restart",
-        "yichun"
+        "alexey",
+        "arestovich",
+        "ukraine"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -144,15 +312,15 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "94f618717554eafcaba28d8f",
-      "importance_score": 32.0,
+      "event_id": "4f4058eb13c0a9a6cec17f45",
+      "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 8.0,
+        "urgency": 7.0,
         "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -169,41 +337,78 @@
         },
         "significance_dims": {}
       },
-      "story_id": "f704dd04ee59a6df405600b7b982f2f723f267ebc58c906bca21cc78b630238d",
+      "story_id": "73e3ba92283a87108f59a4e1e58c96de4edd31a66149b975b296589cfad4e3a4",
+      "article_sentences": [
+        "MOSCOW, August 28.",
+        "Russia’s Second Western District Military Court has sentenced a former freelance adviser to the Ukrainian presidential office, Alexey Arestovich (designated as a terrorist and extremist in Russia), to 11 years in prison in absentia after finding him guilty of inciting terrorism and spreading fake news about the Russian army, the court told TASS.",
+        "\"For all of his crimes, Arestovich was sentenced to 11 years in prison, with the first three years to be served in a penal colony and the remainder in a general security penal colony.",
+        "The court also barred him from administering websites and channels using electronic or information and telecommunications networks for four years,\" the court’s press service said.",
+        "The sentence has not yet entered into legal force and can be appealed.",
+        "According to the Russian Prosecutor General’s Office, Arestovich was convicted under Part 2 of Article 205.2 of the Criminal Code, which covers public calls to engage in terrorist activity using electronic or information and telecommunications networks, and Part 2 of Article 207.3, concerning the public dissemination of knowingly false information, presented as reliable reports, about the use of the Russian Armed Forces.",
+        "The Prosecutor General’s Office said that on March 17, 2022, Arestovich, who was then a freelance adviser to the Ukrainian president’s office, posted a video message on his official social media accounts and a video-hosting platform calling for terrorist activity, including the destruction of railways used to transport and supply Russian troops.",
+        "It said that on April 8, 2022, Arestovich also posted knowingly false information online alleging that Russian forces had allegedly shelled the railway station in Kramatorsk, killing at least 33 people and injuring about 100 civilians.",
+        "The case was heard in absentia after investigators took \"exhaustive measures\" to locate Arestovich and achieve his extradition, but determined that there was no realistic possibility of securing his appearance in court.",
+        "He is outside Russia and has been placed on an international wanted list, according to the Prosecutor General’s Office.",
+        "The state prosecution was represented in court by an official from the Russian Prosecutor General’s Office."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "Uncertainty over CATL lithium mine restart could fuel price volatility: analysts",
+      "headline": "Court sentences former Ukrainian presidential adviser in absentia to 11 years for fakes",
       "briefing": {
         "opening": [
-          "Restart schedules for the Jianxiawo lithium mine in Yichun, Jiangxi Province operated by CATL – the world’s largest lithium-ion-battery producer – are now facing fresh uncertainty.",
-          "Analysts said the development could fuel volatility in lithium prices in the fourth quarter since the mine – the world’s largest single‑deposit lepidolite mine according to Yichun city – represented roughly 4 to 5 per cent of global supply when operating at full capacity."
+          "MOSCOW, August 28.",
+          "Russia’s Second Western District Military Court has sentenced a former freelance adviser to the Ukrainian presidential office, Alexey Arestovich (designated as a terrorist and extremist in Russia), to 11 years in prison in absentia after finding him guilty of inciting terrorism and spreading fake news about the Russian army, the court told TASS."
         ],
         "body": [
-          "Local environmental regulator Yichun Ecology..."
+          "\"For all of his crimes, Arestovich was sentenced to 11 years in prison, with the first three years to be served in a penal colony and the remainder in a general security penal colony.",
+          "The court also barred him from administering websites and channels using electronic or information and telecommunications networks for four years,\" the court’s press service said.",
+          "The sentence has not yet entered into legal force and can be appealed.",
+          "According to the Russian Prosecutor General’s Office, Arestovich was convicted under Part 2 of Article 205.2 of the Criminal Code, which covers public calls to engage in terrorist activity using electronic or information and telecommunications networks, and Part 2 of Article 207.3, concerning the public dissemination of knowingly false information, presented as reliable reports, about the use of the Russian Armed Forces.",
+          "The Prosecutor General’s Office said that on March 17, 2022, Arestovich, who was then a freelance adviser to the Ukrainian president’s office, posted a video message on his official social media accounts and a video-hosting platform calling for terrorist activity, including the destruction of railways used to transport and supply Russian troops.",
+          "It said that on April 8, 2022, Arestovich also posted knowingly false information online alleging that Russian forces had allegedly shelled the railway station in Kramatorsk, killing at least 33 people and injuring about 100 civilians.",
+          "The case was heard in absentia after investigators took \"exhaustive measures\" to locate Arestovich and achieve his extradition, but determined that there was no realistic possibility of securing his appearance in court.",
+          "He is outside Russia and has been placed on an international wanted list, according to the Prosecutor General’s Office."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Yichun"
+            "text": "Russia"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 33 people"
           }
         ],
         "sentences": [
           {
-            "text": "Analysts said the development could fuel volatility in lithium prices in the fourth quarter since the mine – the world’s largest single‑deposit lepidolite mine according to Yichun city – represented roughly 4 to 5 per cent of global supply when operating at full capacity.",
-            "source": "South China Morning Post",
-            "item_id": "f704dd04ee59a6df405600b7b982f2f723f267ebc58c906bca21cc78b630238d",
+            "text": "It said that on April 8, 2022, Arestovich also posted knowingly false information online alleging that Russian forces had allegedly shelled the railway station in Kramatorsk, killing at least 33 people and injuring about 100 civilians.",
+            "source": "TASS English",
+            "item_id": "73e3ba92283a87108f59a4e1e58c96de4edd31a66149b975b296589cfad4e3a4:article",
             "composed": false
           },
           {
-            "text": "Restart schedules for the Jianxiawo lithium mine in Yichun, Jiangxi Province operated by CATL – the world’s largest lithium-ion-battery producer – are now facing fresh uncertainty.",
-            "source": "South China Morning Post",
-            "item_id": "f704dd04ee59a6df405600b7b982f2f723f267ebc58c906bca21cc78b630238d",
+            "text": "Office said that on March 17, 2022, Arestovich, who was then a freelance adviser to the Ukrainian president’s office, posted a video message on his official social media accounts and a video-hosting platform calling for terrorist activity, including the destruction of railways used to transport and supply Russian troops.",
+            "source": "TASS English",
+            "item_id": "73e3ba92283a87108f59a4e1e58c96de4edd31a66149b975b296589cfad4e3a4:article",
+            "composed": false
+          },
+          {
+            "text": "Russia’s Second Western District Military Court has sentenced a former freelance adviser to the Ukrainian presidential office, Alexey Arestovich (designated as a terrorist and extremist in Russia), to 11 years in prison in absentia after finding him guilty of inciting terrorism and spreading fake news about the Russian army, the court told TASS.",
+            "source": "TASS English",
+            "item_id": "73e3ba92283a87108f59a4e1e58c96de4edd31a66149b975b296589cfad4e3a4:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, August 28.",
+            "source": "TASS English",
+            "item_id": "73e3ba92283a87108f59a4e1e58c96de4edd31a66149b975b296589cfad4e3a4:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.scmp.com/economy/china-economy/article/3365601/uncertainty-over-catl-lithium-mine-restart-could-fuel-price-volatility-analysts?utm_source=rss_feed"
+        "url": "https://tass.com/society/2178875"
       },
       "group_size": 1,
       "label": "📰 NEWS"
