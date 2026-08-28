@@ -1,45 +1,159 @@
 {
-  "generated_at": "2026-08-28T15:30:59.514666+00:00",
-  "count": 2,
+  "generated_at": "2026-08-28T15:40:48.213914+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "a61483117feb6bb1b300e9fb153d3ed9e612cc469ee44d94a2d639f896a7784b",
-      "title": "Twelve-year-old found dead in Moscow Region",
-      "url": "https://tass.com/emergencies/2178989",
-      "source": "TASS English",
+      "id": "cafdc8ea383fd6de1c363d78713fed8820a6d296c5a605920f1b619b843baba4",
+      "title": "There is no proof that this video shows a plane crash in Tel Aviv",
+      "url": "https://www.france24.com/en/middle-east/20260828-no-proof-video-shows-plane-crash-tel-aviv",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "The law enforcement agencies are checking three schoolgirls for involvement in the killing",
-      "published_at": "2026-08-28T15:20:54+00:00",
-      "updated_at": "2026-08-28T15:20:54+00:00",
-      "effective_at": "2026-08-28T15:20:54+00:00",
+      "summary": "A video showing an airplane rammed into the side of a building has been circulating widely on social media. While social media users are claiming that the video shows a plane that crashed in Tel Aviv after an Iranian attack, its origin remains unknown and its authenticity highly questionable.",
+      "published_at": "2026-08-28T15:31:19+00:00",
+      "updated_at": "2026-08-28T15:31:19+00:00",
+      "effective_at": "2026-08-28T15:31:19+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 73,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "law",
-      "subregion": "Europe",
+      "urgency_terms": [
+        "plane crash"
+      ],
+      "sector": "technology",
+      "subsector": "internet",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "region",
-        "russia"
+        "aviv",
+        "iran",
+        "tel"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "89fc9af3b160985fa803f010",
-      "importance_score": 36.0,
-      "importance_level": "LOW",
+      "event_id": "0a0af9cbfbb121be42ad9cd5",
+      "importance_score": 51.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 18,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": true,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4
+        }
+      },
+      "story_id": "cafdc8ea383fd6de1c363d78713fed8820a6d296c5a605920f1b619b843baba4",
+      "public_label": "📰 NEWS",
+      "headline": "There is no proof that this video shows a plane crash in Tel Aviv",
+      "briefing": {
+        "opening": [
+          "A video showing an airplane rammed into the side of a building has been circulating widely on social media.",
+          "While social media users are claiming that the video shows a plane that crashed in Tel Aviv after an Iranian attack, its origin remains unknown and its authenticity highly questionable."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Tel Aviv"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A video showing an airplane rammed into the side of a building has been circulating widely on social media.",
+            "source": "France 24",
+            "item_id": "cafdc8ea383fd6de1c363d78713fed8820a6d296c5a605920f1b619b843baba4",
+            "composed": false
+          },
+          {
+            "text": "While social media users are claiming that the video shows a plane that crashed in Tel Aviv after an Iranian attack, its origin remains unknown and its authenticity highly questionable.",
+            "source": "France 24",
+            "item_id": "cafdc8ea383fd6de1c363d78713fed8820a6d296c5a605920f1b619b843baba4",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/middle-east/20260828-no-proof-video-shows-plane-crash-tel-aviv"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "2b983080d27457f90507fad8c9bc9b3bb9fbcdff952730fb567902faeb5d7bb4",
+      "title": "US issues fresh Iran-related sanctions as war marks six months",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-issues-fresh-iran-related-sanctions-war-marks-six-months",
+      "source": "Middle East Eye",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "US issues fresh Iran-related sanctions as war marks six months The United States issued more Iran-related sanctions targeting one entity and one individual on Friday after Treasury Secretary Scott Bessent earlier this week threatened further action amid the ongoing US-Israeli war on Iran. The sanctions target one entity based in Hong Kong and one person linked to&nbsp;Iran's Bank Melli, a notice posted on the Department of Treasury's website showed.",
+      "published_at": "2026-08-28T15:36:01+00:00",
+      "updated_at": "2026-08-28T15:36:01+00:00",
+      "effective_at": "2026-08-28T15:36:01+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "trade",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "bank",
+        "bessent",
+        "department",
+        "hong_kong",
+        "iran",
+        "iran-related",
+        "melli",
+        "scott",
+        "treasury",
+        "united_states",
+        "us",
+        "us-israeli"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Straits Times Asia"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 100,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "event_status": "NEW",
+      "event_id": "a258f3bc837fab410d85694a",
+      "importance_score": 50.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
@@ -47,8 +161,8 @@
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
+        "corroboration": 6,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -61,124 +175,95 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 4,
-          "scientific": 4
+          "security": 8,
+          "geopolitical": 8
         }
       },
-      "story_id": "a61483117feb6bb1b300e9fb153d3ed9e612cc469ee44d94a2d639f896a7784b",
-      "article_sentences": [
-        "MOSCOW, August 28.",
-        "A 12-year-old boy has been found dead in the Moscow Region city of Orekhovo-Zuyevo; law enforcement agencies are checking three schoolgirls for possible involvement in his killing, a law enforcement source told TASS.",
-        "\"A boy’s body bearing signs of a violent death has been found,\" the source said.",
-        "The source added that law enforcement agencies were checking three schoolgirls for involvement in the killing.",
-        "Some media outlets reported that they may have committed the crime at the instruction of third parties.",
-        "Investigators have opened a criminal case, the press service of the Investigative Committee’s Main Investigative Directorate for the Moscow Region said.",
-        "\"During the investigation into the killing of the boy in the Orekhovo-Zuyevo district, our investigators, working with Interior Ministry officers, detained two minors.",
-        "Investigators are establishing all the circumstances of the incident.",
-        "Charges will be brought against the suspects shortly, and a pretrial measure will be selected,\" the statement said."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Twelve-year-old found dead in Moscow Region",
+      "story_id": "2b983080d27457f90507fad8c9bc9b3bb9fbcdff952730fb567902faeb5d7bb4",
+      "public_label": "⚡ JUST IN",
+      "headline": "US issues fresh Iran-related sanctions as war marks six months",
       "briefing": {
         "opening": [
-          "MOSCOW, August 28.",
-          "A 12-year-old boy has been found dead in the Moscow Region city of Orekhovo-Zuyevo; law enforcement agencies are checking three schoolgirls for possible involvement in his killing, a law enforcement source told TASS."
+          "The United States issued more Iran-related sanctions targeting one entity and one individual on Friday after Treasury Secretary Scott Bessent earlier this week threatened further action amid the ongoing US-Israeli war on Iran.",
+          "The sanctions target one entity based in Hong Kong and one person linked to Iran's Bank Melli, a notice posted on the Department of Treasury's website showed."
         ],
-        "body": [
-          "\"A boy’s body bearing signs of a violent death has been found,\" the source said.",
-          "The source added that law enforcement agencies were checking three schoolgirls for involvement in the killing.",
-          "Some media outlets reported that they may have committed the crime at the instruction of third parties.",
-          "Investigators have opened a criminal case, the press service of the Investigative Committee’s Main Investigative Directorate for the Moscow Region said.",
-          "\"During the investigation into the killing of the boy in the Orekhovo-Zuyevo district, our investigators, working with Interior Ministry officers, detained two minors.",
-          "Investigators are establishing all the circumstances of the incident.",
-          "Charges will be brought against the suspects shortly, and a pretrial measure will be selected,\" the statement said.",
-          "The law enforcement agencies are checking three schoolgirls for involvement in the killing."
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Hong Kong"
+          }
         ],
-        "bullets": [],
         "sentences": [
           {
-            "text": "Investigators have opened a criminal case, the press service of the Investigative Committee’s Main Investigative Directorate for the Moscow Region said.",
-            "source": "TASS English",
-            "item_id": "a61483117feb6bb1b300e9fb153d3ed9e612cc469ee44d94a2d639f896a7784b:article",
+            "text": "The United States issued more Iran-related sanctions targeting one entity and one individual on Friday after Treasury Secretary Scott Bessent earlier this week threatened further action amid the ongoing US-Israeli war on Iran.",
+            "source": "Middle East Eye",
+            "item_id": "2b983080d27457f90507fad8c9bc9b3bb9fbcdff952730fb567902faeb5d7bb4",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 28.",
-            "source": "TASS English",
-            "item_id": "a61483117feb6bb1b300e9fb153d3ed9e612cc469ee44d94a2d639f896a7784b:article",
-            "composed": false
-          },
-          {
-            "text": "A 12-year-old boy has been found dead in the Moscow Region city of Orekhovo-Zuyevo; law enforcement agencies are checking three schoolgirls for possible involvement in his killing, a law enforcement source told TASS.",
-            "source": "TASS English",
-            "item_id": "a61483117feb6bb1b300e9fb153d3ed9e612cc469ee44d94a2d639f896a7784b:article",
+            "text": "The sanctions target one entity based in Hong Kong and one person linked to Iran's Bank Melli, a notice posted on the Department of Treasury's website showed.",
+            "source": "Middle East Eye",
+            "item_id": "2b983080d27457f90507fad8c9bc9b3bb9fbcdff952730fb567902faeb5d7bb4",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Middle East Eye",
         "corroborating": [],
-        "url": "https://tass.com/emergencies/2178989"
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-issues-fresh-iran-related-sanctions-war-marks-six-months"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "⚡ JUST IN"
     },
     {
-      "id": "8aea90e932b7c0c62117dcc39473dea1c3d8e8b5dde006ecae5eba8ccc6bbccd",
-      "title": "Tropical Storm Dolly speeding across Atlantic toward the Caribbean",
-      "url": "https://www.theguardian.com/weather/2026/aug/28/tropical-storm-dolly-caribbean",
-      "source": "The Guardian World",
+      "id": "179e5a34ee150a47c7cc4bd922d5daa9320a733990b80c4d7fa30d2db98cfadf",
+      "title": "Watch: Taxi, autorickshaw fares to rise in Mumbai from September 1; residents voice concerns",
+      "url": "https://www.thehindu.com/videos/watch-taxi-autorickshaw-fares-to-rise-in-mumbai-from-september-1-residents-voice-concerns/article71401568.ece",
+      "source": "The Hindu",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Asia",
       "discovery": false,
-      "summary": "Weather system is forecast to approach the Leeward Islands this weekend and may produce flash flooding Tropical Storm Dolly is moving quickly across the Atlantic Ocean toward the Leeward Islands and is expected to bring significant rainfall to parts of the Caribbean this weekend, the National Hurricane Center (NHC) said on Friday morning. Dolly, which formed on Thursday, had maximum sustained winds of near 40mph (65km/h) with higher gusts as of Friday. Continue reading...",
-      "published_at": "2026-08-28T15:23:18+00:00",
-      "updated_at": "2026-08-28T15:23:18+00:00",
-      "effective_at": "2026-08-28T15:23:18+00:00",
+      "summary": "Starting September 1st, auto-rickshaw and kaali-peeli taxi fares across the Mumbai Metropolitan Region (MMR) are going up—marking the first revision in 18 months. In this video, we cover the complete price breakdown, electronic meter recalibration rules, commuter reactions, and ongoing driver regulations.",
+      "published_at": "2026-08-28T15:27:18+00:00",
+      "updated_at": "2026-08-28T15:27:18+00:00",
+      "effective_at": "2026-08-28T15:27:18+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 73,
+      "score": 65,
       "confidence": "medium",
-      "urgency_terms": [
-        "hurricane"
-      ],
-      "sector": "climate",
-      "subsector": "storms",
-      "subregion": null,
+      "urgency_terms": [],
+      "sector": "science",
+      "subsector": "chemistry",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "atlantic",
-        "caribbean",
-        "center",
-        "dolly",
-        "hurricane",
-        "islands",
-        "leeward",
-        "national",
-        "nhc",
-        "ocean",
-        "storm",
-        "tropical",
-        "weather"
+        "metropolitan",
+        "mmr",
+        "mumbai",
+        "region",
+        "starting",
+        "taxi"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "a9c31d5d881b4a00e9e72421",
-      "importance_score": 24.0,
+      "event_status": "NEW",
+      "event_id": "65239550a5afeefba9fd1de2",
+      "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -195,36 +280,36 @@
         },
         "significance_dims": {}
       },
-      "story_id": "8aea90e932b7c0c62117dcc39473dea1c3d8e8b5dde006ecae5eba8ccc6bbccd",
-      "public_label": "🔄 UPDATE",
-      "headline": "Tropical Storm Dolly speeding across Atlantic toward the Caribbean",
+      "story_id": "179e5a34ee150a47c7cc4bd922d5daa9320a733990b80c4d7fa30d2db98cfadf",
+      "public_label": "📰 NEWS",
+      "headline": "Taxi, autorickshaw fares to rise in Mumbai from September 1; residents voice concerns",
       "briefing": {
         "opening": [
-          "Weather system is forecast to approach the Leeward Islands this weekend and may produce flash flooding Tropical Storm Dolly is moving quickly across the Atlantic Ocean toward the Leeward Islands and is expected to bring significant rainfall to parts of the Caribbean this weekend, the National Hurricane Center (NHC) said on Friday morning.",
-          "Dolly, which formed on Thursday, had maximum sustained winds of near 40mph (65km/h) with higher gusts as of Friday."
+          "Starting September 1st, auto-rickshaw and kaali-peeli taxi fares across the Mumbai Metropolitan Region (MMR) are going up—marking the first revision in 18 months.",
+          "In this video, we cover the complete price breakdown, electronic meter recalibration rules, commuter reactions, and ongoing driver regulations."
         ],
         "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "Dolly, which formed on Thursday, had maximum sustained winds of near 40mph (65km/h) with higher gusts as of Friday.",
-            "source": "The Guardian World",
-            "item_id": "8aea90e932b7c0c62117dcc39473dea1c3d8e8b5dde006ecae5eba8ccc6bbccd",
+            "text": "In this video, we cover the complete price breakdown, electronic meter recalibration rules, commuter reactions, and ongoing driver regulations.",
+            "source": "The Hindu",
+            "item_id": "179e5a34ee150a47c7cc4bd922d5daa9320a733990b80c4d7fa30d2db98cfadf",
             "composed": false
           },
           {
-            "text": "Weather system is forecast to approach the Leeward Islands this weekend and may produce flash flooding Tropical Storm Dolly is moving quickly across the Atlantic Ocean toward the Leeward Islands and is expected to bring significant rainfall to parts of the Caribbean this weekend, the National Hurricane Center (NHC) said on Friday morning.",
-            "source": "The Guardian World",
-            "item_id": "8aea90e932b7c0c62117dcc39473dea1c3d8e8b5dde006ecae5eba8ccc6bbccd",
+            "text": "Starting September 1st, auto-rickshaw and kaali-peeli taxi fares across the Mumbai Metropolitan Region (MMR) are going up—marking the first revision in 18 months.",
+            "source": "The Hindu",
+            "item_id": "179e5a34ee150a47c7cc4bd922d5daa9320a733990b80c4d7fa30d2db98cfadf",
             "composed": false
           }
         ],
-        "source": "The Guardian World",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.theguardian.com/weather/2026/aug/28/tropical-storm-dolly-caribbean"
+        "url": "https://www.thehindu.com/videos/watch-taxi-autorickshaw-fares-to-rise-in-mumbai-from-september-1-residents-voice-concerns/article71401568.ece"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     }
   ]
 }
