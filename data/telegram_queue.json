@@ -1,66 +1,59 @@
 {
-  "generated_at": "2026-08-28T11:01:18.448434+00:00",
-  "count": 4,
+  "generated_at": "2026-08-28T11:10:50.516607+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "00cc02c9df205f85c3e1351ac4bb6522ada903f7ebfe4f8c80afd2697c28f557",
-      "title": "Russian strikes on military targets in Ukraine, contacts with US top Kremlin briefing",
-      "url": "https://tass.com/politics/2178851",
-      "source": "TASS English",
+      "id": "82ef9703fb65d61bb796ba34a1f35762d93264a9fef30b7a272a7c5c354a44f4",
+      "title": "Nepal-Tibet flood death toll passes 500 as rescue resumes",
+      "url": "https://www.dw.com/en/nepal-tibet-flood-death-toll-passes-500-as-rescue-resumes/a-78539559?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "According to Dmitry Peskov, no telephone conversation between Russian President Vladimir Putin and US leader Donald Trump is planned at present",
-      "published_at": "2026-08-28T10:50:31+00:00",
-      "updated_at": "2026-08-28T10:50:31+00:00",
-      "effective_at": "2026-08-28T10:50:31+00:00",
+      "summary": "More than a thousand people are still missing after deadly floods and landslides on the China-Nepal border. Rescue efforts were temporarily paused after an overflowing lake threatened to trigger more floods.",
+      "published_at": null,
+      "updated_at": "2026-08-28T11:04:00+00:00",
+      "effective_at": "2026-08-28T11:04:00+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "Europe",
+      "sector": "climate",
+      "subsector": "floods",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "according",
-        "dmitry",
-        "donald",
-        "peskov",
-        "putin",
-        "russia",
-        "trump",
-        "ukraine",
-        "us",
-        "vladimir"
+        "china-nepal"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "The Guardian World"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 98,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
       "event_status": "UPDATE",
-      "event_id": "825216e2d70d517c9afa5b12",
-      "importance_score": 52.0,
-      "importance_level": "MEDIUM",
+      "event_id": "7020c28984ba2f7e6d498168",
+      "importance_score": 72.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 26.0,
         "urgency": 7.0,
         "novelty": 8.0,
-        "scope": "MULTI_COUNTRY",
-        "scope_points": 7,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 24,
+        "corroboration": 6,
+        "significance": 14,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
+          "dead": 500,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -69,215 +62,80 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 8,
-          "security": 8,
-          "geopolitical": 8
+          "human": 10,
+          "geopolitical": 4
         }
       },
-      "story_id": "00cc02c9df205f85c3e1351ac4bb6522ada903f7ebfe4f8c80afd2697c28f557",
-      "article_sentences": [
-        "MOSCOW, August 28.",
-        "The continuation of the special military operation, possible contacts between the Russian president and US representatives, and Vladimir Putin’s schedule became the main topics of Kremlin Spokesman Dmitry Peskov’s Friday briefing.",
-        "TASS has compiled his key statements.",
-        "Russian President Vladimir Putin will speak with his Belarusian counterpart Alexander Lukashenko on Saturday afternoon.",
-        "Putin is already preparing for the upcoming Eastern Economic Forum.",
-        "Putin will head to Nizhny Novgorod for a working trip today.",
-        "No telephone conversation between Russian President Vladimir Putin and US leader Donald Trump is planned at present.",
-        "\"No, there are no such plans for now.\"",
-        "The president did not meet with the CIA director because contacts took place \"with intelligence agencies.\" \"There was no such meeting, no contacts with the president,\" Peskov said.",
-        "The president is preparing to attend the Shanghai Cooperation Organization summit.",
-        "\"Preparations for the trip to Bishkek are in progress.\"",
-        "Peace talks on Ukraine are currently on hold."
-      ],
+      "story_id": "82ef9703fb65d61bb796ba34a1f35762d93264a9fef30b7a272a7c5c354a44f4",
       "public_label": "🔄 UPDATE",
-      "headline": "Russian strikes on military targets in Ukraine, contacts with US top Kremlin briefing",
+      "headline": "Nepal-Tibet flood death toll passes 500 as rescue resumes",
       "briefing": {
         "opening": [
-          "MOSCOW, August 28.",
-          "The continuation of the special military operation, possible contacts between the Russian president and US representatives, and Vladimir Putin’s schedule became the main topics of Kremlin Spokesman Dmitry Peskov’s Friday briefing."
+          "More than a thousand people are still missing after deadly floods and landslides on the China-Nepal border.",
+          "Rescue efforts were temporarily paused after an overflowing lake threatened to trigger more floods."
         ],
-        "body": [
-          "TASS has compiled his key statements.",
-          "Russian President Vladimir Putin will speak with his Belarusian counterpart Alexander Lukashenko on Saturday afternoon.",
-          "Putin is already preparing for the upcoming Eastern Economic Forum.",
-          "Putin will head to Nizhny Novgorod for a working trip today.",
-          "No telephone conversation between Russian President Vladimir Putin and US leader Donald Trump is planned at present.",
-          "\"No, there are no such plans for now.\" The president did not meet with the CIA director because contacts took place \"with intelligence agencies.\" \"There was no such meeting, no contacts with the president,\" Peskov said.",
-          "The president is preparing to attend the Shanghai Cooperation Organization summit.",
-          "\"Preparations for the trip to Bishkek are in progress.\" Peace talks on Ukraine are currently on hold."
-        ],
+        "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "No telephone conversation between Russian President Vladimir Putin and US leader Donald Trump is planned at present.",
-            "source": "TASS English",
-            "item_id": "00cc02c9df205f85c3e1351ac4bb6522ada903f7ebfe4f8c80afd2697c28f557:article",
+            "text": "Rescue efforts were temporarily paused after an overflowing lake threatened to trigger more floods.",
+            "source": "DW World",
+            "item_id": "82ef9703fb65d61bb796ba34a1f35762d93264a9fef30b7a272a7c5c354a44f4",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 28.",
-            "source": "TASS English",
-            "item_id": "00cc02c9df205f85c3e1351ac4bb6522ada903f7ebfe4f8c80afd2697c28f557:article",
-            "composed": false
-          },
-          {
-            "text": "The continuation of the special military operation, possible contacts between the Russian president and US representatives, and Vladimir Putin’s schedule became the main topics of Kremlin Spokesman Dmitry Peskov’s Friday briefing.",
-            "source": "TASS English",
-            "item_id": "00cc02c9df205f85c3e1351ac4bb6522ada903f7ebfe4f8c80afd2697c28f557:article",
-            "composed": false
-          },
-          {
-            "text": "Russian President Vladimir Putin will speak with his Belarusian counterpart Alexander Lukashenko on Saturday afternoon.",
-            "source": "TASS English",
-            "item_id": "00cc02c9df205f85c3e1351ac4bb6522ada903f7ebfe4f8c80afd2697c28f557:article",
+            "text": "More than a thousand people are still missing after deadly floods and landslides on the China-Nepal border.",
+            "source": "DW World",
+            "item_id": "82ef9703fb65d61bb796ba34a1f35762d93264a9fef30b7a272a7c5c354a44f4",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "DW World",
         "corroborating": [],
-        "url": "https://tass.com/politics/2178851"
+        "url": "https://www.dw.com/en/nepal-tibet-flood-death-toll-passes-500-as-rescue-resumes/a-78539559?maca=en-rss-en-world-4025-rdf"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
     },
     {
-      "id": "b811b1546132891f6865fba56ff8f18e32949e1d097d0cf7372a0f6182d48a17",
-      "title": "Dutch court jails man for life over role in Rwanda genocide",
-      "url": "https://www.scmp.com/news/world/europe/article/3365618/dutch-court-jails-man-life-over-role-rwanda-genocide?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec",
+      "title": "Syria's top Druze leader calls community 'integral part of Israel'",
+      "url": "http://www.euronews.com/2026/08/28/syrias-top-druze-leader-calls-community-integral-part-of-israel",
+      "source": "Euronews",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "A Dutch court on Friday handed a life sentence to a 66-year-old man for his role in the massacre of 3,000 Tutsis during the 1994 Rwanda genocide. During the violence that took place in April 1994, terrified victims sought refuge in a football stadium in Mbazi, southern Rwanda, only to be systematically slaughtered. The judge said that the man, identified as Eugene N., prevented Tutsis from escaping the stadium and threw a grenade into the crowd. The court said he was also involved in attacks...",
-      "published_at": "2026-08-28T10:56:13+00:00",
-      "updated_at": "2026-08-28T10:56:13+00:00",
-      "effective_at": "2026-08-28T10:56:13+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "courts",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "dutch",
-        "eugene",
-        "mbazi",
-        "rwanda",
-        "tutsis"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 93,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "a22ea593c108f9fe9cb3af27",
-      "importance_score": 36.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "human": 8
-        }
-      },
-      "story_id": "b811b1546132891f6865fba56ff8f18e32949e1d097d0cf7372a0f6182d48a17",
-      "public_label": "📰 NEWS",
-      "headline": "Dutch court jails man for life over role in Rwanda genocide",
-      "briefing": {
-        "opening": [
-          "A Dutch court on Friday handed a life sentence to a 66-year-old man for his role in the massacre of 3,000 Tutsis during the 1994 Rwanda genocide.",
-          "During the violence that took place in April 1994, terrified victims sought refuge in a football stadium in Mbazi, southern Rwanda, only to be systematically slaughtered."
-        ],
-        "body": [
-          "The judge said that the man, identified as Eugene N., prevented Tutsis from escaping the stadium and threw a grenade into the crowd.",
-          "The court said he was also involved in attacks..."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "April"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "During the violence that took place in April 1994, terrified victims sought refuge in a football stadium in Mbazi, southern Rwanda, only to be systematically slaughtered.",
-            "source": "South China Morning Post",
-            "item_id": "b811b1546132891f6865fba56ff8f18e32949e1d097d0cf7372a0f6182d48a17",
-            "composed": false
-          },
-          {
-            "text": "A Dutch court on Friday handed a life sentence to a 66-year-old man for his role in the massacre of 3,000 Tutsis during the 1994 Rwanda genocide.",
-            "source": "South China Morning Post",
-            "item_id": "b811b1546132891f6865fba56ff8f18e32949e1d097d0cf7372a0f6182d48a17",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/news/world/europe/article/3365618/dutch-court-jails-man-life-over-role-rwanda-genocide?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "73f676e5c9f3a9c77cef176911bb5c9dccb67bd6b8eda93d436bb43ffb652ceb",
-      "title": "Regular container shipping via Northern Sea Route becomes ‘Ice Silk Road’ — Kobyakov",
-      "url": "https://tass.com/economy/2178847",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "The NSR offers its participants unprecedented opportunities in the current environment of disrupted logistics chains and traditional routes being blocked by areas of military and political tensions, the EEF Executive Secretary stressed",
-      "published_at": "2026-08-28T10:55:19+00:00",
-      "updated_at": "2026-08-28T10:55:19+00:00",
-      "effective_at": "2026-08-28T10:55:19+00:00",
+      "summary": "Sheikh al-Aql Hikmat al-Hijri made the declaration at a gathering in Suwayda, praising Israel's model of state-building and saying the two communities shared doctrinal \"common denominators,\" a statement that deepens the rift with Damascus. The spiritual leader of Syria's Druze has described the community as \"an integral part of the State of Israel,\" a declaration that drew sharp reactions across the region and deepened tensions between Suwayda province and Damascus. Hikmat al-Hijri made the statement at a gathering in Suwayda on Monday, praising Israel's model of state-building and saying the two communities shared \"common denominators\" that he said extended to doctrine. He said the region's inhabitants shared a common fate and that the current period would require sacrifices to achieve stability. Al-Hijri is one of Syria's three Sheikh al-Aql, the senior religious leaders of the country's Druze community, and has emerged as its most influential political and spiritual figure in Suwayda. The Druze follow a monotheistic faith that emerged in the 11th century as an offshoot of Ismaili Islam and is now generally regarded as a distinct religion. There are roughly 1 million Druze worldwide, with most living in Suwayda province in the southwest and the surrounding Jabal al-Arab, and smaller communities in Lebanon and Israel. The Israeli Druze have a specific status within Israel: unlike other Arab citizens, they are subject to mandatory military service and have traditionally served in the Israeli Defence Forces. Al-Hijri linked his vision for Suwayda's future to establishing a \"civil state\" that guarantees the rights of all communities without discrimination. He hinted at developments in the province that could be announced \"within days,\" without elaborating. Al-Hijri has previously called for special administrative arrangements for Suwayda and floated the idea of the province coming under international protection or joining another state. He thanked Israel publicly for its military intervention during clashes in July 2025, when Israeli aircraft struck targets in Damascus and elsewhere in what Israel described as protection of Druze communities.",
+      "published_at": "2026-08-28T11:05:11+00:00",
+      "updated_at": "2026-08-28T11:05:11+00:00",
+      "effective_at": "2026-08-28T11:05:11+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "shipping",
-      "subregion": null,
+      "sector": "infrastructure",
+      "subsector": "construction",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "eef",
-        "ice",
-        "kobyakov",
-        "northern",
-        "nsr",
-        "road",
-        "route",
-        "sea",
-        "silk"
+        "arab",
+        "damascus",
+        "defence",
+        "druze",
+        "forces",
+        "hikmat",
+        "islam",
+        "ismaili",
+        "israel",
+        "jabal",
+        "lebanon",
+        "sheikh",
+        "state",
+        "suwayda",
+        "syria"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -286,16 +144,30 @@
       "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "Sheikh al-Aql Hikmat al-Hijri made the declaration at a gathering in Suwayda, praising Israel's model of state-building and saying the two communities shared doctrinal \"common denominators,\" a statement that deepens the rift with Damascus.",
+        "The spiritual leader of Syria's Druze has described the community as \"an integral part of the State of Israel,\" a declaration that drew sharp reactions across the region and deepened tensions between Suwayda province and Damascus.",
+        "Hikmat al-Hijri made the statement at a gathering in Suwayda on Monday, praising Israel's model of state-building and saying the two communities shared \"common denominators\" that he said extended to doctrine.",
+        "He said the region's inhabitants shared a common fate and that the current period would require sacrifices to achieve stability.",
+        "Al-Hijri is one of Syria's three Sheikh al-Aql, the senior religious leaders of the country's Druze community, and has emerged as its most influential political and spiritual figure in Suwayda.",
+        "The Druze follow a monotheistic faith that emerged in the 11th century as an offshoot of Ismaili Islam and is now generally regarded as a distinct religion.",
+        "There are roughly 1 million Druze worldwide, with most living in Suwayda province in the southwest and the surrounding Jabal al-Arab, and smaller communities in Lebanon and Israel.",
+        "The Israeli Druze have a specific status within Israel: unlike other Arab citizens, they are subject to mandatory military service and have traditionally served in the Israeli Defence Forces.",
+        "Al-Hijri linked his vision for Suwayda's future to establishing a \"civil state\" that guarantees the rights of all communities without discrimination.",
+        "He hinted at developments in the province that could be announced \"within days,\" without elaborating.",
+        "Al-Hijri has previously called for special administrative arrangements for Suwayda and floated the idea of the province coming under international protection or joining another state.",
+        "He thanked Israel publicly for its military intervention during clashes in July 2025, when Israeli aircraft struck targets in Damascus and elsewhere in what Israel described as protection of Druze communities."
+      ],
       "event_status": "NEW",
-      "event_id": "28ad5c324d438cd706e753e8",
-      "importance_score": 30.0,
+      "event_id": "58e6bb3934577468c4e4a06f",
+      "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 8.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
         "significance": 4,
@@ -314,112 +186,112 @@
           "security": 4
         }
       },
-      "story_id": "73f676e5c9f3a9c77cef176911bb5c9dccb67bd6b8eda93d436bb43ffb652ceb",
-      "article_sentences": [
-        "MOSCOW, August 28.",
-        "Regular container shipping via the Northern Sea Route (NSR) has become an \"Ice Silk Road,\" Russian Presidential Adviser and Executive Secretary of the Eastern Economic Forum (EEF) Organizing Committee Anton Kobyakov told TASS in an interview ahead of the forum.",
-        "\"The NSR offers its participants unprecedented opportunities precisely in the current environment of disrupted logistics chains and traditional routes being blocked by areas of military and political tensions.",
-        "A striking example is the announcement by Chinese company Sea Legend of the launch of regular container shipping via the NSR, which they call the ‘Ice Silk Road,’\" Kobyakov said.",
-        "He explained that the Belt and Road Initiative previously comprised two components - the 21st Century Maritime Silk Road and the Silk Road Economic Belt.",
-        "\"It turns out that the NSR is a third, newly emerging component of the initiative, one that China, unlike the first two, would have no way of implementing without Russia,\" he noted.",
-        "The Eastern Economic Forum will be held on September 1-4 in Vladivostok on the campus of Far Eastern Federal University.",
-        "The forum is organized by the Roscongress Foundation with the support of the Russian government.",
-        "TASS is the general information partner."
-      ],
+      "story_id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec",
       "public_label": "📰 NEWS",
-      "headline": "Regular container shipping via Northern Sea Route becomes ‘Ice Silk Road’ — Kobyakov",
+      "headline": "Syria's top Druze leader calls community 'integral part of Israel'",
       "briefing": {
         "opening": [
-          "MOSCOW, August 28.",
-          "Regular container shipping via the Northern Sea Route (NSR) has become an \"Ice Silk Road,\" Russian Presidential Adviser and Executive Secretary of the Eastern Economic Forum (EEF) Organizing Committee Anton Kobyakov told TASS in an interview ahead of the forum."
+          "Sheikh al-Aql Hikmat al-Hijri made the declaration at a gathering in Suwayda, praising Israel's model of state-building and saying the two communities shared doctrinal \"common denominators,\" a statement that deepens the rift with Damascus.",
+          "The spiritual leader of Syria's Druze has described the community as \"an integral part of the State of Israel,\" a declaration that drew sharp reactions across the region and deepened tensions between Suwayda province and Damascus."
         ],
         "body": [
-          "\"The NSR offers its participants unprecedented opportunities precisely in the current environment of disrupted logistics chains and traditional routes being blocked by areas of military and political tensions.",
-          "A striking example is the announcement by Chinese company Sea Legend of the launch of regular container shipping via the NSR, which they call the ‘Ice Silk Road,’\" Kobyakov said.",
-          "He explained that the Belt and Road Initiative previously comprised two components - the 21st Century Maritime Silk Road and the Silk Road Economic Belt.",
-          "\"It turns out that the NSR is a third, newly emerging component of the initiative, one that China, unlike the first two, would have no way of implementing without Russia,\" he noted.",
-          "The Eastern Economic Forum will be held on September 1-4 in Vladivostok on the campus of Far Eastern Federal University.",
-          "The forum is organized by the Roscongress Foundation with the support of the Russian government.",
-          "TASS is the general information partner."
+          "Hikmat al-Hijri made the statement at a gathering in Suwayda on Monday, praising Israel's model of state-building and saying the two communities shared \"common denominators\" that he said extended to doctrine.",
+          "He said the region's inhabitants shared a common fate and that the current period would require sacrifices to achieve stability.",
+          "Al-Hijri is one of Syria's three Sheikh al-Aql, the senior religious leaders of the country's Druze community, and has emerged as its most influential political and spiritual figure in Suwayda.",
+          "The Druze follow a monotheistic faith that emerged in the 11th century as an offshoot of Ismaili Islam and is now generally regarded as a distinct religion.",
+          "There are roughly 1 million Druze worldwide, with most living in Suwayda province in the southwest and the surrounding Jabal al-Arab, and smaller communities in Lebanon and Israel.",
+          "The Israeli Druze have a specific status within Israel: unlike other Arab citizens, they are subject to mandatory military service and have traditionally served in the Israeli Defence Forces.",
+          "Al-Hijri linked his vision for Suwayda's future to establishing a \"civil state\" that guarantees the rights of all communities without discrimination.",
+          "He hinted at developments in the province that could be announced \"within days,\" without elaborating."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Vladivostok"
+            "text": "Suwayda"
           }
         ],
         "sentences": [
           {
-            "text": "Regular container shipping via the Northern Sea Route (NSR) has become an \"Ice Silk Road,\" Russian Presidential Adviser and Executive Secretary of the Eastern Economic Forum (EEF) Organizing Committee Anton Kobyakov told TASS in an interview ahead of the forum.",
-            "source": "TASS English",
-            "item_id": "73f676e5c9f3a9c77cef176911bb5c9dccb67bd6b8eda93d436bb43ffb652ceb:article",
+            "text": "There are roughly 1 million Druze worldwide, with most living in Suwayda province in the southwest and the surrounding Jabal al-Arab, and smaller communities in Lebanon and Israel.",
+            "source": "Euronews",
+            "item_id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec:article",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 28.",
-            "source": "TASS English",
-            "item_id": "73f676e5c9f3a9c77cef176911bb5c9dccb67bd6b8eda93d436bb43ffb652ceb:article",
+            "text": "Hikmat al-Hijri made the statement at a gathering in Suwayda on Monday, praising Israel's model of state-building and saying the two communities shared \"common denominators\" that he said extended to doctrine.",
+            "source": "Euronews",
+            "item_id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec:article",
             "composed": false
           },
           {
-            "text": "He explained that the Belt and Road Initiative previously comprised two components - the 21st Century Maritime Silk Road and the Silk Road Economic Belt.",
-            "source": "TASS English",
-            "item_id": "73f676e5c9f3a9c77cef176911bb5c9dccb67bd6b8eda93d436bb43ffb652ceb:article",
+            "text": "The Druze follow a monotheistic faith that emerged in the 11th century as an offshoot of Ismaili Islam and is now generally regarded as a distinct religion.",
+            "source": "Euronews",
+            "item_id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec:article",
+            "composed": false
+          },
+          {
+            "text": "Sheikh al-Aql Hikmat al-Hijri made the declaration at a gathering in Suwayda, praising Israel's model of state-building and saying the two communities shared doctrinal \"common denominators,\" a statement that deepens the rift with Damascus.",
+            "source": "Euronews",
+            "item_id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Euronews",
         "corroborating": [],
-        "url": "https://tass.com/economy/2178847"
+        "url": "http://www.euronews.com/2026/08/28/syrias-top-druze-leader-calls-community-integral-part-of-israel"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "ca3895402a4d5ddcbab279059fb76bd66d57276d5935add159dbf32153302422",
-      "title": "Europe injects 39 bcm of gas into storage facilities for next winter",
-      "url": "https://tass.com/economy/2178859",
-      "source": "TASS English",
+      "id": "4a3c962561c49fd4d5d02b66b332f0b09f8aabfbcc9fed8a215b99608c064185",
+      "title": "Norway's King Haakon VIII, the new face of a monarchy beset by woe and scandal",
+      "url": "https://www.france24.com/en/europe/20260828-norway-s-king-haakon-the-new-face-of-a-monarchy-shaken-by-scandal",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "Europe has so far managed to inject only 58% of the volumes needed for the coming winter into its UGS facilities",
-      "published_at": "2026-08-28T10:57:43+00:00",
-      "updated_at": "2026-08-28T10:57:43+00:00",
-      "effective_at": "2026-08-28T10:57:43+00:00",
+      "summary": "Norway's King Haakon VIII automatically succeeded to the throne after his father, King Harald, passed away on Friday. He is the new face of a monarchy long praised for its modernity and modesty, but in recent years it has been beset by woe and scandal, including revelations about the queen's friendship with disgraced financier Jeffrey Epstein.",
+      "published_at": "2026-08-28T07:51:11+00:00",
+      "updated_at": "2026-08-28T07:51:11+00:00",
+      "effective_at": "2026-08-28T07:51:11+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "oil_gas",
-      "subregion": null,
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "europe",
-        "ugs"
+        "epstein",
+        "haakon",
+        "harald",
+        "jeffrey",
+        "norway",
+        "viii"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "1ee6a39d16df3e2c7a4a93e5",
-      "importance_score": 26.0,
+      "event_id": "0dfac97dddffb37b6339218b",
+      "importance_score": 27.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 6.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -436,73 +308,33 @@
         },
         "significance_dims": {}
       },
-      "story_id": "ca3895402a4d5ddcbab279059fb76bd66d57276d5935add159dbf32153302422",
-      "article_sentences": [
-        "MOSCOW, August 28.",
-        "Net gas injection - the difference between injection and withdrawal volumes - by EU countries into underground gas storage (UGS) facilities has exceeded 39 bln cubic meters since the start of the summer season in April 2026, according to TASS calculations based on data from Gas Infrastructure Europe (GIE).",
-        "Thus, Europe has so far managed to inject only 58% of the volumes needed for the coming winter into its UGS facilities.",
-        "As of August 26, European UGS facilities were 63.8% full, 17.24 percentage points below the five-year average for that date, compared with 76.5% a year earlier.",
-        "This is the lowest level for this date since records began in 2011.",
-        "EU storage facilities currently hold around 69.7 bln cubic meters of gas, 14.3 bln cubic meters less than a year earlier and the lowest level since 2013.",
-        "Gazprom previously forecast that gas inventories in European UGS facilities may not even reach 75% by the next heating season.",
-        "TASS previously reported that Europe risks entering the heating season with record-low gas inventories.",
-        "The average pace of replenishing gas inventories at EU UGS facilities in July was among the lowest since records began in 2011 and accelerated only slightly in August.",
-        "At the current pace, Europe may have its storage facilities only 70-75% full by the start of the fall-winter period, which would be an all-time low for the beginning of the heating season.",
-        "Under European Commission requirements, EU countries must ensure that their gas storage facilities are 90% full each year between October 1 and December 1.",
-        "A 10% flexibility margin is allowed in the event of difficult storage-filling conditions."
-      ],
+      "story_id": "4a3c962561c49fd4d5d02b66b332f0b09f8aabfbcc9fed8a215b99608c064185",
       "public_label": "📰 NEWS",
-      "headline": "Europe injects 39 bcm of gas into storage facilities for next winter",
+      "headline": "Norway's King Haakon VIII, the new face of a monarchy beset by woe and scandal",
       "briefing": {
         "opening": [
-          "MOSCOW, August 28.",
-          "Net gas injection - the difference between injection and withdrawal volumes - by EU countries into underground gas storage (UGS) facilities has exceeded 39 bln cubic meters since the start of the summer season in April 2026, according to TASS calculations based on data from Gas Infrastructure Europe (GIE)."
+          "Norway's King Haakon VIII automatically succeeded to the throne after his father, King Harald, passed away on Friday.",
+          "He is the new face of a monarchy long praised for its modernity and modesty, but in recent years it has been beset by woe and scandal, including revelations about the queen's friendship with disgraced financier Jeffrey Epstein."
         ],
-        "body": [
-          "Thus, Europe has so far managed to inject only 58% of the volumes needed for the coming winter into its UGS facilities.",
-          "As of August 26, European UGS facilities were 63.8% full, 17.24 percentage points below the five-year average for that date, compared with 76.5% a year earlier.",
-          "This is the lowest level for this date since records began in 2011.",
-          "EU storage facilities currently hold around 69.7 bln cubic meters of gas, 14.3 bln cubic meters less than a year earlier and the lowest level since 2013.",
-          "TASS previously reported that Europe risks entering the heating season with record-low gas inventories.",
-          "The average pace of replenishing gas inventories at EU UGS facilities in July was among the lowest since records began in 2011 and accelerated only slightly in August.",
-          "A 10% flexibility margin is allowed in the event of difficult storage-filling conditions."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "April"
-          }
-        ],
+        "body": [],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Net gas injection - the difference between injection and withdrawal volumes - by EU countries into underground gas storage (UGS) facilities has exceeded 39 bln cubic meters since the start of the summer season in April 2026, according to TASS calculations based on data from Gas Infrastructure Europe (GIE).",
-            "source": "TASS English",
-            "item_id": "ca3895402a4d5ddcbab279059fb76bd66d57276d5935add159dbf32153302422:article",
+            "text": "He is the new face of a monarchy long praised for its modernity and modesty, but in recent years it has been beset by woe and scandal, including revelations about the queen's friendship with disgraced financier Jeffrey Epstein.",
+            "source": "France 24",
+            "item_id": "4a3c962561c49fd4d5d02b66b332f0b09f8aabfbcc9fed8a215b99608c064185",
             "composed": false
           },
           {
-            "text": "The average pace of replenishing gas inventories at EU UGS facilities in July was among the lowest since records began in 2011 and accelerated only slightly in August.",
-            "source": "TASS English",
-            "item_id": "ca3895402a4d5ddcbab279059fb76bd66d57276d5935add159dbf32153302422:article",
-            "composed": false
-          },
-          {
-            "text": "As of August 26, European UGS facilities were 63.8% full, 17.24 percentage points below the five-year average for that date, compared with 76.5% a year earlier.",
-            "source": "TASS English",
-            "item_id": "ca3895402a4d5ddcbab279059fb76bd66d57276d5935add159dbf32153302422:article",
-            "composed": false
-          },
-          {
-            "text": "EU storage facilities currently hold around 69.7 bln cubic meters of gas, 14.3 bln cubic meters less than a year earlier and the lowest level since 2013.",
-            "source": "TASS English",
-            "item_id": "ca3895402a4d5ddcbab279059fb76bd66d57276d5935add159dbf32153302422:article",
+            "text": "Norway's King Haakon VIII automatically succeeded to the throne after his father, King Harald, passed away on Friday.",
+            "source": "France 24",
+            "item_id": "4a3c962561c49fd4d5d02b66b332f0b09f8aabfbcc9fed8a215b99608c064185",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://tass.com/economy/2178859"
+        "url": "https://www.france24.com/en/europe/20260828-norway-s-king-haakon-the-new-face-of-a-monarchy-shaken-by-scandal"
       },
       "group_size": 1,
       "label": "📰 NEWS"
