@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T03:40:43.308365+00:00",
-  "count": 3,
+  "generated_at": "2026-08-28T03:50:42.498761+00:00",
+  "count": 1,
   "stories": [
     {
       "id": "d895deef63a40709c358949c2bba231f6ccf2d3b0a74a53ca3963175cc1a4133",
@@ -12,10 +12,10 @@
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "The catastrophic flash flood has left 1,300 missing, with hundreds of tourists unaccounted for as rescuers race to find survivors Nearly 1,400 missing, mostly tourists, and hundreds killed Nepal-Tibet flash flood: what we know so far on day three Visual guide: how the deadly flooding unfolded Tell us: have you been affected by the flash floods? The family of two Sydney boys who went missing with their parents in Nepal say they remain hopeful they will be found saf e. The four were taking part in a pilgrimage when the flood hit and are among 39 Australians identified as missing in the region. Just like everyone else that’s part of that group, we’re really worried, but hopeful. Hopeful that th",
-      "published_at": "2026-08-28T03:24:41+00:00",
-      "updated_at": "2026-08-28T03:24:41+00:00",
-      "effective_at": "2026-08-28T03:24:41+00:00",
+      "summary": "The catastrophic flash flood has left 1,300 missing, with hundreds of tourists unaccounted for as rescuers race to find survivors Nearly 1,400 missing, mostly tourists, and hundreds killed Nepal-Tibet flash flood: what we know so far on day three Visual guide: how the deadly flooding unfolded Tell us: have you been affected by the flash floods? The Nepalese army says it is working to rescue 100 people trapped in a hydropower tunnel after the flooding. We’ll bring you more on this soon. Just like everyone else that’s part of that group, we’re really worried, but hopeful. Hopeful that they’re safe and just waiting to be rescued. It’s a very difficult time for our whole family … I just want to ",
+      "published_at": "2026-08-28T03:42:15+00:00",
+      "updated_at": "2026-08-28T03:42:15+00:00",
+      "effective_at": "2026-08-28T03:42:15+00:00",
       "language_status": "ENGLISH",
       "category": "disaster",
       "score": 65,
@@ -26,11 +26,9 @@
       "subregion": "South Asia",
       "country": null,
       "entities": [
-        "australia",
-        "australians",
         "nearly",
-        "nepal",
         "nepal-tibet",
+        "nepalese",
         "visual"
       ],
       "corroborating_sources": 0,
@@ -41,9 +39,9 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "UPDATE",
-      "event_id": "3d73d2ab06d8afa7d6c921e3",
-      "importance_score": 78.0,
-      "importance_level": "HIGH",
+      "event_id": "a6c7f712c4357f825d973430",
+      "importance_score": 86.0,
+      "importance_level": "CRITICAL",
       "importance_breakdown": {
         "impact": 32,
         "urgency": 10,
@@ -52,7 +50,7 @@
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 16,
+        "significance": 24,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -60,13 +58,14 @@
           "injured": 0,
           "displaced": 0,
           "missing": 1400,
-          "affected": 0,
+          "affected": 300,
           "major_incident": false,
           "crisis": true
         },
         "significance_dims": {
+          "infrastructure": 8,
           "human": 12,
-          "scientific": 4
+          "geopolitical": 4
         }
       },
       "story_id": "d895deef63a40709c358949c2bba231f6ccf2d3b0a74a53ca3963175cc1a4133",
@@ -75,35 +74,36 @@
       "briefing": {
         "opening": [
           "The catastrophic flash flood has left 1,300 missing, with hundreds of tourists unaccounted for as rescuers race to find survivors Nearly 1,400 missing, mostly tourists, and hundreds killed Nepal-Tibet flash flood: what we know so far on day three Visual guide: how the deadly flooding unfolded Tell us: have you been affected by the flash floods?",
-          "The family of two Sydney boys who went missing with their parents in Nepal say they remain hopeful they will be found saf."
+          "The Nepalese army says it is working to rescue 100 people trapped in a hydropower tunnel after the flooding."
         ],
         "body": [
-          "The four were taking part in a pilgrimage when the flood hit and are among 39 Australians identified as missing in the region.",
+          "We’ll bring you more on this soon.",
           "Just like everyone else that’s part of that group, we’re really worried, but hopeful.",
-          "Hopeful that th."
+          "Hopeful that they’re safe and just waiting to be rescued.",
+          "It’s a very difficult time for our whole family… I just want to."
         ],
         "bullets": [
           {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
+            "icon": "👥",
+            "label": "Impact",
+            "text": "100 people"
           }
         ],
         "sentences": [
           {
-            "text": "Just like everyone else that’s part of that group, we’re really worried, but hopeful.",
-            "source": "The Guardian World",
-            "item_id": "d895deef63a40709c358949c2bba231f6ccf2d3b0a74a53ca3963175cc1a4133",
-            "composed": false
-          },
-          {
-            "text": "The four were taking part in a pilgrimage when the flood hit and are among 39 Australians identified as missing in the region.",
+            "text": "We’ll bring you more on this soon.",
             "source": "The Guardian World",
             "item_id": "d895deef63a40709c358949c2bba231f6ccf2d3b0a74a53ca3963175cc1a4133",
             "composed": false
           },
           {
             "text": "The catastrophic flash flood has left 1,300 missing, with hundreds of tourists unaccounted for as rescuers race to find survivors Nearly 1,400 missing, mostly tourists, and hundreds killed Nepal-Tibet flash flood: what we know so far on day three Visual guide: how the deadly flooding unfolded Tell us: have you been affected by the flash floods?",
+            "source": "The Guardian World",
+            "item_id": "d895deef63a40709c358949c2bba231f6ccf2d3b0a74a53ca3963175cc1a4133",
+            "composed": false
+          },
+          {
+            "text": "The Nepalese army says it is working to rescue 100 people trapped in a hydropower tunnel after the flooding.",
             "source": "The Guardian World",
             "item_id": "d895deef63a40709c358949c2bba231f6ccf2d3b0a74a53ca3963175cc1a4133",
             "composed": false
@@ -115,248 +115,6 @@
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
-    },
-    {
-      "id": "97a708bfbe8950e18904f8f0b46d4c9a9d09ec5311ca3deda70eef5f130bd02c",
-      "title": "Malaysian PM Anwar’s National Day address moved indoors due to haze",
-      "url": "https://www.straitstimes.com/asia/se-asia/malaysian-pm-anwars-national-day-address-moved-indoors-due-to-haze",
-      "source": "Straits Times Asia",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Malaysia’s 2026 National Day Prime Minister Anwar Ibrahim’s address has been moved indoors to the Putrajaya International Convention Centre due to haze conditions. The move aims to ensure safety, health, comfort, and smooth running of the event without affecting the celebration’s spirit. Decisions on the National Day parade will depend on health and environmental assessments, with the public advised to stay updated on haze developments. Malaysia’s 2026 National Day Prime Minister Anwar Ibrahim’s Address, scheduled for Aug 30 at 9.30pm, has been moved from Dataran Merdeka to the Putrajaya International Convention Centre (PICC) due to haze, says the country’s Communications Ministry. The ministry said the decision was made as an adaptive measure in view of current conditions, particularly to ensure the safety, health and comfort of guests and the public, as well as the smooth running of the event. “The relocation will not affect the programme or spirit of the 2026 National Day celebrations, but is instead a responsible measure to ensure the event is held in a more controlled and comfortable environment,” it said in a statement on Aug 27. The statement said the Federal Government will continue to monitor the haze situation and air quality from time to time. Meanwhile, a decision on whether the National Day 2026 parade will proceed will be made based on the prevailing situation, as well as assessments and advice from the Health Ministry, Environment Department and Malaysian Meteorological Department.",
-      "published_at": "2026-08-28T03:35:00+00:00",
-      "updated_at": "2026-08-28T03:35:00+00:00",
-      "effective_at": "2026-08-28T03:35:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "Southeast Asia",
-      "country": null,
-      "entities": [
-        "address",
-        "anwar",
-        "aug",
-        "centre",
-        "communications",
-        "convention",
-        "dataran",
-        "day",
-        "department",
-        "environment",
-        "federal",
-        "government",
-        "health",
-        "ibrahim",
-        "international",
-        "malaysia",
-        "malaysian",
-        "merdeka",
-        "meteorological",
-        "ministry",
-        "national",
-        "picc",
-        "pm",
-        "putrajaya"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 95,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "Malaysia’s 2026 National Day Prime Minister Anwar Ibrahim’s address has been moved indoors to the Putrajaya International Convention Centre due to haze conditions.",
-        "The move aims to ensure safety, health, comfort, and smooth running of the event without affecting the celebration’s spirit.",
-        "Decisions on the National Day parade will depend on health and environmental assessments, with the public advised to stay updated on haze developments.",
-        "Malaysia’s 2026 National Day Prime Minister Anwar Ibrahim’s Address, scheduled for Aug 30 at 9.30pm, has been moved from Dataran Merdeka to the Putrajaya International Convention Centre (PICC) due to haze, says the country’s Communications Ministry.",
-        "The ministry said the decision was made as an adaptive measure in view of current conditions, particularly to ensure the safety, health and comfort of guests and the public, as well as the smooth running of the event.",
-        "“The relocation will not affect the programme or spirit of the 2026 National Day celebrations, but is instead a responsible measure to ensure the event is held in a more controlled and comfortable environment,” it said in a statement on Aug 27.",
-        "The statement said the Federal Government will continue to monitor the haze situation and air quality from time to time.",
-        "Meanwhile, a decision on whether the National Day 2026 parade will proceed will be made based on the prevailing situation, as well as assessments and advice from the Health Ministry, Environment Department and Malaysian Meteorological Department."
-      ],
-      "event_status": "NEW",
-      "event_id": "cc5093a56b42a0cea48d6a69",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "geopolitical": 4
-        }
-      },
-      "story_id": "97a708bfbe8950e18904f8f0b46d4c9a9d09ec5311ca3deda70eef5f130bd02c",
-      "public_label": "📰 NEWS",
-      "headline": "Malaysian PM Anwar’s National Day address moved indoors due to haze",
-      "briefing": {
-        "opening": [
-          "Malaysia’s 2026 National Day Prime Minister Anwar Ibrahim’s address has been moved indoors to the Putrajaya International Convention Centre due to haze conditions.",
-          "The move aims to ensure safety, health, comfort, and smooth running of the event without affecting the celebration’s spirit."
-        ],
-        "body": [
-          "Decisions on the National Day parade will depend on health and environmental assessments, with the public advised to stay updated on haze developments.",
-          "Malaysia’s 2026 National Day Prime Minister Anwar Ibrahim’s Address, scheduled for Aug 30 at 9.30pm, has been moved from Dataran Merdeka to the Putrajaya International Convention Centre (PICC) due to haze, says the country’s Communications Ministry.",
-          "The ministry said the decision was made as an adaptive measure in view of current conditions, particularly to ensure the safety, health and comfort of guests and the public, as well as the smooth running of the event.",
-          "“The relocation will not affect the programme or spirit of the 2026 National Day celebrations, but is instead a responsible measure to ensure the event is held in a more controlled and comfortable environment,” it said in a statement on Aug 27.",
-          "The statement said the Federal Government will continue to monitor the haze situation and air quality from time to time.",
-          "Meanwhile, a decision on whether the National Day 2026 parade will proceed will be made based on the prevailing situation, as well as assessments and advice from the Health Ministry, Environment Department and Malaysian Meteorological Department."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Malaysia’s 2026 National Day Prime Minister Anwar Ibrahim’s Address, scheduled for Aug 30 at 9.30pm, has been moved from Dataran Merdeka to the Putrajaya International Convention Centre (PICC) due to haze, says the country’s Communications Ministry.",
-            "source": "Straits Times Asia",
-            "item_id": "97a708bfbe8950e18904f8f0b46d4c9a9d09ec5311ca3deda70eef5f130bd02c:article",
-            "composed": false
-          },
-          {
-            "text": "“The relocation will not affect the programme or spirit of the 2026 National Day celebrations, but is instead a responsible measure to ensure the event is held in a more controlled and comfortable environment,” it said in a statement on Aug 27.",
-            "source": "Straits Times Asia",
-            "item_id": "97a708bfbe8950e18904f8f0b46d4c9a9d09ec5311ca3deda70eef5f130bd02c:article",
-            "composed": false
-          },
-          {
-            "text": "Malaysia’s 2026 National Day Prime Minister Anwar Ibrahim’s address has been moved indoors to the Putrajaya International Convention Centre due to haze conditions.",
-            "source": "Straits Times Asia",
-            "item_id": "97a708bfbe8950e18904f8f0b46d4c9a9d09ec5311ca3deda70eef5f130bd02c:article",
-            "composed": false
-          },
-          {
-            "text": "Meanwhile, a decision on whether the National Day 2026 parade will proceed will be made based on the prevailing situation, as well as assessments and advice from the Health Ministry, Environment Department and Malaysian Meteorological Department.",
-            "source": "Straits Times Asia",
-            "item_id": "97a708bfbe8950e18904f8f0b46d4c9a9d09ec5311ca3deda70eef5f130bd02c:article",
-            "composed": false
-          }
-        ],
-        "source": "Straits Times Asia",
-        "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/se-asia/malaysian-pm-anwars-national-day-address-moved-indoors-due-to-haze"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "41d17c3778e89b6830dad0a495617bfc3b87ecaae8caed6dfa14dd4abe313dda",
-      "title": "ICE agents in US to be equipped with pain-delivering electric shock gloves",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3365528/ice-agents-us-be-equipped-pain-delivering-electric-shock-gloves?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "North America",
-      "discovery": false,
-      "summary": "US Immigration and Customs Enforcement has awarded a US$16.7 million contract to purchase 6,000 pairs of gloves that can deliver painful electric shocks, saying officers would use them to control detainees and protesters who resist. ICE moved forward with the purchase despite opposition from civil rights advocates and Democratic members of Congress, who said ICE officers cannot be trusted to use them appropriately. A notice published in a federal database Thursday said ICE entered into a no-bid...",
-      "published_at": "2026-08-28T03:38:43+00:00",
-      "updated_at": "2026-08-28T03:38:43+00:00",
-      "effective_at": "2026-08-28T03:38:43+00:00",
-      "language_status": "ENGLISH",
-      "category": "health",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "health",
-      "subsector": "public_health",
-      "subregion": "United States",
-      "country": null,
-      "entities": [
-        "congress",
-        "customs",
-        "democratic",
-        "enforcement",
-        "ice",
-        "immigration",
-        "us"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 100,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "1bd112adc69dcdedffcf344e",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "41d17c3778e89b6830dad0a495617bfc3b87ecaae8caed6dfa14dd4abe313dda",
-      "public_label": "📰 NEWS",
-      "headline": "ICE agents in US to be equipped with pain-delivering electric shock gloves",
-      "briefing": {
-        "opening": [
-          "US Immigration and Customs Enforcement has awarded a US$16.7 million contract to purchase 6,000 pairs of gloves that can deliver painful electric shocks, saying officers would use them to control detainees and protesters who resist.",
-          "ICE moved forward with the purchase despite opposition from civil rights advocates and Democratic members of Congress, who said ICE officers cannot be trusted to use them appropriately."
-        ],
-        "body": [
-          "A notice published in a federal database Thursday said ICE entered into a no-bid..."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "ICE moved forward with the purchase despite opposition from civil rights advocates and Democratic members of Congress, who said ICE officers cannot be trusted to use them appropriately.",
-            "source": "South China Morning Post",
-            "item_id": "41d17c3778e89b6830dad0a495617bfc3b87ecaae8caed6dfa14dd4abe313dda",
-            "composed": false
-          },
-          {
-            "text": "US Immigration and Customs Enforcement has awarded a US$16.7 million contract to purchase 6,000 pairs of gloves that can deliver painful electric shocks, saying officers would use them to control detainees and protesters who resist.",
-            "source": "South China Morning Post",
-            "item_id": "41d17c3778e89b6830dad0a495617bfc3b87ecaae8caed6dfa14dd4abe313dda",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3365528/ice-agents-us-be-equipped-pain-delivering-electric-shock-gloves?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
     }
   ]
 }
