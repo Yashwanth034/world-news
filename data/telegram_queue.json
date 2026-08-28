@@ -1,37 +1,440 @@
 {
-  "generated_at": "2026-08-28T14:20:52.031041+00:00",
-  "count": 2,
+  "generated_at": "2026-08-28T14:31:03.540264+00:00",
+  "count": 5,
   "stories": [
     {
-      "id": "97bd7ffdffcbc50cdd852eac3d7e426e1ae33e3698ec4fe567a90577ced5511f",
-      "title": "BYD posts US$1.2 billion profit in second quarter on surging global demand",
-      "url": "https://www.scmp.com/business/china-evs/article/3365652/byd-posts-us12-billion-profit-second-quarter-surging-global-demand?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "d5efeefafb5b0448a5abd37c12d62932c2dca6747f03adfbb92d00b942974544",
+      "title": "Almost 2,000 people reported missing in Nepal floods, with over 4,400 people rescued",
+      "url": "https://tass.com/emergencies/2178969",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "The rescue operation has involved 15,431 people",
+      "published_at": "2026-08-28T14:29:42+00:00",
+      "updated_at": "2026-08-28T14:29:42+00:00",
+      "effective_at": "2026-08-28T14:29:42+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "climate",
+      "subsector": "floods",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "nepal"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 85,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "073454979752b6895ee19237",
+      "importance_score": 76.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 32,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 2325,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 4400,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 12,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "d5efeefafb5b0448a5abd37c12d62932c2dca6747f03adfbb92d00b942974544",
+      "article_sentences": [
+        "NEW DELHI, August 28.",
+        "Almost 2,000 people are missing in devastating floods in Nepal, and more than 4,400 people have been rescued, according to data from the country’s National Disaster Risk Reduction and Management Authority (NDRRMA).",
+        "\"As many as 1,924 are reported missing,\" including 517 foreign tourists, the NDDRMA said in a statement on Friday.",
+        "The rescue operation has involved 15,431 people.",
+        "\"A total of 4,451 people have been rescued,\" the statement reads.",
+        "The NDRRMA has also confirmed 579 deaths.",
+        "The rescue operation is ongoing."
+      ],
+      "public_label": "🔄 UPDATE",
+      "headline": "Almost 2,000 people reported missing in Nepal floods, with over 4,400 people rescued",
+      "briefing": {
+        "opening": [
+          "NEW DELHI, August 28.",
+          "Almost 2,000 people are missing in devastating floods in Nepal, and more than 4,400 people have been rescued, according to data from the country’s National Disaster Risk Reduction and Management Authority (NDRRMA)."
+        ],
+        "body": [
+          "\"As many as 1,924 are reported missing,\" including 517 foreign tourists, the NDDRMA said in a statement on Friday.",
+          "The rescue operation has involved 15,431 people.",
+          "\"A total of 4,451 people have been rescued,\" the statement reads.",
+          "The NDRRMA has also confirmed 579 deaths.",
+          "The rescue operation is ongoing."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "Almost 2,000 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Almost 2,000 people are missing in devastating floods in Nepal, and more than 4,400 people have been rescued, according to data from the country’s National Disaster Risk Reduction and Management Authority (NDRRMA).",
+            "source": "TASS English",
+            "item_id": "d5efeefafb5b0448a5abd37c12d62932c2dca6747f03adfbb92d00b942974544:article",
+            "composed": false
+          },
+          {
+            "text": "\"As many as 1,924 are reported missing,\" including 517 foreign tourists, the NDDRMA said in a statement on Friday.",
+            "source": "TASS English",
+            "item_id": "d5efeefafb5b0448a5abd37c12d62932c2dca6747f03adfbb92d00b942974544:article",
+            "composed": false
+          },
+          {
+            "text": "The NDRRMA has also confirmed 579 deaths.",
+            "source": "TASS English",
+            "item_id": "d5efeefafb5b0448a5abd37c12d62932c2dca6747f03adfbb92d00b942974544:article",
+            "composed": false
+          },
+          {
+            "text": "The rescue operation has involved 15,431 people.",
+            "source": "TASS English",
+            "item_id": "d5efeefafb5b0448a5abd37c12d62932c2dca6747f03adfbb92d00b942974544:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/emergencies/2178969"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "cd8bec05cf3cf597e8e3849ff99637bbf724f16c0f483370992d0dee1fd20615",
+      "title": "Failure to implement Gaza plan threatens ceasefire — Board of Peace official",
+      "url": "https://tass.com/world/2178963",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "The Board’s High Representative for Gaza Nikolay Mladenov stressed that his warning \"applies to both the Israeli and Palestinian sides\"",
+      "published_at": "2026-08-28T14:28:34+00:00",
+      "updated_at": "2026-08-28T14:28:34+00:00",
+      "effective_at": "2026-08-28T14:28:34+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "conflict",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "gaza",
+        "high",
+        "israel",
+        "mladenov",
+        "nikolay",
+        "palestine",
+        "peace"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "a07a07855433ae4f3de8c0b0",
+      "importance_score": 38.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 9.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 8
+        }
+      },
+      "story_id": "cd8bec05cf3cf597e8e3849ff99637bbf724f16c0f483370992d0dee1fd20615",
+      "article_sentences": [
+        "RABAT, August 28.",
+        "Failure to implement the Board of Peace’s plan for resolving the situation in the Gaza Strip will lead to the collapse of the ceasefire reached between Israel and the Palestinian movement Hamas, Nikolay Mladenov, the Board’s High Representative for Gaza, said.",
+        "\"Failure to comply with the roadmap developed by the Board of Peace threatens to derail the Gaza ceasefire,\" Mladenov said, according to Al Jazeera.",
+        "He stressed that his warning \"applies to both the Israeli and Palestinian sides.\"",
+        "\"There is no better alternative to the current plan for the Gaza Strip, and a return to war will have devastating consequences,\" the Board of Peace official added.",
+        "\"The Board of Peace has determined the mechanism for deploying the International Stabilization Force and the locations where it will be stationed in Gaza,\" Mladenov said.",
+        "\"An agreement has been reached with Morocco on the participation of the kingdom’s contingent in the International Stabilization Force in Gaza, while Turkey will not take part,\" he added.",
+        "\"The advance contingent of the International Stabilization Force should arrive in the Gaza Strip soon.\"",
+        "\"The Board of Peace has received pledges totaling $7 billion for Gaza’s reconstruction,\" Mladenov said.",
+        "He also reported \"ongoing talks with the Israeli side on increasing humanitarian aid deliveries to the Palestinian enclave.\"",
+        "On August 9, Israeli Prime Minister Benjamin Netanyahu said that Israel rejected the Board of Peace’s 15-point Gaza plan and would not withdraw its troops from the Palestinian enclave until Hamas is genuinely disarmed.",
+        "In October 2025, Israel and Hamas reached a ceasefire agreement in Gaza through mediation by Egypt, Qatar, the United States and Turkey."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Failure to implement Gaza plan threatens ceasefire — Board of Peace official",
+      "briefing": {
+        "opening": [
+          "RABAT, August 28.",
+          "Failure to implement the Board of Peace’s plan for resolving the situation in the Gaza Strip will lead to the collapse of the ceasefire reached between Israel and the Palestinian movement Hamas, Nikolay Mladenov, the Board’s High Representative for Gaza, said."
+        ],
+        "body": [
+          "\"Failure to comply with the roadmap developed by the Board of Peace threatens to derail the Gaza ceasefire,\" Mladenov said, according to Al Jazeera.",
+          "He stressed that his warning \"applies to both the Israeli and Palestinian sides.\" \"There is no better alternative to the current plan for the Gaza Strip, and a return to war will have devastating consequences,\" the Board of Peace official added.",
+          "\"The Board of Peace has determined the mechanism for deploying the International Stabilization Force and the locations where it will be stationed in Gaza,\" Mladenov said.",
+          "\"An agreement has been reached with Morocco on the participation of the kingdom’s contingent in the International Stabilization Force in Gaza, while Turkey will not take part,\" he added.",
+          "\"The advance contingent of the International Stabilization Force should arrive in the Gaza Strip soon.\" \"The Board of Peace has received pledges totaling $7 billion for Gaza’s reconstruction,\" Mladenov said.",
+          "He also reported \"ongoing talks with the Israeli side on increasing humanitarian aid deliveries to the Palestinian enclave.\" On August 9, Israeli Prime Minister Benjamin Netanyahu said that Israel rejected the Board of Peace’s 15-point Gaza plan and would not withdraw its troops from the Palestinian enclave until Hamas is genuinely disarmed.",
+          "In October 2025, Israel and Hamas reached a ceasefire agreement in Gaza through mediation by Egypt, Qatar, the United States and Turkey.",
+          "The Board’s High Representative for Gaza Nikolay Mladenov stressed that his warning \"applies to both the Israeli and Palestinian sides\"."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Gaza"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "In October 2025, Israel and Hamas reached a ceasefire agreement in Gaza through mediation by Egypt, Qatar, the United States and Turkey.",
+            "source": "TASS English",
+            "item_id": "cd8bec05cf3cf597e8e3849ff99637bbf724f16c0f483370992d0dee1fd20615:article",
+            "composed": false
+          },
+          {
+            "text": "\"The Board of Peace has received pledges totaling $7 billion for Gaza’s reconstruction,\" Mladenov said.",
+            "source": "TASS English",
+            "item_id": "cd8bec05cf3cf597e8e3849ff99637bbf724f16c0f483370992d0dee1fd20615:article",
+            "composed": false
+          },
+          {
+            "text": "\"The Board of Peace has determined the mechanism for deploying the International Stabilization Force and the locations where it will be stationed in Gaza,\" Mladenov said.",
+            "source": "TASS English",
+            "item_id": "cd8bec05cf3cf597e8e3849ff99637bbf724f16c0f483370992d0dee1fd20615:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/world/2178963"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "3bc54929e8e36214a287d7c3744233e7dc921366d005c2a4e9b3dc095a0d5f48",
+      "title": "Shootings surge as drug gangs torment Brussels",
+      "url": "https://www.bbc.co.uk/news/articles/c9w4r7e7z4ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Last Monday night, drug gangs turned Salvatore's pizzeria in Brussels into a crime scene. \"We dropped to the floor. I had clients eating on the terrace with children. Look, we can see the bullet impacts everywhere.\" His restaurant sits on a pretty little square in St Gilles. It's a central area of the city, close to the international Midi train station, where passengers arrive on trains from London and Paris. Shootings related to drug trafficking have become routine in the Belgian capital over the past couple of years. There were over 100 in 2025 alone, and more than 65 shootings so far this year. This was the third shooting in this neighbourhood in just three days. \"Are we in an American gangster movie? This needs to stop,\" Salvatore says. A suspected drug dealer was shot in the leg in the same area the day before.",
+      "published_at": "2026-08-28T13:41:18+00:00",
+      "updated_at": "2026-08-28T13:41:18+00:00",
+      "effective_at": "2026-08-28T13:41:18+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "medicine",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "american",
+        "belgian",
+        "brussels",
+        "france",
+        "gilles",
+        "last",
+        "midi",
+        "salvatore",
+        "st",
+        "uk",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Last Monday night, drug gangs turned Salvatore's pizzeria in Brussels into a crime scene.",
+        "\"We dropped to the floor.",
+        "I had clients eating on the terrace with children.",
+        "Look, we can see the bullet impacts everywhere.\"",
+        "His restaurant sits on a pretty little square in St Gilles.",
+        "It's a central area of the city, close to the international Midi train station, where passengers arrive on trains from London and Paris.",
+        "Shootings related to drug trafficking have become routine in the Belgian capital over the past couple of years.",
+        "There were over 100 in 2025 alone, and more than 65 shootings so far this year.",
+        "This was the third shooting in this neighbourhood in just three days.",
+        "\"Are we in an American gangster movie?",
+        "This needs to stop,\" Salvatore says.",
+        "A suspected drug dealer was shot in the leg in the same area the day before."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "9e406b5eaabb0a9df49ec2e6",
+      "importance_score": 34.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8
+        }
+      },
+      "story_id": "3bc54929e8e36214a287d7c3744233e7dc921366d005c2a4e9b3dc095a0d5f48",
+      "public_label": "🔄 UPDATE",
+      "headline": "Shootings surge as drug gangs torment Brussels",
+      "briefing": {
+        "opening": [
+          "Last Monday night, drug gangs turned Salvatore's pizzeria in Brussels into a crime scene.",
+          "\"We dropped to the floor."
+        ],
+        "body": [
+          "I had clients eating on the terrace with children.",
+          "Look, we can see the bullet impacts everywhere.\" His restaurant sits on a pretty little square in St Gilles.",
+          "It's a central area of the city, close to the international Midi train station, where passengers arrive on trains from London and Paris.",
+          "Shootings related to drug trafficking have become routine in the Belgian capital over the past couple of years.",
+          "There were over 100 in 2025 alone, and more than 65 shootings so far this year.",
+          "This was the third shooting in this neighbourhood in just three days.",
+          "\"Are we in an American gangster movie?",
+          "This needs to stop,\" Salvatore says."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Brussels"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Last Monday night, drug gangs turned Salvatore's pizzeria in Brussels into a crime scene.",
+            "source": "BBC World",
+            "item_id": "3bc54929e8e36214a287d7c3744233e7dc921366d005c2a4e9b3dc095a0d5f48:article",
+            "composed": false
+          },
+          {
+            "text": "There were over 100 in 2025 alone, and more than 65 shootings so far this year.",
+            "source": "BBC World",
+            "item_id": "3bc54929e8e36214a287d7c3744233e7dc921366d005c2a4e9b3dc095a0d5f48:article",
+            "composed": false
+          },
+          {
+            "text": "It's a central area of the city, close to the international Midi train station, where passengers arrive on trains from London and Paris.",
+            "source": "BBC World",
+            "item_id": "3bc54929e8e36214a287d7c3744233e7dc921366d005c2a4e9b3dc095a0d5f48:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC World",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/c9w4r7e7z4ko?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "076429df22a3b2d66e43e9dfb0a71642b4b72b61c31d3a2b088ff49f6f87e911",
+      "title": "Washington negotiates stakes in Venezuelan oil fields with leases of up to a century",
+      "url": "https://en.mercopress.com/2026/08/28/washington-negotiates-stakes-in-venezuelan-oil-fields-with-leases-of-up-to-a-century?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "North America",
       "discovery": false,
-      "summary": "China’s electric vehicle (EV) giant BYD saw its earnings jump 30 per cent in the three months from April to June, ending a five-quarter losing streak as buoyant overseas sales and premium models enhanced its net margin and profitability. The Shenzhen-based carmaker, also the world’s largest EV builder, posted a net income of 8.2 billion yuan (US$1.2 billion) in the second quarter, up 30 per cent year on year. The quarterly performance beat a consensus estimate of 8 billion yuan in a Bloomberg...",
-      "published_at": "2026-08-28T14:11:21+00:00",
-      "updated_at": "2026-08-28T14:11:21+00:00",
-      "effective_at": "2026-08-28T14:11:21+00:00",
+      "summary": "The United States government is negotiating with Venezuela's interim administration to acquire stakes in a group of the South American country's oil fields, under arrangements that would include leases of up to a hundred years, the outlets Axios and Bloomberg reported on Thursday citing unnamed senior US officials.",
+      "published_at": "2026-08-28T14:15:00+00:00",
+      "updated_at": "2026-08-28T14:15:00+00:00",
+      "effective_at": "2026-08-28T14:15:00+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "politics",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "automotive",
+      "sector": "companies",
+      "subsector": "oil_gas",
       "subregion": "United States",
       "country": null,
       "entities": [
+        "american",
+        "axios",
         "bloomberg",
-        "byd",
-        "china",
-        "ev",
-        "shenzhen-based",
-        "us"
+        "south",
+        "united_states",
+        "us",
+        "venezuela",
+        "venezuelan"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -41,15 +444,142 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "9caf3b26d26f5b54d3e87a4e",
-      "importance_score": 31.0,
+      "event_id": "c48995a8cfe8409170f8c8a8",
+      "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "076429df22a3b2d66e43e9dfb0a71642b4b72b61c31d3a2b088ff49f6f87e911",
+      "article_sentences": [
+        "The United States government is negotiating with Venezuela's interim administration to acquire stakes in a group of the South American country's oil fields, under arrangements that would include leases of up to a hundred years, the outlets Axios and Bloomberg reported on Thursday citing unnamed senior US officials.",
+        "Neither side has confirmed the talks.",
+        "The White House declined to comment and referred questions to the Department of Energy, which did not respond.",
+        "Nor did Venezuela's oil ministry, the state oil company PDVSA or the information ministry, and hydrocarbons minister Paula Henao could not be reached.",
+        "The scheme under discussion would give Washington an ownership interest in designated fields, with private companies, including American ones, brought in to modernise and operate them.",
+        "Venezuela would receive higher revenues from increased output.",
+        "The talks are led by Secretary of State Marco Rubio and acting president Delcy Rodríguez, and there is no timetable for a final agreement.",
+        "Energy Secretary Chris Wright has considered travelling to Venezuela next week.",
+        "“Calling this deal huge would be an understatement,” one of the officials told Axios.",
+        "The move also responds to domestic pressures.",
+        "The administration faces rising petrol prices ahead of November's midterm elections and is seeking to replenish the Strategic Petroleum Reserve.",
+        "It fits a recent pattern too: the US government has taken stakes in companies including Intel, MP Materials and Lithium Americas, and in what Bloomberg calls the so-called Donroe Doctrine of extending American influence across the hemisphere."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Washington negotiates stakes in Venezuelan oil fields with leases of up to a century",
+      "briefing": {
+        "opening": [
+          "The United States government is negotiating with Venezuela's interim administration to acquire stakes in a group of the South American country's oil fields, under arrangements that would include leases of up to a hundred years, the outlets Axios and Bloomberg reported on Thursday citing unnamed senior US officials.",
+          "Neither side has confirmed the talks."
+        ],
+        "body": [
+          "The White House declined to comment and referred questions to the Department of Energy, which did not respond.",
+          "Nor did Venezuela's oil ministry, the state oil company PDVSA or the information ministry, and hydrocarbons minister Paula Henao could not be reached.",
+          "The scheme under discussion would give Washington an ownership interest in designated fields, with private companies, including American ones, brought in to modernise and operate them.",
+          "Venezuela would receive higher revenues from increased output.",
+          "The talks are led by Secretary of State Marco Rubio and acting president Delcy Rodríguez, and there is no timetable for a final agreement.",
+          "Energy Secretary Chris Wright has considered travelling to Venezuela next week.",
+          "“Calling this deal huge would be an understatement,” one of the officials told Axios.",
+          "The move also responds to domestic pressures."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Nor did Venezuela's oil ministry, the state oil company PDVSA or the information ministry, and hydrocarbons minister Paula Henao could not be reached.",
+            "source": "MercoPress",
+            "item_id": "076429df22a3b2d66e43e9dfb0a71642b4b72b61c31d3a2b088ff49f6f87e911:article",
+            "composed": false
+          },
+          {
+            "text": "The scheme under discussion would give Washington an ownership interest in designated fields, with private companies, including American ones, brought in to modernise and operate them.",
+            "source": "MercoPress",
+            "item_id": "076429df22a3b2d66e43e9dfb0a71642b4b72b61c31d3a2b088ff49f6f87e911:article",
+            "composed": false
+          },
+          {
+            "text": "The United States government is negotiating with Venezuela's interim administration to acquire stakes in a group of the South American country's oil fields, under arrangements that would include leases of up to a hundred years, the outlets Axios and Bloomberg reported on Thursday citing unnamed senior US officials.",
+            "source": "MercoPress",
+            "item_id": "076429df22a3b2d66e43e9dfb0a71642b4b72b61c31d3a2b088ff49f6f87e911:article",
+            "composed": false
+          },
+          {
+            "text": "Energy Secretary Chris Wright has considered travelling to Venezuela next week.",
+            "source": "MercoPress",
+            "item_id": "076429df22a3b2d66e43e9dfb0a71642b4b72b61c31d3a2b088ff49f6f87e911:article",
+            "composed": false
+          }
+        ],
+        "source": "MercoPress",
+        "corroborating": [],
+        "url": "https://en.mercopress.com/2026/08/28/washington-negotiates-stakes-in-venezuelan-oil-fields-with-leases-of-up-to-a-century?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "e23ce09914feca44327d6bdc4c70a1d31a5e6545d550f9849fa87f986169809f",
+      "title": "Sugar price on exchange hits April 2025 high",
+      "url": "https://tass.com/economy/2178965",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "As of 10:54 a.m. Moscow time the price of sugar futures was up by 2.58% at 18.66 cents per pound",
+      "published_at": "2026-08-28T14:25:47+00:00",
+      "updated_at": "2026-08-28T14:25:47+00:00",
+      "effective_at": "2026-08-28T14:25:47+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "currencies",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "russia"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "e76ef0048d58fe674f5a472d",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -66,125 +596,54 @@
         },
         "significance_dims": {}
       },
-      "story_id": "97bd7ffdffcbc50cdd852eac3d7e426e1ae33e3698ec4fe567a90577ced5511f",
-      "public_label": "📰 NEWS",
-      "headline": "BYD posts US$1.2 billion profit in second quarter on surging global demand",
-      "briefing": {
-        "opening": [
-          "China’s electric vehicle (EV) giant BYD saw its earnings jump 30 per cent in the three months from April to June, ending a five-quarter losing streak as buoyant overseas sales and premium models enhanced its net margin and profitability.",
-          "The Shenzhen-based carmaker, also the world’s largest EV builder, posted a net income of 8.2 billion yuan (US$1.2 billion) in the second quarter, up 30 per cent year on year."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "China’s electric vehicle (EV) giant BYD saw its earnings jump 30 per cent in the three months from April to June, ending a five-quarter losing streak as buoyant overseas sales and premium models enhanced its net margin and profitability.",
-            "source": "South China Morning Post",
-            "item_id": "97bd7ffdffcbc50cdd852eac3d7e426e1ae33e3698ec4fe567a90577ced5511f",
-            "composed": false
-          },
-          {
-            "text": "The Shenzhen-based carmaker, also the world’s largest EV builder, posted a net income of 8.2 billion yuan (US$1.2 billion) in the second quarter, up 30 per cent year on year.",
-            "source": "South China Morning Post",
-            "item_id": "97bd7ffdffcbc50cdd852eac3d7e426e1ae33e3698ec4fe567a90577ced5511f",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/business/china-evs/article/3365652/byd-posts-us12-billion-profit-second-quarter-surging-global-demand?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "9e7ed3ebcbda38858e905f3c63e1f1ad7babf84c0225c3941fbdbe42ae881225",
-      "title": "Africa's aging autocrats fight to stay in power",
-      "url": "https://www.dw.com/en/africa-s-aging-autocrats-fight-to-stay-in-power/a-78487210?maca=en-rss-en-world-4025-rdf",
-      "source": "DW World",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "As some of Africa's longest-serving leaders grow older, they are using different tactics to extend their rule. But age, succession battles and public pressure pose new challenges.",
-      "published_at": null,
-      "updated_at": "2026-08-28T14:02:00+00:00",
-      "effective_at": "2026-08-28T14:02:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "conflict",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "africa"
+      "story_id": "e23ce09914feca44327d6bdc4c70a1d31a5e6545d550f9849fa87f986169809f",
+      "article_sentences": [
+        "MOSCOW, August 28.",
+        "The price of futures contracts for sugar with delivery in October 2026 on London’s ICE has surpassed 18.5 cents per pound for the first time since April 8, 2025, according to trade data.",
+        "As of 10:54 a.m. Moscow time (7:54 a.m. GMT) the price of sugar futures was up by 2.58% at 18.66 cents per pound, having moved to negative territory by 3:20 p.m. Moscow time (12:20 p.m. GMT) to 17.94 cents per pound (-1.37%).",
+        "The price of sugar futures fell to 13.46 cents per pound this February first since October 2020."
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "3a859735605e1f093a0bf66b",
-      "importance_score": 30.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "infrastructure": 4
-        }
-      },
-      "story_id": "9e7ed3ebcbda38858e905f3c63e1f1ad7babf84c0225c3941fbdbe42ae881225",
       "public_label": "📰 NEWS",
-      "headline": "Africa's aging autocrats fight to stay in power",
+      "headline": "Sugar price on exchange hits April 2025 high",
       "briefing": {
         "opening": [
-          "As some of Africa's longest-serving leaders grow older, they are using different tactics to extend their rule.",
-          "But age, succession battles and public pressure pose new challenges."
+          "MOSCOW, August 28.",
+          "The price of futures contracts for sugar with delivery in October 2026 on London’s ICE has surpassed 18.5 cents per pound for the first time since April 8, 2025, according to trade data."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "As of 10:54 a.m. Moscow time (7:54 a.m. GMT) the price of sugar futures was up by 2.58% at 18.66 cents per pound, having moved to negative territory by 3:20 p.m. Moscow time (12:20 p.m. GMT) to 17.94 cents per pound (-1.37%).",
+          "The price of sugar futures fell to 13.46 cents per pound this February first since October 2020."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "October"
+          }
+        ],
         "sentences": [
           {
-            "text": "As some of Africa's longest-serving leaders grow older, they are using different tactics to extend their rule.",
-            "source": "DW World",
-            "item_id": "9e7ed3ebcbda38858e905f3c63e1f1ad7babf84c0225c3941fbdbe42ae881225",
+            "text": "The price of sugar futures fell to 13.46 cents per pound this February first since October 2020.",
+            "source": "TASS English",
+            "item_id": "e23ce09914feca44327d6bdc4c70a1d31a5e6545d550f9849fa87f986169809f:article",
             "composed": false
           },
           {
-            "text": "But age, succession battles and public pressure pose new challenges.",
-            "source": "DW World",
-            "item_id": "9e7ed3ebcbda38858e905f3c63e1f1ad7babf84c0225c3941fbdbe42ae881225",
+            "text": "As of 10:54 a.m. Moscow time (7:54 a.m. GMT) the price of sugar futures was up by 2.58% at 18.66 cents per pound, having moved to negative territory by 3:20 p.m. Moscow time (12:20 p.m. GMT) to 17.94 cents per pound (-1.37%).",
+            "source": "TASS English",
+            "item_id": "e23ce09914feca44327d6bdc4c70a1d31a5e6545d550f9849fa87f986169809f:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, August 28.",
+            "source": "TASS English",
+            "item_id": "e23ce09914feca44327d6bdc4c70a1d31a5e6545d550f9849fa87f986169809f:article",
             "composed": false
           }
         ],
-        "source": "DW World",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.dw.com/en/africa-s-aging-autocrats-fight-to-stay-in-power/a-78487210?maca=en-rss-en-world-4025-rdf"
+        "url": "https://tass.com/economy/2178965"
       },
       "group_size": 1,
       "label": "📰 NEWS"
