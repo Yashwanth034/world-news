@@ -1,54 +1,203 @@
 {
-  "generated_at": "2026-08-28T12:31:03.015265+00:00",
-  "count": 1,
+  "generated_at": "2026-08-28T12:40:44.582415+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "8e928937c3c89359cbac0d16736d7aa9e09fac32842cfc4552763712ffd44603",
-      "title": "US and China must team up to keep maritime trade routes free and safe",
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3365191/us-and-china-must-team-keep-maritime-trade-routes-free-and-safe?utm_source=rss_feed",
+      "id": "edc50c47eabe01ccb452d375381d63e5ac730e06f834c6381d3c1653cc2b1bdd",
+      "title": "2 dead in school attack near Berlin",
+      "url": "https://www.scmp.com/news/world/europe/article/3365642/2-dead-school-attack-near-berlin?utm_source=rss_feed",
       "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Europe",
       "discovery": false,
-      "summary": "With the end of the 60-day US-Iran memorandum of understanding, tensions in the Strait of Hormuz have flared again. The crisis in the strait highlights how the security and stability of key international waterways are becoming an increasingly urgent global concern. Over the past decade, major maritime routes have been affected by regional armed conflicts, geopolitical tensions and growing security risks. These disruptions have exposed a vulnerability in the global trading system: a key...",
-      "published_at": "2026-08-28T12:30:15+00:00",
-      "updated_at": "2026-08-28T12:30:15+00:00",
-      "effective_at": "2026-08-28T12:30:15+00:00",
+      "summary": "One of the two people killed in an attack at a school near Berlin was a 30-year-old nursery worker, police said on Friday. It had previously been reported that the man who was killed in Thursday’s attack was the caretaker. A woman and a man were killed in the violent incident at a school in the small community of Gosen-Neu Zittau on the southeastern edge of the German capital. The school site houses a primary and secondary school, as well as a nursery. A 19-year-old German man was detained and...",
+      "published_at": "2026-08-28T12:31:35+00:00",
+      "updated_at": "2026-08-28T12:31:35+00:00",
+      "effective_at": "2026-08-28T12:31:35+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "conflict",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "shipping",
-      "subregion": "United States",
+      "sector": "law",
+      "subsector": "education",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "china",
-        "hormuz",
-        "strait",
-        "us",
-        "us-iran"
+        "german",
+        "germany",
+        "gosen-neu",
+        "zittau"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 83,
+      "priority_score": 93,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "f6cb271d8bd4404deaf0f238",
-      "importance_score": 33.0,
+      "event_id": "0bae9e947ae00008caa0a4d9",
+      "importance_score": 56.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 19,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8,
+          "security": 4
+        }
+      },
+      "story_id": "edc50c47eabe01ccb452d375381d63e5ac730e06f834c6381d3c1653cc2b1bdd",
+      "public_label": "📰 NEWS",
+      "headline": "2 dead in school attack near Berlin",
+      "briefing": {
+        "opening": [
+          "One of the two people killed in an attack at a school near Berlin was a 30-year-old nursery worker, police said on Friday.",
+          "It had previously been reported that the man who was killed in Thursday’s attack was the caretaker."
+        ],
+        "body": [
+          "A woman and a man were killed in the violent incident at a school in the small community of Gosen-Neu Zittau on the southeastern edge of the German capital.",
+          "The school site houses a primary and secondary school, as well as a nursery.",
+          "A 19-year-old German man was detained and..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Berlin"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "One of the two people killed in an attack at a school near Berlin was a 30-year-old nursery worker, police said on Friday.",
+            "source": "South China Morning Post",
+            "item_id": "edc50c47eabe01ccb452d375381d63e5ac730e06f834c6381d3c1653cc2b1bdd",
+            "composed": false
+          },
+          {
+            "text": "A woman and a man were killed in the violent incident at a school in the small community of Gosen-Neu Zittau on the southeastern edge of the German capital.",
+            "source": "South China Morning Post",
+            "item_id": "edc50c47eabe01ccb452d375381d63e5ac730e06f834c6381d3c1653cc2b1bdd",
+            "composed": false
+          },
+          {
+            "text": "It had previously been reported that the man who was killed in Thursday’s attack was the caretaker.",
+            "source": "South China Morning Post",
+            "item_id": "edc50c47eabe01ccb452d375381d63e5ac730e06f834c6381d3c1653cc2b1bdd",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/world/europe/article/3365642/2-dead-school-attack-near-berlin?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "8b0e9c0ed9eb1260554ec5713c02ecb3e5c7719fb12bd22b99c3210c25439128",
+      "title": "Colman's Mustard put up for sale ahead of merger",
+      "url": "https://www.bbc.co.uk/news/articles/cd08g4pjkymo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_category": "finance",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "A famous mustard brand synonymous with Norwich has been put up for sale. Colman's Mustard, which had a factory in Norwich for 160 years, has been put on the market ahead of a merger between Unilever and American food giant McCormick in a deal believed to be worth £48bn. The company has been deeply rooted in Norfolk after it was founded in 1814 by Jeremiah Colman at Stoke Holy Cross before production moved to Carrow in 1858. A Unilever spokesperson said: \"A decision has been taken to market the Colman's brand and assets to potential buyers in order to proactively seek to address potential competition concerns from the planned combination of Unilever Foods and McCormick.\" Based outside of Norwich, the firm had a cradle-to-grave ethos and provided education, housing, healthcare and leisure for workers and their families. A school was built on Carrow Hill in 1864 for employees' children and the firm supplied coffins for workers and their families, and built a series of terrace houses which were believed to have doors painted mustard yellow. In January 2018, Unilever announced it would close the Carrow plant and the last jar of mustard rolled off the production line in 2019 before the factory was closed in 2020. The 42-acre (17 hectare) site has sat empty since it closed and has been earmarked for thousands of homes. Unilever shifted manufacturing to Burton-on-Trent and Germany. Condimentum, based at the Food Enterprise Park in Easton, near Norwich, had been keeping Colman's Norwich legacy alive by producing the raw material for the brand. The wider deal will see McCormick take control of household names including Hellmann's, Marmite, Knorr and Pot Noodle. The American food giant already owns French's — one of the world's biggest rival mustard brands.",
+      "published_at": "2026-08-28T10:34:43+00:00",
+      "updated_at": "2026-08-28T10:34:43+00:00",
+      "effective_at": "2026-08-28T10:34:43+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "companies",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "american",
+        "based",
+        "burton-on-trent",
+        "carrow",
+        "colman",
+        "cross",
+        "easton",
+        "enterprise",
+        "food",
+        "foods",
+        "france",
+        "germany",
+        "hellmann",
+        "hill",
+        "holy",
+        "jeremiah",
+        "knorr",
+        "marmite",
+        "mccormick",
+        "mustard",
+        "noodle",
+        "norfolk",
+        "norwich",
+        "park",
+        "pot",
+        "stoke",
+        "unilever",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "A famous mustard brand synonymous with Norwich has been put up for sale.",
+        "Colman's Mustard, which had a factory in Norwich for 160 years, has been put on the market ahead of a merger between Unilever and American food giant McCormick in a deal believed to be worth £48bn.",
+        "The company has been deeply rooted in Norfolk after it was founded in 1814 by Jeremiah Colman at Stoke Holy Cross before production moved to Carrow in 1858.",
+        "A Unilever spokesperson said: \"A decision has been taken to market the Colman's brand and assets to potential buyers in order to proactively seek to address potential competition concerns from the planned combination of Unilever Foods and McCormick.\"",
+        "Based outside of Norwich, the firm had a cradle-to-grave ethos and provided education, housing, healthcare and leisure for workers and their families.",
+        "A school was built on Carrow Hill in 1864 for employees' children and the firm supplied coffins for workers and their families, and built a series of terrace houses which were believed to have doors painted mustard yellow.",
+        "In January 2018, Unilever announced it would close the Carrow plant and the last jar of mustard rolled off the production line in 2019 before the factory was closed in 2020.",
+        "The 42-acre (17 hectare) site has sat empty since it closed and has been earmarked for thousands of homes.",
+        "Unilever shifted manufacturing to Burton-on-Trent and Germany.",
+        "Condimentum, based at the Food Enterprise Park in Easton, near Norwich, had been keeping Colman's Norwich legacy alive by producing the raw material for the brand.",
+        "The wider deal will see McCormick take control of household names including Hellmann's, Marmite, Knorr and Pot Noodle.",
+        "The American food giant already owns French's — one of the world's biggest rival mustard brands."
+      ],
+      "event_status": "NEW",
+      "event_id": "b1bc8d09d7ec2e7dfd94153f",
+      "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 9.0,
         "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -65,42 +214,60 @@
         },
         "significance_dims": {}
       },
-      "story_id": "8e928937c3c89359cbac0d16736d7aa9e09fac32842cfc4552763712ffd44603",
+      "story_id": "8b0e9c0ed9eb1260554ec5713c02ecb3e5c7719fb12bd22b99c3210c25439128",
       "public_label": "📰 NEWS",
-      "headline": "US and China must team up to keep maritime trade routes free and safe",
+      "headline": "Colman's Mustard put up for sale ahead of merger",
       "briefing": {
         "opening": [
-          "With the end of the 60-day US-Iran memorandum of understanding, tensions in the Strait of Hormuz have flared again.",
-          "The crisis in the strait highlights how the security and stability of key international waterways are becoming an increasingly urgent global concern."
+          "A famous mustard brand synonymous with Norwich has been put up for sale.",
+          "Colman's Mustard, which had a factory in Norwich for 160 years, has been put on the market ahead of a merger between Unilever and American food giant McCormick in a deal believed to be worth £48bn."
         ],
         "body": [
-          "Over the past decade, major maritime routes have been affected by regional armed conflicts, geopolitical tensions and growing security risks.",
-          "These disruptions have exposed a vulnerability in the global trading system: a key..."
+          "The company has been deeply rooted in Norfolk after it was founded in 1814 by Jeremiah Colman at Stoke Holy Cross before production moved to Carrow in 1858.",
+          "A Unilever spokesperson said: \"A decision has been taken to market the Colman's brand and assets to potential buyers in order to proactively seek to address potential competition concerns from the planned combination of Unilever Foods and McCormick.\" Based outside of Norwich, the firm had a cradle-to-grave ethos and provided education, housing, healthcare and leisure for workers and their families.",
+          "A school was built on Carrow Hill in 1864 for employees' children and the firm supplied coffins for workers and their families, and built a series of terrace houses which were believed to have doors painted mustard yellow.",
+          "In January 2018, Unilever announced it would close the Carrow plant and the last jar of mustard rolled off the production line in 2019 before the factory was closed in 2020.",
+          "The 42-acre (17 hectare) site has sat empty since it closed and has been earmarked for thousands of homes.",
+          "Unilever shifted manufacturing to Burton-on-Trent and Germany.",
+          "Condimentum, based at the Food Enterprise Park in Easton, near Norwich, had been keeping Colman's Norwich legacy alive by producing the raw material for the brand.",
+          "The wider deal will see McCormick take control of household names including Hellmann's, Marmite, Knorr and Pot Noodle."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Norwich"
+          }
+        ],
         "sentences": [
           {
-            "text": "The crisis in the strait highlights how the security and stability of key international waterways are becoming an increasingly urgent global concern.",
-            "source": "South China Morning Post",
-            "item_id": "8e928937c3c89359cbac0d16736d7aa9e09fac32842cfc4552763712ffd44603",
+            "text": "The company has been deeply rooted in Norfolk after it was founded in 1814 by Jeremiah Colman at Stoke Holy Cross before production moved to Carrow in 1858.",
+            "source": "BBC Business",
+            "item_id": "8b0e9c0ed9eb1260554ec5713c02ecb3e5c7719fb12bd22b99c3210c25439128:article",
             "composed": false
           },
           {
-            "text": "Over the past decade, major maritime routes have been affected by regional armed conflicts, geopolitical tensions and growing security risks.",
-            "source": "South China Morning Post",
-            "item_id": "8e928937c3c89359cbac0d16736d7aa9e09fac32842cfc4552763712ffd44603",
+            "text": "Colman's Mustard, which had a factory in Norwich for 160 years, has been put on the market ahead of a merger between Unilever and American food giant McCormick in a deal believed to be worth £48bn.",
+            "source": "BBC Business",
+            "item_id": "8b0e9c0ed9eb1260554ec5713c02ecb3e5c7719fb12bd22b99c3210c25439128:article",
             "composed": false
           },
           {
-            "text": "With the end of the 60-day US-Iran memorandum of understanding, tensions in the Strait of Hormuz have flared again.",
-            "source": "South China Morning Post",
-            "item_id": "8e928937c3c89359cbac0d16736d7aa9e09fac32842cfc4552763712ffd44603",
+            "text": "In January 2018, Unilever announced it would close the Carrow plant and the last jar of mustard rolled off the production line in 2019 before the factory was closed in 2020.",
+            "source": "BBC Business",
+            "item_id": "8b0e9c0ed9eb1260554ec5713c02ecb3e5c7719fb12bd22b99c3210c25439128:article",
+            "composed": false
+          },
+          {
+            "text": "Condimentum, based at the Food Enterprise Park in Easton, near Norwich, had been keeping Colman's Norwich legacy alive by producing the raw material for the brand.",
+            "source": "BBC Business",
+            "item_id": "8b0e9c0ed9eb1260554ec5713c02ecb3e5c7719fb12bd22b99c3210c25439128:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "BBC Business",
         "corroborating": [],
-        "url": "https://www.scmp.com/opinion/world-opinion/article/3365191/us-and-china-must-team-keep-maritime-trade-routes-free-and-safe?utm_source=rss_feed"
+        "url": "https://www.bbc.co.uk/news/articles/cd08g4pjkymo?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
       "label": "📰 NEWS"
