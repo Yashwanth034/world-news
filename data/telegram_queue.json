@@ -1,61 +1,82 @@
 {
-  "generated_at": "2026-08-28T04:30:26.947561+00:00",
+  "generated_at": "2026-08-28T04:33:26.532960+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "047f42673d4f6cd7ba868d4b1dc7681a023a94e79a978e517249984ae20fdcd6",
-      "title": "Judge says Pentagon's measures against Anthropic were 'illegal and baseless'",
-      "url": "https://www.npr.org/2026/08/28/nx-s1-5947761/judge-pentagon-anthropic-illegal",
-      "source": "NPR Technology",
-      "source_category": "technology",
+      "id": "47d9b0075ef35ac918de329fd219618f26bbbe9a19b3879c53b2fa535c66ecc3",
+      "title": "Indonesians march on parliament to demand crackdown on corruption",
+      "url": "https://www.aljazeera.com/news/2026/8/28/indonesians-march-on-parliament-to-demand-crackdown-on-corruption?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Asia",
       "discovery": false,
-      "summary": "A judge issued a written order Thursday night that the Pentagon acted illegally by punishing the AI company for its criticism of the Department of Defense's views on AI use. The government is expected to fight the ruling.",
-      "published_at": "2026-08-28T04:25:08+00:00",
-      "updated_at": "2026-08-28T04:25:08+00:00",
-      "effective_at": "2026-08-28T04:25:08+00:00",
+      "summary": "Protesters want a stalled asset-seizure bill passed, among other reforms. Thousands of Indonesians have marched on the parliament in Jakarta to demand harsher punishment for corrupt officials. The protests on Thursday fell a year to the day since antigovernment rallies turned into riots in which about 10 people were killed and nearly 7,000 arrested. Riot police held the crowd behind the locked gates of the legislature for much of the day. The AFP news agency reported that after nightfall, some protesters threw objects at officers, who answered with tear gas and a water cannon. A police post and motorcycle were set alight and several people were carried off on stretchers, it added. Students also marched in the cities of Yogyakarta and Makassar. Protesters are demanding that parliament pass a bill, first brought before it in 2008, that would allow the state to seize assets tied to corruption. Some at the rally called for corrupt officials to face the death penalty. Some lawmakers met with representatives of the protest group United Pati Community Alliance outside of parliament and promised to resign if the bill is not passed by December 15, according to its leader, Sopriyano. Some 200 students from several universities were present at the protest, urging the government to scrap a free school meal programme marred by corruption claims and repeated food poisoning incidents. They also called for an end to the “militarisation” of Indonesian society and lower food prices.",
+      "published_at": "2026-08-28T04:17:27+00:00",
+      "updated_at": "2026-08-28T04:17:27+00:00",
+      "effective_at": "2026-08-28T04:17:27+00:00",
       "language_status": "ENGLISH",
       "category": "politics",
-      "score": 65,
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "ai",
-      "subregion": null,
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Southeast Asia",
       "country": null,
       "entities": [
-        "ai",
-        "anthropic",
-        "defense",
-        "department",
-        "pentagon"
+        "afp",
+        "alliance",
+        "community",
+        "indonesian",
+        "indonesians",
+        "jakarta",
+        "makassar",
+        "pati",
+        "protesters",
+        "sopriyano",
+        "united",
+        "yogyakarta"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "4ad10fb7d1088e47936a2582",
-      "importance_score": 34.0,
-      "importance_level": "LOW",
+      "article_sentences": [
+        "Protesters want a stalled asset-seizure bill passed, among other reforms.",
+        "Thousands of Indonesians have marched on the parliament in Jakarta to demand harsher punishment for corrupt officials.",
+        "The protests on Thursday fell a year to the day since antigovernment rallies turned into riots in which about 10 people were killed and nearly 7,000 arrested.",
+        "Riot police held the crowd behind the locked gates of the legislature for much of the day.",
+        "The AFP news agency reported that after nightfall, some protesters threw objects at officers, who answered with tear gas and a water cannon.",
+        "A police post and motorcycle were set alight and several people were carried off on stretchers, it added.",
+        "Students also marched in the cities of Yogyakarta and Makassar.",
+        "Protesters are demanding that parliament pass a bill, first brought before it in 2008, that would allow the state to seize assets tied to corruption.",
+        "Some at the rally called for corrupt officials to face the death penalty.",
+        "Some lawmakers met with representatives of the protest group United Pati Community Alliance outside of parliament and promised to resign if the bill is not passed by December 15, according to its leader, Sopriyano.",
+        "Some 200 students from several universities were present at the protest, urging the government to scrap a free school meal programme marred by corruption claims and repeated food poisoning incidents.",
+        "They also called for an end to the “militarisation” of Indonesian society and lower food prices."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "3034a17050627c671b213a95",
+      "importance_score": 82.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 32,
         "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 24,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
+          "dead": 7000,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -64,40 +85,73 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 4,
-          "geopolitical": 4
+          "geopolitical": 8,
+          "human": 12,
+          "scientific": 4
         }
       },
-      "story_id": "047f42673d4f6cd7ba868d4b1dc7681a023a94e79a978e517249984ae20fdcd6",
-      "public_label": "📰 NEWS",
-      "headline": "Judge says Pentagon's measures against Anthropic were 'illegal and baseless'",
+      "story_id": "47d9b0075ef35ac918de329fd219618f26bbbe9a19b3879c53b2fa535c66ecc3",
+      "public_label": "🔄 UPDATE",
+      "headline": "Indonesians march on parliament to demand crackdown on corruption",
       "briefing": {
         "opening": [
-          "A judge issued a written order Thursday night that the Pentagon acted illegally by punishing the AI company for its criticism of the Department of Defense's views on AI use.",
-          "The government is expected to fight the ruling."
+          "Protesters want a stalled asset-seizure bill passed, among other reforms.",
+          "Thousands of Indonesians have marched on the parliament in Jakarta to demand harsher punishment for corrupt officials."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "The protests on Thursday fell a year to the day since antigovernment rallies turned into riots in which about 10 people were killed and nearly 7,000 arrested.",
+          "Riot police held the crowd behind the locked gates of the legislature for much of the day.",
+          "The AFP news agency reported that after nightfall, some protesters threw objects at officers, who answered with tear gas and a water cannon.",
+          "A police post and motorcycle were set alight and several people were carried off on stretchers, it added.",
+          "Students also marched in the cities of Yogyakarta and Makassar.",
+          "Protesters are demanding that parliament pass a bill, first brought before it in 2008, that would allow the state to seize assets tied to corruption.",
+          "Some at the rally called for corrupt officials to face the death penalty.",
+          "Some lawmakers met with representatives of the protest group United Pati Community Alliance outside of parliament and promised to resign if the bill is not passed by December 15, according to its leader, Sopriyano."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Jakarta"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "about 10 people"
+          }
+        ],
         "sentences": [
           {
-            "text": "The government is expected to fight the ruling.",
-            "source": "NPR Technology",
-            "item_id": "047f42673d4f6cd7ba868d4b1dc7681a023a94e79a978e517249984ae20fdcd6",
+            "text": "The protests on Thursday fell a year to the day since antigovernment rallies turned into riots in which about 10 people were killed and nearly 7,000 arrested.",
+            "source": "Al Jazeera",
+            "item_id": "47d9b0075ef35ac918de329fd219618f26bbbe9a19b3879c53b2fa535c66ecc3:article",
             "composed": false
           },
           {
-            "text": "A judge issued a written order Thursday night that the Pentagon acted illegally by punishing the AI company for its criticism of the Department of Defense's views on AI use.",
-            "source": "NPR Technology",
-            "item_id": "047f42673d4f6cd7ba868d4b1dc7681a023a94e79a978e517249984ae20fdcd6",
+            "text": "Students also marched in the cities of Yogyakarta and Makassar.",
+            "source": "Al Jazeera",
+            "item_id": "47d9b0075ef35ac918de329fd219618f26bbbe9a19b3879c53b2fa535c66ecc3:article",
+            "composed": false
+          },
+          {
+            "text": "Thousands of Indonesians have marched on the parliament in Jakarta to demand harsher punishment for corrupt officials.",
+            "source": "Al Jazeera",
+            "item_id": "47d9b0075ef35ac918de329fd219618f26bbbe9a19b3879c53b2fa535c66ecc3:article",
+            "composed": false
+          },
+          {
+            "text": "Protesters are demanding that parliament pass a bill, first brought before it in 2008, that would allow the state to seize assets tied to corruption.",
+            "source": "Al Jazeera",
+            "item_id": "47d9b0075ef35ac918de329fd219618f26bbbe9a19b3879c53b2fa535c66ecc3:article",
             "composed": false
           }
         ],
-        "source": "NPR Technology",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.npr.org/2026/08/28/nx-s1-5947761/judge-pentagon-anthropic-illegal"
+        "url": "https://www.aljazeera.com/news/2026/8/28/indonesians-march-on-parliament-to-demand-crackdown-on-corruption?traffic_source=rss"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
