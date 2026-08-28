@@ -1,59 +1,68 @@
 {
-  "generated_at": "2026-08-28T11:10:50.516607+00:00",
-  "count": 3,
+  "generated_at": "2026-08-28T11:20:46.988567+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "82ef9703fb65d61bb796ba34a1f35762d93264a9fef30b7a272a7c5c354a44f4",
-      "title": "Nepal-Tibet flood death toll passes 500 as rescue resumes",
-      "url": "https://www.dw.com/en/nepal-tibet-flood-death-toll-passes-500-as-rescue-resumes/a-78539559?maca=en-rss-en-world-4025-rdf",
-      "source": "DW World",
+      "id": "a174f2907d50e22aea574febc064fcba2558d5cda025be5e08a59af294e41d9a",
+      "title": "Detroit despairs as ‘insanity’ of Trump’s Canada trade war punishes city",
+      "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-canada-trade-war-detroit-michigan",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "North America",
       "discovery": false,
-      "summary": "More than a thousand people are still missing after deadly floods and landslides on the China-Nepal border. Rescue efforts were temporarily paused after an overflowing lake threatened to trigger more floods.",
-      "published_at": null,
-      "updated_at": "2026-08-28T11:04:00+00:00",
-      "effective_at": "2026-08-28T11:04:00+00:00",
+      "summary": "Unpopular new policy comes as midterms loom and control of Congress could be decided by several Michigan races Every day $1bn worth of goods crosses the river dividing Detroit, Michigan, and Windsor, Ontario, two largely blue-collar US and Canadian cities that have come to act as one in the creation of North America’s auto industry. News this week of Donald Trump’s escalating trade spat with Canada has everyone worried. Political and economic leaders and observers labeled the move an act of “hubris” , blamed Trump’s “ego”, and called the escalation “insanity”. Continue reading...",
+      "published_at": "2026-08-28T11:00:56+00:00",
+      "updated_at": "2026-08-28T11:00:56+00:00",
+      "effective_at": "2026-08-28T11:00:56+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "finance",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "floods",
-      "subregion": "South Asia",
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "china-nepal"
+        "america",
+        "canada",
+        "congress",
+        "detroit",
+        "donald",
+        "michigan",
+        "north",
+        "ontario",
+        "trump",
+        "unpopular",
+        "us",
+        "windsor"
       ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 1,
-      "corroborating_source_names": [
-        "The Guardian World"
-      ],
-      "verified_match_count": 1,
-      "priority_score": 98,
-      "priority_level": "URGENT",
-      "max_delay_minutes": 15,
-      "event_status": "UPDATE",
-      "event_id": "7020c28984ba2f7e6d498168",
-      "importance_score": 72.0,
-      "importance_level": "HIGH",
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "82b70334c9df4328d149cebf",
+      "importance_score": 52.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 26.0,
+        "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
+        "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 6,
-        "significance": 14,
+        "corroboration": 0,
+        "significance": 24,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 500,
+          "dead": 0,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -62,80 +71,89 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 10,
-          "geopolitical": 4
+          "economic": 8,
+          "security": 8,
+          "geopolitical": 8
         }
       },
-      "story_id": "82ef9703fb65d61bb796ba34a1f35762d93264a9fef30b7a272a7c5c354a44f4",
-      "public_label": "🔄 UPDATE",
-      "headline": "Nepal-Tibet flood death toll passes 500 as rescue resumes",
+      "story_id": "a174f2907d50e22aea574febc064fcba2558d5cda025be5e08a59af294e41d9a",
+      "public_label": "📰 NEWS",
+      "headline": "Detroit despairs as ‘insanity’ of Trump’s Canada trade war punishes city",
       "briefing": {
         "opening": [
-          "More than a thousand people are still missing after deadly floods and landslides on the China-Nepal border.",
-          "Rescue efforts were temporarily paused after an overflowing lake threatened to trigger more floods."
+          "Unpopular new policy comes as midterms loom and control of Congress could be decided by several Michigan races.",
+          "Every day $1bn worth of goods crosses the river dividing Detroit, Michigan, and Windsor, Ontario, two largely blue-collar US and Canadian cities that have come to act as one in the creation of North America’s auto industry."
         ],
-        "body": [],
+        "body": [
+          "News this week of Donald Trump’s escalating trade spat with Canada has everyone worried.",
+          "Political and economic leaders and observers labeled the move an act of “hubris”, blamed Trump’s “ego”, and called the escalation “insanity”."
+        ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Rescue efforts were temporarily paused after an overflowing lake threatened to trigger more floods.",
-            "source": "DW World",
-            "item_id": "82ef9703fb65d61bb796ba34a1f35762d93264a9fef30b7a272a7c5c354a44f4",
+            "text": "News this week of Donald Trump’s escalating trade spat with Canada has everyone worried.",
+            "source": "The Guardian World",
+            "item_id": "a174f2907d50e22aea574febc064fcba2558d5cda025be5e08a59af294e41d9a",
             "composed": false
           },
           {
-            "text": "More than a thousand people are still missing after deadly floods and landslides on the China-Nepal border.",
-            "source": "DW World",
-            "item_id": "82ef9703fb65d61bb796ba34a1f35762d93264a9fef30b7a272a7c5c354a44f4",
+            "text": "Political and economic leaders and observers labeled the move an act of “hubris”, blamed Trump’s “ego”, and called the escalation “insanity”.",
+            "source": "The Guardian World",
+            "item_id": "a174f2907d50e22aea574febc064fcba2558d5cda025be5e08a59af294e41d9a",
+            "composed": false
+          },
+          {
+            "text": "Every day $1bn worth of goods crosses the river dividing Detroit, Michigan, and Windsor, Ontario, two largely blue-collar US and Canadian cities that have come to act as one in the creation of North America’s auto industry.",
+            "source": "The Guardian World",
+            "item_id": "a174f2907d50e22aea574febc064fcba2558d5cda025be5e08a59af294e41d9a",
             "composed": false
           }
         ],
-        "source": "DW World",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://www.dw.com/en/nepal-tibet-flood-death-toll-passes-500-as-rescue-resumes/a-78539559?maca=en-rss-en-world-4025-rdf"
+        "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-canada-trade-war-detroit-michigan"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     },
     {
-      "id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec",
-      "title": "Syria's top Druze leader calls community 'integral part of Israel'",
-      "url": "http://www.euronews.com/2026/08/28/syrias-top-druze-leader-calls-community-integral-part-of-israel",
-      "source": "Euronews",
+      "id": "36848d5663b9430e9df22326f803e87d9ed40ca67912743e2c081f12af3d0866",
+      "title": "Taiwan election commission rejects caning referendum proposal",
+      "url": "https://www.straitstimes.com/asia/taiwan-election-commission-rejects-caning-referendum-proposal",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Sheikh al-Aql Hikmat al-Hijri made the declaration at a gathering in Suwayda, praising Israel's model of state-building and saying the two communities shared doctrinal \"common denominators,\" a statement that deepens the rift with Damascus. The spiritual leader of Syria's Druze has described the community as \"an integral part of the State of Israel,\" a declaration that drew sharp reactions across the region and deepened tensions between Suwayda province and Damascus. Hikmat al-Hijri made the statement at a gathering in Suwayda on Monday, praising Israel's model of state-building and saying the two communities shared \"common denominators\" that he said extended to doctrine. He said the region's inhabitants shared a common fate and that the current period would require sacrifices to achieve stability. Al-Hijri is one of Syria's three Sheikh al-Aql, the senior religious leaders of the country's Druze community, and has emerged as its most influential political and spiritual figure in Suwayda. The Druze follow a monotheistic faith that emerged in the 11th century as an offshoot of Ismaili Islam and is now generally regarded as a distinct religion. There are roughly 1 million Druze worldwide, with most living in Suwayda province in the southwest and the surrounding Jabal al-Arab, and smaller communities in Lebanon and Israel. The Israeli Druze have a specific status within Israel: unlike other Arab citizens, they are subject to mandatory military service and have traditionally served in the Israeli Defence Forces. Al-Hijri linked his vision for Suwayda's future to establishing a \"civil state\" that guarantees the rights of all communities without discrimination. He hinted at developments in the province that could be announced \"within days,\" without elaborating. Al-Hijri has previously called for special administrative arrangements for Suwayda and floated the idea of the province coming under international protection or joining another state. He thanked Israel publicly for its military intervention during clashes in July 2025, when Israeli aircraft struck targets in Damascus and elsewhere in what Israel described as protection of Druze communities.",
-      "published_at": "2026-08-28T11:05:11+00:00",
-      "updated_at": "2026-08-28T11:05:11+00:00",
-      "effective_at": "2026-08-28T11:05:11+00:00",
+      "summary": "Taiwan's election commission on Friday rejected a proposal passed by parliament for a referendum to legalise caning for serious crimes like sexual assault and fraud, saying it would go against the island's international human rights commitments. Taiwan's opposition-controlled parliament voted earlier this month to hold the caning referendum, which was opposed by the ruling party. Speaking to reporters, Central Election Commission Chairman Michael. You said Taiwan has already enacted into law international commitments on human rights. \"Caning is a form of corporal punishment in which public authority directly inflicts physical pain on the person being punished. Most countries consider it a cruel, inhuman punishment that violates human dignity,\" he added. Hung Meng-kai, the lawmaker who proposed the referendum and is from the largest opposition party the Kuomintang, expressed regret, saying people should have been given a choice at the ballot box. \"Is this truly protecting victims, or is it building a protective wall for criminals?\" he wrote on his Facebook page. Taiwan's National Human Rights Commission as well as groups like. Amnesty International had criticised the caning proposal. Taiwan was under martial law until 1987. It is now a full democracy with wide-ranging legal protections for human rights.",
+      "published_at": "2026-08-28T11:19:48+00:00",
+      "updated_at": "2026-08-28T11:19:48+00:00",
+      "effective_at": "2026-08-28T11:19:48+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "politics",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "infrastructure",
-      "subsector": "construction",
-      "subregion": "West Asia / Middle East",
+      "sector": "geopolitics",
+      "subsector": "elections",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "arab",
-        "damascus",
-        "defence",
-        "druze",
-        "forces",
-        "hikmat",
-        "islam",
-        "ismaili",
-        "israel",
-        "jabal",
-        "lebanon",
-        "sheikh",
-        "state",
-        "suwayda",
-        "syria"
+        "amnesty",
+        "central",
+        "commission",
+        "election",
+        "human",
+        "hung",
+        "international",
+        "kuomintang",
+        "meng-kai",
+        "meta",
+        "michael",
+        "national",
+        "rights",
+        "taiwan"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -145,32 +163,32 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "Sheikh al-Aql Hikmat al-Hijri made the declaration at a gathering in Suwayda, praising Israel's model of state-building and saying the two communities shared doctrinal \"common denominators,\" a statement that deepens the rift with Damascus.",
-        "The spiritual leader of Syria's Druze has described the community as \"an integral part of the State of Israel,\" a declaration that drew sharp reactions across the region and deepened tensions between Suwayda province and Damascus.",
-        "Hikmat al-Hijri made the statement at a gathering in Suwayda on Monday, praising Israel's model of state-building and saying the two communities shared \"common denominators\" that he said extended to doctrine.",
-        "He said the region's inhabitants shared a common fate and that the current period would require sacrifices to achieve stability.",
-        "Al-Hijri is one of Syria's three Sheikh al-Aql, the senior religious leaders of the country's Druze community, and has emerged as its most influential political and spiritual figure in Suwayda.",
-        "The Druze follow a monotheistic faith that emerged in the 11th century as an offshoot of Ismaili Islam and is now generally regarded as a distinct religion.",
-        "There are roughly 1 million Druze worldwide, with most living in Suwayda province in the southwest and the surrounding Jabal al-Arab, and smaller communities in Lebanon and Israel.",
-        "The Israeli Druze have a specific status within Israel: unlike other Arab citizens, they are subject to mandatory military service and have traditionally served in the Israeli Defence Forces.",
-        "Al-Hijri linked his vision for Suwayda's future to establishing a \"civil state\" that guarantees the rights of all communities without discrimination.",
-        "He hinted at developments in the province that could be announced \"within days,\" without elaborating.",
-        "Al-Hijri has previously called for special administrative arrangements for Suwayda and floated the idea of the province coming under international protection or joining another state.",
-        "He thanked Israel publicly for its military intervention during clashes in July 2025, when Israeli aircraft struck targets in Damascus and elsewhere in what Israel described as protection of Druze communities."
+        "Taiwan's election commission on Friday rejected a proposal passed by parliament for a referendum to legalise caning for serious crimes like sexual assault and fraud, saying it would go against the island's international human rights commitments.",
+        "Taiwan's opposition-controlled parliament voted earlier this month to hold the caning referendum, which was opposed by the ruling party.",
+        "Speaking to reporters, Central Election Commission Chairman Michael.",
+        "You said Taiwan has already enacted into law international commitments on human rights.",
+        "\"Caning is a form of corporal punishment in which public authority directly inflicts physical pain on the person being punished.",
+        "Most countries consider it a cruel, inhuman punishment that violates human dignity,\" he added.",
+        "Hung Meng-kai, the lawmaker who proposed the referendum and is from the largest opposition party the Kuomintang, expressed regret, saying people should have been given a choice at the ballot box.",
+        "\"Is this truly protecting victims, or is it building a protective wall for criminals?\" he wrote on his Facebook page.",
+        "Taiwan's National Human Rights Commission as well as groups like.",
+        "Amnesty International had criticised the caning proposal.",
+        "Taiwan was under martial law until 1987.",
+        "It is now a full democracy with wide-ranging legal protections for human rights."
       ],
-      "event_status": "NEW",
-      "event_id": "58e6bb3934577468c4e4a06f",
-      "importance_score": 36.0,
+      "event_status": "UPDATE",
+      "event_id": "e0b6bfdda5cce83b6bb418f5",
+      "importance_score": 40.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 8.0,
-        "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -183,161 +201,55 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 4
+          "geopolitical": 8,
+          "human": 4
         }
       },
-      "story_id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec",
-      "public_label": "📰 NEWS",
-      "headline": "Syria's top Druze leader calls community 'integral part of Israel'",
+      "story_id": "36848d5663b9430e9df22326f803e87d9ed40ca67912743e2c081f12af3d0866",
+      "public_label": "🔄 UPDATE",
+      "headline": "Taiwan election commission rejects caning referendum proposal",
       "briefing": {
         "opening": [
-          "Sheikh al-Aql Hikmat al-Hijri made the declaration at a gathering in Suwayda, praising Israel's model of state-building and saying the two communities shared doctrinal \"common denominators,\" a statement that deepens the rift with Damascus.",
-          "The spiritual leader of Syria's Druze has described the community as \"an integral part of the State of Israel,\" a declaration that drew sharp reactions across the region and deepened tensions between Suwayda province and Damascus."
+          "Taiwan's election commission on Friday rejected a proposal passed by parliament for a referendum to legalise caning for serious crimes like sexual assault and fraud, saying it would go against the island's international human rights commitments.",
+          "Taiwan's opposition-controlled parliament voted earlier this month to hold the caning referendum, which was opposed by the ruling party."
         ],
         "body": [
-          "Hikmat al-Hijri made the statement at a gathering in Suwayda on Monday, praising Israel's model of state-building and saying the two communities shared \"common denominators\" that he said extended to doctrine.",
-          "He said the region's inhabitants shared a common fate and that the current period would require sacrifices to achieve stability.",
-          "Al-Hijri is one of Syria's three Sheikh al-Aql, the senior religious leaders of the country's Druze community, and has emerged as its most influential political and spiritual figure in Suwayda.",
-          "The Druze follow a monotheistic faith that emerged in the 11th century as an offshoot of Ismaili Islam and is now generally regarded as a distinct religion.",
-          "There are roughly 1 million Druze worldwide, with most living in Suwayda province in the southwest and the surrounding Jabal al-Arab, and smaller communities in Lebanon and Israel.",
-          "The Israeli Druze have a specific status within Israel: unlike other Arab citizens, they are subject to mandatory military service and have traditionally served in the Israeli Defence Forces.",
-          "Al-Hijri linked his vision for Suwayda's future to establishing a \"civil state\" that guarantees the rights of all communities without discrimination.",
-          "He hinted at developments in the province that could be announced \"within days,\" without elaborating."
+          "Speaking to reporters, Central Election Commission Chairman Michael.",
+          "You said Taiwan has already enacted into law international commitments on human rights.",
+          "\"Caning is a form of corporal punishment in which public authority directly inflicts physical pain on the person being punished.",
+          "Most countries consider it a cruel, inhuman punishment that violates human dignity,\" he added.",
+          "Hung Meng-kai, the lawmaker who proposed the referendum and is from the largest opposition party the Kuomintang, expressed regret, saying people should have been given a choice at the ballot box.",
+          "\"Is this truly protecting victims, or is it building a protective wall for criminals?\" he wrote on his Facebook page.",
+          "Taiwan's National Human Rights Commission as well as groups like.",
+          "Amnesty International had criticised the caning proposal."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Suwayda"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "There are roughly 1 million Druze worldwide, with most living in Suwayda province in the southwest and the surrounding Jabal al-Arab, and smaller communities in Lebanon and Israel.",
-            "source": "Euronews",
-            "item_id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec:article",
-            "composed": false
-          },
-          {
-            "text": "Hikmat al-Hijri made the statement at a gathering in Suwayda on Monday, praising Israel's model of state-building and saying the two communities shared \"common denominators\" that he said extended to doctrine.",
-            "source": "Euronews",
-            "item_id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec:article",
-            "composed": false
-          },
-          {
-            "text": "The Druze follow a monotheistic faith that emerged in the 11th century as an offshoot of Ismaili Islam and is now generally regarded as a distinct religion.",
-            "source": "Euronews",
-            "item_id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec:article",
-            "composed": false
-          },
-          {
-            "text": "Sheikh al-Aql Hikmat al-Hijri made the declaration at a gathering in Suwayda, praising Israel's model of state-building and saying the two communities shared doctrinal \"common denominators,\" a statement that deepens the rift with Damascus.",
-            "source": "Euronews",
-            "item_id": "d778e9977ee5e836aafc74c674171048177dd2088b89f482c4be59a0c9b2f1ec:article",
-            "composed": false
-          }
-        ],
-        "source": "Euronews",
-        "corroborating": [],
-        "url": "http://www.euronews.com/2026/08/28/syrias-top-druze-leader-calls-community-integral-part-of-israel"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "4a3c962561c49fd4d5d02b66b332f0b09f8aabfbcc9fed8a215b99608c064185",
-      "title": "Norway's King Haakon VIII, the new face of a monarchy beset by woe and scandal",
-      "url": "https://www.france24.com/en/europe/20260828-norway-s-king-haakon-the-new-face-of-a-monarchy-shaken-by-scandal",
-      "source": "France 24",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "Norway's King Haakon VIII automatically succeeded to the throne after his father, King Harald, passed away on Friday. He is the new face of a monarchy long praised for its modernity and modesty, but in recent years it has been beset by woe and scandal, including revelations about the queen's friendship with disgraced financier Jeffrey Epstein.",
-      "published_at": "2026-08-28T07:51:11+00:00",
-      "updated_at": "2026-08-28T07:51:11+00:00",
-      "effective_at": "2026-08-28T07:51:11+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "epstein",
-        "haakon",
-        "harald",
-        "jeffrey",
-        "norway",
-        "viii"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "0dfac97dddffb37b6339218b",
-      "importance_score": 27.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 6.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "4a3c962561c49fd4d5d02b66b332f0b09f8aabfbcc9fed8a215b99608c064185",
-      "public_label": "📰 NEWS",
-      "headline": "Norway's King Haakon VIII, the new face of a monarchy beset by woe and scandal",
-      "briefing": {
-        "opening": [
-          "Norway's King Haakon VIII automatically succeeded to the throne after his father, King Harald, passed away on Friday.",
-          "He is the new face of a monarchy long praised for its modernity and modesty, but in recent years it has been beset by woe and scandal, including revelations about the queen's friendship with disgraced financier Jeffrey Epstein."
-        ],
-        "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "He is the new face of a monarchy long praised for its modernity and modesty, but in recent years it has been beset by woe and scandal, including revelations about the queen's friendship with disgraced financier Jeffrey Epstein.",
-            "source": "France 24",
-            "item_id": "4a3c962561c49fd4d5d02b66b332f0b09f8aabfbcc9fed8a215b99608c064185",
+            "text": "Speaking to reporters, Central Election Commission Chairman Michael.",
+            "source": "Straits Times Asia",
+            "item_id": "36848d5663b9430e9df22326f803e87d9ed40ca67912743e2c081f12af3d0866:article",
             "composed": false
           },
           {
-            "text": "Norway's King Haakon VIII automatically succeeded to the throne after his father, King Harald, passed away on Friday.",
-            "source": "France 24",
-            "item_id": "4a3c962561c49fd4d5d02b66b332f0b09f8aabfbcc9fed8a215b99608c064185",
+            "text": "Hung Meng-kai, the lawmaker who proposed the referendum and is from the largest opposition party the Kuomintang, expressed regret, saying people should have been given a choice at the ballot box.",
+            "source": "Straits Times Asia",
+            "item_id": "36848d5663b9430e9df22326f803e87d9ed40ca67912743e2c081f12af3d0866:article",
+            "composed": false
+          },
+          {
+            "text": "Taiwan's election commission on Friday rejected a proposal passed by parliament for a referendum to legalise caning for serious crimes like sexual assault and fraud, saying it would go against the island's international human rights commitments.",
+            "source": "Straits Times Asia",
+            "item_id": "36848d5663b9430e9df22326f803e87d9ed40ca67912743e2c081f12af3d0866:article",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.france24.com/en/europe/20260828-norway-s-king-haakon-the-new-face-of-a-monarchy-shaken-by-scandal"
+        "url": "https://www.straitstimes.com/asia/taiwan-election-commission-rejects-caning-referendum-proposal"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
