@@ -1,74 +1,66 @@
 {
-  "generated_at": "2026-08-29T10:10:41.953683+00:00",
+  "generated_at": "2026-08-29T10:20:44.561686+00:00",
   "count": 2,
   "stories": [
     {
-      "id": "a437e82a5d6df9aa2df27b11cf398f674539cdeb862a7863a842f21d78870536",
-      "title": "Hong Kong school opens at new Tai Po campus after deadly Wang Fuk Court blaze",
-      "url": "https://www.scmp.com/news/hong-kong/education/article/3365707/hong-kong-school-opens-new-tai-po-campus-after-deadly-wang-fuk-court-blaze?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "2e4056aff3f61cae0fa3d14176b981e1d8ca373293d296444fbd489dba556ce4",
+      "title": "Israeli attacks increase Gaza death toll",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-attacks-increase-gaza-death-toll",
+      "source": "Middle East Eye",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Nearly 600 pupils and their teachers at a Hong Kong primary school closed after the deadly Wang Fuk Court blaze will be reunited at a newly renovated campus in Tai Po, ending months spent across two temporary sites. Tai Po Baptist Public School, formerly located near Wang Fuk Court, opened its new premises at Fu Shin Estate on Saturday, with pupils, teachers and parents expressing relief at finally having a settled place to reunite. The campus was formerly home to CCC Kei Ching Primary School,...",
-      "published_at": "2026-08-29T10:08:26+00:00",
-      "updated_at": "2026-08-29T10:08:26+00:00",
-      "effective_at": "2026-08-29T10:08:26+00:00",
+      "summary": "The Palestinian health ministry said new Israeli attacks killed nine Palestinians and injured 18 others in the past 48 hours. The ministry said one body was recovered from the rubble of previous Israeli attacks. The new attacks put the death toll from Israel's war on Gaza at 73,449 Palestinians, and 174,472 injured since 7 October 2023.",
+      "published_at": "2026-08-29T10:15:30+00:00",
+      "updated_at": "2026-08-29T10:15:30+00:00",
+      "effective_at": "2026-08-29T10:15:30+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
+      "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "law",
-      "subsector": "education",
-      "subregion": "East Asia",
+      "sector": "climate",
+      "subsector": "disasters",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "baptist",
-        "ccc",
-        "ching",
-        "court",
-        "estate",
-        "fu",
-        "fuk",
-        "hong_kong",
-        "kei",
-        "nearly",
-        "po",
-        "primary",
-        "public",
-        "school",
-        "shin",
-        "tai",
-        "wang"
+        "gaza",
+        "israel",
+        "palestine",
+        "palestinians"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "42596946c4eaf950cc98f62e",
-      "importance_score": 64.0,
-      "importance_level": "MEDIUM",
+      "article_sentences": [
+        "The Palestinian health ministry said new Israeli attacks killed nine Palestinians and injured 18 others in the past 48 hours.",
+        "The ministry said one body was recovered from the rubble of previous Israeli attacks.",
+        "The new attacks put the death toll from Israel's war on Gaza at 73,449 Palestinians, and 174,472 injured since 7 October 2023."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "819ce06749f34e8f7b0cd015",
+      "importance_score": 93.0,
+      "importance_level": "CRITICAL",
       "importance_breakdown": {
-        "impact": 26.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "impact": 34,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 10,
+        "significance": 28,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 600,
-          "injured": 0,
+          "dead": 73449,
+          "injured": 174472,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
@@ -76,74 +68,85 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 10
+          "security": 8,
+          "geopolitical": 8,
+          "human": 12
         }
       },
-      "story_id": "a437e82a5d6df9aa2df27b11cf398f674539cdeb862a7863a842f21d78870536",
-      "public_label": "📰 NEWS",
-      "headline": "Hong Kong school opens at new Tai Po campus after deadly Wang Fuk Court blaze",
+      "story_id": "2e4056aff3f61cae0fa3d14176b981e1d8ca373293d296444fbd489dba556ce4",
+      "public_label": "🔄 UPDATE",
+      "headline": "Israeli attacks increase Gaza death toll",
       "briefing": {
         "opening": [
-          "Nearly 600 pupils and their teachers at a Hong Kong primary school closed after the deadly Wang Fuk Court blaze will be reunited at a newly renovated campus in Tai Po, ending months spent across two temporary sites.",
-          "Tai Po Baptist Public School, formerly located near Wang Fuk Court, opened its new premises at Fu Shin Estate on Saturday, with pupils, teachers and parents expressing relief at finally having a settled place to reunite."
+          "The Palestinian health ministry said new Israeli attacks killed nine Palestinians and injured 18 others in the past 48 hours.",
+          "The ministry said one body was recovered from the rubble of previous Israeli attacks."
         ],
         "body": [
-          "The campus was formerly home to CCC Kei Ching Primary School,..."
+          "The new attacks put the death toll from Israel's war on Gaza at 73,449 Palestinians, and 174,472 injured since 7 October 2023."
         ],
         "bullets": [
           {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Tai Po"
+            "icon": "👥",
+            "label": "Impact",
+            "text": "174,472 injured"
           }
         ],
         "sentences": [
           {
-            "text": "Nearly 600 pupils and their teachers at a Hong Kong primary school closed after the deadly Wang Fuk Court blaze will be reunited at a newly renovated campus in Tai Po, ending months spent across two temporary sites.",
-            "source": "South China Morning Post",
-            "item_id": "a437e82a5d6df9aa2df27b11cf398f674539cdeb862a7863a842f21d78870536",
+            "text": "The new attacks put the death toll from Israel's war on Gaza at 73,449 Palestinians, and 174,472 injured since 7 October 2023.",
+            "source": "Middle East Eye",
+            "item_id": "2e4056aff3f61cae0fa3d14176b981e1d8ca373293d296444fbd489dba556ce4:article",
             "composed": false
           },
           {
-            "text": "Tai Po Baptist Public School, formerly located near Wang Fuk Court, opened its new premises at Fu Shin Estate on Saturday, with pupils, teachers and parents expressing relief at finally having a settled place to reunite.",
-            "source": "South China Morning Post",
-            "item_id": "a437e82a5d6df9aa2df27b11cf398f674539cdeb862a7863a842f21d78870536",
+            "text": "The ministry said one body was recovered from the rubble of previous Israeli attacks.",
+            "source": "Middle East Eye",
+            "item_id": "2e4056aff3f61cae0fa3d14176b981e1d8ca373293d296444fbd489dba556ce4:article",
+            "composed": false
+          },
+          {
+            "text": "Palestinians and injured 18 others in the past 48 hours.",
+            "source": "Middle East Eye",
+            "item_id": "2e4056aff3f61cae0fa3d14176b981e1d8ca373293d296444fbd489dba556ce4:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "Middle East Eye",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/education/article/3365707/hong-kong-school-opens-new-tai-po-campus-after-deadly-wang-fuk-court-blaze?utm_source=rss_feed"
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-attacks-increase-gaza-death-toll"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "65ba22f70d9b9ff7c39798ce93548655e2070ba8551ba1057cfce672312f699d",
-      "title": "Trump cuts to science advisory boards have long-lasting consequences, researchers say",
-      "url": "https://www.npr.org/2026/08/29/nx-s1-5945029/trump-cut-science-advisory-committees-consequences",
-      "source": "NPR Science",
-      "source_category": "science",
+      "id": "c2ba2e5a6e18f6e78d8656c6f856c8db67a129511fa4be73f741c789d03d91f2",
+      "title": "They laid down arms. Now ex-guerrillas in Colombia fear fate under new hardline president",
+      "url": "https://www.theguardian.com/world/2026/aug/29/former-guerrillas-colombia-fate-new-president",
+      "source": "The Guardian World",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "South America",
       "discovery": false,
-      "summary": "The federal government recruits top experts to volunteer to advise on pressing research issues of the day. Since President Trump took office, hundreds of these experts have been dismissed.",
-      "published_at": "2026-08-29T10:00:00+00:00",
-      "updated_at": "2026-08-29T10:00:00+00:00",
-      "effective_at": "2026-08-29T10:00:00+00:00",
+      "summary": "‘Total peace’ plan of previous government led only 99 of Colombia’s 30,000 armed combatants to disarm, but new president Abelardo De la Espriella opposes peace agreements In mid-June, 99 guerrilla fighters were flown by helicopter to a small settlement in a rural area of southern Colombia where they lined up and, one by one, handed their weapons to government officials: rifles, pistols, machine guns and grenade launchers. They also stripped off their heavy tactical vests, field packs and camouflage uniforms, which were each piled into a bonfire to mark the beginning of a new life away from an armed conflict that has claimed nearly half a million lives in the last six decades. Continue readin",
+      "published_at": "2026-08-29T10:00:24+00:00",
+      "updated_at": "2026-08-29T10:00:24+00:00",
+      "effective_at": "2026-08-29T10:00:24+00:00",
       "language_status": "ENGLISH",
       "category": "politics",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "science",
-      "subsector": "science",
-      "subregion": null,
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "South America",
       "country": null,
       "entities": [
-        "since",
-        "trump"
+        "abelardo",
+        "colombia",
+        "de",
+        "espriella",
+        "total"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -152,16 +155,16 @@
       "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "04737863d7b89b4092a9a401",
-      "importance_score": 34.0,
+      "event_status": "UPDATE",
+      "event_id": "2e0e17c26436f2aa34c53b7a",
+      "importance_score": 38.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "urgency": 10,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 8,
@@ -177,40 +180,43 @@
           "crisis": false
         },
         "significance_dims": {
-          "scientific": 4,
+          "security": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "65ba22f70d9b9ff7c39798ce93548655e2070ba8551ba1057cfce672312f699d",
-      "public_label": "📰 NEWS",
-      "headline": "Trump cuts to science advisory boards have long-lasting consequences, researchers say",
+      "story_id": "c2ba2e5a6e18f6e78d8656c6f856c8db67a129511fa4be73f741c789d03d91f2",
+      "public_label": "🔄 UPDATE",
+      "headline": "They laid down arms. Now ex-guerrillas in Colombia fear fate under new hardline president",
       "briefing": {
         "opening": [
-          "The federal government recruits top experts to volunteer to advise on pressing research issues of the day.",
-          "Since President Trump took office, hundreds of these experts have been dismissed."
+          "‘Total peace’ plan of previous government led only 99 of Colombia’s 30,000 armed combatants to disarm, but new president Abelardo De la Espriella opposes peace agreements.",
+          "In mid-June, 99 guerrilla fighters were flown by helicopter to a small settlement in a rural area of southern Colombia where they lined up and, one by one, handed their weapons to government officials: rifles, pistols, machine guns and grenade launchers."
         ],
-        "body": [],
+        "body": [
+          "They also stripped off their heavy tactical vests, field packs and camouflage uniforms, which were each piled into a bonfire to mark the beginning of a new life away from an armed conflict that has claimed nearly half a million lives in the last six decades.",
+          "Continue readin."
+        ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Since President Trump took office, hundreds of these experts have been dismissed.",
-            "source": "NPR Science",
-            "item_id": "65ba22f70d9b9ff7c39798ce93548655e2070ba8551ba1057cfce672312f699d",
+            "text": "They also stripped off their heavy tactical vests, field packs and camouflage uniforms, which were each piled into a bonfire to mark the beginning of a new life away from an armed conflict that has claimed nearly half a million lives in the last six decades.",
+            "source": "The Guardian World",
+            "item_id": "c2ba2e5a6e18f6e78d8656c6f856c8db67a129511fa4be73f741c789d03d91f2",
             "composed": false
           },
           {
-            "text": "The federal government recruits top experts to volunteer to advise on pressing research issues of the day.",
-            "source": "NPR Science",
-            "item_id": "65ba22f70d9b9ff7c39798ce93548655e2070ba8551ba1057cfce672312f699d",
+            "text": "In mid-June, 99 guerrilla fighters were flown by helicopter to a small settlement in a rural area of southern Colombia where they lined up and, one by one, handed their weapons to government officials: rifles, pistols, machine guns and grenade launchers.",
+            "source": "The Guardian World",
+            "item_id": "c2ba2e5a6e18f6e78d8656c6f856c8db67a129511fa4be73f741c789d03d91f2",
             "composed": false
           }
         ],
-        "source": "NPR Science",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://www.npr.org/2026/08/29/nx-s1-5945029/trump-cut-science-advisory-committees-consequences"
+        "url": "https://www.theguardian.com/world/2026/aug/29/former-guerrillas-colombia-fate-new-president"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
