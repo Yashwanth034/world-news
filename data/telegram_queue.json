@@ -1,56 +1,252 @@
 {
-  "generated_at": "2026-08-29T06:10:46.680857+00:00",
-  "count": 1,
+  "generated_at": "2026-08-29T06:20:46.321071+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "4480eb10b1b68227fe863c79511657b15da59a0146a4d398cdac11cee9386368",
-      "title": "India intends to promote development of a threat-free region within the SCO — Modi",
-      "url": "https://tass.com/world/2179225",
-      "source": "TASS English",
+      "id": "7ea19750e9680aebe93915c795dfd29978cb086788ee818fd8f7e26d2d8fc69e",
+      "title": "Nepal-Tibet floods: Over 630 bodies recovered, number of missing soars to nearly 3,000",
+      "url": "https://www.straitstimes.com/asia/nepal-tibet-floods-over-630-bodies-recovered-number-of-missing-soars-to-nearly-3000",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "The Indian Prime Minister highlighted terrorism, separatism and extremism among the threats",
-      "published_at": "2026-08-29T06:01:53+00:00",
-      "updated_at": "2026-08-29T06:01:53+00:00",
-      "effective_at": "2026-08-29T06:01:53+00:00",
+      "summary": "The Red Cross said as many as 93,000 people may have been affected, with the death toll expected to rise.",
+      "published_at": "2026-08-29T06:10:00+00:00",
+      "updated_at": "2026-08-29T06:10:00+00:00",
+      "effective_at": "2026-08-29T06:10:00+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
+      "sector": "climate",
+      "subsector": "floods",
       "subregion": "South Asia",
       "country": null,
       "entities": [
-        "india",
-        "indian",
-        "modi",
-        "sco"
+        "cross",
+        "red"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "3a6002ceee19b00a514d928d",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Japan Times"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 93,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "event_status": "UPDATE",
+      "event_id": "b1738c32f2bc0ee31f8d2dfa",
+      "importance_score": 94.0,
+      "importance_level": "CRITICAL",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "impact": 34,
+        "urgency": 10,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
+        "corroboration": 6,
+        "significance": 24,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 2500,
+          "injured": 0,
+          "displaced": 3000,
+          "missing": 3000,
+          "affected": 93000,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "infrastructure": 8,
+          "human": 12,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "7ea19750e9680aebe93915c795dfd29978cb086788ee818fd8f7e26d2d8fc69e",
+      "article_sentences": [
+        "NUWAKOT, Nepal – Rescuers in Nepal and China were still battling on Aug 29 to locate thousands of people missing days after a deadly, tsunami-like wall of water and debris swept through the Himalayan region, engulfing villages.",
+        "The number of missing soared close to 3,000 on Aug 29, latest figures from both countries showed, with 633 bodies recovered – and reports of some dead possibly swept downstream as far away as India.",
+        "In an area home to vast energy infrastructure projects, Nepal’s disaster authority added 933 hydropower workers to a missing persons list already including trekkers and pilgrims to Tibet’s sacred Mount Kailash.",
+        "Those that made it out say they have lost everything and now face an agonising wait to discover the fate of missing loved ones, and the prospect of rebuilding their lives from nothing.",
+        "“All the settlements near the river were swept away.",
+        "There is nothing left,” survivor Buddhi Ram Dangol told AFP.",
+        "Samjhana Thing said she had been waiting three days for news of her missing brother.",
+        "“We don’t know anything.",
+        "Hopefully he is in a safe place,” she said.",
+        "The trauma of Aug 26’s catastrophe has been “enormous”, and as many as 93,000 people may have been affected, the Red Cross said, with the death toll expected to rise.",
+        "Emergency teams had been racing to retrieve survivors from affected zones, where the widespread devastation meant food and water supplies were running out.",
+        "Compounding the search for the missing have been fears of further flooding in affected areas."
+      ],
+      "public_label": "🔄 UPDATE",
+      "headline": "Nepal-Tibet floods: Over 630 bodies recovered, number of missing soars to nearly 3,000",
+      "briefing": {
+        "opening": [
+          "NUWAKOT, Nepal – Rescuers in Nepal and China were still battling on Aug 29 to locate thousands of people missing days after a deadly, tsunami-like wall of water and debris swept through the Himalayan region, engulfing villages.",
+          "The number of missing soared close to 3,000 on Aug 29, latest figures from both countries showed, with 633 bodies recovered – and reports of some dead possibly swept downstream as far away as India."
+        ],
+        "body": [
+          "In an area home to vast energy infrastructure projects, Nepal’s disaster authority added 933 hydropower workers to a missing persons list already including trekkers and pilgrims to Tibet’s sacred Mount Kailash.",
+          "Those that made it out say they have lost everything and now face an agonising wait to discover the fate of missing loved ones, and the prospect of rebuilding their lives from nothing.",
+          "“All the settlements near the river were swept away.",
+          "There is nothing left,” survivor Buddhi Ram Dangol told AFP.",
+          "Samjhana Thing said she had been waiting three days for news of her missing brother.",
+          "“We don’t know anything.",
+          "Hopefully he is in a safe place,” she said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "93,000 people"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The trauma of Aug 26’s catastrophe has been “enormous”, and as many as 93,000 people may have been affected, the Red Cross said, with the death toll expected to rise."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The trauma of Aug 26’s catastrophe has been “enormous”, and as many as 93,000 people may have been affected, the Red Cross said, with the death toll expected to rise.",
+            "source": "Straits Times Asia",
+            "item_id": "7ea19750e9680aebe93915c795dfd29978cb086788ee818fd8f7e26d2d8fc69e:article",
+            "composed": false
+          },
+          {
+            "text": "The number of missing soared close to 3,000 on Aug 29, latest figures from both countries showed, with 633 bodies recovered – and reports of some dead possibly swept downstream as far away as India.",
+            "source": "Straits Times Asia",
+            "item_id": "7ea19750e9680aebe93915c795dfd29978cb086788ee818fd8f7e26d2d8fc69e:article",
+            "composed": false
+          },
+          {
+            "text": "NUWAKOT, Nepal – Rescuers in Nepal and China were still battling on Aug 29 to locate thousands of people missing days after a deadly, tsunami-like wall of water and debris swept through the Himalayan region, engulfing villages.",
+            "source": "Straits Times Asia",
+            "item_id": "7ea19750e9680aebe93915c795dfd29978cb086788ee818fd8f7e26d2d8fc69e:article",
+            "composed": false
+          },
+          {
+            "text": "In an area home to vast energy infrastructure projects, Nepal’s disaster authority added 933 hydropower workers to a missing persons list already including trekkers and pilgrims to Tibet’s sacred Mount Kailash.",
+            "source": "Straits Times Asia",
+            "item_id": "7ea19750e9680aebe93915c795dfd29978cb086788ee818fd8f7e26d2d8fc69e:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/nepal-tibet-floods-over-630-bodies-recovered-number-of-missing-soars-to-nearly-3000"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "51d62679d8762825c530968025d08f14460d3a4606697a92548d6d57c29859ec",
+      "title": "US strikes deal to control more than 65 billion barrels of Venezuela's oil reserves",
+      "url": "http://www.euronews.com/2026/08/29/us-strikes-deal-to-control-more-than-65-billion-barrels-of-venezuelas-oil-reserves",
+      "source": "Euronews",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "Trump has long been candid about his desire for the US to secure Venezuelan oil and has urged oil companies to invest in the South American nation. The US and Venezuela have agreed terms on a huge oil deal that will see Washington take control of more than 65 billion barrels Venezuela's oil reserves. US President Donald Trump had announced the agreement on Friday in a post on Truth Social, calling it the \"biggest oil deal in world history.\" \"This Historic Transaction MORE THAN DOUBLES American Oil Reserves, greatly increases our Oil Supply, and will substantially lower Gas Prices for all Americans,\" he wrote, adding that it would also help \"set Venezuela on a course toward Tremendous Success and Great Prosperity.\" Delcy Rodríguez, the acting president of Venezuela - which has the world's largest proven oil reserves - later confirmed the \"historic\" deal in a statement posted to social media. According to Rodríguez, the agreement \"calls for the development of 17 strategic fields\" and could see investment of \"more than $100 billion, and more than $209 billion in taxes for the state.\" Many firms have remained wary, however, with concerns over aging infrastructure and political uncertainty both at home and in Venezuela. In a post on X, US Secretary of State Marco Rubio hailed the deal as a \"huge win for both the American and Venezuelan people.\" \"It demonstrates how President Trump's bold foreign policy is driving America First wins: securing stable reserves and low-cost oil in our Hemisphere and lowering gas prices here at home,\" he wrote. \"For the Venezuelan people, this deal will bring nearly $100 billion in private investment, support thousands of high-paying jobs, and drive the reconstruction of Venezuela's economy,\" Rubio added. Washington has been keeping a close watch on Caracas since US forces conducted an operation to capture former leader Nicolás Maduro in January. Following the operation, Trump pledged to pump billions into Venezuela and said US firms would rebuild the country's oil industry.",
+      "published_at": "2026-08-29T06:18:18+00:00",
+      "updated_at": "2026-08-29T06:18:18+00:00",
+      "effective_at": "2026-08-29T06:18:18+00:00",
+      "language_status": "ENGLISH",
+      "category": "industry",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "oil_gas",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "america",
+        "american",
+        "americans",
+        "caracas",
+        "delcy",
+        "donald",
+        "doubles",
+        "gas",
+        "great",
+        "hemisphere",
+        "historic",
+        "maduro",
+        "many",
+        "marco",
+        "nicol",
+        "oil",
+        "prices",
+        "prosperity",
+        "reserves",
+        "rodr",
+        "rubio",
+        "social",
+        "south",
+        "state",
+        "success",
+        "supply",
+        "than",
+        "transaction",
+        "tremendous",
+        "trump",
+        "truth",
+        "us",
+        "venezuela",
+        "venezuelan"
+      ],
+      "corroborating_sources": 4,
+      "strong_corroboration": 4,
+      "corroborating_source_names": [
+        "South China Morning Post",
+        "BBC World",
+        "BBC Business",
+        "NPR World"
+      ],
+      "verified_match_count": 4,
+      "priority_score": 75,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "article_sentences": [
+        "Trump has long been candid about his desire for the US to secure Venezuelan oil and has urged oil companies to invest in the South American nation.",
+        "The US and Venezuela have agreed terms on a huge oil deal that will see Washington take control of more than 65 billion barrels Venezuela's oil reserves.",
+        "US President Donald Trump had announced the agreement on Friday in a post on Truth Social, calling it the \"biggest oil deal in world history.\"",
+        "\"This Historic Transaction MORE THAN DOUBLES American Oil Reserves, greatly increases our Oil Supply, and will substantially lower Gas Prices for all Americans,\" he wrote, adding that it would also help \"set Venezuela on a course toward Tremendous Success and Great Prosperity.\"",
+        "Delcy Rodríguez, the acting president of Venezuela - which has the world's largest proven oil reserves - later confirmed the \"historic\" deal in a statement posted to social media.",
+        "According to Rodríguez, the agreement \"calls for the development of 17 strategic fields\" and could see investment of \"more than $100 billion, and more than $209 billion in taxes for the state.\"",
+        "Many firms have remained wary, however, with concerns over aging infrastructure and political uncertainty both at home and in Venezuela.",
+        "In a post on X, US Secretary of State Marco Rubio hailed the deal as a \"huge win for both the American and Venezuelan people.\"",
+        "\"It demonstrates how President Trump's bold foreign policy is driving America First wins: securing stable reserves and low-cost oil in our Hemisphere and lowering gas prices here at home,\" he wrote.",
+        "\"For the Venezuelan people, this deal will bring nearly $100 billion in private investment, support thousands of high-paying jobs, and drive the reconstruction of Venezuela's economy,\" Rubio added.",
+        "Washington has been keeping a close watch on Caracas since US forces conducted an operation to capture former leader Nicolás Maduro in January.",
+        "Following the operation, Trump pledged to pump billions into Venezuela and said US firms would rebuild the country's oil industry."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "41a8318369a63ce9f1ec4ec8",
+      "importance_score": 52.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 10,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -63,66 +259,64 @@
           "crisis": false
         },
         "significance_dims": {
+          "security": 8,
+          "economic": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "4480eb10b1b68227fe863c79511657b15da59a0146a4d398cdac11cee9386368",
-      "article_sentences": [
-        "NEW DELHI, August 29.",
-        "India intends to work within the Shanghai Cooperation Organization (SCO) to ensure security of the region and free it from the threats of terrorism, separatism, and extremism, said Prime Minister Narendra Modi before departing for Uzbekistan and Kyrgyzstan.",
-        "According to the head of the Indian government, he is heading \"to Bishkek to participate in the 26th SCO Summit, marking 25 years of this important organization.",
-        "\"I look forward to advancing India’s vision for the region, anchored in Security, Connectivity and Opportunity, and to working with fellow members for a region free from the scourge of terrorism, separatism and extremism, which continue to threaten peace and stability in our neighborhood and beyond.\"",
-        "The prime minister added that he is also looking forward to meeting with other leaders of the SCO countries.",
-        "On August 28, Yury Ushakov, an aide to the Russian leader, said that President Vladimir Putin would meet with Modi in Bishkek on August 31.",
-        "Before Bishkek, Modi will go Tashkent on a state visit.",
-        "\"In recent years, India-Uzbekistan Strategic Partnership has seen significant advancement.",
-        "I look forward to my discussions with President Mirziyoyev on further deepening our cooperation in trade and investment, digital connectivity, defense, energy,\" Modi said.",
-        "\"I am confident that this visit will strengthen India’s strategic partnerships in Central Asia, deepen our civilisational connect with the region, and advance our shared pursuit of peace, stability and prosperity, values that lie at the heart of India’s engagement with the world."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "India intends to promote development of a threat-free region within the SCO — Modi",
+      "story_id": "51d62679d8762825c530968025d08f14460d3a4606697a92548d6d57c29859ec",
+      "public_label": "🔄 UPDATE",
+      "headline": "US strikes deal to control more than 65 billion barrels of Venezuela's oil reserves",
       "briefing": {
         "opening": [
-          "NEW DELHI, August 29.",
-          "India intends to work within the Shanghai Cooperation Organization (SCO) to ensure security of the region and free it from the threats of terrorism, separatism, and extremism, said Prime Minister Narendra Modi before departing for Uzbekistan and Kyrgyzstan."
+          "Trump has long been candid about his desire for the US to secure Venezuelan oil and has urged oil companies to invest in the South American nation.",
+          "The US and Venezuela have agreed terms on a huge oil deal that will see Washington take control of more than 65 billion barrels Venezuela's oil reserves."
         ],
         "body": [
-          "According to the head of the Indian government, he is heading \"to Bishkek to participate in the 26th SCO Summit, marking 25 years of this important organization.",
-          "\"I look forward to advancing India’s vision for the region, anchored in Security, Connectivity and Opportunity, and to working with fellow members for a region free from the scourge of terrorism, separatism and extremism, which continue to threaten peace and stability in our neighborhood and beyond.\" The prime minister added that he is also looking forward to meeting with other leaders of the SCO countries.",
-          "On August 28, Yury Ushakov, an aide to the Russian leader, said that President Vladimir Putin would meet with Modi in Bishkek on August 31.",
-          "Before Bishkek, Modi will go Tashkent on a state visit.",
-          "\"In recent years, India-Uzbekistan Strategic Partnership has seen significant advancement.",
-          "I look forward to my discussions with President Mirziyoyev on further deepening our cooperation in trade and investment, digital connectivity, defense, energy,\" Modi said.",
-          "\"I am confident that this visit will strengthen India’s strategic partnerships in Central Asia, deepen our civilisational connect with the region, and advance our shared pursuit of peace, stability and prosperity, values that lie at the heart of India’s engagement with the world.",
-          "The Indian Prime Minister highlighted terrorism, separatism and extremism among the threats."
+          "US President Donald Trump had announced the agreement on Friday in a post on Truth Social, calling it the \"biggest oil deal in world history.\" \"This Historic Transaction MORE THAN DOUBLES American Oil Reserves, greatly increases our Oil Supply, and will substantially lower Gas Prices for all Americans,\" he wrote, adding that it would also help \"set Venezuela on a course toward Tremendous Success and Great Prosperity.\" Delcy Rodríguez, the acting president of Venezuela - which has the world's largest proven oil reserves - later confirmed the \"historic\" deal in a statement posted to social media.",
+          "In a post on X, US Secretary of State Marco Rubio hailed the deal as a \"huge win for both the American and Venezuelan people.\" \"It demonstrates how President Trump's bold foreign policy is driving America First wins: securing stable reserves and low-cost oil in our Hemisphere and lowering gas prices here at home,\" he wrote.",
+          "Washington has been keeping a close watch on Caracas since US forces conducted an operation to capture former leader Nicolás Maduro in January.",
+          "Following the operation, Trump pledged to pump billions into Venezuela and said US firms would rebuild the country's oil industry."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Security"
+            "text": "January"
           }
         ],
         "sentences": [
           {
-            "text": "On August 28, Yury Ushakov, an aide to the Russian leader, said that President Vladimir Putin would meet with Modi in Bishkek on August 31.",
-            "source": "TASS English",
-            "item_id": "4480eb10b1b68227fe863c79511657b15da59a0146a4d398cdac11cee9386368:article",
+            "text": "The US and Venezuela have agreed terms on a huge oil deal that will see Washington take control of more than 65 billion barrels Venezuela's oil reserves.",
+            "source": "Euronews",
+            "item_id": "51d62679d8762825c530968025d08f14460d3a4606697a92548d6d57c29859ec:article",
             "composed": false
           },
           {
-            "text": "\"I look forward to advancing India’s vision for the region, anchored in Security, Connectivity and Opportunity, and to working with fellow members for a region free from the scourge of terrorism, separatism and extremism, which continue to threaten peace and stability in our neighborhood and beyond.\"",
-            "source": "TASS English",
-            "item_id": "4480eb10b1b68227fe863c79511657b15da59a0146a4d398cdac11cee9386368:article",
+            "text": "Washington has been keeping a close watch on Caracas since US forces conducted an operation to capture former leader Nicolás Maduro in January.",
+            "source": "Euronews",
+            "item_id": "51d62679d8762825c530968025d08f14460d3a4606697a92548d6d57c29859ec:article",
+            "composed": false
+          },
+          {
+            "text": "US President Donald Trump had announced the agreement on Friday in a post on Truth Social, calling it the \"biggest oil deal in world history.\"",
+            "source": "Euronews",
+            "item_id": "51d62679d8762825c530968025d08f14460d3a4606697a92548d6d57c29859ec:article",
+            "composed": false
+          },
+          {
+            "text": "\"This Historic Transaction MORE THAN DOUBLES American Oil Reserves, greatly increases our Oil Supply, and will substantially lower Gas Prices for all Americans,\" he wrote, adding that it would also help \"set Venezuela on a course toward Tremendous Success and Great Prosperity.\"",
+            "source": "Euronews",
+            "item_id": "51d62679d8762825c530968025d08f14460d3a4606697a92548d6d57c29859ec:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Euronews",
         "corroborating": [],
-        "url": "https://tass.com/world/2179225"
+        "url": "http://www.euronews.com/2026/08/29/us-strikes-deal-to-control-more-than-65-billion-barrels-of-venezuelas-oil-reserves"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
