@@ -1,246 +1,294 @@
 {
-  "generated_at": "2026-08-29T08:10:43.683256+00:00",
+  "generated_at": "2026-08-29T08:20:43.886936+00:00",
   "count": 2,
   "stories": [
     {
-      "id": "fe4af584f52d8c5045323bfa8b6cc9d62fd03897468f10c499e09d189766f174",
-      "title": "India steps up glacier monitoring after Nepal disaster",
-      "url": "https://www.straitstimes.com/asia/south-asia/india-steps-up-glacier-monitoring-after-nepal-disaster",
+      "id": "6ad4e59a51e5541aab0c6a112572d9f79f4d78b8eafb6396493aec842e1fb44d",
+      "title": "Nepal-Tibet floods: 72 Malaysians safe in China, 55 in Nepal still missing",
+      "url": "https://www.straitstimes.com/asia/se-asia/nepal-tibet-floods-72-malaysians-safe-in-china-55-in-nepal-still-missing",
       "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Himalayan glaciers are melting faster than ever before due to climate change.",
-      "published_at": "2026-08-29T08:05:00+00:00",
-      "updated_at": "2026-08-29T08:05:00+00:00",
-      "effective_at": "2026-08-29T08:05:00+00:00",
+      "summary": "A total of 55 Malaysians remain uncontactable in Nepal following severe flash floods that struck the country on Aug 26, said Malaysia’s Foreign Ministry. The Ministry said another 36 Malaysians have also been reported as uncontactable in China due to telecommunications disruptions. “In Nepal, 55 Malaysians remain reported as uncontactable, while two Malaysians previously reported as uncontactable have since been contacted. “Search and rescue operations and verification efforts remain ongoing, with no Malaysians identified at this stage among the 116 foreign nationals officially reported as rescued,” it said in a statement on Aug 29. The Ministry said it has also expanded its consular response beyond Nepal to assist Malaysians affected by related travel disruptions in China. “A group of 72 Malaysians in Darchen, China, has been confirmed safe and is receiving consular assistance from the Malaysian Embassy in Beijing. “Separately, information has been received regarding 36 Malaysians currently reported as uncontactable in areas affected by telecommunications disruptions in China. “The Ministry is working with the Chinese authorities and family members to establish contact, while cross-checking these reports against cases involving Malaysians in Nepal to identify any duplication,” it said. The Ministry added that its operations room continues to operate around the clock as efforts to establish the safety and whereabouts of the Malaysians concerned continue.",
+      "published_at": "2026-08-29T08:20:00+00:00",
+      "updated_at": "2026-08-29T08:20:00+00:00",
+      "effective_at": "2026-08-29T08:20:00+00:00",
       "language_status": "ENGLISH",
-      "category": "environment",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "climate",
+      "sector": "technology",
+      "subsector": "telecom",
       "subregion": "South Asia",
       "country": null,
       "entities": [
-        "himalayan",
-        "india",
+        "aug",
+        "china",
+        "darchen",
+        "embassy",
+        "foreign",
+        "malaysia",
+        "malaysian",
+        "malaysians",
+        "ministry",
         "nepal"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 85,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "1957da36d8af570cfaba264f",
-      "importance_score": 28.0,
+      "article_sentences": [
+        "A total of 55 Malaysians remain uncontactable in Nepal following severe flash floods that struck the country on Aug 26, said Malaysia’s Foreign Ministry.",
+        "The Ministry said another 36 Malaysians have also been reported as uncontactable in China due to telecommunications disruptions.",
+        "“In Nepal, 55 Malaysians remain reported as uncontactable, while two Malaysians previously reported as uncontactable have since been contacted.",
+        "“Search and rescue operations and verification efforts remain ongoing, with no Malaysians identified at this stage among the 116 foreign nationals officially reported as rescued,” it said in a statement on Aug 29.",
+        "The Ministry said it has also expanded its consular response beyond Nepal to assist Malaysians affected by related travel disruptions in China.",
+        "“A group of 72 Malaysians in Darchen, China, has been confirmed safe and is receiving consular assistance from the Malaysian Embassy in Beijing.",
+        "“Separately, information has been received regarding 36 Malaysians currently reported as uncontactable in areas affected by telecommunications disruptions in China.",
+        "“The Ministry is working with the Chinese authorities and family members to establish contact, while cross-checking these reports against cases involving Malaysians in Nepal to identify any duplication,” it said.",
+        "The Ministry added that its operations room continues to operate around the clock as efforts to establish the safety and whereabouts of the Malaysians concerned continue."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "88d0f0a51cd7041f2c7510bf",
+      "importance_score": 47.0,
       "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "impact": 8,
+        "urgency": 8.0,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
           "dead": 0,
           "injured": 0,
           "displaced": 0,
-          "missing": 0,
-          "affected": 0,
+          "missing": 579,
+          "affected": 36,
           "major_incident": false,
-          "crisis": false
+          "crisis": true
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "human": 8,
+          "geopolitical": 4
+        }
       },
-      "story_id": "fe4af584f52d8c5045323bfa8b6cc9d62fd03897468f10c499e09d189766f174",
-      "article_sentences": [
-        "India is stepping up monitoring of its Himalayan regions bordering China and Nepal, days after deadly floods apparently triggered by a glacial collapse, the authorities said on Aug 29.",
-        "The US Geological Survey said the disaster on Aug 26 on the Tibet-Nepal border was caused by a glacial collapse that created a torrent of debris, with nearly 3,000 missing and 633 confirmed dead.",
-        "While the exact cause of the collapse is unclear, climate change is causing glaciers to melt worldwide, increasing the risks of such disasters.",
-        "“Since we share a border with Nepal, as a neighbour, and also have a similar geographic situation...",
-        "we have asked our department to monitor all the glaciers and known glacial lakes in the region,” said Madan Kaushik, state disaster management minister in India’s Himalayan state of Uttarakhand.",
-        "“We have asked our teams to be vigilant and monitor if a similar situation is emerging anywhere in the state,” he told AFP.",
-        "Uttarakhand is one of the most ecologically sensitive regions of India, with 1,266 glacial lakes, according to government figures.",
-        "Himalayan glaciers, which provide critical water to nearly two billion people, are melting faster than ever before due to climate change, exposing communities to unpredictable and costly disasters, scientists warn.",
-        "Melting glaciers and thawing permafrost can also destabilise mountain slopes and increase the risk of landslides."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "India steps up glacier monitoring after Nepal disaster",
+      "story_id": "6ad4e59a51e5541aab0c6a112572d9f79f4d78b8eafb6396493aec842e1fb44d",
+      "public_label": "🔄 UPDATE",
+      "headline": "Nepal-Tibet floods: 72 Malaysians safe in China, 55 in Nepal still missing",
       "briefing": {
         "opening": [
-          "India is stepping up monitoring of its Himalayan regions bordering China and Nepal, days after deadly floods apparently triggered by a glacial collapse, the authorities said on Aug 29.",
-          "The US Geological Survey said the disaster on Aug 26 on the Tibet-Nepal border was caused by a glacial collapse that created a torrent of debris, with nearly 3,000 missing and 633 confirmed dead."
+          "A total of 55 Malaysians remain uncontactable in Nepal following severe flash floods that struck the country on Aug 26, said Malaysia’s Foreign Ministry.",
+          "The Ministry said another 36 Malaysians have also been reported as uncontactable in China due to telecommunications disruptions."
         ],
         "body": [
-          "While the exact cause of the collapse is unclear, climate change is causing glaciers to melt worldwide, increasing the risks of such disasters.",
-          "“Since we share a border with Nepal, as a neighbour, and also have a similar geographic situation...",
-          "we have asked our department to monitor all the glaciers and known glacial lakes in the region,” said Madan Kaushik, state disaster management minister in India’s Himalayan state of Uttarakhand.",
-          "“We have asked our teams to be vigilant and monitor if a similar situation is emerging anywhere in the state,” he told AFP.",
-          "Uttarakhand is one of the most ecologically sensitive regions of India, with 1,266 glacial lakes, according to government figures.",
-          "Himalayan glaciers, which provide critical water to nearly two billion people, are melting faster than ever before due to climate change, exposing communities to unpredictable and costly disasters, scientists warn.",
-          "Melting glaciers and thawing permafrost can also destabilise mountain slopes and increase the risk of landslides.",
-          "Himalayan glaciers are melting faster than ever before due to climate change."
+          "“In Nepal, 55 Malaysians remain reported as uncontactable, while two Malaysians previously reported as uncontactable have since been contacted.",
+          "“Search and rescue operations and verification efforts remain ongoing, with no Malaysians identified at this stage among the 116 foreign nationals officially reported as rescued,” it said in a statement on Aug 29.",
+          "The Ministry said it has also expanded its consular response beyond Nepal to assist Malaysians affected by related travel disruptions in China.",
+          "“A group of 72 Malaysians in Darchen, China, has been confirmed safe and is receiving consular assistance from the Malaysian Embassy in Beijing.",
+          "“Separately, information has been received regarding 36 Malaysians currently reported as uncontactable in areas affected by telecommunications disruptions in China.",
+          "“The Ministry is working with the Chinese authorities and family members to establish contact, while cross-checking these reports against cases involving Malaysians in Nepal to identify any duplication,” it said."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "India’s Himalayan state"
+            "text": "Nepal"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "The Ministry added that its operations room continues to operate around the clock as efforts to establish the safety and whereabouts of the Malaysians concerned continue."
           }
         ],
         "sentences": [
           {
-            "text": "India is stepping up monitoring of its Himalayan regions bordering China and Nepal, days after deadly floods apparently triggered by a glacial collapse, the authorities said on Aug 29.",
+            "text": "A total of 55 Malaysians remain uncontactable in Nepal following severe flash floods that struck the country on Aug 26, said Malaysia’s Foreign Ministry.",
             "source": "Straits Times Asia",
-            "item_id": "fe4af584f52d8c5045323bfa8b6cc9d62fd03897468f10c499e09d189766f174:article",
+            "item_id": "6ad4e59a51e5541aab0c6a112572d9f79f4d78b8eafb6396493aec842e1fb44d:article",
             "composed": false
           },
           {
-            "text": "The US Geological Survey said the disaster on Aug 26 on the Tibet-Nepal border was caused by a glacial collapse that created a torrent of debris, with nearly 3,000 missing and 633 confirmed dead.",
+            "text": "The Ministry said another 36 Malaysians have also been reported as uncontactable in China due to telecommunications disruptions.",
             "source": "Straits Times Asia",
-            "item_id": "fe4af584f52d8c5045323bfa8b6cc9d62fd03897468f10c499e09d189766f174:article",
+            "item_id": "6ad4e59a51e5541aab0c6a112572d9f79f4d78b8eafb6396493aec842e1fb44d:article",
+            "composed": false
+          },
+          {
+            "text": "“Search and rescue operations and verification efforts remain ongoing, with no Malaysians identified at this stage among the 116 foreign nationals officially reported as rescued,” it said in a statement on Aug 29.",
+            "source": "Straits Times Asia",
+            "item_id": "6ad4e59a51e5541aab0c6a112572d9f79f4d78b8eafb6396493aec842e1fb44d:article",
             "composed": false
           }
         ],
         "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/south-asia/india-steps-up-glacier-monitoring-after-nepal-disaster"
+        "url": "https://www.straitstimes.com/asia/se-asia/nepal-tibet-floods-72-malaysians-safe-in-china-55-in-nepal-still-missing"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "eafb5c23c870f1931c5816d864510c3f7ceea91f62c1be8bdab28c9c3781e79f",
-      "title": "Russia’s Far East sees 105 solid mineral deposits discovered this year",
-      "url": "https://tass.com/economy/2179261",
-      "source": "TASS English",
+      "id": "c16c8e6c3055b897f6de2064e45026858aa31ce51d297e0c95124b138523f622",
+      "title": "Major Bangkok blaze hits 300 stalls in Khlong Thom, injures 11 amid toxic smoke alert",
+      "url": "https://www.straitstimes.com/asia/se-asia/major-bangkok-blaze-hits-300-stalls-in-khlong-thom-injures-11-amid-toxic-smoke-alert",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Major discoveries include the Televeyem gold deposit in Chukotka, with reserves of 26.7 metric tons of gold and 292 metric tons of silver",
-      "published_at": "2026-08-29T08:07:37+00:00",
-      "updated_at": "2026-08-29T08:07:37+00:00",
-      "effective_at": "2026-08-29T08:07:37+00:00",
+      "summary": "Hazardous smoke continued to rise from the collapsed remains of Khlong Thom Centre on the morning of Aug 29, after a major fire left 11 people injured and damaged hundreds of retail stalls in central Bangkok. Bangkok Governor Chadchart Sittipunt said firefighters were continuing to spray water around the ruins to prevent the blaze from reigniting. Smouldering material remained trapped beneath the collapsed structure, making it difficult for water to reach some areas. Excavators had been prepared overnight, but engineers were due to assess whether the machinery could be used safely to clear a route into the building and allow crews to locate the suspected source of the fire. The surrounding structure remained at risk of further collapse, requiring all operations to proceed cautiously. Shop owners and employees waiting to inspect the damage were not allowed to enter because parts of the building were leaning and remained unstable. The Bangkok Metropolitan Administration’s Erawan Emergency Medical Centre reported 11 injuries. One volunteer firefighter was in critical condition after inhaling smoke, while another person was classified as requiring urgent care. Nine others sustained minor injuries. Chadchart said the critically injured patient required intubation. Most of those hurt were volunteers, while one member of the public was treated for smoke inhalation. No deaths were reported and no one was believed to have been trapped inside.",
+      "published_at": "2026-08-29T08:20:00+00:00",
+      "updated_at": "2026-08-29T08:20:00+00:00",
+      "effective_at": "2026-08-29T08:20:00+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "commodities",
-      "subregion": "Europe",
+      "sector": "climate",
+      "subsector": "wildfires",
+      "subregion": "Southeast Asia",
       "country": null,
       "entities": [
-        "chukotka",
-        "east",
-        "far",
+        "administration",
+        "aug",
+        "centre",
+        "chadchart",
+        "emergency",
+        "erawan",
+        "hazardous",
+        "khlong",
         "major",
-        "russia",
-        "televeyem"
+        "medical",
+        "metropolitan",
+        "sittipunt",
+        "thailand",
+        "thom"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 78,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "06a20ac3695350f05576203e",
-      "importance_score": 28.0,
+      "article_sentences": [
+        "Hazardous smoke continued to rise from the collapsed remains of Khlong Thom Centre on the morning of Aug 29, after a major fire left 11 people injured and damaged hundreds of retail stalls in central Bangkok.",
+        "Bangkok Governor Chadchart Sittipunt said firefighters were continuing to spray water around the ruins to prevent the blaze from reigniting.",
+        "Smouldering material remained trapped beneath the collapsed structure, making it difficult for water to reach some areas.",
+        "Excavators had been prepared overnight, but engineers were due to assess whether the machinery could be used safely to clear a route into the building and allow crews to locate the suspected source of the fire.",
+        "The surrounding structure remained at risk of further collapse, requiring all operations to proceed cautiously.",
+        "Shop owners and employees waiting to inspect the damage were not allowed to enter because parts of the building were leaning and remained unstable.",
+        "The Bangkok Metropolitan Administration’s Erawan Emergency Medical Centre reported 11 injuries.",
+        "One volunteer firefighter was in critical condition after inhaling smoke, while another person was classified as requiring urgent care.",
+        "Nine others sustained minor injuries.",
+        "Chadchart said the critically injured patient required intubation.",
+        "Most of those hurt were volunteers, while one member of the public was treated for smoke inhalation.",
+        "No deaths were reported and no one was believed to have been trapped inside."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "6402d6d617ec4384226e7fca",
+      "importance_score": 44.0,
       "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "impact": 8,
+        "urgency": 9.0,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
           "dead": 0,
-          "injured": 0,
+          "injured": 300,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
           "major_incident": false,
-          "crisis": false
+          "crisis": true
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "human": 8
+        }
       },
-      "story_id": "eafb5c23c870f1931c5816d864510c3f7ceea91f62c1be8bdab28c9c3781e79f",
-      "article_sentences": [
-        "MOSCOW, August 29.",
-        "A total of 105 solid mineral deposits have been discovered in Russia’s Far East since the beginning of the year, including the Televeyem deposit in Chukotka with reserves of nearly 27 metric tons of gold and 292 metric tons of silver, Russian Natural Resources Minister Alexander Kozlov told TASS in an interview ahead of the Eastern Economic Forum (EEF).",
-        "\"Since the beginning of the year, reserves from 105 solid mineral deposits in the Far Eastern Federal District have already been added to the state balance.",
-        "Major discoveries include the Televeyem gold deposit in Chukotka, with reserves of 26.7 metric tons of gold and 292 metric tons of silver,\" he said.",
-        "Kozlov noted that at the same time, reserves of a number of minerals at 150 previously discovered deposits increased as a result of revaluation, recalculation and other work.",
-        "The additions amounted to 102.4 mln carats of diamonds, 103 metric tons of gold, 807.8 metric tons of silver, 32,200 metric tons of copper, 12,600 metric tons of lead and 26,300 metric tons of zinc.",
-        "The minister previously told TASS that 136 solid mineral deposits were discovered in Russia in the first half of the year."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Russia’s Far East sees 105 solid mineral deposits discovered this year",
+      "story_id": "c16c8e6c3055b897f6de2064e45026858aa31ce51d297e0c95124b138523f622",
+      "public_label": "🔄 UPDATE",
+      "headline": "Major Bangkok blaze hits 300 stalls in Khlong Thom, injures 11 amid toxic smoke alert",
       "briefing": {
         "opening": [
-          "MOSCOW, August 29.",
-          "A total of 105 solid mineral deposits have been discovered in Russia’s Far East since the beginning of the year, including the Televeyem deposit in Chukotka with reserves of nearly 27 metric tons of gold and 292 metric tons of silver, Russian Natural Resources Minister Alexander Kozlov told TASS in an interview ahead of the Eastern Economic Forum (EEF)."
+          "Hazardous smoke continued to rise from the collapsed remains of Khlong Thom Centre on the morning of Aug 29, after a major fire left 11 people injured and damaged hundreds of retail stalls in central Bangkok.",
+          "Bangkok Governor Chadchart Sittipunt said firefighters were continuing to spray water around the ruins to prevent the blaze from reigniting."
         ],
         "body": [
-          "\"Since the beginning of the year, reserves from 105 solid mineral deposits in the Far Eastern Federal District have already been added to the state balance.",
-          "Major discoveries include the Televeyem gold deposit in Chukotka, with reserves of 26.7 metric tons of gold and 292 metric tons of silver,\" he said.",
-          "Kozlov noted that at the same time, reserves of a number of minerals at 150 previously discovered deposits increased as a result of revaluation, recalculation and other work.",
-          "The additions amounted to 102.4 mln carats of diamonds, 103 metric tons of gold, 807.8 metric tons of silver, 32,200 metric tons of copper, 12,600 metric tons of lead and 26,300 metric tons of zinc.",
-          "The minister previously told TASS that 136 solid mineral deposits were discovered in Russia in the first half of the year."
+          "Smouldering material remained trapped beneath the collapsed structure, making it difficult for water to reach some areas.",
+          "Excavators had been prepared overnight, but engineers were due to assess whether the machinery could be used safely to clear a route into the building and allow crews to locate the suspected source of the fire.",
+          "The surrounding structure remained at risk of further collapse, requiring all operations to proceed cautiously.",
+          "Shop owners and employees waiting to inspect the damage were not allowed to enter because parts of the building were leaning and remained unstable.",
+          "The Bangkok Metropolitan Administration’s Erawan Emergency Medical Centre reported 11 injuries.",
+          "One volunteer firefighter was in critical condition after inhaling smoke, while another person was classified as requiring urgent care.",
+          "Nine others sustained minor injuries.",
+          "Chadchart said the critically injured patient required intubation."
         ],
         "bullets": [
           {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Russia’s Far East"
+            "icon": "👥",
+            "label": "Impact",
+            "text": "11 people"
           }
         ],
         "sentences": [
           {
-            "text": "A total of 105 solid mineral deposits have been discovered in Russia’s Far East since the beginning of the year, including the Televeyem deposit in Chukotka with reserves of nearly 27 metric tons of gold and 292 metric tons of silver, Russian Natural Resources Minister Alexander Kozlov told TASS in an interview ahead of the Eastern Economic Forum (EEF).",
-            "source": "TASS English",
-            "item_id": "eafb5c23c870f1931c5816d864510c3f7ceea91f62c1be8bdab28c9c3781e79f:article",
+            "text": "Bangkok Governor Chadchart Sittipunt said firefighters were continuing to spray water around the ruins to prevent the blaze from reigniting.",
+            "source": "Straits Times Asia",
+            "item_id": "c16c8e6c3055b897f6de2064e45026858aa31ce51d297e0c95124b138523f622:article",
             "composed": false
           },
           {
-            "text": "The minister previously told TASS that 136 solid mineral deposits were discovered in Russia in the first half of the year.",
-            "source": "TASS English",
-            "item_id": "eafb5c23c870f1931c5816d864510c3f7ceea91f62c1be8bdab28c9c3781e79f:article",
+            "text": "Chadchart said the critically injured patient required intubation.",
+            "source": "Straits Times Asia",
+            "item_id": "c16c8e6c3055b897f6de2064e45026858aa31ce51d297e0c95124b138523f622:article",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 29.",
-            "source": "TASS English",
-            "item_id": "eafb5c23c870f1931c5816d864510c3f7ceea91f62c1be8bdab28c9c3781e79f:article",
+            "text": "The Bangkok Metropolitan Administration’s Erawan Emergency Medical Centre reported 11 injuries.",
+            "source": "Straits Times Asia",
+            "item_id": "c16c8e6c3055b897f6de2064e45026858aa31ce51d297e0c95124b138523f622:article",
+            "composed": false
+          },
+          {
+            "text": "Hazardous smoke continued to rise from the collapsed remains of Khlong Thom Centre on the morning of Aug 29, after a major fire left 11 people injured and damaged hundreds of retail stalls in central Bangkok.",
+            "source": "Straits Times Asia",
+            "item_id": "c16c8e6c3055b897f6de2064e45026858aa31ce51d297e0c95124b138523f622:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://tass.com/economy/2179261"
+        "url": "https://www.straitstimes.com/asia/se-asia/major-bangkok-blaze-hits-300-stalls-in-khlong-thom-injures-11-amid-toxic-smoke-alert"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
