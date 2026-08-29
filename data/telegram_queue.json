@@ -1,212 +1,161 @@
 {
-  "generated_at": "2026-08-29T12:51:31.134117+00:00",
+  "generated_at": "2026-08-29T13:01:12.389379+00:00",
   "count": 2,
   "stories": [
     {
-      "id": "f59d912ed8edf4d0e1391350d6da1b4e5f31dbcaa3f2082ce9159a0a4910620f",
-      "title": "Death toll from flooding in northern Nepal rises to 675",
-      "url": "https://tass.com/emergencies/2179319",
-      "source": "TASS English",
+      "id": "23ce6929d1f36366419200f39288665585bcd88f0e0a65d60f0213ea1b32ae43",
+      "title": "Rescue operations ongoing as death toll continues to rise",
+      "url": "https://www.france24.com/en/rescue-operations-ongoing-as-death-toll-continues-to-rise",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "219 people have been injured",
-      "published_at": "2026-08-29T12:42:30+00:00",
-      "updated_at": "2026-08-29T12:42:30+00:00",
-      "effective_at": "2026-08-29T12:42:30+00:00",
+      "summary": "Most arrive with nothing except the clothes they are wearing. As rescue efforts in communities buried by catastrophic flash floods along the border between Nepal and China entered their fourth day Saturday, authorities continued finding survivors and transporting them to safety. At relief centers, as some arrive, families wait anxiously for news of their loved ones as the death toll and the number of people unaccounted for continued to rise.",
+      "published_at": "2026-08-29T12:37:17+00:00",
+      "updated_at": "2026-08-29T12:37:17+00:00",
+      "effective_at": "2026-08-29T12:37:17+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "climate",
-      "subsector": "floods",
+      "subsector": "disasters",
       "subregion": "South Asia",
       "country": null,
       "entities": [
+        "china",
         "nepal"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 85,
+      "priority_score": 90,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "cb7ca667fae81eea0cc73da2",
-      "importance_score": 90.0,
-      "importance_level": "CRITICAL",
+      "event_status": "NEW",
+      "event_id": "1ece8573711621583ae1b185",
+      "importance_score": 41.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 34,
+        "impact": 8,
         "urgency": 8.0,
-        "novelty": 9.0,
+        "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 28,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 1300,
-          "injured": 675,
-          "displaced": 1200,
-          "missing": 1300,
-          "affected": 100,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
           "major_incident": false,
           "crisis": true
         },
         "significance_dims": {
-          "infrastructure": 8,
-          "human": 12,
-          "scientific": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "f59d912ed8edf4d0e1391350d6da1b4e5f31dbcaa3f2082ce9159a0a4910620f",
-      "article_sentences": [
-        "NEW DELHI, August 29.",
-        "The death toll from flooding in northern Nepal has reached 675, the country’s National Disaster Risk Reduction and Management Authority said.",
-        "\"The bodies of 675 victims have been recovered, while 219 people have been injured,\" the agency said in its report.",
-        "A total of 7,606 people have been rescued.",
-        "Another 2,426 people remain missing, including 217 foreign nationals.",
-        "The death toll was previously reported at 626."
-      ],
-      "public_label": "🔄 UPDATE",
-      "headline": "Death toll from flooding in northern Nepal rises to 675",
+      "story_id": "23ce6929d1f36366419200f39288665585bcd88f0e0a65d60f0213ea1b32ae43",
+      "public_label": "📰 NEWS",
+      "headline": "Rescue operations ongoing as death toll continues to rise",
       "briefing": {
         "opening": [
-          "NEW DELHI, August 29.",
-          "The death toll from flooding in northern Nepal has reached 675, the country’s National Disaster Risk Reduction and Management Authority said."
+          "Most arrive with nothing except the clothes they are wearing.",
+          "As rescue efforts in communities buried by catastrophic flash floods along the border between Nepal and China entered their fourth day Saturday, authorities continued finding survivors and transporting them to safety."
         ],
         "body": [
-          "\"The bodies of 675 victims have been recovered, while 219 people have been injured,\" the agency said in its report.",
-          "A total of 7,606 people have been rescued.",
-          "Another 2,426 people remain missing, including 217 foreign nationals.",
-          "The death toll was previously reported at 626.",
-          "219 people have been injured."
+          "At relief centers, as some arrive, families wait anxiously for news of their loved ones as the death toll and the number of people unaccounted for continued to rise."
         ],
-        "bullets": [
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "219 people"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The death toll from flooding in northern Nepal has reached 675, the country’s National Disaster Risk Reduction and Management Authority said.",
-            "source": "TASS English",
-            "item_id": "f59d912ed8edf4d0e1391350d6da1b4e5f31dbcaa3f2082ce9159a0a4910620f:article",
+            "text": "Most arrive with nothing except the clothes they are wearing.",
+            "source": "France 24",
+            "item_id": "23ce6929d1f36366419200f39288665585bcd88f0e0a65d60f0213ea1b32ae43",
             "composed": false
           },
           {
-            "text": "\"The bodies of 675 victims have been recovered, while 219 people have been injured,\" the agency said in its report.",
-            "source": "TASS English",
-            "item_id": "f59d912ed8edf4d0e1391350d6da1b4e5f31dbcaa3f2082ce9159a0a4910620f:article",
+            "text": "At relief centers, as some arrive, families wait anxiously for news of their loved ones as the death toll and the number of people unaccounted for continued to rise.",
+            "source": "France 24",
+            "item_id": "23ce6929d1f36366419200f39288665585bcd88f0e0a65d60f0213ea1b32ae43",
             "composed": false
           },
           {
-            "text": "Another 2,426 people remain missing, including 217 foreign nationals.",
-            "source": "TASS English",
-            "item_id": "f59d912ed8edf4d0e1391350d6da1b4e5f31dbcaa3f2082ce9159a0a4910620f:article",
-            "composed": false
-          },
-          {
-            "text": "A total of 7,606 people have been rescued.",
-            "source": "TASS English",
-            "item_id": "f59d912ed8edf4d0e1391350d6da1b4e5f31dbcaa3f2082ce9159a0a4910620f:article",
+            "text": "As rescue efforts in communities buried by catastrophic flash floods along the border between Nepal and China entered their fourth day Saturday, authorities continued finding survivors and transporting them to safety.",
+            "source": "France 24",
+            "item_id": "23ce6929d1f36366419200f39288665585bcd88f0e0a65d60f0213ea1b32ae43",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://tass.com/emergencies/2179319"
+        "url": "https://www.france24.com/en/rescue-operations-ongoing-as-death-toll-continues-to-rise"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     },
     {
-      "id": "f9d36de8995e8e018d8983055cd50c8797dbf96060ac67c352f77e264b89aeba",
-      "title": "Formula One champion Lando Norris extends McLaren contract until 2030",
-      "url": "https://www.aljazeera.com/sports/2026/8/29/formula-one-champion-lando-norris-extends-mclaren-contract-until-2030?traffic_source=rss",
-      "source": "Al Jazeera",
+      "id": "50be64f25384c439e9b0bee674b9a4883482f19e5d928d622f9dc544f68316bf",
+      "title": "The long game: What will Tinubu leave behind? By Adeola Akinremi",
+      "url": "https://www.premiumtimesng.com/opinion/906146-the-long-game-what-will-tinubu-leave-behind-by-adeola-akinremi.html",
+      "source": "Premium Times Nigeria",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Africa",
       "discovery": false,
-      "summary": "Last season, 26-year-old Norris delivered McLaren’s first drivers’ title since Lewis Hamilton won it in 2008. Reigning F1 world champion. Lando Norris has committed his long-term future to McLaren after signing a contract extension that will keep him at the team until 2030. The new deal announced on Saturday comes less than a week after Norris secured back-to-back wins with victory at the Dutch Grand Prix, rekindling the British driver’s hopes of a successful defence of his world title. It includes an option for a multi-year extension beyond 2030, McLaren said in its announcement. Norris joined McLaren’s junior programme at just 17 and made his F1 debut two years later, in 2019. “McLaren is my home, and I’m very pleased to be signing a new contract to keep me with the team until at least 2030,” Norris said in a team statement. “When I started this journey nine years ago, I was clear about the goals I wanted to achieve: to get McLaren back to the front and to win championships. “We’ve achieved that goal, but we want more, we want to keep on winning, and we know as a team that we’re capable of achieving it.” Norris sits fourth in this year’s championship, trailing Mercedes driver Kimi Antonelli by 83 points with 11 races left in the season. His McLaren teammate Oscar Piastri extended his contract at the start of the 2025 season on a deal that is believed to run until at least 2028. McLaren won constructors’ titles in 2024 and 2025, ending a championship drought that had stretched back to 1998, but the team was well off the pace at the start of this season after struggling to master the new rules.",
-      "published_at": "2026-08-29T12:34:03+00:00",
-      "updated_at": "2026-08-29T12:34:03+00:00",
-      "effective_at": "2026-08-29T12:34:03+00:00",
+      "summary": "If there were credible national opinion polls in Nigeria, four months and nineteen days before the presidential election, we would have a clearer picture of where President Bola Tinubu and the other contenders stand. We do not. And so we are left with something less precise but perhaps more revealing: the record. Without serious polling, [&#8230;] The post The long game: What will Tinubu leave behind? By Adeola Akinremi appeared first on Premium Times Nigeria .",
+      "published_at": "2026-08-29T12:54:08+00:00",
+      "updated_at": "2026-08-29T12:54:08+00:00",
+      "effective_at": "2026-08-29T12:54:08+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "politics",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": null,
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "West Africa",
       "country": null,
       "entities": [
-        "antonelli",
-        "dutch",
-        "f1",
-        "formula",
-        "grand",
-        "hamilton",
-        "kimi",
-        "lando",
-        "last",
-        "lewis",
-        "mclaren",
-        "mercedes",
-        "norris",
-        "one",
-        "oscar",
-        "piastri",
-        "prix",
-        "reigning",
-        "uk"
+        "adeola",
+        "akinremi",
+        "bola",
+        "if",
+        "nigeria",
+        "premium",
+        "times",
+        "tinubu"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "Last season, 26-year-old Norris delivered McLaren’s first drivers’ title since Lewis Hamilton won it in 2008.",
-        "Reigning F1 world champion.",
-        "Lando Norris has committed his long-term future to McLaren after signing a contract extension that will keep him at the team until 2030.",
-        "The new deal announced on Saturday comes less than a week after Norris secured back-to-back wins with victory at the Dutch Grand Prix, rekindling the British driver’s hopes of a successful defence of his world title.",
-        "It includes an option for a multi-year extension beyond 2030, McLaren said in its announcement.",
-        "Norris joined McLaren’s junior programme at just 17 and made his F1 debut two years later, in 2019.",
-        "“McLaren is my home, and I’m very pleased to be signing a new contract to keep me with the team until at least 2030,” Norris said in a team statement.",
-        "“When I started this journey nine years ago, I was clear about the goals I wanted to achieve: to get McLaren back to the front and to win championships.",
-        "“We’ve achieved that goal, but we want more, we want to keep on winning, and we know as a team that we’re capable of achieving it.”",
-        "Norris sits fourth in this year’s championship, trailing Mercedes driver Kimi Antonelli by 83 points with 11 races left in the season.",
-        "His McLaren teammate Oscar Piastri extended his contract at the start of the 2025 season on a deal that is believed to run until at least 2028.",
-        "McLaren won constructors’ titles in 2024 and 2025, ending a championship drought that had stretched back to 1998, but the team was well off the pace at the start of this season after struggling to master the new rules."
-      ],
       "event_status": "NEW",
-      "event_id": "b616530b327a1968fd104e56",
-      "importance_score": 39.0,
+      "event_id": "6cdd9b58936caf695a6ceff2",
+      "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 8.0,
+        "urgency": 7.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 12,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -219,58 +168,52 @@
           "crisis": false
         },
         "significance_dims": {
-          "cultural": 8,
-          "security": 4
+          "geopolitical": 4
         }
       },
-      "story_id": "f9d36de8995e8e018d8983055cd50c8797dbf96060ac67c352f77e264b89aeba",
+      "story_id": "50be64f25384c439e9b0bee674b9a4883482f19e5d928d622f9dc544f68316bf",
       "public_label": "📰 NEWS",
-      "headline": "Formula One champion Lando Norris extends McLaren contract until 2030",
+      "headline": "The long game: What will Tinubu leave behind? By Adeola Akinremi",
       "briefing": {
         "opening": [
-          "Last season, 26-year-old Norris delivered McLaren’s first drivers’ title since Lewis Hamilton won it in 2008.",
-          "Reigning F1 world champion."
+          "If there were credible national opinion polls in Nigeria, four months and nineteen days before the presidential election, we would have a clearer picture of where President Bola Tinubu and the other contenders stand.",
+          "We do not."
         ],
         "body": [
-          "Lando Norris has committed his long-term future to McLaren after signing a contract extension that will keep him at the team until 2030.",
-          "The new deal announced on Saturday comes less than a week after Norris secured back-to-back wins with victory at the Dutch Grand Prix, rekindling the British driver’s hopes of a successful defence of his world title.",
-          "It includes an option for a multi-year extension beyond 2030, McLaren said in its announcement.",
-          "Norris joined McLaren’s junior programme at just 17 and made his F1 debut two years later, in 2019.",
-          "“McLaren is my home, and I’m very pleased to be signing a new contract to keep me with the team until at least 2030,” Norris said in a team statement.",
-          "“When I started this journey nine years ago, I was clear about the goals I wanted to achieve: to get McLaren back to the front and to win championships.",
-          "“We’ve achieved that goal, but we want more, we want to keep on winning, and we know as a team that we’re capable of achieving it.” Norris sits fourth in this year’s championship, trailing Mercedes driver Kimi Antonelli by 83 points with 11 races left in the season.",
-          "His McLaren teammate Oscar Piastri extended his contract at the start of the 2025 season on a deal that is believed to run until at least 2028."
+          "And so we are left with something less precise but perhaps more revealing: the record.",
+          "Without serious polling, […] The post.",
+          "By Adeola Akinremi appeared first on Premium Times Nigeria."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nigeria"
+          }
+        ],
         "sentences": [
           {
-            "text": "Last season, 26-year-old Norris delivered McLaren’s first drivers’ title since Lewis Hamilton won it in 2008.",
-            "source": "Al Jazeera",
-            "item_id": "f9d36de8995e8e018d8983055cd50c8797dbf96060ac67c352f77e264b89aeba:article",
+            "text": "We do not.",
+            "source": "Premium Times Nigeria",
+            "item_id": "50be64f25384c439e9b0bee674b9a4883482f19e5d928d622f9dc544f68316bf",
             "composed": false
           },
           {
-            "text": "Norris joined McLaren’s junior programme at just 17 and made his F1 debut two years later, in 2019.",
-            "source": "Al Jazeera",
-            "item_id": "f9d36de8995e8e018d8983055cd50c8797dbf96060ac67c352f77e264b89aeba:article",
+            "text": "And so we are left with something less precise but perhaps more revealing: the record.",
+            "source": "Premium Times Nigeria",
+            "item_id": "50be64f25384c439e9b0bee674b9a4883482f19e5d928d622f9dc544f68316bf",
             "composed": false
           },
           {
-            "text": "Norris sits fourth in this year’s championship, trailing Mercedes driver Kimi Antonelli by 83 points with 11 races left in the season.",
-            "source": "Al Jazeera",
-            "item_id": "f9d36de8995e8e018d8983055cd50c8797dbf96060ac67c352f77e264b89aeba:article",
-            "composed": false
-          },
-          {
-            "text": "His McLaren teammate Oscar Piastri extended his contract at the start of the 2025 season on a deal that is believed to run until at least 2028.",
-            "source": "Al Jazeera",
-            "item_id": "f9d36de8995e8e018d8983055cd50c8797dbf96060ac67c352f77e264b89aeba:article",
+            "text": "If there were credible national opinion polls in Nigeria, four months and nineteen days before the presidential election, we would have a clearer picture of where President Bola Tinubu and the other contenders stand.",
+            "source": "Premium Times Nigeria",
+            "item_id": "50be64f25384c439e9b0bee674b9a4883482f19e5d928d622f9dc544f68316bf",
             "composed": false
           }
         ],
-        "source": "Al Jazeera",
+        "source": "Premium Times Nigeria",
         "corroborating": [],
-        "url": "https://www.aljazeera.com/sports/2026/8/29/formula-one-champion-lando-norris-extends-mclaren-contract-until-2030?traffic_source=rss"
+        "url": "https://www.premiumtimesng.com/opinion/906146-the-long-game-what-will-tinubu-leave-behind-by-adeola-akinremi.html"
       },
       "group_size": 1,
       "label": "📰 NEWS"
