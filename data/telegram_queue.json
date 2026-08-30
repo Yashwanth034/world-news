@@ -1,69 +1,81 @@
 {
-  "generated_at": "2026-08-30T22:50:47.733696+00:00",
+  "generated_at": "2026-08-30T23:01:09.729985+00:00",
   "count": 2,
   "stories": [
     {
-      "id": "1efca63d9be529eb4cc890b1c959ace6771a035ad78fff647ef98e044b1e5543",
-      "title": "US Treasury bars certain journalists from G20 meeting in North Carolina",
-      "url": "https://www.france24.com/en/americas/20260830-us-treasury-journalists-from-g20",
-      "source": "France 24",
+      "id": "17769a651cf7b7ab1760e3b7ef7b85aa1cf90db65f1b933083aecc699f1f08ac",
+      "title": "Iran’s Fars news agency reports about explosions in Jordan",
+      "url": "https://tass.com/world/2179629",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Asia",
       "discovery": false,
-      "summary": "The US Treasury Department denied credentials to reporters from The New York Times, Wall Street Journal and Bloomberg for a Group of 20 finance meeting in North Carolina, the latest restriction on media access under President Donald Trump. Treasury Secretary Scott Bessent said the decision was unrelated to journalists’ viewpoints.",
-      "published_at": "2026-08-30T22:48:02+00:00",
-      "updated_at": "2026-08-30T22:48:02+00:00",
-      "effective_at": "2026-08-30T22:48:02+00:00",
+      "summary": "DOHA, August 31. Explosions were heard in the south and east of Jordan following Iranian missile strikes, the Fars news agency reported citing Arab sources. Meanwhile, Fox News journalist Trey Yingst wrote on the X social network, citing a US source that \"Iran is attacking US forces stationed in Jordan.\" In his words, nearly all incoming missiles have been intercepted, causing no significant impact. No other details are known at this point. Earlier, Axios and Israel’s Channel 12 correspondent. Barak Ravid said that US forces had struck two missile launchers on the island of Larak in southern Iran.",
+      "published_at": "2026-08-30T22:50:17+00:00",
+      "updated_at": "2026-08-30T22:50:17+00:00",
+      "effective_at": "2026-08-30T22:50:17+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 65,
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "world",
-      "subregion": "United States",
+      "urgency_terms": [
+        "explosion"
+      ],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "bessent",
-        "bloomberg",
-        "carolina",
-        "department",
-        "donald",
-        "g20",
-        "group",
-        "journal",
-        "new_york",
-        "north",
-        "scott",
-        "street",
-        "times",
-        "treasury",
-        "trump",
+        "arab",
+        "axios",
+        "barak",
+        "channel",
+        "doha",
+        "earlier",
+        "fars",
+        "fox",
+        "iran",
+        "israel",
+        "jordan",
+        "larak",
+        "meanwhile",
+        "news",
+        "ravid",
+        "trey",
         "us",
-        "wall"
+        "yingst"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 98,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "f6fb67413c07ad8af415bc68",
-      "importance_score": 35.0,
+      "article_sentences": [
+        "DOHA, August 31.",
+        "Explosions were heard in the south and east of Jordan following Iranian missile strikes, the Fars news agency reported citing Arab sources.",
+        "Meanwhile, Fox News journalist Trey Yingst wrote on the X social network, citing a US source that \"Iran is attacking US forces stationed in Jordan.\"",
+        "In his words, nearly all incoming missiles have been intercepted, causing no significant impact.",
+        "No other details are known at this point.",
+        "Earlier, Axios and Israel’s Channel 12 correspondent.",
+        "Barak Ravid said that US forces had struck two missile launchers on the island of Larak in southern Iran."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "4be35b51034ab44fe46c53ee",
+      "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -76,89 +88,101 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4
+          "security": 8
         }
       },
-      "story_id": "1efca63d9be529eb4cc890b1c959ace6771a035ad78fff647ef98e044b1e5543",
-      "public_label": "📰 NEWS",
-      "headline": "US Treasury bars certain journalists from G20 meeting in North Carolina",
+      "story_id": "17769a651cf7b7ab1760e3b7ef7b85aa1cf90db65f1b933083aecc699f1f08ac",
+      "public_label": "🔄 UPDATE",
+      "headline": "Iran’s Fars news agency reports about explosions in Jordan",
       "briefing": {
         "opening": [
-          "The US Treasury Department denied credentials to reporters from The New York Times, Wall Street Journal and Bloomberg for a Group of 20 finance meeting in North Carolina, the latest restriction on media access under President Donald Trump.",
-          "Treasury Secretary Scott Bessent said the decision was unrelated to journalists’ viewpoints."
+          "DOHA, August 31.",
+          "Explosions were heard in the south and east of Jordan following Iranian missile strikes, the Fars news agency reported citing Arab sources."
         ],
-        "body": [],
+        "body": [
+          "Meanwhile, Fox News journalist Trey Yingst wrote on the X social network, citing a US source that \"Iran is attacking US forces stationed in Jordan.\" In his words, nearly all incoming missiles have been intercepted, causing no significant impact.",
+          "No other details are known at this point.",
+          "Earlier, Axios and Israel’s Channel 12 correspondent.",
+          "Barak Ravid said that US forces had struck two missile launchers on the island of Larak in southern Iran."
+        ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "North Carolina"
+            "text": "Jordan"
           }
         ],
         "sentences": [
           {
-            "text": "Treasury Secretary Scott Bessent said the decision was unrelated to journalists’ viewpoints.",
-            "source": "France 24",
-            "item_id": "1efca63d9be529eb4cc890b1c959ace6771a035ad78fff647ef98e044b1e5543",
+            "text": "Barak Ravid said that US forces had struck two missile launchers on the island of Larak in southern Iran.",
+            "source": "TASS English",
+            "item_id": "17769a651cf7b7ab1760e3b7ef7b85aa1cf90db65f1b933083aecc699f1f08ac:article",
             "composed": false
           },
           {
-            "text": "The US Treasury Department denied credentials to reporters from The New York Times, Wall Street Journal and Bloomberg for a Group of 20 finance meeting in North Carolina, the latest restriction on media access under President Donald Trump.",
-            "source": "France 24",
-            "item_id": "1efca63d9be529eb4cc890b1c959ace6771a035ad78fff647ef98e044b1e5543",
+            "text": "Explosions were heard in the south and east of Jordan following Iranian missile strikes, the Fars news agency reported citing Arab sources.",
+            "source": "TASS English",
+            "item_id": "17769a651cf7b7ab1760e3b7ef7b85aa1cf90db65f1b933083aecc699f1f08ac:article",
+            "composed": false
+          },
+          {
+            "text": "Earlier, Axios and Israel’s Channel 12 correspondent.",
+            "source": "TASS English",
+            "item_id": "17769a651cf7b7ab1760e3b7ef7b85aa1cf90db65f1b933083aecc699f1f08ac:article",
+            "composed": false
+          },
+          {
+            "text": "Meanwhile, Fox News journalist Trey Yingst wrote on the X social network, citing a US source that \"Iran is attacking US forces stationed in Jordan.\"",
+            "source": "TASS English",
+            "item_id": "17769a651cf7b7ab1760e3b7ef7b85aa1cf90db65f1b933083aecc699f1f08ac:article",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.france24.com/en/americas/20260830-us-treasury-journalists-from-g20"
+        "url": "https://tass.com/world/2179629"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "96cb50bcd0f0bb2256b7830b8a795f56e36d64eaedb8c70d565df6666e7ed410",
-      "title": "Iran is attacking US forces in Jordan, Fox News reports, citing US source",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-attacking-us-forces-jordan-fox-news-reports-citing-us-source",
-      "source": "Middle East Eye",
+      "id": "332be1fb0f2129d92f65be7e2682799050b44a5600cbbeba9d199a45f7c889af",
+      "title": "Hong Kong WhatsApp hijacking scams surge 170% to nearly 2,000 cases",
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3365746/hong-kong-whatsapp-hijacking-scams-surge-170-nearly-2000-cases?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Iran is attacking US forces in Jordan, Fox News reports, citing US source Iran is attacking US forces stationed in Jordan, Fox News reporter Trey Yingst said on Sunday, citing a US source. There has been no significant impact so far, the reporter's X post said, adding that nearly all incoming missiles \"have been intercepted at this point.\"",
-      "published_at": "2026-08-30T22:44:26+00:00",
-      "updated_at": "2026-08-30T22:44:26+00:00",
-      "effective_at": "2026-08-30T22:44:26+00:00",
+      "summary": "WhatsApp account hijacking scams in Hong Kong surged by nearly 170 per cent to almost 2,000 cases in the first seven months of this year, with one victim losing as much as HK$12.2 million (US$1.55 million). Police said the 1,993 cases logged from January to July represented a 169.7 per cent increase from the 739 cases recorded over the same period last year. The figure also surpassed the 1,669 cases recorded in all of 2025. The cases over the first seven months resulted in losses of HK$146.3...",
+      "published_at": "2026-08-30T23:00:14+00:00",
+      "updated_at": "2026-08-30T23:00:14+00:00",
+      "effective_at": "2026-08-30T23:00:14+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 73,
+      "score": 65,
       "confidence": "medium",
-      "urgency_terms": [
-        "missile"
-      ],
-      "sector": "geopolitics",
-      "subsector": "conflict",
-      "subregion": "West Asia / Middle East",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "fox",
-        "iran",
-        "jordan",
-        "news",
-        "trey",
+        "hk",
+        "hong_kong",
         "us",
-        "yingst"
+        "whatsapp"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "4be35b51034ab44fe46c53ee",
+      "event_id": "1e21a19cd8d546693682b7b1",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -183,39 +207,48 @@
         },
         "significance_dims": {}
       },
-      "story_id": "96cb50bcd0f0bb2256b7830b8a795f56e36d64eaedb8c70d565df6666e7ed410",
+      "story_id": "332be1fb0f2129d92f65be7e2682799050b44a5600cbbeba9d199a45f7c889af",
       "public_label": "📰 NEWS",
-      "headline": "Iran is attacking US forces in Jordan, Fox News reports, citing US source",
+      "headline": "Hong Kong WhatsApp hijacking scams surge 170% to nearly 2,000 cases",
       "briefing": {
         "opening": [
-          "Iran is attacking US forces in Jordan, Fox News reports, citing US source Iran is attacking US forces stationed in Jordan, Fox News reporter Trey Yingst said on Sunday, citing a US source.",
-          "There has been no significant impact so far, the reporter's X post said, adding that nearly all incoming missiles \"have been intercepted at this point.\""
+          "WhatsApp account hijacking scams in Hong Kong surged by nearly 170 per cent to almost 2,000 cases in the first seven months of this year, with one victim losing as much as HK$12.2 million (US$1.55 million).",
+          "Police said the 1,993 cases logged from January to July represented a 169.7 per cent increase from the 739 cases recorded over the same period last year."
         ],
-        "body": [],
+        "body": [
+          "The figure also surpassed the 1,669 cases recorded in all of 2025.",
+          "The cases over the first seven months resulted in losses of HK$146.3..."
+        ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Jordan"
+            "text": "Hong Kong"
           }
         ],
         "sentences": [
           {
-            "text": "There has been no significant impact so far, the reporter's X post said, adding that nearly all incoming missiles \"have been intercepted at this point.\"",
-            "source": "Middle East Eye",
-            "item_id": "96cb50bcd0f0bb2256b7830b8a795f56e36d64eaedb8c70d565df6666e7ed410",
+            "text": "Police said the 1,993 cases logged from January to July represented a 169.7 per cent increase from the 739 cases recorded over the same period last year.",
+            "source": "South China Morning Post",
+            "item_id": "332be1fb0f2129d92f65be7e2682799050b44a5600cbbeba9d199a45f7c889af",
             "composed": false
           },
           {
-            "text": "Iran is attacking US forces in Jordan, Fox News reports, citing US source Iran is attacking US forces stationed in Jordan, Fox News reporter Trey Yingst said on Sunday, citing a US source.",
-            "source": "Middle East Eye",
-            "item_id": "96cb50bcd0f0bb2256b7830b8a795f56e36d64eaedb8c70d565df6666e7ed410",
+            "text": "WhatsApp account hijacking scams in Hong Kong surged by nearly 170 per cent to almost 2,000 cases in the first seven months of this year, with one victim losing as much as HK$12.2 million (US$1.55 million).",
+            "source": "South China Morning Post",
+            "item_id": "332be1fb0f2129d92f65be7e2682799050b44a5600cbbeba9d199a45f7c889af",
+            "composed": false
+          },
+          {
+            "text": "The figure also surpassed the 1,669 cases recorded in all of 2025.",
+            "source": "South China Morning Post",
+            "item_id": "332be1fb0f2129d92f65be7e2682799050b44a5600cbbeba9d199a45f7c889af",
             "composed": false
           }
         ],
-        "source": "Middle East Eye",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-attacking-us-forces-jordan-fox-news-reports-citing-us-source"
+        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3365746/hong-kong-whatsapp-hijacking-scams-surge-170-nearly-2000-cases?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
