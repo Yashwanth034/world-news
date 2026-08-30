@@ -1,160 +1,303 @@
 {
-  "generated_at": "2026-08-30T08:50:48.133347+00:00",
-  "count": 2,
+  "generated_at": "2026-08-30T09:01:09.286330+00:00",
+  "count": 4,
   "stories": [
     {
-      "id": "79e2d85d1b94aa342ec4efc7efc50e102245e272e2032ee5b494c357bdc44db5",
-      "title": "DRC launches Ebola vaccination campaign as outbreak continues to spread",
-      "url": "http://www.africanews.com/2026/08/30/drc-launches-ebola-vaccination-campaign-as-outbreak-continues-to-spread/",
-      "source": "Africanews English",
-      "source_category": "africa",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Africa",
-      "discovery": false,
-      "summary": "Residents of Kisangani have been lining up to get vaccinated as the DR Congo races to contain its worst-ever outbreak of Ebola. The outbreak is being driven by the Bundibugyo strain of the Ebola virus, for which there are no approved vaccines or treatments. But health officials are hoping the Ervebo vaccine, approved for use against other strains of Ebola, will offer some level of protection. \"By getting this vaccine, I am building antibodies in my body and creating a reserve of protection. Healthcare and other frontline workers were among the first to receive the shot as the vaccination campaign got underway. \"It is our duty to care for patients,\" says doctor Jean-Louis Etukumalo, \"so I must get vaccinated against Ebola virus disease to help save lives.” Eastern DRC has been battling the Ebola outbreak since mid-May. More than 5,600 cases have already been confirmed, including more than 2,700 deaths. The country is due to receive a total of 70,000 doses of the vaccine.",
-      "published_at": "2026-08-30T08:37:16+00:00",
-      "updated_at": "2026-08-30T08:37:16+00:00",
-      "effective_at": "2026-08-30T08:37:16+00:00",
-      "language_status": "ENGLISH",
-      "category": "health",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "health",
-      "subsector": "outbreaks",
-      "subregion": "Central Africa",
-      "country": null,
-      "entities": [
-        "bundibugyo",
-        "congo",
-        "dr",
-        "drc",
-        "eastern",
-        "ebola",
-        "ervebo",
-        "etukumalo",
-        "jean-louis",
-        "kisangani"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 80,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "Residents of Kisangani have been lining up to get vaccinated as the DR Congo races to contain its worst-ever outbreak of Ebola.",
-        "The outbreak is being driven by the Bundibugyo strain of the Ebola virus, for which there are no approved vaccines or treatments.",
-        "But health officials are hoping the Ervebo vaccine, approved for use against other strains of Ebola, will offer some level of protection.",
-        "\"By getting this vaccine, I am building antibodies in my body and creating a reserve of protection.",
-        "Healthcare and other frontline workers were among the first to receive the shot as the vaccination campaign got underway.",
-        "\"It is our duty to care for patients,\" says doctor Jean-Louis Etukumalo, \"so I must get vaccinated against Ebola virus disease to help save lives.”",
-        "Eastern DRC has been battling the Ebola outbreak since mid-May.",
-        "More than 5,600 cases have already been confirmed, including more than 2,700 deaths.",
-        "The country is due to receive a total of 70,000 doses of the vaccine."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "39254d86bc2112333c91b42e",
-      "importance_score": 84.0,
-      "importance_level": "HIGH",
-      "importance_breakdown": {
-        "impact": 32,
-        "urgency": 8.0,
-        "novelty": 9.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 24,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 4381,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": true
-        },
-        "significance_dims": {
-          "human": 12,
-          "scientific": 8,
-          "geopolitical": 4
-        }
-      },
-      "story_id": "79e2d85d1b94aa342ec4efc7efc50e102245e272e2032ee5b494c357bdc44db5",
-      "public_label": "🔄 UPDATE",
-      "headline": "DRC launches Ebola vaccination campaign as outbreak continues to spread",
-      "briefing": {
-        "opening": [
-          "Residents of Kisangani have been lining up to get vaccinated as the DR Congo races to contain its worst-ever outbreak of Ebola.",
-          "The outbreak is being driven by the Bundibugyo strain of the Ebola virus, for which there are no approved vaccines or treatments."
-        ],
-        "body": [
-          "But health officials are hoping the Ervebo vaccine, approved for use against other strains of Ebola, will offer some level of protection.",
-          "\"By getting this vaccine, I am building antibodies in my body and creating a reserve of protection.",
-          "Healthcare and other frontline workers were among the first to receive the shot as the vaccination campaign got underway.",
-          "\"It is our duty to care for patients,\" says doctor Jean-Louis Etukumalo, \"so I must get vaccinated against Ebola virus disease to help save lives.” Eastern DRC has been battling the Ebola outbreak since mid-May.",
-          "More than 5,600 cases have already been confirmed, including more than 2,700 deaths.",
-          "The country is due to receive a total of 70,000 doses of the vaccine."
-        ],
-        "bullets": [
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "underway"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Residents of Kisangani have been lining up to get vaccinated as the DR Congo races to contain its worst-ever outbreak of Ebola.",
-            "source": "Africanews English",
-            "item_id": "79e2d85d1b94aa342ec4efc7efc50e102245e272e2032ee5b494c357bdc44db5:article",
-            "composed": false
-          },
-          {
-            "text": "The outbreak is being driven by the Bundibugyo strain of the Ebola virus, for which there are no approved vaccines or treatments.",
-            "source": "Africanews English",
-            "item_id": "79e2d85d1b94aa342ec4efc7efc50e102245e272e2032ee5b494c357bdc44db5:article",
-            "composed": false
-          },
-          {
-            "text": "Eastern DRC has been battling the Ebola outbreak since mid-May.",
-            "source": "Africanews English",
-            "item_id": "79e2d85d1b94aa342ec4efc7efc50e102245e272e2032ee5b494c357bdc44db5:article",
-            "composed": false
-          },
-          {
-            "text": "More than 5,600 cases have already been confirmed, including more than 2,700 deaths.",
-            "source": "Africanews English",
-            "item_id": "79e2d85d1b94aa342ec4efc7efc50e102245e272e2032ee5b494c357bdc44db5:article",
-            "composed": false
-          }
-        ],
-        "source": "Africanews English",
-        "corroborating": [],
-        "url": "http://www.africanews.com/2026/08/30/drc-launches-ebola-vaccination-campaign-as-outbreak-continues-to-spread/"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "e462b831ea2f25009b6041a09aee955f340b2c868b43770df791ed5c94f69e47",
-      "title": "Netanyahu condemns violence in West Bank",
-      "url": "https://www.france24.com/en/netanyahu-condemns-violence-in-west-bank",
-      "source": "France 24",
+      "id": "66809798bacd1dff5f6c766aaafbc5d46d0160b2b907e1cb1deac2fd74c801a5",
+      "title": "Pakistan suspends eight officials after deadly infant ward fire",
+      "url": "https://www.straitstimes.com/asia/south-asia/pakistan-suspends-eight-officials-after-deadly-infant-ward-fire",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "It was a rare condemnation from what is widely seen as the most religious and ultranationalist government in Israel’s history. Prime Minister Benjamin Netanyahu condemned recent attacks by Israeli settlers on Palestinians in the occupied West Bank, but described the violence as the actions of a “handful of rioters.” Tensions have surged across the territory, with activists accusing settlers of acting with impunity. Much of the recent violence has taken place in the town of Qusra. Peter O’Brien reports.",
-      "published_at": "2026-08-30T08:46:45+00:00",
-      "updated_at": "2026-08-30T08:46:45+00:00",
-      "effective_at": "2026-08-30T08:46:45+00:00",
+      "summary": "Pakistan suspended eight officials, including hospital executives, after a fire in a maternity ward killed 14 infants in Islamabad on Aug 26. A preliminary report found the fire spread in about two minutes, with poor emergency response and no fire training in the hospital. Prime Minister Shehbaz Sharif vowed criminal proceedings and action against the security company; similar deadly fires have happened before due to poor safety enforcement in Pakistan. Pakistan’s prime minister said eight officials were suspended and called for criminal proceedings against them, after 14 infants were killed in a fire in the maternity ward of a hospital in the country’s capital. A preliminary report conducted by a four-person committee formed by Prime Minister Shehbaz Sharif found the deadly blaze had engulfed the unit “within approximately two minutes” just after 6.30am local time (9.30am, Singapore time) on Aug 26, with a nurse only able to save one of the 15 infants in the hospital’s care. Among those suspended were hospital staff including its executive director and the head of the neonatal department, as well as the director-general of Islamabad’s emergency services. Sharif said late on Aug 29 “those responsible for criminal negligence do not deserve any concession” and that they will be “brought to justice”. He also approved taking action against the company responsible for the hospital’s security, without naming them. Emergency services were called within six minutes of the fire breaking out, with the first rescue services arriving at the scene 15 minutes later, the report said. Parents and other witnesses told AFP the response had been slow and guards had reportedly prevented people from leaving the building. The hospital did not have detailed operating procedures or fire and emergency training, according to the preliminary report. Two nurses, a woman security guard and another officer were in the ward when the fire started, but there were no supervising staff, the report stated.",
+      "published_at": "2026-08-30T09:00:00+00:00",
+      "updated_at": "2026-08-30T09:00:00+00:00",
+      "effective_at": "2026-08-30T09:00:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "health",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "afp",
+        "aug",
+        "islamabad",
+        "pakistan",
+        "sharif",
+        "shehbaz",
+        "singapore"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 95,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Pakistan suspended eight officials, including hospital executives, after a fire in a maternity ward killed 14 infants in Islamabad on Aug 26.",
+        "A preliminary report found the fire spread in about two minutes, with poor emergency response and no fire training in the hospital.",
+        "Prime Minister Shehbaz Sharif vowed criminal proceedings and action against the security company; similar deadly fires have happened before due to poor safety enforcement in Pakistan.",
+        "Pakistan’s prime minister said eight officials were suspended and called for criminal proceedings against them, after 14 infants were killed in a fire in the maternity ward of a hospital in the country’s capital.",
+        "A preliminary report conducted by a four-person committee formed by Prime Minister Shehbaz Sharif found the deadly blaze had engulfed the unit “within approximately two minutes” just after 6.30am local time (9.30am, Singapore time) on Aug 26, with a nurse only able to save one of the 15 infants in the hospital’s care.",
+        "Among those suspended were hospital staff including its executive director and the head of the neonatal department, as well as the director-general of Islamabad’s emergency services.",
+        "Sharif said late on Aug 29 “those responsible for criminal negligence do not deserve any concession” and that they will be “brought to justice”.",
+        "He also approved taking action against the company responsible for the hospital’s security, without naming them.",
+        "Emergency services were called within six minutes of the fire breaking out, with the first rescue services arriving at the scene 15 minutes later, the report said.",
+        "Parents and other witnesses told AFP the response had been slow and guards had reportedly prevented people from leaving the building.",
+        "The hospital did not have detailed operating procedures or fire and emergency training, according to the preliminary report.",
+        "Two nurses, a woman security guard and another officer were in the ward when the fire started, but there were no supervising staff, the report stated."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "8cc20de86ce0e0a6ce60231a",
+      "importance_score": 62.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 10,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 26,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8,
+          "scientific": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "66809798bacd1dff5f6c766aaafbc5d46d0160b2b907e1cb1deac2fd74c801a5",
+      "public_label": "🔄 UPDATE",
+      "headline": "Pakistan suspends eight officials after deadly infant ward fire",
+      "briefing": {
+        "opening": [
+          "Pakistan suspended eight officials, including hospital executives, after a fire in a maternity ward killed 14 infants in Islamabad on Aug 26.",
+          "A preliminary report found the fire spread in about two minutes, with poor emergency response and no fire training in the hospital."
+        ],
+        "body": [
+          "Prime Minister Shehbaz Sharif vowed criminal proceedings and action against the security company; similar deadly fires have happened before due to poor safety enforcement in Pakistan.",
+          "Pakistan’s prime minister said eight officials were suspended and called for criminal proceedings against them, after 14 infants were killed in a fire in the maternity ward of a hospital in the country’s capital.",
+          "A preliminary report conducted by a four-person committee formed by Prime Minister Shehbaz Sharif found the deadly blaze had engulfed the unit “within approximately two minutes” just after 6.30am local time (9.30am, Singapore time) on Aug 26, with a nurse only able to save one of the 15 infants in the hospital’s care.",
+          "Among those suspended were hospital staff including its executive director and the head of the neonatal department, as well as the director-general of Islamabad’s emergency services.",
+          "Sharif said late on Aug 29 “those responsible for criminal negligence do not deserve any concession” and that they will be “brought to justice”.",
+          "He also approved taking action against the company responsible for the hospital’s security, without naming them.",
+          "Emergency services were called within six minutes of the fire breaking out, with the first rescue services arriving at the scene 15 minutes later, the report said.",
+          "Parents and other witnesses told AFP the response had been slow and guards had reportedly prevented people from leaving the building."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Islamabad"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Pakistan suspended eight officials, including hospital executives, after a fire in a maternity ward killed 14 infants in Islamabad on Aug 26.",
+            "source": "Straits Times Asia",
+            "item_id": "66809798bacd1dff5f6c766aaafbc5d46d0160b2b907e1cb1deac2fd74c801a5:article",
+            "composed": false
+          },
+          {
+            "text": "A preliminary report conducted by a four-person committee formed by Prime Minister Shehbaz Sharif found the deadly blaze had engulfed the unit “within approximately two minutes” just after 6.30am local time (9.30am, Singapore time) on Aug 26, with a nurse only able to save one of the 15 infants in the hospital’s care.",
+            "source": "Straits Times Asia",
+            "item_id": "66809798bacd1dff5f6c766aaafbc5d46d0160b2b907e1cb1deac2fd74c801a5:article",
+            "composed": false
+          },
+          {
+            "text": "Sharif said late on Aug 29 “those responsible for criminal negligence do not deserve any concession” and that they will be “brought to justice”.",
+            "source": "Straits Times Asia",
+            "item_id": "66809798bacd1dff5f6c766aaafbc5d46d0160b2b907e1cb1deac2fd74c801a5:article",
+            "composed": false
+          },
+          {
+            "text": "Prime Minister Shehbaz Sharif vowed criminal proceedings and action against the security company; similar deadly fires have happened before due to poor safety enforcement in Pakistan.",
+            "source": "Straits Times Asia",
+            "item_id": "66809798bacd1dff5f6c766aaafbc5d46d0160b2b907e1cb1deac2fd74c801a5:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/south-asia/pakistan-suspends-eight-officials-after-deadly-infant-ward-fire"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "e14e7faf656ff6d825a13234cb39c617a8b374eae7b454e59c02d6357967ee02",
+      "title": "Jeju police re-examining circumstances around death of woman in palm farm",
+      "url": "https://www.straitstimes.com/asia/east-asia/jeju-police-re-examining-circumstances-around-death-of-woman-in-palm-farm",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Jeju police are re-examining if a palm tree branch could support the weight of Jang Mi-ran, whose body was found 104 days after she was reported missing. An autopsy found no signs of foul play, suggesting death by hanging, but public doubts remain about the police's initial conclusion. Questions persist due to the palm tree's structure, lack of odour, and family claims that Jang feared the area, prompting a thorough ongoing investigation. Jeju police are re-examining whether a palm tree branch could have supported the weight of a missing woman whose body was found on a palm farm, as questions persist over the circumstances surrounding her death. As part of the investigation, police conducted a re-enactment over the weekend at the farm in Hallim-eup, western Jeju City, where the body of Jang Mi-ran, 37, was found on Aug 24, 104 days after she was reported missing on May 15, according to the Jeju Provincial. Police Agency. A local police officer allegedly closed Jang’s missing-person case based on a false report that they had contacted her and that she did not want to remain in contact with her family. The case was reopened after Jang’s family repeatedly urged police to resume the search, which began again on Aug 20. Police said an autopsy by the National Forensic Service found no apparent signs of foul play and indicated that Jang likely died from hanging. The finding, however, has drawn public scrutiny, with some questioning whether police had prematurely concluded that Jang took her own life. During the re-enactment, police examined whether the flexible palm branch where Jang was found could have supported her weight. Based on an initial test, police had previously said the upper part of the branch was strong enough to support a person.",
+      "published_at": "2026-08-30T08:55:00+00:00",
+      "updated_at": "2026-08-30T08:55:00+00:00",
+      "effective_at": "2026-08-30T08:55:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "agriculture",
+      "subsector": "agriculture",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "agency",
+        "aug",
+        "city",
+        "forensic",
+        "hallim-eup",
+        "jang",
+        "jeju",
+        "mi-ran",
+        "national",
+        "police",
+        "provincial",
+        "service"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Jeju police are re-examining if a palm tree branch could support the weight of Jang Mi-ran, whose body was found 104 days after she was reported missing.",
+        "An autopsy found no signs of foul play, suggesting death by hanging, but public doubts remain about the police's initial conclusion.",
+        "Questions persist due to the palm tree's structure, lack of odour, and family claims that Jang feared the area, prompting a thorough ongoing investigation.",
+        "Jeju police are re-examining whether a palm tree branch could have supported the weight of a missing woman whose body was found on a palm farm, as questions persist over the circumstances surrounding her death.",
+        "As part of the investigation, police conducted a re-enactment over the weekend at the farm in Hallim-eup, western Jeju City, where the body of Jang Mi-ran, 37, was found on Aug 24, 104 days after she was reported missing on May 15, according to the Jeju Provincial.",
+        "Police Agency.",
+        "A local police officer allegedly closed Jang’s missing-person case based on a false report that they had contacted her and that she did not want to remain in contact with her family.",
+        "The case was reopened after Jang’s family repeatedly urged police to resume the search, which began again on Aug 20.",
+        "Police said an autopsy by the National Forensic Service found no apparent signs of foul play and indicated that Jang likely died from hanging.",
+        "The finding, however, has drawn public scrutiny, with some questioning whether police had prematurely concluded that Jang took her own life.",
+        "During the re-enactment, police examined whether the flexible palm branch where Jang was found could have supported her weight.",
+        "Based on an initial test, police had previously said the upper part of the branch was strong enough to support a person."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "6ae44625ff481efea2af7b23",
+      "importance_score": 46.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 2,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 18,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 104,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 6,
+          "economic": 4,
+          "scientific": 4,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "e14e7faf656ff6d825a13234cb39c617a8b374eae7b454e59c02d6357967ee02",
+      "public_label": "🔄 UPDATE",
+      "headline": "Jeju police re-examining circumstances around death of woman in palm farm",
+      "briefing": {
+        "opening": [
+          "Jeju police are re-examining if a palm tree branch could support the weight of Jang Mi-ran, whose body was found 104 days after she was reported missing.",
+          "An autopsy found no signs of foul play, suggesting death by hanging, but public doubts remain about the police's initial conclusion."
+        ],
+        "body": [
+          "Questions persist due to the palm tree's structure, lack of odour, and family claims that Jang feared the area, prompting a thorough ongoing investigation.",
+          "Jeju police are re-examining whether a palm tree branch could have supported the weight of a missing woman whose body was found on a palm farm, as questions persist over the circumstances surrounding her death.",
+          "As part of the investigation, police conducted a re-enactment over the weekend at the farm in Hallim-eup, western Jeju City, where the body of Jang Mi-ran, 37, was found on Aug 24, 104 days after she was reported missing on May 15, according to the Jeju Provincial.",
+          "Police Agency.",
+          "A local police officer allegedly closed Jang’s missing-person case based on a false report that they had contacted her and that she did not want to remain in contact with her family.",
+          "The case was reopened after Jang’s family repeatedly urged police to resume the search, which began again on Aug 20.",
+          "Police said an autopsy by the National Forensic Service found no apparent signs of foul play and indicated that Jang likely died from hanging.",
+          "The finding, however, has drawn public scrutiny, with some questioning whether police had prematurely concluded that Jang took her own life."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Hallim-eup"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Questions persist due to the palm tree's structure, lack of odour, and family claims that Jang feared the area, prompting a thorough ongoing investigation.",
+            "source": "Straits Times Asia",
+            "item_id": "e14e7faf656ff6d825a13234cb39c617a8b374eae7b454e59c02d6357967ee02:article",
+            "composed": false
+          },
+          {
+            "text": "Jeju police are re-examining if a palm tree branch could support the weight of Jang Mi-ran, whose body was found 104 days after she was reported missing.",
+            "source": "Straits Times Asia",
+            "item_id": "e14e7faf656ff6d825a13234cb39c617a8b374eae7b454e59c02d6357967ee02:article",
+            "composed": false
+          },
+          {
+            "text": "The case was reopened after Jang’s family repeatedly urged police to resume the search, which began again on Aug 20.",
+            "source": "Straits Times Asia",
+            "item_id": "e14e7faf656ff6d825a13234cb39c617a8b374eae7b454e59c02d6357967ee02:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/east-asia/jeju-police-re-examining-circumstances-around-death-of-woman-in-palm-farm"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "72c121276a53666a39d6be7f048d6db52aa66ded00b36da98e10d5f1d726b653",
+      "title": "French Presidential campaign heats up",
+      "url": "https://www.france24.com/en/french-presidential-campaign-heats-up",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "There are just eight months to go before France’s presidential election, with the first round scheduled for April 18. The campaign is slowly heating up, with several political gatherings taking place this weekend. The Socialist Party wrapped up a two-day gathering on Saturday with a speech from party leader Olivier Faure, who has yet to officially announce his candidacy. Meanwhile, far-right figure Jordan Bardella made a campaign stop at a fair in the Champagne region. This comes after a first debate earlier this week between seven of the leading candidates, organised by business leaders. For an analysis of the current state of the race, we’re joined by Renaud Foucart, a Senior Lecturer in E",
+      "published_at": "2026-08-30T08:55:13+00:00",
+      "updated_at": "2026-08-30T08:55:13+00:00",
+      "effective_at": "2026-08-30T08:55:13+00:00",
       "language_status": "ENGLISH",
       "category": "politics",
       "score": 65,
@@ -162,39 +305,44 @@
       "urgency_terms": [],
       "sector": "geopolitics",
       "subsector": "politics",
-      "subregion": "West Asia / Middle East",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "bank",
-        "benjamin",
-        "israel",
-        "netanyahu",
-        "palestinians",
-        "peter",
-        "qusra",
-        "tensions",
-        "west"
+        "bardella",
+        "champagne",
+        "faure",
+        "foucart",
+        "france",
+        "jordan",
+        "lecturer",
+        "olivier",
+        "party",
+        "presidential",
+        "renaud",
+        "senior",
+        "socialist",
+        "there"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 93,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "81451cbe876ea227c3f8082c",
-      "importance_score": 49.0,
+      "event_status": "NEW",
+      "event_id": "29b923ffbfecf23a2616c3b9",
+      "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 20,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -207,62 +355,172 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 8,
-          "geopolitical": 8,
-          "human": 4
+          "geopolitical": 4
         }
       },
-      "story_id": "e462b831ea2f25009b6041a09aee955f340b2c868b43770df791ed5c94f69e47",
-      "public_label": "🔄 UPDATE",
-      "headline": "Netanyahu condemns violence in West Bank",
+      "story_id": "72c121276a53666a39d6be7f048d6db52aa66ded00b36da98e10d5f1d726b653",
+      "public_label": "📰 NEWS",
+      "headline": "French Presidential campaign heats up",
       "briefing": {
         "opening": [
-          "It was a rare condemnation from what is widely seen as the most religious and ultranationalist government in Israel’s history.",
-          "Prime Minister Benjamin Netanyahu condemned recent attacks by Israeli settlers on Palestinians in the occupied West Bank, but described the violence as the actions of a “handful of rioters.” Tensions have surged across the territory, with activists accusing settlers of acting with impunity."
+          "There are just eight months to go before France’s presidential election, with the first round scheduled for April 18.",
+          "The campaign is slowly heating up, with several political gatherings taking place this weekend."
         ],
         "body": [
-          "Much of the recent violence has taken place in the town of Qusra.",
-          "Peter O’Brien reports."
+          "The Socialist Party wrapped up a two-day gathering on Saturday with a speech from party leader Olivier Faure, who has yet to officially announce his candidacy.",
+          "Meanwhile, far-right figure Jordan Bardella made a campaign stop at a fair in the Champagne region.",
+          "This comes after a first debate earlier this week between seven of the leading candidates, organised by business leaders.",
+          "For an analysis of the current state of the race, we’re joined by Renaud Foucart, a Senior Lecturer in E."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Israel’s"
+            "text": "E"
           }
         ],
         "sentences": [
           {
-            "text": "Prime Minister Benjamin Netanyahu condemned recent attacks by Israeli settlers on Palestinians in the occupied West Bank, but described the violence as the actions of a “handful of rioters.”",
+            "text": "Meanwhile, far-right figure Jordan Bardella made a campaign stop at a fair in the Champagne region.",
             "source": "France 24",
-            "item_id": "e462b831ea2f25009b6041a09aee955f340b2c868b43770df791ed5c94f69e47",
+            "item_id": "72c121276a53666a39d6be7f048d6db52aa66ded00b36da98e10d5f1d726b653",
             "composed": false
           },
           {
-            "text": "Much of the recent violence has taken place in the town of Qusra.",
+            "text": "The campaign is slowly heating up, with several political gatherings taking place this weekend.",
             "source": "France 24",
-            "item_id": "e462b831ea2f25009b6041a09aee955f340b2c868b43770df791ed5c94f69e47",
+            "item_id": "72c121276a53666a39d6be7f048d6db52aa66ded00b36da98e10d5f1d726b653",
             "composed": false
           },
           {
-            "text": "Tensions have surged across the territory, with activists accusing settlers of acting with impunity.",
+            "text": "There are just eight months to go before France’s presidential election, with the first round scheduled for April 18.",
             "source": "France 24",
-            "item_id": "e462b831ea2f25009b6041a09aee955f340b2c868b43770df791ed5c94f69e47",
+            "item_id": "72c121276a53666a39d6be7f048d6db52aa66ded00b36da98e10d5f1d726b653",
             "composed": false
           },
           {
-            "text": "It was a rare condemnation from what is widely seen as the most religious and ultranationalist government in Israel’s history.",
+            "text": "The Socialist Party wrapped up a two-day gathering on Saturday with a speech from party leader Olivier Faure, who has yet to officially announce his candidacy.",
             "source": "France 24",
-            "item_id": "e462b831ea2f25009b6041a09aee955f340b2c868b43770df791ed5c94f69e47",
+            "item_id": "72c121276a53666a39d6be7f048d6db52aa66ded00b36da98e10d5f1d726b653",
             "composed": false
           }
         ],
         "source": "France 24",
         "corroborating": [],
-        "url": "https://www.france24.com/en/netanyahu-condemns-violence-in-west-bank"
+        "url": "https://www.france24.com/en/french-presidential-campaign-heats-up"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "fe8f83a9355c5c7d4476a18b093c4eb003309bb991cb0c0e6538ff94265b9cd1",
+      "title": "How China’s liquor heartland traded old spirits for new energy",
+      "url": "https://www.scmp.com/economy/china-economy/article/3365655/how-chinas-liquor-heartland-traded-old-spirits-new-energy?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Wuliangye, China’s second-largest liquor producer, is a household name. But Yibin, the lower-tier city in Sichuan province home to the famous baijiu maker, has long flown under the radar. So when I received an invitation earlier this month for a media trip to Yibin, the first question that sprang to mind was: where exactly is it? Tucked away behind the hills of western China, we had to fly to Chengdu, Sichuan’s capital, followed by a bus transfer. And when we finally arrived, local officials...",
+      "published_at": "2026-08-30T09:00:09+00:00",
+      "updated_at": "2026-08-30T09:00:09+00:00",
+      "effective_at": "2026-08-30T09:00:09+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "energy",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "chengdu",
+        "china",
+        "sichuan",
+        "wuliangye",
+        "yibin"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "301350669e3d0ef40c350b59",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "fe8f83a9355c5c7d4476a18b093c4eb003309bb991cb0c0e6538ff94265b9cd1",
+      "public_label": "📰 NEWS",
+      "headline": "How China’s liquor heartland traded old spirits for new energy",
+      "briefing": {
+        "opening": [
+          "Wuliangye, China’s second-largest liquor producer, is a household name.",
+          "But Yibin, the lower-tier city in Sichuan province home to the famous baijiu maker, has long flown under the radar."
+        ],
+        "body": [
+          "So when I received an invitation earlier this month for a media trip to Yibin, the first question that sprang to mind was: where exactly is it?",
+          "Tucked away behind the hills of western China, we had to fly to Chengdu, Sichuan’s capital, followed by a bus transfer.",
+          "And when we finally arrived, local officials..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Sichuan province"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Wuliangye, China’s second-largest liquor producer, is a household name.",
+            "source": "South China Morning Post",
+            "item_id": "fe8f83a9355c5c7d4476a18b093c4eb003309bb991cb0c0e6538ff94265b9cd1",
+            "composed": false
+          },
+          {
+            "text": "So when I received an invitation earlier this month for a media trip to Yibin, the first question that sprang to mind was: where exactly is it?",
+            "source": "South China Morning Post",
+            "item_id": "fe8f83a9355c5c7d4476a18b093c4eb003309bb991cb0c0e6538ff94265b9cd1",
+            "composed": false
+          },
+          {
+            "text": "Tucked away behind the hills of western China, we had to fly to Chengdu, Sichuan’s capital, followed by a bus transfer.",
+            "source": "South China Morning Post",
+            "item_id": "fe8f83a9355c5c7d4476a18b093c4eb003309bb991cb0c0e6538ff94265b9cd1",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/economy/china-economy/article/3365655/how-chinas-liquor-heartland-traded-old-spirits-new-energy?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
     }
   ]
 }
