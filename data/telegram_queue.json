@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T14:10:44.677338+00:00",
-  "count": 2,
+  "generated_at": "2026-08-30T14:20:50.359450+00:00",
+  "count": 1,
   "stories": [
     {
       "id": "6397a108f9cd854d99809d7ac0c5638fc72dc22040b81592ee06bc494af2fcbd",
@@ -12,25 +12,34 @@
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "An estimated 237 people have been rescued after accident off the coast of northern Cyprus Fatalities after ferry carrying nearly 270 capsizes off northern Cyprus Here are some of the latest images being sent to us over the newswires following the incident: The prime minister of the self-declared Turkish Republic of Northern Cyprus, Ünal Üstel, has posted an update on X about the “tragic shipwreck”. He said 237 out of the 267 people on board the ship have been rescued – but seven people have died. Continue reading...",
-      "published_at": "2026-08-30T13:58:15+00:00",
-      "updated_at": "2026-08-30T13:58:15+00:00",
-      "effective_at": "2026-08-30T13:58:15+00:00",
+      "summary": "At least seven people have died after a ferry carrying nearly 270 passengers and crew capsized off the coast of Turkish-occupied northern Cyprus, local media reported. An estimated 237 people have been rescued, Northern Cyprus’ prime minister, Ünal Üstel, told the TRT news channel, adding that the ferry had faced adverse weather conditions and began taking in water just 15 minutes after departure. Local media report that an intensive search and rescue effort was launched after the boat capsized off the coastal town of Kyrenia earlier today. The ferry had been travelling to the Turkish port of Tasucu. I have just spoken to Mehmet Harmanci, who as mayor of breakaway northern Nicosia, says he is overseeing efforts to gather warm clothes and other essentials for the wounded. “There are 23 still missing and others who have also been injured although we don’t know to what degree,” he told the Guardian. “The wounded are being sent to hospital here in (northern) Nicosia and we are gathering warm clothes for them.” Harmanci described the disaster as the worst ever witnessed in the 43 years since the territory declared independence. “We have not seen anything like this before. It’s very serious,” he said. Four Turkish Cypriot coast guard vessels and a civilian passenger boat have been deployed to the scene, along with five Turkish coastguard vessels and two helicopters, the Turkish Cypriot interior ministry said in a statement. The prime minister of the self-declared Turkish Republic of Northern Cyprus, Ünal Üstel, has posted an update on X about the “tragic shipwreck”.",
+      "published_at": "2026-08-30T14:12:29+00:00",
+      "updated_at": "2026-08-30T14:12:29+00:00",
+      "effective_at": "2026-08-30T14:12:29+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
+      "category": "health",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
+      "sector": "technology",
+      "subsector": "software",
       "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
+        "cypriot",
         "cyprus",
-        "fatalities",
+        "four",
+        "guardian",
+        "harmanci",
+        "kyrenia",
+        "mehmet",
+        "nicosia",
         "northern",
         "republic",
-        "turkish"
+        "tasucu",
+        "trt",
+        "turkish",
+        "turkish-occupied"
       ],
       "corroborating_sources": 2,
       "strong_corroboration": 2,
@@ -39,35 +48,50 @@
         "The Hindu"
       ],
       "verified_match_count": 2,
-      "priority_score": 80,
+      "priority_score": 100,
       "priority_level": "URGENT",
       "max_delay_minutes": 15,
+      "article_sentences": [
+        "At least seven people have died after a ferry carrying nearly 270 passengers and crew capsized off the coast of Turkish-occupied northern Cyprus, local media reported.",
+        "An estimated 237 people have been rescued, Northern Cyprus’ prime minister, Ünal Üstel, told the TRT news channel, adding that the ferry had faced adverse weather conditions and began taking in water just 15 minutes after departure.",
+        "Local media report that an intensive search and rescue effort was launched after the boat capsized off the coastal town of Kyrenia earlier today.",
+        "The ferry had been travelling to the Turkish port of Tasucu.",
+        "I have just spoken to Mehmet Harmanci, who as mayor of breakaway northern Nicosia, says he is overseeing efforts to gather warm clothes and other essentials for the wounded.",
+        "“There are 23 still missing and others who have also been injured although we don’t know to what degree,” he told the Guardian.",
+        "“The wounded are being sent to hospital here in (northern) Nicosia and we are gathering warm clothes for them.”",
+        "Harmanci described the disaster as the worst ever witnessed in the 43 years since the territory declared independence.",
+        "“We have not seen anything like this before.",
+        "It’s very serious,” he said.",
+        "Four Turkish Cypriot coast guard vessels and a civilian passenger boat have been deployed to the scene, along with five Turkish coastguard vessels and two helicopters, the Turkish Cypriot interior ministry said in a statement.",
+        "The prime minister of the self-declared Turkish Republic of Northern Cyprus, Ünal Üstel, has posted an update on X about the “tragic shipwreck”."
+      ],
       "event_status": "UPDATE",
-      "event_id": "af0d11e78f5f1aeb2c45409a",
-      "importance_score": 73.0,
+      "event_id": "abe7a28cadf39097117a3a29",
+      "importance_score": 79.0,
       "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 22.0,
-        "urgency": 7.0,
+        "impact": 25,
+        "urgency": 8.0,
         "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 8,
-        "significance": 16,
+        "significance": 18,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
           "dead": 270,
-          "injured": 0,
+          "injured": 23,
           "displaced": 0,
-          "missing": 0,
+          "missing": 23,
           "affected": 0,
           "major_incident": true,
-          "crisis": true
+          "crisis": false
         },
         "significance_dims": {
-          "human": 12,
+          "human": 10,
+          "infrastructure": 4,
           "geopolitical": 4
         }
       },
@@ -76,10 +100,19 @@
       "headline": "Northern Cyprus ferry disaster: at least seven dead as vessel capsizes – latest updates",
       "briefing": {
         "opening": [
-          "An estimated 237 people have been rescued after accident off the coast of northern Cyprus Fatalities after ferry carrying nearly 270 capsizes off northern Cyprus Here are some of the latest images being sent to us over the newswires following the incident: The prime minister of the self-declared Turkish Republic of Northern Cyprus, Ünal Üstel, has posted an update on X about the “tragic shipwreck”.",
-          "He said 237 out of the 267 people on board the ship have been rescued – but seven people have died."
+          "At least seven people have died after a ferry carrying nearly 270 passengers and crew capsized off the coast of Turkish-occupied northern Cyprus, local media reported.",
+          "An estimated 237 people have been rescued, Northern Cyprus’ prime minister, Ünal Üstel, told the TRT news channel, adding that the ferry had faced adverse weather conditions and began taking in water just 15 minutes after departure."
         ],
-        "body": [],
+        "body": [
+          "Local media report that an intensive search and rescue effort was launched after the boat capsized off the coastal town of Kyrenia earlier today.",
+          "The ferry had been travelling to the Turkish port of Tasucu.",
+          "I have just spoken to Mehmet Harmanci, who as mayor of breakaway northern Nicosia, says he is overseeing efforts to gather warm clothes and other essentials for the wounded.",
+          "“There are 23 still missing and others who have also been injured although we don’t know to what degree,” he told the Guardian.",
+          "“The wounded are being sent to hospital here in (northern) Nicosia and we are gathering warm clothes for them.” Harmanci described the disaster as the worst ever witnessed in the 43 years since the territory declared independence.",
+          "“We have not seen anything like this before.",
+          "It’s very serious,” he said.",
+          "Four Turkish Cypriot coast guard vessels and a civilian passenger boat have been deployed to the scene, along with five Turkish coastguard vessels and two helicopters, the Turkish Cypriot interior ministry said in a statement."
+        ],
         "bullets": [
           {
             "icon": "👥",
@@ -89,15 +122,21 @@
         ],
         "sentences": [
           {
-            "text": "He said 237 out of the 267 people on board the ship have been rescued – but seven people have died.",
+            "text": "“There are 23 still missing and others who have also been injured although we don’t know to what degree,” he told the Guardian.",
             "source": "The Guardian World",
-            "item_id": "6397a108f9cd854d99809d7ac0c5638fc72dc22040b81592ee06bc494af2fcbd",
+            "item_id": "6397a108f9cd854d99809d7ac0c5638fc72dc22040b81592ee06bc494af2fcbd:article",
             "composed": false
           },
           {
-            "text": "An estimated 237 people have been rescued after accident off the coast of northern Cyprus Fatalities after ferry carrying nearly 270 capsizes off northern Cyprus Here are some of the latest images being sent to us over the newswires following the incident: The prime minister of the self-declared Turkish Republic of Northern Cyprus, Ünal Üstel, has posted an update on X about the “tragic shipwreck”.",
+            "text": "Local media report that an intensive search and rescue effort was launched after the boat capsized off the coastal town of Kyrenia earlier today.",
             "source": "The Guardian World",
-            "item_id": "6397a108f9cd854d99809d7ac0c5638fc72dc22040b81592ee06bc494af2fcbd",
+            "item_id": "6397a108f9cd854d99809d7ac0c5638fc72dc22040b81592ee06bc494af2fcbd:article",
+            "composed": false
+          },
+          {
+            "text": "An estimated 237 people have been rescued, Northern Cyprus’ prime minister, Ünal Üstel, told the TRT news channel, adding that the ferry had faced adverse weather conditions and began taking in water just 15 minutes after departure.",
+            "source": "The Guardian World",
+            "item_id": "6397a108f9cd854d99809d7ac0c5638fc72dc22040b81592ee06bc494af2fcbd:article",
             "composed": false
           }
         ],
@@ -107,129 +146,6 @@
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
-    },
-    {
-      "id": "2c51a6f2a7ea5b94364d6b90ed8ec66b7313e4a01e86fc6e9f791edaf9234ffb",
-      "title": "30 vessels not let pass through Strait of Hormuz without Iran’s permit in past week",
-      "url": "https://tass.com/world/2179509",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "TEHRAN, August 30. Around 30 vessels have not been let pass through the Strait of Hormuz without the Iranian authorities’ permit over the past week, the Mehr agency reported. According to the news agency, thirty vessels tries to cross the Strait of Hormuz from September 22 through 29, but were stopped by the Iranian armed forces. Currently, navigation through the Strait of Hormuz is only possible upon an agreement with the Iranian side and after paying corresponding fees. US President Donald Trump said on August 22 that he already considered the Strait of Hormuz to be US territory. He later posted an image on Truth Social in which the Strait of Hormuz, along with other US territories, was shown as belonging to the United States. Meanwhile, Tehran has repeatedly said that it totally controls the Strait of Hormuz and Trump’s allegations are absolutely groundless.",
-      "published_at": "2026-08-30T14:07:42+00:00",
-      "updated_at": "2026-08-30T14:07:42+00:00",
-      "effective_at": "2026-08-30T14:07:42+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "shipping",
-      "subregion": "West Asia / Middle East",
-      "country": null,
-      "entities": [
-        "donald",
-        "hormuz",
-        "iran",
-        "meanwhile",
-        "mehr",
-        "social",
-        "strait",
-        "trump",
-        "truth",
-        "united_states",
-        "us"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "TEHRAN, August 30.",
-        "Around 30 vessels have not been let pass through the Strait of Hormuz without the Iranian authorities’ permit over the past week, the Mehr agency reported.",
-        "According to the news agency, thirty vessels tries to cross the Strait of Hormuz from September 22 through 29, but were stopped by the Iranian armed forces.",
-        "Currently, navigation through the Strait of Hormuz is only possible upon an agreement with the Iranian side and after paying corresponding fees.",
-        "US President Donald Trump said on August 22 that he already considered the Strait of Hormuz to be US territory.",
-        "He later posted an image on Truth Social in which the Strait of Hormuz, along with other US territories, was shown as belonging to the United States.",
-        "Meanwhile, Tehran has repeatedly said that it totally controls the Strait of Hormuz and Trump’s allegations are absolutely groundless."
-      ],
-      "event_status": "NEW",
-      "event_id": "5363eb0033fa80e0ac93ed15",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "geopolitical": 4
-        }
-      },
-      "story_id": "2c51a6f2a7ea5b94364d6b90ed8ec66b7313e4a01e86fc6e9f791edaf9234ffb",
-      "public_label": "📰 NEWS",
-      "headline": "30 vessels not let pass through Strait of Hormuz without Iran’s permit in past week",
-      "briefing": {
-        "opening": [
-          "TEHRAN, August 30.",
-          "Around 30 vessels have not been let pass through the Strait of Hormuz without the Iranian authorities’ permit over the past week, the Mehr agency reported."
-        ],
-        "body": [
-          "According to the news agency, thirty vessels tries to cross the Strait of Hormuz from September 22 through 29, but were stopped by the Iranian armed forces.",
-          "Currently, navigation through the Strait of Hormuz is only possible upon an agreement with the Iranian side and after paying corresponding fees.",
-          "US President Donald Trump said on August 22 that he already considered the Strait of Hormuz to be US territory.",
-          "He later posted an image on Truth Social in which the Strait of Hormuz, along with other US territories, was shown as belonging to the United States.",
-          "Meanwhile, Tehran has repeatedly said that it totally controls the Strait of Hormuz and Trump’s allegations are absolutely groundless."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "According to the news agency, thirty vessels tries to cross the Strait of Hormuz from September 22 through 29, but were stopped by the Iranian armed forces.",
-            "source": "TASS English",
-            "item_id": "2c51a6f2a7ea5b94364d6b90ed8ec66b7313e4a01e86fc6e9f791edaf9234ffb:article",
-            "composed": false
-          },
-          {
-            "text": "US President Donald Trump said on August 22 that he already considered the Strait of Hormuz to be US territory.",
-            "source": "TASS English",
-            "item_id": "2c51a6f2a7ea5b94364d6b90ed8ec66b7313e4a01e86fc6e9f791edaf9234ffb:article",
-            "composed": false
-          },
-          {
-            "text": "TEHRAN, August 30.",
-            "source": "TASS English",
-            "item_id": "2c51a6f2a7ea5b94364d6b90ed8ec66b7313e4a01e86fc6e9f791edaf9234ffb:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/world/2179509"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
     }
   ]
 }
