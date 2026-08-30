@@ -1,46 +1,39 @@
 {
-  "generated_at": "2026-08-30T20:01:09.258264+00:00",
+  "generated_at": "2026-08-30T20:10:52.701527+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "2ad8b7ce21d9bcb01ed348cfb3e53db2dbd14894fe4857a709a4c50660ab09c1",
-      "title": "Iceland’s current government not to initiate EU accession talks — PM",
-      "url": "https://tass.com/world/2179575",
+      "id": "386eec8cf9646348cc4aeaea6baa71882bf0156f89924c41c3d3e741951e0581",
+      "title": "Two, killed, two wounded in US strike on Iran’s Larak island — agency",
+      "url": "https://tass.com/world/2179579",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "North America",
       "discovery": false,
-      "summary": "STOCKHOLM, August 30. Iceland will not initiate new negotiations on accessing the European Union under the current government, Prime Minister Kristrun Frostadottir said. Iceland held a referendum on resuming negotiations on accessing the European Union on Saturday. According to the latest updates cited by the RUV television company, 52% of voters opposed the idea, saying that this move will carry a risk of limiting Iceland’s sovereignty and imposing restrictions on fishing. \"I want to make it absolutely clear. This government is not going forward with the accession talks this term. It’s my point of view that you cannot have a referendum like this every one or two years. It’s a huge matter to do. I am not going to say that things might not change in the future, but our promise was to ask, get a result and respect it,\" she told a news conference after the voting. She pledged that the country will remain a reliable partner within the European Economic Area, like Norway and Lichtenstein. Iceland first applied for EU membership in 2009, but in 2013, a government skeptical of the EU halted the process. Reykjavik is already part of the Schengen Area and the European Economic Area (EEA).",
-      "published_at": "2026-08-30T19:52:18+00:00",
-      "updated_at": "2026-08-30T19:52:18+00:00",
-      "effective_at": "2026-08-30T19:52:18+00:00",
+      "summary": "TEHRAN, August 30. At least two people died and two others were wounded after a US drone attack on the Iranian island of Larak, the Tasnim news agency reported. According to the agency, the attack was carried out about an hour ago. No official comments are available at the moment. Axios and Israel’s Channel 12 correspondent. Barak Ravid said earlier that US forces had struck two missile launchers on the island of Larak in southern Iran.",
+      "published_at": "2026-08-30T20:08:11+00:00",
+      "updated_at": "2026-08-30T20:08:11+00:00",
+      "effective_at": "2026-08-30T20:08:11+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "Europe",
+      "sector": "law",
+      "subsector": "labor",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "area",
-        "economic",
-        "eea",
-        "eu",
-        "european",
-        "frostadottir",
-        "iceland",
-        "kristrun",
-        "lichtenstein",
-        "norway",
-        "pm",
-        "ruv",
-        "schengen",
-        "stockholm",
-        "union"
+        "barak",
+        "channel",
+        "iran",
+        "israel",
+        "larak",
+        "ravid",
+        "tasnim",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -50,92 +43,85 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "STOCKHOLM, August 30.",
-        "Iceland will not initiate new negotiations on accessing the European Union under the current government, Prime Minister Kristrun Frostadottir said.",
-        "Iceland held a referendum on resuming negotiations on accessing the European Union on Saturday.",
-        "According to the latest updates cited by the RUV television company, 52% of voters opposed the idea, saying that this move will carry a risk of limiting Iceland’s sovereignty and imposing restrictions on fishing.",
-        "\"I want to make it absolutely clear.",
-        "This government is not going forward with the accession talks this term.",
-        "It’s my point of view that you cannot have a referendum like this every one or two years.",
-        "It’s a huge matter to do.",
-        "I am not going to say that things might not change in the future, but our promise was to ask, get a result and respect it,\" she told a news conference after the voting.",
-        "She pledged that the country will remain a reliable partner within the European Economic Area, like Norway and Lichtenstein.",
-        "Iceland first applied for EU membership in 2009, but in 2013, a government skeptical of the EU halted the process.",
-        "Reykjavik is already part of the Schengen Area and the European Economic Area (EEA)."
+        "TEHRAN, August 30.",
+        "At least two people died and two others were wounded after a US drone attack on the Iranian island of Larak, the Tasnim news agency reported.",
+        "According to the agency, the attack was carried out about an hour ago.",
+        "No official comments are available at the moment.",
+        "Axios and Israel’s Channel 12 correspondent.",
+        "Barak Ravid said earlier that US forces had struck two missile launchers on the island of Larak in southern Iran."
       ],
-      "event_status": "NEW",
-      "event_id": "d1f97f25a3c2302631305e3e",
-      "importance_score": 36.0,
-      "importance_level": "LOW",
+      "event_status": "UPDATE",
+      "event_id": "f814fe224acbe77af880e171",
+      "importance_score": 72.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 16.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 30,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
+          "dead": 30,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
           "major_incident": false,
-          "crisis": false
+          "crisis": true
         },
         "significance_dims": {
-          "geopolitical": 8
+          "security": 8,
+          "geopolitical": 8,
+          "human": 10,
+          "infrastructure": 4
         }
       },
-      "story_id": "2ad8b7ce21d9bcb01ed348cfb3e53db2dbd14894fe4857a709a4c50660ab09c1",
-      "public_label": "📰 NEWS",
-      "headline": "Iceland’s current government not to initiate EU accession talks — PM",
+      "story_id": "386eec8cf9646348cc4aeaea6baa71882bf0156f89924c41c3d3e741951e0581",
+      "public_label": "🔄 UPDATE",
+      "headline": "Two, killed, two wounded in US strike on Iran’s Larak island — agency",
       "briefing": {
         "opening": [
-          "STOCKHOLM, August 30.",
-          "Iceland will not initiate new negotiations on accessing the European Union under the current government, Prime Minister Kristrun Frostadottir said."
+          "TEHRAN, August 30.",
+          "At least two people died and two others were wounded after a US drone attack on the Iranian island of Larak, the Tasnim news agency reported."
         ],
         "body": [
-          "Iceland held a referendum on resuming negotiations on accessing the European Union on Saturday.",
-          "According to the latest updates cited by the RUV television company, 52% of voters opposed the idea, saying that this move will carry a risk of limiting Iceland’s sovereignty and imposing restrictions on fishing.",
-          "\"I want to make it absolutely clear.",
-          "This government is not going forward with the accession talks this term.",
-          "It’s my point of view that you cannot have a referendum like this every one or two years.",
-          "It’s a huge matter to do.",
-          "I am not going to say that things might not change in the future, but our promise was to ask, get a result and respect it,\" she told a news conference after the voting.",
-          "She pledged that the country will remain a reliable partner within the European Economic Area, like Norway and Lichtenstein."
+          "According to the agency, the attack was carried out about an hour ago.",
+          "No official comments are available at the moment.",
+          "Axios and Israel’s Channel 12 correspondent.",
+          "Barak Ravid said earlier that US forces had struck two missile launchers on the island of Larak in southern Iran."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "This government is not going forward with the accession talks this term.",
+            "text": "Barak Ravid said earlier that US forces had struck two missile launchers on the island of Larak in southern Iran.",
             "source": "TASS English",
-            "item_id": "2ad8b7ce21d9bcb01ed348cfb3e53db2dbd14894fe4857a709a4c50660ab09c1:article",
+            "item_id": "386eec8cf9646348cc4aeaea6baa71882bf0156f89924c41c3d3e741951e0581:article",
             "composed": false
           },
           {
-            "text": "According to the latest updates cited by the RUV television company, 52% of voters opposed the idea, saying that this move will carry a risk of limiting Iceland’s sovereignty and imposing restrictions on fishing.",
+            "text": "TEHRAN, August 30.",
             "source": "TASS English",
-            "item_id": "2ad8b7ce21d9bcb01ed348cfb3e53db2dbd14894fe4857a709a4c50660ab09c1:article",
+            "item_id": "386eec8cf9646348cc4aeaea6baa71882bf0156f89924c41c3d3e741951e0581:article",
             "composed": false
           },
           {
-            "text": "Iceland held a referendum on resuming negotiations on accessing the European Union on Saturday.",
+            "text": "Axios and Israel’s Channel 12 correspondent.",
             "source": "TASS English",
-            "item_id": "2ad8b7ce21d9bcb01ed348cfb3e53db2dbd14894fe4857a709a4c50660ab09c1:article",
+            "item_id": "386eec8cf9646348cc4aeaea6baa71882bf0156f89924c41c3d3e741951e0581:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/world/2179575"
+        "url": "https://tass.com/world/2179579"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
