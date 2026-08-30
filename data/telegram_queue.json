@@ -1,43 +1,36 @@
 {
-  "generated_at": "2026-08-30T20:50:44.723131+00:00",
-  "count": 2,
+  "generated_at": "2026-08-30T21:01:10.165876+00:00",
+  "count": 1,
   "stories": [
     {
-      "id": "f4f52b81c602d7f8e70a6825a7140a842500ac611c34597651201f366093f7e9",
-      "title": "Erez crossing not to be opened for deliveries to Gaza — Israeli PM’s office",
-      "url": "https://tass.com/world/2179587",
+      "id": "20afe20b06dbcf0d3727b3a05136a8a24cc980868a56ae564162e90216ff8b2b",
+      "title": "Georgia’s Kulevi oil refinery stops processing Russian oil",
+      "url": "https://tass.com/economy/2179589",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "TEL AVIV, August 30. Dmitri Gendelman, adviser to the Israeli prime minister’s office, has refuted media allegation that the Israeli government has made a decision to open the Erez crossing on the border with the Gaza Strip for commercial cargoes. \"The Israeli government has not made any decision on opening the Erez crossing for commercial cargoes. Relevant media reports are not true,\" he told TASS. The N12 television channel reported earlier that Israel was looking at opening the Erez checkpoint to deliver goods to the Gaza Strip. The prime minister’s office, however, denied these reports, saying that \"there will be no reconstruction until Hamas is disarmed and Gaza is completely demilitarized.\" The Erez crossing was damaged by a missile launched by radicals from Gaza in January 2025.",
-      "published_at": "2026-08-30T20:45:20+00:00",
-      "updated_at": "2026-08-30T20:45:20+00:00",
-      "effective_at": "2026-08-30T20:45:20+00:00",
+      "summary": "The refinery has switched to processing oil from Kazakhstan and Libya, the media outlet bm.ge reported",
+      "published_at": "2026-08-30T20:55:02+00:00",
+      "updated_at": "2026-08-30T20:55:02+00:00",
+      "effective_at": "2026-08-30T20:55:02+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "industry",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "West Asia / Middle East",
+      "sector": "companies",
+      "subsector": "oil_gas",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "aviv",
-        "dmitri",
-        "erez",
-        "gaza",
-        "gendelman",
-        "hamas",
-        "israel",
-        "n12",
-        "pm",
-        "strip",
-        "tass",
-        "tel"
+        "georgia",
+        "kazakhstan",
+        "kulevi",
+        "libya",
+        "russia"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -46,18 +39,9 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "TEL AVIV, August 30.",
-        "Dmitri Gendelman, adviser to the Israeli prime minister’s office, has refuted media allegation that the Israeli government has made a decision to open the Erez crossing on the border with the Gaza Strip for commercial cargoes.",
-        "\"The Israeli government has not made any decision on opening the Erez crossing for commercial cargoes.",
-        "Relevant media reports are not true,\" he told TASS.",
-        "The N12 television channel reported earlier that Israel was looking at opening the Erez checkpoint to deliver goods to the Gaza Strip.",
-        "The prime minister’s office, however, denied these reports, saying that \"there will be no reconstruction until Hamas is disarmed and Gaza is completely demilitarized.\"",
-        "The Erez crossing was damaged by a missile launched by radicals from Gaza in January 2025."
-      ],
       "event_status": "NEW",
-      "event_id": "a7ecc5422c2c05b2826fe609",
-      "importance_score": 36.0,
+      "event_id": "dfc451636fc58629ec1cec03",
+      "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
@@ -67,7 +51,7 @@
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -79,185 +63,65 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "security": 4,
-          "geopolitical": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "f4f52b81c602d7f8e70a6825a7140a842500ac611c34597651201f366093f7e9",
+      "story_id": "20afe20b06dbcf0d3727b3a05136a8a24cc980868a56ae564162e90216ff8b2b",
+      "article_sentences": [
+        "TBILISI, August 30.",
+        "The Kulevi oil refinery in western Georgia has completely stopped processing Russian crude oil, the Georgian internet media outlet bm.ge reported.",
+        "The oil refinery has switched to processing oil from Kazakhstan and Libya.",
+        "The first batch of Libyan oil arrived on August 28.",
+        "In July, Georgia imported 5,500 tons of crude oil from Kazakhstan.",
+        "Black Sea Petroleum, the owner of the Kulevi oil refinery, said on July 31 that it planned to refuse from processing Russian oil starting from August and was expecting new batches of oil from Kazakhstan and Libya.",
+        "The Kulevi oil refinery was put on the European Union’s 21st package of anti-Russian sanctions.",
+        "The sanctions would come into effect on January 25, 2027 if the facility continues processing Russian oil."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "Erez crossing not to be opened for deliveries to Gaza — Israeli PM’s office",
+      "headline": "Georgia’s Kulevi oil refinery stops processing Russian oil",
       "briefing": {
         "opening": [
-          "TEL AVIV, August 30.",
-          "Dmitri Gendelman, adviser to the Israeli prime minister’s office, has refuted media allegation that the Israeli government has made a decision to open the Erez crossing on the border with the Gaza Strip for commercial cargoes."
+          "TBILISI, August 30.",
+          "The Kulevi oil refinery in western Georgia has completely stopped processing Russian crude oil, the Georgian internet media outlet bm.ge reported."
         ],
         "body": [
-          "\"The Israeli government has not made any decision on opening the Erez crossing for commercial cargoes.",
-          "Relevant media reports are not true,\" he told TASS.",
-          "The N12 television channel reported earlier that Israel was looking at opening the Erez checkpoint to deliver goods to the Gaza Strip.",
-          "The prime minister’s office, however, denied these reports, saying that \"there will be no reconstruction until Hamas is disarmed and Gaza is completely demilitarized.\" The Erez crossing was damaged by a missile launched by radicals from Gaza in January 2025."
+          "The oil refinery has switched to processing oil from Kazakhstan and Libya.",
+          "The first batch of Libyan oil arrived on August 28.",
+          "In July, Georgia imported 5,500 tons of crude oil from Kazakhstan.",
+          "Black Sea Petroleum, the owner of the Kulevi oil refinery, said on July 31 that it planned to refuse from processing Russian oil starting from August and was expecting new batches of oil from Kazakhstan and Libya.",
+          "The Kulevi oil refinery was put on the European Union’s 21st package of anti-Russian sanctions.",
+          "The sanctions would come into effect on January 25, 2027 if the facility continues processing Russian oil.",
+          "The refinery has switched to processing oil from Kazakhstan and Libya, the media outlet bm.ge reported."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "January"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Dmitri Gendelman, adviser to the Israeli prime minister’s office, has refuted media allegation that the Israeli government has made a decision to open the Erez crossing on the border with the Gaza Strip for commercial cargoes.",
+            "text": "Black Sea Petroleum, the owner of the Kulevi oil refinery, said on July 31 that it planned to refuse from processing Russian oil starting from August and was expecting new batches of oil from Kazakhstan and Libya.",
             "source": "TASS English",
-            "item_id": "f4f52b81c602d7f8e70a6825a7140a842500ac611c34597651201f366093f7e9:article",
+            "item_id": "20afe20b06dbcf0d3727b3a05136a8a24cc980868a56ae564162e90216ff8b2b:article",
             "composed": false
           },
           {
-            "text": "The Erez crossing was damaged by a missile launched by radicals from Gaza in January 2025.",
+            "text": "The sanctions would come into effect on January 25, 2027 if the facility continues processing Russian oil.",
             "source": "TASS English",
-            "item_id": "f4f52b81c602d7f8e70a6825a7140a842500ac611c34597651201f366093f7e9:article",
+            "item_id": "20afe20b06dbcf0d3727b3a05136a8a24cc980868a56ae564162e90216ff8b2b:article",
             "composed": false
           },
           {
-            "text": "The N12 television channel reported earlier that Israel was looking at opening the Erez checkpoint to deliver goods to the Gaza Strip.",
+            "text": "In July, Georgia imported 5,500 tons of crude oil from Kazakhstan.",
             "source": "TASS English",
-            "item_id": "f4f52b81c602d7f8e70a6825a7140a842500ac611c34597651201f366093f7e9:article",
+            "item_id": "20afe20b06dbcf0d3727b3a05136a8a24cc980868a56ae564162e90216ff8b2b:article",
+            "composed": false
+          },
+          {
+            "text": "The first batch of Libyan oil arrived on August 28.",
+            "source": "TASS English",
+            "item_id": "20afe20b06dbcf0d3727b3a05136a8a24cc980868a56ae564162e90216ff8b2b:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/world/2179587"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "79668c502aed41e319648aa68053ab683d993c3bd0c597760862586e5a101b71",
-      "title": "Enhypen claims 1st No. 1 on Billboard 200 with 'The Sin: Bliss'",
-      "url": "https://en.yna.co.kr/view/AEN20260831000200315",
-      "source": "Yonhap English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "The latest album from K-pop boy group Enhyen debuted No. 1 on the U.S. Billboard's main albums chart, earning the group its first chart-topper. Billboard said in a preview of this week's chart on Sunday (U.S. time) that the band's eighth EP, \"The Sin: Bliss,\" took the top spot on the Billboard 200, ahead of Ella Langley's \"Dandelion\" and Olivia Rodrigo's \"you seem pretty sad for a girl so in love.\" This marks the first time the group has reached No. 1 since its debut in November 2020.",
-      "published_at": "2026-08-30T20:47:22+00:00",
-      "updated_at": "2026-08-30T20:47:22+00:00",
-      "effective_at": "2026-08-30T20:47:22+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "East Asia",
-      "country": null,
-      "entities": [
-        "billboard",
-        "bliss",
-        "dandelion",
-        "ella",
-        "enhyen",
-        "ep",
-        "k-pop",
-        "langley",
-        "olivia",
-        "rodrigo",
-        "sin"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "The latest album from K-pop boy group Enhyen debuted No.",
-        "1 on the U.S. Billboard's main albums chart, earning the group its first chart-topper.",
-        "Billboard said in a preview of this week's chart on Sunday (U.S. time) that the band's eighth EP, \"The Sin: Bliss,\" took the top spot on the Billboard 200, ahead of Ella Langley's \"Dandelion\" and Olivia Rodrigo's \"you seem pretty sad for a girl so in love.\"",
-        "This marks the first time the group has reached No.",
-        "1 since its debut in November 2020."
-      ],
-      "event_status": "NEW",
-      "event_id": "fb1edb63beb59aa3fb6ad0a3",
-      "importance_score": 36.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "scientific": 8
-        }
-      },
-      "story_id": "79668c502aed41e319648aa68053ab683d993c3bd0c597760862586e5a101b71",
-      "public_label": "📰 NEWS",
-      "headline": "Enhypen claims 1st No. 1 on Billboard 200 with 'The Sin: Bliss'",
-      "briefing": {
-        "opening": [
-          "The latest album from K-pop boy group Enhyen debuted No.",
-          "1 on the U.S. Billboard's main albums chart, earning the group its first chart-topper."
-        ],
-        "body": [
-          "Billboard said in a preview of this week's chart on Sunday (U.S. time) that the band's eighth EP, \"The Sin: Bliss,\" took the top spot on the Billboard 200, ahead of Ella Langley's \"Dandelion\" and Olivia Rodrigo's \"you seem pretty sad for a girl so in love.\" This marks the first time the group has reached No.",
-          "1 since its debut in November 2020."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "November"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "1 since its debut in November 2020.",
-            "source": "Yonhap English",
-            "item_id": "79668c502aed41e319648aa68053ab683d993c3bd0c597760862586e5a101b71:article",
-            "composed": false
-          },
-          {
-            "text": "Billboard said in a preview of this week's chart on Sunday (U.S. time) that the band's eighth EP, \"The Sin: Bliss,\" took the top spot on the Billboard 200, ahead of Ella Langley's \"Dandelion\" and Olivia Rodrigo's \"you seem pretty sad for a girl so in love.\"",
-            "source": "Yonhap English",
-            "item_id": "79668c502aed41e319648aa68053ab683d993c3bd0c597760862586e5a101b71:article",
-            "composed": false
-          },
-          {
-            "text": "1 on the U.S. Billboard's main albums chart, earning the group its first chart-topper.",
-            "source": "Yonhap English",
-            "item_id": "79668c502aed41e319648aa68053ab683d993c3bd0c597760862586e5a101b71:article",
-            "composed": false
-          },
-          {
-            "text": "The latest album from K-pop boy group Enhyen debuted No.",
-            "source": "Yonhap English",
-            "item_id": "79668c502aed41e319648aa68053ab683d993c3bd0c597760862586e5a101b71:article",
-            "composed": false
-          }
-        ],
-        "source": "Yonhap English",
-        "corroborating": [],
-        "url": "https://en.yna.co.kr/view/AEN20260831000200315"
+        "url": "https://tass.com/economy/2179589"
       },
       "group_size": 1,
       "label": "📰 NEWS"
