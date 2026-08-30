@@ -1,49 +1,166 @@
 {
-  "generated_at": "2026-08-30T13:40:44.823084+00:00",
-  "count": 1,
+  "generated_at": "2026-08-30T13:50:49.946327+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "13de73389c374cca253386025d38b138ea00e2047d8e19d1e53ac3fb2cf11f93",
-      "title": "No links between Putin’s meetings with Lukashenko to CIS chief’s visit — Kremlin",
-      "url": "https://tass.com/politics/2179499",
-      "source": "TASS English",
+      "id": "6397a108f9cd854d99809d7ac0c5638fc72dc22040b81592ee06bc494af2fcbd",
+      "title": "Northern Cyprus ferry disaster: at least seven dead as vessel capsizes – latest updates",
+      "url": "https://www.theguardian.com/world/live/2026/aug/30/northern-cyprus-ferry-capsizes-latest-news-updates",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Russian-Belarusian relations constitute an absolutely different dimension, which in no way depends on contacts with the Americans, Russian presidential press secretary Dmitry Peskov said",
-      "published_at": "2026-08-30T13:12:04+00:00",
-      "updated_at": "2026-08-30T13:12:04+00:00",
-      "effective_at": "2026-08-30T13:12:04+00:00",
+      "summary": "An estimated 237 people have been rescued after accident off the coast of northern Cyprus Fatalities after ferry carrying nearly 270 capsizes off northern Cyprus In a post to Facebook, the mayor of the coastal town of Kyrenia, Murat Senkul, described the situation as “very serious” and confirmed that 270 passengers and crew were aboard when the ship sank off the coast of Diana beach. He said the ferry belonged to the Filo Denizcilik company. “The Coast Guard, the *Akgünler Express* vessel, and numerous small boats are participating in rescue operations,” he wrote in the social media post. Continue reading...",
+      "published_at": "2026-08-30T13:36:36+00:00",
+      "updated_at": "2026-08-30T13:36:36+00:00",
+      "effective_at": "2026-08-30T13:36:36+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "diplomacy",
-      "subregion": "Europe",
+      "sector": "climate",
+      "subsector": "disasters",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "americans",
-        "cis",
-        "dmitry",
-        "lukashenko",
-        "peskov",
-        "putin",
-        "russia",
-        "russian-belarusian"
+        "akg",
+        "coast",
+        "cyprus",
+        "denizcilik",
+        "diana",
+        "express",
+        "fatalities",
+        "filo",
+        "guard",
+        "kyrenia",
+        "meta",
+        "murat",
+        "northern",
+        "senkul"
+      ],
+      "corroborating_sources": 2,
+      "strong_corroboration": 2,
+      "corroborating_source_names": [
+        "Al Jazeera",
+        "The Hindu"
+      ],
+      "verified_match_count": 2,
+      "priority_score": 80,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "event_status": "UPDATE",
+      "event_id": "abe7a28cadf39097117a3a29",
+      "importance_score": 75.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 22.0,
+        "urgency": 7.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 8,
+        "significance": 18,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 270,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": true,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 10,
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "6397a108f9cd854d99809d7ac0c5638fc72dc22040b81592ee06bc494af2fcbd",
+      "public_label": "🔄 UPDATE",
+      "headline": "Northern Cyprus ferry disaster: at least seven dead as vessel capsizes – latest updates",
+      "briefing": {
+        "opening": [
+          "An estimated 237 people have been rescued after accident off the coast of northern Cyprus Fatalities after ferry carrying nearly 270 capsizes off northern Cyprus.",
+          "In a post to Facebook, the mayor of the coastal town of Kyrenia, Murat Senkul, described the situation as “very serious” and confirmed that 270 passengers and crew were aboard when the ship sank off the coast of Diana beach."
+        ],
+        "body": [
+          "He said the ferry belonged to the Filo Denizcilik company.",
+          "“The Coast Guard, the *Akgünler Express* vessel, and numerous small boats are participating in rescue operations,” he wrote in the social media post."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "237 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "He said the ferry belonged to the Filo Denizcilik company.",
+            "source": "The Guardian World",
+            "item_id": "6397a108f9cd854d99809d7ac0c5638fc72dc22040b81592ee06bc494af2fcbd",
+            "composed": false
+          },
+          {
+            "text": "“The Coast Guard, the *Akgünler Express* vessel, and numerous small boats are participating in rescue operations,” he wrote in the social media post.",
+            "source": "The Guardian World",
+            "item_id": "6397a108f9cd854d99809d7ac0c5638fc72dc22040b81592ee06bc494af2fcbd",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian World",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/world/live/2026/aug/30/northern-cyprus-ferry-capsizes-latest-news-updates"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "b6b23b2a7b4cbd5a11e2aa7e45adbc2fbc06104a6af0c8652507ab4dda01d9f5",
+      "title": "Sony Music, Warner accuse Anthropic of ‘blatant theft’ in major new lawsuit",
+      "url": "https://www.scmp.com/tech/big-tech/article/3365770/sony-music-warner-accuse-anthropic-blatant-theft-major-new-lawsuit?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "Some of the world’s biggest music publishers have launched a fresh lawsuit against Anthropic, accusing the artificial intelligence giant of conducting “one of the largest and most blatant ongoing thefts of intellectual property in history”. The case adds to the legal challenges facing Anthropic as the firm eyes a potential blockbuster initial public offering, as the AI industry confronts growing pushback over its use of human-made material to train its models. “US courts have focused on whether...",
+      "published_at": "2026-08-30T13:44:43+00:00",
+      "updated_at": "2026-08-30T13:44:43+00:00",
+      "effective_at": "2026-08-30T13:44:43+00:00",
+      "language_status": "ENGLISH",
+      "category": "technology",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "technology",
+      "subsector": "ai",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "ai",
+        "anthropic",
+        "music",
+        "sony",
+        "us",
+        "warner"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "efae3521f8cf9fe3455f48f1",
+      "event_id": "842671508d857b12e73ea379",
       "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -67,64 +184,38 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4
+          "security": 4
         }
       },
-      "story_id": "13de73389c374cca253386025d38b138ea00e2047d8e19d1e53ac3fb2cf11f93",
-      "article_sentences": [
-        "MOSCOW, August 30.",
-        "Russian-Belarussian relations do not depend on contacts with the Americans, Russian presidential press secretary Dmitry Peskov said, commenting on the successive visits to Russia by CIA Director John Ratcliffe and Belarusian President Alexander Lukashenko.",
-        "\"Special services often continue contacts even when diplomats do not do this.",
-        "Such things do happen.",
-        "This should rather be viewed as a positive thing.",
-        "But there have always been and will be a lot of rumors.",
-        "Russian-Belarusian relations constitute an absolutely different dimension, which in no way depends on contacts with the Americans,\" he told Vesti host Pavel Zarubin."
-      ],
+      "story_id": "b6b23b2a7b4cbd5a11e2aa7e45adbc2fbc06104a6af0c8652507ab4dda01d9f5",
       "public_label": "📰 NEWS",
-      "headline": "No links between Putin’s meetings with Lukashenko to CIS chief’s visit — Kremlin",
+      "headline": "Sony Music, Warner accuse Anthropic of ‘blatant theft’ in major new lawsuit",
       "briefing": {
         "opening": [
-          "MOSCOW, August 30.",
-          "Russian-Belarussian relations do not depend on contacts with the Americans, Russian presidential press secretary Dmitry Peskov said, commenting on the successive visits to Russia by CIA Director John Ratcliffe and Belarusian President Alexander Lukashenko."
+          "Some of the world’s biggest music publishers have launched a fresh lawsuit against Anthropic, accusing the artificial intelligence giant of conducting “one of the largest and most blatant ongoing thefts of intellectual property in history”.",
+          "The case adds to the legal challenges facing Anthropic as the firm eyes a potential blockbuster initial public offering, as the AI industry confronts growing pushback over its use of human-made material to train its models."
         ],
         "body": [
-          "\"Special services often continue contacts even when diplomats do not do this.",
-          "Such things do happen.",
-          "This should rather be viewed as a positive thing.",
-          "But there have always been and will be a lot of rumors.",
-          "Russian-Belarusian relations constitute an absolutely different dimension, which in no way depends on contacts with the Americans,\" he told Vesti host Pavel Zarubin.",
-          "Russian-Belarusian relations constitute an absolutely different dimension, which in no way depends on contacts with the Americans, Russian presidential press secretary Dmitry Peskov said."
+          "“US courts have focused on whether..."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Russian-Belarussian relations do not depend on contacts with the Americans, Russian presidential press secretary Dmitry Peskov said, commenting on the successive visits to Russia by CIA Director John Ratcliffe and Belarusian President Alexander Lukashenko.",
-            "source": "TASS English",
-            "item_id": "13de73389c374cca253386025d38b138ea00e2047d8e19d1e53ac3fb2cf11f93:article",
+            "text": "Some of the world’s biggest music publishers have launched a fresh lawsuit against Anthropic, accusing the artificial intelligence giant of conducting “one of the largest and most blatant ongoing thefts of intellectual property in history”.",
+            "source": "South China Morning Post",
+            "item_id": "b6b23b2a7b4cbd5a11e2aa7e45adbc2fbc06104a6af0c8652507ab4dda01d9f5",
             "composed": false
           },
           {
-            "text": "Such things do happen.",
-            "source": "TASS English",
-            "item_id": "13de73389c374cca253386025d38b138ea00e2047d8e19d1e53ac3fb2cf11f93:article",
-            "composed": false
-          },
-          {
-            "text": "This should rather be viewed as a positive thing.",
-            "source": "TASS English",
-            "item_id": "13de73389c374cca253386025d38b138ea00e2047d8e19d1e53ac3fb2cf11f93:article",
-            "composed": false
-          },
-          {
-            "text": "MOSCOW, August 30.",
-            "source": "TASS English",
-            "item_id": "13de73389c374cca253386025d38b138ea00e2047d8e19d1e53ac3fb2cf11f93:article",
+            "text": "Anthropic as the firm eyes a potential blockbuster initial public offering, as the AI industry confronts growing pushback over its use of human-made material to train its models.",
+            "source": "South China Morning Post",
+            "item_id": "b6b23b2a7b4cbd5a11e2aa7e45adbc2fbc06104a6af0c8652507ab4dda01d9f5",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://tass.com/politics/2179499"
+        "url": "https://www.scmp.com/tech/big-tech/article/3365770/sony-music-warner-accuse-anthropic-blatant-theft-major-new-lawsuit?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
