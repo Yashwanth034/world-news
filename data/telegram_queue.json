@@ -1,124 +1,142 @@
 {
-  "generated_at": "2026-08-30T20:10:52.701527+00:00",
+  "generated_at": "2026-08-30T20:20:49.585015+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "386eec8cf9646348cc4aeaea6baa71882bf0156f89924c41c3d3e741951e0581",
-      "title": "Two, killed, two wounded in US strike on Iran’s Larak island — agency",
-      "url": "https://tass.com/world/2179579",
+      "id": "7289506927b8ffdfa37b38c67fd87cb9ebca391fc5b7af5c8ffc8b6f58277be9",
+      "title": "US strikes two missile launchers on Iran’s Larak island — media",
+      "url": "https://tass.com/world/2179581",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "North America",
       "discovery": false,
-      "summary": "TEHRAN, August 30. At least two people died and two others were wounded after a US drone attack on the Iranian island of Larak, the Tasnim news agency reported. According to the agency, the attack was carried out about an hour ago. No official comments are available at the moment. Axios and Israel’s Channel 12 correspondent. Barak Ravid said earlier that US forces had struck two missile launchers on the island of Larak in southern Iran.",
-      "published_at": "2026-08-30T20:08:11+00:00",
-      "updated_at": "2026-08-30T20:08:11+00:00",
-      "effective_at": "2026-08-30T20:08:11+00:00",
+      "summary": "WASHINGTON, August 30. US forces have struck two missile launchers on the island of Larak in southern Iran, Axios and Israel’s Channel 12 correspondent. Barak Ravid said. \"Earlier today U.S. forces struck two Iranian launchers on Larak Island. Islamic Revolutionary Guard Corps forces were observed preparing to launch rockets with sea mines into Strait of Hormuz,\" he wrote on X, citing a US official. US President Donald Trump claimed earlier in August that the Strait of Hormuz had been completely cleared of mines. He also said that the US will not tolerate mining in the strait.",
+      "published_at": "2026-08-30T20:11:55+00:00",
+      "updated_at": "2026-08-30T20:11:55+00:00",
+      "effective_at": "2026-08-30T20:11:55+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "labor",
+      "urgency_terms": [
+        "missile"
+      ],
+      "sector": "science",
+      "subsector": "space",
       "subregion": "United States",
       "country": null,
       "entities": [
+        "axios",
         "barak",
         "channel",
+        "corps",
+        "donald",
+        "guard",
+        "hormuz",
         "iran",
+        "islamic",
+        "island",
         "israel",
         "larak",
         "ravid",
-        "tasnim",
+        "revolutionary",
+        "strait",
+        "trump",
         "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "TEHRAN, August 30.",
-        "At least two people died and two others were wounded after a US drone attack on the Iranian island of Larak, the Tasnim news agency reported.",
-        "According to the agency, the attack was carried out about an hour ago.",
-        "No official comments are available at the moment.",
-        "Axios and Israel’s Channel 12 correspondent.",
-        "Barak Ravid said earlier that US forces had struck two missile launchers on the island of Larak in southern Iran."
+        "WASHINGTON, August 30.",
+        "US forces have struck two missile launchers on the island of Larak in southern Iran, Axios and Israel’s Channel 12 correspondent.",
+        "Barak Ravid said.",
+        "\"Earlier today U.S. forces struck two Iranian launchers on Larak Island.",
+        "Islamic Revolutionary Guard Corps forces were observed preparing to launch rockets with sea mines into Strait of Hormuz,\" he wrote on X, citing a US official.",
+        "US President Donald Trump claimed earlier in August that the Strait of Hormuz had been completely cleared of mines.",
+        "He also said that the US will not tolerate mining in the strait."
       ],
       "event_status": "UPDATE",
-      "event_id": "f814fe224acbe77af880e171",
-      "importance_score": 72.0,
-      "importance_level": "HIGH",
+      "event_id": "825216e2d70d517c9afa5b12",
+      "importance_score": 52.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 16.0,
+        "impact": 0.0,
         "urgency": 7.0,
         "novelty": 8.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "MULTI_COUNTRY",
+        "scope_points": 7,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 30,
+        "significance": 24,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 30,
+          "dead": 0,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
           "affected": 0,
           "major_incident": false,
-          "crisis": true
+          "crisis": false
         },
         "significance_dims": {
+          "economic": 8,
           "security": 8,
-          "geopolitical": 8,
-          "human": 10,
-          "infrastructure": 4
+          "geopolitical": 8
         }
       },
-      "story_id": "386eec8cf9646348cc4aeaea6baa71882bf0156f89924c41c3d3e741951e0581",
+      "story_id": "7289506927b8ffdfa37b38c67fd87cb9ebca391fc5b7af5c8ffc8b6f58277be9",
       "public_label": "🔄 UPDATE",
-      "headline": "Two, killed, two wounded in US strike on Iran’s Larak island — agency",
+      "headline": "US strikes two missile launchers on Iran’s Larak island — media",
       "briefing": {
         "opening": [
-          "TEHRAN, August 30.",
-          "At least two people died and two others were wounded after a US drone attack on the Iranian island of Larak, the Tasnim news agency reported."
+          "WASHINGTON, August 30.",
+          "US forces have struck two missile launchers on the island of Larak in southern Iran, Axios and Israel’s Channel 12 correspondent."
         ],
         "body": [
-          "According to the agency, the attack was carried out about an hour ago.",
-          "No official comments are available at the moment.",
-          "Axios and Israel’s Channel 12 correspondent.",
-          "Barak Ravid said earlier that US forces had struck two missile launchers on the island of Larak in southern Iran."
+          "Barak Ravid said.",
+          "\"Earlier today U.S. forces struck two Iranian launchers on Larak Island.",
+          "Islamic Revolutionary Guard Corps forces were observed preparing to launch rockets with sea mines into Strait of Hormuz,\" he wrote on X, citing a US official.",
+          "US President Donald Trump claimed earlier in August that the Strait of Hormuz had been completely cleared of mines.",
+          "He also said that the US will not tolerate mining in the strait."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "August"
+          }
+        ],
         "sentences": [
           {
-            "text": "Barak Ravid said earlier that US forces had struck two missile launchers on the island of Larak in southern Iran.",
+            "text": "WASHINGTON, August 30.",
             "source": "TASS English",
-            "item_id": "386eec8cf9646348cc4aeaea6baa71882bf0156f89924c41c3d3e741951e0581:article",
+            "item_id": "7289506927b8ffdfa37b38c67fd87cb9ebca391fc5b7af5c8ffc8b6f58277be9:article",
             "composed": false
           },
           {
-            "text": "TEHRAN, August 30.",
+            "text": "US President Donald Trump claimed earlier in August that the Strait of Hormuz had been completely cleared of mines.",
             "source": "TASS English",
-            "item_id": "386eec8cf9646348cc4aeaea6baa71882bf0156f89924c41c3d3e741951e0581:article",
+            "item_id": "7289506927b8ffdfa37b38c67fd87cb9ebca391fc5b7af5c8ffc8b6f58277be9:article",
             "composed": false
           },
           {
-            "text": "Axios and Israel’s Channel 12 correspondent.",
+            "text": "US forces have struck two missile launchers on the island of Larak in southern Iran, Axios and Israel’s Channel 12 correspondent.",
             "source": "TASS English",
-            "item_id": "386eec8cf9646348cc4aeaea6baa71882bf0156f89924c41c3d3e741951e0581:article",
+            "item_id": "7289506927b8ffdfa37b38c67fd87cb9ebca391fc5b7af5c8ffc8b6f58277be9:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/world/2179579"
+        "url": "https://tass.com/world/2179581"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
