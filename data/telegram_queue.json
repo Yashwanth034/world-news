@@ -1,5 +1,392 @@
 {
-  "generated_at": "2026-08-31T20:01:13.519047+00:00",
-  "count": 0,
-  "stories": []
+  "generated_at": "2026-08-31T20:10:46.149116+00:00",
+  "count": 3,
+  "stories": [
+    {
+      "id": "5ce25b80a8987796e76bdc56b64bf6ecd6c87463a61a45f2dc5ccc348ef4df86",
+      "title": "Explosion at India firecracker factory kills 11",
+      "url": "https://www.straitstimes.com/asia/south-asia/explosion-at-india-firecracker-factory-kills-11",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "An explosion at a firecracker factory in Uttar Pradesh, India, killed at least 11 people, including eight children aged 4 to 13. The blast caused nearby houses to collapse, where most victims lived, and several others were injured. Industrial accidents like this are common in India due to poor safety enforcement; similar incidents occurred earlier this year, killing many. LUCKNOW, India - An explosion at a firecracker factory in northern India on Aug 31 killed at least 11 people, including eight children, police said. The powerful explosion in Kaushambi district of Uttar Pradesh state caused the collapse of several nearby houses where most of the dead resided, according to local media reports. The deceased children were between the ages of four and 13, the Hindustan Times newspaper reported. Police officer Satnarayan Prajapat confirmed the deaths, adding several others were injured in the explosion. It was not immediately clear what caused the blast. Industrial accidents are common in India, often due to poor adherence to safety regulations and weak enforcement. In March, a fire at a fireworks factory in western India killed 17 people.",
+      "published_at": "2026-08-31T20:04:26+00:00",
+      "updated_at": "2026-08-31T20:04:26+00:00",
+      "effective_at": "2026-08-31T20:04:26+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 68,
+      "confidence": "medium",
+      "urgency_terms": [
+        "explosion"
+      ],
+      "sector": "companies",
+      "subsector": "industry",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "aug",
+        "hindustan",
+        "india",
+        "kaushambi",
+        "lucknow",
+        "pradesh",
+        "prajapat",
+        "satnarayan",
+        "times",
+        "uttar"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 98,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "An explosion at a firecracker factory in Uttar Pradesh, India, killed at least 11 people, including eight children aged 4 to 13.",
+        "The blast caused nearby houses to collapse, where most victims lived, and several others were injured.",
+        "Industrial accidents like this are common in India due to poor safety enforcement; similar incidents occurred earlier this year, killing many.",
+        "LUCKNOW, India - An explosion at a firecracker factory in northern India on Aug 31 killed at least 11 people, including eight children, police said.",
+        "The powerful explosion in Kaushambi district of Uttar Pradesh state caused the collapse of several nearby houses where most of the dead resided, according to local media reports.",
+        "The deceased children were between the ages of four and 13, the Hindustan Times newspaper reported.",
+        "Police officer Satnarayan Prajapat confirmed the deaths, adding several others were injured in the explosion.",
+        "It was not immediately clear what caused the blast.",
+        "Industrial accidents are common in India, often due to poor adherence to safety regulations and weak enforcement.",
+        "In March, a fire at a fireworks factory in western India killed 17 people."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "af239c7ac16d99c7c725015e",
+      "importance_score": 71.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 24,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 160,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 341,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "human": 12,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "5ce25b80a8987796e76bdc56b64bf6ecd6c87463a61a45f2dc5ccc348ef4df86",
+      "public_label": "🔄 UPDATE",
+      "headline": "Explosion at India firecracker factory kills 11",
+      "briefing": {
+        "opening": [
+          "An explosion at a firecracker factory in Uttar Pradesh, India, killed at least 11 people, including eight children aged 4 to 13.",
+          "The blast caused nearby houses to collapse, where most victims lived, and several others were injured."
+        ],
+        "body": [
+          "Industrial accidents like this are common in India due to poor safety enforcement; similar incidents occurred earlier this year, killing many.",
+          "LUCKNOW, India - An explosion at a firecracker factory in northern India on Aug 31 killed at least 11 people, including eight children, police said.",
+          "The powerful explosion in Kaushambi district of Uttar Pradesh state caused the collapse of several nearby houses where most of the dead resided, according to local media reports.",
+          "The deceased children were between the ages of four and 13, the Hindustan Times newspaper reported.",
+          "Police officer Satnarayan Prajapat confirmed the deaths, adding several others were injured in the explosion.",
+          "It was not immediately clear what caused the blast.",
+          "Industrial accidents are common in India, often due to poor adherence to safety regulations and weak enforcement."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Uttar Pradesh"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 11 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Police officer Satnarayan Prajapat confirmed the deaths, adding several others were injured in the explosion.",
+            "source": "Straits Times Asia",
+            "item_id": "5ce25b80a8987796e76bdc56b64bf6ecd6c87463a61a45f2dc5ccc348ef4df86:article",
+            "composed": false
+          },
+          {
+            "text": "Industrial accidents like this are common in India due to poor safety enforcement; similar incidents occurred earlier this year, killing many.",
+            "source": "Straits Times Asia",
+            "item_id": "5ce25b80a8987796e76bdc56b64bf6ecd6c87463a61a45f2dc5ccc348ef4df86:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/south-asia/explosion-at-india-firecracker-factory-kills-11"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "35f95b3644d176c28cb5026959c84ddff78e94eabcf85954aac7a54fe4fc095c",
+      "title": "Marine Le Pen's National Rally plans to \"sanction\" the wearing of the veil with a fine",
+      "url": "https://www.france24.com/en/marine-le-pen-s-national-rally-plans-to-sanction-the-wearing-of-the-veil-with-a-fine",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "The National Rally plans to \"penalize the wearing of the Islamic veil\" with \"a fine\" if it comes to power, MP Jean-Philippe Tanguy, Marine Le Pen's lieutenant in the presidential election, stated on Sunday. \"We will obviously fight Islamist ideology and we will penalize the wearing of the veil, also in solidarity with all the women around the world who are forced to wear it and who die for this freedom,\" the MP said. FRANCE 24's Monte Francis reports.",
+      "published_at": "2026-08-31T20:01:16+00:00",
+      "updated_at": "2026-08-31T20:01:16+00:00",
+      "effective_at": "2026-08-31T20:01:16+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "markets",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "france",
+        "francis",
+        "islamic",
+        "islamist",
+        "jean-philippe",
+        "le",
+        "marine",
+        "monte",
+        "mp",
+        "national",
+        "pen",
+        "rally",
+        "tanguy"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "21e5f03bdac221ca6dd89d43",
+      "importance_score": 55.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 24,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8,
+          "scientific": 8,
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "35f95b3644d176c28cb5026959c84ddff78e94eabcf85954aac7a54fe4fc095c",
+      "public_label": "🔄 UPDATE",
+      "headline": "Marine Le Pen's National Rally plans to \"sanction\" the wearing of the veil with a fine",
+      "briefing": {
+        "opening": [
+          "The National Rally plans to \"penalize the wearing of the Islamic veil\" with \"a fine\" if it comes to power, MP Jean-Philippe Tanguy, Marine Le Pen's lieutenant in the presidential election, stated on Sunday.",
+          "\"We will obviously fight Islamist ideology and we will penalize the wearing of the veil, also in solidarity with all the women around the world who are forced to wear it and who die for this freedom,\" the MP said."
+        ],
+        "body": [
+          "FRANCE 24's Monte Francis reports."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "\"We will obviously fight Islamist ideology and we will penalize the wearing of the veil, also in solidarity with all the women around the world who are forced to wear it and who die for this freedom,\" the MP said.",
+            "source": "France 24",
+            "item_id": "35f95b3644d176c28cb5026959c84ddff78e94eabcf85954aac7a54fe4fc095c",
+            "composed": false
+          },
+          {
+            "text": "FRANCE 24's Monte Francis reports.",
+            "source": "France 24",
+            "item_id": "35f95b3644d176c28cb5026959c84ddff78e94eabcf85954aac7a54fe4fc095c",
+            "composed": false
+          },
+          {
+            "text": "The National Rally plans to \"penalize the wearing of the Islamic veil\" with \"a fine\" if it comes to power, MP Jean-Philippe Tanguy, Marine Le Pen's lieutenant in the presidential election, stated on Sunday.",
+            "source": "France 24",
+            "item_id": "35f95b3644d176c28cb5026959c84ddff78e94eabcf85954aac7a54fe4fc095c",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/marine-le-pen-s-national-rally-plans-to-sanction-the-wearing-of-the-veil-with-a-fine"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "c24a6b415b3e810ee16afa31756d9d554557bc479a2e1f3595e9b78785b54c37",
+      "title": "Talking about mediation in Iran war still difficult — Kremlin",
+      "url": "https://tass.com/politics/2180091",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "BISHKEK, August 31. It is still difficult to talk about mediation in the Iran war, which will be discussed on Tuesday by Russian President Vladimir Putin and his Iranian counterpart Masoud Pezeshkian, Russian Presidential Spokesman Dmitry Peskov told Vesti. \"It is hard to say right now what kind of mediation would be applicable in the situation surrounding Iran. The situation unfolding in the Persian Gulf around Iran will be discussed tomorrow. President Pezeshkian will certainly inform Putin about what is happening,\" he said. According to Peskov, the presidents will also discuss relations between Russia and Iran. \"We remain committed to the goals and objectives of developing our partnership in a wide range of areas with the Islamic Republic of Iran. This is why a full-fledged, very substantive conversation will take place,\" he added.",
+      "published_at": "2026-08-31T20:02:25+00:00",
+      "updated_at": "2026-08-31T20:02:25+00:00",
+      "effective_at": "2026-08-31T20:02:25+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "bishkek",
+        "dmitry",
+        "gulf",
+        "iran",
+        "islamic",
+        "masoud",
+        "persian",
+        "peskov",
+        "pezeshkian",
+        "presidential",
+        "putin",
+        "republic",
+        "russia",
+        "vesti",
+        "vladimir"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "BISHKEK, August 31.",
+        "It is still difficult to talk about mediation in the Iran war, which will be discussed on Tuesday by Russian President Vladimir Putin and his Iranian counterpart Masoud Pezeshkian, Russian Presidential Spokesman Dmitry Peskov told Vesti.",
+        "\"It is hard to say right now what kind of mediation would be applicable in the situation surrounding Iran.",
+        "The situation unfolding in the Persian Gulf around Iran will be discussed tomorrow.",
+        "President Pezeshkian will certainly inform Putin about what is happening,\" he said.",
+        "According to Peskov, the presidents will also discuss relations between Russia and Iran.",
+        "\"We remain committed to the goals and objectives of developing our partnership in a wide range of areas with the Islamic Republic of Iran.",
+        "This is why a full-fledged, very substantive conversation will take place,\" he added."
+      ],
+      "event_status": "NEW",
+      "event_id": "bfab3fa7b65140d1a042e09a",
+      "importance_score": 49.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 10,
+        "novelty": 10,
+        "scope": "MULTI_COUNTRY",
+        "scope_points": 7,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8
+        }
+      },
+      "story_id": "c24a6b415b3e810ee16afa31756d9d554557bc479a2e1f3595e9b78785b54c37",
+      "public_label": "📰 NEWS",
+      "headline": "Talking about mediation in Iran war still difficult — Kremlin",
+      "briefing": {
+        "opening": [
+          "BISHKEK, August 31.",
+          "It is still difficult to talk about mediation in the Iran war, which will be discussed on Tuesday by Russian President Vladimir Putin and his Iranian counterpart Masoud Pezeshkian, Russian Presidential Spokesman Dmitry Peskov told Vesti."
+        ],
+        "body": [
+          "\"It is hard to say right now what kind of mediation would be applicable in the situation surrounding Iran.",
+          "The situation unfolding in the Persian Gulf around Iran will be discussed tomorrow.",
+          "President Pezeshkian will certainly inform Putin about what is happening,\" he said.",
+          "According to Peskov, the presidents will also discuss relations between Russia and Iran.",
+          "\"We remain committed to the goals and objectives of developing our partnership in a wide range of areas with the Islamic Republic of Iran.",
+          "This is why a full-fledged, very substantive conversation will take place,\" he added."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Iran"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "According to Peskov, the presidents will also discuss relations between Russia and Iran.",
+            "source": "TASS English",
+            "item_id": "c24a6b415b3e810ee16afa31756d9d554557bc479a2e1f3595e9b78785b54c37:article",
+            "composed": false
+          },
+          {
+            "text": "The situation unfolding in the Persian Gulf around Iran will be discussed tomorrow.",
+            "source": "TASS English",
+            "item_id": "c24a6b415b3e810ee16afa31756d9d554557bc479a2e1f3595e9b78785b54c37:article",
+            "composed": false
+          },
+          {
+            "text": "It is still difficult to talk about mediation in the Iran war, which will be discussed on Tuesday by Russian President Vladimir Putin and his Iranian counterpart Masoud Pezeshkian, Russian Presidential Spokesman Dmitry Peskov told Vesti.",
+            "source": "TASS English",
+            "item_id": "c24a6b415b3e810ee16afa31756d9d554557bc479a2e1f3595e9b78785b54c37:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/politics/2180091"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    }
+  ]
 }
