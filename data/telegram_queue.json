@@ -1,45 +1,160 @@
 {
-  "generated_at": "2026-08-31T07:01:15.978707+00:00",
-  "count": 2,
+  "generated_at": "2026-08-31T07:10:44.724588+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "ee3c78821dd885384b689734fa0f96dc2a97d9b46c5a72e27b171adc1f68a353",
-      "title": "Kazakhstan’s parliament votes to reappoint Bektenov as prime minister",
-      "url": "https://tass.com/world/2179693",
-      "source": "TASS English",
+      "id": "a92e500ac6672f3fa771b78800bb2af88e6c0ca5ba53ac7fc4ee025831e3cec6",
+      "title": "Indonesia-US joint military drills with allies kick off with 4,700 soldiers",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365815/indonesia-us-joint-military-drills-allies-kick-4700-soldiers?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Oljas Bektenov’s candidacy, proposed by President Kassym-Jomart Tokayev, was supported by 137 of the 145 deputies present",
-      "published_at": "2026-08-31T06:59:12+00:00",
-      "updated_at": "2026-08-31T06:59:12+00:00",
-      "effective_at": "2026-08-31T06:59:12+00:00",
+      "summary": "Indonesia, the United States and more than a dozen allies launched annual joint military exercises on Monday to boost defence capabilities and “deter aggression” in the Asia-Pacific region. Jakarta maintains a neutral foreign policy, what it calls “free and active”, as it walks a diplomatic tightrope seeking good relations with both Washington and Beijing. The Southeast Asian giant held a joint navy drill with China this month that was blasted by Taiwan as a “provocation”. Indonesia, the US and...",
+      "published_at": "2026-08-31T07:01:10+00:00",
+      "updated_at": "2026-08-31T07:01:10+00:00",
+      "effective_at": "2026-08-31T07:01:10+00:00",
+      "language_status": "ENGLISH",
+      "category": "conflict",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "asia-pacific",
+        "asian",
+        "china",
+        "indonesia",
+        "southeast",
+        "taiwan",
+        "united_states",
+        "us"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 1,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "77c4e0f8e73a1d4ad32dd7dd",
+      "importance_score": 83.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 32,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 3,
+        "significance": 20,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 4700,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "geopolitical": 4,
+          "human": 12
+        }
+      },
+      "story_id": "a92e500ac6672f3fa771b78800bb2af88e6c0ca5ba53ac7fc4ee025831e3cec6",
+      "public_label": "📰 NEWS",
+      "headline": "Indonesia-US joint military drills with allies kick off with 4,700 soldiers",
+      "briefing": {
+        "opening": [
+          "Indonesia, the United States and more than a dozen allies launched annual joint military exercises on Monday to boost defence capabilities and “deter aggression” in the Asia-Pacific region.",
+          "Jakarta maintains a neutral foreign policy, what it calls “free and active”, as it walks a diplomatic tightrope seeking good relations with both Washington and Beijing."
+        ],
+        "body": [
+          "The Southeast Asian giant held a joint navy drill with China this month that was blasted by Taiwan as a “provocation”.",
+          "Indonesia, the US and..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Jakarta maintains a neutral foreign policy, what it calls “free and active”, as it walks a diplomatic tightrope seeking good relations with both Washington and Beijing.",
+            "source": "South China Morning Post",
+            "item_id": "a92e500ac6672f3fa771b78800bb2af88e6c0ca5ba53ac7fc4ee025831e3cec6",
+            "composed": false
+          },
+          {
+            "text": "The Southeast Asian giant held a joint navy drill with China this month that was blasted by Taiwan as a “provocation”.",
+            "source": "South China Morning Post",
+            "item_id": "a92e500ac6672f3fa771b78800bb2af88e6c0ca5ba53ac7fc4ee025831e3cec6",
+            "composed": false
+          },
+          {
+            "text": "Indonesia, the United States and more than a dozen allies launched annual joint military exercises on Monday to boost defence capabilities and “deter aggression” in the Asia-Pacific region.",
+            "source": "South China Morning Post",
+            "item_id": "a92e500ac6672f3fa771b78800bb2af88e6c0ca5ba53ac7fc4ee025831e3cec6",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365815/indonesia-us-joint-military-drills-allies-kick-4700-soldiers?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "8e0b1b556a6759969891da9655fe48f9dc222cdd63614a24bc67bca25b18ef5c",
+      "title": "Vance to address Republican Jewish Coalition as activists raise concerns over anti-Semitism",
+      "url": "https://www.france24.com/en/americas/20260831-vance-to-address-republican-jewish-coalition-as-activists-raise-concerns-over-anti-semitism",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "US Vice President JD Vance will make a private address on Monday at the annual gathering of the Republican Jewish Coalition, a collection of conservative Jewish activists. Vance's more equivocal stance on Israel has been criticised by some pro-Israel figures within the conservative movement, who have also raised concerns over his refusal to distance himself from commentators such as Tucker Carlson, who have given a platform to far-right anti-Semitic figures.",
+      "published_at": "2026-08-31T07:05:23+00:00",
+      "updated_at": "2026-08-31T07:05:23+00:00",
+      "effective_at": "2026-08-31T07:05:23+00:00",
       "language_status": "ENGLISH",
       "category": "politics",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "geopolitics",
       "subsector": "politics",
-      "subregion": "Central Asia",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "bektenov",
-        "kassym-jomart",
-        "oljas",
-        "tokayev"
+        "carlson",
+        "coalition",
+        "israel",
+        "jd",
+        "jewish",
+        "republican",
+        "tucker",
+        "us",
+        "vance"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "1f54eed25f54a45d309ae032",
+      "event_id": "4725a4202d39a4b8654ae2a6",
       "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -66,86 +181,63 @@
           "geopolitical": 4
         }
       },
-      "story_id": "ee3c78821dd885384b689734fa0f96dc2a97d9b46c5a72e27b171adc1f68a353",
-      "article_sentences": [
-        "ASTANA, August 31.",
-        "Members of Kazakhstan’s new unicameral parliament, the Kurultai, have voted to reappoint Oljas Bektenov as the country's prime minister.",
-        "Bektenov’s candidacy, proposed by President Kassym-Jomart Tokayev, was supported by 137 of the 145 deputies present.",
-        "The 45·year·old Bektenov has led the government since February 2024.",
-        "Over the years, he has served as head of Kazakhstan’s Presidential Administration and chairman of the Anti·Corruption Agency.",
-        "On August 28, the president signed a decree instructing the outgoing government to continue carrying out its duties until a new cabinet is approved."
-      ],
+      "story_id": "8e0b1b556a6759969891da9655fe48f9dc222cdd63614a24bc67bca25b18ef5c",
       "public_label": "📰 NEWS",
-      "headline": "Kazakhstan’s parliament votes to reappoint Bektenov as prime minister",
+      "headline": "Vance to address Republican Jewish Coalition as activists raise concerns over anti-Semitism",
       "briefing": {
         "opening": [
-          "ASTANA, August 31.",
-          "Members of Kazakhstan’s new unicameral parliament, the Kurultai, have voted to reappoint Oljas Bektenov as the country's prime minister."
+          "US Vice President JD Vance will make a private address on Monday at the annual gathering of the Republican Jewish Coalition, a collection of conservative Jewish activists.",
+          "Vance's more equivocal stance on Israel has been criticised by some pro-Israel figures within the conservative movement, who have also raised concerns over his refusal to distance himself from commentators such as Tucker Carlson, who have given a platform to far-right anti-Semitic figures."
         ],
-        "body": [
-          "Bektenov’s candidacy, proposed by President Kassym-Jomart Tokayev, was supported by 137 of the 145 deputies present.",
-          "The 45·year·old Bektenov has led the government since February 2024.",
-          "Over the years, he has served as head of Kazakhstan’s Presidential Administration and chairman of the Anti·Corruption Agency.",
-          "On August 28, the president signed a decree instructing the outgoing government to continue carrying out its duties until a new cabinet is approved."
-        ],
+        "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "Members of Kazakhstan’s new unicameral parliament, the Kurultai, have voted to reappoint Oljas Bektenov as the country's prime minister.",
-            "source": "TASS English",
-            "item_id": "ee3c78821dd885384b689734fa0f96dc2a97d9b46c5a72e27b171adc1f68a353:article",
+            "text": "Vance's more equivocal stance on Israel has been criticised by some pro-Israel figures within the conservative movement, who have also raised concerns over his refusal to distance himself from commentators such as Tucker Carlson, who have given a platform to far-right anti-Semitic figures.",
+            "source": "France 24",
+            "item_id": "8e0b1b556a6759969891da9655fe48f9dc222cdd63614a24bc67bca25b18ef5c",
             "composed": false
           },
           {
-            "text": "Bektenov’s candidacy, proposed by President Kassym-Jomart Tokayev, was supported by 137 of the 145 deputies present.",
-            "source": "TASS English",
-            "item_id": "ee3c78821dd885384b689734fa0f96dc2a97d9b46c5a72e27b171adc1f68a353:article",
-            "composed": false
-          },
-          {
-            "text": "Bektenov has led the government since February 2024.",
-            "source": "TASS English",
-            "item_id": "ee3c78821dd885384b689734fa0f96dc2a97d9b46c5a72e27b171adc1f68a353:article",
+            "text": "US Vice President JD Vance will make a private address on Monday at the annual gathering of the Republican Jewish Coalition, a collection of conservative Jewish activists.",
+            "source": "France 24",
+            "item_id": "8e0b1b556a6759969891da9655fe48f9dc222cdd63614a24bc67bca25b18ef5c",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://tass.com/world/2179693"
+        "url": "https://www.france24.com/en/americas/20260831-vance-to-address-republican-jewish-coalition-as-activists-raise-concerns-over-anti-semitism"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "3af3aa1edc9fcbc185ad7725f611355743885d58a5f0cbc0f109ff0d621da929",
-      "title": "US sole factor destabilizing Strait of Hormuz — Iranian Foreign Ministry",
-      "url": "https://tass.com/world/2179687",
+      "id": "b8441292b08c6252b0a1ba3cf811d19ffcf5b6a8ebb3a30bca05465c08035fe7",
+      "title": "Arkhangelsk to host Russian North's culture festival",
+      "url": "https://tass.com/economy/2179703",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Europe",
       "discovery": false,
-      "summary": "The Iranian Foreign Ministry added it will respond to all US actions with \"a crushing blow\"",
-      "published_at": "2026-08-31T06:50:40+00:00",
-      "updated_at": "2026-08-31T06:50:40+00:00",
-      "effective_at": "2026-08-31T06:50:40+00:00",
+      "summary": "The program features musical, theater performances, master classes, traditional practices, and other events",
+      "published_at": "2026-08-31T07:06:06+00:00",
+      "updated_at": "2026-08-31T07:06:06+00:00",
+      "effective_at": "2026-08-31T07:06:06+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "shipping",
-      "subregion": "United States",
+      "sector": "culture",
+      "subsector": "culture",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "foreign",
-        "hormuz",
-        "iran",
-        "ministry",
-        "strait",
-        "us"
+        "north",
+        "russia"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -155,7 +247,7 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "19084d99894b772facb8ede6",
+      "event_id": "0d519990fa2f7082c220a38f",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -180,66 +272,74 @@
         },
         "significance_dims": {}
       },
-      "story_id": "3af3aa1edc9fcbc185ad7725f611355743885d58a5f0cbc0f109ff0d621da929",
+      "story_id": "b8441292b08c6252b0a1ba3cf811d19ffcf5b6a8ebb3a30bca05465c08035fe7",
       "article_sentences": [
-        "TEHRAN, August 31.",
-        "US actions in the Middle East remain the sole factor destabilizing the situation around the Strait of Hormuz, the Iranian Foreign Ministry said.",
-        "\"The Islamic Republic of Iran recalls <...> that the sole factor provoking instability in the region’s waterways is the illegal actions of the United States and the Zionist regime, which began on February 28,\" the ministry said in a statement.",
-        "The Iranian Foreign Ministry added it will respond to all US actions with \"a crushing blow.\"",
-        "Earlier, Axios correspondent and Channel 12 Israeli television reporter Barak Ravid reported that US forces had struck two Iranian launchers on Larak Island in southern Iran.",
-        "According to his source, Iran allegedly intended to use the systems to launch rockets with sea mines into the Strait of Hormuz.",
-        "Iran retaliated with strikes targeting US bases in Jordan."
+        "ARKHANGELSK, August 31.",
+        "Arkhangelsk will host in early September the Ladom da Beregom (Jointly Along Coast) Festival of the Russian North's traditional culture, the regional governor's center of Together.",
+        "We Are Stronger project told TASS.",
+        "Classical northern crafts, songs, dances, cuisine and theater will be presented at the festival.",
+        "\"On September 5 and 6, the Jointly Along Coast festival of traditional culture will be held at the Estate of Merchant Makarov in Arkhangelsk,\" the center said.",
+        "\"The two-day festival invites visitors to learn about traditional culture through music, folk practices, crafts, theater and joint creativity.\"",
+        "The project is supported by the Presidential Foundation for Cultural Initiatives.",
+        "The event will be part of the project Jointly Along Coast Folklore Practices, which creates a space where people learn about the traditional culture of the Russian North.",
+        "The tradition is not just an object of study, as it becomes part of live communication: the participants will be invited to sing, dance, practice crafts, listen to performers and master traditional forms of interaction.",
+        "The festival program features musical performances, theatrical performances, master classes, traditional practices and other events.",
+        "The key events include a performance by the Rasskaz (Story) men's ensemble, performing folk songs and instrumental music from different regions of Russia, a concert by Pritop Tritona, a performance by the Panov Theater, as well as a traditional meal and an evening party.",
+        "Professional performers, craftsmen, researchers will participate in the festival."
       ],
       "public_label": "📰 NEWS",
-      "headline": "US sole factor destabilizing Strait of Hormuz — Iranian Foreign Ministry",
+      "headline": "Arkhangelsk to host Russian North's culture festival",
       "briefing": {
         "opening": [
-          "TEHRAN, August 31.",
-          "US actions in the Middle East remain the sole factor destabilizing the situation around the Strait of Hormuz, the Iranian Foreign Ministry said."
+          "ARKHANGELSK, August 31.",
+          "Arkhangelsk will host in early September the Ladom da Beregom (Jointly Along Coast) Festival of the Russian North's traditional culture, the regional governor's center of Together."
         ],
         "body": [
-          "\"The Islamic Republic of Iran recalls <...> that the sole factor provoking instability in the region’s waterways is the illegal actions of the United States and the Zionist regime, which began on February 28,\" the ministry said in a statement.",
-          "The Iranian Foreign Ministry added it will respond to all US actions with \"a crushing blow.\" Earlier, Axios correspondent and Channel 12 Israeli television reporter Barak Ravid reported that US forces had struck two Iranian launchers on Larak Island in southern Iran.",
-          "According to his source, Iran allegedly intended to use the systems to launch rockets with sea mines into the Strait of Hormuz.",
-          "Iran retaliated with strikes targeting US bases in Jordan.",
-          "The Iranian Foreign Ministry added it will respond to all US actions with \"a crushing blow\"."
+          "We Are Stronger project told TASS.",
+          "Classical northern crafts, songs, dances, cuisine and theater will be presented at the festival.",
+          "\"On September 5 and 6, the Jointly Along Coast festival of traditional culture will be held at the Estate of Merchant Makarov in Arkhangelsk,\" the center said.",
+          "\"The two-day festival invites visitors to learn about traditional culture through music, folk practices, crafts, theater and joint creativity.\" The project is supported by the Presidential Foundation for Cultural Initiatives.",
+          "The event will be part of the project Jointly Along Coast Folklore Practices, which creates a space where people learn about the traditional culture of the Russian North.",
+          "The tradition is not just an object of study, as it becomes part of live communication: the participants will be invited to sing, dance, practice crafts, listen to performers and master traditional forms of interaction.",
+          "The festival program features musical performances, theatrical performances, master classes, traditional practices and other events.",
+          "The key events include a performance by the Rasskaz (Story) men's ensemble, performing folk songs and instrumental music from different regions of Russia, a concert by Pritop Tritona, a performance by the Panov Theater, as well as a traditional meal and an evening party."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Jordan"
+            "text": "Arkhangelsk"
           }
         ],
         "sentences": [
           {
-            "text": "TEHRAN, August 31.",
+            "text": "The project is supported by the Presidential Foundation for Cultural Initiatives.",
             "source": "TASS English",
-            "item_id": "3af3aa1edc9fcbc185ad7725f611355743885d58a5f0cbc0f109ff0d621da929:article",
+            "item_id": "b8441292b08c6252b0a1ba3cf811d19ffcf5b6a8ebb3a30bca05465c08035fe7:article",
             "composed": false
           },
           {
-            "text": "\"The Islamic Republic of Iran recalls <...> that the sole factor provoking instability in the region’s waterways is the illegal actions of the United States and the Zionist regime, which began on February 28,\" the ministry said in a statement.",
+            "text": "\"On September 5 and 6, the Jointly Along Coast festival of traditional culture will be held at the Estate of Merchant Makarov in Arkhangelsk,\" the center said.",
             "source": "TASS English",
-            "item_id": "3af3aa1edc9fcbc185ad7725f611355743885d58a5f0cbc0f109ff0d621da929:article",
+            "item_id": "b8441292b08c6252b0a1ba3cf811d19ffcf5b6a8ebb3a30bca05465c08035fe7:article",
             "composed": false
           },
           {
-            "text": "Earlier, Axios correspondent and Channel 12 Israeli television reporter Barak Ravid reported that US forces had struck two Iranian launchers on Larak Island in southern Iran.",
+            "text": "ARKHANGELSK, August 31.",
             "source": "TASS English",
-            "item_id": "3af3aa1edc9fcbc185ad7725f611355743885d58a5f0cbc0f109ff0d621da929:article",
+            "item_id": "b8441292b08c6252b0a1ba3cf811d19ffcf5b6a8ebb3a30bca05465c08035fe7:article",
             "composed": false
           },
           {
-            "text": "Iran retaliated with strikes targeting US bases in Jordan.",
+            "text": "Arkhangelsk will host in early September the Ladom da Beregom (Jointly Along Coast) Festival of the Russian North's traditional culture, the regional governor's center of Together.",
             "source": "TASS English",
-            "item_id": "3af3aa1edc9fcbc185ad7725f611355743885d58a5f0cbc0f109ff0d621da929:article",
+            "item_id": "b8441292b08c6252b0a1ba3cf811d19ffcf5b6a8ebb3a30bca05465c08035fe7:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/world/2179687"
+        "url": "https://tass.com/economy/2179703"
       },
       "group_size": 1,
       "label": "📰 NEWS"
