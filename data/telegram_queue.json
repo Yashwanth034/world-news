@@ -1,44 +1,165 @@
 {
-  "generated_at": "2026-08-31T02:31:03.815436+00:00",
+  "generated_at": "2026-08-31T02:40:48.757055+00:00",
   "count": 2,
   "stories": [
     {
-      "id": "6b93b3894d142f8c99dba28ee71235dc43d949bba87d2567fda7accff968dcd2",
-      "title": "GS Retail fined 12.8 bln won over personal data leak of 1.66 mln customers",
-      "url": "https://en.yna.co.kr/view/AEN20260831003900315",
-      "source": "Yonhap English",
+      "id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c",
+      "title": "Nepal floods expose gaps in warning systems, China data-sharing",
+      "url": "https://www.straitstimes.com/asia/south-asia/nepal-floods-expose-gaps-in-warning-systems-china-data-sharing",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "GS Retail Co., a retail giant that operates GS25 convenience stores, has been issued a 12.8 billion-won (US$9.3 million) fine over a personal data leak that affected 1.66 million customers, the privacy watchdog said Monday. According to the Personal Information Protection Commission (PIPC), an unidentified hacker infiltrated the company's home shopping platform GS SHOP and its convenience store chain between 2024 and 2025 by repeatedly injecting a large number of pre-secured user IDs and passwords to successfully bypass login systems. Through the member information modification pages, the hacker compromised the personal data of 1.58 million GS SHOP users and 79,128 GS25 customers. The leaked information included their names, gender, dates of birth, contact numbers, home addresses and email addresses. The privacy watchdog said GS Retail failed to notice abnormal signs, such as a sharp spike in login attempts and failures from identical IP addresses within a short time frame, which allowed the unauthorized access to persist undetected over a prolonged period. The company also lacked a dedicated office for privacy protection at the time of the incident. The PIPC said it has ordered GS Retail to formulate concrete preventive measures, such as advanced security policies capable of identifying abnormal connections, and to appoint dedicated personnel for privacy protection.",
-      "published_at": "2026-08-31T02:22:01+00:00",
-      "updated_at": "2026-08-31T02:22:01+00:00",
-      "effective_at": "2026-08-31T02:22:01+00:00",
+      "summary": "Installing and maintaining weather stations at extreme altitudes is expensive and difficult.",
+      "published_at": "2026-08-31T01:10:00+00:00",
+      "updated_at": "2026-08-31T01:10:00+00:00",
+      "effective_at": "2026-08-31T01:10:00+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "law",
-      "subsector": "regulation",
-      "subregion": "East Asia",
+      "sector": "climate",
+      "subsector": "weather",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "co",
-        "commission",
-        "gs",
-        "gs25",
-        "ids",
-        "information",
-        "ip",
-        "personal",
-        "pipc",
-        "protection",
-        "retail",
-        "shop",
-        "us"
+        "china",
+        "installing"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "68a2e09fd221af92b4cb8551",
+      "importance_score": 29.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c",
+      "article_sentences": [
+        "Nepal’s recent floods killed at least 800 people and exposed major gaps in high-altitude weather monitoring and cross-border data sharing with China.",
+        "Lack of weather stations in the Himalayas and limited data sharing hinder early warnings, leaving communities with only minutes to react.",
+        "Nepal plans to improve early-warning systems and cooperation with China to better predict and prepare for future mountain disasters.",
+        "Victims of Nepal’s catastrophic floods had barely a few minutes’ warning before the waters came rushing through, highlighting gaps in high-altitude weather monitoring and data sharing with neighbouring China.",
+        "“People even didn’t get five minutes of lead time,” Dharam Raj Uprety, chief executive of Nepal’s National Disaster Risk Reduction and Management Authority (NDRRMA), told Bloomberg News in an interview.",
+        "“We don’t have weather stations in high mountain areas” because of the “lack of transboundary data-seeding mechanisms” and limited sharing of weather and climate data across national borders.",
+        "That is one of our “biggest challenges”, he said.",
+        "The devastating floods last week that killed at least 800 people and left more than 3,000 missing have exposed a dangerous blind spot in the Himalayas, Uprety said, as warming temperatures destabilise glaciers and mountain slopes faster than the authorities can build systems to monitor them.",
+        "Better forecasting and earlier warnings will not only help save lives but also go some way towards protecting critical infrastructure and limiting disruption to tourism, a vital source of jobs and foreign exchange for the Himalayan economy.",
+        "Chinese President Xi Jinping has called for faster surveys of glaciers and glacial lakes across the Tibetan Plateau to prevent further disasters, according to the official Xinhua News Agency.",
+        "The Communist Party on Aug 28 also ordered stronger monitoring and early-warning systems to improve the authorities’ ability to identify linked disaster risks.",
+        "In a statement on social media platform X, the Chinese Embassy in Nepal said China has “always made every effort, within the limits of existing technologies, to conduct monitoring, assessment and analysis and has shared important information with the Nepali side in a timely manner”."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Nepal floods expose gaps in warning systems, China data-sharing",
+      "briefing": {
+        "opening": [
+          "Nepal’s recent floods killed at least 800 people and exposed major gaps in high-altitude weather monitoring and cross-border data sharing with China.",
+          "Lack of weather stations in the Himalayas and limited data sharing hinder early warnings, leaving communities with only minutes to react."
+        ],
+        "body": [
+          "Nepal plans to improve early-warning systems and cooperation with China to better predict and prepare for future mountain disasters.",
+          "Victims of Nepal’s catastrophic floods had barely a few minutes’ warning before the waters came rushing through, highlighting gaps in high-altitude weather monitoring and data sharing with neighbouring China.",
+          "“People even didn’t get five minutes of lead time,” Dharam Raj Uprety, chief executive of Nepal’s National Disaster Risk Reduction and Management Authority (NDRRMA), told Bloomberg News in an interview.",
+          "“We don’t have weather stations in high mountain areas” because of the “lack of transboundary data-seeding mechanisms” and limited sharing of weather and climate data across national borders.",
+          "That is one of our “biggest challenges”, he said.",
+          "The devastating floods last week that killed at least 800 people and left more than 3,000 missing have exposed a dangerous blind spot in the Himalayas, Uprety said, as warming temperatures destabilise glaciers and mountain slopes faster than the authorities can build systems to monitor them.",
+          "Better forecasting and earlier warnings will not only help save lives but also go some way towards protecting critical infrastructure and limiting disruption to tourism, a vital source of jobs and foreign exchange for the Himalayan economy.",
+          "Chinese President Xi Jinping has called for faster surveys of glaciers and glacial lakes across the Tibetan Plateau to prevent further disasters, according to the official Xinhua News Agency."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 800 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The devastating floods last week that killed at least 800 people and left more than 3,000 missing have exposed a dangerous blind spot in the Himalayas, Uprety said, as warming temperatures destabilise glaciers and mountain slopes faster than the authorities can build systems to monitor them.",
+            "source": "Straits Times Asia",
+            "item_id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c:article",
+            "composed": false
+          },
+          {
+            "text": "Victims of Nepal’s catastrophic floods had barely a few minutes’ warning before the waters came rushing through, highlighting gaps in high-altitude weather monitoring and data sharing with neighbouring China.",
+            "source": "Straits Times Asia",
+            "item_id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c:article",
+            "composed": false
+          },
+          {
+            "text": "“People even didn’t get five minutes of lead time,” Dharam Raj Uprety, chief executive of Nepal’s National Disaster Risk Reduction and Management Authority (NDRRMA), told Bloomberg News in an interview.",
+            "source": "Straits Times Asia",
+            "item_id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c:article",
+            "composed": false
+          },
+          {
+            "text": "Nepal’s recent floods killed at least 800 people and exposed major gaps in high-altitude weather monitoring and cross-border data sharing with China.",
+            "source": "Straits Times Asia",
+            "item_id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/south-asia/nepal-floods-expose-gaps-in-warning-systems-china-data-sharing"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "fb374e680cebfe71bf847d8ba1e92b4a0a5843f70d8c0f614e1dbd5eda3127ca",
+      "title": "What Argentina gets right about youth soccer — and what the U.S. gets wrong",
+      "url": "https://www.npr.org/2026/08/30/nx-s1-5924666/what-argentina-gets-right-about-youth-soccer-and-what-the-u-s-gets-wrong",
+      "source": "NPR World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "South America",
+      "discovery": false,
+      "summary": "Argentina has produced some of the world's greatest soccer players. Could its youth system offer lessons for the United States?",
+      "published_at": "2026-08-31T02:27:49+00:00",
+      "updated_at": "2026-08-31T02:27:49+00:00",
+      "effective_at": "2026-08-31T02:27:49+00:00",
+      "language_status": "ENGLISH",
+      "category": "sports",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "sports",
+      "subsector": "sports",
+      "subregion": "South America",
+      "country": null,
+      "entities": [
+        "argentina",
+        "united_states"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -47,28 +168,19 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "GS Retail Co., a retail giant that operates GS25 convenience stores, has been issued a 12.8 billion-won (US$9.3 million) fine over a personal data leak that affected 1.66 million customers, the privacy watchdog said Monday.",
-        "According to the Personal Information Protection Commission (PIPC), an unidentified hacker infiltrated the company's home shopping platform GS SHOP and its convenience store chain between 2024 and 2025 by repeatedly injecting a large number of pre-secured user IDs and passwords to successfully bypass login systems.",
-        "Through the member information modification pages, the hacker compromised the personal data of 1.58 million GS SHOP users and 79,128 GS25 customers.",
-        "The leaked information included their names, gender, dates of birth, contact numbers, home addresses and email addresses.",
-        "The privacy watchdog said GS Retail failed to notice abnormal signs, such as a sharp spike in login attempts and failures from identical IP addresses within a short time frame, which allowed the unauthorized access to persist undetected over a prolonged period.",
-        "The company also lacked a dedicated office for privacy protection at the time of the incident.",
-        "The PIPC said it has ordered GS Retail to formulate concrete preventive measures, such as advanced security policies capable of identifying abnormal connections, and to appoint dedicated personnel for privacy protection."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "53d17fe4c579c9133b01d966",
-      "importance_score": 41.0,
+      "event_status": "NEW",
+      "event_id": "32e29c81aa73cb1bb20d2abc",
+      "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 12,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -80,202 +192,38 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "scientific": 8,
-          "economic": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "6b93b3894d142f8c99dba28ee71235dc43d949bba87d2567fda7accff968dcd2",
-      "public_label": "🔄 UPDATE",
-      "headline": "GS Retail fined 12.8 bln won over personal data leak of 1.66 mln customers",
+      "story_id": "fb374e680cebfe71bf847d8ba1e92b4a0a5843f70d8c0f614e1dbd5eda3127ca",
+      "public_label": "📰 NEWS",
+      "headline": "What Argentina gets right about youth soccer — and what the U.S. gets wrong",
       "briefing": {
         "opening": [
-          "GS Retail Co., a retail giant that operates GS25 convenience stores, has been issued a 12.8 billion-won (US$9.3 million) fine over a personal data leak that affected 1.66 million customers, the privacy watchdog said Monday.",
-          "According to the Personal Information Protection Commission (PIPC), an unidentified hacker infiltrated the company's home shopping platform GS SHOP and its convenience store chain between 2024 and 2025 by repeatedly injecting a large number of pre-secured user IDs and passwords to successfully bypass login systems."
+          "Argentina has produced some of the world's greatest soccer players.",
+          "Could its youth system offer lessons for the United States?"
         ],
-        "body": [
-          "The leaked information included their names, gender, dates of birth, contact numbers, home addresses and email addresses.",
-          "The privacy watchdog said GS Retail failed to notice abnormal signs, such as a sharp spike in login attempts and failures from identical IP addresses within a short time frame, which allowed the unauthorized access to persist undetected over a prolonged period.",
-          "The company also lacked a dedicated office for privacy protection at the time of the incident.",
-          "The PIPC said it has ordered GS Retail to formulate concrete preventive measures, such as advanced security policies capable of identifying abnormal connections, and to appoint dedicated personnel for privacy protection."
-        ],
+        "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "The privacy watchdog said GS Retail failed to notice abnormal signs, such as a sharp spike in login attempts and failures from identical IP addresses within a short time frame, which allowed the unauthorized access to persist undetected over a prolonged period.",
-            "source": "Yonhap English",
-            "item_id": "6b93b3894d142f8c99dba28ee71235dc43d949bba87d2567fda7accff968dcd2:article",
+            "text": "Could its youth system offer lessons for the United States?",
+            "source": "NPR World",
+            "item_id": "fb374e680cebfe71bf847d8ba1e92b4a0a5843f70d8c0f614e1dbd5eda3127ca",
             "composed": false
           },
           {
-            "text": "The PIPC said it has ordered GS Retail to formulate concrete preventive measures, such as advanced security policies capable of identifying abnormal connections, and to appoint dedicated personnel for privacy protection.",
-            "source": "Yonhap English",
-            "item_id": "6b93b3894d142f8c99dba28ee71235dc43d949bba87d2567fda7accff968dcd2:article",
-            "composed": false
-          },
-          {
-            "text": "GS Retail Co., a retail giant that operates GS25 convenience stores, has been issued a 12.8 billion-won (US$9.3 million) fine over a personal data leak that affected 1.66 million customers, the privacy watchdog said Monday.",
-            "source": "Yonhap English",
-            "item_id": "6b93b3894d142f8c99dba28ee71235dc43d949bba87d2567fda7accff968dcd2:article",
-            "composed": false
-          },
-          {
-            "text": "According to the Personal Information Protection Commission (PIPC), an unidentified hacker infiltrated the company's home shopping platform GS SHOP and its convenience store chain between 2024 and 2025 by repeatedly injecting a large number of pre-secured user IDs and passwords to successfully bypass login systems.",
-            "source": "Yonhap English",
-            "item_id": "6b93b3894d142f8c99dba28ee71235dc43d949bba87d2567fda7accff968dcd2:article",
+            "text": "Argentina has produced some of the world's greatest soccer players.",
+            "source": "NPR World",
+            "item_id": "fb374e680cebfe71bf847d8ba1e92b4a0a5843f70d8c0f614e1dbd5eda3127ca",
             "composed": false
           }
         ],
-        "source": "Yonhap English",
+        "source": "NPR World",
         "corroborating": [],
-        "url": "https://en.yna.co.kr/view/AEN20260831003900315"
+        "url": "https://www.npr.org/2026/08/30/nx-s1-5924666/what-argentina-gets-right-about-youth-soccer-and-what-the-u-s-gets-wrong"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "1d4d1d363fef6c40c359ce102f14cba2fc3927f797b01c4c8d1c5adb282ffffa",
-      "title": "Tunisia swelters as power cuts disrupt water supplies",
-      "url": "https://www.aljazeera.com/news/2026/8/31/tunisia-swelters-as-power-cuts-disrupt-water-supplies?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Africa",
-      "discovery": false,
-      "summary": "Temperature nearing 50°C is driving record electricity demand, disrupting water supplies and straining health services. Tunisia is facing another spell of extreme heat, with temperatures reaching 49.8 degrees Celsius (121.6 Fahrenheit) in the central city of Kairouan on August 27. The heat has coincided with electricity cuts and water shortages in parts of the country, while doctors have warned of mounting pressure on emergency departments. The electricity and water disruptions are linked in some areas, but they have different underlying causes. How hot has it become? Kairouan reached 49.8°C on August 27, according to the Tunisian Observatory for Weather and Climate. The observatory said Kairouan was the second-hottest location among those monitored worldwide that day, behind Mehran in Iran, which reached 50°C. Six Tunisian cities were among the world’s 20 hottest monitoring stations. The reading was also close to Tunisia’s national temperature record of 50.3°C, recorded on August 11, 2021. The extreme temperatures have pushed up electricity demand as households and businesses use more air conditioning. Water demand also rises during periods of extreme heat, adding pressure to a system already facing longer-term shortages. Why is Tunisia cutting electricity?",
-      "published_at": "2026-08-31T02:11:35+00:00",
-      "updated_at": "2026-08-31T02:11:35+00:00",
-      "effective_at": "2026-08-31T02:11:35+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "energy",
-      "subregion": "North Africa",
-      "country": null,
-      "entities": [
-        "celsius",
-        "climate",
-        "fahrenheit",
-        "iran",
-        "kairouan",
-        "mehran",
-        "observatory",
-        "six",
-        "temperature",
-        "tunisia",
-        "tunisian",
-        "weather"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "Temperature nearing 50°C is driving record electricity demand, disrupting water supplies and straining health services.",
-        "Tunisia is facing another spell of extreme heat, with temperatures reaching 49.8 degrees Celsius (121.6 Fahrenheit) in the central city of Kairouan on August 27.",
-        "The heat has coincided with electricity cuts and water shortages in parts of the country, while doctors have warned of mounting pressure on emergency departments.",
-        "The electricity and water disruptions are linked in some areas, but they have different underlying causes.",
-        "How hot has it become?",
-        "Kairouan reached 49.8°C on August 27, according to the Tunisian Observatory for Weather and Climate.",
-        "The observatory said Kairouan was the second-hottest location among those monitored worldwide that day, behind Mehran in Iran, which reached 50°C.",
-        "Six Tunisian cities were among the world’s 20 hottest monitoring stations.",
-        "The reading was also close to Tunisia’s national temperature record of 50.3°C, recorded on August 11, 2021.",
-        "The extreme temperatures have pushed up electricity demand as households and businesses use more air conditioning.",
-        "Water demand also rises during periods of extreme heat, adding pressure to a system already facing longer-term shortages.",
-        "Why is Tunisia cutting electricity?"
-      ],
-      "event_status": "UPDATE",
-      "event_id": "5c753170d9d28396042a524d",
-      "importance_score": 37.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 10,
-        "novelty": 9.0,
-        "scope": "GLOBAL",
-        "scope_points": 8,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "infrastructure": 4
-        }
-      },
-      "story_id": "1d4d1d363fef6c40c359ce102f14cba2fc3927f797b01c4c8d1c5adb282ffffa",
-      "public_label": "🔄 UPDATE",
-      "headline": "Tunisia swelters as power cuts disrupt water supplies",
-      "briefing": {
-        "opening": [
-          "Temperature nearing 50°C is driving record electricity demand, disrupting water supplies and straining health services.",
-          "Tunisia is facing another spell of extreme heat, with temperatures reaching 49.8 degrees Celsius (121.6 Fahrenheit) in the central city of Kairouan on August 27."
-        ],
-        "body": [
-          "The heat has coincided with electricity cuts and water shortages in parts of the country, while doctors have warned of mounting pressure on emergency departments.",
-          "The electricity and water disruptions are linked in some areas, but they have different underlying causes.",
-          "How hot has it become?",
-          "Kairouan reached 49.8°C on August 27, according to the Tunisian Observatory for Weather and Climate.",
-          "The observatory said Kairouan was the second-hottest location among those monitored worldwide that day, behind Mehran in Iran, which reached 50°C.",
-          "Six Tunisian cities were among the world’s 20 hottest monitoring stations.",
-          "The reading was also close to Tunisia’s national temperature record of 50.3°C, recorded on August 11, 2021.",
-          "The extreme temperatures have pushed up electricity demand as households and businesses use more air conditioning."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Iran"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Tunisia is facing another spell of extreme heat, with temperatures reaching 49.8 degrees Celsius (121.6 Fahrenheit) in the central city of Kairouan on August 27.",
-            "source": "Al Jazeera",
-            "item_id": "1d4d1d363fef6c40c359ce102f14cba2fc3927f797b01c4c8d1c5adb282ffffa:article",
-            "composed": false
-          },
-          {
-            "text": "Kairouan reached 49.8°C on August 27, according to the Tunisian Observatory for Weather and Climate.",
-            "source": "Al Jazeera",
-            "item_id": "1d4d1d363fef6c40c359ce102f14cba2fc3927f797b01c4c8d1c5adb282ffffa:article",
-            "composed": false
-          },
-          {
-            "text": "The reading was also close to Tunisia’s national temperature record of 50.3°C, recorded on August 11, 2021.",
-            "source": "Al Jazeera",
-            "item_id": "1d4d1d363fef6c40c359ce102f14cba2fc3927f797b01c4c8d1c5adb282ffffa:article",
-            "composed": false
-          },
-          {
-            "text": "The observatory said Kairouan was the second-hottest location among those monitored worldwide that day, behind Mehran in Iran, which reached 50°C.",
-            "source": "Al Jazeera",
-            "item_id": "1d4d1d363fef6c40c359ce102f14cba2fc3927f797b01c4c8d1c5adb282ffffa:article",
-            "composed": false
-          }
-        ],
-        "source": "Al Jazeera",
-        "corroborating": [],
-        "url": "https://www.aljazeera.com/news/2026/8/31/tunisia-swelters-as-power-cuts-disrupt-water-supplies?traffic_source=rss"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     }
   ]
 }
