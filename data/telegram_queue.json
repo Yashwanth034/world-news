@@ -1,58 +1,65 @@
 {
-  "generated_at": "2026-08-31T12:20:44.842624+00:00",
-  "count": 2,
+  "generated_at": "2026-08-31T12:31:01.606709+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "1a02f049c83c5864f866c7cf3ee32fa083934b5b104c73bc73442b4e897eb1ee",
-      "title": "Iraq rejects proposal to keep coalition forces beyond September 30 deadline",
-      "url": "https://tass.com/world/2179851",
-      "source": "TASS English",
+      "id": "bad8f82e008104852b0dc7c6a5febce1ee9a74af3fc6260bed53f32691885bb2",
+      "title": "India must uphold water-sharing treaty with Pakistan, international court says",
+      "url": "https://www.straitstimes.com/asia/india-must-uphold-water-sharing-treaty-with-pakistan-international-court-says",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Government spokesman Haider al-Aboudi said did not specify which country put forward the proposal",
-      "published_at": "2026-08-31T12:16:23+00:00",
-      "updated_at": "2026-08-31T12:16:23+00:00",
-      "effective_at": "2026-08-31T12:16:23+00:00",
+      "summary": "AMSTERDAM, Aug 31 - India must uphold a water-sharing treaty with Pakistan it suspended amid bilateral tensions and must limit work on an hydroelectric plant it is building in the Kashmir region, the Permanent Court of Arbitration in the Hague said on Monday.",
+      "published_at": "2026-08-31T12:25:48+00:00",
+      "updated_at": "2026-08-31T12:25:48+00:00",
+      "effective_at": "2026-08-31T12:25:48+00:00",
       "language_status": "ENGLISH",
       "category": "politics",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "West Asia / Middle East",
+      "subsector": "diplomacy",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "government",
-        "haider"
+        "amsterdam",
+        "arbitration",
+        "aug",
+        "court",
+        "hague",
+        "india",
+        "kashmir",
+        "pakistan",
+        "permanent"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "185a19123afdb348be593923",
-      "importance_score": 56.0,
+      "event_status": "UPDATE",
+      "event_id": "cab5de146cb914a494af6b76",
+      "importance_score": 60.0,
       "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 16.0,
         "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "novelty": 8.0,
+        "scope": "MULTI_COUNTRY",
+        "scope_points": 7,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 12,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 30,
+          "dead": 14,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -61,98 +68,126 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4,
+          "geopolitical": 8,
           "human": 8
         }
       },
-      "story_id": "1a02f049c83c5864f866c7cf3ee32fa083934b5b104c73bc73442b4e897eb1ee",
+      "story_id": "bad8f82e008104852b0dc7c6a5febce1ee9a74af3fc6260bed53f32691885bb2",
       "article_sentences": [
-        "RABAT, August 31.",
-        "Iraq does not want the US-led international coalition’s forces to remain on its territory after September 30, the date set by the country’s authorities as the deadline for the complete withdrawal of foreign troops, government spokesman Haider al-Aboudi said.",
-        "\"[Iraqi] Prime Minister Ali al-Zaidi turned down proposals to keep part of the international coalition forces in the country after September 30,\" he said.",
-        "He did not specify however which country put forward the proposal.",
-        "Al-Zaidi announced in early July that the international coalition contingent would round up its mission in Iraq on September 30, 2026.",
-        "\"The Iraqi forces are already capable of defending the homeland,\" he stressed back then."
+        "India must uphold a water-sharing treaty with Pakistan it suspended amid bilateral tensions and must limit work on an hydroelectric plant it is building in the Kashmir region, the Permanent Court of Arbitration in the Hague said on Monday.",
+        "India in April last year suspended the treaty that ensures water supply to 80% of Pakistani farms, after India identified as Pakistani two of three assailants in an attack that killed 26 people at a tourist destination in Kashmir that month.",
+        "Islamabad denied any role in the attack and took legal action after India last year also began work to boost reservoir holding capacity at two hydroelectric projects in the Kashmir region.",
+        "This was seen as a first tangible step by India to operate outside agreements covered by the Indus Waters Treaty between the two countries, which both have honoured since 1960 despite three wars and several other conflicts between them.",
+        "The Permanent Court of Arbitration said the Indus Water Treaty remained fully in force, as India had no justification for ending or suspending the agreement.",
+        "\"India must observe its obligations under the Treaty, including those relating to the design and operation of its hydro-electric projects on the Western Rivers,\" the intergovernmental court said.",
+        "India, which is officially a member of the court, said it did not recognise the court and \"categorically\" rejected the verdict.",
+        "\"This so-called Court of Arbitration has no jurisdiction whatsoever to pronounce on India's sovereign decisions,\" India's Ministry of Foreign Affairs said in a statement.",
+        "\"Its pronouncements, now or in the future, will have no effect on India's actions in connection with the projects being undertaken by India.\"",
+        "The court said a neutral expert, appointed by the World Bank, would judge by July 2027 whether the construction of hydroelectric plants in the Himalayan region was in line with the treaty."
       ],
-      "public_label": "📰 NEWS",
-      "headline": "Iraq rejects proposal to keep coalition forces beyond September 30 deadline",
+      "public_label": "🔄 UPDATE",
+      "headline": "India must uphold water-sharing treaty with Pakistan, international court says",
       "briefing": {
         "opening": [
-          "RABAT, August 31.",
-          "Iraq does not want the US-led international coalition’s forces to remain on its territory after September 30, the date set by the country’s authorities as the deadline for the complete withdrawal of foreign troops, government spokesman Haider al-Aboudi said."
+          "India must uphold a water-sharing treaty with Pakistan it suspended amid bilateral tensions and must limit work on an hydroelectric plant it is building in the Kashmir region, the Permanent Court of Arbitration in the Hague said on Monday.",
+          "India in April last year suspended the treaty that ensures water supply to 80% of Pakistani farms, after India identified as Pakistani two of three assailants in an attack that killed 26 people at a tourist destination in Kashmir that month."
         ],
         "body": [
-          "\"[Iraqi] Prime Minister Ali al-Zaidi turned down proposals to keep part of the international coalition forces in the country after September 30,\" he said.",
-          "He did not specify however which country put forward the proposal.",
-          "Al-Zaidi announced in early July that the international coalition contingent would round up its mission in Iraq on September 30, 2026.",
-          "\"The Iraqi forces are already capable of defending the homeland,\" he stressed back then.",
-          "Government spokesman Haider al-Aboudi said did not specify which country put forward the proposal."
+          "Islamabad denied any role in the attack and took legal action after India last year also began work to boost reservoir holding capacity at two hydroelectric projects in the Kashmir region.",
+          "This was seen as a first tangible step by India to operate outside agreements covered by the Indus Waters Treaty between the two countries, which both have honoured since 1960 despite three wars and several other conflicts between them.",
+          "The Permanent Court of Arbitration said the Indus Water Treaty remained fully in force, as India had no justification for ending or suspending the agreement.",
+          "\"India must observe its obligations under the Treaty, including those relating to the design and operation of its hydro-electric projects on the Western Rivers,\" the intergovernmental court said.",
+          "India, which is officially a member of the court, said it did not recognise the court and \"categorically\" rejected the verdict.",
+          "\"This so-called Court of Arbitration has no jurisdiction whatsoever to pronounce on India's sovereign decisions,\" India's Ministry of Foreign Affairs said in a statement.",
+          "\"Its pronouncements, now or in the future, will have no effect on India's actions in connection with the projects being undertaken by India.\" The court said a neutral expert, appointed by the World Bank, would judge by July 2027 whether the construction of hydroelectric plants in the Himalayan region was in line with the treaty."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Iraq"
+            "text": "April"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "26 people"
           }
         ],
         "sentences": [
           {
-            "text": "Al-Zaidi announced in early July that the international coalition contingent would round up its mission in Iraq on September 30, 2026.",
-            "source": "TASS English",
-            "item_id": "1a02f049c83c5864f866c7cf3ee32fa083934b5b104c73bc73442b4e897eb1ee:article",
+            "text": "India in April last year suspended the treaty that ensures water supply to 80% of Pakistani farms, after India identified as Pakistani two of three assailants in an attack that killed 26 people at a tourist destination in Kashmir that month.",
+            "source": "Straits Times Asia",
+            "item_id": "bad8f82e008104852b0dc7c6a5febce1ee9a74af3fc6260bed53f32691885bb2:article",
             "composed": false
           },
           {
-            "text": "\"[Iraqi] Prime Minister Ali al-Zaidi turned down proposals to keep part of the international coalition forces in the country after September 30,\" he said.",
-            "source": "TASS English",
-            "item_id": "1a02f049c83c5864f866c7cf3ee32fa083934b5b104c73bc73442b4e897eb1ee:article",
+            "text": "The court said a neutral expert, appointed by the World Bank, would judge by July 2027 whether the construction of hydroelectric plants in the Himalayan region was in line with the treaty.",
+            "source": "Straits Times Asia",
+            "item_id": "bad8f82e008104852b0dc7c6a5febce1ee9a74af3fc6260bed53f32691885bb2:article",
+            "composed": false
+          },
+          {
+            "text": "This was seen as a first tangible step by India to operate outside agreements covered by the Indus Waters Treaty between the two countries, which both have honoured since 1960 despite three wars and several other conflicts between them.",
+            "source": "Straits Times Asia",
+            "item_id": "bad8f82e008104852b0dc7c6a5febce1ee9a74af3fc6260bed53f32691885bb2:article",
+            "composed": false
+          },
+          {
+            "text": "India must uphold a water-sharing treaty with Pakistan it suspended amid bilateral tensions and must limit work on an hydroelectric plant it is building in the Kashmir region, the Permanent Court of Arbitration in the Hague said on Monday.",
+            "source": "Straits Times Asia",
+            "item_id": "bad8f82e008104852b0dc7c6a5febce1ee9a74af3fc6260bed53f32691885bb2:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://tass.com/world/2179851"
+        "url": "https://www.straitstimes.com/asia/india-must-uphold-water-sharing-treaty-with-pakistan-international-court-says"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "f232b0952c75e8a845f2b2d69ad9894e7245aaaa8d80af6052fa224e91245350",
-      "title": "Kiev using ‘human shield’ to protect military-industrial complex — expert",
-      "url": "https://tass.com/world/2179855",
-      "source": "TASS English",
+      "id": "56d1a7dfd4ac03cd5fd1985688fdc1a049aa5e4094aa355d11fcbd927b96a028",
+      "title": "Israel and Greece sign US$3.5 billion defence deal, largest ever between the 2",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3365876/israel-and-greece-sign-us35-billion-defence-deal-largest-ever-between-two?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "The local population serves as the bargaining tool in this system, Dmitry Barov noted",
-      "published_at": "2026-08-31T12:14:19+00:00",
-      "updated_at": "2026-08-31T12:14:19+00:00",
-      "effective_at": "2026-08-31T12:14:19+00:00",
+      "summary": "Israel signed a multibillion-dollar weapons deal with Greece, the largest between the two Mediterranean countries, as Israeli defence exports soar. Israel’s Defence Ministry said on Monday the nearly €3 billion (US$3.5 billion) defence export deal, coined Achilles Shield, was one of the country’s largest and included a multilayered air defence system for Greece using Israeli technology. “Israel and Greece share common strategic interests and face shared regional challenges. At a time when actors...",
+      "published_at": "2026-08-31T12:26:28+00:00",
+      "updated_at": "2026-08-31T12:26:28+00:00",
+      "effective_at": "2026-08-31T12:26:28+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "industry",
-      "subregion": "Europe",
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "barov",
-        "dmitry",
-        "ukraine"
+        "achilles",
+        "defence",
+        "greece",
+        "israel",
+        "mediterranean",
+        "ministry",
+        "shield",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "40417063d2559cb6946151eb",
+      "event_id": "ec4827fb4d3d4e049ce3c83e",
       "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -179,63 +214,136 @@
           "security": 4
         }
       },
-      "story_id": "f232b0952c75e8a845f2b2d69ad9894e7245aaaa8d80af6052fa224e91245350",
-      "article_sentences": [
-        "DONETSK, August 31.",
-        "By locating ammunition depots in residential areas, the Ukrainian authorities are using a \"human shield\" to protect the military-industrial complex, Dmitry Barov, a military expert and the first commander of the unmanned systems units’ instructor training center in the Donetsk People’s Republic (DPR), said in an interview with TASS.",
-        "\"Essentially, for the authorities in Kiev, ‘human shields’ are the price they pay for boosting the survivability of their own military-industrial complex by dispersing and decentralizing it across civilian areas.",
-        "The local population serves as the bargaining tool in this system,\" Barov said.",
-        "He also noted that the concept of a \"human shield\" is enshrined in international law and has a clear definition: it refers to using civilians or other people protected under international law to shield military facilities from enemy attack.",
-        "\"Ukrainian lawmaker Artyom Dmitruk has already publicly stated that deploying troops in the center of Kiev is a crime and that the authorities are deliberately using local residents as ‘human shields,’\" Barov concluded.",
-        "Earlier, footage of ammunition detonating at a recreation facility in the Milaya settlement near Kiev was posted online.",
-        "Later, Vladimir Zelensky acknowledged that the Ukrainian armed forces’ ammunition depot in the Milaya settlement in the Kiev Region, where a major fire and subsequent detonation occurred, was located in a residential area."
-      ],
+      "story_id": "56d1a7dfd4ac03cd5fd1985688fdc1a049aa5e4094aa355d11fcbd927b96a028",
       "public_label": "📰 NEWS",
-      "headline": "Kiev using ‘human shield’ to protect military-industrial complex — expert",
+      "headline": "Israel and Greece sign US$3.5 billion defence deal, largest ever between the 2",
       "briefing": {
         "opening": [
-          "DONETSK, August 31.",
-          "By locating ammunition depots in residential areas, the Ukrainian authorities are using a \"human shield\" to protect the military-industrial complex, Dmitry Barov, a military expert and the first commander of the unmanned systems units’ instructor training center in the Donetsk People’s Republic (DPR), said in an interview with TASS."
+          "Israel signed a multibillion-dollar weapons deal with Greece, the largest between the two Mediterranean countries, as Israeli defence exports soar.",
+          "Israel’s Defence Ministry said on Monday the nearly €3 billion (US$3.5 billion) defence export deal, coined Achilles Shield, was one of the country’s largest and included a multilayered air defence system for Greece using Israeli technology."
         ],
         "body": [
-          "\"Essentially, for the authorities in Kiev, ‘human shields’ are the price they pay for boosting the survivability of their own military-industrial complex by dispersing and decentralizing it across civilian areas.",
-          "The local population serves as the bargaining tool in this system,\" Barov said.",
-          "He also noted that the concept of a \"human shield\" is enshrined in international law and has a clear definition: it refers to using civilians or other people protected under international law to shield military facilities from enemy attack.",
-          "\"Ukrainian lawmaker Artyom Dmitruk has already publicly stated that deploying troops in the center of Kiev is a crime and that the authorities are deliberately using local residents as ‘human shields,’\" Barov concluded.",
-          "Earlier, footage of ammunition detonating at a recreation facility in the Milaya settlement near Kiev was posted online.",
-          "Later, Vladimir Zelensky acknowledged that the Ukrainian armed forces’ ammunition depot in the Milaya settlement in the Kiev Region, where a major fire and subsequent detonation occurred, was located in a residential area.",
-          "The local population serves as the bargaining tool in this system, Dmitry Barov noted."
+          "“Israel and Greece share common strategic interests and face shared regional challenges.",
+          "At a time when actors..."
         ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Israel signed a multibillion-dollar weapons deal with Greece, the largest between the two Mediterranean countries, as Israeli defence exports soar.",
+            "source": "South China Morning Post",
+            "item_id": "56d1a7dfd4ac03cd5fd1985688fdc1a049aa5e4094aa355d11fcbd927b96a028",
+            "composed": false
+          },
+          {
+            "text": "Israel’s Defence Ministry said on Monday the nearly €3 billion (US$3.5 billion) defence export deal, coined Achilles Shield, was one of the country’s largest and included a multilayered air defence system for Greece using Israeli technology.",
+            "source": "South China Morning Post",
+            "item_id": "56d1a7dfd4ac03cd5fd1985688fdc1a049aa5e4094aa355d11fcbd927b96a028",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/world/middle-east/article/3365876/israel-and-greece-sign-us35-billion-defence-deal-largest-ever-between-two?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "985cd2af4b515cd83e38d9733173f1ece03602c4a960f9c7b528228a8ac994ea",
+      "title": "Notting Hill Carnival kicks off in a burst of colour and Caribbean tradition",
+      "url": "http://www.africanews.com/2026/08/31/notting-hill-carnival-kicks-off-in-a-burst-of-colour-and-caribbean-tradition/",
+      "source": "Africanews English",
+      "source_category": "africa",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "London’s Notting Hill Carnival got underway on Sunday with revellers covered in oil and paint as the annual celebration of Caribbean culture and music returned to the British capital. The three-day event is marking its 60th anniversary and is expected to draw millions of visitors.",
+      "published_at": "2026-08-31T12:01:39+00:00",
+      "updated_at": "2026-08-31T12:01:39+00:00",
+      "effective_at": "2026-08-31T12:01:39+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "culture",
+      "subsector": "culture",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "caribbean",
+        "carnival",
+        "hill",
+        "notting",
+        "uk"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "c4052c446e6e8b6ec4996eac",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "985cd2af4b515cd83e38d9733173f1ece03602c4a960f9c7b528228a8ac994ea",
+      "public_label": "📰 NEWS",
+      "headline": "Notting Hill Carnival kicks off in a burst of colour and Caribbean tradition",
+      "briefing": {
+        "opening": [
+          "London’s Notting Hill Carnival got underway on Sunday with revellers covered in oil and paint as the annual celebration of Caribbean culture and music returned to the British capital.",
+          "The three-day event is marking its 60th anniversary and is expected to draw millions of visitors."
+        ],
+        "body": [],
         "bullets": [
           {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Kiev"
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
           }
         ],
         "sentences": [
           {
-            "text": "By locating ammunition depots in residential areas, the Ukrainian authorities are using a \"human shield\" to protect the military-industrial complex, Dmitry Barov, a military expert and the first commander of the unmanned systems units’ instructor training center in the Donetsk People’s Republic (DPR), said in an interview with TASS.",
-            "source": "TASS English",
-            "item_id": "f232b0952c75e8a845f2b2d69ad9894e7245aaaa8d80af6052fa224e91245350:article",
+            "text": "London’s Notting Hill Carnival got underway on Sunday with revellers covered in oil and paint as the annual celebration of Caribbean culture and music returned to the British capital.",
+            "source": "Africanews English",
+            "item_id": "985cd2af4b515cd83e38d9733173f1ece03602c4a960f9c7b528228a8ac994ea",
             "composed": false
           },
           {
-            "text": "\"Ukrainian lawmaker Artyom Dmitruk has already publicly stated that deploying troops in the center of Kiev is a crime and that the authorities are deliberately using local residents as ‘human shields,’\" Barov concluded.",
-            "source": "TASS English",
-            "item_id": "f232b0952c75e8a845f2b2d69ad9894e7245aaaa8d80af6052fa224e91245350:article",
-            "composed": false
-          },
-          {
-            "text": "Earlier, footage of ammunition detonating at a recreation facility in the Milaya settlement near Kiev was posted online.",
-            "source": "TASS English",
-            "item_id": "f232b0952c75e8a845f2b2d69ad9894e7245aaaa8d80af6052fa224e91245350:article",
+            "text": "The three-day event is marking its 60th anniversary and is expected to draw millions of visitors.",
+            "source": "Africanews English",
+            "item_id": "985cd2af4b515cd83e38d9733173f1ece03602c4a960f9c7b528228a8ac994ea",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Africanews English",
         "corroborating": [],
-        "url": "https://tass.com/world/2179855"
+        "url": "http://www.africanews.com/2026/08/31/notting-hill-carnival-kicks-off-in-a-burst-of-colour-and-caribbean-tradition/"
       },
       "group_size": 1,
       "label": "📰 NEWS"
