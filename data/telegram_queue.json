@@ -1,33 +1,42 @@
 {
-  "generated_at": "2026-08-31T02:40:48.757055+00:00",
+  "generated_at": "2026-08-31T02:50:43.010178+00:00",
   "count": 2,
   "stories": [
     {
-      "id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c",
-      "title": "Nepal floods expose gaps in warning systems, China data-sharing",
-      "url": "https://www.straitstimes.com/asia/south-asia/nepal-floods-expose-gaps-in-warning-systems-china-data-sharing",
-      "source": "Straits Times Asia",
+      "id": "8447c8ca7da536ffa09ad91c5d95037e8f9b2d11f7d71654f0b74258acb9e424",
+      "title": "NATO's Arctic activity poses 'direct threat' to Russia, Lavrov warns",
+      "url": "https://www.france24.com/en/europe/20260831-nato-arctic-activity-direct-threat-russia-lavrov",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "Installing and maintaining weather stations at extreme altitudes is expensive and difficult.",
-      "published_at": "2026-08-31T01:10:00+00:00",
-      "updated_at": "2026-08-31T01:10:00+00:00",
-      "effective_at": "2026-08-31T01:10:00+00:00",
+      "summary": "Russia views NATO’s growing activity in the Arctic as a direct security threat, Foreign Minister Sergei Lavrov said on Monday. NATO launched its Arctic Sentry mission in February to strengthen its presence in the region amid tensions with Moscow and US President Donald Trump’s push to acquire Greenland.",
+      "published_at": "2026-08-31T02:40:17+00:00",
+      "updated_at": "2026-08-31T02:40:17+00:00",
+      "effective_at": "2026-08-31T02:40:17+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "politics",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "weather",
-      "subregion": "South Asia",
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "china",
-        "installing"
+        "arctic",
+        "donald",
+        "foreign",
+        "greenland",
+        "lavrov",
+        "nato",
+        "russia",
+        "sentry",
+        "sergei",
+        "trump",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -37,18 +46,18 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "68a2e09fd221af92b4cb8551",
-      "importance_score": 29.0,
+      "event_id": "7da927f85ea9abe6198baa27",
+      "importance_score": 38.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 8.0,
+        "urgency": 9.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -60,106 +69,87 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "scientific": 4,
+          "geopolitical": 4
+        }
       },
-      "story_id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c",
-      "article_sentences": [
-        "Nepal’s recent floods killed at least 800 people and exposed major gaps in high-altitude weather monitoring and cross-border data sharing with China.",
-        "Lack of weather stations in the Himalayas and limited data sharing hinder early warnings, leaving communities with only minutes to react.",
-        "Nepal plans to improve early-warning systems and cooperation with China to better predict and prepare for future mountain disasters.",
-        "Victims of Nepal’s catastrophic floods had barely a few minutes’ warning before the waters came rushing through, highlighting gaps in high-altitude weather monitoring and data sharing with neighbouring China.",
-        "“People even didn’t get five minutes of lead time,” Dharam Raj Uprety, chief executive of Nepal’s National Disaster Risk Reduction and Management Authority (NDRRMA), told Bloomberg News in an interview.",
-        "“We don’t have weather stations in high mountain areas” because of the “lack of transboundary data-seeding mechanisms” and limited sharing of weather and climate data across national borders.",
-        "That is one of our “biggest challenges”, he said.",
-        "The devastating floods last week that killed at least 800 people and left more than 3,000 missing have exposed a dangerous blind spot in the Himalayas, Uprety said, as warming temperatures destabilise glaciers and mountain slopes faster than the authorities can build systems to monitor them.",
-        "Better forecasting and earlier warnings will not only help save lives but also go some way towards protecting critical infrastructure and limiting disruption to tourism, a vital source of jobs and foreign exchange for the Himalayan economy.",
-        "Chinese President Xi Jinping has called for faster surveys of glaciers and glacial lakes across the Tibetan Plateau to prevent further disasters, according to the official Xinhua News Agency.",
-        "The Communist Party on Aug 28 also ordered stronger monitoring and early-warning systems to improve the authorities’ ability to identify linked disaster risks.",
-        "In a statement on social media platform X, the Chinese Embassy in Nepal said China has “always made every effort, within the limits of existing technologies, to conduct monitoring, assessment and analysis and has shared important information with the Nepali side in a timely manner”."
-      ],
+      "story_id": "8447c8ca7da536ffa09ad91c5d95037e8f9b2d11f7d71654f0b74258acb9e424",
       "public_label": "📰 NEWS",
-      "headline": "Nepal floods expose gaps in warning systems, China data-sharing",
+      "headline": "NATO's Arctic activity poses 'direct threat' to Russia, Lavrov warns",
       "briefing": {
         "opening": [
-          "Nepal’s recent floods killed at least 800 people and exposed major gaps in high-altitude weather monitoring and cross-border data sharing with China.",
-          "Lack of weather stations in the Himalayas and limited data sharing hinder early warnings, leaving communities with only minutes to react."
+          "Russia views NATO’s growing activity in the Arctic as a direct security threat, Foreign Minister Sergei Lavrov said on Monday.",
+          "NATO launched its Arctic Sentry mission in February to strengthen its presence in the region amid tensions with Moscow and US President Donald Trump’s push to acquire Greenland."
         ],
-        "body": [
-          "Nepal plans to improve early-warning systems and cooperation with China to better predict and prepare for future mountain disasters.",
-          "Victims of Nepal’s catastrophic floods had barely a few minutes’ warning before the waters came rushing through, highlighting gaps in high-altitude weather monitoring and data sharing with neighbouring China.",
-          "“People even didn’t get five minutes of lead time,” Dharam Raj Uprety, chief executive of Nepal’s National Disaster Risk Reduction and Management Authority (NDRRMA), told Bloomberg News in an interview.",
-          "“We don’t have weather stations in high mountain areas” because of the “lack of transboundary data-seeding mechanisms” and limited sharing of weather and climate data across national borders.",
-          "That is one of our “biggest challenges”, he said.",
-          "The devastating floods last week that killed at least 800 people and left more than 3,000 missing have exposed a dangerous blind spot in the Himalayas, Uprety said, as warming temperatures destabilise glaciers and mountain slopes faster than the authorities can build systems to monitor them.",
-          "Better forecasting and earlier warnings will not only help save lives but also go some way towards protecting critical infrastructure and limiting disruption to tourism, a vital source of jobs and foreign exchange for the Himalayan economy.",
-          "Chinese President Xi Jinping has called for faster surveys of glaciers and glacial lakes across the Tibetan Plateau to prevent further disasters, according to the official Xinhua News Agency."
-        ],
+        "body": [],
         "bullets": [
           {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "at least 800 people"
+            "icon": "📍",
+            "label": "Location",
+            "text": "February"
           }
         ],
         "sentences": [
           {
-            "text": "The devastating floods last week that killed at least 800 people and left more than 3,000 missing have exposed a dangerous blind spot in the Himalayas, Uprety said, as warming temperatures destabilise glaciers and mountain slopes faster than the authorities can build systems to monitor them.",
-            "source": "Straits Times Asia",
-            "item_id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c:article",
+            "text": "NATO launched its Arctic Sentry mission in February to strengthen its presence in the region amid tensions with Moscow and US President Donald Trump’s push to acquire Greenland.",
+            "source": "France 24",
+            "item_id": "8447c8ca7da536ffa09ad91c5d95037e8f9b2d11f7d71654f0b74258acb9e424",
             "composed": false
           },
           {
-            "text": "Victims of Nepal’s catastrophic floods had barely a few minutes’ warning before the waters came rushing through, highlighting gaps in high-altitude weather monitoring and data sharing with neighbouring China.",
-            "source": "Straits Times Asia",
-            "item_id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c:article",
-            "composed": false
-          },
-          {
-            "text": "“People even didn’t get five minutes of lead time,” Dharam Raj Uprety, chief executive of Nepal’s National Disaster Risk Reduction and Management Authority (NDRRMA), told Bloomberg News in an interview.",
-            "source": "Straits Times Asia",
-            "item_id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c:article",
-            "composed": false
-          },
-          {
-            "text": "Nepal’s recent floods killed at least 800 people and exposed major gaps in high-altitude weather monitoring and cross-border data sharing with China.",
-            "source": "Straits Times Asia",
-            "item_id": "7b0ba16ea278cd0706b2801a28f00325061c78981e71185c52756776d8b5009c:article",
+            "text": "Russia views NATO’s growing activity in the Arctic as a direct security threat, Foreign Minister Sergei Lavrov said on Monday.",
+            "source": "France 24",
+            "item_id": "8447c8ca7da536ffa09ad91c5d95037e8f9b2d11f7d71654f0b74258acb9e424",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/south-asia/nepal-floods-expose-gaps-in-warning-systems-china-data-sharing"
+        "url": "https://www.france24.com/en/europe/20260831-nato-arctic-activity-direct-threat-russia-lavrov"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "fb374e680cebfe71bf847d8ba1e92b4a0a5843f70d8c0f614e1dbd5eda3127ca",
-      "title": "What Argentina gets right about youth soccer — and what the U.S. gets wrong",
-      "url": "https://www.npr.org/2026/08/30/nx-s1-5924666/what-argentina-gets-right-about-youth-soccer-and-what-the-u-s-gets-wrong",
-      "source": "NPR World",
+      "id": "f7a2b7f0f5a6fafedb43245fd0412f7feccc26c1f6e56608f7772b63f8cfa8c9",
+      "title": "JB folk feeling the pinch of food prices ‘higher than in KL’",
+      "url": "https://www.straitstimes.com/asia/se-asia/jb-folk-feeling-the-pinch-of-food-prices-higher-than-in-kl",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "South America",
+      "region": null,
       "discovery": false,
-      "summary": "Argentina has produced some of the world's greatest soccer players. Could its youth system offer lessons for the United States?",
-      "published_at": "2026-08-31T02:27:49+00:00",
-      "updated_at": "2026-08-31T02:27:49+00:00",
-      "effective_at": "2026-08-31T02:27:49+00:00",
+      "summary": "Food prices in Johor Bahru are higher than in Kuala Lumpur, causing many residents and newcomers to feel the cost when eating out. Some people save money by bringing home-cooked meals or buying from cheaper roadside stalls instead of eating at eateries. Rentals in Johor Bahru, especially near the Causeway, are also expensive, driven by demand from Malaysians working in Singapore. Eating out in Johor Bahru is proving costly for Malaysians, prompting some to take home-cooked meals to work to save money. While long-time residents may be accustomed to these rates, many who move to the city for work or marriage are often shocked by how expensive meals can be. Many social media users have been expressing frustration, stating that cooked food in the city was surprisingly more expensive than in the Malaysian capital of Kuala Lumpur. “Food prices in Johor Bahru will rise over time, and residents, including new arrivals, must accept this reality,” said Syazwani Faizulbahri, 31. The project engineer who works in downtown. Johor Bahru said a lunch of nasi campur (mixed rice) with fried chicken, vegetable, an omelette slice and a glass of iced tea would cost RM15 (S$4.72). Different eateries had their own prices and it was up to consumers to choose an outlet that suited their budget, she said. “My lunch of nasi campur with similar side dishes at a nearby eatery costs RM19,” she said, adding that she now takes home-cooked meals to the office or buys breakfast and lunch from roadside stalls on her way to work. “I spend only RM10 for breakfast and lunch that way,” she added.",
+      "published_at": "2026-08-31T02:42:00+00:00",
+      "updated_at": "2026-08-31T02:42:00+00:00",
+      "effective_at": "2026-08-31T02:42:00+00:00",
       "language_status": "ENGLISH",
-      "category": "sports",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "sports",
-      "subsector": "sports",
-      "subregion": "South America",
+      "sector": "agriculture",
+      "subsector": "food",
+      "subregion": null,
       "country": null,
       "entities": [
-        "argentina",
-        "united_states"
+        "bahru",
+        "causeway",
+        "faizulbahri",
+        "food",
+        "johor",
+        "kl",
+        "kuala",
+        "lumpur",
+        "malaysian",
+        "malaysians",
+        "rm10",
+        "rm15",
+        "rm19",
+        "singapore",
+        "syazwani"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -168,16 +158,30 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "Food prices in Johor Bahru are higher than in Kuala Lumpur, causing many residents and newcomers to feel the cost when eating out.",
+        "Some people save money by bringing home-cooked meals or buying from cheaper roadside stalls instead of eating at eateries.",
+        "Rentals in Johor Bahru, especially near the Causeway, are also expensive, driven by demand from Malaysians working in Singapore.",
+        "Eating out in Johor Bahru is proving costly for Malaysians, prompting some to take home-cooked meals to work to save money.",
+        "While long-time residents may be accustomed to these rates, many who move to the city for work or marriage are often shocked by how expensive meals can be.",
+        "Many social media users have been expressing frustration, stating that cooked food in the city was surprisingly more expensive than in the Malaysian capital of Kuala Lumpur.",
+        "“Food prices in Johor Bahru will rise over time, and residents, including new arrivals, must accept this reality,” said Syazwani Faizulbahri, 31.",
+        "The project engineer who works in downtown.",
+        "Johor Bahru said a lunch of nasi campur (mixed rice) with fried chicken, vegetable, an omelette slice and a glass of iced tea would cost RM15 (S$4.72).",
+        "Different eateries had their own prices and it was up to consumers to choose an outlet that suited their budget, she said.",
+        "“My lunch of nasi campur with similar side dishes at a nearby eatery costs RM19,” she said, adding that she now takes home-cooked meals to the office or buys breakfast and lunch from roadside stalls on her way to work.",
+        "“I spend only RM10 for breakfast and lunch that way,” she added."
+      ],
       "event_status": "NEW",
-      "event_id": "32e29c81aa73cb1bb20d2abc",
-      "importance_score": 28.0,
+      "event_id": "7863c4765e6d9a1c86bfe678",
+      "importance_score": 27.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 8.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -194,33 +198,60 @@
         },
         "significance_dims": {}
       },
-      "story_id": "fb374e680cebfe71bf847d8ba1e92b4a0a5843f70d8c0f614e1dbd5eda3127ca",
+      "story_id": "f7a2b7f0f5a6fafedb43245fd0412f7feccc26c1f6e56608f7772b63f8cfa8c9",
       "public_label": "📰 NEWS",
-      "headline": "What Argentina gets right about youth soccer — and what the U.S. gets wrong",
+      "headline": "JB folk feeling the pinch of food prices ‘higher than in KL’",
       "briefing": {
         "opening": [
-          "Argentina has produced some of the world's greatest soccer players.",
-          "Could its youth system offer lessons for the United States?"
+          "Food prices in Johor Bahru are higher than in Kuala Lumpur, causing many residents and newcomers to feel the cost when eating out.",
+          "Some people save money by bringing home-cooked meals or buying from cheaper roadside stalls instead of eating at eateries."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "Rentals in Johor Bahru, especially near the Causeway, are also expensive, driven by demand from Malaysians working in Singapore.",
+          "Eating out in Johor Bahru is proving costly for Malaysians, prompting some to take home-cooked meals to work to save money.",
+          "While long-time residents may be accustomed to these rates, many who move to the city for work or marriage are often shocked by how expensive meals can be.",
+          "Many social media users have been expressing frustration, stating that cooked food in the city was surprisingly more expensive than in the Malaysian capital of Kuala Lumpur.",
+          "“Food prices in Johor Bahru will rise over time, and residents, including new arrivals, must accept this reality,” said Syazwani Faizulbahri, 31.",
+          "The project engineer who works in downtown.",
+          "Johor Bahru said a lunch of nasi campur (mixed rice) with fried chicken, vegetable, an omelette slice and a glass of iced tea would cost RM15 (S$4.72).",
+          "Different eateries had their own prices and it was up to consumers to choose an outlet that suited their budget, she said."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Johor Bahru"
+          }
+        ],
         "sentences": [
           {
-            "text": "Could its youth system offer lessons for the United States?",
-            "source": "NPR World",
-            "item_id": "fb374e680cebfe71bf847d8ba1e92b4a0a5843f70d8c0f614e1dbd5eda3127ca",
+            "text": "Many social media users have been expressing frustration, stating that cooked food in the city was surprisingly more expensive than in the Malaysian capital of Kuala Lumpur.",
+            "source": "Straits Times Asia",
+            "item_id": "f7a2b7f0f5a6fafedb43245fd0412f7feccc26c1f6e56608f7772b63f8cfa8c9:article",
             "composed": false
           },
           {
-            "text": "Argentina has produced some of the world's greatest soccer players.",
-            "source": "NPR World",
-            "item_id": "fb374e680cebfe71bf847d8ba1e92b4a0a5843f70d8c0f614e1dbd5eda3127ca",
+            "text": "“Food prices in Johor Bahru will rise over time, and residents, including new arrivals, must accept this reality,” said Syazwani Faizulbahri, 31.",
+            "source": "Straits Times Asia",
+            "item_id": "f7a2b7f0f5a6fafedb43245fd0412f7feccc26c1f6e56608f7772b63f8cfa8c9:article",
+            "composed": false
+          },
+          {
+            "text": "Food prices in Johor Bahru are higher than in Kuala Lumpur, causing many residents and newcomers to feel the cost when eating out.",
+            "source": "Straits Times Asia",
+            "item_id": "f7a2b7f0f5a6fafedb43245fd0412f7feccc26c1f6e56608f7772b63f8cfa8c9:article",
+            "composed": false
+          },
+          {
+            "text": "While long-time residents may be accustomed to these rates, many who move to the city for work or marriage are often shocked by how expensive meals can be.",
+            "source": "Straits Times Asia",
+            "item_id": "f7a2b7f0f5a6fafedb43245fd0412f7feccc26c1f6e56608f7772b63f8cfa8c9:article",
             "composed": false
           }
         ],
-        "source": "NPR World",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.npr.org/2026/08/30/nx-s1-5924666/what-argentina-gets-right-about-youth-soccer-and-what-the-u-s-gets-wrong"
+        "url": "https://www.straitstimes.com/asia/se-asia/jb-folk-feeling-the-pinch-of-food-prices-higher-than-in-kl"
       },
       "group_size": 1,
       "label": "📰 NEWS"
