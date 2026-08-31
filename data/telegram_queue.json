@@ -1,59 +1,202 @@
 {
-  "generated_at": "2026-08-31T12:50:47.191362+00:00",
-  "count": 1,
+  "generated_at": "2026-08-31T13:01:10.716228+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "e0a2497a68cc69a846da39bf08196737394a835abedbd04d2f9aa6ed68e857b8",
-      "title": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs",
-      "url": "https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude",
-      "source": "The Guardian Technology",
-      "source_category": "technology",
+      "id": "69a7ca92bbe0775eb2e182dc9c40c286d55245bc8833694e428e8eb2de232dee",
+      "title": "Taiwan says 'unpredictable' China strengthens air and sea control nearby",
+      "url": "https://www.straitstimes.com/asia/taiwan-says-unpredictable-china-strengthens-air-and-sea-control-nearby",
+      "source": "Straits Times Asia",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Asia",
       "discovery": false,
-      "summary": "AI company faces multi-billion dollar lawsuit over misuse of copyrighted songs to train Claude models All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion-dollar lawsuit against the startup behind the Claude chatbot. Sony Music Publishing and Warner Chappell, music publishers who manage the copyright of songs on behalf of songwriters and composers, are seeking damages for alleged misuse of “tens of thousands” of copyrighted works by Anthropic. Continue reading...",
-      "published_at": "2026-08-31T12:42:05+00:00",
-      "updated_at": "2026-08-31T12:42:05+00:00",
-      "effective_at": "2026-08-31T12:42:05+00:00",
+      "summary": "TAIPEI, Aug 31 - An increasingly unpredictable Beijing is tightening its grip on the air and sea around Taiwan, Taipei said in an annual review of the Chinese threat that also said China was learning lessons from issues faced by the United States in waging war on Iran.",
+      "published_at": "2026-08-31T12:50:39+00:00",
+      "updated_at": "2026-08-31T12:50:39+00:00",
+      "effective_at": "2026-08-31T12:50:39+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
+      "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "ai",
-      "subregion": null,
+      "sector": "geopolitics",
+      "subsector": "conflict",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "ai",
-        "all",
-        "anthropic",
-        "chappell",
-        "christmas",
-        "claude",
-        "music",
-        "publishing",
-        "sony",
-        "warner"
+        "aug",
+        "china",
+        "iran",
+        "taiwan",
+        "united_states"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 1,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "0a7772e7928d56fa2859feb3",
+      "importance_score": 47.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 3,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8
+        }
+      },
+      "story_id": "69a7ca92bbe0775eb2e182dc9c40c286d55245bc8833694e428e8eb2de232dee",
+      "article_sentences": [
+        "An increasingly unpredictable Beijing is tightening its grip on the air and sea around Taiwan, Taipei said in an annual review of the Chinese threat that also said China was learning lessons from issues faced by the United States in waging war on Iran.",
+        "China views democratically governed Taiwan as its own territory, has never renounced the use of force to bring the island under its control, and sends its military into the waters and airspace around Taiwan on an almost daily basis.",
+        "Taiwan's government rejects Beijing's sovereignty claims, saying only the island's people can decide their future.",
+        "The United States supplies Taiwan with weapons while maintaining a policy of ambiguity about whether it would fight to defend it.",
+        "In its annual report on China's military threat, a copy of which was reviewed by Reuters, Taiwan's defence ministry said the regional security situation \"continues to escalate\", noting a \"rising unpredictability\" in China's decision-making due to an \"unprecedented\" purge of senior military officers.",
+        "China's defence ministry did not respond to a request for comment.",
+        "The report said China was incorporating lessons learned from the wars in Ukraine and the Gulf into its training and exercises, notably learning about the effectiveness of swarms of cheap drones in the Ukraine-Russia war.",
+        "It also listed apparent U.S. problems revealed by the war against Iran, and said China was studying them.",
+        "\"The U.S.-Israel-Iran conflict highlighted issues such as rapid ammunition consumption, strain on air-defence interception systems, industrial mobilisation, and the fragility of allied cooperation,\" it said.",
+        "U.S. President Donald Trump launched the war against Iran alongside Israel six months ago, initially promising a victory within weeks.",
+        "Iran has targeted U.S. bases in the Middle East, forcing Washington to expend expensive air defence munitions, although the Trump administration says stocks remain adequate.",
+        "On the direct threat to Taiwan, the report said China's exercises around the island in recent years have all centred on \"joint blockade/control\" of Taiwan's external sea lanes, while Beijing lacks the capability to mount an amphibious assault."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Taiwan says 'unpredictable' China strengthens air and sea control nearby",
+      "briefing": {
+        "opening": [
+          "An increasingly unpredictable Beijing is tightening its grip on the air and sea around Taiwan, Taipei said in an annual review of the Chinese threat that also said China was learning lessons from issues faced by the United States in waging war on Iran.",
+          "China views democratically governed Taiwan as its own territory, has never renounced the use of force to bring the island under its control, and sends its military into the waters and airspace around Taiwan on an almost daily basis."
+        ],
+        "body": [
+          "Taiwan's government rejects Beijing's sovereignty claims, saying only the island's people can decide their future.",
+          "The United States supplies Taiwan with weapons while maintaining a policy of ambiguity about whether it would fight to defend it.",
+          "China's defence ministry did not respond to a request for comment.",
+          "The report said China was incorporating lessons learned from the wars in Ukraine and the Gulf into its training and exercises, notably learning about the effectiveness of swarms of cheap drones in the Ukraine-Russia war.",
+          "It also listed apparent U.S. problems revealed by the war against Iran, and said China was studying them.",
+          "\"The U.S.-Israel-Iran conflict highlighted issues such as rapid ammunition consumption, strain on air-defence interception systems, industrial mobilisation, and the fragility of allied cooperation,\" it said.",
+          "U.S. President Donald Trump launched the war against Iran alongside Israel six months ago, initially promising a victory within weeks."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Taiwan"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "In its annual report on China's military threat, a copy of which was reviewed by Reuters, Taiwan's defence ministry said the regional security situation \"continues to escalate\", noting a \"rising unpredictability\" in China's decision-making due to an \"unprecedented\" purge of senior military officers."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "In its annual report on China's military threat, a copy of which was reviewed by Reuters, Taiwan's defence ministry said the regional security situation \"continues to escalate\", noting a \"rising unpredictability\" in China's decision-making due to an \"unprecedented\" purge of senior military officers.",
+            "source": "Straits Times Asia",
+            "item_id": "69a7ca92bbe0775eb2e182dc9c40c286d55245bc8833694e428e8eb2de232dee:article",
+            "composed": false
+          },
+          {
+            "text": "The report said China was incorporating lessons learned from the wars in Ukraine and the Gulf into its training and exercises, notably learning about the effectiveness of swarms of cheap drones in the Ukraine-Russia war.",
+            "source": "Straits Times Asia",
+            "item_id": "69a7ca92bbe0775eb2e182dc9c40c286d55245bc8833694e428e8eb2de232dee:article",
+            "composed": false
+          },
+          {
+            "text": "An increasingly unpredictable Beijing is tightening its grip on the air and sea around Taiwan, Taipei said in an annual review of the Chinese threat that also said China was learning lessons from issues faced by the United States in waging war on Iran.",
+            "source": "Straits Times Asia",
+            "item_id": "69a7ca92bbe0775eb2e182dc9c40c286d55245bc8833694e428e8eb2de232dee:article",
+            "composed": false
+          },
+          {
+            "text": "China views democratically governed Taiwan as its own territory, has never renounced the use of force to bring the island under its control, and sends its military into the waters and airspace around Taiwan on an almost daily basis.",
+            "source": "Straits Times Asia",
+            "item_id": "69a7ca92bbe0775eb2e182dc9c40c286d55245bc8833694e428e8eb2de232dee:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/taiwan-says-unpredictable-china-strengthens-air-and-sea-control-nearby"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "e0512a00a62fde9d2acce332f0390190162de7640d8a69335fb859a66ac6c34a",
+      "title": "Mecca Pact open to all regional countries — top Turkish diplomat",
+      "url": "https://tass.com/world/2179883",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Thanks to the signed agreement, the process of creating a new security and cooperation architecture in the region has begun, Hakan Fidan said",
+      "published_at": "2026-08-31T12:55:36+00:00",
+      "updated_at": "2026-08-31T12:55:36+00:00",
+      "effective_at": "2026-08-31T12:55:36+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "fidan",
+        "hakan",
+        "mecca",
+        "pact",
+        "thanks",
+        "turkish"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "UPDATE",
-      "event_id": "842671508d857b12e73ea379",
-      "importance_score": 28.0,
+      "event_id": "6f2da295d73c413cf0e17608",
+      "importance_score": 30.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 8.0,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 4,
@@ -72,35 +215,56 @@
           "security": 4
         }
       },
-      "story_id": "e0a2497a68cc69a846da39bf08196737394a835abedbd04d2f9aa6ed68e857b8",
+      "story_id": "e0512a00a62fde9d2acce332f0390190162de7640d8a69335fb859a66ac6c34a",
+      "article_sentences": [
+        "ISTANBUL, August 31.",
+        "The Mecca Joint Defense Agreement is open to all regional countries for accession, Turkish Foreign Minister Hakan Fidan announced following the first meeting of the organization’s Strategic Political and Defense Committee in Istanbul.",
+        "\"The Mecca Pact has officially been named the Mecca Joint Defense Agreement.",
+        "Thanks to the signed agreement, the process of creating a new security and cooperation architecture in our region has begun.",
+        "The pact is open to all regional countries,\" Fidan said.",
+        "The meeting was attended by the foreign ministers, defense ministers, and chiefs of staff of the countries that have joined the alliance.",
+        "On August 7, Saudi Arabia’s Crown Prince Mohammed bin Salman Al Saud, Turkish President Recep Tayyip Erdogan, and Pakistani Prime Minister Shahbaz Sharif signed the Mecca Pact.",
+        "It stipulates that an attack on one of the countries will be regarded as an act of aggression against all members of the alliance."
+      ],
       "public_label": "🔄 UPDATE",
-      "headline": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs",
+      "headline": "Mecca Pact open to all regional countries — top Turkish diplomat",
       "briefing": {
         "opening": [
-          "AI company faces multi-billion dollar lawsuit over misuse of copyrighted songs to train Claude models.",
-          "All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion-dollar lawsuit against the startup behind the Claude chatbot."
+          "ISTANBUL, August 31.",
+          "The Mecca Joint Defense Agreement is open to all regional countries for accession, Turkish Foreign Minister Hakan Fidan announced following the first meeting of the organization’s Strategic Political and Defense Committee in Istanbul."
         ],
         "body": [
-          "Sony Music Publishing and Warner Chappell, music publishers who manage the copyright of songs on behalf of songwriters and composers, are seeking damages for alleged misuse of “tens of thousands” of copyrighted works by Anthropic."
+          "\"The Mecca Pact has officially been named the Mecca Joint Defense Agreement.",
+          "Thanks to the signed agreement, the process of creating a new security and cooperation architecture in our region has begun.",
+          "The pact is open to all regional countries,\" Fidan said.",
+          "The meeting was attended by the foreign ministers, defense ministers, and chiefs of staff of the countries that have joined the alliance.",
+          "On August 7, Saudi Arabia’s Crown Prince Mohammed bin Salman Al Saud, Turkish President Recep Tayyip Erdogan, and Pakistani Prime Minister Shahbaz Sharif signed the Mecca Pact.",
+          "It stipulates that an attack on one of the countries will be regarded as an act of aggression against all members of the alliance."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Istanbul"
+          }
+        ],
         "sentences": [
           {
-            "text": "All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion-dollar lawsuit against the startup behind the Claude chatbot.",
-            "source": "The Guardian Technology",
-            "item_id": "e0a2497a68cc69a846da39bf08196737394a835abedbd04d2f9aa6ed68e857b8",
+            "text": "On August 7, Saudi Arabia’s Crown Prince Mohammed bin Salman Al Saud, Turkish President Recep Tayyip Erdogan, and Pakistani Prime Minister Shahbaz Sharif signed the Mecca Pact.",
+            "source": "TASS English",
+            "item_id": "e0512a00a62fde9d2acce332f0390190162de7640d8a69335fb859a66ac6c34a:article",
             "composed": false
           },
           {
-            "text": "Sony Music Publishing and Warner Chappell, music publishers who manage the copyright of songs on behalf of songwriters and composers, are seeking damages for alleged misuse of “tens of thousands” of copyrighted works by Anthropic.",
-            "source": "The Guardian Technology",
-            "item_id": "e0a2497a68cc69a846da39bf08196737394a835abedbd04d2f9aa6ed68e857b8",
+            "text": "The Mecca Joint Defense Agreement is open to all regional countries for accession, Turkish Foreign Minister Hakan Fidan announced following the first meeting of the organization’s Strategic Political and Defense Committee in Istanbul.",
+            "source": "TASS English",
+            "item_id": "e0512a00a62fde9d2acce332f0390190162de7640d8a69335fb859a66ac6c34a:article",
             "composed": false
           }
         ],
-        "source": "The Guardian Technology",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude"
+        "url": "https://tass.com/world/2179883"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
