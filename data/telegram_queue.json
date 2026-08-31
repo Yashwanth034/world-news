@@ -1,140 +1,163 @@
 {
-  "generated_at": "2026-08-31T06:40:46.360642+00:00",
-  "count": 5,
+  "generated_at": "2026-08-31T06:50:52.333870+00:00",
+  "count": 4,
   "stories": [
     {
-      "id": "edf722f5dfe3b711d661a62d29662cfce32ace98d0f452dd9d78165462c9d731",
-      "title": "Iran slams new US attacks, says its troops responded with 'inherent right of legitimate defence'",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-slams-new-us-attacks-says-its-troops-responded-inherent-right",
-      "source": "Middle East Eye",
+      "id": "8e6f67cf41f598f6b3c603b974401227f66cf46ba6b11dc4a7d7e3ac4a79f14e",
+      "title": "Australians missing in Nepal targeted by ‘heartbreaking’ and ‘abhorrent’ racist slurs",
+      "url": "https://www.theguardian.com/australia-news/2026/aug/31/australians-missing-in-nepal-targeted-by-heartbreaking-and-abhorrent-racist-slurs",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "Iran slams new US attacks, says its troops responded with 'inherent right of legitimate defence' Iran's foreign ministry&nbsp;said it \"strongly condemned\" renewed US strikes on its island of Larak. It added that Iranian forces responded \"in accordance with the inherent right of legitimate defence\". In retaliation to an earlier US attack that reportedly killed Iranian forces and civilians on the island, Tehran targeted US infrastructure across the region, including in Jordan and the UAE.&nbsp;",
-      "published_at": "2026-08-31T06:36:58+00:00",
-      "updated_at": "2026-08-31T06:36:58+00:00",
-      "effective_at": "2026-08-31T06:36:58+00:00",
+      "summary": "As families await news after the catastrophe, community members appeal for compassion in the face of hateful rhetoric A slew of racist social media comments have been made towards Australians missing in the catastrophic Nepal-Tibet floods , prompting calls for greater accountability of major platforms to remove hateful rhetoric. On Monday, the total number of Australians missing after flash floods triggered by a massive glacier collapse in the Himalayas rose to 43, and the overall death toll was at least 810 people. Continue reading...",
+      "published_at": "2026-08-31T06:32:15+00:00",
+      "updated_at": "2026-08-31T06:32:15+00:00",
+      "effective_at": "2026-08-31T06:32:15+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "defense",
-      "subregion": "West Asia / Middle East",
+      "sector": "technology",
+      "subsector": "internet",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "iran",
-        "jordan",
-        "larak",
-        "uae",
-        "us"
+        "australians",
+        "himalayas",
+        "nepal",
+        "nepal-tibet"
       ],
-      "corroborating_sources": 0,
+      "corroborating_sources": 1,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 93,
+      "verified_match_count": 1,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "UPDATE",
-      "event_id": "45b6985628569491a2001db0",
-      "importance_score": 48.0,
-      "importance_level": "LOW",
+      "event_id": "8f31e9fce76dcb74150ae8a0",
+      "importance_score": 81.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
+        "impact": 32,
+        "urgency": 10,
         "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 20,
+        "corroboration": 3,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
+          "dead": 3000,
           "injured": 0,
           "displaced": 0,
-          "missing": 0,
-          "affected": 0,
+          "missing": 3000,
+          "affected": 93000,
           "major_incident": false,
-          "crisis": false
+          "crisis": true
         },
         "significance_dims": {
-          "security": 8,
-          "geopolitical": 8,
-          "human": 4
+          "human": 12,
+          "geopolitical": 4
         }
       },
-      "story_id": "edf722f5dfe3b711d661a62d29662cfce32ace98d0f452dd9d78165462c9d731",
+      "story_id": "8e6f67cf41f598f6b3c603b974401227f66cf46ba6b11dc4a7d7e3ac4a79f14e",
       "public_label": "🔄 UPDATE",
-      "headline": "Iran slams new US attacks, says its troops responded with 'inherent right of legitimate defence'",
+      "headline": "Australians missing in Nepal targeted by ‘heartbreaking’ and ‘abhorrent’ racist slurs",
       "briefing": {
         "opening": [
-          "Iran slams new US attacks, says its troops responded with 'inherent right of legitimate defence' Iran's foreign ministry said it \"strongly condemned\" renewed US strikes on its island of Larak.",
-          "It added that Iranian forces responded \"in accordance with the inherent right of legitimate defence\"."
+          "As families await news after the catastrophe, community members appeal for compassion in the face of hateful rhetoric.",
+          "A slew of racist social media comments have been made towards Australians missing in the catastrophic Nepal-Tibet floods, prompting calls for greater accountability of major platforms to remove hateful rhetoric."
         ],
         "body": [
-          "In retaliation to an earlier US attack that reportedly killed Iranian forces and civilians on the island, Tehran targeted US infrastructure across the region, including in Jordan and the UAE.."
+          "On Monday, the total number of Australians missing after flash floods triggered by a massive glacier collapse in the Himalayas rose to 43, and the overall death toll was at least 810 people."
         ],
         "bullets": [
           {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Jordan"
+            "icon": "👥",
+            "label": "Impact",
+            "text": "at least 810 people"
           }
         ],
         "sentences": [
           {
-            "text": "It added that Iranian forces responded \"in accordance with the inherent right of legitimate defence\".",
-            "source": "Middle East Eye",
-            "item_id": "edf722f5dfe3b711d661a62d29662cfce32ace98d0f452dd9d78165462c9d731",
+            "text": "On Monday, the total number of Australians missing after flash floods triggered by a massive glacier collapse in the Himalayas rose to 43, and the overall death toll was at least 810 people.",
+            "source": "The Guardian World",
+            "item_id": "8e6f67cf41f598f6b3c603b974401227f66cf46ba6b11dc4a7d7e3ac4a79f14e",
             "composed": false
           },
           {
-            "text": "Iran slams new US attacks, says its troops responded with 'inherent right of legitimate defence' Iran's foreign ministry said it \"strongly condemned\" renewed US strikes on its island of Larak.",
-            "source": "Middle East Eye",
-            "item_id": "edf722f5dfe3b711d661a62d29662cfce32ace98d0f452dd9d78165462c9d731",
+            "text": "A slew of racist social media comments have been made towards Australians missing in the catastrophic Nepal-Tibet floods, prompting calls for greater accountability of major platforms to remove hateful rhetoric.",
+            "source": "The Guardian World",
+            "item_id": "8e6f67cf41f598f6b3c603b974401227f66cf46ba6b11dc4a7d7e3ac4a79f14e",
             "composed": false
           }
         ],
-        "source": "Middle East Eye",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-slams-new-us-attacks-says-its-troops-responded-inherent-right"
+        "url": "https://www.theguardian.com/australia-news/2026/aug/31/australians-missing-in-nepal-targeted-by-heartbreaking-and-abhorrent-racist-slurs"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
     },
     {
-      "id": "bd03756f2402d3be927989485a7ee3fc59821d1a6095f4f54a72b46c9905b92e",
-      "title": "North Korea says hostile US policy unchanged, vows to strengthen nuclear force",
-      "url": "https://www.straitstimes.com/asia/north-korea-says-hostile-us-policy-unchanged-vows-to-strengthen-nuclear-force",
-      "source": "Straits Times Asia",
+      "id": "87d5219868aacc43f9cbd6e6cbb4d7e9385f11ccbde404ea21f380c68ae1d3bb",
+      "title": "FIFA president Infantino ‘must go’, says former UEFA boss Platini",
+      "url": "https://www.aljazeera.com/sports/2026/8/31/fifa-president-infantino-must-go-says-former-uefa-boss-platini?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "SEOUL, Aug 31 - North Korea said on Monday the United States' hostile policy remained unchanged and vowed to continue strengthening its nuclear force, rejecting repeated U.S. calls for its denuclearisation.",
-      "published_at": "2026-08-31T06:36:07+00:00",
-      "updated_at": "2026-08-31T06:36:07+00:00",
-      "effective_at": "2026-08-31T06:36:07+00:00",
+      "summary": "In a scathing interview, French great Michel Platini accuses Infantino of always loving ‘money and power’. French football great Michel Platini says FIFA president Gianni Infantino “must go” following the scandals that have surrounded football’s governing body and rocked the sport globally. “Economic affairs are one thing, but Infantino has failed because he is the guarantor of the rules of the game and he didn’t respect them,” former UEFA president Platini told a French media outlet on Sunday. The 56-year-old Infantino has been under fire since his aborted plan to bring private investment into FIFA events, such as the World Cup. He was also lambasted over a number of controversies during the recently concluded World Cup in North America. He also pointed to the half-time show during the final, which largely overran the required maximum of 15 minutes, and the furore around FIFA suspending the red card ban given to American forward Folarin Balogun following a phone call made by United States President Donald Trump to Infantino. “The ad breaks are not in the rules, the 30-minute half-time break in the final is not in the rules, and the red card, that’s the worst,” said Platini. “He’s the guarantor [of the rules], he doesn’t respect them, he must go,” added Platini, who was UEFA’s secretary-general under the Frenchman’s leadership. Since the World Cup, UEFA threatened to boycott FIFA tournaments until Infantino scrapped the FIFA Forward Enterprises plan to bring in private investment. European football’s governing body UEFA has also accused Infantino of “criminal mismanagement” over the private financing. FIFA did not respond to Al Jazeera’s request for a comment. Other regional bodies – the Confederation of North, Central America and Caribbean Association Football (CONCACAF) and the Asian Football Confederation (AFC) – have joined UEFA in putting pressure on Infantino, who is hoping to run for re-election in March.",
+      "published_at": "2026-08-31T06:33:06+00:00",
+      "updated_at": "2026-08-31T06:33:06+00:00",
+      "effective_at": "2026-08-31T06:33:06+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 65,
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "geopolitics",
       "subsector": "politics",
-      "subregion": "East Asia",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "aug",
-        "north_korea",
-        "seoul",
+        "afc",
+        "al",
+        "america",
+        "american",
+        "asian",
+        "association",
+        "balogun",
+        "caribbean",
+        "central",
+        "concacaf",
+        "confederation",
+        "cup",
+        "donald",
+        "enterprises",
+        "fifa",
+        "folarin",
+        "football",
+        "forward",
+        "france",
+        "frenchman",
+        "gianni",
+        "infantino",
+        "jazeera",
+        "michel",
+        "north",
+        "platini",
+        "trump",
+        "uefa",
         "united_states",
         "us"
       ],
@@ -142,19 +165,33 @@
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "In a scathing interview, French great Michel Platini accuses Infantino of always loving ‘money and power’.",
+        "French football great Michel Platini says FIFA president Gianni Infantino “must go” following the scandals that have surrounded football’s governing body and rocked the sport globally.",
+        "“Economic affairs are one thing, but Infantino has failed because he is the guarantor of the rules of the game and he didn’t respect them,” former UEFA president Platini told a French media outlet on Sunday.",
+        "The 56-year-old Infantino has been under fire since his aborted plan to bring private investment into FIFA events, such as the World Cup.",
+        "He was also lambasted over a number of controversies during the recently concluded World Cup in North America.",
+        "He also pointed to the half-time show during the final, which largely overran the required maximum of 15 minutes, and the furore around FIFA suspending the red card ban given to American forward Folarin Balogun following a phone call made by United States President Donald Trump to Infantino.",
+        "“The ad breaks are not in the rules, the 30-minute half-time break in the final is not in the rules, and the red card, that’s the worst,” said Platini.",
+        "“He’s the guarantor [of the rules], he doesn’t respect them, he must go,” added Platini, who was UEFA’s secretary-general under the Frenchman’s leadership.",
+        "Since the World Cup, UEFA threatened to boycott FIFA tournaments until Infantino scrapped the FIFA Forward Enterprises plan to bring in private investment.",
+        "European football’s governing body UEFA has also accused Infantino of “criminal mismanagement” over the private financing.",
+        "FIFA did not respond to Al Jazeera’s request for a comment.",
+        "Other regional bodies – the Confederation of North, Central America and Caribbean Association Football (CONCACAF) and the Asian Football Confederation (AFC) – have joined UEFA in putting pressure on Infantino, who is hoping to run for re-election in March."
+      ],
       "event_status": "NEW",
-      "event_id": "d050869bfd0348b4ae2ba9c8",
-      "importance_score": 36.0,
+      "event_id": "c9d1a68901c37fab84916bdb",
+      "importance_score": 40.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 8.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
         "significance": 8,
@@ -170,134 +207,138 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 8
+          "infrastructure": 4,
+          "geopolitical": 4
         }
       },
-      "story_id": "bd03756f2402d3be927989485a7ee3fc59821d1a6095f4f54a72b46c9905b92e",
-      "article_sentences": [
-        "North Korea said on Monday the United States' hostile policy remained unchanged and vowed to continue strengthening its nuclear force, rejecting repeated U.S. calls for its denuclearisation.",
-        "In a statement carried by state media KCNA, a Foreign Ministry spokesperson accused Washington of maintaining a confrontational stance through its commitment to the \"complete denuclearisation\" of North Korea, criticism of the country's human rights record and planned joint military exercises with South Korea and Japan.",
-        "\"The Trump administration has thus fully reconfirmed its invariable hostile policy to wantonly violate the sovereignty, political system and security interests of the DPRK,\" the spokesperson said, using the initials of North Korea's official name, the Democratic People's Republic of Korea.",
-        "The spokesperson said North Korea's nuclear weapons were \"an absolute guarantee for defending its sovereignty\" and that its nuclear status would not be weakened by repeated U.S. denuclearisation demands.",
-        "The spokesperson also said expecting any easing of regional tensions was \"pointless\".",
-        "There is likewise \"no change\" in North Korea's policy toward the U.S., the official said.",
-        "The statement came after U.S. President Donald Trump this month ordered a major scaling back of the annual Ulchi Freedom Shield exercises between the United States and South Korea.",
-        "Trump cited his \"very good relationship\" with North Korean leader Kim Jong Un and said the drills were costly and sent an unnecessarily hostile signal to Pyongyang.",
-        "Trump has been seeking a new summit with the North Korean leader.",
-        "The two met three times in 2018 and 2019.",
-        "Despite the drills reduction, Kim Yo Jong, the North Korean leader's sister, said this month the exercises remained provocative and aggressive even if their scale and duration were reduced."
-      ],
+      "story_id": "87d5219868aacc43f9cbd6e6cbb4d7e9385f11ccbde404ea21f380c68ae1d3bb",
       "public_label": "📰 NEWS",
-      "headline": "North Korea says hostile US policy unchanged, vows to strengthen nuclear force",
+      "headline": "FIFA president Infantino ‘must go’, says former UEFA boss Platini",
       "briefing": {
         "opening": [
-          "North Korea said on Monday the United States' hostile policy remained unchanged and vowed to continue strengthening its nuclear force, rejecting repeated U.S. calls for its denuclearisation.",
-          "In a statement carried by state media KCNA, a Foreign Ministry spokesperson accused Washington of maintaining a confrontational stance through its commitment to the \"complete denuclearisation\" of North Korea, criticism of the country's human rights record and planned joint military exercises with South Korea and Japan."
+          "In a scathing interview, French great Michel Platini accuses Infantino of always loving ‘money and power’.",
+          "French football great."
         ],
         "body": [
-          "\"The Trump administration has thus fully reconfirmed its invariable hostile policy to wantonly violate the sovereignty, political system and security interests of the DPRK,\" the spokesperson said, using the initials of North Korea's official name, the Democratic People's Republic of Korea.",
-          "The spokesperson said North Korea's nuclear weapons were \"an absolute guarantee for defending its sovereignty\" and that its nuclear status would not be weakened by repeated U.S. denuclearisation demands.",
-          "The spokesperson also said expecting any easing of regional tensions was \"pointless\".",
-          "There is likewise \"no change\" in North Korea's policy toward the U.S., the official said.",
-          "The statement came after U.S. President Donald Trump this month ordered a major scaling back of the annual Ulchi Freedom Shield exercises between the United States and South Korea.",
-          "Trump cited his \"very good relationship\" with North Korean leader Kim Jong Un and said the drills were costly and sent an unnecessarily hostile signal to Pyongyang.",
-          "Trump has been seeking a new summit with the North Korean leader.",
-          "The two met three times in 2018 and 2019."
+          "Michel Platini says FIFA president Gianni Infantino “must go” following the scandals that have surrounded football’s governing body and rocked the sport globally.",
+          "“Economic affairs are one thing, but Infantino has failed because he is the guarantor of the rules of the game and he didn’t respect them,” former UEFA president Platini told a French media outlet on Sunday.",
+          "The 56-year-old Infantino has been under fire since his aborted plan to bring private investment into FIFA events, such as the World Cup.",
+          "He was also lambasted over a number of controversies during the recently concluded World Cup in North America.",
+          "He also pointed to the half-time show during the final, which largely overran the required maximum of 15 minutes, and the furore around FIFA suspending the red card ban given to American forward Folarin Balogun following a phone call made by United States President Donald Trump to Infantino.",
+          "“The ad breaks are not in the rules, the 30-minute half-time break in the final is not in the rules, and the red card, that’s the worst,” said Platini.",
+          "“He’s the guarantor [of the rules], he doesn’t respect them, he must go,” added Platini, who was UEFA’s secretary-general under the Frenchman’s leadership.",
+          "Since the World Cup, UEFA threatened to boycott FIFA tournaments until Infantino scrapped the FIFA Forward Enterprises plan to bring in private investment."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "North Korea's"
+            "text": "North America"
           }
         ],
         "sentences": [
           {
-            "text": "The spokesperson said North Korea's nuclear weapons were \"an absolute guarantee for defending its sovereignty\" and that its nuclear status would not be weakened by repeated U.S. denuclearisation demands.",
-            "source": "Straits Times Asia",
-            "item_id": "bd03756f2402d3be927989485a7ee3fc59821d1a6095f4f54a72b46c9905b92e:article",
+            "text": "Michel Platini says FIFA president Gianni Infantino “must go” following the scandals that have surrounded football’s governing body and rocked the sport globally.",
+            "source": "Al Jazeera",
+            "item_id": "87d5219868aacc43f9cbd6e6cbb4d7e9385f11ccbde404ea21f380c68ae1d3bb:article",
             "composed": false
           },
           {
-            "text": "The official said there is likewise \"no change\" in North Korea's policy toward the U.S.",
-            "source": "Straits Times Asia",
-            "item_id": "bd03756f2402d3be927989485a7ee3fc59821d1a6095f4f54a72b46c9905b92e:article",
-            "composed": true
-          },
-          {
-            "text": "The two met three times in 2018 and 2019.",
-            "source": "Straits Times Asia",
-            "item_id": "bd03756f2402d3be927989485a7ee3fc59821d1a6095f4f54a72b46c9905b92e:article",
+            "text": "He also pointed to the half-time show during the final, which largely overran the required maximum of 15 minutes, and the furore around FIFA suspending the red card ban given to American forward Folarin Balogun following a phone call made by United States President Donald Trump to Infantino.",
+            "source": "Al Jazeera",
+            "item_id": "87d5219868aacc43f9cbd6e6cbb4d7e9385f11ccbde404ea21f380c68ae1d3bb:article",
             "composed": false
           },
           {
-            "text": "North Korea said on Monday the United States' hostile policy remained unchanged and vowed to continue strengthening its nuclear force, rejecting repeated U.S. calls for its denuclearisation.",
-            "source": "Straits Times Asia",
-            "item_id": "bd03756f2402d3be927989485a7ee3fc59821d1a6095f4f54a72b46c9905b92e:article",
+            "text": "The 56-year-old Infantino has been under fire since his aborted plan to bring private investment into FIFA events, such as the World Cup.",
+            "source": "Al Jazeera",
+            "item_id": "87d5219868aacc43f9cbd6e6cbb4d7e9385f11ccbde404ea21f380c68ae1d3bb:article",
+            "composed": false
+          },
+          {
+            "text": "“The ad breaks are not in the rules, the 30-minute half-time break in the final is not in the rules, and the red card, that’s the worst,” said Platini.",
+            "source": "Al Jazeera",
+            "item_id": "87d5219868aacc43f9cbd6e6cbb4d7e9385f11ccbde404ea21f380c68ae1d3bb:article",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/north-korea-says-hostile-us-policy-unchanged-vows-to-strengthen-nuclear-force"
+        "url": "https://www.aljazeera.com/sports/2026/8/31/fifa-president-infantino-must-go-says-former-uefa-boss-platini?traffic_source=rss"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "87b328c08353a5d5d577e046527e5e81f77061c081e2c0cf6bdb9839d89d8764",
-      "title": "Kazakhstan's president appoints top adviser as vice president",
-      "url": "https://www.straitstimes.com/asia/kazakhstans-president-appoints-top-adviser-as-vice-president",
-      "source": "Straits Times Asia",
+      "id": "d5472663d72708415b27b49fccb1819ebe4b5896f458b3d5e5b028d77e17805e",
+      "title": "'They wrote little letters': How kids in Portugal are making money off their neighbours' plastic waste",
+      "url": "http://www.euronews.com/2026/08/31/i-dont-mind-begging-volta-offers-an-opportunity-to-many",
+      "source": "Euronews",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "ASTANA, Aug 31 - Kazakhstan's President Kassym-Jomart Tokayev on Monday appointed Erlan Karin, a longtime adviser, as vice president, an office created under a new constitution that Central Asia's largest economy adopted earlier this year.",
-      "published_at": "2026-08-31T06:30:51+00:00",
-      "updated_at": "2026-08-31T06:30:51+00:00",
-      "effective_at": "2026-08-31T06:30:51+00:00",
+      "summary": "The first ever bottle deposit return scheme in southern Europe is helping the environment - and funding kids' bucket list trips. Sisters Ariela and Alice had already been using Portugal's bottle return scheme to earn money but since June they have upped the ante: now instead of just returning their own bottles, they are asking their neighbours' for their plastic waste and making money off that too. Since April this year, when the Volta scheme launched, plastic bottles in Portugal have a €0.10 deposit added to the cost. If you return the empty bottle to a supermarket with a Volta machine, you're given a receipt which can be exchanged for discounts or cash. \"They wrote little letters and I printed them with their project and the time when they were going to collect the bag,\" explains their mother, Karina Lauro, who moved to Portugal from Rio de Janeiro in 2024. \"They leave the bag at people's doors and every day, at nine o'clock in the evening, they go back to pick up that bag with the bottles, when there are any.\" The empty bottles are then exchanged for money. With a clear goal: by June next year they aim to collect 120,000 bottles so they can make €6,000 each. It was the girls who came up with the idea of using Volta to raise funds and to involve the neighbours, after their mother warned them that just using the bottles from home would not make them much money. \"It was very little, wasn't it? Because it was just the bottles from our house,\" says Karina Lauro. \"Basically, if it were only us, there would be no way.\"",
+      "published_at": "2026-08-31T06:37:36+00:00",
+      "updated_at": "2026-08-31T06:37:36+00:00",
+      "effective_at": "2026-08-31T06:37:36+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "Central Asia",
+      "sector": "economy",
+      "subsector": "banking",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "asia",
-        "astana",
-        "aug",
-        "central",
-        "erlan",
-        "karin",
-        "kassym-jomart",
-        "kazakhstan",
-        "tokayev"
+        "alice",
+        "ariela",
+        "europe",
+        "janeiro",
+        "karina",
+        "lauro",
+        "portugal",
+        "rio",
+        "since",
+        "sisters",
+        "volta"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "The first ever bottle deposit return scheme in southern Europe is helping the environment - and funding kids' bucket list trips.",
+        "Sisters Ariela and Alice had already been using Portugal's bottle return scheme to earn money but since June they have upped the ante: now instead of just returning their own bottles, they are asking their neighbours' for their plastic waste and making money off that too.",
+        "Since April this year, when the Volta scheme launched, plastic bottles in Portugal have a €0.10 deposit added to the cost.",
+        "If you return the empty bottle to a supermarket with a Volta machine, you're given a receipt which can be exchanged for discounts or cash.",
+        "\"They wrote little letters and I printed them with their project and the time when they were going to collect the bag,\" explains their mother, Karina Lauro, who moved to Portugal from Rio de Janeiro in 2024.",
+        "\"They leave the bag at people's doors and every day, at nine o'clock in the evening, they go back to pick up that bag with the bottles, when there are any.\"",
+        "The empty bottles are then exchanged for money.",
+        "With a clear goal: by June next year they aim to collect 120,000 bottles so they can make €6,000 each.",
+        "It was the girls who came up with the idea of using Volta to raise funds and to involve the neighbours, after their mother warned them that just using the bottles from home would not make them much money.",
+        "\"It was very little, wasn't it?",
+        "Because it was just the bottles from our house,\" says Karina Lauro.",
+        "\"Basically, if it were only us, there would be no way.\""
+      ],
       "event_status": "NEW",
-      "event_id": "bd827e0f33691a36090ce62d",
-      "importance_score": 36.0,
+      "event_id": "1a3b750ba7b290fd70080043",
+      "importance_score": 29.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 8.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -309,92 +350,83 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "economic": 4,
-          "geopolitical": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "87b328c08353a5d5d577e046527e5e81f77061c081e2c0cf6bdb9839d89d8764",
-      "article_sentences": [
-        "Kazakhstan's President Kassym-Jomart Tokayev on Monday appointed Erlan Karin, a longtime adviser, as vice president, an office created under a new constitution that Central Asia's largest economy adopted earlier this year.",
-        "The move makes Karin, a close adviser to Tokayev since he took over the presidency in 2019, first in line to succeed his boss as the leader of Kazakhstan, an energy and minerals giant that maintains warm ties with Russia, the West and China.",
-        "Tokayev, 73, is eligible to run for another seven-year term as president under the new constitution, Kazakhstan's supreme court has said.",
-        "His current term ends in 2029.",
-        "Kazakh presidents are otherwise limited to a single term in office under the basic law.",
-        "Karin, 50, has a background in counter-terrorism and has served as a top adviser to Tokayev since 2019.",
-        "He has positioned himself as a key figure in promoting Tokayev's ideology, which he has dubbed \"New Kazakhstan\".",
-        "Tokayev also proposed to reappoint Olzhas Bektenov as the country's prime minister, a position he has held since 2024.",
-        "Both appointments were swiftly approved by the country's parliament, which is dominated by the pro-Tokayev Adilet party.",
-        "Tokayev, a former Soviet diplomat and top United Nations official, took office as the chosen successor of Nursultan Nazarbayev, Kazakhstan's founding president, who ruled from 1991 to 2019."
-      ],
+      "story_id": "d5472663d72708415b27b49fccb1819ebe4b5896f458b3d5e5b028d77e17805e",
       "public_label": "📰 NEWS",
-      "headline": "Kazakhstan's president appoints top adviser as vice president",
+      "headline": "'They wrote little letters': How kids in Portugal are making money off their neighbours' plastic waste",
       "briefing": {
         "opening": [
-          "Kazakhstan's President Kassym-Jomart Tokayev on Monday appointed Erlan Karin, a longtime adviser, as vice president, an office created under a new constitution that Central Asia's largest economy adopted earlier this year.",
-          "The move makes Karin, a close adviser to Tokayev since he took over the presidency in 2019, first in line to succeed his boss as the leader of Kazakhstan, an energy and minerals giant that maintains warm ties with Russia, the West and China."
+          "The first ever bottle deposit return scheme in southern Europe is helping the environment - and funding kids' bucket list trips.",
+          "Sisters Ariela and Alice had already been using Portugal's bottle return scheme to earn money but since June they have upped the ante: now instead of just returning their own bottles, they are asking their neighbours' for their plastic waste and making money off that too."
         ],
         "body": [
-          "Tokayev, 73, is eligible to run for another seven-year term as president under the new constitution, Kazakhstan's supreme court has said.",
-          "His current term ends in 2029.",
-          "Kazakh presidents are otherwise limited to a single term in office under the basic law.",
-          "Karin, 50, has a background in counter-terrorism and has served as a top adviser to Tokayev since 2019.",
-          "He has positioned himself as a key figure in promoting Tokayev's ideology, which he has dubbed \"New Kazakhstan\".",
-          "Tokayev also proposed to reappoint Olzhas Bektenov as the country's prime minister, a position he has held since 2024.",
-          "Both appointments were swiftly approved by the country's parliament, which is dominated by the pro-Tokayev Adilet party.",
-          "Tokayev, a former Soviet diplomat and top United Nations official, took office as the chosen successor of Nursultan Nazarbayev, Kazakhstan's founding president, who ruled from 1991 to 2019."
+          "Since April this year, when the Volta scheme launched, plastic bottles in Portugal have a €0.10 deposit added to the cost.",
+          "If you return the empty bottle to a supermarket with a Volta machine, you're given a receipt which can be exchanged for discounts or cash.",
+          "\"They wrote little letters and I printed them with their project and the time when they were going to collect the bag,\" explains their mother, Karina Lauro, who moved to Portugal from Rio de Janeiro in 2024.",
+          "\"They leave the bag at people's doors and every day, at nine o'clock in the evening, they go back to pick up that bag with the bottles, when there are any.\" The empty bottles are then exchanged for money.",
+          "With a clear goal: by June next year they aim to collect 120,000 bottles so they can make €6,000 each.",
+          "It was the girls who came up with the idea of using Volta to raise funds and to involve the neighbours, after their mother warned them that just using the bottles from home would not make them much money.",
+          "\"It was very little, wasn't it?",
+          "Because it was just the bottles from our house,\" says Karina Lauro."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Portugal"
+          }
+        ],
         "sentences": [
           {
-            "text": "Tokayev, a former Soviet diplomat and top United Nations official, took office as the chosen successor of Nursultan Nazarbayev, Kazakhstan's founding president, who ruled from 1991 to 2019.",
-            "source": "Straits Times Asia",
-            "item_id": "87b328c08353a5d5d577e046527e5e81f77061c081e2c0cf6bdb9839d89d8764:article",
+            "text": "The first ever bottle deposit return scheme in southern Europe is helping the environment - and funding kids' bucket list trips.",
+            "source": "Euronews",
+            "item_id": "d5472663d72708415b27b49fccb1819ebe4b5896f458b3d5e5b028d77e17805e:article",
             "composed": false
           },
           {
-            "text": "Karin, 50, has a background in counter-terrorism and has served as a top adviser to Tokayev since 2019.",
-            "source": "Straits Times Asia",
-            "item_id": "87b328c08353a5d5d577e046527e5e81f77061c081e2c0cf6bdb9839d89d8764:article",
+            "text": "Since April this year, when the Volta scheme launched, plastic bottles in Portugal have a €0.10 deposit added to the cost.",
+            "source": "Euronews",
+            "item_id": "d5472663d72708415b27b49fccb1819ebe4b5896f458b3d5e5b028d77e17805e:article",
             "composed": false
           },
           {
-            "text": "The move makes Karin, a close adviser to Tokayev since he took over the presidency in 2019, first in line to succeed his boss as the leader of Kazakhstan, an energy and minerals giant that maintains warm ties with Russia, the West and China.",
-            "source": "Straits Times Asia",
-            "item_id": "87b328c08353a5d5d577e046527e5e81f77061c081e2c0cf6bdb9839d89d8764:article",
+            "text": "With a clear goal: by June next year they aim to collect 120,000 bottles so they can make €6,000 each.",
+            "source": "Euronews",
+            "item_id": "d5472663d72708415b27b49fccb1819ebe4b5896f458b3d5e5b028d77e17805e:article",
             "composed": false
           },
           {
-            "text": "Tokayev also proposed to reappoint Olzhas Bektenov as the country's prime minister, a position he has held since 2024.",
-            "source": "Straits Times Asia",
-            "item_id": "87b328c08353a5d5d577e046527e5e81f77061c081e2c0cf6bdb9839d89d8764:article",
+            "text": "\"They wrote little letters and I printed them with their project and the time when they were going to collect the bag,\" explains their mother, Karina Lauro, who moved to Portugal from Rio de Janeiro in 2024.",
+            "source": "Euronews",
+            "item_id": "d5472663d72708415b27b49fccb1819ebe4b5896f458b3d5e5b028d77e17805e:article",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "Euronews",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/kazakhstans-president-appoints-top-adviser-as-vice-president"
+        "url": "http://www.euronews.com/2026/08/31/i-dont-mind-begging-volta-offers-an-opportunity-to-many"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "0c310552a55d8aed8aa29c94a4d371053d04f9e1bd15c7f984dad7f37122e227",
-      "title": "China’s AI chip drive: MetaX and Iluvatar swing to profit, as Biren narrows losses",
-      "url": "https://www.scmp.com/tech/big-tech/article/3365812/metax-swings-profit-chinese-ai-chipmakers-report-diverging-first-half-results?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "7d615d722aca7004a09776ebaabdac5bf43c2fa324187d9b93cfe91910a1bd5f",
+      "title": "Hybe chairman to be referred to prosecution over alleged deception of shareholders: police",
+      "url": "https://en.yna.co.kr/view/AEN20260831007600315",
+      "source": "Yonhap English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "China’s home-grown artificial intelligence chipmakers are starting to cash in on Beijing’s self-reliance drive, but a fresh wave of first-half earnings reveals a stark divide between the industry’s rising profit stars and loss-making players. Shares of Chinese AI chipmakers traded mixed on Monday as investors digested the financial updates. MetaX Integrated Circuits saw its Shanghai-listed stock rise 1.4 per cent to 684.5 yuan by the midday break after reporting a swing to profitability late on...",
-      "published_at": "2026-08-31T06:30:24+00:00",
-      "updated_at": "2026-08-31T06:30:24+00:00",
-      "effective_at": "2026-08-31T06:30:24+00:00",
+      "summary": "SEOUL, Aug. 31 (Yonhap) -- Bang Si-hyuk, chairman of K-pop powerhouse Hybe, will...",
+      "published_at": "2026-08-31T06:37:22+00:00",
+      "updated_at": "2026-08-31T06:37:22+00:00",
+      "effective_at": "2026-08-31T06:37:22+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "companies",
@@ -402,110 +434,13 @@
       "subregion": "East Asia",
       "country": null,
       "entities": [
-        "ai",
-        "biren",
-        "china",
-        "circuits",
-        "iluvatar",
-        "integrated",
-        "metax",
-        "shanghai-listed"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "566e0d1bec1ae96428eb71f0",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "security": 4
-        }
-      },
-      "story_id": "0c310552a55d8aed8aa29c94a4d371053d04f9e1bd15c7f984dad7f37122e227",
-      "public_label": "📰 NEWS",
-      "headline": "China’s AI chip drive: MetaX and Iluvatar swing to profit, as Biren narrows losses",
-      "briefing": {
-        "opening": [
-          "China’s home-grown artificial intelligence chipmakers are starting to cash in on Beijing’s self-reliance drive, but a fresh wave of first-half earnings reveals a stark divide between the industry’s rising profit stars and loss-making players.",
-          "Shares of Chinese AI chipmakers traded mixed on Monday as investors digested the financial updates."
-        ],
-        "body": [
-          "MetaX Integrated Circuits saw its Shanghai-listed stock rise 1.4 per cent to 684.5 yuan by the midday break after reporting a swing to profitability late on..."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "China’s home-grown artificial intelligence chipmakers are starting to cash in on Beijing’s self-reliance drive, but a fresh wave of first-half earnings reveals a stark divide between the industry’s rising profit stars and loss-making players.",
-            "source": "South China Morning Post",
-            "item_id": "0c310552a55d8aed8aa29c94a4d371053d04f9e1bd15c7f984dad7f37122e227",
-            "composed": false
-          },
-          {
-            "text": "Shares of Chinese AI chipmakers traded mixed on Monday as investors digested the financial updates.",
-            "source": "South China Morning Post",
-            "item_id": "0c310552a55d8aed8aa29c94a4d371053d04f9e1bd15c7f984dad7f37122e227",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/tech/big-tech/article/3365812/metax-swings-profit-chinese-ai-chipmakers-report-diverging-first-half-results?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "e21a1dda7f841311bdcdcfc336e2d86e54dc5f54a21305025d3663daab0e7c67",
-      "title": "MOEX Index up as morning trading session opens",
-      "url": "https://tass.com/economy/2179681",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "As of 7:10 a.m. Moscow time the MOEX Index was up by 0.04% at 2,115.81 points",
-      "published_at": "2026-08-31T06:33:12+00:00",
-      "updated_at": "2026-08-31T06:33:12+00:00",
-      "effective_at": "2026-08-31T06:33:12+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "markets",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "index",
-        "moex",
-        "russia"
+        "aug",
+        "bang",
+        "hybe",
+        "k-pop",
+        "seoul",
+        "si-hyuk",
+        "yonhap"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -515,7 +450,7 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "52ae9fd07813496408b2d3f7",
+      "event_id": "045ddf92c58d1bc148251b47",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -540,47 +475,69 @@
         },
         "significance_dims": {}
       },
-      "story_id": "e21a1dda7f841311bdcdcfc336e2d86e54dc5f54a21305025d3663daab0e7c67",
+      "story_id": "7d615d722aca7004a09776ebaabdac5bf43c2fa324187d9b93cfe91910a1bd5f",
       "article_sentences": [
-        "MOSCOW, August 31.",
-        "The MOEX Index with additional IMOEX2 ticker added 0.66% as morning trading session opened on the Moscow Exchange on Monday to 2,128.83 points, according to trading data as of 7:00 a.m. Moscow time (4:00 a.m. GMT).",
-        "As of 7:10 a.m. Moscow time (4:10 a.m. GMT) the MOEX Index was up by 0.04% at 2,115.81 points.",
-        "The Moscow Exchange resumed its morning trading session on the Equities and Derivatives markets on January 27, 2025."
+        "Bang Si-hyuk, chairman of K-pop powerhouse Hybe, will be referred to the prosecution this week for possible indictment on suspicion of deceiving investors into selling their stakes in his company, police said Monday.",
+        "\"We plan to forward the case to the prosecution within the week,\" Hong Seok-ki, head of the National Office of Investigation, told a press briefing.",
+        "Bang is accused of violating the Capital Markets Act by deceiving investors into selling their stakes in Hybe in 2019, just before the company went public, making nearly 200 billion won (US$145 million) in additional and illegal profits.",
+        "Police launched an investigation into the allegations in December 2024 and began a full-scale probe in July of last year, which included a raid on Hybe headquarters.",
+        "Their investigation was prolonged after the prosecution requested supplementary investigations while rejecting two arrest warrant requests filed by the police.",
+        "Sources close to the issue said the police were expected to refer Bang's case to the prosecution without seeking his detention."
       ],
       "public_label": "📰 NEWS",
-      "headline": "MOEX Index up as morning trading session opens",
+      "headline": "Hybe chairman to be referred to prosecution over alleged deception of shareholders: police",
       "briefing": {
         "opening": [
-          "MOSCOW, August 31.",
-          "The MOEX Index with additional IMOEX2 ticker added 0.66% as morning trading session opened on the Moscow Exchange on Monday to 2,128.83 points, according to trading data as of 7:00 a.m. Moscow time (4:00 a.m. GMT)."
+          "Bang Si-hyuk, chairman of K-pop powerhouse Hybe, will be referred to the prosecution this week for possible indictment on suspicion of deceiving investors into selling their stakes in his company, police said Monday.",
+          "\"We plan to forward the case to the prosecution within the week,\" Hong Seok-ki, head of the National Office of Investigation, told a press briefing."
         ],
         "body": [
-          "The Moscow Exchange resumed its morning trading session on the Equities and Derivatives markets on January 27, 2025."
+          "Bang is accused of violating the Capital Markets Act by deceiving investors into selling their stakes in Hybe in 2019, just before the company went public, making nearly 200 billion won (US$145 million) in additional and illegal profits.",
+          "Police launched an investigation into the allegations in December 2024 and began a full-scale probe in July of last year, which included a raid on Hybe headquarters.",
+          "Their investigation was prolonged after the prosecution requested supplementary investigations while rejecting two arrest warrant requests filed by the police.",
+          "Bang Si-hyuk, chairman of K-pop powerhouse Hybe, will..."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Hybe"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Sources close to the issue said the police were expected to refer Bang's case to the prosecution without seeking his detention."
+          }
+        ],
         "sentences": [
           {
-            "text": "The MOEX Index with additional IMOEX2 ticker added 0.66% as morning trading session opened on the Moscow Exchange on Monday to 2,128.83 points, according to trading data as of 7:00 a.m. Moscow time (4:00 a.m. GMT).",
-            "source": "TASS English",
-            "item_id": "e21a1dda7f841311bdcdcfc336e2d86e54dc5f54a21305025d3663daab0e7c67:article",
+            "text": "\"We plan to forward the case to the prosecution within the week,\" Hong Seok-ki, head of the National Office of Investigation, told a press briefing.",
+            "source": "Yonhap English",
+            "item_id": "7d615d722aca7004a09776ebaabdac5bf43c2fa324187d9b93cfe91910a1bd5f:article",
             "composed": false
           },
           {
-            "text": "The Moscow Exchange resumed its morning trading session on the Equities and Derivatives markets on January 27, 2025.",
-            "source": "TASS English",
-            "item_id": "e21a1dda7f841311bdcdcfc336e2d86e54dc5f54a21305025d3663daab0e7c67:article",
+            "text": "Bang is accused of violating the Capital Markets Act by deceiving investors into selling their stakes in Hybe in 2019, just before the company went public, making nearly 200 billion won (US$145 million) in additional and illegal profits.",
+            "source": "Yonhap English",
+            "item_id": "7d615d722aca7004a09776ebaabdac5bf43c2fa324187d9b93cfe91910a1bd5f:article",
             "composed": false
           },
           {
-            "text": "MOSCOW, August 31.",
-            "source": "TASS English",
-            "item_id": "e21a1dda7f841311bdcdcfc336e2d86e54dc5f54a21305025d3663daab0e7c67:article",
+            "text": "Police launched an investigation into the allegations in December 2024 and began a full-scale probe in July of last year, which included a raid on Hybe headquarters.",
+            "source": "Yonhap English",
+            "item_id": "7d615d722aca7004a09776ebaabdac5bf43c2fa324187d9b93cfe91910a1bd5f:article",
+            "composed": false
+          },
+          {
+            "text": "Bang Si-hyuk, chairman of K-pop powerhouse Hybe, will be referred to the prosecution this week for possible indictment on suspicion of deceiving investors into selling their stakes in his company, police said Monday.",
+            "source": "Yonhap English",
+            "item_id": "7d615d722aca7004a09776ebaabdac5bf43c2fa324187d9b93cfe91910a1bd5f:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Yonhap English",
         "corroborating": [],
-        "url": "https://tass.com/economy/2179681"
+        "url": "https://en.yna.co.kr/view/AEN20260831007600315"
       },
       "group_size": 1,
       "label": "📰 NEWS"
