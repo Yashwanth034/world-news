@@ -1,64 +1,469 @@
 {
-  "generated_at": "2026-08-31T09:50:47.980545+00:00",
-  "count": 2,
+  "generated_at": "2026-08-31T10:01:15.593818+00:00",
+  "count": 8,
   "stories": [
     {
-      "id": "d97a4f8b4305bada7560582dcf7b5f30f80434e1364763722cf2915c8ee8d6e8",
-      "title": "Death toll from Nepal floods up to 919 — Chinese TV",
-      "url": "https://tass.com/society/2179765",
+      "id": "576506205bc3114cab086f4ebb4ba7bfa5f641161185613fc3610eba1ab27dff",
+      "title": "Spain sees record 5,232 heat-related deaths this summer",
+      "url": "https://tass.com/society/2179767",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "BEIJING, August 31. The death toll from the devastating floods in Nepal has reached 919, China Central Television (CCTV) reported, citing Nepalese police. According to the TV channel, 4,247 people are listed as missing. The natural disaster struck northern Nepal on the morning of August 26. According to preliminary information, the flood wave was caused by a snow and rock avalanche on the Nepal-China border, approximately 20 kilometers northeast of the Rasuwagadhi border crossing. The powerful torrent of rock and debris traveled more than 70 kilometers down the riverbed at tremendous speed, destroying nearby settlements and flooding a large area.",
-      "published_at": "2026-08-31T09:45:51+00:00",
-      "updated_at": "2026-08-31T09:45:51+00:00",
-      "effective_at": "2026-08-31T09:45:51+00:00",
+      "summary": "The overwhelming majority of those who died from the effects of heat this summer were people over the age of 65",
+      "published_at": "2026-08-31T09:50:16+00:00",
+      "updated_at": "2026-08-31T09:50:16+00:00",
+      "effective_at": "2026-08-31T09:50:16+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "floods",
-      "subregion": "South Asia",
+      "sector": "health",
+      "subsector": "public_health",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "cctv",
-        "central",
-        "china",
-        "nepal",
-        "nepal-china",
-        "nepalese",
-        "rasuwagadhi",
-        "television",
-        "tv"
+        "spain"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 85,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "BEIJING, August 31.",
-        "The death toll from the devastating floods in Nepal has reached 919, China Central Television (CCTV) reported, citing Nepalese police.",
-        "According to the TV channel, 4,247 people are listed as missing.",
-        "The natural disaster struck northern Nepal on the morning of August 26.",
-        "According to preliminary information, the flood wave was caused by a snow and rock avalanche on the Nepal-China border, approximately 20 kilometers northeast of the Rasuwagadhi border crossing.",
-        "The powerful torrent of rock and debris traveled more than 70 kilometers down the riverbed at tremendous speed, destroying nearby settlements and flooding a large area."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "090355b8eccbdc1476036cb0",
+      "event_status": "NEW",
+      "event_id": "61d00c0203ba69a91f9328ce",
       "importance_score": 72.0,
       "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 28,
-        "urgency": 8.0,
-        "novelty": 9.0,
+        "impact": 32,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 5232,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 12
+        }
+      },
+      "story_id": "576506205bc3114cab086f4ebb4ba7bfa5f641161185613fc3610eba1ab27dff",
+      "article_sentences": [
+        "MADRID, August 31.",
+        "The number of deaths linked to extremely hot weather in Spain during the summer period has reached an all-time high, with 5,232 people dead.",
+        "According to data from the daily mortality monitoring system, 2,147 people died from high temperatures in August alone this year.",
+        "The current figures have already exceeded the previous annual highs - 4,789 deaths recorded in 2022 and 3,035 cases in 2023.",
+        "The overwhelming majority of those who died from the effects of heat this summer were people over the age of 65, accounting for 5,048 cases.",
+        "Spaniards over the age of 85 remain the most vulnerable group.",
+        "Spanish meteorologists previously reported that the first half of 2026 was the warmest in the kingdom in the past 65 years.",
+        "June this year was the second-warmest June on record, while July was the hottest and driest since records began in 1961."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Spain sees record 5,232 heat-related deaths this summer",
+      "briefing": {
+        "opening": [
+          "MADRID, August 31.",
+          "The number of deaths linked to extremely hot weather in Spain during the summer period has reached an all-time high, with 5,232 people dead."
+        ],
+        "body": [
+          "According to data from the daily mortality monitoring system, 2,147 people died from high temperatures in August alone this year.",
+          "The current figures have already exceeded the previous annual highs - 4,789 deaths recorded in 2022 and 3,035 cases in 2023.",
+          "The overwhelming majority of those who died from the effects of heat this summer were people over the age of 65, accounting for 5,048 cases.",
+          "Spaniards over the age of 85 remain the most vulnerable group.",
+          "Spanish meteorologists previously reported that the first half of 2026 was the warmest in the kingdom in the past 65 years.",
+          "June this year was the second-warmest June on record, while July was the hottest and driest since records began in 1961.",
+          "The overwhelming majority of those who died from the effects of heat this summer were people over the age of 65."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Spain"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "5,232 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "According to data from the daily mortality monitoring system, 2,147 people died from high temperatures in August alone this year.",
+            "source": "TASS English",
+            "item_id": "576506205bc3114cab086f4ebb4ba7bfa5f641161185613fc3610eba1ab27dff:article",
+            "composed": false
+          },
+          {
+            "text": "The number of deaths linked to extremely hot weather in Spain during the summer period has reached an all-time high, with 5,232 people dead.",
+            "source": "TASS English",
+            "item_id": "576506205bc3114cab086f4ebb4ba7bfa5f641161185613fc3610eba1ab27dff:article",
+            "composed": false
+          },
+          {
+            "text": "Spanish meteorologists previously reported that the first half of 2026 was the warmest in the kingdom in the past 65 years.",
+            "source": "TASS English",
+            "item_id": "576506205bc3114cab086f4ebb4ba7bfa5f641161185613fc3610eba1ab27dff:article",
+            "composed": false
+          },
+          {
+            "text": "The current figures have already exceeded the previous annual highs - 4,789 deaths recorded in 2022 and 3,035 cases in 2023.",
+            "source": "TASS English",
+            "item_id": "576506205bc3114cab086f4ebb4ba7bfa5f641161185613fc3610eba1ab27dff:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/society/2179767"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "c82ec927181d75bb5ddd6b27b8e79350bf7252ce41429d32fb9505b425fa9709",
+      "title": "Korean police under fire after backtracking on hanging evidence in missing woman’s death in Jeju",
+      "url": "https://www.straitstimes.com/asia/korean-police-under-fire-after-backtracking-on-hanging-evidence-in-missing-womans-death-in-jeju",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Police initially claimed forensic evidence showed Jang Mi-ran died by hanging, but later said the cause of death could not be determined due to severe decomposition. Family and boyfriend disputed the suicide theory, raising doubts about police conclusions and the physical consistency of the hanging scenario. Police are under scrutiny for mishandling the case, including improper closure of missing person reports by an officer, prompting a review of 298 cases. Police investigating the death of Jang Mi-ran came under fire on Aug 31 after saying they could not determine how the 37-year-old died, despite having repeatedly suggested that forensic evidence indicated hanging. Jang’s body was discovered Aug 24 at a palm tree farm in Hallim-eup, Jeju City, 104 days after she disappeared. Local police said at the time they believed she had hung herself based on the position of the body and had later claimed an autopsy supported that conclusion. But the National Forensic Service, which carried out the autopsy, was unable to establish a cause of death, adding that it was open to other possibilties. “The cause of death could not be determined because the body was severely decomposed,” Hong Sug-gi, head of the National Office of Investigation, said on Aug 31. “We are investigating while keeping all possibilities open.” The change in stance raises further questions about a case already alleged to have been deliberately mishandled. A senior police official later said investigators were primarily considering suicide after examining the scene. Acting National.",
+      "published_at": "2026-08-31T09:57:11+00:00",
+      "updated_at": "2026-08-31T09:57:11+00:00",
+      "effective_at": "2026-08-31T09:57:11+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "acting",
+        "aug",
+        "city",
+        "forensic",
+        "hallim-eup",
+        "hong",
+        "investigation",
+        "jang",
+        "jeju",
+        "mi-ran",
+        "national",
+        "office",
+        "service",
+        "sug-gi"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Police initially claimed forensic evidence showed Jang Mi-ran died by hanging, but later said the cause of death could not be determined due to severe decomposition.",
+        "Family and boyfriend disputed the suicide theory, raising doubts about police conclusions and the physical consistency of the hanging scenario.",
+        "Police are under scrutiny for mishandling the case, including improper closure of missing person reports by an officer, prompting a review of 298 cases.",
+        "Police investigating the death of Jang Mi-ran came under fire on Aug 31 after saying they could not determine how the 37-year-old died, despite having repeatedly suggested that forensic evidence indicated hanging.",
+        "Jang’s body was discovered Aug 24 at a palm tree farm in Hallim-eup, Jeju City, 104 days after she disappeared.",
+        "Local police said at the time they believed she had hung herself based on the position of the body and had later claimed an autopsy supported that conclusion.",
+        "But the National Forensic Service, which carried out the autopsy, was unable to establish a cause of death, adding that it was open to other possibilties.",
+        "“The cause of death could not be determined because the body was severely decomposed,” Hong Sug-gi, head of the National Office of Investigation, said on Aug 31.",
+        "“We are investigating while keeping all possibilities open.”",
+        "The change in stance raises further questions about a case already alleged to have been deliberately mishandled.",
+        "A senior police official later said investigators were primarily considering suicide after examining the scene.",
+        "Acting National."
+      ],
+      "event_status": "NEW",
+      "event_id": "6812918029c1abe3365197e6",
+      "importance_score": 52.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 16.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 37,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8
+        }
+      },
+      "story_id": "c82ec927181d75bb5ddd6b27b8e79350bf7252ce41429d32fb9505b425fa9709",
+      "public_label": "📰 NEWS",
+      "headline": "Korean police under fire after backtracking on hanging evidence in missing woman’s death in Jeju",
+      "briefing": {
+        "opening": [
+          "Police initially claimed forensic evidence showed Jang Mi-ran died by hanging, but later said the cause of death could not be determined due to severe decomposition.",
+          "Family and boyfriend disputed the suicide theory, raising doubts about police conclusions and the physical consistency of the hanging scenario."
+        ],
+        "body": [
+          "Police are under scrutiny for mishandling the case, including improper closure of missing person reports by an officer, prompting a review of 298 cases.",
+          "Police investigating the death of Jang Mi-ran came under fire on Aug 31 after saying they could not determine how the 37-year-old died, despite having repeatedly suggested that forensic evidence indicated hanging.",
+          "Jang’s body was discovered Aug 24 at a palm tree farm in Hallim-eup, Jeju City, 104 days after she disappeared.",
+          "Local police said at the time they believed she had hung herself based on the position of the body and had later claimed an autopsy supported that conclusion.",
+          "But the National Forensic Service, which carried out the autopsy, was unable to establish a cause of death, adding that it was open to other possibilties.",
+          "“The cause of death could not be determined because the body was severely decomposed,” Hong Sug-gi, head of the National Office of Investigation, said on Aug 31.",
+          "“We are investigating while keeping all possibilities open.” The change in stance raises further questions about a case already alleged to have been deliberately mishandled.",
+          "A senior police official later said investigators were primarily considering suicide after examining the scene."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Hallim-eup"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Police initially claimed forensic evidence showed Jang Mi-ran died by hanging, but later said the cause of death could not be determined due to severe decomposition.",
+            "source": "Straits Times Asia",
+            "item_id": "c82ec927181d75bb5ddd6b27b8e79350bf7252ce41429d32fb9505b425fa9709:article",
+            "composed": false
+          },
+          {
+            "text": "Jang’s body was discovered Aug 24 at a palm tree farm in Hallim-eup, Jeju City, 104 days after she disappeared.",
+            "source": "Straits Times Asia",
+            "item_id": "c82ec927181d75bb5ddd6b27b8e79350bf7252ce41429d32fb9505b425fa9709:article",
+            "composed": false
+          },
+          {
+            "text": "Police investigating the death of Jang Mi-ran came under fire on Aug 31 after saying they could not determine how the 37-year-old died, despite having repeatedly suggested that forensic evidence indicated hanging.",
+            "source": "Straits Times Asia",
+            "item_id": "c82ec927181d75bb5ddd6b27b8e79350bf7252ce41429d32fb9505b425fa9709:article",
+            "composed": false
+          },
+          {
+            "text": "“The cause of death could not be determined because the body was severely decomposed,” Hong Sug-gi, head of the National Office of Investigation, said on Aug 31.",
+            "source": "Straits Times Asia",
+            "item_id": "c82ec927181d75bb5ddd6b27b8e79350bf7252ce41429d32fb9505b425fa9709:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/korean-police-under-fire-after-backtracking-on-hanging-evidence-in-missing-womans-death-in-jeju"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "0a5eb41d96a103c71f20ccb64f221f0dfed9ccb512f469db4f765d7246f17209",
+      "title": "Xi arrives for SCO summit, Putin meeting as regional bloc pushes back on US dominance",
+      "url": "https://www.france24.com/en/tv-shows/business/20260831-xi-arrives-for-sco-summit-putin-meeting-as-regional-bloc-pushes-back-on-us-dominance",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "The Shanghai Cooperation Organisation summit gets underway in Kyrgyzstan, with the leaders of China and Russia attending. But first: the US hosts G20 finance ministers, while America's massive debt may be painting its new central banker into a corner.",
+      "published_at": "2026-08-31T09:33:05+00:00",
+      "updated_at": "2026-08-31T09:33:05+00:00",
+      "effective_at": "2026-08-31T09:33:05+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "diplomacy",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "america",
+        "china",
+        "cooperation",
+        "g20",
+        "kyrgyzstan",
+        "organisation",
+        "putin",
+        "russia",
+        "sco",
+        "shanghai",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 83,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "d2a00e0b24f0ee146bc607a1",
+      "importance_score": 45.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "infrastructure": 8,
+          "economic": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "0a5eb41d96a103c71f20ccb64f221f0dfed9ccb512f469db4f765d7246f17209",
+      "public_label": "🔄 UPDATE",
+      "headline": "Xi arrives for SCO summit, Putin meeting as regional bloc pushes back on US dominance",
+      "briefing": {
+        "opening": [
+          "The Shanghai Cooperation Organisation summit gets underway in Kyrgyzstan, with the leaders of China and Russia attending.",
+          "But first: the US hosts G20 finance ministers, while America's massive debt may be painting its new central banker into a corner."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kyrgyzstan"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "underway"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "But first: the US hosts G20 finance ministers, while America's massive debt may be painting its new central banker into a corner.",
+            "source": "France 24",
+            "item_id": "0a5eb41d96a103c71f20ccb64f221f0dfed9ccb512f469db4f765d7246f17209",
+            "composed": false
+          },
+          {
+            "text": "The Shanghai Cooperation Organisation summit gets underway in Kyrgyzstan, with the leaders of China and Russia attending.",
+            "source": "France 24",
+            "item_id": "0a5eb41d96a103c71f20ccb64f221f0dfed9ccb512f469db4f765d7246f17209",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/tv-shows/business/20260831-xi-arrives-for-sco-summit-putin-meeting-as-regional-bloc-pushes-back-on-us-dominance"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "74f20cdc9f7d4e4ea75f5427c8498be850ca4b15797cee41439f745cc5ec8a38",
+      "title": "Japan seeks record $70.9b defence budget, with AI focus",
+      "url": "https://www.straitstimes.com/asia/east-asia/japan-seeks-record-55-6-bn-defence-budget-with-ai-focus",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Japan’s defence ministry requested a record budget of 8.9 trillion yen (S$70.9 billion) on Aug 31 as Tokyo looks to artificial intelligence to speed up decision-making in the face of a tense security environment. The final budget reportedly could reach 10 trillion yen as Tokyo undergoes a sweeping upgrade of its defence in order to navigate growing tension with neighbours such as China, North Korea and Russia. The latest request focuses on countering “new ways of warfare”, with an emphasis on the use of AI, drones and standoff missiles. Under the request, the ministry hopes to implement an AI-powered decision support system. It also wants to procure low-cost drones that can work in tandem with long-range missiles to neutralise enemy assets. The ministry said it plans to develop underwater-launched hypersonic missiles and establish a new unit to bolster defences against cognitive warfare, a growing threat aimed at shaping public opinion through disinformation campaigns and other operations. The budget request for the fiscal year starting from April 2027 highlights the latest step by Japan to boost its military to meet the volatile geopolitical reality, gradually shedding its traditional pacifist stance that limited the use of force purely for self-defence. China’s rapid military expansion and North Korea’s steady development of missiles and nuclear weapons have pressed Japan to shore up its defence. Russia’s war in Ukraine has fuelled worries among Japanese policymakers that a similar conflict could erupt in East Asia, considering China’s mounting pressure on Taiwan and its escalating territorial disputes with Japan. The Nikkei newspaper said the defence ministry’s request may jump to more than 10 trillion yen, citing an unnamed ruling party lawmaker. The current request did not specify the estimated costs of many products and services, including missiles, drones and digital systems. These figures will be finalised once the government finishes its revision of core national security documents by the end of the year, defence officials said.",
+      "published_at": "2026-08-31T09:55:00+00:00",
+      "updated_at": "2026-08-31T09:55:00+00:00",
+      "effective_at": "2026-08-31T09:55:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "technology",
+      "score": 68,
+      "confidence": "medium",
+      "urgency_terms": [
+        "missile"
+      ],
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "ai",
+        "ai-powered",
+        "asia",
+        "aug",
+        "china",
+        "east",
+        "japan",
+        "nikkei",
+        "north_korea",
+        "russia",
+        "taiwan",
+        "ukraine"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Japan’s defence ministry requested a record budget of 8.9 trillion yen (S$70.9 billion) on Aug 31 as Tokyo looks to artificial intelligence to speed up decision-making in the face of a tense security environment.",
+        "The final budget reportedly could reach 10 trillion yen as Tokyo undergoes a sweeping upgrade of its defence in order to navigate growing tension with neighbours such as China, North Korea and Russia.",
+        "The latest request focuses on countering “new ways of warfare”, with an emphasis on the use of AI, drones and standoff missiles.",
+        "Under the request, the ministry hopes to implement an AI-powered decision support system.",
+        "It also wants to procure low-cost drones that can work in tandem with long-range missiles to neutralise enemy assets.",
+        "The ministry said it plans to develop underwater-launched hypersonic missiles and establish a new unit to bolster defences against cognitive warfare, a growing threat aimed at shaping public opinion through disinformation campaigns and other operations.",
+        "The budget request for the fiscal year starting from April 2027 highlights the latest step by Japan to boost its military to meet the volatile geopolitical reality, gradually shedding its traditional pacifist stance that limited the use of force purely for self-defence.",
+        "China’s rapid military expansion and North Korea’s steady development of missiles and nuclear weapons have pressed Japan to shore up its defence.",
+        "Russia’s war in Ukraine has fuelled worries among Japanese policymakers that a similar conflict could erupt in East Asia, considering China’s mounting pressure on Taiwan and its escalating territorial disputes with Japan.",
+        "The Nikkei newspaper said the defence ministry’s request may jump to more than 10 trillion yen, citing an unnamed ruling party lawmaker.",
+        "The current request did not specify the estimated costs of many products and services, including missiles, drones and digital systems.",
+        "These figures will be finalised once the government finishes its revision of core national security documents by the end of the year, defence officials said."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "0761457f35524205a9ff951d",
+      "importance_score": 42.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
@@ -67,157 +472,476 @@
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 919,
+          "dead": 0,
           "injured": 0,
           "displaced": 0,
-          "missing": 4247,
+          "missing": 0,
           "affected": 0,
           "major_incident": false,
-          "crisis": true
+          "crisis": false
         },
         "significance_dims": {
-          "human": 12,
-          "geopolitical": 4
+          "security": 8,
+          "geopolitical": 8
         }
       },
-      "story_id": "d97a4f8b4305bada7560582dcf7b5f30f80434e1364763722cf2915c8ee8d6e8",
+      "story_id": "74f20cdc9f7d4e4ea75f5427c8498be850ca4b15797cee41439f745cc5ec8a38",
       "public_label": "🔄 UPDATE",
-      "headline": "Death toll from Nepal floods up to 919 — Chinese TV",
+      "headline": "Japan seeks record $70.9b defence budget, with AI focus",
       "briefing": {
         "opening": [
-          "BEIJING, August 31.",
-          "The death toll from the devastating floods in Nepal has reached 919, China Central Television (CCTV) reported, citing Nepalese police."
+          "Japan’s defence ministry requested a record budget of 8.9 trillion yen (S$70.9 billion) on Aug 31 as Tokyo looks to artificial intelligence to speed up decision-making in the face of a tense security environment.",
+          "The final budget reportedly could reach 10 trillion yen as Tokyo undergoes a sweeping upgrade of its defence in order to navigate growing tension with neighbours such as China, North Korea and Russia."
         ],
         "body": [
-          "According to the TV channel, 4,247 people are listed as missing.",
-          "The natural disaster struck northern Nepal on the morning of August 26.",
-          "According to preliminary information, the flood wave was caused by a snow and rock avalanche on the Nepal-China border, approximately 20 kilometers northeast of the Rasuwagadhi border crossing.",
-          "The powerful torrent of rock and debris traveled more than 70 kilometers down the riverbed at tremendous speed, destroying nearby settlements and flooding a large area."
+          "The latest request focuses on countering “new ways of warfare”, with an emphasis on the use of AI, drones and standoff missiles.",
+          "Under the request, the ministry hopes to implement an AI-powered decision support system.",
+          "It also wants to procure low-cost drones that can work in tandem with long-range missiles to neutralise enemy assets.",
+          "The ministry said it plans to develop underwater-launched hypersonic missiles and establish a new unit to bolster defences against cognitive warfare, a growing threat aimed at shaping public opinion through disinformation campaigns and other operations.",
+          "The budget request for the fiscal year starting from April 2027 highlights the latest step by Japan to boost its military to meet the volatile geopolitical reality, gradually shedding its traditional pacifist stance that limited the use of force purely for self-defence.",
+          "China’s rapid military expansion and North Korea’s steady development of missiles and nuclear weapons have pressed Japan to shore up its defence.",
+          "Russia’s war in Ukraine has fuelled worries among Japanese policymakers that a similar conflict could erupt in East Asia, considering China’s mounting pressure on Taiwan and its escalating territorial disputes with Japan.",
+          "The Nikkei newspaper said the defence ministry’s request may jump to more than 10 trillion yen, citing an unnamed ruling party lawmaker."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Nepal"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "4,247 people"
+            "text": "Ukraine"
           }
         ],
         "sentences": [
           {
-            "text": "The death toll from the devastating floods in Nepal has reached 919, China Central Television (CCTV) reported, citing Nepalese police.",
-            "source": "TASS English",
-            "item_id": "d97a4f8b4305bada7560582dcf7b5f30f80434e1364763722cf2915c8ee8d6e8:article",
+            "text": "Japan’s defence ministry requested a record budget of 8.9 trillion yen (S$70.9 billion) on Aug 31 as Tokyo looks to artificial intelligence to speed up decision-making in the face of a tense security environment.",
+            "source": "Straits Times Asia",
+            "item_id": "74f20cdc9f7d4e4ea75f5427c8498be850ca4b15797cee41439f745cc5ec8a38:article",
             "composed": false
           },
           {
-            "text": "BEIJING, August 31.",
-            "source": "TASS English",
-            "item_id": "d97a4f8b4305bada7560582dcf7b5f30f80434e1364763722cf2915c8ee8d6e8:article",
+            "text": "The budget request for the fiscal year starting from April 2027 highlights the latest step by Japan to boost its military to meet the volatile geopolitical reality, gradually shedding its traditional pacifist stance that limited the use of force purely for self-defence.",
+            "source": "Straits Times Asia",
+            "item_id": "74f20cdc9f7d4e4ea75f5427c8498be850ca4b15797cee41439f745cc5ec8a38:article",
             "composed": false
           },
           {
-            "text": "The natural disaster struck northern Nepal on the morning of August 26.",
-            "source": "TASS English",
-            "item_id": "d97a4f8b4305bada7560582dcf7b5f30f80434e1364763722cf2915c8ee8d6e8:article",
+            "text": "Russia’s war in Ukraine has fuelled worries among Japanese policymakers that a similar conflict could erupt in East Asia, considering China’s mounting pressure on Taiwan and its escalating territorial disputes with Japan.",
+            "source": "Straits Times Asia",
+            "item_id": "74f20cdc9f7d4e4ea75f5427c8498be850ca4b15797cee41439f745cc5ec8a38:article",
             "composed": false
           },
           {
-            "text": "According to the TV channel, 4,247 people are listed as missing.",
-            "source": "TASS English",
-            "item_id": "d97a4f8b4305bada7560582dcf7b5f30f80434e1364763722cf2915c8ee8d6e8:article",
+            "text": "The Nikkei newspaper said the defence ministry’s request may jump to more than 10 trillion yen, citing an unnamed ruling party lawmaker.",
+            "source": "Straits Times Asia",
+            "item_id": "74f20cdc9f7d4e4ea75f5427c8498be850ca4b15797cee41439f745cc5ec8a38:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://tass.com/society/2179765"
+        "url": "https://www.straitstimes.com/asia/east-asia/japan-seeks-record-55-6-bn-defence-budget-with-ai-focus"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
     },
     {
-      "id": "e43a29689d7df21416bf6fec1729c47d7bf75efc2239c73b0f90b2825fa491f7",
-      "title": "Japan’s biggest curry chain CoCo Ichibanya headed for sale",
-      "url": "https://www.straitstimes.com/asia/east-asia/japans-biggest-curry-chain-coco-ichibanya-headed-for-sale",
-      "source": "Straits Times Asia",
+      "id": "a0f64f299088980fd90bfd18fadd6501911059dc7224a2ef228bb34c10aa5672",
+      "title": "China film studio lets tourists act in short dramas for US$30 to fight low attendance",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3365745/china-film-studio-lets-tourists-act-short-dramas-us30-fight-low-attendance?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "The owner of CoCo Ichibanya is considering a sale of Japan’s largest curry rice chain – news that sent shares of Ichibanya Co soaring in Tokyo. Known for plates of thick Japanese curry over rice and customised with everything from pork cutlets to cheese, CoCo Ichibanya has almost 1,500 restaurants in Japan and globally, including locations in the US, UK and Singapore. Shares of operator Ichibanya jumped 16 per cent after parent company House Foods Group confirmed it was weighing a sale. Ichibanya’s market value was 174.2 billion yen (S$1.39 billion) as of Aug 31 in Tokyo. CoCo Ichibanya’s signature dish was first introduced to Japan by the British in the 19th century and adapted over the years into a sweeter, thicker stew served over rice. Tokuji and Naomi Munetsugu started serving curry in 1978 at their kissaten, or Japanese cafe, and later transformed the business into an international franchise. “A change of majority shareholders will be a good opportunity for Ichibanya to enter the next phase of business growth,” said Tsutomu Yamada, analyst at Mitsubishi UFJ eSmart Securities. Ichibanya will probably attract large buyers, including private equity firms, he said, adding that if the sale proceeds, the shares could climb by another 30 per cent. Ichibanya and House Foods, which owns 51 per cent of the curry company, confirmed an earlier report by the Nikkei newspaper, and are considering potential options, including privatisation of the restaurant chain. Japanese curry became a national staple thanks to its affordability, familiarity and easy customisation. CoCo Ichibanya offers different spice levels and toppings, including various vegetables and fried chicken. Popular with salarymen and tourists alike, its pork katsu and seafood curries are among the biggest sellers.",
-      "published_at": "2026-08-31T09:45:00+00:00",
-      "updated_at": "2026-08-31T09:45:00+00:00",
-      "effective_at": "2026-08-31T09:45:00+00:00",
+      "summary": "China’s Hengdian World Studios, the world’s largest film and TV studio, is now offering tourists the chance to shoot their own short dramas for about 200 yuan (US$30) per person, as a response to the recession caused by artificial intelligence. Previously, tourists flocked to Hengdian World Studios to admire the sets of their favourite dramas and explore the national 5A-rated attraction, which features over 100 sub-studios spread across 30 sq km and showcasing 5,000 years of history. Now, these...",
+      "published_at": "2026-08-31T10:00:06+00:00",
+      "updated_at": "2026-08-31T10:00:06+00:00",
+      "effective_at": "2026-08-31T10:00:06+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "companies",
+      "sector": "culture",
+      "subsector": "culture",
       "subregion": "East Asia",
       "country": null,
       "entities": [
-        "aug",
-        "co",
-        "coco",
-        "foods",
-        "group",
-        "house",
-        "ichibanya",
-        "japan",
-        "mitsubishi",
-        "munetsugu",
-        "naomi",
-        "nikkei",
-        "securities",
-        "singapore",
-        "tsutomu",
-        "ufj",
-        "uk",
-        "us",
-        "yamada"
+        "china",
+        "hengdian",
+        "studios",
+        "tv",
+        "us"
       ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 1,
-      "corroborating_source_names": [
-        "Japan Times"
-      ],
-      "verified_match_count": 1,
-      "priority_score": 68,
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "The owner of CoCo Ichibanya is considering a sale of Japan’s largest curry rice chain – news that sent shares of Ichibanya Co soaring in Tokyo.",
-        "Known for plates of thick Japanese curry over rice and customised with everything from pork cutlets to cheese, CoCo Ichibanya has almost 1,500 restaurants in Japan and globally, including locations in the US, UK and Singapore.",
-        "Shares of operator Ichibanya jumped 16 per cent after parent company House Foods Group confirmed it was weighing a sale.",
-        "Ichibanya’s market value was 174.2 billion yen (S$1.39 billion) as of Aug 31 in Tokyo.",
-        "CoCo Ichibanya’s signature dish was first introduced to Japan by the British in the 19th century and adapted over the years into a sweeter, thicker stew served over rice.",
-        "Tokuji and Naomi Munetsugu started serving curry in 1978 at their kissaten, or Japanese cafe, and later transformed the business into an international franchise.",
-        "“A change of majority shareholders will be a good opportunity for Ichibanya to enter the next phase of business growth,” said Tsutomu Yamada, analyst at Mitsubishi UFJ eSmart Securities.",
-        "Ichibanya will probably attract large buyers, including private equity firms, he said, adding that if the sale proceeds, the shares could climb by another 30 per cent.",
-        "Ichibanya and House Foods, which owns 51 per cent of the curry company, confirmed an earlier report by the Nikkei newspaper, and are considering potential options, including privatisation of the restaurant chain.",
-        "Japanese curry became a national staple thanks to its affordability, familiarity and easy customisation.",
-        "CoCo Ichibanya offers different spice levels and toppings, including various vegetables and fried chicken.",
-        "Popular with salarymen and tourists alike, its pork katsu and seafood curries are among the biggest sellers."
-      ],
       "event_status": "NEW",
-      "event_id": "27dd6259092195bd0ea5a9ee",
-      "importance_score": 38.0,
+      "event_id": "72c357895eec01a9ff64837d",
+      "importance_score": 41.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 8.0,
         "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
-        "corroboration": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "economic": 8,
+          "security": 4
+        }
+      },
+      "story_id": "a0f64f299088980fd90bfd18fadd6501911059dc7224a2ef228bb34c10aa5672",
+      "public_label": "📰 NEWS",
+      "headline": "China film studio lets tourists act in short dramas for US$30 to fight low attendance",
+      "briefing": {
+        "opening": [
+          "China’s Hengdian World Studios, the world’s largest film and TV studio, is now offering tourists the chance to shoot their own short dramas for about 200 yuan (US$30) per person, as a response to the recession caused by artificial intelligence.",
+          "Previously, tourists flocked to Hengdian World Studios to admire the sets of their favourite dramas and explore the national 5A-rated attraction, which features over 100 sub-studios spread across 30 sq km and showcasing 5,000 years of history."
+        ],
+        "body": [
+          "Now, these..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "China’s Hengdian World Studios, the world’s largest film and TV studio, is now offering tourists the chance to shoot their own short dramas for about 200 yuan (US$30) per person, as a response to the recession caused by artificial intelligence.",
+            "source": "South China Morning Post",
+            "item_id": "a0f64f299088980fd90bfd18fadd6501911059dc7224a2ef228bb34c10aa5672",
+            "composed": false
+          },
+          {
+            "text": "Previously, tourists flocked to Hengdian World Studios to admire the sets of their favourite dramas and explore the national 5A-rated attraction, which features over 100 sub-studios spread across 30 sq km and showcasing 5,000 years of history.",
+            "source": "South China Morning Post",
+            "item_id": "a0f64f299088980fd90bfd18fadd6501911059dc7224a2ef228bb34c10aa5672",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/people-culture/trending-china/article/3365745/china-film-studio-lets-tourists-act-short-dramas-us30-fight-low-attendance?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "c9be95b14318442bbd645b39e6b6ccd9ab117c45201173dc693fc9cc2ee7551f",
+      "title": "US renews attack on Iran while threatening financial sanctions on Tehran allies",
+      "url": "https://www.france24.com/en/us-renews-attack-on-iran-while-threatening-financial-sanctions-on-tehran-allies",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "Hostilities between the US and Iran resumed after a month's pause. The US said Iran was preparing to launch sea mines into the Strait of Hormuz. Iran retaliated by hitting US military bases in Jordan. Meanwhile, the US Treasury Secretary said there would be more economic sanctions on the way for banks doing business with Iran.",
+      "published_at": "2026-08-31T09:40:48+00:00",
+      "updated_at": "2026-08-31T09:40:48+00:00",
+      "effective_at": "2026-08-31T09:40:48+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "trade",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "hormuz",
+        "hostilities",
+        "iran",
+        "jordan",
+        "strait",
+        "treasury",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "ae15b6471dbab52905748a5c",
+      "importance_score": 40.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 8,
+          "security": 4
+        }
+      },
+      "story_id": "c9be95b14318442bbd645b39e6b6ccd9ab117c45201173dc693fc9cc2ee7551f",
+      "public_label": "📰 NEWS",
+      "headline": "US renews attack on Iran while threatening financial sanctions on Tehran allies",
+      "briefing": {
+        "opening": [
+          "Hostilities between the US and Iran resumed after a month's pause.",
+          "The US said Iran was preparing to launch sea mines into the Strait of Hormuz."
+        ],
+        "body": [
+          "Iran retaliated by hitting US military bases in Jordan.",
+          "Meanwhile, the US Treasury Secretary said there would be more economic sanctions on the way for banks doing business with Iran."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Jordan"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The US said Iran was preparing to launch sea mines into the Strait of Hormuz.",
+            "source": "France 24",
+            "item_id": "c9be95b14318442bbd645b39e6b6ccd9ab117c45201173dc693fc9cc2ee7551f",
+            "composed": false
+          },
+          {
+            "text": "Hostilities between the US and Iran resumed after a month's pause.",
+            "source": "France 24",
+            "item_id": "c9be95b14318442bbd645b39e6b6ccd9ab117c45201173dc693fc9cc2ee7551f",
+            "composed": false
+          },
+          {
+            "text": "Meanwhile, the US Treasury Secretary said there would be more economic sanctions on the way for banks doing business with Iran.",
+            "source": "France 24",
+            "item_id": "c9be95b14318442bbd645b39e6b6ccd9ab117c45201173dc693fc9cc2ee7551f",
+            "composed": false
+          },
+          {
+            "text": "Iran retaliated by hitting US military bases in Jordan.",
+            "source": "France 24",
+            "item_id": "c9be95b14318442bbd645b39e6b6ccd9ab117c45201173dc693fc9cc2ee7551f",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/us-renews-attack-on-iran-while-threatening-financial-sanctions-on-tehran-allies"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "1e9282d7a47dfd4d09ad55297a66e6b806f34d6d6ef02fe03e506b6550ffd0e3",
+      "title": "Artificial Intelligence in Europe: does advanced AI have a glass ceiling?",
+      "url": "https://www.france24.com/en/tv-shows/people-profit/20260831-artificial-intelligence-in-europe-does-advanced-ai-have-a-glass-ceiling",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "What does Europe lose if advanced AI adoption stays at current levels? A report commissioned by US tech giant Amazon Web Services finds that skills shortages and regulatory uncertainty are hindering AI adoption in Europe and 38% of European startups are looking to move abroad. Charles Pellegrin talks to Sasha Rubel, AWS's head of generative AI policy for Europe, the Middle East and Africa.",
+      "published_at": "2026-08-31T09:39:28+00:00",
+      "updated_at": "2026-08-31T09:39:28+00:00",
+      "effective_at": "2026-08-31T09:39:28+00:00",
+      "language_status": "ENGLISH",
+      "category": "technology",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "technology",
+      "subsector": "ai",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "africa",
+        "ai",
+        "amazon",
+        "artificial",
+        "aws",
+        "charles",
+        "east",
+        "europe",
+        "european",
+        "intelligence",
+        "middle",
+        "pellegrin",
+        "rubel",
+        "sasha",
+        "services",
+        "us",
+        "web"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 1,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "3a8c83b85ae108a935840c9c",
+      "importance_score": 39.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 3,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "scientific": 4
+        }
+      },
+      "story_id": "1e9282d7a47dfd4d09ad55297a66e6b806f34d6d6ef02fe03e506b6550ffd0e3",
+      "public_label": "📰 NEWS",
+      "headline": "Artificial Intelligence in Europe: does advanced AI have a glass ceiling?",
+      "briefing": {
+        "opening": [
+          "What does Europe lose if advanced AI adoption stays at current levels?",
+          "A report commissioned by US tech giant Amazon Web Services finds that skills shortages and regulatory uncertainty are hindering AI adoption in Europe and 38% of European startups are looking to move abroad."
+        ],
+        "body": [
+          "Charles Pellegrin talks to Sasha Rubel, AWS's head of generative AI policy for Europe, the Middle East and Africa."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Europe"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "What does Europe lose if advanced AI adoption stays at current levels?",
+            "source": "France 24",
+            "item_id": "1e9282d7a47dfd4d09ad55297a66e6b806f34d6d6ef02fe03e506b6550ffd0e3",
+            "composed": false
+          },
+          {
+            "text": "Charles Pellegrin talks to Sasha Rubel, AWS's head of generative AI policy for Europe, the Middle East and Africa.",
+            "source": "France 24",
+            "item_id": "1e9282d7a47dfd4d09ad55297a66e6b806f34d6d6ef02fe03e506b6550ffd0e3",
+            "composed": false
+          },
+          {
+            "text": "A report commissioned by US tech giant Amazon Web Services finds that skills shortages and regulatory uncertainty are hindering AI adoption in Europe and 38% of European startups are looking to move abroad.",
+            "source": "France 24",
+            "item_id": "1e9282d7a47dfd4d09ad55297a66e6b806f34d6d6ef02fe03e506b6550ffd0e3",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/tv-shows/people-profit/20260831-artificial-intelligence-in-europe-does-advanced-ai-have-a-glass-ceiling"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "7233425e8de3f27b7459b7bfbe4247efa8707d607e047f70ea78875d8fe921bf",
+      "title": "Colombian rebel group say kidnapped French Foreign Legion soldier is still alive",
+      "url": "https://www.france24.com/en/americas/20260831-colombian-rebel-group-say-kidnapped-french-foreign-legion-soldier-is-still-alive",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "South America",
+      "discovery": false,
+      "summary": "Rebels from the Central General Staff, the main splinter group of Colombia's defunct FARC guerrillas, on Sunday said they were responsible for kidnapping a Colombian national serving in the elite French Foreign Legion. The guerrillas said that Jose Olger Melo Charry, who was reportedly on leave in his home country, was alive and in \"perfect health\".",
+      "published_at": "2026-08-31T09:54:28+00:00",
+      "updated_at": "2026-08-31T09:54:28+00:00",
+      "effective_at": "2026-08-31T09:54:28+00:00",
+      "language_status": "ENGLISH",
+      "category": "health",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "conflict",
+      "subregion": "South America",
+      "country": null,
+      "entities": [
+        "central",
+        "charry",
+        "colombia",
+        "colombian",
+        "farc",
+        "foreign",
+        "france",
+        "jose",
+        "legion",
+        "melo",
+        "olger",
+        "rebels",
+        "staff"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "726a4718bbab4ae39656ee8e",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 10,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
         "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
@@ -232,60 +956,33 @@
         },
         "significance_dims": {}
       },
-      "story_id": "e43a29689d7df21416bf6fec1729c47d7bf75efc2239c73b0f90b2825fa491f7",
+      "story_id": "7233425e8de3f27b7459b7bfbe4247efa8707d607e047f70ea78875d8fe921bf",
       "public_label": "📰 NEWS",
-      "headline": "Japan’s biggest curry chain CoCo Ichibanya headed for sale",
+      "headline": "Colombian rebel group say kidnapped French Foreign Legion soldier is still alive",
       "briefing": {
         "opening": [
-          "The owner of CoCo Ichibanya is considering a sale of Japan’s largest curry rice chain – news that sent shares of Ichibanya Co soaring in Tokyo.",
-          "Known for plates of thick Japanese curry over rice and customised with everything from pork cutlets to cheese, CoCo Ichibanya has almost 1,500 restaurants in Japan and globally, including locations in the US, UK and Singapore."
+          "Rebels from the Central General Staff, the main splinter group of Colombia's defunct FARC guerrillas, on Sunday said they were responsible for kidnapping a Colombian national serving in the elite French Foreign Legion.",
+          "The guerrillas said that Jose Olger Melo Charry, who was reportedly on leave in his home country, was alive and in \"perfect health\"."
         ],
-        "body": [
-          "Shares of operator Ichibanya jumped 16 per cent after parent company House Foods Group confirmed it was weighing a sale.",
-          "Ichibanya’s market value was 174.2 billion yen (S$1.39 billion) as of Aug 31 in Tokyo.",
-          "CoCo Ichibanya’s signature dish was first introduced to Japan by the British in the 19th century and adapted over the years into a sweeter, thicker stew served over rice.",
-          "Tokuji and Naomi Munetsugu started serving curry in 1978 at their kissaten, or Japanese cafe, and later transformed the business into an international franchise.",
-          "“A change of majority shareholders will be a good opportunity for Ichibanya to enter the next phase of business growth,” said Tsutomu Yamada, analyst at Mitsubishi UFJ eSmart Securities.",
-          "Ichibanya will probably attract large buyers, including private equity firms, he said, adding that if the sale proceeds, the shares could climb by another 30 per cent.",
-          "Ichibanya and House Foods, which owns 51 per cent of the curry company, confirmed an earlier report by the Nikkei newspaper, and are considering potential options, including privatisation of the restaurant chain.",
-          "Japanese curry became a national staple thanks to its affordability, familiarity and easy customisation."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Tokyo"
-          }
-        ],
+        "body": [],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Ichibanya’s market value was 174.2 billion yen (S$1.39 billion) as of Aug 31 in Tokyo.",
-            "source": "Straits Times Asia",
-            "item_id": "e43a29689d7df21416bf6fec1729c47d7bf75efc2239c73b0f90b2825fa491f7:article",
+            "text": "The guerrillas said that Jose Olger Melo Charry, who was reportedly on leave in his home country, was alive and in \"perfect health\".",
+            "source": "France 24",
+            "item_id": "7233425e8de3f27b7459b7bfbe4247efa8707d607e047f70ea78875d8fe921bf",
             "composed": false
           },
           {
-            "text": "Known for plates of thick Japanese curry over rice and customised with everything from pork cutlets to cheese, CoCo Ichibanya has almost 1,500 restaurants in Japan and globally, including locations in the US, UK and Singapore.",
-            "source": "Straits Times Asia",
-            "item_id": "e43a29689d7df21416bf6fec1729c47d7bf75efc2239c73b0f90b2825fa491f7:article",
-            "composed": false
-          },
-          {
-            "text": "Shares of operator Ichibanya jumped 16 per cent after parent company House Foods Group confirmed it was weighing a sale.",
-            "source": "Straits Times Asia",
-            "item_id": "e43a29689d7df21416bf6fec1729c47d7bf75efc2239c73b0f90b2825fa491f7:article",
-            "composed": false
-          },
-          {
-            "text": "CoCo Ichibanya’s signature dish was first introduced to Japan by the British in the 19th century and adapted over the years into a sweeter, thicker stew served over rice.",
-            "source": "Straits Times Asia",
-            "item_id": "e43a29689d7df21416bf6fec1729c47d7bf75efc2239c73b0f90b2825fa491f7:article",
+            "text": "Rebels from the Central General Staff, the main splinter group of Colombia's defunct FARC guerrillas, on Sunday said they were responsible for kidnapping a Colombian national serving in the elite French Foreign Legion.",
+            "source": "France 24",
+            "item_id": "7233425e8de3f27b7459b7bfbe4247efa8707d607e047f70ea78875d8fe921bf",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/east-asia/japans-biggest-curry-chain-coco-ichibanya-headed-for-sale"
+        "url": "https://www.france24.com/en/americas/20260831-colombian-rebel-group-say-kidnapped-french-foreign-legion-soldier-is-still-alive"
       },
       "group_size": 1,
       "label": "📰 NEWS"
