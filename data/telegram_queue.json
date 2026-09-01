@@ -1,73 +1,211 @@
 {
-  "generated_at": "2026-09-01T18:20:49.662122+00:00",
-  "count": 1,
+  "generated_at": "2026-09-01T18:31:00.370394+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "b9327dc04a5e1b14110792186efef0017a0244b7b7b2a6212dbe61794913c78c",
-      "title": "Putin, Erdogan discuss Black Sea situation one-on-one — Kremlin aide",
-      "url": "https://tass.com/politics/2180665",
+      "id": "e1e2224d551bf5ea922680b729e08b9b5737dd471401aa83f9c3a4d72e3ca358",
+      "title": "Germany to terminate agreement on Russian House in Berlin — foreign minister",
+      "url": "https://tass.com/world/2180627",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "BISHKEK, September 1. Russian President Vladimir Putin and Turkish leader Recep Tayyip Erdogan held a one-on-one discussion on the situation around the Black Sea, Kremlin aide. Yury Ushakov told Rossiyskaya Gazeta. \"As far as I know, the main topic was the situation around the Black Sea,\" he said. The Kremlin representative noted their one-on-one meeting lasted almost an hour and a half.",
-      "published_at": "2026-09-01T18:17:19+00:00",
-      "updated_at": "2026-09-01T18:17:19+00:00",
-      "effective_at": "2026-09-01T18:17:19+00:00",
+      "summary": "BERLIN, September 1. The German government has decided to terminate the agreement on the activities of the Russian House in Berlin following a drone incident at Leipzig/Halle Airport in early August, German Foreign Minister Johann Wadephul said. In his view, Russia is responsible for a \"hybrid attack in Leipzig.\" \"The federal government works in close coordination with its NATO and European Union partners. It enjoys their support and, in turn, supports them. Germany is staying the course in its security policy,\" Wadephul said at a news conference in Berlin. \"The agreement on the activities of the Russian House in Berlin is being terminated,\" he added. On Tuesday, the German government officially blamed Russia for the drone incident at Leipzig/Halle Airport and announced countermeasures. The Russian Embassy in Berlin earlier described it as a hastily fabricated provocation, saying that the situation \"serves exclusively the interests of Kiev and the militaristic wing of the European political class.\"",
+      "published_at": "2026-09-01T18:27:58+00:00",
+      "updated_at": "2026-09-01T18:27:58+00:00",
+      "effective_at": "2026-09-01T18:27:58+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": null,
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "bishkek",
-        "black",
-        "erdogan",
-        "gazeta",
-        "putin",
-        "recep",
-        "rossiyskaya",
+        "airport",
+        "embassy",
+        "european",
+        "foreign",
+        "german",
+        "germany",
+        "halle",
+        "house",
+        "johann",
+        "leipzig",
+        "nato",
         "russia",
-        "sea",
-        "tayyip",
-        "turkish",
-        "ushakov",
-        "vladimir",
-        "yury"
+        "ukraine",
+        "union",
+        "wadephul"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 88,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "BISHKEK, September 1.",
-        "Russian President Vladimir Putin and Turkish leader Recep Tayyip Erdogan held a one-on-one discussion on the situation around the Black Sea, Kremlin aide.",
-        "Yury Ushakov told Rossiyskaya Gazeta.",
-        "\"As far as I know, the main topic was the situation around the Black Sea,\" he said.",
-        "The Kremlin representative noted their one-on-one meeting lasted almost an hour and a half."
+        "BERLIN, September 1.",
+        "The German government has decided to terminate the agreement on the activities of the Russian House in Berlin following a drone incident at Leipzig/Halle Airport in early August, German Foreign Minister Johann Wadephul said.",
+        "In his view, Russia is responsible for a \"hybrid attack in Leipzig.\"",
+        "\"The federal government works in close coordination with its NATO and European Union partners.",
+        "It enjoys their support and, in turn, supports them.",
+        "Germany is staying the course in its security policy,\" Wadephul said at a news conference in Berlin.",
+        "\"The agreement on the activities of the Russian House in Berlin is being terminated,\" he added.",
+        "On Tuesday, the German government officially blamed Russia for the drone incident at Leipzig/Halle Airport and announced countermeasures.",
+        "The Russian Embassy in Berlin earlier described it as a hastily fabricated provocation, saying that the situation \"serves exclusively the interests of Kiev and the militaristic wing of the European political class.\""
       ],
-      "event_status": "NEW",
-      "event_id": "49866f8dbf4077249b31ded2",
-      "importance_score": 31.0,
-      "importance_level": "LOW",
+      "event_status": "UPDATE",
+      "event_id": "1bffed8f7f4455faf02d21a8",
+      "importance_score": 73.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "impact": 19,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 28,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 21,
+          "injured": 21,
+          "displaced": 50,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "infrastructure": 8,
+          "human": 8,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "e1e2224d551bf5ea922680b729e08b9b5737dd471401aa83f9c3a4d72e3ca358",
+      "public_label": "🔄 UPDATE",
+      "headline": "Germany to terminate agreement on Russian House in Berlin — foreign minister",
+      "briefing": {
+        "opening": [
+          "BERLIN, September 1.",
+          "The German government has decided to terminate the agreement on the activities of the Russian House in Berlin following a drone incident at Leipzig/Halle Airport in early August, German Foreign Minister Johann Wadephul said."
+        ],
+        "body": [
+          "In his view, Russia is responsible for a \"hybrid attack in Leipzig.\" \"The federal government works in close coordination with its NATO and European Union partners.",
+          "It enjoys their support and, in turn, supports them.",
+          "Germany is staying the course in its security policy,\" Wadephul said at a news conference in Berlin.",
+          "\"The agreement on the activities of the Russian House in Berlin is being terminated,\" he added.",
+          "On Tuesday, the German government officially blamed Russia for the drone incident at Leipzig/Halle Airport and announced countermeasures.",
+          "The Russian Embassy in Berlin earlier described it as a hastily fabricated provocation, saying that the situation \"serves exclusively the interests of Kiev and the militaristic wing of the European political class.\""
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Berlin"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The German government has decided to terminate the agreement on the activities of the Russian House in Berlin following a drone incident at Leipzig/Halle Airport in early August, German Foreign Minister Johann Wadephul said.",
+            "source": "TASS English",
+            "item_id": "e1e2224d551bf5ea922680b729e08b9b5737dd471401aa83f9c3a4d72e3ca358:article",
+            "composed": false
+          },
+          {
+            "text": "BERLIN, September 1.",
+            "source": "TASS English",
+            "item_id": "e1e2224d551bf5ea922680b729e08b9b5737dd471401aa83f9c3a4d72e3ca358:article",
+            "composed": false
+          },
+          {
+            "text": "On Tuesday, the German government officially blamed Russia for the drone incident at Leipzig/Halle Airport and announced countermeasures.",
+            "source": "TASS English",
+            "item_id": "e1e2224d551bf5ea922680b729e08b9b5737dd471401aa83f9c3a4d72e3ca358:article",
+            "composed": false
+          },
+          {
+            "text": "In his view, Russia is responsible for a \"hybrid attack in Leipzig.\"",
+            "source": "TASS English",
+            "item_id": "e1e2224d551bf5ea922680b729e08b9b5737dd471401aa83f9c3a4d72e3ca358:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/world/2180627"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "9430eb2d4fcfdc67f26e554ce9d5b30aec34c6c772b40b458ff3ad0bbed3e233",
+      "title": "Syria was building nuclear reactor in Deir el-Zour under Assad, UN report finds",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3366033/syria-was-building-nuclear-reactor-deir-el-zour-under-assad-un-report-finds?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Inspectors with the UN nuclear watchdog visited several sites in Syria in August and carried out verification work, according to a confidential report circulated to member states and seen Tuesday by Associated Press. Based on this visit, the International Atomic Energy Agency reported that it is “able to establish that the former Syrian authorities had failed to report nuclear material, facilities and activities as required under the NPT Safeguards Agreement”. This information included a nuclear...",
+      "published_at": "2026-09-01T18:23:34+00:00",
+      "updated_at": "2026-09-01T18:23:34+00:00",
+      "effective_at": "2026-09-01T18:23:34+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "nuclear",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "agency",
+        "agreement",
+        "assad",
+        "associated",
+        "atomic",
+        "deir",
+        "energy",
+        "inspectors",
+        "international",
+        "npt",
+        "press",
+        "safeguards",
+        "syria",
+        "un"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "fd565238b20a1f32977f7a09",
+      "importance_score": 66.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 18,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 20,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -76,50 +214,50 @@
           "displaced": 0,
           "missing": 0,
           "affected": 0,
-          "major_incident": false,
+          "major_incident": true,
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 4
+          "security": 8,
+          "infrastructure": 8,
+          "scientific": 4
         }
       },
-      "story_id": "b9327dc04a5e1b14110792186efef0017a0244b7b7b2a6212dbe61794913c78c",
+      "story_id": "9430eb2d4fcfdc67f26e554ce9d5b30aec34c6c772b40b458ff3ad0bbed3e233",
       "public_label": "📰 NEWS",
-      "headline": "Putin, Erdogan discuss Black Sea situation one-on-one — Kremlin aide",
+      "headline": "Syria was building nuclear reactor in Deir el-Zour under Assad, UN report finds",
       "briefing": {
         "opening": [
-          "BISHKEK, September 1.",
-          "Russian President Vladimir Putin and Turkish leader Recep Tayyip Erdogan held a one-on-one discussion on the situation around the Black Sea, Kremlin aide."
+          "Inspectors with the UN nuclear watchdog visited several sites in Syria in August and carried out verification work, according to a confidential report circulated to member states and seen Tuesday by Associated Press.",
+          "Based on this visit, the International Atomic Energy Agency reported that it is “able to establish that the former Syrian authorities had failed to report nuclear material, facilities and activities as required under the NPT Safeguards Agreement”."
         ],
         "body": [
-          "Yury Ushakov told Rossiyskaya Gazeta.",
-          "\"As far as I know, the main topic was the situation around the Black Sea,\" he said.",
-          "The Kremlin representative noted their one-on-one meeting lasted almost an hour and a half."
+          "This information included a nuclear..."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Syria"
+          }
+        ],
         "sentences": [
           {
-            "text": "The Kremlin representative noted their one-on-one meeting lasted almost an hour and a half.",
-            "source": "TASS English",
-            "item_id": "b9327dc04a5e1b14110792186efef0017a0244b7b7b2a6212dbe61794913c78c:article",
+            "text": "Based on this visit, the International Atomic Energy Agency reported that it is “able to establish that the former Syrian authorities had failed to report nuclear material, facilities and activities as required under the NPT Safeguards Agreement”.",
+            "source": "South China Morning Post",
+            "item_id": "9430eb2d4fcfdc67f26e554ce9d5b30aec34c6c772b40b458ff3ad0bbed3e233",
             "composed": false
           },
           {
-            "text": "Russian President Vladimir Putin and Turkish leader Recep Tayyip Erdogan held a one-on-one discussion on the situation around the Black Sea, Kremlin aide.",
-            "source": "TASS English",
-            "item_id": "b9327dc04a5e1b14110792186efef0017a0244b7b7b2a6212dbe61794913c78c:article",
-            "composed": false
-          },
-          {
-            "text": "\"As far as I know, the main topic was the situation around the Black Sea,\" he said.",
-            "source": "TASS English",
-            "item_id": "b9327dc04a5e1b14110792186efef0017a0244b7b7b2a6212dbe61794913c78c:article",
+            "text": "Inspectors with the UN nuclear watchdog visited several sites in Syria in August and carried out verification work, according to a confidential report circulated to member states and seen Tuesday by Associated Press.",
+            "source": "South China Morning Post",
+            "item_id": "9430eb2d4fcfdc67f26e554ce9d5b30aec34c6c772b40b458ff3ad0bbed3e233",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://tass.com/politics/2180665"
+        "url": "https://www.scmp.com/news/world/middle-east/article/3366033/syria-was-building-nuclear-reactor-deir-el-zour-under-assad-un-report-finds?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
