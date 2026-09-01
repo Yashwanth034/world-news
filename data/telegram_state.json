@@ -1,22 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "b64da2c73df2625a5c9c8511c602fee0adc3a11062df3baf568a8836e23932ea",
-      "event_id": "947503a6dcdca67a263bec5f",
-      "item_id": "b64da2c73df2625a5c9c8511c602fee0adc3a11062df3baf568a8836e23932ea",
-      "label": "⚡ JUST IN",
-      "scheduled_at": "2026-09-01T09:44:59+00:00",
-      "attempts": 0
-    },
-    {
-      "story_id": "2ee19b66602408f6e264783a14de5fd5b8c29d006f3186dc7d3be613eeec0589",
-      "event_id": "4f9e837c42c7a39c7c4b6ad8",
-      "item_id": "2ee19b66602408f6e264783a14de5fd5b8c29d006f3186dc7d3be613eeec0589",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-09-01T09:44:55+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "69ab881869e1a5f46093f5296c30cae36438fea2457571650deab63526e3f08b",
       "event_id": "db280e4f6194b10ca002a3d9",
       "item_id": "69ab881869e1a5f46093f5296c30cae36438fea2457571650deab63526e3f08b",
@@ -1138,6 +1122,15 @@
     }
   ],
   "posted": [
+    {
+      "story_id": "d03c03ffc02f66464f5908fbbdb023826a7bea075ecfd875c0236bec7f048164",
+      "event_id": "2b1f5ea4ab52f03a36b9c693",
+      "item_id": "d03c03ffc02f66464f5908fbbdb023826a7bea075ecfd875c0236bec7f048164",
+      "label": "🔄 UPDATE",
+      "message_id": 2990,
+      "posted_at": "2026-09-01T21:42:08.000136+00:00",
+      "scheduled_at": "2026-09-01T21:42:08+00:00"
+    },
     {
       "story_id": "f0c559ccee86d902bdd8b7568a522f0e6f8e8f160d49b224cfb2471c138bf9bb",
       "event_id": "a8d2f5d40364103433f0611c",
@@ -4062,15 +4055,6 @@
       "message_id": 2664,
       "posted_at": "2026-08-30T15:53:48.000133+00:00",
       "scheduled_at": "2026-08-30T15:53:08+00:00"
-    },
-    {
-      "story_id": "d03c03ffc02f66464f5908fbbdb023826a7bea075ecfd875c0236bec7f048164",
-      "event_id": "2b1f5ea4ab52f03a36b9c693",
-      "item_id": "d03c03ffc02f66464f5908fbbdb023826a7bea075ecfd875c0236bec7f048164",
-      "label": "🔄 UPDATE",
-      "message_id": 2990,
-      "posted_at": "2026-09-01T21:42:08.000136+00:00",
-      "scheduled_at": "2026-09-01T21:42:08+00:00"
     }
   ],
   "failures": [],
