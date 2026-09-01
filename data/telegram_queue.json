@@ -1,63 +1,348 @@
 {
-  "generated_at": "2026-09-01T05:22:55.791801+00:00",
-  "count": 7,
+  "generated_at": "2026-09-01T05:50:49.203437+00:00",
+  "count": 10,
   "stories": [
     {
-      "id": "aabab3389fee9548c2c1f4cc6af81bce326dbc94cc50a1b23526349c241d4b1d",
-      "title": "Over 200 prominent Israelis urge PM to end West Bank violence — newspaper",
-      "url": "https://tass.com/world/2180171",
-      "source": "TASS English",
+      "id": "c16e36068349b6c9f0694dcb4292fe67fca22869ac85babaa5259a4af6992145",
+      "title": "Russia strikes Ukraine capital for sixth straight day, killing at least 9",
+      "url": "https://www.scmp.com/news/world/europe/article/3365931/russia-strikes-ukraine-capital-sixth-straight-day-killing-least-9?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "The New York Times reported that the letter was signed by two former prime ministers, more than three dozen retired Army and Air Force generals, the former heads of the nation’s foreign and domestic intelligence services, as well as rabbis, a Nobel laureate and one of Israel’s most revered novelists",
-      "published_at": "2026-09-01T05:08:00+00:00",
-      "updated_at": "2026-09-01T05:08:00+00:00",
-      "effective_at": "2026-09-01T05:08:00+00:00",
+      "summary": "Nine people were killed and over a dozen injured in Russian air attacks on Kyiv and the surrounding region on Tuesday, authorities said, in the sixth consecutive day of ‌strikes on the Ukrainian capital. Attacks both in Ukraine and Russia continue as efforts are ongoing to find a solution to end the deadliest conflict on the European continent since World War II, which started with Moscow’s full-scale invasion in February 2022. Eight people were killed and another five wounded in Kyiv, three of...",
+      "published_at": "2026-09-01T05:39:22+00:00",
+      "updated_at": "2026-09-01T05:39:22+00:00",
+      "effective_at": "2026-09-01T05:39:22+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
+      "category": "conflict",
+      "score": 73,
       "confidence": "medium",
-      "urgency_terms": [],
+      "urgency_terms": [
+        "invasion"
+      ],
       "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "West Asia / Middle East",
+      "subsector": "conflict",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "air",
-        "army",
-        "bank",
-        "force",
-        "israel",
-        "israelis",
-        "new_york",
-        "nobel",
-        "pm",
-        "times",
-        "west"
+        "european",
+        "ii",
+        "russia",
+        "ukraine",
+        "war"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "378488ee157e3885fa9267c2",
-      "importance_score": 48.0,
-      "importance_level": "LOW",
+      "event_status": "UPDATE",
+      "event_id": "413dc6c1c273eeea75c99860",
+      "importance_score": 88.0,
+      "importance_level": "CRITICAL",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 34,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 20,
+        "significance": 28,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 2022,
+          "injured": 2022,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8,
+          "human": 12
+        }
+      },
+      "story_id": "c16e36068349b6c9f0694dcb4292fe67fca22869ac85babaa5259a4af6992145",
+      "public_label": "🔄 UPDATE",
+      "headline": "Russia strikes Ukraine capital for sixth straight day, killing at least 9",
+      "briefing": {
+        "opening": [
+          "Nine people were killed and over a dozen injured in Russian air attacks on Kyiv and the surrounding region on Tuesday, authorities said, in the sixth consecutive day of ‌strikes on the Ukrainian capital.",
+          "Attacks both in Ukraine and Russia continue as efforts are ongoing to find a solution to end the deadliest conflict on the European continent since World War II, which started with Moscow’s full-scale invasion in February 2022."
+        ],
+        "body": [
+          "Eight people were killed and another five wounded in Kyiv, three of..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Russian"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Nine people were killed and over a dozen injured in Russian air attacks on Kyiv and the surrounding region on Tuesday, authorities said, in the sixth consecutive day of ‌strikes on the Ukrainian capital.",
+            "source": "South China Morning Post",
+            "item_id": "c16e36068349b6c9f0694dcb4292fe67fca22869ac85babaa5259a4af6992145",
+            "composed": false
+          },
+          {
+            "text": "Attacks both in Ukraine and Russia continue as efforts are ongoing to find a solution to end the deadliest conflict on the European continent since World War II, which started with Moscow’s full-scale invasion in February 2022.",
+            "source": "South China Morning Post",
+            "item_id": "c16e36068349b6c9f0694dcb4292fe67fca22869ac85babaa5259a4af6992145",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/world/europe/article/3365931/russia-strikes-ukraine-capital-sixth-straight-day-killing-least-9?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "8a562b67fde195f1d889768231d863285aa444a832aaa90fd719eaf8712ceffd",
+      "title": "Can Europe fill vacuum left in Lebanon as UN peacekeeping force winds up?",
+      "url": "https://www.aljazeera.com/news/2026/9/1/can-europe-fill-vacuum-left-in-lebanon-as-un-peacekeeping-force-winds-up?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Analysts say Israel could benefit when UNIFIL’s mandate expires on December 31. With the nearly 50-year United Nations peacekeeping mandate in southern Lebanon set to expire at the end of 2026, proposals for a European Union mission to fill some part of the vacuum have attracted attention. Lebanon, still under almost daily Israeli bombardment with a fifth of its territory occupied and about 335,000 people still displaced, is expected to be on the agenda during an EU defence and foreign ministers meeting in Ireland this week. The European External Action Service (EEAS), the EU’s diplomatic service, has circulated a proposal for a three-year military and civilian mission to advise and train the Lebanese armed forces (LAF) and the Internal Security Forces (ISF), Lebanon’s police, including in border and maritime security, an attempt, officials said, not to replace the UN peacekeeping force – known as UNIFIL – but to strengthen the Lebanese state. But while the EU foreign policy chief, Kaja Kallas, told reporters in May that Europeans were willing to put together a mission to help the LAF, she questioned whether there was an appetite for an entirely new European mission to come in to fully replace UNIFIL’s mission. UNIFIL was created on March 19, 1978, days after Israel invaded southern Lebanon. Its mandate has been expanded several times since, most consequentially after the 2006 war between Israel and the Lebanese group Hezbollah when UN Security Council Resolution 1701 added the tasks of monitoring the ceasefire and supporting the LAF’s deployment in the south to UNIFIL’s mission. However, UNIFIL was never given the power to enforce any of it. It could watch, report and accompany but not compel an Israeli withdrawal or disarm any armed group. Yet it was Israel that was largely behind UNIFIL’s end after it accused the force of failing to prevent Hezbollah’s military build-up along the Israel-Lebanon border. A new European force is unlikely to be tasked with confirming an Israeli withdrawal or disarming Hezbollah, said Raymond Murphy, a professor at the Irish Centre for Human Rights at the University of Galway who served as a UN peacekeeper with UNIFIL. Its role would more likely be to monitor, he said, but with “sufficient capacity to use military force to protect itself and to carry out its mandate.",
+      "published_at": "2026-09-01T05:25:37+00:00",
+      "updated_at": "2026-09-01T05:25:37+00:00",
+      "effective_at": "2026-09-01T05:25:37+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "action",
+        "centre",
+        "eeas",
+        "eu",
+        "europe",
+        "european",
+        "europeans",
+        "external",
+        "forces",
+        "galway",
+        "hezbollah",
+        "however",
+        "human",
+        "internal",
+        "ireland",
+        "irish",
+        "isf",
+        "israel",
+        "israel-lebanon",
+        "kaja",
+        "kallas",
+        "laf",
+        "lebanese",
+        "lebanon",
+        "murphy",
+        "nations",
+        "raymond",
+        "resolution",
+        "rights",
+        "security",
+        "service",
+        "un",
+        "unifil",
+        "union",
+        "united",
+        "university"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 1,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Analysts say Israel could benefit when UNIFIL’s mandate expires on December 31.",
+        "With the nearly 50-year United Nations peacekeeping mandate in southern Lebanon set to expire at the end of 2026, proposals for a European Union mission to fill some part of the vacuum have attracted attention.",
+        "Lebanon, still under almost daily Israeli bombardment with a fifth of its territory occupied and about 335,000 people still displaced, is expected to be on the agenda during an EU defence and foreign ministers meeting in Ireland this week.",
+        "The European External Action Service (EEAS), the EU’s diplomatic service, has circulated a proposal for a three-year military and civilian mission to advise and train the Lebanese armed forces (LAF) and the Internal Security Forces (ISF), Lebanon’s police, including in border and maritime security, an attempt, officials said, not to replace the UN peacekeeping force – known as UNIFIL – but to strengthen the Lebanese state.",
+        "But while the EU foreign policy chief, Kaja Kallas, told reporters in May that Europeans were willing to put together a mission to help the LAF, she questioned whether there was an appetite for an entirely new European mission to come in to fully replace UNIFIL’s mission.",
+        "UNIFIL was created on March 19, 1978, days after Israel invaded southern Lebanon.",
+        "Its mandate has been expanded several times since, most consequentially after the 2006 war between Israel and the Lebanese group Hezbollah when UN Security Council Resolution 1701 added the tasks of monitoring the ceasefire and supporting the LAF’s deployment in the south to UNIFIL’s mission.",
+        "However, UNIFIL was never given the power to enforce any of it.",
+        "It could watch, report and accompany but not compel an Israeli withdrawal or disarm any armed group.",
+        "Yet it was Israel that was largely behind UNIFIL’s end after it accused the force of failing to prevent Hezbollah’s military build-up along the Israel-Lebanon border.",
+        "A new European force is unlikely to be tasked with confirming an Israeli withdrawal or disarming Hezbollah, said Raymond Murphy, a professor at the Irish Centre for Human Rights at the University of Galway who served as a UN peacekeeper with UNIFIL.",
+        "Its role would more likely be to monitor, he said, but with “sufficient capacity to use military force to protect itself and to carry out its mandate."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "d5e2dfc841fa47f7b2665d3a",
+      "importance_score": 70.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 6,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 3,
+        "significance": 30,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 335000,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8,
+          "human": 6,
+          "scientific": 4,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "8a562b67fde195f1d889768231d863285aa444a832aaa90fd719eaf8712ceffd",
+      "public_label": "🔄 UPDATE",
+      "headline": "Can Europe fill vacuum left in Lebanon as UN peacekeeping force winds up?",
+      "briefing": {
+        "opening": [
+          "Analysts say Israel could benefit when UNIFIL’s mandate expires on December 31.",
+          "With the nearly 50-year United Nations peacekeeping mandate in southern Lebanon set to expire at the end of 2026, proposals for a European Union mission to fill some part of the vacuum have attracted attention."
+        ],
+        "body": [
+          "The European External Action Service (EEAS), the EU’s diplomatic service, has circulated a proposal for a three-year military and civilian mission to advise and train the Lebanese armed forces (LAF) and the Internal Security Forces (ISF), Lebanon’s police, including in border and maritime security, an attempt, officials said, not to replace the UN peacekeeping force – known as UNIFIL – but to strengthen the Lebanese state.",
+          "But while the EU foreign policy chief, Kaja Kallas, told reporters in May that Europeans were willing to put together a mission to help the LAF, she questioned whether there was an appetite for an entirely new European mission to come in to fully replace UNIFIL’s mission.",
+          "UNIFIL was created on March 19, 1978, days after Israel invaded southern Lebanon.",
+          "Its mandate has been expanded several times since, most consequentially after the 2006 war between Israel and the Lebanese group Hezbollah when UN Security Council Resolution 1701 added the tasks of monitoring the ceasefire and supporting the LAF’s deployment in the south to UNIFIL’s mission.",
+          "However, UNIFIL was never given the power to enforce any of it.",
+          "It could watch, report and accompany but not compel an Israeli withdrawal or disarm any armed group.",
+          "Yet it was Israel that was largely behind UNIFIL’s end after it accused the force of failing to prevent Hezbollah’s military build-up along the Israel-Lebanon border."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Ireland"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "about 335,000 people"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Lebanon, still under almost daily Israeli bombardment with a fifth of its territory occupied and about 335,000 people still displaced, is expected to be on the agenda during an EU defence and foreign ministers meeting in Ireland this week."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Lebanon, still under almost daily Israeli bombardment with a fifth of its territory occupied and about 335,000 people still displaced, is expected to be on the agenda during an EU defence and foreign ministers meeting in Ireland this week.",
+            "source": "Al Jazeera",
+            "item_id": "8a562b67fde195f1d889768231d863285aa444a832aaa90fd719eaf8712ceffd:article",
+            "composed": false
+          },
+          {
+            "text": "UNIFIL was created on March 19, 1978, days after Israel invaded southern Lebanon.",
+            "source": "Al Jazeera",
+            "item_id": "8a562b67fde195f1d889768231d863285aa444a832aaa90fd719eaf8712ceffd:article",
+            "composed": false
+          },
+          {
+            "text": "With the nearly 50-year United Nations peacekeeping mandate in southern Lebanon set to expire at the end of 2026, proposals for a European Union mission to fill some part of the vacuum have attracted attention.",
+            "source": "Al Jazeera",
+            "item_id": "8a562b67fde195f1d889768231d863285aa444a832aaa90fd719eaf8712ceffd:article",
+            "composed": false
+          },
+          {
+            "text": "Its mandate has been expanded several times since, most consequentially after the 2006 war between Israel and the Lebanese group Hezbollah when UN Security Council Resolution 1701 added the tasks of monitoring the ceasefire and supporting the LAF’s deployment in the south to UNIFIL’s mission.",
+            "source": "Al Jazeera",
+            "item_id": "8a562b67fde195f1d889768231d863285aa444a832aaa90fd719eaf8712ceffd:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/news/2026/9/1/can-europe-fill-vacuum-left-in-lebanon-as-un-peacekeeping-force-winds-up?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "a3e78742432c741637082988580b5eb480670b8a2ab61d3ee83cb6f464241b1a",
+      "title": "UNHCR says it has no role in Malaysia's planned repatriation of Myanmar refugees, warns country is still unsafe",
+      "url": "https://www.straitstimes.com/asia/unhcr-says-it-has-no-role-in-malaysias-planned-repatriation-of-myanmar-refugees-warns-country-is",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "KUALA LUMPUR, Sept 1 - The United Nations refugee agency said on Tuesday it was not involved in Malaysia's planned repatriation of Myanmar refugees, and warned that it remains unsafe for them to return to the war-torn country.",
+      "published_at": "2026-09-01T05:35:46+00:00",
+      "updated_at": "2026-09-01T05:35:46+00:00",
+      "effective_at": "2026-09-01T05:35:46+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "human_rights",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "kuala",
+        "lumpur",
+        "malaysia",
+        "myanmar",
+        "nations",
+        "sept",
+        "united"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "9ad8bd57216a7743e45ef5f9",
+      "importance_score": 61.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 9.0,
+        "novelty": 10,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 28,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -70,146 +355,302 @@
           "crisis": false
         },
         "significance_dims": {
-          "scientific": 8,
-          "human": 4,
-          "security": 4,
-          "geopolitical": 4
+          "security": 8,
+          "geopolitical": 8,
+          "cultural": 8,
+          "human": 4
         }
       },
-      "story_id": "aabab3389fee9548c2c1f4cc6af81bce326dbc94cc50a1b23526349c241d4b1d",
+      "story_id": "a3e78742432c741637082988580b5eb480670b8a2ab61d3ee83cb6f464241b1a",
       "article_sentences": [
-        "NEW YORK, September 1.",
-        "More than 200 prominent Israelis, including former senior officials and military officers, signed a letter in June, calling on the government to stop attacks against Palestinian civilians in the West Bank, The New York Times reported, citing sources.",
-        "According to the paper, \"the signatories included two former prime ministers, more than three dozen retired Army and Air Force generals, the former heads of the nation’s foreign and domestic intelligence services, as well as rabbis, a Nobel laureate and one of Israel’s most revered novelists.\"",
-        "In their letter, they called for an end to \"Jewish terrorism\" and the \"ethnic cleansing\" underway in the West Bank.",
-        "They also accused Benjamin Netanyahu’s government of failing to stop the violence and pursuing a deliberate policy in which the Israel Defense Forces, the Shin Bet security service and the police are complicit.",
-        "Accusations from such a large group of former senior Israeli officials \"are virtually unheard of,\" The New York Times noted."
+        "The United Nations refugee agency said on Tuesday it was not involved in Malaysia's planned repatriation of Myanmar refugees, and warned that it remains unsafe for them to return to the war-torn country.",
+        "Malaysia's Home Ministry said last week it had finalised the first phase of a voluntary repatriation programme that will see 1,476 refugees returned to Myanmar on September 29.",
+        "Prime Minister Anwar Ibrahim had earlier said Myanmar had agreed to repatriate 5,000 Rohingya, amid rising tensions over the refugees within local communities in Malaysia.",
+        "The UNHCR said an ongoing armed conflict and violence across Myanmar meant there could not be a safe, dignified and sustainable voluntary return of refugees.",
+        "\"Under customary international law – a binding obligation on all states – no one should be sent to a country where their rights or freedoms may be at risk.",
+        "Any refugee return must be voluntary, based on an informed decision, and take place in conditions of safety and dignity,\" it said in an emailed statement to Reuters.",
+        "\"UNHCR urges that careful consideration be given to the protection needs of all those concerned before they are returned to Myanmar, and stands ready to engage with relevant authorities on protection safeguards.\"",
+        "A Home Ministry spokesperson declined to comment on the UNHCR statement, referring to its earlier remarks that the repatriation process was voluntary.",
+        "Thousands of refugees have fled Myanmar since a 2021 military coup that sparked a nationwide civil war."
       ],
       "public_label": "📰 NEWS",
-      "headline": "Over 200 prominent Israelis urge PM to end West Bank violence — newspaper",
+      "headline": "UNHCR says it has no role in Malaysia's planned repatriation of Myanmar refugees, warns country is still unsafe",
       "briefing": {
         "opening": [
-          "NEW YORK, September 1.",
-          "More than 200 prominent Israelis, including former senior officials and military officers, signed a letter in June, calling on the government to stop attacks against Palestinian civilians in the West Bank, The New York Times reported, citing sources."
+          "The United Nations refugee agency said on Tuesday it was not involved in Malaysia's planned repatriation of Myanmar refugees, and warned that it remains unsafe for them to return to the war-torn country.",
+          "Malaysia's Home Ministry said last week it had finalised the first phase of a voluntary repatriation programme that will see 1,476 refugees returned to Myanmar on September 29."
         ],
         "body": [
-          "According to the paper, \"the signatories included two former prime ministers, more than three dozen retired Army and Air Force generals, the former heads of the nation’s foreign and domestic intelligence services, as well as rabbis, a Nobel laureate and one of Israel’s most revered novelists.\" In their letter, they called for an end to \"Jewish terrorism\" and the \"ethnic cleansing\" underway in the West Bank.",
-          "They also accused Benjamin Netanyahu’s government of failing to stop the violence and pursuing a deliberate policy in which the Israel Defense Forces, the Shin Bet security service and the police are complicit.",
-          "Accusations from such a large group of former senior Israeli officials \"are virtually unheard of,\" The New York Times noted.",
-          "The New York Times reported that the letter was signed by two former prime ministers, more than three dozen retired Army and Air Force generals, the former heads of the nation’s foreign and domestic intelligence services, as well as rabbis, a Nobel laureate and one of Israel’s most revered novelists."
+          "Prime Minister Anwar Ibrahim had earlier said Myanmar had agreed to repatriate 5,000 Rohingya, amid rising tensions over the refugees within local communities in Malaysia.",
+          "The UNHCR said an ongoing armed conflict and violence across Myanmar meant there could not be a safe, dignified and sustainable voluntary return of refugees.",
+          "\"Under customary international law – a binding obligation on all states – no one should be sent to a country where their rights or freedoms may be at risk.",
+          "Any refugee return must be voluntary, based on an informed decision, and take place in conditions of safety and dignity,\" it said in an emailed statement to Reuters.",
+          "\"UNHCR urges that careful consideration be given to the protection needs of all those concerned before they are returned to Myanmar, and stands ready to engage with relevant authorities on protection safeguards.\" A Home Ministry spokesperson declined to comment on the UNHCR statement, referring to its earlier remarks that the repatriation process was voluntary.",
+          "Thousands of refugees have fled Myanmar since a 2021 military coup that sparked a nationwide civil war."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "June"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "underway"
+            "text": "Malaysia's"
           }
         ],
         "sentences": [
           {
-            "text": "In their letter, they called for an end to \"Jewish terrorism\" and the \"ethnic cleansing\" underway in the West Bank.",
-            "source": "TASS English",
-            "item_id": "aabab3389fee9548c2c1f4cc6af81bce326dbc94cc50a1b23526349c241d4b1d:article",
+            "text": "Malaysia's Home Ministry said last week it had finalised the first phase of a voluntary repatriation programme that will see 1,476 refugees returned to Myanmar on September 29.",
+            "source": "Straits Times Asia",
+            "item_id": "a3e78742432c741637082988580b5eb480670b8a2ab61d3ee83cb6f464241b1a:article",
             "composed": false
           },
           {
-            "text": "They also accused Benjamin Netanyahu’s government of failing to stop the violence and pursuing a deliberate policy in which the Israel Defense Forces, the Shin Bet security service and the police are complicit.",
-            "source": "TASS English",
-            "item_id": "aabab3389fee9548c2c1f4cc6af81bce326dbc94cc50a1b23526349c241d4b1d:article",
+            "text": "Prime Minister Anwar Ibrahim had earlier said Myanmar had agreed to repatriate 5,000 Rohingya, amid rising tensions over the refugees within local communities in Malaysia.",
+            "source": "Straits Times Asia",
+            "item_id": "a3e78742432c741637082988580b5eb480670b8a2ab61d3ee83cb6f464241b1a:article",
             "composed": false
           },
           {
-            "text": "More than 200 prominent Israelis, including former senior officials and military officers, signed a letter in June, calling on the government to stop attacks against Palestinian civilians in the West Bank, The New York Times reported, citing sources.",
-            "source": "TASS English",
-            "item_id": "aabab3389fee9548c2c1f4cc6af81bce326dbc94cc50a1b23526349c241d4b1d:article",
+            "text": "The United Nations refugee agency said on Tuesday it was not involved in Malaysia's planned repatriation of Myanmar refugees, and warned that it remains unsafe for them to return to the war-torn country.",
+            "source": "Straits Times Asia",
+            "item_id": "a3e78742432c741637082988580b5eb480670b8a2ab61d3ee83cb6f464241b1a:article",
+            "composed": false
+          },
+          {
+            "text": "The UNHCR said an ongoing armed conflict and violence across Myanmar meant there could not be a safe, dignified and sustainable voluntary return of refugees.",
+            "source": "Straits Times Asia",
+            "item_id": "a3e78742432c741637082988580b5eb480670b8a2ab61d3ee83cb6f464241b1a:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://tass.com/world/2180171"
+        "url": "https://www.straitstimes.com/asia/unhcr-says-it-has-no-role-in-malaysias-planned-repatriation-of-myanmar-refugees-warns-country-is"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "8854049041f0850032bdc2f8b57b45e04d53defeaa001a628c9a31bd07cf81d2",
-      "title": "'I've never been to Afghanistan': Six million deportees forced to start over under the Taliban",
-      "url": "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
+      "id": "68352aa432757c4fb1b816f6f7339ddf31e7a6c9de2d11d7384b6e1027f2666f",
+      "title": "Israeli forces raze West Bank homes as EU weighs ban on settlement goods",
+      "url": "https://www.aljazeera.com/news/2026/9/1/israeli-forces-raze-west-bank-homes-as-eu-weighs-ban-on-settlement-goods?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "The elderly grimace, hobbling on crutches, and wide-eyed children stare, cradling chickens carried from homes they were forced to leave behind. \"It feels good to be in my own country,\" 35-year-old Nazia says, just minutes after she crosses from Pakistan, where she was born, into Afghanistan. The Torkham crossing, known as \"Zero Point\", is where one hard life ends and another begins. \"But I've never been to Afghanistan before and many people here don't even have enough bread to eat,\" Nazia sighs as she heads, two of her children in tow, toward registration counters festooned with white and black Taliban flags. Nearly her entire family, eight sisters and their offspring, were deported to Afghanistan this year from Pakistan or Iran. They are part of the biggest cross-border movement of people anywhere in the world. Millions of Afghans have fled across the borders to Pakistan and Iran for decades – seeking refuge or employment - and the number escaping Afghanistan has continued to rise since the Taliban takeover in August 2021. Most are now being forced to return as these two neighbours crack down on undocumented migrants. Nazia and her family were undocumented but the UN and human rights groups say the security sweep is reaching far beyond that group to include registered Afghans too. Even Pakistan now publicly says that Afghans with Proof of Registration cards are not exempt. The expulsions show no sign of stopping. The number forced to return this year from Pakistan and Iran has already reached another million, according to the UN's Refugee Agency, the UNHCR.",
-      "published_at": "2026-09-01T05:00:34+00:00",
-      "updated_at": "2026-09-01T05:00:34+00:00",
-      "effective_at": "2026-09-01T05:00:34+00:00",
+      "summary": "Pogroms in the occupied West Bank continue, with Israeli forces demolishing homes in Birzeit and Nablus, and settlers attacking Palestinians. Israeli forces have demolished more Palestinian homes in the occupied West Bank, as settlers attacked residents of the village of Burqa in an escalation of violence ahead of Israeli elections in October. The pogroms on Monday came as Ireland pushes for sanctions on goods from illegal Israeli settlements at an informal meeting of European Union ministers this week. In the town of Birzet, north of Ramallah, Israeli soldiers demolished two residential buildings, saying they lacked the required building permits, the Palestinian news agency Wafa reported. In Nablus, Israeli forces used a bulldozer to raze a two-storey house and a three-storey building under construction. And in Burqa, east of Ramallah, video verified by Al Jazeera showed a large group of settlers raiding the village and attacking Palestinians. One clip showed settlers and Palestinians throwing stones at each other. Witnesses said the settlers entered the village from several directions on Monday night before assaulting residents, trying to set cars alight and stealing livestock. The United Nations human rights office said last month that settler violence was at an “all-time high”, with new settlements approved and settlers and the Israeli army often acting together against Palestinian communities. Settler violence and settlement expansion are on the agenda of a two-day meeting of EU foreign ministers in Ireland beginning on Tuesday. Ireland, which holds the rotating presidency of the Council of the EU and has moved to ban settlement goods itself, wants member states to act together. The talks are expected to build on discussions in Brussels in July, based on a confidential European Commission paper floating three options, including an import licensing system, prohibitive tariffs or an outright ban, according to Reuters news agency.",
+      "published_at": "2026-09-01T05:27:17+00:00",
+      "updated_at": "2026-09-01T05:27:17+00:00",
+      "effective_at": "2026-09-01T05:27:17+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "finance",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "South Asia",
+      "sector": "economy",
+      "subsector": "banking",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "afghanistan",
-        "afghans",
-        "agency",
-        "even",
-        "iran",
-        "nazia",
-        "pakistan",
-        "point",
-        "proof",
-        "refugee",
-        "registration",
-        "six",
-        "taliban",
-        "torkham",
-        "un",
-        "unhcr",
-        "zero"
+        "al",
+        "bank",
+        "birzeit",
+        "birzet",
+        "brussels",
+        "burqa",
+        "commission",
+        "eu",
+        "european",
+        "ireland",
+        "israel",
+        "jazeera",
+        "nablus",
+        "nations",
+        "palestine",
+        "palestinians",
+        "pogroms",
+        "ramallah",
+        "reuters",
+        "union",
+        "united",
+        "wafa",
+        "west"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 88,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "The elderly grimace, hobbling on crutches, and wide-eyed children stare, cradling chickens carried from homes they were forced to leave behind.",
-        "\"It feels good to be in my own country,\" 35-year-old Nazia says, just minutes after she crosses from Pakistan, where she was born, into Afghanistan.",
-        "The Torkham crossing, known as \"Zero Point\", is where one hard life ends and another begins.",
-        "\"But I've never been to Afghanistan before and many people here don't even have enough bread to eat,\" Nazia sighs as she heads, two of her children in tow, toward registration counters festooned with white and black Taliban flags.",
-        "Nearly her entire family, eight sisters and their offspring, were deported to Afghanistan this year from Pakistan or Iran.",
-        "They are part of the biggest cross-border movement of people anywhere in the world.",
-        "Millions of Afghans have fled across the borders to Pakistan and Iran for decades – seeking refuge or employment - and the number escaping Afghanistan has continued to rise since the Taliban takeover in August 2021.",
-        "Most are now being forced to return as these two neighbours crack down on undocumented migrants.",
-        "Nazia and her family were undocumented but the UN and human rights groups say the security sweep is reaching far beyond that group to include registered Afghans too.",
-        "Even Pakistan now publicly says that Afghans with Proof of Registration cards are not exempt.",
-        "The expulsions show no sign of stopping.",
-        "The number forced to return this year from Pakistan and Iran has already reached another million, according to the UN's Refugee Agency, the UNHCR."
+        "Pogroms in the occupied West Bank continue, with Israeli forces demolishing homes in Birzeit and Nablus, and settlers attacking Palestinians.",
+        "Israeli forces have demolished more Palestinian homes in the occupied West Bank, as settlers attacked residents of the village of Burqa in an escalation of violence ahead of Israeli elections in October.",
+        "The pogroms on Monday came as Ireland pushes for sanctions on goods from illegal Israeli settlements at an informal meeting of European Union ministers this week.",
+        "In the town of Birzet, north of Ramallah, Israeli soldiers demolished two residential buildings, saying they lacked the required building permits, the Palestinian news agency Wafa reported.",
+        "In Nablus, Israeli forces used a bulldozer to raze a two-storey house and a three-storey building under construction.",
+        "And in Burqa, east of Ramallah, video verified by Al Jazeera showed a large group of settlers raiding the village and attacking Palestinians.",
+        "One clip showed settlers and Palestinians throwing stones at each other.",
+        "Witnesses said the settlers entered the village from several directions on Monday night before assaulting residents, trying to set cars alight and stealing livestock.",
+        "The United Nations human rights office said last month that settler violence was at an “all-time high”, with new settlements approved and settlers and the Israeli army often acting together against Palestinian communities.",
+        "Settler violence and settlement expansion are on the agenda of a two-day meeting of EU foreign ministers in Ireland beginning on Tuesday.",
+        "Ireland, which holds the rotating presidency of the Council of the EU and has moved to ban settlement goods itself, wants member states to act together.",
+        "The talks are expected to build on discussions in Brussels in July, based on a confidential European Commission paper floating three options, including an import licensing system, prohibitive tariffs or an outright ban, according to Reuters news agency."
       ],
+      "event_status": "UPDATE",
+      "event_id": "7c77b947470336a0f78f431c",
+      "importance_score": 53.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 8,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "geopolitical": 8,
+          "human": 4,
+          "security": 4
+        }
+      },
+      "story_id": "68352aa432757c4fb1b816f6f7339ddf31e7a6c9de2d11d7384b6e1027f2666f",
+      "public_label": "🔄 UPDATE",
+      "headline": "Israeli forces raze West Bank homes as EU weighs ban on settlement goods",
+      "briefing": {
+        "opening": [
+          "Pogroms in the occupied West Bank continue, with Israeli forces demolishing homes in Birzeit and Nablus, and settlers attacking Palestinians.",
+          "Israeli forces have demolished more Palestinian homes in the occupied West Bank, as settlers attacked residents of the village of Burqa in an escalation of violence ahead of Israeli elections in October."
+        ],
+        "body": [
+          "The pogroms on Monday came as Ireland pushes for sanctions on goods from illegal Israeli settlements at an informal meeting of European Union ministers this week.",
+          "In the town of Birzet, north of Ramallah, Israeli soldiers demolished two residential buildings, saying they lacked the required building permits, the Palestinian news agency Wafa reported.",
+          "In Nablus, Israeli forces used a bulldozer to raze a two-storey house and a three-storey building under construction.",
+          "And in Burqa, east of Ramallah, video verified by Al Jazeera showed a large group of settlers raiding the village and attacking Palestinians.",
+          "One clip showed settlers and Palestinians throwing stones at each other.",
+          "Witnesses said the settlers entered the village from several directions on Monday night before assaulting residents, trying to set cars alight and stealing livestock.",
+          "The United Nations human rights office said last month that settler violence was at an “all-time high”, with new settlements approved and settlers and the Israeli army often acting together against Palestinian communities.",
+          "Settler violence and settlement expansion are on the agenda of a two-day meeting of EU foreign ministers in Ireland beginning on Tuesday."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Birzeit"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Israeli forces have demolished more Palestinian homes in the occupied West Bank, as settlers attacked residents of the village of Burqa in an escalation of violence ahead of Israeli elections in October.",
+            "source": "Al Jazeera",
+            "item_id": "68352aa432757c4fb1b816f6f7339ddf31e7a6c9de2d11d7384b6e1027f2666f:article",
+            "composed": false
+          },
+          {
+            "text": "Settler violence and settlement expansion are on the agenda of a two-day meeting of EU foreign ministers in Ireland beginning on Tuesday.",
+            "source": "Al Jazeera",
+            "item_id": "68352aa432757c4fb1b816f6f7339ddf31e7a6c9de2d11d7384b6e1027f2666f:article",
+            "composed": false
+          },
+          {
+            "text": "Pogroms in the occupied West Bank continue, with Israeli forces demolishing homes in Birzeit and Nablus, and settlers attacking Palestinians.",
+            "source": "Al Jazeera",
+            "item_id": "68352aa432757c4fb1b816f6f7339ddf31e7a6c9de2d11d7384b6e1027f2666f:article",
+            "composed": false
+          },
+          {
+            "text": "The pogroms on Monday came as Ireland pushes for sanctions on goods from illegal Israeli settlements at an informal meeting of European Union ministers this week.",
+            "source": "Al Jazeera",
+            "item_id": "68352aa432757c4fb1b816f6f7339ddf31e7a6c9de2d11d7384b6e1027f2666f:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/news/2026/9/1/israeli-forces-raze-west-bank-homes-as-eu-weighs-ban-on-settlement-goods?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "2ab9a73e3a9583337b3661961e6da76fd16fd41a9e577a7e1406a6fe38115aec",
+      "title": "'Sea Change: Much of the world's economic GDP has moved to the Asia-Pacific region' - Rana Mitter",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20260901-sea-change-much-of-the-world-s-economic-gdp-has-moved-to-the-asia-pacific-region-rana-mitter",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "François Picard is pleased to welcome Rana Mitter, historian, author and ST Lee Chair in US-Asia Relations at the Harvard Kennedy School. He sees the significance of the Shanghai Cooperation Organization as it pertains to the evolution of a changing international system. Once largely a symbolic vehicle for China and Russia to signal their distance from a US-led order, the SCO is quickly becoming a forum in which Asian powers increasingly coordinate around the material foundations of security: energy, technology, infrastructure and trade.",
+      "published_at": "2026-09-01T05:22:44+00:00",
+      "updated_at": "2026-09-01T05:22:44+00:00",
+      "effective_at": "2026-09-01T05:22:44+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "economy",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "asia-pacific",
+        "asian",
+        "change",
+        "china",
+        "cooperation",
+        "fran",
+        "gdp",
+        "harvard",
+        "kennedy",
+        "lee",
+        "mitter",
+        "much",
+        "organization",
+        "picard",
+        "rana",
+        "relations",
+        "russia",
+        "school",
+        "sco",
+        "sea",
+        "shanghai",
+        "st",
+        "us-asia",
+        "us-led"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "5126581cbf038ba7bc1d85f6",
-      "importance_score": 39.0,
+      "event_id": "ac6afed0d31643a01ec601c2",
+      "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 8.0,
+        "urgency": 7.0,
         "novelty": 10,
-        "scope": "MULTI_COUNTRY",
-        "scope_points": 7,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 8,
@@ -225,109 +666,100 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 4,
+          "economic": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "8854049041f0850032bdc2f8b57b45e04d53defeaa001a628c9a31bd07cf81d2",
+      "story_id": "2ab9a73e3a9583337b3661961e6da76fd16fd41a9e577a7e1406a6fe38115aec",
       "public_label": "📰 NEWS",
-      "headline": "'I've never been to Afghanistan': Six million deportees forced to start over under the Taliban",
+      "headline": "'Sea Change: Much of the world's economic GDP has moved to the Asia-Pacific region' - Rana Mitter",
       "briefing": {
         "opening": [
-          "The elderly grimace, hobbling on crutches, and wide-eyed children stare, cradling chickens carried from homes they were forced to leave behind.",
-          "\"It feels good to be in my own country,\" 35-year-old Nazia says, just minutes after she crosses from Pakistan, where she was born, into Afghanistan."
+          "François Picard is pleased to welcome Rana Mitter, historian, author and ST Lee Chair in US-Asia Relations at the Harvard Kennedy School.",
+          "He sees the significance of the Shanghai Cooperation Organization as it pertains to the evolution of a changing international system."
         ],
         "body": [
-          "The Torkham crossing, known as \"Zero Point\", is where one hard life ends and another begins.",
-          "\"But I've never been to Afghanistan before and many people here don't even have enough bread to eat,\" Nazia sighs as she heads, two of her children in tow, toward registration counters festooned with white and black Taliban flags.",
-          "Nearly her entire family, eight sisters and their offspring, were deported to Afghanistan this year from Pakistan or Iran.",
-          "They are part of the biggest cross-border movement of people anywhere in the world.",
-          "Millions of Afghans have fled across the borders to Pakistan and Iran for decades – seeking refuge or employment - and the number escaping Afghanistan has continued to rise since the Taliban takeover in August 2021.",
-          "Most are now being forced to return as these two neighbours crack down on undocumented migrants.",
-          "Nazia and her family were undocumented but the UN and human rights groups say the security sweep is reaching far beyond that group to include registered Afghans too.",
-          "Even Pakistan now publicly says that Afghans with Proof of Registration cards are not exempt."
+          "Once largely a symbolic vehicle for China and Russia to signal their distance from a US-led order, the SCO is quickly becoming a forum in which Asian powers increasingly coordinate around the material foundations of security: energy, technology, infrastructure and trade."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "August"
+            "text": "US-Asia Relations"
           }
         ],
         "sentences": [
           {
-            "text": "Even Pakistan now publicly says that Afghans with Proof of Registration cards are not exempt.",
-            "source": "BBC World",
-            "item_id": "8854049041f0850032bdc2f8b57b45e04d53defeaa001a628c9a31bd07cf81d2:article",
+            "text": "He sees the significance of the Shanghai Cooperation Organization as it pertains to the evolution of a changing international system.",
+            "source": "France 24",
+            "item_id": "2ab9a73e3a9583337b3661961e6da76fd16fd41a9e577a7e1406a6fe38115aec",
             "composed": false
           },
           {
-            "text": "Millions of Afghans have fled across the borders to Pakistan and Iran for decades – seeking refuge or employment - and the number escaping Afghanistan has continued to rise since the Taliban takeover in August 2021.",
-            "source": "BBC World",
-            "item_id": "8854049041f0850032bdc2f8b57b45e04d53defeaa001a628c9a31bd07cf81d2:article",
+            "text": "Once largely a symbolic vehicle for China and Russia to signal their distance from a US-led order, the SCO is quickly becoming a forum in which Asian powers increasingly coordinate around the material foundations of security: energy, technology, infrastructure and trade.",
+            "source": "France 24",
+            "item_id": "2ab9a73e3a9583337b3661961e6da76fd16fd41a9e577a7e1406a6fe38115aec",
             "composed": false
           },
           {
-            "text": "Nazia says, just minutes after she crosses from Pakistan, where she was born, into Afghanistan.",
-            "source": "BBC World",
-            "item_id": "8854049041f0850032bdc2f8b57b45e04d53defeaa001a628c9a31bd07cf81d2:article",
-            "composed": false
-          },
-          {
-            "text": "Nearly her entire family, eight sisters and their offspring, were deported to Afghanistan this year from Pakistan or Iran.",
-            "source": "BBC World",
-            "item_id": "8854049041f0850032bdc2f8b57b45e04d53defeaa001a628c9a31bd07cf81d2:article",
+            "text": "François Picard is pleased to welcome Rana Mitter, historian, author and ST Lee Chair in US-Asia Relations at the Harvard Kennedy School.",
+            "source": "France 24",
+            "item_id": "2ab9a73e3a9583337b3661961e6da76fd16fd41a9e577a7e1406a6fe38115aec",
             "composed": false
           }
         ],
-        "source": "BBC World",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.france24.com/en/tv-shows/spotlight/20260901-sea-change-much-of-the-world-s-economic-gdp-has-moved-to-the-asia-pacific-region-rana-mitter"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "e2dc53ad510d80828b79ba66ba7f5b8e26cf019fc87d85894dfae5483729c04f",
-      "title": "Russian forces hit over 150 vessels carrying military supplies to Ukraine in summer",
-      "url": "https://tass.com/defense/2180165",
-      "source": "TASS English",
+      "id": "dfdd61a31bf8c59a11caf187025127e5b52e609d41739807ef3f8125dba4603b",
+      "title": "Teenager pleads guilty to planning terrorist bombing targeting Opera House and Sydney marathon",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/01/teen-boy-planned-bomb-sydney-opera-house-terror-attack-ntwnfb",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Oceania",
       "discovery": false,
-      "summary": "More than 80 targets were hit in July",
-      "published_at": "2026-09-01T05:03:25+00:00",
-      "updated_at": "2026-09-01T05:03:25+00:00",
-      "effective_at": "2026-09-01T05:03:25+00:00",
+      "summary": "Boy, 16, testifies he was radicalised on TikTok before connecting to extremists on Telegram Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast A school student has testified about falling down a social media rabbit hole that led him to planning to bomb the Sydney Opera House in a terrorist attack. The 16-year-old boy, who cannot be identified for legal reasons, has pleaded guilty to planning a terrorist act over the course of more than a month in 2024. Continue reading...",
+      "published_at": "2026-09-01T05:16:10+00:00",
+      "updated_at": "2026-09-01T05:16:10+00:00",
+      "effective_at": "2026-09-01T05:16:10+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "shipping",
-      "subregion": "Europe",
+      "sector": "technology",
+      "subsector": "software",
+      "subregion": "Australia",
       "country": null,
       "entities": [
-        "russia",
-        "ukraine"
+        "australia",
+        "boy",
+        "house",
+        "opera",
+        "telegram",
+        "tiktok"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "7759821a0ae15e7815e33950",
-      "importance_score": 32.0,
+      "event_id": "7370164c7709c6d75479ad37",
+      "importance_score": 35.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 10,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
@@ -349,207 +781,53 @@
           "security": 4
         }
       },
-      "story_id": "e2dc53ad510d80828b79ba66ba7f5b8e26cf019fc87d85894dfae5483729c04f",
-      "article_sentences": [
-        "MOSCOW, September 1.",
-        "Russian forces struck more than 150 seagoing vessels involved in military cargo deliveries for the Ukrainian army, as well as accompanying patrol boats, during the summer, according to TASS estimates based on Russian Defense Ministry data.",
-        "More than 80 targets were hit in July.",
-        "In August, Russian forces struck at least 70 vessels.",
-        "In particular, 31 dry cargo ships and three tug boats were hit on August 1-7.",
-        "According to Russian Defense Ministry reports, 15 vessels, including a tanker, seven dry cargo ships, two tug boats, and five patrol boats, were hit from August 8 to 14.",
-        "Two Ukrainian Navy patrol boats, ten dry cargo ships and two tankers were hit on August 15-21, followed by one patrol boat, six dry cargo ships and two tankers used by the Ukrainian army from August 22 to 28.",
-        "In addition, the ministry said on August 31 that attack drones had struck a dry cargo ship carrying military supplies at the port of Yuzhny in the Odessa Region."
-      ],
+      "story_id": "dfdd61a31bf8c59a11caf187025127e5b52e609d41739807ef3f8125dba4603b",
       "public_label": "📰 NEWS",
-      "headline": "Russian forces hit over 150 vessels carrying military supplies to Ukraine in summer",
+      "headline": "Teenager pleads guilty to planning terrorist bombing targeting Opera House and Sydney marathon",
       "briefing": {
         "opening": [
-          "MOSCOW, September 1.",
-          "Russian forces struck more than 150 seagoing vessels involved in military cargo deliveries for the Ukrainian army, as well as accompanying patrol boats, during the summer, according to TASS estimates based on Russian Defense Ministry data."
+          "Boy, 16, testifies he was radicalised on TikTok before connecting to extremists on Telegram.",
+          "A school student has testified about falling down a social media rabbit hole that led him to planning to bomb the Sydney Opera House in a terrorist attack."
         ],
         "body": [
-          "More than 80 targets were hit in July.",
-          "In August, Russian forces struck at least 70 vessels.",
-          "In particular, 31 dry cargo ships and three tug boats were hit on August 1-7.",
-          "According to Russian Defense Ministry reports, 15 vessels, including a tanker, seven dry cargo ships, two tug boats, and five patrol boats, were hit from August 8 to 14.",
-          "Two Ukrainian Navy patrol boats, ten dry cargo ships and two tankers were hit on August 15-21, followed by one patrol boat, six dry cargo ships and two tankers used by the Ukrainian army from August 22 to 28.",
-          "In addition, the ministry said on August 31 that attack drones had struck a dry cargo ship carrying military supplies at the port of Yuzhny in the Odessa Region."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "July"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "According to Russian Defense Ministry reports, 15 vessels, including a tanker, seven dry cargo ships, two tug boats, and five patrol boats, were hit from August 8 to 14.",
-            "source": "TASS English",
-            "item_id": "e2dc53ad510d80828b79ba66ba7f5b8e26cf019fc87d85894dfae5483729c04f:article",
-            "composed": false
-          },
-          {
-            "text": "Two Ukrainian Navy patrol boats, ten dry cargo ships and two tankers were hit on August 15-21, followed by one patrol boat, six dry cargo ships and two tankers used by the Ukrainian army from August 22 to 28.",
-            "source": "TASS English",
-            "item_id": "e2dc53ad510d80828b79ba66ba7f5b8e26cf019fc87d85894dfae5483729c04f:article",
-            "composed": false
-          },
-          {
-            "text": "In particular, 31 dry cargo ships and three tug boats were hit on August 1-7.",
-            "source": "TASS English",
-            "item_id": "e2dc53ad510d80828b79ba66ba7f5b8e26cf019fc87d85894dfae5483729c04f:article",
-            "composed": false
-          },
-          {
-            "text": "More than 80 targets were hit in July.",
-            "source": "TASS English",
-            "item_id": "e2dc53ad510d80828b79ba66ba7f5b8e26cf019fc87d85894dfae5483729c04f:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/defense/2180165"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "b4d5c7ff34a09d8754ae8317e2086989aff05a1db5c036cf156a3135b8db0666",
-      "title": "Russia's first AI law comes into force",
-      "url": "https://tass.com/society/2180163",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "The law regulates relations involving the development, deployment and use of AI",
-      "published_at": "2026-09-01T05:01:21+00:00",
-      "updated_at": "2026-09-01T05:01:21+00:00",
-      "effective_at": "2026-09-01T05:01:21+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "ai",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "ai",
-        "russia"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "73dd05a8f00e3a72f56633ad",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "geopolitical": 4
-        }
-      },
-      "story_id": "b4d5c7ff34a09d8754ae8317e2086989aff05a1db5c036cf156a3135b8db0666",
-      "article_sentences": [
-        "MOSCOW, September 1.",
-        "Russia's first law on artificial intelligence (AI), specifically aimed at supporting the development of AI technologies, came into force on September 1.",
-        "The law regulates relations involving the development, deployment and use of AI.",
-        "It establishes basic concepts for the industry, including definitions of AI itself, large foundation models and their developers, among others.",
-        "It also introduces general liability for violations in the AI sector.",
-        "Some provisions of the law will not take effect until March 1, 2027.",
-        "These include certain provisions of the article outlining the powers of the president, the government and federal executive authorities in the AI sector; provisions dividing models into sovereign and national models based on their degree of dependence on external technologies and setting out obligations for their developers; as well as two other articles covering the labeling of AI-generated content and requirements for training AI on \"results of intellectual activity.\"",
-        "At the same time, the article providing support measures for developers of sovereign and national AI models takes effect on September 1, 2026."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Russia's first AI law comes into force",
-      "briefing": {
-        "opening": [
-          "MOSCOW, September 1.",
-          "Russia's first law on artificial intelligence (AI), specifically aimed at supporting the development of AI technologies, came into force on September 1."
-        ],
-        "body": [
-          "The law regulates relations involving the development, deployment and use of AI.",
-          "It establishes basic concepts for the industry, including definitions of AI itself, large foundation models and their developers, among others.",
-          "It also introduces general liability for violations in the AI sector.",
-          "Some provisions of the law will not take effect until March 1, 2027.",
-          "These include certain provisions of the article outlining the powers of the president, the government and federal executive authorities in the AI sector; provisions dividing models into sovereign and national models based on their degree of dependence on external technologies and setting out obligations for their developers; as well as two other articles covering the labeling of AI-generated content and requirements for training AI on \"results of intellectual activity.\" At the same time, the article providing support measures for developers of sovereign and national AI models takes effect on September 1, 2026."
+          "The 16-year-old boy, who cannot be identified for legal reasons, has pleaded guilty to planning a terrorist act over the course of more than a month in 2024."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "At the same time, the article providing support measures for developers of sovereign and national AI models takes effect on September 1, 2026.",
-            "source": "TASS English",
-            "item_id": "b4d5c7ff34a09d8754ae8317e2086989aff05a1db5c036cf156a3135b8db0666:article",
+            "text": "A school student has testified about falling down a social media rabbit hole that led him to planning to bomb the Sydney Opera House in a terrorist attack.",
+            "source": "The Guardian World",
+            "item_id": "dfdd61a31bf8c59a11caf187025127e5b52e609d41739807ef3f8125dba4603b",
             "composed": false
           },
           {
-            "text": "Some provisions of the law will not take effect until March 1, 2027.",
-            "source": "TASS English",
-            "item_id": "b4d5c7ff34a09d8754ae8317e2086989aff05a1db5c036cf156a3135b8db0666:article",
-            "composed": false
-          },
-          {
-            "text": "MOSCOW, September 1.",
-            "source": "TASS English",
-            "item_id": "b4d5c7ff34a09d8754ae8317e2086989aff05a1db5c036cf156a3135b8db0666:article",
-            "composed": false
-          },
-          {
-            "text": "Russia's first law on artificial intelligence (AI), specifically aimed at supporting the development of AI technologies, came into force on September 1.",
-            "source": "TASS English",
-            "item_id": "b4d5c7ff34a09d8754ae8317e2086989aff05a1db5c036cf156a3135b8db0666:article",
+            "text": "The 16-year-old boy, who cannot be identified for legal reasons, has pleaded guilty to planning a terrorist act over the course of more than a month in 2024.",
+            "source": "The Guardian World",
+            "item_id": "dfdd61a31bf8c59a11caf187025127e5b52e609d41739807ef3f8125dba4603b",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://tass.com/society/2180163"
+        "url": "https://www.theguardian.com/australia-news/2026/sep/01/teen-boy-planned-bomb-sydney-opera-house-terror-attack-ntwnfb"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "93dce0d53d0d73341aaf0752e75ce4efce778c21718e1c6f150f266ddfded42b",
-      "title": "B&B boss fears 'uneven playing field' over tourist tax",
-      "url": "https://www.bbc.co.uk/news/articles/c5ymkm404jxo?at_medium=RSS&at_campaign=rss",
+      "id": "2e698ef10336acb3b9b2289aebcc226185aa9f534dec0be8c7754c140dfc1f81",
+      "title": "Hospitality wants permanent VAT cut, 'not gimmick'",
+      "url": "https://www.bbc.co.uk/news/articles/c1l105py51zo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
       "source_category": "finance",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "A Scarborough bed and breakfast owner has said businesses like his will face an \"uneven playing field\" if a so-called tourist tax is introduced in North Yorkshire but not in neighbouring East Yorkshire. A consultation on plans for a visitor levy closed in February and legislation is expected to be brought forward later this year. James Rusden, who runs Scarborough's Toulson Court B&B, said if the levy was not England-wide, cost-of-living pressures would mean some visitors would instead go where no tourist tax was being charged. A government spokesperson said: \"We're listening to businesses in Yorkshire and across the country on this so we make sure money raised is invested in local priorities.\" Rusden said he believed such a levy would act like \"a form of taxation\". \"Nobody likes an extra cost and people will complain about it,\" he said. \"But if it was an even playing field it would be a lot better as it would be easier to manage and control. \"People are short of money. To put a tax on them coming on holiday makes them think twice about where they go. \"If someone is coming to Scarborough but has to pay a levy each night, but can go to Bridlington where there's no levy, then that's where they'll go. \"It's unfair and it'll make it harder for us to compete.\" Rusden said he was also concerned about the time the levy could be introduced, as people continued to struggle with the cost of living and faced further increases to energy bills.",
-      "published_at": "2026-09-01T05:06:51+00:00",
-      "updated_at": "2026-09-01T05:06:51+00:00",
-      "effective_at": "2026-09-01T05:06:51+00:00",
+      "summary": "Hospitality and tourist businesses in Cornwall are calling for a temporary VAT reduction scheme to be widened and extended. The government's £300m Great British Summer Savings scheme aimed to help families with the cost of the summer holidays. The temporary 15% VAT reduction, from 20% to 5%, applied to family attraction tickets, children's meals and cinema tickets for just under 10 weeks. Keith Southwell, managing director of Lappa Valley Railway, said it \"hadn't made any difference whatsoever\" to his business, with many customers \"benefitting but not even realising\". The government said the scheme was \"increasing footfall for businesses over the summer... and boosting local economies\". Since the end of June until 1 September, VAT was reduced on children's meals served in restaurants, as well as kids' and family tickets for cinemas, shows, exhibitions and outdoor venues and activities. Tara Stapley, the general manager of the Big Sheep Farm and Theme Park in Bideford in north Devon, said: \"Numbers have increased slightly and I think that is partly down to the summer savings scheme.\" The business reduced ticket prices and added more children's meals to the menu. Stapley said there were \"lots of people calling and asking about it\". She said: \"People coming have been quite pleasantly surprised by our ticket prices and we're saying we're part of the summer savings scheme and they have been very grateful for that.\" Stapley added the scheme could have been publicised more as \"a lot of people didn't know about it\".",
+      "published_at": "2026-09-01T05:25:05+00:00",
+      "updated_at": "2026-09-01T05:25:05+00:00",
+      "effective_at": "2026-09-01T05:25:05+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
@@ -560,17 +838,28 @@
       "subregion": null,
       "country": null,
       "entities": [
-        "bridlington",
-        "court",
-        "east",
-        "england-wide",
-        "james",
-        "north",
-        "rusden",
-        "scarborough",
-        "toulson",
-        "we",
-        "yorkshire"
+        "bideford",
+        "big",
+        "cornwall",
+        "devon",
+        "farm",
+        "great",
+        "hospitality",
+        "keith",
+        "lappa",
+        "numbers",
+        "park",
+        "railway",
+        "savings",
+        "sheep",
+        "southwell",
+        "stapley",
+        "summer",
+        "tara",
+        "theme",
+        "uk",
+        "valley",
+        "vat"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -580,26 +869,26 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "A Scarborough bed and breakfast owner has said businesses like his will face an \"uneven playing field\" if a so-called tourist tax is introduced in North Yorkshire but not in neighbouring East Yorkshire.",
-        "A consultation on plans for a visitor levy closed in February and legislation is expected to be brought forward later this year.",
-        "James Rusden, who runs Scarborough's Toulson Court B&B, said if the levy was not England-wide, cost-of-living pressures would mean some visitors would instead go where no tourist tax was being charged.",
-        "A government spokesperson said: \"We're listening to businesses in Yorkshire and across the country on this so we make sure money raised is invested in local priorities.\"",
-        "Rusden said he believed such a levy would act like \"a form of taxation\".",
-        "\"Nobody likes an extra cost and people will complain about it,\" he said.",
-        "\"But if it was an even playing field it would be a lot better as it would be easier to manage and control.",
-        "\"People are short of money.",
-        "To put a tax on them coming on holiday makes them think twice about where they go.",
-        "\"If someone is coming to Scarborough but has to pay a levy each night, but can go to Bridlington where there's no levy, then that's where they'll go.",
-        "\"It's unfair and it'll make it harder for us to compete.\"",
-        "Rusden said he was also concerned about the time the levy could be introduced, as people continued to struggle with the cost of living and faced further increases to energy bills."
+        "Hospitality and tourist businesses in Cornwall are calling for a temporary VAT reduction scheme to be widened and extended.",
+        "The government's £300m Great British Summer Savings scheme aimed to help families with the cost of the summer holidays.",
+        "The temporary 15% VAT reduction, from 20% to 5%, applied to family attraction tickets, children's meals and cinema tickets for just under 10 weeks.",
+        "Keith Southwell, managing director of Lappa Valley Railway, said it \"hadn't made any difference whatsoever\" to his business, with many customers \"benefitting but not even realising\".",
+        "The government said the scheme was \"increasing footfall for businesses over the summer...",
+        "and boosting local economies\".",
+        "Since the end of June until 1 September, VAT was reduced on children's meals served in restaurants, as well as kids' and family tickets for cinemas, shows, exhibitions and outdoor venues and activities.",
+        "Tara Stapley, the general manager of the Big Sheep Farm and Theme Park in Bideford in north Devon, said: \"Numbers have increased slightly and I think that is partly down to the summer savings scheme.\"",
+        "The business reduced ticket prices and added more children's meals to the menu.",
+        "Stapley said there were \"lots of people calling and asking about it\".",
+        "She said: \"People coming have been quite pleasantly surprised by our ticket prices and we're saying we're part of the summer savings scheme and they have been very grateful for that.\"",
+        "Stapley added the scheme could have been publicised more as \"a lot of people didn't know about it\"."
       ],
       "event_status": "NEW",
-      "event_id": "f7e848f87c0ccdfa1f600436",
-      "importance_score": 30.0,
+      "event_id": "cbfeaff13da2b199f75b3234",
+      "importance_score": 31.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 8.0,
         "novelty": 10,
         "scope": "LOCAL",
         "scope_points": 3,
@@ -621,105 +910,103 @@
           "geopolitical": 4
         }
       },
-      "story_id": "93dce0d53d0d73341aaf0752e75ce4efce778c21718e1c6f150f266ddfded42b",
+      "story_id": "2e698ef10336acb3b9b2289aebcc226185aa9f534dec0be8c7754c140dfc1f81",
       "public_label": "📰 NEWS",
-      "headline": "B&B boss fears 'uneven playing field' over tourist tax",
+      "headline": "Hospitality wants permanent VAT cut, 'not gimmick'",
       "briefing": {
         "opening": [
-          "A Scarborough bed and breakfast owner has said businesses like his will face an \"uneven playing field\" if a so-called tourist tax is introduced in North Yorkshire but not in neighbouring East Yorkshire.",
-          "A consultation on plans for a visitor levy closed in February and legislation is expected to be brought forward later this year."
+          "Hospitality and tourist businesses in Cornwall are calling for a temporary VAT reduction scheme to be widened and extended.",
+          "The government's £300m Great British Summer Savings scheme aimed to help families with the cost of the summer holidays."
         ],
         "body": [
-          "James Rusden, who runs Scarborough's Toulson Court B&B, said if the levy was not England-wide, cost-of-living pressures would mean some visitors would instead go where no tourist tax was being charged.",
-          "A government spokesperson said: \"We're listening to businesses in Yorkshire and across the country on this so we make sure money raised is invested in local priorities.\" Rusden said he believed such a levy would act like \"a form of taxation\".",
-          "\"Nobody likes an extra cost and people will complain about it,\" he said.",
-          "\"But if it was an even playing field it would be a lot better as it would be easier to manage and control.",
-          "\"People are short of money.",
-          "To put a tax on them coming on holiday makes them think twice about where they go.",
-          "\"If someone is coming to Scarborough but has to pay a levy each night, but can go to Bridlington where there's no levy, then that's where they'll go.",
-          "\"It's unfair and it'll make it harder for us to compete.\" Rusden said he was also concerned about the time the levy could be introduced, as people continued to struggle with the cost of living and faced further increases to energy bills."
+          "The temporary 15% VAT reduction, from 20% to 5%, applied to family attraction tickets, children's meals and cinema tickets for just under 10 weeks.",
+          "Keith Southwell, managing director of Lappa Valley Railway, said it \"hadn't made any difference whatsoever\" to his business, with many customers \"benefitting but not even realising\".",
+          "The government said the scheme was \"increasing footfall for businesses over the summer...",
+          "and boosting local economies\".",
+          "Since the end of June until 1 September, VAT was reduced on children's meals served in restaurants, as well as kids' and family tickets for cinemas, shows, exhibitions and outdoor venues and activities.",
+          "Tara Stapley, the general manager of the Big Sheep Farm and Theme Park in Bideford in north Devon, said: \"Numbers have increased slightly and I think that is partly down to the summer savings scheme.\" The business reduced ticket prices and added more children's meals to the menu.",
+          "Stapley said there were \"lots of people calling and asking about it\".",
+          "She said: \"People coming have been quite pleasantly surprised by our ticket prices and we're saying we're part of the summer savings scheme and they have been very grateful for that.\" Stapley added the scheme could have been publicised more as \"a lot of people didn't know about it\"."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "North Yorkshire"
+            "text": "Cornwall"
           }
         ],
         "sentences": [
           {
-            "text": "James Rusden, who runs Scarborough's Toulson Court B&B, said if the levy was not England-wide, cost-of-living pressures would mean some visitors would instead go where no tourist tax was being charged.",
+            "text": "The temporary 15% VAT reduction, from 20% to 5%, applied to family attraction tickets, children's meals and cinema tickets for just under 10 weeks.",
             "source": "BBC Business",
-            "item_id": "93dce0d53d0d73341aaf0752e75ce4efce778c21718e1c6f150f266ddfded42b:article",
+            "item_id": "2e698ef10336acb3b9b2289aebcc226185aa9f534dec0be8c7754c140dfc1f81:article",
             "composed": false
           },
           {
-            "text": "A government spokesperson said: \"We're listening to businesses in Yorkshire and across the country on this so we make sure money raised is invested in local priorities.\"",
+            "text": "Since the end of June until 1 September, VAT was reduced on children's meals served in restaurants, as well as kids' and family tickets for cinemas, shows, exhibitions and outdoor venues and activities.",
             "source": "BBC Business",
-            "item_id": "93dce0d53d0d73341aaf0752e75ce4efce778c21718e1c6f150f266ddfded42b:article",
+            "item_id": "2e698ef10336acb3b9b2289aebcc226185aa9f534dec0be8c7754c140dfc1f81:article",
             "composed": false
           },
           {
-            "text": "A Scarborough bed and breakfast owner has said businesses like his will face an \"uneven playing field\" if a so-called tourist tax is introduced in North Yorkshire but not in neighbouring East Yorkshire.",
+            "text": "The government's £300m Great British Summer Savings scheme aimed to help families with the cost of the summer holidays.",
             "source": "BBC Business",
-            "item_id": "93dce0d53d0d73341aaf0752e75ce4efce778c21718e1c6f150f266ddfded42b:article",
+            "item_id": "2e698ef10336acb3b9b2289aebcc226185aa9f534dec0be8c7754c140dfc1f81:article",
             "composed": false
           },
           {
-            "text": "A consultation on plans for a visitor levy closed in February and legislation is expected to be brought forward later this year.",
+            "text": "Hospitality and tourist businesses in Cornwall are calling for a temporary VAT reduction scheme to be widened and extended.",
             "source": "BBC Business",
-            "item_id": "93dce0d53d0d73341aaf0752e75ce4efce778c21718e1c6f150f266ddfded42b:article",
+            "item_id": "2e698ef10336acb3b9b2289aebcc226185aa9f534dec0be8c7754c140dfc1f81:article",
             "composed": false
           }
         ],
         "source": "BBC Business",
         "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/c5ymkm404jxo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/c1l105py51zo?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "c2b22d186bfb2a07e6d54c11450ca2e418c21c0bfb0b8cd703c5b9aa44c2fdc8",
-      "title": "Mutual benefit shapes Russia-Kyrgyzstan cooperation — Peskov",
-      "url": "https://tass.com/politics/2180173",
-      "source": "TASS English",
+      "id": "1c4f6666a2bfef89131948d98b695fbcd0489fbc29c5c38f92d685bf86ba33c2",
+      "title": "Japan bear project aims to show coexistence, not culling, can prevent attacks",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3365932/japan-bear-project-aims-show-coexistence-not-culling-can-prevent-attacks?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Dmitry Peskov noted that it is beneficial for Kyrgyzstan to be a member of the Eurasian Economic Union",
-      "published_at": "2026-09-01T05:14:51+00:00",
-      "updated_at": "2026-09-01T05:14:51+00:00",
-      "effective_at": "2026-09-01T05:14:51+00:00",
+      "summary": "As a sensor sounded, scientist Akiko Takii hurried to a bear trap deep in the forests of Nagano in Japan, where rising nationwide attacks have brought fear and resulted in the culling of thousands of the animals. “It’s a small bear, I think, about a year and a half old,” Takii said as she peered at the 15kg (33lbs) Asiatic black bear thrashing in the cage. “It must have just parted from mum.” Its mother was not around, and Takii took blood and fur samples after her co-researcher tranquillised...",
+      "published_at": "2026-09-01T05:42:22+00:00",
+      "updated_at": "2026-09-01T05:42:22+00:00",
+      "effective_at": "2026-09-01T05:42:22+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "economy",
-      "subregion": "Europe",
+      "sector": "science",
+      "subsector": "biology",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "dmitry",
-        "economic",
-        "eurasian",
-        "kyrgyzstan",
-        "peskov",
-        "russia-kyrgyzstan",
-        "union"
+        "akiko",
+        "asiatic",
+        "japan",
+        "nagano",
+        "takii"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 93,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "bdd93ec03571dbba4289cccb",
+      "event_id": "cd5f605fb66df219d244a5b6",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -744,67 +1031,59 @@
         },
         "significance_dims": {}
       },
-      "story_id": "c2b22d186bfb2a07e6d54c11450ca2e418c21c0bfb0b8cd703c5b9aa44c2fdc8",
-      "article_sentences": [
-        "BISHKEK, September 1.",
-        "Mutual benefit is the key factor shaping cooperation between Russia and Kyrgyzstan, Kremlin Spokesman Dmitry Peskov said in an interview with Nomad TV, a joint Kyrgyz-Russian television channel.",
-        "\"It is indeed beneficial for Kyrgyzstan to be a member of the Eurasian Economic Union, and it is indeed beneficial for the country to participate in various joint projects with Russia.",
-        "This is precisely what shapes our cooperation,\" he said.",
-        "Peskov stressed that \"mutual benefit always comes first.\" \"No one intends to simply give anything away to each other.",
-        "Of course, we always help each other in difficult times, but the main thing is mutual benefit.",
-        "It is the best driver of growth in bilateral relations,\" he concluded."
-      ],
+      "story_id": "1c4f6666a2bfef89131948d98b695fbcd0489fbc29c5c38f92d685bf86ba33c2",
       "public_label": "📰 NEWS",
-      "headline": "Mutual benefit shapes Russia-Kyrgyzstan cooperation — Peskov",
+      "headline": "Japan bear project aims to show coexistence, not culling, can prevent attacks",
       "briefing": {
         "opening": [
-          "BISHKEK, September 1.",
-          "Mutual benefit is the key factor shaping cooperation between Russia and Kyrgyzstan, Kremlin Spokesman Dmitry Peskov said in an interview with Nomad TV, a joint Kyrgyz-Russian television channel."
+          "As a sensor sounded, scientist Akiko Takii hurried to a bear trap deep in the forests of Nagano in Japan, where rising nationwide attacks have brought fear and resulted in the culling of thousands of the animals.",
+          "“It’s a small bear, I think, about a year and a half old,” Takii said as she peered at the 15kg (33lbs) Asiatic black bear thrashing in the cage."
         ],
         "body": [
-          "\"It is indeed beneficial for Kyrgyzstan to be a member of the Eurasian Economic Union, and it is indeed beneficial for the country to participate in various joint projects with Russia.",
-          "This is precisely what shapes our cooperation,\" he said.",
-          "Peskov stressed that \"mutual benefit always comes first.\" \"No one intends to simply give anything away to each other.",
-          "Of course, we always help each other in difficult times, but the main thing is mutual benefit.",
-          "It is the best driver of growth in bilateral relations,\" he concluded.",
-          "Dmitry Peskov noted that it is beneficial for Kyrgyzstan to be a member of the Eurasian Economic Union."
+          "“It must have just parted from mum.” Its mother was not around, and Takii took blood and fur samples after her co-researcher tranquillised..."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Japan"
+          }
+        ],
         "sentences": [
           {
-            "text": "Mutual benefit is the key factor shaping cooperation between Russia and Kyrgyzstan, Kremlin Spokesman Dmitry Peskov said in an interview with Nomad TV, a joint Kyrgyz-Russian television channel.",
-            "source": "TASS English",
-            "item_id": "c2b22d186bfb2a07e6d54c11450ca2e418c21c0bfb0b8cd703c5b9aa44c2fdc8:article",
+            "text": "“It’s a small bear, I think, about a year and a half old,” Takii said as she peered at the 15kg (33lbs) Asiatic black bear thrashing in the cage.",
+            "source": "South China Morning Post",
+            "item_id": "1c4f6666a2bfef89131948d98b695fbcd0489fbc29c5c38f92d685bf86ba33c2",
             "composed": false
           },
           {
-            "text": "Peskov stressed that \"mutual benefit always comes first.\"",
-            "source": "TASS English",
-            "item_id": "c2b22d186bfb2a07e6d54c11450ca2e418c21c0bfb0b8cd703c5b9aa44c2fdc8:article",
+            "text": "As a sensor sounded, scientist Akiko Takii hurried to a bear trap deep in the forests of Nagano in Japan, where rising nationwide attacks have brought fear and resulted in the culling of thousands of the animals.",
+            "source": "South China Morning Post",
+            "item_id": "1c4f6666a2bfef89131948d98b695fbcd0489fbc29c5c38f92d685bf86ba33c2",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://tass.com/politics/2180173"
+        "url": "https://www.scmp.com/news/asia/east-asia/article/3365932/japan-bear-project-aims-show-coexistence-not-culling-can-prevent-attacks?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "a8e026e94f1e9286f3971084fb3de41904c971fedc308d35c710a08f73240858",
-      "title": "'Rare' council underspend to help with cost of living",
-      "url": "https://www.bbc.co.uk/news/articles/c74e9j1ye9vo?at_medium=RSS&at_campaign=rss",
+      "id": "3ac0d8acca94390c4a7daf3b0197fe21927aef089ebf1669910bcb66f568feeb",
+      "title": "Children sleeping on piles of clothes, says charity",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z0pkrp3ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
       "source_category": "finance",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "Nottingham City Council is to provide more support with the cost of living after spending millions of pounds less than expected, the authority's deputy leader has said. It was announced earlier this summer that the Labour-run council had underspent by more than £20m in the 2025-26 financial year. Ethan Radford said details were still being finalised but the council would shortly announce a series of one-off measures \"designed to alleviate pressure on individuals and businesses.\" \"Many of these policies will be things that we're piloting for one year, two years, to see what impact it has,\" he said. \"What it should be viewed as is a recovery package for parts of the city where it doesn't need year-on-year investment, but it needs an immediate injection of funding so it can get off the ground and have an immediate improvement.\" He added that some of the money will also go towards fixing more potholes and further cleansing in the city centre. \"Getting rid of chewing gum, getting rid of grotty looking bins, getting rid of graffiti, the things that are unsightly that none of us want to see,\" he said. It will not, however, be used to offset any potential future increase to council tax. \"At this time, we think it's better value for the taxpayer to take that £20m underspend and invest it into the services that they want to see improvement in,\" Radford said. The council effectively declared itself bankrupt in 2023 but has recently shown signs of recovery. Commissioners appointed to help run the authority in 2024 left earlier this year and were replaced with \"ministerial envoys\", who have fewer powers. Radford said an underspend was \"quite rare\" but was evidence of the council's improving financial position.",
-      "published_at": "2026-09-01T05:06:09+00:00",
-      "updated_at": "2026-09-01T05:06:09+00:00",
-      "effective_at": "2026-09-01T05:06:09+00:00",
+      "summary": "A furniture bank said it has been helping families whose children were sleeping on floors, piles of clothes and other makeshift beds. Peterborough-based Care Zone, which has a warehouse on the edge of the city, plans to spend £80,000 this year on beds and mattresses for local families. \"Many children are sleeping on a pile of clothes, or maybe just on the hard floor,\" said Ashley Wilcox from Care Zone, adding: \"That's not good enough.\" Peterborough City Council said it was working with local charities to reach as many families in crisis as possible. Care Zone is one of several organisations part of the council's crisis resilience fund, a network helping people with food parcels, advice and other services. Its volunteers clean and repair donated furniture and other household goods, giving out more than 3,500 larger items last year and 425 smaller items, such as saucepans and tin openers. Of the 1,900 people who used Care Zone last year, about 845 were children. This year the warehouse is piled high with brand new mattresses ready for families in need. \"We see families that have basically been in temporary accommodation,\" said Wilcox. \"There might be a family of five in one single room sharing a few beds, sleeping on the floor, nowhere to cook.\" He said tackling bed poverty was a priority because of the impact it had on children's education. \"For children in particular, a good night's sleep is really essential.",
+      "published_at": "2026-09-01T05:37:19+00:00",
+      "updated_at": "2026-09-01T05:37:19+00:00",
+      "effective_at": "2026-09-01T05:37:19+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
@@ -815,13 +1094,14 @@
       "subregion": null,
       "country": null,
       "entities": [
+        "ashley",
+        "care",
         "city",
-        "ethan",
         "he",
-        "labour-run",
-        "many",
-        "nottingham",
-        "radford"
+        "peterborough",
+        "peterborough-based",
+        "wilcox",
+        "zone"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -831,21 +1111,140 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "Nottingham City Council is to provide more support with the cost of living after spending millions of pounds less than expected, the authority's deputy leader has said.",
-        "It was announced earlier this summer that the Labour-run council had underspent by more than £20m in the 2025-26 financial year.",
-        "Ethan Radford said details were still being finalised but the council would shortly announce a series of one-off measures \"designed to alleviate pressure on individuals and businesses.\"",
-        "\"Many of these policies will be things that we're piloting for one year, two years, to see what impact it has,\" he said.",
-        "\"What it should be viewed as is a recovery package for parts of the city where it doesn't need year-on-year investment, but it needs an immediate injection of funding so it can get off the ground and have an immediate improvement.\"",
-        "He added that some of the money will also go towards fixing more potholes and further cleansing in the city centre.",
-        "\"Getting rid of chewing gum, getting rid of grotty looking bins, getting rid of graffiti, the things that are unsightly that none of us want to see,\" he said.",
-        "It will not, however, be used to offset any potential future increase to council tax.",
-        "\"At this time, we think it's better value for the taxpayer to take that £20m underspend and invest it into the services that they want to see improvement in,\" Radford said.",
-        "The council effectively declared itself bankrupt in 2023 but has recently shown signs of recovery.",
-        "Commissioners appointed to help run the authority in 2024 left earlier this year and were replaced with \"ministerial envoys\", who have fewer powers.",
-        "Radford said an underspend was \"quite rare\" but was evidence of the council's improving financial position."
+        "A furniture bank said it has been helping families whose children were sleeping on floors, piles of clothes and other makeshift beds.",
+        "Peterborough-based Care Zone, which has a warehouse on the edge of the city, plans to spend £80,000 this year on beds and mattresses for local families.",
+        "\"Many children are sleeping on a pile of clothes, or maybe just on the hard floor,\" said Ashley Wilcox from Care Zone, adding: \"That's not good enough.\"",
+        "Peterborough City Council said it was working with local charities to reach as many families in crisis as possible.",
+        "Care Zone is one of several organisations part of the council's crisis resilience fund, a network helping people with food parcels, advice and other services.",
+        "Its volunteers clean and repair donated furniture and other household goods, giving out more than 3,500 larger items last year and 425 smaller items, such as saucepans and tin openers.",
+        "Of the 1,900 people who used Care Zone last year, about 845 were children.",
+        "This year the warehouse is piled high with brand new mattresses ready for families in need.",
+        "\"We see families that have basically been in temporary accommodation,\" said Wilcox.",
+        "\"There might be a family of five in one single room sharing a few beds, sleeping on the floor, nowhere to cook.\"",
+        "He said tackling bed poverty was a priority because of the impact it had on children's education.",
+        "\"For children in particular, a good night's sleep is really essential."
       ],
       "event_status": "NEW",
-      "event_id": "9f381e049b7ac7405b75bc94",
+      "event_id": "21a04821c5d122136f816952",
+      "importance_score": 27.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "3ac0d8acca94390c4a7daf3b0197fe21927aef089ebf1669910bcb66f568feeb",
+      "public_label": "📰 NEWS",
+      "headline": "Children sleeping on piles of clothes, says charity",
+      "briefing": {
+        "opening": [
+          "A furniture bank said it has been helping families whose children were sleeping on floors, piles of clothes and other makeshift beds.",
+          "Peterborough-based Care Zone, which has a warehouse on the edge of the city, plans to spend £80,000 this year on beds and mattresses for local families."
+        ],
+        "body": [
+          "\"Many children are sleeping on a pile of clothes, or maybe just on the hard floor,\" said Ashley Wilcox from Care Zone, adding: \"That's not good enough.\" Peterborough City Council said it was working with local charities to reach as many families in crisis as possible.",
+          "Care Zone is one of several organisations part of the council's crisis resilience fund, a network helping people with food parcels, advice and other services.",
+          "Its volunteers clean and repair donated furniture and other household goods, giving out more than 3,500 larger items last year and 425 smaller items, such as saucepans and tin openers.",
+          "Of the 1,900 people who used Care Zone last year, about 845 were children.",
+          "This year the warehouse is piled high with brand new mattresses ready for families in need.",
+          "\"We see families that have basically been in temporary accommodation,\" said Wilcox.",
+          "\"There might be a family of five in one single room sharing a few beds, sleeping on the floor, nowhere to cook.\" He said tackling bed poverty was a priority because of the impact it had on children's education.",
+          "\"For children in particular, a good night's sleep is really essential."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "1,900 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Of the 1,900 people who used Care Zone last year, about 845 were children.",
+            "source": "BBC Business",
+            "item_id": "3ac0d8acca94390c4a7daf3b0197fe21927aef089ebf1669910bcb66f568feeb:article",
+            "composed": false
+          },
+          {
+            "text": "Peterborough City Council said it was working with local charities to reach as many families in crisis as possible.",
+            "source": "BBC Business",
+            "item_id": "3ac0d8acca94390c4a7daf3b0197fe21927aef089ebf1669910bcb66f568feeb:article",
+            "composed": false
+          },
+          {
+            "text": "Its volunteers clean and repair donated furniture and other household goods, giving out more than 3,500 larger items last year and 425 smaller items, such as saucepans and tin openers.",
+            "source": "BBC Business",
+            "item_id": "3ac0d8acca94390c4a7daf3b0197fe21927aef089ebf1669910bcb66f568feeb:article",
+            "composed": false
+          },
+          {
+            "text": "\"Many children are sleeping on a pile of clothes, or maybe just on the hard floor,\" said Ashley Wilcox from Care Zone, adding: \"That's not good enough.\"",
+            "source": "BBC Business",
+            "item_id": "3ac0d8acca94390c4a7daf3b0197fe21927aef089ebf1669910bcb66f568feeb:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC Business",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/cx2z0pkrp3ro?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "8c3e5f2bfbbc70b003d2a8c8f713c1b9f6e1ff9c00a73c1347c128de9dddf46d",
+      "title": "Heathland plan to support two rare species of ant",
+      "url": "https://www.bbc.co.uk/news/articles/cy0zgw0nnk2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Science",
+      "source_category": "science",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Devon Wildlife Trust says it will improve the heathland homes of the narrow-headed and erratic ants.",
+      "published_at": "2026-09-01T05:27:03+00:00",
+      "updated_at": "2026-09-01T05:27:03+00:00",
+      "effective_at": "2026-09-01T05:27:03+00:00",
+      "language_status": "ENGLISH",
+      "category": "science",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "science",
+      "subsector": "biology",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "devon",
+        "trust",
+        "wildlife"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "831fc054a1e87805b9e61a3e",
       "importance_score": 26.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -870,54 +1269,68 @@
         },
         "significance_dims": {}
       },
-      "story_id": "a8e026e94f1e9286f3971084fb3de41904c971fedc308d35c710a08f73240858",
+      "story_id": "8c3e5f2bfbbc70b003d2a8c8f713c1b9f6e1ff9c00a73c1347c128de9dddf46d",
+      "article_sentences": [
+        "Two of the UK's rarest ant species are being supported by a new conservation project.",
+        "Chiefs at Devon Wildlife Trust said they plan to improve the heathland homes of both the narrow-headed and erratic ants, and start new colonies at suitable nearby sites.",
+        "The only English population of the narrow-headed ant lives in the trust's Chudleigh Knighton Heath nature reserve and the nationally scarce erratic ant was recently discovered at the charity's Bovey Heathfield nature reserve.",
+        "The three-year project by the wildlife trust and invertebrate conservation charity Buglife has been funded with £212,000 from the government's wildlife restoration campaign.",
+        "Buglife conservation officer Laura Krusin said: \"The narrow-headed ant is only found at one site in England and the erratic ant is also nationally scarce, putting these species' survival at risk.\"",
+        "She said both species had seen declines in their numbers over the last 150 years, mostly because of the loss of their heathland homes.",
+        "Chris Moulton, of the Devon Wildlife Trust, said the first step would be to improve the heathland habitat in the nature reserves to secure the existing ant colonies.",
+        "He said the target was to double the number of narrow-headed ant nests from 200 to more than 400 at Chudleigh Knighton Heath.",
+        "Other heathland reserves, including those at Ideford Common and Teigngrace Meadow, would become home to both species, he added.",
+        "Krusin said the narrow-headed ant, a wood ant, was named for the \"pinched-look\" of its head and was also found at a few sites in Scotland.",
+        "The erratic ant was named for its \"high-energy foraging behaviour which sees it scamper with meandering and unpredictable movements\", she added.",
+        "Follow BBC Devon on X, external, Facebook, external and Instagram, external."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "'Rare' council underspend to help with cost of living",
+      "headline": "Heathland plan to support two rare species of ant",
       "briefing": {
         "opening": [
-          "Nottingham City Council is to provide more support with the cost of living after spending millions of pounds less than expected, the authority's deputy leader has said.",
-          "It was announced earlier this summer that the Labour-run council had underspent by more than £20m in the 2025-26 financial year."
+          "Two of the UK's rarest ant species are being supported by a new conservation project.",
+          "Chiefs at Devon Wildlife Trust said they plan to improve the heathland homes of both the narrow-headed and erratic ants, and start new colonies at suitable nearby sites."
         ],
         "body": [
-          "Ethan Radford said details were still being finalised but the council would shortly announce a series of one-off measures \"designed to alleviate pressure on individuals and businesses.\" \"Many of these policies will be things that we're piloting for one year, two years, to see what impact it has,\" he said.",
-          "\"What it should be viewed as is a recovery package for parts of the city where it doesn't need year-on-year investment, but it needs an immediate injection of funding so it can get off the ground and have an immediate improvement.\" He added that some of the money will also go towards fixing more potholes and further cleansing in the city centre.",
-          "\"Getting rid of chewing gum, getting rid of grotty looking bins, getting rid of graffiti, the things that are unsightly that none of us want to see,\" he said.",
-          "It will not, however, be used to offset any potential future increase to council tax.",
-          "\"At this time, we think it's better value for the taxpayer to take that £20m underspend and invest it into the services that they want to see improvement in,\" Radford said.",
-          "The council effectively declared itself bankrupt in 2023 but has recently shown signs of recovery.",
-          "Commissioners appointed to help run the authority in 2024 left earlier this year and were replaced with \"ministerial envoys\", who have fewer powers.",
-          "Radford said an underspend was \"quite rare\" but was evidence of the council's improving financial position."
+          "The only English population of the narrow-headed ant lives in the trust's Chudleigh Knighton Heath nature reserve and the nationally scarce erratic ant was recently discovered at the charity's Bovey Heathfield nature reserve.",
+          "The three-year project by the wildlife trust and invertebrate conservation charity Buglife has been funded with £212,000 from the government's wildlife restoration campaign.",
+          "Buglife conservation officer Laura Krusin said: \"The narrow-headed ant is only found at one site in England and the erratic ant is also nationally scarce, putting these species' survival at risk.\" She said both species had seen declines in their numbers over the last 150 years, mostly because of the loss of their heathland homes.",
+          "Chris Moulton, of the Devon Wildlife Trust, said the first step would be to improve the heathland habitat in the nature reserves to secure the existing ant colonies.",
+          "He said the target was to double the number of narrow-headed ant nests from 200 to more than 400 at Chudleigh Knighton Heath.",
+          "Other heathland reserves, including those at Ideford Common and Teigngrace Meadow, would become home to both species, he added.",
+          "Krusin said the narrow-headed ant, a wood ant, was named for the \"pinched-look\" of its head and was also found at a few sites in Scotland.",
+          "The erratic ant was named for its \"high-energy foraging behaviour which sees it scamper with meandering and unpredictable movements\", she added."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Devon Wildlife Trust"
+          }
+        ],
         "sentences": [
           {
-            "text": "Nottingham City Council is to provide more support with the cost of living after spending millions of pounds less than expected, the authority's deputy leader has said.",
-            "source": "BBC Business",
-            "item_id": "a8e026e94f1e9286f3971084fb3de41904c971fedc308d35c710a08f73240858:article",
+            "text": "He said the target was to double the number of narrow-headed ant nests from 200 to more than 400 at Chudleigh Knighton Heath.",
+            "source": "BBC Science",
+            "item_id": "8c3e5f2bfbbc70b003d2a8c8f713c1b9f6e1ff9c00a73c1347c128de9dddf46d:article",
             "composed": false
           },
           {
-            "text": "It was announced earlier this summer that the Labour-run council had underspent by more than £20m in the 2025-26 financial year.",
-            "source": "BBC Business",
-            "item_id": "a8e026e94f1e9286f3971084fb3de41904c971fedc308d35c710a08f73240858:article",
+            "text": "Chiefs at Devon Wildlife Trust said they plan to improve the heathland homes of both the narrow-headed and erratic ants, and start new colonies at suitable nearby sites.",
+            "source": "BBC Science",
+            "item_id": "8c3e5f2bfbbc70b003d2a8c8f713c1b9f6e1ff9c00a73c1347c128de9dddf46d:article",
             "composed": false
           },
           {
-            "text": "\"At this time, we think it's better value for the taxpayer to take that £20m underspend and invest it into the services that they want to see improvement in,\" Radford said.",
-            "source": "BBC Business",
-            "item_id": "a8e026e94f1e9286f3971084fb3de41904c971fedc308d35c710a08f73240858:article",
-            "composed": false
-          },
-          {
-            "text": "The council effectively declared itself bankrupt in 2023 but has recently shown signs of recovery.",
-            "source": "BBC Business",
-            "item_id": "a8e026e94f1e9286f3971084fb3de41904c971fedc308d35c710a08f73240858:article",
+            "text": "Buglife conservation officer Laura Krusin said: \"The narrow-headed ant is only found at one site in England and the erratic ant is also nationally scarce, putting these species' survival at risk.\"",
+            "source": "BBC Science",
+            "item_id": "8c3e5f2bfbbc70b003d2a8c8f713c1b9f6e1ff9c00a73c1347c128de9dddf46d:article",
             "composed": false
           }
         ],
-        "source": "BBC Business",
+        "source": "BBC Science",
         "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/c74e9j1ye9vo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cy0zgw0nnk2o?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
       "label": "📰 NEWS"
