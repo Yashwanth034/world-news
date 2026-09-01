@@ -1,65 +1,499 @@
 {
-  "generated_at": "2026-09-01T17:31:09.635541+00:00",
-  "count": 3,
+  "generated_at": "2026-09-01T17:40:46.574428+00:00",
+  "count": 5,
   "stories": [
     {
-      "id": "59db58cf1616be37b8a6b25643335e0ee64917e96f5d7343698bd994486e36f0",
-      "title": "Bank of America VP Erin Piacenti killed in Times Square stabbing",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3366029/bank-america-vp-killed-times-square-stabbing?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "3d9f7e62c8c0a6ba2a2757f156c2a1d25af554c1f64966fc1a83d71cc96a78a9",
+      "title": "Russia targets Ukraine’s rail network as war enters deadly new phase",
+      "url": "https://www.theguardian.com/world/2026/sep/01/russia-targets-ukraines-rail-network-as-war-enters-deadly-new-phase",
+      "source": "The Guardian World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Six employees killed on Tuesday after Moscow escalates attacks on infrastructure and Ukrainian capital Russia has opened a deadly new phase in its war against Ukraine by deliberately targeting the country’s railway network, with six employees killed on Tuesday in the latest strikes on Kyiv. Ukraine’s state-owned railway company, Ukrzaliznytsia, said its workers died when a ballistic missile plunged into a locomotive depot. The Russians hit other railway facilities, it added, during a massive bombardment of Kyiv and the Kyiv region. At least 12 people died , with a dozen wounded, including three children. Continue reading...",
+      "published_at": "2026-09-01T17:23:15+00:00",
+      "updated_at": "2026-09-01T17:23:15+00:00",
+      "effective_at": "2026-09-01T17:23:15+00:00",
+      "language_status": "ENGLISH",
+      "category": "conflict",
+      "score": 73,
+      "confidence": "medium",
+      "urgency_terms": [
+        "missile"
+      ],
+      "sector": "transport",
+      "subsector": "rail",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "russia",
+        "russians",
+        "ukraine",
+        "ukrzaliznytsia"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "e6f2492300cd39b71b75fc4b",
+      "importance_score": 84.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 19,
+        "urgency": 9.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 36,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 12,
+          "injured": 12,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "scientific": 8,
+          "geopolitical": 8,
+          "human": 8,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "3d9f7e62c8c0a6ba2a2757f156c2a1d25af554c1f64966fc1a83d71cc96a78a9",
+      "public_label": "🔄 UPDATE",
+      "headline": "Russia targets Ukraine’s rail network as war enters deadly new phase",
+      "briefing": {
+        "opening": [
+          "Six employees killed on Tuesday after Moscow escalates attacks on infrastructure and Ukrainian capital Russia has opened a deadly new phase in its war against Ukraine by deliberately targeting the country’s railway network, with six employees killed on Tuesday in the latest strikes on Kyiv.",
+          "Ukraine’s state-owned railway company, Ukrzaliznytsia, said its workers died when a ballistic missile plunged into a locomotive depot."
+        ],
+        "body": [
+          "The Russians hit other railway facilities, it added, during a massive bombardment of Kyiv and the Kyiv region.",
+          "At least 12 people died, with a dozen wounded, including three children."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "At least 12 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Russians hit other railway facilities, it added, during a massive bombardment of Kyiv and the Kyiv region.",
+            "source": "The Guardian World",
+            "item_id": "3d9f7e62c8c0a6ba2a2757f156c2a1d25af554c1f64966fc1a83d71cc96a78a9",
+            "composed": false
+          },
+          {
+            "text": "Ukraine’s state-owned railway company, Ukrzaliznytsia, said its workers died when a ballistic missile plunged into a locomotive depot.",
+            "source": "The Guardian World",
+            "item_id": "3d9f7e62c8c0a6ba2a2757f156c2a1d25af554c1f64966fc1a83d71cc96a78a9",
+            "composed": false
+          },
+          {
+            "text": "Six employees killed on Tuesday after Moscow escalates attacks on infrastructure and Ukrainian capital Russia has opened a deadly new phase in its war against Ukraine by deliberately targeting the country’s railway network, with six employees killed on Tuesday in the latest strikes on Kyiv.",
+            "source": "The Guardian World",
+            "item_id": "3d9f7e62c8c0a6ba2a2757f156c2a1d25af554c1f64966fc1a83d71cc96a78a9",
+            "composed": false
+          },
+          {
+            "text": "At least 12 people died, with a dozen wounded, including three children.",
+            "source": "The Guardian World",
+            "item_id": "3d9f7e62c8c0a6ba2a2757f156c2a1d25af554c1f64966fc1a83d71cc96a78a9",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian World",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/world/2026/sep/01/russia-targets-ukraines-rail-network-as-war-enters-deadly-new-phase"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "1da97cafb97c18516972098e2266a3700e8a396b05256f54e304914a9e230fca",
+      "title": "Pitso Mosimane appointed by South Africa ahead of AFCON qualifiers",
+      "url": "https://www.aljazeera.com/sports/2026/9/1/pitso-mosimane-appointed-by-south-africa-ahead-of-afcon-qualifiers?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "Pitso Mosimane replaces Hugo Broos as manager of the South Africa national football team following World Cup exit. Pitso Mosimane was confirmed as South Africa coach on Tuesday, 24 days after the national football association approved his appointment. On August 8, association president Danny Jordaan said, “We need to tie up some loose ends,” but the delay was unexpectedly long. Mosimane succeeds Belgian Hugo Broos, 74, who retired after leading South Africa to the knockout stages of a World Cup for the first time in North America this year. Mosimane has just 23 days to prepare the national team for their first 2027 Africa Cup of Nations (AFCON) qualifier, at home to Guinea. While Guinea failed to reach the 2025 AFCON tournament in Morocco, they boast one of the top Europe-based African strikers in Serhou Guirassy of Borussia Dortmund. Former South Africa striker Mosimane, 62, will be taking charge of Bafana (The Boys) a second time after an unsuccessful two-year stint from 2010. Under his leadership, South Africa failed to qualify for the 2012 AFCON, and he was fired after a home draw against Ethiopia in a 2014 World Cup qualifier. The AFCON failure was embarrassing as the team celebrated after a draw with Sierra Leone, believing they had qualified, only to discover later they misunderstood the head-to-head rule. Mosimane was much more successful at club level, winning the CAF Champions League once with Pretoria-based Mamelodi Sundowns, then twice with Cairo outfit Al Ahly. He also won the CAF Super Cup three times. His six titles make him the most successful Black coach in CAF club competitions.",
+      "published_at": "2026-09-01T17:25:45+00:00",
+      "updated_at": "2026-09-01T17:25:45+00:00",
+      "effective_at": "2026-09-01T17:25:45+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "sports",
+      "subsector": "sports",
+      "subregion": "Southern Africa",
+      "country": null,
+      "entities": [
+        "afcon",
+        "african",
+        "ahly",
+        "al",
+        "america",
+        "bafana",
+        "belgian",
+        "black",
+        "borussia",
+        "boys",
+        "broos",
+        "caf",
+        "cairo",
+        "champions",
+        "cup",
+        "danny",
+        "dortmund",
+        "ethiopia",
+        "europe-based",
+        "guinea",
+        "guirassy",
+        "hugo",
+        "jordaan",
+        "league",
+        "leone",
+        "mamelodi",
+        "morocco",
+        "mosimane",
+        "nations",
+        "north",
+        "pitso",
+        "pretoria-based",
+        "serhou",
+        "sierra",
+        "south_africa",
+        "sundowns",
+        "super",
+        "we"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Pitso Mosimane replaces Hugo Broos as manager of the South Africa national football team following World Cup exit.",
+        "Pitso Mosimane was confirmed as South Africa coach on Tuesday, 24 days after the national football association approved his appointment.",
+        "On August 8, association president Danny Jordaan said, “We need to tie up some loose ends,” but the delay was unexpectedly long.",
+        "Mosimane succeeds Belgian Hugo Broos, 74, who retired after leading South Africa to the knockout stages of a World Cup for the first time in North America this year.",
+        "Mosimane has just 23 days to prepare the national team for their first 2027 Africa Cup of Nations (AFCON) qualifier, at home to Guinea.",
+        "While Guinea failed to reach the 2025 AFCON tournament in Morocco, they boast one of the top Europe-based African strikers in Serhou Guirassy of Borussia Dortmund.",
+        "Former South Africa striker Mosimane, 62, will be taking charge of Bafana (The Boys) a second time after an unsuccessful two-year stint from 2010.",
+        "Under his leadership, South Africa failed to qualify for the 2012 AFCON, and he was fired after a home draw against Ethiopia in a 2014 World Cup qualifier.",
+        "The AFCON failure was embarrassing as the team celebrated after a draw with Sierra Leone, believing they had qualified, only to discover later they misunderstood the head-to-head rule.",
+        "Mosimane was much more successful at club level, winning the CAF Champions League once with Pretoria-based Mamelodi Sundowns, then twice with Cairo outfit Al Ahly.",
+        "He also won the CAF Super Cup three times.",
+        "His six titles make him the most successful Black coach in CAF club competitions."
+      ],
+      "event_status": "NEW",
+      "event_id": "0c33fcada5e8cbff62ff0099",
+      "importance_score": 51.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 20,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 8,
+          "cultural": 8,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "1da97cafb97c18516972098e2266a3700e8a396b05256f54e304914a9e230fca",
+      "public_label": "📰 NEWS",
+      "headline": "Pitso Mosimane appointed by South Africa ahead of AFCON qualifiers",
+      "briefing": {
+        "opening": [
+          "Pitso Mosimane replaces Hugo Broos as manager of the South Africa national football team following World Cup exit.",
+          "Pitso Mosimane was confirmed as South Africa coach on Tuesday, 24 days after the national football association approved his appointment."
+        ],
+        "body": [
+          "On August 8, association president Danny Jordaan said, “We need to tie up some loose ends,” but the delay was unexpectedly long.",
+          "Mosimane succeeds Belgian Hugo Broos, 74, who retired after leading South Africa to the knockout stages of a World Cup for the first time in North America this year.",
+          "Mosimane has just 23 days to prepare the national team for their first 2027 Africa Cup of Nations (AFCON) qualifier, at home to Guinea.",
+          "While Guinea failed to reach the 2025 AFCON tournament in Morocco, they boast one of the top Europe-based African strikers in Serhou Guirassy of Borussia Dortmund.",
+          "Former South Africa striker Mosimane, 62, will be taking charge of Bafana (The Boys) a second time after an unsuccessful two-year stint from 2010.",
+          "Under his leadership, South Africa failed to qualify for the 2012 AFCON, and he was fired after a home draw against Ethiopia in a 2014 World Cup qualifier.",
+          "The AFCON failure was embarrassing as the team celebrated after a draw with Sierra Leone, believing they had qualified, only to discover later they misunderstood the head-to-head rule.",
+          "Mosimane was much more successful at club level, winning the CAF Champions League once with Pretoria-based Mamelodi Sundowns, then twice with Cairo outfit Al Ahly."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "North America"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "While Guinea failed to reach the 2025 AFCON tournament in Morocco, they boast one of the top Europe-based African strikers in Serhou Guirassy of Borussia Dortmund.",
+            "source": "Al Jazeera",
+            "item_id": "1da97cafb97c18516972098e2266a3700e8a396b05256f54e304914a9e230fca:article",
+            "composed": false
+          },
+          {
+            "text": "Mosimane has just 23 days to prepare the national team for their first 2027 Africa Cup of Nations (AFCON) qualifier, at home to Guinea.",
+            "source": "Al Jazeera",
+            "item_id": "1da97cafb97c18516972098e2266a3700e8a396b05256f54e304914a9e230fca:article",
+            "composed": false
+          },
+          {
+            "text": "Former South Africa striker Mosimane, 62, will be taking charge of Bafana (The Boys) a second time after an unsuccessful two-year stint from 2010.",
+            "source": "Al Jazeera",
+            "item_id": "1da97cafb97c18516972098e2266a3700e8a396b05256f54e304914a9e230fca:article",
+            "composed": false
+          },
+          {
+            "text": "Under his leadership, South Africa failed to qualify for the 2012 AFCON, and he was fired after a home draw against Ethiopia in a 2014 World Cup qualifier.",
+            "source": "Al Jazeera",
+            "item_id": "1da97cafb97c18516972098e2266a3700e8a396b05256f54e304914a9e230fca:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/sports/2026/9/1/pitso-mosimane-appointed-by-south-africa-ahead-of-afcon-qualifiers?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "3236b9ba0e8f1ecc7924936c0b6bbe757fafb5c335cb618e9af2359f6dfb0c3a",
+      "title": "US State Department issues security alert for citizens in Middle East",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-state-department-issues-security-alert-tells-citizens-exercise",
+      "source": "Middle East Eye",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "North America",
       "discovery": false,
-      "summary": "A ⁠Bank of America ⁠vice-president, Erin Piacenti, was ⁠killed in a stabbing at Times Square on Monday. Piacenti, 32, was a vice-president in BofA’s business selection and conflicts unit, according to her LinkedIn profile. “We are shocked ‌and deeply saddened by the tragic loss of our colleague. She was a valued teammate who will be greatly missed. Our hearts go out to her family and all of her loved ones,” the US banking giant said in an emailed statement on Tuesday. New York Mayor Zohran...",
-      "published_at": "2026-09-01T15:24:24+00:00",
-      "updated_at": "2026-09-01T15:24:24+00:00",
-      "effective_at": "2026-09-01T15:24:24+00:00",
+      "summary": "US State Department issues security alert for citizens in Middle East The US State Department issued a security alert on Tuesday warning its citizens in the Middle East to “exercise heightened vigilance and be aware of potential flight cancellations, airspace closures, and travel disruptions”. “Due to tensions in the Middle East, the security environment remains complex with the potential for unforeseen escalation,” the agency said. This comes after the US military announced new strikes against Iran. Middle East: Due to tensions in the Middle East, the security environment remains complex with the potential for unforeseen escalation. Americans currently in the Middle East should exercise hei",
+      "published_at": "2026-09-01T17:39:13+00:00",
+      "updated_at": "2026-09-01T17:39:13+00:00",
+      "effective_at": "2026-09-01T17:39:13+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
+      "category": "environment",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "banking",
+      "sector": "transport",
+      "subsector": "aviation",
       "subregion": "United States",
       "country": null,
       "entities": [
-        "america",
-        "bank",
-        "bofa",
-        "erin",
-        "linkedin",
-        "new_york",
-        "piacenti",
-        "square",
-        "times",
-        "us",
-        "vp",
-        "zohran"
+        "department",
+        "due",
+        "east",
+        "iran",
+        "middle",
+        "state",
+        "us"
       ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 1,
-      "corroborating_source_names": [
-        "Al Jazeera"
-      ],
-      "verified_match_count": 1,
-      "priority_score": 73,
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "0b1a5245fb15392f57c1a87a",
-      "importance_score": 41.0,
+      "event_status": "UPDATE",
+      "event_id": "568e810dd2bbf15b5504b23f",
+      "importance_score": 49.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 6.0,
+        "urgency": 9.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 20,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "3236b9ba0e8f1ecc7924936c0b6bbe757fafb5c335cb618e9af2359f6dfb0c3a",
+      "public_label": "🔄 UPDATE",
+      "headline": "US State Department issues security alert for citizens in Middle East",
+      "briefing": {
+        "opening": [
+          "The US State Department issued a security alert on Tuesday warning its citizens in the Middle East to “exercise heightened vigilance and be aware of potential flight cancellations, airspace closures, and travel disruptions”.",
+          "“Due to tensions in the Middle East, the security environment remains complex with the potential for unforeseen escalation,” the agency said."
+        ],
+        "body": [
+          "This comes after the US military announced new strikes against Iran.",
+          "Americans currently in the Middle East should exercise hei."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "“Due to tensions in the Middle East, the security environment remains complex with the potential for unforeseen escalation,” the agency said.",
+            "source": "Middle East Eye",
+            "item_id": "3236b9ba0e8f1ecc7924936c0b6bbe757fafb5c335cb618e9af2359f6dfb0c3a",
+            "composed": false
+          },
+          {
+            "text": "This comes after the US military announced new strikes against Iran.",
+            "source": "Middle East Eye",
+            "item_id": "3236b9ba0e8f1ecc7924936c0b6bbe757fafb5c335cb618e9af2359f6dfb0c3a",
+            "composed": false
+          },
+          {
+            "text": "The US State Department issued a security alert on Tuesday warning its citizens in the Middle East to “exercise heightened vigilance and be aware of potential flight cancellations, airspace closures, and travel disruptions”.",
+            "source": "Middle East Eye",
+            "item_id": "3236b9ba0e8f1ecc7924936c0b6bbe757fafb5c335cb618e9af2359f6dfb0c3a",
+            "composed": false
+          }
+        ],
+        "source": "Middle East Eye",
+        "corroborating": [],
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-state-department-issues-security-alert-tells-citizens-exercise"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "d91c2f92c146bc8703878855169a458fd27687b2dc534cd48e04abbbda66e63e",
+      "title": "Milei announces a national address on Thursday over the Falklands claim",
+      "url": "https://en.mercopress.com/2026/09/01/milei-announces-a-national-address-on-thursday-over-the-falklands-claim?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "South America",
+      "discovery": false,
+      "summary": "Argentine President Javier Milei announced on Tuesday that he will address the nation on Thursday evening to set out the state of the sovereignty claim over the Falklands, a day after US President Donald Trump said he was reviewing his country's position on the archipelago. The decision was taken after a cabinet meeting at the Casa Rosada, at which Foreign Minister Pablo Quirno presented an assessment of ongoing diplomatic efforts. Milei described the matter as “the most important and sacred cause we Argentines have” and said “something very significant happened yesterday” in relation to it. The president had said in early August that Washington's shift in international strategy could favour the Argentine position. “It needs a reliable ally in the South Atlantic and we are one,” he said at the time, arguing his government has achieved the greatest diplomatic progress on the issue since the return of democracy, with the aim of bringing the Falklands, South Georgia, the South Sandwich Islands and the surrounding maritime area under Argentine control. He added that the claim has historic backing from China and that “now the United States is taking a position towards our case.” That reading does not match official US statements. Trump, asked on Monday in the Oval Office, said only: “I always review every position. That's just one of many,” without confirming any decision. The US ambassador in Buenos Aires, Peter Lamelas, said in mid-August that Washington's neutrality “has not changed”. The State Department recognises the existence of competing claims and British administration of the islands, without taking sides. The first reaction from the British government came from Chancellor John Healey, who told.",
+      "published_at": "2026-09-01T17:28:00+00:00",
+      "updated_at": "2026-09-01T17:28:00+00:00",
+      "effective_at": "2026-09-01T17:28:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "South America",
+      "country": null,
+      "entities": [
+        "aires",
+        "argentine",
+        "argentines",
+        "atlantic",
+        "buenos",
+        "casa",
+        "china",
+        "department",
+        "donald",
+        "falklands",
+        "foreign",
+        "georgia",
+        "healey",
+        "islands",
+        "javier",
+        "john",
+        "lamelas",
+        "milei",
+        "office",
+        "oval",
+        "pablo",
+        "peter",
+        "quirno",
+        "rosada",
+        "sandwich",
+        "south",
+        "state",
+        "trump",
+        "uk",
+        "united_states",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Argentine President Javier Milei announced on Tuesday that he will address the nation on Thursday evening to set out the state of the sovereignty claim over the Falklands, a day after US President Donald Trump said he was reviewing his country's position on the archipelago.",
+        "The decision was taken after a cabinet meeting at the Casa Rosada, at which Foreign Minister Pablo Quirno presented an assessment of ongoing diplomatic efforts.",
+        "Milei described the matter as “the most important and sacred cause we Argentines have” and said “something very significant happened yesterday” in relation to it.",
+        "The president had said in early August that Washington's shift in international strategy could favour the Argentine position.",
+        "“It needs a reliable ally in the South Atlantic and we are one,” he said at the time, arguing his government has achieved the greatest diplomatic progress on the issue since the return of democracy, with the aim of bringing the Falklands, South Georgia, the South Sandwich Islands and the surrounding maritime area under Argentine control.",
+        "He added that the claim has historic backing from China and that “now the United States is taking a position towards our case.”",
+        "That reading does not match official US statements.",
+        "Trump, asked on Monday in the Oval Office, said only: “I always review every position.",
+        "That's just one of many,” without confirming any decision.",
+        "The US ambassador in Buenos Aires, Peter Lamelas, said in mid-August that Washington's neutrality “has not changed”.",
+        "The State Department recognises the existence of competing claims and British administration of the islands, without taking sides.",
+        "The first reaction from the British government came from Chancellor John Healey, who told."
+      ],
+      "event_status": "NEW",
+      "event_id": "a2515b0a52b3b05476a0348c",
+      "importance_score": 37.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 6,
+        "corroboration": 0,
         "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
@@ -73,93 +507,110 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 4,
-          "geopolitical": 4
+          "geopolitical": 8
         }
       },
-      "story_id": "59db58cf1616be37b8a6b25643335e0ee64917e96f5d7343698bd994486e36f0",
+      "story_id": "d91c2f92c146bc8703878855169a458fd27687b2dc534cd48e04abbbda66e63e",
       "public_label": "📰 NEWS",
-      "headline": "Bank of America VP Erin Piacenti killed in Times Square stabbing",
+      "headline": "Milei announces a national address on Thursday over the Falklands claim",
       "briefing": {
         "opening": [
-          "A ⁠Bank of America ⁠vice-president, Erin Piacenti, was ⁠killed in a stabbing at Times Square on Monday.",
-          "Piacenti, 32, was a vice-president in BofA’s business selection and conflicts unit, according to her LinkedIn profile."
+          "Argentine President Javier Milei announced on Tuesday that he will address the nation on Thursday evening to set out the state of the sovereignty claim over the Falklands, a day after US President Donald Trump said he was reviewing his country's position on the archipelago.",
+          "The decision was taken after a cabinet meeting at the Casa Rosada, at which Foreign Minister Pablo Quirno presented an assessment of ongoing diplomatic efforts."
         ],
         "body": [
-          "“We are shocked ‌and deeply saddened by the tragic loss of our colleague.",
-          "She was a valued teammate who will be greatly missed.",
-          "Our hearts go out to her family and all of her loved ones,” the US banking giant said in an emailed statement on Tuesday.",
-          "New York Mayor Zohran..."
+          "Milei described the matter as “the most important and sacred cause we Argentines have” and said “something very significant happened yesterday” in relation to it.",
+          "The president had said in early August that Washington's shift in international strategy could favour the Argentine position.",
+          "“It needs a reliable ally in the South Atlantic and we are one,” he said at the time, arguing his government has achieved the greatest diplomatic progress on the issue since the return of democracy, with the aim of bringing the Falklands, South Georgia, the South Sandwich Islands and the surrounding maritime area under Argentine control.",
+          "He added that the claim has historic backing from China and that “now the United States is taking a position towards our case.” That reading does not match official US statements.",
+          "Trump, asked on Monday in the Oval Office, said only: “I always review every position.",
+          "That's just one of many,” without confirming any decision.",
+          "The US ambassador in Buenos Aires, Peter Lamelas, said in mid-August that Washington's neutrality “has not changed”.",
+          "The State Department recognises the existence of competing claims and British administration of the islands, without taking sides."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Times Square"
+            "text": "Buenos Aires"
           }
         ],
         "sentences": [
           {
-            "text": "She was a valued teammate who will be greatly missed.",
-            "source": "South China Morning Post",
-            "item_id": "59db58cf1616be37b8a6b25643335e0ee64917e96f5d7343698bd994486e36f0",
+            "text": "“It needs a reliable ally in the South Atlantic and we are one,” he said at the time, arguing his government has achieved the greatest diplomatic progress on the issue since the return of democracy, with the aim of bringing the Falklands, South Georgia, the South Sandwich Islands and the surrounding maritime area under Argentine control.",
+            "source": "MercoPress",
+            "item_id": "d91c2f92c146bc8703878855169a458fd27687b2dc534cd48e04abbbda66e63e:article",
             "composed": false
           },
           {
-            "text": "A ⁠Bank of America ⁠vice-president, Erin Piacenti, was ⁠killed in a stabbing at Times Square on Monday.",
-            "source": "South China Morning Post",
-            "item_id": "59db58cf1616be37b8a6b25643335e0ee64917e96f5d7343698bd994486e36f0",
+            "text": "He added that the claim has historic backing from China and that “now the United States is taking a position towards our case.”",
+            "source": "MercoPress",
+            "item_id": "d91c2f92c146bc8703878855169a458fd27687b2dc534cd48e04abbbda66e63e:article",
+            "composed": false
+          },
+          {
+            "text": "Argentine President Javier Milei announced on Tuesday that he will address the nation on Thursday evening to set out the state of the sovereignty claim over the Falklands, a day after US President Donald Trump said he was reviewing his country's position on the archipelago.",
+            "source": "MercoPress",
+            "item_id": "d91c2f92c146bc8703878855169a458fd27687b2dc534cd48e04abbbda66e63e:article",
+            "composed": false
+          },
+          {
+            "text": "The president had said in early August that Washington's shift in international strategy could favour the Argentine position.",
+            "source": "MercoPress",
+            "item_id": "d91c2f92c146bc8703878855169a458fd27687b2dc534cd48e04abbbda66e63e:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "MercoPress",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3366029/bank-america-vp-killed-times-square-stabbing?utm_source=rss_feed"
+        "url": "https://en.mercopress.com/2026/09/01/milei-announces-a-national-address-on-thursday-over-the-falklands-claim?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "41f5c4aca46471b94dc047ec78138b43cb9d772337598804a71bf5656313a544",
-      "title": "Bank of Russia extends restrictions on foreign currency cash withdrawals until next March",
-      "url": "https://tass.com/economy/2180635",
-      "source": "TASS English",
-      "source_category": "world",
+      "id": "d16af14513634b3193be506fa2cdf2bde359f330a9b089f3dfd701116978d4cd",
+      "title": "Madrid pledges €306 million in additional aid for Ceuta",
+      "url": "http://www.africanews.com/2026/09/01/madrid-pledges-306-million-in-additional-aid-for-ceuta/",
+      "source": "Africanews English",
+      "source_category": "africa",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "The Bank of Russia first introduced restrictions on cash withdrawals of foreign currency in 2022",
-      "published_at": "2026-09-01T17:22:58+00:00",
-      "updated_at": "2026-09-01T17:22:58+00:00",
-      "effective_at": "2026-09-01T17:22:58+00:00",
+      "summary": "Spain's government has approved more than 300 million euros in additional aid for its North African exclave of Ceuta. Madrid said the funding is aimed at supporting \"all fronts\" as it struggles to accommodate thousands of migrants who entered the territory last month.",
+      "published_at": "2026-09-01T16:35:47+00:00",
+      "updated_at": "2026-09-01T16:35:47+00:00",
+      "effective_at": "2026-09-01T16:35:47+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 60,
+      "category": "world",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "banking",
+      "sector": "geopolitics",
+      "subsector": "politics",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "bank",
-        "russia"
+        "african",
+        "ceuta",
+        "north",
+        "spain"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "d70ef77d786a780ae112b457",
-      "importance_score": 32.0,
+      "event_id": "940829197f1fb2d3700a1efe",
+      "importance_score": 31.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 6.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
@@ -178,188 +629,36 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 4
+          "geopolitical": 4
         }
       },
-      "story_id": "41f5c4aca46471b94dc047ec78138b43cb9d772337598804a71bf5656313a544",
-      "article_sentences": [
-        "MOSCOW, September 1.",
-        "The Bank of Russia has extended restrictions on cash withdrawals of foreign currency for another six months until March 9, 2027, according to a statement on the regulator’s website.",
-        "\"The Bank of Russia maintains restrictions on cash foreign currency due to sanctions imposed against our country, which prohibit domestic financial institutions from acquiring cash currency of Western countries,\" the statement reads.",
-        "For citizens whose foreign currency accounts or deposits were opened before March 9, 2022, the withdrawal limit remains at the balance of funds as of 00:00 Moscow time on that date, but not exceeding $10,000 or the equivalent in euros, regardless of the account or deposit currency, provided that they did not previously exercise this option.",
-        "Remaining funds may still be withdrawn in rubles.",
-        "The Bank of Russia first introduced restrictions on cash withdrawals of foreign currency in 2022."
-      ],
+      "story_id": "d16af14513634b3193be506fa2cdf2bde359f330a9b089f3dfd701116978d4cd",
       "public_label": "📰 NEWS",
-      "headline": "Bank of Russia extends restrictions on foreign currency cash withdrawals until next March",
+      "headline": "Madrid pledges €306 million in additional aid for Ceuta",
       "briefing": {
         "opening": [
-          "MOSCOW, September 1.",
-          "The Bank of Russia has extended restrictions on cash withdrawals of foreign currency for another six months until March 9, 2027, according to a statement on the regulator’s website."
+          "Spain's government has approved more than 300 million euros in additional aid for its North African exclave of Ceuta.",
+          "Madrid said the funding is aimed at supporting \"all fronts\" as it struggles to accommodate thousands of migrants who entered the territory last month."
         ],
-        "body": [
-          "\"The Bank of Russia maintains restrictions on cash foreign currency due to sanctions imposed against our country, which prohibit domestic financial institutions from acquiring cash currency of Western countries,\" the statement reads.",
-          "For citizens whose foreign currency accounts or deposits were opened before March 9, 2022, the withdrawal limit remains at the balance of funds as of 00:00 Moscow time on that date, but not exceeding $10,000 or the equivalent in euros, regardless of the account or deposit currency, provided that they did not previously exercise this option.",
-          "Remaining funds may still be withdrawn in rubles.",
-          "The Bank of Russia first introduced restrictions on cash withdrawals of foreign currency in 2022."
-        ],
+        "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "The Bank of Russia has extended restrictions on cash withdrawals of foreign currency for another six months until March 9, 2027, according to a statement on the regulator’s website.",
-            "source": "TASS English",
-            "item_id": "41f5c4aca46471b94dc047ec78138b43cb9d772337598804a71bf5656313a544:article",
+            "text": "Spain's government has approved more than 300 million euros in additional aid for its North African exclave of Ceuta.",
+            "source": "Africanews English",
+            "item_id": "d16af14513634b3193be506fa2cdf2bde359f330a9b089f3dfd701116978d4cd",
             "composed": false
           },
           {
-            "text": "For citizens whose foreign currency accounts or deposits were opened before March 9, 2022, the withdrawal limit remains at the balance of funds as of 00:00 Moscow time on that date, but not exceeding $10,000 or the equivalent in euros, regardless of the account or deposit currency, provided that they did not previously exercise this option.",
-            "source": "TASS English",
-            "item_id": "41f5c4aca46471b94dc047ec78138b43cb9d772337598804a71bf5656313a544:article",
-            "composed": false
-          },
-          {
-            "text": "MOSCOW, September 1.",
-            "source": "TASS English",
-            "item_id": "41f5c4aca46471b94dc047ec78138b43cb9d772337598804a71bf5656313a544:article",
-            "composed": false
-          },
-          {
-            "text": "The Bank of Russia first introduced restrictions on cash withdrawals of foreign currency in 2022.",
-            "source": "TASS English",
-            "item_id": "41f5c4aca46471b94dc047ec78138b43cb9d772337598804a71bf5656313a544:article",
+            "text": "Madrid said the funding is aimed at supporting \"all fronts\" as it struggles to accommodate thousands of migrants who entered the territory last month.",
+            "source": "Africanews English",
+            "item_id": "d16af14513634b3193be506fa2cdf2bde359f330a9b089f3dfd701116978d4cd",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Africanews English",
         "corroborating": [],
-        "url": "https://tass.com/economy/2180635"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "a81b0c93fa82bb96407fd66354cc3cbd73ec21ce83a3a0aad54da088d0cd7bd1",
-      "title": "Falklands/Chile second shipping link, decisive support from Punta Arenas",
-      "url": "https://en.mercopress.com/2026/09/01/falklands-chile-second-shipping-link-decisive-support-from-punta-arenas?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "source": "MercoPress",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "South America",
-      "discovery": false,
-      "summary": "To support a second shipping link between the Falkland Islands and Chile, the Municipality of Punta Arenas is hosting a “Business Showroom” on Monday 28th and Tuesday 29th September 2026.",
-      "published_at": "2026-09-01T17:24:00+00:00",
-      "updated_at": "2026-09-01T17:24:00+00:00",
-      "effective_at": "2026-09-01T17:24:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "industry",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "shipping",
-      "subregion": "South America",
-      "country": null,
-      "entities": [
-        "arenas",
-        "business",
-        "chile",
-        "falkland",
-        "falklands",
-        "islands",
-        "municipality",
-        "punta",
-        "showroom"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "9049c7eaa902680c95e64cf0",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "a81b0c93fa82bb96407fd66354cc3cbd73ec21ce83a3a0aad54da088d0cd7bd1",
-      "article_sentences": [
-        "To support a second shipping link between the Falkland Islands and Chile, the Municipality of Punta Arenas is hosting a “Business Showroom” on Monday 28th and Tuesday 29th September 2026.",
-        "This event facilitates networking between Falkland Islands businesses to network with counterparts from Punta Arenas and the Magallanes region across multiple sectors, including construction, produce, vehicles, and more.",
-        "Attendees must arrange their own travel and accommodation.",
-        "The Business Development Team can assist you in applying for the FIDC Business and Trade Delegation Grant if required.",
-        "Applications can not be made retrospectively.",
-        "One application per business per annum to one event; Grant of 50% up to £1,500.",
-        "To request the Commercial Rate Card from Naviera Easter Islans (containing pricing and conditions for freight shipping to the Falkland Islands via Chile) or register your interest in attending the event, please email communications@fidc.co.fk See less.",
-        "Closing Date for Expressions of Interest: 4.30pm on Thursday 3rd September."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Falklands/Chile second shipping link, decisive support from Punta Arenas",
-      "briefing": {
-        "opening": [
-          "To support a second shipping link between the Falkland Islands and Chile, the Municipality of Punta Arenas is hosting a “Business Showroom” on Monday 28th and Tuesday 29th September 2026.",
-          "This event facilitates networking between Falkland Islands businesses to network with counterparts from Punta Arenas and the Magallanes region across multiple sectors, including construction, produce, vehicles, and more."
-        ],
-        "body": [
-          "Attendees must arrange their own travel and accommodation.",
-          "The Business Development Team can assist you in applying for the FIDC Business and Trade Delegation Grant if required.",
-          "Applications can not be made retrospectively.",
-          "One application per business per annum to one event; Grant of 50% up to £1,500.",
-          "To request the Commercial Rate Card from Naviera Easter Islans (containing pricing and conditions for freight shipping to the Falkland Islands via Chile) or register your interest in attending the event, please email communications@fidc.co.fk See less.",
-          "Closing Date for Expressions of Interest: 4.30pm on Thursday 3rd September."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "To support a second shipping link between the Falkland Islands and Chile, the Municipality of Punta Arenas is hosting a “Business Showroom” on Monday 28th and Tuesday 29th September 2026.",
-            "source": "MercoPress",
-            "item_id": "a81b0c93fa82bb96407fd66354cc3cbd73ec21ce83a3a0aad54da088d0cd7bd1:article",
-            "composed": false
-          },
-          {
-            "text": "One application per business per annum to one event; Grant of 50% up to £1,500.",
-            "source": "MercoPress",
-            "item_id": "a81b0c93fa82bb96407fd66354cc3cbd73ec21ce83a3a0aad54da088d0cd7bd1:article",
-            "composed": false
-          },
-          {
-            "text": "This event facilitates networking between Falkland Islands businesses to network with counterparts from Punta Arenas and the Magallanes region across multiple sectors, including construction, produce, vehicles, and more.",
-            "source": "MercoPress",
-            "item_id": "a81b0c93fa82bb96407fd66354cc3cbd73ec21ce83a3a0aad54da088d0cd7bd1:article",
-            "composed": false
-          },
-          {
-            "text": "To request the Commercial Rate Card from Naviera Easter Islans (containing pricing and conditions for freight shipping to the Falkland Islands via Chile) or register your interest in attending the event, please email communications@fidc.co.fk See less.",
-            "source": "MercoPress",
-            "item_id": "a81b0c93fa82bb96407fd66354cc3cbd73ec21ce83a3a0aad54da088d0cd7bd1:article",
-            "composed": false
-          }
-        ],
-        "source": "MercoPress",
-        "corroborating": [],
-        "url": "https://en.mercopress.com/2026/09/01/falklands-chile-second-shipping-link-decisive-support-from-punta-arenas?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+        "url": "http://www.africanews.com/2026/09/01/madrid-pledges-306-million-in-additional-aid-for-ceuta/"
       },
       "group_size": 1,
       "label": "📰 NEWS"
