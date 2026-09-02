@@ -1,55 +1,57 @@
 {
-  "generated_at": "2026-09-02T08:50:46.404141+00:00",
-  "count": 2,
+  "generated_at": "2026-09-02T09:01:10.866542+00:00",
+  "count": 1,
   "stories": [
     {
-      "id": "951371adaea2ce4f6b457058e74169de2d4e1f08e50194c12ab070ea76e9c225",
-      "title": "China restores access to Tibet disaster zone as highway reopens",
-      "url": "https://www.straitstimes.com/asia/east-asia/china-restores-road-access-to-tibet-disaster-zone-as-search-intensifies",
-      "source": "Straits Times Asia",
+      "id": "0bcaea074c8bad28f4bd6fa66be2d58adfa81763488fa33748f94644ef6ccb32",
+      "title": "Ryanair warns air fares in Europe will jump next year if oil price stays high",
+      "url": "https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "Multiple rescue teams and excavators are carrying out intensive searches for people still missing.",
-      "published_at": "2026-09-02T05:11:17+00:00",
-      "updated_at": "2026-09-02T05:11:17+00:00",
-      "effective_at": "2026-09-02T05:11:17+00:00",
+      "summary": "Budget carrier says airlines could go bust as it cuts passenger targets to reduce exposure to ‘unhedged winter oil’ Business live – latest updates Ryanair has warned that air fares in Europe will jump next year if the oil price remains high and that some airlines could go bust. The Irish budget carrier has cut its passenger target for the year to 31 March, down from 216 million customers to 214 million, to help reduce its exposure to “unhedged winter oil” during the unprofitable off season, with jet fuel currently trading at $140 (£104) a barrel. Continue reading...",
+      "published_at": "2026-09-02T08:58:04+00:00",
+      "updated_at": "2026-09-02T08:58:04+00:00",
+      "effective_at": "2026-09-02T08:58:04+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "industry",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "disasters",
-      "subregion": "East Asia",
+      "sector": "companies",
+      "subsector": "oil_gas",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "china",
-        "multiple",
-        "tibet"
+        "budget",
+        "business",
+        "europe",
+        "irish",
+        "ryanair"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "be97138b851606793a894079",
-      "importance_score": 33.0,
+      "event_status": "NEW",
+      "event_id": "52ce3a296193806ce2a5d26e",
+      "importance_score": 35.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 6.0,
-        "novelty": 8.0,
+        "urgency": 10,
+        "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -62,178 +64,42 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 4,
-          "infrastructure": 4
+          "economic": 4
         }
       },
-      "story_id": "951371adaea2ce4f6b457058e74169de2d4e1f08e50194c12ab070ea76e9c225",
-      "article_sentences": [
-        "China has fully reopened the only road to the Gyirong border crossing, allowing heavy machinery to reach the Tibet disaster zone for the first time since sections were washed away.",
-        "Rescue teams with life-detection devices and search dogs are working despite heavy rain, landslides, and difficult mountain terrain.",
-        "Fatalities in Nepal exceed 1,114 with nearly 4,000 missing; Tibet reports 16 dead and 546 missing, including foreign tourists from India, Nepal and Latvia.",
-        "China has fully reopened the only road leading to the Gyirong border crossing into Nepal, allowing heavy machinery to reach the core disaster zone for the first time since sections were washed away by catastrophic flooding a week ago.",
-        "The extensive damage to the G216 national highway meant that China had to airdrop equipment and supplies to front-line rescuers, some of whom trekked through the mountains to get to the site.",
-        "Large numbers of heavy machines have now reached the area where a Chinese border inspection complex once stood, along with equipment to reinforce search operations, Chinese state broadcaster CCTV said.",
-        "Showing footage of rescue teams and excavators, CCTV said rescue crews equipped with life-detection devices and search dogs had been deployed.",
-        "Progress has been hampered by persistent rain and challenging terrain, as crews had to work in a narrow mountain gorge, hemmed in between unstable cliffs and a fast-flowing river.",
-        "The authorities, who have been monitoring upstream lakes that could cause more flooding if they burst, said those risks have diminished but landslides were still a concern.",
-        "In Nepal, the authorities said hopes of finding more survivors were fading.",
-        "At least 1,114 people have been killed there and nearly 4,000 remain unaccounted for.",
-        "Across the border in Tibet, China’s official toll has held steady since Aug 30, with 16 reported dead and 546 people missing."
-      ],
-      "public_label": "🔄 UPDATE",
-      "headline": "China restores access to Tibet disaster zone as highway reopens",
+      "story_id": "0bcaea074c8bad28f4bd6fa66be2d58adfa81763488fa33748f94644ef6ccb32",
+      "public_label": "📰 NEWS",
+      "headline": "Ryanair warns air fares in Europe will jump next year if oil price stays high",
       "briefing": {
         "opening": [
-          "China has fully reopened the only road to the Gyirong border crossing, allowing heavy machinery to reach the Tibet disaster zone for the first time since sections were washed away.",
-          "Rescue teams with life-detection devices and search dogs are working despite heavy rain, landslides, and difficult mountain terrain."
+          "Budget carrier says airlines could go bust as it cuts passenger targets to reduce exposure to ‘unhedged winter oil’ Business live – latest updates Ryanair has warned that air fares in Europe will jump next year if the oil price remains high and that some airlines could go bust.",
+          "The Irish budget carrier has cut its passenger target for the year to 31 March, down from 216 million customers to 214 million, to help reduce its exposure to “unhedged winter oil” during the unprofitable off season, with jet fuel currently trading at $140 (£104) a barrel."
         ],
-        "body": [
-          "Fatalities in Nepal exceed 1,114 with nearly 4,000 missing; Tibet reports 16 dead and 546 missing, including foreign tourists from India, Nepal and Latvia.",
-          "China has fully reopened the only road leading to the Gyirong border crossing into Nepal, allowing heavy machinery to reach the core disaster zone for the first time since sections were washed away by catastrophic flooding a week ago.",
-          "The extensive damage to the G216 national highway meant that China had to airdrop equipment and supplies to front-line rescuers, some of whom trekked through the mountains to get to the site.",
-          "Large numbers of heavy machines have now reached the area where a Chinese border inspection complex once stood, along with equipment to reinforce search operations, Chinese state broadcaster CCTV said.",
-          "Showing footage of rescue teams and excavators, CCTV said rescue crews equipped with life-detection devices and search dogs had been deployed.",
-          "Progress has been hampered by persistent rain and challenging terrain, as crews had to work in a narrow mountain gorge, hemmed in between unstable cliffs and a fast-flowing river.",
-          "The authorities, who have been monitoring upstream lakes that could cause more flooding if they burst, said those risks have diminished but landslides were still a concern.",
-          "In Nepal, the authorities said hopes of finding more survivors were fading."
-        ],
+        "body": [],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Nepal"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "16 dead"
+            "text": "Europe"
           }
         ],
         "sentences": [
           {
-            "text": "Fatalities in Nepal exceed 1,114 with nearly 4,000 missing; Tibet reports 16 dead and 546 missing, including foreign tourists from India, Nepal and Latvia.",
-            "source": "Straits Times Asia",
-            "item_id": "951371adaea2ce4f6b457058e74169de2d4e1f08e50194c12ab070ea76e9c225:article",
+            "text": "The Irish budget carrier has cut its passenger target for the year to 31 March, down from 216 million customers to 214 million, to help reduce its exposure to “unhedged winter oil” during the unprofitable off season, with jet fuel currently trading at $140 (£104) a barrel.",
+            "source": "The Guardian World",
+            "item_id": "0bcaea074c8bad28f4bd6fa66be2d58adfa81763488fa33748f94644ef6ccb32",
             "composed": false
           },
           {
-            "text": "China has fully reopened the only road to the Gyirong border crossing, allowing heavy machinery to reach the Tibet disaster zone for the first time since sections were washed away.",
-            "source": "Straits Times Asia",
-            "item_id": "951371adaea2ce4f6b457058e74169de2d4e1f08e50194c12ab070ea76e9c225:article",
-            "composed": false
-          },
-          {
-            "text": "The extensive damage to the G216 national highway meant that China had to airdrop equipment and supplies to front-line rescuers, some of whom trekked through the mountains to get to the site.",
-            "source": "Straits Times Asia",
-            "item_id": "951371adaea2ce4f6b457058e74169de2d4e1f08e50194c12ab070ea76e9c225:article",
+            "text": "Ryanair has warned that air fares in Europe will jump next year if the oil price remains high and that some airlines could go bust.",
+            "source": "The Guardian World",
+            "item_id": "0bcaea074c8bad28f4bd6fa66be2d58adfa81763488fa33748f94644ef6ccb32",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/east-asia/china-restores-road-access-to-tibet-disaster-zone-as-search-intensifies"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "62d156c6351c321dbc76f628f6b106863827d217caf412fe4614398f46388bbb",
-      "title": "Former care home warden guilty of raping intellectually disabled female resident",
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3366101/former-care-home-warden-guilty-raping-intellectually-disabled-female-resident?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "A former assistant warden at a care home run by Hong Kong’s largest NGO for people with intellectual disabilities has been convicted of raping a female resident five times two years ago. A High Court jury of four men and two women returned a unanimous verdict on Wednesday, finding Chung Pui-kei guilty of five counts of raping a mentally incapacitated woman who lived at a Tai Po home operated by the Hong Chi Association. The jury rejected the 38-year-old defendant’s contention that the...",
-      "published_at": "2026-09-02T08:48:19+00:00",
-      "updated_at": "2026-09-02T08:48:19+00:00",
-      "effective_at": "2026-09-02T08:48:19+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "courts",
-      "subregion": "East Asia",
-      "country": null,
-      "entities": [
-        "association",
-        "chi",
-        "chung",
-        "court",
-        "high",
-        "hong_kong",
-        "ngo",
-        "po",
-        "pui-kei",
-        "tai"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 100,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "0d39ce0953be5ef3bce058cd",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "62d156c6351c321dbc76f628f6b106863827d217caf412fe4614398f46388bbb",
-      "public_label": "📰 NEWS",
-      "headline": "Former care home warden guilty of raping intellectually disabled female resident",
-      "briefing": {
-        "opening": [
-          "A former assistant warden at a care home run by Hong Kong’s largest NGO for people with intellectual disabilities has been convicted of raping a female resident five times two years ago.",
-          "A High Court jury of four men and two women returned a unanimous verdict on Wednesday, finding Chung Pui-kei guilty of five counts of raping a mentally incapacitated woman who lived at a Tai Po home operated by the Hong Chi Association."
-        ],
-        "body": [
-          "The jury rejected the 38-year-old defendant’s contention that the..."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "A former assistant warden at a care home run by Hong Kong’s largest NGO for people with intellectual disabilities has been convicted of raping a female resident five times two years ago.",
-            "source": "South China Morning Post",
-            "item_id": "62d156c6351c321dbc76f628f6b106863827d217caf412fe4614398f46388bbb",
-            "composed": false
-          },
-          {
-            "text": "A High Court jury of four men and two women returned a unanimous verdict on Wednesday, finding Chung Pui-kei guilty of five counts of raping a mentally incapacitated woman who lived at a Tai Po home operated by the Hong Chi Association.",
-            "source": "South China Morning Post",
-            "item_id": "62d156c6351c321dbc76f628f6b106863827d217caf412fe4614398f46388bbb",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3366101/former-care-home-warden-guilty-raping-intellectually-disabled-female-resident?utm_source=rss_feed"
+        "url": "https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high"
       },
       "group_size": 1,
       "label": "📰 NEWS"
