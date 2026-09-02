@@ -1,14 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "5d837ee0a7062be6d08f4bfed6d8786b53bb6d3da0ce5b7a4f7c09ba26a58ede",
-      "event_id": "1729e32e59f5303bc54f6a02",
-      "item_id": "5d837ee0a7062be6d08f4bfed6d8786b53bb6d3da0ce5b7a4f7c09ba26a58ede",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-09-02T05:07:50+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "3c722a3c5ce5023fbf5efc6497ee9c8f7c1dd7de7d8bfe19386fcf0fdf9f6444",
       "event_id": "326c646b74748b933713f426",
       "item_id": "3c722a3c5ce5023fbf5efc6497ee9c8f7c1dd7de7d8bfe19386fcf0fdf9f6444",
@@ -1111,9 +1103,26 @@
       "label": "📰 NEWS",
       "scheduled_at": "2026-09-02T16:52:42+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "c5f7ffa4e939d5b264753c301c965bfdb4664d6c1237e79a71518d95e9f6d768",
+      "event_id": "ed5193927b5c1deb804acabc",
+      "item_id": "c5f7ffa4e939d5b264753c301c965bfdb4664d6c1237e79a71518d95e9f6d768",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-09-02T17:08:30+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "311a7bac6ef7b187479991de82dd1bcb7cb08a5d6cd367aa2c98e60f32dde48b",
+      "event_id": "d5b53d22cd0bc4b8ad951679",
+      "item_id": "311a7bac6ef7b187479991de82dd1bcb7cb08a5d6cd367aa2c98e60f32dde48b",
+      "label": "🔄 UPDATE",
+      "message_id": 3121,
+      "posted_at": "2026-09-02T17:08:30.000121+00:00",
+      "scheduled_at": "2026-09-02T17:04:46+00:00"
+    },
     {
       "story_id": "7054a0c62c82074e874fe05730fe18c4810f728b4816848dce4621a2e5d58fe2",
       "event_id": "b5cc8c5a689c54c8a4518479",
@@ -4092,17 +4101,8 @@
       "message_id": 2787,
       "posted_at": "2026-08-31T11:10:38.000129+00:00",
       "scheduled_at": "2026-08-31T11:10:31+00:00"
-    },
-    {
-      "story_id": "e34f9b30e60ffb75d430fec9e3fc9f4b61c276c3dd60d9779d05574d9c019b82",
-      "event_id": "fdc44428772cd3671947fcd7",
-      "item_id": "e34f9b30e60ffb75d430fec9e3fc9f4b61c276c3dd60d9779d05574d9c019b82",
-      "label": "📰 NEWS",
-      "message_id": 2786,
-      "posted_at": "2026-08-31T11:07:28.000147+00:00",
-      "scheduled_at": "2026-08-31T11:03:57+00:00"
     }
   ],
   "failures": [],
-  "last_posted_at": "2026-09-02T16:46:18.000139+00:00"
+  "last_posted_at": "2026-09-02T17:08:30.000121+00:00"
 }
