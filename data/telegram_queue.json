@@ -1,54 +1,199 @@
 {
-  "generated_at": "2026-09-02T11:01:10.506560+00:00",
+  "generated_at": "2026-09-02T11:10:42.632321+00:00",
   "count": 4,
   "stories": [
     {
-      "id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b",
-      "title": "Russian parliamentary election results to be finalized by October 5 — election official",
-      "url": "https://tass.com/politics/2181175",
-      "source": "TASS English",
+      "id": "b8aa380726c4c56d1bc671812b14508e0554618f49e95ac61c27969551c8c538",
+      "title": "6 missing, 1 dead after tugboat capsizes off South Korea’s Busan",
+      "url": "https://www.straitstimes.com/asia/east-asia/6-missing-1-dead-after-tugboat-capsizes-off-south-koreas-busan",
+      "source": "Straits Times Asia",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "The overall election results will be established based on the CEC protocol and decision on the election outcome in the nationwide constituency",
-      "published_at": "2026-09-02T10:51:32+00:00",
-      "updated_at": "2026-09-02T10:51:32+00:00",
-      "effective_at": "2026-09-02T10:51:32+00:00",
+      "summary": "One crew member died and six remained missing on Sept 2 after a tugboat capsized off Busan, with strong waves and currents hampering rescue operations, according to the Busan Coast Guard. The TNS Catcher, a 286-ton tugboat, capsized at 1.29pm about 9km southeast of Oryukdo with eight crew members aboard. It had departed from a government vessel pier at Busan Port at 10.15am to tow a merchant vessel involved in an earlier accident, the Coast Guard said. The crew comprised six South Korean nationals and two Indonesian nationals. An Indonesian crew member, 53, was rescued by the nearby merchant vessel at 1.49pm, 20 minutes after the accident. He was not in life-threatening condition. A second crew member, a 57-year-old Korean, was found unconscious inside the capsized tugboat and transported to a hospital aboard a Coast Guard rescue vessel but later died. Rescuers continued searching for the remaining six crew members. The Coast Guard deployed 13 patrol and rescue vessels, aircraft and the Korea Coast Guard Special Rescue Unit. It also requested assistance from the Navy, other government vessels and private boats. The Coast Guard said waves of up to 1.5m and strong currents were complicating the operation. Northwesterly winds were blowing at 4m to 6m per second.",
+      "published_at": "2026-09-02T11:10:00+00:00",
+      "updated_at": "2026-09-02T11:10:00+00:00",
+      "effective_at": "2026-09-02T11:10:00+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
+      "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "elections",
-      "subregion": "Europe",
+      "sector": "health",
+      "subsector": "health",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "cec",
-        "russia"
+        "busan",
+        "catcher",
+        "coast",
+        "guard",
+        "indonesian",
+        "korean",
+        "navy",
+        "oryukdo",
+        "port",
+        "rescue",
+        "sept",
+        "south_korea",
+        "special",
+        "tns",
+        "unit"
+      ],
+      "corroborating_sources": 2,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "Yonhap English"
+      ],
+      "verified_match_count": 3,
+      "priority_score": 68,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "One crew member died and six remained missing on Sept 2 after a tugboat capsized off Busan, with strong waves and currents hampering rescue operations, according to the Busan Coast Guard.",
+        "The TNS Catcher, a 286-ton tugboat, capsized at 1.29pm about 9km southeast of Oryukdo with eight crew members aboard.",
+        "It had departed from a government vessel pier at Busan Port at 10.15am to tow a merchant vessel involved in an earlier accident, the Coast Guard said.",
+        "The crew comprised six South Korean nationals and two Indonesian nationals.",
+        "An Indonesian crew member, 53, was rescued by the nearby merchant vessel at 1.49pm, 20 minutes after the accident.",
+        "He was not in life-threatening condition.",
+        "A second crew member, a 57-year-old Korean, was found unconscious inside the capsized tugboat and transported to a hospital aboard a Coast Guard rescue vessel but later died.",
+        "Rescuers continued searching for the remaining six crew members.",
+        "The Coast Guard deployed 13 patrol and rescue vessels, aircraft and the Korea Coast Guard Special Rescue Unit.",
+        "It also requested assistance from the Navy, other government vessels and private boats.",
+        "The Coast Guard said waves of up to 1.5m and strong currents were complicating the operation.",
+        "Northwesterly winds were blowing at 4m to 6m per second."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "37275740321a701166ae25c0",
+      "importance_score": 68.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 18,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 6,
+        "significance": 18,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 6,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 6,
+          "affected": 0,
+          "major_incident": true,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 6,
+          "scientific": 4,
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "b8aa380726c4c56d1bc671812b14508e0554618f49e95ac61c27969551c8c538",
+      "public_label": "🔄 UPDATE",
+      "headline": "6 missing, 1 dead after tugboat capsizes off South Korea’s Busan",
+      "briefing": {
+        "opening": [
+          "One crew member died and six remained missing on Sept 2 after a tugboat capsized off Busan, with strong waves and currents hampering rescue operations, according to the Busan Coast Guard.",
+          "The TNS Catcher, a 286-ton tugboat, capsized at 1.29pm about 9km southeast of Oryukdo with eight crew members aboard."
+        ],
+        "body": [
+          "It had departed from a government vessel pier at Busan Port at 10.15am to tow a merchant vessel involved in an earlier accident, the Coast Guard said.",
+          "The crew comprised six South Korean nationals and two Indonesian nationals.",
+          "An Indonesian crew member, 53, was rescued by the nearby merchant vessel at 1.49pm, 20 minutes after the accident.",
+          "He was not in life-threatening condition.",
+          "A second crew member, a 57-year-old Korean, was found unconscious inside the capsized tugboat and transported to a hospital aboard a Coast Guard rescue vessel but later died.",
+          "Rescuers continued searching for the remaining six crew members.",
+          "The Coast Guard deployed 13 patrol and rescue vessels, aircraft and the Korea Coast Guard Special Rescue Unit.",
+          "It also requested assistance from the Navy, other government vessels and private boats."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Busan Port"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The TNS Catcher, a 286-ton tugboat, capsized at 1.29pm about 9km southeast of Oryukdo with eight crew members aboard.",
+            "source": "Straits Times Asia",
+            "item_id": "b8aa380726c4c56d1bc671812b14508e0554618f49e95ac61c27969551c8c538:article",
+            "composed": false
+          },
+          {
+            "text": "An Indonesian crew member, 53, was rescued by the nearby merchant vessel at 1.49pm, 20 minutes after the accident.",
+            "source": "Straits Times Asia",
+            "item_id": "b8aa380726c4c56d1bc671812b14508e0554618f49e95ac61c27969551c8c538:article",
+            "composed": false
+          }
+        ],
+        "source": "Straits Times Asia",
+        "corroborating": [],
+        "url": "https://www.straitstimes.com/asia/east-asia/6-missing-1-dead-after-tugboat-capsizes-off-south-koreas-busan"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "3339b7ea1f6b273bc45cfe63f5e0df771f2a6dfce429018c1120df51b46f9a91",
+      "title": "Teamsters union leaders support Republicans despite members endorsing Democratic candidates",
+      "url": "https://www.theguardian.com/us-news/2026/sep/02/teamsters-union-republican-endorsement",
+      "source": "The Guardian Business",
+      "source_category": "finance",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Sean O’Brien, president of the 1.3-million strong union, was also the first to speak at the Republican national convention in 2o24 The powerful Teamsters union is backing Republican candidates in the 2026 election cycle even after members have voted to support their Democrat opponents. The 1.3 million- strong union’s president, Sean O’Brien, angered many members and union leaders in 2024 when he became the first union president to speak at the Republican national convention (RNC). Continue reading...",
+      "published_at": "2026-09-02T11:00:22+00:00",
+      "updated_at": "2026-09-02T11:00:22+00:00",
+      "effective_at": "2026-09-02T11:00:22+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "labor",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "democrat",
+        "democratic",
+        "republican",
+        "republicans",
+        "rnc",
+        "sean",
+        "teamsters"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 85,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "37424d196e1501df5e32cb0d",
-      "importance_score": 32.0,
+      "event_status": "UPDATE",
+      "event_id": "05034a2fa8fce73b89755c16",
+      "importance_score": 44.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "novelty": 8.0,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 20,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -61,94 +206,193 @@
           "crisis": false
         },
         "significance_dims": {
+          "security": 8,
+          "human": 4,
+          "scientific": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b",
-      "article_sentences": [
-        "MOSCOW, September 2.",
-        "Russia’s Central Election Commission (CEC) will finalize the results of the upcoming State Duma (lower house of parliament) elections no later than October 5, CEC Deputy Chairman Nikolay Bulayev said.",
-        "\"The Russian Central Election Commission <...> is going to establish the overall results of the State Duma elections no later than in two weeks, that is, no later than October 5,\" he said.",
-        "Bulyaev explained that, in accordance with the law, the CEC would determine the election outcome in the nationwide constituency based on protocols from district election commissions, the overseas territorial election commission and the territorial election commission in Kazakhstan’s city of Baikonur, which hosts the Russian-leased space facility.",
-        "After that, the overall election results will be established based on the CEC protocol and decision on the election outcome in the nationwide constituency, as well as protocols and decisions from district election commissions on election outcomes in single-mandate constituencies."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Russian parliamentary election results to be finalized by October 5 — election official",
+      "story_id": "3339b7ea1f6b273bc45cfe63f5e0df771f2a6dfce429018c1120df51b46f9a91",
+      "public_label": "🔄 UPDATE",
+      "headline": "Teamsters union leaders support Republicans despite members endorsing Democratic candidates",
       "briefing": {
         "opening": [
-          "MOSCOW, September 2.",
-          "Russia’s Central Election Commission (CEC) will finalize the results of the upcoming State Duma (lower house of parliament) elections no later than October 5, CEC Deputy Chairman Nikolay Bulayev said."
+          "Sean O’Brien, president of the 1.3-million strong union, was also the first to speak at the Republican national convention in 2o24.",
+          "The powerful Teamsters union is backing Republican candidates in the 2026 election cycle even after members have voted to support their Democrat opponents."
         ],
         "body": [
-          "\"The Russian Central Election Commission <...> is going to establish the overall results of the State Duma elections no later than in two weeks, that is, no later than October 5,\" he said.",
-          "Bulyaev explained that, in accordance with the law, the CEC would determine the election outcome in the nationwide constituency based on protocols from district election commissions, the overseas territorial election commission and the territorial election commission in Kazakhstan’s city of Baikonur, which hosts the Russian-leased space facility.",
-          "After that, the overall election results will be established based on the CEC protocol and decision on the election outcome in the nationwide constituency, as well as protocols and decisions from district election commissions on election outcomes in single-mandate constituencies.",
-          "The overall election results will be established based on the CEC protocol and decision on the election outcome in the nationwide constituency."
+          "The 1.3 million- strong union’s president, Sean O’Brien, angered many members and union leaders in 2024 when he became the first union president to speak at the Republican national convention (RNC)."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Kazakhstan’s city"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "MOSCOW, September 2.",
-            "source": "TASS English",
-            "item_id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b:article",
+            "text": "The 1.3 million- strong union’s president, Sean O’Brien, angered many members and union leaders in 2024 when he became the first union president to speak at the Republican national convention (RNC).",
+            "source": "The Guardian Business",
+            "item_id": "3339b7ea1f6b273bc45cfe63f5e0df771f2a6dfce429018c1120df51b46f9a91",
             "composed": false
           },
           {
-            "text": "Russia’s Central Election Commission (CEC) will finalize the results of the upcoming State Duma (lower house of parliament) elections no later than October 5, CEC Deputy Chairman Nikolay Bulayev said.",
-            "source": "TASS English",
-            "item_id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b:article",
-            "composed": false
-          },
-          {
-            "text": "\"The Russian Central Election Commission <...> is going to establish the overall results of the State Duma elections no later than in two weeks, that is, no later than October 5,\" he said.",
-            "source": "TASS English",
-            "item_id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b:article",
-            "composed": false
-          },
-          {
-            "text": "Bulyaev explained that, in accordance with the law, the CEC would determine the election outcome in the nationwide constituency based on protocols from district election commissions, the overseas territorial election commission and the territorial election commission in Kazakhstan’s city of Baikonur, which hosts the Russian-leased space facility.",
-            "source": "TASS English",
-            "item_id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b:article",
+            "text": "The powerful Teamsters union is backing Republican candidates in the 2026 election cycle even after members have voted to support their Democrat opponents.",
+            "source": "The Guardian Business",
+            "item_id": "3339b7ea1f6b273bc45cfe63f5e0df771f2a6dfce429018c1120df51b46f9a91",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "The Guardian Business",
         "corroborating": [],
-        "url": "https://tass.com/politics/2181175"
+        "url": "https://www.theguardian.com/us-news/2026/sep/02/teamsters-union-republican-endorsement"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "2b259e5415dafb1cb5ed8c89693d663b7e4a46d1d22f9a7c005e36287f430ad3",
+      "title": "Military buildup seen in Ethiopia near Sudanese border",
+      "url": "https://www.france24.com/en/video/20260902-military-buildup-seen-in-ethiopia-near-sudanese-border",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "A major military buildup has been observed on the Ethiopian side of the Sudanese border. It comes amid intensified fighting between the Sudanese armed forces and the Rapid Support Forces (RSF). Sudan and Ethiopia have both accused each other of supporting rebels within their borders.",
+      "published_at": "2026-09-02T10:57:17+00:00",
+      "updated_at": "2026-09-02T10:57:17+00:00",
+      "effective_at": "2026-09-02T10:57:17+00:00",
+      "language_status": "ENGLISH",
+      "category": "conflict",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "East Africa",
+      "country": null,
+      "entities": [
+        "ethiopia",
+        "ethiopian",
+        "forces",
+        "rapid",
+        "rsf",
+        "sudanese",
+        "support"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "598204b65b2bcf7c376e4ee3",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "2b259e5415dafb1cb5ed8c89693d663b7e4a46d1d22f9a7c005e36287f430ad3",
+      "public_label": "📰 NEWS",
+      "headline": "Military buildup seen in Ethiopia near Sudanese border",
+      "briefing": {
+        "opening": [
+          "A major military buildup has been observed on the Ethiopian side of the Sudanese border.",
+          "It comes amid intensified fighting between the Sudanese armed forces and the Rapid Support Forces (RSF)."
+        ],
+        "body": [
+          "Sudan and Ethiopia have both accused each other of supporting rebels within their borders."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "A major military buildup has been observed on the Ethiopian side of the Sudanese border.",
+            "source": "France 24",
+            "item_id": "2b259e5415dafb1cb5ed8c89693d663b7e4a46d1d22f9a7c005e36287f430ad3",
+            "composed": false
+          },
+          {
+            "text": "It comes amid intensified fighting between the Sudanese armed forces and the Rapid Support Forces (RSF).",
+            "source": "France 24",
+            "item_id": "2b259e5415dafb1cb5ed8c89693d663b7e4a46d1d22f9a7c005e36287f430ad3",
+            "composed": false
+          },
+          {
+            "text": "Ethiopia have both accused each other of supporting rebels within their borders.",
+            "source": "France 24",
+            "item_id": "2b259e5415dafb1cb5ed8c89693d663b7e4a46d1d22f9a7c005e36287f430ad3",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/video/20260902-military-buildup-seen-in-ethiopia-near-sudanese-border"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6",
-      "title": "Interceptor drone reaching speed up to 1,000 km/h is revolutionary development — expert",
-      "url": "https://tass.com/defense/2181167",
-      "source": "TASS English",
-      "source_category": "world",
+      "id": "aa5c5c611fc154490cd5b36d113746d62b7bb1ca3d73ce8003d2d4a07af2303f",
+      "title": "Criminals publish data of 8.7m people after airports hack",
+      "url": "https://www.bbc.co.uk/news/articles/c74k39g3ee5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "source_category": "technology",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "The drone acquires its target using machine vision and a thermal imager",
-      "published_at": "2026-09-02T10:49:22+00:00",
-      "updated_at": "2026-09-02T10:49:22+00:00",
-      "effective_at": "2026-09-02T10:49:22+00:00",
+      "summary": "Criminal hackers have posted the personal data of nearly nine million people online after breaching three UK airports. Hackers extorted Manchester Airports Group (MAG) for an undisclosed amount but failed to get their ransom paid. Customers of Manchester, London Stansted and East Midlands airports are being warned of secondary attacks as the data is now available to other criminals. \"MAG is confident that we have taken effective measures to protect our customers and we have contacted all those affected, including reaching out to all those with upcoming bookings to advise them of additional support,\" the company said in a statement. \"We are continuing to work with the authorities and specialist advisors. Neither MAG nor the system accessed hold customers' bank or payment details,\" it added. Contact details, vehicle registrations and postcodes were stolen in the breach that appears to have accessed databases containing wi-fi log in and car parking details. The cyber-crime group - which the BBC is not naming - is offering the entire data set for free to other criminals or scammers through their website. \"Today we are releasing the Manchester Group database,\" they wrote. \"Half a terabyte, and every byte of it is pure PII [personally identifiable information].\" Stolen data experts at HaveIBeenPwned have analysed the published data and confirmed that it contains people's email addresses, phone numbers, addresses, licence plate numbers, purchasing history and browsing device data. Cyber-security expert Kevin Beaumont warned those affected to be on high alert for other forms of scam and hack - especially high profile or wealthy individuals.",
+      "published_at": "2026-09-02T11:00:59+00:00",
+      "updated_at": "2026-09-02T11:00:59+00:00",
+      "effective_at": "2026-09-02T11:00:59+00:00",
       "language_status": "ENGLISH",
       "category": "technology",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "defense",
+      "sector": "transport",
+      "subsector": "aviation",
       "subregion": null,
       "country": null,
-      "entities": [],
+      "entities": [
+        "airports",
+        "bbc",
+        "beaumont",
+        "criminal",
+        "east",
+        "group",
+        "haveibeenpwned",
+        "kevin",
+        "mag",
+        "manchester",
+        "midlands",
+        "neither",
+        "pii",
+        "stansted",
+        "stolen",
+        "uk"
+      ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
@@ -156,151 +400,32 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "5c892bad10247a7b66349fb2",
-      "importance_score": 30.0,
+      "article_sentences": [
+        "Criminal hackers have posted the personal data of nearly nine million people online after breaching three UK airports.",
+        "Hackers extorted Manchester Airports Group (MAG) for an undisclosed amount but failed to get their ransom paid.",
+        "Customers of Manchester, London Stansted and East Midlands airports are being warned of secondary attacks as the data is now available to other criminals.",
+        "\"MAG is confident that we have taken effective measures to protect our customers and we have contacted all those affected, including reaching out to all those with upcoming bookings to advise them of additional support,\" the company said in a statement.",
+        "\"We are continuing to work with the authorities and specialist advisors.",
+        "Neither MAG nor the system accessed hold customers' bank or payment details,\" it added.",
+        "Contact details, vehicle registrations and postcodes were stolen in the breach that appears to have accessed databases containing wi-fi log in and car parking details.",
+        "The cyber-crime group - which the BBC is not naming - is offering the entire data set for free to other criminals or scammers through their website.",
+        "\"Today we are releasing the Manchester Group database,\" they wrote.",
+        "\"Half a terabyte, and every byte of it is pure PII [personally identifiable information].\"",
+        "Stolen data experts at HaveIBeenPwned have analysed the published data and confirmed that it contains people's email addresses, phone numbers, addresses, licence plate numbers, purchasing history and browsing device data.",
+        "Cyber-security expert Kevin Beaumont warned those affected to be on high alert for other forms of scam and hack - especially high profile or wealthy individuals."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "99698d613f3fb884d94be635",
+      "importance_score": 26.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "urgency": 8.0,
+        "novelty": 9.0,
         "scope": "LOCAL",
         "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "security": 4
-        }
-      },
-      "story_id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6",
-      "article_sentences": [
-        "MOSCOW, September 2.",
-        "The interceptor drone capable of reaching speeds up to 1,000 km/h, developed by a Tatarstan-based company, is a groundbreaking development in the field of anti-aircraft missile systems, Alexander Stepanov, a military expert at the Institute of Law and National Security at the Russian Presidential Academy of National Economy and Public Administration (RANEPA), told TASS.",
-        "Earlier, media reports said that the Tatarstan-based company Aerokon had demonstrated a prototype of an interceptor drone capable of reaching speeds of up to 1,000 km/h.",
-        "The drone acquires its target using machine vision and a thermal imager.",
-        "\"This is truly a revolution, in a certain sense, in anti-aircraft missile weapon systems.",
-        "The first aspect is the high degree of autonomy and the creation of a potentially dead area extending up to 150 km deep.",
-        "Given that terminal guidance is expected to utilize artificial intelligence algorithms, this significantly streamlines the use of this system, including under conditions of active electronic countermeasures.",
-        "Most importantly, it ensures a high level of safety for the carriers and delivery systems of such weapons,\" Stepanov noted.",
-        "According to the expert, the use of this drone will help secure maritime areas, paralyze NATO’s air patrols in key zones, and neutralize any aerial target on the front and in the rear.",
-        "\"I am confident that this concept includes mass production and a relatively low price compared to the expensive missiles of Western systems such as the Patriot.",
-        "This is an asymmetric response to both the drone wall and the mass deployment of missile defense and air defense systems along our border,\" concluded Stepanov."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Interceptor drone reaching speed up to 1,000 km/h is revolutionary development — expert",
-      "briefing": {
-        "opening": [
-          "MOSCOW, September 2.",
-          "The interceptor drone capable of reaching speeds up to 1,000 km/h, developed by a Tatarstan-based company, is a groundbreaking development in the field of anti-aircraft missile systems, Alexander Stepanov, a military expert at the Institute of Law and National Security at the Russian Presidential Academy of National Economy and Public Administration (RANEPA), told TASS."
-        ],
-        "body": [
-          "Earlier, media reports said that the Tatarstan-based company Aerokon had demonstrated a prototype of an interceptor drone capable of reaching speeds of up to 1,000 km/h.",
-          "The drone acquires its target using machine vision and a thermal imager.",
-          "\"This is truly a revolution, in a certain sense, in anti-aircraft missile weapon systems.",
-          "The first aspect is the high degree of autonomy and the creation of a potentially dead area extending up to 150 km deep.",
-          "Most importantly, it ensures a high level of safety for the carriers and delivery systems of such weapons,\" Stepanov noted.",
-          "According to the expert, the use of this drone will help secure maritime areas, paralyze NATO’s air patrols in key zones, and neutralize any aerial target on the front and in the rear.",
-          "\"I am confident that this concept includes mass production and a relatively low price compared to the expensive missiles of Western systems such as the Patriot."
-        ],
-        "bullets": [
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "Given that terminal guidance is expected to utilize artificial intelligence algorithms, this significantly streamlines the use of this system, including under conditions of active electronic countermeasures."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "MOSCOW, September 2.",
-            "source": "TASS English",
-            "item_id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6:article",
-            "composed": false
-          },
-          {
-            "text": "The interceptor drone capable of reaching speeds up to 1,000 km/h, developed by a Tatarstan-based company, is a groundbreaking development in the field of anti-aircraft missile systems, Alexander Stepanov, a military expert at the Institute of Law and National Security at the Russian Presidential Academy of National Economy and Public Administration (RANEPA), told TASS.",
-            "source": "TASS English",
-            "item_id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6:article",
-            "composed": false
-          },
-          {
-            "text": "Earlier, media reports said that the Tatarstan-based company Aerokon had demonstrated a prototype of an interceptor drone capable of reaching speeds of up to 1,000 km/h.",
-            "source": "TASS English",
-            "item_id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6:article",
-            "composed": false
-          },
-          {
-            "text": "The first aspect is the high degree of autonomy and the creation of a potentially dead area extending up to 150 km deep.",
-            "source": "TASS English",
-            "item_id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/defense/2181167"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a",
-      "title": "Russian refineries better protected than those in UAE, Novak says",
-      "url": "https://tass.com/economy/2181179",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "The official highlighted that protecting the refineries had been quite costly for oil companies",
-      "published_at": "2026-09-02T10:53:21+00:00",
-      "updated_at": "2026-09-02T10:53:21+00:00",
-      "effective_at": "2026-09-02T10:53:21+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "companies",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "novak",
-        "russia",
-        "uae"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "f817aa59bbd199f656cb735a",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
         "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
@@ -315,196 +440,67 @@
         },
         "significance_dims": {}
       },
-      "story_id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a",
-      "article_sentences": [
-        "VLADIVOSTOK, September 2.",
-        "Russian oil refineries are currently better protected than those in the UAE, as the country's authorities base security on a more stringent threat model, Deputy Prime Minister Alexander Novak told reporters on the sidelines of the Eastern Economic Forum (EEF).",
-        "\"Believe me, we are no worse, and perhaps even better, given the experience we've gained over the past few months.",
-        "Our design institutes, together with oil refineries, are working very closely to protect facilities, and the level, in my opinion, is much better because it is calculated based on a more stringent threat model,\" he said.",
-        "Novak was answering a question about whether Russian refineries need protection similar to that in the UAE, where tall metal frames and nets resembling scaffolding are built around storage tanks.",
-        "Novak also noted that protecting the refineries was quite costly for oil companies, but plant downtime would have resulted in much greater losses.",
-        "Russian President Vladimir Putin signed a decree on protecting critical infrastructure facilities in late August.",
-        "Under the document, the Russian government has the right to impose temporary management on critical infrastructure facilities if their owners fail to take safety measures or violate protection requirements.",
-        "Russian authorities will also be able to introduce temporary management at enterprises if their restoration is delayed.",
-        "The Eastern Economic Forum is taking place on September 1-4 in Vladivostok on the campus of the Far Eastern Federal University.",
-        "The main theme of the 2026 forum is \"The Far East - Development for the Benefit of People.\" The event is organized by the Roscongress Foundation with the support of the Russian government.",
-        "TASS is the general information partner."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Russian refineries better protected than those in UAE, Novak says",
+      "story_id": "aa5c5c611fc154490cd5b36d113746d62b7bb1ca3d73ce8003d2d4a07af2303f",
+      "public_label": "🔄 UPDATE",
+      "headline": "Criminals publish data of 8.7m people after airports hack",
       "briefing": {
         "opening": [
-          "VLADIVOSTOK, September 2.",
-          "Russian oil refineries are currently better protected than those in the UAE, as the country's authorities base security on a more stringent threat model, Deputy Prime Minister Alexander Novak told reporters on the sidelines of the Eastern Economic Forum (EEF)."
+          "Criminal hackers have posted the personal data of nearly nine million people online after breaching three UK airports.",
+          "Hackers extorted Manchester Airports Group (MAG) for an undisclosed amount but failed to get their ransom paid."
         ],
         "body": [
-          "\"Believe me, we are no worse, and perhaps even better, given the experience we've gained over the past few months.",
-          "Novak was answering a question about whether Russian refineries need protection similar to that in the UAE, where tall metal frames and nets resembling scaffolding are built around storage tanks.",
-          "Novak also noted that protecting the refineries was quite costly for oil companies, but plant downtime would have resulted in much greater losses.",
-          "Russian President Vladimir Putin signed a decree on protecting critical infrastructure facilities in late August.",
-          "Under the document, the Russian government has the right to impose temporary management on critical infrastructure facilities if their owners fail to take safety measures or violate protection requirements.",
-          "Russian authorities will also be able to introduce temporary management at enterprises if their restoration is delayed.",
-          "The Eastern Economic Forum is taking place on September 1-4 in Vladivostok on the campus of the Far Eastern Federal University."
+          "Customers of Manchester, London Stansted and East Midlands airports are being warned of secondary attacks as the data is now available to other criminals.",
+          "\"MAG is confident that we have taken effective measures to protect our customers and we have contacted all those affected, including reaching out to all those with upcoming bookings to advise them of additional support,\" the company said in a statement.",
+          "Neither MAG nor the system accessed hold customers' bank or payment details,\" it added.",
+          "Contact details, vehicle registrations and postcodes were stolen in the breach that appears to have accessed databases containing wi-fi log in and car parking details.",
+          "The cyber-crime group - which the BBC is not naming - is offering the entire data set for free to other criminals or scammers through their website.",
+          "\"Today we are releasing the Manchester Group database,\" they wrote.",
+          "\"Half a terabyte, and every byte of it is pure PII [personally identifiable information].\" Stolen data experts at HaveIBeenPwned have analysed the published data and confirmed that it contains people's email addresses, phone numbers, addresses, licence plate numbers, purchasing history and browsing device data."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Vladivostok"
+            "text": "HaveIBeenPwned"
           },
           {
             "icon": "➡️",
             "label": "Next",
-            "text": "Our design institutes, together with oil refineries, are working very closely to protect facilities, and the level, in my opinion, is much better because it is calculated based on a more stringent threat model,\" he said."
+            "text": "\"We are continuing to work with the authorities and specialist advisors."
           }
         ],
         "sentences": [
           {
-            "text": "Russian oil refineries are currently better protected than those in the UAE, as the country's authorities base security on a more stringent threat model, Deputy Prime Minister Alexander Novak told reporters on the sidelines of the Eastern Economic Forum (EEF).",
-            "source": "TASS English",
-            "item_id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a:article",
+            "text": "Hackers extorted Manchester Airports Group (MAG) for an undisclosed amount but failed to get their ransom paid.",
+            "source": "BBC Technology",
+            "item_id": "aa5c5c611fc154490cd5b36d113746d62b7bb1ca3d73ce8003d2d4a07af2303f:article",
             "composed": false
           },
           {
-            "text": "Novak was answering a question about whether Russian refineries need protection similar to that in the UAE, where tall metal frames and nets resembling scaffolding are built around storage tanks.",
-            "source": "TASS English",
-            "item_id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a:article",
+            "text": "\"Today we are releasing the Manchester Group database,\" they wrote.",
+            "source": "BBC Technology",
+            "item_id": "aa5c5c611fc154490cd5b36d113746d62b7bb1ca3d73ce8003d2d4a07af2303f:article",
             "composed": false
           },
           {
-            "text": "Under the document, the Russian government has the right to impose temporary management on critical infrastructure facilities if their owners fail to take safety measures or violate protection requirements.",
-            "source": "TASS English",
-            "item_id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a:article",
+            "text": "Stolen data experts at HaveIBeenPwned have analysed the published data and confirmed that it contains people's email addresses, phone numbers, addresses, licence plate numbers, purchasing history and browsing device data.",
+            "source": "BBC Technology",
+            "item_id": "aa5c5c611fc154490cd5b36d113746d62b7bb1ca3d73ce8003d2d4a07af2303f:article",
             "composed": false
           },
           {
-            "text": "Russian President Vladimir Putin signed a decree on protecting critical infrastructure facilities in late August.",
-            "source": "TASS English",
-            "item_id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a:article",
+            "text": "Criminal hackers have posted the personal data of nearly nine million people online after breaching three UK airports.",
+            "source": "BBC Technology",
+            "item_id": "aa5c5c611fc154490cd5b36d113746d62b7bb1ca3d73ce8003d2d4a07af2303f:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "BBC Technology",
         "corroborating": [],
-        "url": "https://tass.com/economy/2181179"
+        "url": "https://www.bbc.co.uk/news/articles/c74k39g3ee5o?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "c6bfcf56101f751dc88bdb52969482256aeaa64f9a556c12ad2bcde2dcbb1c3f",
-      "title": "Russia, China boosting tourism exchanges — Kremlin",
-      "url": "https://tass.com/politics/2181177",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "A visa-free regime is in effect for business and tourist trips between Russia and China until December 31, 2027",
-      "published_at": "2026-09-02T10:51:55+00:00",
-      "updated_at": "2026-09-02T10:51:55+00:00",
-      "effective_at": "2026-09-02T10:51:55+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "china",
-        "russia"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "cf504672ad0e10b34bd923c6",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "c6bfcf56101f751dc88bdb52969482256aeaa64f9a556c12ad2bcde2dcbb1c3f",
-      "article_sentences": [
-        "VLADIVOSTOK, September 2.",
-        "Moscow and Beijing are expanding cooperation in areas including medicine and tourism, according to the Kremlin’s materials for the upcoming meeting between Russian President Vladimir Putin and Chinese Vice Premier Ding Xuexiang on the sidelines of the Eastern Economic Forum (EEF), a TASS correspondent reported.",
-        "\"Humanitarian ties are actively strengthening.",
-        "Exchanges are increasing in areas such as education, culture and cinema, tourism and sports, youth cooperation, while cooperation in healthcare, archival affairs, media is expanding.",
-        "A visa-free regime is in effect for business and tourist trips until December 31, 2027 (imposed by each country separately),\" the document said.",
-        "The Eastern Economic Forum is taking place on September 1-4 in Vladivostok on the campus of the Far Eastern Federal University.",
-        "The main theme of this year’s EEF is \"The Far East: Development for the Benefit of People.\" The event is organized by the Roscongress Foundation with the support of the Russian government.",
-        "TASS is its general information partner."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Russia, China boosting tourism exchanges — Kremlin",
-      "briefing": {
-        "opening": [
-          "VLADIVOSTOK, September 2.",
-          "Moscow and Beijing are expanding cooperation in areas including medicine and tourism, according to the Kremlin’s materials for the upcoming meeting between Russian President Vladimir Putin and Chinese Vice Premier Ding Xuexiang on the sidelines of the Eastern Economic Forum (EEF), a TASS correspondent reported."
-        ],
-        "body": [
-          "\"Humanitarian ties are actively strengthening.",
-          "Exchanges are increasing in areas such as education, culture and cinema, tourism and sports, youth cooperation, while cooperation in healthcare, archival affairs, media is expanding.",
-          "A visa-free regime is in effect for business and tourist trips until December 31, 2027 (imposed by each country separately),\" the document said.",
-          "The Eastern Economic Forum is taking place on September 1-4 in Vladivostok on the campus of the Far Eastern Federal University.",
-          "The main theme of this year’s EEF is \"The Far East: Development for the Benefit of People.\" The event is organized by the Roscongress Foundation with the support of the Russian government.",
-          "TASS is its general information partner.",
-          "A visa-free regime is in effect for business and tourist trips between Russia and China until December 31, 2027."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Vladivostok"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The event is organized by the Roscongress Foundation with the support of the Russian government.",
-            "source": "TASS English",
-            "item_id": "c6bfcf56101f751dc88bdb52969482256aeaa64f9a556c12ad2bcde2dcbb1c3f:article",
-            "composed": false
-          },
-          {
-            "text": "Exchanges are increasing in areas such as education, culture and cinema, tourism and sports, youth cooperation, while cooperation in healthcare, archival affairs, media is expanding.",
-            "source": "TASS English",
-            "item_id": "c6bfcf56101f751dc88bdb52969482256aeaa64f9a556c12ad2bcde2dcbb1c3f:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/politics/2181177"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
