@@ -1,33 +1,138 @@
 {
-  "generated_at": "2026-09-02T13:31:02.052589+00:00",
-  "count": 3,
+  "generated_at": "2026-09-02T13:40:47.392341+00:00",
+  "count": 4,
   "stories": [
     {
-      "id": "6adb4fcc87e42f8da45a28d70543f12ba85aa8a4feca3f6b7a06ed92d36ed9c5",
-      "title": "Jakarta police probe ‘intellectual actors’ behind Aug 27 unrest that left one dead",
-      "url": "https://www.straitstimes.com/asia/se-asia/jakarta-police-probe-intellectual-actors-behind-aug-27-unrest-that-left-one-dead",
-      "source": "Straits Times Asia",
+      "id": "45966b10c897d7bdfa9500ea921e180538bc316043650ee7bca76c0afd76c4c6",
+      "title": "Tumbler Ridge mass shooting victims file 30 new lawsuits against OpenAI",
+      "url": "https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "North America",
       "discovery": false,
-      "summary": "Police say groups who caused chaos in Jakarta were not part of the original protest rally.",
-      "published_at": "2026-09-02T13:20:00+00:00",
-      "updated_at": "2026-09-02T13:20:00+00:00",
-      "effective_at": "2026-09-02T13:20:00+00:00",
+      "summary": "The company says it prioritizes safety, but suits allege its ChatGPT bot induced shooter to carry out attack in Canada OpenAI faces 30 new lawsuits filed on behalf of victims of the Tumbler Ridge mass shooting. The suits, filed on Wednesday, allege the company’s ChatGPT chatbot induced the shooter to carry out the attack in rural Canada in February, in which eight people were killed and dozens more wounded – most of them children. Continue reading...",
+      "published_at": "2026-09-02T13:22:57+00:00",
+      "updated_at": "2026-09-02T13:22:57+00:00",
+      "effective_at": "2026-09-02T13:22:57+00:00",
+      "language_status": "ENGLISH",
+      "category": "conflict",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "technology",
+      "subsector": "ai",
+      "subregion": "Canada",
+      "country": null,
+      "entities": [
+        "canada",
+        "chatgpt",
+        "openai",
+        "ridge",
+        "tumbler"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 93,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "3effe70c5b438c8a48ff8073",
+      "importance_score": 61.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 19,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 30,
+          "injured": 30,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": true,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "human": 8
+        }
+      },
+      "story_id": "45966b10c897d7bdfa9500ea921e180538bc316043650ee7bca76c0afd76c4c6",
+      "public_label": "🔄 UPDATE",
+      "headline": "Tumbler Ridge mass shooting victims file 30 new lawsuits against OpenAI",
+      "briefing": {
+        "opening": [
+          "The company says it prioritizes safety, but suits allege its ChatGPT bot induced shooter to carry out attack in Canada OpenAI faces 30 new lawsuits filed on behalf of victims of the Tumbler Ridge mass shooting.",
+          "The suits, filed on Wednesday, allege the company’s ChatGPT chatbot induced the shooter to carry out the attack in rural Canada in February, in which eight people were killed and dozens more wounded – most of them children."
+        ],
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Canada OpenAI"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The suits, filed on Wednesday, allege the company’s ChatGPT chatbot induced the shooter to carry out the attack in rural Canada in February, in which eight people were killed and dozens more wounded – most of them children.",
+            "source": "The Guardian World",
+            "item_id": "45966b10c897d7bdfa9500ea921e180538bc316043650ee7bca76c0afd76c4c6",
+            "composed": false
+          },
+          {
+            "text": "The company says it prioritizes safety, but suits allege its ChatGPT bot induced shooter to carry out attack in Canada OpenAI faces 30 new lawsuits filed on behalf of victims of the Tumbler Ridge mass shooting.",
+            "source": "The Guardian World",
+            "item_id": "45966b10c897d7bdfa9500ea921e180538bc316043650ee7bca76c0afd76c4c6",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian World",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "48d863036c7bb7d84487cfbab64b347227d76b1809ae280fe922401452fb086f",
+      "title": "What is known about shootout involving security service officers in Kiev",
+      "url": "https://tass.com/emergencies/2181279",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "During the initial investigation, the SBU stated that the detainees belonged to one of the Ukrainian Defense Forces units",
+      "published_at": "2026-09-02T13:35:56+00:00",
+      "updated_at": "2026-09-02T13:35:56+00:00",
+      "effective_at": "2026-09-02T13:35:56+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "markets",
-      "subregion": "Southeast Asia",
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "aug",
-        "jakarta"
+        "defense",
+        "forces",
+        "sbu",
+        "ukraine"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -37,151 +142,18 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "8a9b879469a7633105d7b769",
-      "importance_score": 52.0,
-      "importance_level": "MEDIUM",
-      "importance_breakdown": {
-        "impact": 16.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 27,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "human": 8
-        }
-      },
-      "story_id": "6adb4fcc87e42f8da45a28d70543f12ba85aa8a4feca3f6b7a06ed92d36ed9c5",
-      "article_sentences": [
-        "Jakarta police are investigating \"intellectual actors\" and financiers behind the Aug 27 unrest, which left one man dead and involved damage to public facilities.",
-        "The protest began as an anti-corruption rally but turned violent after unidentified groups, not original protesters, caused destruction.",
-        "Police are probing the death of Bambang Setiawan and denying links to mass organisation GRIB Jaya, while human rights bodies examine the protest's handling.",
-        "Indonesian police said they are investigating possible “intellectual actors”, financiers and individuals involved in mobilising participants of the Jakarta unrest on Aug 27 that left one man dead.",
-        "The police named 47 suspects over damage to public facilities and assaults during unrest outside the Parliament complex and in nearby Pejompongan, in central Jakarta.",
-        "“Although they appeared in separate groups, we suspect there was mobilisation,” Jakarta police criminal investigation director Iman Imanuddin told a police press conference on Sept 2.",
-        "In Indonesia, when demonstrations turn violent, police and the public have often questioned whether others were behind the unrest rather than the protesters themselves.",
-        "“Intellectual actors” is a term commonly used in Indonesia to refer to suspected masterminds behind an offence.",
-        "Three people were detained between the night of Sept 1 and the morning of Sept 2 for allegedly taking part in the destruction of government closed-circuit television (CCTV) cameras outside Parliament, according to police.",
-        "Preliminary investigations found that those involved were aware that surveillance cameras were widely deployed across Jakarta and had sought to hamper the investigation by destroying or removing potential evidence, Iman said.",
-        "The Aug 27 demonstration began as an anti-corruption rally, with about 500 people travelling from Pati in Central Java to press Parliament to pass the long-delayed Asset Forfeiture Bill, which would give the authorities greater powers to seize assets linked to crime.",
-        "Representatives of the group met parliamentary leaders and most of its members had left by midday."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Jakarta police probe ‘intellectual actors’ behind Aug 27 unrest that left one dead",
-      "briefing": {
-        "opening": [
-          "Jakarta police are investigating \"intellectual actors\" and financiers behind the Aug 27 unrest, which left one man dead and involved damage to public facilities.",
-          "The protest began as an anti-corruption rally but turned violent after unidentified groups, not original protesters, caused destruction."
-        ],
-        "body": [
-          "Police are probing the death of Bambang Setiawan and denying links to mass organisation GRIB Jaya, while human rights bodies examine the protest's handling.",
-          "Indonesian police said they are investigating possible “intellectual actors”, financiers and individuals involved in mobilising participants of the Jakarta unrest on Aug 27 that left one man dead.",
-          "The police named 47 suspects over damage to public facilities and assaults during unrest outside the Parliament complex and in nearby Pejompongan, in central Jakarta.",
-          "“Although they appeared in separate groups, we suspect there was mobilisation,” Jakarta police criminal investigation director Iman Imanuddin told a police press conference on Sept 2.",
-          "In Indonesia, when demonstrations turn violent, police and the public have often questioned whether others were behind the unrest rather than the protesters themselves.",
-          "“Intellectual actors” is a term commonly used in Indonesia to refer to suspected masterminds behind an offence.",
-          "Three people were detained between the night of Sept 1 and the morning of Sept 2 for allegedly taking part in the destruction of government closed-circuit television (CCTV) cameras outside Parliament, according to police.",
-          "Preliminary investigations found that those involved were aware that surveillance cameras were widely deployed across Jakarta and had sought to hamper the investigation by destroying or removing potential evidence, Iman said."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Indonesia"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Indonesian police said they are investigating possible “intellectual actors”, financiers and individuals involved in mobilising participants of the Jakarta unrest on Aug 27 that left one man dead.",
-            "source": "Straits Times Asia",
-            "item_id": "6adb4fcc87e42f8da45a28d70543f12ba85aa8a4feca3f6b7a06ed92d36ed9c5:article",
-            "composed": false
-          },
-          {
-            "text": "The police named 47 suspects over damage to public facilities and assaults during unrest outside the Parliament complex and in nearby Pejompongan, in central Jakarta.",
-            "source": "Straits Times Asia",
-            "item_id": "6adb4fcc87e42f8da45a28d70543f12ba85aa8a4feca3f6b7a06ed92d36ed9c5:article",
-            "composed": false
-          },
-          {
-            "text": "“Although they appeared in separate groups, we suspect there was mobilisation,” Jakarta police criminal investigation director Iman Imanuddin told a police press conference on Sept 2.",
-            "source": "Straits Times Asia",
-            "item_id": "6adb4fcc87e42f8da45a28d70543f12ba85aa8a4feca3f6b7a06ed92d36ed9c5:article",
-            "composed": false
-          }
-        ],
-        "source": "Straits Times Asia",
-        "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/se-asia/jakarta-police-probe-intellectual-actors-behind-aug-27-unrest-that-left-one-dead"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "02c19c486d7f3fddcd5abbc21a4d3e80a2b20e5f48d50e7f2c1c4dfe3c4ba3ec",
-      "title": "Leipzig incident provocation aimed at drawing EU, NATO into clash with Russia — ambassador",
-      "url": "https://tass.com/politics/2181263",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "Denis Gonchar emphasized that Russia had never sought and does not seek confrontation with Europe, but would do everything necessary to ensure national security and counter the threats emanating from NATO, the EU and the Kiev regime",
-      "published_at": "2026-09-02T13:25:50+00:00",
-      "updated_at": "2026-09-02T13:25:50+00:00",
-      "effective_at": "2026-09-02T13:25:50+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "defense",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "denis",
-        "eu",
-        "europe",
-        "gonchar",
-        "nato",
-        "russia",
-        "ukraine"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "dcea45e6eca17b06c49751c0",
-      "importance_score": 36.0,
+      "event_id": "f51a6ec8db818d02dd3ac13e",
+      "importance_score": 41.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 8.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -194,101 +166,221 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 8
+          "cultural": 8,
+          "security": 4
         }
       },
-      "story_id": "02c19c486d7f3fddcd5abbc21a4d3e80a2b20e5f48d50e7f2c1c4dfe3c4ba3ec",
+      "story_id": "48d863036c7bb7d84487cfbab64b347227d76b1809ae280fe922401452fb086f",
       "article_sentences": [
-        "BRUSSELS, September 2.",
-        "Last month's discovery of an explosives-laced drone at Leipzig airport is a sordid provocation in the interests of the bankrupt Kiev regime and the European \"war party,\" which want to draw NATO and the EU into a direct face-off with Moscow, Russian ambassador to Belgium Denis Gonchar said, when called in to the Kingdom’s Foreign Ministry in connection with the incident, according to the embassy.",
-        "Gonchar noted that the aforementioned incident is nothing more than a sordid provocation in the interests of the bankrupt Kiev regime and the European ‘war party,’ which are seeking at any cost to draw NATO and the EU into a direct confrontation with Russia, with all the catastrophic consequences that entails.",
-        "It is obvious that such a self-destructive course does not serve the interests of the peoples of Belgium and other European countries.",
-        "The ambassador emphasized that Russia has never sought and does not seek confrontation with Europe, but will do everything necessary to ensure national security and counter the threats emanating from NATO, the EU, and the Kiev regime,\" the Russian diplomatic mission said in a statement."
+        "MOSCOW, September 2.",
+        "An officer of the Ukrainian Defense Ministry’s Main Intelligence Directorate was killed, and two others were injured in a gunfight that took place overnight and ran into this morning in Kiev, the Insider news outlet reported.",
+        "TASS has compiled the key information on the incident.",
+        "Gunfire was heard in the Kiev neighborhood of Bereznyaki, Ukraine’s Insider news outlet said.",
+        "The Strana news outlet claimed that officers from Ukraine's Defense Ministry’s Main Intelligence Directorate (GUR) and the Ukrainian Security Service (SBU) were involved.",
+        "According to Strana, \"the shooting in Bereznyaki began overnight and continued into the morning.",
+        "For its part, the SBU announced in the morning that it was conducting certain operational activities jointly with the GUR.",
+        "However, local media later reported a new shootout.",
+        "Kiev police blocked traffic in the neighborhood where gunfire was heard during the night and in the morning, the mayor’s office stated.",
+        "According to Insider, officers from Ukraine’s State Bureau of Investigations and the head of the SBU’s Alpha special unit arrived at the scene and allegedly \"agreed to unload their weapons and begin an investigation.\"",
+        "A Main Intelligence Directorate officer was killed, and two others were injured in shootouts that took place overnight and this morning in Kiev’s Bereznyaki neighborhood, the Insider news outlet noted.",
+        "The SBU has published its account of the events in Bereznyaki."
       ],
       "public_label": "📰 NEWS",
-      "headline": "Leipzig incident provocation aimed at drawing EU, NATO into clash with Russia — ambassador",
+      "headline": "What is known about shootout involving security service officers in Kiev",
       "briefing": {
         "opening": [
-          "BRUSSELS, September 2.",
-          "Last month's discovery of an explosives-laced drone at Leipzig airport is a sordid provocation in the interests of the bankrupt Kiev regime and the European \"war party,\" which want to draw NATO and the EU into a direct face-off with Moscow, Russian ambassador to Belgium Denis Gonchar said, when called in to the Kingdom’s Foreign Ministry in connection with the incident, according to the embassy."
+          "MOSCOW, September 2.",
+          "An officer of the Ukrainian Defense Ministry’s Main Intelligence Directorate was killed, and two others were injured in a gunfight that took place overnight and ran into this morning in Kiev, the Insider news outlet reported."
         ],
         "body": [
-          "Gonchar noted that the aforementioned incident is nothing more than a sordid provocation in the interests of the bankrupt Kiev regime and the European ‘war party,’ which are seeking at any cost to draw NATO and the EU into a direct confrontation with Russia, with all the catastrophic consequences that entails.",
-          "It is obvious that such a self-destructive course does not serve the interests of the peoples of Belgium and other European countries.",
-          "The ambassador emphasized that Russia has never sought and does not seek confrontation with Europe, but will do everything necessary to ensure national security and counter the threats emanating from NATO, the EU, and the Kiev regime,\" the Russian diplomatic mission said in a statement.",
-          "Denis Gonchar emphasized that Russia had never sought and does not seek confrontation with Europe, but would do everything necessary to ensure national security and counter the threats emanating from NATO, the EU and the Kiev regime."
+          "TASS has compiled the key information on the incident.",
+          "Gunfire was heard in the Kiev neighborhood of Bereznyaki, Ukraine’s Insider news outlet said.",
+          "The Strana news outlet claimed that officers from Ukraine's Defense Ministry’s Main Intelligence Directorate (GUR) and the Ukrainian Security Service (SBU) were involved.",
+          "According to Strana, \"the shooting in Bereznyaki began overnight and continued into the morning.",
+          "For its part, the SBU announced in the morning that it was conducting certain operational activities jointly with the GUR.",
+          "However, local media later reported a new shootout.",
+          "Kiev police blocked traffic in the neighborhood where gunfire was heard during the night and in the morning, the mayor’s office stated.",
+          "According to Insider, officers from Ukraine’s State Bureau of Investigations and the head of the SBU’s Alpha special unit arrived at the scene and allegedly \"agreed to unload their weapons and begin an investigation.\" A Main Intelligence Directorate officer was killed, and two others were injured in shootouts that took place overnight and this morning in Kiev’s Bereznyaki neighborhood, the Insider news outlet noted."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Leipzig"
+            "text": "Kiev"
           }
         ],
         "sentences": [
           {
-            "text": "Gonchar noted that the aforementioned incident is nothing more than a sordid provocation in the interests of the bankrupt Kiev regime and the European ‘war party,’ which are seeking at any cost to draw NATO and the EU into a direct confrontation with Russia, with all the catastrophic consequences that entails.",
+            "text": "MOSCOW, September 2.",
             "source": "TASS English",
-            "item_id": "02c19c486d7f3fddcd5abbc21a4d3e80a2b20e5f48d50e7f2c1c4dfe3c4ba3ec:article",
+            "item_id": "48d863036c7bb7d84487cfbab64b347227d76b1809ae280fe922401452fb086f:article",
             "composed": false
           },
           {
-            "text": "It is obvious that such a self-destructive course does not serve the interests of the peoples of Belgium and other European countries.",
+            "text": "The Strana news outlet claimed that officers from Ukraine's Defense Ministry’s Main Intelligence Directorate (GUR) and the Ukrainian Security Service (SBU) were involved.",
             "source": "TASS English",
-            "item_id": "02c19c486d7f3fddcd5abbc21a4d3e80a2b20e5f48d50e7f2c1c4dfe3c4ba3ec:article",
+            "item_id": "48d863036c7bb7d84487cfbab64b347227d76b1809ae280fe922401452fb086f:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/politics/2181263"
+        "url": "https://tass.com/emergencies/2181279"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "a5befd72092ac28a90c7ff94977e7b817ab9676c1744ab1595c5d1bce702ca60",
-      "title": "Gold extraction plant in Yakutia to process 600,000 tons of ore per year",
-      "url": "https://tass.com/economy/2181267",
-      "source": "TASS English",
-      "source_category": "world",
+      "id": "dc0d54d8fa75734aa95d75029a1b0113c737c9c5fc99ca4df0e65c144862f562",
+      "title": "Freelancers are getting buried with ‘soulless’ AI slop cleanup: ‘It’s a shame we need to do it’",
+      "url": "https://www.theguardian.com/technology/2026/sep/02/ai-jobs-freelance-cleanup",
+      "source": "The Guardian Technology",
+      "source_category": "technology",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Europe",
       "discovery": false,
-      "summary": "In addition to the factory, the project provides for the construction of a mine and facilities for auxiliary and supporting infrastructures, including warehouses, office buildings, and sewage treatment plants",
-      "published_at": "2026-09-02T13:22:05+00:00",
-      "updated_at": "2026-09-02T13:22:05+00:00",
-      "effective_at": "2026-09-02T13:22:05+00:00",
+      "summary": "As more companies turn to AI, they’re hiring freelancers to cleanup its mistakes rather than create original work Lisa, a freelance graphic designer based in Spain, noticed a shift in her work after the release of ChatGPT in 2022. She went from receiving slow one-off jobs creating logos and packaging to an onslaught of requests asking her to fix versions that were generated by artificial intelligence – from sharpening fuzzy images for printing to turning flawed designs into usable files. By 2025, Lisa, who asked not to be fully named to avoid solicitations, said 90% of her incoming logo and packaging design requests required cleaning up AI-generated content, work that accounted for 60% to 70",
+      "published_at": "2026-09-02T12:00:23+00:00",
+      "updated_at": "2026-09-02T12:00:23+00:00",
+      "effective_at": "2026-09-02T12:00:23+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "technology",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "industry",
-      "subregion": null,
+      "sector": "technology",
+      "subsector": "ai",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "yakutia"
+        "ai",
+        "ai-generated",
+        "chatgpt",
+        "lisa",
+        "spain"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "9b29e54f5d8efbeff756ad93",
-      "importance_score": 26.0,
+      "event_id": "1b703d8ad13cb1e01d5d73ed",
+      "importance_score": 31.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 6.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4
+        }
+      },
+      "story_id": "dc0d54d8fa75734aa95d75029a1b0113c737c9c5fc99ca4df0e65c144862f562",
+      "public_label": "📰 NEWS",
+      "headline": "Freelancers are getting buried with ‘soulless’ AI slop cleanup: ‘It’s a shame we need to do it’",
+      "briefing": {
+        "opening": [
+          "As more companies turn to AI, they’re hiring freelancers to cleanup its mistakes rather than create original work Lisa, a freelance graphic designer based in Spain, noticed a shift in her work after the release of ChatGPT in 2022.",
+          "She went from receiving slow one-off jobs creating logos and packaging to an onslaught of requests asking her to fix versions that were generated by artificial intelligence – from sharpening fuzzy images for printing to turning flawed designs into usable files."
+        ],
+        "body": [
+          "By 2025, Lisa, who asked not to be fully named to avoid solicitations, said 90% of her incoming logo and packaging design requests required cleaning up AI-generated content, work that accounted for 60% to 70."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Spain"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "She went from receiving slow one-off jobs creating logos and packaging to an onslaught of requests asking her to fix versions that were generated by artificial intelligence – from sharpening fuzzy images for printing to turning flawed designs into usable files.",
+            "source": "The Guardian Technology",
+            "item_id": "dc0d54d8fa75734aa95d75029a1b0113c737c9c5fc99ca4df0e65c144862f562",
+            "composed": false
+          },
+          {
+            "text": "As more companies turn to AI, they’re hiring freelancers to cleanup its mistakes rather than create original work Lisa, a freelance graphic designer based in Spain, noticed a shift in her work after the release of ChatGPT in 2022.",
+            "source": "The Guardian Technology",
+            "item_id": "dc0d54d8fa75734aa95d75029a1b0113c737c9c5fc99ca4df0e65c144862f562",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian Technology",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/technology/2026/sep/02/ai-jobs-freelance-cleanup"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "02c877d827ab7211462e02db458531adb821ac1488560093b7f5c4ffab0155bf",
+      "title": "Singapore, Indonesia business chambers push ahead with AI trade platform, eye 2027 Jakarta forum",
+      "url": "https://www.straitstimes.com/asia/se-asia/singapore-indonesia-business-chambers-push-ahead-with-ai-trade-platform-eye-2027-jakarta-forum",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "The platform will be an Indonesian version of one that Singapore businesses use when expanding abroad.",
+      "published_at": "2026-09-02T13:31:30+00:00",
+      "updated_at": "2026-09-02T13:31:30+00:00",
+      "effective_at": "2026-09-02T13:31:30+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "technology",
+      "subsector": "internet",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "ai",
+        "indonesia",
+        "indonesian",
+        "jakarta",
+        "singapore"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "8463ba09e8494680e82be6cb",
+      "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -305,68 +397,74 @@
         },
         "significance_dims": {}
       },
-      "story_id": "a5befd72092ac28a90c7ff94977e7b817ab9676c1744ab1595c5d1bce702ca60",
+      "story_id": "02c877d827ab7211462e02db458531adb821ac1488560093b7f5c4ffab0155bf",
       "article_sentences": [
-        "VLADIVOSTOK, September 2.",
-        "A gold extraction plant with the annual capacity of 600,000 tons of ore will be built at the Delankir deposit in Yakutia.",
-        "An agreement on the project was signed on sidelines of the Eastern Economic Forum (EEF) by the Corporation for the Development of the Far East and the Arctic, Yakutia's government, and the Delankir Company (part of the Golden Asset Group of Companies), a TASS correspondent reported.",
-        "The document was inked by Kirill Kamenev, the Corporation's Deputy Director General for Investment Promotion, Andrey Kolesnikov, the Golden Asset Group of Companies' CEO, and Kirill Bychkov, head of Yakutia's government.",
-        "\"The Golden Asset Company's project to develop Delankirskaya Square is a new modern gold mining and processing facility in Yakutia,\" the Corporation's representative said at the agreement signing ceremony.",
-        "\"The factory construction provides for 24.3 billion rubles ($280 million) in investments and will create 500 new jobs.",
-        "For the Oymyakon and the Momsky Districts, the project would mean taxes, roads, and energy supplies that change people's lives.",
-        "The Corporation, for its part, is ready to provide a full range of support measures for the successful implementation of this project, including comprehensive project support and assistance in cooperation with federal and regional authorities.\"",
-        "In addition to the factory, the project provides for the construction of a mine and facilities for auxiliary and supporting infrastructures, including warehouses, office buildings, and sewage treatment plants.",
-        "The project is currently at the pre-design stage.",
-        "The Corporation will support the investor in choosing a land plot and in work on infrastructure support issues.",
-        "\"The work on a modern mining and processing enterprise is an important stage in the Golden Asset Group of Companies' development,\" the company's CEO said."
+        "An AI-powered platform giving practical guidance on trading requirements for Indonesian exporters is on track for launch, with a full-scale rollout expected to coincide with the Singapore Regional Business Forum in Jakarta in 2027.",
+        "The Singapore Business Federation (SBF) and the Indonesian Chamber of Commerce and Industry (Kadin) said on Sept 2 that the platform will be an Indonesian version of one developed by the SBF to guide Singapore businesses expanding abroad.",
+        "The update came as an SBF delegation led by chairman Mark Lee met Kadin chairman Anindya Bakrie in Jakarta to review progress on the memorandum of understanding (MoU) the two chambers signed on July 6 at the Singapore-Indonesia Leaders’ Retreat, witnessed by Indonesian President Prabowo Subianto and Singapore Prime Minister Lawrence Wong.",
+        "The centrepiece of the two-year MoU is the Indonesia Global Trading Initiative, powered by an Indonesian version of SBF’s Trade AI Advisor (TAIA).",
+        "Developed by SBF’s Centre for the Future of Trade and Investment, TAIA gives businesses practical guidance on tariffs, free trade agreements, and other international trade rules.",
+        "SBF and Kadin are currently working to create an Indonesian version of the platform, dubbed TAIA-ID, which will be offered in Bahasa Indonesia and on mobile devices, integrated with Kadin’s advisory ecosystem, and backed by trained Indonesian trade advisors.",
+        "Kadin has set up three working groups for the localisation efforts, and SBF is targeting a launch in the fourth quarter of 2026.",
+        "“The purpose is to use AI to get data on where we can trade abroad, so we can raise exports that bring in foreign exchange,” he said, adding that Singapore’s expertise in export logistics would be shared with Indonesian exporters, particularly micro, small and medium enterprises (MSMEs).",
+        "The platform will not be confined to Singapore-bound trade, said Chin Wei Jia, group chief executive of HMI Medical and an SBF council member.",
+        "“The AI will not just support the flow between Indonesia and Singapore, but Indonesia to the rest of the world,” she said, noting Indonesia’s wide network of free trade agreements.",
+        "Mark Lee described TAIA Indonesia as “a strong proof point of what inter-ASEAN business collaboration can achieve”, and said SBF was committed to turning high-level cooperation into real opportunities for businesses of all sizes.",
+        "Lee noted this was SBF’s third visit to Indonesia in three months, meeting this time with business leaders from healthcare, retail, commodities and plantations."
       ],
       "public_label": "📰 NEWS",
-      "headline": "Gold extraction plant in Yakutia to process 600,000 tons of ore per year",
+      "headline": "Singapore, Indonesia business chambers push ahead with AI trade platform, eye 2027 Jakarta forum",
       "briefing": {
         "opening": [
-          "VLADIVOSTOK, September 2.",
-          "A gold extraction plant with the annual capacity of 600,000 tons of ore will be built at the Delankir deposit in Yakutia."
+          "An AI-powered platform giving practical guidance on trading requirements for Indonesian exporters is on track for launch, with a full-scale rollout expected to coincide with the Singapore Regional Business Forum in Jakarta in 2027.",
+          "The Singapore Business Federation (SBF) and the Indonesian Chamber of Commerce and Industry (Kadin) said on Sept 2 that the platform will be an Indonesian version of one developed by the SBF to guide Singapore businesses expanding abroad."
         ],
         "body": [
-          "An agreement on the project was signed on sidelines of the Eastern Economic Forum (EEF) by the Corporation for the Development of the Far East and the Arctic, Yakutia's government, and the Delankir Company (part of the Golden Asset Group of Companies), a TASS correspondent reported.",
-          "The document was inked by Kirill Kamenev, the Corporation's Deputy Director General for Investment Promotion, Andrey Kolesnikov, the Golden Asset Group of Companies' CEO, and Kirill Bychkov, head of Yakutia's government.",
-          "\"The Golden Asset Company's project to develop Delankirskaya Square is a new modern gold mining and processing facility in Yakutia,\" the Corporation's representative said at the agreement signing ceremony.",
-          "\"The factory construction provides for 24.3 billion rubles ($280 million) in investments and will create 500 new jobs.",
-          "For the Oymyakon and the Momsky Districts, the project would mean taxes, roads, and energy supplies that change people's lives.",
-          "The Corporation, for its part, is ready to provide a full range of support measures for the successful implementation of this project, including comprehensive project support and assistance in cooperation with federal and regional authorities.\" In addition to the factory, the project provides for the construction of a mine and facilities for auxiliary and supporting infrastructures, including warehouses, office buildings, and sewage treatment plants.",
-          "The project is currently at the pre-design stage.",
-          "The Corporation will support the investor in choosing a land plot and in work on infrastructure support issues."
+          "The update came as an SBF delegation led by chairman Mark Lee met Kadin chairman Anindya Bakrie in Jakarta to review progress on the memorandum of understanding (MoU) the two chambers signed on July 6 at the Singapore-Indonesia Leaders’ Retreat, witnessed by Indonesian President Prabowo Subianto and Singapore Prime Minister Lawrence Wong.",
+          "The centrepiece of the two-year MoU is the Indonesia Global Trading Initiative, powered by an Indonesian version of SBF’s Trade AI Advisor (TAIA).",
+          "Developed by SBF’s Centre for the Future of Trade and Investment, TAIA gives businesses practical guidance on tariffs, free trade agreements, and other international trade rules.",
+          "SBF and Kadin are currently working to create an Indonesian version of the platform, dubbed TAIA-ID, which will be offered in Bahasa Indonesia and on mobile devices, integrated with Kadin’s advisory ecosystem, and backed by trained Indonesian trade advisors.",
+          "Kadin has set up three working groups for the localisation efforts, and SBF is targeting a launch in the fourth quarter of 2026.",
+          "“The purpose is to use AI to get data on where we can trade abroad, so we can raise exports that bring in foreign exchange,” he said, adding that Singapore’s expertise in export logistics would be shared with Indonesian exporters, particularly micro, small and medium enterprises (MSMEs).",
+          "The platform will not be confined to Singapore-bound trade, said Chin Wei Jia, group chief executive of HMI Medical and an SBF council member.",
+          "“The AI will not just support the flow between Indonesia and Singapore, but Indonesia to the rest of the world,” she said, noting Indonesia’s wide network of free trade agreements."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Yakutia"
+            "text": "Jakarta"
           }
         ],
         "sentences": [
           {
-            "text": "The document was inked by Kirill Kamenev, the Corporation's Deputy Director General for Investment Promotion, Andrey Kolesnikov, the Golden Asset Group of Companies' CEO, and Kirill Bychkov, head of Yakutia's government.",
-            "source": "TASS English",
-            "item_id": "a5befd72092ac28a90c7ff94977e7b817ab9676c1744ab1595c5d1bce702ca60:article",
+            "text": "The update came as an SBF delegation led by chairman Mark Lee met Kadin chairman Anindya Bakrie in Jakarta to review progress on the memorandum of understanding (MoU) the two chambers signed on July 6 at the Singapore-Indonesia Leaders’ Retreat, witnessed by Indonesian President Prabowo Subianto and Singapore Prime Minister Lawrence Wong.",
+            "source": "Straits Times Asia",
+            "item_id": "02c877d827ab7211462e02db458531adb821ac1488560093b7f5c4ffab0155bf:article",
             "composed": false
           },
           {
-            "text": "A gold extraction plant with the annual capacity of 600,000 tons of ore will be built at the Delankir deposit in Yakutia.",
-            "source": "TASS English",
-            "item_id": "a5befd72092ac28a90c7ff94977e7b817ab9676c1744ab1595c5d1bce702ca60:article",
+            "text": "An AI-powered platform giving practical guidance on trading requirements for Indonesian exporters is on track for launch, with a full-scale rollout expected to coincide with the Singapore Regional Business Forum in Jakarta in 2027.",
+            "source": "Straits Times Asia",
+            "item_id": "02c877d827ab7211462e02db458531adb821ac1488560093b7f5c4ffab0155bf:article",
             "composed": false
           },
           {
-            "text": "\"The Golden Asset Company's project to develop Delankirskaya Square is a new modern gold mining and processing facility in Yakutia,\" the Corporation's representative said at the agreement signing ceremony.",
-            "source": "TASS English",
-            "item_id": "a5befd72092ac28a90c7ff94977e7b817ab9676c1744ab1595c5d1bce702ca60:article",
+            "text": "The Singapore Business Federation (SBF) and the Indonesian Chamber of Commerce and Industry (Kadin) said on Sept 2 that the platform will be an Indonesian version of one developed by the SBF to guide Singapore businesses expanding abroad.",
+            "source": "Straits Times Asia",
+            "item_id": "02c877d827ab7211462e02db458531adb821ac1488560093b7f5c4ffab0155bf:article",
+            "composed": false
+          },
+          {
+            "text": "Kadin are currently working to create an Indonesian version of the platform, dubbed TAIA-ID, which will be offered in Bahasa Indonesia and on mobile devices, integrated with Kadin’s advisory ecosystem, and backed by trained Indonesian trade advisors.",
+            "source": "Straits Times Asia",
+            "item_id": "02c877d827ab7211462e02db458531adb821ac1488560093b7f5c4ffab0155bf:article",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://tass.com/economy/2181267"
+        "url": "https://www.straitstimes.com/asia/se-asia/singapore-indonesia-business-chambers-push-ahead-with-ai-trade-platform-eye-2027-jakarta-forum"
       },
       "group_size": 1,
       "label": "📰 NEWS"
