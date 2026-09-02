@@ -1,22 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "3d9f7e62c8c0a6ba2a2757f156c2a1d25af554c1f64966fc1a83d71cc96a78a9",
-      "event_id": "e6f2492300cd39b71b75fc4b",
-      "item_id": "3d9f7e62c8c0a6ba2a2757f156c2a1d25af554c1f64966fc1a83d71cc96a78a9",
-      "label": "🔄 UPDATE",
-      "scheduled_at": "2026-09-01T17:44:16+00:00",
-      "attempts": 0
-    },
-    {
-      "story_id": "d91c2f92c146bc8703878855169a458fd27687b2dc534cd48e04abbbda66e63e",
-      "event_id": "a2515b0a52b3b05476a0348c",
-      "item_id": "d91c2f92c146bc8703878855169a458fd27687b2dc534cd48e04abbbda66e63e",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-09-01T17:44:16+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "1da97cafb97c18516972098e2266a3700e8a396b05256f54e304914a9e230fca",
       "event_id": "0c33fcada5e8cbff62ff0099",
       "item_id": "1da97cafb97c18516972098e2266a3700e8a396b05256f54e304914a9e230fca",
@@ -479,9 +463,51 @@
       "label": "🔄 UPDATE",
       "scheduled_at": "2026-09-02T05:37:01+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "1436d086336fb1c7a888587897bc14f5fdd6ad65adf50d6359b6932499e524ca",
+      "event_id": "a1883d6cafa9255c337c56a0",
+      "item_id": "1436d086336fb1c7a888587897bc14f5fdd6ad65adf50d6359b6932499e524ca",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-09-02T05:44:39+00:00",
+      "attempts": 0
+    },
+    {
+      "story_id": "832ffbcc32c5cafad42de19bb7fc10ba1e8174d6002452bd924ee95359af11ce",
+      "event_id": "db9cf15dfab0c68d37d83189",
+      "item_id": "832ffbcc32c5cafad42de19bb7fc10ba1e8174d6002452bd924ee95359af11ce",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-09-02T05:44:50+00:00",
+      "attempts": 0
+    },
+    {
+      "story_id": "6f165a0f079565cb0c278ca650730ce52345b49784c4302dbfda499f77b6d649",
+      "event_id": "326c646b74748b933713f426",
+      "item_id": "6f165a0f079565cb0c278ca650730ce52345b49784c4302dbfda499f77b6d649",
+      "label": "🔄 UPDATE",
+      "scheduled_at": "2026-09-02T05:45:17+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "13f94c93596899d51c88989ec878c6ae1e1f4407cf12880ff1bd273c437871d0",
+      "event_id": "0d0b9ee25e50c03a8ddc8c89",
+      "item_id": "13f94c93596899d51c88989ec878c6ae1e1f4407cf12880ff1bd273c437871d0",
+      "label": "🔄 UPDATE",
+      "message_id": 3036,
+      "posted_at": "2026-09-02T05:42:59.000102+00:00",
+      "scheduled_at": "2026-09-02T05:42:59+00:00"
+    },
+    {
+      "story_id": "6a13bcda7c9bc45f1a9e24ecb4265ee5d322c56efd9f1edb2c904f7691c9dcc2",
+      "event_id": "71a09c27ce5e237f21a78090",
+      "item_id": "6a13bcda7c9bc45f1a9e24ecb4265ee5d322c56efd9f1edb2c904f7691c9dcc2",
+      "label": "📰 NEWS",
+      "message_id": 3035,
+      "posted_at": "2026-09-02T05:37:01.000136+00:00",
+      "scheduled_at": "2026-09-02T05:35:48+00:00"
+    },
     {
       "story_id": "fdc3cd825bbdd2b4b7bf4fa56572ae0e61b4bdb98775246315b1af1693c3e767",
       "event_id": "a49e8c63b50edef87428198e",
@@ -3478,26 +3504,8 @@
       "message_id": 2701,
       "posted_at": "2026-08-30T23:53:43.000116+00:00",
       "scheduled_at": "2026-08-30T23:52:32+00:00"
-    },
-    {
-      "story_id": "6bc0eb671224eb176e00a1c1afc72c169c33b502d3ded2d0102c15d92cae230a",
-      "event_id": "74e551c194bae011e16c8a24",
-      "item_id": "6bc0eb671224eb176e00a1c1afc72c169c33b502d3ded2d0102c15d92cae230a",
-      "label": "📰 NEWS",
-      "message_id": 2700,
-      "posted_at": "2026-08-30T23:43:48.000093+00:00",
-      "scheduled_at": "2026-08-30T23:42:59+00:00"
-    },
-    {
-      "story_id": "6a13bcda7c9bc45f1a9e24ecb4265ee5d322c56efd9f1edb2c904f7691c9dcc2",
-      "event_id": "71a09c27ce5e237f21a78090",
-      "item_id": "6a13bcda7c9bc45f1a9e24ecb4265ee5d322c56efd9f1edb2c904f7691c9dcc2",
-      "label": "📰 NEWS",
-      "message_id": 3035,
-      "posted_at": "2026-09-02T05:37:01.000136+00:00",
-      "scheduled_at": "2026-09-02T05:35:48+00:00"
     }
   ],
   "failures": [],
-  "last_posted_at": "2026-09-02T05:37:01.000136+00:00"
+  "last_posted_at": "2026-09-02T05:42:59.000102+00:00"
 }
