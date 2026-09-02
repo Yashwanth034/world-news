@@ -1,35 +1,40 @@
 {
-  "generated_at": "2026-09-02T07:20:45.498725+00:00",
+  "generated_at": "2026-09-02T07:31:00.783404+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "f7fd918cf06f2f83ecd5256d79c4454dfd4c994b34e82d8dafcb371733ce780f",
-      "title": "Military Intelligence joins Army weapons theft probe",
-      "url": "https://www.thehindu.com/news/national/telangana/military-intelligence-joins-probe-into-army-weapons-theft-case-involvement-of-agniveers-ruled-out/article71418449.ece",
-      "source": "The Hindu",
+      "id": "02b2f43ef14d0f85ee8686831a343fec3d89ffc53ea82708b09374b00a59fd1e",
+      "title": "Europe ends summer with lowest gas inventories on record",
+      "url": "https://tass.com/economy/2181085",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "The probe is being conducted from an undisclosed location inside the defence area. Access to schools, roads and CSD canteen remains restricted.",
-      "published_at": "2026-09-02T07:14:30+00:00",
-      "updated_at": "2026-09-02T07:14:30+00:00",
-      "effective_at": "2026-09-02T07:14:30+00:00",
+      "summary": "MOSCOW, September 2. Gas inventories in European underground storage facilities (UGS) are at their lowest level since records began in 2011, with one month to go before the traditional start of the heating season, posing a risk to gas supplies in the region, according to TASS calculations based on data from Gas Infrastructure Europe (GIE). Gas withdrawals from European storage facilities in August were the highest in five years at 771 mln cubic meters, up 11% from last year. At the same time, injections into UGS facilities fell by 8% to 10 billion cubic meters. As a result, total net injections, the difference between injection and withdrawal volumes, were 9% lower in August than a year earlier and among the lowest in 12 years at just 9.2 bln cubic meters. At the end of August 2026, European UGS facilities were 65.39% full, 16.76 percentage points below the average for that date over the past five years, compared with 77.7% a year earlier. This was the lowest level for that date since records began in 2011. At the end of the month, EU storage facilities held around 71.5 bln cubic meters of gas, 14 bln cubic meters less than a year earlier and the lowest level since 2013. Gazprom forecast that gas inventories in European UGS facilities might not even reach 75% by the next heating season. TASS previously reported that Europe risks entering the heating season with record-low gas inventories. The average pace of replenishment at EU storage facilities in July was among the lowest since records began in 2011 and accelerated only slightly in August. At the current pace, Europe may have its storage facilities only 70-75% full by the start of the fall-winter period, which would be the lowest level ever recorded at the beginning of a heating season.",
+      "published_at": "2026-09-02T07:30:01+00:00",
+      "updated_at": "2026-09-02T07:30:01+00:00",
+      "effective_at": "2026-09-02T07:30:01+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "defense",
+      "sector": "companies",
+      "subsector": "oil_gas",
       "subregion": null,
       "country": null,
       "entities": [
-        "army",
-        "csd",
-        "intelligence",
-        "military"
+        "eu",
+        "europe",
+        "european",
+        "gas",
+        "gie",
+        "infrastructure",
+        "russia",
+        "tass",
+        "ugs"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -38,19 +43,33 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "0f2170b7568371dda9fa7e27",
-      "importance_score": 30.0,
+      "article_sentences": [
+        "MOSCOW, September 2.",
+        "Gas inventories in European underground storage facilities (UGS) are at their lowest level since records began in 2011, with one month to go before the traditional start of the heating season, posing a risk to gas supplies in the region, according to TASS calculations based on data from Gas Infrastructure Europe (GIE).",
+        "Gas withdrawals from European storage facilities in August were the highest in five years at 771 mln cubic meters, up 11% from last year.",
+        "At the same time, injections into UGS facilities fell by 8% to 10 billion cubic meters.",
+        "As a result, total net injections, the difference between injection and withdrawal volumes, were 9% lower in August than a year earlier and among the lowest in 12 years at just 9.2 bln cubic meters.",
+        "At the end of August 2026, European UGS facilities were 65.39% full, 16.76 percentage points below the average for that date over the past five years, compared with 77.7% a year earlier.",
+        "This was the lowest level for that date since records began in 2011.",
+        "At the end of the month, EU storage facilities held around 71.5 bln cubic meters of gas, 14 bln cubic meters less than a year earlier and the lowest level since 2013.",
+        "Gazprom forecast that gas inventories in European UGS facilities might not even reach 75% by the next heating season.",
+        "TASS previously reported that Europe risks entering the heating season with record-low gas inventories.",
+        "The average pace of replenishment at EU storage facilities in July was among the lowest since records began in 2011 and accelerated only slightly in August.",
+        "At the current pace, Europe may have its storage facilities only 70-75% full by the start of the fall-winter period, which would be the lowest level ever recorded at the beginning of a heating season."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "c4b37e35d1b523aeb597dcf7",
+      "importance_score": 37.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "novelty": 8.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -63,39 +82,64 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 4
+          "human": 4,
+          "infrastructure": 4
         }
       },
-      "story_id": "f7fd918cf06f2f83ecd5256d79c4454dfd4c994b34e82d8dafcb371733ce780f",
-      "public_label": "📰 NEWS",
-      "headline": "Military Intelligence joins Army weapons theft probe",
+      "story_id": "02b2f43ef14d0f85ee8686831a343fec3d89ffc53ea82708b09374b00a59fd1e",
+      "public_label": "🔄 UPDATE",
+      "headline": "Europe ends summer with lowest gas inventories on record",
       "briefing": {
         "opening": [
-          "The probe is being conducted from an undisclosed location inside the defence area.",
-          "Access to schools, roads and CSD canteen remains restricted."
+          "MOSCOW, September 2.",
+          "Gas inventories in European underground storage facilities (UGS) are at their lowest level since records began in 2011, with one month to go before the traditional start of the heating season, posing a risk to gas supplies in the region, according to TASS calculations based on data from Gas Infrastructure Europe (GIE)."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "Gas withdrawals from European storage facilities in August were the highest in five years at 771 mln cubic meters, up 11% from last year.",
+          "This was the lowest level for that date since records began in 2011.",
+          "At the end of the month, EU storage facilities held around 71.5 bln cubic meters of gas, 14 bln cubic meters less than a year earlier and the lowest level since 2013.",
+          "TASS previously reported that Europe risks entering the heating season with record-low gas inventories.",
+          "The average pace of replenishment at EU storage facilities in July was among the lowest since records began in 2011 and accelerated only slightly in August."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "European"
+          }
+        ],
         "sentences": [
           {
-            "text": "Access to schools, roads and CSD canteen remains restricted.",
-            "source": "The Hindu",
-            "item_id": "f7fd918cf06f2f83ecd5256d79c4454dfd4c994b34e82d8dafcb371733ce780f",
+            "text": "Gas withdrawals from European storage facilities in August were the highest in five years at 771 mln cubic meters, up 11% from last year.",
+            "source": "TASS English",
+            "item_id": "02b2f43ef14d0f85ee8686831a343fec3d89ffc53ea82708b09374b00a59fd1e:article",
             "composed": false
           },
           {
-            "text": "The probe is being conducted from an undisclosed location inside the defence area.",
-            "source": "The Hindu",
-            "item_id": "f7fd918cf06f2f83ecd5256d79c4454dfd4c994b34e82d8dafcb371733ce780f",
+            "text": "The average pace of replenishment at EU storage facilities in July was among the lowest since records began in 2011 and accelerated only slightly in August.",
+            "source": "TASS English",
+            "item_id": "02b2f43ef14d0f85ee8686831a343fec3d89ffc53ea82708b09374b00a59fd1e:article",
+            "composed": false
+          },
+          {
+            "text": "Gas inventories in European underground storage facilities (UGS) are at their lowest level since records began in 2011, with one month to go before the traditional start of the heating season, posing a risk to gas supplies in the region, according to TASS calculations based on data from Gas Infrastructure Europe (GIE).",
+            "source": "TASS English",
+            "item_id": "02b2f43ef14d0f85ee8686831a343fec3d89ffc53ea82708b09374b00a59fd1e:article",
+            "composed": false
+          },
+          {
+            "text": "At the end of the month, EU storage facilities held around 71.5 bln cubic meters of gas, 14 bln cubic meters less than a year earlier and the lowest level since 2013.",
+            "source": "TASS English",
+            "item_id": "02b2f43ef14d0f85ee8686831a343fec3d89ffc53ea82708b09374b00a59fd1e:article",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.thehindu.com/news/national/telangana/military-intelligence-joins-probe-into-army-weapons-theft-case-involvement-of-agniveers-ruled-out/article71418449.ece"
+        "url": "https://tass.com/economy/2181085"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
