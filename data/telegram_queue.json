@@ -1,50 +1,190 @@
 {
-  "generated_at": "2026-09-02T10:20:46.017466+00:00",
-  "count": 8,
+  "generated_at": "2026-09-02T10:31:01.239028+00:00",
+  "count": 7,
   "stories": [
     {
-      "id": "99f98540733dbfd0fc5b4847d66477623b0abb28832a673006f37536a8c2e714",
-      "title": "EU trade enforcers descend on Beijing demanding China fix ‘untenable’ imbalances",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3366067/eu-trade-enforcers-descend-beijing-demanding-china-fix-untenable-imbalances?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "031aefbe8b895271b6c5ebd59c547f2adf33044b0767f231e99c510701de4dd4",
+      "title": "Thousands still missing as Nepal-Tibet flood relief and recovery intensifies",
+      "url": "https://www.bbc.co.uk/news/articles/c8xk45k9r1go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "A delegation from the European Commission has been locked in talks with Chinese officials in Beijing, as the sides look to find a diplomatic off-ramp from a looming trade war before an October deadline set by Brussels. The EU team was spearheaded by Denis Redonnet, the bloc’s top trade enforcement officer, who was recently made point person on China trade policy – a recognition that in EU circles, talk of partnership has largely been usurped by rivalry and competition. Later this month, the...",
-      "published_at": "2026-09-02T10:12:52+00:00",
-      "updated_at": "2026-09-02T10:12:52+00:00",
-      "effective_at": "2026-09-02T10:12:52+00:00",
+      "summary": "Thousands of people remain missing after a catastrophic flash flood along the Nepal-Tibet border a week ago, as rescuers scramble to reach anyone who may be alive even as they turn to recovery. At least 1,114 people have died in Nepal and nearly 4,000 more are missing, according to Nepal's disaster agency. On the Tibetan side, the death toll stands at 16, and more than 500 people are unaccounted for, Chinese state media reports. The UN's humanitarian agency has said the response is entering a new phase, with authorities intensifying relief and recovery operations. In Nepal, efforts continue to rescue workers, potentially in the hundreds, believed to be trapped in hydroelectric station tunnels. A massive flash flood, believed to have been triggered by a glacial collapse, swept through a Himalayan valley last Wednesday, wiping out villages. Nearly 12,000 people have since been rescued, according to Nepal's disaster management agency. But thousands more, including hundreds of foreign nationals - from India, the UK, Australia, the US, Malaysia, and more - are still missing. A week on, fears are growing that the death toll will only rise. Chinese state media has not reported any survivors on the Tibetan side of the border, but the search continues. Beijing, which annexed Tibet in the 1950s, tightly controls the region. All information comes from state media and foreign journalists cannot travel there without permission.",
+      "published_at": "2026-09-02T10:07:02+00:00",
+      "updated_at": "2026-09-02T10:07:02+00:00",
+      "effective_at": "2026-09-02T10:07:02+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "trade",
-      "subregion": "East Asia",
+      "sector": "climate",
+      "subsector": "floods",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "brussels",
+        "australia",
         "china",
-        "commission",
-        "denis",
-        "eu",
-        "european",
-        "redonnet"
+        "himalayan",
+        "india",
+        "malaysia",
+        "nepal",
+        "nepal-tibet",
+        "tibet",
+        "tibetan",
+        "uk",
+        "un",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 85,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Thousands of people remain missing after a catastrophic flash flood along the Nepal-Tibet border a week ago, as rescuers scramble to reach anyone who may be alive even as they turn to recovery.",
+        "At least 1,114 people have died in Nepal and nearly 4,000 more are missing, according to Nepal's disaster agency.",
+        "On the Tibetan side, the death toll stands at 16, and more than 500 people are unaccounted for, Chinese state media reports.",
+        "The UN's humanitarian agency has said the response is entering a new phase, with authorities intensifying relief and recovery operations.",
+        "In Nepal, efforts continue to rescue workers, potentially in the hundreds, believed to be trapped in hydroelectric station tunnels.",
+        "A massive flash flood, believed to have been triggered by a glacial collapse, swept through a Himalayan valley last Wednesday, wiping out villages.",
+        "Nearly 12,000 people have since been rescued, according to Nepal's disaster management agency.",
+        "But thousands more, including hundreds of foreign nationals - from India, the UK, Australia, the US, Malaysia, and more - are still missing.",
+        "A week on, fears are growing that the death toll will only rise.",
+        "Chinese state media has not reported any survivors on the Tibetan side of the border, but the search continues.",
+        "Beijing, which annexed Tibet in the 1950s, tightly controls the region.",
+        "All information comes from state media and foreign journalists cannot travel there without permission."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "cb7ca667fae81eea0cc73da2",
+      "importance_score": 91.0,
+      "importance_level": "CRITICAL",
+      "importance_breakdown": {
+        "impact": 34,
+        "urgency": 10,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 28,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 4000,
+          "injured": 30,
+          "displaced": 1200,
+          "missing": 4000,
+          "affected": 100,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "infrastructure": 8,
+          "human": 12,
+          "scientific": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "031aefbe8b895271b6c5ebd59c547f2adf33044b0767f231e99c510701de4dd4",
+      "public_label": "🔄 UPDATE",
+      "headline": "Thousands still missing as Nepal-Tibet flood relief and recovery intensifies",
+      "briefing": {
+        "opening": [
+          "Thousands of people remain missing after a catastrophic flash flood along the Nepal-Tibet border a week ago, as rescuers scramble to reach anyone who may be alive even as they turn to recovery.",
+          "At least 1,114 people have died in Nepal and nearly 4,000 more are missing, according to Nepal's disaster agency."
+        ],
+        "body": [
+          "On the Tibetan side, the death toll stands at 16, and more than 500 people are unaccounted for, Chinese state media reports.",
+          "The UN's humanitarian agency has said the response is entering a new phase, with authorities intensifying relief and recovery operations.",
+          "In Nepal, efforts continue to rescue workers, potentially in the hundreds, believed to be trapped in hydroelectric station tunnels.",
+          "A massive flash flood, believed to have been triggered by a glacial collapse, swept through a Himalayan valley last Wednesday, wiping out villages.",
+          "But thousands more, including hundreds of foreign nationals - from India, the UK, Australia, the US, Malaysia, and more - are still missing.",
+          "A week on, fears are growing that the death toll will only rise.",
+          "Chinese state media has not reported any survivors on the Tibetan side of the border, but the search continues.",
+          "Beijing, which annexed Tibet in the 1950s, tightly controls the region."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "At least 1,114 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Beijing, which annexed Tibet in the 1950s, tightly controls the region.",
+            "source": "BBC World",
+            "item_id": "031aefbe8b895271b6c5ebd59c547f2adf33044b0767f231e99c510701de4dd4:article",
+            "composed": false
+          },
+          {
+            "text": "But thousands more, including hundreds of foreign nationals - from India, the UK, Australia, the US, Malaysia, and more - are still missing.",
+            "source": "BBC World",
+            "item_id": "031aefbe8b895271b6c5ebd59c547f2adf33044b0767f231e99c510701de4dd4:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC World",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/c8xk45k9r1go?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "abafa676bb6ce3dbfcf67d4b133577a21585bccc806a82240c6b041daabd82ad",
+      "title": "Moscow vows to respond as Germany announces shutdown of Russian consulate",
+      "url": "https://tass.com/politics/2181163",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "Russian Ambassador to Germany Sergey Nechayev strongly rejected Berlin’s allegations of Moscow’s involvement in the incident at Leipzig/Halle Airport as unfounded and absurd",
+      "published_at": "2026-09-02T10:21:52+00:00",
+      "updated_at": "2026-09-02T10:21:52+00:00",
+      "effective_at": "2026-09-02T10:21:52+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "diplomacy",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "airport",
+        "germany",
+        "halle",
+        "leipzig",
+        "nechayev",
+        "russia",
+        "sergey"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "ebe73e32d5b3f9d8a3537a2b",
-      "importance_score": 52.0,
-      "importance_level": "MEDIUM",
+      "event_id": "c8b5f854c03e08e3814a1937",
+      "importance_score": 40.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
@@ -53,7 +193,7 @@
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 24,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -66,99 +206,118 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 8,
-          "security": 8,
-          "geopolitical": 8
+          "geopolitical": 8,
+          "infrastructure": 4
         }
       },
-      "story_id": "99f98540733dbfd0fc5b4847d66477623b0abb28832a673006f37536a8c2e714",
+      "story_id": "abafa676bb6ce3dbfcf67d4b133577a21585bccc806a82240c6b041daabd82ad",
+      "article_sentences": [
+        "MOSCOW, September 2.",
+        "The German government has decided to shut down Russia’s consulate general in Bonn from September 18 over an early August drone incident at Leipzig/Halle Airport, Foreign Minister Johann Wadephul said.",
+        "Russian Ambassador to Germany Sergey Nechayev strongly rejected Berlin’s allegations of Moscow’s involvement in the incident as unfounded and absurd.",
+        "TASS has gathered the key details of the situation so far.",
+        "Staff of the Russian consulate in Bonn and the Russian House in Berlin, along with their family members, are to leave Germany as part of measures taken by the country’s authorities following a drone incident at Leipzig/Halle Airport, the Russian embassy said in a comment.",
+        "According to the diplomatic mission, \"the German authorities blamed Russia for preparing an act of sabotage without providing any evidence or arguments.\"",
+        "The embassy specified that Berlin had decided to shut down the Russian consulate in Bonn by September 18, 2026, and end the 2011 German-Russian intergovernmental agreement on cultural and information centers, effectively paving the way for the closure of the Russian House of Science and Culture in Berlin.",
+        "Russian Ambassador to Germany Sergey Nechayev strongly rejected Berlin’s accusations of Moscow's involvement in the drone incident as groundless and absurd.",
+        "He stressed that the hastily contrived act of provocation only served the interests of the Kiev regime, warmongers within the European political class and military industrialists interested in fomenting the Ukraine conflict.",
+        "Nechayev pointed out that the measures announced by Germany amounted to an unprecedented escalation of tensions that would not remain without consequences.",
+        "Germany’s new anti-Russian decisions, announced citing the drone incident at Leipzig Airport, are another \"gross error\" that harms the interests of the country’s own people, Russian President Vladimir Putin said.",
+        "In his view, the decisions result from Germany’s domestic political situation, particularly the difficulties facing Chancellor Friedrich Merz."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "EU trade enforcers descend on Beijing demanding China fix ‘untenable’ imbalances",
+      "headline": "Moscow vows to respond as Germany announces shutdown of Russian consulate",
       "briefing": {
         "opening": [
-          "A delegation from the European Commission has been locked in talks with Chinese officials in Beijing, as the sides look to find a diplomatic off-ramp from a looming trade war before an October deadline set by Brussels.",
-          "The EU team was spearheaded by Denis Redonnet, the bloc’s top trade enforcement officer, who was recently made point person on China trade policy – a recognition that in EU circles, talk of partnership has largely been usurped by rivalry and competition."
+          "MOSCOW, September 2.",
+          "The German government has decided to shut down Russia’s consulate general in Bonn from September 18 over an early August drone incident at Leipzig/Halle Airport, Foreign Minister Johann Wadephul said."
         ],
         "body": [
-          "Later this month, the..."
+          "Russian Ambassador to Germany Sergey Nechayev strongly rejected Berlin’s allegations of Moscow’s involvement in the incident as unfounded and absurd.",
+          "TASS has gathered the key details of the situation so far.",
+          "Staff of the Russian consulate in Bonn and the Russian House in Berlin, along with their family members, are to leave Germany as part of measures taken by the country’s authorities following a drone incident at Leipzig/Halle Airport, the Russian embassy said in a comment.",
+          "According to the diplomatic mission, \"the German authorities blamed Russia for preparing an act of sabotage without providing any evidence or arguments.\" The embassy specified that Berlin had decided to shut down the Russian consulate in Bonn by September 18, 2026, and end the 2011 German-Russian intergovernmental agreement on cultural and information centers, effectively paving the way for the closure of the Russian House of Science and Culture in Berlin.",
+          "Russian Ambassador to Germany Sergey Nechayev strongly rejected Berlin’s accusations of Moscow's involvement in the drone incident as groundless and absurd.",
+          "He stressed that the hastily contrived act of provocation only served the interests of the Kiev regime, warmongers within the European political class and military industrialists interested in fomenting the Ukraine conflict.",
+          "Nechayev pointed out that the measures announced by Germany amounted to an unprecedented escalation of tensions that would not remain without consequences.",
+          "Germany’s new anti-Russian decisions, announced citing the drone incident at Leipzig Airport, are another \"gross error\" that harms the interests of the country’s own people, Russian President Vladimir Putin said."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Beijing"
+            "text": "Bonn"
           }
         ],
         "sentences": [
           {
-            "text": "A delegation from the European Commission has been locked in talks with Chinese officials in Beijing, as the sides look to find a diplomatic off-ramp from a looming trade war before an October deadline set by Brussels.",
-            "source": "South China Morning Post",
-            "item_id": "99f98540733dbfd0fc5b4847d66477623b0abb28832a673006f37536a8c2e714",
+            "text": "The embassy specified that Berlin had decided to shut down the Russian consulate in Bonn by September 18, 2026, and end the 2011 German-Russian intergovernmental agreement on cultural and information centers, effectively paving the way for the closure of the Russian House of Science and Culture in Berlin.",
+            "source": "TASS English",
+            "item_id": "abafa676bb6ce3dbfcf67d4b133577a21585bccc806a82240c6b041daabd82ad:article",
             "composed": false
           },
           {
-            "text": "The EU team was spearheaded by Denis Redonnet, the bloc’s top trade enforcement officer, who was recently made point person on China trade policy – a recognition that in EU circles, talk of partnership has largely been usurped by rivalry and competition.",
-            "source": "South China Morning Post",
-            "item_id": "99f98540733dbfd0fc5b4847d66477623b0abb28832a673006f37536a8c2e714",
+            "text": "MOSCOW, September 2.",
+            "source": "TASS English",
+            "item_id": "abafa676bb6ce3dbfcf67d4b133577a21585bccc806a82240c6b041daabd82ad:article",
+            "composed": false
+          },
+          {
+            "text": "Staff of the Russian consulate in Bonn and the Russian House in Berlin, along with their family members, are to leave Germany as part of measures taken by the country’s authorities following a drone incident at Leipzig/Halle Airport, the Russian embassy said in a comment.",
+            "source": "TASS English",
+            "item_id": "abafa676bb6ce3dbfcf67d4b133577a21585bccc806a82240c6b041daabd82ad:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/china/diplomacy/article/3366067/eu-trade-enforcers-descend-beijing-demanding-china-fix-untenable-imbalances?utm_source=rss_feed"
+        "url": "https://tass.com/politics/2181163"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "0cc8ca23caeb6f0584459ddf5a56a483ed83c695862761c5554e261c78f41936",
-      "title": "Barclays faces complaint over backing for power plant near world’s largest mangrove forest",
-      "url": "https://www.theguardian.com/global-development/2026/sep/02/bangladesh-india-barclays-bank-legal-complaint-backing-polluting-rampal-power-plant-sundarbans",
-      "source": "The Guardian Business",
-      "source_category": "finance",
+      "id": "c685525ced8a56fd32dde11194990f0b39e731ca2e7763d520c9908213b55e9a",
+      "title": "What we know about alleged US strike on Iran wedding",
+      "url": "https://www.france24.com/en/video/20260902-what-we-know-about-alleged-us-strike-on-iran-wedding",
+      "source": "France 24",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "North America",
       "discovery": false,
-      "summary": "Bangladeshi complainants allege Rampal power station’s pollution and climate risks threaten the Sunderbans, a world heritage site Barclays Bank is facing a formal complaint over its financial links to a coal-fired power station near the Sundarbans, the world’s largest mangrove forest and home to millions of people in Bangladesh and India. Three complainants from the region have submitted a case to the UK government’s Office for Responsible Business Conduct, alleging that the British bank breached international guidelines by underwriting companies involved in the emission-heavy Maitree super thermal power project, also known as the Rampal power plant. Continue reading...",
-      "published_at": "2026-09-02T10:00:21+00:00",
-      "updated_at": "2026-09-02T10:00:21+00:00",
-      "effective_at": "2026-09-02T10:00:21+00:00",
+      "summary": "US forces launched fresh attacks on Iran Tuesday, including one that the Iranian Red Crescent said left four people dead at a wedding celebration, with Tehran vowing \"severe punishment\" for the strikes. France 24's correspondent in Tehran Reza Sayeh has the latest.",
+      "published_at": "2026-09-02T10:10:11+00:00",
+      "updated_at": "2026-09-02T10:10:11+00:00",
+      "effective_at": "2026-09-02T10:10:11+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
+      "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "energy",
-      "subregion": "South Asia",
+      "sector": "law",
+      "subsector": "labor",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "bangladesh",
-        "bangladeshi",
-        "bank",
-        "barclays",
-        "business",
-        "conduct",
-        "india",
-        "maitree",
-        "office",
-        "rampal",
-        "responsible",
-        "sundarbans",
-        "sunderbans",
-        "uk"
+        "crescent",
+        "france",
+        "iran",
+        "red",
+        "reza",
+        "sayeh",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 93,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "a6c24117981938b39c015ddd",
-      "importance_score": 45.0,
+      "event_id": "fcfe50b52f3a1ae43bff709d",
+      "importance_score": 33.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
@@ -168,7 +327,7 @@
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 16,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -181,81 +340,84 @@
           "crisis": false
         },
         "significance_dims": {
-          "cultural": 8,
-          "infrastructure": 4,
-          "geopolitical": 4
+          "human": 4
         }
       },
-      "story_id": "0cc8ca23caeb6f0584459ddf5a56a483ed83c695862761c5554e261c78f41936",
+      "story_id": "c685525ced8a56fd32dde11194990f0b39e731ca2e7763d520c9908213b55e9a",
       "public_label": "📰 NEWS",
-      "headline": "Barclays faces complaint over backing for power plant near world’s largest mangrove forest",
+      "headline": "What we know about alleged US strike on Iran wedding",
       "briefing": {
         "opening": [
-          "Bangladeshi complainants allege Rampal power station’s pollution and climate risks threaten the Sunderbans, a world heritage site Barclays Bank is facing a formal complaint over its financial links to a coal-fired power station near the Sundarbans, the world’s largest mangrove forest and home to millions of people in Bangladesh and India.",
-          "Three complainants from the region have submitted a case to the UK government’s Office for Responsible Business Conduct, alleging that the British bank breached international guidelines by underwriting companies involved in the emission-heavy Maitree super thermal power project, also known as the Rampal power plant."
+          "US forces launched fresh attacks on Iran Tuesday, including one that the Iranian Red Crescent said left four people dead at a wedding celebration, with Tehran vowing \"severe punishment\" for the strikes.",
+          "France 24's correspondent in Tehran Reza Sayeh has the latest."
         ],
         "body": [],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Bangladesh"
+            "text": "Tehran Reza Sayeh"
           }
         ],
         "sentences": [
           {
-            "text": "Three complainants from the region have submitted a case to the UK government’s Office for Responsible Business Conduct, alleging that the British bank breached international guidelines by underwriting companies involved in the emission-heavy Maitree super thermal power project, also known as the Rampal power plant.",
-            "source": "The Guardian Business",
-            "item_id": "0cc8ca23caeb6f0584459ddf5a56a483ed83c695862761c5554e261c78f41936",
+            "text": "US forces launched fresh attacks on Iran Tuesday, including one that the Iranian Red Crescent said left four people dead at a wedding celebration, with Tehran vowing \"severe punishment\" for the strikes.",
+            "source": "France 24",
+            "item_id": "c685525ced8a56fd32dde11194990f0b39e731ca2e7763d520c9908213b55e9a",
             "composed": false
           },
           {
-            "text": "Bangladeshi complainants allege Rampal power station’s pollution and climate risks threaten the Sunderbans, a world heritage site Barclays Bank is facing a formal complaint over its financial links to a coal-fired power station near the Sundarbans, the world’s largest mangrove forest and home to millions of people in Bangladesh and India.",
-            "source": "The Guardian Business",
-            "item_id": "0cc8ca23caeb6f0584459ddf5a56a483ed83c695862761c5554e261c78f41936",
+            "text": "France 24's correspondent in Tehran Reza Sayeh has the latest.",
+            "source": "France 24",
+            "item_id": "c685525ced8a56fd32dde11194990f0b39e731ca2e7763d520c9908213b55e9a",
             "composed": false
           }
         ],
-        "source": "The Guardian Business",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.theguardian.com/global-development/2026/sep/02/bangladesh-india-barclays-bank-legal-complaint-backing-polluting-rampal-power-plant-sundarbans"
+        "url": "https://www.france24.com/en/video/20260902-what-we-know-about-alleged-us-strike-on-iran-wedding"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "ad255d98f1ad586d7060b6a46b6762a561614c670f10b65f2efd16ef4ff30bd8",
-      "title": "Range Rover launches its first electric vehicle, with starting price of £154,070",
-      "url": "https://www.theguardian.com/business/2026/sep/02/range-rover-launches-first-electric-vehicle",
-      "source": "The Guardian Business",
-      "source_category": "finance",
+      "id": "b1ca8642932edb03ff826c4617a3f6faaffb1c4945237b37f9e18307f401c425",
+      "title": "‘Tower of broken dreams’: French artist takes Eiffel Tower work to Burning man",
+      "url": "https://www.france24.com/en/video/20260902-tower-of-broken-dreams-french-artist-takes-eiffel-tower-work-to-burning-man",
+      "source": "France 24",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "Fully electric SUV unveiled after year-long delay and will be built at Jaguar Land Rover’s plant in Solihull Range Rover has launched its first electric vehicle – a year later than planned – offering a greener option for fans of gargantuan British-made SUVs who are also conscious about the climate crisis. Due to be built in Solihull, the home of the marque since 1970, the vehicle comes with an eye-watering price tag, starting at £154,070. Continue reading...",
-      "published_at": "2026-09-02T09:08:23+00:00",
-      "updated_at": "2026-09-02T09:08:23+00:00",
-      "effective_at": "2026-09-02T09:08:23+00:00",
+      "summary": "A French artist from Saint-Malo-du-Bois in the Vendée region has taken a sculpture known as the “Broken Eiffel Tower” all the way to the United States. The 26-metric-ton structure was dismantled piece by piece to be shipped from the port of Le Havre before being reconstructed at the Burning Man festival in the Nevada desert. Caitlin Brown reports",
+      "published_at": "2026-09-02T10:08:11+00:00",
+      "updated_at": "2026-09-02T10:08:11+00:00",
+      "effective_at": "2026-09-02T10:08:11+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
+      "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "automotive",
+      "sector": "culture",
+      "subsector": "culture",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "british-made",
-        "fully",
-        "jaguar",
-        "land",
-        "range",
-        "rover",
-        "solihull",
-        "suv",
-        "suvs"
+        "broken",
+        "brown",
+        "burning",
+        "caitlin",
+        "eiffel",
+        "france",
+        "havre",
+        "le",
+        "man",
+        "nevada",
+        "saint-malo-du-bois",
+        "tower",
+        "united_states",
+        "vend"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -265,448 +427,12 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "0242fb20cbc49c6a11e7825c",
-      "importance_score": 35.0,
+      "event_id": "e035a63ac604f9158cb391f7",
+      "importance_score": 33.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 6.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "scientific": 8
-        }
-      },
-      "story_id": "ad255d98f1ad586d7060b6a46b6762a561614c670f10b65f2efd16ef4ff30bd8",
-      "public_label": "📰 NEWS",
-      "headline": "Range Rover launches its first electric vehicle, with starting price of £154,070",
-      "briefing": {
-        "opening": [
-          "Fully electric SUV unveiled after year-long delay and will be built at Jaguar Land Rover’s plant in Solihull Range Rover has launched its first electric vehicle – a year later than planned – offering a greener option for fans of gargantuan British-made SUVs who are also conscious about the climate crisis.",
-          "Due to be built in Solihull, the home of the marque since 1970, the vehicle comes with an eye-watering price tag, starting at £154,070."
-        ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Jaguar Land Rover’s"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Due to be built in Solihull, the home of the marque since 1970, the vehicle comes with an eye-watering price tag, starting at £154,070.",
-            "source": "The Guardian Business",
-            "item_id": "ad255d98f1ad586d7060b6a46b6762a561614c670f10b65f2efd16ef4ff30bd8",
-            "composed": false
-          },
-          {
-            "text": "Fully electric SUV unveiled after year-long delay and will be built at Jaguar Land Rover’s plant in Solihull Range Rover has launched its first electric vehicle – a year later than planned – offering a greener option for fans of gargantuan British-made SUVs who are also conscious about the climate crisis.",
-            "source": "The Guardian Business",
-            "item_id": "ad255d98f1ad586d7060b6a46b6762a561614c670f10b65f2efd16ef4ff30bd8",
-            "composed": false
-          }
-        ],
-        "source": "The Guardian Business",
-        "corroborating": [],
-        "url": "https://www.theguardian.com/business/2026/sep/02/range-rover-launches-first-electric-vehicle"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "f31e2ffe9c4563d689bd708df91640098102917b2a7193c51a5b69e4549a86ed",
-      "title": "Sadiq Khan fined by fast-track court over untaxed car City Hall says is not his",
-      "url": "https://www.theguardian.com/politics/2026/sep/02/sadiq-khan-fined-fast-track-court-untaxed-car-city-hall-says-he-doesnt-own",
-      "source": "The Guardian Business",
-      "source_category": "finance",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "London mayor convicted under controversial system where magistrates can decide outcomes in seconds UK politics live – latest updates The London mayor, Sadiq Khan, has been convicted and fined for not taxing a 24-year-old car, through a controversial fast-track court system. He was found guilty last month under a system critics have described as “conveyor-belt justice”, with magistrates deciding on hundreds of daily cases and sometimes spending less than a minute on them. Continue reading...",
-      "published_at": "2026-09-02T08:30:27+00:00",
-      "updated_at": "2026-09-02T08:30:27+00:00",
-      "effective_at": "2026-09-02T08:30:27+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "automotive",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "city",
-        "hall",
-        "khan",
-        "sadiq",
-        "uk"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "a6268b9c29b63724f16d61eb",
-      "importance_score": 34.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 9.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "scientific": 4
-        }
-      },
-      "story_id": "f31e2ffe9c4563d689bd708df91640098102917b2a7193c51a5b69e4549a86ed",
-      "public_label": "📰 NEWS",
-      "headline": "Sadiq Khan fined by fast-track court over untaxed car City Hall says is not his",
-      "briefing": {
-        "opening": [
-          "London mayor convicted under controversial system where magistrates can decide outcomes in seconds UK politics live – latest updates.",
-          "The London mayor, Sadiq Khan, has been convicted and fined for not taxing a 24-year-old car, through a controversial fast-track court system."
-        ],
-        "body": [
-          "He was found guilty last month under a system critics have described as “conveyor-belt justice”, with magistrates deciding on hundreds of daily cases and sometimes spending less than a minute on them."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The London mayor, Sadiq Khan, has been convicted and fined for not taxing a 24-year-old car, through a controversial fast-track court system.",
-            "source": "The Guardian Business",
-            "item_id": "f31e2ffe9c4563d689bd708df91640098102917b2a7193c51a5b69e4549a86ed",
-            "composed": false
-          },
-          {
-            "text": "He was found guilty last month under a system critics have described as “conveyor-belt justice”, with magistrates deciding on hundreds of daily cases and sometimes spending less than a minute on them.",
-            "source": "The Guardian Business",
-            "item_id": "f31e2ffe9c4563d689bd708df91640098102917b2a7193c51a5b69e4549a86ed",
-            "composed": false
-          }
-        ],
-        "source": "The Guardian Business",
-        "corroborating": [],
-        "url": "https://www.theguardian.com/politics/2026/sep/02/sadiq-khan-fined-fast-track-court-untaxed-car-city-hall-says-he-doesnt-own"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "63823516e8ae81e6d001acc5f74a522b5ce43215bd3b75fc8b099d4aa3888033",
-      "title": "Thames Water, I refuse to pay the sewage charge in my bill while you pollute Britain’s rivers and coastlines | Jenny Jones",
-      "url": "https://www.theguardian.com/commentisfree/2026/sep/02/thames-water-sewage-charge-bill-pollute-britain-river-coastline",
-      "source": "The Guardian Business",
-      "source_category": "finance",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "I will calmly read all the threatening letters and await the court case against me. But I will take a stand even if our government won’t I can’t even remember when I decided to stop paying the sewage element of my Thames Water bill. It might have been after reading this headline from the Guardian in July 2025: “ Serious pollution incidents by English water companies rose 60% last year ,” with the subheading: “Environment Agency records 75 serious incidents among total of 2,800, with Thames Water being worst offender.” Living in London means that my supplier is Thames Water, which makes a profit out of pollution. I decided that if the government wouldn’t act, I could at least do my part and n",
-      "published_at": "2026-09-02T10:00:21+00:00",
-      "updated_at": "2026-09-02T10:00:21+00:00",
-      "effective_at": "2026-09-02T10:00:21+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "agriculture",
-      "subsector": "water",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "agency",
-        "britain",
-        "english",
-        "environment",
-        "guardian",
-        "jenny",
-        "jones",
-        "living",
-        "serious",
-        "thames",
-        "uk",
-        "water"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "21a9659d03a2a94afb8ab08a",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "geopolitical": 4
-        }
-      },
-      "story_id": "63823516e8ae81e6d001acc5f74a522b5ce43215bd3b75fc8b099d4aa3888033",
-      "public_label": "📰 NEWS",
-      "headline": "Thames Water, I refuse to pay the sewage charge in my bill while you pollute Britain’s rivers and coastlines | Jenny Jones",
-      "briefing": {
-        "opening": [
-          "I will calmly read all the threatening letters and await the court case against me.",
-          "But I will take a stand even if our government won’t."
-        ],
-        "body": [
-          "I can’t even remember when I decided to stop paying the sewage element of my Thames Water bill.",
-          "It might have been after reading this headline from the Guardian in July 2025: “ Serious pollution incidents by English water companies rose 60% last year,” with the subheading: “Environment Agency records 75 serious incidents among total of 2,800, with Thames Water being worst offender.” Living in London means that my supplier is Thames Water, which makes a profit out of pollution.",
-          "I decided that if the government wouldn’t act, I could at least do my part and."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "July"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "I can’t even remember when I decided to stop paying the sewage element of my Thames Water bill.",
-            "source": "The Guardian Business",
-            "item_id": "63823516e8ae81e6d001acc5f74a522b5ce43215bd3b75fc8b099d4aa3888033",
-            "composed": false
-          },
-          {
-            "text": "It might have been after reading this headline from the Guardian in July 2025: “ Serious pollution incidents by English water companies rose 60% last year,” with the subheading: “Environment Agency records 75 serious incidents among total of 2,800, with Thames Water being worst offender.”",
-            "source": "The Guardian Business",
-            "item_id": "63823516e8ae81e6d001acc5f74a522b5ce43215bd3b75fc8b099d4aa3888033",
-            "composed": false
-          },
-          {
-            "text": "Living in London means that my supplier is Thames Water, which makes a profit out of pollution.",
-            "source": "The Guardian Business",
-            "item_id": "63823516e8ae81e6d001acc5f74a522b5ce43215bd3b75fc8b099d4aa3888033",
-            "composed": false
-          }
-        ],
-        "source": "The Guardian Business",
-        "corroborating": [],
-        "url": "https://www.theguardian.com/commentisfree/2026/sep/02/thames-water-sewage-charge-bill-pollute-britain-river-coastline"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "8ffc1bba28c2b2a368a76919075bf2dc6781a3604afe0c373b69b7cdb8d634eb",
-      "title": "Andy Burnham has already made a mistake that will cost him his premiership: he lost his nerve over political donations | George Monbiot",
-      "url": "https://www.theguardian.com/commentisfree/2026/sep/02/andy-burnham-mistake-political-donations-wealthy-britain",
-      "source": "The Guardian Business",
-      "source_category": "finance",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "Being subservient to the interests of the wealthy now means that his hands are tied, and he will be unable to tackle Britain’s most pressing issues Damn the electorate. They’re so impatient . No sooner do they get a new leader than they want another one. Those ingrates are already starting to grumble about Andy Burnham. Maybe the country is becoming ungovernable . Perhaps it’s social media . Or a consumerist culture, always picking the next shiny thing. Perhaps we’re addicted to drama . As we’re on our sixth prime minister in 10 years, and as similar levels of discontent surface in many other countries, these claims are recited across the media. What’s wrong with us? Yet our disgruntlement i",
-      "published_at": "2026-09-02T05:00:23+00:00",
-      "updated_at": "2026-09-02T05:00:23+00:00",
-      "effective_at": "2026-09-02T05:00:23+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "andy",
-        "being",
-        "britain",
-        "burnham",
-        "damn",
-        "george",
-        "monbiot"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "deee68a298e6a49b7e49b476",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "geopolitical": 4
-        }
-      },
-      "story_id": "8ffc1bba28c2b2a368a76919075bf2dc6781a3604afe0c373b69b7cdb8d634eb",
-      "public_label": "📰 NEWS",
-      "headline": "Andy Burnham has already made a mistake that will cost him his premiership: he lost his nerve over political donations | George Monbiot",
-      "briefing": {
-        "opening": [
-          "Being subservient to the interests of the wealthy now means that his hands are tied, and he will be unable to tackle Britain’s most pressing issues Damn the electorate.",
-          "They’re so impatient."
-        ],
-        "body": [
-          "No sooner do they get a new leader than they want another one.",
-          "Those ingrates are already starting to grumble about Andy Burnham.",
-          "Maybe the country is becoming ungovernable.",
-          "Perhaps it’s social media.",
-          "Or a consumerist culture, always picking the next shiny thing.",
-          "Perhaps we’re addicted to drama.",
-          "As we’re on our sixth prime minister in 10 years, and as similar levels of discontent surface in many other countries, these claims are recited across the media.",
-          "What’s wrong with us?",
-          "Yet our disgruntlement."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Being subservient to the interests of the wealthy now means that his hands are tied, and he will be unable to tackle Britain’s most pressing issues Damn the electorate.",
-            "source": "The Guardian Business",
-            "item_id": "8ffc1bba28c2b2a368a76919075bf2dc6781a3604afe0c373b69b7cdb8d634eb",
-            "composed": false
-          },
-          {
-            "text": "Those ingrates are already starting to grumble about Andy Burnham.",
-            "source": "The Guardian Business",
-            "item_id": "8ffc1bba28c2b2a368a76919075bf2dc6781a3604afe0c373b69b7cdb8d634eb",
-            "composed": false
-          },
-          {
-            "text": "As we’re on our sixth prime minister in 10 years, and as similar levels of discontent surface in many other countries, these claims are recited across the media.",
-            "source": "The Guardian Business",
-            "item_id": "8ffc1bba28c2b2a368a76919075bf2dc6781a3604afe0c373b69b7cdb8d634eb",
-            "composed": false
-          }
-        ],
-        "source": "The Guardian Business",
-        "corroborating": [],
-        "url": "https://www.theguardian.com/commentisfree/2026/sep/02/andy-burnham-mistake-political-donations-wealthy-britain"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "4e698baba2d2386583c2a5e178982f7b81fafd4eb82fe63bdc470f5060662d6f",
-      "title": "Britain is OK with public ownership, but only by foreign powers. Why?",
-      "url": "https://www.theguardian.com/business/2026/sep/02/britain-public-ownership-energy-transition-foreign-powers-arthur-downing",
-      "source": "The Guardian Business",
-      "source_category": "finance",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "Arthur Downing, author of Power and the People: A History of British Energy, says all-encompassing rapid transition will need a mutualised system Have you ever wondered why it is that most houses in the UK are reliant on gas boilers? Not what’s stopping more people from replacing them with heat pumps, but instead why and how the gas boiler became so ubiquitous in the first place? Arthur Downing, the author of the new book Power and the People: A History of British Energy, can tell you exactly why. “We only have boilers in our houses because of a state-owned enterprise that went into everybody’s home and installed natural gas-suitable appliances at no direct cost,” he says. The nationalised g",
-      "published_at": "2026-09-02T07:00:26+00:00",
-      "updated_at": "2026-09-02T07:00:26+00:00",
-      "effective_at": "2026-09-02T07:00:26+00:00",
-      "language_status": "ENGLISH",
-      "category": "industry",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "energy",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "arthur",
-        "britain",
-        "downing",
-        "energy",
-        "history",
-        "ok",
-        "power",
-        "uk"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "bc8f03de458a475b38a81932",
-      "importance_score": 31.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 6.0,
+        "urgency": 8.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
@@ -728,89 +454,74 @@
           "infrastructure": 4
         }
       },
-      "story_id": "4e698baba2d2386583c2a5e178982f7b81fafd4eb82fe63bdc470f5060662d6f",
+      "story_id": "b1ca8642932edb03ff826c4617a3f6faaffb1c4945237b37f9e18307f401c425",
       "public_label": "📰 NEWS",
-      "headline": "Britain is OK with public ownership, but only by foreign powers. Why?",
+      "headline": "‘Tower of broken dreams’: French artist takes Eiffel Tower work to Burning man",
       "briefing": {
         "opening": [
-          "Arthur Downing, author of Power and the People: A History of British Energy, says all-encompassing rapid transition will need a mutualised system Have you ever wondered why it is that most houses in the UK are reliant on gas boilers?",
-          "Not what’s stopping more people from replacing them with heat pumps, but instead why and how the gas boiler became so ubiquitous in the first place?"
+          "A French artist from Saint-Malo-du-Bois in the Vendée region has taken a sculpture known as the “Broken Eiffel Tower” all the way to the United States.",
+          "The 26-metric-ton structure was dismantled piece by piece to be shipped from the port of Le Havre before being reconstructed at the Burning Man festival in the Nevada desert."
         ],
         "body": [
-          "Arthur Downing, the author of the new book Power and the People: A History of British Energy, can tell you exactly why.",
-          "“We only have boilers in our houses because of a state-owned enterprise that went into everybody’s home and installed natural gas-suitable appliances at no direct cost,” he says.",
-          "The nationalised."
+          "Caitlin Brown reports."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Arthur Downing, author of Power and the People: A History of British Energy, says all-encompassing rapid transition will need a mutualised system Have you ever wondered why it is that most houses in the UK are reliant on gas boilers?",
-            "source": "The Guardian Business",
-            "item_id": "4e698baba2d2386583c2a5e178982f7b81fafd4eb82fe63bdc470f5060662d6f",
+            "text": "The 26-metric-ton structure was dismantled piece by piece to be shipped from the port of Le Havre before being reconstructed at the Burning Man festival in the Nevada desert.",
+            "source": "France 24",
+            "item_id": "b1ca8642932edb03ff826c4617a3f6faaffb1c4945237b37f9e18307f401c425",
             "composed": false
           },
           {
-            "text": "Power and the People: A History of British Energy, can tell you exactly why.",
-            "source": "The Guardian Business",
-            "item_id": "4e698baba2d2386583c2a5e178982f7b81fafd4eb82fe63bdc470f5060662d6f",
-            "composed": false
-          },
-          {
-            "text": "Not what’s stopping more people from replacing them with heat pumps, but instead why and how the gas boiler became so ubiquitous in the first place?",
-            "source": "The Guardian Business",
-            "item_id": "4e698baba2d2386583c2a5e178982f7b81fafd4eb82fe63bdc470f5060662d6f",
+            "text": "A French artist from Saint-Malo-du-Bois in the Vendée region has taken a sculpture known as the “Broken Eiffel Tower” all the way to the United States.",
+            "source": "France 24",
+            "item_id": "b1ca8642932edb03ff826c4617a3f6faaffb1c4945237b37f9e18307f401c425",
             "composed": false
           }
         ],
-        "source": "The Guardian Business",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.theguardian.com/business/2026/sep/02/britain-public-ownership-energy-transition-foreign-powers-arthur-downing"
+        "url": "https://www.france24.com/en/video/20260902-tower-of-broken-dreams-french-artist-takes-eiffel-tower-work-to-burning-man"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "f64e7f87441bfb67f1b8588989212bbc4e2234c10306efb8298134519b6f2d4f",
-      "title": "This data has helped fight workplace discrimination for 60 years. The Trump administration plans to delete it",
-      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/02/eeoc-workplace-discrimination-data-trump",
-      "source": "The Guardian Business",
-      "source_category": "finance",
+      "id": "705bb100436195b8190b2c6dd5e78b351b4aacc2c6c488b96fcf8f25223cc70d",
+      "title": "450 applicants in a matter of seconds: The struggle to find rental flats in Paris",
+      "url": "https://www.france24.com/en/video/20260902-450-applicants-in-a-matter-of-seconds-the-struggle-to-find-rental-flats-in-paris",
+      "source": "France 24",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Europe",
       "discovery": false,
-      "summary": "Enforcing civil rights without these reports will be difficult for the Equal Employment Opportunity Commission, pushing US agency closer to Trump’s agenda, experts warn The US civil rights agency mandated to protect equal rights for workers is set to stop collecting data on the demographic makeup of companies – which for the past six decades has been used to enforce anti-discrimination laws. The move marks a fundamental shift for the Equal Employment Opportunity Commission (EEOC). Without this data, it will be much harder for the agency to identify widespread cases of discrimination in hiring and promotions, experts and former employees of the commission say. And, they warn, it will bring th",
-      "published_at": "2026-09-02T10:00:22+00:00",
-      "updated_at": "2026-09-02T10:00:22+00:00",
-      "effective_at": "2026-09-02T10:00:22+00:00",
+      "summary": "September is the time of year when students in France are scrambling for accommodation, and this year, the available units are scarcer than ever. A whole series of factors, including tougher regulation of ecologically non-compliant apartments, means there are even fewer on the market.",
+      "published_at": "2026-09-02T10:12:17+00:00",
+      "updated_at": "2026-09-02T10:12:17+00:00",
+      "effective_at": "2026-09-02T10:12:17+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
+      "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "law",
-      "subsector": "employment",
-      "subregion": "United States",
+      "subsector": "regulation",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "commission",
-        "eeoc",
-        "employment",
-        "enforcing",
-        "equal",
-        "opportunity",
-        "trump",
-        "us"
+        "france"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "989a62d6ef6f05445f90bc03",
+      "event_id": "3950c959dabbddbf8e6d91cc",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -835,37 +546,229 @@
         },
         "significance_dims": {}
       },
-      "story_id": "f64e7f87441bfb67f1b8588989212bbc4e2234c10306efb8298134519b6f2d4f",
+      "story_id": "705bb100436195b8190b2c6dd5e78b351b4aacc2c6c488b96fcf8f25223cc70d",
       "public_label": "📰 NEWS",
-      "headline": "This data has helped fight workplace discrimination for 60 years. The Trump administration plans to delete it",
+      "headline": "450 applicants in a matter of seconds: The struggle to find rental flats in Paris",
       "briefing": {
         "opening": [
-          "Enforcing civil rights without these reports will be difficult for the Equal Employment Opportunity Commission, pushing US agency closer to Trump’s agenda, experts warn.",
-          "The US civil rights agency mandated to protect equal rights for workers is set to stop collecting data on the demographic makeup of companies – which for the past six decades has been used to enforce anti-discrimination laws."
+          "September is the time of year when students in France are scrambling for accommodation, and this year, the available units are scarcer than ever.",
+          "A whole series of factors, including tougher regulation of ecologically non-compliant apartments, means there are even fewer on the market."
         ],
-        "body": [
-          "The move marks a fundamental shift for the Equal Employment Opportunity Commission (EEOC).",
-          "Without this data, it will be much harder for the agency to identify widespread cases of discrimination in hiring and promotions, experts and former employees of the commission say.",
-          "And, they warn, it will bring th."
+        "body": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "France"
+          }
         ],
-        "bullets": [],
         "sentences": [
           {
-            "text": "The US civil rights agency mandated to protect equal rights for workers is set to stop collecting data on the demographic makeup of companies – which for the past six decades has been used to enforce anti-discrimination laws.",
-            "source": "The Guardian Business",
-            "item_id": "f64e7f87441bfb67f1b8588989212bbc4e2234c10306efb8298134519b6f2d4f",
+            "text": "A whole series of factors, including tougher regulation of ecologically non-compliant apartments, means there are even fewer on the market.",
+            "source": "France 24",
+            "item_id": "705bb100436195b8190b2c6dd5e78b351b4aacc2c6c488b96fcf8f25223cc70d",
             "composed": false
           },
           {
-            "text": "Without this data, it will be much harder for the agency to identify widespread cases of discrimination in hiring and promotions, experts and former employees of the commission say.",
-            "source": "The Guardian Business",
-            "item_id": "f64e7f87441bfb67f1b8588989212bbc4e2234c10306efb8298134519b6f2d4f",
+            "text": "September is the time of year when students in France are scrambling for accommodation, and this year, the available units are scarcer than ever.",
+            "source": "France 24",
+            "item_id": "705bb100436195b8190b2c6dd5e78b351b4aacc2c6c488b96fcf8f25223cc70d",
             "composed": false
           }
         ],
-        "source": "The Guardian Business",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/02/eeoc-workplace-discrimination-data-trump"
+        "url": "https://www.france24.com/en/video/20260902-450-applicants-in-a-matter-of-seconds-the-struggle-to-find-rental-flats-in-paris"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "a1cc5a8bfec36294f359d6e13bfc02d313d1b3671e06db64a8ea49cb47ffc53c",
+      "title": "Hollywood in retreat as Venice Film Festival kicks off",
+      "url": "https://www.france24.com/en/video/20260902-hollywood-in-retreat-as-venice-film-festival-kicks-off",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "The Venice Film Festival kicks off on Wednesday with the glamorous cinema showcase handing George Clooney a lifetime achievement award on its opening night. But despite the American star’s presence, this year’s festival features a distinct lack of films from Hollywood, reports France 24’s film critic Emma Jones.",
+      "published_at": "2026-09-02T10:05:36+00:00",
+      "updated_at": "2026-09-02T10:05:36+00:00",
+      "effective_at": "2026-09-02T10:05:36+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "culture",
+      "subsector": "culture",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "american",
+        "clooney",
+        "emma",
+        "festival",
+        "film",
+        "france",
+        "george",
+        "hollywood",
+        "jones",
+        "us",
+        "venice"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "7c42e070460d32a8ea6068ee",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "a1cc5a8bfec36294f359d6e13bfc02d313d1b3671e06db64a8ea49cb47ffc53c",
+      "public_label": "📰 NEWS",
+      "headline": "Hollywood in retreat as Venice Film Festival kicks off",
+      "briefing": {
+        "opening": [
+          "The Venice Film Festival kicks off on Wednesday with the glamorous cinema showcase handing George Clooney a lifetime achievement award on its opening night.",
+          "But despite the American star’s presence, this year’s festival features a distinct lack of films from Hollywood, reports France 24’s film critic Emma Jones."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "But despite the American star’s presence, this year’s festival features a distinct lack of films from Hollywood, reports France 24’s film critic Emma Jones.",
+            "source": "France 24",
+            "item_id": "a1cc5a8bfec36294f359d6e13bfc02d313d1b3671e06db64a8ea49cb47ffc53c",
+            "composed": false
+          },
+          {
+            "text": "The Venice Film Festival kicks off on Wednesday with the glamorous cinema showcase handing George Clooney a lifetime achievement award on its opening night.",
+            "source": "France 24",
+            "item_id": "a1cc5a8bfec36294f359d6e13bfc02d313d1b3671e06db64a8ea49cb47ffc53c",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/video/20260902-hollywood-in-retreat-as-venice-film-festival-kicks-off"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "2f5d14f2099e43db88450186a27cbbc711bf43aac724fc570de663944c26ad14",
+      "title": "Will your name be the next UK storm?",
+      "url": "https://www.bbc.co.uk/news/videos/ckgxzyrk7x7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Science",
+      "source_category": "science",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "The storm name list for the next year is out. Will your name be on it?",
+      "published_at": "2026-09-02T10:26:15+00:00",
+      "updated_at": "2026-09-02T10:26:15+00:00",
+      "effective_at": "2026-09-02T10:26:15+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "climate",
+      "subsector": "storms",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "uk"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "1b3929252c34d10b2ebd47c7",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "2f5d14f2099e43db88450186a27cbbc711bf43aac724fc570de663944c26ad14",
+      "public_label": "📰 NEWS",
+      "headline": "Will your name be the next UK storm?",
+      "briefing": {
+        "opening": [
+          "The storm name list for the next year is out.",
+          "Will your name be on it?"
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Will your name be on it?",
+            "source": "BBC Science",
+            "item_id": "2f5d14f2099e43db88450186a27cbbc711bf43aac724fc570de663944c26ad14",
+            "composed": false
+          },
+          {
+            "text": "The storm name list for the next year is out.",
+            "source": "BBC Science",
+            "item_id": "2f5d14f2099e43db88450186a27cbbc711bf43aac724fc570de663944c26ad14",
+            "composed": false
+          }
+        ],
+        "source": "BBC Science",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/videos/ckgxzyrk7x7o?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
       "label": "📰 NEWS"
