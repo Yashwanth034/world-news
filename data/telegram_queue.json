@@ -1,61 +1,70 @@
 {
-  "generated_at": "2026-09-02T19:50:48.713260+00:00",
+  "generated_at": "2026-09-02T20:01:44.114099+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "9dce7e39e0af5dd7428c3cf602ccdd77e1f465f10b6d7ed5036cd002a635b67c",
-      "title": "A jury in Malta acquits a businessman in the killing of reporter Daphne Caruana Galizia",
-      "url": "https://www.npr.org/2026/09/02/nx-s1-5954420/daphne-caruana-galizia-case-yorgen-fenech-acquitted-malta",
-      "source": "NPR World",
+      "id": "cfab30e52243ac3cc6a6b15ee25b87f2ef5ab24bc3df69d6e244063e0675512d",
+      "title": "Trump ‘happy’ Prince Harry and Meghan left US: ‘I was not a fan’",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3366160/trump-happy-prince-harry-and-meghan-left-us-i-was-not-fan?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "North America",
       "discovery": false,
-      "summary": "Investigative journalist Daphne Caruana Galizia had written extensively about suspected corruption in political and business circles in Malta. She was killed by a car bomb in 2017, at age 53.",
-      "published_at": "2026-09-02T19:48:18+00:00",
-      "updated_at": "2026-09-02T19:48:18+00:00",
-      "effective_at": "2026-09-02T19:48:18+00:00",
+      "summary": "US President ⁠Donald Trump said on Wednesday that he was “happy” Prince Harry and his family left the US and relocated back to Britain. “I am happy about it. I was not a fan,” Trump said in the Oval Office when asked about the recent decision ‌by Harry and Meghan, the Duke and Duchess of Sussex, to leave California after six years. The family arrived back in Britain at the end of August. The couple stepped down from official royal duties in 2020 when they moved to the US. “I thought they treated...",
+      "published_at": "2026-09-02T19:50:46+00:00",
+      "updated_at": "2026-09-02T19:50:46+00:00",
+      "effective_at": "2026-09-02T19:50:46+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 65,
+      "score": 73,
       "confidence": "medium",
-      "urgency_terms": [],
+      "urgency_terms": [
+        "coup"
+      ],
       "sector": "geopolitics",
       "subsector": "politics",
-      "subregion": "Europe",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "caruana",
-        "daphne",
-        "galizia",
-        "investigative",
-        "malta"
+        "britain",
+        "california",
+        "donald",
+        "duchess",
+        "duke",
+        "harry",
+        "meghan",
+        "office",
+        "oval",
+        "sussex",
+        "trump",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "e978942d40637a7231fee2bc",
-      "importance_score": 72.0,
-      "importance_level": "HIGH",
+      "event_id": "ede7e2ae8ea4459ea17005d0",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 32,
+        "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 12,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 2017,
+          "dead": 0,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -64,42 +73,53 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 12
+          "geopolitical": 4
         }
       },
-      "story_id": "9dce7e39e0af5dd7428c3cf602ccdd77e1f465f10b6d7ed5036cd002a635b67c",
+      "story_id": "cfab30e52243ac3cc6a6b15ee25b87f2ef5ab24bc3df69d6e244063e0675512d",
       "public_label": "📰 NEWS",
-      "headline": "A jury in Malta acquits a businessman in the killing of reporter Daphne Caruana Galizia",
+      "headline": "Trump ‘happy’ Prince Harry and Meghan left US: ‘I was not a fan’",
       "briefing": {
         "opening": [
-          "Investigative journalist Daphne Caruana Galizia had written extensively about suspected corruption in political and business circles in Malta.",
-          "She was killed by a car bomb in 2017, at age 53."
+          "US President ⁠Donald Trump said on Wednesday that he was “happy” Prince Harry and his family left the US and relocated back to Britain.",
+          "“I am happy about it."
         ],
-        "body": [],
+        "body": [
+          "I was not a fan,” Trump said in the Oval Office when asked about the recent decision ‌by Harry and Meghan, the Duke and Duchess of Sussex, to leave California after six years.",
+          "The family arrived back in Britain at the end of August.",
+          "The couple stepped down from official royal duties in 2020 when they moved to the US.",
+          "“I thought they treated..."
+        ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Malta"
+            "text": "Britain"
           }
         ],
         "sentences": [
           {
-            "text": "She was killed by a car bomb in 2017, at age 53.",
-            "source": "NPR World",
-            "item_id": "9dce7e39e0af5dd7428c3cf602ccdd77e1f465f10b6d7ed5036cd002a635b67c",
+            "text": "Prince Harry and his family left the US and relocated back to Britain.",
+            "source": "South China Morning Post",
+            "item_id": "cfab30e52243ac3cc6a6b15ee25b87f2ef5ab24bc3df69d6e244063e0675512d",
             "composed": false
           },
           {
-            "text": "Investigative journalist Daphne Caruana Galizia had written extensively about suspected corruption in political and business circles in Malta.",
-            "source": "NPR World",
-            "item_id": "9dce7e39e0af5dd7428c3cf602ccdd77e1f465f10b6d7ed5036cd002a635b67c",
+            "text": "The family arrived back in Britain at the end of August.",
+            "source": "South China Morning Post",
+            "item_id": "cfab30e52243ac3cc6a6b15ee25b87f2ef5ab24bc3df69d6e244063e0675512d",
+            "composed": false
+          },
+          {
+            "text": "The couple stepped down from official royal duties in 2020 when they moved to the US.",
+            "source": "South China Morning Post",
+            "item_id": "cfab30e52243ac3cc6a6b15ee25b87f2ef5ab24bc3df69d6e244063e0675512d",
             "composed": false
           }
         ],
-        "source": "NPR World",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.npr.org/2026/09/02/nx-s1-5954420/daphne-caruana-galizia-case-yorgen-fenech-acquitted-malta"
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3366160/trump-happy-prince-harry-and-meghan-left-us-i-was-not-fan?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
