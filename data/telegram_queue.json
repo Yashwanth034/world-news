@@ -1,57 +1,155 @@
 {
-  "generated_at": "2026-09-02T09:01:10.866542+00:00",
-  "count": 1,
+  "generated_at": "2026-09-02T09:10:45.775921+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "0bcaea074c8bad28f4bd6fa66be2d58adfa81763488fa33748f94644ef6ccb32",
-      "title": "Ryanair warns air fares in Europe will jump next year if oil price stays high",
-      "url": "https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high",
-      "source": "The Guardian World",
-      "source_category": "world",
+      "id": "4205dae042939c03df2de9f4000f36122f4521d1879050ddf2d1550603889d5f",
+      "title": "He died in a sweltering house. Why doesn't his death record show it?",
+      "url": "https://www.npr.org/2026/09/02/nx-s1-5887544/heat-deaths-undercount",
+      "source": "NPR Science",
+      "source_category": "science",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "North America",
       "discovery": false,
-      "summary": "Budget carrier says airlines could go bust as it cuts passenger targets to reduce exposure to ‘unhedged winter oil’ Business live – latest updates Ryanair has warned that air fares in Europe will jump next year if the oil price remains high and that some airlines could go bust. The Irish budget carrier has cut its passenger target for the year to 31 March, down from 216 million customers to 214 million, to help reduce its exposure to “unhedged winter oil” during the unprofitable off season, with jet fuel currently trading at $140 (£104) a barrel. Continue reading...",
-      "published_at": "2026-09-02T08:58:04+00:00",
-      "updated_at": "2026-09-02T08:58:04+00:00",
-      "effective_at": "2026-09-02T08:58:04+00:00",
+      "summary": "When Arizona counts heat-related deaths, Adam Willson isn't included. His story shows how thousands of heat deaths can go uncounted every year in the United States.",
+      "published_at": "2026-09-02T09:00:00+00:00",
+      "updated_at": "2026-09-02T09:00:00+00:00",
+      "effective_at": "2026-09-02T09:00:00+00:00",
       "language_status": "ENGLISH",
-      "category": "industry",
-      "score": 65,
+      "category": "world",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "oil_gas",
-      "subregion": "Europe",
+      "sector": "science",
+      "subsector": "science",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "budget",
-        "business",
-        "europe",
-        "irish",
-        "ryanair"
+        "adam",
+        "arizona",
+        "united_states",
+        "willson"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "52ce3a296193806ce2a5d26e",
-      "importance_score": 35.0,
-      "importance_level": "LOW",
+      "event_id": "02d5f252f20f4b749b08765b",
+      "importance_score": 72.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 10,
+        "impact": 32,
+        "urgency": 7.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 4,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 3000,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 12
+        }
+      },
+      "story_id": "4205dae042939c03df2de9f4000f36122f4521d1879050ddf2d1550603889d5f",
+      "public_label": "📰 NEWS",
+      "headline": "He died in a sweltering house. Why doesn't his death record show it?",
+      "briefing": {
+        "opening": [
+          "When Arizona counts heat-related deaths, Adam Willson isn't included.",
+          "His story shows how thousands of heat deaths can go uncounted every year in the United States."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "When Arizona counts heat-related deaths, Adam Willson isn't included.",
+            "source": "NPR Science",
+            "item_id": "4205dae042939c03df2de9f4000f36122f4521d1879050ddf2d1550603889d5f",
+            "composed": false
+          },
+          {
+            "text": "His story shows how thousands of heat deaths can go uncounted every year in the United States.",
+            "source": "NPR Science",
+            "item_id": "4205dae042939c03df2de9f4000f36122f4521d1879050ddf2d1550603889d5f",
+            "composed": false
+          }
+        ],
+        "source": "NPR Science",
+        "corroborating": [],
+        "url": "https://www.npr.org/2026/09/02/nx-s1-5887544/heat-deaths-undercount"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "a0d9ac76e6d98922a72c5e7ceac78ab688d4f3423ad84cd8091c87d3ec123bc3",
+      "title": "Two dead after Monday attack on Saudi oil tanker in Hormuz, says shipping firm",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-dead-after-monday-attack-saudi-oil-tanker-hormuz-says-shipping-firm",
+      "source": "Middle East Eye",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Two dead after Monday attack on Saudi oil tanker in Hormuz, says shipping firm Two Filipino sailors were killed in an attack on an oil tanker in the Strait of Hormuz on Monday, Saudi Arabia's national shipping company Bahri said on Wednesday. \"Bahri confirms that its vessel SIDR was involved in a security incident while transiting the Strait of Hormuz\" on the evening of August 31, the carrier said on X, confirming \"the loss of its two Filipino seafarers as a result\" of the attack. Reporting by AFP",
+      "published_at": "2026-09-02T09:04:20+00:00",
+      "updated_at": "2026-09-02T09:04:20+00:00",
+      "effective_at": "2026-09-02T09:04:20+00:00",
+      "language_status": "ENGLISH",
+      "category": "industry",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "transport",
+      "subsector": "shipping",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "afp",
+        "bahri",
+        "filipino",
+        "hormuz",
+        "saudi_arabia",
+        "sidr",
+        "strait",
+        "two"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 93,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "76671400326268e18d6b72dd",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -64,42 +162,143 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 4
+          "human": 4,
+          "security": 4
         }
       },
-      "story_id": "0bcaea074c8bad28f4bd6fa66be2d58adfa81763488fa33748f94644ef6ccb32",
+      "story_id": "a0d9ac76e6d98922a72c5e7ceac78ab688d4f3423ad84cd8091c87d3ec123bc3",
       "public_label": "📰 NEWS",
-      "headline": "Ryanair warns air fares in Europe will jump next year if oil price stays high",
+      "headline": "Two dead after Monday attack on Saudi oil tanker in Hormuz, says shipping firm",
       "briefing": {
         "opening": [
-          "Budget carrier says airlines could go bust as it cuts passenger targets to reduce exposure to ‘unhedged winter oil’ Business live – latest updates Ryanair has warned that air fares in Europe will jump next year if the oil price remains high and that some airlines could go bust.",
-          "The Irish budget carrier has cut its passenger target for the year to 31 March, down from 216 million customers to 214 million, to help reduce its exposure to “unhedged winter oil” during the unprofitable off season, with jet fuel currently trading at $140 (£104) a barrel."
+          "Two Filipino sailors were killed in an attack on an oil tanker in the Strait of Hormuz on Monday, Saudi Arabia's national shipping company Bahri said on Wednesday.",
+          "\"Bahri confirms that its vessel SIDR was involved in a security incident while transiting the Strait of Hormuz\" on the evening of August 31, the carrier said on X, confirming \"the loss of its two Filipino seafarers as a result\" of the attack."
         ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Europe"
-          }
+        "body": [
+          "Reporting by AFP."
         ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "The Irish budget carrier has cut its passenger target for the year to 31 March, down from 216 million customers to 214 million, to help reduce its exposure to “unhedged winter oil” during the unprofitable off season, with jet fuel currently trading at $140 (£104) a barrel.",
-            "source": "The Guardian World",
-            "item_id": "0bcaea074c8bad28f4bd6fa66be2d58adfa81763488fa33748f94644ef6ccb32",
+            "text": "\"Bahri confirms that its vessel SIDR was involved in a security incident while transiting the Strait of Hormuz\" on the evening of August 31, the carrier said on X, confirming \"the loss of its two Filipino seafarers as a result\" of the attack.",
+            "source": "Middle East Eye",
+            "item_id": "a0d9ac76e6d98922a72c5e7ceac78ab688d4f3423ad84cd8091c87d3ec123bc3",
             "composed": false
           },
           {
-            "text": "Ryanair has warned that air fares in Europe will jump next year if the oil price remains high and that some airlines could go bust.",
-            "source": "The Guardian World",
-            "item_id": "0bcaea074c8bad28f4bd6fa66be2d58adfa81763488fa33748f94644ef6ccb32",
+            "text": "Bahri said on Wednesday.",
+            "source": "Middle East Eye",
+            "item_id": "a0d9ac76e6d98922a72c5e7ceac78ab688d4f3423ad84cd8091c87d3ec123bc3",
             "composed": false
           }
         ],
-        "source": "The Guardian World",
+        "source": "Middle East Eye",
         "corroborating": [],
-        "url": "https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high"
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-dead-after-monday-attack-saudi-oil-tanker-hormuz-says-shipping-firm"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "9f69bd1e7d6684ee4ab67c1ecea0b174bd37d1190a075a88ba0c3849f6695e2c",
+      "title": "US universities curb international student internships following federal warning",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3366105/us-universities-curb-international-student-internships-following-federal-warning?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "International students in the United States are facing new hurdles when it comes to internships and off-campus work after several major universities paused or restricted certain forms of Curricular Practical Training (CPT). CPT is a form of work authorisation that allows foreign students to take part in internships and other practical training related to their studies. The changes follow two August directives from the Student and Exchange Visitor Programme (SEVP), a division of US Immigration...",
+      "published_at": "2026-09-02T09:03:37+00:00",
+      "updated_at": "2026-09-02T09:03:37+00:00",
+      "effective_at": "2026-09-02T09:03:37+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "education",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "cpt",
+        "curricular",
+        "exchange",
+        "immigration",
+        "international",
+        "practical",
+        "programme",
+        "sevp",
+        "student",
+        "training",
+        "united_states",
+        "us",
+        "visitor"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "c115f4ebcb5c7a3da953ce67",
+      "importance_score": 30.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 9.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "9f69bd1e7d6684ee4ab67c1ecea0b174bd37d1190a075a88ba0c3849f6695e2c",
+      "public_label": "📰 NEWS",
+      "headline": "US universities curb international student internships following federal warning",
+      "briefing": {
+        "opening": [
+          "International students in the United States are facing new hurdles when it comes to internships and off-campus work after several major universities paused or restricted certain forms of Curricular Practical Training (CPT).",
+          "CPT is a form of work authorisation that allows foreign students to take part in internships and other practical training related to their studies."
+        ],
+        "body": [
+          "The changes follow two August directives from the Student and Exchange Visitor Programme (SEVP), a division of US Immigration..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "International students in the United States are facing new hurdles when it comes to internships and off-campus work after several major universities paused or restricted certain forms of Curricular Practical Training (CPT).",
+            "source": "South China Morning Post",
+            "item_id": "9f69bd1e7d6684ee4ab67c1ecea0b174bd37d1190a075a88ba0c3849f6695e2c",
+            "composed": false
+          },
+          {
+            "text": "CPT is a form of work authorisation that allows foreign students to take part in internships and other practical training related to their studies.",
+            "source": "South China Morning Post",
+            "item_id": "9f69bd1e7d6684ee4ab67c1ecea0b174bd37d1190a075a88ba0c3849f6695e2c",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3366105/us-universities-curb-international-student-internships-following-federal-warning?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
