@@ -1,41 +1,141 @@
 {
-  "generated_at": "2026-09-02T05:04:57.960336+00:00",
-  "count": 4,
+  "generated_at": "2026-09-02T05:10:46.064785+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "3c722a3c5ce5023fbf5efc6497ee9c8f7c1dd7de7d8bfe19386fcf0fdf9f6444",
-      "title": "Israeli air strikes reported in south Lebanon",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-reported-south-lebanon",
-      "source": "Middle East Eye",
+      "id": "c89ab7db08c92a9392684f66f8ef0761761d4db4066cc0f4d15a8b8b608f831f",
+      "title": "British man deported from Sweden despite living there since childhood",
+      "url": "https://www.theguardian.com/world/2026/sep/02/british-man-deported-from-sweden-despite-living-there-since-childhood",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "Israeli air strikes reported in south Lebanon Two Israeli air strikes targeted the vicinity of the southern Lebanese towns of Kfar Rumman and Arab Salim in southern Lebanon, Al Jazeera reported.&nbsp; A short while before, the Israeli army announced carrying out interceptions at&nbsp;&nbsp;a \"suspicious aerial target\".",
-      "published_at": "2026-09-02T04:59:57+00:00",
-      "updated_at": "2026-09-02T04:59:57+00:00",
-      "effective_at": "2026-09-02T04:59:57+00:00",
+      "summary": "John Sellers, 34, who moved with his family to Sweden aged 10, has been ejected despite his recent marriage to a Swede A 34-year-old British man who has lived in Sweden since he was 10 has been deported in the latest of a series of Brexit-induced catastrophes for UK citizens in the country. John Sellers was told to leave despite living in Sweden for 24 years, having been educated in the country and newly married to his Swedish partner, Caroline. Continue reading...",
+      "published_at": "2026-09-02T05:00:24+00:00",
+      "updated_at": "2026-09-02T05:00:24+00:00",
+      "effective_at": "2026-09-02T05:00:24+00:00",
+      "language_status": "ENGLISH",
+      "category": "health",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "public_health",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "brexit-induced",
+        "caroline",
+        "john",
+        "sellers",
+        "swede",
+        "sweden",
+        "swedish",
+        "uk"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "6d85070f52f965bb4b2b00d5",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 8,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {}
+      },
+      "story_id": "c89ab7db08c92a9392684f66f8ef0761761d4db4066cc0f4d15a8b8b608f831f",
+      "public_label": "📰 NEWS",
+      "headline": "British man deported from Sweden despite living there since childhood",
+      "briefing": {
+        "opening": [
+          "John Sellers, 34, who moved with his family to Sweden aged 10, has been ejected despite his recent marriage to a Swede.",
+          "A 34-year-old British man who has lived in Sweden since he was 10 has been deported in the latest of a series of Brexit-induced catastrophes for UK citizens in the country."
+        ],
+        "body": [
+          "John Sellers was told to leave despite living in Sweden for 24 years, having been educated in the country and newly married to his Swedish partner, Caroline."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Sweden"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A 34-year-old British man who has lived in Sweden since he was 10 has been deported in the latest of a series of Brexit-induced catastrophes for UK citizens in the country.",
+            "source": "The Guardian World",
+            "item_id": "c89ab7db08c92a9392684f66f8ef0761761d4db4066cc0f4d15a8b8b608f831f",
+            "composed": false
+          },
+          {
+            "text": "John Sellers was told to leave despite living in Sweden for 24 years, having been educated in the country and newly married to his Swedish partner, Caroline.",
+            "source": "The Guardian World",
+            "item_id": "c89ab7db08c92a9392684f66f8ef0761761d4db4066cc0f4d15a8b8b608f831f",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian World",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/world/2026/sep/02/british-man-deported-from-sweden-despite-living-there-since-childhood"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "e84f0c5dfc23b48788b62eca4b584e498b362fe30fb9e45c25cabb4d027b2bed",
+      "title": "Jury in Bruce Lehrmann’s Queensland rape trial may face questions about prior knowledge of case",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/02/bruce-lehrmann-queensland-rape-trial-jury-prior-knowledge-ntwnfb",
+      "source": "The Guardian World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Oceania",
+      "discovery": false,
+      "summary": "Lehrmann, 31, is accused of raping a woman in 2021 and will stand trial in Toowoomba in November. He intends to contest the charges Jurors in the pending trial of Bruce Lehrmann for alleged rape could be questioned about their prior knowledge of him and the case. Lehrmann, 31, is set to stand trial from November 2, accused of twice raping a woman at a house in regional Queensland in 2021. Continue reading...",
+      "published_at": "2026-09-02T05:02:08+00:00",
+      "updated_at": "2026-09-02T05:02:08+00:00",
+      "effective_at": "2026-09-02T05:02:08+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "law",
-      "subsector": "labor",
-      "subregion": "West Asia / Middle East",
+      "subsector": "courts",
+      "subregion": "Australia",
       "country": null,
       "entities": [
-        "al",
-        "arab",
-        "israel",
-        "jazeera",
-        "kfar",
-        "lebanese",
-        "lebanon",
-        "rumman",
-        "salim",
-        "two"
+        "bruce",
+        "jurors",
+        "lehrmann",
+        "queensland",
+        "toowoomba"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -45,406 +145,7 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "326c646b74748b933713f426",
-      "importance_score": 36.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "security": 8
-        }
-      },
-      "story_id": "3c722a3c5ce5023fbf5efc6497ee9c8f7c1dd7de7d8bfe19386fcf0fdf9f6444",
-      "article_sentences": [
-        "Two Israeli air strikes targeted the vicinity of the southern Lebanese towns of Kfar Rumman and Arab Salim in southern Lebanon, Al Jazeera reported.",
-        "A short while before, the Israeli army announced carrying out interceptions at a \"suspicious aerial target\"."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Israeli air strikes reported in south Lebanon",
-      "briefing": {
-        "opening": [
-          "Two Israeli air strikes targeted the vicinity of the southern Lebanese towns of Kfar Rumman and Arab Salim in southern Lebanon, Al Jazeera reported.",
-          "A short while before, the Israeli army announced carrying out interceptions at a \"suspicious aerial target\"."
-        ],
-        "body": [
-          "Two Israeli air strikes targeted the vicinity of the southern Lebanese towns of Kfar Rumman and Arab Salim in southern Lebanon, Al Jazeera reported. A short while before, the Israeli army announced carrying out interceptions at a \"suspicious aerial target\"."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "A short while before, the Israeli army announced carrying out interceptions at a \"suspicious aerial target\".",
-            "source": "Middle East Eye",
-            "item_id": "3c722a3c5ce5023fbf5efc6497ee9c8f7c1dd7de7d8bfe19386fcf0fdf9f6444:article",
-            "composed": false
-          },
-          {
-            "text": "Two Israeli air strikes targeted the vicinity of the southern Lebanese towns of Kfar Rumman and Arab Salim in southern Lebanon, Al Jazeera reported. A short while before, the Israeli army announced carrying out interceptions at a \"suspicious aerial target\".",
-            "source": "Middle East Eye",
-            "item_id": "3c722a3c5ce5023fbf5efc6497ee9c8f7c1dd7de7d8bfe19386fcf0fdf9f6444",
-            "composed": false
-          }
-        ],
-        "source": "Middle East Eye",
-        "corroborating": [],
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-reported-south-lebanon"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "474a2c4049f9dc65916347fa3f76c75c5238982ddb035ee4cc184fcdf83bc046",
-      "title": "Mohe-Nayba international transport corridor to be built in Russian Far East",
-      "url": "https://tass.com/economy/2181007",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "The project includes the creation of a combined international border crossing with China, the construction of the deepwater port of Nayba, a new railway line of around 1,300 km from Nizhny Bestyakh to Nayba with access to the port",
-      "published_at": "2026-09-02T04:58:52+00:00",
-      "updated_at": "2026-09-02T04:58:52+00:00",
-      "effective_at": "2026-09-02T04:58:52+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "shipping",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "bestyakh",
-        "china",
-        "east",
-        "far",
-        "nayba",
-        "nizhny",
-        "russia"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "e62f0cda34d022396012cef6",
-      "importance_score": 36.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "infrastructure": 4,
-          "geopolitical": 4
-        }
-      },
-      "story_id": "474a2c4049f9dc65916347fa3f76c75c5238982ddb035ee4cc184fcdf83bc046",
-      "article_sentences": [
-        "VLADIVOSTOK, September 2.",
-        "The Mohe-Nayba international transport corridor will be built in the Russian Far East, providing the shortest route between China's northeastern provinces and the Arctic coast, a TASS correspondent reported.",
-        "The relevant agreement was signed at the Eastern Economic Forum.",
-        "\"The Mohe-Nayba international transport corridor is a project capable of fundamentally reshaping the transport geography of northeastern Russia.",
-        "The new corridor will connect the largest markets in the Asia-Pacific region with Yakutia, the Magadan Region and the Transarctic Transport Corridor.",
-        "The project involves the construction of more than 2,900 km of new railway infrastructure, a deepwater port and a new border crossing with China.",
-        "This will provide the infrastructure needed to develop mineral deposits, launch new production facilities, expand the freight base and bring products from the Russian Far East to international markets,\" Nikolay Zapryagaev, CEO of the Far East and Arctic Development Corporation, said.",
-        "The project includes the creation of a combined international border crossing with China, the construction of the deepwater port of Nayba, a new railway line of around 1,300 km from Nizhny Bestyakh to Nayba with access to the port, as well as a roughly 1,670-km railway line to Magadan.",
-        "The Mohe-Nayba corridor is expected to handle around 2 mln metric tons of freight per year, Head of Yakutia Aysen Nikolayev noted.",
-        "The Eastern Economic Forum is being held on September 1-4 in Vladivostok on the campus of Far Eastern Federal University.",
-        "The forum is organized by the Roscongress Foundation with the support of the Russian government.",
-        "TASS is the general information partner."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Mohe-Nayba international transport corridor to be built in Russian Far East",
-      "briefing": {
-        "opening": [
-          "VLADIVOSTOK, September 2.",
-          "The Mohe-Nayba international transport corridor will be built in the Russian Far East, providing the shortest route between China's northeastern provinces and the Arctic coast, a TASS correspondent reported."
-        ],
-        "body": [
-          "The relevant agreement was signed at the Eastern Economic Forum.",
-          "\"The Mohe-Nayba international transport corridor is a project capable of fundamentally reshaping the transport geography of northeastern Russia.",
-          "The new corridor will connect the largest markets in the Asia-Pacific region with Yakutia, the Magadan Region and the Transarctic Transport Corridor.",
-          "The project involves the construction of more than 2,900 km of new railway infrastructure, a deepwater port and a new border crossing with China.",
-          "This will provide the infrastructure needed to develop mineral deposits, launch new production facilities, expand the freight base and bring products from the Russian Far East to international markets,\" Nikolay Zapryagaev, CEO of the Far East and Arctic Development Corporation, said.",
-          "The Eastern Economic Forum is being held on September 1-4 in Vladivostok on the campus of Far Eastern Federal University.",
-          "The forum is organized by the Roscongress Foundation with the support of the Russian government."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Vladivostok"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "The Mohe-Nayba corridor is expected to handle around 2 mln metric tons of freight per year, Head of Yakutia Aysen Nikolayev noted."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The Eastern Economic Forum is being held on September 1-4 in Vladivostok on the campus of Far Eastern Federal University.",
-            "source": "TASS English",
-            "item_id": "474a2c4049f9dc65916347fa3f76c75c5238982ddb035ee4cc184fcdf83bc046:article",
-            "composed": false
-          },
-          {
-            "text": "The Mohe-Nayba corridor is expected to handle around 2 mln metric tons of freight per year, Head of Yakutia Aysen Nikolayev noted.",
-            "source": "TASS English",
-            "item_id": "474a2c4049f9dc65916347fa3f76c75c5238982ddb035ee4cc184fcdf83bc046:article",
-            "composed": false
-          },
-          {
-            "text": "The project involves the construction of more than 2,900 km of new railway infrastructure, a deepwater port and a new border crossing with China.",
-            "source": "TASS English",
-            "item_id": "474a2c4049f9dc65916347fa3f76c75c5238982ddb035ee4cc184fcdf83bc046:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/economy/2181007"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "5d837ee0a7062be6d08f4bfed6d8786b53bb6d3da0ce5b7a4f7c09ba26a58ede",
-      "title": "Indonesian president arrives in Vladivostok for EEF, meeting with Putin",
-      "url": "https://tass.com/economy/2181009",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "According to Russian Presidential Aide Yury Ushakov, Indonesia is one of Russia's key, time-tested partners in the Asia-Pacific region and an influential member of the Association of Southeast Asian Nations",
-      "published_at": "2026-09-02T05:01:15+00:00",
-      "updated_at": "2026-09-02T05:01:15+00:00",
-      "effective_at": "2026-09-02T05:01:15+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
-      "subregion": "Southeast Asia",
-      "country": null,
-      "entities": [
-        "according",
-        "aide",
-        "asia-pacific",
-        "asian",
-        "association",
-        "eef",
-        "indonesia",
-        "nations",
-        "presidential",
-        "putin",
-        "russia",
-        "southeast",
-        "ushakov",
-        "vladivostok",
-        "yury"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "1729e32e59f5303bc54f6a02",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "geopolitical": 4
-        }
-      },
-      "story_id": "5d837ee0a7062be6d08f4bfed6d8786b53bb6d3da0ce5b7a4f7c09ba26a58ede",
-      "article_sentences": [
-        "TOKYO, September 2.",
-        "Indonesian President Prabowo Subianto has arrived in Vladivostok to attend the Eastern Economic Forum (EEF) and meet with his Russian counterpart Vladimir Putin, according to photos published by the Indonesian president's administration.",
-        "Prabowo Subianto's second visit to Russia this year will include what will be the sixth meeting between the two leaders.",
-        "According to Russian Presidential Aide Yury Ushakov, Indonesia is one of Russia's key, time-tested partners in the Asia-Pacific region, an influential member of the Association of Southeast Asian Nations (ASEAN), and a prominent representative of the Global South and the Muslim world.",
-        "Prabowo Subianto's administration also noted that his invitation to the EEF reflects the close relationship between Indonesia and Russia, which continues to develop and strengthen through direct dialogue between the leaders of the two countries.",
-        "The Eastern Economic Forum is being held on September 1-4 in Vladivostok on the campus of Far Eastern Federal University.",
-        "The forum is organized by the Roscongress Foundation with the support of the Russian government.",
-        "TASS is the general information partner."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Indonesian president arrives in Vladivostok for EEF, meeting with Putin",
-      "briefing": {
-        "opening": [
-          "TOKYO, September 2.",
-          "Indonesian President Prabowo Subianto has arrived in Vladivostok to attend the Eastern Economic Forum (EEF) and meet with his Russian counterpart Vladimir Putin, according to photos published by the Indonesian president's administration."
-        ],
-        "body": [
-          "Prabowo Subianto's second visit to Russia this year will include what will be the sixth meeting between the two leaders.",
-          "According to Russian Presidential Aide Yury Ushakov, Indonesia is one of Russia's key, time-tested partners in the Asia-Pacific region, an influential member of the Association of Southeast Asian Nations (ASEAN), and a prominent representative of the Global South and the Muslim world.",
-          "The Eastern Economic Forum is being held on September 1-4 in Vladivostok on the campus of Far Eastern Federal University.",
-          "The forum is organized by the Roscongress Foundation with the support of the Russian government.",
-          "TASS is the general information partner.",
-          "According to Russian Presidential Aide Yury Ushakov, Indonesia is one of Russia's key, time-tested partners in the Asia-Pacific region and an influential member of the Association of Southeast Asian Nations."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Vladivostok"
-          },
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "continues to"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "Prabowo Subianto's administration also noted that his invitation to the EEF reflects the close relationship between Indonesia and Russia, which continues to develop and strengthen through direct dialogue between the leaders of the two countries."
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Prabowo Subianto's administration also noted that his invitation to the EEF reflects the close relationship between Indonesia and Russia, which continues to develop and strengthen through direct dialogue between the leaders of the two countries.",
-            "source": "TASS English",
-            "item_id": "5d837ee0a7062be6d08f4bfed6d8786b53bb6d3da0ce5b7a4f7c09ba26a58ede:article",
-            "composed": false
-          },
-          {
-            "text": "The Eastern Economic Forum is being held on September 1-4 in Vladivostok on the campus of Far Eastern Federal University.",
-            "source": "TASS English",
-            "item_id": "5d837ee0a7062be6d08f4bfed6d8786b53bb6d3da0ce5b7a4f7c09ba26a58ede:article",
-            "composed": false
-          },
-          {
-            "text": "TOKYO, September 2.",
-            "source": "TASS English",
-            "item_id": "5d837ee0a7062be6d08f4bfed6d8786b53bb6d3da0ce5b7a4f7c09ba26a58ede:article",
-            "composed": false
-          },
-          {
-            "text": "Indonesian President Prabowo Subianto has arrived in Vladivostok to attend the Eastern Economic Forum (EEF) and meet with his Russian counterpart Vladimir Putin, according to photos published by the Indonesian president's administration.",
-            "source": "TASS English",
-            "item_id": "5d837ee0a7062be6d08f4bfed6d8786b53bb6d3da0ce5b7a4f7c09ba26a58ede:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/economy/2181009"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "3c0ebee190ad1b6dc1429736bf1b6b4a96cf1cc8ebedd76c2e8756e8bb4aea76",
-      "title": "Malaysian heritage site caught in row over non-local staff",
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3366059/malaysian-heritage-site-caught-row-over-non-local-staff?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Images of a migrant worker apparently guiding visitors around one of Kuala Lumpur’s best-known heritage sites have triggered a backlash in Malaysia, with critics asking why locals were not hired instead. The row erupted after photos and video circulated online showed visitors being shown around the Sultan Abdul Samad Building, a colonial-era landmark that has overlooked the capital’s Independence Square since the 19th century. Sharp-eyed viewers noticed that among the staff in KL City Gallery...",
-      "published_at": "2026-09-02T05:03:58+00:00",
-      "updated_at": "2026-09-02T05:03:58+00:00",
-      "effective_at": "2026-09-02T05:03:58+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "culture",
-      "subsector": "culture",
-      "subregion": "Southeast Asia",
-      "country": null,
-      "entities": [
-        "abdul",
-        "building",
-        "city",
-        "gallery",
-        "images",
-        "independence",
-        "kl",
-        "kuala",
-        "lumpur",
-        "malaysia",
-        "samad",
-        "square",
-        "sultan"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "24d896dc3c25ecfb6a4a301f",
+      "event_id": "4734a0c7c85df84cdf413661",
       "importance_score": 29.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -469,41 +170,47 @@
         },
         "significance_dims": {}
       },
-      "story_id": "3c0ebee190ad1b6dc1429736bf1b6b4a96cf1cc8ebedd76c2e8756e8bb4aea76",
+      "story_id": "e84f0c5dfc23b48788b62eca4b584e498b362fe30fb9e45c25cabb4d027b2bed",
       "public_label": "📰 NEWS",
-      "headline": "Malaysian heritage site caught in row over non-local staff",
+      "headline": "Jury in Bruce Lehrmann’s Queensland rape trial may face questions about prior knowledge of case",
       "briefing": {
         "opening": [
-          "Images of a migrant worker apparently guiding visitors around one of Kuala Lumpur’s best-known heritage sites have triggered a backlash in Malaysia, with critics asking why locals were not hired instead.",
-          "The row erupted after photos and video circulated online showed visitors being shown around the Sultan Abdul Samad Building, a colonial-era landmark that has overlooked the capital’s Independence Square since the 19th century."
+          "Lehrmann, 31, is accused of raping a woman in 2021 and will stand trial in Toowoomba in November.",
+          "He intends to contest the charges Jurors in the pending trial of Bruce Lehrmann for alleged rape could be questioned about their prior knowledge of him and the case."
         ],
         "body": [
-          "Sharp-eyed viewers noticed that among the staff in KL City Gallery..."
+          "Lehrmann, 31, is set to stand trial from November 2, accused of twice raping a woman at a house in regional Queensland in 2021."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Malaysia"
+            "text": "Toowoomba"
           }
         ],
         "sentences": [
           {
-            "text": "The row erupted after photos and video circulated online showed visitors being shown around the Sultan Abdul Samad Building, a colonial-era landmark that has overlooked the capital’s Independence Square since the 19th century.",
-            "source": "South China Morning Post",
-            "item_id": "3c0ebee190ad1b6dc1429736bf1b6b4a96cf1cc8ebedd76c2e8756e8bb4aea76",
+            "text": "He intends to contest the charges Jurors in the pending trial of Bruce Lehrmann for alleged rape could be questioned about their prior knowledge of him and the case.",
+            "source": "The Guardian World",
+            "item_id": "e84f0c5dfc23b48788b62eca4b584e498b362fe30fb9e45c25cabb4d027b2bed",
             "composed": false
           },
           {
-            "text": "Images of a migrant worker apparently guiding visitors around one of Kuala Lumpur’s best-known heritage sites have triggered a backlash in Malaysia, with critics asking why locals were not hired instead.",
-            "source": "South China Morning Post",
-            "item_id": "3c0ebee190ad1b6dc1429736bf1b6b4a96cf1cc8ebedd76c2e8756e8bb4aea76",
+            "text": "Lehrmann, 31, is accused of raping a woman in 2021 and will stand trial in Toowoomba in November.",
+            "source": "The Guardian World",
+            "item_id": "e84f0c5dfc23b48788b62eca4b584e498b362fe30fb9e45c25cabb4d027b2bed",
+            "composed": false
+          },
+          {
+            "text": "Lehrmann, 31, is set to stand trial from November 2, accused of twice raping a woman at a house in regional Queensland in 2021.",
+            "source": "The Guardian World",
+            "item_id": "e84f0c5dfc23b48788b62eca4b584e498b362fe30fb9e45c25cabb4d027b2bed",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "The Guardian World",
         "corroborating": [],
-        "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3366059/malaysian-heritage-site-caught-row-over-non-local-staff?utm_source=rss_feed"
+        "url": "https://www.theguardian.com/australia-news/2026/sep/02/bruce-lehrmann-queensland-rape-trial-jury-prior-knowledge-ntwnfb"
       },
       "group_size": 1,
       "label": "📰 NEWS"
