@@ -1,65 +1,153 @@
 {
-  "generated_at": "2026-09-02T07:01:15.600304+00:00",
-  "count": 1,
+  "generated_at": "2026-09-02T07:10:47.873994+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "00daee4412d063332ee2d1e1ba60adc6881e49e91e740a814b92469efbf90ea4",
-      "title": "(LEAD) Seoul shares tumble 4 pct on renewed U.S.-Iran tensions; won strengthens",
-      "url": "https://en.yna.co.kr/view/AEN20260902006851320",
-      "source": "Yonhap English",
+      "id": "4a139acb4243fcbf957f9f55f625257d3d1a7cf73b4f07bbfafefdf62df4cf00",
+      "title": "Response to US attacks will be 'extensive and widespread', Iranian army warns",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/response-us-attacks-will-be-extensive-and-widespread-iranian-army-warns",
+      "source": "Middle East Eye",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "Response to US attacks will be 'extensive and widespread', Iranian army warns The Iranian army announced in a statement claimed attacks on radar systems,&nbsp;operational centers and areas sheltering US forces in&nbsp;Bahrain and the UAE. In the statement it said that Washington's targeting of a&nbsp;residential areas and a wedding in Iran is a \"clear example of a war crime and reveals the vile nature of 'American human rights'.\" \"The army's response to these crimes will certainly be extensive and widespread.\"",
+      "published_at": "2026-09-02T07:05:03+00:00",
+      "updated_at": "2026-09-02T07:05:03+00:00",
+      "effective_at": "2026-09-02T07:05:03+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "american",
+        "bahrain",
+        "iran",
+        "response",
+        "uae",
+        "us"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "c3f3a83e07e97702a8db4de9",
+      "importance_score": 50.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 9.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 20,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8,
+          "human": 4
+        }
+      },
+      "story_id": "4a139acb4243fcbf957f9f55f625257d3d1a7cf73b4f07bbfafefdf62df4cf00",
+      "public_label": "📰 NEWS",
+      "headline": "Response to US attacks will be 'extensive and widespread', Iranian army warns",
+      "briefing": {
+        "opening": [
+          "The Iranian army announced in a statement claimed attacks on radar systems, operational centers and areas sheltering US forces in Bahrain and the UAE.",
+          "In the statement it said that Washington's targeting of a residential areas and a wedding in Iran is a \"clear example of a war crime and reveals the vile nature of 'American human rights'.\" \"The army's response to these crimes will certainly be extensive and widespread.\""
+        ],
+        "body": [
+          "The Iranian army said that dozens of drones carried out strikes on radar systems and US troop deployment sites."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Bahrain"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "\"The army's response to these crimes will certainly be extensive and widespread.\"",
+            "source": "Middle East Eye",
+            "item_id": "4a139acb4243fcbf957f9f55f625257d3d1a7cf73b4f07bbfafefdf62df4cf00",
+            "composed": false
+          },
+          {
+            "text": "In the statement it said that Washington's targeting of a residential areas and a wedding in Iran is a \"clear example of a war crime and reveals the vile nature of 'American human rights'.\"",
+            "source": "Middle East Eye",
+            "item_id": "4a139acb4243fcbf957f9f55f625257d3d1a7cf73b4f07bbfafefdf62df4cf00",
+            "composed": false
+          }
+        ],
+        "source": "Middle East Eye",
+        "corroborating": [
+          "TASS English"
+        ],
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/response-us-attacks-will-be-extensive-and-widespread-iranian-army-warns"
+      },
+      "group_size": 2,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "91ba998f963d880293c15ff795bee1974ea83179f29eb031712afe837db435c6",
+      "title": "Turkiye launches search for cargo ship after vessels collide off Istanbul",
+      "url": "https://www.aljazeera.com/news/2026/9/2/turkiye-launches-search-for-cargo-ship-after-vessels-collide-off-istanbul?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "South Korean stocks tumbled 4 percent Wednesday as renewed hostility between the United States and Iran pushed up crude prices and fueled inflation worries. The Korean won rose against the U.S. dollar. The benchmark Korea Composite Stock Price Index (KOSPI) closed at 6,562.72, down 273.08 points, or 3.99 percent, ending a two-session winning streak. Overnight, the U.S. launched a new round of airstrikes against Iranian targets around the Strait of Hormuz, driving oil prices higher and fanning inflation worries again. With higher odds of a rate hike at the Federal Reserve's meeting later this month, all three major U.S. stock indexes finished lower, and the benchmark 10-year U.S. Treasury yield rose to the highest point since January last year. Trade volume was light at 321.2 million shares worth 18.6 trillion won (US$13.6 billion), with losers far outnumbering winners 734 to 137. Foreign and institutional investors dumped a net 1.9 trillion won and 2 trillion won of shares, respectively, while individuals bought a net 2.3 trillion won. \"The KOSPI went bearish as investor sentiment was dragged down by rising oil prices and sovereign debt yields in major economies,\" said Lee Kyung-min, an analyst from Daishin Securities. Market bellwether Samsung Electronics fell 4.02 percent to 250,500 won, and SK hynix tumbled 4.73 percent to 1.61 million won. Top carmaker Hyundai Motor sank 5.62 percent to 378,000 won, and its sister Kia slumped 5.18 percent to 124,400 won. Battery makers were also weak as industry leader LG Energy Solution decreased 5.31 percent to 347,500 won and POSCO Future M plunged 8 percent to 176,000 won. Internet giant Naver skidded 2.79 percent to 209,000 won, and its rival Kakao dipped 3.84 percent to 35,100 won.",
-      "published_at": "2026-09-02T06:53:28+00:00",
-      "updated_at": "2026-09-02T06:53:28+00:00",
-      "effective_at": "2026-09-02T06:53:28+00:00",
+      "summary": "Search and rescue operations under way as authorities lose contact with 10 crew members after a vessel collision near Istanbul. Turkiye’s coastguard has launched a search and rescue operation after two Turkish-flagged commercial vessels collided off Istanbul and contact was lost with one vessel and its crew of 10. The collision took place at 3am (00:00 GMT) in the Marmara Sea a little more than 20 miles (32 kilometres) south of Silivri, a suburb of Turkey’s largest city, the Istanbul governor’s office said in a statement on Wednesday. Contact was lost with the crew of the Tugberk Imamoglu, flagged to Turkey, after the collision with the Turkish-flagged Alsu, which appeared undamaged, the governor’s office said. “Numerous naval units from the coast guard’s Marmara and Bosphorus Command and a coast guard helicopter were dispatched to the scene,” the office said.",
+      "published_at": "2026-09-02T06:58:13+00:00",
+      "updated_at": "2026-09-02T06:58:13+00:00",
+      "effective_at": "2026-09-02T06:58:13+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "economy",
-      "subsector": "markets",
-      "subregion": "East Asia",
+      "sector": "transport",
+      "subsector": "shipping",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "composite",
-        "daishin",
-        "electronics",
-        "energy",
-        "federal",
-        "future",
-        "hormuz",
-        "hyundai",
-        "index",
-        "iran",
-        "kakao",
-        "kia",
-        "korean",
-        "kospi",
-        "kyung-min",
-        "lead",
-        "lee",
-        "lg",
-        "motor",
-        "naver",
-        "posco",
-        "price",
-        "reserve",
-        "samsung",
-        "securities",
-        "seoul",
-        "sk",
-        "solution",
-        "south_korea",
-        "stock",
-        "strait",
-        "treasury",
-        "united_states",
-        "us"
+        "alsu",
+        "bosphorus",
+        "command",
+        "gmt",
+        "imamoglu",
+        "istanbul",
+        "marmara",
+        "sea",
+        "search",
+        "silivri",
+        "tugberk",
+        "turkey",
+        "turkish-flagged"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -69,27 +157,20 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "South Korean stocks tumbled 4 percent Wednesday as renewed hostility between the United States and Iran pushed up crude prices and fueled inflation worries.",
-        "The Korean won rose against the U.S. dollar.",
-        "The benchmark Korea Composite Stock Price Index (KOSPI) closed at 6,562.72, down 273.08 points, or 3.99 percent, ending a two-session winning streak.",
-        "Overnight, the U.S. launched a new round of airstrikes against Iranian targets around the Strait of Hormuz, driving oil prices higher and fanning inflation worries again.",
-        "With higher odds of a rate hike at the Federal Reserve's meeting later this month, all three major U.S. stock indexes finished lower, and the benchmark 10-year U.S. Treasury yield rose to the highest point since January last year.",
-        "Trade volume was light at 321.2 million shares worth 18.6 trillion won (US$13.6 billion), with losers far outnumbering winners 734 to 137.",
-        "Foreign and institutional investors dumped a net 1.9 trillion won and 2 trillion won of shares, respectively, while individuals bought a net 2.3 trillion won.",
-        "\"The KOSPI went bearish as investor sentiment was dragged down by rising oil prices and sovereign debt yields in major economies,\" said Lee Kyung-min, an analyst from Daishin Securities.",
-        "Market bellwether Samsung Electronics fell 4.02 percent to 250,500 won, and SK hynix tumbled 4.73 percent to 1.61 million won.",
-        "Top carmaker Hyundai Motor sank 5.62 percent to 378,000 won, and its sister Kia slumped 5.18 percent to 124,400 won.",
-        "Battery makers were also weak as industry leader LG Energy Solution decreased 5.31 percent to 347,500 won and POSCO Future M plunged 8 percent to 176,000 won.",
-        "Internet giant Naver skidded 2.79 percent to 209,000 won, and its rival Kakao dipped 3.84 percent to 35,100 won."
+        "Search and rescue operations under way as authorities lose contact with 10 crew members after a vessel collision near Istanbul.",
+        "Turkiye’s coastguard has launched a search and rescue operation after two Turkish-flagged commercial vessels collided off Istanbul and contact was lost with one vessel and its crew of 10.",
+        "The collision took place at 3am (00:00 GMT) in the Marmara Sea a little more than 20 miles (32 kilometres) south of Silivri, a suburb of Turkey’s largest city, the Istanbul governor’s office said in a statement on Wednesday.",
+        "Contact was lost with the crew of the Tugberk Imamoglu, flagged to Turkey, after the collision with the Turkish-flagged Alsu, which appeared undamaged, the governor’s office said.",
+        "“Numerous naval units from the coast guard’s Marmara and Bosphorus Command and a coast guard helicopter were dispatched to the scene,” the office said."
       ],
-      "event_status": "NEW",
-      "event_id": "d6f17eaac05570cbaa7ba32f",
-      "importance_score": 36.0,
+      "event_status": "UPDATE",
+      "event_id": "db9cf15dfab0c68d37d83189",
+      "importance_score": 35.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
@@ -107,58 +188,167 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 4,
-          "infrastructure": 4
+          "scientific": 8
         }
       },
-      "story_id": "00daee4412d063332ee2d1e1ba60adc6881e49e91e740a814b92469efbf90ea4",
-      "public_label": "📰 NEWS",
-      "headline": "(LEAD) Seoul shares tumble 4 pct on renewed U.S.-Iran tensions; won strengthens",
+      "story_id": "91ba998f963d880293c15ff795bee1974ea83179f29eb031712afe837db435c6",
+      "public_label": "🔄 UPDATE",
+      "headline": "Turkiye launches search for cargo ship after vessels collide off Istanbul",
       "briefing": {
         "opening": [
-          "South Korean stocks tumbled 4 percent Wednesday as renewed hostility between the United States and Iran pushed up crude prices and fueled inflation worries.",
-          "The Korean won rose against the U.S. dollar."
+          "Search and rescue operations under way as authorities lose contact with 10 crew members after a vessel collision near Istanbul.",
+          "Turkiye’s coastguard has launched a search and rescue operation after two Turkish-flagged commercial vessels collided off Istanbul and contact was lost with one vessel and its crew of 10."
         ],
         "body": [
-          "The benchmark Korea Composite Stock Price Index (KOSPI) closed at 6,562.72, down 273.08 points, or 3.99 percent, ending a two-session winning streak.",
-          "Overnight, the U.S. launched a new round of airstrikes against Iranian targets around the Strait of Hormuz, driving oil prices higher and fanning inflation worries again.",
-          "With higher odds of a rate hike at the Federal Reserve's meeting later this month, all three major U.S. stock indexes finished lower, and the benchmark 10-year U.S. Treasury yield rose to the highest point since January last year.",
-          "Trade volume was light at 321.2 million shares worth 18.6 trillion won (US$13.6 billion), with losers far outnumbering winners 734 to 137.",
-          "Foreign and institutional investors dumped a net 1.9 trillion won and 2 trillion won of shares, respectively, while individuals bought a net 2.3 trillion won.",
-          "\"The KOSPI went bearish as investor sentiment was dragged down by rising oil prices and sovereign debt yields in major economies,\" said Lee Kyung-min, an analyst from Daishin Securities.",
-          "Top carmaker Hyundai Motor sank 5.62 percent to 378,000 won, and its sister Kia slumped 5.18 percent to 124,400 won.",
-          "Battery makers were also weak as industry leader LG Energy Solution decreased 5.31 percent to 347,500 won and POSCO Future M plunged 8 percent to 176,000 won."
+          "The collision took place at 3am (00:00 GMT) in the Marmara Sea a little more than 20 miles (32 kilometres) south of Silivri, a suburb of Turkey’s largest city, the Istanbul governor’s office said in a statement on Wednesday.",
+          "Contact was lost with the crew of the Tugberk Imamoglu, flagged to Turkey, after the collision with the Turkish-flagged Alsu, which appeared undamaged, the governor’s office said.",
+          "“Numerous naval units from the coast guard’s Marmara and Bosphorus Command and a coast guard helicopter were dispatched to the scene,” the office said."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Istanbul"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "under way"
+          }
+        ],
         "sentences": [
           {
-            "text": "Top carmaker Hyundai Motor sank 5.62 percent to 378,000 won, and its sister Kia slumped 5.18 percent to 124,400 won.",
-            "source": "Yonhap English",
-            "item_id": "00daee4412d063332ee2d1e1ba60adc6881e49e91e740a814b92469efbf90ea4:article",
+            "text": "The collision took place at 3am (00:00 GMT) in the Marmara Sea a little more than 20 miles (32 kilometres) south of Silivri, a suburb of Turkey’s largest city, the Istanbul governor’s office said in a statement on Wednesday.",
+            "source": "Al Jazeera",
+            "item_id": "91ba998f963d880293c15ff795bee1974ea83179f29eb031712afe837db435c6:article",
             "composed": false
           },
           {
-            "text": "Battery makers were also weak as industry leader LG Energy Solution decreased 5.31 percent to 347,500 won and POSCO Future M plunged 8 percent to 176,000 won.",
-            "source": "Yonhap English",
-            "item_id": "00daee4412d063332ee2d1e1ba60adc6881e49e91e740a814b92469efbf90ea4:article",
+            "text": "Search and rescue operations under way as authorities lose contact with 10 crew members after a vessel collision near Istanbul.",
+            "source": "Al Jazeera",
+            "item_id": "91ba998f963d880293c15ff795bee1974ea83179f29eb031712afe837db435c6:article",
             "composed": false
           },
           {
-            "text": "Trade volume was light at 321.2 million shares worth 18.6 trillion won (US$13.6 billion), with losers far outnumbering winners 734 to 137.",
-            "source": "Yonhap English",
-            "item_id": "00daee4412d063332ee2d1e1ba60adc6881e49e91e740a814b92469efbf90ea4:article",
-            "composed": false
-          },
-          {
-            "text": "South Korean stocks tumbled 4 percent Wednesday as renewed hostility between the United States and Iran pushed up crude prices and fueled inflation worries.",
-            "source": "Yonhap English",
-            "item_id": "00daee4412d063332ee2d1e1ba60adc6881e49e91e740a814b92469efbf90ea4:article",
+            "text": "Istanbul and contact was lost with one vessel and its crew of 10.",
+            "source": "Al Jazeera",
+            "item_id": "91ba998f963d880293c15ff795bee1974ea83179f29eb031712afe837db435c6:article",
             "composed": false
           }
         ],
-        "source": "Yonhap English",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://en.yna.co.kr/view/AEN20260902006851320"
+        "url": "https://www.aljazeera.com/news/2026/9/2/turkiye-launches-search-for-cargo-ship-after-vessels-collide-off-istanbul?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "ed40d16840b7cdbe7211132579b8c87fb6982920423af83f6cd99d35d2c31a6c",
+      "title": "Philippine fast-food giant Jollibee picks Hong Kong over New York for spin-off listing",
+      "url": "https://www.scmp.com/business/banking-finance/article/3366078/philippine-fast-food-giant-jollibee-picks-hong-kong-over-new-york-spin-listing?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "The parent company of Philippine fast-food giant Jollibee plans to spin off and list its international operations, choosing Hong Kong over New York in a strong endorsement of the city’s initial public offering (IPO) diversification efforts. Jollibee Foods Corp (JFC) said in January that it intended to list its overseas arm, Jollibee Foods Corporation International (JFCI), in the United States. The company has now selected Hong Kong as its listing destination. “Hong Kong offers the market depth...",
+      "published_at": "2026-09-02T07:03:43+00:00",
+      "updated_at": "2026-09-02T07:03:43+00:00",
+      "effective_at": "2026-09-02T07:03:43+00:00",
+      "language_status": "ENGLISH",
+      "category": "industry",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "agriculture",
+      "subsector": "food",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "corp",
+        "corporation",
+        "foods",
+        "hong_kong",
+        "international",
+        "ipo",
+        "jfc",
+        "jfci",
+        "jollibee",
+        "new_york",
+        "philippine",
+        "united_states"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "ae7cf985a74ddbf4e5a9c7f8",
+      "importance_score": 29.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "ed40d16840b7cdbe7211132579b8c87fb6982920423af83f6cd99d35d2c31a6c",
+      "public_label": "📰 NEWS",
+      "headline": "Philippine fast-food giant Jollibee picks Hong Kong over New York for spin-off listing",
+      "briefing": {
+        "opening": [
+          "The parent company of Philippine fast-food giant Jollibee plans to spin off and list its international operations, choosing Hong Kong over New York in a strong endorsement of the city’s initial public offering (IPO) diversification efforts.",
+          "Jollibee Foods Corp (JFC) said in January that it intended to list its overseas arm, Jollibee Foods Corporation International (JFCI), in the United States."
+        ],
+        "body": [
+          "The company has now selected Hong Kong as its listing destination.",
+          "“Hong Kong offers the market depth..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "January"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Jollibee plans to spin off and list its international operations, choosing Hong Kong over New York in a strong endorsement of the city’s initial public offering (IPO) diversification efforts.",
+            "source": "South China Morning Post",
+            "item_id": "ed40d16840b7cdbe7211132579b8c87fb6982920423af83f6cd99d35d2c31a6c",
+            "composed": false
+          },
+          {
+            "text": "The company has now selected Hong Kong as its listing destination.",
+            "source": "South China Morning Post",
+            "item_id": "ed40d16840b7cdbe7211132579b8c87fb6982920423af83f6cd99d35d2c31a6c",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/business/banking-finance/article/3366078/philippine-fast-food-giant-jollibee-picks-hong-kong-over-new-york-spin-listing?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
