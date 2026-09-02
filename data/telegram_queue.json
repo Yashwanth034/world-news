@@ -1,40 +1,279 @@
 {
-  "generated_at": "2026-09-02T00:50:43.809414+00:00",
-  "count": 1,
+  "generated_at": "2026-09-02T01:01:08.443368+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "eb1edf87ddefcf0654b5250ff9ca1d2870825b1634db7b61ff77e6b08e818150",
-      "title": "Consumer price hike seen at 2.5 pct without mobile bills: finance ministry",
-      "url": "https://en.yna.co.kr/view/AEN20260902002500320",
+      "id": "1ea6adb8bee22514d19ede1c7cf8f897e86388b0f006e9022aece7bad9c5194f",
+      "title": "Tanker, transporter, controller: China’s Y-20 family expands its Pacific reach",
+      "url": "https://www.scmp.com/news/china/military/article/3365357/tanker-transporter-controller-chinas-y-20-family-expands-its-pacific-reach?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "When six Chinese heavy transport planes entered European airspace in April 2022, it was not just their cargo that drew international attention. Bound for Serbia, the Y-20 aircraft had flown thousands of kilometres from China carrying components of the Chinese-made FK-3 surface-to-air missile system. A second wave of six aircraft followed, bringing the operation to 12 sorties in what was then China’s biggest overseas airlift involving the strategic cargo plane. Coming just weeks after Russia...",
+      "published_at": "2026-09-02T01:00:09+00:00",
+      "updated_at": "2026-09-02T01:00:09+00:00",
+      "effective_at": "2026-09-02T01:00:09+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 73,
+      "confidence": "medium",
+      "urgency_terms": [
+        "missile"
+      ],
+      "sector": "transport",
+      "subsector": "aviation",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "china",
+        "chinese-made",
+        "european",
+        "fk-3",
+        "pacific",
+        "russia",
+        "serbia",
+        "y-20"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "e9cce319bde814bc9366cc4d",
+      "importance_score": 34.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "1ea6adb8bee22514d19ede1c7cf8f897e86388b0f006e9022aece7bad9c5194f",
+      "public_label": "🔄 UPDATE",
+      "headline": "Tanker, transporter, controller: China’s Y-20 family expands its Pacific reach",
+      "briefing": {
+        "opening": [
+          "When six Chinese heavy transport planes entered European airspace in April 2022, it was not just their cargo that drew international attention.",
+          "Bound for Serbia, the Y-20 aircraft had flown thousands of kilometres from China carrying components of the Chinese-made FK-3 surface-to-air missile system."
+        ],
+        "body": [
+          "A second wave of six aircraft followed, bringing the operation to 12 sorties in what was then China’s biggest overseas airlift involving the strategic cargo plane.",
+          "Coming just weeks after Russia..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "April"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Bound for Serbia, the Y-20 aircraft had flown thousands of kilometres from China carrying components of the Chinese-made FK-3 surface-to-air missile system.",
+            "source": "South China Morning Post",
+            "item_id": "1ea6adb8bee22514d19ede1c7cf8f897e86388b0f006e9022aece7bad9c5194f",
+            "composed": false
+          },
+          {
+            "text": "When six Chinese heavy transport planes entered European airspace in April 2022, it was not just their cargo that drew international attention.",
+            "source": "South China Morning Post",
+            "item_id": "1ea6adb8bee22514d19ede1c7cf8f897e86388b0f006e9022aece7bad9c5194f",
+            "composed": false
+          },
+          {
+            "text": "A second wave of six aircraft followed, bringing the operation to 12 sorties in what was then China’s biggest overseas airlift involving the strategic cargo plane.",
+            "source": "South China Morning Post",
+            "item_id": "1ea6adb8bee22514d19ede1c7cf8f897e86388b0f006e9022aece7bad9c5194f",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/china/military/article/3365357/tanker-transporter-controller-chinas-y-20-family-expands-its-pacific-reach?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "bf2758d28e85673cbee870706b5db432dd9fe05ed159efeeb070c1f046b723a8",
+      "title": "Chinese workers use parasols and sunscreen indoors to combat ‘office ageing’",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3365987/chinese-workers-use-parasols-and-sunscreen-indoors-combat-office-ageing?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "A growing number of Chinese workers are sharing tips on social media to combat “office ageing.” Suggestions range from applying sunscreen and using full-face masks to setting up parasols at their desks. Recently, a RedNote user with the handle @lelehangmu from Jiangsu province in eastern China shared that just one month into his job, his complexion had noticeably darkened, and his eyes frequently felt strained. The post quickly resonated with others. Another user reported that she appeared...",
+      "published_at": "2026-09-02T01:00:16+00:00",
+      "updated_at": "2026-09-02T01:00:16+00:00",
+      "effective_at": "2026-09-02T01:00:16+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "conflict",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "china",
+        "jiangsu",
+        "rednote",
+        "suggestions"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "a3a4a7f5c8bcc7588dcbc106",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "bf2758d28e85673cbee870706b5db432dd9fe05ed159efeeb070c1f046b723a8",
+      "public_label": "📰 NEWS",
+      "headline": "Chinese workers use parasols and sunscreen indoors to combat ‘office ageing’",
+      "briefing": {
+        "opening": [
+          "A growing number of Chinese workers are sharing tips on social media to combat “office ageing.” Suggestions range from applying sunscreen and using full-face masks to setting up parasols at their desks.",
+          "Recently, a RedNote user with the handle @lelehangmu from Jiangsu province in eastern China shared that just one month into his job, his complexion had noticeably darkened, and his eyes frequently felt strained."
+        ],
+        "body": [
+          "The post quickly resonated with others.",
+          "Another user reported that she appeared..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "A growing number of Chinese workers are sharing tips on social media to combat “office ageing.”",
+            "source": "South China Morning Post",
+            "item_id": "bf2758d28e85673cbee870706b5db432dd9fe05ed159efeeb070c1f046b723a8",
+            "composed": false
+          },
+          {
+            "text": "Suggestions range from applying sunscreen and using full-face masks to setting up parasols at their desks.",
+            "source": "South China Morning Post",
+            "item_id": "bf2758d28e85673cbee870706b5db432dd9fe05ed159efeeb070c1f046b723a8",
+            "composed": false
+          },
+          {
+            "text": "Recently, a RedNote user with the handle @lelehangmu from Jiangsu province in eastern China shared that just one month into his job, his complexion had noticeably darkened, and his eyes frequently felt strained.",
+            "source": "South China Morning Post",
+            "item_id": "bf2758d28e85673cbee870706b5db432dd9fe05ed159efeeb070c1f046b723a8",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/people-culture/trending-china/article/3365987/chinese-workers-use-parasols-and-sunscreen-indoors-combat-office-ageing?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "7401e7921dad63565263acdc06665e2ef1fee1f5f071f2c568d0e0d3ee40e4d5",
+      "title": "Actress Ji Ye-eun to marry dancer Vata in Dec.",
+      "url": "https://en.yna.co.kr/view/AEN20260902002700315",
       "source": "Yonhap English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "South Korea's consumer price increase for August, which came to 3.1 percent, is estimated to have been around 2.5 percent when excluding a surge in mobile communication bills following a low base, a senior financial official said Wednesday. \"In August last year, there was a temporary 50-percent discount in mobile bills, which served as a base effect, leading to a 3.1 percent rise in consumer prices this month,\" Kang Gi-lyong, a senior financial official, said during a government meeting. In August, mobile phone service charges shot up 26.7 percent from a year earlier, reflecting a low base from a year earlier, when SK Telecom Co. offered large-scale discounts following a data breach. The government, meanwhile, added that the country's fuel price cap system currently in place had limited consumer price growth by 0.5 percentage point, indicating the August figure could have reached 3.6 percent. \"While the consumer price increase in September is expected to ease compared with August, there are still upward risks, such as uncertainties in the Middle East and climate factors,\" Kang said. The government will make efforts to implement measures aimed at stabilizing people's livelihoods ahead of the Chuseok holiday this month, he added.",
-      "published_at": "2026-09-02T00:38:41+00:00",
-      "updated_at": "2026-09-02T00:38:41+00:00",
-      "effective_at": "2026-09-02T00:38:41+00:00",
+      "summary": "Actress Ji Ye-eun and dancer Vata will marry on Dec. 12 after about a year of dating, their agencies said Wednesday. Ji's agency, CP Entertainment, said the couple \"have promised to share their lives based on deep trust.\" Vata's agency, Ara, also said the pair \"will start a new journey as husband and wife,\" noting that they \"have promised to become each other's most reliable companions based on deep trust and love.\" Born in 1994, the same-age couple first drew closer through their shared faith after meeting as entertainment industry colleagues, according to local media reports. They publicly confirmed their relationship in April and have been dating openly ever since. Ji debuted in 2017 with the web-based drama \"How To\" and later gained attention through appearances on TV variety shows, including \"SNL Korea,\" \"Running Man\" and \"Office Workers.\" Vata, whose real name is Kim Tae-hyun, is the leader of dance crew. We Dem Boyz, which finished as runners-up on Mnet's \"Street Man Fighter\" in 2022. He has choreographed hit songs including Zico's \"New Thing\" and BLACKPINK member Jennie's \"Like Jennie.\"",
+      "published_at": "2026-09-02T00:53:03+00:00",
+      "updated_at": "2026-09-02T00:53:03+00:00",
+      "effective_at": "2026-09-02T00:53:03+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "politics",
+      "sector": "other",
+      "subsector": "general",
       "subregion": "East Asia",
       "country": null,
       "entities": [
-        "chuseok",
-        "co",
-        "east",
-        "gi-lyong",
-        "kang",
-        "middle",
-        "sk",
-        "south_korea",
-        "telecom"
+        "actress",
+        "ara",
+        "blackpink",
+        "born",
+        "boyz",
+        "cp",
+        "dec",
+        "dem",
+        "entertainment",
+        "fighter",
+        "jennie",
+        "ji",
+        "kim",
+        "korea",
+        "like",
+        "man",
+        "mnet",
+        "office",
+        "running",
+        "snl",
+        "street",
+        "tae-hyun",
+        "thing",
+        "tv",
+        "vata",
+        "we",
+        "workers",
+        "ye-eun",
+        "zico"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -44,27 +283,29 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "South Korea's consumer price increase for August, which came to 3.1 percent, is estimated to have been around 2.5 percent when excluding a surge in mobile communication bills following a low base, a senior financial official said Wednesday.",
-        "\"In August last year, there was a temporary 50-percent discount in mobile bills, which served as a base effect, leading to a 3.1 percent rise in consumer prices this month,\" Kang Gi-lyong, a senior financial official, said during a government meeting.",
-        "In August, mobile phone service charges shot up 26.7 percent from a year earlier, reflecting a low base from a year earlier, when SK Telecom Co.",
-        "offered large-scale discounts following a data breach.",
-        "The government, meanwhile, added that the country's fuel price cap system currently in place had limited consumer price growth by 0.5 percentage point, indicating the August figure could have reached 3.6 percent.",
-        "\"While the consumer price increase in September is expected to ease compared with August, there are still upward risks, such as uncertainties in the Middle East and climate factors,\" Kang said.",
-        "The government will make efforts to implement measures aimed at stabilizing people's livelihoods ahead of the Chuseok holiday this month, he added."
+        "Actress Ji Ye-eun and dancer Vata will marry on Dec. 12 after about a year of dating, their agencies said Wednesday.",
+        "Ji's agency, CP Entertainment, said the couple \"have promised to share their lives based on deep trust.\"",
+        "Vata's agency, Ara, also said the pair \"will start a new journey as husband and wife,\" noting that they \"have promised to become each other's most reliable companions based on deep trust and love.\"",
+        "Born in 1994, the same-age couple first drew closer through their shared faith after meeting as entertainment industry colleagues, according to local media reports.",
+        "They publicly confirmed their relationship in April and have been dating openly ever since.",
+        "Ji debuted in 2017 with the web-based drama \"How To\" and later gained attention through appearances on TV variety shows, including \"SNL Korea,\" \"Running Man\" and \"Office Workers.\"",
+        "Vata, whose real name is Kim Tae-hyun, is the leader of dance crew.",
+        "We Dem Boyz, which finished as runners-up on Mnet's \"Street Man Fighter\" in 2022.",
+        "He has choreographed hit songs including Zico's \"New Thing\" and BLACKPINK member Jennie's \"Like Jennie.\""
       ],
-      "event_status": "UPDATE",
-      "event_id": "a70a456a9821d8a4de6dd95b",
-      "importance_score": 67.0,
-      "importance_level": "MEDIUM",
+      "event_status": "NEW",
+      "event_id": "e6cd8c89b708638428d8e6b4",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 18,
+        "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 20,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -73,59 +314,58 @@
           "displaced": 0,
           "missing": 0,
           "affected": 0,
-          "major_incident": true,
+          "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "security": 8,
-          "economic": 4,
-          "infrastructure": 4,
-          "geopolitical": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "eb1edf87ddefcf0654b5250ff9ca1d2870825b1634db7b61ff77e6b08e818150",
-      "public_label": "🔄 UPDATE",
-      "headline": "Consumer price hike seen at 2.5 pct without mobile bills: finance ministry",
+      "story_id": "7401e7921dad63565263acdc06665e2ef1fee1f5f071f2c568d0e0d3ee40e4d5",
+      "public_label": "📰 NEWS",
+      "headline": "Actress Ji Ye-eun to marry dancer Vata in Dec.",
       "briefing": {
         "opening": [
-          "South Korea's consumer price increase for August, which came to 3.1 percent, is estimated to have been around 2.5 percent when excluding a surge in mobile communication bills following a low base, a senior financial official said Wednesday.",
-          "offered large-scale discounts following a data breach."
+          "Actress Ji Ye-eun and dancer Vata will marry on Dec. 12 after about a year of dating, their agencies said Wednesday.",
+          "Ji's agency, CP Entertainment, said the couple \"have promised to share their lives based on deep trust.\" Vata's agency, Ara, also said the pair \"will start a new journey as husband and wife,\" noting that they \"have promised to become each other's most reliable companions based on deep trust and love.\" Born in 1994, the same-age couple first drew closer through their shared faith after meeting as entertainment industry colleagues, according to local media reports."
         ],
         "body": [
-          "The government will make efforts to implement measures aimed at stabilizing people's livelihoods ahead of the Chuseok holiday this month, he added."
+          "They publicly confirmed their relationship in April and have been dating openly ever since.",
+          "Ji debuted in 2017 with the web-based drama \"How To\" and later gained attention through appearances on TV variety shows, including \"SNL Korea,\" \"Running Man\" and \"Office Workers.\" Vata, whose real name is Kim Tae-hyun, is the leader of dance crew.",
+          "We Dem Boyz, which finished as runners-up on Mnet's \"Street Man Fighter\" in 2022.",
+          "He has choreographed hit songs including Zico's \"New Thing\" and BLACKPINK member Jennie's \"Like Jennie.\""
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "September"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "\"While the consumer price increase in September is expected to ease compared with August, there are still upward risks, such as uncertainties in the Middle East and climate factors,\" Kang said."
+            "text": "April"
           }
         ],
         "sentences": [
           {
-            "text": "South Korea's consumer price increase for August, which came to 3.1 percent, is estimated to have been around 2.5 percent when excluding a surge in mobile communication bills following a low base, a senior financial official said Wednesday.",
+            "text": "Vata will marry on Dec. 12 after about a year of dating, their agencies said Wednesday.",
             "source": "Yonhap English",
-            "item_id": "eb1edf87ddefcf0654b5250ff9ca1d2870825b1634db7b61ff77e6b08e818150:article",
+            "item_id": "7401e7921dad63565263acdc06665e2ef1fee1f5f071f2c568d0e0d3ee40e4d5:article",
             "composed": false
           },
           {
-            "text": "\"While the consumer price increase in September is expected to ease compared with August, there are still upward risks, such as uncertainties in the Middle East and climate factors,\" Kang said.",
+            "text": "Ji debuted in 2017 with the web-based drama \"How To\" and later gained attention through appearances on TV variety shows, including \"SNL Korea,\" \"Running Man\" and \"Office Workers.\"",
             "source": "Yonhap English",
-            "item_id": "eb1edf87ddefcf0654b5250ff9ca1d2870825b1634db7b61ff77e6b08e818150:article",
+            "item_id": "7401e7921dad63565263acdc06665e2ef1fee1f5f071f2c568d0e0d3ee40e4d5:article",
+            "composed": false
+          },
+          {
+            "text": "They publicly confirmed their relationship in April and have been dating openly ever since.",
+            "source": "Yonhap English",
+            "item_id": "7401e7921dad63565263acdc06665e2ef1fee1f5f071f2c568d0e0d3ee40e4d5:article",
             "composed": false
           }
         ],
         "source": "Yonhap English",
         "corroborating": [],
-        "url": "https://en.yna.co.kr/view/AEN20260902002500320"
+        "url": "https://en.yna.co.kr/view/AEN20260902002700315"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     }
   ]
 }
