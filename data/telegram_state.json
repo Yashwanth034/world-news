@@ -1,14 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "f2433d5ddf7b6046f8073ea0a4e8c0e97ba7c8487239ef80aaef388adf9336ab",
-      "event_id": "df8892aa5a9b708a09fa15ad",
-      "item_id": "f2433d5ddf7b6046f8073ea0a4e8c0e97ba7c8487239ef80aaef388adf9336ab",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-09-01T21:37:43+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "ab3bd09d676451fe2bbb6397f626331cb0f215d9658cd126b0af8bbdf0998ae6",
       "event_id": "0294815cd3d711d8ade62c04",
       "item_id": "ab3bd09d676451fe2bbb6397f626331cb0f215d9658cd126b0af8bbdf0998ae6",
@@ -623,9 +615,26 @@
       "label": "🔄 UPDATE",
       "scheduled_at": "2026-09-02T09:35:07+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "ac2fd55d695f65222a5d9d4aed991f898bc0cc0a0c7f6f3ab592651ca2730839",
+      "event_id": "853ad604332adffa17e81dcc",
+      "item_id": "ac2fd55d695f65222a5d9d4aed991f898bc0cc0a0c7f6f3ab592651ca2730839",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-09-02T09:47:44+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "3ec5971ac08404c4e1dce271b14928b5f26a80c0236acb2bb98ffe1eb0678a63",
+      "event_id": "afeeef23abbea2d10f6a3665",
+      "item_id": "3ec5971ac08404c4e1dce271b14928b5f26a80c0236acb2bb98ffe1eb0678a63",
+      "label": "📰 NEWS",
+      "message_id": 3067,
+      "posted_at": "2026-09-02T09:47:44.000164+00:00",
+      "scheduled_at": "2026-09-02T09:42:16+00:00"
+    },
     {
       "story_id": "8748cb91f7af49f5fcde448bbbf4640f88578a3403f994a97ab752d1d7f8c350",
       "event_id": "622b5c7f239148a2c7e6f56b",
@@ -3640,26 +3649,8 @@
       "message_id": 2731,
       "posted_at": "2026-08-31T04:04:40.000101+00:00",
       "scheduled_at": "2026-08-31T04:02:31+00:00"
-    },
-    {
-      "story_id": "dbf1f815800a1e9424f0bb7f84d82dd47da28c847531e5ef97d54445e3d9a091",
-      "event_id": "001819882b5da17ee55e1793",
-      "item_id": "dbf1f815800a1e9424f0bb7f84d82dd47da28c847531e5ef97d54445e3d9a091",
-      "label": "📰 NEWS",
-      "message_id": 2730,
-      "posted_at": "2026-08-31T03:44:33.000297+00:00",
-      "scheduled_at": "2026-08-31T03:44:33+00:00"
-    },
-    {
-      "story_id": "e65a9cc7f0c418e466a6006377758788b77ced7191b61d723ab799e813116635",
-      "event_id": "d5cd17eccab9a38f209bffca",
-      "item_id": "e65a9cc7f0c418e466a6006377758788b77ced7191b61d723ab799e813116635",
-      "label": "📰 NEWS",
-      "message_id": 2729,
-      "posted_at": "2026-08-31T03:42:59.000163+00:00",
-      "scheduled_at": "2026-08-31T03:42:59+00:00"
     }
   ],
   "failures": [],
-  "last_posted_at": "2026-09-02T09:36:14.000128+00:00"
+  "last_posted_at": "2026-09-02T09:47:44.000164+00:00"
 }
