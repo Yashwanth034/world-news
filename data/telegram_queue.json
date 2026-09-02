@@ -1,59 +1,182 @@
 {
-  "generated_at": "2026-09-02T04:50:46.047695+00:00",
-  "count": 2,
+  "generated_at": "2026-09-02T04:57:29.988381+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "a9bf8b0a7a2f9edaf668311f93921df327e41035faf08f50d74ca70ed0b9e53a",
-      "title": "Off-grid UK-Australian couple given more access to children after removal from home in Italy",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/02/off-grid-uk-australian-couple-italy-given-more-access-to-children-court-ntwnfb",
-      "source": "The Guardian World",
+      "id": "f12f2b83d327ff40eb1a83bdea4f0a5184775aaec2b38fa1c078d06d12a0c7c7",
+      "title": "Mass burials of unidentified victims continue in Nepal as death toll exceeds 1,000 one week after flash floods",
+      "url": "http://www.euronews.com/2026/09/02/mass-burials-of-unidentified-victims-continue-in-nepal-as-death-toll-exceeds-1000-one-week",
+      "source": "Euronews",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Decision marks a significant turning point in a case that sparked a national debate in Italy A British-Australian couple will be allowed to spend more time with their three children after the ⁠youngsters were removed from the family’s off-grid woodland home in central Italy last year, their lawyer said on Tuesday. The juvenile court ⁠of L’Aquila in Italy has ⁠approved a ​staged process under the supervision of social services that could ultimately allow the children to leave the residential care facility ⁠where they have been living since November. Continue reading...",
-      "published_at": "2026-09-02T04:36:50+00:00",
-      "updated_at": "2026-09-02T04:36:50+00:00",
-      "effective_at": "2026-09-02T04:36:50+00:00",
+      "summary": "Many were outraged and expressed their disapproval after the government revealed it intended to carry out mass “temporary” burials of the deceased. Nepal’s largely Hindu community objected to the measure which they say goes against religious traditions.",
+      "published_at": "2026-09-02T04:45:28+00:00",
+      "updated_at": "2026-09-02T04:45:28+00:00",
+      "effective_at": "2026-09-02T04:45:28+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 73,
+      "score": 65,
       "confidence": "medium",
-      "urgency_terms": [
-        "coup"
-      ],
-      "sector": "companies",
-      "subsector": "energy",
-      "subregion": "Europe",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "british-australian",
-        "decision",
-        "italy",
-        "off-grid",
-        "uk-australian"
+        "hindu",
+        "nepal"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 90,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "5422c58724c3ac49860d9ff4",
-      "importance_score": 40.0,
-      "importance_level": "LOW",
+      "event_id": "48b6b233af88d48f85ac44ab",
+      "importance_score": 76.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 32,
         "urgency": 7.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 12,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 1000,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4,
+          "human": 12
+        }
+      },
+      "story_id": "f12f2b83d327ff40eb1a83bdea4f0a5184775aaec2b38fa1c078d06d12a0c7c7",
+      "public_label": "📰 NEWS",
+      "headline": "Mass burials of unidentified victims continue in Nepal as death toll exceeds 1,000 one week after flash floods",
+      "briefing": {
+        "opening": [
+          "Many were outraged and expressed their disapproval after the government revealed it intended to carry out mass “temporary” burials of the deceased.",
+          "Nepal’s largely Hindu community objected to the measure which they say goes against religious traditions."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Nepal’s largely Hindu community objected to the measure which they say goes against religious traditions.",
+            "source": "Euronews",
+            "item_id": "f12f2b83d327ff40eb1a83bdea4f0a5184775aaec2b38fa1c078d06d12a0c7c7",
+            "composed": false
+          },
+          {
+            "text": "Many were outraged and expressed their disapproval after the government revealed it intended to carry out mass “temporary” burials of the deceased.",
+            "source": "Euronews",
+            "item_id": "f12f2b83d327ff40eb1a83bdea4f0a5184775aaec2b38fa1c078d06d12a0c7c7",
+            "composed": false
+          }
+        ],
+        "source": "Euronews",
+        "corroborating": [],
+        "url": "http://www.euronews.com/2026/09/02/mass-burials-of-unidentified-victims-continue-in-nepal-as-death-toll-exceeds-1000-one-week"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "3ed27f8bcaf003ef2f5c36354b47d52d1eb121c4482aa39e292646b35127b695",
+      "title": "Jailed HK activist Joshua Wong pleads guilty to foreign collusion",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zmzg0408o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "Prominent Hong Kong pro-democracy campaigner. Joshua Wong has pleaded guilty to collusion with foreign entities, a charge that carries a maximum sentence of life in prison under Beijing's sweeping National Security Law (NSL). The 29-year-old, who has become the poster child for political activism in Hong Kong, is already serving a sentence of four years and eight months after being convicted of subversion – another NSL violation – in late 2024. The court said Wong would be sentenced at a later date. His earlier jail term is due to end early next year. Wong was at the forefront of the Umbrella Movement in 2014 and massive pro-democracy protests in 2019. The latest charge accuses Wong of conspiring with other campaigners, including exiled activist Nathan Law, to ask foreign countries and entities outside China to impose sanctions or blockades against Beijing. These include activities that took place between July and late November 2020, the court heard. That was the year China introduced the controversial NSL, which critics say has created a climate of fear and quashed dissent in Hong Kong. Beijing and Hong Kong authorities argue the law is necessary to maintain stability and deny it has weakened autonomy. On Tuesday, the court heard that Wong and Law had participated in \"international lobbying on numerous occasions\", including via visits to the US, Germany and Italy. The duo are among several leaders who founded the pro-democracy party Demosistō in April 2016, and ran for the Hong Kong Legislative Council elections that year.",
+      "published_at": "2026-09-02T04:29:02+00:00",
+      "updated_at": "2026-09-02T04:29:02+00:00",
+      "effective_at": "2026-09-02T04:29:02+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "law",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "china",
+        "demosist",
+        "germany",
+        "hk",
+        "hong_kong",
+        "italy",
+        "jailed",
+        "joshua",
+        "law",
+        "legislative",
+        "movement",
+        "nathan",
+        "national",
+        "nsl",
+        "prominent",
+        "security",
+        "umbrella",
+        "us",
+        "wong"
+      ],
+      "corroborating_sources": 2,
+      "strong_corroboration": 2,
+      "corroborating_source_names": [
+        "Al Jazeera",
+        "Straits Times Asia"
+      ],
+      "verified_match_count": 2,
+      "priority_score": 75,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "article_sentences": [
+        "Prominent Hong Kong pro-democracy campaigner.",
+        "Joshua Wong has pleaded guilty to collusion with foreign entities, a charge that carries a maximum sentence of life in prison under Beijing's sweeping National Security Law (NSL).",
+        "The 29-year-old, who has become the poster child for political activism in Hong Kong, is already serving a sentence of four years and eight months after being convicted of subversion – another NSL violation – in late 2024.",
+        "The court said Wong would be sentenced at a later date.",
+        "His earlier jail term is due to end early next year.",
+        "Wong was at the forefront of the Umbrella Movement in 2014 and massive pro-democracy protests in 2019.",
+        "The latest charge accuses Wong of conspiring with other campaigners, including exiled activist Nathan Law, to ask foreign countries and entities outside China to impose sanctions or blockades against Beijing.",
+        "These include activities that took place between July and late November 2020, the court heard.",
+        "That was the year China introduced the controversial NSL, which critics say has created a climate of fear and quashed dissent in Hong Kong.",
+        "Beijing and Hong Kong authorities argue the law is necessary to maintain stability and deny it has weakened autonomy.",
+        "On Tuesday, the court heard that Wong and Law had participated in \"international lobbying on numerous occasions\", including via visits to the US, Germany and Italy.",
+        "The duo are among several leaders who founded the pro-democracy party Demosistō in April 2016, and ran for the Hong Kong Legislative Council elections that year."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "56084b4b0eaf68121aec71a7",
+      "importance_score": 40.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 8,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -66,95 +189,101 @@
           "crisis": false
         },
         "significance_dims": {
-          "geopolitical": 8,
-          "infrastructure": 4
+          "geopolitical": 8
         }
       },
-      "story_id": "a9bf8b0a7a2f9edaf668311f93921df327e41035faf08f50d74ca70ed0b9e53a",
-      "public_label": "📰 NEWS",
-      "headline": "Off-grid UK-Australian couple given more access to children after removal from home in Italy",
+      "story_id": "3ed27f8bcaf003ef2f5c36354b47d52d1eb121c4482aa39e292646b35127b695",
+      "public_label": "🔄 UPDATE",
+      "headline": "Jailed HK activist Joshua Wong pleads guilty to foreign collusion",
       "briefing": {
         "opening": [
-          "Decision marks a significant turning point in a case that sparked a national debate in Italy.",
-          "A British-Australian couple will be allowed to spend more time with their three children after the ⁠youngsters were removed from the family’s off-grid woodland home in central Italy last year, their lawyer said on Tuesday."
+          "Prominent Hong Kong pro-democracy campaigner.",
+          "Joshua Wong has pleaded guilty to collusion with foreign entities, a charge that carries a maximum sentence of life in prison under Beijing's sweeping National Security Law (NSL)."
         ],
         "body": [
-          "The juvenile court ⁠of L’Aquila in Italy has ⁠approved a ​staged process under the supervision of social services that could ultimately allow the children to leave the residential care facility ⁠where they have been living since November."
+          "The 29-year-old, who has become the poster child for political activism in Hong Kong, is already serving a sentence of four years and eight months after being convicted of subversion – another NSL violation – in late 2024.",
+          "The court said Wong would be sentenced at a later date.",
+          "His earlier jail term is due to end early next year.",
+          "Wong was at the forefront of the Umbrella Movement in 2014 and massive pro-democracy protests in 2019.",
+          "The latest charge accuses Wong of conspiring with other campaigners, including exiled activist Nathan Law, to ask foreign countries and entities outside China to impose sanctions or blockades against Beijing.",
+          "These include activities that took place between July and late November 2020, the court heard.",
+          "That was the year China introduced the controversial NSL, which critics say has created a climate of fear and quashed dissent in Hong Kong.",
+          "Beijing and Hong Kong authorities argue the law is necessary to maintain stability and deny it has weakened autonomy."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Italy"
+            "text": "Hong Kong"
           }
         ],
         "sentences": [
           {
-            "text": "The juvenile court ⁠of L’Aquila in Italy has ⁠approved a ​staged process under the supervision of social services that could ultimately allow the children to leave the residential care facility ⁠where they have been living since November.",
-            "source": "The Guardian World",
-            "item_id": "a9bf8b0a7a2f9edaf668311f93921df327e41035faf08f50d74ca70ed0b9e53a",
+            "text": "Joshua Wong has pleaded guilty to collusion with foreign entities, a charge that carries a maximum sentence of life in prison under Beijing's sweeping National Security Law (NSL).",
+            "source": "BBC World",
+            "item_id": "3ed27f8bcaf003ef2f5c36354b47d52d1eb121c4482aa39e292646b35127b695:article",
             "composed": false
           },
           {
-            "text": "A British-Australian couple will be allowed to spend more time with their three children after the ⁠youngsters were removed from the family’s off-grid woodland home in central Italy last year, their lawyer said on Tuesday.",
-            "source": "The Guardian World",
-            "item_id": "a9bf8b0a7a2f9edaf668311f93921df327e41035faf08f50d74ca70ed0b9e53a",
+            "text": "The 29-year-old, who has become the poster child for political activism in Hong Kong, is already serving a sentence of four years and eight months after being convicted of subversion – another NSL violation – in late 2024.",
+            "source": "BBC World",
+            "item_id": "3ed27f8bcaf003ef2f5c36354b47d52d1eb121c4482aa39e292646b35127b695:article",
+            "composed": false
+          },
+          {
+            "text": "Wong was at the forefront of the Umbrella Movement in 2014 and massive pro-democracy protests in 2019.",
+            "source": "BBC World",
+            "item_id": "3ed27f8bcaf003ef2f5c36354b47d52d1eb121c4482aa39e292646b35127b695:article",
+            "composed": false
+          },
+          {
+            "text": "These include activities that took place between July and late November 2020, the court heard.",
+            "source": "BBC World",
+            "item_id": "3ed27f8bcaf003ef2f5c36354b47d52d1eb121c4482aa39e292646b35127b695:article",
             "composed": false
           }
         ],
-        "source": "The Guardian World",
+        "source": "BBC World",
         "corroborating": [],
-        "url": "https://www.theguardian.com/australia-news/2026/sep/02/off-grid-uk-australian-couple-italy-given-more-access-to-children-court-ntwnfb"
+        "url": "https://www.bbc.co.uk/news/articles/cx2zmzg0408o?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "264e1b449e35916de3d3a326890bca1d9e67a9ad8f2cca62bbd2a532b29999eb",
-      "title": "Players, manager for high school baseball team suspended over trash talk",
-      "url": "https://en.yna.co.kr/view/AEN20260902005700315",
-      "source": "Yonhap English",
+      "id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38",
+      "title": "Tiger Woods to change plea after crash arrest",
+      "url": "https://www.bbc.co.uk/news/articles/c5y7xvpn5kno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": null,
       "discovery": false,
-      "summary": "Two players and their manager for a Seoul high school baseball team were suspended for a month by the sport's national governing body Wednesday for their role in a trash-talking incident. The Korea Baseball Softball Association (KBSA) handed down a one-month suspension on the three principal figures of the June incident from Pai Chai High School. The two players were penalized for leading their team's chants, \"Let's go to Starbucks!\" and \"Tank Day!\" during a national tournament game in late June in Seoul against Gwangju Jeil High School from the southwestern city of Gwangju. These words were linked to a controversial Starbucks Korea promotion on May 18, which drew strong criticism for allegedly mocking the 1980 Gwangju pro-democracy uprising on its 46th anniversary. On July 1, the KBSA slapped Pai Chai with a six-month ban from competing at national tournaments, but the Korean Sport & Olympic Committee reduced it to one month on July 20 following the school's appeal. The decision allowed Pai Chai to play in the final major national competition of the year in August, the Bonghwang National High School Baseball Tournament. Separately, though, the KBSA decided to penalize the two players for their trash talk and their manager for his lack of oversight. The KBSA said it considered the way the players showed their remorse and offered an apology to Gwangju Jeil in person, and also how Gwangju Jeil accepted Pai Chai's apology and asked for leniency for the school's baseball team. The KBSA also suspended the home plate umpire from that June game for one month for failing to stop inappropriate chants from Pai Chai and allowing the game to continue. A coach from Gwangju Jeil received a warning from the KBSA for his use of expletives when arguing with Pai Chai players and coaching staff during the game. The KBSA said it will continue to educate student-athletes on unacceptable actions at games and will prepare a new code of conduct for the 2027 season.",
-      "published_at": "2026-09-02T04:45:23+00:00",
-      "updated_at": "2026-09-02T04:45:23+00:00",
-      "effective_at": "2026-09-02T04:45:23+00:00",
+      "summary": "Court records show the change of plea hearing is set for Wednesday morning in Martin County, Florida. The golfer was arrested after the March crash, and had passed a breathalyser test but declined further testing for other drugs. He pleaded not guilty the same month to misdemeanor charges of driving under the influence and refusal to submit to testing. Woods, 50, said he was seeking treatment after the incident. It was not immediately clear what the change of plea would be. The BBC has contacted prosecutors and Woods' attorney. No one was injured in the crash, though Woods had to crawl out through the passenger door to free himself. Police released body camera footage in April that captured the aftermath of the incident, showing the golfing legend after his vehicle clipped a truck and rolled over. In the video, Woods appears calm, kneeling on one knee as he tells officers: \"I looked down at my phone, and all of a sudden, boom\". He passed a breathalyser test but declined to take a urinalysis screening for other drugs, Martin County Sheriff John Budensiek said at the time. Woods told officers he had not consumed alcohol that day. When asked about any prescription medication, he responded, \"I take a few\", adding he had done so earlier that morning.",
+      "published_at": "2026-09-02T00:26:08+00:00",
+      "updated_at": "2026-09-02T00:26:08+00:00",
+      "effective_at": "2026-09-02T00:26:08+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "law",
-      "subsector": "education",
-      "subregion": "East Asia",
+      "subsector": "courts",
+      "subregion": null,
       "country": null,
       "entities": [
-        "association",
-        "baseball",
-        "bonghwang",
-        "chai",
-        "day",
-        "gwangju",
-        "high",
-        "jeil",
-        "kbsa",
-        "korea",
-        "korean",
-        "let",
-        "national",
-        "olympic",
-        "pai",
-        "school",
-        "seoul",
-        "softball",
-        "sport",
-        "starbucks",
-        "tank",
-        "tournament"
+        "bbc",
+        "budensiek",
+        "county",
+        "court",
+        "florida",
+        "john",
+        "martin",
+        "sheriff",
+        "tiger",
+        "woods"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -164,31 +293,32 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "Two players and their manager for a Seoul high school baseball team were suspended for a month by the sport's national governing body Wednesday for their role in a trash-talking incident.",
-        "The Korea Baseball Softball Association (KBSA) handed down a one-month suspension on the three principal figures of the June incident from Pai Chai High School.",
-        "The two players were penalized for leading their team's chants, \"Let's go to Starbucks!\" and \"Tank Day!\" during a national tournament game in late June in Seoul against Gwangju Jeil High School from the southwestern city of Gwangju.",
-        "These words were linked to a controversial Starbucks Korea promotion on May 18, which drew strong criticism for allegedly mocking the 1980 Gwangju pro-democracy uprising on its 46th anniversary.",
-        "On July 1, the KBSA slapped Pai Chai with a six-month ban from competing at national tournaments, but the Korean Sport & Olympic Committee reduced it to one month on July 20 following the school's appeal.",
-        "The decision allowed Pai Chai to play in the final major national competition of the year in August, the Bonghwang National High School Baseball Tournament.",
-        "Separately, though, the KBSA decided to penalize the two players for their trash talk and their manager for his lack of oversight.",
-        "The KBSA said it considered the way the players showed their remorse and offered an apology to Gwangju Jeil in person, and also how Gwangju Jeil accepted Pai Chai's apology and asked for leniency for the school's baseball team.",
-        "The KBSA also suspended the home plate umpire from that June game for one month for failing to stop inappropriate chants from Pai Chai and allowing the game to continue.",
-        "A coach from Gwangju Jeil received a warning from the KBSA for his use of expletives when arguing with Pai Chai players and coaching staff during the game.",
-        "The KBSA said it will continue to educate student-athletes on unacceptable actions at games and will prepare a new code of conduct for the 2027 season."
+        "Court records show the change of plea hearing is set for Wednesday morning in Martin County, Florida.",
+        "The golfer was arrested after the March crash, and had passed a breathalyser test but declined further testing for other drugs.",
+        "He pleaded not guilty the same month to misdemeanor charges of driving under the influence and refusal to submit to testing.",
+        "Woods, 50, said he was seeking treatment after the incident.",
+        "It was not immediately clear what the change of plea would be.",
+        "The BBC has contacted prosecutors and Woods' attorney.",
+        "No one was injured in the crash, though Woods had to crawl out through the passenger door to free himself.",
+        "Police released body camera footage in April that captured the aftermath of the incident, showing the golfing legend after his vehicle clipped a truck and rolled over.",
+        "In the video, Woods appears calm, kneeling on one knee as he tells officers: \"I looked down at my phone, and all of a sudden, boom\".",
+        "He passed a breathalyser test but declined to take a urinalysis screening for other drugs, Martin County Sheriff John Budensiek said at the time.",
+        "Woods told officers he had not consumed alcohol that day.",
+        "When asked about any prescription medication, he responded, \"I take a few\", adding he had done so earlier that morning."
       ],
-      "event_status": "NEW",
-      "event_id": "0606b27a467b1c3a4f7205de",
-      "importance_score": 30.0,
+      "event_status": "UPDATE",
+      "event_id": "b53e6e52471100382df434ca",
+      "importance_score": 27.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 9.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "urgency": 6.0,
+        "novelty": 8.0,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -200,59 +330,67 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "human": 4
+        }
       },
-      "story_id": "264e1b449e35916de3d3a326890bca1d9e67a9ad8f2cca62bbd2a532b29999eb",
-      "public_label": "📰 NEWS",
-      "headline": "Players, manager for high school baseball team suspended over trash talk",
+      "story_id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38",
+      "public_label": "🔄 UPDATE",
+      "headline": "Tiger Woods to change plea after crash arrest",
       "briefing": {
         "opening": [
-          "Two players and their manager for a Seoul high school baseball team were suspended for a month by the sport's national governing body Wednesday for their role in a trash-talking incident.",
-          "The Korea Baseball Softball Association (KBSA) handed down a one-month suspension on the three principal figures of the June incident from Pai Chai High School."
+          "Court records show the change of plea hearing is set for Wednesday morning in Martin County, Florida.",
+          "The golfer was arrested after the March crash, and had passed a breathalyser test but declined further testing for other drugs."
         ],
         "body": [
-          "The two players were penalized for leading their team's chants, \"Let's go to Starbucks!\" and \"Tank Day!\" during a national tournament game in late June in Seoul against Gwangju Jeil High School from the southwestern city of Gwangju.",
-          "These words were linked to a controversial Starbucks Korea promotion on May 18, which drew strong criticism for allegedly mocking the 1980 Gwangju pro-democracy uprising on its 46th anniversary.",
-          "On July 1, the KBSA slapped Pai Chai with a six-month ban from competing at national tournaments, but the Korean Sport & Olympic Committee reduced it to one month on July 20 following the school's appeal.",
-          "The decision allowed Pai Chai to play in the final major national competition of the year in August, the Bonghwang National High School Baseball Tournament.",
-          "Separately, though, the KBSA decided to penalize the two players for their trash talk and their manager for his lack of oversight.",
-          "The KBSA said it considered the way the players showed their remorse and offered an apology to Gwangju Jeil in person, and also how Gwangju Jeil accepted Pai Chai's apology and asked for leniency for the school's baseball team.",
-          "The KBSA also suspended the home plate umpire from that June game for one month for failing to stop inappropriate chants from Pai Chai and allowing the game to continue.",
-          "A coach from Gwangju Jeil received a warning from the KBSA for his use of expletives when arguing with Pai Chai players and coaching staff during the game."
+          "He pleaded not guilty the same month to misdemeanor charges of driving under the influence and refusal to submit to testing.",
+          "Woods, 50, said he was seeking treatment after the incident.",
+          "It was not immediately clear what the change of plea would be.",
+          "The BBC has contacted prosecutors and Woods' attorney.",
+          "No one was injured in the crash, though Woods had to crawl out through the passenger door to free himself.",
+          "Police released body camera footage in April that captured the aftermath of the incident, showing the golfing legend after his vehicle clipped a truck and rolled over.",
+          "In the video, Woods appears calm, kneeling on one knee as he tells officers: \"I looked down at my phone, and all of a sudden, boom\".",
+          "He passed a breathalyser test but declined to take a urinalysis screening for other drugs, Martin County Sheriff John Budensiek said at the time."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Seoul"
+            "text": "Martin County"
           }
         ],
         "sentences": [
           {
-            "text": "On July 1, the KBSA slapped Pai Chai with a six-month ban from competing at national tournaments, but the Korean Sport & Olympic Committee reduced it to one month on July 20 following the school's appeal.",
-            "source": "Yonhap English",
-            "item_id": "264e1b449e35916de3d3a326890bca1d9e67a9ad8f2cca62bbd2a532b29999eb:article",
+            "text": "The BBC has contacted prosecutors and Woods' attorney.",
+            "source": "BBC World",
+            "item_id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38:article",
             "composed": false
           },
           {
-            "text": "The Korea Baseball Softball Association (KBSA) handed down a one-month suspension on the three principal figures of the June incident from Pai Chai High School.",
-            "source": "Yonhap English",
-            "item_id": "264e1b449e35916de3d3a326890bca1d9e67a9ad8f2cca62bbd2a532b29999eb:article",
+            "text": "Court records show the change of plea hearing is set for Wednesday morning in Martin County, Florida.",
+            "source": "BBC World",
+            "item_id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38:article",
             "composed": false
           },
           {
-            "text": "The decision allowed Pai Chai to play in the final major national competition of the year in August, the Bonghwang National High School Baseball Tournament.",
-            "source": "Yonhap English",
-            "item_id": "264e1b449e35916de3d3a326890bca1d9e67a9ad8f2cca62bbd2a532b29999eb:article",
+            "text": "Police released body camera footage in April that captured the aftermath of the incident, showing the golfing legend after his vehicle clipped a truck and rolled over.",
+            "source": "BBC World",
+            "item_id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38:article",
+            "composed": false
+          },
+          {
+            "text": "Woods, 50, said he was seeking treatment after the incident.",
+            "source": "BBC World",
+            "item_id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38:article",
             "composed": false
           }
         ],
-        "source": "Yonhap English",
+        "source": "BBC World",
         "corroborating": [],
-        "url": "https://en.yna.co.kr/view/AEN20260902005700315"
+        "url": "https://www.bbc.co.uk/news/articles/c5y7xvpn5kno?at_medium=RSS&at_campaign=rss"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
