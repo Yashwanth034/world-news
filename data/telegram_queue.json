@@ -1,63 +1,57 @@
 {
-  "generated_at": "2026-09-02T04:10:40.899776+00:00",
-  "count": 2,
+  "generated_at": "2026-09-02T04:20:40.997413+00:00",
+  "count": 1,
   "stories": [
     {
-      "id": "dde42d7e96006aba590ee402d274164c7352071b6eee47680cea4e74e3ab9eea",
-      "title": "USS Abraham Lincoln arrives at Thai port after gruelling 270 days at sea",
-      "url": "https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea",
-      "source": "The Guardian World",
+      "id": "f83f15144046a6c689ab328f72785e776450a591568ee841b6eb248b7fe75838",
+      "title": "Online sales may account for around one-third of Russian retail by 2030",
+      "url": "https://tass.com/economy/2180969",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "Ship has been plagued by reports of deteriorating living conditions and poor mental health because of lengthy deployment The USS Abraham Lincoln, an US aircraft carrier at the centre of a row over conditions on board after months at sea as part of Donald Trump’s war against Iran, has arrived off a Thai port. Reports of deteriorating living conditions and poor mental health on the vessel, including attempted suicides , have made headlines around the world, provoking criticism of the president’s actions in the Middle East. Continue reading...",
-      "published_at": "2026-09-02T03:59:56+00:00",
-      "updated_at": "2026-09-02T03:59:56+00:00",
-      "effective_at": "2026-09-02T03:59:56+00:00",
+      "summary": "At the same time, Deputy Industry and Trade Minister Roman Chekushov noted that the ministry intends to develop all forms of trade",
+      "published_at": "2026-09-02T04:11:01+00:00",
+      "updated_at": "2026-09-02T04:11:01+00:00",
+      "effective_at": "2026-09-02T04:11:01+00:00",
       "language_status": "ENGLISH",
-      "category": "health",
-      "score": 65,
+      "category": "finance",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "shipping",
-      "subregion": "Southeast Asia",
+      "sector": "economy",
+      "subsector": "trade",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "abraham",
-        "donald",
-        "east",
-        "iran",
-        "lincoln",
-        "middle",
-        "ship",
-        "thai",
-        "trump",
-        "us",
-        "uss"
+        "chekushov",
+        "industry",
+        "roman",
+        "russia",
+        "trade"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "eac7fc3a25049f144e52ff8d",
-      "importance_score": 53.0,
-      "importance_level": "MEDIUM",
+      "event_status": "NEW",
+      "event_id": "2cf300146acd705f08048046",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 24,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -70,162 +64,77 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 8,
-          "geopolitical": 8,
-          "scientific": 4,
-          "infrastructure": 4
+          "geopolitical": 4
         }
       },
-      "story_id": "dde42d7e96006aba590ee402d274164c7352071b6eee47680cea4e74e3ab9eea",
-      "public_label": "🔄 UPDATE",
-      "headline": "USS Abraham Lincoln arrives at Thai port after gruelling 270 days at sea",
-      "briefing": {
-        "opening": [
-          "Ship has been plagued by reports of deteriorating living conditions and poor mental health because of lengthy deployment.",
-          "The USS Abraham Lincoln, an US aircraft carrier at the centre of a row over conditions on board after months at sea as part of Donald Trump’s war against Iran, has arrived off a Thai port."
-        ],
-        "body": [
-          "Reports of deteriorating living conditions and poor mental health on the vessel, including attempted suicides, have made headlines around the world, provoking criticism of the president’s actions in the Middle East."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The USS Abraham Lincoln, an US aircraft carrier at the centre of a row over conditions on board after months at sea as part of Donald Trump’s war against Iran, has arrived off a Thai port.",
-            "source": "The Guardian World",
-            "item_id": "dde42d7e96006aba590ee402d274164c7352071b6eee47680cea4e74e3ab9eea",
-            "composed": false
-          },
-          {
-            "text": "Reports of deteriorating living conditions and poor mental health on the vessel, including attempted suicides, have made headlines around the world, provoking criticism of the president’s actions in the Middle East.",
-            "source": "The Guardian World",
-            "item_id": "dde42d7e96006aba590ee402d274164c7352071b6eee47680cea4e74e3ab9eea",
-            "composed": false
-          }
-        ],
-        "source": "The Guardian World",
-        "corroborating": [],
-        "url": "https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "59e2247fe88845f67734fe75d6c73c92dcbfb2a90c30f38c66a79bf439086409",
-      "title": "Russia, China to work out permanent visa-free regime — Kremlin",
-      "url": "https://tass.com/politics/2180963",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "The issue will be worked out and coordinated by the two sides, Kremlin Spokesman Dmitry Peskov said",
-      "published_at": "2026-09-02T03:41:00+00:00",
-      "updated_at": "2026-09-02T03:41:00+00:00",
-      "effective_at": "2026-09-02T03:41:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "Europe",
-      "country": null,
-      "entities": [
-        "china",
-        "dmitry",
-        "peskov",
-        "russia"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "24f2446dc3bf3ed9d0a7a0df",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "59e2247fe88845f67734fe75d6c73c92dcbfb2a90c30f38c66a79bf439086409",
+      "story_id": "f83f15144046a6c689ab328f72785e776450a591568ee841b6eb248b7fe75838",
       "article_sentences": [
-        "MOSCOW, September 2.",
-        "Russia and China will work out and coordinate the issue of making the visa-free regime between the two countries permanent, Kremlin Spokesman Dmitry Peskov told TASS.",
-        "\"The issue will be worked out and coordinated by the two sides,\" the Kremlin spokesman said in response to a question about whether Chinese President Xi Jinping had supported Russian President Vladimir Putin’s proposal to make the visa-free regime between Russia and China permanent.",
-        "At a meeting with Xi Jinping in Bishkek on August 31, Putin said Russia was ready to work jointly with China on making the visa-free regime between the two countries permanent if Beijing considered such a step possible and beneficial."
+        "VLADIVOSTOK, September 2.",
+        "Online sales will account for around one-third of Russia's retail trade by 2030, Deputy Industry and Trade Minister Roman Chekushov said at the Eastern Economic Forum (EEF).",
+        "According to him, the country's annual e-commerce turnover totaled 13.2 trillion rubles ($152.1 bln) in 2025, accounting for 21% of retail trade.",
+        "\"Is that the limit?",
+        "Of course not.",
+        "A couple of years ago, I made a modest forecast that by 2030 online trade would account for around 33-35% of total retail trade, and I will probably stick to it for now and give the same figure.",
+        "It seems to me that we are steadily moving in that direction,\" he said.",
+        "At the same time, Chekushov said the ministry intends to develop all forms of trade.",
+        "The number of brick-and-mortar retail outlets has increased by 80,000 over the past five years, or 10% compared with 2020.",
+        "The Eastern Economic Forum is being held on September 1-4 in Vladivostok on the campus of Far Eastern Federal University.",
+        "The forum is organized by the Roscongress Foundation with the support of the Russian government.",
+        "TASS is the general information partner."
       ],
       "public_label": "📰 NEWS",
-      "headline": "Russia, China to work out permanent visa-free regime — Kremlin",
+      "headline": "Online sales may account for around one-third of Russian retail by 2030",
       "briefing": {
         "opening": [
-          "MOSCOW, September 2.",
-          "Russia and China will work out and coordinate the issue of making the visa-free regime between the two countries permanent, Kremlin Spokesman Dmitry Peskov told TASS."
+          "VLADIVOSTOK, September 2.",
+          "Online sales will account for around one-third of Russia's retail trade by 2030, Deputy Industry and Trade Minister Roman Chekushov said at the Eastern Economic Forum (EEF)."
         ],
         "body": [
-          "\"The issue will be worked out and coordinated by the two sides,\" the Kremlin spokesman said in response to a question about whether Chinese President Xi Jinping had supported Russian President Vladimir Putin’s proposal to make the visa-free regime between Russia and China permanent.",
-          "At a meeting with Xi Jinping in Bishkek on August 31, Putin said Russia was ready to work jointly with China on making the visa-free regime between the two countries permanent if Beijing considered such a step possible and beneficial.",
-          "The issue will be worked out and coordinated by the two sides, Kremlin Spokesman Dmitry Peskov said."
+          "According to him, the country's annual e-commerce turnover totaled 13.2 trillion rubles ($152.1 bln) in 2025, accounting for 21% of retail trade.",
+          "\"Is that the limit?",
+          "Of course not.",
+          "It seems to me that we are steadily moving in that direction,\" he said.",
+          "At the same time, Chekushov said the ministry intends to develop all forms of trade.",
+          "The number of brick-and-mortar retail outlets has increased by 80,000 over the past five years, or 10% compared with 2020.",
+          "The Eastern Economic Forum is being held on September 1-4 in Vladivostok on the campus of Far Eastern Federal University.",
+          "The forum is organized by the Roscongress Foundation with the support of the Russian government."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Bishkek"
+            "text": "Vladivostok"
           }
         ],
         "sentences": [
           {
-            "text": "Russia and China will work out and coordinate the issue of making the visa-free regime between the two countries permanent, Kremlin Spokesman Dmitry Peskov told TASS.",
+            "text": "The forum is organized by the Roscongress Foundation with the support of the Russian government.",
             "source": "TASS English",
-            "item_id": "59e2247fe88845f67734fe75d6c73c92dcbfb2a90c30f38c66a79bf439086409:article",
+            "item_id": "f83f15144046a6c689ab328f72785e776450a591568ee841b6eb248b7fe75838:article",
             "composed": false
           },
           {
-            "text": "\"The issue will be worked out and coordinated by the two sides,\" the Kremlin spokesman said in response to a question about whether Chinese President Xi Jinping had supported Russian President Vladimir Putin’s proposal to make the visa-free regime between Russia and China permanent.",
+            "text": "Online sales will account for around one-third of Russia's retail trade by 2030, Deputy Industry and Trade Minister Roman Chekushov said at the Eastern Economic Forum (EEF).",
             "source": "TASS English",
-            "item_id": "59e2247fe88845f67734fe75d6c73c92dcbfb2a90c30f38c66a79bf439086409:article",
+            "item_id": "f83f15144046a6c689ab328f72785e776450a591568ee841b6eb248b7fe75838:article",
             "composed": false
           },
           {
-            "text": "At a meeting with Xi Jinping in Bishkek on August 31, Putin said Russia was ready to work jointly with China on making the visa-free regime between the two countries permanent if Beijing considered such a step possible and beneficial.",
+            "text": "According to him, the country's annual e-commerce turnover totaled 13.2 trillion rubles ($152.1 bln) in 2025, accounting for 21% of retail trade.",
             "source": "TASS English",
-            "item_id": "59e2247fe88845f67734fe75d6c73c92dcbfb2a90c30f38c66a79bf439086409:article",
+            "item_id": "f83f15144046a6c689ab328f72785e776450a591568ee841b6eb248b7fe75838:article",
             "composed": false
           },
           {
-            "text": "MOSCOW, September 2.",
+            "text": "The number of brick-and-mortar retail outlets has increased by 80,000 over the past five years, or 10% compared with 2020.",
             "source": "TASS English",
-            "item_id": "59e2247fe88845f67734fe75d6c73c92dcbfb2a90c30f38c66a79bf439086409:article",
+            "item_id": "f83f15144046a6c689ab328f72785e776450a591568ee841b6eb248b7fe75838:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/politics/2180963"
+        "url": "https://tass.com/economy/2180969"
       },
       "group_size": 1,
       "label": "📰 NEWS"
