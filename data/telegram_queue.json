@@ -1,33 +1,39 @@
 {
-  "generated_at": "2026-09-02T12:50:43.411227+00:00",
+  "generated_at": "2026-09-02T13:01:16.926169+00:00",
   "count": 3,
   "stories": [
     {
-      "id": "0deb2ae8d847e225c7b6fcaa24a10a5296075dd583f617a6d404dd5ba7d85420",
-      "title": "World set to breach 1.5C climate limit as UN urges rapid reversal",
-      "url": "https://www.rfi.fr/en/environment/20260902-world-set-to-breach-1-5c-climate-limit-as-un-urges-rapid-reversal",
-      "source": "RFI English",
+      "id": "a61e0d714a11ec06aa2c1ea8394e6bef6d130a29679567fed41a152c695e95e3",
+      "title": "Over 17 mln barrels of oil pass through Strait of Hormuz on Sept. 1 — US Energy Department",
+      "url": "https://tass.com/world/2181247",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "North America",
       "discovery": false,
-      "summary": "Global warming is set to cross the 1.5C limit within the next few years, exposing people and ecosystems to more severe climate damage, the UN's environmental agency said on Wednesday. But temperatures could eventually be brought back down if emissions fall sharply and carbon dioxide is removed from the atmosphere.",
-      "published_at": "2026-09-02T12:40:46+00:00",
-      "updated_at": "2026-09-02T12:40:46+00:00",
-      "effective_at": "2026-09-02T12:40:46+00:00",
+      "summary": "With pipeline shipments from Saudi Arabia and the UAE that make it possible to bypass the Strait of Hormuz taken into account, oil exports from the region exceeded pre-war levels on Monday",
+      "published_at": "2026-09-02T12:53:42+00:00",
+      "updated_at": "2026-09-02T12:53:42+00:00",
+      "effective_at": "2026-09-02T12:53:42+00:00",
       "language_status": "ENGLISH",
-      "category": "environment",
+      "category": "industry",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "climate",
-      "subregion": null,
+      "sector": "companies",
+      "subsector": "oil_gas",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "global",
-        "un"
+        "department",
+        "energy",
+        "hormuz",
+        "saudi_arabia",
+        "sept",
+        "strait",
+        "uae",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -37,18 +43,18 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "f1f320c095db8acfb2149689",
-      "importance_score": 31.0,
-      "importance_level": "LOW",
+      "event_id": "e5b0b4d7a0194bcc7f4a8e08",
+      "importance_score": 52.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 24,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -60,72 +66,89 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "security": 8,
+          "infrastructure": 8,
+          "geopolitical": 8
+        }
       },
-      "story_id": "0deb2ae8d847e225c7b6fcaa24a10a5296075dd583f617a6d404dd5ba7d85420",
+      "story_id": "a61e0d714a11ec06aa2c1ea8394e6bef6d130a29679567fed41a152c695e95e3",
+      "article_sentences": [
+        "NEW YORK, September 2.",
+        "More than 17 mln barrels of oil passed through the Strait of Hormuz on Monday, hitting a record high since the war with Iran began in late February, US Secretary of Energy Chris Wright said in an interview with CNBC.",
+        "With pipeline shipments from Saudi Arabia and the UAE that make it possible to bypass the Strait of Hormuz taken into account, oil exports from the region exceeded pre-war levels on Monday, he said.",
+        "Prior to the US and Israeli strikes on Iran, about 20 mln barrels of oil and petroleum products passed through the Strait per day as of February 28.",
+        "The increase in supply volumes demonstrates a recovery of oil flows from the region following a sharp drop caused by the outbreak of hostilities, Wright noted."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "World set to breach 1.5C climate limit as UN urges rapid reversal",
+      "headline": "Over 17 mln barrels of oil pass through Strait of Hormuz on Sept. 1 — US Energy Department",
       "briefing": {
         "opening": [
-          "Global warming is set to cross the 1.5C limit within the next few years, exposing people and ecosystems to more severe climate damage, the UN's environmental agency said on Wednesday.",
-          "But temperatures could eventually be brought back down if emissions fall sharply and carbon dioxide is removed from the atmosphere."
+          "NEW YORK, September 2.",
+          "More than 17 mln barrels of oil passed through the Strait of Hormuz on Monday, hitting a record high since the war with Iran began in late February, US Secretary of Energy Chris Wright said in an interview with CNBC."
         ],
-        "body": [],
+        "body": [
+          "With pipeline shipments from Saudi Arabia and the UAE that make it possible to bypass the Strait of Hormuz taken into account, oil exports from the region exceeded pre-war levels on Monday, he said.",
+          "Prior to the US and Israeli strikes on Iran, about 20 mln barrels of oil and petroleum products passed through the Strait per day as of February 28.",
+          "The increase in supply volumes demonstrates a recovery of oil flows from the region following a sharp drop caused by the outbreak of hostilities, Wright noted."
+        ],
         "bullets": [],
         "sentences": [
           {
-            "text": "But temperatures could eventually be brought back down if emissions fall sharply and carbon dioxide is removed from the atmosphere.",
-            "source": "RFI English",
-            "item_id": "0deb2ae8d847e225c7b6fcaa24a10a5296075dd583f617a6d404dd5ba7d85420",
+            "text": "Prior to the US and Israeli strikes on Iran, about 20 mln barrels of oil and petroleum products passed through the Strait per day as of February 28.",
+            "source": "TASS English",
+            "item_id": "a61e0d714a11ec06aa2c1ea8394e6bef6d130a29679567fed41a152c695e95e3:article",
             "composed": false
           },
           {
-            "text": "Global warming is set to cross the 1.5C limit within the next few years, exposing people and ecosystems to more severe climate damage, the UN's environmental agency said on Wednesday.",
-            "source": "RFI English",
-            "item_id": "0deb2ae8d847e225c7b6fcaa24a10a5296075dd583f617a6d404dd5ba7d85420",
+            "text": "NEW YORK, September 2.",
+            "source": "TASS English",
+            "item_id": "a61e0d714a11ec06aa2c1ea8394e6bef6d130a29679567fed41a152c695e95e3:article",
+            "composed": false
+          },
+          {
+            "text": "More than 17 mln barrels of oil passed through the Strait of Hormuz on Monday, hitting a record high since the war with Iran began in late February, US Secretary of Energy Chris Wright said in an interview with CNBC.",
+            "source": "TASS English",
+            "item_id": "a61e0d714a11ec06aa2c1ea8394e6bef6d130a29679567fed41a152c695e95e3:article",
             "composed": false
           }
         ],
-        "source": "RFI English",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.rfi.fr/en/environment/20260902-world-set-to-breach-1-5c-climate-limit-as-un-urges-rapid-reversal"
+        "url": "https://tass.com/world/2181247"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38",
-      "title": "Tiger Woods to change plea after crash arrest",
-      "url": "https://www.bbc.co.uk/news/articles/c5y7xvpn5kno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
+      "id": "dfe600db5b8a7017191c782cd08dda5d264d180e6809b5faf412f58eb9c4eb41",
+      "title": "Two seafarers killed in supertanker incident in Strait of Hormuz — shipowner",
+      "url": "https://tass.com/world/2181245",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Asia",
       "discovery": false,
-      "summary": "The golfer was pictured arriving at court on Wednesday morning in Martin County, Florida, where court records show the change of plea hearing is scheduled. Woods was arrested after the March crash, and had passed a breathalyser test but declined further testing for other drugs. He pleaded not guilty the same month to misdemeanor charges of driving under the influence and refusal to submit to testing. Woods, 50, said he was seeking treatment after the incident. It was not immediately clear what the change of plea would be. The BBC has contacted prosecutors and Woods' lawyer. No one was injured in the crash, though Woods had to crawl out through the passenger door to free himself. Police released body camera footage in April that captured the aftermath of the incident, showing the golfing legend after his vehicle clipped a truck and rolled over. In the video, Woods appears calm, kneeling on one knee as he tells officers: \"I looked down at my phone, and all of a sudden, boom\". He passed a breathalyser test but declined to take a urinalysis screening for other drugs, Martin County Sheriff John Budensiek said at the time. Woods told officers he had not consumed alcohol that day. When asked about any prescription medication, he responded, \"I take a few\", adding he had done so earlier that morning.",
-      "published_at": "2026-09-02T12:44:59+00:00",
-      "updated_at": "2026-09-02T12:44:59+00:00",
-      "effective_at": "2026-09-02T12:44:59+00:00",
+      "summary": "The incident involving the Sidr took place 17 nautical miles northeast of Oman’s port city of Khasab",
+      "published_at": "2026-09-02T12:52:34+00:00",
+      "updated_at": "2026-09-02T12:52:34+00:00",
+      "effective_at": "2026-09-02T12:52:34+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "law",
-      "subsector": "courts",
-      "subregion": null,
+      "sector": "transport",
+      "subsector": "shipping",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "bbc",
-        "budensiek",
-        "county",
-        "florida",
-        "john",
-        "martin",
-        "sheriff",
-        "tiger",
-        "woods"
+        "hormuz",
+        "khasab",
+        "oman",
+        "sidr",
+        "strait"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -134,30 +157,141 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "The golfer was pictured arriving at court on Wednesday morning in Martin County, Florida, where court records show the change of plea hearing is scheduled.",
-        "Woods was arrested after the March crash, and had passed a breathalyser test but declined further testing for other drugs.",
-        "He pleaded not guilty the same month to misdemeanor charges of driving under the influence and refusal to submit to testing.",
-        "Woods, 50, said he was seeking treatment after the incident.",
-        "It was not immediately clear what the change of plea would be.",
-        "The BBC has contacted prosecutors and Woods' lawyer.",
-        "No one was injured in the crash, though Woods had to crawl out through the passenger door to free himself.",
-        "Police released body camera footage in April that captured the aftermath of the incident, showing the golfing legend after his vehicle clipped a truck and rolled over.",
-        "In the video, Woods appears calm, kneeling on one knee as he tells officers: \"I looked down at my phone, and all of a sudden, boom\".",
-        "He passed a breathalyser test but declined to take a urinalysis screening for other drugs, Martin County Sheriff John Budensiek said at the time.",
-        "Woods told officers he had not consumed alcohol that day.",
-        "When asked about any prescription medication, he responded, \"I take a few\", adding he had done so earlier that morning."
-      ],
       "event_status": "NEW",
-      "event_id": "ac78e6f6499e8b254c5ddef5",
-      "importance_score": 30.0,
+      "event_id": "034315ef0e791e4b0efcab5d",
+      "importance_score": 36.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 4,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "dfe600db5b8a7017191c782cd08dda5d264d180e6809b5faf412f58eb9c4eb41",
+      "article_sentences": [
+        "DOHA, September 2.",
+        "Two crew members of the Sidr supertanker owned by Saudi Arabia’s national shipping carrier Bahri were killed in an incident off the coast of Oman in the Strait of Hormuz overnight into September 1, the company said in a statement on X.",
+        "Bahri confirms that its vessel Sidr <...> was involved in a security incident while transiting the Strait of Hormuz.",
+        "<...> It is with profound sadness that Bahri confirms the loss of two of its Filipino seafarers as a result of the incident,\" the statement reads.",
+        "The company \"remains in continuous contact with the vessel and is coordinating closely with the relevant authorities and maritime industry stakeholders, while continuing to closely monitor developments.\"",
+        "Bloomberg reported earlier that two oil supertankers had been struck by unknown projectiles in the Strait of Hormuz on the night of August 31 to September 1.",
+        "The incident involving the Sidr took place 17 nautical miles northeast of Oman’s port city of Khasab while the vessel was attempting to exit the Persian Gulf."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Two seafarers killed in supertanker incident in Strait of Hormuz — shipowner",
+      "briefing": {
+        "opening": [
+          "DOHA, September 2.",
+          "Two crew members of the Sidr supertanker owned by Saudi Arabia’s national shipping carrier Bahri were killed in an incident off the coast of Oman in the Strait of Hormuz overnight into September 1, the company said in a statement on X."
+        ],
+        "body": [
+          "Bahri confirms that its vessel Sidr <...> was involved in a security incident while transiting the Strait of Hormuz.",
+          "<...> It is with profound sadness that Bahri confirms the loss of two of its Filipino seafarers as a result of the incident,\" the statement reads.",
+          "The company \"remains in continuous contact with the vessel and is coordinating closely with the relevant authorities and maritime industry stakeholders, while continuing to closely monitor developments.\" Bloomberg reported earlier that two oil supertankers had been struck by unknown projectiles in the Strait of Hormuz on the night of August 31 to September 1.",
+          "The incident involving the Sidr took place 17 nautical miles northeast of Oman’s port city of Khasab while the vessel was attempting to exit the Persian Gulf.",
+          "The incident involving the Sidr took place 17 nautical miles northeast of Oman’s port city of Khasab."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Bahri confirms that its vessel Sidr <...> was involved in a security incident while transiting the Strait of Hormuz.",
+            "source": "TASS English",
+            "item_id": "dfe600db5b8a7017191c782cd08dda5d264d180e6809b5faf412f58eb9c4eb41:article",
+            "composed": false
+          },
+          {
+            "text": "Bloomberg reported earlier that two oil supertankers had been struck by unknown projectiles in the Strait of Hormuz on the night of August 31 to September 1.",
+            "source": "TASS English",
+            "item_id": "dfe600db5b8a7017191c782cd08dda5d264d180e6809b5faf412f58eb9c4eb41:article",
+            "composed": false
+          },
+          {
+            "text": "Bahri were killed in an incident off the coast of Oman in the Strait of Hormuz overnight into September 1, the company said in a statement on X.",
+            "source": "TASS English",
+            "item_id": "dfe600db5b8a7017191c782cd08dda5d264d180e6809b5faf412f58eb9c4eb41:article",
+            "composed": false
+          },
+          {
+            "text": "The incident involving the Sidr took place 17 nautical miles northeast of Oman’s port city of Khasab while the vessel was attempting to exit the Persian Gulf.",
+            "source": "TASS English",
+            "item_id": "dfe600db5b8a7017191c782cd08dda5d264d180e6809b5faf412f58eb9c4eb41:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/world/2181245"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "545776fb47a3a587d9bf8ec43eac2bdb839abf4a2c95ec4bf360cd52d8c696f9",
+      "title": "Putin meets with Mongolian prime minister on sidelines of Eastern Economic Forum",
+      "url": "https://tass.com/politics/2181251",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "The talks focus on strategic partnership between Russia and Mongolia and the implementation of agreements reached at the highest level",
+      "published_at": "2026-09-02T12:59:28+00:00",
+      "updated_at": "2026-09-02T12:59:28+00:00",
+      "effective_at": "2026-09-02T12:59:28+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "eastern",
+        "economic",
+        "forum",
+        "mongolia",
+        "mongolian",
+        "russia"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "a14394a27c88ba08a471ec3f",
+      "importance_score": 30.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 4,
@@ -173,211 +307,68 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 4
+          "geopolitical": 4
         }
       },
-      "story_id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38",
-      "public_label": "📰 NEWS",
-      "headline": "Tiger Woods to change plea after crash arrest",
-      "briefing": {
-        "opening": [
-          "The golfer was pictured arriving at court on Wednesday morning in Martin County, Florida, where court records show the change of plea hearing is scheduled.",
-          "Woods was arrested after the March crash, and had passed a breathalyser test but declined further testing for other drugs."
-        ],
-        "body": [
-          "He pleaded not guilty the same month to misdemeanor charges of driving under the influence and refusal to submit to testing.",
-          "Woods, 50, said he was seeking treatment after the incident.",
-          "It was not immediately clear what the change of plea would be.",
-          "The BBC has contacted prosecutors and Woods' lawyer.",
-          "No one was injured in the crash, though Woods had to crawl out through the passenger door to free himself.",
-          "Police released body camera footage in April that captured the aftermath of the incident, showing the golfing legend after his vehicle clipped a truck and rolled over.",
-          "In the video, Woods appears calm, kneeling on one knee as he tells officers: \"I looked down at my phone, and all of a sudden, boom\".",
-          "He passed a breathalyser test but declined to take a urinalysis screening for other drugs, Martin County Sheriff John Budensiek said at the time."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Martin County"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "The BBC has contacted prosecutors and Woods' lawyer.",
-            "source": "BBC World",
-            "item_id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38:article",
-            "composed": false
-          },
-          {
-            "text": "The golfer was pictured arriving at court on Wednesday morning in Martin County, Florida, where court records show the change of plea hearing is scheduled.",
-            "source": "BBC World",
-            "item_id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38:article",
-            "composed": false
-          },
-          {
-            "text": "Police released body camera footage in April that captured the aftermath of the incident, showing the golfing legend after his vehicle clipped a truck and rolled over.",
-            "source": "BBC World",
-            "item_id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38:article",
-            "composed": false
-          },
-          {
-            "text": "Woods, 50, said he was seeking treatment after the incident.",
-            "source": "BBC World",
-            "item_id": "b79358f41b7b63b2fcd59f8e6d0dfac12b8e439bbed18b1ba3b88021cbc37e38:article",
-            "composed": false
-          }
-        ],
-        "source": "BBC World",
-        "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/c5y7xvpn5kno?at_medium=RSS&at_campaign=rss"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "fd2e7975eced65a400a78b1706264e345bb781a242d4751367aa1203dcd4dcb0",
-      "title": "Former boxer to host annual school uniform giveaway",
-      "url": "https://www.bbc.co.uk/news/articles/c93vkx4lzyeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "source_category": "finance",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "Free school uniforms are to be handed out in Hull by former boxer Tommy Coyle. The ex-Commonwealth lightweight champion set up a sporting foundation when he retired from boxing in 2019 and has led a number of initiatives for underprivileged children, including a mobile boxing gym. \"If you're in a position to do good then I believe you should,\" he said. The event at Coyle's gym, TC60, on Humber Street will take place on Thursday from 10:00 until 13:00 BST. Coyle said he would be giving out unbranded uniforms of all colours and sizes with no questions asked for those who attended, working with places such as Transwaste Recycling, Cranswick and MKM. About 400 uniforms were given to families last year, and he said it \"does tend to go up year on year\". Speaking on BBC Radio Humberside, Coyle said: \"It's such an expensive time of year. Everything is going up in price. Uniforms are a fortune this year. \"It's a bittersweet day – bitter in the sense that so many people need support but sweet in the sense that we can come together to support the community.\" Coyle added that his reason for doing it was \"a bit of a personal one\". \"It goes back many years, and there was a form of bullying taking place as certain people didn't have certain makes [of clothes] at school,\" he said.",
-      "published_at": "2026-09-02T12:48:32+00:00",
-      "updated_at": "2026-09-02T12:48:32+00:00",
-      "effective_at": "2026-09-02T12:48:32+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "education",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "bbc",
-        "bst",
-        "coyle",
-        "cranswick",
-        "free",
-        "hull",
-        "humber",
-        "humberside",
-        "mkm",
-        "radio",
-        "recycling",
-        "street",
-        "tc60",
-        "tommy",
-        "transwaste"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
+      "story_id": "545776fb47a3a587d9bf8ec43eac2bdb839abf4a2c95ec4bf360cd52d8c696f9",
       "article_sentences": [
-        "Free school uniforms are to be handed out in Hull by former boxer Tommy Coyle.",
-        "The ex-Commonwealth lightweight champion set up a sporting foundation when he retired from boxing in 2019 and has led a number of initiatives for underprivileged children, including a mobile boxing gym.",
-        "\"If you're in a position to do good then I believe you should,\" he said.",
-        "The event at Coyle's gym, TC60, on Humber Street will take place on Thursday from 10:00 until 13:00 BST.",
-        "Coyle said he would be giving out unbranded uniforms of all colours and sizes with no questions asked for those who attended, working with places such as Transwaste Recycling, Cranswick and MKM.",
-        "About 400 uniforms were given to families last year, and he said it \"does tend to go up year on year\".",
-        "Speaking on BBC Radio Humberside, Coyle said: \"It's such an expensive time of year.",
-        "Everything is going up in price.",
-        "Uniforms are a fortune this year.",
-        "\"It's a bittersweet day – bitter in the sense that so many people need support but sweet in the sense that we can come together to support the community.\"",
-        "Coyle added that his reason for doing it was \"a bit of a personal one\".",
-        "\"It goes back many years, and there was a form of bullying taking place as certain people didn't have certain makes [of clothes] at school,\" he said."
+        "VLADIVOSTOK, September 2.",
+        "Russian President Vladimir Putin met with Mongolian Prime Minister Nyam-Osor Uchral on the sidelines of the Eastern Economic Forum (EEF), a TASS correspondent reports.",
+        "The Russian leader is accompanied by a representative delegation, which includes Presidential Aide for International Affairs Yury Ushakov, Kremlin Spokesman Dmitry Peskov, Foreign Minister Sergey Lavrov, Deputy Prime Minister Alexey Overchuk, Deputy Prime Minister and Presidential Plenipotentiary Envoy to the Far Eastern Federal District Yury Trutnev, Transport Minister Andrey Nikitin, Energy Minister Sergey Tsivilyov, Russian Railways CEO Oleg Belozerov, Rosatom CEO Alexey Likhachev, Economic Development Minister Maxim Reshetnikov and Rosneft CEO Igor Sechin.",
+        "The talks focus on strategic partnership between Russia and Mongolia and the implementation of agreements reached at the highest level.",
+        "They prioritize expanding trade and economic cooperation and advancing promising projects in the energy, transport and infrastructure sectors, among others.",
+        "\"This is the sixth Mongolian delegation led by the country’s president or prime minister to ever make a trip to the EEF.",
+        "Uchral is making his first visit to Russia as Mongolian Prime Minister.",
+        "In February, he visited Moscow for consultations with the speakers of the Russian Federal Assembly chambers while serving as chairman of Mongolia’s State Great Hural (parliament),\" Kremlin materials prepared for the meeting said.",
+        "The materials noted that partnership with Mongolia is currently among the priorities of Russia's foreign policy in Asia.",
+        "Contacts between the two countries' prime ministers, interparliamentary cooperation and interaction between ministries and agencies are developing.",
+        "Mongolian representatives regularly take part in the Eastern Economic Forum and St. Petersburg International Economic Forum.",
+        "Russian regions such as Buryatia, Trans-Baikal, Irkutsk, Krasnoyarsk and Tuva are actively developing ties with Mongolia."
       ],
-      "event_status": "NEW",
-      "event_id": "3b5293cd3745bf8635afa96c",
-      "importance_score": 26.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "fd2e7975eced65a400a78b1706264e345bb781a242d4751367aa1203dcd4dcb0",
-      "public_label": "📰 NEWS",
-      "headline": "Former boxer to host annual school uniform giveaway",
+      "public_label": "🔄 UPDATE",
+      "headline": "Putin meets with Mongolian prime minister on sidelines of Eastern Economic Forum",
       "briefing": {
         "opening": [
-          "Free school uniforms are to be handed out in Hull by former boxer Tommy Coyle.",
-          "The ex-Commonwealth lightweight champion set up a sporting foundation when he retired from boxing in 2019 and has led a number of initiatives for underprivileged children, including a mobile boxing gym."
+          "VLADIVOSTOK, September 2.",
+          "Russian President Vladimir Putin met with Mongolian Prime Minister Nyam-Osor Uchral on the sidelines of the Eastern Economic Forum (EEF), a TASS correspondent reports."
         ],
         "body": [
-          "\"If you're in a position to do good then I believe you should,\" he said.",
-          "The event at Coyle's gym, TC60, on Humber Street will take place on Thursday from 10:00 until 13:00 BST.",
-          "Coyle said he would be giving out unbranded uniforms of all colours and sizes with no questions asked for those who attended, working with places such as Transwaste Recycling, Cranswick and MKM.",
-          "About 400 uniforms were given to families last year, and he said it \"does tend to go up year on year\".",
-          "Speaking on BBC Radio Humberside, Coyle said: \"It's such an expensive time of year.",
-          "Everything is going up in price.",
-          "Uniforms are a fortune this year.",
-          "\"It's a bittersweet day – bitter in the sense that so many people need support but sweet in the sense that we can come together to support the community.\" Coyle added that his reason for doing it was \"a bit of a personal one\"."
+          "The Russian leader is accompanied by a representative delegation, which includes Presidential Aide for International Affairs Yury Ushakov, Kremlin Spokesman Dmitry Peskov, Foreign Minister Sergey Lavrov, Deputy Prime Minister Alexey Overchuk, Deputy Prime Minister and Presidential Plenipotentiary Envoy to the Far Eastern Federal District Yury Trutnev, Transport Minister Andrey Nikitin, Energy Minister Sergey Tsivilyov, Russian Railways CEO Oleg Belozerov, Rosatom CEO Alexey Likhachev, Economic Development Minister Maxim Reshetnikov and Rosneft CEO Igor Sechin.",
+          "The talks focus on strategic partnership between Russia and Mongolia and the implementation of agreements reached at the highest level.",
+          "They prioritize expanding trade and economic cooperation and advancing promising projects in the energy, transport and infrastructure sectors, among others.",
+          "\"This is the sixth Mongolian delegation led by the country’s president or prime minister to ever make a trip to the EEF.",
+          "Uchral is making his first visit to Russia as Mongolian Prime Minister.",
+          "In February, he visited Moscow for consultations with the speakers of the Russian Federal Assembly chambers while serving as chairman of Mongolia’s State Great Hural (parliament),\" Kremlin materials prepared for the meeting said.",
+          "The materials noted that partnership with Mongolia is currently among the priorities of Russia's foreign policy in Asia.",
+          "Contacts between the two countries' prime ministers, interparliamentary cooperation and interaction between ministries and agencies are developing."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Hull"
+            "text": "Asia"
           }
         ],
         "sentences": [
           {
-            "text": "Coyle said he would be giving out unbranded uniforms of all colours and sizes with no questions asked for those who attended, working with places such as Transwaste Recycling, Cranswick and MKM.",
-            "source": "BBC Business",
-            "item_id": "fd2e7975eced65a400a78b1706264e345bb781a242d4751367aa1203dcd4dcb0:article",
+            "text": "The Russian leader is accompanied by a representative delegation, which includes Presidential Aide for International Affairs Yury Ushakov, Kremlin Spokesman Dmitry Peskov, Foreign Minister Sergey Lavrov, Deputy Prime Minister Alexey Overchuk, Deputy Prime Minister and Presidential Plenipotentiary Envoy to the Far Eastern Federal District Yury Trutnev, Transport Minister Andrey Nikitin, Energy Minister Sergey Tsivilyov, Russian Railways CEO Oleg Belozerov, Rosatom CEO Alexey Likhachev, Economic Development Minister Maxim Reshetnikov and Rosneft CEO Igor Sechin.",
+            "source": "TASS English",
+            "item_id": "545776fb47a3a587d9bf8ec43eac2bdb839abf4a2c95ec4bf360cd52d8c696f9:article",
             "composed": false
           },
           {
-            "text": "Free school uniforms are to be handed out in Hull by former boxer Tommy Coyle.",
-            "source": "BBC Business",
-            "item_id": "fd2e7975eced65a400a78b1706264e345bb781a242d4751367aa1203dcd4dcb0:article",
-            "composed": false
-          },
-          {
-            "text": "About 400 uniforms were given to families last year, and he said it \"does tend to go up year on year\".",
-            "source": "BBC Business",
-            "item_id": "fd2e7975eced65a400a78b1706264e345bb781a242d4751367aa1203dcd4dcb0:article",
-            "composed": false
-          },
-          {
-            "text": "The ex-Commonwealth lightweight champion set up a sporting foundation when he retired from boxing in 2019 and has led a number of initiatives for underprivileged children, including a mobile boxing gym.",
-            "source": "BBC Business",
-            "item_id": "fd2e7975eced65a400a78b1706264e345bb781a242d4751367aa1203dcd4dcb0:article",
+            "text": "The materials noted that partnership with Mongolia is currently among the priorities of Russia's foreign policy in Asia.",
+            "source": "TASS English",
+            "item_id": "545776fb47a3a587d9bf8ec43eac2bdb839abf4a2c95ec4bf360cd52d8c696f9:article",
             "composed": false
           }
         ],
-        "source": "BBC Business",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/c93vkx4lzyeo?at_medium=RSS&at_campaign=rss"
+        "url": "https://tass.com/politics/2181251"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
