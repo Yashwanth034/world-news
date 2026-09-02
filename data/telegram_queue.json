@@ -1,155 +1,163 @@
 {
-  "generated_at": "2026-09-02T10:50:42.687079+00:00",
-  "count": 2,
+  "generated_at": "2026-09-02T11:01:10.506560+00:00",
+  "count": 4,
   "stories": [
     {
-      "id": "8cb1c453e7e46b7f79206622f25904b598eedf659ccd08f46707ecc70a8d804f",
-      "title": "Nepal flash flood: Death toll rises to over 1,100, says police",
-      "url": "https://www.thehindu.com/videos/nepal-flash-flood-death-toll-rises-to-over-1100-says-police/article71419196.ece",
-      "source": "The Hindu",
+      "id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b",
+      "title": "Russian parliamentary election results to be finalized by October 5 — election official",
+      "url": "https://tass.com/politics/2181175",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "Nepal’s devastating flash floods have killed over 1,100 people, with nearly 4,000 still missing. Rescue and relief operations continue as authorities search for survivors and provide aid to affected communities.",
-      "published_at": "2026-09-02T10:47:37+00:00",
-      "updated_at": "2026-09-02T10:47:37+00:00",
-      "effective_at": "2026-09-02T10:47:37+00:00",
+      "summary": "The overall election results will be established based on the CEC protocol and decision on the election outcome in the nationwide constituency",
+      "published_at": "2026-09-02T10:51:32+00:00",
+      "updated_at": "2026-09-02T10:51:32+00:00",
+      "effective_at": "2026-09-02T10:51:32+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
+      "category": "politics",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "disasters",
-      "subregion": "South Asia",
+      "sector": "geopolitics",
+      "subsector": "elections",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "death",
-        "nepal"
+        "cec",
+        "russia"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 90,
+      "priority_score": 85,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "76f143a91c32dceb09cc829f",
-      "importance_score": 78.0,
-      "importance_level": "HIGH",
+      "event_status": "NEW",
+      "event_id": "37424d196e1501df5e32cb0d",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 32,
-        "urgency": 10,
-        "novelty": 9.0,
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 16,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 4000,
+          "dead": 0,
           "injured": 0,
           "displaced": 0,
-          "missing": 4000,
+          "missing": 0,
           "affected": 0,
           "major_incident": false,
-          "crisis": true
+          "crisis": false
         },
         "significance_dims": {
-          "human": 12,
           "geopolitical": 4
         }
       },
-      "story_id": "8cb1c453e7e46b7f79206622f25904b598eedf659ccd08f46707ecc70a8d804f",
-      "public_label": "🔄 UPDATE",
-      "headline": "Nepal flash flood: Death toll rises to over 1,100, says police",
+      "story_id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b",
+      "article_sentences": [
+        "MOSCOW, September 2.",
+        "Russia’s Central Election Commission (CEC) will finalize the results of the upcoming State Duma (lower house of parliament) elections no later than October 5, CEC Deputy Chairman Nikolay Bulayev said.",
+        "\"The Russian Central Election Commission <...> is going to establish the overall results of the State Duma elections no later than in two weeks, that is, no later than October 5,\" he said.",
+        "Bulyaev explained that, in accordance with the law, the CEC would determine the election outcome in the nationwide constituency based on protocols from district election commissions, the overseas territorial election commission and the territorial election commission in Kazakhstan’s city of Baikonur, which hosts the Russian-leased space facility.",
+        "After that, the overall election results will be established based on the CEC protocol and decision on the election outcome in the nationwide constituency, as well as protocols and decisions from district election commissions on election outcomes in single-mandate constituencies."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Russian parliamentary election results to be finalized by October 5 — election official",
       "briefing": {
         "opening": [
-          "Nepal’s devastating flash floods have killed over 1,100 people, with nearly 4,000 still missing.",
-          "Rescue and relief operations continue as authorities search for survivors and provide aid to affected communities."
+          "MOSCOW, September 2.",
+          "Russia’s Central Election Commission (CEC) will finalize the results of the upcoming State Duma (lower house of parliament) elections no later than October 5, CEC Deputy Chairman Nikolay Bulayev said."
         ],
-        "body": [],
+        "body": [
+          "\"The Russian Central Election Commission <...> is going to establish the overall results of the State Duma elections no later than in two weeks, that is, no later than October 5,\" he said.",
+          "Bulyaev explained that, in accordance with the law, the CEC would determine the election outcome in the nationwide constituency based on protocols from district election commissions, the overseas territorial election commission and the territorial election commission in Kazakhstan’s city of Baikonur, which hosts the Russian-leased space facility.",
+          "After that, the overall election results will be established based on the CEC protocol and decision on the election outcome in the nationwide constituency, as well as protocols and decisions from district election commissions on election outcomes in single-mandate constituencies.",
+          "The overall election results will be established based on the CEC protocol and decision on the election outcome in the nationwide constituency."
+        ],
         "bullets": [
           {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "over 1,100 people"
+            "icon": "📍",
+            "label": "Location",
+            "text": "Kazakhstan’s city"
           }
         ],
         "sentences": [
           {
-            "text": "Rescue and relief operations continue as authorities search for survivors and provide aid to affected communities.",
-            "source": "The Hindu",
-            "item_id": "8cb1c453e7e46b7f79206622f25904b598eedf659ccd08f46707ecc70a8d804f",
+            "text": "MOSCOW, September 2.",
+            "source": "TASS English",
+            "item_id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b:article",
             "composed": false
           },
           {
-            "text": "Nepal’s devastating flash floods have killed over 1,100 people, with nearly 4,000 still missing.",
-            "source": "The Hindu",
-            "item_id": "8cb1c453e7e46b7f79206622f25904b598eedf659ccd08f46707ecc70a8d804f",
+            "text": "Russia’s Central Election Commission (CEC) will finalize the results of the upcoming State Duma (lower house of parliament) elections no later than October 5, CEC Deputy Chairman Nikolay Bulayev said.",
+            "source": "TASS English",
+            "item_id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b:article",
+            "composed": false
+          },
+          {
+            "text": "\"The Russian Central Election Commission <...> is going to establish the overall results of the State Duma elections no later than in two weeks, that is, no later than October 5,\" he said.",
+            "source": "TASS English",
+            "item_id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b:article",
+            "composed": false
+          },
+          {
+            "text": "Bulyaev explained that, in accordance with the law, the CEC would determine the election outcome in the nationwide constituency based on protocols from district election commissions, the overseas territorial election commission and the territorial election commission in Kazakhstan’s city of Baikonur, which hosts the Russian-leased space facility.",
+            "source": "TASS English",
+            "item_id": "6abc950b2148e6d2432dfe3d01a4766b98237009986a1e76197092d4700a2b5b:article",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.thehindu.com/videos/nepal-flash-flood-death-toll-rises-to-over-1100-says-police/article71419196.ece"
+        "url": "https://tass.com/politics/2181175"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     },
     {
-      "id": "74ebcd8add4b4266b2907ffa0904f3e8d865017cb325c1fd4d6c56f9d12bf230",
-      "title": "‘He was always a bit of a groundbreaker’: David Bowie enters a new dimension in ‘extended reality’ documentary",
-      "url": "https://www.theguardian.com/film/2026/sep/02/david-bowie-unseen-unheard-documentary-venice-film-festival",
-      "source": "The Guardian World",
+      "id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6",
+      "title": "Interceptor drone reaching speed up to 1,000 km/h is revolutionary development — expert",
+      "url": "https://tass.com/defense/2181167",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": null,
       "discovery": false,
-      "summary": "Hundreds of unseen images of the star feature at the Venice film festival, alongside virtual worlds exploring wildfires, wolves and the birth of stars David Bowie shares the bill with starmen, firefighters and Walt Disney wolves at the 10th anniversary edition of Venice Immersive, the film festival’s pioneering showcase for new forms of storytelling. David Bowie: Unseen Unheard – a 3D documentary featuring hundreds of previously unseen images – is among 69 XR (extended reality) pieces playing at the event’s regular base on Lazzaretto Vecchio, a repurposed small island off the Venice Lido. Venice Immersive’s 10th birthday marks a milestone for an event which aims to provide a bridge between e",
-      "published_at": "2026-09-02T10:36:31+00:00",
-      "updated_at": "2026-09-02T10:36:31+00:00",
-      "effective_at": "2026-09-02T10:36:31+00:00",
+      "summary": "The drone acquires its target using machine vision and a thermal imager",
+      "published_at": "2026-09-02T10:49:22+00:00",
+      "updated_at": "2026-09-02T10:49:22+00:00",
+      "effective_at": "2026-09-02T10:49:22+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 73,
+      "category": "technology",
+      "score": 60,
       "confidence": "medium",
-      "urgency_terms": [
-        "wildfire"
-      ],
-      "sector": "culture",
-      "subsector": "culture",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "defense",
       "subregion": null,
       "country": null,
-      "entities": [
-        "bowie",
-        "david",
-        "disney",
-        "immersive",
-        "lazzaretto",
-        "lido",
-        "unheard",
-        "unseen",
-        "vecchio",
-        "venice",
-        "walt",
-        "xr"
-      ],
+      "entities": [],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 98,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "f044cb79ec8134b93253de0a",
+      "event_id": "5c892bad10247a7b66349fb2",
       "importance_score": 30.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -173,38 +181,327 @@
           "crisis": false
         },
         "significance_dims": {
-          "infrastructure": 4
+          "security": 4
         }
       },
-      "story_id": "74ebcd8add4b4266b2907ffa0904f3e8d865017cb325c1fd4d6c56f9d12bf230",
+      "story_id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6",
+      "article_sentences": [
+        "MOSCOW, September 2.",
+        "The interceptor drone capable of reaching speeds up to 1,000 km/h, developed by a Tatarstan-based company, is a groundbreaking development in the field of anti-aircraft missile systems, Alexander Stepanov, a military expert at the Institute of Law and National Security at the Russian Presidential Academy of National Economy and Public Administration (RANEPA), told TASS.",
+        "Earlier, media reports said that the Tatarstan-based company Aerokon had demonstrated a prototype of an interceptor drone capable of reaching speeds of up to 1,000 km/h.",
+        "The drone acquires its target using machine vision and a thermal imager.",
+        "\"This is truly a revolution, in a certain sense, in anti-aircraft missile weapon systems.",
+        "The first aspect is the high degree of autonomy and the creation of a potentially dead area extending up to 150 km deep.",
+        "Given that terminal guidance is expected to utilize artificial intelligence algorithms, this significantly streamlines the use of this system, including under conditions of active electronic countermeasures.",
+        "Most importantly, it ensures a high level of safety for the carriers and delivery systems of such weapons,\" Stepanov noted.",
+        "According to the expert, the use of this drone will help secure maritime areas, paralyze NATO’s air patrols in key zones, and neutralize any aerial target on the front and in the rear.",
+        "\"I am confident that this concept includes mass production and a relatively low price compared to the expensive missiles of Western systems such as the Patriot.",
+        "This is an asymmetric response to both the drone wall and the mass deployment of missile defense and air defense systems along our border,\" concluded Stepanov."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "‘He was always a bit of a groundbreaker’: David Bowie enters a new dimension in ‘extended reality’ documentary",
+      "headline": "Interceptor drone reaching speed up to 1,000 km/h is revolutionary development — expert",
       "briefing": {
         "opening": [
-          "Hundreds of unseen images of the star feature at the Venice film festival, alongside virtual worlds exploring wildfires, wolves and the birth of stars David Bowie shares the bill with starmen, firefighters and Walt Disney wolves at the 10th anniversary edition of Venice Immersive, the film festival’s pioneering showcase for new forms of storytelling.",
-          "David Bowie: Unseen Unheard – a 3D documentary featuring hundreds of previously unseen images – is among 69 XR (extended reality) pieces playing at the event’s regular base on Lazzaretto Vecchio, a repurposed small island off the Venice Lido."
+          "MOSCOW, September 2.",
+          "The interceptor drone capable of reaching speeds up to 1,000 km/h, developed by a Tatarstan-based company, is a groundbreaking development in the field of anti-aircraft missile systems, Alexander Stepanov, a military expert at the Institute of Law and National Security at the Russian Presidential Academy of National Economy and Public Administration (RANEPA), told TASS."
         ],
         "body": [
-          "Venice Immersive’s 10th birthday marks a milestone for an event which aims to provide a bridge between."
+          "Earlier, media reports said that the Tatarstan-based company Aerokon had demonstrated a prototype of an interceptor drone capable of reaching speeds of up to 1,000 km/h.",
+          "The drone acquires its target using machine vision and a thermal imager.",
+          "\"This is truly a revolution, in a certain sense, in anti-aircraft missile weapon systems.",
+          "The first aspect is the high degree of autonomy and the creation of a potentially dead area extending up to 150 km deep.",
+          "Most importantly, it ensures a high level of safety for the carriers and delivery systems of such weapons,\" Stepanov noted.",
+          "According to the expert, the use of this drone will help secure maritime areas, paralyze NATO’s air patrols in key zones, and neutralize any aerial target on the front and in the rear.",
+          "\"I am confident that this concept includes mass production and a relatively low price compared to the expensive missiles of Western systems such as the Patriot."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Given that terminal guidance is expected to utilize artificial intelligence algorithms, this significantly streamlines the use of this system, including under conditions of active electronic countermeasures."
+          }
+        ],
         "sentences": [
           {
-            "text": "David Bowie: Unseen Unheard – a 3D documentary featuring hundreds of previously unseen images – is among 69 XR (extended reality) pieces playing at the event’s regular base on Lazzaretto Vecchio, a repurposed small island off the Venice Lido.",
-            "source": "The Guardian World",
-            "item_id": "74ebcd8add4b4266b2907ffa0904f3e8d865017cb325c1fd4d6c56f9d12bf230",
+            "text": "MOSCOW, September 2.",
+            "source": "TASS English",
+            "item_id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6:article",
             "composed": false
           },
           {
-            "text": "Hundreds of unseen images of the star feature at the Venice film festival, alongside virtual worlds exploring wildfires, wolves and the birth of stars David Bowie shares the bill with starmen, firefighters and Walt Disney wolves at the 10th anniversary edition of Venice Immersive, the film festival’s pioneering showcase for new forms of storytelling.",
-            "source": "The Guardian World",
-            "item_id": "74ebcd8add4b4266b2907ffa0904f3e8d865017cb325c1fd4d6c56f9d12bf230",
+            "text": "The interceptor drone capable of reaching speeds up to 1,000 km/h, developed by a Tatarstan-based company, is a groundbreaking development in the field of anti-aircraft missile systems, Alexander Stepanov, a military expert at the Institute of Law and National Security at the Russian Presidential Academy of National Economy and Public Administration (RANEPA), told TASS.",
+            "source": "TASS English",
+            "item_id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6:article",
+            "composed": false
+          },
+          {
+            "text": "Earlier, media reports said that the Tatarstan-based company Aerokon had demonstrated a prototype of an interceptor drone capable of reaching speeds of up to 1,000 km/h.",
+            "source": "TASS English",
+            "item_id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6:article",
+            "composed": false
+          },
+          {
+            "text": "The first aspect is the high degree of autonomy and the creation of a potentially dead area extending up to 150 km deep.",
+            "source": "TASS English",
+            "item_id": "636b5548fa4634afda0eef41dfcfd5346f66b882b9e5a86e2515f58303d485d6:article",
             "composed": false
           }
         ],
-        "source": "The Guardian World",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.theguardian.com/film/2026/sep/02/david-bowie-unseen-unheard-documentary-venice-film-festival"
+        "url": "https://tass.com/defense/2181167"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a",
+      "title": "Russian refineries better protected than those in UAE, Novak says",
+      "url": "https://tass.com/economy/2181179",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "The official highlighted that protecting the refineries had been quite costly for oil companies",
+      "published_at": "2026-09-02T10:53:21+00:00",
+      "updated_at": "2026-09-02T10:53:21+00:00",
+      "effective_at": "2026-09-02T10:53:21+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "companies",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "novak",
+        "russia",
+        "uae"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "f817aa59bbd199f656cb735a",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a",
+      "article_sentences": [
+        "VLADIVOSTOK, September 2.",
+        "Russian oil refineries are currently better protected than those in the UAE, as the country's authorities base security on a more stringent threat model, Deputy Prime Minister Alexander Novak told reporters on the sidelines of the Eastern Economic Forum (EEF).",
+        "\"Believe me, we are no worse, and perhaps even better, given the experience we've gained over the past few months.",
+        "Our design institutes, together with oil refineries, are working very closely to protect facilities, and the level, in my opinion, is much better because it is calculated based on a more stringent threat model,\" he said.",
+        "Novak was answering a question about whether Russian refineries need protection similar to that in the UAE, where tall metal frames and nets resembling scaffolding are built around storage tanks.",
+        "Novak also noted that protecting the refineries was quite costly for oil companies, but plant downtime would have resulted in much greater losses.",
+        "Russian President Vladimir Putin signed a decree on protecting critical infrastructure facilities in late August.",
+        "Under the document, the Russian government has the right to impose temporary management on critical infrastructure facilities if their owners fail to take safety measures or violate protection requirements.",
+        "Russian authorities will also be able to introduce temporary management at enterprises if their restoration is delayed.",
+        "The Eastern Economic Forum is taking place on September 1-4 in Vladivostok on the campus of the Far Eastern Federal University.",
+        "The main theme of the 2026 forum is \"The Far East - Development for the Benefit of People.\" The event is organized by the Roscongress Foundation with the support of the Russian government.",
+        "TASS is the general information partner."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Russian refineries better protected than those in UAE, Novak says",
+      "briefing": {
+        "opening": [
+          "VLADIVOSTOK, September 2.",
+          "Russian oil refineries are currently better protected than those in the UAE, as the country's authorities base security on a more stringent threat model, Deputy Prime Minister Alexander Novak told reporters on the sidelines of the Eastern Economic Forum (EEF)."
+        ],
+        "body": [
+          "\"Believe me, we are no worse, and perhaps even better, given the experience we've gained over the past few months.",
+          "Novak was answering a question about whether Russian refineries need protection similar to that in the UAE, where tall metal frames and nets resembling scaffolding are built around storage tanks.",
+          "Novak also noted that protecting the refineries was quite costly for oil companies, but plant downtime would have resulted in much greater losses.",
+          "Russian President Vladimir Putin signed a decree on protecting critical infrastructure facilities in late August.",
+          "Under the document, the Russian government has the right to impose temporary management on critical infrastructure facilities if their owners fail to take safety measures or violate protection requirements.",
+          "Russian authorities will also be able to introduce temporary management at enterprises if their restoration is delayed.",
+          "The Eastern Economic Forum is taking place on September 1-4 in Vladivostok on the campus of the Far Eastern Federal University."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Vladivostok"
+          },
+          {
+            "icon": "➡️",
+            "label": "Next",
+            "text": "Our design institutes, together with oil refineries, are working very closely to protect facilities, and the level, in my opinion, is much better because it is calculated based on a more stringent threat model,\" he said."
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Russian oil refineries are currently better protected than those in the UAE, as the country's authorities base security on a more stringent threat model, Deputy Prime Minister Alexander Novak told reporters on the sidelines of the Eastern Economic Forum (EEF).",
+            "source": "TASS English",
+            "item_id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a:article",
+            "composed": false
+          },
+          {
+            "text": "Novak was answering a question about whether Russian refineries need protection similar to that in the UAE, where tall metal frames and nets resembling scaffolding are built around storage tanks.",
+            "source": "TASS English",
+            "item_id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a:article",
+            "composed": false
+          },
+          {
+            "text": "Under the document, the Russian government has the right to impose temporary management on critical infrastructure facilities if their owners fail to take safety measures or violate protection requirements.",
+            "source": "TASS English",
+            "item_id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a:article",
+            "composed": false
+          },
+          {
+            "text": "Russian President Vladimir Putin signed a decree on protecting critical infrastructure facilities in late August.",
+            "source": "TASS English",
+            "item_id": "4d00c7e829a469f99f3b6eedeeb260e59cb90b24f9774263e1777b54097be73a:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/economy/2181179"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "c6bfcf56101f751dc88bdb52969482256aeaa64f9a556c12ad2bcde2dcbb1c3f",
+      "title": "Russia, China boosting tourism exchanges — Kremlin",
+      "url": "https://tass.com/politics/2181177",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "A visa-free regime is in effect for business and tourist trips between Russia and China until December 31, 2027",
+      "published_at": "2026-09-02T10:51:55+00:00",
+      "updated_at": "2026-09-02T10:51:55+00:00",
+      "effective_at": "2026-09-02T10:51:55+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "china",
+        "russia"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "cf504672ad0e10b34bd923c6",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "c6bfcf56101f751dc88bdb52969482256aeaa64f9a556c12ad2bcde2dcbb1c3f",
+      "article_sentences": [
+        "VLADIVOSTOK, September 2.",
+        "Moscow and Beijing are expanding cooperation in areas including medicine and tourism, according to the Kremlin’s materials for the upcoming meeting between Russian President Vladimir Putin and Chinese Vice Premier Ding Xuexiang on the sidelines of the Eastern Economic Forum (EEF), a TASS correspondent reported.",
+        "\"Humanitarian ties are actively strengthening.",
+        "Exchanges are increasing in areas such as education, culture and cinema, tourism and sports, youth cooperation, while cooperation in healthcare, archival affairs, media is expanding.",
+        "A visa-free regime is in effect for business and tourist trips until December 31, 2027 (imposed by each country separately),\" the document said.",
+        "The Eastern Economic Forum is taking place on September 1-4 in Vladivostok on the campus of the Far Eastern Federal University.",
+        "The main theme of this year’s EEF is \"The Far East: Development for the Benefit of People.\" The event is organized by the Roscongress Foundation with the support of the Russian government.",
+        "TASS is its general information partner."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Russia, China boosting tourism exchanges — Kremlin",
+      "briefing": {
+        "opening": [
+          "VLADIVOSTOK, September 2.",
+          "Moscow and Beijing are expanding cooperation in areas including medicine and tourism, according to the Kremlin’s materials for the upcoming meeting between Russian President Vladimir Putin and Chinese Vice Premier Ding Xuexiang on the sidelines of the Eastern Economic Forum (EEF), a TASS correspondent reported."
+        ],
+        "body": [
+          "\"Humanitarian ties are actively strengthening.",
+          "Exchanges are increasing in areas such as education, culture and cinema, tourism and sports, youth cooperation, while cooperation in healthcare, archival affairs, media is expanding.",
+          "A visa-free regime is in effect for business and tourist trips until December 31, 2027 (imposed by each country separately),\" the document said.",
+          "The Eastern Economic Forum is taking place on September 1-4 in Vladivostok on the campus of the Far Eastern Federal University.",
+          "The main theme of this year’s EEF is \"The Far East: Development for the Benefit of People.\" The event is organized by the Roscongress Foundation with the support of the Russian government.",
+          "TASS is its general information partner.",
+          "A visa-free regime is in effect for business and tourist trips between Russia and China until December 31, 2027."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Vladivostok"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The event is organized by the Roscongress Foundation with the support of the Russian government.",
+            "source": "TASS English",
+            "item_id": "c6bfcf56101f751dc88bdb52969482256aeaa64f9a556c12ad2bcde2dcbb1c3f:article",
+            "composed": false
+          },
+          {
+            "text": "Exchanges are increasing in areas such as education, culture and cinema, tourism and sports, youth cooperation, while cooperation in healthcare, archival affairs, media is expanding.",
+            "source": "TASS English",
+            "item_id": "c6bfcf56101f751dc88bdb52969482256aeaa64f9a556c12ad2bcde2dcbb1c3f:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/politics/2181177"
       },
       "group_size": 1,
       "label": "📰 NEWS"
