@@ -1,68 +1,500 @@
 {
-  "generated_at": "2026-09-03T10:50:47.726408+00:00",
-  "count": 1,
+  "generated_at": "2026-09-03T11:01:10.815745+00:00",
+  "count": 5,
   "stories": [
     {
-      "id": "4b38d80be748e69ffac95336e972a9e71aa05319117320fa90e47927ed343ee6",
-      "title": "Norway seizes Russian ship over US$4.2 billion claim by Ukrainian energy firm",
-      "url": "https://www.scmp.com/news/world/europe/article/3366254/norway-seizes-russian-ship-over-us42-billion-claim-ukrainian-energy-firm?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "0d2373f706d6d7119478c203577ca9d04b72107a50781658aadc08ddb0e94978",
+      "title": "DRC Ebola outbreak shows no signs of slowing as deaths top 3,000",
+      "url": "https://www.france24.com/en/video/20260903-drc-ebola-outbreak-shows-no-signs-of-slowing-as-deaths-top-3-000",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Europe",
+      "region": "Africa",
       "discovery": false,
-      "summary": "Norway had seized a Russian ship in the Arctic to enforce a US$4.22 billion compensation claim won by Ukrainian energy firm Naftogaz over Moscow’s seizure of its assets when Russia annexed Crimea in 2014, officials said late on Wednesday. The vessel, the Professor Molchanov, was seized off the Norwegian Arctic archipelago of Svalbard, according to Covington, the US law firm representing Naftogaz. The Russian state news agency TASS quoted a Foreign Ministry spokesperson as saying the Norwegian...",
-      "published_at": "2026-09-03T10:41:54+00:00",
-      "updated_at": "2026-09-03T10:41:54+00:00",
-      "effective_at": "2026-09-03T10:41:54+00:00",
+      "summary": "Congo’s Ebola outbreak has killed more than 3,000 people out of more than 6,100 confirmed cases, according to the latest government data from Wednesday, as the disease is spreading at an unprecedented speed, faster than efforts to track and slow it. Data from Congo’s Ministry of Health showed the outbreak has recorded 6,186 confirmed cases, including 3,007 deaths since it was declared a global health emergency in mid-May. It remains the fastest-growing outbreak of Ebola ever. FRANCE 24's Emmet Livingstone reports.",
+      "published_at": "2026-09-03T10:45:36+00:00",
+      "updated_at": "2026-09-03T10:45:36+00:00",
+      "effective_at": "2026-09-03T10:45:36+00:00",
       "language_status": "ENGLISH",
-      "category": "industry",
+      "category": "health",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "companies",
-      "subregion": "Europe",
+      "sector": "health",
+      "subsector": "outbreaks",
+      "subregion": "Central Africa",
       "country": null,
       "entities": [
-        "arctic",
-        "covington",
-        "crimea",
-        "foreign",
-        "ministry",
-        "molchanov",
-        "naftogaz",
-        "norway",
-        "norwegian",
-        "professor",
-        "russia",
-        "svalbard",
-        "tass",
-        "ukraine",
-        "us"
+        "congo",
+        "drc",
+        "ebola",
+        "emmet",
+        "france",
+        "health",
+        "livingstone",
+        "ministry"
       ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 1,
-      "corroborating_source_names": [
-        "France 24"
-      ],
-      "verified_match_count": 1,
-      "priority_score": 73,
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 85,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "UPDATE",
-      "event_id": "29fc064bbd14c5697fabcc49",
+      "event_id": "7a1d2601df128d062ad24774",
+      "importance_score": 79.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 32,
+        "urgency": 9.0,
+        "novelty": 8.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 6186,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 12,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "0d2373f706d6d7119478c203577ca9d04b72107a50781658aadc08ddb0e94978",
+      "public_label": "🔄 UPDATE",
+      "headline": "DRC Ebola outbreak shows no signs of slowing as deaths top 3,000",
+      "briefing": {
+        "opening": [
+          "Congo’s Ebola outbreak has killed more than 3,000 people out of more than 6,100 confirmed cases, according to the latest government data from Wednesday, as the disease is spreading at an unprecedented speed, faster than efforts to track and slow it.",
+          "Data from Congo’s Ministry of Health showed the outbreak has recorded 6,186 confirmed cases, including 3,007 deaths since it was declared a global health emergency in mid-May."
+        ],
+        "body": [
+          "It remains the fastest-growing outbreak of Ebola ever.",
+          "FRANCE 24's Emmet Livingstone reports."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "more than 3,000 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Congo’s Ebola outbreak has killed more than 3,000 people out of more than 6,100 confirmed cases, according to the latest government data from Wednesday, as the disease is spreading at an unprecedented speed, faster than efforts to track and slow it.",
+            "source": "France 24",
+            "item_id": "0d2373f706d6d7119478c203577ca9d04b72107a50781658aadc08ddb0e94978",
+            "composed": false
+          },
+          {
+            "text": "Data from Congo’s Ministry of Health showed the outbreak has recorded 6,186 confirmed cases, including 3,007 deaths since it was declared a global health emergency in mid-May.",
+            "source": "France 24",
+            "item_id": "0d2373f706d6d7119478c203577ca9d04b72107a50781658aadc08ddb0e94978",
+            "composed": false
+          },
+          {
+            "text": "It remains the fastest-growing outbreak of Ebola ever.",
+            "source": "France 24",
+            "item_id": "0d2373f706d6d7119478c203577ca9d04b72107a50781658aadc08ddb0e94978",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/video/20260903-drc-ebola-outbreak-shows-no-signs-of-slowing-as-deaths-top-3-000"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "edd2a54f04fa3cec76bfbc100d6bd41692484afd2f5e767002079b87ba225202",
+      "title": "Iran adds more than $1bn in oil revenue to foreign reserves",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-adds-more-1bn-oil-revenue-foreign-reserves",
+      "source": "Middle East Eye",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Iran adds more than $1bn in oil revenue to foreign reserves Iran received more than $1bn in oil revenue during the 11 days to September 2, according to the semi-official Fars news agency. Fars said documents reviewed by its reporter showed that authorities had transferred the foreign currency generated by oil exports into Iran’s reserves. The inflow will strengthen the central bank’s ability to cover the country’s foreign currency requirements, the report added. Iran generated more than 80 percent of the oil income forecast in its 2026-27 budget during the first five months of the fiscal year, which began on March 21.",
+      "published_at": "2026-09-03T10:53:18+00:00",
+      "updated_at": "2026-09-03T10:53:18+00:00",
+      "effective_at": "2026-09-03T10:53:18+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "banking",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "fars",
+        "iran"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 83,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "4fa4353834c968c2fdb8cb2a",
       "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
+        "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "economic": 4
+        }
+      },
+      "story_id": "edd2a54f04fa3cec76bfbc100d6bd41692484afd2f5e767002079b87ba225202",
+      "public_label": "📰 NEWS",
+      "headline": "Iran adds more than $1bn in oil revenue to foreign reserves",
+      "briefing": {
+        "opening": [
+          "Iran adds more than $1bn in oil revenue to foreign reserves Iran received more than $1bn in oil revenue during the 11 days to September 2, according to the semi-official Fars news agency.",
+          "Fars said documents reviewed by its reporter showed that authorities had transferred the foreign currency generated by oil exports into Iran’s reserves."
+        ],
+        "body": [
+          "The inflow will strengthen the central bank’s ability to cover the country’s foreign currency requirements, the report added.",
+          "Iran generated more than 80 percent of the oil income forecast in its 2026-27 budget during the first five months of the fiscal year, which began on March 21."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Fars said documents reviewed by its reporter showed that authorities had transferred the foreign currency generated by oil exports into Iran’s reserves.",
+            "source": "Middle East Eye",
+            "item_id": "edd2a54f04fa3cec76bfbc100d6bd41692484afd2f5e767002079b87ba225202",
+            "composed": false
+          },
+          {
+            "text": "Iran adds more than $1bn in oil revenue to foreign reserves Iran received more than $1bn in oil revenue during the 11 days to September 2, according to the semi-official Fars news agency.",
+            "source": "Middle East Eye",
+            "item_id": "edd2a54f04fa3cec76bfbc100d6bd41692484afd2f5e767002079b87ba225202",
+            "composed": false
+          },
+          {
+            "text": "Iran generated more than 80 percent of the oil income forecast in its 2026-27 budget during the first five months of the fiscal year, which began on March 21.",
+            "source": "Middle East Eye",
+            "item_id": "edd2a54f04fa3cec76bfbc100d6bd41692484afd2f5e767002079b87ba225202",
+            "composed": false
+          }
+        ],
+        "source": "Middle East Eye",
+        "corroborating": [],
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-adds-more-1bn-oil-revenue-foreign-reserves"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "ebc8f8f76d701d12524eef595ec885eca4596412620e60dd2532885d6081c001",
+      "title": "EEF becomes key regional cooperation platform — Myanmar’s vice president",
+      "url": "https://tass.com/world/2182081",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Nyo Saw highlighted that the EEF gave momentum to strengthening partnerships and seeking new ways to ensure sustainable development",
+      "published_at": "2026-09-03T10:58:39+00:00",
+      "updated_at": "2026-09-03T10:58:39+00:00",
+      "effective_at": "2026-09-03T10:58:39+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Southeast Asia",
+      "country": null,
+      "entities": [
+        "eef",
+        "myanmar",
+        "nyo",
+        "saw"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "67ba52830f12668b2cdbfa91",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "ebc8f8f76d701d12524eef595ec885eca4596412620e60dd2532885d6081c001",
+      "article_sentences": [
+        "VLADIVOSTOK, September 3.",
+        "The Eastern Economic Forum (EEF) in Russia’s Far East has become an important platform for economic cooperation in the Asia-Pacific region, Myanmar’s Vice President Nyo Saw said.",
+        "\"Amid global changes, it is this forum that gives momentum to strengthening partnerships and seeking new ways to ensure sustainable development,\" he pointed out in an address to the EEF plenary session."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "EEF becomes key regional cooperation platform — Myanmar’s vice president",
+      "briefing": {
+        "opening": [
+          "VLADIVOSTOK, September 3.",
+          "The Eastern Economic Forum (EEF) in Russia’s Far East has become an important platform for economic cooperation in the Asia-Pacific region, Myanmar’s Vice President Nyo Saw said."
+        ],
+        "body": [
+          "\"Amid global changes, it is this forum that gives momentum to strengthening partnerships and seeking new ways to ensure sustainable development,\" he pointed out in an address to the EEF plenary session.",
+          "Nyo Saw highlighted that the EEF gave momentum to strengthening partnerships and seeking new ways to ensure sustainable development."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Russia’s Far East"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "\"Amid global changes, it is this forum that gives momentum to strengthening partnerships and seeking new ways to ensure sustainable development,\" he pointed out in an address to the EEF plenary session.",
+            "source": "TASS English",
+            "item_id": "ebc8f8f76d701d12524eef595ec885eca4596412620e60dd2532885d6081c001:article",
+            "composed": false
+          },
+          {
+            "text": "The Eastern Economic Forum (EEF) in Russia’s Far East has become an important platform for economic cooperation in the Asia-Pacific region, Myanmar’s Vice President Nyo Saw said.",
+            "source": "TASS English",
+            "item_id": "ebc8f8f76d701d12524eef595ec885eca4596412620e60dd2532885d6081c001:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/world/2182081"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "73cc2fa5a9f3c1ebc6873ad705c79c25ca580f716daebbfa3a2406f2346b2ddd",
+      "title": "India targets weapons self-reliance with fully local assault rifle",
+      "url": "https://www.scmp.com/week-asia/economics/article/3366228/india-targets-weapons-self-reliance-fully-local-assault-rifle?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "India is touting its locally manufactured AK-203 Sher assault rifle – an advanced version of Russia’s powerful Kalashnikov – as an important milestone for the “Make in India” initiative to reduce reliance on foreign-made weapon systems. The Sher, or Tiger, will replace the older, heavily criticised Indian National Small Arms System (INSAS) service rifles used by the Indian Army. Complaints about the INSAS emerged just a year after it was adopted by the army. Indian soldiers fighting the...",
+      "published_at": "2026-09-03T11:00:08+00:00",
+      "updated_at": "2026-09-03T11:00:08+00:00",
+      "effective_at": "2026-09-03T11:00:08+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "ak-203",
+        "arms",
+        "army",
+        "india",
+        "indian",
+        "insas",
+        "kalashnikov",
+        "national",
+        "russia",
+        "sher",
+        "small",
+        "system",
+        "tiger"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "ca0643a82ba6046f91661491",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4
+        }
+      },
+      "story_id": "73cc2fa5a9f3c1ebc6873ad705c79c25ca580f716daebbfa3a2406f2346b2ddd",
+      "public_label": "📰 NEWS",
+      "headline": "India targets weapons self-reliance with fully local assault rifle",
+      "briefing": {
+        "opening": [
+          "India is touting its locally manufactured AK-203 Sher assault rifle – an advanced version of Russia’s powerful Kalashnikov – as an important milestone for the “Make in India” initiative to reduce reliance on foreign-made weapon systems.",
+          "The Sher, or Tiger, will replace the older, heavily criticised Indian National Small Arms System (INSAS) service rifles used by the Indian Army."
+        ],
+        "body": [
+          "Complaints about the INSAS emerged just a year after it was adopted by the army.",
+          "Indian soldiers fighting the..."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "India"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Sher, or Tiger, will replace the older, heavily criticised Indian National Small Arms System (INSAS) service rifles used by the Indian Army.",
+            "source": "South China Morning Post",
+            "item_id": "73cc2fa5a9f3c1ebc6873ad705c79c25ca580f716daebbfa3a2406f2346b2ddd",
+            "composed": false
+          },
+          {
+            "text": "Complaints about the INSAS emerged just a year after it was adopted by the army.",
+            "source": "South China Morning Post",
+            "item_id": "73cc2fa5a9f3c1ebc6873ad705c79c25ca580f716daebbfa3a2406f2346b2ddd",
+            "composed": false
+          },
+          {
+            "text": "India is touting its locally manufactured AK-203 Sher assault rifle – an advanced version of Russia’s powerful Kalashnikov – as an important milestone for the “Make in India” initiative to reduce reliance on foreign-made weapon systems.",
+            "source": "South China Morning Post",
+            "item_id": "73cc2fa5a9f3c1ebc6873ad705c79c25ca580f716daebbfa3a2406f2346b2ddd",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/week-asia/economics/article/3366228/india-targets-weapons-self-reliance-fully-local-assault-rifle?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "5c2d801bb8710a35a57ce1af770454db195e48d30d8dfa0f321f8a218bd2c3bc",
+      "title": "Senegalese consumers rally online against rising cost of living",
+      "url": "https://www.france24.com/en/video/20260903-senegalese-consumers-rally-online-against-rising-cost-of-living",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "In Senegal, the price of a kilogram of meat has risen from 3,800 to 5,500 CFA francs in just a few months, while the price of onions has doubled. Fuel, transportation, rent… No sector has been spared by the surge in prices. Senegalese consumers who are frustrated by the rising cost of living in Dakar have launched a new hashtag: #30DaysForTheRightPrice. The organisers of this widely shared digital campaign want to alert the authorities to the social consequences of the situation, particularly for the most vulnerable households. FRANCE 24's team on the ground reports.",
+      "published_at": "2026-09-03T10:53:15+00:00",
+      "updated_at": "2026-09-03T10:53:15+00:00",
+      "effective_at": "2026-09-03T10:53:15+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "markets",
+      "subregion": "West Africa",
+      "country": null,
+      "entities": [
+        "cfa",
+        "dakar",
+        "france",
+        "senegal"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 83,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "4d74ae5b8947b850131ed700",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
         "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
@@ -77,38 +509,52 @@
         },
         "significance_dims": {}
       },
-      "story_id": "4b38d80be748e69ffac95336e972a9e71aa05319117320fa90e47927ed343ee6",
-      "public_label": "🔄 UPDATE",
-      "headline": "Norway seizes Russian ship over US$4.2 billion claim by Ukrainian energy firm",
+      "story_id": "5c2d801bb8710a35a57ce1af770454db195e48d30d8dfa0f321f8a218bd2c3bc",
+      "public_label": "📰 NEWS",
+      "headline": "Senegalese consumers rally online against rising cost of living",
       "briefing": {
         "opening": [
-          "Norway had seized a Russian ship in the Arctic to enforce a US$4.22 billion compensation claim won by Ukrainian energy firm Naftogaz over Moscow’s seizure of its assets when Russia annexed Crimea in 2014, officials said late on Wednesday.",
-          "The vessel, the Professor Molchanov, was seized off the Norwegian Arctic archipelago of Svalbard, according to Covington, the US law firm representing Naftogaz."
+          "In Senegal, the price of a kilogram of meat has risen from 3,800 to 5,500 CFA francs in just a few months, while the price of onions has doubled.",
+          "Fuel, transportation, rent… No sector has been spared by the surge in prices."
         ],
         "body": [
-          "The Russian state news agency TASS quoted a Foreign Ministry spokesperson as saying the Norwegian..."
+          "Senegalese consumers who are frustrated by the rising cost of living in Dakar have launched a new hashtag: #30DaysForTheRightPrice.",
+          "The organisers of this widely shared digital campaign want to alert the authorities to the social consequences of the situation, particularly for the most vulnerable households.",
+          "FRANCE 24's team on the ground reports."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Dakar"
+          }
+        ],
         "sentences": [
           {
-            "text": "The vessel, the Professor Molchanov, was seized off the Norwegian Arctic archipelago of Svalbard, according to Covington, the US law firm representing Naftogaz.",
-            "source": "South China Morning Post",
-            "item_id": "4b38d80be748e69ffac95336e972a9e71aa05319117320fa90e47927ed343ee6",
+            "text": "In Senegal, the price of a kilogram of meat has risen from 3,800 to 5,500 CFA francs in just a few months, while the price of onions has doubled.",
+            "source": "France 24",
+            "item_id": "5c2d801bb8710a35a57ce1af770454db195e48d30d8dfa0f321f8a218bd2c3bc",
             "composed": false
           },
           {
-            "text": "Norway had seized a Russian ship in the Arctic to enforce a US$4.22 billion compensation claim won by Ukrainian energy firm Naftogaz over Moscow’s seizure of its assets when Russia annexed Crimea in 2014, officials said late on Wednesday.",
-            "source": "South China Morning Post",
-            "item_id": "4b38d80be748e69ffac95336e972a9e71aa05319117320fa90e47927ed343ee6",
+            "text": "Senegalese consumers who are frustrated by the rising cost of living in Dakar have launched a new hashtag: #30DaysForTheRightPrice.",
+            "source": "France 24",
+            "item_id": "5c2d801bb8710a35a57ce1af770454db195e48d30d8dfa0f321f8a218bd2c3bc",
+            "composed": false
+          },
+          {
+            "text": "FRANCE 24's team on the ground reports.",
+            "source": "France 24",
+            "item_id": "5c2d801bb8710a35a57ce1af770454db195e48d30d8dfa0f321f8a218bd2c3bc",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/world/europe/article/3366254/norway-seizes-russian-ship-over-us42-billion-claim-ukrainian-energy-firm?utm_source=rss_feed"
+        "url": "https://www.france24.com/en/video/20260903-senegalese-consumers-rally-online-against-rising-cost-of-living"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     }
   ]
 }
