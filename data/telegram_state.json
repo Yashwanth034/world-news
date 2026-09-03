@@ -1,22 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "3a2a7f5fda4b96c3875c4633e85028dde0c9a37333e582a6e53d9d04e41f6cf3",
-      "event_id": "e68ad13cdf9a20977576e56b",
-      "item_id": "3a2a7f5fda4b96c3875c4633e85028dde0c9a37333e582a6e53d9d04e41f6cf3",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-09-03T01:05:10+00:00",
-      "attempts": 0
-    },
-    {
-      "story_id": "e56cca42983c95fb1b9d31c04cbbea871d20dcec74a5585505a5def818dc37e3",
-      "event_id": "1279afb0d8d1bb84e0349472",
-      "item_id": "e56cca42983c95fb1b9d31c04cbbea871d20dcec74a5585505a5def818dc37e3",
-      "label": "🔄 UPDATE",
-      "scheduled_at": "2026-09-03T01:03:44+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "560e0bedd08e74fb8007e507a4544b513788c8e895186bda98315a74fe480fc4",
       "event_id": "9b0d315d87de9059695bc888",
       "item_id": "560e0bedd08e74fb8007e507a4544b513788c8e895186bda98315a74fe480fc4",
@@ -959,9 +943,51 @@
       "label": "📰 NEWS",
       "scheduled_at": "2026-09-03T12:45:12+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "9d35d5e0ae6d59488fc6882e8f2c5b6111e996cef5d67cecb8cffe794e701b70",
+      "event_id": "0dd3ff8403beb9ba41a4f2f6",
+      "item_id": "9d35d5e0ae6d59488fc6882e8f2c5b6111e996cef5d67cecb8cffe794e701b70",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-09-03T13:07:34+00:00",
+      "attempts": 0
+    },
+    {
+      "story_id": "5cc720291001c1080c1c18eb12101496c6f7695eabe66c9776780ee7894e1293",
+      "event_id": "e0778c08616588a4e9ba96c9",
+      "item_id": "5cc720291001c1080c1c18eb12101496c6f7695eabe66c9776780ee7894e1293",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-09-03T13:05:20+00:00",
+      "attempts": 0
+    },
+    {
+      "story_id": "24b7328719535e2a3b4f4c39484920f72a41339f570fa33d1f0c65145419ef8c",
+      "event_id": "db606089347f4e048528caab",
+      "item_id": "24b7328719535e2a3b4f4c39484920f72a41339f570fa33d1f0c65145419ef8c",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-09-03T13:08:09+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "22170937c69e8aa23aecca1af63af34178c8272ffab6d96f83c8749a014f3234",
+      "event_id": "4afc4c91a0209e6427477cdd",
+      "item_id": "22170937c69e8aa23aecca1af63af34178c8272ffab6d96f83c8749a014f3234",
+      "label": "📰 NEWS",
+      "message_id": 3244,
+      "posted_at": "2026-09-03T13:07:34.000139+00:00",
+      "scheduled_at": "2026-09-03T13:04:23+00:00"
+    },
+    {
+      "story_id": "0326379a4bd2c6b5b0357583a20b26e59acad1b3e83947e6e795c58051996675",
+      "event_id": "38dd325eaa97ec22c93866ea",
+      "item_id": "0326379a4bd2c6b5b0357583a20b26e59acad1b3e83947e6e795c58051996675",
+      "label": "📰 NEWS",
+      "message_id": 3243,
+      "posted_at": "2026-09-03T12:57:05.000150+00:00",
+      "scheduled_at": "2026-09-03T12:57:05+00:00"
+    },
     {
       "story_id": "17c9894a26244898204d9f007ff29522567ec2af1d2462c81717fc5790034268",
       "event_id": "7c64436bfad578c980217cd5",
@@ -4021,26 +4047,8 @@
       "message_id": 2901,
       "posted_at": "2026-09-01T07:08:13.000131+00:00",
       "scheduled_at": "2026-09-01T07:04:13+00:00"
-    },
-    {
-      "story_id": "781d926b8ef90d32c0a43555c5fcc326cef0b423cd8dcfba34f022978c2b95f3",
-      "event_id": "bd6eb406f41fab5d14ad0ba7",
-      "item_id": "781d926b8ef90d32c0a43555c5fcc326cef0b423cd8dcfba34f022978c2b95f3",
-      "label": "📰 NEWS",
-      "message_id": 2900,
-      "posted_at": "2026-09-01T07:04:37.000159+00:00",
-      "scheduled_at": "2026-09-01T07:03:45+00:00"
-    },
-    {
-      "story_id": "0326379a4bd2c6b5b0357583a20b26e59acad1b3e83947e6e795c58051996675",
-      "event_id": "38dd325eaa97ec22c93866ea",
-      "item_id": "0326379a4bd2c6b5b0357583a20b26e59acad1b3e83947e6e795c58051996675",
-      "label": "📰 NEWS",
-      "message_id": 3243,
-      "posted_at": "2026-09-03T12:57:05.000150+00:00",
-      "scheduled_at": "2026-09-03T12:57:05+00:00"
     }
   ],
   "failures": [],
-  "last_posted_at": "2026-09-03T12:57:05.000150+00:00"
+  "last_posted_at": "2026-09-03T13:07:34.000139+00:00"
 }
