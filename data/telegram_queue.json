@@ -1,522 +1,68 @@
 {
-  "generated_at": "2026-09-03T10:40:48.827669+00:00",
-  "count": 5,
+  "generated_at": "2026-09-03T10:50:47.726408+00:00",
+  "count": 1,
   "stories": [
     {
-      "id": "09970b2d67496f8c4b792cb764236df628fd0755662c8fe34c9adb3a6c716de1",
-      "title": "More than 600 foreigners listed as missing following floods in Nepal — police",
-      "url": "https://tass.com/world/2182065",
-      "source": "TASS English",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "NEW DELHI, September 3. At least 601 foreign nationals are listed as missing following floods and a landslide in Nepal, the country’s police reported. \"The total number of those missing stands at 4,875, including 2,924 Nepalese citizens and 601 foreigners,\" police said. According to the latest data, as many as 1,252 people died. A flood struck northern Nepal on August 26, caused by an avalanche on the border with China, about 20 kilometers northeast of the Rasuwagadhi border crossing. A powerful flow of water, dirt and rocks rushed over 70 kilometers down a river, destroying nearby settlements and flooding a large territory.",
-      "published_at": "2026-09-03T10:36:27+00:00",
-      "updated_at": "2026-09-03T10:36:27+00:00",
-      "effective_at": "2026-09-03T10:36:27+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "floods",
-      "subregion": "South Asia",
-      "country": null,
-      "entities": [
-        "china",
-        "delhi",
-        "nepal",
-        "nepalese",
-        "rasuwagadhi"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 85,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "NEW DELHI, September 3.",
-        "At least 601 foreign nationals are listed as missing following floods and a landslide in Nepal, the country’s police reported.",
-        "\"The total number of those missing stands at 4,875, including 2,924 Nepalese citizens and 601 foreigners,\" police said.",
-        "According to the latest data, as many as 1,252 people died.",
-        "A flood struck northern Nepal on August 26, caused by an avalanche on the border with China, about 20 kilometers northeast of the Rasuwagadhi border crossing.",
-        "A powerful flow of water, dirt and rocks rushed over 70 kilometers down a river, destroying nearby settlements and flooding a large territory."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "cb9bd817e5f67844403612e8",
-      "importance_score": 82.0,
-      "importance_level": "HIGH",
-      "importance_breakdown": {
-        "impact": 32,
-        "urgency": 10,
-        "novelty": 9.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 20,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 1252,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 4875,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": true
-        },
-        "significance_dims": {
-          "human": 12,
-          "infrastructure": 4,
-          "geopolitical": 4
-        }
-      },
-      "story_id": "09970b2d67496f8c4b792cb764236df628fd0755662c8fe34c9adb3a6c716de1",
-      "public_label": "🔄 UPDATE",
-      "headline": "More than 600 foreigners listed as missing following floods in Nepal — police",
-      "briefing": {
-        "opening": [
-          "NEW DELHI, September 3.",
-          "At least 601 foreign nationals are listed as missing following floods and a landslide in Nepal, the country’s police reported."
-        ],
-        "body": [
-          "\"The total number of those missing stands at 4,875, including 2,924 Nepalese citizens and 601 foreigners,\" police said.",
-          "According to the latest data, as many as 1,252 people died.",
-          "A flood struck northern Nepal on August 26, caused by an avalanche on the border with China, about 20 kilometers northeast of the Rasuwagadhi border crossing.",
-          "A powerful flow of water, dirt and rocks rushed over 70 kilometers down a river, destroying nearby settlements and flooding a large territory."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Nepal"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "1,252 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "A flood struck northern Nepal on August 26, caused by an avalanche on the border with China, about 20 kilometers northeast of the Rasuwagadhi border crossing.",
-            "source": "TASS English",
-            "item_id": "09970b2d67496f8c4b792cb764236df628fd0755662c8fe34c9adb3a6c716de1:article",
-            "composed": false
-          },
-          {
-            "text": "\"The total number of those missing stands at 4,875, including 2,924 Nepalese citizens and 601 foreigners,\" police said.",
-            "source": "TASS English",
-            "item_id": "09970b2d67496f8c4b792cb764236df628fd0755662c8fe34c9adb3a6c716de1:article",
-            "composed": false
-          },
-          {
-            "text": "According to the latest data, as many as 1,252 people died.",
-            "source": "TASS English",
-            "item_id": "09970b2d67496f8c4b792cb764236df628fd0755662c8fe34c9adb3a6c716de1:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/world/2182065"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "e1b7fa3e56aa675eab31be41b62ea628adafe01972b58376a484cfed274a226a",
-      "title": "Tunisia's top court set to rule in ‘conspiracy against the state’ case",
-      "url": "https://www.france24.com/en/video/20260903-tunisia-s-top-court-set-to-rule-in-conspiracy-against-the-state-case",
-      "source": "France 24",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Africa",
-      "discovery": false,
-      "summary": "In Tunisia, the Court of Cassation is set to issue its final ruling in the “conspiracy against the state” case. In April 2025, 37 people – most of them prominent political figures opposed to President Kais Saied – were sentenced to prison in connection with the case. Several human rights organisations have condemned the trial as unjust and called for the release of all political detainees. The appeal represents the defendants’ last legal avenue to overturn their convictions, according to a press release from Amnesty International. But defence lawyers and the detainees’ families remain pessimistic, as FRANCE 24’s Lilia Blaise reports.",
-      "published_at": "2026-09-03T10:36:37+00:00",
-      "updated_at": "2026-09-03T10:36:37+00:00",
-      "effective_at": "2026-09-03T10:36:37+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "courts",
-      "subregion": "North Africa",
-      "country": null,
-      "entities": [
-        "amnesty",
-        "blaise",
-        "cassation",
-        "court",
-        "france",
-        "international",
-        "kais",
-        "lilia",
-        "saied",
-        "tunisia"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "4acaed1a373bafc7bd9455f6",
-      "importance_score": 52.0,
-      "importance_level": "MEDIUM",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 9.0,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 24,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "scientific": 8,
-          "human": 4,
-          "security": 4,
-          "infrastructure": 4,
-          "geopolitical": 4
-        }
-      },
-      "story_id": "e1b7fa3e56aa675eab31be41b62ea628adafe01972b58376a484cfed274a226a",
-      "public_label": "🔄 UPDATE",
-      "headline": "Tunisia's top court set to rule in ‘conspiracy against the state’ case",
-      "briefing": {
-        "opening": [
-          "In Tunisia, the Court of Cassation is set to issue its final ruling in the “conspiracy against the state” case.",
-          "In April 2025, 37 people – most of them prominent political figures opposed to President Kais Saied – were sentenced to prison in connection with the case."
-        ],
-        "body": [
-          "Several human rights organisations have condemned the trial as unjust and called for the release of all political detainees.",
-          "The appeal represents the defendants’ last legal avenue to overturn their convictions, according to a press release from Amnesty International.",
-          "But defence lawyers and the detainees’ families remain pessimistic, as FRANCE 24’s Lilia Blaise reports."
-        ],
-        "bullets": [
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "37 people"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "In April 2025, 37 people – most of them prominent political figures opposed to President Kais Saied – were sentenced to prison in connection with the case.",
-            "source": "France 24",
-            "item_id": "e1b7fa3e56aa675eab31be41b62ea628adafe01972b58376a484cfed274a226a",
-            "composed": false
-          },
-          {
-            "text": "In Tunisia, the Court of Cassation is set to issue its final ruling in the “conspiracy against the state” case.",
-            "source": "France 24",
-            "item_id": "e1b7fa3e56aa675eab31be41b62ea628adafe01972b58376a484cfed274a226a",
-            "composed": false
-          },
-          {
-            "text": "Several human rights organisations have condemned the trial as unjust and called for the release of all political detainees.",
-            "source": "France 24",
-            "item_id": "e1b7fa3e56aa675eab31be41b62ea628adafe01972b58376a484cfed274a226a",
-            "composed": false
-          },
-          {
-            "text": "But defence lawyers and the detainees’ families remain pessimistic, as FRANCE 24’s Lilia Blaise reports.",
-            "source": "France 24",
-            "item_id": "e1b7fa3e56aa675eab31be41b62ea628adafe01972b58376a484cfed274a226a",
-            "composed": false
-          }
-        ],
-        "source": "France 24",
-        "corroborating": [],
-        "url": "https://www.france24.com/en/video/20260903-tunisia-s-top-court-set-to-rule-in-conspiracy-against-the-state-case"
-      },
-      "group_size": 1,
-      "label": "🔄 UPDATE"
-    },
-    {
-      "id": "e5f398d406cfb7335f43ca13d5178d03f4d71ebf54acb4f222b619a47a309b65",
-      "title": "Are Z.ai and MiniMax heading down opposite financial paths months after Hong Kong IPOs?",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3366253/are-zai-and-minimax-heading-down-opposite-financial-paths-months-after-hong-kong-ipos?utm_source=rss_feed",
+      "id": "4b38d80be748e69ffac95336e972a9e71aa05319117320fa90e47927ed343ee6",
+      "title": "Norway seizes Russian ship over US$4.2 billion claim by Ukrainian energy firm",
+      "url": "https://www.scmp.com/news/world/europe/article/3366254/norway-seizes-russian-ship-over-us42-billion-claim-ukrainian-energy-firm?utm_source=rss_feed",
       "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "When two of China’s leading AI pioneers went public in Hong Kong in January, they pitched investors on a shared promise: capturing the explosive demand for artificial intelligence at home and abroad. Their first-half earnings, however, suggest that narrative could be splintering into two different trajectories. While Beijing-based Z.ai, also known as Zhipu AI, is winning over market analysts on the back of surging revenue and top-tier model performance, its Shanghai rival MiniMax is facing...",
-      "published_at": "2026-09-03T10:38:59+00:00",
-      "updated_at": "2026-09-03T10:38:59+00:00",
-      "effective_at": "2026-09-03T10:38:59+00:00",
+      "summary": "Norway had seized a Russian ship in the Arctic to enforce a US$4.22 billion compensation claim won by Ukrainian energy firm Naftogaz over Moscow’s seizure of its assets when Russia annexed Crimea in 2014, officials said late on Wednesday. The vessel, the Professor Molchanov, was seized off the Norwegian Arctic archipelago of Svalbard, according to Covington, the US law firm representing Naftogaz. The Russian state news agency TASS quoted a Foreign Ministry spokesperson as saying the Norwegian...",
+      "published_at": "2026-09-03T10:41:54+00:00",
+      "updated_at": "2026-09-03T10:41:54+00:00",
+      "effective_at": "2026-09-03T10:41:54+00:00",
       "language_status": "ENGLISH",
-      "category": "technology",
+      "category": "industry",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "ai",
-      "subregion": "East Asia",
+      "sector": "companies",
+      "subsector": "companies",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "ai",
-        "beijing-based",
-        "china",
-        "hong_kong",
-        "ipos",
-        "minimax",
-        "shanghai",
-        "zhipu"
+        "arctic",
+        "covington",
+        "crimea",
+        "foreign",
+        "ministry",
+        "molchanov",
+        "naftogaz",
+        "norway",
+        "norwegian",
+        "professor",
+        "russia",
+        "svalbard",
+        "tass",
+        "ukraine",
+        "us"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "France 24"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 73,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "d379689680ab0c3b002b4b47",
-      "importance_score": 33.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "security": 4
-        }
-      },
-      "story_id": "e5f398d406cfb7335f43ca13d5178d03f4d71ebf54acb4f222b619a47a309b65",
-      "public_label": "📰 NEWS",
-      "headline": "Are Z.ai and MiniMax heading down opposite financial paths months after Hong Kong IPOs?",
-      "briefing": {
-        "opening": [
-          "When two of China’s leading AI pioneers went public in Hong Kong in January, they pitched investors on a shared promise: capturing the explosive demand for artificial intelligence at home and abroad.",
-          "Their first-half earnings, however, suggest that narrative could be splintering into two different trajectories."
-        ],
-        "body": [
-          "While Beijing-based Z.ai, also known as Zhipu AI, is winning over market analysts on the back of surging revenue and top-tier model performance, its Shanghai rival MiniMax is facing..."
-        ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Hong Kong"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "Their first-half earnings, however, suggest that narrative could be splintering into two different trajectories.",
-            "source": "South China Morning Post",
-            "item_id": "e5f398d406cfb7335f43ca13d5178d03f4d71ebf54acb4f222b619a47a309b65",
-            "composed": false
-          },
-          {
-            "text": "When two of China’s leading AI pioneers went public in Hong Kong in January, they pitched investors on a shared promise: capturing the explosive demand for artificial intelligence at home and abroad.",
-            "source": "South China Morning Post",
-            "item_id": "e5f398d406cfb7335f43ca13d5178d03f4d71ebf54acb4f222b619a47a309b65",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/tech/tech-trends/article/3366253/are-zai-and-minimax-heading-down-opposite-financial-paths-months-after-hong-kong-ipos?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "d12bf17250fc3f9a4035e493bd4287442f1efb00e0e295d304d7387121ab5556",
-      "title": "21 men, including private tutors, arrested for possessing child porn, unlawful filming",
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3366252/21-men-including-private-tutors-arrested-possessing-child-porn-unlawful-filming?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Hong Kong police have arrested 21 men for possession of child pornography and upskirt images, with the arrestees including private tutors accused of surreptitiously filming their students during classes. Superintendent Wong Yick-lung of Kowloon East regional headquarters for crime said on Thursday that officers had uncovered a social media chat group containing child pornography, as well as upskirt images taken on public transport and in shopping centres, that could be downloaded. “The arrestees...",
-      "published_at": "2026-09-03T10:31:23+00:00",
-      "updated_at": "2026-09-03T10:31:23+00:00",
-      "effective_at": "2026-09-03T10:31:23+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "technology",
-      "subsector": "internet",
-      "subregion": "East Asia",
-      "country": null,
-      "entities": [
-        "east",
-        "hong_kong",
-        "kowloon",
-        "superintendent",
-        "wong",
-        "yick-lung"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "ba0cca5179495898cfaed93f",
+      "event_status": "UPDATE",
+      "event_id": "29fc064bbd14c5697fabcc49",
       "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "infrastructure": 4
-        }
-      },
-      "story_id": "d12bf17250fc3f9a4035e493bd4287442f1efb00e0e295d304d7387121ab5556",
-      "public_label": "📰 NEWS",
-      "headline": "21 men, including private tutors, arrested for possessing child porn, unlawful filming",
-      "briefing": {
-        "opening": [
-          "Hong Kong police have arrested 21 men for possession of child pornography and upskirt images, with the arrestees including private tutors accused of surreptitiously filming their students during classes.",
-          "Superintendent Wong Yick-lung of Kowloon East regional headquarters for crime said on Thursday that officers had uncovered a social media chat group containing child pornography, as well as upskirt images taken on public transport and in shopping centres, that could be downloaded."
-        ],
-        "body": [
-          "“The arrestees..."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Hong Kong police have arrested 21 men for possession of child pornography and upskirt images, with the arrestees including private tutors accused of surreptitiously filming their students during classes.",
-            "source": "South China Morning Post",
-            "item_id": "d12bf17250fc3f9a4035e493bd4287442f1efb00e0e295d304d7387121ab5556",
-            "composed": false
-          },
-          {
-            "text": "Superintendent Wong Yick-lung of Kowloon East regional headquarters for crime said on Thursday that officers had uncovered a social media chat group containing child pornography, as well as upskirt images taken on public transport and in shopping centres, that could be downloaded.",
-            "source": "South China Morning Post",
-            "item_id": "d12bf17250fc3f9a4035e493bd4287442f1efb00e0e295d304d7387121ab5556",
-            "composed": false
-          }
-        ],
-        "source": "South China Morning Post",
-        "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3366252/21-men-including-private-tutors-arrested-possessing-child-porn-unlawful-filming?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "25494908cec2cb1c5a2652e2b77d100d43b7e1a66e47b855987a425f7d773339",
-      "title": "In an art gallery far, far away: George Lucas unveils art galaxy at new LA museum",
-      "url": "https://www.france24.com/en/video/20260903-in-an-art-gallery-far-far-away-george-lucas-unveils-art-galaxy-at-new-la-museum",
-      "source": "France 24",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "George Lucas, the legendary creator of the \"Star Wars\" saga, on Wednesday showcased his long-awaited Museum of Narrative Art, the culmination of nearly two decades of work and numerous obstacles. \"I'm used to doing the impossible. This one almost broke my will,\" Lucas said as he offered reporters a first glimpse inside, ahead of the museum's official opening on September 22. Lucas, 82, has described the complex built with his wife and business partner, Mellody Hobson, as the \"people's temple of art.\"",
-      "published_at": "2026-09-03T10:31:01+00:00",
-      "updated_at": "2026-09-03T10:31:01+00:00",
-      "effective_at": "2026-09-03T10:31:01+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "culture",
-      "subsector": "culture",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "art",
-        "george",
-        "hobson",
-        "la",
-        "lucas",
-        "mellody",
-        "museum",
-        "narrative",
-        "star",
-        "wars"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 100,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "05e5903f5290edaa9d8c9d12",
-      "importance_score": 26.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
+        "corroboration": 6,
         "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
@@ -531,39 +77,38 @@
         },
         "significance_dims": {}
       },
-      "story_id": "25494908cec2cb1c5a2652e2b77d100d43b7e1a66e47b855987a425f7d773339",
-      "public_label": "📰 NEWS",
-      "headline": "In an art gallery far, far away: George Lucas unveils art galaxy at new LA museum",
+      "story_id": "4b38d80be748e69ffac95336e972a9e71aa05319117320fa90e47927ed343ee6",
+      "public_label": "🔄 UPDATE",
+      "headline": "Norway seizes Russian ship over US$4.2 billion claim by Ukrainian energy firm",
       "briefing": {
         "opening": [
-          "George Lucas, the legendary creator of the \"Star Wars\" saga, on Wednesday showcased his long-awaited Museum of Narrative Art, the culmination of nearly two decades of work and numerous obstacles.",
-          "\"I'm used to doing the impossible."
+          "Norway had seized a Russian ship in the Arctic to enforce a US$4.22 billion compensation claim won by Ukrainian energy firm Naftogaz over Moscow’s seizure of its assets when Russia annexed Crimea in 2014, officials said late on Wednesday.",
+          "The vessel, the Professor Molchanov, was seized off the Norwegian Arctic archipelago of Svalbard, according to Covington, the US law firm representing Naftogaz."
         ],
         "body": [
-          "This one almost broke my will,\" Lucas said as he offered reporters a first glimpse inside, ahead of the museum's official opening on September 22.",
-          "Lucas, 82, has described the complex built with his wife and business partner, Mellody Hobson, as the \"people's temple of art.\""
+          "The Russian state news agency TASS quoted a Foreign Ministry spokesperson as saying the Norwegian..."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Lucas, 82, has described the complex built with his wife and business partner, Mellody Hobson, as the \"people's temple of art.\"",
-            "source": "France 24",
-            "item_id": "25494908cec2cb1c5a2652e2b77d100d43b7e1a66e47b855987a425f7d773339",
+            "text": "The vessel, the Professor Molchanov, was seized off the Norwegian Arctic archipelago of Svalbard, according to Covington, the US law firm representing Naftogaz.",
+            "source": "South China Morning Post",
+            "item_id": "4b38d80be748e69ffac95336e972a9e71aa05319117320fa90e47927ed343ee6",
             "composed": false
           },
           {
-            "text": "George Lucas, the legendary creator of the \"Star Wars\" saga, on Wednesday showcased his long-awaited Museum of Narrative Art, the culmination of nearly two decades of work and numerous obstacles.",
-            "source": "France 24",
-            "item_id": "25494908cec2cb1c5a2652e2b77d100d43b7e1a66e47b855987a425f7d773339",
+            "text": "Norway had seized a Russian ship in the Arctic to enforce a US$4.22 billion compensation claim won by Ukrainian energy firm Naftogaz over Moscow’s seizure of its assets when Russia annexed Crimea in 2014, officials said late on Wednesday.",
+            "source": "South China Morning Post",
+            "item_id": "4b38d80be748e69ffac95336e972a9e71aa05319117320fa90e47927ed343ee6",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.france24.com/en/video/20260903-in-an-art-gallery-far-far-away-george-lucas-unveils-art-galaxy-at-new-la-museum"
+        "url": "https://www.scmp.com/news/world/europe/article/3366254/norway-seizes-russian-ship-over-us42-billion-claim-ukrainian-energy-firm?utm_source=rss_feed"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
