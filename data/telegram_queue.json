@@ -1,61 +1,63 @@
 {
-  "generated_at": "2026-09-03T17:01:12.685109+00:00",
-  "count": 3,
+  "generated_at": "2026-09-03T17:10:49.873389+00:00",
+  "count": 5,
   "stories": [
     {
-      "id": "66936f36df0ea3718e10c7df575a47357f6411f95a9dc1954a28f0cb7fd0aebc",
-      "title": "Far-right Israeli minister sets out plan to forcibly displace Palestinians from Gaza",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/far-right-israeli-minister-sets-out-plan-forcibly-displace-palestinians",
-      "source": "Middle East Eye",
+      "id": "ea751c777d3822e04b79327afbc7a8dea7af091198825aa6243612b42a9ebad3",
+      "title": "UK PM, French president discuss production of SCALP missiles in Ukraine — PM’s office",
+      "url": "https://tass.com/world/2182319",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "Far-right Israeli minister sets out plan to forcibly displace Palestinians from Gaza Far-right Israeli National Security Minister Itamar Ben-Gvir said it was a \"realistic\" plan to forcibly remove Palestinians from Gaza and send them abroad. Ben-Gvir said the plan aims to displace 250,000 Palestinians from the Strip in the first year, followed by roughly 2 million residents over the next six years. Speaking in the run-up to closely contested Israeli elections next month, Ben-Gvir said, there are countries “ready” to take the displaced Palestinians.",
-      "published_at": "2026-09-03T17:00:30+00:00",
-      "updated_at": "2026-09-03T17:00:30+00:00",
-      "effective_at": "2026-09-03T17:00:30+00:00",
+      "summary": "Andy Burnham and Emmanuel Macron also discussed the results of last week’s meeting in Kiev",
+      "published_at": "2026-09-03T17:04:35+00:00",
+      "updated_at": "2026-09-03T17:04:35+00:00",
+      "effective_at": "2026-09-03T17:04:35+00:00",
       "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
+      "category": "world",
+      "score": 68,
       "confidence": "medium",
-      "urgency_terms": [],
+      "urgency_terms": [
+        "missile"
+      ],
       "sector": "geopolitics",
       "subsector": "politics",
-      "subregion": "West Asia / Middle East",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "ben-gvir",
-        "far-right",
-        "gaza",
-        "israel",
-        "itamar",
-        "national",
-        "palestinians",
-        "security",
-        "strip"
+        "andy",
+        "burnham",
+        "emmanuel",
+        "france",
+        "macron",
+        "pm",
+        "scalp",
+        "uk",
+        "ukraine"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "c64635e0ec4aadc920e39bc2",
-      "importance_score": 36.0,
+      "event_status": "UPDATE",
+      "event_id": "a6691a2e52107678cce16dd9",
+      "importance_score": 46.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
+        "urgency": 10,
+        "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 16,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -68,81 +70,107 @@
           "crisis": false
         },
         "significance_dims": {
+          "scientific": 8,
           "human": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "66936f36df0ea3718e10c7df575a47357f6411f95a9dc1954a28f0cb7fd0aebc",
-      "public_label": "📰 NEWS",
-      "headline": "Far-right Israeli minister sets out plan to forcibly displace Palestinians from Gaza",
+      "story_id": "ea751c777d3822e04b79327afbc7a8dea7af091198825aa6243612b42a9ebad3",
+      "article_sentences": [
+        "LONDON, September 3.",
+        "UK Prime Minister Andy Burnham and French President Emmanuel Macron discussed establishing production lines for SCALP cruise missiles in Ukraine, the Prime Minister’s Office reported.",
+        "\"On Ukraine, they discussed next steps on establishing local assembly lines in Ukraine for the long-range missile, SCALP, which uses British technology,\" the statement released after the leaders' meeting in London said.",
+        "According to it, Burnham and Macron also discussed the results of last week’s meeting in Kiev of the so-called coalition of the willing.",
+        "Earlier, Burnham announced that his government had agreed to allow the defense company MBDA to transfer classified data on British components for the SCALP long-range missile to Kiev.",
+        "Commenting on this, Kremlin Spokesman Dmitry Peskov stated that the UK is participating in the war against Russia on the side of the Kiev regime, \"methodically and regularly\" adding fuel to the fire of the conflict.",
+        "The SCALP (the French version of the UK's Storm Shadow missile) is an air-launched cruise missile equipped with a subsonic turbojet engine, an infrared homing system, and an onboard processor with GPS.",
+        "It can fly at extremely low altitudes (30-40 meters)."
+      ],
+      "public_label": "🔄 UPDATE",
+      "headline": "UK PM, French president discuss production of SCALP missiles in Ukraine — PM’s office",
       "briefing": {
         "opening": [
-          "Far-right Israeli minister sets out plan to forcibly displace Palestinians from Gaza Far-right Israeli National Security Minister Itamar Ben-Gvir said it was a \"realistic\" plan to forcibly remove Palestinians from Gaza and send them abroad.",
-          "Ben-Gvir said the plan aims to displace 250,000 Palestinians from the Strip in the first year, followed by roughly 2 million residents over the next six years."
+          "LONDON, September 3.",
+          "UK Prime Minister Andy Burnham and French President Emmanuel Macron discussed establishing production lines for SCALP cruise missiles in Ukraine, the Prime Minister’s Office reported."
         ],
         "body": [
-          "Speaking in the run-up to closely contested Israeli elections next month, Ben-Gvir said, there are countries “ready” to take the displaced Palestinians."
+          "\"On Ukraine, they discussed next steps on establishing local assembly lines in Ukraine for the long-range missile, SCALP, which uses British technology,\" the statement released after the leaders' meeting in London said.",
+          "According to it, Burnham and Macron also discussed the results of last week’s meeting in Kiev of the so-called coalition of the willing.",
+          "Earlier, Burnham announced that his government had agreed to allow the defense company MBDA to transfer classified data on British components for the SCALP long-range missile to Kiev.",
+          "Commenting on this, Kremlin Spokesman Dmitry Peskov stated that the UK is participating in the war against Russia on the side of the Kiev regime, \"methodically and regularly\" adding fuel to the fire of the conflict.",
+          "The SCALP (the French version of the UK's Storm Shadow missile) is an air-launched cruise missile equipped with a subsonic turbojet engine, an infrared homing system, and an onboard processor with GPS.",
+          "It can fly at extremely low altitudes (30-40 meters).",
+          "Andy Burnham and Emmanuel Macron also discussed the results of last week’s meeting in Kiev."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Ukraine"
+          }
+        ],
         "sentences": [
           {
-            "text": "Far-right Israeli minister sets out plan to forcibly displace Palestinians from Gaza Far-right Israeli National Security Minister Itamar Ben-Gvir said it was a \"realistic\" plan to forcibly remove Palestinians from Gaza and send them abroad.",
-            "source": "Middle East Eye",
-            "item_id": "66936f36df0ea3718e10c7df575a47357f6411f95a9dc1954a28f0cb7fd0aebc",
+            "text": "LONDON, September 3.",
+            "source": "TASS English",
+            "item_id": "ea751c777d3822e04b79327afbc7a8dea7af091198825aa6243612b42a9ebad3:article",
             "composed": false
           },
           {
-            "text": "Speaking in the run-up to closely contested Israeli elections next month, Ben-Gvir said, there are countries “ready” to take the displaced Palestinians.",
-            "source": "Middle East Eye",
-            "item_id": "66936f36df0ea3718e10c7df575a47357f6411f95a9dc1954a28f0cb7fd0aebc",
+            "text": "\"On Ukraine, they discussed next steps on establishing local assembly lines in Ukraine for the long-range missile, SCALP, which uses British technology,\" the statement released after the leaders' meeting in London said.",
+            "source": "TASS English",
+            "item_id": "ea751c777d3822e04b79327afbc7a8dea7af091198825aa6243612b42a9ebad3:article",
             "composed": false
           },
           {
-            "text": "Ben-Gvir said the plan aims to displace 250,000 Palestinians from the Strip in the first year, followed by roughly 2 million residents over the next six years.",
-            "source": "Middle East Eye",
-            "item_id": "66936f36df0ea3718e10c7df575a47357f6411f95a9dc1954a28f0cb7fd0aebc",
+            "text": "According to it, Burnham and Macron also discussed the results of last week’s meeting in Kiev of the so-called coalition of the willing.",
+            "source": "TASS English",
+            "item_id": "ea751c777d3822e04b79327afbc7a8dea7af091198825aa6243612b42a9ebad3:article",
+            "composed": false
+          },
+          {
+            "text": "It can fly at extremely low altitudes (30-40 meters).",
+            "source": "TASS English",
+            "item_id": "ea751c777d3822e04b79327afbc7a8dea7af091198825aa6243612b42a9ebad3:article",
             "composed": false
           }
         ],
-        "source": "Middle East Eye",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/far-right-israeli-minister-sets-out-plan-forcibly-displace-palestinians"
+        "url": "https://tass.com/world/2182319"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     },
     {
-      "id": "a0d38c7959a4e6af9ff73b9ee2e26d54951d4367c1ed2ed41e6d6ef223f811e8",
-      "title": "Real Madrid’s Raul Asencio acquitted in sex-tape sharing case",
-      "url": "https://www.aljazeera.com/sports/2026/9/3/real-madrids-raul-asencio-acquitted-in-sex-tape-sharing-case?traffic_source=rss",
-      "source": "Al Jazeera",
+      "id": "8a019bafcbd2e87ebde45c2ac78a9850c6097a8bbdd606c6d52a4c29d90ef3e0",
+      "title": "G20 discusses conditions for innovation, personnel training at meeting — Russian minister",
+      "url": "https://tass.com/politics/2182315",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "In an unrelated incident, Madrid have opened disciplinary proceedings against Asencio over a drink driving conviction. Real Madrid defender Raul Asencio has been cleared of charges related to sharing a sexually explicit video without the consent of the victims, including a minor, a court on the Spanish island of Gran Canaria said. Prosecutors dropped the charges against Asencio on Thursday and reduced their sentencing requests for three other former Real Madrid youth players after the victims told the court they had forgiven the defendants. The other three players, who were charged with recording and sharing sexual videos of two teenage women, one of them underage, were sentenced to one year in prison. The sentences were suspended on condition that they commit no further offences during that period. Asencio was accused of sharing the video but was not accused of filming it. In an unrelated incident, Asencio was fined 14,400 euros ($16,800) and banned from driving for eight months after pleading guilty to driving under the influence of alcohol, another court said on Wednesday. The 23-year-old centre-back was more than three times over the legal limit during the August 16 incident. Earlier on Thursday, Real Madrid coach Jose Mourinho said the club had opened disciplinary proceedings against the player, but that Asencio would remain part of his plans while the matter was being resolved. “He’s a model professional. When he was fit, no one trained as hard as him,” Mourinho told reporters. “Now that he’s been injured for a few weeks, he’s the first to arrive and the last to leave [training].",
-      "published_at": "2026-09-03T16:34:21+00:00",
-      "updated_at": "2026-09-03T16:34:21+00:00",
-      "effective_at": "2026-09-03T16:34:21+00:00",
+      "summary": "The meeting was devoted to the technological agenda of the Group of Twenty and covered a wide range of issues, Maksut Shadayev said",
+      "published_at": "2026-09-03T17:01:37+00:00",
+      "updated_at": "2026-09-03T17:01:37+00:00",
+      "effective_at": "2026-09-03T17:01:37+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
+      "sector": "geopolitics",
+      "subsector": "world",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "asencio",
-        "canaria",
-        "gran",
-        "jose",
-        "mourinho",
-        "raul",
-        "real",
-        "spain"
+        "group",
+        "maksut",
+        "russia",
+        "shadayev",
+        "twenty"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -151,30 +179,16 @@
       "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "In an unrelated incident, Madrid have opened disciplinary proceedings against Asencio over a drink driving conviction.",
-        "Real Madrid defender Raul Asencio has been cleared of charges related to sharing a sexually explicit video without the consent of the victims, including a minor, a court on the Spanish island of Gran Canaria said.",
-        "Prosecutors dropped the charges against Asencio on Thursday and reduced their sentencing requests for three other former Real Madrid youth players after the victims told the court they had forgiven the defendants.",
-        "The other three players, who were charged with recording and sharing sexual videos of two teenage women, one of them underage, were sentenced to one year in prison.",
-        "The sentences were suspended on condition that they commit no further offences during that period.",
-        "Asencio was accused of sharing the video but was not accused of filming it.",
-        "In an unrelated incident, Asencio was fined 14,400 euros ($16,800) and banned from driving for eight months after pleading guilty to driving under the influence of alcohol, another court said on Wednesday.",
-        "The 23-year-old centre-back was more than three times over the legal limit during the August 16 incident.",
-        "Earlier on Thursday, Real Madrid coach Jose Mourinho said the club had opened disciplinary proceedings against the player, but that Asencio would remain part of his plans while the matter was being resolved.",
-        "“He’s a model professional.",
-        "When he was fit, no one trained as hard as him,” Mourinho told reporters.",
-        "“Now that he’s been injured for a few weeks, he’s the first to arrive and the last to leave [training]."
-      ],
       "event_status": "NEW",
-      "event_id": "0087d402a98a0bac5ceca4a7",
-      "importance_score": 33.0,
+      "event_id": "ee5b485eff1babb6fc563cee",
+      "importance_score": 35.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 8.0,
+        "urgency": 7.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
         "significance": 4,
@@ -190,98 +204,217 @@
           "crisis": false
         },
         "significance_dims": {
-          "human": 4
+          "geopolitical": 4
         }
       },
-      "story_id": "a0d38c7959a4e6af9ff73b9ee2e26d54951d4367c1ed2ed41e6d6ef223f811e8",
+      "story_id": "8a019bafcbd2e87ebde45c2ac78a9850c6097a8bbdd606c6d52a4c29d90ef3e0",
+      "article_sentences": [
+        "WASHINGTON, September 3.",
+        "The Group of Twenty ministerial meeting in the United States on September 1-2 discussed the creation of conditions for innovation and training, as well as intellectual property protection and standardization, Russia’s Minister of Digital Development, Communications and Mass Media Maksut Shadayev told TASS.",
+        "\"The meeting was devoted to the technological agenda of the Group of Twenty and covered a wide range of issues - from creating conditions for innovation and training personnel to protecting intellectual property, standardization, industrial development, and supply chain resilience,\" he said.",
+        "\"As a result, the participants agreed on a ministerial statement.",
+        "The package of agreements also included the Carolina Principles For Emerging Technologies, AI Prosperity Objectives & AI Prosperity Compact.\"",
+        "This year, the United States holds the presidency of the G20.",
+        "The culmination of the United States’ chairmanship in this association will be the G20 summit on December 14-15 in Doral, near Miami (Florida).",
+        "The Russian delegation took part in the two·day G20 meeting in Chapel Hill.",
+        "The meeting resulted in the adoption of a final statement by consensus.",
+        "The G20 called on the member states \"to develop their own policies and preserve national sovereignty in the governance of emerging technologies, while allowing for engagement in international discussions.\" At the same time, the parties said that \"secure and trustworthy AI has significant potential to raise living standards and improve the quality, efficiency, and accessibility of public services across our economies, thereby benefiting all our peoples.\" Furthermore, the G20 called for the elimination of systemic vulnerabilities in industrial supply chains through international cooperation."
+      ],
       "public_label": "📰 NEWS",
-      "headline": "Real Madrid’s Raul Asencio acquitted in sex-tape sharing case",
+      "headline": "G20 discusses conditions for innovation, personnel training at meeting — Russian minister",
       "briefing": {
         "opening": [
-          "In an unrelated incident, Madrid have opened disciplinary proceedings against Asencio over a drink driving conviction.",
-          "Real Madrid defender."
+          "WASHINGTON, September 3.",
+          "The Group of Twenty ministerial meeting in the United States on September 1-2 discussed the creation of conditions for innovation and training, as well as intellectual property protection and standardization, Russia’s Minister of Digital Development, Communications and Mass Media Maksut Shadayev told TASS."
         ],
         "body": [
-          "Raul Asencio has been cleared of charges related to sharing a sexually explicit video without the consent of the victims, including a minor, a court on the Spanish island of Gran Canaria said.",
-          "Prosecutors dropped the charges against Asencio on Thursday and reduced their sentencing requests for three other former Real Madrid youth players after the victims told the court they had forgiven the defendants.",
-          "The other three players, who were charged with recording and sharing sexual videos of two teenage women, one of them underage, were sentenced to one year in prison.",
-          "The sentences were suspended on condition that they commit no further offences during that period.",
-          "Asencio was accused of sharing the video but was not accused of filming it.",
-          "In an unrelated incident, Asencio was fined 14,400 euros ($16,800) and banned from driving for eight months after pleading guilty to driving under the influence of alcohol, another court said on Wednesday.",
-          "The 23-year-old centre-back was more than three times over the legal limit during the August 16 incident.",
-          "Earlier on Thursday, Real Madrid coach Jose Mourinho said the club had opened disciplinary proceedings against the player, but that Asencio would remain part of his plans while the matter was being resolved."
+          "\"The meeting was devoted to the technological agenda of the Group of Twenty and covered a wide range of issues - from creating conditions for innovation and training personnel to protecting intellectual property, standardization, industrial development, and supply chain resilience,\" he said.",
+          "\"As a result, the participants agreed on a ministerial statement.",
+          "The package of agreements also included the Carolina Principles For Emerging Technologies, AI Prosperity Objectives & AI Prosperity Compact.\" This year, the United States holds the presidency of the G20.",
+          "The culmination of the United States’ chairmanship in this association will be the G20 summit on December 14-15 in Doral, near Miami (Florida).",
+          "The Russian delegation took part in the two·day G20 meeting in Chapel Hill.",
+          "The meeting resulted in the adoption of a final statement by consensus.",
+          "The G20 called on the member states \"to develop their own policies and preserve national sovereignty in the governance of emerging technologies, while allowing for engagement in international discussions.\" At the same time, the parties said that \"secure and trustworthy AI has significant potential to raise living standards and improve the quality, efficiency, and accessibility of public services across our economies, thereby benefiting all our peoples.\" Furthermore, the G20 called for the elimination of systemic vulnerabilities in industrial supply chains through international cooperation.",
+          "The meeting was devoted to the technological agenda of the Group of Twenty and covered a wide range of issues, Maksut Shadayev said."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Doral"
+          }
+        ],
         "sentences": [
           {
-            "text": "In an unrelated incident, Asencio was fined 14,400 euros ($16,800) and banned from driving for eight months after pleading guilty to driving under the influence of alcohol, another court said on Wednesday.",
-            "source": "Al Jazeera",
-            "item_id": "a0d38c7959a4e6af9ff73b9ee2e26d54951d4367c1ed2ed41e6d6ef223f811e8:article",
+            "text": "The culmination of the United States’ chairmanship in this association will be the G20 summit on December 14-15 in Doral, near Miami (Florida).",
+            "source": "TASS English",
+            "item_id": "8a019bafcbd2e87ebde45c2ac78a9850c6097a8bbdd606c6d52a4c29d90ef3e0:article",
             "composed": false
           },
           {
-            "text": "The 23-year-old centre-back was more than three times over the legal limit during the August 16 incident.",
-            "source": "Al Jazeera",
-            "item_id": "a0d38c7959a4e6af9ff73b9ee2e26d54951d4367c1ed2ed41e6d6ef223f811e8:article",
+            "text": "The Group of Twenty ministerial meeting in the United States on September 1-2 discussed the creation of conditions for innovation and training, as well as intellectual property protection and standardization, Russia’s Minister of Digital Development, Communications and Mass Media Maksut Shadayev told TASS.",
+            "source": "TASS English",
+            "item_id": "8a019bafcbd2e87ebde45c2ac78a9850c6097a8bbdd606c6d52a4c29d90ef3e0:article",
             "composed": false
           },
           {
-            "text": "Prosecutors dropped the charges against Asencio on Thursday and reduced their sentencing requests for three other former Real Madrid youth players after the victims told the court they had forgiven the defendants.",
-            "source": "Al Jazeera",
-            "item_id": "a0d38c7959a4e6af9ff73b9ee2e26d54951d4367c1ed2ed41e6d6ef223f811e8:article",
+            "text": "The Russian delegation took part in the two·day G20 meeting in Chapel Hill.",
+            "source": "TASS English",
+            "item_id": "8a019bafcbd2e87ebde45c2ac78a9850c6097a8bbdd606c6d52a4c29d90ef3e0:article",
+            "composed": false
+          },
+          {
+            "text": "WASHINGTON, September 3.",
+            "source": "TASS English",
+            "item_id": "8a019bafcbd2e87ebde45c2ac78a9850c6097a8bbdd606c6d52a4c29d90ef3e0:article",
             "composed": false
           }
         ],
-        "source": "Al Jazeera",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.aljazeera.com/sports/2026/9/3/real-madrids-raul-asencio-acquitted-in-sex-tape-sharing-case?traffic_source=rss"
+        "url": "https://tass.com/politics/2182315"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "f4d9d7a52b61e18eae2f7bf5b98f3fed6fe87d4b2b89307c0e6be773fa446175",
-      "title": "Watch: 7.8% GDP: real or fake recovery? | Business Matters",
-      "url": "https://www.thehindu.com/videos/shows/watch-78-gdp-real-or-fake-recovery-business-matters/article71425427.ece",
-      "source": "The Hindu",
+      "id": "6029322a8dac6d77a3043de78e1faaab47c431d7acda0da4f68e4d860f2ccaa3",
+      "title": "Kissing apes, anti-splash urinals: This year's Ig Nobels showcase surprising science",
+      "url": "https://www.npr.org/2026/09/03/nx-s1-5950370/ig-nobel-awards-kissing-urinals-move-switzerland",
+      "source": "NPR Science",
+      "source_category": "science",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "The Ig Nobel Prizes were awarded this week for humorous yet thought-provoking research. This year, the ceremony came with a twist.",
+      "published_at": "2026-09-03T17:00:00+00:00",
+      "updated_at": "2026-09-03T17:00:00+00:00",
+      "effective_at": "2026-09-03T17:00:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "science",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "science",
+      "subsector": "science",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "ig",
+        "nobel",
+        "nobels",
+        "prizes"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 95,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "332128997099295c32bc50f0",
+      "importance_score": 34.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "scientific": 8
+        }
+      },
+      "story_id": "6029322a8dac6d77a3043de78e1faaab47c431d7acda0da4f68e4d860f2ccaa3",
+      "public_label": "📰 NEWS",
+      "headline": "Kissing apes, anti-splash urinals: This year's Ig Nobels showcase surprising science",
+      "briefing": {
+        "opening": [
+          "The Ig Nobel Prizes were awarded this week for humorous yet thought-provoking research.",
+          "This year, the ceremony came with a twist."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The Ig Nobel Prizes were awarded this week for humorous yet thought-provoking research.",
+            "source": "NPR Science",
+            "item_id": "6029322a8dac6d77a3043de78e1faaab47c431d7acda0da4f68e4d860f2ccaa3",
+            "composed": false
+          },
+          {
+            "text": "This year, the ceremony came with a twist.",
+            "source": "NPR Science",
+            "item_id": "6029322a8dac6d77a3043de78e1faaab47c431d7acda0da4f68e4d860f2ccaa3",
+            "composed": false
+          }
+        ],
+        "source": "NPR Science",
+        "corroborating": [],
+        "url": "https://www.npr.org/2026/09/03/nx-s1-5950370/ig-nobel-awards-kissing-urinals-move-switzerland"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "44999c96c01725a53ff3926e1f0101335d447c23ebf5c645ba6caa4b4d8b3847",
+      "title": "Anti-Christian murder in Syria? No indication he was killed because of his faith",
+      "url": "https://www.france24.com/en/middle-east/20260903-anti-christian-murder-syria-no-indication-killed-faith",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "India’s latest Gross Domestic Product numbers seem impressive. Growth exceeded RBI’s own estimate of 7% for the April-June quarter. How did this happen? Aren’t ongoing wars, tariffs, geopolitical uncertainty having an impact? Let’s dive in.",
-      "published_at": "2026-09-03T16:53:36+00:00",
-      "updated_at": "2026-09-03T16:53:36+00:00",
-      "effective_at": "2026-09-03T16:53:36+00:00",
+      "summary": "A Christian man by the name of Nader Boulos Tannous was murdered in Homs, Syria on August 15, 2026. After his death, Israel, Greece and Cyprus were quick to denounce what they called an anti-Christian act. Several days later however, authorities in Homs said the suspect had admitted killing Tannous as part of a personal dispute going back to 2012.",
+      "published_at": "2026-09-03T17:00:20+00:00",
+      "updated_at": "2026-09-03T17:00:20+00:00",
+      "effective_at": "2026-09-03T17:00:20+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "geopolitics",
-      "subsector": "conflict",
-      "subregion": "South Asia",
+      "subsector": "world",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "april-june",
-        "business",
-        "domestic",
-        "gdp",
-        "gross",
-        "india",
-        "matters",
-        "product",
-        "rbi"
+        "boulos",
+        "christian",
+        "cyprus",
+        "greece",
+        "homs",
+        "israel",
+        "nader",
+        "syria",
+        "tannous"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "c273d761775cefd98d1933f9",
+      "event_id": "8b4aaf478e77cfe8fd9eb12e",
       "importance_score": 32.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -305,46 +438,181 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 4
+          "human": 4
         }
       },
-      "story_id": "f4d9d7a52b61e18eae2f7bf5b98f3fed6fe87d4b2b89307c0e6be773fa446175",
+      "story_id": "44999c96c01725a53ff3926e1f0101335d447c23ebf5c645ba6caa4b4d8b3847",
       "public_label": "📰 NEWS",
-      "headline": "7.8% GDP: real or fake recovery? | Business Matters",
+      "headline": "Anti-Christian murder in Syria? No indication he was killed because of his faith",
       "briefing": {
         "opening": [
-          "India’s latest Gross Domestic Product numbers seem impressive.",
-          "Growth exceeded RBI’s own estimate of 7% for the April-June quarter."
+          "A Christian man by the name of Nader Boulos Tannous was murdered in Homs, Syria on August 15, 2026.",
+          "After his death, Israel, Greece and Cyprus were quick to denounce what they called an anti-Christian act."
         ],
         "body": [
-          "How did this happen?",
-          "Aren’t ongoing wars, tariffs, geopolitical uncertainty having an impact?",
-          "Let’s dive in."
+          "Several days later however, authorities in Homs said the suspect had admitted killing Tannous as part of a personal dispute going back to 2012."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Homs"
+          }
+        ],
         "sentences": [
           {
-            "text": "How did this happen?",
-            "source": "The Hindu",
-            "item_id": "f4d9d7a52b61e18eae2f7bf5b98f3fed6fe87d4b2b89307c0e6be773fa446175",
+            "text": "A Christian man by the name of Nader Boulos Tannous was murdered in Homs, Syria on August 15, 2026.",
+            "source": "France 24",
+            "item_id": "44999c96c01725a53ff3926e1f0101335d447c23ebf5c645ba6caa4b4d8b3847",
             "composed": false
           },
           {
-            "text": "Aren’t ongoing wars, tariffs, geopolitical uncertainty having an impact?",
-            "source": "The Hindu",
-            "item_id": "f4d9d7a52b61e18eae2f7bf5b98f3fed6fe87d4b2b89307c0e6be773fa446175",
-            "composed": false
-          },
-          {
-            "text": "Growth exceeded RBI’s own estimate of 7% for the April-June quarter.",
-            "source": "The Hindu",
-            "item_id": "f4d9d7a52b61e18eae2f7bf5b98f3fed6fe87d4b2b89307c0e6be773fa446175",
+            "text": "Tannous as part of a personal dispute going back to 2012.",
+            "source": "France 24",
+            "item_id": "44999c96c01725a53ff3926e1f0101335d447c23ebf5c645ba6caa4b4d8b3847",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.thehindu.com/videos/shows/watch-78-gdp-real-or-fake-recovery-business-matters/article71425427.ece"
+        "url": "https://www.france24.com/en/middle-east/20260903-anti-christian-murder-syria-no-indication-killed-faith"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "28f3f34efb5ce6b64ccc69d2c11c760568dde11c6046227a4867e4068b96adcd",
+      "title": "Russia’s Lazarev second after short program at 2026 ISU Junior Grand Prix in Thailand",
+      "url": "https://tass.com/sports/2182317",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "New Zealand’s Li Yanho is in the lead with 86.65 points",
+      "published_at": "2026-09-03T17:03:20+00:00",
+      "updated_at": "2026-09-03T17:03:20+00:00",
+      "effective_at": "2026-09-03T17:03:20+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "sports",
+      "subsector": "sports",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "grand",
+        "isu",
+        "junior",
+        "lazarev",
+        "li",
+        "new_zealand",
+        "prix",
+        "russia",
+        "thailand",
+        "yanho"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "4103dcbdd0fed37fbe497551",
+      "importance_score": 28.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "28f3f34efb5ce6b64ccc69d2c11c760568dde11c6046227a4867e4068b96adcd",
+      "article_sentences": [
+        "BANGKOK, September 3.",
+        "Russian figure skater Lev Lazarev is second after the short program in men’s singles at the 2026 ISI (International Skating Union) Junior Grand Prix stage in Bangkok, Thailand.",
+        "The judges awarded the 16-year-old Russian figure skater 86.47 points for his short program.",
+        "New Zealand’s Li Yanho is in the lead with 86.65 points and Hiro Kaewtathip from Thailand is third with 81.55 points.",
+        "The free skate program in men’s singles at the tournament in Thailand is scheduled for Saturday, September 5.",
+        "In March 2022, the ISU suspended Russian and Belarusian athletes from all international tournaments supervised by the organization due to the developments in Ukraine.",
+        "At the 2026 Winter Olympic Games, the ISU allowed two Russian figure skaters to participate under a neutral status - Adelia Petrosyan and Petr Gumennik.",
+        "The International Olympic Committee (IOC) announced a decision in July to reinstate the Russian Olympic Committee (ROC) and also recommended lifting restrictions on the participation of Russian athletes in all international tournaments, including both in individual and team competitions.",
+        "Starting from the 2026/27 season, the International Skating Union allowed Russian figure skaters to participate in international competitions in a neutral status."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Russia’s Lazarev second after short program at 2026 ISU Junior Grand Prix in Thailand",
+      "briefing": {
+        "opening": [
+          "BANGKOK, September 3.",
+          "Russian figure skater Lev Lazarev is second after the short program in men’s singles at the 2026 ISI (International Skating Union) Junior Grand Prix stage in Bangkok, Thailand."
+        ],
+        "body": [
+          "The judges awarded the 16-year-old Russian figure skater 86.47 points for his short program.",
+          "New Zealand’s Li Yanho is in the lead with 86.65 points and Hiro Kaewtathip from Thailand is third with 81.55 points.",
+          "The free skate program in men’s singles at the tournament in Thailand is scheduled for Saturday, September 5.",
+          "In March 2022, the ISU suspended Russian and Belarusian athletes from all international tournaments supervised by the organization due to the developments in Ukraine.",
+          "At the 2026 Winter Olympic Games, the ISU allowed two Russian figure skaters to participate under a neutral status - Adelia Petrosyan and Petr Gumennik.",
+          "The International Olympic Committee (IOC) announced a decision in July to reinstate the Russian Olympic Committee (ROC) and also recommended lifting restrictions on the participation of Russian athletes in all international tournaments, including both in individual and team competitions.",
+          "Starting from the 2026/27 season, the International Skating Union allowed Russian figure skaters to participate in international competitions in a neutral status.",
+          "New Zealand’s Li Yanho is in the lead with 86.65 points."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Bangkok"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "New Zealand’s Li Yanho is in the lead with 86.65 points and Hiro Kaewtathip from Thailand is third with 81.55 points.",
+            "source": "TASS English",
+            "item_id": "28f3f34efb5ce6b64ccc69d2c11c760568dde11c6046227a4867e4068b96adcd:article",
+            "composed": false
+          },
+          {
+            "text": "The judges awarded the 16-year-old Russian figure skater 86.47 points for his short program.",
+            "source": "TASS English",
+            "item_id": "28f3f34efb5ce6b64ccc69d2c11c760568dde11c6046227a4867e4068b96adcd:article",
+            "composed": false
+          },
+          {
+            "text": "The free skate program in men’s singles at the tournament in Thailand is scheduled for Saturday, September 5.",
+            "source": "TASS English",
+            "item_id": "28f3f34efb5ce6b64ccc69d2c11c760568dde11c6046227a4867e4068b96adcd:article",
+            "composed": false
+          },
+          {
+            "text": "In March 2022, the ISU suspended Russian and Belarusian athletes from all international tournaments supervised by the organization due to the developments in Ukraine.",
+            "source": "TASS English",
+            "item_id": "28f3f34efb5ce6b64ccc69d2c11c760568dde11c6046227a4867e4068b96adcd:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/sports/2182317"
       },
       "group_size": 1,
       "label": "📰 NEWS"
