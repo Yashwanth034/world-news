@@ -1,5 +1,107 @@
 {
-  "generated_at": "2026-09-03T00:01:13.364719+00:00",
-  "count": 0,
-  "stories": []
+  "generated_at": "2026-09-03T00:10:48.304306+00:00",
+  "count": 1,
+  "stories": [
+    {
+      "id": "4c66c5e5f20f98cea574c0d9e3cb7fd3937a8e3b6a6de95b68af117c72ba8377",
+      "title": "Minneapolis apartment shooting leaves one dead, six injured",
+      "url": "https://www.france24.com/en/americas/20260903-minneapolis-apartment-shooting",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "At least one person was killed and six others wounded in a shooting at an apartment building in downtown Minneapolis on Wednesday, officials said. Two Minneapolis police officers were among those injured. Hennepin County Medical Center said it received seven patients, including one who died. Police urged people to avoid the area.",
+      "published_at": "2026-09-03T00:01:52+00:00",
+      "updated_at": "2026-09-03T00:01:52+00:00",
+      "effective_at": "2026-09-03T00:01:52+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "health",
+      "subsector": "health",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "center",
+        "county",
+        "hennepin",
+        "medical",
+        "minneapolis",
+        "two"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "a7f565b09d570a45337e7677",
+      "importance_score": 67.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 22,
+        "urgency": 10,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 70,
+          "injured": 0,
+          "displaced": 800000,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "human": 8
+        }
+      },
+      "story_id": "4c66c5e5f20f98cea574c0d9e3cb7fd3937a8e3b6a6de95b68af117c72ba8377",
+      "public_label": "🔄 UPDATE",
+      "headline": "Minneapolis apartment shooting leaves one dead, six injured",
+      "briefing": {
+        "opening": [
+          "At least one person was killed and six others wounded in a shooting at an apartment building in downtown Minneapolis on Wednesday, officials said.",
+          "Two Minneapolis police officers were among those injured."
+        ],
+        "body": [
+          "Hennepin County Medical Center said it received seven patients, including one who died.",
+          "Police urged people to avoid the area."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Two Minneapolis police officers were among those injured.",
+            "source": "France 24",
+            "item_id": "4c66c5e5f20f98cea574c0d9e3cb7fd3937a8e3b6a6de95b68af117c72ba8377",
+            "composed": false
+          },
+          {
+            "text": "Police urged people to avoid the area.",
+            "source": "France 24",
+            "item_id": "4c66c5e5f20f98cea574c0d9e3cb7fd3937a8e3b6a6de95b68af117c72ba8377",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/americas/20260903-minneapolis-apartment-shooting"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    }
+  ]
 }
