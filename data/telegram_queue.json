@@ -1,53 +1,69 @@
 {
-  "generated_at": "2026-09-03T00:10:48.304306+00:00",
-  "count": 1,
+  "generated_at": "2026-09-03T00:20:46.091021+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "4c66c5e5f20f98cea574c0d9e3cb7fd3937a8e3b6a6de95b68af117c72ba8377",
-      "title": "Minneapolis apartment shooting leaves one dead, six injured",
-      "url": "https://www.france24.com/en/americas/20260903-minneapolis-apartment-shooting",
-      "source": "France 24",
+      "id": "c8483329c9d77f912efe8f675c54b7d00b2bb4d1afdab7cc238fdc1fb15ae68a",
+      "title": "Witkoff held talks with senior UAE official amid economic crackdown on Iran: Report",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/witkoff-held-talks-senior-uae-official-amid-economic-crackdown-iran",
+      "source": "Middle East Eye",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Asia",
       "discovery": false,
-      "summary": "At least one person was killed and six others wounded in a shooting at an apartment building in downtown Minneapolis on Wednesday, officials said. Two Minneapolis police officers were among those injured. Hennepin County Medical Center said it received seven patients, including one who died. Police urged people to avoid the area.",
-      "published_at": "2026-09-03T00:01:52+00:00",
-      "updated_at": "2026-09-03T00:01:52+00:00",
-      "effective_at": "2026-09-03T00:01:52+00:00",
+      "summary": "White House envoy Steve Witkoff held talks with the UAE's national security adviser to discuss the next steps on Iran, according to Axios. Witkoff met with Sheikh Tahnoon Bin Zayed al Nahyan on the Italian island of Sardinia, where they brainstormed the subsequent actions amid the war on Iran and discussed other issues, one source told the website. The talks, which were not announced by the White House, took place amid Washington's attempts at reopening the Strait of Hormuz and its increasing economic sanctions on Iran.",
+      "published_at": "2026-09-03T00:19:52+00:00",
+      "updated_at": "2026-09-03T00:19:52+00:00",
+      "effective_at": "2026-09-03T00:19:52+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
+      "category": "finance",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "health",
-      "subsector": "health",
-      "subregion": "United States",
+      "sector": "economy",
+      "subsector": "economy",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "center",
-        "county",
-        "hennepin",
-        "medical",
-        "minneapolis",
-        "two"
+        "axios",
+        "bin",
+        "hormuz",
+        "house",
+        "iran",
+        "italian",
+        "nahyan",
+        "sardinia",
+        "sheikh",
+        "steve",
+        "strait",
+        "tahnoon",
+        "uae",
+        "us",
+        "white",
+        "witkoff",
+        "zayed"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "a7f565b09d570a45337e7677",
-      "importance_score": 67.0,
-      "importance_level": "MEDIUM",
+      "article_sentences": [
+        "White House envoy Steve Witkoff held talks with the UAE's national security adviser to discuss the next steps on Iran, according to Axios.",
+        "Witkoff met with Sheikh Tahnoon Bin Zayed al Nahyan on the Italian island of Sardinia, where they brainstormed the subsequent actions amid the war on Iran and discussed other issues, one source told the website.",
+        "The talks, which were not announced by the White House, took place amid Washington's attempts at reopening the Strait of Hormuz and its increasing economic sanctions on Iran."
+      ],
+      "event_status": "NEW",
+      "event_id": "10db0bdb1242cddf000afea7",
+      "importance_score": 44.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 22,
-        "urgency": 10,
-        "novelty": 8.0,
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
@@ -56,9 +72,9 @@
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 70,
+          "dead": 0,
           "injured": 0,
-          "displaced": 800000,
+          "displaced": 0,
           "missing": 0,
           "affected": 0,
           "major_incident": false,
@@ -66,42 +82,182 @@
         },
         "significance_dims": {
           "security": 8,
-          "human": 8
+          "geopolitical": 8
         }
       },
-      "story_id": "4c66c5e5f20f98cea574c0d9e3cb7fd3937a8e3b6a6de95b68af117c72ba8377",
-      "public_label": "🔄 UPDATE",
-      "headline": "Minneapolis apartment shooting leaves one dead, six injured",
+      "story_id": "c8483329c9d77f912efe8f675c54b7d00b2bb4d1afdab7cc238fdc1fb15ae68a",
+      "public_label": "📰 NEWS",
+      "headline": "Witkoff held talks with senior UAE official amid economic crackdown on Iran: Report",
       "briefing": {
         "opening": [
-          "At least one person was killed and six others wounded in a shooting at an apartment building in downtown Minneapolis on Wednesday, officials said.",
-          "Two Minneapolis police officers were among those injured."
+          "White House envoy Steve Witkoff held talks with the UAE's national security adviser to discuss the next steps on Iran, according to Axios.",
+          "Witkoff met with Sheikh Tahnoon Bin Zayed al Nahyan on the Italian island of Sardinia, where they brainstormed the subsequent actions amid the war on Iran and discussed other issues, one source told the website."
         ],
         "body": [
-          "Hennepin County Medical Center said it received seven patients, including one who died.",
-          "Police urged people to avoid the area."
+          "The talks, which were not announced by the White House, took place amid Washington's attempts at reopening the Strait of Hormuz and its increasing economic sanctions on Iran."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Two Minneapolis police officers were among those injured.",
-            "source": "France 24",
-            "item_id": "4c66c5e5f20f98cea574c0d9e3cb7fd3937a8e3b6a6de95b68af117c72ba8377",
+            "text": "Witkoff met with Sheikh Tahnoon Bin Zayed al Nahyan on the Italian island of Sardinia, where they brainstormed the subsequent actions amid the war on Iran and discussed other issues, one source told the website.",
+            "source": "Middle East Eye",
+            "item_id": "c8483329c9d77f912efe8f675c54b7d00b2bb4d1afdab7cc238fdc1fb15ae68a:article",
             "composed": false
           },
           {
-            "text": "Police urged people to avoid the area.",
-            "source": "France 24",
-            "item_id": "4c66c5e5f20f98cea574c0d9e3cb7fd3937a8e3b6a6de95b68af117c72ba8377",
+            "text": "The talks, which were not announced by the White House, took place amid Washington's attempts at reopening the Strait of Hormuz and its increasing economic sanctions on Iran.",
+            "source": "Middle East Eye",
+            "item_id": "c8483329c9d77f912efe8f675c54b7d00b2bb4d1afdab7cc238fdc1fb15ae68a:article",
             "composed": false
           }
         ],
-        "source": "France 24",
+        "source": "Middle East Eye",
         "corroborating": [],
-        "url": "https://www.france24.com/en/americas/20260903-minneapolis-apartment-shooting"
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/witkoff-held-talks-senior-uae-official-amid-economic-crackdown-iran"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "8701454658ac581fb8df2c1efb7aa7024f92ce3b30926ca3bc43b4283e559cde",
+      "title": "ICAO to update recommendations on protecting civil aviation in zones of armed conflict",
+      "url": "https://tass.com/world/2181535",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "WASHINGTON, September 3. The International Civil Aviation Organization (ICAO) is updating its recommendations on protection of civil aircraft over and near zones of armed conflict, the organization said in a statement, obtained by TASS. \"ICAO is updating its Manual Concerning Safety Measures relating to Military Activities and its Risk Assessment Manual for Civil Aircraft Operations Over or Near Conflict Zones,\" the organization said in a statement. The updated documents will focus on how authorities and airlines and air navigation services providers can better assess threats from malicious activities. Earlier, TASS requested ICAO to assess Ukraine’s \"warning\" to air carriers that flying over Russia was unsafe. Russian President Vladimir Putin said that threats against civil aviation are \"a bid for state terrorism,\" and stressed that Moscow does not negotiate with terrorists: \"I would like to point out that they are asking us to resume talks and are asking for personal meetings. Terrorists are not negotiated with.\" In turn, Russian Transport Minister Andrey Nikitin said that Russia \"will not allow significant disruptions\" to civil aviation operations.",
+      "published_at": "2026-09-02T23:55:00+00:00",
+      "updated_at": "2026-09-02T23:55:00+00:00",
+      "effective_at": "2026-09-02T23:55:00+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "transport",
+      "subsector": "aviation",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "activities",
+        "aircraft",
+        "andrey",
+        "assessment",
+        "aviation",
+        "civil",
+        "concerning",
+        "conflict",
+        "earlier",
+        "icao",
+        "international",
+        "manual",
+        "measures",
+        "military",
+        "nikitin",
+        "operations",
+        "organization",
+        "putin",
+        "risk",
+        "russia",
+        "safety",
+        "tass",
+        "transport",
+        "ukraine",
+        "us",
+        "vladimir",
+        "zones"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "WASHINGTON, September 3.",
+        "The International Civil Aviation Organization (ICAO) is updating its recommendations on protection of civil aircraft over and near zones of armed conflict, the organization said in a statement, obtained by TASS.",
+        "\"ICAO is updating its Manual Concerning Safety Measures relating to Military Activities and its Risk Assessment Manual for Civil Aircraft Operations Over or Near Conflict Zones,\" the organization said in a statement.",
+        "The updated documents will focus on how authorities and airlines and air navigation services providers can better assess threats from malicious activities.",
+        "Earlier, TASS requested ICAO to assess Ukraine’s \"warning\" to air carriers that flying over Russia was unsafe.",
+        "Russian President Vladimir Putin said that threats against civil aviation are \"a bid for state terrorism,\" and stressed that Moscow does not negotiate with terrorists: \"I would like to point out that they are asking us to resume talks and are asking for personal meetings.",
+        "Terrorists are not negotiated with.\" In turn, Russian Transport Minister Andrey Nikitin said that Russia \"will not allow significant disruptions\" to civil aviation operations."
+      ],
+      "event_status": "NEW",
+      "event_id": "afc4d10ce001a33101307b50",
+      "importance_score": 40.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 9.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 12,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "infrastructure": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "8701454658ac581fb8df2c1efb7aa7024f92ce3b30926ca3bc43b4283e559cde",
+      "public_label": "📰 NEWS",
+      "headline": "ICAO to update recommendations on protecting civil aviation in zones of armed conflict",
+      "briefing": {
+        "opening": [
+          "WASHINGTON, September 3.",
+          "The International Civil Aviation Organization (ICAO) is updating its recommendations on protection of civil aircraft over and near zones of armed conflict, the organization said in a statement, obtained by TASS."
+        ],
+        "body": [
+          "\"ICAO is updating its Manual Concerning Safety Measures relating to Military Activities and its Risk Assessment Manual for Civil Aircraft Operations Over or Near Conflict Zones,\" the organization said in a statement.",
+          "The updated documents will focus on how authorities and airlines and air navigation services providers can better assess threats from malicious activities.",
+          "Earlier, TASS requested ICAO to assess Ukraine’s \"warning\" to air carriers that flying over Russia was unsafe.",
+          "Russian President Vladimir Putin said that threats against civil aviation are \"a bid for state terrorism,\" and stressed that Moscow does not negotiate with terrorists: \"I would like to point out that they are asking us to resume talks and are asking for personal meetings.",
+          "Terrorists are not negotiated with.\" In turn, Russian Transport Minister Andrey Nikitin said that Russia \"will not allow significant disruptions\" to civil aviation operations."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "The International Civil Aviation Organization (ICAO) is updating its recommendations on protection of civil aircraft over and near zones of armed conflict, the organization said in a statement, obtained by TASS.",
+            "source": "TASS English",
+            "item_id": "8701454658ac581fb8df2c1efb7aa7024f92ce3b30926ca3bc43b4283e559cde:article",
+            "composed": false
+          },
+          {
+            "text": "\"ICAO is updating its Manual Concerning Safety Measures relating to Military Activities and its Risk Assessment Manual for Civil Aircraft Operations Over or Near Conflict Zones,\" the organization said in a statement.",
+            "source": "TASS English",
+            "item_id": "8701454658ac581fb8df2c1efb7aa7024f92ce3b30926ca3bc43b4283e559cde:article",
+            "composed": false
+          },
+          {
+            "text": "WASHINGTON, September 3.",
+            "source": "TASS English",
+            "item_id": "8701454658ac581fb8df2c1efb7aa7024f92ce3b30926ca3bc43b4283e559cde:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/world/2181535"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
     }
   ]
 }
