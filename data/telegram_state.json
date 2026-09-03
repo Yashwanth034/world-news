@@ -1,30 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "ecc085410ee7c16afdb318def2c480bb12fcf2a2cc9e0c8726dd21464c621c6c",
-      "event_id": "75fc6e66f4138897bbeb92a9",
-      "item_id": "ecc085410ee7c16afdb318def2c480bb12fcf2a2cc9e0c8726dd21464c621c6c",
-      "label": "🔄 UPDATE",
-      "scheduled_at": "2026-09-02T12:34:07+00:00",
-      "attempts": 0
-    },
-    {
-      "story_id": "7fb5a0931743e314cb34a5b0a0824373a25fc177f22c8b629d40490c24b6ec72",
-      "event_id": "52230f101ee98f1297c47f97",
-      "item_id": "7fb5a0931743e314cb34a5b0a0824373a25fc177f22c8b629d40490c24b6ec72",
-      "label": "🔄 UPDATE",
-      "scheduled_at": "2026-09-02T12:33:18+00:00",
-      "attempts": 0
-    },
-    {
-      "story_id": "ce836985b123281567b0f91abe864b851b696439f7fc866be102529b5bbb07fd",
-      "event_id": "af94f7a79f961d87d03e0520",
-      "item_id": "ce836985b123281567b0f91abe864b851b696439f7fc866be102529b5bbb07fd",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-09-02T12:33:50+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "a5c4e3fc3affe6185e629951105c20391243108477227be1c7cc1a84a1d400fa",
       "event_id": "518485470d755405eea65cd1",
       "item_id": "a5c4e3fc3affe6185e629951105c20391243108477227be1c7cc1a84a1d400fa",
@@ -759,9 +735,26 @@
       "label": "📰 NEWS",
       "scheduled_at": "2026-09-03T00:26:38+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "5971e2622e8d84b13711a03e293a7881dee3f9581dd0ed91f79b724880ce0b56",
+      "event_id": "96f22f07af28ce2ce91ba1a6",
+      "item_id": "5971e2622e8d84b13711a03e293a7881dee3f9581dd0ed91f79b724880ce0b56",
+      "label": "📰 NEWS",
+      "scheduled_at": "2026-09-03T00:35:00+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "ee542bc0061a1aa915739d8574851acd096812a12f0c5ac13b44e8df262c74e0",
+      "event_id": "e494bcf9eab789014a8a0785",
+      "item_id": "ee542bc0061a1aa915739d8574851acd096812a12f0c5ac13b44e8df262c74e0",
+      "label": "📰 NEWS",
+      "message_id": 3153,
+      "posted_at": "2026-09-03T00:35:00.000158+00:00",
+      "scheduled_at": "2026-09-03T00:34:16+00:00"
+    },
     {
       "story_id": "c8483329c9d77f912efe8f675c54b7d00b2bb4d1afdab7cc238fdc1fb15ae68a",
       "event_id": "10db0bdb1242cddf000afea7",
@@ -3671,5 +3664,5 @@
     }
   ],
   "failures": [],
-  "last_posted_at": "2026-09-03T00:22:41.000112+00:00"
+  "last_posted_at": "2026-09-03T00:35:00.000158+00:00"
 }
