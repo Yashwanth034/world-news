@@ -1,76 +1,64 @@
 {
-  "generated_at": "2026-09-04T05:20:51.101943+00:00",
-  "count": 6,
+  "generated_at": "2026-09-04T05:30:59.998453+00:00",
+  "count": 4,
   "stories": [
     {
-      "id": "ba51303c7601ca1ea0a9d599eb1b5c7b4246b5543c3808e163dce858104fc37d",
-      "title": "Renewable energy in NI reaches record level",
-      "url": "https://www.bbc.co.uk/news/articles/ce3rql5rzx4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Science",
-      "source_category": "science",
+      "id": "a2a0280393248bbe993d6c06f743a1decbd5517b45fa067f020a9c25817d39f0",
+      "title": "Two people pulled alive from Nepal hydropower tunnel",
+      "url": "https://www.straitstimes.com/asia/two-people-pulled-alive-from-nepal-hydropower-tunnel",
+      "source": "Straits Times Asia",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Asia",
       "discovery": false,
-      "summary": "More than half (53%) of Northern Ireland's electricity came from renewable sources in the year to June – beating the 51% level previously set in 2022. And for the first time renewable generation has consistently exceeded non-renewable generation since January. Even when imported electricity was taken into account, the amount of renewables equalled the previous record of 50%, set in 2022/23. The Economy Minister Caoimhe Archibald said the increasing level of renewable energy would help Northern Ireland \"move away from price volatility and towards more stable and fairer prices\". Almost three-quarters (74%) of renewable electricity came from wind. anaerobic digestion, incineration and fermentation – provided just under one-fifth (18%). Solar energy provided 6%, landfill gas provided 1%, and hydro/tidal generation provided 1%. Northern Ireland has a target of generating 80% of electricity from renewable sources by 2030. The increase to 53% to June 2026 follows several years of reduced renewable generation. Lower levels can be due to weather conditions. There is also a high rate of dispatch down in Northern Ireland – when turbines are switched off because there is not enough demand for the power being generated. That is to protect the grid which has a limit on the amount of renewable energy it can carry due to fluctuations.",
-      "published_at": "2026-09-04T05:11:45+00:00",
-      "updated_at": "2026-09-04T05:11:45+00:00",
-      "effective_at": "2026-09-04T05:11:45+00:00",
+      "summary": "KATHMANDU, Sept 4 - Two people were pulled out alive on Friday from a tunnel linked to a hydropower station on the Trishuli River, nine days after a ice, rock and mud slide swept through a valley in Nepal, killing more than 1,200 people and displacing tens of thousands.",
+      "published_at": "2026-09-04T05:26:32+00:00",
+      "updated_at": "2026-09-04T05:26:32+00:00",
+      "effective_at": "2026-09-04T05:26:32+00:00",
       "language_status": "ENGLISH",
-      "category": "science",
-      "score": 60,
+      "category": "world",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "renewables",
-      "subregion": null,
+      "sector": "infrastructure",
+      "subsector": "dams",
+      "subregion": "South Asia",
       "country": null,
       "entities": [
-        "archibald",
-        "caoimhe",
-        "economy",
-        "ireland",
-        "ni",
-        "northern"
+        "kathmandu",
+        "nepal",
+        "river",
+        "sept",
+        "trishuli",
+        "two"
       ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "France 24"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 73,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "More than half (53%) of Northern Ireland's electricity came from renewable sources in the year to June – beating the 51% level previously set in 2022.",
-        "And for the first time renewable generation has consistently exceeded non-renewable generation since January.",
-        "Even when imported electricity was taken into account, the amount of renewables equalled the previous record of 50%, set in 2022/23.",
-        "The Economy Minister Caoimhe Archibald said the increasing level of renewable energy would help Northern Ireland \"move away from price volatility and towards more stable and fairer prices\".",
-        "Almost three-quarters (74%) of renewable electricity came from wind.",
-        "anaerobic digestion, incineration and fermentation – provided just under one-fifth (18%).",
-        "Solar energy provided 6%, landfill gas provided 1%, and hydro/tidal generation provided 1%.",
-        "Northern Ireland has a target of generating 80% of electricity from renewable sources by 2030.",
-        "The increase to 53% to June 2026 follows several years of reduced renewable generation.",
-        "Lower levels can be due to weather conditions.",
-        "There is also a high rate of dispatch down in Northern Ireland – when turbines are switched off because there is not enough demand for the power being generated.",
-        "That is to protect the grid which has a limit on the amount of renewable energy it can carry due to fluctuations."
-      ],
       "event_status": "NEW",
-      "event_id": "f208abdb8295ea7c91cba8c8",
-      "importance_score": 47.0,
-      "importance_level": "LOW",
+      "event_id": "1e9afb8d319ad625433dad66",
+      "importance_score": 81.0,
+      "importance_level": "HIGH",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
+        "impact": 32,
+        "urgency": 10,
         "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 20,
+        "corroboration": 6,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 0,
+          "dead": 1200,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -79,134 +67,138 @@
           "crisis": false
         },
         "significance_dims": {
-          "scientific": 8,
-          "economic": 4,
-          "infrastructure": 4,
-          "geopolitical": 4
+          "human": 12
         }
       },
-      "story_id": "ba51303c7601ca1ea0a9d599eb1b5c7b4246b5543c3808e163dce858104fc37d",
-      "public_label": "📰 NEWS",
-      "headline": "Renewable energy in NI reaches record level",
+      "story_id": "a2a0280393248bbe993d6c06f743a1decbd5517b45fa067f020a9c25817d39f0",
+      "article_sentences": [
+        "Two people were pulled out alive on Friday from a tunnel linked to a hydropower station on the Trishuli River, nine days after a ice, rock and mud slide swept through a valley in Nepal, killing more than 1,200 people and displacing tens of thousands.",
+        "Officials and rescue workers believe the August 26 collapse of a glacier on the upper reaches of the Trishuli River trapped at least 900 people in tunnels related to six hydropower projects along the river.",
+        "At least 1,252 people were killed in Nepal as houses, streets and schools in towns and villages near the border with China's Tibet were swept away.",
+        "More than 4,200 people are still missing and thousands more displaced.",
+        "China has put the death toll in Tibet at 21, with 541 others listed as missing.",
+        "The two workers pulled from the tunnel at the Upper Trishuli 3A Hydropower Station are the first to be rescued from the hydropower projects.",
+        "They were Sanjay Sah, a mechanical foreman, and Kabir Maharjan, a mechanical supervisor, Energy Minister Biraj Bhakta Shrestha’s office said in a statement.",
+        "Videos and photos released by Nepali authorities showed Maharjan being pulled out of a hole in the ground amid cheering bystanders and put on a stretcher.",
+        "The other man, Sah, was carried out on the back of a worker to a rescue tent, his face covered in mud.",
+        "A team of army doctors attended to Sah at a tent near the tunnel, fitting what appeared to be an oxygen mask around his mouth and checking his vitals, in one of the videos.",
+        "\"His name is Sanjay Sah and he was working in mechanical control room.",
+        "The vital parameters look normal,” an army official said."
+      ],
+      "public_label": "⚡ JUST IN",
+      "headline": "Two people pulled alive from Nepal hydropower tunnel",
       "briefing": {
         "opening": [
-          "More than half (53%) of Northern Ireland's electricity came from renewable sources in the year to June – beating the 51% level previously set in 2022.",
-          "And for the first time renewable generation has consistently exceeded non-renewable generation since January."
+          "Two people were pulled out alive on Friday from a tunnel linked to a hydropower station on the Trishuli River, nine days after a ice, rock and mud slide swept through a valley in Nepal, killing more than 1,200 people and displacing tens of thousands.",
+          "China has put the death toll in Tibet at 21, with 541 others listed as missing."
         ],
         "body": [
-          "The Economy Minister Caoimhe Archibald said the increasing level of renewable energy would help Northern Ireland \"move away from price volatility and towards more stable and fairer prices\".",
-          "anaerobic digestion, incineration and fermentation – provided just under one-fifth (18%).",
-          "Solar energy provided 6%, landfill gas provided 1%, and hydro/tidal generation provided 1%.",
-          "Lower levels can be due to weather conditions.",
-          "There is also a high rate of dispatch down in Northern Ireland – when turbines are switched off because there is not enough demand for the power being generated.",
-          "That is to protect the grid which has a limit on the amount of renewable energy it can carry due to fluctuations."
+          "The two workers pulled from the tunnel at the Upper Trishuli 3A Hydropower Station are the first to be rescued from the hydropower projects.",
+          "They were Sanjay Sah, a mechanical foreman, and Kabir Maharjan, a mechanical supervisor, Energy Minister Biraj Bhakta Shrestha’s office said in a statement.",
+          "Videos and photos released by Nepali authorities showed Maharjan being pulled out of a hole in the ground amid cheering bystanders and put on a stretcher.",
+          "The other man, Sah, was carried out on the back of a worker to a rescue tent, his face covered in mud.",
+          "A team of army doctors attended to Sah at a tent near the tunnel, fitting what appeared to be an oxygen mask around his mouth and checking his vitals, in one of the videos.",
+          "\"His name is Sanjay Sah and he was working in mechanical control room.",
+          "The vital parameters look normal,” an army official said."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Northern Ireland"
+            "text": "Nepal"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "more than 1,200 people"
           }
         ],
         "sentences": [
           {
-            "text": "The Economy Minister Caoimhe Archibald said the increasing level of renewable energy would help Northern Ireland \"move away from price volatility and towards more stable and fairer prices\".",
-            "source": "BBC Science",
-            "item_id": "ba51303c7601ca1ea0a9d599eb1b5c7b4246b5543c3808e163dce858104fc37d:article",
+            "text": "Two people were pulled out alive on Friday from a tunnel linked to a hydropower station on the Trishuli River, nine days after a ice, rock and mud slide swept through a valley in Nepal, killing more than 1,200 people and displacing tens of thousands.",
+            "source": "Straits Times Asia",
+            "item_id": "a2a0280393248bbe993d6c06f743a1decbd5517b45fa067f020a9c25817d39f0:article",
             "composed": false
           },
           {
-            "text": "More than half (53%) of Northern Ireland's electricity came from renewable sources in the year to June – beating the 51% level previously set in 2022.",
-            "source": "BBC Science",
-            "item_id": "ba51303c7601ca1ea0a9d599eb1b5c7b4246b5543c3808e163dce858104fc37d:article",
+            "text": "Videos and photos released by Nepali authorities showed Maharjan being pulled out of a hole in the ground amid cheering bystanders and put on a stretcher.",
+            "source": "Straits Times Asia",
+            "item_id": "a2a0280393248bbe993d6c06f743a1decbd5517b45fa067f020a9c25817d39f0:article",
             "composed": false
           },
           {
-            "text": "Solar energy provided 6%, landfill gas provided 1%, and hydro/tidal generation provided 1%.",
-            "source": "BBC Science",
-            "item_id": "ba51303c7601ca1ea0a9d599eb1b5c7b4246b5543c3808e163dce858104fc37d:article",
+            "text": "China has put the death toll in Tibet at 21, with 541 others listed as missing.",
+            "source": "Straits Times Asia",
+            "item_id": "a2a0280393248bbe993d6c06f743a1decbd5517b45fa067f020a9c25817d39f0:article",
+            "composed": false
+          },
+          {
+            "text": "The two workers pulled from the tunnel at the Upper Trishuli 3A Hydropower Station are the first to be rescued from the hydropower projects.",
+            "source": "Straits Times Asia",
+            "item_id": "a2a0280393248bbe993d6c06f743a1decbd5517b45fa067f020a9c25817d39f0:article",
             "composed": false
           }
         ],
-        "source": "BBC Science",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/ce3rql5rzx4o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.straitstimes.com/asia/two-people-pulled-alive-from-nepal-hydropower-tunnel"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "⚡ JUST IN"
     },
     {
-      "id": "1647e8e7625f08d36bb556a085420aba37370b2e22b2197bb14bf407875e6868",
-      "title": "Officer to combat homes pumping sewage into rivers",
-      "url": "https://www.bbc.co.uk/news/articles/c99dnk500vgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Science",
-      "source_category": "science",
+      "id": "701a5bf87cabc21218aa47bade0943a021b599f0244f61a8166cd801e77ee6a2",
+      "title": "White House launches video games depicting migrant arrests and border walls",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3366329/white-house-launches-video-games-depicting-migrant-arrests-and-border-walls?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "North America",
       "discovery": false,
-      "summary": "A dedicated officer is to be hired in west London in a trial to combat the problem of water-polluting misconnections. Owing to incorrect plumbing, affected households pump waste into surface drains, which can then spread, killing wildlife and damaging waterways. Misconnections are illegal, and fixing them is the responsibility of the property owner, external. Local authorities can take enforcement action, and if the pilot - funded by the mayor of London's office - is successful, the measure could be rolled out across the capital. Funding is to be spent where the issue is considered a particular problem, including the River Brent catchment area. Founder of the volunteer group Clean Up the River Brent (CURB), Ben Morris, said there was \"good reason\" to think misconnections \"are the biggest single cause of pollution in London's rivers\". He added: \"We need to see stronger action from the councils to get this done. \"They have the power of enforcement and they need to be using those powers to get those property owners to sort out the misconnections.\" An information request to Thames Water by the charity Friends of the River Crane Environment (FORCE ) revealed that in October 2024 seven blocks of flats in north and west London were identified as having misconnections. FORCE said this meant at least 100 homes were flushing waste into the rivers Crane and Brent. Since then, only three of the seven blocks' misconnections have been resolved, according to Thames Water. The company said two of the housing developments still pumping out sewage were in the borough of Barnet, while two were in the borough of Harrow.",
-      "published_at": "2026-09-04T05:15:24+00:00",
-      "updated_at": "2026-09-04T05:15:24+00:00",
-      "effective_at": "2026-09-04T05:15:24+00:00",
+      "summary": "US President Donald Trump’s White House on Thursday unveiled a website featuring classic arcade games - but with a “Maga” twist, in which players can deport migrants and build a border wall. Rights groups swiftly criticised the release of the online games, which comes as the Trump administration steps up its mass arrest and deportation programme for undocumented migrants. One game called Rio Run - an updated version of the game Snake - features a digital version of US border tsar Tom Homan...",
+      "published_at": "2026-09-04T05:29:34+00:00",
+      "updated_at": "2026-09-04T05:29:34+00:00",
+      "effective_at": "2026-09-04T05:29:34+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "politics",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "agriculture",
-      "subsector": "water",
-      "subregion": null,
+      "sector": "law",
+      "subsector": "human_rights",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "barnet",
-        "ben",
-        "brent",
-        "clean",
-        "crane",
-        "curb",
-        "environment",
-        "force",
-        "friends",
-        "harrow",
-        "morris",
-        "river",
-        "thames",
-        "uk",
-        "water",
-        "we"
+        "donald",
+        "homan",
+        "house",
+        "maga",
+        "rio",
+        "run",
+        "snake",
+        "tom",
+        "trump",
+        "us",
+        "white"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "A dedicated officer is to be hired in west London in a trial to combat the problem of water-polluting misconnections.",
-        "Owing to incorrect plumbing, affected households pump waste into surface drains, which can then spread, killing wildlife and damaging waterways.",
-        "Misconnections are illegal, and fixing them is the responsibility of the property owner, external.",
-        "Local authorities can take enforcement action, and if the pilot - funded by the mayor of London's office - is successful, the measure could be rolled out across the capital.",
-        "Funding is to be spent where the issue is considered a particular problem, including the River Brent catchment area.",
-        "Founder of the volunteer group Clean Up the River Brent (CURB), Ben Morris, said there was \"good reason\" to think misconnections \"are the biggest single cause of pollution in London's rivers\".",
-        "He added: \"We need to see stronger action from the councils to get this done.",
-        "\"They have the power of enforcement and they need to be using those powers to get those property owners to sort out the misconnections.\"",
-        "An information request to Thames Water by the charity Friends of the River Crane Environment (FORCE ) revealed that in October 2024 seven blocks of flats in north and west London were identified as having misconnections.",
-        "FORCE said this meant at least 100 homes were flushing waste into the rivers Crane and Brent.",
-        "Since then, only three of the seven blocks' misconnections have been resolved, according to Thames Water.",
-        "The company said two of the housing developments still pumping out sewage were in the borough of Barnet, while two were in the borough of Harrow."
-      ],
       "event_status": "UPDATE",
-      "event_id": "cbfb8b98940a0664bff8f4d4",
-      "importance_score": 36.0,
+      "event_id": "230aa56db131d84aac16bfe4",
+      "importance_score": 39.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 8.0,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
         "significance": 12,
@@ -222,136 +214,105 @@
           "crisis": false
         },
         "significance_dims": {
-          "economic": 4,
-          "infrastructure": 4,
+          "scientific": 8,
           "geopolitical": 4
         }
       },
-      "story_id": "1647e8e7625f08d36bb556a085420aba37370b2e22b2197bb14bf407875e6868",
+      "story_id": "701a5bf87cabc21218aa47bade0943a021b599f0244f61a8166cd801e77ee6a2",
       "public_label": "🔄 UPDATE",
-      "headline": "Officer to combat homes pumping sewage into rivers",
+      "headline": "White House launches video games depicting migrant arrests and border walls",
       "briefing": {
         "opening": [
-          "A dedicated officer is to be hired in west London in a trial to combat the problem of water-polluting misconnections.",
-          "Owing to incorrect plumbing, affected households pump waste into surface drains, which can then spread, killing wildlife and damaging waterways."
+          "US President Donald Trump’s White House on Thursday unveiled a website featuring classic arcade games - but with a “Maga” twist, in which players can deport migrants and build a border wall.",
+          "Rights groups swiftly criticised the release of the online games, which comes as the Trump administration steps up its mass arrest and deportation programme for undocumented migrants."
         ],
         "body": [
-          "Misconnections are illegal, and fixing them is the responsibility of the property owner, external.",
-          "Local authorities can take enforcement action, and if the pilot - funded by the mayor of London's office - is successful, the measure could be rolled out across the capital.",
-          "Funding is to be spent where the issue is considered a particular problem, including the River Brent catchment area.",
-          "Founder of the volunteer group Clean Up the River Brent (CURB), Ben Morris, said there was \"good reason\" to think misconnections \"are the biggest single cause of pollution in London's rivers\".",
-          "He added: \"We need to see stronger action from the councils to get this done.",
-          "\"They have the power of enforcement and they need to be using those powers to get those property owners to sort out the misconnections.\" An information request to Thames Water by the charity Friends of the River Crane Environment (FORCE ) revealed that in October 2024 seven blocks of flats in north and west London were identified as having misconnections.",
-          "FORCE said this meant at least 100 homes were flushing waste into the rivers Crane and Brent.",
-          "Since then, only three of the seven blocks' misconnections have been resolved, according to Thames Water."
+          "One game called Rio Run - an updated version of the game Snake - features a digital version of US border tsar Tom Homan..."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "London's"
-          },
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "at least 100 homes"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "A dedicated officer is to be hired in west London in a trial to combat the problem of water-polluting misconnections.",
-            "source": "BBC Science",
-            "item_id": "1647e8e7625f08d36bb556a085420aba37370b2e22b2197bb14bf407875e6868:article",
+            "text": "Rights groups swiftly criticised the release of the online games, which comes as the Trump administration steps up its mass arrest and deportation programme for undocumented migrants.",
+            "source": "South China Morning Post",
+            "item_id": "701a5bf87cabc21218aa47bade0943a021b599f0244f61a8166cd801e77ee6a2",
             "composed": false
           },
           {
-            "text": "An information request to Thames Water by the charity Friends of the River Crane Environment (FORCE ) revealed that in October 2024 seven blocks of flats in north and west London were identified as having misconnections.",
-            "source": "BBC Science",
-            "item_id": "1647e8e7625f08d36bb556a085420aba37370b2e22b2197bb14bf407875e6868:article",
-            "composed": false
-          },
-          {
-            "text": "Founder of the volunteer group Clean Up the River Brent (CURB), Ben Morris, said there was \"good reason\" to think misconnections \"are the biggest single cause of pollution in London's rivers\".",
-            "source": "BBC Science",
-            "item_id": "1647e8e7625f08d36bb556a085420aba37370b2e22b2197bb14bf407875e6868:article",
-            "composed": false
-          },
-          {
-            "text": "FORCE said this meant at least 100 homes were flushing waste into the rivers Crane and Brent.",
-            "source": "BBC Science",
-            "item_id": "1647e8e7625f08d36bb556a085420aba37370b2e22b2197bb14bf407875e6868:article",
+            "text": "US President Donald Trump’s White House on Thursday unveiled a website featuring classic arcade games - but with a “Maga” twist, in which players can deport migrants and build a border wall.",
+            "source": "South China Morning Post",
+            "item_id": "701a5bf87cabc21218aa47bade0943a021b599f0244f61a8166cd801e77ee6a2",
             "composed": false
           }
         ],
-        "source": "BBC Science",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/c99dnk500vgo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3366329/white-house-launches-video-games-depicting-migrant-arrests-and-border-walls?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
     },
     {
-      "id": "858219f5db65af4c9a6073772cc34aa515ed9b187fa559054605ba2825f60ac4",
-      "title": "Japan US battering ram against China — presidential adviser",
-      "url": "https://tass.com/economy/2182463",
-      "source": "TASS English",
+      "id": "7b146b56b407f1937e053c6b37b0797e907081a938aa36d21a5d6a73ebe5eeb9",
+      "title": "'Pragmatic international relations: Sánchez seeks to avoid 'further conflict with Rabat'",
+      "url": "https://www.france24.com/en/video/20260904-pragmatic-international-relations-s%C3%A1nchez-seeks-to-avoid-further-conflict-with-rabat",
+      "source": "France 24",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Africa",
       "discovery": false,
-      "summary": "VLADIVOSTOK, September 4. The United States uses Japan as a battering ram against China, Anton Kobyakov, an adviser to the Russian president and executive secretary of the Eastern Economic Forum organizing committee, said at a press briefing following the forum. \"However, everyone understands that Japan is a US battering ram against China,\" he said. Kobyakov noted that as many as four military blocs had been created in the region.",
-      "published_at": "2026-09-04T05:14:40+00:00",
-      "updated_at": "2026-09-04T05:14:40+00:00",
-      "effective_at": "2026-09-04T05:14:40+00:00",
+      "summary": "Delano D'Souza is pleased to welcome Alana Moceri, International Relations Professor at IE School of Politics, Economics and Global Affairs. She sees the Ceuta migrant crossings as a both a domestic and international crisis. The scale and speed of the crossings point toward what she calls a form of \"deliberate permissiveness\" at the border and Pedro Sánchez's restrained response is understood less as exoneration of Morocco than as pragmatic international relations. Sánchez faces pressure at home from political opponents able to frame migration as an existential crisis. She extends the argument further by showing how such episodes become politically valuable after they occur: Spain's far righ",
+      "published_at": "2026-09-04T05:22:52+00:00",
+      "updated_at": "2026-09-04T05:22:52+00:00",
+      "effective_at": "2026-09-04T05:22:52+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "politics",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "East Asia",
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "North Africa",
       "country": null,
       "entities": [
-        "anton",
-        "china",
-        "eastern",
-        "economic",
-        "forum",
-        "japan",
-        "kobyakov",
-        "russia",
-        "united_states",
-        "us",
-        "vladivostok"
+        "affairs",
+        "alana",
+        "ceuta",
+        "delano",
+        "economics",
+        "global",
+        "ie",
+        "international",
+        "moceri",
+        "morocco",
+        "pedro",
+        "politics",
+        "professor",
+        "rabat",
+        "relations",
+        "school",
+        "spain"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "VLADIVOSTOK, September 4.",
-        "The United States uses Japan as a battering ram against China, Anton Kobyakov, an adviser to the Russian president and executive secretary of the Eastern Economic Forum organizing committee, said at a press briefing following the forum.",
-        "\"However, everyone understands that Japan is a US battering ram against China,\" he said.",
-        "Kobyakov noted that as many as four military blocs had been created in the region."
-      ],
       "event_status": "NEW",
-      "event_id": "6e6501c41c4ab6c42b860732",
-      "importance_score": 36.0,
+      "event_id": "16935649cd7bd737abe4bd79",
+      "importance_score": 35.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "GLOBAL",
+        "scope_points": 8,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -364,376 +325,102 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "858219f5db65af4c9a6073772cc34aa515ed9b187fa559054605ba2825f60ac4",
+      "story_id": "7b146b56b407f1937e053c6b37b0797e907081a938aa36d21a5d6a73ebe5eeb9",
       "public_label": "📰 NEWS",
-      "headline": "Japan US battering ram against China — presidential adviser",
+      "headline": "'Pragmatic international relations: Sánchez seeks to avoid 'further conflict with Rabat'",
       "briefing": {
         "opening": [
-          "VLADIVOSTOK, September 4.",
-          "The United States uses Japan as a battering ram against China, Anton Kobyakov, an adviser to the Russian president and executive secretary of the Eastern Economic Forum organizing committee, said at a press briefing following the forum."
+          "Delano D'Souza is pleased to welcome Alana Moceri, International Relations Professor at IE School of Politics, Economics and Global Affairs.",
+          "She sees the Ceuta migrant crossings as a both a domestic and international crisis."
         ],
         "body": [
-          "\"However, everyone understands that Japan is a US battering ram against China,\" he said.",
-          "Kobyakov noted that as many as four military blocs had been created in the region."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The United States uses Japan as a battering ram against China, Anton Kobyakov, an adviser to the Russian president and executive secretary of the Eastern Economic Forum organizing committee, said at a press briefing following the forum.",
-            "source": "TASS English",
-            "item_id": "858219f5db65af4c9a6073772cc34aa515ed9b187fa559054605ba2825f60ac4:article",
-            "composed": false
-          },
-          {
-            "text": "\"However, everyone understands that Japan is a US battering ram against China,\" he said.",
-            "source": "TASS English",
-            "item_id": "858219f5db65af4c9a6073772cc34aa515ed9b187fa559054605ba2825f60ac4:article",
-            "composed": false
-          },
-          {
-            "text": "Kobyakov noted that as many as four military blocs had been created in the region.",
-            "source": "TASS English",
-            "item_id": "858219f5db65af4c9a6073772cc34aa515ed9b187fa559054605ba2825f60ac4:article",
-            "composed": false
-          }
-        ],
-        "source": "TASS English",
-        "corroborating": [],
-        "url": "https://tass.com/economy/2182463"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "e400084e138f22e45bfad373e7c51db0d2f643402c0394e6526eac9c4790d207",
-      "title": "Court grants Malaysia ex-PM Najib and son stay of bankruptcy proceedings",
-      "url": "https://www.straitstimes.com/asia/se-asia/court-grants-malaysia-ex-pm-najib-and-son-stay-of-bankruptcy-proceedings",
-      "source": "Straits Times Asia",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Najib and Nazifuddin are disputing the tax assessment in two SCIT proceedings.",
-      "published_at": "2026-09-04T05:10:00+00:00",
-      "updated_at": "2026-09-04T05:10:00+00:00",
-      "effective_at": "2026-09-04T05:10:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "courts",
-      "subregion": "Southeast Asia",
-      "country": null,
-      "entities": [
-        "malaysia",
-        "najib",
-        "nazifuddin",
-        "scit"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 90,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "2dec4bd87e42799777f8b253",
-      "importance_score": 32.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "economic": 4
-        }
-      },
-      "story_id": "e400084e138f22e45bfad373e7c51db0d2f643402c0394e6526eac9c4790d207",
-      "article_sentences": [
-        "The Court of Appeal allowed Najib Razak and his son Mohd Nazifuddin to stay bankruptcy proceedings over unpaid tax arrears of RM1.69 billion and RM37.6 million.",
-        "The court ruled the Judicial Commissioner's dismissal of their stay was wrong, as bankruptcy has irreversible consequences beyond monetary loss.",
-        "The stay will last until the appeal before the Special Commissioner of Income Tax is resolved, with no prejudice to the government.",
-        "Najib Razak and his son.",
-        "Mohd Nazifuddin have succeeded in their appeal to stay bankruptcy proceedings against them over failure to settle tax arrears amounting to billions of ringgit.",
-        "A three-judge panel chaired by Justice Alwipa Abdul Wahab unanimously allowed the stay application by Najib and Nazifuddin in the decision on Sept 4.",
-        "Other judges on the panel were Justices Shahnaz Sulaiman and Ong Chee Kwan.",
-        "Alwipa, who read the decision, said the learned Judicial Commissioner (JC) who dismissed Najib and Nazifuddin’s stay application had erred when he held that the appellants suffer no irreparable harm on the basis of Section 111 of the Income Tax Act (ITA) 1967.",
-        "Section 111 guarantees a refund of any tax overpaid, should the appeal by Najib and Nazifuddin before the Special Commissioner of Income Tax (SCIT) on their tax arrears succeed.",
-        "“We concede with the appellants’ submission that the JC’s reasoning is only confined to the recoverability of money.",
-        "It does not and cannot address the distinct and irreversible consequences of an adjudication of bankruptcy as alluded to above.",
-        "“The learned JC’s equation of irreparable harm with mere monetary loss was a misdirection,” Alwipa said."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "Court grants Malaysia ex-PM Najib and son stay of bankruptcy proceedings",
-      "briefing": {
-        "opening": [
-          "The Court of Appeal allowed Najib Razak and his son Mohd Nazifuddin to stay bankruptcy proceedings over unpaid tax arrears of RM1.69 billion and RM37.6 million.",
-          "The court ruled the Judicial Commissioner's dismissal of their stay was wrong, as bankruptcy has irreversible consequences beyond monetary loss."
-        ],
-        "body": [
-          "The stay will last until the appeal before the Special Commissioner of Income Tax is resolved, with no prejudice to the government.",
-          "Najib Razak and his son.",
-          "Mohd Nazifuddin have succeeded in their appeal to stay bankruptcy proceedings against them over failure to settle tax arrears amounting to billions of ringgit.",
-          "A three-judge panel chaired by Justice Alwipa Abdul Wahab unanimously allowed the stay application by Najib and Nazifuddin in the decision on Sept 4.",
-          "Other judges on the panel were Justices Shahnaz Sulaiman and Ong Chee Kwan.",
-          "Alwipa, who read the decision, said the learned Judicial Commissioner (JC) who dismissed Najib and Nazifuddin’s stay application had erred when he held that the appellants suffer no irreparable harm on the basis of Section 111 of the Income Tax Act (ITA) 1967.",
-          "Section 111 guarantees a refund of any tax overpaid, should the appeal by Najib and Nazifuddin before the Special Commissioner of Income Tax (SCIT) on their tax arrears succeed.",
-          "“We concede with the appellants’ submission that the JC’s reasoning is only confined to the recoverability of money."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The Court of Appeal allowed Najib Razak and his son Mohd Nazifuddin to stay bankruptcy proceedings over unpaid tax arrears of RM1.69 billion and RM37.6 million.",
-            "source": "Straits Times Asia",
-            "item_id": "e400084e138f22e45bfad373e7c51db0d2f643402c0394e6526eac9c4790d207:article",
-            "composed": false
-          },
-          {
-            "text": "Najib and Nazifuddin’s stay application had erred when he held that the appellants suffer no irreparable harm on the basis of Section 111 of the Income Tax Act (ITA) 1967.",
-            "source": "Straits Times Asia",
-            "item_id": "e400084e138f22e45bfad373e7c51db0d2f643402c0394e6526eac9c4790d207:article",
-            "composed": false
-          },
-          {
-            "text": "A three-judge panel chaired by Justice Alwipa Abdul Wahab unanimously allowed the stay application by Najib and Nazifuddin in the decision on Sept 4.",
-            "source": "Straits Times Asia",
-            "item_id": "e400084e138f22e45bfad373e7c51db0d2f643402c0394e6526eac9c4790d207:article",
-            "composed": false
-          },
-          {
-            "text": "Section 111 guarantees a refund of any tax overpaid, should the appeal by Najib and Nazifuddin before the Special Commissioner of Income Tax (SCIT) on their tax arrears succeed.",
-            "source": "Straits Times Asia",
-            "item_id": "e400084e138f22e45bfad373e7c51db0d2f643402c0394e6526eac9c4790d207:article",
-            "composed": false
-          }
-        ],
-        "source": "Straits Times Asia",
-        "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/se-asia/court-grants-malaysia-ex-pm-najib-and-son-stay-of-bankruptcy-proceedings"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "d8c845a5102e6edec2cee2bd2af9c9717772921a74217191bdcbe622c1dde90d",
-      "title": "Is a whale fossil the leftovers of a Bronze Age Sunday roast?",
-      "url": "https://www.bbc.co.uk/news/articles/cly4zkpvl4wo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Science",
-      "source_category": "science",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "The head of a whale, believed to date back to the Bronze Age, has been discovered buried on a beach in Islandmagee. A 10-year-old boy was out looking for fossils along the shore when he spotted the back of the skull protruding from a bank of earth - but could the fossil be the remnants of a prehistoric Sunday roast? The find has been described as a totally unique, with geologists and marine specialists trying to establish the fossil's story and the Natural History Museum in London helping to identify it. It was found on the same beach where Ireland's only dinosaur bones were discovered in the late 19th Century and the 1980s. Ten-year-old George was out on a walk at Portmuck Harbour with his parents when he spotted something unusual. \"It was just the weird patterns on it,\" he told BBC News NI. \"The bits that stuck out, it just didn't look like a rock. I thought it was a bone, but I just wasn't too sure. So I asked my dad and he said it was definitely a fossil.\" This fossilised hunk of whale bone has lain hidden in the earth on Portmuck Beach for possibly millennia. Only the back of the head was visible to George, invisible for centuries was the beak, which was about a foot long when excavated. Katy McMonagle, one of the archaeologists who dug the whale head out, said the fossil was difficult to move and very heavy.",
-      "published_at": "2026-09-04T05:13:54+00:00",
-      "updated_at": "2026-09-04T05:13:54+00:00",
-      "effective_at": "2026-09-04T05:13:54+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "science",
-      "subsector": "earth_science",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "age",
-        "bbc",
-        "beach",
-        "bronze",
-        "century",
-        "george",
-        "harbour",
-        "history",
-        "ireland",
-        "islandmagee",
-        "katy",
-        "mcmonagle",
-        "museum",
-        "natural",
-        "news",
-        "ni",
-        "portmuck",
-        "so",
-        "ten-year-old",
-        "uk"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 60,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "The head of a whale, believed to date back to the Bronze Age, has been discovered buried on a beach in Islandmagee.",
-        "A 10-year-old boy was out looking for fossils along the shore when he spotted the back of the skull protruding from a bank of earth - but could the fossil be the remnants of a prehistoric Sunday roast?",
-        "The find has been described as a totally unique, with geologists and marine specialists trying to establish the fossil's story and the Natural History Museum in London helping to identify it.",
-        "It was found on the same beach where Ireland's only dinosaur bones were discovered in the late 19th Century and the 1980s.",
-        "Ten-year-old George was out on a walk at Portmuck Harbour with his parents when he spotted something unusual.",
-        "\"It was just the weird patterns on it,\" he told BBC News NI.",
-        "\"The bits that stuck out, it just didn't look like a rock.",
-        "I thought it was a bone, but I just wasn't too sure.",
-        "So I asked my dad and he said it was definitely a fossil.\"",
-        "This fossilised hunk of whale bone has lain hidden in the earth on Portmuck Beach for possibly millennia.",
-        "Only the back of the head was visible to George, invisible for centuries was the beak, which was about a foot long when excavated.",
-        "Katy McMonagle, one of the archaeologists who dug the whale head out, said the fossil was difficult to move and very heavy."
-      ],
-      "event_status": "NEW",
-      "event_id": "2f7f1f1aedf4713db9f999e8",
-      "importance_score": 30.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 4,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "scientific": 4
-        }
-      },
-      "story_id": "d8c845a5102e6edec2cee2bd2af9c9717772921a74217191bdcbe622c1dde90d",
-      "public_label": "📰 NEWS",
-      "headline": "Is a whale fossil the leftovers of a Bronze Age Sunday roast?",
-      "briefing": {
-        "opening": [
-          "The head of a whale, believed to date back to the Bronze Age, has been discovered buried on a beach in Islandmagee.",
-          "A 10-year-old boy was out looking for fossils along the shore when he spotted the back of the skull protruding from a bank of earth - but could the fossil be the remnants of a prehistoric Sunday roast?"
-        ],
-        "body": [
-          "The find has been described as a totally unique, with geologists and marine specialists trying to establish the fossil's story and the Natural History Museum in London helping to identify it.",
-          "It was found on the same beach where Ireland's only dinosaur bones were discovered in the late 19th Century and the 1980s.",
-          "Ten-year-old George was out on a walk at Portmuck Harbour with his parents when he spotted something unusual.",
-          "\"It was just the weird patterns on it,\" he told BBC News NI.",
-          "\"The bits that stuck out, it just didn't look like a rock.",
-          "I thought it was a bone, but I just wasn't too sure.",
-          "So I asked my dad and he said it was definitely a fossil.\" This fossilised hunk of whale bone has lain hidden in the earth on Portmuck Beach for possibly millennia.",
-          "Only the back of the head was visible to George, invisible for centuries was the beak, which was about a foot long when excavated."
+          "The scale and speed of the crossings point toward what she calls a form of \"deliberate permissiveness\" at the border and Pedro Sánchez's restrained response is understood less as exoneration of Morocco than as pragmatic international relations.",
+          "Sánchez faces pressure at home from political opponents able to frame migration as an existential crisis.",
+          "She extends the argument further by showing how such episodes become politically valuable after they occur: Spain's far righ."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "Islandmagee"
+            "text": "IE School"
           }
         ],
         "sentences": [
           {
-            "text": "It was found on the same beach where Ireland's only dinosaur bones were discovered in the late 19th Century and the 1980s.",
-            "source": "BBC Science",
-            "item_id": "d8c845a5102e6edec2cee2bd2af9c9717772921a74217191bdcbe622c1dde90d:article",
+            "text": "The scale and speed of the crossings point toward what she calls a form of \"deliberate permissiveness\" at the border and Pedro Sánchez's restrained response is understood less as exoneration of Morocco than as pragmatic international relations.",
+            "source": "France 24",
+            "item_id": "7b146b56b407f1937e053c6b37b0797e907081a938aa36d21a5d6a73ebe5eeb9",
             "composed": false
           },
           {
-            "text": "A 10-year-old boy was out looking for fossils along the shore when he spotted the back of the skull protruding from a bank of earth - but could the fossil be the remnants of a prehistoric Sunday roast?",
-            "source": "BBC Science",
-            "item_id": "d8c845a5102e6edec2cee2bd2af9c9717772921a74217191bdcbe622c1dde90d:article",
+            "text": "She sees the Ceuta migrant crossings as a both a domestic and international crisis.",
+            "source": "France 24",
+            "item_id": "7b146b56b407f1937e053c6b37b0797e907081a938aa36d21a5d6a73ebe5eeb9",
             "composed": false
           },
           {
-            "text": "The head of a whale, believed to date back to the Bronze Age, has been discovered buried on a beach in Islandmagee.",
-            "source": "BBC Science",
-            "item_id": "d8c845a5102e6edec2cee2bd2af9c9717772921a74217191bdcbe622c1dde90d:article",
-            "composed": false
-          },
-          {
-            "text": "The find has been described as a totally unique, with geologists and marine specialists trying to establish the fossil's story and the Natural History Museum in London helping to identify it.",
-            "source": "BBC Science",
-            "item_id": "d8c845a5102e6edec2cee2bd2af9c9717772921a74217191bdcbe622c1dde90d:article",
+            "text": "Delano D'Souza is pleased to welcome Alana Moceri, International Relations Professor at IE School of Politics, Economics and Global Affairs.",
+            "source": "France 24",
+            "item_id": "7b146b56b407f1937e053c6b37b0797e907081a938aa36d21a5d6a73ebe5eeb9",
             "composed": false
           }
         ],
-        "source": "BBC Science",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/cly4zkpvl4wo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.france24.com/en/video/20260904-pragmatic-international-relations-s%C3%A1nchez-seeks-to-avoid-further-conflict-with-rabat"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "4a4558c5ae85368334522feeaf5192ef97ce3199cf50322e9bb10c89baed96e2",
-      "title": "Indonesia’s top rights body calls for police to probe food poisoning of about 2,000 students",
-      "url": "https://www.straitstimes.com/asia/se-asia/indonesias-top-rights-body-calls-for-police-to-probe-food-poisoning-of-about-2000-students",
-      "source": "Straits Times Asia",
+      "id": "611ba10ca77a0a0e3da080a613e3963e71da219b1402a898b1a699ba6f9c2335",
+      "title": "The Hyderabad that was, and the city it is now",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/the-hyderabad-that-was-and-the-city-it-is-now/article71424311.ece",
+      "source": "The Hindu",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": null,
       "discovery": false,
-      "summary": "As at Sept 1, 50,000 individuals had been affected by food poisoning cases, a lawmaker said.",
-      "published_at": "2026-09-04T05:09:31+00:00",
-      "updated_at": "2026-09-04T05:09:31+00:00",
-      "effective_at": "2026-09-04T05:09:31+00:00",
+      "summary": "Once a city of leisurely chai, neighbourhood cinema halls, street-corner conversations and the twin cities, Hyderabad has changed almost beyond recognition. Over five decades, tech, infrastructure, migration and enterprise have transformed its physical and economic landscape. From the first stirrings of computing to AI, GCCs and towering business districts, the city has reinvented itself",
+      "published_at": "2026-09-04T05:15:23+00:00",
+      "updated_at": "2026-09-04T05:15:23+00:00",
+      "effective_at": "2026-09-04T05:15:23+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 60,
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "agriculture",
-      "subsector": "food",
-      "subregion": "Southeast Asia",
+      "sector": "economy",
+      "subsector": "economy",
+      "subregion": null,
       "country": null,
       "entities": [
-        "indonesia",
-        "sept"
+        "ai",
+        "gccs",
+        "hyderabad",
+        "once"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "7857cae9aad6a586b4726b82",
-      "importance_score": 28.0,
+      "event_id": "6942b9bed7f04c725c15032e",
+      "importance_score": 27.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 8.0,
         "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
+        "scope": "LOCAL",
+        "scope_points": 3,
         "reliability": 6,
         "corroboration": 0,
         "significance": 0,
@@ -744,80 +431,41 @@
           "injured": 0,
           "displaced": 0,
           "missing": 0,
-          "affected": 50000,
+          "affected": 0,
           "major_incident": false,
           "crisis": false
         },
         "significance_dims": {}
       },
-      "story_id": "4a4558c5ae85368334522feeaf5192ef97ce3199cf50322e9bb10c89baed96e2",
-      "article_sentences": [
-        "Indonesia’s top human rights body urged the police on Sept 4 to investigate several new outbreaks of food poisoning linked to President Prabowo Subianto’s flagship programme to provide free meals to students, which made 2,000 people sick this week.",
-        "In separate cases across at least two major Indonesian islands, around 2,000 students and teachers fell ill after eating lunch issued by the government as part of a scheme to eradicate malnutrition launched by Prabowo in 2025.",
-        "“Rights to food, especially safe-to-consume food, are human rights,” the Indonesian independent rights body, known as Komnas HAM, said in a statement.",
-        "“Without a rigorous sanitation standard...",
-        "the nutrition intervention that the state is doing will lose its moral legitimacy,” it said.",
-        "Komnas HAM called on the police to launch a probe into the poisoning cases, without providing further details.",
-        "The National.",
-        "Police did not immediately respond to a request for comment.",
-        "Komnas HAM also called on the National Nutrition Agency, which oversees the programme, to suspend the kitchens allegedly responsible for the poisoning outbreaks.",
-        "Some 170 students and teachers in the South Sulawesi region of Tana Toraja also fell ill after eating the free meals on Sept 3, local media Kompas reported, following more than 1,700 cases spread across the provinces of Central Java, East Java and West Sumatra.",
-        "The overseeing agency was slated to hold a press conference on Sept 4, but delayed it without providing a reason or a rescheduled time.",
-        "It did not immediately respond to a request for comment, but agency head Sudaryono said on Sept 3 that the poisoning cases would be handled seriously."
-      ],
+      "story_id": "611ba10ca77a0a0e3da080a613e3963e71da219b1402a898b1a699ba6f9c2335",
       "public_label": "📰 NEWS",
-      "headline": "Indonesia’s top rights body calls for police to probe food poisoning of about 2,000 students",
+      "headline": "The Hyderabad that was, and the city it is now",
       "briefing": {
         "opening": [
-          "Indonesia’s top human rights body urged the police on Sept 4 to investigate several new outbreaks of food poisoning linked to President Prabowo Subianto’s flagship programme to provide free meals to students, which made 2,000 people sick this week.",
-          "In separate cases across at least two major Indonesian islands, around 2,000 students and teachers fell ill after eating lunch issued by the government as part of a scheme to eradicate malnutrition launched by Prabowo in 2025."
+          "Once a city of leisurely chai, neighbourhood cinema halls, street-corner conversations and the twin cities, Hyderabad has changed almost beyond recognition.",
+          "Over five decades, tech, infrastructure, migration and enterprise have transformed its physical and economic landscape."
         ],
         "body": [
-          "“Rights to food, especially safe-to-consume food, are human rights,” the Indonesian independent rights body, known as Komnas HAM, said in a statement.",
-          "“Without a rigorous sanitation standard...",
-          "the nutrition intervention that the state is doing will lose its moral legitimacy,” it said.",
-          "Komnas HAM called on the police to launch a probe into the poisoning cases, without providing further details.",
-          "The National.",
-          "Police did not immediately respond to a request for comment.",
-          "Komnas HAM also called on the National Nutrition Agency, which oversees the programme, to suspend the kitchens allegedly responsible for the poisoning outbreaks.",
-          "Some 170 students and teachers in the South Sulawesi region of Tana Toraja also fell ill after eating the free meals on Sept 3, local media Kompas reported, following more than 1,700 cases spread across the provinces of Central Java, East Java and West Sumatra."
+          "From the first stirrings of computing to AI, GCCs and towering business districts, the city has reinvented itself."
         ],
-        "bullets": [
-          {
-            "icon": "👥",
-            "label": "Impact",
-            "text": "2,000 people"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "“Rights to food, especially safe-to-consume food, are human rights,” the Indonesian independent rights body, known as Komnas HAM, said in a statement.",
-            "source": "Straits Times Asia",
-            "item_id": "4a4558c5ae85368334522feeaf5192ef97ce3199cf50322e9bb10c89baed96e2:article",
+            "text": "Once a city of leisurely chai, neighbourhood cinema halls, street-corner conversations and the twin cities, Hyderabad has changed almost beyond recognition.",
+            "source": "The Hindu",
+            "item_id": "611ba10ca77a0a0e3da080a613e3963e71da219b1402a898b1a699ba6f9c2335",
             "composed": false
           },
           {
-            "text": "Komnas HAM called on the police to launch a probe into the poisoning cases, without providing further details.",
-            "source": "Straits Times Asia",
-            "item_id": "4a4558c5ae85368334522feeaf5192ef97ce3199cf50322e9bb10c89baed96e2:article",
-            "composed": false
-          },
-          {
-            "text": "In separate cases across at least two major Indonesian islands, around 2,000 students and teachers fell ill after eating lunch issued by the government as part of a scheme to eradicate malnutrition launched by Prabowo in 2025.",
-            "source": "Straits Times Asia",
-            "item_id": "4a4558c5ae85368334522feeaf5192ef97ce3199cf50322e9bb10c89baed96e2:article",
-            "composed": false
-          },
-          {
-            "text": "Indonesia’s top human rights body urged the police on Sept 4 to investigate several new outbreaks of food poisoning linked to President Prabowo Subianto’s flagship programme to provide free meals to students, which made 2,000 people sick this week.",
-            "source": "Straits Times Asia",
-            "item_id": "4a4558c5ae85368334522feeaf5192ef97ce3199cf50322e9bb10c89baed96e2:article",
+            "text": "Over five decades, tech, infrastructure, migration and enterprise have transformed its physical and economic landscape.",
+            "source": "The Hindu",
+            "item_id": "611ba10ca77a0a0e3da080a613e3963e71da219b1402a898b1a699ba6f9c2335",
             "composed": false
           }
         ],
-        "source": "Straits Times Asia",
+        "source": "The Hindu",
         "corroborating": [],
-        "url": "https://www.straitstimes.com/asia/se-asia/indonesias-top-rights-body-calls-for-police-to-probe-food-poisoning-of-about-2000-students"
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/the-hyderabad-that-was-and-the-city-it-is-now/article71424311.ece"
       },
       "group_size": 1,
       "label": "📰 NEWS"
