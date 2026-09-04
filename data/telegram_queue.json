@@ -1,43 +1,36 @@
 {
-  "generated_at": "2026-09-04T19:01:18.049428+00:00",
-  "count": 1,
+  "generated_at": "2026-09-04T19:10:45.054709+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "c7d0dc5750f1ae28f012347660b091e2abf9663fe5c81970515f17bc836d800b",
-      "title": "UN adopts new map: Africa bigger, North America and Europe smaller",
-      "url": "https://www.scmp.com/news/world/article/3366446/un-adopts-new-map-africa-bigger-north-america-and-europe-smaller?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "1c435b672bfde40151c41ed13da31f2a2e2cc3d293755d365db91599d9019097",
+      "title": "Moscow burned no bridges in relations with Germany — Russia’s envoy to Berlin",
+      "url": "https://tass.com/politics/2182969",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Europe",
       "discovery": false,
-      "summary": "The United Nations General Assembly voted on Friday to back a resolution spearheaded by several African countries to adopt a map that makes their continent bigger while shrinking North America and Europe. Aimed at “a more accurate representation” of continental landmasses, the resolution was supported by 164 countries while the US voted against it and six other states abstained. The new map – known as the Equal Earth cartographic projection – “is a relevant option for improving the accuracy of...",
-      "published_at": "2026-09-04T18:58:44+00:00",
-      "updated_at": "2026-09-04T18:58:44+00:00",
-      "effective_at": "2026-09-04T18:58:44+00:00",
+      "summary": "Sergey Nechaev noted that previous generations had invested in historical reconciliation and that the sacrifices of 700,000 Soviet soldiers buried in Germany should not be forgotten",
+      "published_at": "2026-09-04T19:02:13+00:00",
+      "updated_at": "2026-09-04T19:02:13+00:00",
+      "effective_at": "2026-09-04T19:02:13+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "manufacturing",
-      "subregion": "United States",
+      "sector": "infrastructure",
+      "subsector": "bridges",
+      "subregion": "Europe",
       "country": null,
       "entities": [
-        "africa",
-        "african",
-        "america",
-        "assembly",
-        "earth",
-        "equal",
-        "europe",
-        "nations",
-        "north",
-        "un",
-        "united",
-        "us"
+        "germany",
+        "nechaev",
+        "russia",
+        "sergey",
+        "soviet"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -46,19 +39,186 @@
       "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "aa04a1b4c8f309b56665fe54",
+      "importance_score": 76.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 32,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 700000,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4,
+          "human": 12
+        }
+      },
+      "story_id": "1c435b672bfde40151c41ed13da31f2a2e2cc3d293755d365db91599d9019097",
+      "article_sentences": [
+        "BONN /Germany/, September 4.",
+        "Russian Ambassador to Germany Sergey Nechaev stated that Russia \"did not burn bridges\" in relations with Germany and hopes the republic's political establishment comes to its senses.",
+        "\"Relations are currently at the freezing point,\" he said.",
+        "Nechaev noted that previous generations invested in historical reconciliation, and that the sacrifices of 700,000 Soviet soldiers buried in Germany must not be forgotten.",
+        "\"We found the strength to extend a hand of cooperation and partnership to the Germans,\" he added.",
+        "\"We hope that common sense will still find its way, including in the German political establishment,\" the ambassador concluded.",
+        "On September 1, Germany accused Russia of involvement in the Leipzig drone incident and announced countermeasures, including closing the Russian Consulate General in Bonn and tightening entry controls.",
+        "Nechaev rejected the accusations as unsubstantiated and absurd.",
+        "Russian President Vladimir Putin called Germany's steps a \"crude mistake.\"."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Moscow burned no bridges in relations with Germany — Russia’s envoy to Berlin",
+      "briefing": {
+        "opening": [
+          "BONN /Germany/, September 4.",
+          "Russian Ambassador to Germany Sergey Nechaev stated that Russia \"did not burn bridges\" in relations with Germany and hopes the republic's political establishment comes to its senses."
+        ],
+        "body": [
+          "\"Relations are currently at the freezing point,\" he said.",
+          "Nechaev noted that previous generations invested in historical reconciliation, and that the sacrifices of 700,000 Soviet soldiers buried in Germany must not be forgotten.",
+          "\"We found the strength to extend a hand of cooperation and partnership to the Germans,\" he added.",
+          "\"We hope that common sense will still find its way, including in the German political establishment,\" the ambassador concluded.",
+          "On September 1, Germany accused Russia of involvement in the Leipzig drone incident and announced countermeasures, including closing the Russian Consulate General in Bonn and tightening entry controls.",
+          "Nechaev rejected the accusations as unsubstantiated and absurd.",
+          "Russian President Vladimir Putin called Germany's steps a \"crude mistake.\"."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Germany"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Russian Ambassador to Germany Sergey Nechaev stated that Russia \"did not burn bridges\" in relations with Germany and hopes the republic's political establishment comes to its senses.",
+            "source": "TASS English",
+            "item_id": "1c435b672bfde40151c41ed13da31f2a2e2cc3d293755d365db91599d9019097:article",
+            "composed": false
+          },
+          {
+            "text": "Nechaev noted that previous generations invested in historical reconciliation, and that the sacrifices of 700,000 Soviet soldiers buried in Germany must not be forgotten.",
+            "source": "TASS English",
+            "item_id": "1c435b672bfde40151c41ed13da31f2a2e2cc3d293755d365db91599d9019097:article",
+            "composed": false
+          },
+          {
+            "text": "On September 1, Germany accused Russia of involvement in the Leipzig drone incident and announced countermeasures, including closing the Russian Consulate General in Bonn and tightening entry controls.",
+            "source": "TASS English",
+            "item_id": "1c435b672bfde40151c41ed13da31f2a2e2cc3d293755d365db91599d9019097:article",
+            "composed": false
+          },
+          {
+            "text": "BONN /Germany/, September 4.",
+            "source": "TASS English",
+            "item_id": "1c435b672bfde40151c41ed13da31f2a2e2cc3d293755d365db91599d9019097:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/politics/2182969"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "8a945fab16a55dd75fccdbbcc04b93a71d30fe63195779572b3beb89cbc0ae73",
+      "title": "Brazilian Supreme Court roiled by dispute between justices",
+      "url": "https://www.aljazeera.com/news/2026/9/4/brazilian-supreme-court-roiled-by-dispute-between-justices?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "South America",
+      "discovery": false,
+      "summary": "The country’s highest court is considering investigations into two judges who have accused each other of wrongdoing. Brazil’s Supreme Court has found itself at the centre of a corruption scandal roiling the country, with the body considering investigations into two justices who have accused each other of wrongdoing. The dispute centres on Justice Alexandre de Moraes, who oversaw the case that convicted former President Jair Bolsonaro, and Justice Andre Mendonca, a Bolsonaro appointee. Mendonca released a report this week showing alleged links between de Moraes and disgraced banker Daniel Vorcaro, accused of a wide-reaching fraud scheme. De Moraes subsequently accused Mendonca of abusing his authority by unsealing the documents. Chief Justice Edson Fachin said on Friday that he would give Brazil’s attorney general five days to weigh the allegations against Mendonca. The court is also set to decide next week whether to investigate de Moraes. “This may be the most dramatic moment in the history of Brazil’s Supreme Federal Court,” said Felipe Recondo, a journalist and researcher who is a longtime observer of the court. The right has pounced on the allegations against de Moraes to cast doubt on the case against Bolsonaro, who is currently under house arrest after receiving a 27-year prison sentence for his involvement in a coup plot. Following his loss to current President Luiz Inacio Lula da Silva in 2022, prosecutors say Bolsonaro and his far-right allies sought to subvert the election results and derail the transition of power. Post-election tensions culminated in an attack on key government buildings in the capital Brasilia on January 8, 2023, led by Bolsonaro supporters who allegedly hoped to trigger a military uprising. In November 2024, Brazil’s federal police recommended charges be brought against Bolsonaro and a group of his key allies.",
+      "published_at": "2026-09-04T18:46:44+00:00",
+      "updated_at": "2026-09-04T18:46:44+00:00",
+      "effective_at": "2026-09-04T18:46:44+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "courts",
+      "subregion": "South America",
+      "country": null,
+      "entities": [
+        "alexandre",
+        "andre",
+        "bolsonaro",
+        "brasilia",
+        "brazil",
+        "brazilian",
+        "court",
+        "daniel",
+        "de",
+        "edson",
+        "fachin",
+        "federal",
+        "felipe",
+        "inacio",
+        "jair",
+        "justice",
+        "luiz",
+        "lula",
+        "mendonca",
+        "moraes",
+        "recondo",
+        "silva",
+        "supreme",
+        "vorcaro"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "The country’s highest court is considering investigations into two judges who have accused each other of wrongdoing.",
+        "Brazil’s Supreme Court has found itself at the centre of a corruption scandal roiling the country, with the body considering investigations into two justices who have accused each other of wrongdoing.",
+        "The dispute centres on Justice Alexandre de Moraes, who oversaw the case that convicted former President Jair Bolsonaro, and Justice Andre Mendonca, a Bolsonaro appointee.",
+        "Mendonca released a report this week showing alleged links between de Moraes and disgraced banker Daniel Vorcaro, accused of a wide-reaching fraud scheme.",
+        "De Moraes subsequently accused Mendonca of abusing his authority by unsealing the documents.",
+        "Chief Justice Edson Fachin said on Friday that he would give Brazil’s attorney general five days to weigh the allegations against Mendonca.",
+        "The court is also set to decide next week whether to investigate de Moraes.",
+        "“This may be the most dramatic moment in the history of Brazil’s Supreme Federal Court,” said Felipe Recondo, a journalist and researcher who is a longtime observer of the court.",
+        "The right has pounced on the allegations against de Moraes to cast doubt on the case against Bolsonaro, who is currently under house arrest after receiving a 27-year prison sentence for his involvement in a coup plot.",
+        "Following his loss to current President Luiz Inacio Lula da Silva in 2022, prosecutors say Bolsonaro and his far-right allies sought to subvert the election results and derail the transition of power.",
+        "Post-election tensions culminated in an attack on key government buildings in the capital Brasilia on January 8, 2023, led by Bolsonaro supporters who allegedly hoped to trigger a military uprising.",
+        "In November 2024, Brazil’s federal police recommended charges be brought against Bolsonaro and a group of his key allies."
+      ],
       "event_status": "UPDATE",
-      "event_id": "98e34c042c280693aebe281f",
-      "importance_score": 31.0,
+      "event_id": "66a741f0487dc048d63e75b5",
+      "importance_score": 46.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 9.0,
-        "scope": "GLOBAL",
-        "scope_points": 8,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 20,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -70,40 +230,165 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "geopolitical": 8,
+          "security": 4,
+          "scientific": 4,
+          "infrastructure": 4
+        }
       },
-      "story_id": "c7d0dc5750f1ae28f012347660b091e2abf9663fe5c81970515f17bc836d800b",
+      "story_id": "8a945fab16a55dd75fccdbbcc04b93a71d30fe63195779572b3beb89cbc0ae73",
       "public_label": "🔄 UPDATE",
-      "headline": "UN adopts new map: Africa bigger, North America and Europe smaller",
+      "headline": "Brazilian Supreme Court roiled by dispute between justices",
       "briefing": {
         "opening": [
-          "The United Nations General Assembly voted on Friday to back a resolution spearheaded by several African countries to adopt a map that makes their continent bigger while shrinking North America and Europe.",
-          "Aimed at “a more accurate representation” of continental landmasses, the resolution was supported by 164 countries while the US voted against it and six other states abstained."
+          "The country’s highest court is considering investigations into two judges who have accused each other of wrongdoing.",
+          "Brazil’s Supreme Court has found itself at the centre of a corruption scandal roiling the country, with the body considering investigations into two justices who have accused each other of wrongdoing."
         ],
         "body": [
-          "The new map – known as the Equal Earth cartographic projection – “is a relevant option for improving the accuracy of..."
+          "The dispute centres on Justice Alexandre de Moraes, who oversaw the case that convicted former President Jair Bolsonaro, and Justice Andre Mendonca, a Bolsonaro appointee.",
+          "Mendonca released a report this week showing alleged links between de Moraes and disgraced banker Daniel Vorcaro, accused of a wide-reaching fraud scheme.",
+          "De Moraes subsequently accused Mendonca of abusing his authority by unsealing the documents.",
+          "Chief Justice Edson Fachin said on Friday that he would give Brazil’s attorney general five days to weigh the allegations against Mendonca.",
+          "The court is also set to decide next week whether to investigate de Moraes.",
+          "“This may be the most dramatic moment in the history of Brazil’s Supreme Federal Court,” said Felipe Recondo, a journalist and researcher who is a longtime observer of the court.",
+          "The right has pounced on the allegations against de Moraes to cast doubt on the case against Bolsonaro, who is currently under house arrest after receiving a 27-year prison sentence for his involvement in a coup plot.",
+          "Following his loss to current President Luiz Inacio Lula da Silva in 2022, prosecutors say Bolsonaro and his far-right allies sought to subvert the election results and derail the transition of power."
         ],
         "bullets": [],
         "sentences": [
           {
-            "text": "Aimed at “a more accurate representation” of continental landmasses, the resolution was supported by 164 countries while the US voted against it and six other states abstained.",
-            "source": "South China Morning Post",
-            "item_id": "c7d0dc5750f1ae28f012347660b091e2abf9663fe5c81970515f17bc836d800b",
+            "text": "Mendonca released a report this week showing alleged links between de Moraes and disgraced banker Daniel Vorcaro, accused of a wide-reaching fraud scheme.",
+            "source": "Al Jazeera",
+            "item_id": "8a945fab16a55dd75fccdbbcc04b93a71d30fe63195779572b3beb89cbc0ae73:article",
             "composed": false
           },
           {
-            "text": "The United Nations General Assembly voted on Friday to back a resolution spearheaded by several African countries to adopt a map that makes their continent bigger while shrinking North America and Europe.",
-            "source": "South China Morning Post",
-            "item_id": "c7d0dc5750f1ae28f012347660b091e2abf9663fe5c81970515f17bc836d800b",
+            "text": "The right has pounced on the allegations against de Moraes to cast doubt on the case against Bolsonaro, who is currently under house arrest after receiving a 27-year prison sentence for his involvement in a coup plot.",
+            "source": "Al Jazeera",
+            "item_id": "8a945fab16a55dd75fccdbbcc04b93a71d30fe63195779572b3beb89cbc0ae73:article",
+            "composed": false
+          },
+          {
+            "text": "Chief Justice Edson Fachin said on Friday that he would give Brazil’s attorney general five days to weigh the allegations against Mendonca.",
+            "source": "Al Jazeera",
+            "item_id": "8a945fab16a55dd75fccdbbcc04b93a71d30fe63195779572b3beb89cbc0ae73:article",
+            "composed": false
+          },
+          {
+            "text": "“This may be the most dramatic moment in the history of Brazil’s Supreme Federal Court,” said Felipe Recondo, a journalist and researcher who is a longtime observer of the court.",
+            "source": "Al Jazeera",
+            "item_id": "8a945fab16a55dd75fccdbbcc04b93a71d30fe63195779572b3beb89cbc0ae73:article",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "Al Jazeera",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/world/article/3366446/un-adopts-new-map-africa-bigger-north-america-and-europe-smaller?utm_source=rss_feed"
+        "url": "https://www.aljazeera.com/news/2026/9/4/brazilian-supreme-court-roiled-by-dispute-between-justices?traffic_source=rss"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
+    },
+    {
+      "id": "b2569a7d4ed46c18c9c0691cd4d3f850c6d65d016c458f81cff7760af50cc8b9",
+      "title": "Trump says US may hit Iran’s Pickaxe Mountain ‘soon’",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-may-hit-irans-pickaxe-mountain-soon",
+      "source": "Middle East Eye",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "Trump says US may hit Iran’s Pickaxe Mountain ‘soon’ US President Donald Trump said on Friday that the United States may strike Iran’s Pickaxe Mountain “very soon” as he spoke to reporters at the White House. Located near the heavily damaged Natanz uranium enrichment facility, Pickaxe Mountain is a heavily fortified site that houses two deeply buried tunnel complexes.",
+      "published_at": "2026-09-04T19:09:12+00:00",
+      "updated_at": "2026-09-04T19:09:12+00:00",
+      "effective_at": "2026-09-04T19:09:12+00:00",
+      "language_status": "ENGLISH",
+      "category": "politics",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "donald",
+        "house",
+        "iran",
+        "mountain",
+        "natanz",
+        "pickaxe",
+        "trump",
+        "united_states",
+        "us",
+        "white"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "16d8a3adadda527e0006859c",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "b2569a7d4ed46c18c9c0691cd4d3f850c6d65d016c458f81cff7760af50cc8b9",
+      "public_label": "📰 NEWS",
+      "headline": "Trump says US may hit Iran’s Pickaxe Mountain ‘soon’",
+      "briefing": {
+        "opening": [
+          "Trump says US may hit Iran’s Pickaxe Mountain ‘soon’ US President Donald Trump said on Friday that the United States may strike Iran’s Pickaxe Mountain “very soon” as he spoke to reporters at the White House.",
+          "Located near the heavily damaged Natanz uranium enrichment facility, Pickaxe Mountain is a heavily fortified site that houses two deeply buried tunnel complexes."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Located near the heavily damaged Natanz uranium enrichment facility, Pickaxe Mountain is a heavily fortified site that houses two deeply buried tunnel complexes.",
+            "source": "Middle East Eye",
+            "item_id": "b2569a7d4ed46c18c9c0691cd4d3f850c6d65d016c458f81cff7760af50cc8b9",
+            "composed": false
+          },
+          {
+            "text": "Trump says US may hit Iran’s Pickaxe Mountain ‘soon’ US President Donald Trump said on Friday that the United States may strike Iran’s Pickaxe Mountain “very soon” as he spoke to reporters at the White House.",
+            "source": "Middle East Eye",
+            "item_id": "b2569a7d4ed46c18c9c0691cd4d3f850c6d65d016c458f81cff7760af50cc8b9",
+            "composed": false
+          }
+        ],
+        "source": "Middle East Eye",
+        "corroborating": [],
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-may-hit-irans-pickaxe-mountain-soon"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
     }
   ]
 }
