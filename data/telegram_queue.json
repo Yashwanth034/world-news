@@ -1,181 +1,72 @@
 {
-  "generated_at": "2026-09-04T07:50:50.039353+00:00",
-  "count": 5,
+  "generated_at": "2026-09-04T08:01:15.489454+00:00",
+  "count": 6,
   "stories": [
     {
-      "id": "00c9ba91898d971ac542af0749fb396bdccd87a388909d929aa328daed7e8703",
-      "title": "The price of diesel hits a record high",
-      "url": "https://www.npr.org/2026/09/04/nx-s1-5948016/diesel-price-record-high",
-      "source": "NPR Business",
-      "source_category": "finance",
+      "id": "7044a664c4b421e86ac83618a9476eaf37cbb468e3109e6f7b83c9fc7cee4bd1",
+      "title": "Philippine court issues warrant for V-P Sara Duterte's arrest for threats against Marcos",
+      "url": "https://www.straitstimes.com/asia/se-asia/philippine-court-issues-warrant-for-vp-dutertes-arrest-in-grave-threats-case",
+      "source": "Straits Times Asia",
+      "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Asia",
       "discovery": false,
-      "summary": "The price of diesel has reached an all-time high, a result of the war in Iran and Ukraine's attacks on Russian refineries. That will matter across the supply chain.",
-      "published_at": "2026-09-04T07:44:21+00:00",
-      "updated_at": "2026-09-04T07:44:21+00:00",
-      "effective_at": "2026-09-04T07:44:21+00:00",
+      "summary": "A Philippine court on Sept 4 ordered the arrest of Vice-President Sara Duterte in connection with a criminal case accusing her of making threats against President Ferdinand Marcos Jr, the first lady, and a former House speaker. A trial court issued a warrant for Duterte's arrest in the case involving three counts of grave threats, according to a court order that also set bail at 120,000 pesos (S$2,400) for each count. \"Regardless of the question on jurisdiction, she has no intention of evading the law and will continue to exercise all her legal remedies,\" Duterte's lawyer said in a statement. The case stems from Duterte's remarks in November 2024 that she had spoken with an assassin and instructed him to kill Marcos, his wife and his cousin, who at the time was speaker of the Philippine House, if she were killed. She has denied threatening them. The alleged threats are also among the allegations included in the impeachment complaint against Duterte, who is being tried before the Senate sitting as an impeachment court. A conviction could remove her from office and derail her presidential bid in 2028.",
+      "published_at": "2026-09-04T07:51:21+00:00",
+      "updated_at": "2026-09-04T07:51:21+00:00",
+      "effective_at": "2026-09-04T07:51:21+00:00",
       "language_status": "ENGLISH",
-      "category": "finance",
+      "category": "politics",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "conflict",
-      "subregion": "West Asia / Middle East",
+      "sector": "law",
+      "subsector": "courts",
+      "subregion": "Southeast Asia",
       "country": null,
       "entities": [
-        "iran",
-        "russia",
-        "ukraine"
+        "duterte",
+        "ferdinand",
+        "house",
+        "jr",
+        "marcos",
+        "philippine",
+        "sara",
+        "senate",
+        "sept",
+        "v-p",
+        "vice-president"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 95,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
+      "article_sentences": [
+        "A Philippine court on Sept 4 ordered the arrest of Vice-President Sara Duterte in connection with a criminal case accusing her of making threats against President Ferdinand Marcos Jr, the first lady, and a former House speaker.",
+        "A trial court issued a warrant for Duterte's arrest in the case involving three counts of grave threats, according to a court order that also set bail at 120,000 pesos (S$2,400) for each count.",
+        "\"Regardless of the question on jurisdiction, she has no intention of evading the law and will continue to exercise all her legal remedies,\" Duterte's lawyer said in a statement.",
+        "The case stems from Duterte's remarks in November 2024 that she had spoken with an assassin and instructed him to kill Marcos, his wife and his cousin, who at the time was speaker of the Philippine House, if she were killed.",
+        "She has denied threatening them.",
+        "The alleged threats are also among the allegations included in the impeachment complaint against Duterte, who is being tried before the Senate sitting as an impeachment court.",
+        "A conviction could remove her from office and derail her presidential bid in 2028."
+      ],
       "event_status": "NEW",
-      "event_id": "9e9bdbee4918130e0be0491b",
-      "importance_score": 56.0,
-      "importance_level": "MEDIUM",
+      "event_id": "dd8d096caa730b4198505e4f",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 8,
+        "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 20,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": true
-        },
-        "significance_dims": {
-          "security": 8,
-          "geopolitical": 8,
-          "economic": 4
-        }
-      },
-      "story_id": "00c9ba91898d971ac542af0749fb396bdccd87a388909d929aa328daed7e8703",
-      "public_label": "📰 NEWS",
-      "headline": "The price of diesel hits a record high",
-      "briefing": {
-        "opening": [
-          "The price of diesel has reached an all-time high, a result of the war in Iran and Ukraine's attacks on Russian refineries.",
-          "That will matter across the supply chain."
-        ],
-        "body": [],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Iran"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "That will matter across the supply chain.",
-            "source": "NPR Business",
-            "item_id": "00c9ba91898d971ac542af0749fb396bdccd87a388909d929aa328daed7e8703",
-            "composed": false
-          },
-          {
-            "text": "The price of diesel has reached an all-time high, a result of the war in Iran and Ukraine's attacks on Russian refineries.",
-            "source": "NPR Business",
-            "item_id": "00c9ba91898d971ac542af0749fb396bdccd87a388909d929aa328daed7e8703",
-            "composed": false
-          }
-        ],
-        "source": "NPR Business",
-        "corroborating": [],
-        "url": "https://www.npr.org/2026/09/04/nx-s1-5948016/diesel-price-record-high"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "b85a29af906f8dc56260b922d7e2d722fc4a84bf447d89cdb15f30932ae110d4",
-      "title": "Trump presses Supreme Court to curb mail voting as ballots begin reaching Americans",
-      "url": "http://www.euronews.com/2026/09/04/trump-presses-supreme-court-to-curb-mail-voting-as-ballots-begin-reaching-americans",
-      "source": "Euronews",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "A federal judge's ruling that compliance was \"practically impossible,\" paired with a whistleblower's warning that millions of ballots could go undelivered, has thrown the run-up to a pivotal midterm vote into legal disarray. Voters in North Carolina in the United States began receiving their mail-in ballots on Friday, the first state to do so this election cycle. It comes as the Trump administration pushes the Supreme Court to revive an executive order that would sharply limit the practice. The administration filed an emergency request on Thursday asking the justices to lift a lower court's block on the order — a request lodged just as ballots started going out, and roughly two months before the November midterms. North Carolina election officials say they're pressing ahead regardless, with the state's elections chief telling reporters it remains \"business as usual\" as ballots are distributed and other states, including Alabama, prepare to follow later this month. Trump signed the executive order in March, arguing that mail voting is vulnerable to fraud — a claim tied to his long-standing assertion that mail ballots cost him the 2020 election. Nearly a third of Americans voted by mail in the 2024 general election, accounting for more than 48 million votes, according to researchers States United.The order would require states to submit lists of eligible voters through a federal portal and would direct the Postal Service to deliver ballots only to those on the approved lists. Democratic-led states sued, arguing the Constitution gives states, not the federal government, authority over how elections are run. A federal judge, Indira Talwani, blocked the order last week, ruling it \"practically impossible\" for states to comply given how close they are to sending out ballots. Adding to the pressure on the system, a Postal Service whistleblower has warned that the technology behind the new voter-list portal ordered by Trump was built in a rushed, error-prone way that could see millions of ballots go undelivered. The Supreme Court has already weighed in once, temporarily lifting a separate lower-court block on the order without ruling on its merits — leaving the practice in legal limbo just as voting gets underway. The stakes for Trump are considerable.",
-      "published_at": "2026-09-04T07:43:06+00:00",
-      "updated_at": "2026-09-04T07:43:06+00:00",
-      "effective_at": "2026-09-04T07:43:06+00:00",
-      "language_status": "ENGLISH",
-      "category": "politics",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "law",
-      "subsector": "courts",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "alabama",
-        "americans",
-        "carolina",
-        "constitution",
-        "court",
-        "indira",
-        "north",
-        "postal",
-        "service",
-        "supreme",
-        "talwani",
-        "trump",
-        "united_states"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 100,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "A federal judge's ruling that compliance was \"practically impossible,\" paired with a whistleblower's warning that millions of ballots could go undelivered, has thrown the run-up to a pivotal midterm vote into legal disarray.",
-        "Voters in North Carolina in the United States began receiving their mail-in ballots on Friday, the first state to do so this election cycle.",
-        "It comes as the Trump administration pushes the Supreme Court to revive an executive order that would sharply limit the practice.",
-        "The administration filed an emergency request on Thursday asking the justices to lift a lower court's block on the order — a request lodged just as ballots started going out, and roughly two months before the November midterms.",
-        "North Carolina election officials say they're pressing ahead regardless, with the state's elections chief telling reporters it remains \"business as usual\" as ballots are distributed and other states, including Alabama, prepare to follow later this month.",
-        "Trump signed the executive order in March, arguing that mail voting is vulnerable to fraud — a claim tied to his long-standing assertion that mail ballots cost him the 2020 election.",
-        "Nearly a third of Americans voted by mail in the 2024 general election, accounting for more than 48 million votes, according to researchers States United.The order would require states to submit lists of eligible voters through a federal portal and would direct the Postal Service to deliver ballots only to those on the approved lists.",
-        "Democratic-led states sued, arguing the Constitution gives states, not the federal government, authority over how elections are run.",
-        "A federal judge, Indira Talwani, blocked the order last week, ruling it \"practically impossible\" for states to comply given how close they are to sending out ballots.",
-        "Adding to the pressure on the system, a Postal Service whistleblower has warned that the technology behind the new voter-list portal ordered by Trump was built in a rushed, error-prone way that could see millions of ballots go undelivered.",
-        "The Supreme Court has already weighed in once, temporarily lifting a separate lower-court block on the order without ruling on its merits — leaving the practice in legal limbo just as voting gets underway.",
-        "The stakes for Trump are considerable."
-      ],
-      "event_status": "UPDATE",
-      "event_id": "05034a2fa8fce73b89755c16",
-      "importance_score": 47.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 9.0,
-        "novelty": 9.0,
-        "scope": "LOCAL",
-        "scope_points": 3,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 20,
+        "significance": 8,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -188,123 +79,341 @@
           "crisis": false
         },
         "significance_dims": {
-          "security": 8,
           "human": 4,
-          "scientific": 4,
           "geopolitical": 4
         }
       },
-      "story_id": "b85a29af906f8dc56260b922d7e2d722fc4a84bf447d89cdb15f30932ae110d4",
-      "public_label": "🔄 UPDATE",
-      "headline": "Trump presses Supreme Court to curb mail voting as ballots begin reaching Americans",
+      "story_id": "7044a664c4b421e86ac83618a9476eaf37cbb468e3109e6f7b83c9fc7cee4bd1",
+      "public_label": "📰 NEWS",
+      "headline": "Philippine court issues warrant for V-P Sara Duterte's arrest for threats against Marcos",
       "briefing": {
         "opening": [
-          "A federal judge's ruling that compliance was \"practically impossible,\" paired with a whistleblower's warning that millions of ballots could go undelivered, has thrown the run-up to a pivotal midterm vote into legal disarray.",
-          "Voters in North Carolina in the United States began receiving their mail-in ballots on Friday, the first state to do so this election cycle."
+          "A Philippine court on Sept 4 ordered the arrest of Vice-President Sara Duterte in connection with a criminal case accusing her of making threats against President Ferdinand Marcos Jr, the first lady, and a former House speaker.",
+          "A trial court issued a warrant for Duterte's arrest in the case involving three counts of grave threats, according to a court order that also set bail at 120,000 pesos (S$2,400) for each count."
         ],
         "body": [
-          "It comes as the Trump administration pushes the Supreme Court to revive an executive order that would sharply limit the practice.",
-          "The administration filed an emergency request on Thursday asking the justices to lift a lower court's block on the order — a request lodged just as ballots started going out, and roughly two months before the November midterms.",
-          "Trump signed the executive order in March, arguing that mail voting is vulnerable to fraud — a claim tied to his long-standing assertion that mail ballots cost him the 2020 election.",
-          "Nearly a third of Americans voted by mail in the 2024 general election, accounting for more than 48 million votes, according to researchers States United.The order would require states to submit lists of eligible voters through a federal portal and would direct the Postal Service to deliver ballots only to those on the approved lists.",
-          "Democratic-led states sued, arguing the Constitution gives states, not the federal government, authority over how elections are run.",
-          "A federal judge, Indira Talwani, blocked the order last week, ruling it \"practically impossible\" for states to comply given how close they are to sending out ballots.",
-          "Adding to the pressure on the system, a Postal Service whistleblower has warned that the technology behind the new voter-list portal ordered by Trump was built in a rushed, error-prone way that could see millions of ballots go undelivered."
+          "\"Regardless of the question on jurisdiction, she has no intention of evading the law and will continue to exercise all her legal remedies,\" Duterte's lawyer said in a statement.",
+          "The case stems from Duterte's remarks in November 2024 that she had spoken with an assassin and instructed him to kill Marcos, his wife and his cousin, who at the time was speaker of the Philippine House, if she were killed.",
+          "She has denied threatening them.",
+          "The alleged threats are also among the allegations included in the impeachment complaint against Duterte, who is being tried before the Senate sitting as an impeachment court.",
+          "A conviction could remove her from office and derail her presidential bid in 2028."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "North Carolina"
-          },
-          {
-            "icon": "➡️",
-            "label": "Next",
-            "text": "North Carolina election officials say they're pressing ahead regardless, with the state's elections chief telling reporters it remains \"business as usual\" as ballots are distributed and other states, including Alabama, prepare to follow later this month."
+            "text": "November"
           }
         ],
         "sentences": [
           {
-            "text": "Nearly a third of Americans voted by mail in the 2024 general election, accounting for more than 48 million votes, according to researchers States United.The order would require states to submit lists of eligible voters through a federal portal and would direct the Postal Service to deliver ballots only to those on the approved lists.",
-            "source": "Euronews",
-            "item_id": "b85a29af906f8dc56260b922d7e2d722fc4a84bf447d89cdb15f30932ae110d4:article",
+            "text": "The alleged threats are also among the allegations included in the impeachment complaint against Duterte, who is being tried before the Senate sitting as an impeachment court.",
+            "source": "Straits Times Asia",
+            "item_id": "7044a664c4b421e86ac83618a9476eaf37cbb468e3109e6f7b83c9fc7cee4bd1:article",
             "composed": false
           },
           {
-            "text": "Trump signed the executive order in March, arguing that mail voting is vulnerable to fraud — a claim tied to his long-standing assertion that mail ballots cost him the 2020 election.",
-            "source": "Euronews",
-            "item_id": "b85a29af906f8dc56260b922d7e2d722fc4a84bf447d89cdb15f30932ae110d4:article",
+            "text": "The case stems from Duterte's remarks in November 2024 that she had spoken with an assassin and instructed him to kill Marcos, his wife and his cousin, who at the time was speaker of the Philippine House, if she were killed.",
+            "source": "Straits Times Asia",
+            "item_id": "7044a664c4b421e86ac83618a9476eaf37cbb468e3109e6f7b83c9fc7cee4bd1:article",
             "composed": false
           },
           {
-            "text": "Voters in North Carolina in the United States began receiving their mail-in ballots on Friday, the first state to do so this election cycle.",
-            "source": "Euronews",
-            "item_id": "b85a29af906f8dc56260b922d7e2d722fc4a84bf447d89cdb15f30932ae110d4:article",
+            "text": "A trial court issued a warrant for Duterte's arrest in the case involving three counts of grave threats, according to a court order that also set bail at 120,000 pesos (S$2,400) for each count.",
+            "source": "Straits Times Asia",
+            "item_id": "7044a664c4b421e86ac83618a9476eaf37cbb468e3109e6f7b83c9fc7cee4bd1:article",
             "composed": false
           },
           {
-            "text": "The administration filed an emergency request on Thursday asking the justices to lift a lower court's block on the order — a request lodged just as ballots started going out, and roughly two months before the November midterms.",
-            "source": "Euronews",
-            "item_id": "b85a29af906f8dc56260b922d7e2d722fc4a84bf447d89cdb15f30932ae110d4:article",
+            "text": "A Philippine court on Sept 4 ordered the arrest of Vice-President Sara Duterte in connection with a criminal case accusing her of making threats against President Ferdinand Marcos Jr, the first lady, and a former House speaker.",
+            "source": "Straits Times Asia",
+            "item_id": "7044a664c4b421e86ac83618a9476eaf37cbb468e3109e6f7b83c9fc7cee4bd1:article",
             "composed": false
           }
         ],
-        "source": "Euronews",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "http://www.euronews.com/2026/09/04/trump-presses-supreme-court-to-curb-mail-voting-as-ballots-begin-reaching-americans"
+        "url": "https://www.straitstimes.com/asia/se-asia/philippine-court-issues-warrant-for-vp-dutertes-arrest-in-grave-threats-case"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     },
     {
-      "id": "7956ca2c58f2d30137b611e1ad313552e38dcb0fc8e003e873f50c19f29bbcdd",
-      "title": "Why Pakistan overhauled its military command structure after five decades",
-      "url": "https://www.aljazeera.com/news/2026/9/4/why-pakistan-overhauled-its-military-command-structure-after-five-decades?traffic_source=rss",
-      "source": "Al Jazeera",
+      "id": "b8d78e1592ff9a8a7ca97ba5565c1309e27ab5a5e51ec2a2d38cdf2194bac3b7",
+      "title": "Russia sends 94% of oil exports to friendly countries — Novak",
+      "url": "https://tass.com/economy/2182549",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "Europe",
       "discovery": false,
-      "summary": "New legislation gives Pakistan’s military chief sweeping command powers, raising questions about oversight. Pakistan’s parliament in late August passed legislation that, for the first time, spells out in statute the powers of the country’s most senior military office, continuing a restructuring of the military’s command structure that began with last November’s 27th constitutional amendment. The National Assembly on August 20 approved the Defence Forces of Pakistan Act, 2026, and an amendment to the National Command Authority Act, 2010. Together, the two laws give legal shape to the office of the Chief of Defence Forces (CDF), created through that amendment last year. The bills were not on the National Assembly’s original agenda; the cabinet cleared them that morning, and they passed within hours. The 27th amendment moved through parliament in a similarly compressed timeframe last November. The changes come just over a year after Pakistan’s four-day conflict with India in May 2025. Analysts say the changes mark the most significant restructuring of Pakistan’s higher military command since 1976, when the post of Chairman of the Joint Chiefs of Staff Committee (CJCSC) was created to coordinate, in a limited way, between the army, navy and air force. That post has now been abolished. In its place is a Defence Forces Headquarters (DFHQ), headed by the CDF, currently Field Marshal Asim Munir, who also serves as army chief. Al Jazeera sent questions to the military’s media wing, Inter-Services Public Relations, about the rationale behind the changes and how the navy and air force will be represented at the new headquarters. It received no response.",
-      "published_at": "2026-09-04T07:30:56+00:00",
-      "updated_at": "2026-09-04T07:30:56+00:00",
-      "effective_at": "2026-09-04T07:30:56+00:00",
+      "summary": "The Russian deputy prime minister noted that disruptions to Middle Eastern supplies amid the worsening military and political situation had an impact",
+      "published_at": "2026-09-04T07:43:03+00:00",
+      "updated_at": "2026-09-04T07:43:03+00:00",
+      "effective_at": "2026-09-04T07:43:03+00:00",
       "language_status": "ENGLISH",
-      "category": "conflict",
+      "category": "politics",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "geopolitics",
       "subsector": "politics",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "eastern",
+        "middle",
+        "novak",
+        "russia"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "56f36cba10c9b2f092a82527",
+      "importance_score": 36.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 8,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "b8d78e1592ff9a8a7ca97ba5565c1309e27ab5a5e51ec2a2d38cdf2194bac3b7",
+      "article_sentences": [
+        "VLADIVOSTOK, September 4.",
+        "Russia currently sends 94% of its oil exports to friendly countries, Russian Deputy Prime Minister Alexander Novak said at the Russia-China Energy Business Forum.",
+        "\"The main thing Russia offers the market along with its resources is reliability.",
+        "Even amid external pressure, Russia's fuel and energy sector fully meets its obligations, playing a stabilizing role in the global energy market.",
+        "The best evidence of this is the record increase in oil exports.",
+        "Russia remains the leading supplier to China, with exports rising 25% in the first seven months of this year.",
+        "Overall, 94% of Russian oil exports now go to friendly countries,\" Novak said.",
+        "He noted that disruptions to Middle Eastern supplies amid the worsening military and political situation had also had an impact.",
+        "\"Under these conditions, Russian companies have once again proven themselves reliable guarantors of uninterrupted long-term supplies at fair market prices,\" the deputy prime minister added."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Russia sends 94% of oil exports to friendly countries — Novak",
+      "briefing": {
+        "opening": [
+          "VLADIVOSTOK, September 4.",
+          "Russia currently sends 94% of its oil exports to friendly countries, Russian Deputy Prime Minister Alexander Novak said at the Russia-China Energy Business Forum."
+        ],
+        "body": [
+          "\"The main thing Russia offers the market along with its resources is reliability.",
+          "Even amid external pressure, Russia's fuel and energy sector fully meets its obligations, playing a stabilizing role in the global energy market.",
+          "The best evidence of this is the record increase in oil exports.",
+          "Overall, 94% of Russian oil exports now go to friendly countries,\" Novak said.",
+          "He noted that disruptions to Middle Eastern supplies amid the worsening military and political situation had also had an impact.",
+          "\"Under these conditions, Russian companies have once again proven themselves reliable guarantors of uninterrupted long-term supplies at fair market prices,\" the deputy prime minister added.",
+          "The Russian deputy prime minister noted that disruptions to Middle Eastern supplies amid the worsening military and political situation had an impact."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "\"Under these conditions, Russian companies have once again proven themselves reliable guarantors of uninterrupted long-term supplies at fair market prices,\" the deputy prime minister added.",
+            "source": "TASS English",
+            "item_id": "b8d78e1592ff9a8a7ca97ba5565c1309e27ab5a5e51ec2a2d38cdf2194bac3b7:article",
+            "composed": false
+          },
+          {
+            "text": "Russia currently sends 94% of its oil exports to friendly countries, Russian Deputy Prime Minister Alexander Novak said at the Russia-China Energy Business Forum.",
+            "source": "TASS English",
+            "item_id": "b8d78e1592ff9a8a7ca97ba5565c1309e27ab5a5e51ec2a2d38cdf2194bac3b7:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/economy/2182549"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "94c57e3bf99c1e3816956fb95af1f272c67f21c32827de14ce2adb4e1b730ef5",
+      "title": "Russia to unveil TKB-1167 anti-drone air defense system at Egypt airshow",
+      "url": "https://tass.com/defense/2182551",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "According to Russia’s arms exporter Rosoboronexport, the system consists of a combat module equipped with four tank machine guns",
+      "published_at": "2026-09-04T07:48:42+00:00",
+      "updated_at": "2026-09-04T07:48:42+00:00",
+      "effective_at": "2026-09-04T07:48:42+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "defense",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "according",
+        "egypt",
+        "rosoboronexport",
+        "russia",
+        "tkb-1167"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "67b2c3116b7e9a0653de912d",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 4
+        }
+      },
+      "story_id": "94c57e3bf99c1e3816956fb95af1f272c67f21c32827de14ce2adb4e1b730ef5",
+      "article_sentences": [
+        "MOSCOW, September 4.",
+        "Russia will showcase the TKB-1167 air defense system for destroying unmanned aerial vehicles (UAVs) for the first time at the El Alamein International Airshow 2026 in Egypt, the press service of Russia’s arms exporter Rosoboronexport reported.",
+        "\"Air defense systems are on display in the static exhibition area, as well as at the booths of Rosoboronexport and the High-Precision Systems Holding Company (part of Rostec).",
+        "The absolute premiere of the Russian exhibition is the TKB-1167 anti-UAV combat system.",
+        "It consists of a combat module equipped with four tank machine guns, capable of autonomously and automatically detecting, tracking, identifying, and destroying UAVs,\" the statement reads."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Russia to unveil TKB-1167 anti-drone air defense system at Egypt airshow",
+      "briefing": {
+        "opening": [
+          "MOSCOW, September 4.",
+          "Russia will showcase the TKB-1167 air defense system for destroying unmanned aerial vehicles (UAVs) for the first time at the El Alamein International Airshow 2026 in Egypt, the press service of Russia’s arms exporter Rosoboronexport reported."
+        ],
+        "body": [
+          "\"Air defense systems are on display in the static exhibition area, as well as at the booths of Rosoboronexport and the High-Precision Systems Holding Company (part of Rostec).",
+          "The absolute premiere of the Russian exhibition is the TKB-1167 anti-UAV combat system.",
+          "It consists of a combat module equipped with four tank machine guns, capable of autonomously and automatically detecting, tracking, identifying, and destroying UAVs,\" the statement reads.",
+          "According to Russia’s arms exporter Rosoboronexport, the system consists of a combat module equipped with four tank machine guns."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Egypt"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "MOSCOW, September 4.",
+            "source": "TASS English",
+            "item_id": "94c57e3bf99c1e3816956fb95af1f272c67f21c32827de14ce2adb4e1b730ef5:article",
+            "composed": false
+          },
+          {
+            "text": "The absolute premiere of the Russian exhibition is the TKB-1167 anti-UAV combat system.",
+            "source": "TASS English",
+            "item_id": "94c57e3bf99c1e3816956fb95af1f272c67f21c32827de14ce2adb4e1b730ef5:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/defense/2182551"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "c28f7ceedcb56d1adbec7d4f5b4d61503cc6d33b5d9fd09fa2b7e27858483e10",
+      "title": "Air India probe flags hydraulic loss, pilot drug test",
+      "url": "https://www.straitstimes.com/asia/air-india-probe-flags-hydraulic-loss-pilot-drug-test",
+      "source": "Straits Times Asia",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "An Air India Airbus. A320 lost three hydraulic systems temporarily, causing altitude changes and autopilot disengagement, but safely stabilised and landed with 24 injuries. The pilot in command tested non-negative for psychoactive substances, raising serious safety concerns and prompting calls for tighter drug screening rules. Air India faces ongoing challenges including the recent crash of Flight 171 and leadership changes as it seeks recovery under new CEO Tewolde Gebremariam. An Air India flight that plunged in August, injuring passengers, suffered a temporary loss of hydraulic systems, but its pilot tested “non-negative” for psychoactive substances, Indian investigators said on Sept 4. The Airbus A320, carrying 137 passengers and eight crew members, suddenly lost altitude on Aug 4 while flying from Phuket, Thailand, to New Delhi, injuring 24 people before stabilising and landing safely. India’s Civil Aviation Ministry classified it as a “serious incident”. Both Airbus and France’s civil aviation safety agency, the BEA, said they are assisting the Indian investigation into the flight. A preliminary report released on Sept 4 by India’s Aircraft Accident Investigation Bureau (AAIB) said the flight control system detected the loss of three hydraulic systems for several seconds. “The aircraft encountered altitude upset,” it read. “Initially, it gained 372 feet (113m) and fell by 292 feet (89m),” it added. The hydraulic failure caused the autopilot to disengage and triggered a two-second stall warning, before the systems recovered and the aircraft returned to normal operation.",
+      "published_at": "2026-09-04T07:46:48+00:00",
+      "updated_at": "2026-09-04T07:46:48+00:00",
+      "effective_at": "2026-09-04T07:46:48+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "transport",
+      "subsector": "aviation",
       "subregion": "South Asia",
       "country": null,
       "entities": [
-        "act",
-        "al",
-        "asim",
-        "assembly",
-        "authority",
-        "cdf",
-        "chiefs",
-        "cjcsc",
-        "command",
-        "defence",
-        "dfhq",
-        "field",
-        "forces",
-        "headquarters",
+        "aaib",
+        "accident",
+        "air",
+        "airbus",
+        "aircraft",
+        "aug",
+        "aviation",
+        "bea",
+        "both",
+        "bureau",
+        "civil",
+        "delhi",
+        "flight",
+        "france",
+        "gebremariam",
         "india",
-        "inter-services",
-        "jazeera",
-        "joint",
-        "marshal",
-        "munir",
-        "national",
-        "pakistan",
-        "public",
-        "relations",
-        "staff"
+        "indian",
+        "investigation",
+        "ministry",
+        "phuket",
+        "sept",
+        "tewolde",
+        "thailand"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -314,32 +423,32 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "article_sentences": [
-        "New legislation gives Pakistan’s military chief sweeping command powers, raising questions about oversight.",
-        "Pakistan’s parliament in late August passed legislation that, for the first time, spells out in statute the powers of the country’s most senior military office, continuing a restructuring of the military’s command structure that began with last November’s 27th constitutional amendment.",
-        "The National Assembly on August 20 approved the Defence Forces of Pakistan Act, 2026, and an amendment to the National Command Authority Act, 2010.",
-        "Together, the two laws give legal shape to the office of the Chief of Defence Forces (CDF), created through that amendment last year.",
-        "The bills were not on the National Assembly’s original agenda; the cabinet cleared them that morning, and they passed within hours.",
-        "The 27th amendment moved through parliament in a similarly compressed timeframe last November.",
-        "The changes come just over a year after Pakistan’s four-day conflict with India in May 2025.",
-        "Analysts say the changes mark the most significant restructuring of Pakistan’s higher military command since 1976, when the post of Chairman of the Joint Chiefs of Staff Committee (CJCSC) was created to coordinate, in a limited way, between the army, navy and air force.",
-        "That post has now been abolished.",
-        "In its place is a Defence Forces Headquarters (DFHQ), headed by the CDF, currently Field Marshal Asim Munir, who also serves as army chief.",
-        "Al Jazeera sent questions to the military’s media wing, Inter-Services Public Relations, about the rationale behind the changes and how the navy and air force will be represented at the new headquarters.",
-        "It received no response."
+        "An Air India Airbus.",
+        "A320 lost three hydraulic systems temporarily, causing altitude changes and autopilot disengagement, but safely stabilised and landed with 24 injuries.",
+        "The pilot in command tested non-negative for psychoactive substances, raising serious safety concerns and prompting calls for tighter drug screening rules.",
+        "Air India faces ongoing challenges including the recent crash of Flight 171 and leadership changes as it seeks recovery under new CEO Tewolde Gebremariam.",
+        "An Air India flight that plunged in August, injuring passengers, suffered a temporary loss of hydraulic systems, but its pilot tested “non-negative” for psychoactive substances, Indian investigators said on Sept 4.",
+        "The Airbus A320, carrying 137 passengers and eight crew members, suddenly lost altitude on Aug 4 while flying from Phuket, Thailand, to New Delhi, injuring 24 people before stabilising and landing safely.",
+        "India’s Civil Aviation Ministry classified it as a “serious incident”.",
+        "Both Airbus and France’s civil aviation safety agency, the BEA, said they are assisting the Indian investigation into the flight.",
+        "A preliminary report released on Sept 4 by India’s Aircraft Accident Investigation Bureau (AAIB) said the flight control system detected the loss of three hydraulic systems for several seconds.",
+        "“The aircraft encountered altitude upset,” it read.",
+        "“Initially, it gained 372 feet (113m) and fell by 292 feet (89m),” it added.",
+        "The hydraulic failure caused the autopilot to disengage and triggered a two-second stall warning, before the systems recovered and the aircraft returned to normal operation."
       ],
       "event_status": "NEW",
-      "event_id": "65c3016d969e062009a88243",
-      "importance_score": 45.0,
+      "event_id": "0eb96820569dd6099f9d5cbb",
+      "importance_score": 30.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 8.0,
+        "urgency": 9.0,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 16,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -351,260 +460,99 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "scientific": 8,
-          "security": 4,
-          "geopolitical": 4
-        }
+        "significance_dims": {}
       },
-      "story_id": "7956ca2c58f2d30137b611e1ad313552e38dcb0fc8e003e873f50c19f29bbcdd",
+      "story_id": "c28f7ceedcb56d1adbec7d4f5b4d61503cc6d33b5d9fd09fa2b7e27858483e10",
       "public_label": "📰 NEWS",
-      "headline": "Why Pakistan overhauled its military command structure after five decades",
+      "headline": "Air India probe flags hydraulic loss, pilot drug test",
       "briefing": {
         "opening": [
-          "New legislation gives Pakistan’s military chief sweeping command powers, raising questions about oversight.",
-          "Pakistan’s parliament in late August passed legislation that, for the first time, spells out in statute the powers of the country’s most senior military office, continuing a restructuring of the military’s command structure that began with last November’s 27th constitutional amendment."
+          "An Air India Airbus.",
+          "A320 lost three hydraulic systems temporarily, causing altitude changes and autopilot disengagement, but safely stabilised and landed with 24 injuries."
         ],
         "body": [
-          "The National Assembly on August 20 approved the Defence Forces of Pakistan Act, 2026, and an amendment to the National Command Authority Act, 2010.",
-          "Together, the two laws give legal shape to the office of the Chief of Defence Forces (CDF), created through that amendment last year.",
-          "The bills were not on the National Assembly’s original agenda; the cabinet cleared them that morning, and they passed within hours.",
-          "The 27th amendment moved through parliament in a similarly compressed timeframe last November.",
-          "The changes come just over a year after Pakistan’s four-day conflict with India in May 2025.",
-          "Analysts say the changes mark the most significant restructuring of Pakistan’s higher military command since 1976, when the post of Chairman of the Joint Chiefs of Staff Committee (CJCSC) was created to coordinate, in a limited way, between the army, navy and air force.",
-          "That post has now been abolished.",
-          "In its place is a Defence Forces Headquarters (DFHQ), headed by the CDF, currently Field Marshal Asim Munir, who also serves as army chief."
+          "The pilot in command tested non-negative for psychoactive substances, raising serious safety concerns and prompting calls for tighter drug screening rules.",
+          "Air India faces ongoing challenges including the recent crash of Flight 171 and leadership changes as it seeks recovery under new CEO Tewolde Gebremariam.",
+          "An Air India flight that plunged in August, injuring passengers, suffered a temporary loss of hydraulic systems, but its pilot tested “non-negative” for psychoactive substances, Indian investigators said on Sept 4.",
+          "The Airbus.",
+          "A320, carrying 137 passengers and eight crew members, suddenly lost altitude on Aug 4 while flying from Phuket, Thailand, to New Delhi, injuring 24 people before stabilising and landing safely.",
+          "India’s Civil Aviation Ministry classified it as a “serious incident”.",
+          "Both Airbus and France’s civil aviation safety agency, the BEA, said they are assisting the Indian investigation into the flight.",
+          "A preliminary report released on Sept 4 by India’s Aircraft Accident Investigation Bureau (AAIB) said the flight control system detected the loss of three hydraulic systems for several seconds."
         ],
         "bullets": [
           {
             "icon": "📍",
             "label": "Location",
-            "text": "May"
+            "text": "August"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "24 people"
           }
         ],
         "sentences": [
           {
-            "text": "The National Assembly on August 20 approved the Defence Forces of Pakistan Act, 2026, and an amendment to the National Command Authority Act, 2010.",
-            "source": "Al Jazeera",
-            "item_id": "7956ca2c58f2d30137b611e1ad313552e38dcb0fc8e003e873f50c19f29bbcdd:article",
+            "text": "A320, carrying 137 passengers and eight crew members, suddenly lost altitude on Aug 4 while flying from Phuket, Thailand, to New Delhi, injuring 24 people before stabilising and landing safely.",
+            "source": "Straits Times Asia",
+            "item_id": "c28f7ceedcb56d1adbec7d4f5b4d61503cc6d33b5d9fd09fa2b7e27858483e10:article",
             "composed": false
           },
           {
-            "text": "The changes come just over a year after Pakistan’s four-day conflict with India in May 2025.",
-            "source": "Al Jazeera",
-            "item_id": "7956ca2c58f2d30137b611e1ad313552e38dcb0fc8e003e873f50c19f29bbcdd:article",
+            "text": "An Air India flight that plunged in August, injuring passengers, suffered a temporary loss of hydraulic systems, but its pilot tested “non-negative” for psychoactive substances, Indian investigators said on Sept 4.",
+            "source": "Straits Times Asia",
+            "item_id": "c28f7ceedcb56d1adbec7d4f5b4d61503cc6d33b5d9fd09fa2b7e27858483e10:article",
             "composed": false
           },
           {
-            "text": "Pakistan’s parliament in late August passed legislation that, for the first time, spells out in statute the powers of the country’s most senior military office, continuing a restructuring of the military’s command structure that began with last November’s 27th constitutional amendment.",
-            "source": "Al Jazeera",
-            "item_id": "7956ca2c58f2d30137b611e1ad313552e38dcb0fc8e003e873f50c19f29bbcdd:article",
+            "text": "A preliminary report released on Sept 4 by India’s Aircraft Accident Investigation Bureau (AAIB) said the flight control system detected the loss of three hydraulic systems for several seconds.",
+            "source": "Straits Times Asia",
+            "item_id": "c28f7ceedcb56d1adbec7d4f5b4d61503cc6d33b5d9fd09fa2b7e27858483e10:article",
             "composed": false
           },
           {
-            "text": "Analysts say the changes mark the most significant restructuring of Pakistan’s higher military command since 1976, when the post of Chairman of the Joint Chiefs of Staff Committee (CJCSC) was created to coordinate, in a limited way, between the army, navy and air force.",
-            "source": "Al Jazeera",
-            "item_id": "7956ca2c58f2d30137b611e1ad313552e38dcb0fc8e003e873f50c19f29bbcdd:article",
+            "text": "A320 lost three hydraulic systems temporarily, causing altitude changes and autopilot disengagement, but safely stabilised and landed with 24 injuries.",
+            "source": "Straits Times Asia",
+            "item_id": "c28f7ceedcb56d1adbec7d4f5b4d61503cc6d33b5d9fd09fa2b7e27858483e10:article",
             "composed": false
           }
         ],
-        "source": "Al Jazeera",
+        "source": "Straits Times Asia",
         "corroborating": [],
-        "url": "https://www.aljazeera.com/news/2026/9/4/why-pakistan-overhauled-its-military-command-structure-after-five-decades?traffic_source=rss"
+        "url": "https://www.straitstimes.com/asia/air-india-probe-flags-hydraulic-loss-pilot-drug-test"
       },
       "group_size": 1,
       "label": "📰 NEWS"
     },
     {
-      "id": "40de2f59c31ac878e841e37caa402602791f09c490f7bbd633ce893aa7d65f8c",
-      "title": "Zverev goes distance to scrape into third round as upsets rock US Open",
-      "url": "https://www.aljazeera.com/sports/2026/9/4/zverev-goes-distance-to-scrape-into-third-round-as-upsets-rock-us-open?traffic_source=rss",
-      "source": "Al Jazeera",
+      "id": "d61c3c95d8b66a0275253c241814f8c5f89d8db420b74119458904b05e5e0192",
+      "title": "City University of Hong Kong disciplines students over orientation camp misconduct",
+      "url": "https://www.scmp.com/news/hong-kong/education/article/3366360/city-university-hong-kong-disciplines-students-over-orientation-camp-misconduct?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Men’s third seed Felix Auger-Aliassime goes out, along with sixth-seed Alex de Minaur and 13th-seed Lorenzo Musetti. Top-seeded Alexander Zverev kept his bid for a first US Open title on track with a gritty five-set victory over Quentin Halys, staying the course as a spate of upsets rocked the men’s draw on Thursday. A trio of former women’s champions – Coco Gauff, Iga Swiatek and Naomi Osaka – booked third-round berths, along with reigning Grand Slam champions Elena Rybakina and Mirra Andreeva. But men’s third seed Felix Auger-Aliassime tumbled out, along with sixth-seeded Alex de Minaur and 13th-seeded Lorenzo Musetti. Zverev laboured util 2:15 am Friday on Arthur Ashe Stadium to shake off 52nd-ranked Frenchman Halys 6-4, 4-6, 7-6 (7/3), 6-7 (3/7), 6-3. The four-hour 33-minute marathon followed his wild first-round five-setter against 89th-ranked Lorenzo Sonego that kept Zverev at it until shortly before 2am [06:00 GMT] on Wednesday. “The performance was quite s*** to be honest, but I won, that’s the most important thing,” Zverev said afterwards. “Physically, I feel fine. I am proud, I think, to be physically quite strong. I just hope at some point I’ll start playing better tennis. “I’m winning ugly right now. It’s also a skill to win ugly and when you’re not playing great tennis.",
-      "published_at": "2026-09-04T07:27:15+00:00",
-      "updated_at": "2026-09-04T07:27:15+00:00",
-      "effective_at": "2026-09-04T07:27:15+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": "United States",
-      "country": null,
-      "entities": [
-        "alex",
-        "alexander",
-        "andreeva",
-        "arthur",
-        "ashe",
-        "auger-aliassime",
-        "coco",
-        "elena",
-        "felix",
-        "frenchman",
-        "gauff",
-        "gmt",
-        "grand",
-        "halys",
-        "iga",
-        "lorenzo",
-        "men",
-        "minaur",
-        "mirra",
-        "musetti",
-        "naomi",
-        "open",
-        "osaka",
-        "physically",
-        "quentin",
-        "rybakina",
-        "slam",
-        "sonego",
-        "stadium",
-        "swiatek",
-        "top-seeded",
-        "us",
-        "zverev"
-      ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 1,
-      "corroborating_source_names": [
-        "The Hindu"
-      ],
-      "verified_match_count": 1,
-      "priority_score": 68,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "article_sentences": [
-        "Men’s third seed Felix Auger-Aliassime goes out, along with sixth-seed Alex de Minaur and 13th-seed Lorenzo Musetti.",
-        "Top-seeded Alexander Zverev kept his bid for a first US Open title on track with a gritty five-set victory over Quentin Halys, staying the course as a spate of upsets rocked the men’s draw on Thursday.",
-        "A trio of former women’s champions – Coco Gauff, Iga Swiatek and Naomi Osaka – booked third-round berths, along with reigning Grand Slam champions Elena Rybakina and Mirra Andreeva.",
-        "But men’s third seed Felix Auger-Aliassime tumbled out, along with sixth-seeded Alex de Minaur and 13th-seeded Lorenzo Musetti.",
-        "Zverev laboured util 2:15 am Friday on Arthur Ashe Stadium to shake off 52nd-ranked Frenchman Halys 6-4, 4-6, 7-6 (7/3), 6-7 (3/7), 6-3.",
-        "The four-hour 33-minute marathon followed his wild first-round five-setter against 89th-ranked Lorenzo Sonego that kept Zverev at it until shortly before 2am [06:00 GMT] on Wednesday.",
-        "“The performance was quite s*** to be honest, but I won, that’s the most important thing,” Zverev said afterwards.",
-        "“Physically, I feel fine.",
-        "I am proud, I think, to be physically quite strong.",
-        "I just hope at some point I’ll start playing better tennis.",
-        "“I’m winning ugly right now.",
-        "It’s also a skill to win ugly and when you’re not playing great tennis."
-      ],
-      "event_status": "NEW",
-      "event_id": "bc9154c7c3ad3fa8431af121",
-      "importance_score": 43.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 6,
-        "significance": 8,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {
-          "cultural": 8
-        }
-      },
-      "story_id": "40de2f59c31ac878e841e37caa402602791f09c490f7bbd633ce893aa7d65f8c",
-      "public_label": "📰 NEWS",
-      "headline": "Zverev goes distance to scrape into third round as upsets rock US Open",
-      "briefing": {
-        "opening": [
-          "Men’s third seed Felix Auger-Aliassime goes out, along with sixth-seed Alex de Minaur and 13th-seed Lorenzo Musetti.",
-          "Top-seeded Alexander Zverev kept his bid for a first US Open title on track with a gritty five-set victory over Quentin Halys, staying the course as a spate of upsets rocked the men’s draw on Thursday."
-        ],
-        "body": [
-          "A trio of former women’s champions – Coco Gauff, Iga Swiatek and Naomi Osaka – booked third-round berths, along with reigning Grand Slam champions Elena Rybakina and Mirra Andreeva.",
-          "But men’s third seed Felix Auger-Aliassime tumbled out, along with sixth-seeded Alex de Minaur and 13th-seeded Lorenzo Musetti.",
-          "Zverev laboured util 2:15 am Friday on Arthur Ashe Stadium to shake off 52nd-ranked Frenchman Halys 6-4, 4-6, 7-6 (7/3), 6-7 (3/7), 6-3.",
-          "The four-hour 33-minute marathon followed his wild first-round five-setter against 89th-ranked Lorenzo Sonego that kept Zverev at it until shortly before 2am [06:00 GMT] on Wednesday.",
-          "“The performance was quite s*** to be honest, but I won, that’s the most important thing,” Zverev said afterwards.",
-          "“Physically, I feel fine.",
-          "I am proud, I think, to be physically quite strong.",
-          "I just hope at some point I’ll start playing better tennis."
-        ],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "Zverev laboured util 2:15 am Friday on Arthur Ashe Stadium to shake off 52nd-ranked Frenchman Halys 6-4, 4-6, 7-6 (7/3), 6-7 (3/7), 6-3.",
-            "source": "Al Jazeera",
-            "item_id": "40de2f59c31ac878e841e37caa402602791f09c490f7bbd633ce893aa7d65f8c:article",
-            "composed": false
-          },
-          {
-            "text": "The four-hour 33-minute marathon followed his wild first-round five-setter against 89th-ranked Lorenzo Sonego that kept Zverev at it until shortly before 2am [06:00 GMT] on Wednesday.",
-            "source": "Al Jazeera",
-            "item_id": "40de2f59c31ac878e841e37caa402602791f09c490f7bbd633ce893aa7d65f8c:article",
-            "composed": false
-          },
-          {
-            "text": "Men’s third seed Felix Auger-Aliassime goes out, along with sixth-seed Alex de Minaur and 13th-seed Lorenzo Musetti.",
-            "source": "Al Jazeera",
-            "item_id": "40de2f59c31ac878e841e37caa402602791f09c490f7bbd633ce893aa7d65f8c:article",
-            "composed": false
-          },
-          {
-            "text": "But men’s third seed Felix Auger-Aliassime tumbled out, along with sixth-seeded Alex de Minaur and 13th-seeded Lorenzo Musetti.",
-            "source": "Al Jazeera",
-            "item_id": "40de2f59c31ac878e841e37caa402602791f09c490f7bbd633ce893aa7d65f8c:article",
-            "composed": false
-          }
-        ],
-        "source": "Al Jazeera",
-        "corroborating": [],
-        "url": "https://www.aljazeera.com/sports/2026/9/4/zverev-goes-distance-to-scrape-into-third-round-as-upsets-rock-us-open?traffic_source=rss"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "3bd47d27f12ba58d87de9a51baf3a7b941847f81163d6a0a33470b5437b99ac7",
-      "title": "How Volkswagen's huge workforce became a costly burden",
-      "url": "https://www.dw.com/en/how-volkswagen-s-huge-workforce-became-a-costly-burden/a-77766154?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business",
-      "source_category": "finance",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Europe",
-      "discovery": false,
-      "summary": "The struggling German carmaker plans to cut up to 100,000 jobs from its 630,000-strong workforce. How did VW's headcount get so bloated, and will the cuts be enough to survive the Chinese EV onslaught?",
-      "published_at": null,
-      "updated_at": "2026-09-04T07:21:00+00:00",
-      "effective_at": "2026-09-04T07:21:00+00:00",
+      "summary": "City University of Hong Kong has disciplined students over an orientation event with a disco theme in which a half-naked man was seen carrying a woman wearing only a bra and shorts, two days after the institution said it had “zero tolerance” for improper conduct. The institution said on Friday that all students involved in the orientation camp incident on August 27 had admitted their mistakes, formally apologised to the university and accepted disciplinary action. “The University’s Student...",
+      "published_at": "2026-09-04T07:53:43+00:00",
+      "updated_at": "2026-09-04T07:53:43+00:00",
+      "effective_at": "2026-09-04T07:53:43+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "transport",
-      "subsector": "automotive",
-      "subregion": "Europe",
+      "sector": "law",
+      "subsector": "education",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "china",
-        "ev",
-        "german",
-        "volkswagen",
-        "vw"
+        "city",
+        "hong_kong",
+        "student",
+        "university"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -613,19 +561,19 @@
       "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "e0ec552210d841ce6769f595",
-      "importance_score": 35.0,
+      "event_status": "NEW",
+      "event_id": "8c6e460778945e0b6f88e4f0",
+      "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
-        "novelty": 9.0,
+        "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 8,
+        "significance": 0,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -637,40 +585,131 @@
           "major_incident": false,
           "crisis": false
         },
-        "significance_dims": {
-          "infrastructure": 8
-        }
+        "significance_dims": {}
       },
-      "story_id": "3bd47d27f12ba58d87de9a51baf3a7b941847f81163d6a0a33470b5437b99ac7",
-      "public_label": "🔄 UPDATE",
-      "headline": "How Volkswagen's huge workforce became a costly burden",
+      "story_id": "d61c3c95d8b66a0275253c241814f8c5f89d8db420b74119458904b05e5e0192",
+      "public_label": "📰 NEWS",
+      "headline": "City University of Hong Kong disciplines students over orientation camp misconduct",
       "briefing": {
         "opening": [
-          "The struggling German carmaker plans to cut up to 100,000 jobs from its 630,000-strong workforce.",
-          "How did VW's headcount get so bloated, and will the cuts be enough to survive the Chinese EV onslaught?"
+          "City University of Hong Kong has disciplined students over an orientation event with a disco theme in which a half-naked man was seen carrying a woman wearing only a bra and shorts, two days after the institution said it had “zero tolerance” for improper conduct.",
+          "The institution said on Friday that all students involved in the orientation camp incident on August 27 had admitted their mistakes, formally apologised to the university and accepted disciplinary action."
+        ],
+        "body": [
+          "“The University’s Student..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "City University of Hong Kong has disciplined students over an orientation event with a disco theme in which a half-naked man was seen carrying a woman wearing only a bra and shorts, two days after the institution said it had “zero tolerance” for improper conduct.",
+            "source": "South China Morning Post",
+            "item_id": "d61c3c95d8b66a0275253c241814f8c5f89d8db420b74119458904b05e5e0192",
+            "composed": false
+          },
+          {
+            "text": "The institution said on Friday that all students involved in the orientation camp incident on August 27 had admitted their mistakes, formally apologised to the university and accepted disciplinary action.",
+            "source": "South China Morning Post",
+            "item_id": "d61c3c95d8b66a0275253c241814f8c5f89d8db420b74119458904b05e5e0192",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/hong-kong/education/article/3366360/city-university-hong-kong-disciplines-students-over-orientation-camp-misconduct?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "ef045cc7e126d53b1d9d2098269113b0bc56961c0a5b476144d0c3f2de8190c9",
+      "title": "July's job numbers were disappointing. Will August's be better?",
+      "url": "https://www.npr.org/2026/09/04/nx-s1-5955549/julys-job-numbers-were-disappointing-will-augusts-be-better",
+      "source": "NPR Business",
+      "source_category": "finance",
+      "primary_source": false,
+      "tier": 2,
+      "region": null,
+      "discovery": false,
+      "summary": "As we approach the Labor Day weekend, the U.S. labor market will provide an update on how many jobs were added. August projections show a bit of improvement.",
+      "published_at": "2026-09-04T08:00:45+00:00",
+      "updated_at": "2026-09-04T08:00:45+00:00",
+      "effective_at": "2026-09-04T08:00:45+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "law",
+      "subsector": "labor",
+      "subregion": null,
+      "country": null,
+      "entities": [
+        "day",
+        "labor"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "4ace3092fd60c821ab6ac94f",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "LOCAL",
+        "scope_points": 3,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "ef045cc7e126d53b1d9d2098269113b0bc56961c0a5b476144d0c3f2de8190c9",
+      "public_label": "📰 NEWS",
+      "headline": "July's job numbers were disappointing. Will August's be better?",
+      "briefing": {
+        "opening": [
+          "As we approach the Labor Day weekend, the U.S. labor market will provide an update on how many jobs were added.",
+          "August projections show a bit of improvement."
         ],
         "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "How did VW's headcount get so bloated, and will the cuts be enough to survive the Chinese EV onslaught?",
-            "source": "DW Business",
-            "item_id": "3bd47d27f12ba58d87de9a51baf3a7b941847f81163d6a0a33470b5437b99ac7",
+            "text": "As we approach the Labor Day weekend, the U.S. labor market will provide an update on how many jobs were added.",
+            "source": "NPR Business",
+            "item_id": "ef045cc7e126d53b1d9d2098269113b0bc56961c0a5b476144d0c3f2de8190c9",
             "composed": false
           },
           {
-            "text": "The struggling German carmaker plans to cut up to 100,000 jobs from its 630,000-strong workforce.",
-            "source": "DW Business",
-            "item_id": "3bd47d27f12ba58d87de9a51baf3a7b941847f81163d6a0a33470b5437b99ac7",
+            "text": "August projections show a bit of improvement.",
+            "source": "NPR Business",
+            "item_id": "ef045cc7e126d53b1d9d2098269113b0bc56961c0a5b476144d0c3f2de8190c9",
             "composed": false
           }
         ],
-        "source": "DW Business",
+        "source": "NPR Business",
         "corroborating": [],
-        "url": "https://www.dw.com/en/how-volkswagen-s-huge-workforce-became-a-costly-burden/a-77766154?maca=en-rss-en-bus-2091-rdf"
+        "url": "https://www.npr.org/2026/09/04/nx-s1-5955549/julys-job-numbers-were-disappointing-will-augusts-be-better"
       },
       "group_size": 1,
-      "label": "🔄 UPDATE"
+      "label": "📰 NEWS"
     }
   ]
 }
