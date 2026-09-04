@@ -1,42 +1,44 @@
 {
-  "generated_at": "2026-09-04T20:30:59.487324+00:00",
-  "count": 1,
+  "generated_at": "2026-09-04T20:40:42.203921+00:00",
+  "count": 2,
   "stories": [
     {
-      "id": "5a21f653833584418c8ed15bfdb929b2764a410a0688f2fedc48473a0e0b80e1",
-      "title": "US may soon hit Iranian mountain suspected of housing nuclear facility — Trump",
-      "url": "https://tass.com/world/2182981",
-      "source": "TASS English",
+      "id": "62f88efff51bee08f979163eb2c1a998bbfd9cb4d2edd8d7f76a8320ef6a6ff0",
+      "title": "Trump’s ‘retribution’ could now include Falklands as favor to Milei – and revenge on the UK",
+      "url": "https://www.theguardian.com/us-news/2026/sep/04/trump-argentina-falklands-uk",
+      "source": "The Guardian World",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Europe",
       "discovery": false,
-      "summary": "WASHINGTON, September 4. The United States may soon deliver an attack on what is supposed to be an Iranian underground nuclear facility near Iran's Natanz, US President Donald Trump warned. \"We may hit Pickaxe very soon because if there was anything going on with Pickaxe,\" he said, taking reporters’ questions at the White House on Friday. Pickaxe Mountain is how the United States calls Mount Kolang Gaz-La, which is suspected of housing secret Iranian nuclear facilities. Over the past few weeks, Trump has repeatedly issued similar warnings.",
-      "published_at": "2026-09-04T20:23:26+00:00",
-      "updated_at": "2026-09-04T20:23:26+00:00",
-      "effective_at": "2026-09-04T20:23:26+00:00",
+      "summary": "US president suggests he might support his Argentinian acolyte’s drive to reclaim sovereignty of disputed islands Donald Trump has long embraced vengeance. “I am your retribution,” he declared to an admiring audience at the 2023 Conservative Political Action Conference (CPAC) as he commenced his march back to the White House. It is unlikely Argentina, and far-flung holdovers of the former British empire, were on the US president’s mind at the time. Continue reading...",
+      "published_at": "2026-09-04T20:21:52+00:00",
+      "updated_at": "2026-09-04T20:21:52+00:00",
+      "effective_at": "2026-09-04T20:21:52+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "politics",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
       "sector": "geopolitics",
       "subsector": "politics",
-      "subregion": "United States",
+      "subregion": "Europe",
       "country": null,
       "entities": [
+        "action",
+        "argentina",
+        "argentinian",
+        "conference",
+        "conservative",
+        "cpac",
         "donald",
-        "gaz-la",
+        "falklands",
         "house",
-        "iran",
-        "kolang",
-        "mount",
-        "mountain",
-        "natanz",
-        "pickaxe",
+        "milei",
+        "political",
         "trump",
-        "united_states",
+        "uk",
         "us",
         "white"
       ],
@@ -44,29 +46,135 @@
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "WASHINGTON, September 4.",
-        "The United States may soon deliver an attack on what is supposed to be an Iranian underground nuclear facility near Iran's Natanz, US President Donald Trump warned.",
-        "\"We may hit Pickaxe very soon because if there was anything going on with Pickaxe,\" he said, taking reporters’ questions at the White House on Friday.",
-        "Pickaxe Mountain is how the United States calls Mount Kolang Gaz-La, which is suspected of housing secret Iranian nuclear facilities.",
-        "Over the past few weeks, Trump has repeatedly issued similar warnings."
+      "event_status": "NEW",
+      "event_id": "49849f25997dd7997a96d229",
+      "importance_score": 77.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 32,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 2023,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4,
+          "human": 12
+        }
+      },
+      "story_id": "62f88efff51bee08f979163eb2c1a998bbfd9cb4d2edd8d7f76a8320ef6a6ff0",
+      "public_label": "📰 NEWS",
+      "headline": "Trump’s ‘retribution’ could now include Falklands as favor to Milei – and revenge on the UK",
+      "briefing": {
+        "opening": [
+          "US president suggests he might support his Argentinian acolyte’s drive to reclaim sovereignty of disputed islands.",
+          "Donald Trump has long embraced vengeance."
+        ],
+        "body": [
+          "“I am your retribution,” he declared to an admiring audience at the 2023 Conservative Political Action Conference (CPAC) as he commenced his march back to the White House.",
+          "It is unlikely Argentina, and far-flung holdovers of the former British empire, were on the US president’s mind at the time."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Donald Trump has long embraced vengeance.",
+            "source": "The Guardian World",
+            "item_id": "62f88efff51bee08f979163eb2c1a998bbfd9cb4d2edd8d7f76a8320ef6a6ff0",
+            "composed": false
+          },
+          {
+            "text": "It is unlikely Argentina, and far-flung holdovers of the former British empire, were on the US president’s mind at the time.",
+            "source": "The Guardian World",
+            "item_id": "62f88efff51bee08f979163eb2c1a998bbfd9cb4d2edd8d7f76a8320ef6a6ff0",
+            "composed": false
+          },
+          {
+            "text": "“I am your retribution,” he declared to an admiring audience at the 2023 Conservative Political Action Conference (CPAC) as he commenced his march back to the White House.",
+            "source": "The Guardian World",
+            "item_id": "62f88efff51bee08f979163eb2c1a998bbfd9cb4d2edd8d7f76a8320ef6a6ff0",
+            "composed": false
+          }
+        ],
+        "source": "The Guardian World",
+        "corroborating": [],
+        "url": "https://www.theguardian.com/us-news/2026/sep/04/trump-argentina-falklands-uk"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "6bc0e43212c663d088854ee46e608013a0e99d39bb389d7ff552180744475d47",
+      "title": "Uber withdraws from Nigeria",
+      "url": "https://www.france24.com/en/uber-withdraws-from-nigeria",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Africa",
+      "discovery": false,
+      "summary": "In tonight's programme, a UN report says foreign fighters and support networks are fuelling Sudan’s war and worsening violence against civilians. Also, Uber is pulling out of Nigeria and Uganda, leaving thousands of drivers scrambling for new sources of income. And finally, we discuss the festival with co-director Diarah N’Daw-Spech and Laurence Cole, co-producer of the Nigerian film \"Shadow of Greed\".",
+      "published_at": "2026-09-04T20:39:08+00:00",
+      "updated_at": "2026-09-04T20:39:08+00:00",
+      "effective_at": "2026-09-04T20:39:08+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "culture",
+      "subsector": "culture",
+      "subregion": "West Africa",
+      "country": null,
+      "entities": [
+        "cole",
+        "diarah",
+        "greed",
+        "laurence",
+        "n'daw-spech",
+        "nigeria",
+        "nigerian",
+        "shadow",
+        "sudan",
+        "uber",
+        "uganda",
+        "un"
       ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
       "event_status": "UPDATE",
-      "event_id": "16d8a3adadda527e0006859c",
-      "importance_score": 41.0,
-      "importance_level": "LOW",
+      "event_id": "8566ac60fbb2570ffdecde43",
+      "importance_score": 51.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 9.0,
+        "urgency": 7.0,
         "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 12,
+        "significance": 24,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -80,52 +188,46 @@
         },
         "significance_dims": {
           "security": 8,
-          "geopolitical": 4
+          "geopolitical": 8,
+          "human": 4,
+          "infrastructure": 4
         }
       },
-      "story_id": "5a21f653833584418c8ed15bfdb929b2764a410a0688f2fedc48473a0e0b80e1",
+      "story_id": "6bc0e43212c663d088854ee46e608013a0e99d39bb389d7ff552180744475d47",
       "public_label": "🔄 UPDATE",
-      "headline": "US may soon hit Iranian mountain suspected of housing nuclear facility — Trump",
+      "headline": "Uber withdraws from Nigeria",
       "briefing": {
         "opening": [
-          "WASHINGTON, September 4.",
-          "The United States may soon deliver an attack on what is supposed to be an Iranian underground nuclear facility near Iran's Natanz, US President Donald Trump warned."
+          "In tonight's programme, a UN report says foreign fighters and support networks are fuelling Sudan’s war and worsening violence against civilians.",
+          "Also, Uber is pulling out of Nigeria and Uganda, leaving thousands of drivers scrambling for new sources of income."
         ],
         "body": [
-          "\"We may hit Pickaxe very soon because if there was anything going on with Pickaxe,\" he said, taking reporters’ questions at the White House on Friday.",
-          "Pickaxe Mountain is how the United States calls Mount Kolang Gaz-La, which is suspected of housing secret Iranian nuclear facilities.",
-          "Over the past few weeks, Trump has repeatedly issued similar warnings."
+          "And finally, we discuss the festival with co-director Diarah N’Daw-Spech and Laurence Cole, co-producer of the Nigerian film \"Shadow of Greed\"."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Iran's Natanz"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "Pickaxe Mountain is how the United States calls Mount Kolang Gaz-La, which is suspected of housing secret Iranian nuclear facilities.",
-            "source": "TASS English",
-            "item_id": "5a21f653833584418c8ed15bfdb929b2764a410a0688f2fedc48473a0e0b80e1:article",
+            "text": "Also, Uber is pulling out of Nigeria and Uganda, leaving thousands of drivers scrambling for new sources of income.",
+            "source": "France 24",
+            "item_id": "6bc0e43212c663d088854ee46e608013a0e99d39bb389d7ff552180744475d47",
             "composed": false
           },
           {
-            "text": "WASHINGTON, September 4.",
-            "source": "TASS English",
-            "item_id": "5a21f653833584418c8ed15bfdb929b2764a410a0688f2fedc48473a0e0b80e1:article",
+            "text": "And finally, we discuss the festival with co-director Diarah N’Daw-Spech and Laurence Cole, co-producer of the Nigerian film \"Shadow of Greed\".",
+            "source": "France 24",
+            "item_id": "6bc0e43212c663d088854ee46e608013a0e99d39bb389d7ff552180744475d47",
             "composed": false
           },
           {
-            "text": "\"We may hit Pickaxe very soon because if there was anything going on with Pickaxe,\" he said, taking reporters’ questions at the White House on Friday.",
-            "source": "TASS English",
-            "item_id": "5a21f653833584418c8ed15bfdb929b2764a410a0688f2fedc48473a0e0b80e1:article",
+            "text": "In tonight's programme, a UN report says foreign fighters and support networks are fuelling Sudan’s war and worsening violence against civilians.",
+            "source": "France 24",
+            "item_id": "6bc0e43212c663d088854ee46e608013a0e99d39bb389d7ff552180744475d47",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "France 24",
         "corroborating": [],
-        "url": "https://tass.com/world/2182981"
+        "url": "https://www.france24.com/en/uber-withdraws-from-nigeria"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
