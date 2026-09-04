@@ -1,53 +1,631 @@
 {
-  "generated_at": "2026-09-04T09:57:21.701276+00:00",
-  "count": 1,
+  "generated_at": "2026-09-04T10:01:09.733435+00:00",
+  "count": 5,
   "stories": [
     {
-      "id": "9541a252ad3e64a3714da28a6ff178c3bd7c12ac2537e54b1834e5325fae61b6",
-      "title": "China weathers Hormuz supply crisis through proactive stockpiling — Rosneft CEO",
-      "url": "https://tass.com/economy/2182649",
-      "source": "TASS English",
-      "source_category": "world",
+      "id": "8049cc51921afc16935e00145eee7abb8a07f833216b74f198d18656307d67df",
+      "title": "US diesel prices hit an all-time-high",
+      "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_category": "finance",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "North America",
       "discovery": false,
-      "summary": "Igor Sechin expressed confidence that this approach would continue during the implementation of the 15th Five-Year Plan, whose core concept is ensuring \"security through self-sufficiency\"",
-      "published_at": "2026-09-04T09:49:26+00:00",
-      "updated_at": "2026-09-04T09:49:26+00:00",
-      "effective_at": "2026-09-04T09:49:26+00:00",
+      "summary": "Drivers in the US are paying more than ever for diesel at the pump as the US-Israel war with Iran continues to hit Americans' wallets. The average price for one gallon of diesel in the US has hit $5.85, compared to an average of $3.71 a year ago and above the previous high following Russia's full-scale invasion of Ukraine, according to the American Automobile Association (AAA). Fuel prices have soared since the Iran conflict began at the end of February, mirroring the surge in wholesale oil prices. In response, US President Donald Trump recently pledged to \"substantially lower Gas Prices for all Americans\" through an oil deal with Venezuela, which the US invaded in January. The agreement, announced on Saturday, calls for the development of 17 strategic oil fields with a proven potential of 65bn barrels, as well as \"an investment of more than $100bn (£73.9bn) and more than $209bn in taxes\" for Venezuela, according to Interim Venuzuela President Delcy Rodríguez. The US government will retain 55% control of a joint venture with an \"experienced private operator in Venezuela\", a US official told the BBC's US partner CBS News. But some analysts have reacted with scepticism, including questioning whether the deal would address long-running obstacles that have deterred investment in Venezuela's oil industry. Oil is a key ingredient in car fuel and supplies have been limited by Iran responding to the war by effectively closing the Strait of Hormuz, a narrow waterway south of the country through which a fifth of the world's oil is transported. Rocketing pump prices have angered US voters ahead of the crucial midterm elections in November. According to recent Reuters/Ipsos polling, Trump's approval rating has fallen to 33%, with just 31% of Americans approving of the conflict. However, not all Americans face the same level of price rises. According to the AAA's data, those in the Western states pay much more than those elsewhere, due to tax differences and distance from US oil producers.",
+      "published_at": "2026-09-04T09:59:50+00:00",
+      "updated_at": "2026-09-04T09:59:50+00:00",
+      "effective_at": "2026-09-04T09:59:50+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
+      "category": "finance",
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "companies",
-      "subsector": "companies",
-      "subregion": "East Asia",
+      "sector": "economy",
+      "subsector": "commodities",
+      "subregion": "United States",
       "country": null,
       "entities": [
-        "china",
-        "five-year",
+        "aaa",
+        "american",
+        "americans",
+        "association",
+        "automobile",
+        "bbc",
+        "cbs",
+        "delcy",
+        "donald",
+        "drivers",
+        "gas",
         "hormuz",
-        "igor",
-        "rosneft",
-        "sechin"
+        "interim",
+        "ipsos",
+        "iran",
+        "news",
+        "prices",
+        "reuters",
+        "rodr",
+        "russia",
+        "strait",
+        "trump",
+        "ukraine",
+        "us",
+        "us-israel",
+        "venezuela",
+        "venuzuela",
+        "western"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 65,
+      "priority_score": 60,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "Drivers in the US are paying more than ever for diesel at the pump as the US-Israel war with Iran continues to hit Americans' wallets.",
+        "The average price for one gallon of diesel in the US has hit $5.85, compared to an average of $3.71 a year ago and above the previous high following Russia's full-scale invasion of Ukraine, according to the American Automobile Association (AAA).",
+        "Fuel prices have soared since the Iran conflict began at the end of February, mirroring the surge in wholesale oil prices.",
+        "In response, US President Donald Trump recently pledged to \"substantially lower Gas Prices for all Americans\" through an oil deal with Venezuela, which the US invaded in January.",
+        "The agreement, announced on Saturday, calls for the development of 17 strategic oil fields with a proven potential of 65bn barrels, as well as \"an investment of more than $100bn (£73.9bn) and more than $209bn in taxes\" for Venezuela, according to Interim Venuzuela President Delcy Rodríguez.",
+        "The US government will retain 55% control of a joint venture with an \"experienced private operator in Venezuela\", a US official told the BBC's US partner CBS News.",
+        "But some analysts have reacted with scepticism, including questioning whether the deal would address long-running obstacles that have deterred investment in Venezuela's oil industry.",
+        "Oil is a key ingredient in car fuel and supplies have been limited by Iran responding to the war by effectively closing the Strait of Hormuz, a narrow waterway south of the country through which a fifth of the world's oil is transported.",
+        "Rocketing pump prices have angered US voters ahead of the crucial midterm elections in November.",
+        "According to recent Reuters/Ipsos polling, Trump's approval rating has fallen to 33%, with just 31% of Americans approving of the conflict.",
+        "However, not all Americans face the same level of price rises.",
+        "According to the AAA's data, those in the Western states pay much more than those elsewhere, due to tax differences and distance from US oil producers."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "41a8318369a63ce9f1ec4ec8",
+      "importance_score": 80.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 22.0,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 30,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 303,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8,
+          "economic": 4,
+          "human": 10
+        }
+      },
+      "story_id": "8049cc51921afc16935e00145eee7abb8a07f833216b74f198d18656307d67df",
+      "public_label": "🔄 UPDATE",
+      "headline": "US diesel prices hit an all-time-high",
+      "briefing": {
+        "opening": [
+          "Drivers in the US are paying more than ever for diesel at the pump as the US-Israel war with Iran continues to hit Americans' wallets.",
+          "The average price for one gallon of diesel in the US has hit $5.85, compared to an average of $3.71 a year ago and above the previous high following Russia's full-scale invasion of Ukraine, according to the American Automobile Association (AAA)."
+        ],
+        "body": [
+          "Fuel prices have soared since the Iran conflict began at the end of February, mirroring the surge in wholesale oil prices.",
+          "In response, US President Donald Trump recently pledged to \"substantially lower Gas Prices for all Americans\" through an oil deal with Venezuela, which the US invaded in January.",
+          "The agreement, announced on Saturday, calls for the development of 17 strategic oil fields with a proven potential of 65bn barrels, as well as \"an investment of more than $100bn (£73.9bn) and more than $209bn in taxes\" for Venezuela, according to Interim Venuzuela President Delcy Rodríguez.",
+          "The US government will retain 55% control of a joint venture with an \"experienced private operator in Venezuela\", a US official told the BBC's US partner CBS News.",
+          "But some analysts have reacted with scepticism, including questioning whether the deal would address long-running obstacles that have deterred investment in Venezuela's oil industry.",
+          "Oil is a key ingredient in car fuel and supplies have been limited by Iran responding to the war by effectively closing the Strait of Hormuz, a narrow waterway south of the country through which a fifth of the world's oil is transported.",
+          "Rocketing pump prices have angered US voters ahead of the crucial midterm elections in November.",
+          "According to recent Reuters/Ipsos polling, Trump's approval rating has fallen to 33%, with just 31% of Americans approving of the conflict."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "January"
+          },
+          {
+            "icon": "⚠️",
+            "label": "Status",
+            "text": "continues to"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The average price for one gallon of diesel in the US has hit $5.85, compared to an average of $3.71 a year ago and above the previous high following Russia's full-scale invasion of Ukraine, according to the American Automobile Association (AAA).",
+            "source": "BBC Business",
+            "item_id": "8049cc51921afc16935e00145eee7abb8a07f833216b74f198d18656307d67df:article",
+            "composed": false
+          },
+          {
+            "text": "The US government will retain 55% control of a joint venture with an \"experienced private operator in Venezuela\", a US official told the BBC's US partner CBS News.",
+            "source": "BBC Business",
+            "item_id": "8049cc51921afc16935e00145eee7abb8a07f833216b74f198d18656307d67df:article",
+            "composed": false
+          },
+          {
+            "text": "In response, US President Donald Trump recently pledged to \"substantially lower Gas Prices for all Americans\" through an oil deal with Venezuela, which the US invaded in January.",
+            "source": "BBC Business",
+            "item_id": "8049cc51921afc16935e00145eee7abb8a07f833216b74f198d18656307d67df:article",
+            "composed": false
+          },
+          {
+            "text": "Rocketing pump prices have angered US voters ahead of the crucial midterm elections in November.",
+            "source": "BBC Business",
+            "item_id": "8049cc51921afc16935e00145eee7abb8a07f833216b74f198d18656307d67df:article",
+            "composed": false
+          }
+        ],
+        "source": "BBC Business",
+        "corroborating": [],
+        "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "9d455b52359505b3a3a1e97eb306cfa42a9d7be4f17164349afb2230f4dc9e89",
+      "title": "Meloni sets a record, leading Italy’s longest-serving government since WWII",
+      "url": "https://www.aljazeera.com/news/2026/9/4/meloni-sets-a-record-leading-italys-longest-serving-government-since-wwii?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "As supporters celebrate the milestone, analysts warn longevity is not tantamount to stability. In the mountain resort of Abetone Cutigliano, nestled in the Tuscan-Emilian Apennines, supporters of Prime Minister Giorgia Meloni are celebrating. On Friday, the Italian leader and her party set a record – leading the country’s longest-lasting government since World War II. Famed for political instability, Italy has seen 68 governments in eight decades. While the late Silvio Berlusconi keeps the title of longest-serving premier, having held the premiership for a longer period over four terms, the government led by the far-right Brothers of Italy has now overtaken his record of 1,412 consecutive days in power. Abetone Cutigliano, the prime destination for skiing enthusiasts, was one of the municipalities that made the accomplishment possible, overwhelmingly voting for Meloni’s party in the national elections of October 2022. Andrea Tonarelli, a councillor with Brothers of Italy’s local branch, said a seafront celebratory event is being held to mark the occasion. “Those of us who can’t go will gather at the party’s local office to watch the rally,” the 35-year-old told Al Jazeera. For Tonarelli, an engineer for the municipality, the milestone is a “point of pride”. “Ten years ago, this result would have been unthinkable,” he said. “I feel emotional saying this, but the merit goes to those people who were able to get hold of the youth like me.” A self-professed mountain dweller who joined Brothers of Italy in 2017, Tonarelli said he was enticed by the party’s opposition to the left’s “armchair environmentalism” that restricts hunting, thwarts big infrastructure projects and opposes selective woods logging.",
+      "published_at": "2026-09-04T09:50:29+00:00",
+      "updated_at": "2026-09-04T09:50:29+00:00",
+      "effective_at": "2026-09-04T09:50:29+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "abetone",
+        "al",
+        "andrea",
+        "apennines",
+        "berlusconi",
+        "brothers",
+        "cutigliano",
+        "giorgia",
+        "ii",
+        "italian",
+        "italy",
+        "jazeera",
+        "meloni",
+        "silvio",
+        "tonarelli",
+        "tuscan-emilian",
+        "war",
+        "wwii"
+      ],
+      "corroborating_sources": 1,
+      "strong_corroboration": 1,
+      "corroborating_source_names": [
+        "France 24"
+      ],
+      "verified_match_count": 1,
+      "priority_score": 100,
+      "priority_level": "URGENT",
+      "max_delay_minutes": 15,
+      "article_sentences": [
+        "As supporters celebrate the milestone, analysts warn longevity is not tantamount to stability.",
+        "In the mountain resort of Abetone Cutigliano, nestled in the Tuscan-Emilian Apennines, supporters of Prime Minister Giorgia Meloni are celebrating.",
+        "On Friday, the Italian leader and her party set a record – leading the country’s longest-lasting government since World War II.",
+        "Famed for political instability, Italy has seen 68 governments in eight decades.",
+        "While the late Silvio Berlusconi keeps the title of longest-serving premier, having held the premiership for a longer period over four terms, the government led by the far-right Brothers of Italy has now overtaken his record of 1,412 consecutive days in power.",
+        "Abetone Cutigliano, the prime destination for skiing enthusiasts, was one of the municipalities that made the accomplishment possible, overwhelmingly voting for Meloni’s party in the national elections of October 2022.",
+        "Andrea Tonarelli, a councillor with Brothers of Italy’s local branch, said a seafront celebratory event is being held to mark the occasion.",
+        "“Those of us who can’t go will gather at the party’s local office to watch the rally,” the 35-year-old told Al Jazeera.",
+        "For Tonarelli, an engineer for the municipality, the milestone is a “point of pride”.",
+        "“Ten years ago, this result would have been unthinkable,” he said.",
+        "“I feel emotional saying this, but the merit goes to those people who were able to get hold of the youth like me.”",
+        "A self-professed mountain dweller who joined Brothers of Italy in 2017, Tonarelli said he was enticed by the party’s opposition to the left’s “armchair environmentalism” that restricts hunting, thwarts big infrastructure projects and opposes selective woods logging."
+      ],
+      "event_status": "NEW",
+      "event_id": "fd14fbd070d561d9c2700fc3",
+      "importance_score": 55.0,
+      "importance_level": "MEDIUM",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 8.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 6,
+        "significance": 20,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8,
+          "infrastructure": 4
+        }
+      },
+      "story_id": "9d455b52359505b3a3a1e97eb306cfa42a9d7be4f17164349afb2230f4dc9e89",
+      "public_label": "📰 NEWS",
+      "headline": "Meloni sets a record, leading Italy’s longest-serving government since WWII",
+      "briefing": {
+        "opening": [
+          "As supporters celebrate the milestone, analysts warn longevity is not tantamount to stability.",
+          "In the mountain resort of Abetone Cutigliano, nestled in the Tuscan-Emilian Apennines, supporters of Prime Minister Giorgia Meloni are celebrating."
+        ],
+        "body": [
+          "On Friday, the Italian leader and her party set a record – leading the country’s longest-lasting government since World War II.",
+          "Famed for political instability, Italy has seen 68 governments in eight decades.",
+          "While the late Silvio Berlusconi keeps the title of longest-serving premier, having held the premiership for a longer period over four terms, the government led by the far-right Brothers of Italy has now overtaken his record of 1,412 consecutive days in power.",
+          "Abetone Cutigliano, the prime destination for skiing enthusiasts, was one of the municipalities that made the accomplishment possible, overwhelmingly voting for Meloni’s party in the national elections of October 2022.",
+          "Andrea Tonarelli, a councillor with Brothers of Italy’s local branch, said a seafront celebratory event is being held to mark the occasion.",
+          "“Those of us who can’t go will gather at the party’s local office to watch the rally,” the 35-year-old told Al Jazeera.",
+          "For Tonarelli, an engineer for the municipality, the milestone is a “point of pride”.",
+          "“Ten years ago, this result would have been unthinkable,” he said."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Abetone Cutigliano, the prime destination for skiing enthusiasts, was one of the municipalities that made the accomplishment possible, overwhelmingly voting for Meloni’s party in the national elections of October 2022.",
+            "source": "Al Jazeera",
+            "item_id": "9d455b52359505b3a3a1e97eb306cfa42a9d7be4f17164349afb2230f4dc9e89:article",
+            "composed": false
+          },
+          {
+            "text": "While the late Silvio Berlusconi keeps the title of longest-serving premier, having held the premiership for a longer period over four terms, the government led by the far-right Brothers of Italy has now overtaken his record of 1,412 consecutive days in power.",
+            "source": "Al Jazeera",
+            "item_id": "9d455b52359505b3a3a1e97eb306cfa42a9d7be4f17164349afb2230f4dc9e89:article",
+            "composed": false
+          },
+          {
+            "text": "“Those of us who can’t go will gather at the party’s local office to watch the rally,” the 35-year-old told Al Jazeera.",
+            "source": "Al Jazeera",
+            "item_id": "9d455b52359505b3a3a1e97eb306cfa42a9d7be4f17164349afb2230f4dc9e89:article",
+            "composed": false
+          },
+          {
+            "text": "Famed for political instability, Italy has seen 68 governments in eight decades.",
+            "source": "Al Jazeera",
+            "item_id": "9d455b52359505b3a3a1e97eb306cfa42a9d7be4f17164349afb2230f4dc9e89:article",
+            "composed": false
+          }
+        ],
+        "source": "Al Jazeera",
+        "corroborating": [],
+        "url": "https://www.aljazeera.com/news/2026/9/4/meloni-sets-a-record-leading-italys-longest-serving-government-since-wwii?traffic_source=rss"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "bf5034107c1054718995533f2d82ad7aea36343e071876ccc08659ec0f70a41b",
+      "title": "New fears of oil supply disruption as US-Iran hostilities resume",
+      "url": "https://www.france24.com/en/video/20260904-new-fears-of-oil-supply-disruption-as-us-iran-hostilities-resume",
+      "source": "France 24",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "North America",
+      "discovery": false,
+      "summary": "Renewed hostilities between the United States and Iran have brought back fears of oil supply disruption. Prices are on track for their steepest weekly gain since mid-July, up 7.6%, as the US-Iran war enters its seventh month. Twenty-five percent of the world's oil supply comes through the Strait of Hormuz, which has been blocked since the beginning of the war. FRANCE 24's international affairs editor Philip Turle gives more details.",
+      "published_at": "2026-09-04T09:56:46+00:00",
+      "updated_at": "2026-09-04T09:56:46+00:00",
+      "effective_at": "2026-09-04T09:56:46+00:00",
+      "language_status": "ENGLISH",
+      "category": "industry",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "companies",
+      "subsector": "oil_gas",
+      "subregion": "United States",
+      "country": null,
+      "entities": [
+        "france",
+        "hormuz",
+        "iran",
+        "philip",
+        "renewed",
+        "strait",
+        "turle",
+        "united_states",
+        "us-iran"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "d5027651372baeab1018d44d",
-      "importance_score": 28.0,
+      "event_id": "592613912539576450c7bd2a",
+      "importance_score": 44.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
         "urgency": 7.0,
         "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "security": 8,
+          "geopolitical": 8
+        }
+      },
+      "story_id": "bf5034107c1054718995533f2d82ad7aea36343e071876ccc08659ec0f70a41b",
+      "public_label": "📰 NEWS",
+      "headline": "New fears of oil supply disruption as US-Iran hostilities resume",
+      "briefing": {
+        "opening": [
+          "Renewed hostilities between the United States and Iran have brought back fears of oil supply disruption.",
+          "Prices are on track for their steepest weekly gain since mid-July, up 7.6%, as the US-Iran war enters its seventh month."
+        ],
+        "body": [
+          "Twenty-five percent of the world's oil supply comes through the Strait of Hormuz, which has been blocked since the beginning of the war.",
+          "FRANCE 24's international affairs editor Philip Turle gives more details."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "Renewed hostilities between the United States and Iran have brought back fears of oil supply disruption.",
+            "source": "France 24",
+            "item_id": "bf5034107c1054718995533f2d82ad7aea36343e071876ccc08659ec0f70a41b",
+            "composed": false
+          },
+          {
+            "text": "Twenty-five percent of the world's oil supply comes through the Strait of Hormuz, which has been blocked since the beginning of the war.",
+            "source": "France 24",
+            "item_id": "bf5034107c1054718995533f2d82ad7aea36343e071876ccc08659ec0f70a41b",
+            "composed": false
+          },
+          {
+            "text": "Prices are on track for their steepest weekly gain since mid-July, up 7.6%, as the US-Iran war enters its seventh month.",
+            "source": "France 24",
+            "item_id": "bf5034107c1054718995533f2d82ad7aea36343e071876ccc08659ec0f70a41b",
+            "composed": false
+          }
+        ],
+        "source": "France 24",
+        "corroborating": [],
+        "url": "https://www.france24.com/en/video/20260904-new-fears-of-oil-supply-disruption-as-us-iran-hostilities-resume"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "50e35d099d74dd5949a71449a3bfa9b6d077bdbc06ae0431eb56246d5c1c9042",
+      "title": "Investigation into Air India flight plunge highlights triple hydraulic failure and pilot drug test",
+      "url": "http://www.euronews.com/2026/09/04/investigation-into-air-india-flight-plunge-highlights-triple-hydraulic-failure-and-pilot-d",
+      "source": "Euronews",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "India's Aircraft Accident Investigation Bureau said the aircraft detected a triple-hydraulic failure, with the autopilot disengaging and a stall warning triggered for two seconds. An investigation into an Air India flight that dropped almost 300 feet last month has found that the plane suffered a temporary hydraulics failure. Flight AI2379 was travelling from Phuket, Thailand to the Indian capital of New Delhi on 4 August when the incident occurred. The Airbus A320, which had 137 passengers, six cabin crew and two pilots on board at the time, suddenly lost altitude while flying over Indian airspace, leaving 24 people injured. In a preliminary report published on Friday, India's Aircraft Accident Investigation Bureau (AAIB) said the aircraft detected a triple-hydraulic failure, with the autopilot disengaging and a stall warning triggered for two seconds. \"The aircraft encountered altitude upset. Initially, it gained 372 ft and fell by 292 ft,\" the report said. The hydraulic systems then recovered, and the \"aircraft operation returned to its normal operating condition.\" The report added that both pilots were tested for psycho-active substances following the incident. \"The sample of PIC (pilot in command) was found non-negative. Subsequently, blood samples of both the flight crew were sent to the pathological laboratory for confirmatory test. The confirmatory test report of PIC was found non-negative whereas the sample of the Co-Pilot was found negative in both the tests,\" it said, adding that the \"confirmation of use of psycho-active substance is a serious concern.\"",
+      "published_at": "2026-09-04T09:57:08+00:00",
+      "updated_at": "2026-09-04T09:57:08+00:00",
+      "effective_at": "2026-09-04T09:57:08+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "transport",
+      "subsector": "aviation",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "aaib",
+        "accident",
+        "ai2379",
+        "air",
+        "airbus",
+        "aircraft",
+        "bureau",
+        "co-pilot",
+        "delhi",
+        "flight",
+        "india",
+        "indian",
+        "investigation",
+        "phuket",
+        "pic",
+        "thailand"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "article_sentences": [
+        "India's Aircraft Accident Investigation Bureau said the aircraft detected a triple-hydraulic failure, with the autopilot disengaging and a stall warning triggered for two seconds.",
+        "An investigation into an Air India flight that dropped almost 300 feet last month has found that the plane suffered a temporary hydraulics failure.",
+        "Flight AI2379 was travelling from Phuket, Thailand to the Indian capital of New Delhi on 4 August when the incident occurred.",
+        "The Airbus A320, which had 137 passengers, six cabin crew and two pilots on board at the time, suddenly lost altitude while flying over Indian airspace, leaving 24 people injured.",
+        "In a preliminary report published on Friday, India's Aircraft Accident Investigation Bureau (AAIB) said the aircraft detected a triple-hydraulic failure, with the autopilot disengaging and a stall warning triggered for two seconds.",
+        "\"The aircraft encountered altitude upset.",
+        "Initially, it gained 372 ft and fell by 292 ft,\" the report said.",
+        "The hydraulic systems then recovered, and the \"aircraft operation returned to its normal operating condition.\"",
+        "The report added that both pilots were tested for psycho-active substances following the incident.",
+        "\"The sample of PIC (pilot in command) was found non-negative.",
+        "Subsequently, blood samples of both the flight crew were sent to the pathological laboratory for confirmatory test.",
+        "The confirmatory test report of PIC was found non-negative whereas the sample of the Co-Pilot was found negative in both the tests,\" it said, adding that the \"confirmation of use of psycho-active substance is a serious concern.\""
+      ],
+      "event_status": "UPDATE",
+      "event_id": "0eb96820569dd6099f9d5cbb",
+      "importance_score": 42.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 3,
+        "urgency": 9.0,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 10,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 24,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 6,
+          "scientific": 4
+        }
+      },
+      "story_id": "50e35d099d74dd5949a71449a3bfa9b6d077bdbc06ae0431eb56246d5c1c9042",
+      "public_label": "🔄 UPDATE",
+      "headline": "Investigation into Air India flight plunge highlights triple hydraulic failure and pilot drug test",
+      "briefing": {
+        "opening": [
+          "India's Aircraft Accident Investigation Bureau said the aircraft detected a triple-hydraulic failure, with the autopilot disengaging and a stall warning triggered for two seconds.",
+          "An investigation into an Air India flight that dropped almost 300 feet last month has found that the plane suffered a temporary hydraulics failure."
+        ],
+        "body": [
+          "Flight AI2379 was travelling from Phuket, Thailand to the Indian capital of New Delhi on 4 August when the incident occurred.",
+          "The Airbus.",
+          "A320, which had 137 passengers, six cabin crew and two pilots on board at the time, suddenly lost altitude while flying over Indian airspace, leaving 24 people injured.",
+          "In a preliminary report published on Friday, India's Aircraft Accident Investigation Bureau (AAIB) said the aircraft detected a triple-hydraulic failure, with the autopilot disengaging and a stall warning triggered for two seconds.",
+          "\"The aircraft encountered altitude upset.",
+          "Initially, it gained 372 ft and fell by 292 ft,\" the report said.",
+          "The hydraulic systems then recovered, and the \"aircraft operation returned to its normal operating condition.\" The report added that both pilots were tested for psycho-active substances following the incident.",
+          "\"The sample of PIC (pilot in command) was found non-negative."
+        ],
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "24 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "Flight AI2379 was travelling from Phuket, Thailand to the Indian capital of New Delhi on 4 August when the incident occurred.",
+            "source": "Euronews",
+            "item_id": "50e35d099d74dd5949a71449a3bfa9b6d077bdbc06ae0431eb56246d5c1c9042:article",
+            "composed": false
+          },
+          {
+            "text": "An investigation into an Air India flight that dropped almost 300 feet last month has found that the plane suffered a temporary hydraulics failure.",
+            "source": "Euronews",
+            "item_id": "50e35d099d74dd5949a71449a3bfa9b6d077bdbc06ae0431eb56246d5c1c9042:article",
+            "composed": false
+          },
+          {
+            "text": "A320, which had 137 passengers, six cabin crew and two pilots on board at the time, suddenly lost altitude while flying over Indian airspace, leaving 24 people injured.",
+            "source": "Euronews",
+            "item_id": "50e35d099d74dd5949a71449a3bfa9b6d077bdbc06ae0431eb56246d5c1c9042:article",
+            "composed": false
+          }
+        ],
+        "source": "Euronews",
+        "corroborating": [],
+        "url": "http://www.euronews.com/2026/09/04/investigation-into-air-india-flight-plunge-highlights-triple-hydraulic-failure-and-pilot-d"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "851e90e11d86f269e495d86effabe98424b69101ed7b053379cbf175824d768e",
+      "title": "Chinese armed trainer jets drive away Philippine aircraft over Scarborough Shoal",
+      "url": "https://www.scmp.com/news/china/military/article/3366364/chinese-armed-trainer-jets-drive-away-philippine-aircraft-over-scarborough-shoal?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "China sent armed trainer jets to drive away Philippine light aircraft over the disputed Scarborough Shoal on Wednesday, in a potentially more cost-effective tactic for its increasingly frequent air confrontations over the South China Sea. At least three JL-10 trainers carrying PL-5 air-to-air missiles were involved in the incident over the shoal, according to a video clip posted to social media by the People’s Liberation Army Southern Theatre Command. The footage showed the Chinese jet’s...",
+      "published_at": "2026-09-04T10:00:13+00:00",
+      "updated_at": "2026-09-04T10:00:13+00:00",
+      "effective_at": "2026-09-04T10:00:13+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 73,
+      "confidence": "medium",
+      "urgency_terms": [
+        "missile"
+      ],
+      "sector": "transport",
+      "subsector": "aviation",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "army",
+        "china",
+        "command",
+        "jl-10",
+        "liberation",
+        "philippine",
+        "pl-5",
+        "scarborough",
+        "sea",
+        "shoal",
+        "south",
+        "southern",
+        "theatre"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "549f46f640dbc0ea5779972f",
+      "importance_score": 26.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
@@ -66,59 +644,38 @@
         },
         "significance_dims": {}
       },
-      "story_id": "9541a252ad3e64a3714da28a6ff178c3bd7c12ac2537e54b1834e5325fae61b6",
-      "article_sentences": [
-        "VLADIVOSTOK, September 4.",
-        "China has overcome the oil supply crisis in the Strait of Hormuz thanks to proactive stockpiling, large-scale electrification, and its strategic partnership with Russia, said Igor Sechin, CEO of Rosneft and Executive Secretary of the Presidential Commission for Strategic Development of the Fuel and Energy Sector and Environmental Safety.",
-        "\"China has weathered the Hormuz crisis due to early reserve building, large-scale electrification, and its partnership with Russia.",
-        "At the heart of this strategy is a balanced strategy for ensuring energy security, implemented under the 'four energy revolutions' policy proclaimed by Chinese President Xi Jinping in 2014,\" Sechin said at the Russia-China Energy Business Forum, held on the sidelines of the Eastern Economic Forum (EEF).",
-        "He expressed confidence that this approach would continue during the implementation of the 15th Five-Year Plan, whose core concept is ensuring \"security through self-sufficiency.\"",
-        "The Eastern Economic Forum is being held on September 1-4 in Vladivostok on the campus of the Far Eastern Federal University (FEFU).",
-        "The main theme of the EEF in 2026 is \"The Far East: Development for the Benefit of People.\" The event is organized by the Roscongress Foundation with the support of the Russian Government.",
-        "TASS is the general media partner."
-      ],
-      "public_label": "📰 NEWS",
-      "headline": "China weathers Hormuz supply crisis through proactive stockpiling — Rosneft CEO",
+      "story_id": "851e90e11d86f269e495d86effabe98424b69101ed7b053379cbf175824d768e",
+      "public_label": "🔄 UPDATE",
+      "headline": "Chinese armed trainer jets drive away Philippine aircraft over Scarborough Shoal",
       "briefing": {
         "opening": [
-          "VLADIVOSTOK, September 4.",
-          "China has overcome the oil supply crisis in the Strait of Hormuz thanks to proactive stockpiling, large-scale electrification, and its strategic partnership with Russia, said Igor Sechin, CEO of Rosneft and Executive Secretary of the Presidential Commission for Strategic Development of the Fuel and Energy Sector and Environmental Safety."
+          "China sent armed trainer jets to drive away Philippine light aircraft over the disputed Scarborough Shoal on Wednesday, in a potentially more cost-effective tactic for its increasingly frequent air confrontations over the South China Sea.",
+          "At least three JL-10 trainers carrying PL-5 air-to-air missiles were involved in the incident over the shoal, according to a video clip posted to social media by the People’s Liberation Army Southern Theatre Command."
         ],
         "body": [
-          "\"China has weathered the Hormuz crisis due to early reserve building, large-scale electrification, and its partnership with Russia.",
-          "At the heart of this strategy is a balanced strategy for ensuring energy security, implemented under the 'four energy revolutions' policy proclaimed by Chinese President Xi Jinping in 2014,\" Sechin said at the Russia-China Energy Business Forum, held on the sidelines of the Eastern Economic Forum (EEF).",
-          "He expressed confidence that this approach would continue during the implementation of the 15th Five-Year Plan, whose core concept is ensuring \"security through self-sufficiency.\" The Eastern Economic Forum is being held on September 1-4 in Vladivostok on the campus of the Far Eastern Federal University (FEFU).",
-          "The main theme of the EEF in 2026 is \"The Far East: Development for the Benefit of People.\" The event is organized by the Roscongress Foundation with the support of the Russian Government.",
-          "TASS is the general media partner.",
-          "Igor Sechin expressed confidence that this approach would continue during the implementation of the 15th Five-Year Plan, whose core concept is ensuring \"security through self-sufficiency\"."
+          "The footage showed the Chinese jet’s..."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Vladivostok"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "China has overcome the oil supply crisis in the Strait of Hormuz thanks to proactive stockpiling, large-scale electrification, and its strategic partnership with Russia, said Igor Sechin, CEO of Rosneft and Executive Secretary of the Presidential Commission for Strategic Development of the Fuel and Energy Sector and Environmental Safety.",
-            "source": "TASS English",
-            "item_id": "9541a252ad3e64a3714da28a6ff178c3bd7c12ac2537e54b1834e5325fae61b6:article",
+            "text": "At least three JL-10 trainers carrying PL-5 air-to-air missiles were involved in the incident over the shoal, according to a video clip posted to social media by the People’s Liberation Army Southern Theatre Command.",
+            "source": "South China Morning Post",
+            "item_id": "851e90e11d86f269e495d86effabe98424b69101ed7b053379cbf175824d768e",
             "composed": false
           },
           {
-            "text": "He expressed confidence that this approach would continue during the implementation of the 15th Five-Year Plan, whose core concept is ensuring \"security through self-sufficiency.\"",
-            "source": "TASS English",
-            "item_id": "9541a252ad3e64a3714da28a6ff178c3bd7c12ac2537e54b1834e5325fae61b6:article",
+            "text": "China sent armed trainer jets to drive away Philippine light aircraft over the disputed Scarborough Shoal on Wednesday, in a potentially more cost-effective tactic for its increasingly frequent air confrontations over the South China Sea.",
+            "source": "South China Morning Post",
+            "item_id": "851e90e11d86f269e495d86effabe98424b69101ed7b053379cbf175824d768e",
             "composed": false
           }
         ],
-        "source": "TASS English",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://tass.com/economy/2182649"
+        "url": "https://www.scmp.com/news/china/military/article/3366364/chinese-armed-trainer-jets-drive-away-philippine-aircraft-over-scarborough-shoal?utm_source=rss_feed"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
