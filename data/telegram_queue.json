@@ -1,36 +1,45 @@
 {
-  "generated_at": "2026-09-05T00:40:48.288343+00:00",
+  "generated_at": "2026-09-05T00:50:44.488693+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "36310cadd973596a4629dac57cf0b6cf90400edbfbc3772ee2cc0b5b9a96ec16",
-      "title": "US diesel prices hit record $5.85 a gallon",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-diesel-prices-hit-record-585-gallon",
-      "source": "Middle East Eye",
+      "id": "a011ee424a305e8bbe74ae74fd43ffe96ac898db9f825c6b62a71b918fb72543",
+      "title": "US State Department approves sale of bombs, guidance kits, tank engines to Riyadh",
+      "url": "https://tass.com/world/2183001",
+      "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "North America",
       "discovery": false,
-      "summary": "US diesel prices hit record $5.85 a gallon The price of diesel hit a new record Friday in the United States, as disruption from the US war with Iran squeezes voters. The cost is now $5.85 a gallon, up from $3.71 a year ago, the AAA motorists' association said. Diesel is used by farmers to run equipment, and it also powers the trucks needed to bring food to grocery stores. US farmers faced a double whammy of surging fertiliser and diesel prices as the spring planting season got underway. The Independent Grocers Alliance estimates that fuel-related costs can account for 15 to 30 percent of the total cost for some food products. Besides diesel, the cost of regular gasoline is also notably highe",
-      "published_at": "2026-09-05T00:32:15+00:00",
-      "updated_at": "2026-09-05T00:32:15+00:00",
-      "effective_at": "2026-09-05T00:32:15+00:00",
+      "summary": "WASHINGTON, September 5. The US Department of State has approved the possible sale of tank engines, bombs, precision guidance kits, and other systems to Saudi Arabia for a total of around $5.75 bln, according to a statement released on its website on Friday. Saudi Arabian authorities have requested permission from the United States to purchase over 5,000 BLU-111 bombs, 5,000 BLU-117 bombs, about 10,000 Joint Direct Attack Munition (JDAM) guidance kits, and other equipment and support, according to the document. \"The estimated total cost is $5 billion,\" the statement reads. Moreover, Riyadh requested to buy 60 AGT-1500 tank engines with the estimated total cost of $750 mln. The State Department \"decided to approve the possible sale.\" The US administration has already notified Congress of the decision. The legislative body has 30 days to review the potential deal and potentially block it.",
+      "published_at": "2026-09-05T00:44:12+00:00",
+      "updated_at": "2026-09-05T00:44:12+00:00",
+      "effective_at": "2026-09-05T00:44:12+00:00",
       "language_status": "ENGLISH",
       "category": "world",
-      "score": 65,
+      "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "agriculture",
-      "subsector": "food",
+      "sector": "other",
+      "subsector": "general",
       "subregion": "United States",
       "country": null,
       "entities": [
-        "aaa",
-        "alliance",
-        "grocers",
-        "independent",
-        "iran",
+        "agt-1500",
+        "arabian",
+        "attack",
+        "blu-111",
+        "blu-117",
+        "congress",
+        "department",
+        "direct",
+        "jdam",
+        "joint",
+        "moreover",
+        "munition",
+        "saudi_arabia",
+        "state",
         "united_states",
         "us"
       ],
@@ -38,22 +47,32 @@
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 100,
+      "priority_score": 60,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "8b37c35fd2f149c7190dfdec",
-      "importance_score": 45.0,
-      "importance_level": "LOW",
+      "article_sentences": [
+        "WASHINGTON, September 5.",
+        "The US Department of State has approved the possible sale of tank engines, bombs, precision guidance kits, and other systems to Saudi Arabia for a total of around $5.75 bln, according to a statement released on its website on Friday.",
+        "Saudi Arabian authorities have requested permission from the United States to purchase over 5,000 BLU-111 bombs, 5,000 BLU-117 bombs, about 10,000 Joint Direct Attack Munition (JDAM) guidance kits, and other equipment and support, according to the document.",
+        "\"The estimated total cost is $5 billion,\" the statement reads.",
+        "Moreover, Riyadh requested to buy 60 AGT-1500 tank engines with the estimated total cost of $750 mln.",
+        "The State Department \"decided to approve the possible sale.\"",
+        "The US administration has already notified Congress of the decision.",
+        "The legislative body has 30 days to review the potential deal and potentially block it."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "76feab999bd4a91eed8612fc",
+      "importance_score": 56.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 10,
+        "impact": 18,
+        "urgency": 7.0,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 16,
+        "significance": 12,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -62,61 +81,56 @@
           "displaced": 0,
           "missing": 0,
           "affected": 0,
-          "major_incident": false,
+          "major_incident": true,
           "crisis": false
         },
         "significance_dims": {
-          "security": 8,
-          "geopolitical": 8
+          "geopolitical": 8,
+          "security": 4
         }
       },
-      "story_id": "36310cadd973596a4629dac57cf0b6cf90400edbfbc3772ee2cc0b5b9a96ec16",
-      "public_label": "📰 NEWS",
-      "headline": "US diesel prices hit record $5.85 a gallon",
+      "story_id": "a011ee424a305e8bbe74ae74fd43ffe96ac898db9f825c6b62a71b918fb72543",
+      "public_label": "🔄 UPDATE",
+      "headline": "US State Department approves sale of bombs, guidance kits, tank engines to Riyadh",
       "briefing": {
         "opening": [
-          "The price of diesel hit a new record Friday in the United States, as disruption from the US war with Iran squeezes voters.",
-          "The cost is now $5.85 a gallon, up from $3.71 a year ago, the AAA motorists' association said."
+          "WASHINGTON, September 5.",
+          "The US Department of State has approved the possible sale of tank engines, bombs, precision guidance kits, and other systems to Saudi Arabia for a total of around $5.75 bln, according to a statement released on its website on Friday."
         ],
         "body": [
-          "Diesel is used by farmers to run equipment, and it also powers the trucks needed to bring food to grocery stores.",
-          "US farmers faced a double whammy of surging fertiliser and diesel prices as the spring planting season got underway.",
-          "The Independent Grocers Alliance estimates that fuel-related costs can account for 15 to 30 percent of the total cost for some food products.",
-          "Besides diesel, the cost of regular gasoline is also notably highe."
+          "Saudi Arabian authorities have requested permission from the United States to purchase over 5,000 BLU-111 bombs, 5,000 BLU-117 bombs, about 10,000 Joint Direct Attack Munition (JDAM) guidance kits, and other equipment and support, according to the document.",
+          "\"The estimated total cost is $5 billion,\" the statement reads.",
+          "Moreover, Riyadh requested to buy 60 AGT-1500 tank engines with the estimated total cost of $750 mln.",
+          "The State Department \"decided to approve the possible sale.\" The US administration has already notified Congress of the decision.",
+          "The legislative body has 30 days to review the potential deal and potentially block it."
         ],
-        "bullets": [
-          {
-            "icon": "⚠️",
-            "label": "Status",
-            "text": "underway"
-          }
-        ],
+        "bullets": [],
         "sentences": [
           {
-            "text": "US farmers faced a double whammy of surging fertiliser and diesel prices as the spring planting season got underway.",
-            "source": "Middle East Eye",
-            "item_id": "36310cadd973596a4629dac57cf0b6cf90400edbfbc3772ee2cc0b5b9a96ec16",
+            "text": "Moreover, Riyadh requested to buy 60 AGT-1500 tank engines with the estimated total cost of $750 mln.",
+            "source": "TASS English",
+            "item_id": "a011ee424a305e8bbe74ae74fd43ffe96ac898db9f825c6b62a71b918fb72543:article",
             "composed": false
           },
           {
-            "text": "Diesel is used by farmers to run equipment, and it also powers the trucks needed to bring food to grocery stores.",
-            "source": "Middle East Eye",
-            "item_id": "36310cadd973596a4629dac57cf0b6cf90400edbfbc3772ee2cc0b5b9a96ec16",
+            "text": "WASHINGTON, September 5.",
+            "source": "TASS English",
+            "item_id": "a011ee424a305e8bbe74ae74fd43ffe96ac898db9f825c6b62a71b918fb72543:article",
             "composed": false
           },
           {
-            "text": "The price of diesel hit a new record Friday in the United States, as disruption from the US war with Iran squeezes voters.",
-            "source": "Middle East Eye",
-            "item_id": "36310cadd973596a4629dac57cf0b6cf90400edbfbc3772ee2cc0b5b9a96ec16",
+            "text": "The US Department of State has approved the possible sale of tank engines, bombs, precision guidance kits, and other systems to Saudi Arabia for a total of around $5.75 bln, according to a statement released on its website on Friday.",
+            "source": "TASS English",
+            "item_id": "a011ee424a305e8bbe74ae74fd43ffe96ac898db9f825c6b62a71b918fb72543:article",
             "composed": false
           }
         ],
-        "source": "Middle East Eye",
+        "source": "TASS English",
         "corroborating": [],
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-diesel-prices-hit-record-585-gallon"
+        "url": "https://tass.com/world/2183001"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
