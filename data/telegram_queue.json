@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T18:31:03.389724+00:00",
-  "count": 2,
+  "generated_at": "2026-09-05T18:40:40.822654+00:00",
+  "count": 3,
   "stories": [
     {
       "id": "a193d889c5404603049ff7c8964b9cfb849728e370c27ae465ad2ecd2ff24183",
@@ -50,10 +50,10 @@
         "women",
         "zulfiqar"
       ],
-      "corroborating_sources": 0,
+      "corroborating_sources": 1,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
-      "verified_match_count": 0,
+      "verified_match_count": 1,
       "priority_score": 80,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
@@ -73,21 +73,21 @@
       ],
       "event_status": "UPDATE",
       "event_id": "a0f30c536c4d397fa4e3b04b",
-      "importance_score": 52.0,
-      "importance_level": "MEDIUM",
+      "importance_score": 45.0,
+      "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 10.0,
+        "impact": 8,
         "urgency": 10,
         "novelty": 9.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
-        "corroboration": 0,
-        "significance": 12,
+        "corroboration": 3,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
-          "dead": 7,
+          "dead": 0,
           "injured": 0,
           "displaced": 0,
           "missing": 0,
@@ -96,8 +96,7 @@
           "crisis": true
         },
         "significance_dims": {
-          "security": 4,
-          "human": 8
+          "security": 4
         }
       },
       "story_id": "a193d889c5404603049ff7c8964b9cfb849728e370c27ae465ad2ecd2ff24183",
@@ -164,30 +163,35 @@
       "label": "🔄 UPDATE"
     },
     {
-      "id": "8624af2d25e03372122e7e6e56d07a0a8ac3fd293f8faca9a8f4879c92810946",
-      "title": "Putin says no strikes on Kiev have been carried out since midnight",
-      "url": "https://tass.com/politics/2183201",
+      "id": "e8d3799f33e1a9069960018cf1d06c10c30ac0887acd07da1cb21f0030bb6372",
+      "title": "Request for pausing strikes on Kiev came through official channels — Putin",
+      "url": "https://tass.com/politics/2183205",
       "source": "TASS English",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
       "region": "Europe",
       "discovery": false,
-      "summary": "",
-      "published_at": "2026-09-05T18:23:52+00:00",
-      "updated_at": "2026-09-05T18:23:52+00:00",
-      "effective_at": "2026-09-05T18:23:52+00:00",
+      "summary": "President Vladimir Putin stated it at a meeting with American negotiators in the Kremlin",
+      "published_at": "2026-09-05T18:30:18+00:00",
+      "updated_at": "2026-09-05T18:30:18+00:00",
+      "effective_at": "2026-09-05T18:30:18+00:00",
       "language_status": "ENGLISH",
       "category": "world",
       "score": 60,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "law",
-      "subsector": "labor",
+      "sector": "geopolitics",
+      "subsector": "politics",
       "subregion": "Europe",
       "country": null,
       "entities": [
-        "ukraine"
+        "american",
+        "putin",
+        "russia",
+        "ukraine",
+        "us",
+        "vladimir"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -197,7 +201,120 @@
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
       "event_status": "NEW",
-      "event_id": "b6f3040d80fa2846a3f6ec7e",
+      "event_id": "65858ff2ea249250e643e7f1",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "geopolitical": 4
+        }
+      },
+      "story_id": "e8d3799f33e1a9069960018cf1d06c10c30ac0887acd07da1cb21f0030bb6372",
+      "article_sentences": [
+        "MOSCOW, September 5.",
+        "The request for pausing strikes on the Ukrainian capital was received by Moscow through official channels, President Vladimir Putin stated at a meeting with American negotiators in the Kremlin.",
+        "\"We received this request [for ceasing strikes on Kiev] through official channels, through the intelligence services, and through the Foreign Ministry,\" Putin stated."
+      ],
+      "public_label": "📰 NEWS",
+      "headline": "Request for pausing strikes on Kiev came through official channels — Putin",
+      "briefing": {
+        "opening": [
+          "MOSCOW, September 5.",
+          "The request for pausing strikes on the Ukrainian capital was received by Moscow through official channels, President Vladimir Putin stated at a meeting with American negotiators in the Kremlin."
+        ],
+        "body": [
+          "\"We received this request [for ceasing strikes on Kiev] through official channels, through the intelligence services, and through the Foreign Ministry,\" Putin stated.",
+          "President Vladimir Putin stated it at a meeting with American negotiators in the Kremlin."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "President Vladimir Putin stated it at a meeting with American negotiators in the Kremlin.",
+            "source": "TASS English",
+            "item_id": "e8d3799f33e1a9069960018cf1d06c10c30ac0887acd07da1cb21f0030bb6372",
+            "composed": false
+          },
+          {
+            "text": "The request for pausing strikes on the Ukrainian capital was received by Moscow through official channels, President Vladimir Putin stated at a meeting with American negotiators in the Kremlin.",
+            "source": "TASS English",
+            "item_id": "e8d3799f33e1a9069960018cf1d06c10c30ac0887acd07da1cb21f0030bb6372:article",
+            "composed": false
+          },
+          {
+            "text": "\"We received this request [for ceasing strikes on Kiev] through official channels, through the intelligence services, and through the Foreign Ministry,\" Putin stated.",
+            "source": "TASS English",
+            "item_id": "e8d3799f33e1a9069960018cf1d06c10c30ac0887acd07da1cb21f0030bb6372:article",
+            "composed": false
+          },
+          {
+            "text": "MOSCOW, September 5.",
+            "source": "TASS English",
+            "item_id": "e8d3799f33e1a9069960018cf1d06c10c30ac0887acd07da1cb21f0030bb6372:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/politics/2183205"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "038971730323ae89ccd229ad808121bdb9c0ddcb44a5ac8a30d8c57e036bac73",
+      "title": "Putin says Ukraine has significantly reduced number of attacks on Russia",
+      "url": "https://tass.com/politics/2183209",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "",
+      "published_at": "2026-09-05T18:35:22+00:00",
+      "updated_at": "2026-09-05T18:35:22+00:00",
+      "effective_at": "2026-09-05T18:35:22+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "russia",
+        "ukraine"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 88,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "7809e3bc8f2fc968d791e747",
       "importance_score": 28.0,
       "importance_level": "LOW",
       "importance_breakdown": {
@@ -222,37 +339,46 @@
         },
         "significance_dims": {}
       },
-      "story_id": "8624af2d25e03372122e7e6e56d07a0a8ac3fd293f8faca9a8f4879c92810946",
+      "story_id": "038971730323ae89ccd229ad808121bdb9c0ddcb44a5ac8a30d8c57e036bac73",
       "article_sentences": [
         "MOSCOW, September 5.",
-        "No strikes on the Ukrainian capital have been carried out since midnight, Russian President Vladimir Putin stated at a meeting with American negotiators in the Kremlin."
+        "The Ukrainian forces have significantly reduced the number of strikes on Russia, President Vladimir Putin announced at a meeting with American negotiators in the Kremlin.",
+        "\"I would like to note that the Ukrainian side has also significantly reduced its strikes on the territory of Russia, including on Moscow,\" Putin stated."
       ],
       "public_label": "📰 NEWS",
-      "headline": "Putin says no strikes on Kiev have been carried out since midnight",
+      "headline": "Putin says Ukraine has significantly reduced number of attacks on Russia",
       "briefing": {
         "opening": [
           "MOSCOW, September 5.",
-          "No strikes on the Ukrainian capital have been carried out since midnight, Russian President Vladimir Putin stated at a meeting with American negotiators in the Kremlin."
+          "The Ukrainian forces have significantly reduced the number of strikes on Russia, President Vladimir Putin announced at a meeting with American negotiators in the Kremlin."
         ],
-        "body": [],
+        "body": [
+          "\"I would like to note that the Ukrainian side has also significantly reduced its strikes on the territory of Russia, including on Moscow,\" Putin stated."
+        ],
         "bullets": [],
         "sentences": [
           {
-            "text": "No strikes on the Ukrainian capital have been carried out since midnight, Russian President Vladimir Putin stated at a meeting with American negotiators in the Kremlin.",
+            "text": "The Ukrainian forces have significantly reduced the number of strikes on Russia, President Vladimir Putin announced at a meeting with American negotiators in the Kremlin.",
             "source": "TASS English",
-            "item_id": "8624af2d25e03372122e7e6e56d07a0a8ac3fd293f8faca9a8f4879c92810946:article",
+            "item_id": "038971730323ae89ccd229ad808121bdb9c0ddcb44a5ac8a30d8c57e036bac73:article",
+            "composed": false
+          },
+          {
+            "text": "\"I would like to note that the Ukrainian side has also significantly reduced its strikes on the territory of Russia, including on Moscow,\" Putin stated.",
+            "source": "TASS English",
+            "item_id": "038971730323ae89ccd229ad808121bdb9c0ddcb44a5ac8a30d8c57e036bac73:article",
             "composed": false
           },
           {
             "text": "MOSCOW, September 5.",
             "source": "TASS English",
-            "item_id": "8624af2d25e03372122e7e6e56d07a0a8ac3fd293f8faca9a8f4879c92810946:article",
+            "item_id": "038971730323ae89ccd229ad808121bdb9c0ddcb44a5ac8a30d8c57e036bac73:article",
             "composed": false
           }
         ],
         "source": "TASS English",
         "corroborating": [],
-        "url": "https://tass.com/politics/2183201"
+        "url": "https://tass.com/politics/2183209"
       },
       "group_size": 1,
       "label": "📰 NEWS"
