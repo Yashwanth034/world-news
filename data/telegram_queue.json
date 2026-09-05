@@ -1,54 +1,59 @@
 {
-  "generated_at": "2026-09-05T16:50:42.807148+00:00",
+  "generated_at": "2026-09-05T17:01:10.924224+00:00",
   "count": 1,
   "stories": [
     {
-      "id": "287d63a0ec5c8af9795bea35d07f9e528f56489b6b690beceb7d514785c9ad30",
-      "title": "Watch: Sikkim identifies 16 high risk glacial lakes for outburst floods",
-      "url": "https://www.thehindu.com/videos/watch-sikkim-identifies-16-high-risk-glacial-lakes-for-outburst-floods/article71433061.ece",
-      "source": "The Hindu",
+      "id": "d3680926cabc5be94f4b6cf56c6b0f154a75623571ee4490246336d996291aca",
+      "title": "Pentagon chief threatens more strikes on Iranian oil tankers",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pentagon-chief-threatens-more-strikes-iranian-oil-tankers",
+      "source": "Middle East Eye",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": null,
+      "region": "Asia",
       "discovery": false,
-      "summary": "Sikkim identifies 16 glacial lakes at risk of catastrophic outburst floods after deadly Himalayan disasters. Will emergency measures save lives?",
-      "published_at": "2026-09-05T16:37:51+00:00",
-      "updated_at": "2026-09-05T16:37:51+00:00",
-      "effective_at": "2026-09-05T16:37:51+00:00",
+      "summary": "Pentagon chief threatens more strikes on Iranian oil tankers US Defence Secretary Pete Hegseth says the military can attack Iran’s entire oil tanker fleet, after Washington announced strikes on three Iranian vessels following attacks on US warships. “It’s simple: if Iran shoots at US ships, we will destroy (and sink) their oil tankers. All they have to do is not shoot” at the US Navy, Hegseth posted on X. “Iran’s oil tanker fleet is defenceless – Iran has no navy or air force,” he continued. “Our planes, ships &amp; subs can strike them all”.",
+      "published_at": "2026-09-05T16:56:53+00:00",
+      "updated_at": "2026-09-05T16:56:53+00:00",
+      "effective_at": "2026-09-05T16:56:53+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "industry",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "climate",
-      "subsector": "floods",
-      "subregion": null,
+      "sector": "transport",
+      "subsector": "shipping",
+      "subregion": "West Asia / Middle East",
       "country": null,
       "entities": [
-        "himalayan",
-        "sikkim"
+        "defence",
+        "hegseth",
+        "iran",
+        "navy",
+        "pentagon",
+        "pete",
+        "us"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 85,
+      "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "861074b5cb00e18344f0cb25",
-      "importance_score": 36.0,
+      "event_status": "UPDATE",
+      "event_id": "72a8fb010c4c3bf6700ef911",
+      "importance_score": 30.0,
       "importance_level": "LOW",
       "importance_breakdown": {
-        "impact": 8,
-        "urgency": 9.0,
-        "novelty": 10,
-        "scope": "LOCAL",
-        "scope_points": 3,
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 8.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
         "reliability": 6,
         "corroboration": 0,
-        "significance": 0,
+        "significance": 4,
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
@@ -58,40 +63,52 @@
           "missing": 0,
           "affected": 0,
           "major_incident": false,
-          "crisis": true
+          "crisis": false
         },
-        "significance_dims": {}
+        "significance_dims": {
+          "security": 4
+        }
       },
-      "story_id": "287d63a0ec5c8af9795bea35d07f9e528f56489b6b690beceb7d514785c9ad30",
-      "public_label": "📰 NEWS",
-      "headline": "Sikkim identifies 16 high risk glacial lakes for outburst floods",
+      "story_id": "d3680926cabc5be94f4b6cf56c6b0f154a75623571ee4490246336d996291aca",
+      "public_label": "🔄 UPDATE",
+      "headline": "Pentagon chief threatens more strikes on Iranian oil tankers",
       "briefing": {
         "opening": [
-          "Sikkim identifies 16 glacial lakes at risk of catastrophic outburst floods after deadly Himalayan disasters.",
-          "Will emergency measures save lives?"
+          "Pentagon chief threatens more strikes on Iranian oil tankers US Defence Secretary Pete Hegseth says the military can attack Iran’s entire oil tanker fleet, after Washington announced strikes on three Iranian vessels following attacks on US warships.",
+          "“It’s simple: if Iran shoots at US ships, we will destroy (and sink) their oil tankers."
         ],
-        "body": [],
-        "bullets": [],
+        "body": [
+          "All they have to do is not shoot” at the US Navy, Hegseth posted on X.",
+          "“Iran’s oil tanker fleet is defenceless – Iran has no navy or air force,” he continued.",
+          "“Our planes, ships & subs can strike them all”."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "US"
+          }
+        ],
         "sentences": [
           {
-            "text": "Will emergency measures save lives?",
-            "source": "The Hindu",
-            "item_id": "287d63a0ec5c8af9795bea35d07f9e528f56489b6b690beceb7d514785c9ad30",
+            "text": "Pentagon chief threatens more strikes on Iranian oil tankers US Defence Secretary Pete Hegseth says the military can attack Iran’s entire oil tanker fleet, after Washington announced strikes on three Iranian vessels following attacks on US warships.",
+            "source": "Middle East Eye",
+            "item_id": "d3680926cabc5be94f4b6cf56c6b0f154a75623571ee4490246336d996291aca",
             "composed": false
           },
           {
-            "text": "Sikkim identifies 16 glacial lakes at risk of catastrophic outburst floods after deadly Himalayan disasters.",
-            "source": "The Hindu",
-            "item_id": "287d63a0ec5c8af9795bea35d07f9e528f56489b6b690beceb7d514785c9ad30",
+            "text": "“Iran’s oil tanker fleet is defenceless – Iran has no navy or air force,” he continued.",
+            "source": "Middle East Eye",
+            "item_id": "d3680926cabc5be94f4b6cf56c6b0f154a75623571ee4490246336d996291aca",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "Middle East Eye",
         "corroborating": [],
-        "url": "https://www.thehindu.com/videos/watch-sikkim-identifies-16-high-risk-glacial-lakes-for-outburst-floods/article71433061.ece"
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pentagon-chief-threatens-more-strikes-iranian-oil-tankers"
       },
       "group_size": 1,
-      "label": "📰 NEWS"
+      "label": "🔄 UPDATE"
     }
   ]
 }
