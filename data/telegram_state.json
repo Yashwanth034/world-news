@@ -1,14 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "c560ceb07d58d0fab83badf70df2da01f88341e4ca86bfda0f6ea9eebee179a4",
-      "event_id": "ed83d314ac2fc454abccb8ae",
-      "item_id": "c560ceb07d58d0fab83badf70df2da01f88341e4ca86bfda0f6ea9eebee179a4",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-09-05T00:05:05+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "abc6ca9757ab3603e2e89982339c49dd339bd93bc5e968b17816828acbef69f1",
       "event_id": "1158e5941874749392c4e3c2",
       "item_id": "abc6ca9757ab3603e2e89982339c49dd339bd93bc5e968b17816828acbef69f1",
@@ -314,6 +306,15 @@
     }
   ],
   "posted": [
+    {
+      "story_id": "5bca6ffc0bca65ae2903c50e06727bf983e8069d79d449271ef1d1e03c4c9e3f",
+      "event_id": "8b1663cf666a8be8c4066d1d",
+      "item_id": "5bca6ffc0bca65ae2903c50e06727bf983e8069d79d449271ef1d1e03c4c9e3f",
+      "label": "📰 NEWS",
+      "message_id": 3513,
+      "posted_at": "2026-09-05T12:02:53.000138+00:00",
+      "scheduled_at": "2026-09-05T12:02:53+00:00"
+    },
     {
       "story_id": "a713da5f378e870f7520db56320fc40840ab480e5dfe2e260c369354c1028812",
       "event_id": "d424d05325651fd96ee348e0",
@@ -3229,24 +3230,6 @@
       "message_id": 3189,
       "posted_at": "2026-09-03T06:13:24.000132+00:00",
       "scheduled_at": "2026-09-03T06:12:49+00:00"
-    },
-    {
-      "story_id": "adb12e133d1c63fef17b8b5786b7da68b49daa41103a3729f7899329f72f9b47",
-      "event_id": "a7fddf766b944f8baa0d1b2a",
-      "item_id": "adb12e133d1c63fef17b8b5786b7da68b49daa41103a3729f7899329f72f9b47",
-      "label": "🔄 UPDATE",
-      "message_id": 3188,
-      "posted_at": "2026-09-03T06:04:35.000131+00:00",
-      "scheduled_at": "2026-09-03T06:04:35+00:00"
-    },
-    {
-      "story_id": "5bca6ffc0bca65ae2903c50e06727bf983e8069d79d449271ef1d1e03c4c9e3f",
-      "event_id": "8b1663cf666a8be8c4066d1d",
-      "item_id": "5bca6ffc0bca65ae2903c50e06727bf983e8069d79d449271ef1d1e03c4c9e3f",
-      "label": "📰 NEWS",
-      "message_id": 3513,
-      "posted_at": "2026-09-05T12:02:53.000138+00:00",
-      "scheduled_at": "2026-09-05T12:02:53+00:00"
     }
   ],
   "failures": [],
