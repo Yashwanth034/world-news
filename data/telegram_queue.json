@@ -1,5 +1,321 @@
 {
-  "generated_at": "2026-09-05T07:40:42.098861+00:00",
-  "count": 0,
-  "stories": []
+  "generated_at": "2026-09-05T07:50:47.356710+00:00",
+  "count": 3,
+  "stories": [
+    {
+      "id": "1c2eca0d7e61d0f32df923740b6141d28056f5cca1ddb1b39c863124fdea61aa",
+      "title": "Death toll from Nepal’s flooding rises to 1,344 — police",
+      "url": "https://tass.com/world/2183061",
+      "source": "TASS English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "According to police, 4,898 people, including Nepalese nationals and foreigners, remain missing",
+      "published_at": "2026-09-05T07:46:41+00:00",
+      "updated_at": "2026-09-05T07:46:41+00:00",
+      "effective_at": "2026-09-05T07:46:41+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 60,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "climate",
+      "subsector": "floods",
+      "subregion": "South Asia",
+      "country": null,
+      "entities": [
+        "according",
+        "nepal",
+        "nepalese"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 85,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "76f143a91c32dceb09cc829f",
+      "importance_score": 78.0,
+      "importance_level": "HIGH",
+      "importance_breakdown": {
+        "impact": 32,
+        "urgency": 10,
+        "novelty": 9.0,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 16,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 1344,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 4898,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": true
+        },
+        "significance_dims": {
+          "human": 12,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "1c2eca0d7e61d0f32df923740b6141d28056f5cca1ddb1b39c863124fdea61aa",
+      "article_sentences": [
+        "BEIJING, September 5.",
+        "The death toll from landslides and flooding in Nepal has risen to 1,344, Nepalese police said.",
+        "According to police, 4,898 people, including Nepalese nationals and foreigners, remain missing.",
+        "The number of missing foreign citizens stands at 698.",
+        "A flood struck northern Nepal on August 26, caused by a landslide on the border with China, about 20 kilometers northwest from the Rasuwagadhi border crossing.",
+        "A powerful flow of water, dirt and rocks rushed over 70 kilometers down the riverbed, destroying nearby settlements and flooding large areas."
+      ],
+      "public_label": "🔄 UPDATE",
+      "headline": "Death toll from Nepal’s flooding rises to 1,344 — police",
+      "briefing": {
+        "opening": [
+          "BEIJING, September 5.",
+          "The death toll from landslides and flooding in Nepal has risen to 1,344, Nepalese police said."
+        ],
+        "body": [
+          "According to police, 4,898 people, including Nepalese nationals and foreigners, remain missing.",
+          "The number of missing foreign citizens stands at 698.",
+          "A flood struck northern Nepal on August 26, caused by a landslide on the border with China, about 20 kilometers northwest from the Rasuwagadhi border crossing.",
+          "A powerful flow of water, dirt and rocks rushed over 70 kilometers down the riverbed, destroying nearby settlements and flooding large areas."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Nepal"
+          },
+          {
+            "icon": "👥",
+            "label": "Impact",
+            "text": "4,898 people"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "A flood struck northern Nepal on August 26, caused by a landslide on the border with China, about 20 kilometers northwest from the Rasuwagadhi border crossing.",
+            "source": "TASS English",
+            "item_id": "1c2eca0d7e61d0f32df923740b6141d28056f5cca1ddb1b39c863124fdea61aa:article",
+            "composed": false
+          },
+          {
+            "text": "BEIJING, September 5.",
+            "source": "TASS English",
+            "item_id": "1c2eca0d7e61d0f32df923740b6141d28056f5cca1ddb1b39c863124fdea61aa:article",
+            "composed": false
+          },
+          {
+            "text": "According to police, 4,898 people, including Nepalese nationals and foreigners, remain missing.",
+            "source": "TASS English",
+            "item_id": "1c2eca0d7e61d0f32df923740b6141d28056f5cca1ddb1b39c863124fdea61aa:article",
+            "composed": false
+          }
+        ],
+        "source": "TASS English",
+        "corroborating": [],
+        "url": "https://tass.com/world/2183061"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "0a3c4eabb932859438e964bbc8714548ab79c1031d0a490cd804f567d02171a3",
+      "title": "Data-rich systems and weak security: why France is a target for cyberattacks",
+      "url": "https://www.rfi.fr/en/france/20260905-data-rich-systems-and-weak-security-why-france-is-a-target-for-cyberattacks",
+      "source": "RFI English",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Europe",
+      "discovery": false,
+      "summary": "France is one of Europe's biggest targets for cyberattacks. While its political and economic importance make it a mark for foreign governments, criminals are increasingly exploiting gaps in cybersecurity to access the vast amounts of personal data in the country's interconnected public systems.",
+      "published_at": "2026-09-05T07:41:10+00:00",
+      "updated_at": "2026-09-05T07:41:10+00:00",
+      "effective_at": "2026-09-05T07:41:10+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 73,
+      "confidence": "medium",
+      "urgency_terms": [
+        "cyberattack"
+      ],
+      "sector": "geopolitics",
+      "subsector": "politics",
+      "subregion": "Europe",
+      "country": null,
+      "entities": [
+        "europe",
+        "france"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "9bac8ad542db417ec1a426d9",
+      "importance_score": 46.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 18,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 0,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": true,
+          "crisis": false
+        },
+        "significance_dims": {}
+      },
+      "story_id": "0a3c4eabb932859438e964bbc8714548ab79c1031d0a490cd804f567d02171a3",
+      "public_label": "📰 NEWS",
+      "headline": "Data-rich systems and weak security: why France is a target for cyberattacks",
+      "briefing": {
+        "opening": [
+          "France is one of Europe's biggest targets for cyberattacks.",
+          "While its political and economic importance make it a mark for foreign governments, criminals are increasingly exploiting gaps in cybersecurity to access the vast amounts of personal data in the country's interconnected public systems."
+        ],
+        "body": [],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "France is one of Europe's biggest targets for cyberattacks.",
+            "source": "RFI English",
+            "item_id": "0a3c4eabb932859438e964bbc8714548ab79c1031d0a490cd804f567d02171a3",
+            "composed": false
+          },
+          {
+            "text": "While its political and economic importance make it a mark for foreign governments, criminals are increasingly exploiting gaps in cybersecurity to access the vast amounts of personal data in the country's interconnected public systems.",
+            "source": "RFI English",
+            "item_id": "0a3c4eabb932859438e964bbc8714548ab79c1031d0a490cd804f567d02171a3",
+            "composed": false
+          }
+        ],
+        "source": "RFI English",
+        "corroborating": [],
+        "url": "https://www.rfi.fr/en/france/20260905-data-rich-systems-and-weak-security-why-france-is-a-target-for-cyberattacks"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    },
+    {
+      "id": "21feb9757e48a28ca7b13fbd9748a57e02b010fc814803dcbbb60a34e64f48d3",
+      "title": "3 arrested over allegedly seditious memorial outside Prince Edward MTR station",
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3366468/3-arrested-over-allegedly-seditious-memorial-outside-prince-edward-mtr-station?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "Hong Kong national security police have arrested three people on suspicion of acting with seditious intent over a gathering outside Prince Edward MTR station to mark the 2019 protest flashpoint there. A police force spokesman said on Saturday that two men and a woman were arrested on Thursday for allegedly shouting seditious slogans and holding white flowers outside the station on August 31. “The people concerned were suspected of spreading false information and attacking the Hong Kong Special...",
+      "published_at": "2026-09-05T07:42:48+00:00",
+      "updated_at": "2026-09-05T07:42:48+00:00",
+      "effective_at": "2026-09-05T07:42:48+00:00",
+      "language_status": "ENGLISH",
+      "category": "world",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "other",
+      "subsector": "general",
+      "subregion": "East Asia",
+      "country": null,
+      "entities": [
+        "edward",
+        "hong_kong",
+        "mtr",
+        "special"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 100,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "NEW",
+      "event_id": "06f5bfc681785891faeac2e6",
+      "importance_score": 32.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 0.0,
+        "urgency": 7.0,
+        "novelty": 10,
+        "scope": "REGIONAL",
+        "scope_points": 5,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 4,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
+          "dead": 0,
+          "injured": 0,
+          "displaced": 0,
+          "missing": 0,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 4
+        }
+      },
+      "story_id": "21feb9757e48a28ca7b13fbd9748a57e02b010fc814803dcbbb60a34e64f48d3",
+      "public_label": "📰 NEWS",
+      "headline": "3 arrested over allegedly seditious memorial outside Prince Edward MTR station",
+      "briefing": {
+        "opening": [
+          "Hong Kong national security police have arrested three people on suspicion of acting with seditious intent over a gathering outside Prince Edward MTR station to mark the 2019 protest flashpoint there.",
+          "A police force spokesman said on Saturday that two men and a woman were arrested on Thursday for allegedly shouting seditious slogans and holding white flowers outside the station on August 31."
+        ],
+        "body": [
+          "“The people concerned were suspected of spreading false information and attacking the Hong Kong Special..."
+        ],
+        "bullets": [],
+        "sentences": [
+          {
+            "text": "A police force spokesman said on Saturday that two men and a woman were arrested on Thursday for allegedly shouting seditious slogans and holding white flowers outside the station on August 31.",
+            "source": "South China Morning Post",
+            "item_id": "21feb9757e48a28ca7b13fbd9748a57e02b010fc814803dcbbb60a34e64f48d3",
+            "composed": false
+          },
+          {
+            "text": "Hong Kong national security police have arrested three people on suspicion of acting with seditious intent over a gathering outside Prince Edward MTR station to mark the 2019 protest flashpoint there.",
+            "source": "South China Morning Post",
+            "item_id": "21feb9757e48a28ca7b13fbd9748a57e02b010fc814803dcbbb60a34e64f48d3",
+            "composed": false
+          }
+        ],
+        "source": "South China Morning Post",
+        "corroborating": [],
+        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3366468/3-arrested-over-allegedly-seditious-memorial-outside-prince-edward-mtr-station?utm_source=rss_feed"
+      },
+      "group_size": 1,
+      "label": "📰 NEWS"
+    }
+  ]
 }
