@@ -1,39 +1,47 @@
 {
-  "generated_at": "2026-09-05T06:50:43.735232+00:00",
-  "count": 4,
+  "generated_at": "2026-09-05T07:01:06.334565+00:00",
+  "count": 3,
   "stories": [
     {
-      "id": "d7e035350c60146acc779665d066f6fff52ee151fa72f0d6acd29402f770c96e",
-      "title": "Middle East war drives 35% rise in Hongkongers’ overseas help requests",
-      "url": "https://www.scmp.com/news/hong-kong/transport/article/3366465/middle-east-war-drives-35-rise-hongkongers-overseas-help-requests?utm_source=rss_feed",
-      "source": "South China Morning Post",
+      "id": "495f57204b19c53fb3b8b1ffcecbab0f23342557dd4a0a721a4ccc3e1ae8f5a6",
+      "title": "At least two killed and 81 injured after explosions at Bolivian army base",
+      "url": "http://www.euronews.com/2026/09/05/at-least-two-killed-and-81-injured-after-explosions-at-bolivian-army-base",
+      "source": "Euronews",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "Asia",
+      "region": "South America",
       "discovery": false,
-      "summary": "Hongkongers’ requests for help from overseas jumped 35 per cent in the first eight months of 2026 compared with the same period last year, the city’s immigration chief has revealed, attributing the rise to the war in the Middle East. Director of Immigration Benson Kwok Joon-fung told reporters on Saturday that his department had received around 3,160 requests for assistance from Hong Kong residents overseas between January and August this year. “The rise mainly came from the military conflict in...",
-      "published_at": "2026-09-05T06:45:19+00:00",
-      "updated_at": "2026-09-05T06:45:19+00:00",
-      "effective_at": "2026-09-05T06:45:19+00:00",
+      "summary": "The Bolivian Defence Minister said the first explosion \"involved black powder from pyrotechnic material stored at the site,\" while the second, \"much larger\" blast was still being investigated. At least two people were killed and 81 were injured following two blasts at an army base in Bolivia on Friday, authorities said. Bolivian Defence Minister Ernesto Justiniano said the powerful explosions occurred at the RAM-2 “Bolívar” General Maintenance Center in Viacha, southwest of the administrative capital La Paz. According to Justiniano, the site was used to store \"pyrotechnic material.\" He added that \"no weaponry of any kind was detonated\" during the incident. \"The most important thing tonight is to protect people, attend to the injured, continue the search for those who have not yet been located, and ensure that families can return to their homes only when conditions are safe,” he told reporters, adding that seven people remained missing. Footage circulating on social media appearing to capture one of the blasts shows a huge explosion and plume of smoke rising into the air. Justiniano said preliminary information showed the first explosion \"involved black powder from pyrotechnic material stored at the site,\" while the second, \"much larger\" blast was still being investigated. In a post on X, Bolivian President Rodrigo Paz expressed his \"deepest sympathy\" with the families of the victims and those injured in the explosions. \"I have also ordered a thorough, technical, and transparent investigation into what happened,\" he wrote. \"We must establish with absolute clarity the causes of this incident, verify compliance with safety protocols, and determine who is responsible\".",
+      "published_at": "2026-09-05T06:51:02+00:00",
+      "updated_at": "2026-09-05T06:51:02+00:00",
+      "effective_at": "2026-09-05T06:51:02+00:00",
       "language_status": "ENGLISH",
-      "category": "conflict",
-      "score": 65,
+      "category": "world",
+      "score": 73,
       "confidence": "medium",
-      "urgency_terms": [],
+      "urgency_terms": [
+        "explosion"
+      ],
       "sector": "geopolitics",
-      "subsector": "conflict",
-      "subregion": "East Asia",
+      "subsector": "defense",
+      "subregion": "South America",
       "country": null,
       "entities": [
-        "benson",
-        "east",
-        "hong_kong",
-        "hongkongers",
-        "immigration",
-        "joon-fung",
-        "kwok",
-        "middle"
+        "bol",
+        "bolivia",
+        "bolivian",
+        "center",
+        "defence",
+        "ernesto",
+        "he",
+        "justiniano",
+        "la",
+        "maintenance",
+        "paz",
+        "ram-2",
+        "rodrigo",
+        "viacha"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
@@ -42,14 +50,26 @@
       "priority_score": 100,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "c496923eb99300b7646a35a8",
-      "importance_score": 44.0,
-      "importance_level": "LOW",
+      "article_sentences": [
+        "The Bolivian Defence Minister said the first explosion \"involved black powder from pyrotechnic material stored at the site,\" while the second, \"much larger\" blast was still being investigated.",
+        "At least two people were killed and 81 were injured following two blasts at an army base in Bolivia on Friday, authorities said.",
+        "Bolivian Defence Minister Ernesto Justiniano said the powerful explosions occurred at the RAM-2 “Bolívar” General Maintenance Center in Viacha, southwest of the administrative capital La Paz.",
+        "According to Justiniano, the site was used to store \"pyrotechnic material.\" He added that \"no weaponry of any kind was detonated\" during the incident.",
+        "\"The most important thing tonight is to protect people, attend to the injured, continue the search for those who have not yet been located, and ensure that families can return to their homes only when conditions are safe,” he told reporters, adding that seven people remained missing.",
+        "Footage circulating on social media appearing to capture one of the blasts shows a huge explosion and plume of smoke rising into the air.",
+        "Justiniano said preliminary information showed the first explosion \"involved black powder from pyrotechnic material stored at the site,\" while the second, \"much larger\" blast was still being investigated.",
+        "In a post on X, Bolivian President Rodrigo Paz expressed his \"deepest sympathy\" with the families of the victims and those injured in the explosions.",
+        "\"I have also ordered a thorough, technical, and transparent investigation into what happened,\" he wrote.",
+        "\"We must establish with absolute clarity the causes of this incident, verify compliance with safety protocols, and determine who is responsible\"."
+      ],
+      "event_status": "UPDATE",
+      "event_id": "b13069ee7f23ee535832c13b",
+      "importance_score": 61.0,
+      "importance_level": "MEDIUM",
       "importance_breakdown": {
-        "impact": 0.0,
+        "impact": 19,
         "urgency": 7.0,
-        "novelty": 10,
+        "novelty": 8.0,
         "scope": "REGIONAL",
         "scope_points": 5,
         "reliability": 6,
@@ -58,213 +78,227 @@
         "coverage_adjustment": 0.0,
         "facts": {
           "magnitude": 0.0,
+          "dead": 81,
+          "injured": 81,
+          "displaced": 0,
+          "missing": 30,
+          "affected": 0,
+          "major_incident": false,
+          "crisis": false
+        },
+        "significance_dims": {
+          "human": 8,
+          "security": 4,
+          "geopolitical": 4
+        }
+      },
+      "story_id": "495f57204b19c53fb3b8b1ffcecbab0f23342557dd4a0a721a4ccc3e1ae8f5a6",
+      "public_label": "🔄 UPDATE",
+      "headline": "At least two killed and 81 injured after explosions at Bolivian army base",
+      "briefing": {
+        "opening": [
+          "The Bolivian Defence Minister said the first explosion \"involved black powder from pyrotechnic material stored at the site,\" while the second, \"much larger\" blast was still being investigated.",
+          "At least two people were killed and 81 were injured following two blasts at an army base in Bolivia on Friday, authorities said."
+        ],
+        "body": [
+          "Bolivian Defence Minister Ernesto Justiniano said the powerful explosions occurred at the RAM-2 “Bolívar” General Maintenance Center in Viacha, southwest of the administrative capital La Paz.",
+          "According to Justiniano, the site was used to store \"pyrotechnic material.\" He added that \"no weaponry of any kind was detonated\" during the incident.",
+          "\"The most important thing tonight is to protect people, attend to the injured, continue the search for those who have not yet been located, and ensure that families can return to their homes only when conditions are safe,” he told reporters, adding that seven people remained missing.",
+          "Footage circulating on social media appearing to capture one of the blasts shows a huge explosion and plume of smoke rising into the air.",
+          "Justiniano said preliminary information showed the first explosion \"involved black powder from pyrotechnic material stored at the site,\" while the second, \"much larger\" blast was still being investigated.",
+          "In a post on X, Bolivian President Rodrigo Paz expressed his \"deepest sympathy\" with the families of the victims and those injured in the explosions.",
+          "\"I have also ordered a thorough, technical, and transparent investigation into what happened,\" he wrote.",
+          "\"We must establish with absolute clarity the causes of this incident, verify compliance with safety protocols, and determine who is responsible\"."
+        ],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "Bolivia"
+          }
+        ],
+        "sentences": [
+          {
+            "text": "The Bolivian Defence Minister said the first explosion \"involved black powder from pyrotechnic material stored at the site,\" while the second, \"much larger\" blast was still being investigated.",
+            "source": "Euronews",
+            "item_id": "495f57204b19c53fb3b8b1ffcecbab0f23342557dd4a0a721a4ccc3e1ae8f5a6:article",
+            "composed": false
+          },
+          {
+            "text": "Bolivian Defence Minister Ernesto Justiniano said the powerful explosions occurred at the RAM-2 “Bolívar” General Maintenance Center in Viacha, southwest of the administrative capital La Paz.",
+            "source": "Euronews",
+            "item_id": "495f57204b19c53fb3b8b1ffcecbab0f23342557dd4a0a721a4ccc3e1ae8f5a6:article",
+            "composed": false
+          }
+        ],
+        "source": "Euronews",
+        "corroborating": [],
+        "url": "http://www.euronews.com/2026/09/05/at-least-two-killed-and-81-injured-after-explosions-at-bolivian-army-base"
+      },
+      "group_size": 1,
+      "label": "🔄 UPDATE"
+    },
+    {
+      "id": "1d53174f9040db4df2d2824e05c8e42b629321c341348235bc7193a154860cb8",
+      "title": "UN says Israeli settler violence in West Bank displaced 2,500 Palestinians in 2026",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-says-israeli-settler-violence-west-bank-displaced-2500-palestinians",
+      "source": "Middle East Eye",
+      "source_category": "world",
+      "primary_source": false,
+      "tier": 2,
+      "region": "Asia",
+      "discovery": false,
+      "summary": "UN says Israeli settler violence in West Bank displaced 2,500 Palestinians in 2026 Israeli settler violence has resulted in the displacement of more than 2,500 Palestinians in the occupied West Bank, according to the United Nations Office for the Coordination of Humanitarian Affairs (OCHA). OCHA said in a statement that since 2023, more than 6,400 Palestinians in 130 communities across the West Bank have been displaced due to the settler violence and related access restrictions.&nbsp; Half of the 2,500 forced out this year alone are children, OCHA said. That has left 48 Palestinian communities fully displaced since 2023, including a dozen just this year. The statement said that humanitarian ",
+      "published_at": "2026-09-05T06:53:49+00:00",
+      "updated_at": "2026-09-05T06:53:49+00:00",
+      "effective_at": "2026-09-05T06:53:49+00:00",
+      "language_status": "ENGLISH",
+      "category": "finance",
+      "score": 65,
+      "confidence": "medium",
+      "urgency_terms": [],
+      "sector": "economy",
+      "subsector": "banking",
+      "subregion": "West Asia / Middle East",
+      "country": null,
+      "entities": [
+        "affairs",
+        "bank",
+        "coordination",
+        "half",
+        "humanitarian",
+        "israel",
+        "nations",
+        "ocha",
+        "office",
+        "palestine",
+        "palestinians",
+        "un",
+        "united",
+        "west"
+      ],
+      "corroborating_sources": 0,
+      "strong_corroboration": 0,
+      "corroborating_source_names": [],
+      "verified_match_count": 0,
+      "priority_score": 65,
+      "priority_level": "HIGH",
+      "max_delay_minutes": 30,
+      "event_status": "UPDATE",
+      "event_id": "e55404af306c4946f1da7c63",
+      "importance_score": 41.0,
+      "importance_level": "LOW",
+      "importance_breakdown": {
+        "impact": 4,
+        "urgency": 8.0,
+        "novelty": 9.0,
+        "scope": "GLOBAL",
+        "scope_points": 8,
+        "reliability": 6,
+        "corroboration": 0,
+        "significance": 6,
+        "coverage_adjustment": 0.0,
+        "facts": {
+          "magnitude": 0.0,
           "dead": 0,
           "injured": 0,
-          "displaced": 0,
+          "displaced": 2500,
           "missing": 0,
           "affected": 0,
           "major_incident": false,
           "crisis": false
         },
         "significance_dims": {
-          "security": 8,
-          "geopolitical": 8
+          "human": 6
         }
       },
-      "story_id": "d7e035350c60146acc779665d066f6fff52ee151fa72f0d6acd29402f770c96e",
-      "public_label": "📰 NEWS",
-      "headline": "Middle East war drives 35% rise in Hongkongers’ overseas help requests",
+      "story_id": "1d53174f9040db4df2d2824e05c8e42b629321c341348235bc7193a154860cb8",
+      "public_label": "🔄 UPDATE",
+      "headline": "UN says Israeli settler violence in West Bank displaced 2,500 Palestinians in 2026",
       "briefing": {
         "opening": [
-          "Hongkongers’ requests for help from overseas jumped 35 per cent in the first eight months of 2026 compared with the same period last year, the city’s immigration chief has revealed, attributing the rise to the war in the Middle East.",
-          "Director of Immigration Benson Kwok Joon-fung told reporters on Saturday that his department had received around 3,160 requests for assistance from Hong Kong residents overseas between January and August this year."
+          "UN says Israeli settler violence in West Bank displaced 2,500 Palestinians in 2026 Israeli settler violence has resulted in the displacement of more than 2,500 Palestinians in the occupied West Bank, according to the United Nations Office for the Coordination of Humanitarian Affairs (OCHA).",
+          "OCHA said in a statement that since 2023, more than 6,400 Palestinians in 130 communities across the West Bank have been displaced due to the settler violence and related access restrictions. Half of the 2,500 forced out this year alone are children, OCHA said."
         ],
         "body": [
-          "“The rise mainly came from the military conflict in..."
+          "That has left 48 Palestinian communities fully displaced since 2023, including a dozen just this year.",
+          "The statement said that humanitarian."
         ],
-        "bullets": [],
+        "bullets": [
+          {
+            "icon": "📍",
+            "label": "Location",
+            "text": "West Bank"
+          }
+        ],
         "sentences": [
           {
-            "text": "Hongkongers’ requests for help from overseas jumped 35 per cent in the first eight months of 2026 compared with the same period last year, the city’s immigration chief has revealed, attributing the rise to the war in the Middle East.",
-            "source": "South China Morning Post",
-            "item_id": "d7e035350c60146acc779665d066f6fff52ee151fa72f0d6acd29402f770c96e",
+            "text": "UN says Israeli settler violence in West Bank displaced 2,500 Palestinians in 2026 Israeli settler violence has resulted in the displacement of more than 2,500 Palestinians in the occupied West Bank, according to the United Nations Office for the Coordination of Humanitarian Affairs (OCHA).",
+            "source": "Middle East Eye",
+            "item_id": "1d53174f9040db4df2d2824e05c8e42b629321c341348235bc7193a154860cb8",
             "composed": false
           },
           {
-            "text": "Director of Immigration Benson Kwok Joon-fung told reporters on Saturday that his department had received around 3,160 requests for assistance from Hong Kong residents overseas between January and August this year.",
-            "source": "South China Morning Post",
-            "item_id": "d7e035350c60146acc779665d066f6fff52ee151fa72f0d6acd29402f770c96e",
+            "text": "That has left 48 Palestinian communities fully displaced since 2023, including a dozen just this year.",
+            "source": "Middle East Eye",
+            "item_id": "1d53174f9040db4df2d2824e05c8e42b629321c341348235bc7193a154860cb8",
             "composed": false
           }
         ],
-        "source": "South China Morning Post",
+        "source": "Middle East Eye",
         "corroborating": [],
-        "url": "https://www.scmp.com/news/hong-kong/transport/article/3366465/middle-east-war-drives-35-rise-hongkongers-overseas-help-requests?utm_source=rss_feed"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "e75d5f2033d6dececd211e6688a3852ad2412ff98c5450717944f3368afcd0f4",
-      "title": "U.N. approves resolution in support of map that shows Africa’s true size",
-      "url": "https://www.thehindu.com/videos/un-approves-resolution-in-support-of-map-that-shows-africas-true-size/article71431239.ece",
-      "source": "The Hindu",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": null,
-      "discovery": false,
-      "summary": "The U.N. has backed a map that more accurately represents Africa’s true size, challenging the centuries-old Mercator projection. The resolution promotes the Equal Earth projection as a more accurate representation of the world’s continents.",
-      "published_at": "2026-09-05T06:44:00+00:00",
-      "updated_at": "2026-09-05T06:44:00+00:00",
-      "effective_at": "2026-09-05T06:44:00+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "other",
-      "subsector": "general",
-      "subregion": null,
-      "country": null,
-      "entities": [
-        "africa",
-        "earth",
-        "equal",
-        "mercator"
-      ],
-      "corroborating_sources": 1,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 2,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "UPDATE",
-      "event_id": "1f556f6d778641bf31acf816",
-      "importance_score": 34.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 8.0,
-        "novelty": 9.0,
-        "scope": "GLOBAL",
-        "scope_points": 8,
-        "reliability": 6,
-        "corroboration": 3,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "e75d5f2033d6dececd211e6688a3852ad2412ff98c5450717944f3368afcd0f4",
-      "public_label": "🔄 UPDATE",
-      "headline": "U.N. approves resolution in support of map that shows Africa’s true size",
-      "briefing": {
-        "opening": [
-          "The U.N. has backed a map that more accurately represents Africa’s true size, challenging the centuries-old Mercator projection.",
-          "The resolution promotes the Equal Earth projection as a more accurate representation of the world’s continents."
-        ],
-        "body": [],
-        "bullets": [],
-        "sentences": [
-          {
-            "text": "The U.N. has backed a map that more accurately represents Africa’s true size, challenging the centuries-old Mercator projection.",
-            "source": "The Hindu",
-            "item_id": "e75d5f2033d6dececd211e6688a3852ad2412ff98c5450717944f3368afcd0f4",
-            "composed": false
-          },
-          {
-            "text": "The resolution promotes the Equal Earth projection as a more accurate representation of the world’s continents.",
-            "source": "The Hindu",
-            "item_id": "e75d5f2033d6dececd211e6688a3852ad2412ff98c5450717944f3368afcd0f4",
-            "composed": false
-          }
-        ],
-        "source": "The Hindu",
-        "corroborating": [],
-        "url": "https://www.thehindu.com/videos/un-approves-resolution-in-support-of-map-that-shows-africas-true-size/article71431239.ece"
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-says-israeli-settler-violence-west-bank-displaced-2500-palestinians"
       },
       "group_size": 1,
       "label": "🔄 UPDATE"
     },
     {
-      "id": "4be4d6890e5399c23fb6ac60987070cc4a3ee85e75884eb39d5e49db5f9db755",
-      "title": "Lindsay Clancy murder trial has divided US on whether she's victim or criminal",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z0xnw2d6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
+      "id": "91818fca5c0be71bb385812a7014101aae979936ed961c9d8818a63eca232642",
+      "title": "New reality for China’s entertainment sector as AI drama goes prime time",
+      "url": "https://www.scmp.com/tech/article/3366335/new-reality-chinas-entertainment-sector-ai-drama-goes-prime-time?utm_source=rss_feed",
+      "source": "South China Morning Post",
       "source_category": "world",
       "primary_source": false,
       "tier": 2,
-      "region": "North America",
+      "region": "Asia",
       "discovery": false,
-      "summary": "Jodi Fournier spent 15 days at the courthouse - sitting, listening and waiting. It was a personal duty, she felt, to show support for Lindsay Clancy, the Massachusetts mother charged with murdering her three children. Katelyn Kazmirci, from North Carolina, convinced her mother to make a detour to the courthouse in Plymouth on their way to a family funeral, intrigued by the case she had followed on TikTok. All around them, dozens of women wearing pink rallied in support of Clancy. Not everyone felt the same and across the country, on social media and at dinner tables, Americans have been debating the case with passion. For nearly seven weeks, the trial transfixed and divided the nation on whether Clancy was a victim or a criminal who deserved to be behind bars. The 36-year-old nurse's defence team argued she had been suffering from postpartum psychosis when she strangled her young children and so could not be held criminally responsible. The prosecution alleged the killings were intentional and calculated. The judge declared a mistrial on Friday after jurors - who had heard the testimony of dozens of witnesses and deliberated for 40 hours - failed to come to a uninanimous decision. What happens next after Lindsay Clancy mistrial? Their inability to agree mirrored the wider discourse around the trial - one that trial attendee Maryanne Drysdale, 65, saw play out within her own family. She and her 28-year-old daughter believe Clancy needs mental health treatment, not prison, while her three adult sons, who have children of similar age to Clancy's, completely disagree.",
-      "published_at": "2026-09-05T06:37:46+00:00",
-      "updated_at": "2026-09-05T06:37:46+00:00",
-      "effective_at": "2026-09-05T06:37:46+00:00",
+      "summary": "From low-quality “slop” such as soap operas starring humanlike cats and dating shows featuring anthropomorphic fruit, to increasingly slick productions realistic enough to pass for live action, artificial intelligence-generated video dramas have become almost inescapable on Chinese social media feeds. This week, the format graduated to prime time. A fully AI-generated adaptation of the classic Chinese novel Journey to the West debuted on Hunan Satellite Television, a major state-owned...",
+      "published_at": "2026-09-05T07:00:07+00:00",
+      "updated_at": "2026-09-05T07:00:07+00:00",
+      "effective_at": "2026-09-05T07:00:07+00:00",
       "language_status": "ENGLISH",
-      "category": "world",
-      "score": 60,
+      "category": "technology",
+      "score": 65,
       "confidence": "medium",
       "urgency_terms": [],
-      "sector": "health",
-      "subsector": "health",
-      "subregion": "United States",
+      "sector": "technology",
+      "subsector": "ai",
+      "subregion": "East Asia",
       "country": null,
       "entities": [
-        "americans",
-        "carolina",
-        "clancy",
-        "drysdale",
-        "fournier",
-        "jodi",
-        "katelyn",
-        "kazmirci",
-        "lindsay",
-        "maryanne",
-        "massachusetts",
-        "north",
-        "plymouth",
-        "tiktok",
-        "us"
+        "ai",
+        "ai-generated",
+        "china",
+        "hunan",
+        "journey",
+        "satellite",
+        "television",
+        "west"
       ],
       "corroborating_sources": 0,
       "strong_corroboration": 0,
       "corroborating_source_names": [],
       "verified_match_count": 0,
-      "priority_score": 60,
+      "priority_score": 65,
       "priority_level": "HIGH",
       "max_delay_minutes": 30,
-      "article_sentences": [
-        "Jodi Fournier spent 15 days at the courthouse - sitting, listening and waiting.",
-        "It was a personal duty, she felt, to show support for Lindsay Clancy, the Massachusetts mother charged with murdering her three children.",
-        "Katelyn Kazmirci, from North Carolina, convinced her mother to make a detour to the courthouse in Plymouth on their way to a family funeral, intrigued by the case she had followed on TikTok.",
-        "All around them, dozens of women wearing pink rallied in support of Clancy.",
-        "Not everyone felt the same and across the country, on social media and at dinner tables, Americans have been debating the case with passion.",
-        "For nearly seven weeks, the trial transfixed and divided the nation on whether Clancy was a victim or a criminal who deserved to be behind bars.",
-        "The 36-year-old nurse's defence team argued she had been suffering from postpartum psychosis when she strangled her young children and so could not be held criminally responsible.",
-        "The prosecution alleged the killings were intentional and calculated.",
-        "The judge declared a mistrial on Friday after jurors - who had heard the testimony of dozens of witnesses and deliberated for 40 hours - failed to come to a uninanimous decision.",
-        "What happens next after Lindsay Clancy mistrial?",
-        "Their inability to agree mirrored the wider discourse around the trial - one that trial attendee Maryanne Drysdale, 65, saw play out within her own family.",
-        "She and her 28-year-old daughter believe Clancy needs mental health treatment, not prison, while her three adult sons, who have children of similar age to Clancy's, completely disagree."
-      ],
       "event_status": "NEW",
-      "event_id": "6c3330cc9037e39658c52333",
-      "importance_score": 32.0,
+      "event_id": "4d2b90301490ce0605a0c978",
+      "importance_score": 35.0,
       "importance_level": "LOW",
       "importance_breakdown": {
         "impact": 0.0,
-        "urgency": 7.0,
+        "urgency": 10,
         "novelty": 10,
         "scope": "REGIONAL",
         "scope_points": 5,
@@ -286,159 +320,35 @@
           "security": 4
         }
       },
-      "story_id": "4be4d6890e5399c23fb6ac60987070cc4a3ee85e75884eb39d5e49db5f9db755",
+      "story_id": "91818fca5c0be71bb385812a7014101aae979936ed961c9d8818a63eca232642",
       "public_label": "📰 NEWS",
-      "headline": "Lindsay Clancy murder trial has divided US on whether she's victim or criminal",
+      "headline": "New reality for China’s entertainment sector as AI drama goes prime time",
       "briefing": {
         "opening": [
-          "Jodi Fournier spent 15 days at the courthouse - sitting, listening and waiting.",
-          "It was a personal duty, she felt, to show support for Lindsay Clancy, the Massachusetts mother charged with murdering her three children."
+          "From low-quality “slop” such as soap operas starring humanlike cats and dating shows featuring anthropomorphic fruit, to increasingly slick productions realistic enough to pass for live action, artificial intelligence-generated video dramas have become almost inescapable on Chinese social media feeds.",
+          "This week, the format graduated to prime time."
         ],
         "body": [
-          "Katelyn Kazmirci, from North Carolina, convinced her mother to make a detour to the courthouse in Plymouth on their way to a family funeral, intrigued by the case she had followed on TikTok.",
-          "All around them, dozens of women wearing pink rallied in support of Clancy.",
-          "Not everyone felt the same and across the country, on social media and at dinner tables, Americans have been debating the case with passion.",
-          "For nearly seven weeks, the trial transfixed and divided the nation on whether Clancy was a victim or a criminal who deserved to be behind bars.",
-          "The 36-year-old nurse's defence team argued she had been suffering from postpartum psychosis when she strangled her young children and so could not be held criminally responsible.",
-          "The prosecution alleged the killings were intentional and calculated.",
-          "The judge declared a mistrial on Friday after jurors - who had heard the testimony of dozens of witnesses and deliberated for 40 hours - failed to come to a uninanimous decision.",
-          "What happens next after Lindsay Clancy mistrial?"
+          "A fully AI-generated adaptation of the classic Chinese novel Journey to the West debuted on Hunan Satellite Television, a major state-owned..."
         ],
-        "bullets": [
-          {
-            "icon": "📍",
-            "label": "Location",
-            "text": "Plymouth"
-          }
-        ],
-        "sentences": [
-          {
-            "text": "It was a personal duty, she felt, to show support for Lindsay Clancy, the Massachusetts mother charged with murdering her three children.",
-            "source": "BBC World",
-            "item_id": "4be4d6890e5399c23fb6ac60987070cc4a3ee85e75884eb39d5e49db5f9db755:article",
-            "composed": false
-          },
-          {
-            "text": "What happens next after Lindsay Clancy mistrial?",
-            "source": "BBC World",
-            "item_id": "4be4d6890e5399c23fb6ac60987070cc4a3ee85e75884eb39d5e49db5f9db755:article",
-            "composed": false
-          },
-          {
-            "text": "The judge declared a mistrial on Friday after jurors - who had heard the testimony of dozens of witnesses and deliberated for 40 hours - failed to come to a uninanimous decision.",
-            "source": "BBC World",
-            "item_id": "4be4d6890e5399c23fb6ac60987070cc4a3ee85e75884eb39d5e49db5f9db755:article",
-            "composed": false
-          },
-          {
-            "text": "The 36-year-old nurse's defence team argued she had been suffering from postpartum psychosis when she strangled her young children and so could not be held criminally responsible.",
-            "source": "BBC World",
-            "item_id": "4be4d6890e5399c23fb6ac60987070cc4a3ee85e75884eb39d5e49db5f9db755:article",
-            "composed": false
-          }
-        ],
-        "source": "BBC World",
-        "corroborating": [],
-        "url": "https://www.bbc.co.uk/news/articles/cx2z0xnw2d6o?at_medium=RSS&at_campaign=rss"
-      },
-      "group_size": 1,
-      "label": "📰 NEWS"
-    },
-    {
-      "id": "c1f9a9a6e4ad107e5d5de5bb3832eaa73ea3b97c3b49a561db896890d9b8fd98",
-      "title": "Official Pipping Ceremony of officer cadets held at OTA Chennai",
-      "url": "https://www.thehindu.com/videos/shorts/official-pipping-ceremony-of-officer-cadets-held-at-ota-chennai/article71431241.ece",
-      "source": "The Hindu",
-      "source_category": "world",
-      "primary_source": false,
-      "tier": 2,
-      "region": "Asia",
-      "discovery": false,
-      "summary": "Watch the emotional and proud moments of newly commissioned officers during the Pipping Ceremony at the Officers Training Academy (OTA), Chennai. After months of grueling training, these brave gentleman and lady cadets finally receive their stars, officially stepping into the Indian Army as Lieutenants.",
-      "published_at": "2026-09-05T06:41:02+00:00",
-      "updated_at": "2026-09-05T06:41:02+00:00",
-      "effective_at": "2026-09-05T06:41:02+00:00",
-      "language_status": "ENGLISH",
-      "category": "world",
-      "score": 65,
-      "confidence": "medium",
-      "urgency_terms": [],
-      "sector": "geopolitics",
-      "subsector": "defense",
-      "subregion": "South Asia",
-      "country": null,
-      "entities": [
-        "academy",
-        "army",
-        "ceremony",
-        "chennai",
-        "indian",
-        "lieutenants",
-        "officers",
-        "ota",
-        "pipping",
-        "training"
-      ],
-      "corroborating_sources": 0,
-      "strong_corroboration": 0,
-      "corroborating_source_names": [],
-      "verified_match_count": 0,
-      "priority_score": 65,
-      "priority_level": "HIGH",
-      "max_delay_minutes": 30,
-      "event_status": "NEW",
-      "event_id": "948f3a1f7ceec3654e14f494",
-      "importance_score": 28.0,
-      "importance_level": "LOW",
-      "importance_breakdown": {
-        "impact": 0.0,
-        "urgency": 7.0,
-        "novelty": 10,
-        "scope": "REGIONAL",
-        "scope_points": 5,
-        "reliability": 6,
-        "corroboration": 0,
-        "significance": 0,
-        "coverage_adjustment": 0.0,
-        "facts": {
-          "magnitude": 0.0,
-          "dead": 0,
-          "injured": 0,
-          "displaced": 0,
-          "missing": 0,
-          "affected": 0,
-          "major_incident": false,
-          "crisis": false
-        },
-        "significance_dims": {}
-      },
-      "story_id": "c1f9a9a6e4ad107e5d5de5bb3832eaa73ea3b97c3b49a561db896890d9b8fd98",
-      "public_label": "📰 NEWS",
-      "headline": "Official Pipping Ceremony of officer cadets held at OTA Chennai",
-      "briefing": {
-        "opening": [
-          "Watch the emotional and proud moments of newly commissioned officers during the Pipping Ceremony at the Officers Training Academy (OTA), Chennai.",
-          "After months of grueling training, these brave gentleman and lady cadets finally receive their stars, officially stepping into the Indian Army as Lieutenants."
-        ],
-        "body": [],
         "bullets": [],
         "sentences": [
           {
-            "text": "Watch the emotional and proud moments of newly commissioned officers during the Pipping Ceremony at the Officers Training Academy (OTA), Chennai.",
-            "source": "The Hindu",
-            "item_id": "c1f9a9a6e4ad107e5d5de5bb3832eaa73ea3b97c3b49a561db896890d9b8fd98",
+            "text": "From low-quality “slop” such as soap operas starring humanlike cats and dating shows featuring anthropomorphic fruit, to increasingly slick productions realistic enough to pass for live action, artificial intelligence-generated video dramas have become almost inescapable on Chinese social media feeds.",
+            "source": "South China Morning Post",
+            "item_id": "91818fca5c0be71bb385812a7014101aae979936ed961c9d8818a63eca232642",
             "composed": false
           },
           {
-            "text": "After months of grueling training, these brave gentleman and lady cadets finally receive their stars, officially stepping into the Indian Army as Lieutenants.",
-            "source": "The Hindu",
-            "item_id": "c1f9a9a6e4ad107e5d5de5bb3832eaa73ea3b97c3b49a561db896890d9b8fd98",
+            "text": "This week, the format graduated to prime time.",
+            "source": "South China Morning Post",
+            "item_id": "91818fca5c0be71bb385812a7014101aae979936ed961c9d8818a63eca232642",
             "composed": false
           }
         ],
-        "source": "The Hindu",
+        "source": "South China Morning Post",
         "corroborating": [],
-        "url": "https://www.thehindu.com/videos/shorts/official-pipping-ceremony-of-officer-cadets-held-at-ota-chennai/article71431241.ece"
+        "url": "https://www.scmp.com/tech/article/3366335/new-reality-chinas-entertainment-sector-ai-drama-goes-prime-time?utm_source=rss_feed"
       },
       "group_size": 1,
       "label": "📰 NEWS"
