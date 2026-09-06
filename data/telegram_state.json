@@ -1,14 +1,6 @@
 {
   "scheduled": [
     {
-      "story_id": "f2f435a959db9dd1c2b365a76ed57027734512a42e9a06e9f67d31e6537a4fb4",
-      "event_id": "a062956d35c96afecc906ef8",
-      "item_id": "f2f435a959db9dd1c2b365a76ed57027734512a42e9a06e9f67d31e6537a4fb4",
-      "label": "📰 NEWS",
-      "scheduled_at": "2026-09-05T14:08:23+00:00",
-      "attempts": 0
-    },
-    {
       "story_id": "405efecc351772d7b4d204e73e1bba3d1a03e4213169f7cde1ba999aef949d5c",
       "event_id": "978ffea4f28b2e9e435d0a62",
       "item_id": "405efecc351772d7b4d204e73e1bba3d1a03e4213169f7cde1ba999aef949d5c",
@@ -202,6 +194,15 @@
     }
   ],
   "posted": [
+    {
+      "story_id": "baae397306987eb03d293ce56f29c5e1a8f7cd3404afbd1910e135a6a289c2ac",
+      "event_id": "46f2345fe86b21d941e9fcde",
+      "item_id": "baae397306987eb03d293ce56f29c5e1a8f7cd3404afbd1910e135a6a289c2ac",
+      "label": "📰 NEWS",
+      "message_id": 3582,
+      "posted_at": "2026-09-06T02:04:04.000158+00:00",
+      "scheduled_at": "2026-09-06T02:04:04+00:00"
+    },
     {
       "story_id": "e209e6e58a887d3578f12b1c231a773edb25a54c12a87383d6a86ca5be5edc50",
       "event_id": "e6061688fbd20c60e9578af5",
@@ -2813,13 +2814,13 @@
       "scheduled_at": "2026-09-03T20:23:11+00:00"
     },
     {
-      "story_id": "baae397306987eb03d293ce56f29c5e1a8f7cd3404afbd1910e135a6a289c2ac",
-      "event_id": "46f2345fe86b21d941e9fcde",
-      "item_id": "baae397306987eb03d293ce56f29c5e1a8f7cd3404afbd1910e135a6a289c2ac",
-      "label": "📰 NEWS",
-      "message_id": 3582,
-      "posted_at": "2026-09-06T02:04:04.000158+00:00",
-      "scheduled_at": "2026-09-06T02:04:04+00:00"
+      "story_id": "8a3dfb0a27acde43690222e23e9270c4eebdc2534433589f0840c02e044b3653",
+      "event_id": "af67e15f7372e21e3e1333bc",
+      "item_id": "8a3dfb0a27acde43690222e23e9270c4eebdc2534433589f0840c02e044b3653",
+      "label": "🔄 UPDATE",
+      "message_id": 3583,
+      "posted_at": "2026-09-06T02:16:11.000133+00:00",
+      "scheduled_at": "2026-09-06T02:16:11+00:00"
     }
   ],
   "failures": [
@@ -2836,5 +2837,5 @@
       "failed_at": "2026-09-05T18:38:36.981967+00:00"
     }
   ],
-  "last_posted_at": "2026-09-06T02:04:04.000158+00:00"
+  "last_posted_at": "2026-09-06T02:16:11.000133+00:00"
 }
