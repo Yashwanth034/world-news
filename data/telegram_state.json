@@ -71,9 +71,26 @@
       "label": "🔄 UPDATE",
       "scheduled_at": "2026-09-06T05:37:55+00:00",
       "attempts": 0
+    },
+    {
+      "story_id": "18d11210623343e686ea1fee31a2cd1f963043e68969864ee2d83168dddecb26",
+      "event_id": "ab50574e80dbdca836a23a01",
+      "item_id": "18d11210623343e686ea1fee31a2cd1f963043e68969864ee2d83168dddecb26",
+      "label": "🔄 UPDATE",
+      "scheduled_at": "2026-09-06T05:54:39+00:00",
+      "attempts": 0
     }
   ],
   "posted": [
+    {
+      "story_id": "e648b8381b7bf6f506ad47eb0ba9a942e208b904c595d91c6d84012c920447dd",
+      "event_id": "dedc04e112431cbe9bfd822b",
+      "item_id": "e648b8381b7bf6f506ad47eb0ba9a942e208b904c595d91c6d84012c920447dd",
+      "label": "📰 NEWS",
+      "message_id": 3597,
+      "posted_at": "2026-09-06T05:53:20.000098+00:00",
+      "scheduled_at": "2026-09-06T05:53:20+00:00"
+    },
     {
       "story_id": "9bbf2689d46168879e25d711a83aebffc26f36467fb0be00b4cdc5193558367a",
       "event_id": "b50831859d380d200455c384",
@@ -2685,22 +2702,13 @@
       "scheduled_at": "2026-09-04T00:04:36+00:00"
     },
     {
-      "story_id": "7b58efdb6e448ad5d4fc91af5fda851df756df060e705cb657aad4bf4b8af1c6",
-      "event_id": "387f379b0e25ea2f0f3de2a7",
-      "item_id": "7b58efdb6e448ad5d4fc91af5fda851df756df060e705cb657aad4bf4b8af1c6",
+      "story_id": "a931806e2298fdef399f910ec469b7cb0037e488537e7f250e0745a2b376323d",
+      "event_id": "81451cbe876ea227c3f8082c",
+      "item_id": "a931806e2298fdef399f910ec469b7cb0037e488537e7f250e0745a2b376323d",
       "label": "🔄 UPDATE",
-      "message_id": 3298,
-      "posted_at": "2026-09-03T23:54:33.000151+00:00",
-      "scheduled_at": "2026-09-03T23:54:33+00:00"
-    },
-    {
-      "story_id": "32a6b1859c200894e5a2e96ed257ab93b5f9d0547781e7cc5c2cc14381e2bf82",
-      "event_id": "7d8cac12b1962292fc6ccdc4",
-      "item_id": "32a6b1859c200894e5a2e96ed257ab93b5f9d0547781e7cc5c2cc14381e2bf82",
-      "label": "🔄 UPDATE",
-      "message_id": 3297,
-      "posted_at": "2026-09-03T23:44:53.000129+00:00",
-      "scheduled_at": "2026-09-03T23:43:32+00:00"
+      "message_id": 3598,
+      "posted_at": "2026-09-06T05:54:39.000161+00:00",
+      "scheduled_at": "2026-09-06T05:53:26+00:00"
     }
   ],
   "failures": [
@@ -2717,5 +2725,5 @@
       "failed_at": "2026-09-05T18:38:36.981967+00:00"
     }
   ],
-  "last_posted_at": "2026-09-06T05:37:55.000137+00:00"
+  "last_posted_at": "2026-09-06T05:54:39.000161+00:00"
 }
