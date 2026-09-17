@@ -116,20 +116,22 @@ There is exactly one Telegram queue (`data/telegram_queue.json`). The legacy
 ## GitHub Actions automation
 
 - **`telegram.yml`** — the production workflow. Runs every 15 minutes: restores the
-  persistent dedup/event-memory database from the Actions cache, collects fresh news,
-  publishes Telegram posts, and commits the queue/state files back to `main`. State is
-  committed even when a publish attempt fails, narrowing the double-publish window.
-- **`telegram-test-one.yml`** — a manual workflow that verifies the scheduler state
-  is exactly one due post, then publishes exactly one message. Triggered only via
-  `workflow_dispatch`.
+  persistent database, Telegram queue and posted-state from the Actions cache, collects
+  fresh news, publishes Telegram posts, then saves the runtime state back to the cache.
+  It needs only read access to repository contents and never pushes generated state to
+  the protected `main` branch.
+- **`telegram-test-one.yml`** — a manual workflow that restores the same runtime cache,
+  verifies the scheduler state is exactly one due post, then publishes exactly one
+  message. Triggered only via `workflow_dispatch`; if publishing is attempted, its
+  updated runtime state is saved back to the same cache.
 
 ## Setup
 
 Requirements: Python 3.11.
 
 ```bash
-git clone https://github.com/Yashwanth034/world-news-telegram.git
-cd world-news-telegram
+git clone https://github.com/Yashwanth034/world-news.git
+cd world-news
 python -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```
@@ -261,9 +263,11 @@ importance inputs) for the future website and for debugging.
 
 ### Telegram at-least-once window
 
-Delivery is honestly **at-least-once**: state is committed only after a successful
+Delivery is honestly **at-least-once**: state is saved only after a successful
 send, so a failure between send and state-save causes the next run to re-send (known
-`message_id`s are stored to narrow the window). This is pinned by tests
+`message_id`s are stored to narrow the window). In GitHub Actions the database, queue
+and posted-state are persisted together in the runtime cache; the workflow never needs
+to push generated state to `main`. This is pinned by tests
 (`src/test_telegram_window.py`) with a mock client: send+save success marks posted,
 send+save failure re-sends next run, network/timeout failures keep the entry with
 bounded attempts, 429 rate limits keep the entry and record `retry_after`, media
