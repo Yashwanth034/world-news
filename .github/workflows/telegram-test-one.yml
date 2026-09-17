@@ -1,7 +1,5 @@
 name: telegram one-message test (manual only)
 
-# MANUAL ONLY: no schedule trigger, no push trigger.
-# The automatic 15-minute cron workflow stays uncommitted/inactive.
 on:
   workflow_dispatch:
 
@@ -10,33 +8,43 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write
-
-env:
-  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-  TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
-  TELEGRAM_NO_RETRY: "1"
+  contents: read
 
 jobs:
   send-one:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: main
+          persist-credentials: false
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.11"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m pip install -r requirements.txt
+
+      - name: Restore runtime state
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            data/news.db
+            data/telegram_queue.json
+            data/telegram_state.json
+          key: world-news-runtime-${{ github.run_id }}
+          restore-keys: |
+            world-news-runtime-
 
       - name: SAFETY CHECK - exactly one scheduled due post
         shell: bash
+        env:
+          TELEGRAM_NO_RETRY: "1"
         run: |
           python3 - <<'PYEOF'
           import json, os, sys
@@ -69,7 +77,12 @@ jobs:
           PYEOF
 
       - name: Publish exactly one message
-        run: TELEGRAM_PUBLISH=1 python -m src.telegram_run --force --yes
+        id: publish
+        run: python -m src.telegram_run --force --yes
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          TELEGRAM_NO_RETRY: "1"
 
       - name: Report result
         if: always()
@@ -93,14 +106,12 @@ jobs:
               print('story marked posted  : no')
           PYEOF
 
-      - name: Commit state back to main
-        run: |
-          if git diff --quiet -- data/telegram_state.json; then
-            echo "no state change"
-          else
-            git config user.name "telegram-test"
-            git config user.email "telegram-test@localhost"
-            git add data/telegram_state.json
-            git commit -m "telegram state: one-message test $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push origin main
-          fi
+      - name: Save runtime state
+        if: always() && steps.publish.outcome != 'skipped'
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            data/news.db
+            data/telegram_queue.json
+            data/telegram_state.json
+          key: world-news-runtime-${{ github.run_id }}

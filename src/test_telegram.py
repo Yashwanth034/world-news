@@ -1663,20 +1663,23 @@ def _workflow_path(name):
     )
 
 
-def test_workflow_uses_main_branch():
+def test_workflow_uses_main_branch_without_direct_push():
     text = _workflow_path("telegram.yml").read_text()
     assert "master" not in text
     assert "ref: main" in text
     assert "python -m src.main" in text
     assert "python -m src.telegram_run --yes" in text
-    assert "git push origin main" in text
+    assert "git push origin main" not in text
     assert "git checkout origin/main" not in text
+    assert "actions/cache/restore@" in text
+    assert "actions/cache/save@" in text
 
 
-def test_workflow_write_permission():
+def test_workflow_read_only_permission():
     text = _workflow_path("telegram.yml").read_text()
     assert "permissions:" in text
-    assert "contents: write" in text
+    assert "contents: read" in text
+    assert "contents: write" not in text
 
 
 def test_workflow_shared_concurrency_group():
